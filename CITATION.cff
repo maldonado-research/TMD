@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this research extension separately from the historical v2.6.5 Zenodo software and from original data papers."
+type: software
+title: "Mutation by Natural Dominance: source audits and competing-risk diagnostic"
+version: 0.1.0
+date-released: 2026-09-30
+url: "https://github.com/maldonado-research/TMD"
+authors:
+  - family-names: Maldonado
+    given-names: Ricardo
+    orcid: "https://orcid.org/0009-0009-3937-6527"
+license: MIT
+abstract: "Exploratory evolutionary hypothesis tools: an audited rpoB secondary analysis, context-stratified censored first-event diagnostic, synthetic calibration, and identifiability derivations. No new biological validation is claimed."

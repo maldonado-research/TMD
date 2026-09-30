@@ -1,0 +1,43 @@
+{
+  "verified_at_utc": "2026-09-30T17:58:34.036931+00:00",
+  "extension_version": "0.1.0",
+  "tests": {
+    "count": 16,
+    "python_3_9_6": "passed",
+    "python_3_12_14": "passed",
+    "independent_full_likelihood_oracle": "passed",
+    "unsupported_observations_and_malformed_csv": "rejected_as_expected"
+  },
+  "secondary_rpob": {
+    "primary_table_numeric_cells": 96,
+    "eligible_all_isolates": 111,
+    "eligible_point_substitutions": 104,
+    "deterministic_result_matches_source_audit": true
+  },
+  "synthetic_calibration": {
+    "reproduced_after_final_code_review": true,
+    "repetitions_per_scenario": 200,
+    "replicates_per_dataset": 240,
+    "permutations_per_test": 399,
+    "scenario_rejections": {
+      "exponential_null": 12,
+      "gamma_frailty_null": 9,
+      "switching": 200,
+      "pooled_exponential_mixture": 194
+    },
+    "biological_measurements": false
+  },
+  "readme_cli_example": {
+    "deviance": 148.15885399799652,
+    "p": 0.0005,
+    "provenance": "synthetic"
+  },
+  "original_v2_6_5_archive_sha256": "77739d98425c10c311466cdb0700dcec724cfe6b7ddbc2b6866fecba42a3472e",
+  "local_markdown_links": "all_resolve",
+  "limitations": [
+    "Only selected synthetic designs calibrated",
+    "Published rpoB analysis exploratory and not preregistered",
+    "No empirical first-arrival dataset or mechanistic identification",
+    "No external mathematical novelty or scientific validation claimed"
+  ]
+}

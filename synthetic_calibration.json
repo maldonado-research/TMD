@@ -1,0 +1,40 @@
+{
+  "evidence_kind": "synthetic_only",
+  "repetitions": 200,
+  "permutations_per_test": 399,
+  "replicates_per_dataset": 240,
+  "cuts": [
+    1,
+    2
+  ],
+  "alpha": 0.05,
+  "fixed_design": true,
+  "scenarios": {
+    "exponential_null": {
+      "rejections": 12,
+      "proportion": 0.06,
+      "wilson_95_interval": [
+        0.03465219425433187,
+        0.1019316929576627
+      ],
+      "unstratified_rejections": 194,
+      "unstratified_proportion": 0.97
+    },
+    "gamma_null": {
+      "rejections": 9,
+      "proportion": 0.045,
+      "wilson_95_interval": [
+        0.023852543001492997,
+        0.0832967040018196
+      ]
+    },
+    "switching": {
+      "rejections": 200,
+      "proportion": 1.0,
+      "wilson_95_interval": [
+        0.9811546736227335,
+        1.0
+      ]
+    }
+  }
+}

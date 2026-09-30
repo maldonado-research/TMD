@@ -1,0 +1,208 @@
+{
+  "source": "https://journals.asm.org/doi/10.1128/aem.01237-21",
+  "source_table": 1,
+  "transcription_cells": 96,
+  "csv_sha256": "bdfb9d4110f9ef0d522bf4d8411df3da473ecc479783c3e236b73de373154b7f",
+  "analysis_status": "exploratory descriptive secondary analysis; not a preregistered TMD validation",
+  "smoothing_per_route_alpha": 0.5,
+  "all_sequenced_resistant_isolates": {
+    "n": 111,
+    "route_classes": 16,
+    "context_totals": {
+      "LB": 59,
+      "SMMAsn": 52
+    },
+    "pooled_context_route_mi_bits": 0.26083537278429525,
+    "conditional_context_route_mi_given_block_bits": 0.3850027896925435,
+    "counts": {
+      "LB": {
+        "A478D": 1,
+        "A478V": 5,
+        "D472N": 1,
+        "D472V": 1,
+        "H482D": 1,
+        "H482N": 3,
+        "H482P": 1,
+        "H482R": 5,
+        "H482Y": 27,
+        "No mutation found": 5,
+        "Other": 1,
+        "Q469K": 1,
+        "Q469L": 0,
+        "Q469R": 1,
+        "S465P": 2,
+        "S487L": 4
+      },
+      "SMMAsn": {
+        "A478D": 1,
+        "A478V": 2,
+        "D472N": 0,
+        "D472V": 0,
+        "H482D": 1,
+        "H482N": 1,
+        "H482P": 0,
+        "H482R": 0,
+        "H482Y": 14,
+        "No mutation found": 1,
+        "Other": 0,
+        "Q469K": 2,
+        "Q469L": 1,
+        "Q469R": 3,
+        "S465P": 2,
+        "S487L": 24
+      }
+    },
+    "by_block": [
+      {
+        "block": 1,
+        "n": 38,
+        "context_totals": {
+          "LB": 19,
+          "SMMAsn": 19
+        },
+        "context_route_mi_bits": 0.2105263157894737
+      },
+      {
+        "block": 2,
+        "n": 39,
+        "context_totals": {
+          "LB": 20,
+          "SMMAsn": 19
+        },
+        "context_route_mi_bits": 0.3707108282640439
+      },
+      {
+        "block": 3,
+        "n": 34,
+        "context_totals": {
+          "LB": 20,
+          "SMMAsn": 14
+        },
+        "context_route_mi_bits": 0.5963996280463122
+      }
+    ],
+    "heldout_experimental_blocks": [
+      {
+        "heldout_block": 1,
+        "train_n": 73,
+        "test_n": 38,
+        "context_minus_pooled_logscore_bits": 5.729487412597097,
+        "context_minus_pooled_bits_per_observation": 0.15077598454202887
+      },
+      {
+        "heldout_block": 2,
+        "train_n": 72,
+        "test_n": 39,
+        "context_minus_pooled_logscore_bits": 1.1563609952899743,
+        "context_minus_pooled_bits_per_observation": 0.02965028193051216
+      },
+      {
+        "heldout_block": 3,
+        "train_n": 77,
+        "test_n": 34,
+        "context_minus_pooled_logscore_bits": 6.2398803721374705,
+        "context_minus_pooled_bits_per_observation": 0.1835258932981609
+      }
+    ],
+    "heldout_total_logscore_gain_bits": 13.125728780024541,
+    "heldout_mean_gain_bits_per_observation": 0.11824980882904992
+  },
+  "identified_point_substitutions": {
+    "n": 104,
+    "route_classes": 14,
+    "context_totals": {
+      "LB": 53,
+      "SMMAsn": 51
+    },
+    "pooled_context_route_mi_bits": 0.2513822995581569,
+    "conditional_context_route_mi_given_block_bits": 0.36653723130223004,
+    "counts": {
+      "LB": {
+        "A478D": 1,
+        "A478V": 5,
+        "D472N": 1,
+        "D472V": 1,
+        "H482D": 1,
+        "H482N": 3,
+        "H482P": 1,
+        "H482R": 5,
+        "H482Y": 27,
+        "Q469K": 1,
+        "Q469L": 0,
+        "Q469R": 1,
+        "S465P": 2,
+        "S487L": 4
+      },
+      "SMMAsn": {
+        "A478D": 1,
+        "A478V": 2,
+        "D472N": 0,
+        "D472V": 0,
+        "H482D": 1,
+        "H482N": 1,
+        "H482P": 0,
+        "H482R": 0,
+        "H482Y": 14,
+        "Q469K": 2,
+        "Q469L": 1,
+        "Q469R": 3,
+        "S465P": 2,
+        "S487L": 24
+      }
+    },
+    "by_block": [
+      {
+        "block": 1,
+        "n": 35,
+        "context_totals": {
+          "LB": 17,
+          "SMMAsn": 18
+        },
+        "context_route_mi_bits": 0.19941106473875525
+      },
+      {
+        "block": 2,
+        "n": 37,
+        "context_totals": {
+          "LB": 18,
+          "SMMAsn": 19
+        },
+        "context_route_mi_bits": 0.3366681666682917
+      },
+      {
+        "block": 3,
+        "n": 32,
+        "context_totals": {
+          "LB": 18,
+          "SMMAsn": 14
+        },
+        "context_route_mi_bits": 0.5838675819640219
+      }
+    ],
+    "heldout_experimental_blocks": [
+      {
+        "heldout_block": 1,
+        "train_n": 69,
+        "test_n": 35,
+        "context_minus_pooled_logscore_bits": 6.5291443384865335,
+        "context_minus_pooled_bits_per_observation": 0.18654698109961523
+      },
+      {
+        "heldout_block": 2,
+        "train_n": 67,
+        "test_n": 37,
+        "context_minus_pooled_logscore_bits": 0.476989334619331,
+        "context_minus_pooled_bits_per_observation": 0.012891603638360298
+      },
+      {
+        "heldout_block": 3,
+        "train_n": 72,
+        "test_n": 32,
+        "context_minus_pooled_logscore_bits": 5.6946007913034,
+        "context_minus_pooled_bits_per_observation": 0.17795627472823125
+      }
+    ],
+    "heldout_total_logscore_gain_bits": 12.700734464409265,
+    "heldout_mean_gain_bits_per_observation": 0.12212244677316601
+  }
+}

@@ -1,0 +1,26 @@
+# Evidence and claims — September 30, 2026
+
+| Claim or material | Current status | Boundary |
+|---|---|---|
+| TMD as a biological explanation | Hypothesis under development | No confirmatory biological validation in this release. |
+| Environment-associated rpoB spectra | Published observations and reproducible exploratory secondary analysis | Already reported by Leehan and Nicholson; this release restores blocks and predicts held-out blocks. |
+| rpoB sample totals 59/52 versus 53/51 | Reconciled | All sampled sequenced isolates versus identified point substitutions are different eligible populations. |
+| WS 2019 totals 46/41/18 as common race outcomes | Withdrawn from forward competing-route analysis | Different pathway-isolated genetic backgrounds; compare within pathways instead. |
+| Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
+| Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
+| Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |
+| Simulation rejection rates | Measured software behavior on three selected designs | No universal calibration or field validation. Strong switching was deliberately easy to detect. |
+| Common-clock equivalence and competing-risk formulas | Derived standard probability results | New project analysis, no claim of external mathematical novelty. |
+| Lomax timing uniquely identifies common frailty | False in general | Three mechanisms have exactly the same first-event joint distribution. |
+| Mutation-supply-adjusted WS invariant | Conditional mathematical prediction | Requires independent, context-matched q and the project's fixed-axis restriction. |
+| Separate mutation/accessibility/establishment factors | Not identified from route counts alone | Additional measurements/interventions required; fitted log odds are not measured mechanisms. |
+| Quantum explanation or replacement of relativity | No direct supporting measurement in audited material | No such conclusion or new fundamental equation is claimed. |
+| EDISON/MOSBRI funding | Not received for TMD, according to the author | No grant claim in this new repository. |
+
+## Interpretation rules
+
+Keep observations, secondary transcriptions, simulations, mathematical theorems, and mechanistic assumptions distinct. Count a culture once. Report outcome definitions and exclusions before comparing rates. Preserve uncertain source mappings as uncertainty. Assess a model against independently measured mutation-supply and fitness alternatives, rather than a weak uniform baseline alone.
+
+Hash verification authenticates an artifact's bytes. It does not authenticate the experiment, causal interpretation, or accuracy of metadata. A DOI or public repository makes work accessible and citable; it does not replace scientific review.
+
+Original files were preserved. These forward-analysis corrections do not silently rewrite historical archives. The current claims ledger takes precedence over an inherited fixture's stronger interpretation.

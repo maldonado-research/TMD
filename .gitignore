@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+regenerated_results/
+example_analysis.json
+.DS_Store

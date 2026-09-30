@@ -1,0 +1,127 @@
+# TMD literature and independent-data opportunities
+
+**Research date: 30 September 2026.** This is a targeted primary-source search for mutation-route prediction, mutation supply, WS Wsp/Aws/Mws, Bacillus subtilis rpoB, and context-dependent establishment. It does not claim to cover the entire web. The current TMD handoff's first 400 lines supplied the model context; user sources were not edited. Several publisher/PMC pages returned access challenges, so the inspection depth is stated where it matters. A paper's support for mutation-biased adaptation is not independent confirmation of TMD's added restrictions.
+
+## Main finding
+
+The highest-value immediate work is to improve and independently challenge the mutation baseline. Recent work makes **local sequence context** and **DNA repair background** measurable alternatives to a context-independent correction. A TMD residual fitted against an incomplete baseline can absorb ordinary mutation hotspots, genotype effects, selection during recovery, or missing routes. Treat those possibilities as competing explanations before interpreting a residual as a new biological law.
+
+There are also authentic public data that can be audited now. The multi-taxon dataset in item 3 is the most immediately usable, licensed candidate. It can test baseline construction and sensitivity to mutation spectrum/codon composition. Its pooled adaptive substitutions do **not** supply independent first-successful-arrival races, so it cannot validate TMD's arrival-time assumptions or the WS manifold.
+
+## Ten useful primary studies
+
+### 1. Genetic dissection of DNA damage tolerance in Bacillus subtilis: RecA and recombination functions regulate translesion synthesis
+
+**Rubén Torres and Juan C. Alonso, 2026.** Published journal article, *Nucleic Acids Research* 54(13), gkag673; publication date 3 July 2026. [DOI](https://doi.org/10.1093/nar/gkag673), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13335488/), [bibliographic record](https://pubmed.ncbi.nlm.nih.gov/42406627/).
+
+The authors examine mutagenesis, survival and rpoB resistance spectra across DNA-damage-tolerance/repair backgrounds, with and without MMS exposure. H482 substitutions remain prominent, while some routes differ with treatment. The article identifies mutation spectra in Supplementary Table S6 and numerical assay data in Tables S2–S5. Its data statement says the main text/supplements contain the conclusion-supporting data; raw material is available on request. A 14.8-MB supplementary ZIP named `gkag673_supplemental_files.zip` is listed, but its direct download was not resolved here.
+
+**TMD opportunity:** an external repair-by-environment rpoB panel, after checking isolate independence, denominators, strain definitions and recovery protocol. Separate mutation frequency from surviving-isolate composition. **Challenge:** predominant resistant isolates do not alone identify higher fitness or a unique μ/A/F factor. Full article downloads were access-limited; indexed primary text and metadata were inspected.
+
+### 2. G_nT Motifs Can Increase T:A→G:C Mutation Rates Over 1000-fold in Bacteria
+
+**James S. Horton, Joshua L. Cherry, Gretel Waugh and Tiffany B. Taylor, 2025.** Published journal article, *Molecular Biology and Evolution* 42(8), msaf183; publisher online date 4 August 2025. [DOI](https://doi.org/10.1093/molbev/msaf183), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12344412/), [data and custom R script](https://doi.org/10.17605/OSF.IO/HSYFX). Article license: CC BY 4.0; repository asset licenses still need inspection.
+
+The experiments and comparative analysis establish strongly context-dependent hotspot potency. The paper specifically connects previously observed WS-associated **awsR A79C** and **wspF T812G** with G_nT motifs. Its experimental phenotype is motility restoration in an engineered P. fluorescens background, not WS forecasting. The largest rate increases are motif/context-specific; they are not universal per-gene multipliers.
+
+**TMD opportunity:** annotate the exact ancestral sequence, strand and local motif around each observed WS mutation before aggregating route supply. Compare mutation-only baselines with and without these independently supported hotspots. **Challenge:** a shared Aws correction might partly reflect a misspecified q. A motility result cannot itself establish the WS curve. Full primary text and data statement were inspected; OSF assets were not downloaded.
+
+### 3. Molecular adaptation reflects taxon-specific mutational biases
+
+**Bryan L. Gitschlag, Arlin Stoltzfus and David M. McCandlish, 2025.** bioRxiv preprint, version posted 5 September 2025; **not verified as a peer-reviewed journal publication** in this search. [DOI](https://doi.org/10.1101/2025.09.03.674101), [author-institution PDF](https://repository.cshl.edu/id/eprint/42179/1/10.1101.2025.09.03.674101.pdf), [code/data repository](https://github.com/bgitschlag/mbamta), [source-data archive](https://github.com/bgitschlag/mbamta/blob/main/Gitschlag_et_al_2025_SOURCE_DATA.zip). Manuscript CC BY 4.0; repository identifies CC0-1.0.
+
+The authors pair independently obtained mutation spectra with 5,488 adaptive missense events across 14 species and account for species-specific codon use. Their observed correlations support mutation-spectrum information as an adaptive-outcome predictor in the sampled settings.
+
+**TMD opportunity:** audit codon-weighted q, mutation-spectrum uncertainty and sensitivity to event concentration. **Challenge:** these are aggregated substitutions from heterogeneous studies, not exchangeable route winners with waiting times. Some mutation spectra use neutral variation rather than direct mutation accumulation. Preserve taxon and source strata; do not manufacture independent replicate races. The institutional PDF and repository README were inspected.
+
+### 4. Fluidity and Predictability of Epistasis on an Intragenic Fitness Landscape
+
+**Sarvesh Baheti, Namratha Raj and Supreet Saini, 2025.** eLife **Reviewed Preprint**, v2 dated 30 October 2025, DOI [10.7554/eLife.104848.2](https://doi.org/10.7554/eLife.104848.2); first reviewed version dated 3 February 2025. [Primary reviewed-preprint page](https://elifesciences.org/reviewed-preprints/104848). No separate data/code download was verified here.
+
+The work reanalyzes an approximately 260,000-variant E. coli folA landscape. Pairwise epistasis changes across backgrounds, and strong global patterns are concentrated in a subset of mutations. This is a secondary analysis of primary experimental measurements, not a new TMD experiment. The current version's publication category is retained instead of treating reviewed-preprint status as a conventional version of record.
+
+**TMD opportunity:** compare a shared route tilt with explicitly background-dependent fitness terms before portability claims. **Challenge:** a low-dimensional fit need not imply a background-invariant mechanistic factor. Indexed primary abstract, introduction and version information were inspected; the publisher page/PDF returned an access challenge.
+
+### 5. Additive effects of environmental and demographic variation shape the repeatability of evolution across replicated experiments
+
+**Karen Bisschop, Meike T. Wortel and colleagues, 2026.** Published journal article, *Evolution Letters* 10(4):382–395; online article date 21 May 2026. [DOI](https://doi.org/10.1093/evlett/qrag017), [primary article](https://academic.oup.com/evlett/article/10/4/382/8690031), [data and R code](https://doi.org/10.5281/zenodo.17497646), [genetic data BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1252273/).
+
+Five institutes replicated C. elegans experimental evolution under new rearing conditions. The work is useful for assessing repeatability and variation across implementations, rather than assuming replication across contexts has a single source of variability.
+
+**TMD opportunity:** use the published design as a template for lab/batch/environment covariates and a test that leaves an entire laboratory or context out. **Challenge:** a shared coefficient can hide protocol or demographic effects. These nematode results are not a bacterial first-arrival route assay. Bibliographic metadata, primary abstract and data/code availability statement were inspected; deposited files and their licenses were not downloaded.
+
+### 6. Distribution of mutation rates challenges evolutionary predictability
+
+**T. Anthony Sun and Peter A. Lind, 2023.** Published research article, *Microbiology* 169:001323. [DOI](https://doi.org/10.1099/mic.0.001323), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10268835/), [author-institution full text](https://www.diva-portal.org/smash/get/diva2%3A1761543/FULLTEXT01.pdf). No code repository download was verified here.
+
+The paper uses numerical simulations to examine heterogeneity in mutation rates and the difficulty of observing rare WS pathways. Its model deliberately excludes fitness variation and does not establish a universal log-normal rate distribution. It shows that repeated recovery of common routes need not imply the absence of rare alternatives; inference also depends on route aggregation.
+
+**TMD opportunity:** test missing-route mass, target-size uncertainty and hotspot heterogeneity in q; report both molecular and pathway resolution. **Challenge:** treating Wsp/Aws/Mws as exhaustive and fixed supply as certain can overstate predictability. Primary indexed full-text sections and institutional manuscript were inspected.
+
+### 7. Predicting mutational routes to new adaptive phenotypes
+
+**Peter A. Lind, Eric Libby, Jenny Herzog and Paul B. Rainey, 2019.** Published journal article, *eLife* 8:e38822, 8 January 2019. [DOI](https://doi.org/10.7554/eLife.38822), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/), [equations and source code supplement](https://doi.org/10.7554/eLife.38822.022).
+
+This decisive WS study connects pathway architecture, mutation supply and selected outcomes. Unanticipated hotspots caused departures from initial predictions; the spectra measured with and without selection differed, including lower-fitness WS-causing mutations found without selection. The article provides source data for Figures 6 and 9 in its supporting files.
+
+**TMD opportunity:** build mechanistic q from independently measured unselected supply and test selected route outcomes separately. **Challenge:** it already supplies a concrete mutation-plus-selection explanation, so TMD must demonstrate useful additional predictive restrictions rather than rebrand the general idea. Indexed primary article, metadata and supplementary availability were inspected; individual figure-data downloads were not performed.
+
+### 8. The Spectrum of Spontaneous Rifampin Resistance Mutations in the Bacillus subtilis rpoB Gene Depends on the Growth Environment
+
+**Joss D. Leehan and Wayne L. Nicholson, 2021.** Published journal article, *Applied and Environmental Microbiology* 87(22):e01237-21. [DOI](https://doi.org/10.1128/AEM.01237-21), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8552901/). Main-text mutation tables and competition measurements are the directly identified data objects; no separate raw-data repository was verified here.
+
+The study compares 60 independent cultures per growth medium (LB and SMMAsn) and tests competitive fitness of prominent rpoB mutations. This is the existing biological source for TMD's two-medium branch; reanalysis is not independent new validation. Its sampling rule must remain tied to recovering Rif-resistant isolates rather than being renamed first successful adaptation.
+
+**TMD opportunity:** reconcile exact route/count extraction with the study's independent cultures and compare measured competition effects with route enrichment. **Challenge:** culture-specific growth and selection can affect the recovered spectrum; counts alone do not separate μ, accessibility and establishment. Primary indexed article sections were inspected.
+
+### 9. Mutations in rpoB That Confer Rifampicin Resistance Can Alter Levels of Peptidoglycan Precursors and Affect β-Lactam Susceptibility
+
+**Yesha Patel, Vijay Soni, Kyu Y. Rhee and John D. Helmann, 2023.** Published journal article, *mBio* 14(2):e03168-22. [DOI](https://doi.org/10.1128/mbio.03168-22), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10128067/), [bibliographic record](https://pubmed.ncbi.nlm.nih.gov/36779708/). Tables/figures and article supplements are identified; no independent code archive was verified.
+
+Under the studied rifampicin/cefuroxime conditions, S487L differs strongly from H482Y and Q469R in β-lactam susceptibility and cellular precursor physiology. Those findings are specific to the tested strains and exposures, not a universal ranking of rpoB routes.
+
+**TMD opportunity:** use allele-specific physiological outcomes as measurable F-side candidates and test whether the route ranking changes across exposure contexts. **Challenge:** the results do not directly explain S487 enrichment in SMMAsn and do not establish an Asn-transport mechanism. Primary indexed abstract/results and bibliographic record were inspected; full-text open returned an access challenge.
+
+### 10. A mutation in RNA polymerase imparts resistance to β-lactams by preventing dysregulation of amino acid and nucleotide metabolism
+
+**Yesha Patel and John D. Helmann, 2025.** Published journal article, *Cell Reports* 44(2):115268; online 4 February 2025. [DOI](https://doi.org/10.1016/j.celrep.2025.115268), [primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11975431/), [bibliographic record](https://pubmed.ncbi.nlm.nih.gov/39908144/). Article figures, STAR Methods and supplements provide identified assay resources; a distinct data/code repository and reuse license were not verified here.
+
+The authors compare B. subtilis rpoC G1122D with rpoB H482Y and connect altered β-lactam responses with amino-acid and pyrimidine metabolism. It supplies measured physiological alternatives to an unspecified establishment factor.
+
+**TMD opportunity:** prioritize defined metabolic/fitness readouts when evaluating rpoB routes, and retain genetic background as a model variable. **Challenge:** the rpoC phenotype cannot be transferred to H482R/S487L or to Asn-limited culture without new evidence. Primary indexed abstract and detailed methods were inspected; full-text open returned an access challenge.
+
+## Ready data opportunity: the mbamta source archive
+
+The directly observed repository archive link is [Gitschlag_et_al_2025_SOURCE_DATA.zip](https://github.com/bgitschlag/mbamta/blob/main/Gitschlag_et_al_2025_SOURCE_DATA.zip). The [README](https://github.com/bgitschlag/mbamta) identifies the data structure below. It also displays a CC0-1.0 repository license. Public availability and license identification were verified; the binary archive was not downloaded by this literature subtask. Cache-miss responses from the web reader are not evidence that the data are unavailable to a normal download.
+
+| Input | Role in a conservative audit |
+| --- | --- |
+| `SOURCE_DATA/species_list_and_mutation_counts.csv` | Taxon list and source mutation-measurement sample sizes |
+| `SOURCE_DATA/mutation_spectra.csv` | Independently sourced mutation spectrum, described as GC-weighted and normalized |
+| `SOURCE_DATA/codon_use/{species}.csv` | Species-specific opportunity weights |
+| `SOURCE_DATA/adaptive_changes/adaptive_csv/{species}_adaptive_changes.csv` | Adaptive substitutions and raw counts |
+
+An audit should pin the repository commit or archive checksum; retain original data; distinguish event counts from distinct mutation paths; inspect aggregation and species-source citations; and preserve the authors' derivation of GC and codon weighting. Do not double-correct the mutation spectrum. Compare equal-type, mutation-spectrum-only, codon-weighted, and estimated mutation-bias-exponent baselines with sensitivity to small taxa and concentrated event counts. This is a computational robustness exercise using external data, not evidence of a TMD-specific biological breakthrough.
+
+For public redistribution, keep attribution and provenance even under CC0, inspect third-party inputs' original terms, and present the underlying paper as a preprint. Publication of an audit should contain its own script and conclusions rather than claiming ownership of source experiments. The manuscript and repository license categories differ and must not be interchanged.
+
+## Concrete TMD model improvements motivated by these papers
+
+The following are proposed TMD analyses, not claims made by the cited authors.
+
+1. **Use a baseline hierarchy.** Lock a uniform comparator, mutation-class/codon comparator, local-sequence comparator, and independently measured route-rate comparator. A claimed residual should survive plausible supply models. The independent hotspot literature motivates the local-sequence level; it does not supply every route rate.
+2. **Make q uncertainty visible.** Estimate route supply with uncertainty rather than attaching exact numbers to a small unselected panel. Propagate that uncertainty through the shared-tilt and WS tests. A fixed-axis curve tested with fitted q from the same selected outcomes risks circularity.
+3. **Separate count meanings.** Label a row as a first-arrival route, selected isolate, dominant endpoint, or adaptive substitution. Tie each to its actual likelihood/sampling rule. Establishment inference needs independent competition/recovery data or explicit assumptions.
+4. **Audit the WS triad conditionally.** Add an `Other` category and report its count/unknown status. For contexts with the same q, the shared-K curve is restrictive. If independently measured q differs, test the baseline-adjusted contrast rather than forcing a raw common K:
+
+   \[
+   D_c=\log\!\frac{p_{c,A}^2}{p_{c,W}p_{c,M}}-\log\!\frac{q_{c,A}^2}{q_{c,W}q_{c,M}}=2\theta_1.
+   \]
+
+   This is an algebraic restatement of the supplied TMD model for positive triad probabilities, not newly discovered mathematics. Invariance of D across future contexts remains an empirical hypothesis; zero counts require likelihood treatment rather than infinite plug-in logs. Conditioning on the triad does not establish that the triad is exhaustive.
+5. **Challenge constant establishment.** Analyze background-by-route and environment-by-route terms, and evaluate an entire held-out context. The epistasis and physiology papers make clear why a shared coefficient can fail. Endpoint counts cannot determine absolute successful-arrival rates.
+6. **Run the new rpoB data through an admissibility gate.** Before Table S6 enters the main panel, recover assay details, route denominators and independence. A repair/MMS panel can be an external context challenge after these checks. It is not directly an LB/SMMAsn replication.
+
+## Evidence boundary and priority
+
+The strongest near-term priority is **one reproducible baseline audit plus a prespecified external test**, with explicit negative outcomes allowed. A strengthened mutation baseline may reduce TMD's reported residual. That would be useful progress: it identifies what remains to explain and avoids claiming novelty for already measured supply effects. The most valuable possible TMD contribution is prospectively predicting held-out route distributions with a narrowly defined, falsifiable correction and calibrated uncertainty. None of the reviewed papers proves that correction, supplies a quantum mechanism for it, or connects TMD to a unified theory of physics.
