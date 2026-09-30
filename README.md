@@ -1,5 +1,10 @@
 # Mutation by Natural Dominance (TMD)
 
+[Readable project overview](https://maldonado-research.github.io/projects/tmd/) · [All research projects](https://maldonado-research.github.io/)
+
+[Published research report 0.1.0](https://zenodo.org/records/23068056) — source corrections, secondary analysis and prospective timing diagnostic (30 September 2026).
+
+
 Research software, source audits, and falsifiable tests for Ricardo Maldonado's Mutation by Natural Dominance hypothesis. The aim is to explain and predict which evolutionary routes occur under specified conditions, while separating mutation supply, accessibility, establishment, and observation.
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
