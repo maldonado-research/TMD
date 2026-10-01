@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Start here
+## Latest downloadable methods package: 0.2.0
+
+[Read the 0.2.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_2_0.md) · [Download the complete package](TMD_research_extension_0_2_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_2_0_SHA256SUMS.txt)
+
+The 42-file package adds joint inference from independently sampled calibration and selected-route counts, measurement-bias calculations, design planning and an attributed 2026 source-data inspection. **23 automated checks passed.** Its results are exploratory methods and synthetic demonstrations; no new biological confirmation or external mathematical priority is claimed. Extract the ZIP and start with its README. The expanded files below remain the earlier 0.1.0 report; use the citation and version inside the ZIP when citing 0.2.0.
+
+## Start here — expanded 0.1.0 report
 
 - [Scientific progress and recent research](SCIENTIFIC_PROGRESS.md): what changed on September 30, 2026, and why.
 - [In More Basic Terms](IN_MORE_BASIC_TERMS.md): a plain-language explanation.
@@ -20,7 +26,7 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 - [Data audit](DATA_AND_PROVENANCE_AUDIT.md): source reconciliation and corrections to legacy panels.
 - [Published rpoB secondary analysis](RPOB_ANALYSIS.md) and [cell provenance](RPOB_SOURCE_PROVENANCE.md): attributed observations from Leehan and Nicholson (2021).
 
-## Reproduce the calculations
+## Reproduce the expanded 0.1.0 calculations
 
 The new code uses only the Python standard library. It was verified with the Python versions listed in `VALIDATION.json`. From a checkout of this repository:
 
@@ -57,7 +63,7 @@ The rpoB endpoint count table cannot be passed into the time diagnostic: it has 
 
 ## Versions, citation, and funding
 
-This September 30 research extension is **0.1.0**. Its version is separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
+The expanded report and code in this repository are **0.1.0**. The separate downloadable methods package linked above is **0.2.0**. Its version is separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
 
 Use `CITATION.cff` to cite this repository and separately cite the original papers when using their data. Research and new analysis were prepared with AI assistance and human-directed scope; reproducible code and explicit limitations are provided for review.
 
