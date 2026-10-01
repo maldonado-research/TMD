@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest downloadable methods package: 0.3.0
+## Latest downloadable methods package: 0.4.0
+
+[Read the 0.4.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_4_0.md) · [Download the complete package](TMD_research_extension_0_4_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_4_0_SHA256SUMS.txt)
+
+The 45-file package adds fixed-route introduced/recovered controls, a convex joint likelihood, uncertainty propagation, support-probability planning and budget checks. **30 automated checks passed.** Independent internal review checked the mathematics and code; 120 random simulated datasets include 80 admitted dense studies with 7,920 bootstrap draws and 40 high-recovery studies explicitly declined without tests. Four additional primary papers inform measurement design. These are methods and synthetic results, not new biological confirmation or external mathematical priority. The extracted package has its own version-specific citation; expanded report files below remain 0.1.0.
+
+## Previous downloadable methods package: 0.3.0
 
 [Read the 0.3.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_3_0.md) · [Download the complete package](TMD_research_extension_0_3_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_3_0_SHA256SUMS.txt)
 
