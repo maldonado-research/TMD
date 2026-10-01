@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest downloadable methods package: 0.4.0
+## Latest downloadable methods package: 0.5.0
+
+[Read the 0.5.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_5_0.md) · [Download the complete package](TMD_research_extension_0_5_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_5_0_SHA256SUMS.txt) · [Zenodo report version](https://zenodo.org/records/23075312)
+
+The 53-file package adds finite-sample bounds for recovery-corrected route comparisons, including observed zeros and all-success controls. **13 automated tests passed.** Exact integer tails certify conservative binomial endpoints; exact rational projection decides whether context intervals intersect. Independent internal reviews reproduced all 160 synthetic datasets and complete confidence results (40 reused, 120 new). The targeted literature review adds three substantive papers. No new biological confirmation, certified power or external mathematical priority is claimed. The Zenodo DOI is reserved during publication preparation; publication receipts confirm its status. Expanded report files below remain 0.1.0.
+
+## Previous downloadable methods package: 0.4.0
 
 [Read the 0.4.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_4_0.md) · [Download the complete package](TMD_research_extension_0_4_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_4_0_SHA256SUMS.txt)
 
@@ -75,7 +81,7 @@ The rpoB endpoint count table cannot be passed into the time diagnostic: it has 
 
 ## Versions, citation, and funding
 
-The expanded report and code in this repository are **0.1.0**. The separate downloadable methods packages linked above are **0.2.0** and **0.3.0**. Their versions are separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
+The expanded report and code in this repository are **0.1.0**. The separate downloadable methods packages linked above are **0.2.0**, **0.3.0**, **0.4.0** and **0.5.0**. Their versions are separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
 
 Use `CITATION.cff` to cite this repository and separately cite the original papers when using their data. Research and new analysis were prepared with AI assistance and human-directed scope; reproducible code and explicit limitations are provided for review.
 
