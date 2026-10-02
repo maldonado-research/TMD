@@ -15,6 +15,14 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 The 53-file package adds finite-sample bounds for recovery-corrected route comparisons, including observed zeros and all-success controls. **13 automated tests passed.** Exact integer tails certify conservative binomial endpoints; exact rational projection decides whether context intervals intersect. Independent internal reviews reproduced all 160 synthetic datasets and complete confidence results (40 reused, 120 new). The targeted literature review adds three substantive papers. No new biological confirmation, certified power or external mathematical priority is claimed. The Zenodo DOI is reserved during publication preparation; publication receipts confirm its status. Expanded report files below remain 0.1.0.
 
+## Research follow-up: recovery-transport robustness
+
+[Read the formulation and next empirical test](research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md) · [Reproduce the robustness analysis](research/transport_robustness/README.md) · [Independent internal review](research/TRANSPORT_MATH_REVIEW.md)
+
+This follow-up integrates the existing 0.3.0 transport-sensitivity idea with 0.5.0's certified confidence intervals. All 160 published synthetic results are retained. The 40 strong-departure examples still reject with differential recovery bounds of 1.25, but none reject at 1.5; their certified compatibility frontiers range approximately from 1.263 to 1.420. These are hypothetical sensitivity bounds, not measured recovery errors. A constructed counterexample shows how recovery mismatch can produce a false biological departure.
+
+All 44 new tests pass, with independent internal checks of 640 context projections, 800 sensitivity evaluations and 40 exact frontier certificates. No new biological measurements, external mathematical novelty, causal identification or general power claim is made. [Reproduction limitations](research/ENVIRONMENT_REPRODUCIBILITY.md) record the original release audit's floating-proposal portability failure. The released 0.5.0 ZIP and earlier version identifiers remain unchanged.
+
 ## Previous downloadable methods package: 0.4.0
 
 [Read the 0.4.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_4_0.md) · [Download the complete package](TMD_research_extension_0_4_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_4_0_SHA256SUMS.txt)

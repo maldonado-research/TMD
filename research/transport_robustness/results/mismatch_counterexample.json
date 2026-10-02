@@ -1,0 +1,194 @@
+{
+  "R_1_false_exact_transport_conclusion": {
+    "assumption_interpretation": "The R=1 coverage premise is deliberately false in this counterexample; its nested true declaration is an invalid modeling assumption, not an authenticated fact.",
+    "assumptions": {
+      "bounds_prespecified_independently_of_outcomes_for_confidence_claim": true,
+      "differential_residual_bounds_cover_actual_recovery_mismatch": true,
+      "marginal_count_laws_and_simultaneous_interval_coverage_justified": true,
+      "observable_control_corrected_parameter_distinguished_from_biological_parameter": true,
+      "positive_population_components_for_finite_log_contrast": true,
+      "relative_recovery_observation_model_applicable": true
+    },
+    "bound_valid_for_constructed_population": false,
+    "conditional_simultaneous_coverage_lower_bound_exact": "19/20",
+    "contexts": [
+      {
+        "biological_J_interval": {
+          "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/25005326535043334090057152424146621492251449139833338277670902444719052924579010682374310213262865463207171564442834555667456",
+          "J_upper_exact": "4913644285328523788949982730181202437668175755128193192774124427378912768011609240632367634658974698400878334138617786679296/41462370718569997826186868173586551350375554715025881600670360985831166725897171873940276638098231306394998921606428510609",
+          "J_upper_infinity": null
+        },
+        "context": "illustrative_context_1",
+        "multiplier_lower_exact": "1",
+        "multiplier_upper_exact": "1",
+        "observable_J_interval": {
+          "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/25005326535043334090057152424146621492251449139833338277670902444719052924579010682374310213262865463207171564442834555667456",
+          "J_upper_exact": "4913644285328523788949982730181202437668175755128193192774124427378912768011609240632367634658974698400878334138617786679296/41462370718569997826186868173586551350375554715025881600670360985831166725897171873940276638098231306394998921606428510609",
+          "J_upper_infinity": null
+        },
+        "residual_bounds": {
+          "A": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "M": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "W": {
+            "lower": "1",
+            "upper": "1"
+          }
+        }
+      },
+      {
+        "biological_J_interval": {
+          "J_lower_exact": "121342074691433719799447272502320701032308141432971372157862885039679348427134575106765134532433474610384121477819882601/17887099113928487603924435526944729187361659971754344339790840306138526890523986826588519557709854711368851814277662969856",
+          "J_upper_exact": "5542577009190615843541127210005725781924845537908599344057368667415833732421500078246881440411829398787483172780319643673600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+          "J_upper_infinity": null
+        },
+        "context": "illustrative_context_2",
+        "multiplier_lower_exact": "1",
+        "multiplier_upper_exact": "1",
+        "observable_J_interval": {
+          "J_lower_exact": "121342074691433719799447272502320701032308141432971372157862885039679348427134575106765134532433474610384121477819882601/17887099113928487603924435526944729187361659971754344339790840306138526890523986826588519557709854711368851814277662969856",
+          "J_upper_exact": "5542577009190615843541127210005725781924845537908599344057368667415833732421500078246881440411829398787483172780319643673600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+          "J_upper_infinity": null
+        },
+        "residual_bounds": {
+          "A": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "M": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "W": {
+            "lower": "1",
+            "upper": "1"
+          }
+        }
+      }
+    ],
+    "decision": "reject_shared_finite_theta",
+    "nominal_alpha_exact": "1/20",
+    "schema_version": "transport-robustness-1",
+    "scope": "Conditional on justified source marginal laws and prespecified valid differential residual bounds; compatibility is not equivalence or biological validation.",
+    "shared_biological_J_intersection": {
+      "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/25005326535043334090057152424146621492251449139833338277670902444719052924579010682374310213262865463207171564442834555667456",
+      "J_upper_exact": "5542577009190615843541127210005725781924845537908599344057368667415833732421500078246881440411829398787483172780319643673600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+      "J_upper_infinity": null,
+      "empty": true,
+      "status": "reject"
+    },
+    "source_exact_transport_assertion_adopted": false,
+    "source_probability_projection_arithmetic_rechecked": true,
+    "status": "reject"
+  },
+  "R_2_correct_bounded_transport_conclusion": {
+    "assumption_interpretation": "The R=2 differential bound is valid by construction in this illustrative model.",
+    "assumptions": {
+      "bounds_prespecified_independently_of_outcomes_for_confidence_claim": true,
+      "differential_residual_bounds_cover_actual_recovery_mismatch": true,
+      "marginal_count_laws_and_simultaneous_interval_coverage_justified": true,
+      "observable_control_corrected_parameter_distinguished_from_biological_parameter": true,
+      "positive_population_components_for_finite_log_contrast": true,
+      "relative_recovery_observation_model_applicable": true
+    },
+    "bound_valid_for_constructed_population": true,
+    "conditional_simultaneous_coverage_lower_bound_exact": "19/20",
+    "contexts": [
+      {
+        "biological_J_interval": {
+          "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/400085224560693345440914438786345943876023186237333412442734439115504846793264170917988963412205847411314745031085352890679296",
+          "J_upper_exact": "78618308565256380623199723682899239002690812082051091084385990838062604288185747850117882154543595174414053346217884586868736/41462370718569997826186868173586551350375554715025881600670360985831166725897171873940276638098231306394998921606428510609",
+          "J_upper_infinity": null
+        },
+        "context": "illustrative_context_1",
+        "multiplier_lower_exact": "1/16",
+        "multiplier_upper_exact": "16",
+        "observable_J_interval": {
+          "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/25005326535043334090057152424146621492251449139833338277670902444719052924579010682374310213262865463207171564442834555667456",
+          "J_upper_exact": "4913644285328523788949982730181202437668175755128193192774124427378912768011609240632367634658974698400878334138617786679296/41462370718569997826186868173586551350375554715025881600670360985831166725897171873940276638098231306394998921606428510609",
+          "J_upper_infinity": null
+        },
+        "residual_bounds": {
+          "A": {
+            "lower": "1/2",
+            "upper": "2"
+          },
+          "M": {
+            "lower": "1/2",
+            "upper": "2"
+          },
+          "W": {
+            "lower": "1/2",
+            "upper": "2"
+          }
+        }
+      },
+      {
+        "biological_J_interval": {
+          "J_lower_exact": "121342074691433719799447272502320701032308141432971372157862885039679348427134575106765134532433474610384121477819882601/286193585822855801662790968431115666997786559548069509436653444898216430248383789225416312923357675381901629028442607517696",
+          "J_upper_exact": "88681232147049853496658035360091612510797528606537589504917898678653339718744001251950103046589270380599730764485114298777600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+          "J_upper_infinity": null
+        },
+        "context": "illustrative_context_2",
+        "multiplier_lower_exact": "1/16",
+        "multiplier_upper_exact": "16",
+        "observable_J_interval": {
+          "J_lower_exact": "121342074691433719799447272502320701032308141432971372157862885039679348427134575106765134532433474610384121477819882601/17887099113928487603924435526944729187361659971754344339790840306138526890523986826588519557709854711368851814277662969856",
+          "J_upper_exact": "5542577009190615843541127210005725781924845537908599344057368667415833732421500078246881440411829398787483172780319643673600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+          "J_upper_infinity": null
+        },
+        "residual_bounds": {
+          "A": {
+            "lower": "1/2",
+            "upper": "2"
+          },
+          "M": {
+            "lower": "1/2",
+            "upper": "2"
+          },
+          "W": {
+            "lower": "1/2",
+            "upper": "2"
+          }
+        }
+      }
+    ],
+    "decision": "no_shared_finite_theta_departure_established",
+    "nominal_alpha_exact": "1/20",
+    "schema_version": "transport-robustness-1",
+    "scope": "Conditional on justified source marginal laws and prespecified valid differential residual bounds; compatibility is not equivalence or biological validation.",
+    "shared_biological_J_intersection": {
+      "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/400085224560693345440914438786345943876023186237333412442734439115504846793264170917988963412205847411314745031085352890679296",
+      "J_upper_exact": "88681232147049853496658035360091612510797528606537589504917898678653339718744001251950103046589270380599730764485114298777600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+      "J_upper_infinity": null,
+      "empty": false,
+      "status": "compatible_finite"
+    },
+    "source_exact_transport_assertion_adopted": false,
+    "source_probability_projection_arithmetic_rechecked": true,
+    "status": "compatible_finite"
+  },
+  "exact_transport_is_false_by_construction": true,
+  "fixture_sha256": "863ad1be62d6b19029253f1a29852db330b5995dbdd26e3488707e306a552d69",
+  "illustrative_population_checks": [
+    {
+      "biological_J_exact": "1",
+      "context": "illustrative_context_1",
+      "identity_verified_exactly": true,
+      "observable_J_exact": "16"
+    },
+    {
+      "biological_J_exact": "1",
+      "context": "illustrative_context_2",
+      "identity_verified_exactly": true,
+      "observable_J_exact": "1/16"
+    }
+  ],
+  "interpretation": "The biological J is 1 in both contexts. Exact-transport analysis of this chosen count realization rejects spuriously; the valid differential mismatch bound R=2 restores compatibility and contains J=1. This is an arithmetic counterexample, not an empirical frequency study.",
+  "provenance": "Illustrative model and chosen count tables, not experimental observations or new Monte Carlo replicates."
+}

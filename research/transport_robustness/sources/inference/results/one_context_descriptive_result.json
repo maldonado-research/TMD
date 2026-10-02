@@ -1,0 +1,274 @@
+{
+  "schema_version": "0.5.0",
+  "method": "Equal-Bonferroni Clopper-Pearson rectangular confidence projection",
+  "nominal_alpha": "1/20",
+  "coordinates": 12,
+  "per_tail_error_exact": "1/480",
+  "simultaneous_coverage_lower_bound_exact": "19/20",
+  "contexts": [
+    {
+      "context": "context_1",
+      "marginal_intervals": {
+        "baseline": [
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          },
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          },
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          }
+        ],
+        "baseline_controls": [
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          },
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          },
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          }
+        ],
+        "selected": [
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          },
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          },
+          {
+            "lower": 0.27920302127068714,
+            "upper": 0.39074165917299714,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.279203021290812,
+                "outward_width": 2.012486941928944e-11
+              },
+              {
+                "endpoint": "upper",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.3907416591491909,
+                "outward_width": 2.3806261495452843e-11
+              }
+            ]
+          }
+        ],
+        "selected_controls": [
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          },
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          },
+          {
+            "lower": 0.9401292990045577,
+            "upper": 1.0,
+            "status": "certified",
+            "certificates": [
+              {
+                "endpoint": "lower",
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "proposed_root": 0.9401292990101863,
+                "outward_width": 5.628620015280205e-12
+              }
+            ]
+          }
+        ]
+      },
+      "theta_interval": {
+        "lower": {
+          "value": -0.7956905848650212,
+          "infinity": null
+        },
+        "upper": {
+          "value": 0.7956905848650212,
+          "infinity": null
+        }
+      },
+      "J_lower_exact": "39397917202925226575686931912528648490030196703453715735397508587083559124993183853958068435653599637827814735334860784241/193464517152658865411233707424892403214621263925041925878101427471055661728416668863668407035945896234266065819797947416576",
+      "J_upper_exact": "193464517152658865411233707424892403214621263925041925878101427471055661728416668863668407035945896234266065819797947416576/39397917202925226575686931912528648490030196703453715735397508587083559124993183853958068435653599637827814735334860784241",
+      "J_upper_infinity": null
+    }
+  ],
+  "shared_theta_intersection": {
+    "empty": false,
+    "J_lower_exact": "39397917202925226575686931912528648490030196703453715735397508587083559124993183853958068435653599637827814735334860784241/193464517152658865411233707424892403214621263925041925878101427471055661728416668863668407035945896234266065819797947416576",
+    "J_upper_exact": "193464517152658865411233707424892403214621263925041925878101427471055661728416668863668407035945896234266065819797947416576/39397917202925226575686931912528648490030196703453715735397508587083559124993183853958068435653599637827814735334860784241",
+    "J_upper_infinity": null,
+    "theta_lower_display": {
+      "value": -0.7956905848650212,
+      "infinity": null
+    },
+    "theta_upper_display": {
+      "value": 0.7956905848650212,
+      "infinity": null
+    }
+  },
+  "decision": "not_evaluable_one_context",
+  "p_value": null,
+  "decision_basis": "Exact rational intersection of projected J=exp(2theta) intervals; theta endpoints are outward display enclosures.",
+  "numerical_policy": {
+    "maximum_trials": 5000,
+    "maximum_contexts": 64,
+    "minimum_alpha": 1e-12,
+    "CP_endpoint_certification": "Exact integer binomial tails at dyadic float endpoints, compared to exact rational tail allocation"
+  },
+  "scope": "Finite-sample simultaneous coverage and shared-null rejection bound under valid marginal count laws and relative recovery transport, for finite positive log contrasts. No across-component independence is needed for the union bound. Not a likelihood fit, profile interval, equivalence result or mechanism validation.",
+  "input_sha256": "314b6c9676751774a4af197d76456018a9f4b596350641d9cd44891d89db3ab3",
+  "source_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "provenance": "synthetic",
+  "synthetic_notice": "Deterministic count tables for arithmetic/software checks; not experimental observations or a repeated-sample power study."
+}

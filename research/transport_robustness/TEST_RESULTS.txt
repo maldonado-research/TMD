@@ -1,0 +1,10 @@
+Tests run: 44
+Failures: 0
+Errors: 0
+Deterministic stored-output replay: passed
+Published baseline/boundary checks: 160 repeated records; 6 boundary fixtures
+Exact original context projections: 640
+Sensitivity grid evaluations: 800
+Certified rejection frontiers: 40
+Independent illustrative CP endpoint checks: 48
+CLI smoke check: passed
