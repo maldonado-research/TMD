@@ -3,3 +3,6 @@ __pycache__/
 regenerated_results/
 example_analysis.json
 .DS_Store
+
+# Ephemeral scheduled research inputs and review artifacts
+.tmd-runtime/

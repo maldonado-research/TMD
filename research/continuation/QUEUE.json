@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "rounds": [
+    {
+      "id": "R000001",
+      "priority": 1,
+      "status": "completed",
+      "question": "Which measured and inferred descendant-variance quantities provide a defensible establishment/drift comparator?",
+      "deliverable": "Authenticated small-source drift data/methods audit, with units, source hashes and eligibility limits.",
+      "falsifier_or_boundary": "Route-independent variance may change the arrival clock but cannot alone change relative route shares in the factorized model.",
+      "maximum_download_bytes": 20971520,
+      "result": "Public-source census/replication audit; technical measurement-noise description only, no WAM or TMD biological validation."
+    },
+    {
+      "id": "R000002",
+      "priority": 2,
+      "status": "queued",
+      "question": "Does an accessible published source provide a matched common-background route/supply/control panel?",
+      "deliverable": "Source-specific eligible-measurement ledger for accessible primary route studies; exact missing fields if ineligible.",
+      "falsifier_or_boundary": "Pathway-isolated counts, selected-isolate outcomes, absent trial denominators or unmatched supply cannot be admitted as common-race observations."
+    },
+    {
+      "id": "R000003",
+      "priority": 3,
+      "status": "queued",
+      "question": "What prospective observations discriminate the restricted TMD forecast from measured supply, establishment and recovery alternatives?",
+      "deliverable": "Frozen preregistration candidate with held-out eta rule, biological clusters, effect threshold, error allocation and fixed stopping.",
+      "falsifier_or_boundary": "A frozen forecast that adds no held-out benefit over strong measured alternatives provides no incremental support."
+    },
+    {
+      "id": "R000004",
+      "priority": 4,
+      "status": "recurring",
+      "recurrence": "daily_utc",
+      "question": "Has a new primary study, source version or accessible dataset changed the mutation-supply, establishment, drift or recovery alternatives?",
+      "deliverable": "A deduplicated primary-source literature/data watch with exact publication/version status and one useful next question, or an honest no_change result.",
+      "falsifier_or_boundary": "An unchanged DOI/cohort or another copy of an inspected source is not new independent evidence."
+    }
+  ]
+}

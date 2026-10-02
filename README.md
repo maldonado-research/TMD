@@ -23,6 +23,12 @@ This follow-up integrates the existing 0.3.0 transport-sensitivity idea with 0.5
 
 All 44 new tests pass, with independent internal checks of 640 context projections, 800 sensitivity evaluations and 40 exact frontier certificates. No new biological measurements, external mathematical novelty, causal identification or general power claim is made. [Reproduction limitations](research/ENVIRONMENT_REPRODUCIBILITY.md) record the original release audit's floating-proposal portability failure. The released 0.5.0 ZIP and earlier version identifiers remain unchanged.
 
+## Continuing research rounds
+
+[Protocol and activation requirements](research/continuation/README.md) · [Persistent scientific state](research/continuation/STATE.json) · [New public drift-source audit](research/drift_audit/DRIFT_AUDIT_2026-10-01.md)
+
+A proposed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent candidate checkpoints, finite budgets and a once-daily source watch. It is inactive until reviewed, merged and securely configured. The first new round audits 33 clones, 67 culture timecourses and 206 paired colony counts; its technical-noise diagnostic does not estimate biological drift, establishment or TMD validation.
+
 ## Previous downloadable methods package: 0.4.0
 
 [Read the 0.4.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_4_0.md) · [Download the complete package](TMD_research_extension_0_4_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_4_0_SHA256SUMS.txt)

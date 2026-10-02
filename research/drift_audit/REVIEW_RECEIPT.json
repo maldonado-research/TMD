@@ -1,0 +1,94 @@
+{
+  "review_kind": "Internal independent computational and source-methods review; not external peer review",
+  "source_commit": "c1b47a977a9307281917ac1dee29861a813a7fd2",
+  "source_tree": "f7df5cc44e2a648a9e9215e55d46620ce4daa7fc",
+  "network_access_performed_by_reviewer": false,
+  "upstream_analysis_executed": false,
+  "raw_api_response_hashes_verified": 25,
+  "selected_input_content_identities_verified": 19,
+  "reused_method_license_evidence_hashes_verified": 2,
+  "aggregate_comparisons_passed": true,
+  "independent_totals": {
+    "clone_names": 33,
+    "culture_timecourses": 67,
+    "evolved_clone_names": 32,
+    "ancestor_clone_names": 1,
+    "evolutionary_population_count": 2,
+    "sequencing_metadata_rows": 336,
+    "sequencing_metadata_rows_days_0_through_4": 335,
+    "preassay_sequencing_metadata_rows": 1,
+    "cfu_timepoint_rows": 268,
+    "blank_formatting_rows_excluded": 4,
+    "measured_plate_counts": 474,
+    "observed_zero_plate_counts": 0,
+    "first_plate_missing_rows": 0,
+    "second_plate_missing_rows": 62
+  },
+  "paired_CFU_diagnostic": {
+    "paired_count": 206,
+    "mean_pair_Q": 4.937810075833765,
+    "median_pair_Q": 1.8328513591671487,
+    "pairs_Q_above_4": 69,
+    "median_absolute_relative_pair_difference": 0.13199640332280177
+  },
+  "second_plate_missing_rows_by_batch_day": {
+    "E1": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "E23": {
+      "0": 2,
+      "1": 3,
+      "2": 1,
+      "3": 2
+    },
+    "E4": {
+      "0": 1,
+      "1": 1,
+      "2": 2
+    },
+    "E5": {
+      "0": 15,
+      "1": 1,
+      "3": 4
+    },
+    "E6": {
+      "0": 3,
+      "1": 3,
+      "2": 16,
+      "3": 4
+    }
+  },
+  "exposure_evidence": [
+    "Pinned HMM treats CFU1/CFU2 as integer raw counts, not counts multiplied by dilution rate",
+    "Both plates use the same intended Nb[t]*D[t] mean in pinned HMM",
+    "Manuscript P40 generally prescribes independently repeated twice 1:100 dilution then 100 microliter plating"
+  ],
+  "interpretation_limits": [
+    "CSV files have one dilution field per pair, without per-plate realized dilution or volume measurements",
+    "Poisson benchmark 1 requires independent equal-mean raw counts; exposure error can elevate Q",
+    "Complete pairs exclude 62 missing second plates and are unevenly represented by batch and day",
+    "33 clone labels and 67 culture courses share two sampled evolutionary population histories",
+    "Pair Q is not a drift variance, an unbiased overdispersion estimate, a route-specific establishment measurement, or a WAM/recovery trial ledger",
+    "No p-values or confidence intervals treating 206 pairs as independent",
+    "No raw reads, barcode trajectories, posterior samples, or full inference reproduction reviewed"
+  ],
+  "license_scope": "Zenodo version record 21431098 describes Genetics as CC-BY-4.0; GitHub release lacks a license file. Archive contents were not downloaded or hash-linked. Public accessibility alone is not a blanket redistribution license.",
+  "substantive_computational_failures_found": [],
+  "reviewed_file_sha256": {
+    "drift_audit/INPUT_MANIFEST.json": "752afa6c534109f7a2c9bf1e28097f56f0c4a521da9eadb89172033e2caad6ea",
+    "drift_audit/fetch_public_inputs.py": "886d046681a0dfb2064fa95d4f7f7b6a6ec28e60a343849990373856af8d449b",
+    "drift_audit/audit_summaries.py": "4f9ba49185e95408d44436e5b1ba6c839057f7c59b80a18004ddcd3ddda74cfe",
+    "drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
+    "drift_audit/derived/batch_measurement_audit.csv": "dd0cbb5f0916ec9d861eedbba6ae2ef73f87dba3a05d751eaa82d2566f6732a9",
+    "drift_audit/derived/batch_day_measurement_audit.csv": "6bd0d0895572b50c83cd69ab46fc75831f115b65e1777bdb5664da1b19743b6c",
+    "drift_audit/derived/population_measurement_audit.csv": "1a647e8bed2f1e9a95b9939c244524083894f8f98d5d65ee190c1c6f775a7c10",
+    "drift_audit/verify_review.py": "89ffcff5d33fd431fcbf2fa2bef135c331857e67eaf46903f0316f29043b66a6",
+    "drift_audit/DRIFT_AUDIT_2026-10-01.md": "76f5ae6c623768251ca638e7598afc2d8f473876b17681b97225951126353d61",
+    "drift_audit/INDEPENDENT_REVIEW.md": "100ae0826452e5effd6ca3eac53cfc4e8b4eb6da813991fc1a7ac535b8e50a9c",
+    "literature/raw/drift_preprint_pmc.xml": "2ce6548c4c57c24ad6f6c0590b4e5174537175955ea31f65da848a68c92866ec",
+    "literature/raw/drift_zenodo_21431096.json": "2046a73cefe4faf7c19ec8f5079798078b1fe2cd58716a6a585acedb127711be"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "research_date_local": "2026-10-01",
+  "research_timezone": "America/Los_Angeles",
+  "completed_utc": "2026-10-02T05:22:24.092421+00:00",
+  "state": "completed_finite_descriptive_research_round",
+  "source_commit": "c1b47a977a9307281917ac1dee29861a813a7fd2",
+  "download_scope": "Read-only official GitHub API metadata and 19 explicit small files; previously retrieved protocol/license evidence reused without a new download",
+  "cumulative_new_round_api_response_bytes": 2091916,
+  "download_limit_bytes": 20000000,
+  "raw_FASTQ_or_archive_downloaded": false,
+  "summary": "33 clone labels, 67 recorded culture timecourses and 206 paired technical CFU measurements; only 2 historical evolutionary populations",
+  "new_descriptive_finding": "Model-conditional technical census residual index mean Q = 4.937810; paired-count coverage differs by batch/day, with all E5 day-0 and all E6 day-2 second counts missing",
+  "interpretation_limit": "Not a genetic-drift or establishment estimate; no across-pair independence or mechanism attribution",
+  "checks": {
+    "source_commit_tree_and_blob_identity": "passed",
+    "input_SHA256": "19 selected inputs and 2 reused snapshots passed",
+    "culture_and_day_reconciliation": "passed",
+    "derived_output_exact_rerun": "4 outputs byte-identical",
+    "internal_independent_review": "Passed; final file hashes in REVIEW_RECEIPT.json",
+    "external_peer_review": false
+  },
+  "matched_WAM_ledgers_admitted": 0,
+  "upstream_pipeline_executed": false,
+  "TMD_checkout_modified_by_this_audit": false,
+  "public_files_prepared": true,
+  "raw_third_party_files_public_by_default": false,
+  "externally_published": false,
+  "recurring_execution_created_by_this_subtask": false,
+  "original_code_license": "MIT",
+  "original_documentation_license": "CC BY 4.0",
+  "remaining_scientific_requirements": [
+    "Authenticated matched Wsp/Aws/Mws selected outcomes",
+    "Independent context-and-route-specific mutation supply",
+    "Exact introduced-single-cell recovery ledger and justified transfer",
+    "Independent relevant growth/establishment measurements and held-out design"
+  ],
+  "main_note": "DRIFT_AUDIT_2026-10-01.md"
+}

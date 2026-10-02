@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "verification_date_local": "2026-10-01",
+  "verification_timezone": "America/Los_Angeles",
+  "runner_unit_tests_passed": 44,
+  "existing_transport_unit_tests_passed": 44,
+  "existing_transport_reanalysis_records": 160,
+  "drift_source_audit": {
+    "selected_inputs_verified": 19,
+    "api_response_hashes_verified": 25,
+    "reused_evidence_hashes_verified": 2,
+    "aggregate_outputs_verified": 4,
+    "public_file_manifest_hashes_passed": 16,
+    "independent_internal_review": "passed"
+  },
+  "workflow_structure": "hourly enable gate, one concurrent run, finite timeout, pinned actions/exact model+effort, read-only permissions, separate bounded artifact collector",
+  "official_catalog_model_and_effort_support_verified": true,
+  "account_specific_model_access_verified": false,
+  "api_inference_tested": false,
+  "github_actions_end_to_end_run_tested": false,
+  "schedule_activated": false,
+  "private_or_third_party_raw_inputs_in_public_candidate": false,
+  "source_hashes": {
+    "round_runner.py": "6ca50307ca5ed6dec5feb72468e299f5de661fa62a0b28fc9ff148a909e7e882",
+    "test_round_runner.py": "acc9ee1498e29b3d833aee82fa9974343a658f004294a873450ac263a3e83f7c",
+    "model_support.json": "da20a5b6fa3ed96bde6bff3b112e672a81e181c2fa08e1a5ba9c8ce380a69eec"
+  }
+}
