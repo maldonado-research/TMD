@@ -1,0 +1,85 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "publication_rule": "Only these explicit files may be copied to the public audit; raw/ and any other file are excluded.",
+  "excluded_paths": [
+    "raw/",
+    "__pycache__/"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "classification": "original_audit_material",
+      "public_safe": true
+    },
+    {
+      "path": "NOTES.md",
+      "classification": "original_audit_material",
+      "public_safe": true
+    },
+    {
+      "path": "LICENSING.md",
+      "classification": "original_audit_material",
+      "public_safe": true
+    },
+    {
+      "path": "reproduce_audit.py",
+      "classification": "original_audit_material",
+      "public_safe": true
+    },
+    {
+      "path": "VALIDATION.json",
+      "classification": "original_audit_material",
+      "public_safe": true
+    },
+    {
+      "path": "ELIGIBILITY_ROWS.json",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "eligibility_rows.csv",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "MISSING_MEASUREMENTS.json",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "missing_measurements.csv",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "ACQUISITION_STATUS.json",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "classification": "original_derived_audit_metadata",
+      "public_safe": true
+    },
+    {
+      "path": "EVIDENCE_EXCERPTS.json",
+      "classification": "short_attributed_primary_evidence_excerpts_CC_BY_4_0",
+      "public_safe": true
+    },
+    {
+      "path": "sun_aws_table3_transcription.csv",
+      "classification": "attributed_factual_secondary_transcription; same prior experimental collection",
+      "public_safe": true
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "classification": "explicit_original_publication_whitelist",
+      "public_safe": true
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "classification": "original_integrity_manifest",
+      "public_safe": true
+    }
+  ]
+}

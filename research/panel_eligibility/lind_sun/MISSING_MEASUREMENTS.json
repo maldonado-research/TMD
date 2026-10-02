@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "audit_date_utc": "2026-10-02",
+  "rows": [
+    {
+      "study": "lind2019",
+      "component": "common_background",
+      "required_fields": [
+        "strain_id",
+        "ancestor_id",
+        "genotype",
+        "reporter",
+        "route_availability",
+        "context_id"
+      ],
+      "admissibility_requirement": "All competing routes available in one documented background; contexts use the declared background.",
+      "authenticated_status": "Fails for 46/41/18: double-deletion backgrounds differ by route. WT total-rate assay exists but has no route-resolved outcomes.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-1",
+        "L:s4-1",
+        "L:fig8",
+        "S:s6",
+        "S:R21"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "common_background",
+      "required_fields": [
+        "strain_id",
+        "ancestor_id",
+        "genotype",
+        "reporter",
+        "route_availability",
+        "context_id"
+      ],
+      "admissibility_requirement": "All competing routes available in one documented background; contexts use the declared background.",
+      "authenticated_status": "No new common-background experiment; inherits Aws-only prior collection.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-1",
+        "L:s4-1",
+        "L:fig8",
+        "S:s6",
+        "S:R21"
+      ]
+    },
+    {
+      "study": "lind2019",
+      "component": "context_matched_supply",
+      "required_fields": [
+        "context_id",
+        "baseline_culture_id",
+        "baseline_counts_W_A_M",
+        "mutation_assay_units",
+        "division_or_opportunity_denominator",
+        "uncertainty",
+        "hotspot_repair_time_metadata"
+      ],
+      "admissibility_requirement": "Independent validated route-probability calibration in every selected context; retain q uncertainty and measurement units.",
+      "authenticated_status": "Background-specific rates exist in shaken KB; selected competition is static KB. No matched common-background route-multinomial baseline across contexts is authenticated.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-1",
+        "L:s4-2",
+        "L:s4-4",
+        "S:s3-10",
+        "S:s8-3"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "context_matched_supply",
+      "required_fields": [
+        "context_id",
+        "baseline_culture_id",
+        "baseline_counts_W_A_M",
+        "mutation_assay_units",
+        "division_or_opportunity_denominator",
+        "uncertainty",
+        "hotspot_repair_time_metadata"
+      ],
+      "admissibility_requirement": "Independent validated route-probability calibration in every selected context; retain q uncertainty and measurement units.",
+      "authenticated_status": "Uses assumed average rate and calibrated distribution plus reused Aws spectrum; these are not measured q for independent contexts.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-1",
+        "L:s4-2",
+        "L:s4-4",
+        "S:s3-10",
+        "S:s8-3"
+      ]
+    },
+    {
+      "study": "lind2019",
+      "component": "selected_route_counts",
+      "required_fields": [
+        "context_id",
+        "culture_id",
+        "outcome_rule",
+        "route_W_A_M_Other",
+        "selected_counts",
+        "eligible_denominator",
+        "missingness_exclusions",
+        "ascertainment"
+      ],
+      "admissibility_requirement": "Lock mutually exclusive route/outcome rules and exact common-background denominators; keep Other or declare conditional triad.",
+      "authenticated_status": "46/41/18 are preselection spectra; the selected comparison refers to earlier work. No new matched full selected-route collection is authenticated here.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-4",
+        "L:s2-7",
+        "L:fig8",
+        "S:s6"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "selected_route_counts",
+      "required_fields": [
+        "context_id",
+        "culture_id",
+        "outcome_rule",
+        "route_W_A_M_Other",
+        "selected_counts",
+        "eligible_denominator",
+        "missingness_exclusions",
+        "ascertainment"
+      ],
+      "admissibility_requirement": "Lock mutually exclusive route/outcome rules and exact common-background denominators; keep Other or declare conditional triad.",
+      "authenticated_status": "No new selected biological collection reported; simulations and reused Table 3 do not provide selected counts.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s2-4",
+        "L:s2-7",
+        "L:fig8",
+        "S:s6"
+      ]
+    },
+    {
+      "study": "lind2019",
+      "component": "independent_culture_lineage",
+      "required_fields": [
+        "founding_culture_id",
+        "isolate_id",
+        "lineage_id",
+        "batch_id",
+        "plate_well_id",
+        "mutation_step",
+        "immediate_ancestor_id",
+        "replicate_type",
+        "collection_reuse_id"
+      ],
+      "admissibility_requirement": "Identify independent founding cultures, grouping and prior reuse; preserve dependent units during holdout.",
+      "authenticated_status": "Methods supports one random isolate per independent culture and independent competition quadruplicates; culture/batch/well joins and exported completeness remain unverified because XLSX bytes were unavailable.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-2",
+        "L:s4-4",
+        "L:fig6sdata1",
+        "L:fig9sdata1",
+        "S:s6",
+        "S:T3",
+        "S:R21"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "independent_culture_lineage",
+      "required_fields": [
+        "founding_culture_id",
+        "isolate_id",
+        "lineage_id",
+        "batch_id",
+        "plate_well_id",
+        "mutation_step",
+        "immediate_ancestor_id",
+        "replicate_type",
+        "collection_reuse_id"
+      ],
+      "admissibility_requirement": "Identify independent founding cultures, grouping and prior reuse; preserve dependent units during holdout.",
+      "authenticated_status": "Same 41 prior Aws occurrences are reused; numerical independence assumptions do not create biological IDs or extra cultures.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-2",
+        "L:s4-4",
+        "L:fig6sdata1",
+        "L:fig9sdata1",
+        "S:s6",
+        "S:T3",
+        "S:R21"
+      ]
+    },
+    {
+      "study": "lind2019",
+      "component": "fixed_route_recovery_controls",
+      "required_fields": [
+        "context_id",
+        "branch_baseline_selected",
+        "fixed_route_W_A_M",
+        "introduced_L",
+        "recovered_k",
+        "exposed_unit_definition",
+        "one_binary_outcome_per_unit",
+        "binomial_marginal_justification",
+        "control_relative_recovery_transport",
+        "prespecified_mismatch_bounds"
+      ],
+      "admissibility_requirement": "Six control cells per context: baseline/selected × W/A/M, each known L>0, integer 0≤k≤L and justified independent binary recovery; validate relative transfer or bounds.",
+      "authenticated_status": "Existing GFP/deletion/reporter-cost competitions correct fitness ratios. Inspected Methods supplies no fixed-route binary introduced/recovered L,k panel; culture n, viable CFU, flow counts, 1:1 ratios and sequencing totals cannot substitute. Workbook fields remain unverified.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-2",
+        "L:s4-4",
+        "S:s6",
+        "S:s8-3"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "fixed_route_recovery_controls",
+      "required_fields": [
+        "context_id",
+        "branch_baseline_selected",
+        "fixed_route_W_A_M",
+        "introduced_L",
+        "recovered_k",
+        "exposed_unit_definition",
+        "one_binary_outcome_per_unit",
+        "binomial_marginal_justification",
+        "control_relative_recovery_transport",
+        "prespecified_mismatch_bounds"
+      ],
+      "admissibility_requirement": "Six control cells per context: baseline/selected × W/A/M, each known L>0, integer 0≤k≤L and justified independent binary recovery; validate relative transfer or bounds.",
+      "authenticated_status": "No such new control panel in inspected article; reanalysed mutation occurrences and assumed numerical draws cannot substitute.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-2",
+        "L:s4-4",
+        "S:s6",
+        "S:s8-3"
+      ]
+    },
+    {
+      "study": "lind2019",
+      "component": "whole_context_holdout",
+      "required_fields": [
+        "context_id",
+        "context_protocol",
+        "holdout_assignment",
+        "freeze_timestamp",
+        "training_blocks",
+        "later_block_id",
+        "theta_training_rule",
+        "eta_holdout_prediction_rule",
+        "loss_model_stopping_rules"
+      ],
+      "admissibility_requirement": "Public prospective plan specifies ≥4 conditions and ≥1 whole-context holdout; fix theta and held-out eta before selected outcomes.",
+      "authenticated_status": "Single KB-based assay setting with shaking/static branches; no prospectively frozen matched multiple-context training/holdout panel authenticated.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-1",
+        "L:s4-2",
+        "L:s4-4",
+        "S:s6",
+        "TMD:PROSPECTIVE_TEST_PLAN",
+        "TMD:FORMULATION_AND_NEXT_EMPIRICAL_TEST"
+      ]
+    },
+    {
+      "study": "sun2023",
+      "component": "whole_context_holdout",
+      "required_fields": [
+        "context_id",
+        "context_protocol",
+        "holdout_assignment",
+        "freeze_timestamp",
+        "training_blocks",
+        "later_block_id",
+        "theta_training_rule",
+        "eta_holdout_prediction_rule",
+        "loss_model_stopping_rules"
+      ],
+      "admissibility_requirement": "Public prospective plan specifies ≥4 conditions and ≥1 whole-context holdout; fix theta and held-out eta before selected outcomes.",
+      "authenticated_status": "Comparative simulated pathway cases are not independent biological contexts or held-out observations.",
+      "missing_measurement_status": "not_authenticated_for_matched_TMD_panel",
+      "absent_value_encoding": "null; never substitute 0 or synthetic data",
+      "inspected_scope": "main primary article XML; Lind source XLSX contents unavailable; referenced studies/code not acquired",
+      "evidence_locators": [
+        "L:s4-1",
+        "L:s4-2",
+        "L:s4-4",
+        "S:s6",
+        "TMD:PROSPECTIVE_TEST_PLAN",
+        "TMD:FORMULATION_AND_NEXT_EMPIRICAL_TEST"
+      ]
+    }
+  ]
+}

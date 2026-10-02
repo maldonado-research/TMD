@@ -24,5 +24,20 @@
     "round_runner.py": "6ca50307ca5ed6dec5feb72468e299f5de661fa62a0b28fc9ff148a909e7e882",
     "test_round_runner.py": "acc9ee1498e29b3d833aee82fa9974343a658f004294a873450ac263a3e83f7c",
     "model_support.json": "da20a5b6fa3ed96bde6bff3b112e672a81e181c2fa08e1a5ba9c8ce380a69eec"
+  },
+  "round_000002": {
+    "verification_date_utc": "2026-10-02",
+    "primary_sources_authenticated": 4,
+    "ledger_rows_reviewed": 20,
+    "exact_attributed_excerpt_anchors_verified": 19,
+    "missing_measurement_rows": 12,
+    "source_author_public_files_verified": 24,
+    "source_author_checksum_entries_verified": 22,
+    "generated_artifacts_byte_reproduced": 8,
+    "independent_rejection_path_checks_passed": 4,
+    "review_receipt_sha256": "da5c1372806671a21f3d2178cee404579f2fe90c19d5a861025b3f16d2c11d6b",
+    "source_bulk_raw_files_published": 0,
+    "biological_tmd_validation": false,
+    "scheduled_execution_tested": false
   }
 }

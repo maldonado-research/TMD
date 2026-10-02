@@ -1,0 +1,76 @@
+{
+  "research_date_utc": "2026-10-02",
+  "inputs": [
+    {
+      "kind": "acquired_primary",
+      "source_id": "Horton2025",
+      "source_path": "/workspace/tmd-research-progress/panel_eligibility/hotspot/raw/horton_pmc.xml",
+      "relative_path": "raw/horton_pmc.xml",
+      "sha256": "38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40",
+      "bytes": 117119,
+      "excluded_from_public": true,
+      "identifier": "10.1093/molbev/msaf183"
+    },
+    {
+      "kind": "acquired_primary",
+      "source_id": "TorresAlonso2026",
+      "source_path": "/workspace/tmd-research-progress/panel_eligibility/hotspot/raw/torres_pmc.xml",
+      "relative_path": "raw/torres_pmc.xml",
+      "sha256": "05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26",
+      "bytes": 206305,
+      "excluded_from_public": true,
+      "identifier": "10.1093/nar/gkag673"
+    },
+    {
+      "kind": "acquired_metadata",
+      "source_id": "TorresAlonso2026",
+      "source_path": "/workspace/tmd-research-progress/panel_eligibility/hotspot/raw/torres_crossref.json",
+      "relative_path": "raw/torres_crossref.json",
+      "sha256": "fd5f680462eff9e59e6510c560cc4e7fdc6172ab4e3d43689641906e3126257d",
+      "bytes": 27878,
+      "excluded_from_public": true,
+      "identifier": "10.1093/nar/gkag673"
+    },
+    {
+      "kind": "read_only_public_repository_context",
+      "source_path": "/workspace/TMD/LITERATURE_REVIEW.md",
+      "sha256": "ef2048b2b5d19eeea918c36191a09eef96521c2583bb1c0237067e2eaf8a66b2",
+      "bytes": 19602,
+      "repository_path": "LITERATURE_REVIEW.md",
+      "mutated": false
+    },
+    {
+      "kind": "read_only_public_repository_context",
+      "source_path": "/workspace/TMD/DATA_AND_PROVENANCE_AUDIT.md",
+      "sha256": "9e55ac977c2209975e9c2ce1f0b9a98897724a3f88c2e45def47df85507771b7",
+      "bytes": 11467,
+      "repository_path": "DATA_AND_PROVENANCE_AUDIT.md",
+      "mutated": false
+    },
+    {
+      "kind": "read_only_public_repository_context",
+      "source_path": "/workspace/TMD/PROSPECTIVE_TEST_PLAN.md",
+      "sha256": "8f00109661becb1251be6c9685846b3942ac4efb8b308c51c0f385acda07fade",
+      "bytes": 4960,
+      "repository_path": "PROSPECTIVE_TEST_PLAN.md",
+      "mutated": false
+    },
+    {
+      "kind": "read_only_public_repository_context",
+      "source_path": "/workspace/TMD/research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "sha256": "d43cc0861d535389cf7650b3969c65b838e2222ae0215eef5359014367cc2a1d",
+      "bytes": 16440,
+      "repository_path": "research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "mutated": false
+    },
+    {
+      "kind": "read_only_public_repository_context",
+      "source_path": "/workspace/TMD/research/literature/LITERATURE_UPDATE_2026-10-01.md",
+      "sha256": "ab88bfc8b7162393eff565a62312e4536eb08bd1d5ead88ff0241f95bdee80f7",
+      "bytes": 10182,
+      "repository_path": "research/literature/LITERATURE_UPDATE_2026-10-01.md",
+      "mutated": false
+    }
+  ],
+  "cached_primary_location_note": "Local ignored responses support offline review; no bulk publisher text is included in public whitelist. Acquisition URLs/hashes are in ACQUISITION_STATUS.json."
+}

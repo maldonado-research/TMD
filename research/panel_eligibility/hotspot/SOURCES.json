@@ -1,0 +1,56 @@
+{
+  "research_date_utc": "2026-10-02",
+  "sources": [
+    {
+      "source_id": "Horton2025",
+      "authors": [
+        "James S. Horton",
+        "Joshua L. Cherry",
+        "Gretel Waugh",
+        "Tiffany B. Taylor"
+      ],
+      "title": "G_nT Motifs Can Increase T:A→G:C Mutation Rates Over 1000-fold in Bacteria",
+      "doi": "10.1093/molbev/msaf183",
+      "pmcid": "PMC12344412",
+      "pmid": "40758847",
+      "journal": "Molecular Biology and Evolution",
+      "volume": "42",
+      "issue": "8",
+      "article_id": "msaf183",
+      "published_online": "2025-08-04",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344412/",
+      "raw_primary_path": "raw/horton_pmc.xml",
+      "article_license": "CC BY 4.0",
+      "inspection": "full PMC XML article, Methods, Results, Discussion, data statement, figure captions; no supplementary PDF or OSF asset contents",
+      "asset_repository": "https://doi.org/10.17605/OSF.IO/HSYFX",
+      "asset_license_verified": false,
+      "raw_primary_sha256": "38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40"
+    },
+    {
+      "source_id": "TorresAlonso2026",
+      "authors": [
+        "Rubén Torres",
+        "Juan C. Alonso"
+      ],
+      "title": "Genetic dissection of DNA damage tolerance in Bacillus subtilis: RecA and recombination functions regulate translesion synthesis",
+      "doi": "10.1093/nar/gkag673",
+      "pmcid": "PMC13335488",
+      "pmid": "42406627",
+      "journal": "Nucleic Acids Research",
+      "volume": "54",
+      "issue": "13",
+      "article_id": "gkag673",
+      "published_print_issued": "2026-07-03",
+      "published_online": "2026-07-06",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13335488/",
+      "raw_primary_path": "raw/torres_pmc.xml",
+      "article_license": "CC BY 4.0",
+      "inspection": "full PMC XML article, Methods, Results, Discussion, data statement, figure captions; Crossref record; no S1–S6 numerical files",
+      "exact_identity_origin": "public TMD/LITERATURE_REVIEW.md, subsequently verified by primary XML and Crossref",
+      "supplemental_filename": "gkag673_supplemental_files.zip",
+      "supplemental_size_status": "14.8 MB reported by repository review; not independently measured in this subtask",
+      "raw_primary_sha256": "05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26"
+    }
+  ],
+  "license_scope": "Article license verified in primary XML. Original notes/ledger plus short attributed excerpts are retained; bulk article text and acquired responses are excluded from public files. OSF asset terms remain unchecked."
+}

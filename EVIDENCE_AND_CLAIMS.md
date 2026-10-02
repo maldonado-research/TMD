@@ -6,6 +6,9 @@
 | Environment-associated rpoB spectra | Published observations and reproducible exploratory secondary analysis | Already reported by Leehan and Nicholson; this release restores blocks and predicts held-out blocks. |
 | rpoB sample totals 59/52 versus 53/51 | Reconciled | All sampled sequenced isolates versus identified point substitutions are different eligible populations. |
 | WS 2019 totals 46/41/18 as common race outcomes | Withdrawn from forward competing-route analysis | Different pathway-isolated genetic backgrounds; compare within pathways instead. |
+| Lind 2019 rare-four mutant total | Article-level aggregate authenticated in the 2 October 2026 [primary-source audit](research/panel_eligibility/README.md) | 109 collected = 105 focal + four rare mutants; isolate/background allocation unverified; this is not a common-background route panel. |
+| Sun 2023 Aws sample as independent replication | Source overlap authenticated in the same audit | Its 41 occurrences reuse Lind 2019; simulations and reanalysis do not add a biological cohort. |
+| Four-source matched-panel eligibility audit | Completed targeted source assessment, no complete matched panel admitted | Applies to inspected material and the current restricted W/A/M estimand; not a global absence claim or biological falsification. |
 | Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
 | Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
 | Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |

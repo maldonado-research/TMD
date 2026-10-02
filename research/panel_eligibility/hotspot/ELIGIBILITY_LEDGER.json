@@ -1,0 +1,280 @@
+{
+  "schema": "tmd-source-eligibility-v1",
+  "task": "TMDR000002 complementary hotspot and repair audit",
+  "research_date_utc": "2026-10-02",
+  "restricted_estimand": "Matched common-background context-specific Wsp/Aws/Mws mutation supply, competing selected route observations, and independently introduced fixed-route binary recovery controls with justified transport and frozen holdout.",
+  "observation_rows": [
+    {
+      "row_id": "HOT-HOR-SELECTED",
+      "source_id": "Horton2025",
+      "observation_unit": "One selected first visible motile population per sampled plate, followed by one sequenced colony; ntrB-only Sanger sequence.",
+      "context_and_common_ancestor": "SBW25 AR2-derived immotile backgrounds with 10 synonymous ntrB motif variants. Most ntrBC constructs moved to mini-Tn7; one native-locus allelic-exchange exception. Shared strain family, distinct motif/genomic backgrounds, motility selection, not matched WS conditions.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "not supplied",
+        "available": "Experimental selected hotspot/Other proportions and Fisher odds ratios support context-dependent hotspot comparisons; no independent unselected μ per division for each W/A/M route."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "different estimand",
+        "available": "Selected hotspot versus Other and ntrB mutation outcomes in motility restoration; not competing Wsp/Aws/Mws WS outcomes. Other molecular genes not authenticated by ntrB-only sequencing."
+      },
+      "independent_cultures_or_populations": {
+        "status": "described as independently evolved populations; row-level lineage not checked",
+        "limitation": "Three variants seeded four colonies per plate; use first-zone-per-plate unit, not four winners. Founding-colony/batch mapping unavailable."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "available": "Figure1 622 selected sequenced evolved lines; grouped G tract denominators [29,112,434,47]. Figure2 reuses these observations. Exact per-motif numerators not transcribed.",
+        "not_available": "All attempted/recovered plate counts and culture-linked missingness for Figure1/2; trial divisions; introduced fixed-route totals."
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective TMD/WS held-out context reported in inspected material.",
+      "primary_xml_anchors": [
+        "msaf183-s2.1",
+        "msaf183-s2.2",
+        "msaf183-s4.1",
+        "msaf183-s4.2",
+        "msaf183-s4.3",
+        "msaf183-s4.4",
+        "msaf183-s4.5",
+        "msaf183-s4.7",
+        "msaf183-F1",
+        "msaf183-F2"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    },
+    {
+      "row_id": "HOT-HOR-TIMING",
+      "source_id": "Horton2025",
+      "observation_unit": "Seeded motility-selection population followed daily; genotype observed conditional on emergence within 8 days.",
+      "context_and_common_ancestor": "Four ntrB constructs: leading-strand single hotspot289, single hotspot683, double hotspot, strand-reversed double hotspot; experimental motility assay.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "not supplied",
+        "available": "Synonymous/strand interventions and relative emergence information; no independent matched W/A/M supply."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "different estimand",
+        "available": "Conditional ntrB mutation status of selected motile populations; not W/A/M classes."
+      },
+      "independent_cultures_or_populations": {
+        "status": "Figure5 describes batches of independent replicates",
+        "limitation": "Underlying replicate/batch IDs not acquired; no cross-figure independence assumed."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "seeded": [
+          49,
+          52,
+          52,
+          51
+        ],
+        "evolved_sequenced": [
+          38,
+          43,
+          44,
+          19
+        ],
+        "not_evolved_by_day8": [
+          11,
+          9,
+          8,
+          32
+        ],
+        "units": "populations",
+        "limitation": "Non-emergent populations are censored outcomes of selection, not fixed-route binary recovery failures. No exact successful-arrival times; daily detection and possible pre-existing mutations.",
+        "not_evolved_by_day8_provenance": "Derived as published seeded totals minus published evolved/sequenced totals in Fig5; not independently extracted raw failures."
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective TMD/WS held-out context reported in inspected material.",
+      "primary_xml_anchors": [
+        "msaf183-s2.4",
+        "msaf183-s4.5",
+        "msaf183-F5"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    },
+    {
+      "row_id": "HOT-HOR-COMPARATIVE",
+      "source_id": "Horton2025",
+      "observation_unit": "Inferred T→G sequence changes normalized by weighted motif-site opportunities per genome.",
+      "context_and_common_ancestor": "Natural Salmonella genomic sample from Cherry2023, reanalyzed for extended GnT motifs; not laboratory common-ancestor WS cultures.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "different quantity and context",
+        "available": "Relative site-normalized motif rates; Poisson intervals. No absolute context-matched route μ per division."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "not supplied",
+        "available": "Comparative genome changes; no experimental W/A/M selected competition counts."
+      },
+      "independent_cultures_or_populations": {
+        "status": "not culture replicates",
+        "limitation": "Hundreds of thousands of genomes and >100000 inferred T→G changes cannot be recast as independent experimental winners or recovery trials."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "available": "Approximately1.5million inferred SNP changes, >100000 inferred T→G changes; weighted motif sites per genome as opportunity denominator.",
+        "not_available": "Exact source-tree events/opportunity tables not acquired; generations/divisions of a matched WS assay."
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective TMD/WS held-out context reported in inspected material.",
+      "primary_xml_anchors": [
+        "msaf183-s2.3",
+        "msaf183-s4.6",
+        "msaf183-F3",
+        "msaf183-F4"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    },
+    {
+      "row_id": "HOT-TOR-FREQUENCY",
+      "source_id": "TorresAlonso2026",
+      "observation_unit": "Culture/population-level mean RifR CFU frequency.",
+      "context_and_common_ancestor": "BG214 B.subtilis168 derivative lacking SPβ/ICEBs1 plus isogenic repair/polymerase deletions; LB37°C, untreated versus3mM MMS15min; common strain family with changed repair genotype, not an unchanged WS ancestor.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "not supplied for current W/A/M estimand",
+        "available": "Repair/treatment-specific RifR frequencies can inform context-dependent mutagenesis comparisons. Mean frequency is not a per-division mutation rate or independent W/A/M supply vector."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "different outcome",
+        "available": "RifR CFU counts and resistance assay, no W/A/M WS route counts."
+      },
+      "independent_cultures_or_populations": {
+        "status": "30 independent cultures per strain stated in Methods; figures report ≥5 independent experiments",
+        "limitation": "Culture-to-experiment, treated/untreated pairing and biological block mapping not authenticated; do not multiply these sample sizes."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "available": "Methods mean from30 cultures/strain. Rif8µg/mL selection;16–18h incubation.",
+        "unresolved": [
+          "Methods ratio RifR colonies/total viable cells versus Figure2–5 captions total CFUs on LB from untreated cells.",
+          "Methods50mL harvested versus captions10mL treated aliquot.",
+          "30cultures versus ≥5experiment hierarchy.",
+          "S2numerical frequencies/S3–S5P-values not acquired; no culture-level raw counts."
+        ]
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective TMD/WS held-out context reported in inspected material.",
+      "primary_xml_anchors": [
+        "SEC2-1",
+        "SEC2-5",
+        "SEC3-8",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    },
+    {
+      "row_id": "HOT-TOR-SPECTRUM",
+      "source_id": "TorresAlonso2026",
+      "observation_unit": "Sequenced selected RifR colony/clone.",
+      "context_and_common_ancestor": "Same repair-by-MMS resistance experiment; rpoB sequence compared with wt sequence.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "not supplied",
+        "available": "Resistance-allele selected spectrum conditional on recovery, not an independently measured preselection route μ."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "different route classes",
+        "available": "Figure6/S6 resistance-allele composition includes H482/Q469 alleles and outside-rpoB cases, not W/A/M competition. Exact source table counts not imported."
+      },
+      "independent_cultures_or_populations": {
+        "status": "source says ≥10 independent RifR colonies/strain-condition",
+        "limitation": "No checked culture-to-colony identifiers, one-isolate-per-culture rule or jackpot/lineage handling. This source claim cannot by itself authenticate independent culture winners."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "available": "At least10 sequenced RifR colonies/strain-condition in Methods; percentages in Results/Figure6.",
+        "not_available": "Exact S6counts, culture-linked denominators, missingness/exclusion rows; percentages were not converted to inferred integer counts."
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective held-out allele/route prediction reported in inspected material; ordinary observed spectrum comparisons remain possible.",
+      "primary_xml_anchors": [
+        "SEC2-5",
+        "SEC3-24",
+        "F6"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    },
+    {
+      "row_id": "HOT-TOR-SURVIVAL",
+      "source_id": "TorresAlonso2026",
+      "observation_unit": "Population CFU survival ratio under chronic MMS.",
+      "context_and_common_ancestor": "BG214-derived repair mutants, LB37°C; chronic MMS exposure16h; OD5600.4 before plating.",
+      "context_matched_independent_WAM_mutation_supply": {
+        "status": "not mutation supply",
+        "available": "Surviving CFU ratios measure population survival under assay conditions."
+      },
+      "selected_competing_route_outcomes": {
+        "status": "not selected route competition",
+        "available": "Repair-genotype survival rather than route-winner counts."
+      },
+      "independent_cultures_or_populations": {
+        "status": "Methods at least4 independent experiments; figures>3",
+        "limitation": "CFU descendants/cell pairs do not become independent introduced fixed-route trials."
+      },
+      "exact_denominators_and_unresolved_mapping": {
+        "available": "MMS-resistant CFUs/total CFUs, mean±SD.",
+        "not_available": "Known singleton fixed-route mutant introductions or binary recoveries. No matched baseline/selected route-control transfer experiment."
+      },
+      "fixed_route_introductions": {
+        "status": "not reported in inspected material",
+        "reason": "No known independent singleton mutant introductions for fixed W/A/M routes."
+      },
+      "binary_recovery_controls": {
+        "status": "not supplied for current estimand",
+        "reason": "No authenticated introduced totals and binary recovered outcomes on matched baseline and selected branches."
+      },
+      "holdout": "No frozen prospective TMD/WS held-out context reported in inspected material.",
+      "primary_xml_anchors": [
+        "SEC2-3",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "current_matched_WAM_ledger_admitted": false,
+      "eligibility_scope": "Current restricted matched W/A/M supply-selected-outcome-recovery estimand; does not exclude other scientific uses."
+    }
+  ],
+  "matched_WAM_ledger_admitted_count": 0,
+  "first_successful_arrival_observations_admitted_count": 0,
+  "policy": "Keep selected isolates, sequenced/read/inferred outcomes, population survival, censored detection and introduced-mutant recovery trials distinct. Ineligibility here is not a claim that studies lack scientific utility.",
+  "source_support_file": "SOURCE_SUPPORT.json",
+  "numerator_transcriptions_performed": false,
+  "supplied_count_annotations_scope": "Published article figure-caption totals and Methods sample-size claims only; no raw culture or supplemental-table counting."
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "tmd-public-files-v1",
+  "research_date_utc": "2026-10-02",
+  "files": [
+    ".gitignore",
+    "NOTES.md",
+    "ELIGIBILITY_LEDGER.json",
+    "SOURCES.json",
+    "SOURCE_SUPPORT.json",
+    "INPUT_MANIFEST.json",
+    "ACQUISITION_STATUS.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "excluded": [
+    "raw/**",
+    "build_ledger.py",
+    "__pycache__/**"
+  ],
+  "reason": "Retain original analysis and short attributed excerpts; exclude raw primary texts, comparative/data responses and browser challenge."
+}

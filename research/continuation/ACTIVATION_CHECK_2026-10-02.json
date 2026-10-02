@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "inspection_date_utc": "2026-10-02",
+  "repository": "maldonado-research/TMD",
+  "observed_before_this_round_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+  "methods_pr": {
+    "url": "https://github.com/maldonado-research/TMD/pull/1",
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "continuation_pr": {
+    "url": "https://github.com/maldonado-research/TMD/pull/2",
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "registered_github_actions_workflows": 0,
+  "github_actions_secret_configuration": {
+    "status": "unknown",
+    "read_only_api_http_status": 403,
+    "secret_values_requested_or_exposed": false
+  },
+  "github_enable_variable_configuration": {
+    "status": "unknown",
+    "read_only_api_http_status": 403
+  },
+  "cloud_runtime": {
+    "provider_api_key_present": false,
+    "zenodo_deposit_key_present": false
+  },
+  "scheduled_inference_tested": false,
+  "schedule_active": false,
+  "interpretation": "No default-branch workflow is registered and both prerequisite review PRs remain unmerged. This integration cannot inspect the repository's secret or enable-switch settings; the denials do not establish that those settings are absent. A finite manual research round can proceed using delegated agents."
+}

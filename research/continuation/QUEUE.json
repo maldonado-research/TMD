@@ -14,10 +14,12 @@
     {
       "id": "R000002",
       "priority": 2,
-      "status": "queued",
+      "status": "completed",
       "question": "Does an accessible published source provide a matched common-background route/supply/control panel?",
       "deliverable": "Source-specific eligible-measurement ledger for accessible primary route studies; exact missing fields if ineligible.",
-      "falsifier_or_boundary": "Pathway-isolated counts, selected-isolate outcomes, absent trial denominators or unmatched supply cannot be admitted as common-race observations."
+      "falsifier_or_boundary": "Pathway-isolated counts, selected-isolate outcomes, absent trial denominators or unmatched supply cannot be admitted as common-race observations.",
+      "result": "Four primary-source audits,20source-specific observation rows and12missing-measurement rows. No complete matched panel admitted within inspected scope; next priority is prospective discriminating design.",
+      "report": "../panel_eligibility/README.md"
     },
     {
       "id": "R000003",
