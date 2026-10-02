@@ -9,6 +9,7 @@ Checks performed 1 October 2026 (America/Los_Angeles), using Python 3.12.14 and 
 - Full 0.5.0 calibration rerun: all 160 synthetic datasets retained; rejection counts 0/40, 0/40, 40/40 and 0/40. Independent seed/count/exact-projection replay passed. Low-recovery results remain unbounded-compatible.
 - README timing CLI: synthetic deviance approximately 148.158854, permutation p=0.0005.
 - rpoB secondary calculation: source metadata and counts reproduced exactly, including 111 isolates and held-out score gain 13.125728780024541 bits.
+- Public-source eligibility audit: the authenticated main-article table inventory reproduced byte-identically; an independent reviewer checked table order, all count vectors, aggregates and dependence caveats. Supporting workbooks were not acquired.
 - New robustness follow-up: 44 tests, all 160 original public decisions, 640 projections, 800 sensitivity evaluations, 40 exact frontier certificates, six boundary fixtures and 48 independently checked chosen-example CP endpoints passed.
 
 Generated analyses ran outside the original tracked release files. The released ZIPs, source scripts and archived expected outputs were preserved.

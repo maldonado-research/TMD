@@ -1,0 +1,20 @@
+{
+  "record": 23075312,
+  "version": "0.5.0",
+  "status": "published",
+  "doi": "10.5281/zenodo.23075312",
+  "concept_doi": "10.5281/zenodo.23068055",
+  "public_api_url": "https://zenodo.org/api/records/23075312",
+  "file_names": [
+    "TMD_research_extension_0_5_0_2026-09-30.zip",
+    "TMD_research_extension_0_4_0_2026-09-30.zip",
+    "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+    "TMD_research_extension_0_3_0_2026-09-30.zip",
+    "TMD_research_extension_0_2_0_2026-09-30.zip",
+    "TMD_research_extension_0_5_0_report_2026-09-30.pdf"
+  ],
+  "declared_funding": [],
+  "verification_date_local": "2026-10-01",
+  "latest_record_in_family": 23075312,
+  "doi_resolver_error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+}

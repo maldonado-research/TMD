@@ -1,0 +1,107 @@
+{
+  "audit_scope": "authenticated_primary_article_table_inventory_only",
+  "dataset_status": "supplement_workbook_bytes_not_acquired_or_audited",
+  "eligibility": {
+    "biological_hypothesis_test_performed": false,
+    "eligible_for_Wsp_Aws_Mws_contrast": false,
+    "eligible_for_first_successful_arrival_likelihood": false,
+    "independent_recovery_binomial_denominators_verified": false,
+    "reason": "Selected MA mutation fitness panel, paired media, shared ancestry; no competing triad first arrivals or matched recovery controls in the audited source inventory."
+  },
+  "provenance": {
+    "article_license": "CC BY 4.0",
+    "citation": "Sane, Parveen and Agashe (2025), Mutation bias alters the distribution of fitness effects of mutations",
+    "doi": "10.1371/journal.pbio.3003282",
+    "pmcid": "PMC12273949",
+    "pmcid_version": "PMC12273949.1",
+    "source_bytes": 220656,
+    "source_location": "main article Table 1, footnote c, Methods, and supporting information labels",
+    "source_sha256": "a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12273949",
+    "supplement_filenames_from_article": {
+      "S2 Data": "pbio.3003282.s023.xlsx",
+      "S3 Data": "pbio.3003282.s024.xlsx"
+    }
+  },
+  "table1_by_strain": [
+    {
+      "ma_lines_evolved_author_reported": 350,
+      "ma_lines_successfully_sequenced_author_reported": 345,
+      "mutations_in_sequenced_lines_author_reported": 616,
+      "sequencing_exclusions_table_difference": 5,
+      "single_step_fitness_comparisons_author_reported": 91,
+      "strain": "delta_mutS"
+    },
+    {
+      "ma_lines_evolved_author_reported": 350,
+      "ma_lines_successfully_sequenced_author_reported": 344,
+      "mutations_in_sequenced_lines_author_reported": 603,
+      "sequencing_exclusions_table_difference": 6,
+      "single_step_fitness_comparisons_author_reported": 97,
+      "strain": "delta_mutL"
+    },
+    {
+      "ma_lines_evolved_author_reported": 350,
+      "ma_lines_successfully_sequenced_author_reported": 346,
+      "mutations_in_sequenced_lines_author_reported": 908,
+      "sequencing_exclusions_table_difference": 4,
+      "single_step_fitness_comparisons_author_reported": 100,
+      "strain": "delta_mutH"
+    },
+    {
+      "ma_lines_evolved_author_reported": 300,
+      "ma_lines_successfully_sequenced_author_reported": 285,
+      "mutations_in_sequenced_lines_author_reported": 502,
+      "sequencing_exclusions_table_difference": 15,
+      "single_step_fitness_comparisons_author_reported": 102,
+      "strain": "delta_nth_nei"
+    },
+    {
+      "ma_lines_evolved_author_reported": 98,
+      "ma_lines_successfully_sequenced_author_reported": 97,
+      "mutations_in_sequenced_lines_author_reported": 426,
+      "sequencing_exclusions_table_difference": 1,
+      "single_step_fitness_comparisons_author_reported": 94,
+      "strain": "WT"
+    },
+    {
+      "ma_lines_evolved_author_reported": 430,
+      "ma_lines_successfully_sequenced_author_reported": 424,
+      "mutations_in_sequenced_lines_author_reported": 798,
+      "sequencing_exclusions_table_difference": 6,
+      "single_step_fitness_comparisons_author_reported": 113,
+      "strain": "delta_mutY"
+    },
+    {
+      "ma_lines_evolved_author_reported": 300,
+      "ma_lines_successfully_sequenced_author_reported": 271,
+      "mutations_in_sequenced_lines_author_reported": 789,
+      "sequencing_exclusions_table_difference": 29,
+      "single_step_fitness_comparisons_author_reported": 97,
+      "strain": "delta_mutT"
+    }
+  ],
+  "table1_totals": {
+    "ma_lines_evolved_author_reported": 2178,
+    "ma_lines_successfully_sequenced_author_reported": 2112,
+    "mutations_in_sequenced_lines_author_reported": 4642,
+    "sequencing_exclusions_table_difference": 66,
+    "single_step_fitness_comparisons_author_reported": 694
+  },
+  "units_and_dependence": {
+    "WT_block1_comparisons": 80,
+    "WT_block1_founding_lines": 38,
+    "WT_block2_comparisons": 14,
+    "WT_comparisons_at_second_third_or_fourth_step": 46,
+    "WT_later_step_comparator": "immediate ancestor",
+    "actual_well_plate_lineage_join_reconstruction": null,
+    "actual_workbook_rows_columns_missingness": null,
+    "fitness_media_author_reported": [
+      "LB",
+      "M9 minimal salts + 5 mM glucose"
+    ],
+    "fitness_units": "author-reported single-step mutation fitness comparisons; not independent founding-line trials",
+    "media_are_paired_on_same_isolates": true,
+    "technical_replicates_per_fitness_estimate_author_reported": 3
+  }
+}

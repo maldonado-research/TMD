@@ -1,0 +1,42 @@
+{
+  "audit_date_local": "2026-10-01",
+  "audit_timezone": "America/Los_Angeles",
+  "supplement_workbooks_acquired": false,
+  "attempts": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12273949/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "HTML reCAPTCHA challenge, not article source accepted for analysis"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12273949/bin/pbio.3003282.s024.xlsx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "response_bytes": 21391,
+      "outcome": "HTML reCAPTCHA challenge, not a workbook; rejected as data"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12273949",
+      "http_status": 404,
+      "outcome": "No Open Access package manifest obtained"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12273949",
+      "http_status": 404,
+      "outcome": "No Open Access package manifest obtained"
+    },
+    {
+      "url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3003282.s023&type=supplementary",
+      "origin_http_status": null,
+      "proxy_connect_status": 403,
+      "outcome": "Proxy rejected CONNECT after proposed domain allowlist update; no publisher response or workbook bytes received"
+    }
+  ],
+  "accepted_primary_source": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12273949",
+    "sha256": "a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
+    "bytes": 220656,
+    "origin": "Reused existing source snapshot acquired by parallel literature review; no duplicate full-text request"
+  }
+}

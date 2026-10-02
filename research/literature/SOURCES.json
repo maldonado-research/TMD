@@ -1,0 +1,348 @@
+{
+  "review_title": "Mutation supply, establishment and the next TMD test",
+  "publication_cutoff_local": "2026-10-01",
+  "cutoff_timezone": "America/Los_Angeles",
+  "manifest_written_utc": "2026-10-02T04:03:11.087937+00:00",
+  "scope": "Targeted primary-source update, not a systematic review",
+  "comparison_against_existing_notes": [
+    "/workspace/TMD/LITERATURE_REVIEW.md",
+    "Literature/source notes inside public TMD research_extension0.2-0.5 ZIPs",
+    "/workspace/tmd-environment/research_extension_0_5_0/literature/LITERATURE_UPDATE.md"
+  ],
+  "newly_identified_means": "Absent from inspected earlier project literature notes; not necessarily published since prior review",
+  "raw_third_party_material": "Local evidence only, excluded from default public publication; no full abstracts or third-party full text copied into this manifest or original note",
+  "matched_WAM_ledger_admitted_count": 0,
+  "sources": [
+    {
+      "id": "chakraborty_agashe_2026",
+      "title": "Mutation bias influences the emergence and effects of antibiotic resistance",
+      "authors": [
+        "Adrita Chakraborty",
+        "Deepa Agashe"
+      ],
+      "doi": "10.64898/2026.08.18.745421",
+      "publication_status": "bioRxiv preprint; no journal version verified",
+      "online_or_posted_date": "2026-08-21",
+      "primary_urls": [
+        "https://doi.org/10.64898/2026.08.18.745421",
+        "https://api.crossref.org/works/10.64898%2F2026.08.18.745421"
+      ],
+      "inspected": [
+        "Crossref DOI metadata and registered abstract",
+        "Targeted Crossref title search: exact match was preprint; exact DOI relation empty"
+      ],
+      "observations_supported_by_inspected_material": [
+        "E. coli mutators exposed to antibiotics with different cellular targets.",
+        "Authors report particular mutation rates generally predict high resistance better than overall mutation rate.",
+        "Outcome includes highest antibiotic concentration permitting overnight emergence and probability of resistance."
+      ],
+      "tmd_implications_original_analysis": [
+        "Use route-specific supply as comparator.",
+        "Overnight emergence does not identify exact mutation or successful-arrival time."
+      ],
+      "limits": [
+        "Full text and data links not inspected; bioRxiv direct/API proxy requests returned403.",
+        "No sample sizes or effect sizes imported.",
+        "Empty Crossref relation is not proof that no journal version exists."
+      ],
+      "raw_source_snapshots": [
+        {
+          "file": "raw/10.64898_2026.08.18.745421_crossref.json",
+          "sha256": "946eed845b1cf8c9909005ea5368b6618f97a4f65d937aff2318a0120085b434",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/chakraborty_title_crossref.json",
+          "sha256": "8e663c158c1db25b7fa3c8d0ac910f16977b73cb7a26fc21e50be86cccdcb6c6",
+          "redistribute_by_default": false
+        }
+      ],
+      "data_availability": {
+        "status": "Unverified"
+      },
+      "matched_WAM_ledger_admitted": false
+    },
+    {
+      "id": "parveen_et_al_2025",
+      "title": "Mutation bias is a key predictor of adaptation rate",
+      "authors": [
+        "Shazia Parveen",
+        "Aakanksha Madhwal",
+        "BK Ruchith",
+        "Mrudula Sane",
+        "Deepa Agashe"
+      ],
+      "doi": "10.1101/2025.09.22.677663",
+      "publication_status": "bioRxiv preprint; no journal version verified",
+      "online_or_posted_date": "2025-09-24",
+      "primary_urls": [
+        "https://doi.org/10.1101/2025.09.22.677663",
+        "https://api.crossref.org/works/10.1101%2F2025.09.22.677663"
+      ],
+      "inspected": [
+        "Crossref DOI metadata and registered abstract",
+        "Targeted Crossref title search and exact-title PubMed search"
+      ],
+      "observations_supported_by_inspected_material": [
+        "Wild-type and mutator E. coli evolved in different growth media.",
+        "Authors report mutation bias reversal facilitates early adaptation.",
+        "Abstract reports joint prediction of relative strain adaptation rates using mutation bias, mutation rate and initial fitness."
+      ],
+      "tmd_implications_original_analysis": [
+        "Measure and compare supply and starting fitness rather than assigning unexplained enrichment to a shared route adjustment."
+      ],
+      "limits": [
+        "Full text and underlying data not inspected; bioRxiv proxy requests returned403.",
+        "Prospective versus retrospective prediction, unit independence and protocol details unverified.",
+        "No journal publication relation found; not evidence of guaranteed absence."
+      ],
+      "raw_source_snapshots": [
+        {
+          "file": "raw/10.1101_2025.09.22.677663_crossref.json",
+          "sha256": "af8ad137ae3a4e62581fb28a1546f9e427a574519569e8503c6a2d640d68ea21",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/parveen_title_crossref.json",
+          "sha256": "a7fe5351fb645bff639c9c5389b853e7f004d8394cecf494793dbf7f41aaa14f",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/parveen_pubmed_search.json",
+          "sha256": "522d1b34c8b2f31fe0fe1e2351b6c0b952132d1ca0b5b41c84f74af1dfbe3742",
+          "redistribute_by_default": false
+        }
+      ],
+      "data_availability": {
+        "status": "Unverified"
+      },
+      "matched_WAM_ledger_admitted": false
+    },
+    {
+      "id": "sane_et_al_2025",
+      "title": "Mutation bias alters the distribution of fitness effects of mutations",
+      "authors": [
+        "Mrudula Sane",
+        "Shazia Parveen",
+        "Deepa Agashe"
+      ],
+      "doi": "10.1371/journal.pbio.3003282",
+      "publication_status": "Published research article, PLOS Biology 23(7):e3003282",
+      "online_or_posted_date": "2025-07-14",
+      "primary_urls": [
+        "https://doi.org/10.1371/journal.pbio.3003282",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12273949/",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12273949"
+      ],
+      "inspected": [
+        "Crossref DOI record and PubMed journal record",
+        "Primary full-text relevant Methods, Results, data availability, supporting-file descriptions",
+        "Table 1 footnote c and its explicit shared-lineage/stepwise-comparison description"
+      ],
+      "observations_supported_by_inspected_material": [
+        "Methods identify 694 isolates for single-step fitness comparisons from wild type and six repair-mutant backgrounds measured in LB and glucose minimal medium.",
+        "Mutation accumulation, sequencing and maximum growth-rate assays yield strain-specific growth-effect distributions.",
+        "Authors correct distributions for selection during colony growth and report association between bias reversal and beneficial fraction.",
+        "Some lineages reuse earlier experiments.",
+        "Table 1 footnote c: 80 WT mutations originate from 38 founding lines; 46 are later steps evaluated relative to immediate ancestor."
+      ],
+      "tmd_implications_original_analysis": [
+        "A changed mutation mixture can change measured growth-effect distributions.",
+        "Growth rate is a proxy, not direct establishment probability.",
+        "Retain blocks, ancestral backgrounds and selection correction in reanalysis."
+      ],
+      "limits": [
+        "Supporting XLSX files not acquired by literature reviewer; guessed direct PMC attachment URLs returned404.",
+        "Full text says data within paper and supporting files; no biological data admitted to WAM test.",
+        "Separate dataset audit may supersede this acquisition status.",
+        "694 isolate comparisons are not 694 independent founding-line trials; preserve repeated-lineage dependence."
+      ],
+      "raw_source_snapshots": [
+        {
+          "file": "raw/sane_crossref.json",
+          "sha256": "d9ef6b803187a42a69d1376f1706d7ab2f126d0416fb0ecc7f6bd58c858000e5",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/sane_pmc.xml",
+          "sha256": "a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/spectrum_pubmed_records.xml",
+          "sha256": "c1346fcc50b660a40a83e937978bec020a23556695a62ad0d62bbadbbf9411d3",
+          "redistribute_by_default": false
+        }
+      ],
+      "data_availability": {
+        "status": "Supporting files identified; not downloaded by literature review",
+        "license": "Article CC BY; verify each acquired file and upstream input terms",
+        "files": [
+          {
+            "label": "S2 Data",
+            "filename": "pbio.3003282.s023.xlsx",
+            "description": "Mutation counts and types per MA line"
+          },
+          {
+            "label": "S3 Data",
+            "filename": "pbio.3003282.s024.xlsx",
+            "description": "Raw fitness in LB and glucose for single-mutation lines"
+          },
+          {
+            "label": "S1-S7 Scripts",
+            "description": "Alignment, mutation annotation/filtering and mutation compilation scripts"
+          }
+        ]
+      },
+      "matched_WAM_ledger_admitted": false
+    },
+    {
+      "id": "ascensao_et_al_2026",
+      "title": "The evolution of genetic drift over 50,000 generations",
+      "authors": [
+        "Joao A. Ascensao",
+        "QinQin Yu",
+        "Oskar Hallatschek"
+      ],
+      "doi": "10.1093/genetics/iyag199",
+      "publication_status": "Published research article, Genetics; details below read from earlier preprint",
+      "online_or_posted_date": "2026-08-03",
+      "primary_urls": [
+        "https://doi.org/10.1093/genetics/iyag199",
+        "https://pubmed.ncbi.nlm.nih.gov/42546145/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12873942/",
+        "https://doi.org/10.64898/2026.01.25.701616"
+      ],
+      "inspected": [
+        "Crossref and PubMed journal metadata and abstract",
+        "Earlier preprint Methods, Discussion and data/code statement",
+        "Repository README and Zenodo version metadata"
+      ],
+      "observations_supported_by_inspected_material": [
+        "Journal abstract reports 33 clones across two LTEE populations with barcode trajectories and census measurements.",
+        "Inferred descendant-number variance changes over evolution and differs across populations.",
+        "Preprint models sequencing measurement noise separately from lineage frequencies; physiological mechanism remains unresolved."
+      ],
+      "tmd_implications_original_analysis": [
+        "Descendant variance can modify establishment under the model.",
+        "A common route-independent change may affect timing while canceling from route probabilities; route interactions require evidence.",
+        "Sequencing reads are not binary fixed-cell recovery trials."
+      ],
+      "limits": [
+        "Journal full text not read; detailed methodological descriptions refer to January2026 preprint.",
+        "No code executed and no dataset archive downloaded.",
+        "Model-based inference does not directly count mutant establishment events."
+      ],
+      "raw_source_snapshots": [
+        {
+          "file": "raw/drift_crossref.json",
+          "sha256": "5afaa0b01377b791f35589b37d38c4fb9ceff4c40bc443e17636edf5559f7428",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/establishment_pubmed_records.xml",
+          "sha256": "378c638d24b845017c09c8a35fb3e1cbed983e731e059e1ee00ed852eb1c4058",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/drift_preprint_pmc.xml",
+          "sha256": "2ce6548c4c57c24ad6f6c0590b4e5174537175955ea31f65da848a68c92866ec",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/drift_README.txt",
+          "sha256": "6fed9e2a31b8d9625c9734be6961a3b7e54b09f302fdd5ac45004ebadbb627e2",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/drift_zenodo_21431096.json",
+          "sha256": "2046a73cefe4faf7c19ec8f5079798078b1fe2cd58716a6a585acedb127711be",
+          "redistribute_by_default": false
+        }
+      ],
+      "data_availability": {
+        "status": "README and versioned archival metadata verified",
+        "repository": "https://github.com/joaoascensao/genetic-drift-evolution",
+        "raw_read_bioproject": "PRJNA1129587",
+        "preprint_posted_date": "2026-01-27",
+        "archive_doi": "10.5281/zenodo.21431098",
+        "archive_title": "joaoascensao/genetic-drift-evolution: Publication in Genetics",
+        "archive_version": "Genetics",
+        "archive_publication_date": "2026-07-18",
+        "archive_license": "CC BY 4.0 according to Zenodo record",
+        "archive_file": "joaoascensao/genetic-drift-evolution-Genetics.zip",
+        "archive_size_bytes": 1485597812,
+        "archive_checksum_reported_by_repository": "md5:9595aae8afc7c9abb96635a79c183d44",
+        "archive_downloaded": false,
+        "catalogued_units": [
+          "Experiment and strain metadata",
+          "Colony-forming-unit counts",
+          "Barcode counts and trajectories",
+          "Posterior inference outputs"
+        ],
+        "notes": "Concept record21431096 request returned version record21431098. Local license filenames not found; Zenodo records archive license."
+      },
+      "matched_WAM_ledger_admitted": false
+    },
+    {
+      "id": "heinrich_mora_feldman_2026",
+      "title": "Evolution under Stochastic Transmission: Mutation-rate Modifiers",
+      "authors": [
+        "Elisa Heinrich-Mora",
+        "Marcus W. Feldman"
+      ],
+      "doi": "10.1016/j.tpb.2026.02.003",
+      "publication_status": "Published research article, Theoretical Population Biology 168 (April2026)",
+      "online_or_posted_date": "2026-02-21",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.tpb.2026.02.003",
+        "https://pubmed.ncbi.nlm.nih.gov/41730461/",
+        "https://doi.org/10.1101/2025.11.04.686407"
+      ],
+      "inspected": [
+        "Crossref preprint and journal metadata",
+        "PubMed journal abstract and electronic publication date"
+      ],
+      "observations_supported_by_inspected_material": [
+        "Two-locus model allows mutation rates associated with an invading modifier to fluctuate over generations.",
+        "Journal abstract states invasion depends on temporal distribution, selection and recombination rather than mean mutation rates alone.",
+        "Crossref preprint explicitly links to journal article."
+      ],
+      "tmd_implications_original_analysis": [
+        "Temporal mutation-rate structure is a possible model challenge beyond mean supply.",
+        "Theoretical result does not demonstrate corresponding biological WAM behavior."
+      ],
+      "limits": [
+        "Journal full text and code not inspected.",
+        "No experimental dataset established by inspected evidence."
+      ],
+      "raw_source_snapshots": [
+        {
+          "file": "raw/10.1101_2025.11.04.686407_crossref.json",
+          "sha256": "2093b58bccf12a9e1c42d580cc66c6950f3175eed0b96189af34dd41960945f8",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/10.1016_j.tpb.2026.02.003_crossref.json",
+          "sha256": "f94d1f2a6329679a8fbbf528055203bb5a5b5b626a27852744f9bf0e7bbd8589",
+          "redistribute_by_default": false
+        },
+        {
+          "file": "raw/41730461_pubmed.xml",
+          "sha256": "561c5689f9a213daab0a4dffdb0ea5a347cc3eecea6bd9a67a9118871e3c37e7",
+          "redistribute_by_default": false
+        }
+      ],
+      "data_availability": {
+        "status": "No experimental dataset identified from inspected abstract",
+        "preprint_posted_date": "2025-11-04",
+        "preprint_doi": "10.1101/2025.11.04.686407",
+        "verified_relation": "is-preprint-of 10.1016/j.tpb.2026.02.003"
+      },
+      "matched_WAM_ledger_admitted": false
+    }
+  ],
+  "original_review_author": "Ricardo Maldonado",
+  "original_review_license": "CC BY 4.0; source materials retain their original rights",
+  "AI_assistance": true
+}
