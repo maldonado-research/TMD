@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "round_id": "R000004-20261003",
+  "parent_work_item_id": "R000004",
+  "research_date": "2026-10-02",
+  "research_timezone": "America/Los_Angeles",
+  "recurrence_day_utc": "2026-10-03",
+  "execution": "manual finite source watch with independent internal source-claim review",
+  "status": "completed",
+  "kind": "new_evidence",
+  "scope": "Newly inspected primary-source literature and measurement audit, not new biological collection or first project awareness.",
+  "new_primary_articles_inspected": 3,
+  "unchanged_preprint_metadata_records": 2,
+  "source_acquisitions_attempted": 12,
+  "downloaded_response_bytes": 1195578,
+  "new_biological_observations_collected": 0,
+  "matched_WAM_panels_admitted": 0,
+  "registered_experiment": false,
+  "report": "../source_watch/2026-10-02/README.md",
+  "review_receipt": "../source_watch/INDEPENDENT_REVIEW_2026-10-02.json",
+  "source_verification_receipt": "../source_watch/2026-10-02/VERIFICATION_RECEIPT.json",
+  "summary": [
+    "Primary transcription-dependent SBW25 hotspot provides a route-specific supply alternative; native-site/reporter transfer remains unresolved.",
+    "Population history and survival-conditioned isolates cannot substitute for first-arrival route outcomes.",
+    "Plasmid masking, phenotype gates and nested cell events separate mutation production from observed visibility.",
+    "Earlier preprint metadata snapshots were unchanged; no new independent cohort is inferred."
+  ],
+  "next_action": "Authenticate the declared SBW25 figure-data archive and audit culture denominators, genotype validation and native/reporter transfer; preserve actual-study prerequisites."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_internal_source_claim_review_by_primary_agent",
+  "checked_utc": "2026-10-03T03:49:32.684962+00:00",
+  "outcome": "accepted_for_targeted_literature_and_measurement_scope",
+  "source_claim_sections_checked": [
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec003",
+      "independent_claim_anchors_checked": 4
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec004",
+      "independent_claim_anchors_checked": 1
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "independent_claim_anchors_checked": 5
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "independent_claim_anchors_checked": 2
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec4",
+      "independent_claim_anchors_checked": 2
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec12",
+      "independent_claim_anchors_checked": 3
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "independent_claim_anchors_checked": 2
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec5",
+      "independent_claim_anchors_checked": 2
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "independent_claim_anchors_checked": 2
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec17",
+      "independent_claim_anchors_checked": 3
+    }
+  ],
+  "primary_article_license_checks": 3,
+  "reported_rate_ratio_exact": "175/3",
+  "interpretation_review": [
+    "All reported observations remain in their actual backgrounds, assay frames and nested units.",
+    "Selected CC, survival-conditioned antibiotic endpoints and plasmid cell events are not a matched WAM likelihood.",
+    "Mutation-production mechanisms, genotype-to-phenotype visibility, simulations and prospective forecasts are distinguished.",
+    "Source authors, dates, licenses, version/cohort deduplication and raw-cache acquisition limits are retained.",
+    "No full text, figures, abstracts, raw dataset or private archive contents are copied into this public note."
+  ],
+  "primary_source_replay_receipt": "2026-10-02/VERIFICATION_RECEIPT.json",
+  "external_peer_review": false,
+  "new_biological_test": false,
+  "source_sha256": {
+    "2026-10-02/README.md": "e1c664fd25caee2efcb5eaddbbf79091bd978922ecbe8cdcd8fe2ac65e75929a",
+    "2026-10-02/SOURCES.json": "0f6e66c0dee05ad64b556043f093e847801d8b5f29ec97faf77330dc796b5d6a",
+    "2026-10-02/MEASUREMENT_LEDGER.json": "dc22856876135c9c5b2f8da519fe433372c784d4dee35c12066282f9d96f245f",
+    "2026-10-02/QUERY_RECEIPT.json": "578d467156631c204ca05c5335352cb81cc93ca11b317838afeeffecb74cefa5"
+  },
+  "reviewed_source_directory": "2026-10-02"
+}

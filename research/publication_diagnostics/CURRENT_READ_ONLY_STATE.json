@@ -1,0 +1,110 @@
+{
+  "checked_utc": "2026-10-03T03:40:13.445313+00:00",
+  "records": [
+    {
+      "requested_id": 23075312,
+      "status": 200,
+      "id": 23075312,
+      "owner": 1386319,
+      "conceptrecid": "23068055",
+      "submitted": true,
+      "state": "done",
+      "version": "0.5.0",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "doi": "10.5281/zenodo.23075312",
+      "links": {
+        "html": "https://zenodo.org/records/23075312",
+        "latest_draft": "https://zenodo.org/api/deposit/depositions/23075312",
+        "newversion": "https://zenodo.org/api/deposit/depositions/23075312/actions/newversion",
+        "record": "https://zenodo.org/api/records/23075312",
+        "record_html": "https://zenodo.org/record/23075312",
+        "latest": "https://zenodo.org/api/records/23075312/versions/latest"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "checksum": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "checksum": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "checksum": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "checksum": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "checksum": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "checksum": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    {
+      "requested_id": 23113326,
+      "status": 200,
+      "id": 23113326,
+      "owner": 1386319,
+      "conceptrecid": "23068055",
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "doi": "10.5281/zenodo.23113326",
+      "links": {
+        "html": "https://zenodo.org/records/23113326",
+        "latest_draft": "https://zenodo.org/api/deposit/depositions/23113326",
+        "newversion": "https://zenodo.org/api/deposit/depositions/23113326/actions/newversion",
+        "record": "https://zenodo.org/api/records/23113326",
+        "record_html": "https://zenodo.org/record/23113326",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "checksum": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "checksum": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "checksum": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "checksum": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "checksum": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "checksum": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    }
+  ],
+  "read_only": true
+}

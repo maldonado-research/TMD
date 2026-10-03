@@ -2,6 +2,8 @@
 
 **Author: Ricardo Maldonado. Status: exploratory research and reproducible software.**
 
+This page preserves the 30 September report. Later reviewed progress, including the prospective design, certified score computation and targeted source watch, is indexed in the [current research notes](research/README.md). [Publication status](research/PUBLICATION_STATUS.md) records the actual GitHub/Zenodo boundary.
+
 This release makes TMD easier to challenge with appropriate data. It adds a time-resolved diagnostic, distinguishes observationally equivalent explanations, corrects an important WS sampling interpretation, and performs a descriptive reanalysis of published rpoB counts. These are advances in the project's research methods. They do not establish a new law of evolution, confirm a biological mechanism, or demonstrate a breakthrough in physics.
 
 ## In More Basic Terms

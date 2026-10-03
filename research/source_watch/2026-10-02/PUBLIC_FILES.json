@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "default_public_candidates": [
+    "BASELINE_SOURCE_DEDUP.json",
+    "MEASUREMENT_LEDGER.json",
+    "QUERY_RECEIPT.json",
+    "README.md",
+    "SCREENING_LEDGER.json",
+    "SOURCES.json",
+    "SOURCE_TEXT_ANCHORS.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_watch.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "excluded": "All raw primary articles, responses, acquisition scripts and private evidence cache; no new-files/archive/attachments involved.",
+  "privacy_review": "Original commentary, bibliographic metadata, source hashes and verification code only; no credentials, personal data or private research content.",
+  "third_party_reuse": "No article full text, abstracts, figures, source code or datasets copied."
+}

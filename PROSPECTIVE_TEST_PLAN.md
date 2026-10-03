@@ -2,6 +2,8 @@
 
 This is a proposed analysis specification, not a registered experiment or a claim that experiments have occurred. The most informative next step is a matched, independently replicated biological test. Protocol implementation requires a suitably equipped laboratory and its normal review.
 
+This overview is supplemented by the [detailed 2 October design candidate](research/prospective_design/README.md) and [certified score implementation](research/certified_score/README.md). All 26 actual study inputs remain unresolved; an arithmetic implementation does not authenticate a laboratory measurement contract or register an experiment.
+
 ## Separate two questions
 
 **Endpoint prediction:** Can context-matched mutation supply and a restrictive TMD route model predict newly sampled genotypes better than established alternatives?

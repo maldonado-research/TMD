@@ -1,0 +1,62 @@
+{
+  "compared_current_public_files": [
+    {
+      "path": "LITERATURE_REVIEW.md",
+      "sha256": "ef2048b2b5d19eeea918c36191a09eef96521c2583bb1c0237067e2eaf8a66b2",
+      "bytes": 19602
+    },
+    {
+      "path": "research/literature/SOURCES.json",
+      "sha256": "df9cd760d8e882cd619f22c890d034f3a2889b7441d8392154877dd0e70041bb",
+      "bytes": 16204
+    },
+    {
+      "path": "research/panel_eligibility/hotspot/SOURCES.json",
+      "sha256": "0c1656eccf09b4e47d9e159457d12ff41753807e2135e201b935992dc8331c97",
+      "bytes": 2626
+    },
+    {
+      "path": "research/panel_eligibility/lind_sun/NOTES.md",
+      "sha256": "236e708459595614d87207809a19fb24c0e8cff49e207381cf77460f92d52f45",
+      "bytes": 11015
+    },
+    {
+      "path": "research/continuation/STATE.json",
+      "sha256": "5bac275d4c21342d1613835fa27df65fb6625a15ee591afab152a69d83b4451a",
+      "bytes": 8521
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+      "bytes": 5365
+    }
+  ],
+  "doi_identifiers": [
+    "10.1016/j.celrep.2025.115268",
+    "10.1016/j.tpb.2026.02.003",
+    "10.1093/evlett/qrag017",
+    "10.1093/genetics/iyag199",
+    "10.1093/molbev/msaf183",
+    "10.1093/nar/gkag673",
+    "10.1099/mic.0.001323",
+    "10.1101/2025.09.03.674101",
+    "10.1101/2025.09.22.677663",
+    "10.1101/2025.11.04.686407",
+    "10.1128/aem.01237-21",
+    "10.1128/mbio.03168-22",
+    "10.1371/journal.pbio.3003282",
+    "10.17605/osf.io/hsyfx",
+    "10.5281/zenodo.17497646",
+    "10.5281/zenodo.21431098",
+    "10.5281/zenodo.23068055",
+    "10.5281/zenodo.23075312",
+    "10.64898/2026.01.25.701616",
+    "10.64898/2026.08.18.745421",
+    "10.7554/elife.104848.2",
+    "10.7554/elife.38822",
+    "10.7554/elife.38822.015",
+    "10.7554/elife.38822.021",
+    "10.7554/elife.38822.022"
+  ],
+  "comparison_limits": "Current public root literature note, five-source update, panel notes and continuation registry; not a search of private computer or complete archive."
+}

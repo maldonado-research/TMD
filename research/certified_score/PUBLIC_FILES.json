@@ -1,0 +1,30 @@
+{
+  "external_peer_review": false,
+  "independent_internal_review_accepted": true,
+  "origin": "Original bounded rational numerical method, synthetic fixtures and independent internal mathematical review only; no private archive files, personal documents, sensitive observations, third-party full text or raw external datasets.",
+  "parent_measurement_task_status": "blocked_26_actual_study_fields_unresolved",
+  "parent_round_id": "R000005",
+  "public_file_count": 15,
+  "public_files": [
+    "README.md",
+    "LICENSE",
+    "certified_score.py",
+    "test_certified_score.py",
+    "verify_replay.py",
+    "example_input.json",
+    "example_result.json",
+    "precision_shares.json",
+    "precision_result.json",
+    "VERIFICATION_RECEIPT.json",
+    "review/independent_review.py",
+    "review/REVIEW_NOTES.md",
+    "review/INDEPENDENT_REVIEW_RECEIPT.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "round_id": "R000005-NUMERIC",
+  "schema_version": 1,
+  "scope": "Certified expected log-score comparison for realized rational frozen observed conditional W/A/M forecasts under independently justified count laws; no biological validation or resolved laboratory registry inputs.",
+  "sha256_manifest": "SHA256SUMS.txt",
+  "sha256_manifest_self_hash_excluded": true
+}
