@@ -25,9 +25,11 @@ All 44 new tests pass, with independent internal checks of 640 context projectio
 
 ## Continuing research rounds
 
-[Protocol and activation requirements](research/continuation/README.md) · [Persistent scientific state](research/continuation/STATE.json) · [New public drift-source audit](research/drift_audit/DRIFT_AUDIT_2026-10-01.md)
+[Protocol and activation requirements](research/continuation/README.md) · [Persistent scientific state](research/continuation/STATE.json) · [Public drift-source audit](research/drift_audit/DRIFT_AUDIT_2026-10-01.md) · [Matched-panel eligibility audit](research/panel_eligibility/README.md)
 
 A proposed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent candidate checkpoints, finite budgets and a once-daily source watch. It is inactive until reviewed, merged and securely configured. The first new round audits 33 clones, 67 culture timecourses and 206 paired colony counts; its technical-noise diagnostic does not estimate biological drift, establishment or TMD validation.
+
+The second round inspects four authenticated primary articles and records source-specific eligibility and missing measurements. It supports Lind's four rare-pathway mutants at the aggregate level, identifies reuse of the 41 Aws occurrences in Sun 2023, and sharpens sequence-hotspot and repair-dependent supply alternatives. No complete matched biological panel is admitted from the inspected material. The next queued round is a prospective discriminating design.
 
 ## Previous downloadable methods package: 0.4.0
 

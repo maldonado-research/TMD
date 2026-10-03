@@ -2,6 +2,8 @@
 
 The immediate empirical priority is to replace ambiguous benchmark panels with source-authenticated observations and preserve what was actually sampled. The available software and mathematics substantially exceed the independently validated biological evidence. This audit found a useful real secondary-data foundation, resolved a denominator question, and identified a more consequential mismatch in the WS flagship panel.
 
+**2 October 2026 primary-source follow-up:** [Research round R000002](research/panel_eligibility/README.md) authenticated the main Lind 2019 and Sun 2023 articles and two hotspot/repair studies. Lind's Results explicitly reports 109 collected mutants: 105 Wsp/Aws/Mws plus four rare-pathway mutants. This resolves the aggregate rare-four provenance gap recorded below; per-isolate/background allocation remains unauthenticated. It does not make the pathway-isolated collection a common-background race. Sun's 41 Aws occurrences reuse Lind's collection and provide no additional independent biological cohort. Supplementary workbooks remain unacquired; the follow-up admits no complete matched panel.
+
 ## Audit scope
 
 Read-only inspection covered the April 24 archive extraction and its inventory in `export_work`, relevant local TMD count/rate files, the two May 1 archives in untitled folder 253, and TMD-specific handoffs in D-Blast 3's vector store. Original files were not edited or executed. The May archives were listed and their short notes read without extraction. The broader local listing was scoped after it proved large; this is not a claim that every file on the computer was examined.

@@ -15,9 +15,13 @@
     "activation_status": "not_active",
     "scheduler_tool_available_in_this_chat": false,
     "github_default_branch_workflow_present": false,
-    "api_credential_configured": false,
-    "last_completed_round": "R000001",
-    "next_round_id": "R000002",
+    "api_credential_configured": null,
+    "cloud_provider_api_key_present": false,
+    "api_credential_status_scope": "No provider key is injected into this cloud runtime. GitHub Actions secret configuration is unknown because this integration receives HTTP 403 when inspecting its metadata.",
+    "github_enable_variable_status": "unknown_integration_cannot_inspect",
+    "latest_activation_receipt": "ACTIVATION_CHECK_2026-10-02.json",
+    "last_completed_round": "R000002",
+    "next_round_id": "R000003",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml"
   },
@@ -29,7 +33,9 @@
     "methods_concept_doi": "10.5281/zenodo.23068055",
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
-    "new_transport_unit_tests": 44
+    "new_transport_unit_tests": 44,
+    "latest_primary_source_audit_round": "R000002",
+    "latest_primary_source_audit_articles": 4
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -50,7 +56,7 @@
     {
       "id": "unattended_runner",
       "status": "blocked",
-      "observed": "No scheduler control exposed in this chat and no provider API credential available. Official Codex 0.160.0 catalog supports exact requested model/ultra; account-specific acceptance and an unattended run remain untested.",
+      "observed": "No scheduler control exposed in this chat and no provider API credential injected into this cloud runtime. GitHub reports zero registered workflows; prerequisite PRs 1 and 2 remain unmerged. This integration cannot inspect GitHub secret or enable-variable settings (HTTP 403), so their configuration is unknown. Official Codex 0.160.0 catalog supports the requested model/ultra; account-specific acceptance and an unattended run remain untested.",
       "unblocking_condition": "Configure a durable scheduler and verify the requested runtime model and effort with secure authentication."
     },
     {
@@ -64,25 +70,38 @@
       "status": "blocked",
       "observed": "Public 0.5.0 record confirmed, authenticated deposit access unavailable.",
       "unblocking_condition": "Securely configured deposit credential and verified account ownership/New version target."
+    },
+    {
+      "id": "lind2019_workbooks_and_horton_osf",
+      "status": "blocked",
+      "observed": "Lind figure-data workbook/API candidates and Horton OSF metadata returned proxy CONNECT403; Horton supplementary PDF endpoint returned CAPTCHA HTML. No raw XLSX/OSF data or supplementary PDF acquired. The drafted network additions are not proof of runtime activation.",
+      "unblocking_condition": "Changed and verified runtime access or another authenticated authoritative source. Preserve inspected source hashes and avoid unchanged hourly retries."
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000001 public drift-source audit completed with independent internal review; no matched WAM panel admitted.",
-    "next_action": "Resume R000002 source-specific matched-panel eligibility ledger, then R000003 prospective discriminating design.",
+    "last_completed_step": "R000002: four-source eligibility audit completed with independent internal review; no complete matched WAM panel admitted within inspected scope.",
+    "next_action": "R000003: freeze a prospective discriminating design, including held-out eta, independent supply/establishment/recovery alternatives and biological grouping.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
-      "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea"
+      "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
+      "research/panel_eligibility/review/REVIEW_RECEIPT.json": "da5c1372806671a21f3d2178cee404579f2fe90c19d5a861025b3f16d2c11d6b",
+      "research/panel_eligibility/STATUS.json": "d3fefd0ac4df7392f9fbedcb23abaf122a275fb4d7f291cce2640798dccf2c70"
     }
   },
   "reviewed_checkpoint": {
     "completed_work_item_ids": [
-      "R000001"
+      "R000001",
+      "R000002"
     ],
     "blocked_work_items": [],
     "source_fingerprints": [
       "doi:10.1093/genetics/iyag199; inspected release c1b47a977a9307281917ac1dee29861a813a7fd2; two LTEE evolutionary histories; 19 small-source input hashes in research/drift_audit/INPUT_MANIFEST.json",
-      "Sane2025 doi:10.1371/journal.pbio.3003282; article-table inventory only; supplement workbooks not acquired; primary XML sha256:a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea"
+      "Sane2025 doi:10.1371/journal.pbio.3003282; article-table inventory only; supplement workbooks not acquired; primary XML sha256:a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
+      "doi:10.7554/eLife.38822; primary XML PMC6324874; sha256:38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
+      "doi:10.1099/mic.0.001323; primary XML PMC10268835; sha256:6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
+      "doi:10.1093/molbev/msaf183; primary XML PMC12344412; sha256:38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
+      "doi:10.1093/nar/gkag673; primary XML PMC13335488; sha256:05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility."
     ],
-    "next_action": "Resume R000002 source-specific common-background route/supply/control eligibility ledger; do not relabel technical census pairs as biological routes."
+    "next_action": "R000003: freeze a prospective discriminating design, including held-out eta, independent supply/establishment/recovery alternatives and biological grouping."
   }
 }

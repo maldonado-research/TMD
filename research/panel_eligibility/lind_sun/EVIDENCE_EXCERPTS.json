@@ -1,0 +1,93 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "rows": [
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "xml_locator": "fig8/caption",
+      "evidence_excerpt": "Only within operon comparisons are valid for this figure as the mutants isolated without selection had double deletions of the other operons.",
+      "supported_claim": "Different background eligibility",
+      "source_sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "xml_locator": "s4-2",
+      "evidence_excerpt": "One randomly chosen colony per independent culture with WS colony morphology was restreaked once on KB agar.",
+      "supported_claim": "Protocol-level sampling unit; exported joins unverified",
+      "source_sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "xml_locator": "s2-4",
+      "evidence_excerpt": "Of the 109 mutants, 105 harboured a mutation in wsp (46 mutants), aws (41 mutants) or mws (18 mutants)",
+      "supported_claim": "Sequenced sample counts, not competing route probabilities",
+      "source_sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "xml_locator": "s2-4",
+      "evidence_excerpt": "The remaining four had mutations in previously described rare pathways (PFLU0085, PFLU0183)",
+      "supported_claim": "Authenticate rare-four aggregate only",
+      "source_sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "xml_locator": "s4-4",
+      "evidence_excerpt": "Control competitions were also used to determine the cost of the double deletions and the reporter construct relative to a wild type genetic background",
+      "supported_claim": "Existing controls concern competition costs",
+      "source_sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "sun2023",
+      "doi": "10.1099/mic.0.001323",
+      "xml_locator": "s6",
+      "evidence_excerpt": "We only use experimental data published previously, described in Appendix B.",
+      "supported_claim": "No new biological panel from numerical experiments",
+      "source_sha256": "6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10268835/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "sun2023",
+      "doi": "10.1099/mic.0.001323",
+      "xml_locator": "s8-2",
+      "evidence_excerpt": "It is not a statement about the true number of WS mutations per gene",
+      "supported_claim": "500 target estimate is not an observed sample denominator",
+      "source_sha256": "6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10268835/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    },
+    {
+      "study": "sun2023",
+      "doi": "10.1099/mic.0.001323",
+      "xml_locator": "s8-3",
+      "evidence_excerpt": "We used the experimental data for the aws pathway in Appendix B (Table 3) to calibrate the log-normal DMR model.",
+      "supported_claim": "Aws data is reused calibration evidence",
+      "source_sha256": "6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a",
+      "source_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10268835/",
+      "source_license": "CC BY 4.0",
+      "extraction_scope": "short attributed excerpt from main article"
+    }
+  ]
+}

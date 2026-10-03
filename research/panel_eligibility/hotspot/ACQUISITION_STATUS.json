@@ -1,0 +1,87 @@
+{
+  "schema": "tmd-source-acquisition-v1",
+  "bounded_scope": "Horton2025 and identified TorresAlonso2026",
+  "maximum_new_acquisitions": 6,
+  "maximum_public_download_bytes": 10485760,
+  "new_acquisition_attempts": 5,
+  "downloaded_bytes": 372718,
+  "records": [
+    {
+      "id": "horton_pmc.xml",
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12344412&rettype=xml",
+      "accessed_utc": "2026-10-02T06:22:43.686063+00:00",
+      "new_acquisition": true,
+      "http_status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12344412&rettype=xml",
+      "bytes": 117119,
+      "content_type": "text/xml; charset=UTF-8",
+      "sha256": "38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40",
+      "status": "acquired",
+      "local_raw_path": "raw/horton_pmc.xml",
+      "usable_primary_content": true
+    },
+    {
+      "id": "torres_pmc.xml",
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13335488&rettype=xml",
+      "accessed_utc": "2026-10-02T06:22:43.686875+00:00",
+      "new_acquisition": true,
+      "http_status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13335488&rettype=xml",
+      "bytes": 206305,
+      "content_type": "text/xml; charset=UTF-8",
+      "sha256": "05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26",
+      "status": "acquired",
+      "local_raw_path": "raw/torres_pmc.xml",
+      "usable_primary_content": true
+    },
+    {
+      "id": "horton_osf_node.json",
+      "requested_url": "https://api.osf.io/v2/nodes/hsyfx/",
+      "accessed_utc": "2026-10-02T06:24:42.734137+00:00",
+      "new_acquisition": true,
+      "status": "failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "torres_crossref.json",
+      "requested_url": "https://api.crossref.org/works/10.1093/nar/gkag673",
+      "accessed_utc": "2026-10-02T06:24:42.734722+00:00",
+      "new_acquisition": true,
+      "status": "acquired",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1093/nar/gkag673",
+      "bytes": 27878,
+      "sha256": "fd5f680462eff9e59e6510c560cc4e7fdc6172ab4e3d43689641906e3126257d",
+      "content_type": "application/json",
+      "local_raw_path": "raw/torres_crossref.json"
+    },
+    {
+      "id": "horton_supplement_challenge.html",
+      "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12344412/bin/msaf183_supplementary_data.pdf",
+      "accessed_utc": "2026-10-02T06:25:26.493430+00:00",
+      "new_acquisition": true,
+      "http_status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12344412/bin/msaf183_supplementary_data.pdf",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 21416,
+      "sha256": "d0b2ee9481660bdac123a643e0a00f50beef82d1a97f202397db5cb369113876",
+      "local_raw_path": "raw/horton_supplement_challenge.html",
+      "status": "blocked_browser_challenge",
+      "verified_artifact_type": "HTML reCAPTCHA challenge, not a PDF",
+      "usable_primary_content": false
+    }
+  ],
+  "not_acquired": [
+    {
+      "source": "TorresAlonso2026",
+      "artifact": "gkag673_supplemental_files.zip",
+      "reason": "Existing repository review reports 14.8 MB; outside this subtask 10 MiB public-download cap. No ZIP request made; S1\u2013S6 and underlying culture mapping not inspected."
+    },
+    {
+      "source": "Horton2025",
+      "artifact": "OSF HSYFX sequencing data and R script",
+      "reason": "OSF API proxy returned 403 once; metadata, file list and asset licenses not verified. No unchanged retry."
+    }
+  ],
+  "scope_limit": "Targeted examination of two identified primary articles, one Crossref record, and two unsuccessful supplementary/data access routes. No systematic web or archive coverage claim."
+}

@@ -1,0 +1,23 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "validation_utc": "2026-10-02T06:36:43.993427+00:00",
+  "primary_snapshot_identity_and_hashes": "passed",
+  "main_article_license_checks": "passed",
+  "key_methods_caption_short_excerpt_checks": "passed",
+  "focal_mutant_sum": 105,
+  "article_total_with_rare": 109,
+  "rare_aggregate": 4,
+  "sun_aws_transcription_rows": 12,
+  "sun_aws_transcription_sum": 41,
+  "machine_eligibility_rows": 14,
+  "missing_measurement_rows": 12,
+  "source_acquisition_attempts": 6,
+  "source_resources_received": 3,
+  "downloaded_bytes": 478656,
+  "generated_artifacts_byte_reproduction": "passed: 8 files via --check",
+  "matched_tmd_panel_authenticated": false,
+  "source_workbooks_acquired": false,
+  "tmd_hypothesis_test_performed": false,
+  "raw_third_party_publication": false,
+  "network_access_bypassed": false
+}

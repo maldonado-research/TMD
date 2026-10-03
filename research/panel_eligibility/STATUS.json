@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "audit_date_utc": "2026-10-02",
+  "round_id": "R000002",
+  "status": "completed",
+  "scientific_result": "inconclusive_for_current_matched_WAM_test",
+  "primary_sources_authenticated": 4,
+  "observation_ledger_rows": 20,
+  "missing_measurement_rows": 12,
+  "matched_panel_rows_admitted": 0,
+  "tmd_hypothesis_tests_performed": 0,
+  "new_biological_experiments_performed": 0,
+  "retrospective_eligibility_audit": true,
+  "scope": "Inspected material for the current matched common-background context-specific Wsp/Aws/Mws supply-selected-outcome-fixed-route-recovery estimand only; no global dataset absence claim.",
+  "scientific_acquisition_attempts": 11,
+  "downloaded_bytes": 851374,
+  "public_source_author_files": 24,
+  "bulk_raw_source_files_in_public_candidate": 0,
+  "independent_internal_review": "passed_with_scope_limits",
+  "external_peer_review": false,
+  "review_receipt": "review/REVIEW_RECEIPT.json",
+  "source_components": {
+    "lind_sun": "lind_sun/ELIGIBILITY_ROWS.json",
+    "hotspot_repair": "hotspot/ELIGIBILITY_LEDGER.json"
+  },
+  "next_action": "R000003: freeze a prospective discriminating design, including held-out eta, independent supply/establishment/recovery alternatives and biological grouping.",
+  "scheduled_execution_tested": false,
+  "new_zenodo_version_created": false
+}

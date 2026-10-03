@@ -1,0 +1,90 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "primary_sources": [
+    {
+      "study": "lind2019",
+      "title": "Predicting mutational routes to new adaptive phenotypes",
+      "doi": "10.7554/eLife.38822",
+      "pmcid": "PMC6324874",
+      "pmcid_version": "PMC6324874.1",
+      "pmid": "30616716",
+      "local_raw_path": "raw/lind2019_pmc.xml",
+      "sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "bytes": 297863,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6324874",
+      "retrieved_utc": "2026-10-02T06:22:47.407921+00:00",
+      "snapshot_not_experiment_certificate": true,
+      "source_license": "CC BY 4.0, verified in main article permissions",
+      "raw_publication_allowed_by_bundle": false,
+      "inspected_scope": "main article including Methods, figures, tables, data-availability statement and references; exclude subarticles/reviewer correspondence"
+    },
+    {
+      "study": "sun2023",
+      "title": "Distribution of mutation rates challenges evolutionary predictability",
+      "doi": "10.1099/mic.0.001323",
+      "pmcid": "PMC10268835",
+      "pmcid_version": "PMC10268835.1",
+      "pmid": "37134005",
+      "local_raw_path": "raw/sun2023_pmc.xml",
+      "sha256": "6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a",
+      "bytes": 180237,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10268835",
+      "retrieved_utc": "2026-10-02T06:22:47.409092+00:00",
+      "snapshot_not_experiment_certificate": true,
+      "source_license": "CC BY 4.0, verified in main article permissions",
+      "raw_publication_allowed_by_bundle": false,
+      "inspected_scope": "main article including Methods, figures, tables, data-availability statement and references; exclude subarticles/reviewer correspondence"
+    }
+  ],
+  "public_project_documents": [
+    {
+      "repository_relative_path": "DATA_AND_PROVENANCE_AUDIT.md",
+      "sha256_as_inspected": "9e55ac977c2209975e9c2ce1f0b9a98897724a3f88c2e45def47df85507771b7",
+      "source_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+      "role": "frozen public project requirement snapshot; secondary claims not primary authentication; not refreshed during reproduction"
+    },
+    {
+      "repository_relative_path": "EVIDENCE_AND_CLAIMS.md",
+      "sha256_as_inspected": "c90011ec70a37eeb697b53b662c52aefaa04844a735bfb2be371755c8eb43ff5",
+      "source_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+      "role": "frozen public project requirement snapshot; secondary claims not primary authentication; not refreshed during reproduction"
+    },
+    {
+      "repository_relative_path": "MATHEMATICAL_EXTENSION.md",
+      "sha256_as_inspected": "6ff2174ee99a62659c4c90d8aac5f6f8b5a7f87ee9eaaa64c7cd5142c626fda5",
+      "source_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+      "role": "frozen public project requirement snapshot; secondary claims not primary authentication; not refreshed during reproduction"
+    },
+    {
+      "repository_relative_path": "PROSPECTIVE_TEST_PLAN.md",
+      "sha256_as_inspected": "8f00109661becb1251be6c9685846b3942ac4efb8b308c51c0f385acda07fade",
+      "source_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+      "role": "frozen public project requirement snapshot; secondary claims not primary authentication; not refreshed during reproduction"
+    },
+    {
+      "repository_relative_path": "research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "sha256_as_inspected": "d43cc0861d535389cf7650b3969c65b838e2222ae0215eef5359014367cc2a1d",
+      "source_commit": "9d957e7aa05172129fe4cbca61a2fe637ad65e51",
+      "role": "frozen public project requirement snapshot; secondary claims not primary authentication; not refreshed during reproduction"
+    }
+  ],
+  "declared_lind_source_files": [
+    {
+      "doi": "10.7554/eLife.38822.015",
+      "xml_id": "fig6sdata1",
+      "filename": "elife-38822-fig6-data1.xlsx",
+      "description": "WS mutations in Wsp, Aws and Mws",
+      "bytes_acquired": false
+    },
+    {
+      "doi": "10.7554/eLife.38822.021",
+      "xml_id": "fig9sdata1",
+      "filename": "elife-38822-fig9-data1.xlsx",
+      "description": "fitness assay data",
+      "bytes_acquired": false
+    }
+  ],
+  "sun_declared_code_url": "https://github.com/anthony-sun/Mutationrates.git",
+  "code_acquired_or_run": false,
+  "prior_cached_lind_sun_primary_source_found": false
+}

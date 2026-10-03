@@ -1,0 +1,301 @@
+{
+  "schema": "tmd-independent-primary-review-v1",
+  "round": "R000002",
+  "review_date_utc": "2026-10-02",
+  "review_kind": "independent_internal_primary_source_eligibility_review",
+  "outcome": "passed_with_scope_limits",
+  "external_peer_review": false,
+  "raw_source_publication_allowed": false,
+  "public_files": [
+    "INDEPENDENT_REVIEW.md",
+    "REVIEW_RECEIPT.json",
+    "verify_review.py"
+  ],
+  "verifier_sha256": "2294041542c7f5d66d81e5db08dc245cd16bd7f009f898f58912727cf1a1088d",
+  "authenticated_primary_sources": [
+    {
+      "study": "lind2019",
+      "doi": "10.7554/eLife.38822",
+      "pmcid": "PMC6324874",
+      "pmcid_version": "PMC6324874.1",
+      "sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "bytes": 297863,
+      "main_article_license": "CC BY 4.0"
+    },
+    {
+      "study": "sun2023",
+      "doi": "10.1099/mic.0.001323",
+      "pmcid": "PMC10268835",
+      "pmcid_version": "PMC10268835.1",
+      "sha256": "6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a",
+      "bytes": 180237,
+      "main_article_license": "CC BY 4.0"
+    },
+    {
+      "study": "Horton2025",
+      "doi": "10.1093/molbev/msaf183",
+      "pmcid": "PMC12344412",
+      "pmcid_version": "PMC12344412.1",
+      "sha256": "38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40",
+      "bytes": 117119,
+      "main_article_license": "CC BY 4.0"
+    },
+    {
+      "study": "TorresAlonso2026",
+      "doi": "10.1093/nar/gkag673",
+      "pmcid": "PMC13335488",
+      "pmcid_version": "PMC13335488.1",
+      "sha256": "05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26",
+      "bytes": 206305,
+      "main_article_license": "CC BY 4.0"
+    }
+  ],
+  "reviewed_ledger_inputs": [
+    {
+      "path": "README.md",
+      "sha256": "9f49c037cdd074cce54275e266a657e1866e6b7c1604460cf868d47c54a991bd"
+    },
+    {
+      "path": "hotspot/.gitignore",
+      "sha256": "35740b6d3be41e8085fa77e0f4f2cfebd19344518e9cc9bfa8ad9cbdf1412fb7"
+    },
+    {
+      "path": "hotspot/ACQUISITION_STATUS.json",
+      "sha256": "7b2dff587f6ef3fd8b4b81f64599bf55a31f9aa85af76fe82208b1620b14fb5a"
+    },
+    {
+      "path": "hotspot/ELIGIBILITY_LEDGER.json",
+      "sha256": "6c4ec9ecb35e10309473a32b717572839cdbf012ec4728291413f384c89bc687"
+    },
+    {
+      "path": "hotspot/INPUT_MANIFEST.json",
+      "sha256": "84fe6ac281d89a3e95012dee6fee81913cfe320c35e9ccc90fc5cba8cb5796e8"
+    },
+    {
+      "path": "hotspot/NOTES.md",
+      "sha256": "85e1736859db8f931f27f8a9de82e21464f5b298d6635f0f5035af165578ada8"
+    },
+    {
+      "path": "hotspot/PUBLIC_FILES.json",
+      "sha256": "5a253bba61eaf6f408564b74392c8bd83bc731dcf711786bc9bd043f4559f402"
+    },
+    {
+      "path": "hotspot/SHA256SUMS.txt",
+      "sha256": "fa8f325804cbce3854c31d47d9b3b44c60b0128be9bd3a645ff8c5cf2d240c8f"
+    },
+    {
+      "path": "hotspot/SOURCES.json",
+      "sha256": "0c1656eccf09b4e47d9e159457d12ff41753807e2135e201b935992dc8331c97"
+    },
+    {
+      "path": "hotspot/SOURCE_SUPPORT.json",
+      "sha256": "a0747278e0dba3a8606d7ae8bb458378833ea7dbf28a293e3b88b86aa15979e5"
+    },
+    {
+      "path": "lind_sun/.gitignore",
+      "sha256": "35740b6d3be41e8085fa77e0f4f2cfebd19344518e9cc9bfa8ad9cbdf1412fb7"
+    },
+    {
+      "path": "lind_sun/ACQUISITION_STATUS.json",
+      "sha256": "bfac69e993076c892f3bee60748927ebd218ced342141c92704d0c1c1c88cd03"
+    },
+    {
+      "path": "lind_sun/ELIGIBILITY_ROWS.json",
+      "sha256": "92e02094d5470091c2a91ee01f561cbff701220c8b034a1d152d3492cdc26f43"
+    },
+    {
+      "path": "lind_sun/EVIDENCE_EXCERPTS.json",
+      "sha256": "d2b1e26fab0d91114e43b5f0a9a5091a0290568cd8510991c1eefb66f8c890d1"
+    },
+    {
+      "path": "lind_sun/LICENSING.md",
+      "sha256": "739357e3089f27f6c4ba2731d4c4611dd2effedf5849b595acabcca230e3c452"
+    },
+    {
+      "path": "lind_sun/MISSING_MEASUREMENTS.json",
+      "sha256": "8eddcd619ef2ce67a218b8c2ff3f0e4c207b227058902027088855f3cfcd2788"
+    },
+    {
+      "path": "lind_sun/NOTES.md",
+      "sha256": "236e708459595614d87207809a19fb24c0e8cff49e207381cf77460f92d52f45"
+    },
+    {
+      "path": "lind_sun/PUBLIC_FILES.json",
+      "sha256": "ba7b5ac1849804021ba82b00dc7e2a65861d3fe1d8bed5fef9934d1a6985a2b7"
+    },
+    {
+      "path": "lind_sun/SHA256SUMS.txt",
+      "sha256": "089efd9af19b18a8d4891277cb09ea2e379e14cda34a54b5e987636b0f244f58"
+    },
+    {
+      "path": "lind_sun/SOURCE_MANIFEST.json",
+      "sha256": "1fe52e8ed5fda8cbd7561ed14bf0093bd30b82e7c9112b15c16fc33856449d53"
+    },
+    {
+      "path": "lind_sun/VALIDATION.json",
+      "sha256": "8fee1724e1e964ab1ab30abbce7396eb2dd97bfa0ea71ae80b709e9acddb9e1e"
+    },
+    {
+      "path": "lind_sun/eligibility_rows.csv",
+      "sha256": "f050f966bf02c1c5a9b2190b69cfeede27a5d41f8840c78b94fbf10e59fd2375"
+    },
+    {
+      "path": "lind_sun/missing_measurements.csv",
+      "sha256": "6978a29f695398c961b444d6fea7695d03d6a05de47bc48939cf54baa238254d"
+    },
+    {
+      "path": "lind_sun/reproduce_audit.py",
+      "sha256": "adb7fd3e911b37e2df11bbe3b70d5b7de69b6dbcb51c85cc6cc916979cdbe214"
+    },
+    {
+      "path": "lind_sun/sun_aws_table3_transcription.csv",
+      "sha256": "4ea72f09a4a4cfbf7c9e95af48486b2bcaca9471c08e28a351648ef948bc21cd"
+    }
+  ],
+  "observations": {
+    "lind_total": 109,
+    "lind_focal_counts": {
+      "wsp": 46,
+      "aws": 41,
+      "mws": 18
+    },
+    "lind_rare_aggregate": 4,
+    "lind_cultures_per_assay": 60,
+    "lind_figure2_n": {
+      "Wsp": 200,
+      "Aws": 200,
+      "Mws": 400,
+      "WT": 100
+    },
+    "lind_reported_mutation_rates": {
+      "Aws": 6.5e-09,
+      "Wsp": 3.7000000000000005e-09,
+      "Mws": 7.4e-10,
+      "WT": 1.12e-08
+    },
+    "historical_Wsp_fraction": {
+      "numerator": 15,
+      "denominator": 24,
+      "archive_17_6_3_equivalence_authenticated": false
+    },
+    "sun_table3_rows": [
+      {
+        "gene": "awsO",
+        "mutation": "A101C",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsO",
+        "mutation": "A119C",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsR",
+        "mutation": "A079C",
+        "reported_occurrences": 9
+      },
+      {
+        "gene": "awsR",
+        "mutation": "C160T",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsR",
+        "mutation": "C188T",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsR",
+        "mutation": "C575T",
+        "reported_occurrences": 2
+      },
+      {
+        "gene": "awsR",
+        "mutation": "A656C",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsX",
+        "mutation": "C092T",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsX",
+        "mutation": "∆100–138",
+        "reported_occurrences": 2
+      },
+      {
+        "gene": "awsX",
+        "mutation": "T206G",
+        "reported_occurrences": 1
+      },
+      {
+        "gene": "awsX",
+        "mutation": "∆229–261",
+        "reported_occurrences": 20
+      },
+      {
+        "gene": "awsX",
+        "mutation": "T404G",
+        "reported_occurrences": 1
+      }
+    ],
+    "sun_table3_total": 41,
+    "sun_new_biological_cohorts": 0,
+    "sun_estimated_target_genes": 16,
+    "sun_estimated_targets_total": 500,
+    "horton_figure1_group_n": [
+      29,
+      112,
+      434,
+      47
+    ],
+    "horton_figure1_total": 622,
+    "horton_figure5_seeded": [
+      49,
+      52,
+      52,
+      51
+    ],
+    "horton_figure5_evolved_sequenced": [
+      38,
+      43,
+      44,
+      19
+    ],
+    "horton_figure5_nonemergent_derived": [
+      11,
+      9,
+      8,
+      32
+    ],
+    "torres_methods_cultures": 30,
+    "torres_caption_experiments_lower_bound": 5,
+    "torres_methods_harvest_ml": 50,
+    "torres_caption_treated_aliquot_ml": 10,
+    "torres_sequenced_colonies_per_strain_condition_lower_bound": 10,
+    "torres_fitness_costs_assessed": false
+  },
+  "verification_summary": {
+    "primary_sources": 4,
+    "ledger_rows": 20,
+    "checked_short_excerpts": 19,
+    "authenticated_matched_panel_rows": 0,
+    "tmd_hypothesis_tests": 0,
+    "source_author_public_files": 24,
+    "source_author_checksum_entries": 22,
+    "missing_measurement_rows": 12,
+    "acquisition_attempts_total": 11,
+    "acquired_bytes_total": 851374
+  },
+  "negative_drift_checks_executed": [
+    "changed_Lind_count_rejected",
+    "misattributed_excerpt_locator_rejected",
+    "public_artifact_checksum_drift_rejected",
+    "modified_primary_XML_bytes_rejected"
+  ],
+  "eligibility_scope": "Inspected material for the current matched common-background context-specific Wsp/Aws/Mws supply-selected-outcome-fixed-route-recovery estimand only; no global dataset absence claim.",
+  "statistical_significance_recomputed": false,
+  "source_experiments_independently_reproduced": false,
+  "scheduled_api_inference_tested": false
+}

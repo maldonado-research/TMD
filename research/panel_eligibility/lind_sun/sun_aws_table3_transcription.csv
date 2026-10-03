@@ -1,0 +1,13 @@
+gene,mutation,reported_occurrences,source,independent_new_collection,eligible_competing_route_winner
+awsO,A101C,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsO,A119C,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsR,A079C,9,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsR,C160T,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsR,C188T,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsR,C575T,2,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsR,A656C,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsX,C092T,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsX,∆100–138,2,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsX,T206G,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsX,∆229–261,20,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False
+awsX,T404G,1,Sun and Lind 2023 Appendix B Table 3; reused Lind et al. 2019,False,False

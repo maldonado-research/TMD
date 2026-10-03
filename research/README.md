@@ -33,3 +33,5 @@ Alternatively, the script can attempt an official public acquisition with `--fet
 ## Continuing research rounds
 
 The [continuation protocol](continuation/README.md) records the requested GPT-6.1 Sol Ultra setting, persistent checkpoints, an hourly workflow proposed for review, and a daily changed-source watch. The schedule is not active. The first new [drift-source audit](drift_audit/DRIFT_AUDIT_2026-10-01.md) reconciles biological and technical units and a model-conditional census residual; it supplies no matched W/A/M panel or establishment estimate. [Independent internal review](drift_audit/INDEPENDENT_REVIEW.md) checks the source identities, calculations and limits.
+
+The second [matched-panel eligibility audit](panel_eligibility/README.md), dated 2 October 2026 UTC, authenticates four primary articles. Original notes, structured measurement ledgers and offline verification preserve source overlap, actual sampling units and unacquired-data limits. No complete matched panel is admitted. The next queued work is a prospective discriminating design, with held-out prediction and strong measured alternatives.

@@ -2,7 +2,7 @@
 
 **Research note · 1 October 2026 · Exploratory hypothesis and prospective analysis**
 
-The public TMD methods package currently reaches version 0.5.0. Its statistical tools make a restricted evolutionary-route hypothesis testable under explicit sampling and measurement assumptions. An authenticated biological panel combining matched mutation baselines, selected route outcomes, and route-specific recovery controls is still missing. The next empirical advance requires those measurements; additional synthetic examples alone cannot establish the biological hypothesis.
+The public TMD methods package currently reaches version 0.5.0. Its statistical tools make a restricted evolutionary-route hypothesis testable under explicit sampling and measurement assumptions. No complete authenticated biological panel combining matched mutation baselines, selected route outcomes, and route-specific recovery controls was admitted for the current Wsp/Aws/Mws estimand from the public material inspected. The next empirical advance requires those measurements; additional synthetic examples alone cannot establish the biological hypothesis.
 
 This original formulation uses public TMD documentation. The accompanying literature update and source audit use attributed public primary sources. It separates the proposed model, its observable restrictions, and a protocol for obtaining evidence. The bounded recovery calculation below extends an existing sensitivity approach; no discovery or external mathematical priority is claimed.
 
@@ -73,6 +73,7 @@ The public documentation distinguishes published observations from simulations a
 
 - Leehan and Nicholson's rpoB study supplies a secondary transcription of 111 sequenced resistant-isolate observations across two media and three blocks. A reported held-out-block gain of 13.126 bits shows predictive information from medium in this dataset. These are selected isolates, not newly collected experiments or exact first arrivals; the result does not identify a TMD-specific cause.
 - Lind and colleagues' 46/41/18 Wsp/Aws/Mws samples came from different pathway-isolated backgrounds. They do not supply competing-route winner frequencies from one ancestor.
+- The [2 October primary-source follow-up](panel_eligibility/README.md) authenticates Lind's 109-mutant inventory, including four rare-pathway mutants, while retaining the cross-background boundary. Sun and Lind's 2023 Aws table reuses the same 41 prior occurrences. Hotspot and repair studies inform stronger supply alternatives; none of the inspected measurements supplies the full matched route/control panel.
 - Version 0.5.0 reports 13 automated tests and 160 synthetic count datasets, including reused datasets. Those checks concern implementation and selected generating scenarios. They provide no new biological measurements or certified general power.
 
 Mathematically equivalent mechanisms impose another limit. A first-event law
@@ -141,6 +142,8 @@ The useful TMD question is whether a particular adjustment predicts route freque
 Model and evidence sources: the public [mathematical extension](https://github.com/maldonado-research/TMD/blob/main/MATHEMATICAL_EXTENSION.md), [claims ledger](https://github.com/maldonado-research/TMD/blob/main/EVIDENCE_AND_CLAIMS.md), [prospective test plan](https://github.com/maldonado-research/TMD/blob/main/PROSPECTIVE_TEST_PLAN.md), and [0.5.0 overview](https://github.com/maldonado-research/TMD/blob/main/TMD_RESEARCH_EXTENSION_0_5_0.md). The public 0.3.0 and 0.5.0 methods packages supply the recovery sensitivity and confidence constructions summarized here.
 
 **Bibliographic note:** the identifiers and descriptions below are inherited from public TMD documentation; this follow-up did not independently reverify every earlier citation. A separate [targeted five-source update](literature/LITERATURE_UPDATE_2026-10-01.md) verifies recent mutation-bias, growth-effect, drift and transmission-modifier studies, with explicit abstract/full-text inspection limits. The [public source audit](public_dataset_audit/AUDIT_REPORT.md) reproduces one article-table inventory and its dependence qualifications. Neither is a systematic review or a matched TMD biological test.
+
+The subsequent [four-source eligibility audit](panel_eligibility/README.md), dated 2 October 2026, independently authenticates the Lind 2019, Sun 2023 and Horton 2025 primary articles listed below, plus Torres and Alonso 2026. Its source manifests and internal review state inspection depth and acquisition limits.
 
 - Lind, Libby, Herzog and Rainey (2019). *Predicting mutational routes to new adaptive phenotypes*. DOI: [10.7554/eLife.38822](https://doi.org/10.7554/eLife.38822). Mutation supply, pathway architecture, and selected outcomes.
 - Leehan and Nicholson (2021). *The Spectrum of Spontaneous Rifampin Resistance Mutations in the Bacillus subtilis rpoB Gene Depends on the Growth Environment*. DOI: [10.1128/AEM.01237-21](https://doi.org/10.1128/AEM.01237-21). The attributed rpoB source experiment.
