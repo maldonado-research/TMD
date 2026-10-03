@@ -1,4 +1,4 @@
-# Evidence and claims — September 30, 2026
+# Evidence and claims — updated 2 October 2026
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
@@ -9,6 +9,10 @@
 | Lind 2019 rare-four mutant total | Article-level aggregate authenticated in the 2 October 2026 [primary-source audit](research/panel_eligibility/README.md) | 109 collected = 105 focal + four rare mutants; isolate/background allocation unverified; this is not a common-background route panel. |
 | Sun 2023 Aws sample as independent replication | Source overlap authenticated in the same audit | Its 41 occurrences reuse Lind 2019; simulations and reanalysis do not add a biological cohort. |
 | Four-source matched-panel eligibility audit | Completed targeted source assessment, no complete matched panel admitted | Applies to inspected material and the current restricted W/A/M estimand; not a global absence claim or biological falsification. |
+| Prospective common-curvature forecast | Reviewed design candidate, not registered | Observed conditional-triad target; 26 actual study inputs remain unresolved. |
+| Certified prospective score computation | Exact rational implementation with internal adversarial review and synthetic replay | Requires externally justified count laws, independent frozen forecasts and fixed stopping; covers actual rational forecasts within explicit resource caps. |
+| Conservative score-width planning | Pre-outcome deterministic numerical bound | Example requirements exceed the prototype cap; not power, an effect estimate, achieved precision or a chosen biological sample size. |
+| Three-article mutation-supply/observation watch | Primary-source literature and measurement audit | Reporter/native transfer, selected survivors and plasmid masking remain distinct from a matched W/A/M experiment; no new biological confirmation. |
 | Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
 | Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
 | Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |

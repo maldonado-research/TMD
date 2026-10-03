@@ -1,0 +1,510 @@
+{
+  "hash_rule": "SHA256(UTF8(\"\".join(paragraph.itertext()))), preserving source XML character content; section title used for navigation",
+  "anchors": [
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec003",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "70c290d1a270e4d502d893e7824f6dd02773555101f2815018e1d9aa5a11fd2e"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec003",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "a299fa9d811c1033bcc7f207ac97717697435444e442670ca8901ef8ad2c88ca"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec004",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "55067511c3689b25106186070bc5a62e47cbc624150ac3adeecdba03d874cb37"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "841680aa211860ccc33ad1185725c7daecd4817998207a343c66c123cf0fc517"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "9ac7486947840ea5ed075ef5994ba926a82888a827cd519e1d36021106abae92"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "e92127a25feff695ed8e96ddf1f16210753634e60b90ae1e1f19bc536b817883"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "fe57668dd3e17afda6d1cc70a1e4019b0ec8deaaf2b6c508630e32c55f38902a"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "44dafee300f98f690e7ab68a20144c5a36c64f01bf7245e33bda2fe64deff692"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "2e0821e38dd93232151b9f8b9b8439e42baddb701d231edbf51b3329e1af7e18"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "61070141071f840ca56492f3eb2e80db70f7d98949264c591fdfdaaaa773073c"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "b843891f1848f0f1109065ef28a75dab3efb5ba19c86fa27abc8bf766a84c205"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec008",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "f1a34e268a9ec0a929a4dab15b5c92d5c848a9cdcc31d68fd2128f9f86fe0e86"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec008",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "191054199e2f4bc8fcb20b1347875b6a7a1918294bc09b6dba0b8548fd4a1762"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec008",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "2a398c6ab29b249713154063d8f898fd098e0d498e65f98241e874ddf4e0d86e"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec008",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "bcd6a4449e348423d6945baa6bef6592bacefed7024f44a2253bce5e2423c84f"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec008",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "ed3efe02ed94773b373fdf04db4c7fda1811ef62aee0411b7bca3d5c28e77741"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec012",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "08adbecbf9f6d712b1aaf8a6b53742e97266ca688ee0b2a643249b24aca0e242"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec013",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "777ed3d83bb74b85e043a6f6de2334798e3a7ce01db47e5048606e7d20590dab"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec016",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "72915ceef6c1c7309818847b82130d66fb7c3fb542c304ec6117cf1e2254512f"
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec016",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": null,
+      "normalized_itertext_sha256": "695fd14f3b1b972c1cf1b5fc390f8910081250acc19b88320102a15ae8b2c614"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par13",
+      "normalized_itertext_sha256": "9f48d720903a6c0427954697f149a879e25fb98bae0c97eebf9d6fb5dc94bf5b"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par14",
+      "normalized_itertext_sha256": "1bcff47bffbb5f67701b373b14978da18cd9d550513333649f16954a43b97c52"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par15",
+      "normalized_itertext_sha256": "f19117c185340475fdf242686837da6348749a80a3f54a6a210925d436f86297"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par16",
+      "normalized_itertext_sha256": "af4293ed14f5bfc487fc0471c0184e21df9758be399acc7973f99e7570d9a847"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": "Par17",
+      "normalized_itertext_sha256": "4069cce9f852d7938b3b5b85980857b16cc8661b9f45a3c08743d540ec528556"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 5,
+      "paragraph_id": "Par18",
+      "normalized_itertext_sha256": "b13b4eb855446a3ca8fa96b77e98689063b161a94d56e45bf68675a484ac58ca"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 6,
+      "paragraph_id": "Par19",
+      "normalized_itertext_sha256": "f831611548d32c21026d08734377d711dca8bffcdceed31afa5d2c18a4382082"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 7,
+      "paragraph_id": "Par20",
+      "normalized_itertext_sha256": "4d3a57743259127ca6e42bc1fd63fe434cc926a47b80aed6c7cd366902234f0a"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec4",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par21",
+      "normalized_itertext_sha256": "07c5527b64aad3dc378bd9b316ea5ae8584bc89a1b504485610b1e534a996ea4"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec4",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par22",
+      "normalized_itertext_sha256": "036b3d956b7d648aaef18c8535847c4ff737ecd131787b4ce7f25afeb1e2e517"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par23",
+      "normalized_itertext_sha256": "0dcb9be448353ab32caa1e389d54849a36f36ccc1304041aa06a6854840dfbbd"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par24",
+      "normalized_itertext_sha256": "bf936b2ba5191cfe34feda02e7075ecaa45e2e39476a2d36446162712a9b3894"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par25",
+      "normalized_itertext_sha256": "1e413b21bbec4dd70e1bb3f6a25d74d2f7181acd68ea2cfda95a5af6be87073b"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par26",
+      "normalized_itertext_sha256": "622d3989483017d3dc5548ab9aa33f807746b53b21559acc78e83ceca287f1dc"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": "Par27",
+      "normalized_itertext_sha256": "a8ee1816054e9c0494d1a8650b86eeab173b6427128c4407efecb17acec53c22"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 5,
+      "paragraph_id": "Par28",
+      "normalized_itertext_sha256": "529a7d2f327acb0548e0fa8729a711575c8e326eadcf66239afd05d18d4427a5"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 6,
+      "paragraph_id": "Par29",
+      "normalized_itertext_sha256": "3a526b1345d70cb1e953fdc71f3b90058b73dcd5324a9deb087cf82059582451"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par36",
+      "normalized_itertext_sha256": "517ffa7273e14ebc7523f0dc93061b1ee869669930f69a2e5913904274df7583"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par37",
+      "normalized_itertext_sha256": "3b1e5d547632e597975c1609f428f0e54c7bd700ddea65cf35a78adba48a754e"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par38",
+      "normalized_itertext_sha256": "245d15a7e3dec08ad26b176a1ed5e41a1e500156054bb205801d7c48d21d47c1"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par39",
+      "normalized_itertext_sha256": "216b2e51ec9c6242ad532a1b64022216951f205ad6e7dac4cd19183a836f3da4"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": "Par40",
+      "normalized_itertext_sha256": "80e82b7f759900f685c188b737988eb1280560136a0d6b08c2ec1ddb4063f064"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 5,
+      "paragraph_id": "Par41",
+      "normalized_itertext_sha256": "cee947e7dcebb99a7e782640f4c1752dfaf184569d45c1a11e767ea748aa6ac2"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 6,
+      "paragraph_id": "Par42",
+      "normalized_itertext_sha256": "463fdaeda191d62ce4fd86b848bbf6ad5aec12ce53cca4ed85929c8feca55852"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec10",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par43",
+      "normalized_itertext_sha256": "a86c3f844949dc193c831b2c82041880b504b9e1a36b3766eb1160b6f7cfde71"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec11",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par44",
+      "normalized_itertext_sha256": "2141eb0abb392a6af60f0f3232ccd00bb852bf9c323f029433c5d4ed64ed8a13"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec12",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par45",
+      "normalized_itertext_sha256": "d5ab1f6d8a2fab64c5503df8a37d2d47c14e62b7eec1e5629ef28856ebc71f32"
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec15",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par48",
+      "normalized_itertext_sha256": "0c2bc6a363f5f31e9f5d9242861b89bfc54332ba4a952483439c25a36e3d21d1"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par7",
+      "normalized_itertext_sha256": "ccd718a49a25a3f6d8cbba9e19a2ef9650e9d975f4a41514f9c9b81faf22dbaf"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par8",
+      "normalized_itertext_sha256": "c7c6df17b439991cf0454b6c3547ebf5a6659ecb6c5106c32392e2fb3f734634"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par9",
+      "normalized_itertext_sha256": "81c27279f4eb17effd71795a5be4c38a9b7c14ea44ce81772038cb02192874b6"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec3",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par10",
+      "normalized_itertext_sha256": "79e71217a6b709aa0786f43a937f1f314f9f33beb93c7a6d031d6beb25715532"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec4",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par11",
+      "normalized_itertext_sha256": "ad783cc2ea72c118f3fa83b41415e4802b3e1a902eb7e5c07b1e4edd6d5ec7b1"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec4",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par12",
+      "normalized_itertext_sha256": "eef6a64b1ff3f5be944380988308e757eeb1a529d11d7a9470afabe5208465e6"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par13",
+      "normalized_itertext_sha256": "427f7f25d5fad318ba0ad998b5baa51e335621fd9d4d5f55ad1c36331eeb3b73"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par14",
+      "normalized_itertext_sha256": "ddfdbcc7674998d2520bc950c9233c54ede9f26f6ca52222fc622bcaadd50c34"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec5",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par15",
+      "normalized_itertext_sha256": "f8656f37e59c648ee60f5261e7bdde48cdaa38a77ed1e5ec3f98c5f4c8d8bad0"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec6",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par16",
+      "normalized_itertext_sha256": "a9f9dee362c7c38f133b9ad40e4a599ae16f1ae890456a7a723ec8cceea322fe"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec6",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par17",
+      "normalized_itertext_sha256": "8af06824804f172c290175be6cc121eb7977540fc39e85b803ce11620cc729eb"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par18",
+      "normalized_itertext_sha256": "5d7234739f061f02133efdb84bd79e06c9b86fd66219f3da125c312e47278736"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par19",
+      "normalized_itertext_sha256": "ed9542afe103a13483e139f25f8343dce153f49bf6852900edc22ae542335904"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par20",
+      "normalized_itertext_sha256": "e387707e3a400190ccc6ff519cb5a24d41128403c29e405d7eaea95b898ecfe6"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par21",
+      "normalized_itertext_sha256": "0b10ece7fd8c099165b5e7cf4ea72042d6febc311dc3dcb350c9689555380e05"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": "Par22",
+      "normalized_itertext_sha256": "50c05170079c0ac2aef693c7e1f1dde08e7b6391142ba5207abea9ad1cd60a56"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par23",
+      "normalized_itertext_sha256": "16f232d9f82459cf21ba0fd20232980f5699d41943bd625af671b75fe5e9bbc4"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 1,
+      "paragraph_id": "Par24",
+      "normalized_itertext_sha256": "71a8d5eee712840fe5c6fbd2a418c1185bf3f7c989a85ef3b0f3a340453fc129"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 2,
+      "paragraph_id": "Par25",
+      "normalized_itertext_sha256": "ab224f0982efe88e8e8a242e87ec18340c4ca3b01520253a5ca8e1fa7dec2e8c"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 3,
+      "paragraph_id": "Par26",
+      "normalized_itertext_sha256": "d6e0f559e2ae7fffce778c584db5497c38154da8695bc3d5dc34a9eb505cf87f"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec8",
+      "paragraph_index_zero_based": 4,
+      "paragraph_id": "Par27",
+      "normalized_itertext_sha256": "082281851511d17655b993715a2755270824bc87628cb1cafe80f2ae92b0ff67"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec12",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par31",
+      "normalized_itertext_sha256": "7295457a7c8800dfba44782b6320fbde30ea3fb064590ac721b7645f118d6974"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec17",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par36",
+      "normalized_itertext_sha256": "1a56d2b082c72b716db31018437ba49abc30d829f423409bee1aa47ea2f74665"
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec18",
+      "paragraph_index_zero_based": 0,
+      "paragraph_id": "Par37",
+      "normalized_itertext_sha256": "083508699b68ef25d56ca9f169cdca38efb14954b092eb0f5016cef2772e7ba9"
+    }
+  ],
+  "copied_source_prose_in_this_file": false
+}

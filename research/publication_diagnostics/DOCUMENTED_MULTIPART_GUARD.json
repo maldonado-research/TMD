@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-03T03:39:48.731500+00:00",
+  "draft_id": 23113326,
+  "family": "10.5281/zenodo.23068055",
+  "publication_attempted": false,
+  "new_family_created": false,
+  "inherited_files_deleted": false,
+  "changed_diagnosis": "Use the separate documented POST multipart/form-data deposition-files route, instead of the rejected bucket PUT application/octet-stream route.",
+  "documentation_url": "https://developers.zenodo.org/#deposition-files",
+  "operations": [],
+  "error_type": "AssertionError",
+  "guard_diagnosis": "target_was_already_published; no POST file upload executed",
+  "supporting_readback": "CURRENT_READ_ONLY_STATE.json"
+}

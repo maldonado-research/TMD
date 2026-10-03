@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "round_id": "R000004",
+  "public_ledger_checks_passed": true,
+  "source_cache_checked": true,
+  "primary_articles_identity_date_checks": 3,
+  "primary_paragraph_hashes_checked": 72,
+  "response_hashes_checked": 12,
+  "deduplicated_preprint_records_unchanged": 2,
+  "matched_WAM_panels_admitted": 0,
+  "biological_hypothesis_tests_performed": 0,
+  "authors_code_or_raw_data_executed": false,
+  "verification_scope": "Identity, date, acquisition budgets, source hashes, paragraph pins and stated bookkeeping; independent interpretation review is separate."
+}

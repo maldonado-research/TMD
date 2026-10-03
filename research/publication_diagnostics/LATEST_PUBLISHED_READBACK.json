@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-03T03:42:20.199641+00:00",
+  "read_only": true,
+  "chain": [
+    {
+      "url": "https://zenodo.org/api/records/23113326/versions/latest",
+      "status": 301,
+      "redirect": "https://zenodo.org/api/records/23113326"
+    },
+    {
+      "url": "https://zenodo.org/api/records/23113326",
+      "status": 200,
+      "id": 23113326,
+      "submitted": true,
+      "version": null,
+      "file_count": 6
+    }
+  ]
+}

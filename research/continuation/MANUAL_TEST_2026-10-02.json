@@ -14,7 +14,7 @@
     "preparation_step": "success",
     "model_step": "skipped",
     "provider_inference_observed": false,
-    "preparation_blocked_reason": "unknown_without_log_or_report"
+    "preparation_blocked_reason": "missing_openai_api_key"
   },
   "collector_job": {
     "id": 111100257908,
@@ -22,7 +22,7 @@
     "collector_step": "failure",
     "artifact_upload_step": "success",
     "annotation": "Process completed with exit code 1.",
-    "expected_blocked_receipt_or_bug": "undetermined_without_log_or_report"
+    "expected_blocked_receipt_or_bug": "blocked_receipt_reproduced_from_reported_reason_and_checkpoint"
   },
   "artifact": {
     "id": 11260074768,
@@ -30,21 +30,23 @@
     "size_in_bytes": 1918,
     "digest": "sha256:d64cba192005900ba56f441aa50cb4321a401f8517e0002b0eb9ad40f61d2c16",
     "expired": false,
-    "contents_retrieved": false
+    "contents_retrieved": true
   },
   "github_api_access": "Read-only run, job, artifact, check-run, annotation, and workflow metadata requests succeeded.",
   "download_access": {
-    "outcome": "blocked_by_network_on_redirect_destinations",
+    "outcome": "retrieved_and_digest_verified_on_followup",
     "hosts": [
       "results-receiver.actions.githubusercontent.com",
       "productionresultssa11.blob.core.windows.net"
     ],
     "message": "Forbidden",
-    "raw_signed_redirect_urls_preserved": false
+    "raw_signed_redirect_urls_preserved": false,
+    "earlier_outcome": "blocked_by_network_on_redirect_destinations",
+    "followup_checked_utc": "2026-10-03T03:35:08.708261+00:00"
   },
   "secret_metadata": "Not queried by this agent; no inference of GitHub provider secret presence or absence.",
   "workflow_state_verified": "disabled_manually",
-  "actual_failure_reproduced_offline": false,
+  "actual_failure_reproduced_offline": "collector receipt byte-identical from historical reported inputs; no live model inference",
   "existing_behavior_checks": {
     "tests": 2,
     "result": "PASS",
@@ -55,5 +57,7 @@
     "research/continuation/round_runner.py": "6ca50307ca5ed6dec5feb72468e299f5de661fa62a0b28fc9ff148a909e7e882",
     "research/continuation/test_round_runner.py": "acc9ee1498e29b3d833aee82fa9974343a658f004294a873450ac263a3e83f7c"
   },
-  "next_action": "Retrieve the bounded saved report or logs through the authorized GitHub download hosts. Use its exact blocked reason to decide whether a code defect exists. Do not dispatch or enable the workflow merely to diagnose this run."
+  "next_action": "Reuse or configure the GitHub Actions OPENAI_API_KEY securely if needed, set API spending controls, then verify one bounded successful inference round before enabling scheduling. Current secret metadata is inaccessible; no additional run was dispatched.",
+  "current_secret_presence": "unknown_metadata_HTTP403; historical run received no OPENAI_API_KEY",
+  "followup_receipt": "ARTIFACT_READBACK_2026-10-02.json"
 }

@@ -1,0 +1,153 @@
+{
+  "primary_record_snapshot_sha256": "aa4d7062a71334541a7db17129cbf7437395bbda99821892a6bc67c6b660b978",
+  "indexed_records_screened": 13,
+  "query_count": 2,
+  "queries_have_overlapping_result_sets": true,
+  "preprint_journal_duplicate_not_counted_twice": true,
+  "records": [
+    {
+      "pmid": "42611043",
+      "title": "Phylogenetic inference with not-so-rare mutations and tiny organisms.",
+      "doi": "10.1093/sysbio/syag065",
+      "pmcid": null,
+      "indexed_publication_date": "2026-08-18",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Phylogenetic inference methods; not direct matched route/supply/recovery measurements.",
+      "evidence_family": "10.1093/sysbio/syag065"
+    },
+    {
+      "pmid": "42363830",
+      "title": "Pyocyanin produced by Pseudomonas aeruginosa creates legacy effects that promote antibiotic resistance evolution in enterococci.",
+      "doi": "10.1128/aac.00078-26",
+      "pmcid": "PMC13436219",
+      "indexed_publication_date": "2026-06-22",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Relevant community-memory candidate, but not selected for full-text acquisition within the three-source cap; abstract-only preliminary screen.",
+      "evidence_family": "10.1128/aac.00078-26"
+    },
+    {
+      "pmid": "42270630",
+      "title": "Mutation-biased adaptation is consequential even in large bacterial populations.",
+      "doi": "10.1038/s41467-026-74044-6",
+      "pmcid": "PMC13402312",
+      "indexed_publication_date": "2026-06-10",
+      "selected_for_primary_full_text": true,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "selected: population_mutation_bias_2026",
+      "evidence_family": "10.1038/s41467-026-74044-6"
+    },
+    {
+      "pmid": "42007703",
+      "title": "Disruption of bacteriophage integration site promotes rapid diversification of multicellular traits in Bacillus subtilis.",
+      "doi": "10.1128/spectrum.02504-25",
+      "pmcid": "PMC13228054",
+      "indexed_publication_date": "2026-04-20",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Relevant strain-construction confounding candidate; not selected for full-text acquisition within the three-source cap.",
+      "evidence_family": "10.1128/spectrum.02504-25"
+    },
+    {
+      "pmid": "41369254",
+      "title": "Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria.",
+      "doi": "10.1128/mbio.03054-25",
+      "pmcid": "PMC12691593",
+      "indexed_publication_date": "2025-11-13",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Anaerobic mutation-accumulation study; useful generic supply context but lower priority than same-SBW25 and observation-model sources.",
+      "evidence_family": "anaerobic_lactic_acid_bacteria_2025"
+    },
+    {
+      "pmid": "40709928",
+      "title": "The negligible mutagenic effects of norfloxacin on the genome of the fission yeast Schizosaccharomyces pombe ATCC-16979.",
+      "doi": "10.1128/spectrum.00233-25",
+      "pmcid": "PMC12403669",
+      "indexed_publication_date": "2025-07-25",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Non-target yeast mutagenesis; lower relevance to current bacterial W/A/M estimand.",
+      "evidence_family": "10.1128/spectrum.00233-25"
+    },
+    {
+      "pmid": "40711441",
+      "title": "Constraints in temperature adaptation reinforce differences in thermal niche between mesophilic and psychrotolerant Bacillus cereus group species.",
+      "doi": "10.1098/rspb.2025.1184",
+      "pmcid": "PMC12292419",
+      "indexed_publication_date": "2025-07-30",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Thermal adaptation study; no matched W/A/M control ledger established by abstract screen.",
+      "evidence_family": "10.1098/rspb.2025.1184"
+    },
+    {
+      "pmid": "40337980",
+      "title": "Interventions for idiopathic steroid-resistant nephrotic syndrome in children.",
+      "doi": "10.1002/14651858.CD003594.pub7",
+      "pmcid": "PMC12060654",
+      "indexed_publication_date": "2025-05-08",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Clinical intervention review; off target, not primary bacterial route study.",
+      "evidence_family": "10.1002/14651858.CD003594.pub7"
+    },
+    {
+      "pmid": "40277027",
+      "title": "Interventions for preventing diarrhoea-associated haemolytic uraemic syndrome.",
+      "doi": "10.1002/14651858.CD012997.pub3",
+      "pmcid": "PMC12023036",
+      "indexed_publication_date": "2025-04-25",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Clinical intervention review; off target, not primary bacterial route study.",
+      "evidence_family": "10.1002/14651858.CD012997.pub3"
+    },
+    {
+      "pmid": "40060621",
+      "title": "Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria.",
+      "doi": "10.1101/2025.02.28.639667",
+      "pmcid": "PMC11888475",
+      "indexed_publication_date": "2025-02-28",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Same-title preprint of the anaerobic mutation study PMID41369254; grouped as one evidence family, not independent replication.",
+      "evidence_family": "anaerobic_lactic_acid_bacteria_2025"
+    },
+    {
+      "pmid": "41476172",
+      "title": "Tuning evolvability via plasmid copy number and regulatory architecture.",
+      "doi": "10.1038/s41467-025-67995-9",
+      "pmcid": "PMC12864740",
+      "indexed_publication_date": "2025-12-31",
+      "selected_for_primary_full_text": true,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "selected: plasmid_phenotypic_masking_2025",
+      "evidence_family": "10.1038/s41467-025-67995-9"
+    },
+    {
+      "pmid": "41313693",
+      "title": "Origin and development of two Escherichia coli clones vertically transferred in broiler production.",
+      "doi": "10.1099/mgen.0.001516",
+      "pmcid": "PMC12662567",
+      "indexed_publication_date": "2025-Nov",
+      "selected_for_primary_full_text": false,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "Clonal genomic epidemiology; per-year inferred mutation estimates differ from per-division matched route supply.",
+      "evidence_family": "10.1099/mgen.0.001516"
+    },
+    {
+      "pmid": "39888938",
+      "title": "An extreme mutational hotspot in nlpD depends on transcriptional induction of rpoS.",
+      "doi": "10.1371/journal.pgen.1011572",
+      "pmcid": "PMC11838912",
+      "indexed_publication_date": "2025-01-31",
+      "selected_for_primary_full_text": true,
+      "inspection": "PubMed primary bibliographic record and registered abstract; selected articles subsequently read in full primary XML",
+      "decision": "selected: nlpd_hotspot_2025",
+      "evidence_family": "10.1371/journal.pgen.1011572"
+    }
+  ],
+  "limits": "Targeted search results, not all relevant studies; indexed dates require publication-version checks for selected full texts. Same-title anaerobe records are grouped conservatively; their formal Crossref version relation was not acquired."
+}

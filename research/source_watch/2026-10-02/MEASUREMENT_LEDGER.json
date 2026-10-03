@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "rows": [
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec003",
+      "paragraph_reference": 0,
+      "measurement_original_summary": "Selected CC screen in153 static Δwss populations;139 yielded CC and137 containedC565T.",
+      "measurement_unit": "Replicate evolved populations; phenotype screen then sequence confirmation.",
+      "reported_count_or_denominator": "153",
+      "boundary_for_TMD": "Δwss removes cellulose/WS phenotypes; selected CC counts are not common-ancestor W/A/M probabilities.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec004",
+      "paragraph_reference": 0,
+      "measurement_original_summary": "Fitness comparisons leave at least two alternative nlpD truncations without detected fitness difference from C565T control.",
+      "measurement_unit": "Reconstructed genotype competitions.",
+      "reported_count_or_denominator": "8 replicates over2 occasions in Methodssec013",
+      "boundary_for_TMD": "Failure to detect a difference is not equality of fitness or establishment.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec006",
+      "paragraph_reference": 2,
+      "measurement_original_summary": "Reporter fluctuation cultures sequenced8 candidate colonies each;60of96 confirmedC565T and6of96 wereA564G.",
+      "measurement_unit": "Nested colony confirmation within12 cultures.",
+      "reported_count_or_denominator": "12 cultures;96 sequenced candidate colonies",
+      "boundary_for_TMD": "Do not treat96 colonies as96 independent culture-level mutation trials; reporter/colony-size selection remains part of observation.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "nlpd_hotspot_2025",
+      "section_id": "sec007",
+      "paragraph_reference": 3,
+      "measurement_original_summary": "Reported reporter point estimates are4.2e-7 and7.2e-9 mutations per base pair per replication in SBW25 versusΔpsrA.",
+      "measurement_unit": "MSS maximum-likelihood fluctuation estimates.",
+      "reported_count_or_denominator": "Culture-level mutation model, not fixed-cell recovered successes",
+      "boundary_for_TMD": "Approximate58-foldratio; native-site transfer, phase dependence, reporter fitness and mutation-model assumptions require independent checks.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec4",
+      "paragraph_reference": "Par21",
+      "measurement_original_summary": "Five culture-size regimes cover an estimated100-fold bottleneck gradient;28days,1:50dailytransfer and escalating cefotaxime.",
+      "measurement_unit": "Parallel evolved populations in two mutator backgrounds.",
+      "reported_count_or_denominator": "48 populations per treatment except24 in largest regime",
+      "boundary_for_TMD": "Population-size labels are not measured route-specific establishment probabilities; different plate formats/volumes may alter context.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_reference": "Par24",
+      "measurement_original_summary": "Sanger collection has75 isolates:50ΔmutT and25ΔmutH.",
+      "measurement_unit": "One chosen isolate per selected population.",
+      "reported_count_or_denominator": "10ΔmutT and5ΔmutH per size class",
+      "boundary_for_TMD": "MethodsSec12conditions selection on longest-surviving lineages; endpoint isolates are not exclusive first-arrival routes.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "population_mutation_bias_2026",
+      "section_id": "Sec5",
+      "paragraph_reference": "Par27",
+      "measurement_original_summary": "Simulation comparison adjusts effective population size downward; the empiricalΔmutH curve still remains offset.",
+      "measurement_unit": "Simulation-to-endpoint comparison.",
+      "reported_count_or_denominator": "Model-derived effective size; no locked external forecast",
+      "boundary_for_TMD": "Do not describe agreement as prospective held-out prediction or simulations as observations.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec5",
+      "paragraph_reference": "Par14",
+      "measurement_original_summary": "Regulatory buffering and detection threshold can produce nonmonotonic detected gain-of-function fractions with plasmid copy number.",
+      "measurement_unit": "Stochastic simulations and fluorescence experiment interpreted together.",
+      "reported_count_or_denominator": "Assay gates and cell-level expression distribution",
+      "boundary_for_TMD": "Genotype production and observed phenotypic mutation are distinct; no numeric W/A/M parameter transfer.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec7",
+      "paragraph_reference": "Par22",
+      "measurement_original_summary": "Coding-region versus promoter targets show different copy-number-dependent phenotypic visibility; off-target and high-copy instability exclusions are reported.",
+      "measurement_unit": "Engineered EvolvR/plasmid experiments.",
+      "reported_count_or_denominator": "Reported8replicates per plotted condition",
+      "boundary_for_TMD": "Primary captions disclose exclusions; supplements not downloaded, so no complete excluded-row or off-target audit.",
+      "admitted_to_WAM_likelihood": false
+    },
+    {
+      "source_id": "plasmid_phenotypic_masking_2025",
+      "section_id": "Sec17",
+      "paragraph_reference": "Par36",
+      "measurement_original_summary": "The flow protocol distributes each diluted overnight culture among8wells and acquires at least100000events per sample after regrowth.",
+      "measurement_unit": "Overnight-culture→well→cell-event hierarchy.",
+      "reported_count_or_denominator": "Cell events within wells; shared founding culture possible",
+      "boundary_for_TMD": "Eight wells or100000 events do not automatically supply independent founder or known-introduced recovery denominators.",
+      "admitted_to_WAM_likelihood": false
+    }
+  ],
+  "rows_count": 10,
+  "units_preserved": true,
+  "no_raw_data_reanalysis_performed": true
+}

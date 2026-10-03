@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "round_id": "R000004",
+  "review_date_local": "2026-10-02",
+  "cutoff_timezone": "America/Los_Angeles",
+  "sources": [
+    {
+      "id": "nlpd_hotspot_2025",
+      "title": "An extreme mutational hotspot in nlpD depends on transcriptional induction of rpoS\n",
+      "authors": [
+        "Andrew D. Farr",
+        "Christina Vasileiou",
+        "Peter A. Lind",
+        "Paul B. Rainey"
+      ],
+      "doi": "10.1371/journal.pgen.1011572",
+      "pmcid": "PMC11838912",
+      "pmid": "39888938",
+      "publication_status": "Published primary research article",
+      "published_online": "2025-01-31",
+      "before_cutoff": true,
+      "journal": "PLOS Genetics",
+      "source_version": "PMC11838912.1",
+      "primary_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11838912/",
+      "acquired_primary_xml_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11838912&retmode=xml",
+      "raw_primary_xml_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+      "raw_primary_xml_bytes": 199646,
+      "raw_cache_filename": "nlpd_hotspot_2025.xml",
+      "raw_redistribution_by_default": false,
+      "article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "inspection": "Full primary article XML; Results, Methods, Discussion, data/code statements and embedded captions inspected; supplements/source data not acquired.",
+      "domain": "Pseudomonas fluorescens SBW25; selected cell-chaining evolution in Δwss, with reporter mutation assays in SBW25 and ΔpsrA.",
+      "tmd_implications_original_analysis": [
+        "Exact sequence context, promoter induction and growth phase can alter site-specific supply; a genome-wide average cannot substitute for a route-specific baseline.",
+        "Promoter/PsrA genetic contrasts support transcription dependence in this reporter system, while the precise chemical lesion mechanism and transport to native nlpD remain unresolved."
+      ],
+      "limits": [
+        "Selected CC populations suppress WS competition via Δwss, so their counts are not common-background W/A/M route shares.",
+        "Mutation estimates use a distal selectable rpoSp-kan reporter, not unaltered native nlpD; the article explicitly identifies native-site transport uncertainty.",
+        "Fluctuation estimates depend on growth and neutrality assumptions; supporting captions report a small significant reporter fitness reduction. No source-data ZIP or supplementary DOCX/PDF bytes were acquired."
+      ],
+      "matched_WAM_ledger_admitted": false,
+      "new_in_this_watch_means": "Absent by DOI from the six pinned current public baseline files; not necessarily newly published since the preceding day.",
+      "independent_replication_claimed": false,
+      "data_availability": {
+        "declared_by_article": "Zenodo figure data/calculations and ENA plasmid sequences",
+        "dataset_doi": "10.5281/zenodo.14335473",
+        "dataset_metadata_inspected": true,
+        "dataset_publication_date": "2024-12-09",
+        "dataset_version_relation": [
+          {
+            "index": 2,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "12705546"
+            }
+          }
+        ],
+        "dataset_license": "CC BY 4.0 from metadata; individual archived files not inspected",
+        "dataset_file": {
+          "filename": "Zenodo data files 09 dec 2024.zip",
+          "size_bytes_reported": 7880751,
+          "checksum_reported": "md5:c07253f941ce89ceb594187255ba085a",
+          "download_url": "https://zenodo.org/api/records/14335473/files/Zenodo%20data%20files%2009%20dec%202024.zip/content",
+          "downloaded": false,
+          "checksum_verified_against_download": false
+        },
+        "metadata_snapshot_sha256": "37f63a06a5b34ea90d0aa221f93bebe6c0a6029eea759f16f1f00e5377a4bb80",
+        "ENA_accession_declared": "PRJEB84419",
+        "ENA_files_inspected": false
+      }
+    },
+    {
+      "id": "population_mutation_bias_2026",
+      "title": "Mutation-biased adaptation is consequential even in large bacterial populations",
+      "authors": [
+        "Jake N. Barber",
+        "Alejandro Couce"
+      ],
+      "doi": "10.1038/s41467-026-74044-6",
+      "pmcid": "PMC13402312",
+      "pmid": "42270630",
+      "publication_status": "Published primary research article",
+      "published_online": "2026-06-10",
+      "before_cutoff": true,
+      "journal": "Nature Communications",
+      "source_version": "PMC13402312.1",
+      "primary_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13402312/",
+      "acquired_primary_xml_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13402312&retmode=xml",
+      "raw_primary_xml_sha256": "2910b3b1f75c432f2e71eaaa7c69f1ed0b08b62e9d01b6a0520f1943516bdf32",
+      "raw_primary_xml_bytes": 171630,
+      "raw_cache_filename": "population_mutation_bias_2026.xml",
+      "raw_redistribution_by_default": false,
+      "article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "inspection": "Full primary article XML; Results, Methods, Discussion, data/code statements and embedded captions inspected; supplements/source data not acquired.",
+      "domain": "E. coli AB1157 ampC-deleted ΔmutH/ΔmutT backgrounds carrying plasmid blaTEM-1; serial cefotaxime escalation across five culture-volume regimes.",
+      "tmd_implications_original_analysis": [
+        "Population size, mutation spectrum, step length and selection alignment can jointly change adaptive endpoints; large populations do not alone remove mutation-supply effects.",
+        "Preserve extinction/no-success outcomes and distinguish multi-mutation endpoint genotypes from mutually exclusive first-arrival routes; culture volume may also change biological conditions."
+      ],
+      "limits": [
+        "Two different repair-mutator backgrounds and TEM-1/PBP3-associated endpoints are not a common-ancestor W/A/M panel.",
+        "Endpoint Sanger isolates were chosen among longest-surviving lineages; a genotype may carry mutations in both targets. These observations are not single-route first winners.",
+        "Simulation outcomes rely on specified additive fitness and pathway lengths; empirical effective population sizes were adjusted downward when comparing curves, so agreement is not a locked held-out prediction.",
+        "Raw source data, supplementary files, SRA reads and simulation repository code were not acquired or executed."
+      ],
+      "matched_WAM_ledger_admitted": false,
+      "new_in_this_watch_means": "Absent by DOI from the six pinned current public baseline files; not necessarily newly published since the preceding day.",
+      "independent_replication_claimed": false,
+      "data_availability": {
+        "declared_by_article": [
+          "Supplementary Data1 and source data",
+          "SRA PRJNA1417764",
+          "https://github.com/ACouce/Barber2026"
+        ],
+        "data_or_code_contents_inspected": false,
+        "license_warning": "Article CC BY-NC-ND4.0; do not copy or adapt bulk article, figures or uninspected data/code into public TMD artifacts. This candidate contains original critical commentary only."
+      }
+    },
+    {
+      "id": "plasmid_phenotypic_masking_2025",
+      "title": "Tuning evolvability via plasmid copy number and regulatory architecture",
+      "authors": [
+        "Ximing Li",
+        "Andras Gyorgy"
+      ],
+      "doi": "10.1038/s41467-025-67995-9",
+      "pmcid": "PMC12864740",
+      "pmid": "41476172",
+      "publication_status": "Published primary research article",
+      "published_online": "2025-12-31",
+      "before_cutoff": true,
+      "journal": "Nature Communications",
+      "source_version": "PMC12864740.1",
+      "primary_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12864740/",
+      "acquired_primary_xml_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12864740&retmode=xml",
+      "raw_primary_xml_sha256": "a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79",
+      "raw_primary_xml_bytes": 199347,
+      "raw_cache_filename": "plasmid_phenotypic_masking_2025.xml",
+      "raw_redistribution_by_default": false,
+      "article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "inspection": "Full primary article XML; Results, Methods, Discussion, data/code statements and embedded captions inspected; supplements/source data not acquired.",
+      "domain": "Engineered E. coli DH5α and DH5αΔlacI::ampR with EvolvR mutagenesis, pSC101 copy-number variants and fluorescence/resistance circuits.",
+      "tmd_implications_original_analysis": [
+        "Observed phenotypic mutation frequency depends on the genotype-to-phenotype mapping and detection threshold; generated DNA changes and detectable mutant events are different quantities.",
+        "Copy-number-dependent complementation/masking provides established genetic-dominance and regulation alternatives; it does not identify a new TMD natural-dominance force."
+      ],
+      "limits": [
+        "Engineered plasmid multiploidy and targeted EvolvR mutagenesis differ from chromosomal W/A/M evolution; no numerical parameter is transferred.",
+        "Flow-cytometry events are cell measurements, not independent founding-culture or known-introduced fixed-route recovery trials.",
+        "The flow protocol divides a diluted overnight culture into eight wells; biological founder independence is not inferred from plotted eight replicates. Regrowth and gates affect the observed outcome.",
+        "Source-data files, supplementary figures, sequencing accessions and archived code were not acquired or executed."
+      ],
+      "matched_WAM_ledger_admitted": false,
+      "new_in_this_watch_means": "Absent by DOI from the six pinned current public baseline files; not necessarily newly published since the preceding day.",
+      "independent_replication_claimed": false,
+      "data_availability": {
+        "declared_by_article": [
+          "Source Data",
+          "SRA PRJNA1373182",
+          "Code DOI10.5281/zenodo.17642376"
+        ],
+        "data_or_code_contents_inspected": false,
+        "date_note": "Online publication31December2025; the PMC collection year is2026."
+      }
+    }
+  ],
+  "existing_sources_watched": [
+    {
+      "source_id": "chakraborty_agashe_2026",
+      "doi": "10.64898/2026.08.18.745421",
+      "publication_status": "Preprint; no journal version verified in this bounded exact-record watch",
+      "prior_crossref_sha256": "946eed845b1cf8c9909005ea5368b6618f97a4f65d937aff2318a0120085b434",
+      "current_crossref_sha256": "946eed845b1cf8c9909005ea5368b6618f97a4f65d937aff2318a0120085b434",
+      "byte_identical": true,
+      "crossref_relation": {},
+      "new_independent_evidence": false,
+      "interpretation": "No changed DOI record or metadata evidence; empty relation is not proof no journal version exists elsewhere."
+    },
+    {
+      "source_id": "parveen_et_al_2025",
+      "doi": "10.1101/2025.09.22.677663",
+      "publication_status": "Preprint; no journal version verified in this bounded exact-record watch",
+      "prior_crossref_sha256": "af8ad137ae3a4e62581fb28a1546f9e427a574519569e8503c6a2d640d68ea21",
+      "current_crossref_sha256": "af8ad137ae3a4e62581fb28a1546f9e427a574519569e8503c6a2d640d68ea21",
+      "byte_identical": true,
+      "crossref_relation": {},
+      "new_independent_evidence": false,
+      "interpretation": "No changed DOI record or metadata evidence; empty relation is not proof no journal version exists elsewhere."
+    }
+  ],
+  "matched_WAM_ledger_admitted_count": 0,
+  "observational_biological_tmd_confirmation": false,
+  "new_mathematical_priority_claimed": false,
+  "raw_third_party_material": "External evidence cache only; excluded from public candidate.",
+  "original_commentary_author": "Ricardo Maldonado, prepared with AI assistance",
+  "original_commentary_license": "CC BY4.0; source authors and rights retained."
+}

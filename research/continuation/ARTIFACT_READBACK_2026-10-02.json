@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-10-03T03:35:08.708261+00:00",
+  "artifact_id": 11260074768,
+  "returncode": 0,
+  "workflow_unchanged": "disabled_manually",
+  "another_run_dispatched": false,
+  "retrieved": true,
+  "sha256": "d64cba192005900ba56f441aa50cb4321a401f8517e0002b0eb9ad40f61d2c16",
+  "members": [
+    {
+      "name": "round.json",
+      "bytes": 595
+    },
+    {
+      "name": "checkpoint.json",
+      "bytes": 2046
+    },
+    {
+      "name": "ROUND_REPORT.md",
+      "bytes": 205
+    }
+  ],
+  "source_commit": "6380470d84e5d8a7e6d8c370e806a49e3efdccd8",
+  "reported_blocked_reason": "missing_openai_api_key",
+  "provider_inference_observed": false,
+  "current_github_secret_configuration": "unknown_HTTP403",
+  "collector_replay": {
+    "checked_utc": "2026-10-03T03:43:18.530030+00:00",
+    "historical_run_id": 37087326308,
+    "artifact_sha256": "d64cba192005900ba56f441aa50cb4321a401f8517e0002b0eb9ad40f61d2c16",
+    "runner_source_sha256": "6ca50307ca5ed6dec5feb72468e299f5de661fa62a0b28fc9ff148a909e7e882",
+    "observed_runner_blocked_reason": "missing_openai_api_key",
+    "controlled_collector_replay_exit": 1,
+    "artifact_byte_identity": {
+      "round.json": true,
+      "checkpoint.json": true,
+      "ROUND_REPORT.md": true
+    },
+    "provider_inference_executed": false,
+    "actual_runtime_environment_inspected": false,
+    "current_github_secret_presence": "unknown_metadata_access_403",
+    "workflow_state": "disabled_manually",
+    "additional_dispatch": false,
+    "scope": "Historical preparation reason is authenticated artifact evidence. The collector replay uses the reported reason and checkpoint and reproduces the intentional blocked receipt, not a live provider test."
+  },
+  "report_file_hashes": {
+    "checkpoint.json": "7dac323c461338db6e84924119f407dd3e4f9f1ecd69d0e03ca56356d753fcdf",
+    "ROUND_REPORT.md": "e6770dc3249b01db030f5d30cd4586c6347657bf0e74349d57ba6ef0dd610c66",
+    "round.json": "8b8b8d41414aad6dd6d572afb65f0fb240829734376409bd27244f363e1609e1"
+  }
+}

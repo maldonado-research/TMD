@@ -19,7 +19,9 @@ The 53-file package adds finite-sample bounds for recovery-corrected route compa
 
 The methods, continuation and four-source eligibility updates have reached `main`. The [prospective design round](research/prospective_design/README.md) now fixes an operational held-out forecast and strong measured alternatives, with independent synthetic mathematical checks. It is design-only: 26 study inputs remain unresolved and no experiment is registered.
 
-[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub, but remains unpublished on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records published 0.5.0, the existing-family draft 23113326 and API staging errors. The [manual workflow test](research/continuation/MANUAL_TEST_2026-10-02.json) skipped inference; its exact prerequisite is unresolved and the workflow remains explicitly paused.
+The [certified score implementation](research/certified_score/README.md) addresses that design's numerical gap with exact binomial-tail comparisons, outward rational logarithm bounds and exact confidence-region projection. Strict score gates use the reported outward endpoints. The [targeted source watch](research/source_watch/2026-10-02/README.md) audits three primary articles on transcription-dependent mutation supply, population history and phenotypic masking. These are methods and literature advances; no matched biological panel or new experiment is admitted.
+
+[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub and remains unarchived on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records labelled release 0.5.0 and the newly published, unversioned record 23113326, whose six files are identical to 0.5.0. The [verified manual-run artifact](research/continuation/ARTIFACT_READBACK_2026-10-02.json) reports a missing provider key in that historical run; the workflow remains explicitly paused, with current secret configuration inaccessible.
 
 ## Research follow-up: recovery-transport robustness
 
@@ -36,6 +38,8 @@ All 44 new tests pass, with independent internal checks of 640 context projectio
 The installed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent candidate checkpoints, finite budgets and a once-daily source watch. It is explicitly paused after an incomplete manual test; a successful model round is not yet verified. The first new round audits 33 clones, 67 culture timecourses and 206 paired colony counts; its technical-noise diagnostic does not estimate biological drift, establishment or TMD validation.
 
 The second round inspects four authenticated primary articles and records source-specific eligibility and missing measurements. It supports Lind's four rare-pathway mutants at the aggregate level, identifies reuse of the 41 Aws occurrences in Sun 2023, and sharpens sequence-hotspot and repair-dependent supply alternatives. No complete matched biological panel is admitted from the inspected material. The third [prospective design round](research/prospective_design/README.md) is complete as design-only. Its 26 study inputs remain unresolved; the daily changed-source watch and measurement contract follow.
+
+The first daily source watch is complete. Its raw article cache stays outside Git; original notes retain sampling units, licenses, source hashes and unchanged-preprint deduplication. The numerical follow-up evaluates actual frozen rational forecasts, without certifying an ideal real-number model or a causal interpretation. Its conservative precision example exceeds the prototype's sample cap; it is not an achieved-power or study-size claim. The measurement contract remains blocked, and the next queued source task inspects the declared native/reporter SBW25 figure-data archive.
 
 ## Previous downloadable methods package: 0.4.0
 

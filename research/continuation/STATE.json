@@ -12,22 +12,22 @@
   },
   "automation": {
     "requested_cadence": "hourly, around the clock",
-    "activation_status": "installed_paused_manual_test_incomplete",
+    "activation_status": "installed_paused_historical_provider_key_missing",
     "scheduler_tool_available_in_this_chat": false,
     "github_default_branch_workflow_present": true,
     "api_credential_configured": null,
     "cloud_provider_api_key_present": false,
-    "api_credential_status_scope": "No provider key is injected into this cloud runtime. GitHub Actions secret configuration is unknown because this integration receives HTTP 403 when inspecting its metadata.",
+    "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
-    "latest_activation_receipt": "MANUAL_TEST_2026-10-02.json",
-    "last_completed_round": "R000003",
-    "next_round_id": "R000004",
+    "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
+    "last_completed_round": "R000005-NUMERIC",
+    "next_round_id": "R000006",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
     "manual_test_run_id": 37087326308,
     "manual_test_model_step": "skipped",
-    "manual_test_root_cause": "unknown_report_download_blocked"
+    "manual_test_root_cause": "missing_openai_api_key_reported_in_verified_artifact"
   },
   "base_commit": "465850ee33f746cf42f1b3d5075fba2ea57332ad",
   "research_state": {
@@ -38,13 +38,20 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000002",
-    "latest_primary_source_audit_articles": 4,
+    "latest_primary_source_audit_round": "R000004-20261003",
+    "latest_primary_source_audit_articles": 3,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
     "registered_experiment": false,
     "unresolved_study_inputs": 26,
-    "active_zenodo_draft": 23113326
+    "active_zenodo_draft": null,
+    "latest_published_methods_record": 23113326,
+    "latest_published_methods_version_label": null,
+    "latest_published_record_content": "six inherited0.5.0 files; reviewed0.6.0 package absent",
+    "latest_numerical_design_component": "R000005-NUMERIC",
+    "certified_score_unit_tests": 20,
+    "independent_score_review_assertions": 30887,
+    "actual_study_registry_fields_resolved": 0
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -66,8 +73,8 @@
     {
       "id": "unattended_runner",
       "status": "blocked",
-      "observed": "Workflow is now merged and explicitly disabled. One manual test passed offline checks, skipped the model step and emitted a failed collector outcome with a saved artifact. Its exact blocked reason is unknown because redirect download hosts are denied. GitHub secret/enable-variable metadata remains HTTP403; no missing-secret or code-defect inference is made.",
-      "unblocking_condition": "Read the existing manual-test report through authorized artifact hosts; diagnose its exact prerequisite, then verify a bounded successful model round before enabling scheduling."
+      "observed": "The existing artifact was retrieved and SHA-256 verified. Historical run reports missing_openai_api_key, skipped inference and intentionally collected a blocked receipt, reproduced byte-for-byte. Current GitHub secret/enable metadata remains403; workflow stays disabled.",
+      "unblocking_condition": "Use the existing provider credential securely in GitHub Actions if available, verify its configured delivery and spending limits, then one bounded successful requested-model inference before scheduling."
     },
     {
       "id": "sane_workbooks",
@@ -78,8 +85,8 @@
     {
       "id": "zenodo_deposit",
       "status": "blocked",
-      "observed": "Existing credential authenticated reads and New version creation. Draft23113326 belongs to concept23068055. JSON metadata writes returned500 through two clients; binary upload returned400. No new file or required metadata verified; draft remains unpublished.",
-      "unblocking_condition": "Use existing-draft browser fallback or a diagnosed changed API route, verify saved metadata and file checksums, then publish only the approved complete package."
+      "observed": "Current read-only verification shows former draft23113326 is published in concept23068055 with six filename/size/reported-checksum-identical0.5.0 inherited files and null version label. The0.6.0 package is absent. No active draft was linked in inspected metadata; publication actor is unknown. A pre-upload guard stopped before any file write.",
+      "unblocking_condition": "Coordinate with the separate publishing task; preserve published records and automatic integrationsOFF. Reuse any currently linked draft or use latest published23113326 newversion only after fresh family/ownership checks, then verify full metadata and approved uploaded files before publication."
     },
     {
       "id": "lind2019_workbooks_and_horton_osf",
@@ -95,8 +102,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000003: independently reviewed design-only forecast and synthetic verification; actual confirmatory study remains blocked.",
-    "next_action": "Run the deduplicated changed-source watch; resolve the prospective measurement contract independently of held-out endpoints. Preserve pending publication and manual-workflow diagnostics.",
+    "last_completed_step": "R000005-NUMERIC: internally reviewed exact score arithmetic; parent biological measurement contract remains blocked with26 study inputs unresolved.",
+    "next_action": "Audit the licensed declared SBW25 native/reporter figure-data archive; authenticate denominators and transfer limits before any biological inference.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -104,24 +111,40 @@
       "research/panel_eligibility/STATUS.json": "d3fefd0ac4df7392f9fbedcb23abaf122a275fb4d7f291cce2640798dccf2c70",
       "research/prospective_design/REGISTRY_CANDIDATE.json": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
       "research/prospective_design/VERIFICATION_RECEIPT.json": "ef4907bec0e514276bb59a3dba7c219f09eae7061b4de7c50b454294e695c623",
-      "research/prospective_design/review/REVIEW_RECEIPT.json": "a2040eaec7bd4636717a8ea368f36b35101b780433645f734cc176d896b5f603"
+      "research/prospective_design/review/REVIEW_RECEIPT.json": "a2040eaec7bd4636717a8ea368f36b35101b780433645f734cc176d896b5f603",
+      "research/source_watch/2026-10-02/SOURCES.json": "0f6e66c0dee05ad64b556043f093e847801d8b5f29ec97faf77330dc796b5d6a",
+      "research/source_watch/INDEPENDENT_REVIEW_2026-10-02.json": "877c8fa049b51d96e29790a3c2751a712fb160747af6f8c262efebf2fe6e8879",
+      "research/certified_score/SHA256SUMS.txt": "7ad5c023555608cdc13d3911596223a88bf6e1fe5b1cc3bf449d8e3f910020c4",
+      "research/certified_score/VERIFICATION_RECEIPT.json": "6e0d50396a8670c9ccb3730df08134f7fa3bf6423fd676bcbccb9b6b635c2809",
+      "research/certified_score/review/INDEPENDENT_REVIEW_RECEIPT.json": "69eb5d6762bc0639f3523428c9df23c2a96dbc56eab515c3d901122cab409f60"
     }
   },
   "reviewed_checkpoint": {
     "completed_work_item_ids": [
       "R000001",
       "R000002",
-      "R000003"
+      "R000003",
+      "R000004-20261003",
+      "R000005-NUMERIC"
     ],
-    "blocked_work_items": [],
+    "blocked_work_items": [
+      {
+        "id": "R000005",
+        "reason": "The26 actual prospective study inputs remain null, with no admitted matched common-background source or laboratory partner. A numerical candidate alone does not resolve them.",
+        "unblocking_condition": "Authenticate the biological measurement/study contract independently of held-out outcomes, then choose and freeze allocation, thresholds, numerical plan, stopping and registration."
+      }
+    ],
     "source_fingerprints": [
       "doi:10.1093/genetics/iyag199; inspected release c1b47a977a9307281917ac1dee29861a813a7fd2; two LTEE evolutionary histories; 19 small-source input hashes in research/drift_audit/INPUT_MANIFEST.json",
       "Sane2025 doi:10.1371/journal.pbio.3003282; article-table inventory only; supplement workbooks not acquired; primary XML sha256:a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
       "doi:10.7554/eLife.38822; primary XML PMC6324874; sha256:38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
       "doi:10.1099/mic.0.001323; primary XML PMC10268835; sha256:6794652551e935e9f5b6ed53cd6b2d034b6b40a5acabeb4c614c39c75845192a; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
       "doi:10.1093/molbev/msaf183; primary XML PMC12344412; sha256:38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
-      "doi:10.1093/nar/gkag673; primary XML PMC13335488; sha256:05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility."
+      "doi:10.1093/nar/gkag673; primary XML PMC13335488; sha256:05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
+      "doi:10.1371/journal.pgen.1011572; PMC11838912.1; primary XML sha256:937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2; source/measurement watch only; no matched WAM panel admitted.",
+      "doi:10.1038/s41467-026-74044-6; PMC13402312.1; primary XML sha256:2910b3b1f75c432f2e71eaaa7c69f1ed0b08b62e9d01b6a0520f1943516bdf32; source/measurement watch only; no matched WAM panel admitted.",
+      "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted."
     ],
-    "next_action": "Run the deduplicated changed-source watch; resolve the prospective measurement contract independently of held-out endpoints. Preserve pending publication and manual-workflow diagnostics."
+    "next_action": "Audit the licensed declared SBW25 native/reporter figure-data archive; authenticate denominators and transfer limits before any biological inference."
   }
 }

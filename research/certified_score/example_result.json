@@ -1,0 +1,353 @@
+{
+  "alpha_exact": "1/20",
+  "claim_limits": [
+    "All coverage and decisions are conditional on the asserted count law, frozen design and independent training/calibration; declarations and hashes do not authenticate them.",
+    "Only the realized rational frozen forecasts are evaluated. Rationalizing floating exponent/ridge predictions defines that forecast; it does not certify the ideal real-number model.",
+    "Other/no-qualified/unresolved/missing endpoints are reported but excluded from this conditional estimand.",
+    "No latent biological probability, causal mechanism, inheritance law, power, registration, new theorem or biological discovery is established.",
+    "Synthetic data are verification, never observations. No automatic publication or biological inference is performed."
+  ],
+  "contexts": [
+    {
+      "comparisons": {
+        "establishment": {
+          "coefficient_enclosures_exact": [
+            [
+              "514533997848987755/2305843009213693952",
+              "4116271982791902041/18446744073709551616"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-3363239097298381939/18446744073709551616",
+              "-1681619548649190969/9223372036854775808"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "6162383261/68719476736",
+            "36104537839/68719476736",
+            "6613138909/17179869184"
+          ],
+          "score_interval_exact": [
+            "-15900055943493942089131826441/316912650057057350374175801344",
+            "97606865458422173418814761701/1267650600228229401496703205376"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "28015626163/68719476736",
+            "17718590117/34359738368",
+            "5266670339/68719476736"
+          ]
+        },
+        "flexible": {
+          "coefficient_enclosures_exact": [
+            [
+              "-3363239097298381939/18446744073709551616",
+              "-1681619548649190969/9223372036854775808"
+            ],
+            [
+              "514533997848987755/2305843009213693952",
+              "4116271982791902041/18446744073709551616"
+            ],
+            [
+              "-3363239097298381939/18446744073709551616",
+              "-1681619548649190969/9223372036854775808"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "28015626163/68719476736",
+            "26504076781/68719476736",
+            "443742931/2147483648"
+          ],
+          "score_interval_exact": [
+            "-32882494953348671116042879505/1267650600228229401496703205376",
+            "79263037541782392855789024293/633825300114114700748351602688"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "11357675871/68719476736",
+            "26047565263/34359738368",
+            "5266670339/68719476736"
+          ]
+        },
+        "supply": {
+          "coefficient_enclosures_exact": [
+            [
+              "-5306797565112371681/18446744073709551616",
+              "-165837423909761615/576460752303423488"
+            ],
+            [
+              "3739755540045141989/9223372036854775808",
+              "7479511080090283979/18446744073709551616"
+            ],
+            [
+              "-5306797565112371681/18446744073709551616",
+              "-165837423909761615/576460752303423488"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "28015626163/68719476736",
+            "26504076781/68719476736",
+            "443742931/2147483648"
+          ],
+          "score_interval_exact": [
+            "-25791045740385798067024559537/1267650600228229401496703205376",
+            "150712032999576749693946155077/633825300114114700748351602688"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "11357675871/68719476736",
+            "26047565263/34359738368",
+            "5266670339/68719476736"
+          ]
+        }
+      },
+      "cp_root_brackets_exact": [
+        {
+          "lower": [
+            "6162383261/68719476736",
+            "3081191631/34359738368"
+          ],
+          "upper": [
+            "14007813081/34359738368",
+            "28015626163/68719476736"
+          ]
+        },
+        {
+          "lower": [
+            "26504076781/68719476736",
+            "13252038391/34359738368"
+          ],
+          "upper": [
+            "52095130525/68719476736",
+            "26047565263/34359738368"
+          ]
+        },
+        {
+          "lower": [
+            "5266670339/68719476736",
+            "1316667585/17179869184"
+          ],
+          "upper": [
+            "26452555635/68719476736",
+            "6613138909/17179869184"
+          ]
+        }
+      ],
+      "excluded_ledger": {
+        "Other": 5,
+        "missing": 1,
+        "no_qualified_outcome": 3,
+        "unresolved_classification": 1
+      },
+      "fixed_total_units": 60,
+      "id": "synthetic_c1",
+      "probability_box_exact": [
+        [
+          "6162383261/68719476736",
+          "28015626163/68719476736"
+        ],
+        [
+          "26504076781/68719476736",
+          "26047565263/34359738368"
+        ],
+        [
+          "5266670339/68719476736",
+          "6613138909/17179869184"
+        ]
+      ],
+      "qualifying_endpoints": 50,
+      "weight_exact": "2/3"
+    },
+    {
+      "comparisons": {
+        "establishment": {
+          "coefficient_enclosures_exact": [
+            [
+              "514533997848987755/2305843009213693952",
+              "4116271982791902041/18446744073709551616"
+            ],
+            [
+              "-5306797565112371681/18446744073709551616",
+              "-165837423909761615/576460752303423488"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "21186248541/68719476736",
+            "33442987145/68719476736",
+            "7045120525/34359738368"
+          ],
+          "score_interval_exact": [
+            "-90266801461386234906580117105/1267650600228229401496703205376",
+            "171063915844611587041965360685/1267650600228229401496703205376"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "50670867285/68719476736",
+            "7068510725/68719476736",
+            "5490049363/34359738368"
+          ]
+        },
+        "flexible": {
+          "coefficient_enclosures_exact": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1681619548649190969/9223372036854775808",
+              "3363239097298381939/18446744073709551616"
+            ],
+            [
+              "-4116271982791902041/18446744073709551616",
+              "-514533997848987755/2305843009213693952"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "32185554763/68719476736",
+            "7068510725/68719476736",
+            "1841588203/4294967296"
+          ],
+          "score_interval_exact": [
+            "-48757277575795420794148136059/633825300114114700748351602688",
+            "92712152447098563347291263995/1267650600228229401496703205376"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "30474909537/68719476736",
+            "33442987145/68719476736",
+            "2400790027/34359738368"
+          ]
+        },
+        "supply": {
+          "coefficient_enclosures_exact": [
+            [
+              "3739755540045141989/9223372036854775808",
+              "7479511080090283979/18446744073709551616"
+            ],
+            [
+              "-1943558467813989743/18446744073709551616",
+              "-971779233906994871/9223372036854775808"
+            ],
+            [
+              "-4711534773952136861/9223372036854775808",
+              "-9423069547904273721/18446744073709551616"
+            ]
+          ],
+          "lower_extremizing_distribution_exact": [
+            "21186248541/68719476736",
+            "18067816947/68719476736",
+            "1841588203/4294967296"
+          ],
+          "score_interval_exact": [
+            "-154307697361803706600571023579/1267650600228229401496703205376",
+            "308001314349349626677630320507/1267650600228229401496703205376"
+          ],
+          "upper_extremizing_distribution_exact": [
+            "50670867285/68719476736",
+            "13247029397/68719476736",
+            "2400790027/34359738368"
+          ]
+        }
+      },
+      "cp_root_brackets_exact": [
+        {
+          "lower": [
+            "21186248541/68719476736",
+            "10593124271/34359738368"
+          ],
+          "upper": [
+            "12667716821/17179869184",
+            "50670867285/68719476736"
+          ]
+        },
+        {
+          "lower": [
+            "7068510725/68719476736",
+            "3534255363/34359738368"
+          ],
+          "upper": [
+            "4180373393/8589934592",
+            "33442987145/68719476736"
+          ]
+        },
+        {
+          "lower": [
+            "2400790027/34359738368",
+            "4801580055/68719476736"
+          ],
+          "upper": [
+            "29465411247/68719476736",
+            "1841588203/4294967296"
+          ]
+        }
+      ],
+      "excluded_ledger": {
+        "Other": 3,
+        "missing": 1,
+        "no_qualified_outcome": 2,
+        "unresolved_classification": 1
+      },
+      "fixed_total_units": 45,
+      "id": "synthetic_c2",
+      "probability_box_exact": [
+        [
+          "21186248541/68719476736",
+          "50670867285/68719476736"
+        ],
+        [
+          "7068510725/68719476736",
+          "33442987145/68719476736"
+        ],
+        [
+          "2400790027/34359738368",
+          "1841588203/4294967296"
+        ]
+      ],
+      "qualifying_endpoints": 38,
+      "weight_exact": "1/3"
+    }
+  ],
+  "count_coordinates": 6,
+  "coverage_regime": "Unconditional over complete fixed-study sampling, conditional only on independently frozen forecast information. No coverage claim conditional on all qualifying totals being positive, their joint vector, report issuance or favorable gates. Zero qualifying counts issue no certificate.",
+  "decision": "inconclusive_at_declared_score_gate",
+  "decision_basis": "Strict comparisons of outward rational endpoints; every declared comparator must pass success. Equality or overlap is inconclusive. Failure uses only its frozen optional gate.",
+  "extra_comparator_bonferroni_division": false,
+  "failure_threshold_exact": "-1/100",
+  "input_sha256": "031b171c30dc5ef3c9d1610d23b50a3f0b21a1b180bb531b86bd11819c1d8234",
+  "method_status": "candidate_certified_rational_implementation",
+  "numerical_policy": {
+    "cp_bisection_bits": 36,
+    "estimated_cp_work": 22680,
+    "log_fraction_bits": 64,
+    "log_terms": 32,
+    "maximum_comparators": 32,
+    "maximum_contexts": 16,
+    "maximum_cp_work": 600000,
+    "maximum_probability_input_bits": 64,
+    "maximum_trials_per_context": 500,
+    "report_fraction_bits": 64
+  },
+  "per_tail_error_exact": "1/240",
+  "plan_sha256": "5266441d738670636cd6922fcc99c332351475d3e230fdbbab8d841e8c4aa44a",
+  "provenance": "synthetic",
+  "schema_version": 1,
+  "scope": "observed_conditional_WAM_expected_log_score",
+  "simultaneous_coverage_lower_bound_exact": "19/20",
+  "success_threshold_exact": "0",
+  "weighted_score_intervals_exact": {
+    "establishment": [
+      "-1054854990843342829/18446744073709551616",
+      "1776680421906135035/18446744073709551616"
+    ],
+    "flexible": [
+      "-792010032738171789/18446744073709551616",
+      "1987618465084369793/18446744073709551616"
+    ],
+    "supply": [
+      "-499348458937251181/9223372036854775808",
+      "1104550327421331683/4611686018427387904"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "checked_utc": "2026-10-03T03:40:55.284547+00:00",
+  "read_only": true,
+  "checks": [
+    {
+      "name": "public_23113326",
+      "status": 200,
+      "response_sha256": "7391679ae5e542b170f5c8de232e128adf956b43f7d4aeb0e977540e6d2a9988",
+      "records": [
+        {
+          "id": 23113326,
+          "conceptrecid": "23068055",
+          "owner": null,
+          "owners": [
+            {
+              "id": "1386319"
+            }
+          ],
+          "submitted": true,
+          "state": "done",
+          "created": "2026-10-03T03:32:55.804990+00:00",
+          "modified": "2026-10-03T03:32:56.343847+00:00",
+          "version": null,
+          "publication_date": "2026-10-03",
+          "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+          "links": {
+            "self": "https://zenodo.org/api/records/23113326",
+            "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+            "latest_html": "https://zenodo.org/records/23113326/latest",
+            "versions": "https://zenodo.org/api/records/23113326/versions"
+          },
+          "file_count": 6
+        }
+      ]
+    },
+    {
+      "name": "latest_from_23113326",
+      "status": 301,
+      "response_sha256": "657640885fa256132302168c6f2102a9b1110c713cd69f1ff9953c230c1eaa40"
+    },
+    {
+      "name": "latest_from_23075312",
+      "status": 301,
+      "response_sha256": "657640885fa256132302168c6f2102a9b1110c713cd69f1ff9953c230c1eaa40"
+    },
+    {
+      "name": "owned_family",
+      "status": 200,
+      "response_sha256": "6d6fd5330c30810d25f3d2cd15c59104b5d167b98595c7bfb375ef33d13f80d9",
+      "records": [
+        {
+          "id": 23113326,
+          "conceptrecid": "23068055",
+          "owner": 1386319,
+          "owners": null,
+          "submitted": true,
+          "state": "done",
+          "created": "2026-10-03T03:32:55.804990+00:00",
+          "modified": "2026-10-03T03:32:56.343847+00:00",
+          "version": null,
+          "publication_date": "2026-10-03",
+          "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+          "links": {
+            "self": "https://zenodo.org/api/records/23113326",
+            "html": "https://zenodo.org/records/23113326",
+            "latest_draft": "https://zenodo.org/api/deposit/depositions/23113326",
+            "newversion": "https://zenodo.org/api/deposit/depositions/23113326/actions/newversion",
+            "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+            "latest_html": "https://zenodo.org/records/23113326/latest"
+          },
+          "file_count": 6
+        }
+      ]
+    }
+  ]
+}

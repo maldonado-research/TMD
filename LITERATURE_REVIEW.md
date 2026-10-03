@@ -1,5 +1,7 @@
 # TMD literature and independent-data opportunities
 
+Later original reviews are indexed in the [current research notes](research/README.md), including the [2 October primary-source watch](research/source_watch/2026-10-02/README.md). The historical search and inspection limits below are preserved.
+
 **Research date: 30 September 2026.** This is a targeted primary-source search for mutation-route prediction, mutation supply, WS Wsp/Aws/Mws, Bacillus subtilis rpoB, and context-dependent establishment. It does not claim to cover the entire web. The current TMD handoff's first 400 lines supplied the model context; user sources were not edited. Several publisher/PMC pages returned access challenges, so the inspection depth is stated where it matters. A paper's support for mutation-biased adaptation is not independent confirmation of TMD's added restrictions.
 
 ## Main finding

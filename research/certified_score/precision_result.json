@@ -1,0 +1,27 @@
+{
+  "finite_precision_half_width_allowance_exact": "42475198227637514333/3802951800684688204490109616128",
+  "guarantee": "If each context supplies at least its listed qualifying count, its CP interval and the stated frozen rational predictors are used, the final projected interval half-width is at most the target for every declared comparator and every possible such count vector.",
+  "half_width_target_exact": "1/20",
+  "limits": [
+    "Pre-outcome arithmetic guidance only; no observations enter. It does not calculate power or guarantee a score clears a threshold.",
+    "Fixed total founder units need not deliver the required qualifying endpoints. A scientifically justified prospective sampling/stopping design must address exclusions without adding interim looks.",
+    "Requirements beyond prototype trial/work caps need an independently reviewed implementation and new frozen numerical plan before unblinding.",
+    "Shares and precision must be selected independently of held-out outcomes. Biological fields in the R3 registry remain unresolved."
+  ],
+  "log_inverse_tail_upper_exact": "50549971789650387819/9223372036854775808",
+  "plan_sha256": "5266441d738670636cd6922fcc99c332351475d3e230fdbbab8d841e8c4aa44a",
+  "qualifying_sample_requirements": {
+    "synthetic_c1": {
+      "minimum_qualifying_endpoints": 527,
+      "supported_by_trial_cap": false,
+      "weighted_range_upper_exact": "3196577161300663915/6917529027641081856"
+    },
+    "synthetic_c2": {
+      "minimum_qualifying_endpoints": 921,
+      "supported_by_trial_cap": false,
+      "weighted_range_upper_exact": "5634193542664852567/18446744073709551616"
+    }
+  },
+  "schema_version": 1,
+  "status": "pre_outcome_deterministic_precision_guidance"
+}
