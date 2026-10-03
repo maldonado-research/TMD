@@ -1,0 +1,23 @@
+{
+  "draft_id": 23113326,
+  "canonical_concept_doi": "10.5281/zenodo.23068055",
+  "publication_attempted": false,
+  "operations": [
+    {
+      "method": "PUT",
+      "filename": "TMD_methods_0_6_0_2026-10-02.zip",
+      "request_content_type": "application/octet-stream",
+      "request_bytes": 1277802,
+      "status": 400,
+      "response_bytes": 59,
+      "request_content_length": "1277802"
+    }
+  ],
+  "uploaded_files": [],
+  "status": "binary_upload_failed",
+  "final_readback_status": 200,
+  "final_file_count": 6,
+  "saved_version": null,
+  "submitted": false,
+  "draft_family_verified": true
+}

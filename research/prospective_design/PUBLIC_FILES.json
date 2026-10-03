@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "round_id": "R000003",
+  "public_files": [
+    "README.md",
+    "REGISTRY_CANDIDATE.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_design.py",
+    "review/REVIEW_NOTES.md",
+    "review/REVIEW_RECEIPT.json",
+    "review/verify_review.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_file_count": 9,
+  "origin": "Original candidate documentation, code and internal synthetic review only; no raw third-party article text or private archive material.",
+  "sha256_manifest": "SHA256SUMS.txt",
+  "sha256_manifest_self_hash_excluded": true
+}

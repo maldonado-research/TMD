@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "run_url": "https://github.com/maldonado-research/TMD/actions/runs/37087326308",
+  "run_id": 37087326308,
+  "event": "workflow_dispatch",
+  "head_branch": "main",
+  "source_commit": "6380470d84e5d8a7e6d8c370e806a49e3efdccd8",
+  "run_attempt": 1,
+  "run_conclusion": "failure",
+  "research_job": {
+    "id": 111100224419,
+    "conclusion": "success",
+    "local_tests_step": "success",
+    "preparation_step": "success",
+    "model_step": "skipped",
+    "provider_inference_observed": false,
+    "preparation_blocked_reason": "unknown_without_log_or_report"
+  },
+  "collector_job": {
+    "id": 111100257908,
+    "conclusion": "failure",
+    "collector_step": "failure",
+    "artifact_upload_step": "success",
+    "annotation": "Process completed with exit code 1.",
+    "expected_blocked_receipt_or_bug": "undetermined_without_log_or_report"
+  },
+  "artifact": {
+    "id": 11260074768,
+    "name": "tmd-research-round",
+    "size_in_bytes": 1918,
+    "digest": "sha256:d64cba192005900ba56f441aa50cb4321a401f8517e0002b0eb9ad40f61d2c16",
+    "expired": false,
+    "contents_retrieved": false
+  },
+  "github_api_access": "Read-only run, job, artifact, check-run, annotation, and workflow metadata requests succeeded.",
+  "download_access": {
+    "outcome": "blocked_by_network_on_redirect_destinations",
+    "hosts": [
+      "results-receiver.actions.githubusercontent.com",
+      "productionresultssa11.blob.core.windows.net"
+    ],
+    "message": "Forbidden",
+    "raw_signed_redirect_urls_preserved": false
+  },
+  "secret_metadata": "Not queried by this agent; no inference of GitHub provider secret presence or absence.",
+  "workflow_state_verified": "disabled_manually",
+  "actual_failure_reproduced_offline": false,
+  "existing_behavior_checks": {
+    "tests": 2,
+    "result": "PASS",
+    "limitation": "These demonstrate that controlled missing-prerequisite receipts can intentionally exit 1. They do not establish this run's blocked reason."
+  },
+  "tracked_edits": [],
+  "file_sha256": {
+    "research/continuation/round_runner.py": "6ca50307ca5ed6dec5feb72468e299f5de661fa62a0b28fc9ff148a909e7e882",
+    "research/continuation/test_round_runner.py": "acc9ee1498e29b3d833aee82fa9974343a658f004294a873450ac263a3e83f7c"
+  },
+  "next_action": "Retrieve the bounded saved report or logs through the authorized GitHub download hosts. Use its exact blocked reason to decide whether a code defect exists. Do not dispatch or enable the workflow merely to diagnose this run."
+}

@@ -1,0 +1,38 @@
+{
+  "canonical_concept_doi": "10.5281/zenodo.23068055",
+  "latest_published_record": 23075312,
+  "active_draft_id": 23113326,
+  "active_draft_url": "https://zenodo.org/uploads/23113326",
+  "published": false,
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23113326",
+      "content_type": null,
+      "request_bytes": 0,
+      "status": 200,
+      "response_bytes": 12164,
+      "response_content_type": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23075312",
+      "content_type": null,
+      "request_bytes": 0,
+      "status": 200,
+      "response_bytes": 12648,
+      "response_content_type": "application/json"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/deposit/depositions/23113326",
+      "content_type": "application/json",
+      "request_bytes": 2385,
+      "status": 500,
+      "response_content_type": "application/json"
+    }
+  ],
+  "status": "blocked",
+  "error_type": "RuntimeError",
+  "error_message": "Zenodo HTTP 500"
+}

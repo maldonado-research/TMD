@@ -1,0 +1,120 @@
+{
+  "prepared_date": "2026-10-02",
+  "date_timezone": "America/Los_Angeles",
+  "source_candidate_sha256": "14a3a3bee0e5e82d04e891e477ca3c63e522b9bedeed11d299e1f2d5f046341d",
+  "source_candidate_bytes": 1278011,
+  "source_candidate_members": 54,
+  "source_candidate_hashes_verified": 53,
+  "archive_filename": "TMD_methods_0_6_0_2026-10-02.zip",
+  "archive_path": "/workspace/tmd-publication/final_methods_0_6_0/TMD_methods_0_6_0_2026-10-02.zip",
+  "archive_bytes": 1277802,
+  "archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+  "archive_md5": "963beb4de39cb94a95443425f7fdac49",
+  "archive_members": 54,
+  "archive_sha256_manifest_entries": 53,
+  "zip_member_roundtrip_and_all_hashes": "pass",
+  "modified_packaging_paths": [
+    "CITATION.cff",
+    "README.md",
+    "research/PUBLICATION_CANDIDATE.md",
+    "research/README.md",
+    "SHA256SUMS.txt"
+  ],
+  "renamed_packaging_paths": {
+    "RELEASE_CANDIDATE.json": "RELEASE_MANIFEST.json"
+  },
+  "preserved_file_count": 48,
+  "scientific_code_outputs_and_source_bytes_preserved": true,
+  "prior_failed_strict_portability_audit_preserved": true,
+  "later_rounds_included": false,
+  "privacy_scope": "Original public-safe candidate members only; no private archive/transcript/raw XML, PDF or workbook additions.",
+  "publication_performed_by_this_review": false,
+  "metadata_path": "/workspace/tmd-publication/final_methods_0_6_0/ZENODO_0_6_0_METADATA_FINAL.json",
+  "checksums_path": "/workspace/tmd-publication/final_methods_0_6_0/TMD_methods_0_6_0_2026-10-02_SHA256SUMS.txt",
+  "deterministic_zip": {
+    "member_order": "lexicographic",
+    "timestamp": "2026-10-02T00:00:00; fixed packaging date, not an observation timestamp",
+    "compression": "deflate level 9",
+    "mode": "100644"
+  },
+  "validation_commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "transport_robustness",
+        "-p",
+        "test_transport_robustness.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/tmd-publication/methods_publication_review/validation_1.log",
+      "seconds": 0.085,
+      "log_sha256": "9767e33cc71c125e7b161611993a34f70508d7683bda5818eee5cf1ee09cb670"
+    },
+    {
+      "command": [
+        "python",
+        "transport_robustness/run_reanalysis.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/tmd-publication/methods_publication_review/validation_2.log",
+      "seconds": 1.044,
+      "log_sha256": "98f2b64bd4d2aa4d971b7612235ed3bac0b400214c0fefd433dc96ebde6a82d4"
+    },
+    {
+      "command": [
+        "python",
+        "transport_robustness/validate.py"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/tmd-publication/methods_publication_review/validation_3.log",
+      "seconds": 3.159,
+      "log_sha256": "4958429b4f791487e3893f0443d43eb8273d0187378ce62eff22d3edd1ec6e47"
+    },
+    {
+      "command": [
+        "python",
+        "verify_transport_review.py",
+        "--public-archive",
+        "/workspace/TMD/TMD_research_extension_0_5_0_2026-09-30.zip"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/tmd-publication/methods_publication_review/validation_4.log",
+      "seconds": 0.802,
+      "log_sha256": "236b1f9dae98a2bab0ec2e3fe1aa84b57440957f27e1e6c03fb6963f4f524ca3"
+    }
+  ],
+  "independent_oracle_checks": {
+    "contexts": 640,
+    "counterexample_contexts": 2,
+    "frontiers": 40,
+    "grid_and_api_decisions": 800,
+    "public_boundary_fixture_evaluations": 12,
+    "records": 160
+  },
+  "public_0_5_archive_member_byte_identity_verified": true,
+  "extracted_unit_tests_passed": 44,
+  "extracted_reanalysis_records": 160,
+  "archive_unchanged_after_validation": true,
+  "privacy_and_secret_pattern_scan": "pass; original public-safe members only, no forbidden raw/full-text formats or private/transcript paths and no tested credential patterns",
+  "metadata_schema_and_scientific_scope_review": "pass; legacy publication/report schema, complete creator, license, version/date, synthetic/conditional limits and separate historical software family",
+  "independent_math_review_path": "/workspace/tmd-publication/methods_publication_review/math_review/MATH_REVIEW.md",
+  "independent_math_review_sha256": "65632a220be2bc197e357b92b4f66691e2ea2c05ac66efa936ff30df36a46412",
+  "independent_math_review": "pass; no blocking math/domain error; conditional alpha bound, signs, residual box and scalar projections, exact frontier and domain limitations reviewed",
+  "independent_math_review_checks": {
+    "normalized_transport_identities": 1000,
+    "box_corner_extrema": 1000,
+    "asymmetric_scalar_projections": 1000,
+    "exact_binomial_tail_sums": 1260,
+    "small_n_exact_coverage_checks": 210,
+    "frontier_probes": 18
+  },
+  "nonblocking_math_wording_note": "METHODS.md line76 says real-valued frontier. For rational API radii the typical irrational frontier is an infimum enclosed by exact rational brackets; scientific source text remains frozen.",
+  "independent_zip_rebuild_byte_identity": "pass",
+  "source_candidate_still_immutable": true
+}

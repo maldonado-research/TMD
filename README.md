@@ -9,11 +9,17 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest downloadable methods package: 0.5.0
+## Latest published methods package: 0.5.0
 
 [Read the 0.5.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_5_0.md) · [Download the complete package](TMD_research_extension_0_5_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_5_0_SHA256SUMS.txt) · [Zenodo report version](https://zenodo.org/records/23075312)
 
 The 53-file package adds finite-sample bounds for recovery-corrected route comparisons, including observed zeros and all-success controls. **13 automated tests passed.** Exact integer tails certify conservative binomial endpoints; exact rational projection decides whether context intervals intersect. Independent internal reviews reproduced all 160 synthetic datasets and complete confidence results (40 reused, 120 new). The targeted literature review adds three substantive papers. No new biological confirmation, certified power or external mathematical priority is claimed. The public Zenodo API confirms that record 23075312 is published as 0.5.0 in research-report DOI family 10.5281/zenodo.23068055 ([verification receipt](research/EXISTING_0_5_0_PUBLICATION_RECEIPT.json)). Expanded report files below remain 0.1.0.
+
+## Current progress — 2 October 2026
+
+The methods, continuation and four-source eligibility updates have reached `main`. The [prospective design round](research/prospective_design/README.md) now fixes an operational held-out forecast and strong measured alternatives, with independent synthetic mathematical checks. It is design-only: 26 study inputs remain unresolved and no experiment is registered.
+
+[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub, but remains unpublished on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records published 0.5.0, the existing-family draft 23113326 and API staging errors. The [manual workflow test](research/continuation/MANUAL_TEST_2026-10-02.json) skipped inference; its exact prerequisite is unresolved and the workflow remains explicitly paused.
 
 ## Research follow-up: recovery-transport robustness
 
@@ -27,9 +33,9 @@ All 44 new tests pass, with independent internal checks of 640 context projectio
 
 [Protocol and activation requirements](research/continuation/README.md) · [Persistent scientific state](research/continuation/STATE.json) · [Public drift-source audit](research/drift_audit/DRIFT_AUDIT_2026-10-01.md) · [Matched-panel eligibility audit](research/panel_eligibility/README.md)
 
-A proposed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent candidate checkpoints, finite budgets and a once-daily source watch. It is inactive until reviewed, merged and securely configured. The first new round audits 33 clones, 67 culture timecourses and 206 paired colony counts; its technical-noise diagnostic does not estimate biological drift, establishment or TMD validation.
+The installed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent candidate checkpoints, finite budgets and a once-daily source watch. It is explicitly paused after an incomplete manual test; a successful model round is not yet verified. The first new round audits 33 clones, 67 culture timecourses and 206 paired colony counts; its technical-noise diagnostic does not estimate biological drift, establishment or TMD validation.
 
-The second round inspects four authenticated primary articles and records source-specific eligibility and missing measurements. It supports Lind's four rare-pathway mutants at the aggregate level, identifies reuse of the 41 Aws occurrences in Sun 2023, and sharpens sequence-hotspot and repair-dependent supply alternatives. No complete matched biological panel is admitted from the inspected material. The next queued round is a prospective discriminating design.
+The second round inspects four authenticated primary articles and records source-specific eligibility and missing measurements. It supports Lind's four rare-pathway mutants at the aggregate level, identifies reuse of the 41 Aws occurrences in Sun 2023, and sharpens sequence-hotspot and repair-dependent supply alternatives. No complete matched biological panel is admitted from the inspected material. The third [prospective design round](research/prospective_design/README.md) is complete as design-only. Its 26 study inputs remain unresolved; the daily changed-source watch and measurement contract follow.
 
 ## Previous downloadable methods package: 0.4.0
 

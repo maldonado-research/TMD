@@ -1,0 +1,56 @@
+{
+  "canonical_concept_doi": "10.5281/zenodo.23068055",
+  "latest_published_record": 23075312,
+  "credential_variable": "ZENODO_TOKEN",
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/api/records/23075312/versions/latest",
+      "request_bytes": 0,
+      "content_type": null,
+      "status": 200,
+      "response_bytes": 13714,
+      "response_content_type": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23075312",
+      "request_bytes": 0,
+      "content_type": null,
+      "status": 200,
+      "response_bytes": 12648,
+      "response_content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "path": "/api/deposit/depositions/23075312/actions/newversion",
+      "request_bytes": 2,
+      "content_type": "application/json",
+      "status": 201,
+      "response_bytes": 12164,
+      "response_content_type": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23113326",
+      "request_bytes": 0,
+      "content_type": null,
+      "status": 200,
+      "response_bytes": 12164,
+      "response_content_type": "application/json"
+    }
+  ],
+  "published": false,
+  "newversion_requested": true,
+  "active_draft_id": 23113326,
+  "active_draft_url": "https://zenodo.org/api/deposit/depositions/23113326",
+  "draft_html": "https://zenodo.org/uploads/23113326",
+  "draft_state": "unsubmitted",
+  "reserved_doi": {
+    "doi": "10.5281/zenodo.23113326",
+    "recid": 23113326
+  },
+  "inherited_file_count": 6,
+  "bucket": "https://zenodo.org/api/files/8203dc4d-732f-4829-9526-8861cf921cf3",
+  "status": "draft_selected_and_family_verified"
+}

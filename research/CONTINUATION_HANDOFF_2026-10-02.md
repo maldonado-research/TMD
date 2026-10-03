@@ -1,0 +1,11 @@
+# TMD continuation handoff — 2 October 2026
+
+This is original public project bookkeeping, not a copied private archive handoff or uploaded chat transcript.
+
+R1 drift-source and R2 four-article eligibility reviews are merged into `main`. No complete matched biological Wsp/Aws/Mws panel was admitted in the inspected material. R3's [prospective candidate](prospective_design/README.md) is independently reviewed as design-only, with 26 actual study inputs unresolved. Natural dominance is an operational route propensity, not identified Mendelian dominance, a new inheritance law or a new causal mutation force. The proposed common-curvature model is algebraically an ordinary quadratic loglinear restriction; whole-context predictions and independent alternatives are required to test incremental usefulness.
+
+The canonical methods concept DOI is **10.5281/zenodo.23068055**. Latest published methods remain **0.5.0 / record 23075312**. Active unpublished new-version draft is **23113326**, reserved DOI 10.5281/zenodo.23113326. Authentication and family ownership succeeded; required metadata did not save and no new file upload was verified. [Status/fallback](PUBLICATION_STATUS.md) and [redacted diagnostics](publication_diagnostics/) preserve exact current publication state. Do not create another family/draft, re-enable automatic GitHub archiving or publish inherited files alone. All eight automatic integrations are OFF according to the authorized repair handoff.
+
+The reviewed final 0.6.0 ZIP preserves only the 1 October methods snapshot; it excludes later R1/R2/R3 rounds. SHA-256 72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76. This package is ready for the existing-draft browser fallback; no publication has occurred. Historical software v2.6.5 has a separate DOI family.
+
+The single manual workflow run 37087326308 skipped inference; collector reported exit 1 and saved an unread artifact. Workflow is explicitly paused. Resolve existing report access rather than rerunning or assuming a missing credential/bug. Preserve all reviewed checkpoints and multiplicity/stopping boundaries. Next scientific work is the deduplicated source watch and authenticating a common-background measurement contract before any registered study.

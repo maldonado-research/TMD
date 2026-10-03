@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "project": "Mutation by Natural Dominance (TMD)",
+  "round_id": "R000003",
+  "document_status": "design_candidate_not_registered",
+  "scientific_result": "design_only",
+  "new_biological_observations": 0,
+  "new_external_source_acquisitions": 0,
+  "admitted_matched_biological_panels": 0,
+  "primary_estimand": "Declared-weight expected log-score gain per observed qualifying W/A/M endpoint from a frozen forecast in fixed held-out contexts.",
+  "secondary_estimand": "Common biological supply-adjusted J only if the full count and bounded differential-recovery contract is admitted.",
+  "not_identified": [
+    "Separate mutation, accessibility, establishment and recovery factors from winner counts alone",
+    "A novel causal force of natural dominance",
+    "Biological or all-category probabilities from J-only transfer bounds",
+    "Exact mutation or first-arrival times from endpoint outcomes",
+    "General power or a scientific discovery from synthetic verification"
+  ],
+  "frozen_algorithm_candidate": {
+    "route_order": ["W", "A", "M"],
+    "axis_s": [1, 0, -1],
+    "model": "pi proportional to qstar exp(theta 1_A + eta s)",
+    "triad_point_smoothing": "(k_i + 0.5)/(n + 1.5)",
+    "binary_point_smoothing": "(k + 0.5)/(n + 1)",
+    "qstar": "normalize(baseline_point * selected_recovery_point / baseline_recovery_point)",
+    "theta_training": "equal-context mean of log(t_A/qstar_A) - 0.5*log(t_W/qstar_W) - 0.5*log(t_M/qstar_M)",
+    "eta_training": "0.5*(log(t_W/qstar_W)-log(t_M/qstar_M))",
+    "independent_feature": "x = 0.5*log(F_W/F_M) from independent known-denominator establishment assays",
+    "eta_prediction": "training-only centered closed-form ridge regression with intercept and x",
+    "slope_penalty": 0.01,
+    "intercept_penalized": false,
+    "feature_rescaling": false,
+    "zero_training_feature_variation": "slope=0; intercept=mean training eta",
+    "missing_target_feature": "blocked; no substitute from selected outcomes",
+    "comparator_predictions": [
+      "normalize(qstar)",
+      "normalize(qstar * independently_measured_F)",
+      "Separate ridge regressions of training A:W and M:W log-odds offsets on intercept and x, with the same 0.01 slope penalty; normalize(qstar * [1, exp(g_A), exp(g_M)])."
+    ],
+    "score_log_base": "natural",
+    "all_frozen_predictions_strictly_positive": true,
+    "confidence_counts": "raw admitted counts; do not substitute smoothed pseudo-counts",
+    "uncertainty": "One simultaneous outcome-probability region projected through all frozen score comparisons; does not identify latent parameters or causal effects."
+  },
+  "study_inputs_requiring_resolution": {
+    "ancestral_genotype_and_stock_id": null,
+    "molecular_allele_route_registry": null,
+    "compound_and_unknown_route_rules": null,
+    "within_route_heterogeneity_bound": null,
+    "qualified_endpoint_and_fixed_time": null,
+    "supply_event_division_denominator_frame": null,
+    "establishment_binary_outcome_definition": null,
+    "known_introduced_recovery_trial_definition": null,
+    "independence_and_cluster_admissibility_rule": null,
+    "training_contexts_and_blocks": null,
+    "heldout_contexts_and_later_blocks": null,
+    "training_to_target_feature_admissible_range": null,
+    "declared_heldout_context_weights": null,
+    "trials_per_context_and_measurement_arm": null,
+    "exclusion_and_missingness_rules": null,
+    "total_study_alpha": null,
+    "count_and_transfer_error_allocation": null,
+    "primary_effect_threshold_nats": null,
+    "primary_success_and_failure_gates": null,
+    "fixed_stopping_rule": null,
+    "blinded_design_precision_and_power_plan": null,
+    "route_phase_control_transfer_bounds": null,
+    "full_observation_map_if_biological_forecast_requested": null,
+    "numeric_score_decision_implementation": null,
+    "actual_laboratory_or_data_partner": null,
+    "preregistration_accession_and_frozen_hash": null
+  },
+  "mandatory_outcome_ledger_categories": [
+    "W", "A", "M", "Other", "no_qualified_outcome", "unresolved_classification", "missing"
+  ],
+  "mandatory_grouping_identifiers": [
+    "ancestral_genotype_id", "founder_id", "run_block_id", "immediate_ancestor_id", "batch_id", "context_id", "paired_arm_id", "technical_replicate_id"
+  ],
+  "transfer_rule": "Unknown or unjustified biological control transfer is unbounded; do not estimate its bounds from held-out selected winners.",
+  "optional_exchangeable_context_envelope": {
+    "part_of_primary_design": false,
+    "exchangeability_justification": null,
+    "failure_budget": null,
+    "calibration_context_count": null,
+    "heldout_target_count": null,
+    "finite_maximum_bound_requirement": "m >= ceil(H/alpha_transfer - 1) for the allocated H-target union-bound construction; insufficient or unjustified exchangeability means no finite guarantee."
+  },
+  "completion_boundary": {
+    "operational_round_can_complete_as_design_only": true,
+    "confirmatory_test_ready": false,
+    "biological_forecast_ready": false,
+    "registered_experiment": false,
+    "external_peer_review": false,
+    "publish_private_raw_data": false,
+    "next_action": "Authenticate a common-background measurement partner or eligible source; resolve required registry fields, run blinded design/power work and independent review, then freeze/register before held-out endpoints."
+  }
+}
