@@ -1,0 +1,61 @@
+{
+  "biological_observations": 0,
+  "certified_score_decision_engine": false,
+  "checks": {
+    "algebra_J_and_saturated_reconstruction_cases": 504,
+    "conditional_degenerate_support_checked": true,
+    "conditional_eta_cancellation_cases": 180,
+    "empty_probability_regions_rejected": true,
+    "finite_multinomial_coverage_example_checked": true,
+    "flexible_predictor_same_eta_feature_varying_theta_identity_checked": true,
+    "frozen_target_prediction_and_missing_denominator_guards_checked": true,
+    "nonfinite_score_inputs_rejected": true,
+    "pooling_symmetry_case_checked": true,
+    "raw_zero_count_endpoints_preserved": true,
+    "recovery_artifact_and_same_J_different_probabilities_checked": true,
+    "score_projection_explicit_vertex_cases": 9
+  },
+  "illustrative_values": {
+    "finite_multinomial_CP_Bonferroni_coverage": 0.991014233818,
+    "pooled_theta_at_uniform_q_theta0_eta_plusminus1": -0.433780830483,
+    "recovery_artifact_J": 2.25,
+    "recovery_artifact_theta": 0.405465108108,
+    "synthetic_frozen_prediction": {
+      "eta": -0.094072910799,
+      "eta_coefficients": [
+        -0.27032948915,
+        0.92891382673
+      ],
+      "feature": 0.189744810852,
+      "probabilities": {
+        "flexible": [
+          0.449855491626,
+          0.348663324254,
+          0.201481184119
+        ],
+        "restricted": [
+          0.441870185671,
+          0.360225087382,
+          0.197904726947
+        ],
+        "supply_establishment_observation": [
+          0.474406858531,
+          0.405147389788,
+          0.120445751681
+        ],
+        "supply_observation": [
+          0.430006632981,
+          0.410432667831,
+          0.159560699188
+        ]
+      },
+      "theta": -0.25177122993
+    },
+    "weak_oracle_gain_nats": 0.019620080791
+  },
+  "new_theorem_or_priority_claim": false,
+  "registered_experiment": false,
+  "round_id": "R000003",
+  "schema_version": 1,
+  "verification_kind": "synthetic_floating_mathematical_checks"
+}

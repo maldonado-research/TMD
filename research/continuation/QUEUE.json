@@ -24,10 +24,13 @@
     {
       "id": "R000003",
       "priority": 3,
-      "status": "queued",
+      "status": "completed",
       "question": "What prospective observations discriminate the restricted TMD forecast from measured supply, establishment and recovery alternatives?",
       "deliverable": "Frozen preregistration candidate with held-out eta rule, biological clusters, effect threshold, error allocation and fixed stopping.",
-      "falsifier_or_boundary": "A frozen forecast that adds no held-out benefit over strong measured alternatives provides no incremental support."
+      "falsifier_or_boundary": "A frozen forecast that adds no held-out benefit over strong measured alternatives provides no incremental support.",
+      "completion_scope": "design_only",
+      "result": "Operational held-out algorithm, sampling contracts and independent synthetic review completed. Twenty-six confirmatory study inputs remain unresolved; no fully frozen study or registration.",
+      "report": "../prospective_design/README.md"
     },
     {
       "id": "R000004",
@@ -37,6 +40,14 @@
       "question": "Has a new primary study, source version or accessible dataset changed the mutation-supply, establishment, drift or recovery alternatives?",
       "deliverable": "A deduplicated primary-source literature/data watch with exact publication/version status and one useful next question, or an honest no_change result.",
       "falsifier_or_boundary": "An unchanged DOI/cohort or another copy of an inspected source is not new independent evidence."
+    },
+    {
+      "id": "R000005",
+      "priority": 5,
+      "status": "queued",
+      "question": "Which authenticated common-background source or measurement partner can resolve the26 prospective study inputs?",
+      "deliverable": "A genotype/measurement/denominator/transport contract with independent pre-outcome precision and power design, or exact unresolved prerequisites.",
+      "falsifier_or_boundary": "Unknown biological inputs cannot be replaced with synthetic observations or favorable selected outcomes."
     }
   ]
 }

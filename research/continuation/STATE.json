@@ -12,18 +12,22 @@
   },
   "automation": {
     "requested_cadence": "hourly, around the clock",
-    "activation_status": "not_active",
+    "activation_status": "installed_paused_manual_test_incomplete",
     "scheduler_tool_available_in_this_chat": false,
-    "github_default_branch_workflow_present": false,
+    "github_default_branch_workflow_present": true,
     "api_credential_configured": null,
     "cloud_provider_api_key_present": false,
     "api_credential_status_scope": "No provider key is injected into this cloud runtime. GitHub Actions secret configuration is unknown because this integration receives HTTP 403 when inspecting its metadata.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
-    "latest_activation_receipt": "ACTIVATION_CHECK_2026-10-02.json",
-    "last_completed_round": "R000002",
-    "next_round_id": "R000003",
+    "latest_activation_receipt": "MANUAL_TEST_2026-10-02.json",
+    "last_completed_round": "R000003",
+    "next_round_id": "R000004",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
-    "workflow_template": ".github/workflows/tmd-continuous-research.yml"
+    "workflow_template": ".github/workflows/tmd-continuous-research.yml",
+    "github_workflow_state": "disabled_manually",
+    "manual_test_run_id": 37087326308,
+    "manual_test_model_step": "skipped",
+    "manual_test_root_cause": "unknown_report_download_blocked"
   },
   "base_commit": "465850ee33f746cf42f1b3d5075fba2ea57332ad",
   "research_state": {
@@ -35,7 +39,12 @@
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
     "latest_primary_source_audit_round": "R000002",
-    "latest_primary_source_audit_articles": 4
+    "latest_primary_source_audit_articles": 4,
+    "latest_design_round": "R000003",
+    "design_round_outcome": "design_only",
+    "registered_experiment": false,
+    "unresolved_study_inputs": 26,
+    "active_zenodo_draft": 23113326
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -50,14 +59,15 @@
     "new_version_for_substantive_reviewed_changes_only": true,
     "automated_merge": false,
     "automated_zenodo_publication": false,
-    "private_archive_or_handoff_publication": false
+    "private_archive_or_handoff_publication": false,
+    "human_directed_reviewed_merge_authorized": true
   },
   "blockers": [
     {
       "id": "unattended_runner",
       "status": "blocked",
-      "observed": "No scheduler control exposed in this chat and no provider API credential injected into this cloud runtime. GitHub reports zero registered workflows; prerequisite PRs 1 and 2 remain unmerged. This integration cannot inspect GitHub secret or enable-variable settings (HTTP 403), so their configuration is unknown. Official Codex 0.160.0 catalog supports the requested model/ultra; account-specific acceptance and an unattended run remain untested.",
-      "unblocking_condition": "Configure a durable scheduler and verify the requested runtime model and effort with secure authentication."
+      "observed": "Workflow is now merged and explicitly disabled. One manual test passed offline checks, skipped the model step and emitted a failed collector outcome with a saved artifact. Its exact blocked reason is unknown because redirect download hosts are denied. GitHub secret/enable-variable metadata remains HTTP403; no missing-secret or code-defect inference is made.",
+      "unblocking_condition": "Read the existing manual-test report through authorized artifact hosts; diagnose its exact prerequisite, then verify a bounded successful model round before enabling scheduling."
     },
     {
       "id": "sane_workbooks",
@@ -68,30 +78,40 @@
     {
       "id": "zenodo_deposit",
       "status": "blocked",
-      "observed": "Public 0.5.0 record confirmed, authenticated deposit access unavailable.",
-      "unblocking_condition": "Securely configured deposit credential and verified account ownership/New version target."
+      "observed": "Existing credential authenticated reads and New version creation. Draft23113326 belongs to concept23068055. JSON metadata writes returned500 through two clients; binary upload returned400. No new file or required metadata verified; draft remains unpublished.",
+      "unblocking_condition": "Use existing-draft browser fallback or a diagnosed changed API route, verify saved metadata and file checksums, then publish only the approved complete package."
     },
     {
       "id": "lind2019_workbooks_and_horton_osf",
       "status": "blocked",
       "observed": "Lind figure-data workbook/API candidates and Horton OSF metadata returned proxy CONNECT403; Horton supplementary PDF endpoint returned CAPTCHA HTML. No raw XLSX/OSF data or supplementary PDF acquired. The drafted network additions are not proof of runtime activation.",
       "unblocking_condition": "Changed and verified runtime access or another authenticated authoritative source. Preserve inspected source hashes and avoid unchanged hourly retries."
+    },
+    {
+      "id": "confirmatory_measurement_contract",
+      "status": "blocked",
+      "observed": "R000003 fixes a forecast algorithm and controls, but26 actual study fields remain null; no matched biological dataset or registered experiment exists.",
+      "unblocking_condition": "Authenticate a common-background measurement source/partner; choose genotypes, sampling frames, contexts, allocation, thresholds and fixed stopping, run independent design review, then register before outcomes."
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000002: four-source eligibility audit completed with independent internal review; no complete matched WAM panel admitted within inspected scope.",
-    "next_action": "R000003: freeze a prospective discriminating design, including held-out eta, independent supply/establishment/recovery alternatives and biological grouping.",
+    "last_completed_step": "R000003: independently reviewed design-only forecast and synthetic verification; actual confirmatory study remains blocked.",
+    "next_action": "Run the deduplicated changed-source watch; resolve the prospective measurement contract independently of held-out endpoints. Preserve pending publication and manual-workflow diagnostics.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
       "research/panel_eligibility/review/REVIEW_RECEIPT.json": "da5c1372806671a21f3d2178cee404579f2fe90c19d5a861025b3f16d2c11d6b",
-      "research/panel_eligibility/STATUS.json": "d3fefd0ac4df7392f9fbedcb23abaf122a275fb4d7f291cce2640798dccf2c70"
+      "research/panel_eligibility/STATUS.json": "d3fefd0ac4df7392f9fbedcb23abaf122a275fb4d7f291cce2640798dccf2c70",
+      "research/prospective_design/REGISTRY_CANDIDATE.json": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+      "research/prospective_design/VERIFICATION_RECEIPT.json": "ef4907bec0e514276bb59a3dba7c219f09eae7061b4de7c50b454294e695c623",
+      "research/prospective_design/review/REVIEW_RECEIPT.json": "a2040eaec7bd4636717a8ea368f36b35101b780433645f734cc176d896b5f603"
     }
   },
   "reviewed_checkpoint": {
     "completed_work_item_ids": [
       "R000001",
-      "R000002"
+      "R000002",
+      "R000003"
     ],
     "blocked_work_items": [],
     "source_fingerprints": [
@@ -102,6 +122,6 @@
       "doi:10.1093/molbev/msaf183; primary XML PMC12344412; sha256:38c5377591da67d47ccdef8cfb08f26348e2aef82b34ac69953c8ccef202fb40; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
       "doi:10.1093/nar/gkag673; primary XML PMC13335488; sha256:05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility."
     ],
-    "next_action": "R000003: freeze a prospective discriminating design, including held-out eta, independent supply/establishment/recovery alternatives and biological grouping."
+    "next_action": "Run the deduplicated changed-source watch; resolve the prospective measurement contract independently of held-out endpoints. Preserve pending publication and manual-workflow diagnostics."
   }
 }

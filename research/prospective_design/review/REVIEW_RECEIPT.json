@@ -1,0 +1,60 @@
+{
+  "blocking_findings_for_stated_scope": [],
+  "executed_before_receipt_write": [
+    "python /workspace/tmd-research-progress/prospective_design/verify_design.py --check",
+    "python /workspace/tmd-research-progress/prospective_design/review/verify_review.py"
+  ],
+  "external_peer_review": false,
+  "inspected_inputs": [
+    {
+      "path": "/workspace/TMD/research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "sha256": "49536343c7afefc7f130d5360fe4f76f9eb8738252db6833a5be1e522f32289a"
+    },
+    {
+      "path": "/workspace/TMD/PROSPECTIVE_TEST_PLAN.md",
+      "sha256": "8f00109661becb1251be6c9685846b3942ac4efb8b308c51c0f385acda07fade"
+    }
+  ],
+  "mathematical_priority_or_novelty_claim": false,
+  "new_biological_observations": 0,
+  "owner_corrected_reviewer_findings": [
+    "Reject nonfinite frozen score coefficients",
+    "Reject mathematically empty box/simplex regions even when the gap is smaller than the former feasibility tolerance"
+  ],
+  "publication_performed_by_reviewer": false,
+  "registered_experiment": false,
+  "repository_mutation_performed_by_reviewer": false,
+  "reproduction_commands": [
+    "python verify_design.py --check",
+    "python review/verify_review.py --check"
+  ],
+  "review_date_utc": "2026-10-03",
+  "review_disposition": "accepted_for_stated_design_only_scope",
+  "review_type": "independent_internal_mathematical_and_synthetic_implementation_review",
+  "reviewer_check_counts": {
+    "CP_boundary_closed_form_cases": 16,
+    "corrected_finite_input_and_tiny_empty_region_cases_rejected": 4,
+    "independent_core_identity_cases": 5,
+    "invalid_count_cases_rejected": 6,
+    "owner_receipt_matches_recomputed_checks": true,
+    "ridge_normal_equation_cases": 3,
+    "source_optimizer_random_exact_vertex_cases": 240
+  },
+  "round_id": "R000003",
+  "schema_version": 1,
+  "scope_limits": [
+    "Synthetic finite checks only; no biological or external-source acquisition",
+    "Floating computations do not certify prospective score-threshold decisions",
+    "Count laws, clustering, study inputs, stopping, alpha/transport budgets and effect thresholds remain unresolved",
+    "Biological forecasts require justified observation and transport models",
+    "Frozen predictions do not identify a causal mechanism"
+  ],
+  "verified_file_sha256": {
+    "README.md": "675c4e632625719caee03c9c5d1c7ba0a82e3c539764f36892864bf75bbd7184",
+    "REGISTRY_CANDIDATE.json": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "VERIFICATION_RECEIPT.json": "ef4907bec0e514276bb59a3dba7c219f09eae7061b4de7c50b454294e695c623",
+    "review/REVIEW_NOTES.md": "1bc90d708d2b40cb53acc7c3188b7a6f79f6e498ac3b9d9fda8d96ceb8131b7d",
+    "review/verify_review.py": "8025615a9b2c3c5a257c9dbc73cdde74deefe752742a44c3429180771ad00ee7",
+    "verify_design.py": "f5e3618e23daa691e109de41bbd35346c05cb01687f78eb12479c7bbb516117a"
+  }
+}

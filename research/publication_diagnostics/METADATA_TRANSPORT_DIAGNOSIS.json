@@ -1,0 +1,54 @@
+{
+  "draft_id": 23113326,
+  "operations": [
+    {
+      "transport": "requests JSON",
+      "method": "PUT",
+      "request_bytes": 2385,
+      "request_content_type": "application/json",
+      "status": 500,
+      "response_bytes": 228,
+      "response_content_type": "application/json",
+      "response_top_level_keys": [
+        "error_id",
+        "message",
+        "status"
+      ],
+      "error_code": 500,
+      "recognized_error_message": null
+    }
+  ],
+  "publication_attempted": false,
+  "after_failed_put": {
+    "id": 23113326,
+    "conceptrecid": "23068055",
+    "owner": 1386319,
+    "submitted": false,
+    "metadata_nonempty": true,
+    "version": null,
+    "title_present": true,
+    "file_count": 6
+  },
+  "requests_get": {
+    "status": 200,
+    "response_bytes": 12164
+  },
+  "readback_status": 200,
+  "after_transport_probe": {
+    "id": 23113326,
+    "conceptrecid": "23068055",
+    "owner": 1386319,
+    "submitted": false,
+    "metadata_nonempty": true,
+    "version": null,
+    "title_present": true,
+    "file_count": 6
+  },
+  "required_metadata_matches": {
+    "title": false,
+    "version": false,
+    "description": false,
+    "publication_date": false,
+    "creators": false
+  }
+}

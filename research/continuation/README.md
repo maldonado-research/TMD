@@ -2,11 +2,11 @@
 
 Ricardo Maldonado · 1 October 2026 · Operational research protocol
 
-The purpose is to accumulate reproducible evidence, meaningful negative results and sharper tests. A durable scheduler can launch fresh finite rounds around the clock. This cloud conversation cannot relaunch itself after a turn ends, and no scheduler control is exposed here. The proposed GitHub workflow runs hourly, behind an enable switch. It is not active merely because this protocol or a review branch exists.
+The purpose is to accumulate reproducible evidence, meaningful negative results and sharper tests. A durable scheduler can launch fresh finite rounds around the clock. This cloud conversation cannot relaunch itself after a turn ends, and no scheduler control is exposed here. The installed GitHub workflow has an hourly schedule behind an enable switch and is currently explicitly paused. It is not active merely because this protocol or a review branch exists.
 
 The exact requested model is GPT-6.1 Sol with ultra reasoning. Official Codex 0.160.0 metadata declares API support for model identifier gpt-6.1-sol and effort ultra; [support evidence](MODEL_AND_AUTOMATION_SUPPORT.md) records the immutable sources. The runner checks account access and invokes these exact settings. It has no fallback. A ChatGPT login does not supply the GitHub workflow's separate API credential; API usage has separate costs. Live account entitlement and a complete scheduled inference have not been tested.
 
-The [2 October activation recheck](ACTIVATION_CHECK_2026-10-02.json) found both prerequisite review PRs still unmerged and zero registered GitHub workflows. No provider API key is injected into this cloud runtime. GitHub denied this integration access to repository secret and enable-variable metadata, so those settings remain unknown; a denial does not establish absence. Manual finite research rounds can continue while activation is pending.
+The earlier [2 October activation recheck](ACTIVATION_CHECK_2026-10-02.json) found both prerequisite review PRs still unmerged and zero registered GitHub workflows. No provider API key is injected into this cloud runtime. GitHub denied this integration access to repository secret and enable-variable metadata, so those settings remain unknown; a denial does not establish absence. Manual finite research rounds can continue while activation is pending.
 
 ## Resume, discriminate, verify, checkpoint
 
@@ -42,14 +42,20 @@ When transport bounds are statistically estimated, include their noncoverage pro
 
 ## Activation after review
 
-The workflow is proposed in .github/workflows/tmd-continuous-research.yml. The continuation PR depends on the preceding methods-review branch; merge the reviewed methods update and this continuation workflow into the default branch through the established maintainer workflow.
+The reviewed workflow is installed in .github/workflows/tmd-continuous-research.yml on the default branch. Its source reviews have been merged. The latest manual-test diagnosis below supersedes the earlier unmerged-prerequisite observation; scheduling is explicitly paused.
 
-In the TMD repository's GitHub Actions settings, configure the API credential as the secret OPENAI_API_KEY. Enter it securely there, never in chat or a repository file. Confirm the API account supports the requested model, set spending controls, and run the workflow once manually. Inspect its report and runtime errors. Then set the repository variable TMD_CONTINUOUS_RESEARCH_ENABLED to true for the hourly schedule; false pauses it. This setup has not created a credential, changed account settings, merged a PR or activated a schedule.
+In the TMD repository's GitHub Actions settings, configure the API credential as the secret OPENAI_API_KEY. Enter it securely there, never in chat or a repository file. Resolve the existing saved report before another bounded manual test, confirm API account support for the requested model, and set spending controls. Inspect its report and runtime errors. Then set the repository variable TMD_CONTINUOUS_RESEARCH_ENABLED to true for the hourly schedule; false pauses it. This protocol does not create a credential or establish account entitlement. The human-directed task merged reviewed PRs and tested one bounded manual dispatch; scheduling remains explicitly paused.
 
 GitHub schedules are best effort: runs can be delayed or dropped, and public-repository schedules can be disabled after 60 days without activity. See the [official schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule). This is an hourly recurring system, not a guarantee of uninterrupted 24/7 execution.
 
 The model job receives public project materials and read-only GitHub permissions. It receives no private archive checkout, copied ChatGPT credential or Zenodo token. Original reports are collected in a fresh job from the final message; raw workspace contents are not uploaded. Future private archive work stays in an authorized private environment and cannot be presumed complete from this public runner.
 
-Website deployment and Zenodo publication remain reviewed, authenticated operations. Broad authorization to publish suitable results does not supply a missing credential, prove ownership, or authorize private raw-file disclosure. The user continues to merge review PRs; the scheduler does not merge, deploy or publish a Zenodo record.
+Website deployment and Zenodo publication remain reviewed, authenticated operations. Broad authorization to publish suitable results does not supply a missing credential, prove ownership, or authorize private raw-file disclosure. The user has delegated handling reviewed GitHub updates to this human-directed cloud task; the scheduler does not merge, deploy or publish a Zenodo record.
 
 New operational code is MIT; original documentation is CC BY 4.0 under the repository licensing terms. Source attribution and original rights are preserved. AI assistance is disclosed.
+
+## Latest integration and activation check — 2 October 2026
+
+The prerequisite methods, continuation and panel-audit reviews are merged into `main`. R000003 is complete as **design_only**, documented in [the prospective candidate](../prospective_design/README.md); actual study inputs and registration remain blocked. These finite rounds do not reset a confirmatory study's error budget.
+
+One bounded manual workflow test was dispatched at source commit6380470. The local checks and prepare step completed, the model step was skipped, the collector exited1 and an artifact was saved. [Read-only diagnosis](MANUAL_TEST_2026-10-02.json) records the exact observed scope; artifact/log redirect hosts were denied, so the prerequisite and whether any code defect exists remain unknown. No missing Actions credential is inferred. The workflow was explicitly disabled after dispatch and remains `disabled_manually`. Read the existing report before retrying; a successful bounded inference test is still required before enabling scheduled generation.

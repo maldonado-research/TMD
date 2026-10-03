@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "round_id": "R000003",
+  "research_date": "2026-10-02",
+  "research_timezone": "America/Los_Angeles",
+  "execution": "manual finite cloud round with an independent internal mathematical reviewer",
+  "status": "completed",
+  "kind": "design_only",
+  "new_biological_observations": 0,
+  "new_source_acquisitions": 0,
+  "matched_WAM_panels_admitted": 0,
+  "registered_experiment": false,
+  "required_study_fields_unresolved": 26,
+  "report": "../prospective_design/README.md",
+  "review_receipt": "../prospective_design/review/REVIEW_RECEIPT.json",
+  "review_outcome": "accepted_for_stated_design_only_scope",
+  "primary_target": "Observed conditional-triad held-out predictive log-score gain; biological interpretation separately conditional on validated observation/transfer contracts.",
+  "summary": [
+    "One triad is saturated and equivalent to standard quadratic loglinear curvature; predictive success does not identify a new causal mechanism.",
+    "Freeze target predictions before outcomes; compare measured supply and establishment, preserve biological clusters and Other/no-qualified outcomes.",
+    "Use context-specific simultaneous regions for all frozen score comparisons; unknown transfer remains unbounded.",
+    "All science checks are synthetic; alpha, sample sizes, effects, stopping, genotypes and laboratory/source partner remain unresolved."
+  ],
+  "next_round_id": "R000004",
+  "next_action": "Run the deduplicated changed-source watch; resolve the prospective measurement contract independently of held-out endpoints. Preserve pending publication and manual-workflow diagnostics."
+}

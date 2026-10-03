@@ -1,0 +1,31 @@
+{
+  "base_commit": "6380470d84e5d8a7e6d8c370e806a49e3efdccd8",
+  "reviewed_commit": "b80983e232749ed8594854ebf1959a3d9b0043c5",
+  "changed_files": 30,
+  "new_biology_or_registration_claims": "None. Design-only status and all 26 null registry fields are explicit.",
+  "zenodo_status_consistency": "Pass. Existing concept 23068055, published methods 0.5.0, unpublished draft 23113326, two HTTP 500 metadata failures, HTTP 400 binary failure, six inherited files and no verified new file are consistently distinguished.",
+  "automation_state_consistency": "Pass. One manual test skipped model inference and failed during collection; the exact cause remains unknown. The workflow is explicitly disabled.",
+  "source_history_preserved": true,
+  "prior_budget_and_completed_rounds_preserved": true,
+  "checkpoint_artifact_hashes_verified": 7,
+  "sha_manifest_file_hashes_verified": 25,
+  "text_files_privacy_scan_passed": 29,
+  "relative_markdown_links": "pass",
+  "archive_hash_and_size": "pass",
+  "blocking_issues": [],
+  "nonblocking_notes": [
+    {
+      "file": "TMD_METHODS_0_6_0.md",
+      "note": "Replace measured observation mismatch with unaccounted recovery mismatch to avoid implying experimental measurement in the constructed counterexample."
+    },
+    {
+      "file": "research/continuation/README.md",
+      "note": "Generic activation paragraph can explicitly require reading the existing report before another bounded test, aligning the latest diagnosis."
+    },
+    {
+      "file": "research/METHODS_0_6_0_PACKAGE_REVIEW.json",
+      "note": "Independent final-packaging math-report path is an external historical validation location. Optionally publish that original public-safe report, or clarify location is external."
+    }
+  ],
+  "scope": "Read-only new integration bookkeeping review; no remote requests, credentials, repo edits or publication performed."
+}
