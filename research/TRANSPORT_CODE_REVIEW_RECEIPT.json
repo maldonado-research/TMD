@@ -1,0 +1,24 @@
+{
+  "independent_checks": {
+    "contexts": 640,
+    "counterexample_contexts": 2,
+    "frontiers": 40,
+    "grid_and_api_decisions": 800,
+    "public_boundary_fixture_evaluations": 12,
+    "records": 160
+  },
+  "public_archive_member_byte_identity_verified": true,
+  "reviewer_oracle_sha256": "7545f7da18ca8131fb869b00e2c57d4b055c5f44a1e5f8ab3f790ec3c9bb2f65",
+  "scope": "Independent projection, API, frontier and constructed-model checks; source sampling laws and transport bounds remain assumptions.",
+  "source_hashes": {
+    "make_counterexample.py": "3d044db78111f99b6dac3652a0d8b2c32c4f17f038fb5ad6ea9854ba2b7a6ea5",
+    "results/mismatch_counterexample.json": "693c86491e5f7c670597e1ec3ee647116de2d942aa579afef5f33539815f5e78",
+    "results/reanalysis.json": "d1f75d53360021447867784ef8f4512ca9aaae98ab5f02d08911bfac3634e412",
+    "run_reanalysis.py": "70b88a4576dd908aff4008007eeebe0b04fae48b5c1b3b7fdb4911c869c3b37a",
+    "sources/calibration/repeated_sample_results.json": "509783c2a67bf70e590b3daca4b7f9706cf4c9a6b578a5e4e318e47939dd819f",
+    "sources/illustrative_mismatch_projection.json": "863ad1be62d6b19029253f1a29852db330b5995dbdd26e3488707e306a552d69",
+    "test_transport_robustness.py": "628b3b89149487c3e2f7551948cac7f6d8a6e2d333e5d043ef938f0160879600",
+    "transport_robustness.py": "8bc7149ab700cf2a74b6ba1859e340c8c3e40b6ff970f718a3d8da59dafb3464"
+  },
+  "status": "pass"
+}

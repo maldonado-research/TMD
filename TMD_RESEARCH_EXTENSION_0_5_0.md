@@ -6,7 +6,7 @@ This update adds finite-sample confidence bounds for the recovery-corrected W/A/
 
 [Download the complete reviewed package](TMD_research_extension_0_5_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_5_0_SHA256SUMS.txt) · [Zenodo report version and archives](https://zenodo.org/records/23075312)
 
-The Zenodo identifier is reserved during preparation. A publication receipt, rather than this link alone, confirms the record's publication and DOI activation. Earlier 0.2.0, 0.3.0 and 0.4.0 packages retain their original versions; the expanded repository files remain the 0.1.0 report.
+The public Zenodo API was checked on 1 October 2026 and confirms record 23075312 is published as version 0.5.0, DOI 10.5281/zenodo.23075312, in research-report DOI family 10.5281/zenodo.23068055. The [verification receipt](research/EXISTING_0_5_0_PUBLICATION_RECEIPT.json) records the checked fields and the separate DOI-resolver access limitation. Earlier 0.2.0, 0.3.0 and 0.4.0 packages retain their original versions; the expanded repository files remain the 0.1.0 report.
 
 ## In More Basic Terms
 

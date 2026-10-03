@@ -1,0 +1,89 @@
+{
+  "scope": "Preserved public release artifacts only; generated illustrative input is separately identified.",
+  "sources": [
+    {
+      "local_path": "sources/calibration/repeated_sample_results.json",
+      "sha256": "509783c2a67bf70e590b3daca4b7f9706cf4c9a6b578a5e4e318e47939dd819f",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "calibration/repeated_sample_results.json"
+    },
+    {
+      "local_path": "sources/inference/boundary_confidence.py",
+      "sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/boundary_confidence.py"
+    },
+    {
+      "local_path": "sources/methods/BOUNDARY_CONFIDENCE_PROJECTION.md",
+      "sha256": "3526c11074af53acf0d0296a9b82d561951b3653038fa8387f9c2cdee2b1507c",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "methods/BOUNDARY_CONFIDENCE_PROJECTION.md"
+    },
+    {
+      "local_path": "sources/LICENSE",
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "LICENSE"
+    },
+    {
+      "local_path": "sources/inference/VERSION_LINEAGE.md",
+      "sha256": "85bf5ca772b2bc502b0ce3ac6659c3c59909c73416dc42171d41dcdb4ad84aaf",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/VERSION_LINEAGE.md"
+    },
+    {
+      "local_path": "sources/prior_0_3_0/TRANSPORTABILITY_AND_PRECISION.md",
+      "sha256": "7c956c8ec97a661e32901a6a7fdd7fff22896ad95d61e26708ddcca63394da2d",
+      "upstream_archive_sha256": "224d292575a93afca6f5912ed2536f51ca0f42555f6b2ddd4e1bcd4e53af1753",
+      "upstream_package": "TMD research extension 0.3.0",
+      "upstream_path": "research_extension_0_3_0/design/TRANSPORTABILITY_AND_PRECISION.md"
+    },
+    {
+      "local_path": "sources/inference/results/all_failure_controls_result.json",
+      "sha256": "9ca42c502e994d75073d24c6c127f25cb1c36b1e42e41838cef29d133efef544",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/all_failure_controls_result.json"
+    },
+    {
+      "local_path": "sources/inference/results/high_recovery_all_success_null_result.json",
+      "sha256": "14bf364004de61cb95a8aeec9aadb7c367e711b07aad7337a58e30032cb5a16f",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/high_recovery_all_success_null_result.json"
+    },
+    {
+      "local_path": "sources/inference/results/high_recovery_strong_departure_result.json",
+      "sha256": "bff65076bcf322d81b4ae051415cc57bce92e5a8c35c16d0075770c6ef69a38a",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/high_recovery_strong_departure_result.json"
+    },
+    {
+      "local_path": "sources/inference/results/no_categorical_observations_result.json",
+      "sha256": "e82b300a65e94acb8a3691e1cc1c58fcb2673655ca8067de577537b563b8fe12",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/no_categorical_observations_result.json"
+    },
+    {
+      "local_path": "sources/inference/results/one_context_descriptive_result.json",
+      "sha256": "248a21ef87a37bfe13655a764b57e46775a932bada4f20b4aed336c93e85a1d7",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/one_context_descriptive_result.json"
+    },
+    {
+      "local_path": "sources/inference/results/zero_categorical_cells_result.json",
+      "sha256": "fb63a54c56b9bddef21f428ed72a82994a7a05b216c1a811187b90524d2b6adc",
+      "upstream_archive_sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "upstream_package": "TMD research extension 0.5.0",
+      "upstream_path": "inference/results/zero_categorical_cells_result.json"
+    }
+  ]
+}

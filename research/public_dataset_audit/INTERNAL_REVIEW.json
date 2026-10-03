@@ -1,0 +1,16 @@
+{
+  "review_kind": "independent_internal_source_table_review",
+  "external_peer_review": false,
+  "reviewed_source_sha256": "a6477b003ba58cb2ab7249f96459e14a409fc6ed7c37ce450f9e2c8cfebdb0ea",
+  "aggregate_sha256": "b3f2b6762b0fa77220c355368021cbe975113ee778998e9494dea2eb39949d38",
+  "script_sha256": "53860f59a87c896f9d3a56dc6d2d89d9cbb5d30627a7ca75af3cdfab2d9002f0",
+  "checks_passed": [
+    "Source table header order and all four count vectors match the saved aggregate",
+    "Totals 2178 evolved, 2112 sequenced, 4642 mutations, 694 fitness comparisons, 66 sequencing exclusions",
+    "Extraction independently reproduces the full aggregate object",
+    "WT shared-lineage and immediate-ancestor qualifications agree with primary source",
+    "Paired media, technical replicates, background and mutation-calling qualifications agree with primary source",
+    "No claim of raw-workbook access, independent founding-line counts or matched TMD validation"
+  ],
+  "AI_assistance": true
+}

@@ -1,0 +1,689 @@
+{
+  "biological_common_J_exact": "1",
+  "differential_residual_symmetric_bound_R": "2",
+  "exact_transport_is_false_by_construction": true,
+  "illustrative_population": [
+    {
+      "actual_baseline_recovery": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "actual_selected_recovery": [
+        "1/4",
+        "1",
+        "1/4"
+      ],
+      "baseline_and_selected_control_recovery": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "baseline_counts": [
+        300,
+        300,
+        300
+      ],
+      "biological_J_exact": "1",
+      "context": "illustrative_context_1",
+      "control_introduced_each_route_branch": 1000,
+      "control_recovered_each_route_branch": 500,
+      "corrected_observable_J_exact": "16",
+      "differential_residual_by_route": {
+        "A": "2",
+        "M": "1/2",
+        "W": "1/2"
+      },
+      "latent_baseline": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "latent_selected": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "observed_baseline_probabilities": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "observed_selected_probabilities": [
+        "1/6",
+        "2/3",
+        "1/6"
+      ],
+      "selected_counts": [
+        150,
+        600,
+        150
+      ]
+    },
+    {
+      "actual_baseline_recovery": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "actual_selected_recovery": [
+        "1",
+        "1/4",
+        "1"
+      ],
+      "baseline_and_selected_control_recovery": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "baseline_counts": [
+        300,
+        300,
+        300
+      ],
+      "biological_J_exact": "1",
+      "context": "illustrative_context_2",
+      "control_introduced_each_route_branch": 1000,
+      "control_recovered_each_route_branch": 500,
+      "corrected_observable_J_exact": "1/16",
+      "differential_residual_by_route": {
+        "A": "1/2",
+        "M": "2",
+        "W": "2"
+      },
+      "latent_baseline": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "latent_selected": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "observed_baseline_probabilities": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "observed_selected_probabilities": [
+        "4/9",
+        "1/9",
+        "4/9"
+      ],
+      "selected_counts": [
+        400,
+        100,
+        400
+      ]
+    }
+  ],
+  "provenance": "Illustrative model and chosen count tables, not experimental observations or new Monte Carlo replicates.",
+  "sampling_laws": "Each route-count vector may be one multinomial sample; each control uses a known fixed denominator and one binary recovery per unit.",
+  "source_projection": {
+    "contexts": [
+      {
+        "J_lower_exact": "55645877441421460045402740236525790355663995532312201342571209679479780245084120041192160671515222614240621132486598972549489/25005326535043334090057152424146621492251449139833338277670902444719052924579010682374310213262865463207171564442834555667456",
+        "J_upper_exact": "4913644285328523788949982730181202437668175755128193192774124427378912768011609240632367634658974698400878334138617786679296/41462370718569997826186868173586551350375554715025881600670360985831166725897171873940276638098231306394998921606428510609",
+        "J_upper_infinity": null,
+        "context": "illustrative_context_1",
+        "marginal_intervals": {
+          "baseline": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            }
+          ],
+          "baseline_controls": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            }
+          ],
+          "selected": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 1.13431637200946e-11,
+                  "proposed_root": 0.13044843012232515
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 1.646726395053742e-11,
+                  "proposed_root": 0.2078915261505997
+                }
+              ],
+              "lower": 0.13044843011098198,
+              "status": "certified",
+              "upper": 0.20789152616706696
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306337e-11,
+                  "proposed_root": 0.6166327498044037
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.0411537588315657e-11,
+                  "proposed_root": 0.7142069656123335
+                }
+              ],
+              "lower": 0.6166327497807641,
+              "status": "certified",
+              "upper": 0.7142069656327451
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 1.13431637200946e-11,
+                  "proposed_root": 0.13044843012232515
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 1.646726395053742e-11,
+                  "proposed_root": 0.2078915261505997
+                }
+              ],
+              "lower": 0.13044843011098198,
+              "status": "certified",
+              "upper": 0.20789152616706696
+            }
+          ],
+          "selected_controls": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            }
+          ]
+        },
+        "theta_interval": {
+          "lower": {
+            "infinity": null,
+            "value": 0.3999595656418482
+          },
+          "upper": {
+            "infinity": null,
+            "value": 2.387492438108662
+          }
+        }
+      },
+      {
+        "J_lower_exact": "121342074691433719799447272502320701032308141432971372157862885039679348427134575106765134532433474610384121477819882601/17887099113928487603924435526944729187361659971754344339790840306138526890523986826588519557709854711368851814277662969856",
+        "J_upper_exact": "5542577009190615843541127210005725781924845537908599344057368667415833732421500078246881440411829398787483172780319643673600/10069871819385738588429603776583806277908896179906558100248735046119603483676441655809485031558724115067421182209494966278081",
+        "J_upper_infinity": null,
+        "context": "illustrative_context_2",
+        "marginal_intervals": {
+          "baseline": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.041153758826693e-11,
+                  "proposed_root": 0.28579303438652914
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.3639680167306295e-11,
+                  "proposed_root": 0.3833672501955946
+                }
+              ],
+              "lower": 0.2857930343661176,
+              "status": "certified",
+              "upper": 0.3833672502192343
+            }
+          ],
+          "baseline_controls": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            }
+          ],
+          "selected": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.386516861340264e-11,
+                  "proposed_root": 0.3934715349496972
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4998592193360285e-11,
+                  "proposed_root": 0.49624792505443116
+                }
+              ],
+              "lower": 0.39347153492583203,
+              "status": "certified",
+              "upper": 0.4962479250794298
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 7.466420958021424e-12,
+                  "proposed_root": 0.08126883275807403
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 1.2525969192000881e-11,
+                  "proposed_root": 0.1468140601892663
+                }
+              ],
+              "lower": 0.08126883275060762,
+              "status": "certified",
+              "upper": 0.14681406020179227
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.386516861340264e-11,
+                  "proposed_root": 0.3934715349496972
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4998592193360285e-11,
+                  "proposed_root": 0.49624792505443116
+                }
+              ],
+              "lower": 0.39347153492583203,
+              "status": "certified",
+              "upper": 0.4962479250794298
+            }
+          ],
+          "selected_controls": [
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            },
+            {
+              "certificates": [
+                {
+                  "endpoint": "lower",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.4759523864389254e-11,
+                  "proposed_root": 0.45096163383525634
+                },
+                {
+                  "endpoint": "upper",
+                  "exact_tail_certified": true,
+                  "outward_expansions": 0,
+                  "outward_width": 2.475952386438132e-11,
+                  "proposed_root": 0.5490383661655527
+                }
+              ],
+              "lower": 0.4509616338104968,
+              "status": "certified",
+              "upper": 0.5490383661903122
+            }
+          ]
+        },
+        "theta_interval": {
+          "lower": {
+            "infinity": null,
+            "value": -2.496610695779701
+          },
+          "upper": {
+            "infinity": null,
+            "value": -0.29854421048650376
+          }
+        }
+      }
+    ],
+    "coordinates": 24,
+    "method": "Preserved 0.5 scalar CP and observable probability projection only; old raw validator not called.",
+    "nominal_alpha": "1/20",
+    "per_tail_error_exact": "1/960",
+    "schema_version": "0.5.0",
+    "simultaneous_coverage_lower_bound_exact": "19/20"
+  }
+}
