@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "round_id": "R000001",
+  "research_date_local": "2026-10-01",
+  "research_timezone": "America/Los_Angeles",
+  "execution": "manual finite cloud round with independently assigned reviewer",
+  "configured_delegated_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "api_inference_or_scheduled_run_tested": false,
+  "status": "completed",
+  "kind": "public_source_descriptive_reanalysis",
+  "question": "What measured census noise and sampling units must an establishment/drift comparator preserve?",
+  "source_commit": "c1b47a977a9307281917ac1dee29861a813a7fd2",
+  "original_small_source_files": 19,
+  "api_response_bytes": 2091916,
+  "manual_round_download_budget": 20000000,
+  "summary": {
+    "clone_labels": 33,
+    "culture_timecourses": 67,
+    "evolutionary_populations": 2,
+    "paired_plate_counts": 206,
+    "mean_model_conditional_technical_Q": 4.937810075833765
+  },
+  "matched_WAM_ledgers_admitted": 0,
+  "biological_drift_or_establishment_estimate": false,
+  "review_kind": "independent internal computational and source-methods review",
+  "review_receipt": "../drift_audit/REVIEW_RECEIPT.json",
+  "report": "../drift_audit/DRIFT_AUDIT_2026-10-01.md",
+  "next_action": "Authenticate matched common-background route/supply/control eligibility; do not reuse culture/plate counts as WAM trials."
+}

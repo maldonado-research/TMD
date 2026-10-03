@@ -1,0 +1,4 @@
+# Third-party evidence stays local unless its redistribution is reviewed explicitly.
+/raw/
+__pycache__/
+*.pyc

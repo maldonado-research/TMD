@@ -1,0 +1,17 @@
+{
+  "action_pins": {
+    "actions/checkout@v5": "fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+    "actions/upload-artifact@v4": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+    "openai/codex-action@v1": "86365089eb2b84e0a8fb0717b304f8bdcb13b20e"
+  },
+  "api_runtime_tested": false,
+  "codex_cli_version": "0.160.0",
+  "codex_release_commit": "a956835d020762cb2b570053af06f643a11c0ecc",
+  "codex_responses_api_proxy_version": "0.160.0",
+  "exact_requested_effort": "ultra",
+  "exact_requested_model": "gpt-6.1-sol",
+  "model_metadata_file": "codex_model_metadata_0_160_0.json",
+  "model_metadata_sha256": "4f12815948325ca37fbaccaa1890b3864b9e1308b07be706dc5777fab1323504",
+  "original_catalog_sha256": "fd219bd9f061278275f528939f82f54d2eb97df4b25c23b022adbe48813d920b",
+  "recurring_runs_active": false
+}

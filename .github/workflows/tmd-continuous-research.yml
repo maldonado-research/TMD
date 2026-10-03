@@ -1,0 +1,96 @@
+name: TMD continuous research rounds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions: {}
+
+concurrency:
+  group: tmd-continuous-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: github.event_name == 'workflow_dispatch' || vars.TMD_CONTINUOUS_RESEARCH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    permissions:
+      contents: read
+      actions: read
+    outputs:
+      final_message: ${{ steps.codex.outputs.final-message }}
+      disposition: ${{ steps.prepare.outputs.disposition }}
+      blocked_reason: ${{ steps.prepare.outputs.blocked_reason }}
+      resume_checkpoint: ${{ steps.prepare.outputs.resume_checkpoint }}
+      resume_round: ${{ steps.prepare.outputs.resume_round }}
+    steps:
+      - name: Check out the reviewed public project
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - name: Verify the runner and existing exact calculations
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python3 -m unittest discover -s research/continuation -p test_round_runner.py -v
+          python3 -m unittest discover -s research/transport_robustness -p test_transport_robustness.py -v
+          python3 research/transport_robustness/run_reanalysis.py --check
+      - name: Verify account access and recover the prior checkpoint
+        id: prepare
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 research/continuation/round_runner.py prepare
+      # Keep Codex last in this job. Collect only its message in a fresh job.
+      - name: Perform one bounded research round
+        id: codex
+        if: steps.prepare.outputs.should_run == 'true'
+        timeout-minutes: 45
+        uses: openai/codex-action@86365089eb2b84e0a8fb0717b304f8bdcb13b20e # v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          codex-version: '0.160.0'
+          model: gpt-6.1-sol
+          effort: ultra
+          permission-profile: ':workspace'
+          safety-strategy: drop-sudo
+          codex-args: '["--ephemeral", "--search"]'
+          prompt-file: research/continuation/ROUND_PROMPT.md
+          output-file: .tmd-runtime/final_message.json
+
+  collect:
+    needs: research
+    if: always() && needs.research.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - name: Check out trusted collector code in a fresh runner
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - name: Collect original candidate notes as data
+        env:
+          ROUND_MESSAGE: ${{ needs.research.outputs.final_message }}
+          RESEARCH_RESULT: ${{ needs.research.result }}
+          PREPARE_DISPOSITION: ${{ needs.research.outputs.disposition }}
+          BLOCKED_REASON: ${{ needs.research.outputs.blocked_reason }}
+          RESUME_CHECKPOINT: ${{ needs.research.outputs.resume_checkpoint }}
+          RESUME_ROUND: ${{ needs.research.outputs.resume_round }}
+          RUN_ID: ${{ github.run_id }}
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: python3 research/continuation/round_runner.py collect
+      - name: Save the bounded public-safe checkpoint and report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: tmd-research-round
+          path: |
+            .tmd-runtime/reports/round.json
+            .tmd-runtime/reports/checkpoint.json
+            .tmd-runtime/reports/ROUND_REPORT.md
+          if-no-files-found: error
+          retention-days: 30

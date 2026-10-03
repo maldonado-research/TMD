@@ -1,0 +1,2 @@
+# Preserve the audited CSV bytes while recognizing standard CRLF record endings.
+research/drift_audit/derived/*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

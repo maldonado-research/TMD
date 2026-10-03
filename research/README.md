@@ -29,3 +29,7 @@ python3 public_dataset_audit/reproduce_audit.py --source /path/to/sane_pmc.xml -
 ```
 
 Alternatively, the script can attempt an official public acquisition with `--fetch-source`. Only the pinned source hash is accepted. The supplementary workbooks were not acquired, and no raw-workbook analysis or new biological test is reported.
+
+## Continuing research rounds
+
+The [continuation protocol](continuation/README.md) records the requested GPT-6.1 Sol Ultra setting, persistent checkpoints, an hourly workflow proposed for review, and a daily changed-source watch. The schedule is not active. The first new [drift-source audit](drift_audit/DRIFT_AUDIT_2026-10-01.md) reconciles biological and technical units and a model-conditional census residual; it supplies no matched W/A/M panel or establishment estimate. [Independent internal review](drift_audit/INDEPENDENT_REVIEW.md) checks the source identities, calculations and limits.

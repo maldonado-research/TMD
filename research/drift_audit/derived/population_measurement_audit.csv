@@ -1,0 +1,4 @@
+line_label,clone_names,culture_timecourses,cfu_timepoint_rows,second_plate_missing_rows,paired_count,mean_pair_Q,median_pair_Q,pairs_Q_above_4,median_absolute_relative_pair_difference
+Ara+2,16,32,128,14,114,5.738670860287144,2.6366642635488824,46,0.14983728215578332
+Ara-2,16,32,128,42,86,4.201884998298919,1.3479272206752329,23,0.10372456220703069
+all,1,3,12,6,6,0.26971461588569706,0.04018775232086653,0,0.013627754015509514

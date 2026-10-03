@@ -1,0 +1,6 @@
+batch_directory,culture_timecourses,clone_names,sequencing_metadata_rows,cfu_csv_rows_including_blank,blank_formatting_rows_excluded,nonblank_cfu_timepoint_rows,first_plate_missing_rows,second_plate_missing_rows,paired_count,mean_pair_Q,median_pair_Q,pairs_Q_above_4,median_absolute_relative_pair_difference
+E1,1,1,6,4,0,4,0,4,0,,,0,
+E23,19,17,95,76,0,76,0,8,68,6.479850341988544,2.9324469996406757,30,0.17715617715617715
+E4,16,16,80,64,0,64,0,4,60,5.412801637637214,1.7839584657766476,21,0.12353319109731853
+E5,15,15,75,64,4,60,0,20,40,2.7205321979516586,0.8963204003114205,9,0.07948833833216923
+E6,16,16,80,64,0,64,0,26,38,3.76235963658514,1.506215101860727,9,0.0997814347551927

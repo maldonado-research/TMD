@@ -1,0 +1,23 @@
+{
+  "policy": "Explicit allowlist of original analysis, scripts, derived aggregates, provenance, review and status; omit raw/ in copying or archiving. Preparation is not publication.",
+  "files": [
+    ".gitignore",
+    "LICENSE",
+    "LICENSING.md",
+    "DRIFT_AUDIT_2026-10-01.md",
+    "fetch_public_inputs.py",
+    "audit_summaries.py",
+    "verify_review.py",
+    "INDEPENDENT_REVIEW.md",
+    "REVIEW_RECEIPT.json",
+    "INPUT_MANIFEST.json",
+    "STATUS.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt",
+    "derived/summary.json",
+    "derived/batch_measurement_audit.csv",
+    "derived/batch_day_measurement_audit.csv",
+    "derived/population_measurement_audit.csv"
+  ],
+  "excluded_directory": "raw/"
+}

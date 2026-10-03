@@ -1,0 +1,55 @@
+{
+  "source_commit": "c1b47a977a9307281917ac1dee29861a813a7fd2",
+  "scope": "Small release metadata and raw CFU summary audit; no trajectories, posterior samples, raw reads, or inference pipeline analyzed.",
+  "clone_names": 33,
+  "evolved_clone_names": 32,
+  "ancestor_clone_names": 1,
+  "evolutionary_population_labels_excluding_ancestor": [
+    "Ara+2",
+    "Ara-2"
+  ],
+  "evolutionary_population_count": 2,
+  "culture_timecourses": 67,
+  "clone_replicate_distribution": {
+    "2": 32,
+    "3": 1
+  },
+  "sequencing_metadata_rows": 336,
+  "sequencing_metadata_rows_days_0_through_4": 335,
+  "preassay_sequencing_metadata_rows": 1,
+  "cfu_timepoint_rows": 268,
+  "blank_formatting_rows_excluded": 4,
+  "observed_zero_plate_counts": 0,
+  "measured_plate_counts": 474,
+  "first_plate_missing_rows": 0,
+  "second_plate_missing_rows": 62,
+  "paired_CFU_diagnostic": {
+    "measurement_name": "Model-conditional technical census residual index",
+    "definition": "Q=(CFU1-CFU2)^2/(CFU1+CFU2), only rows with both counts and positive total",
+    "units_and_nominal_exposure": "Raw integer colony counts. Preprint BarSeq experiments P40 describes identical nominal dilution/plating procedure, including 100 microliters plated, repeated for technical replicates. Bayesian inference P67-P68 and pinned inference code use a common Nb*D mean for both raw counts. Actual realized equal exposures are not independently verified from per-plate lab records.",
+    "reference": "Under independent equal-mean Poisson plates, E[Q|CFU1+CFU2=n]=1 for n>0, because CFU1|n is Binomial(n,1/2).",
+    "interpretation": "Descriptive discrepancy from the ideal equal-exposure Poisson reference; it can reflect handling, dilution/plating noise, contamination or unequal realized exposures. Not a fitted CFU overdispersion parameter, drift estimate, establishment effect, posterior validation, or independence claim across cultures/days. No inferential p-values or confidence intervals computed.",
+    "paired_count": 206,
+    "mean_pair_Q": 4.937810075833765,
+    "median_pair_Q": 1.8328513591671487,
+    "pairs_Q_above_4": 69,
+    "median_absolute_relative_pair_difference": 0.13199640332280177
+  },
+  "structural_checks_passed": [
+    "All selected input SHA256 digests match manifest",
+    "Master culture ledger exactly matches each batch experiment list",
+    "Clone attributes agree across replicates",
+    "No duplicated sequencing index within batch",
+    "Each culture has distinct CFU days 0,1,2,3",
+    "Each culture has sequencing metadata days 0,1,2,3,4, plus one documented R/1 day -1",
+    "No negative CFU counts or nonpositive dilution factors"
+  ],
+  "matched_WAM_ledgers_admitted": 0,
+  "eligibility": {
+    "independent_clone_or_barcode_WAM_trials": false,
+    "route_specific_mutation_supply": false,
+    "known_single_cell_route_recovery_denominators": false,
+    "observed_successful_mutant_establishment": false,
+    "matched_Wsp_Aws_Mws_selected_outcomes": false
+  }
+}

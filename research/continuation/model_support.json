@@ -1,0 +1,36 @@
+{
+  "slug": "gpt-6.1-sol",
+  "display_name": "GPT-6.1-Sol",
+  "supported_in_api": true,
+  "supported_reasoning_levels": [
+    {
+      "description": "Fast responses with lighter reasoning",
+      "effort": "low"
+    },
+    {
+      "description": "Balances speed and reasoning depth for everyday tasks",
+      "effort": "medium"
+    },
+    {
+      "description": "Greater reasoning depth for complex problems",
+      "effort": "high"
+    },
+    {
+      "description": "Extra high reasoning depth for complex problems",
+      "effort": "xhigh"
+    },
+    {
+      "description": "Maximum reasoning depth for the hardest problems",
+      "effort": "max"
+    },
+    {
+      "description": "Maximum reasoning with automatic task delegation",
+      "effort": "ultra"
+    }
+  ],
+  "codex_cli_version": "0.160.0",
+  "source_commit": "a956835d020762cb2b570053af06f643a11c0ecc",
+  "source_url": "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/models-manager/models.json",
+  "account_entitlement_verified": false,
+  "runtime_api_inference_tested": false
+}
