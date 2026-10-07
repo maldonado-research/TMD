@@ -1,0 +1,33 @@
+{
+  "actual_study_fields_resolved": 0,
+  "biological_fit": false,
+  "cancer_prevention_result": false,
+  "core_files_sha256": {
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "54b880d7d8a4bef42f185eaa637adb7b353e54a028c6981f188dcc3e096a11bd",
+    "MEASUREMENT_LEDGER.json": "58defd18f15080614a46067fdd41524aeb38f63edcc314bf76eae60d228d8406",
+    "NORMALIZATION_ARITHMETIC.json": "16348f8bf227dda9817648888c23589eea44edd819996ab8e38037e759459c9a",
+    "NORMALIZATION_CONTRACT.json": "58a587c7eee1bc4cf1430edf66e817abaf33957d02e9e057340298bbea96f471",
+    "PRODUCER_GUARD_RECEIPT.json": "63c89e79ebd2dd8e82b329440460b056510966ebcf5c626b60655ae10cf936fd",
+    "README.md": "0866a33a9df4589bb9076d68368622f74cadf2fcca8e100daf5baa9b21009ab7",
+    "SOURCE_MANIFEST.json": "07e1db8ae5196473d260c3830cfbc463266e8044f0bf475573aeb1aa7d5d5908",
+    "VERIFICATION_RECEIPT.json": "bedc4f81490ec4f129ea7598838a824cf7be5b6680a92a054a14d712504ed077",
+    "verify_normalization.py": "bad7b8952935ff8c51e4b67ad19fc00da5e1ff67d48dc241a929b9f8100597dd"
+  },
+  "engine_sha256": "bad7b8952935ff8c51e4b67ad19fc00da5e1ff67d48dc241a929b9f8100597dd",
+  "external_peer_review": false,
+  "independent_oracle_receipt": "R14_FINAL_ORACLE.json",
+  "independent_oracle_sha256": "972db89e51cfdb4fa55583193e242469f813ba30b2f1e5c7a19e5561352b6e20",
+  "raw_article_or_patient_data_published": false,
+  "review_kind": "independent internal source and conditional-methods review",
+  "review_notes": [
+    "52 source/acquisition checks include10 failure-response checks;30 exact producer arithmetic checks;105 independent unit/source checks in36nominalvolume cases.",
+    "No DOCX or clinical table acquired; cached HTML failures are not data. Actual source normalization and introduced-unit/lineage controls remain unknown.",
+    "Synthetic raw/log medians50/10 and marginal/paired ratios550/12 are conditional witnesses, not reconstructed observations. Source10/5500 values and previous inputs remain unchanged."
+  ],
+  "reviewed_utc": "2026-10-07T22:07:25.430833+00:00",
+  "reviewer_network_requests": 0,
+  "round": "R000014",
+  "source_cache_needed_for_replay": true,
+  "status": "ACCEPT"
+}

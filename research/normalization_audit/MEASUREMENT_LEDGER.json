@@ -1,0 +1,173 @@
+{
+  "acquisition_diagnostic_rows": 1,
+  "actual_study_fields_resolved": 0,
+  "biological_fit": false,
+  "main_text_reassessment_rows": 16,
+  "matched_WAM_panels_admitted": 0,
+  "new_independent_biological_cohorts": 0,
+  "original_conditional_arithmetic_rows": 3,
+  "raw_clinical_tables_read_or_published": false,
+  "round": "R000014",
+  "rows": [
+    {
+      "authentication_status": "DECLARATION_AUTHENTICATED_CONTENT_UNACQUIRED",
+      "id": "DTT01",
+      "interpretation_limit": "A supplement declaration is not a read table or authenticated normalization.",
+      "reported_or_conditional_item": "Declared Data set S1 DOCX and supplement DOI",
+      "source": "PMC13228076",
+      "unit_or_frame": "source-declared filename/DOI"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "DTT02",
+      "interpretation_limit": "Nominal10fold volume concentration does not measure biological cell/CFU recovery.",
+      "reported_or_conditional_item": "10mL urine pelleted/resuspended in1mL",
+      "source": "PMC13228076",
+      "unit_or_frame": "original versus processed volume"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "DTT03",
+      "interpretation_limit": "Every dilution/concentration/technical-average map must be traced before original-density inference.",
+      "reported_or_conditional_item": "1uL plate;12h diagnostic readout",
+      "source": "PMC13228076",
+      "unit_or_frame": "plate volume, colony count and growth endpoint"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED_MAP_UNRESOLVED",
+      "id": "DTT04",
+      "interpretation_limit": "Threshold, detection resolution, zero values and censored summaries are different quantities.",
+      "reported_or_conditional_item": "Reported negative threshold<10CFU/mL",
+      "source": "PMC13228076",
+      "unit_or_frame": "classification/censoring frame"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED_SUMMARY_CONVENTION_UNKNOWN",
+      "id": "DTT05",
+      "interpretation_limit": "The statement does not authenticate whether reported medians are raw-scale or back-transformed.",
+      "reported_or_conditional_item": "log10 transformation before statistical analysis",
+      "source": "PMC13228076",
+      "unit_or_frame": "analysis scale"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED_APPLICATION_UNKNOWN",
+      "id": "DTT06",
+      "interpretation_limit": "Zero-only versus all-count application, density scaling and rounding need original code/data.",
+      "reported_or_conditional_item": "Culture-zero handling mentions1CFU added beforelog10",
+      "source": "PMC13228076",
+      "unit_or_frame": "pseudocount and its unit"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "DTT07",
+      "interpretation_limit": "Specimens, unique patients, founder cells and flow events are different denominators.",
+      "reported_or_conditional_item": "72within-method pairs;69/71cross-method exclusions",
+      "source": "PMC13228076",
+      "unit_or_frame": "specimen comparison eligibility"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "DTT08",
+      "interpretation_limit": "A counted bead reference does not establish known introduced native cell/CFU units or biological retention.",
+      "reported_or_conditional_item": "10uL microbeads;at least10,000flow events",
+      "source": "PMC13228076",
+      "unit_or_frame": "instrument-reference and acquisition frame"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "DTT09",
+      "interpretation_limit": "These controls do not supply a lineage-origin or native recovery experiment.",
+      "reported_or_conditional_item": "Unstained,heat-killed,single-stained gating controls",
+      "source": "PMC13228076",
+      "unit_or_frame": "stain/classification controls"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED_LIMIT",
+      "id": "DTT10",
+      "interpretation_limit": "No genotype-matched SBW25 Wsp/Aws/Mws transport follows.",
+      "reported_or_conditional_item": "Systematic species identity not established",
+      "source": "PMC13228076",
+      "unit_or_frame": "mixed clinical populations"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA01",
+      "interpretation_limit": "An approximateOD/CFU mapping is not authenticated independently introduced individual cells.",
+      "reported_or_conditional_item": "OD600.1 approximated as10^8CFU/mL",
+      "source": "PMC13272224",
+      "unit_or_frame": "approximate inoculum mapping"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA02",
+      "interpretation_limit": "Variable events are not known lineage trials or absolute native capture.",
+      "reported_or_conditional_item": "1,000to50,000flow events;initial-inoculum gate normalization",
+      "source": "PMC13272224",
+      "unit_or_frame": "technical events and normalized percentages"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA03",
+      "interpretation_limit": "Outgrown CFUs cannot become original mutation births or a loss-free survival denominator.",
+      "reported_or_conditional_item": "Postantibiotic recovered cells regrown24h",
+      "source": "PMC13272224",
+      "unit_or_frame": "selected descendants after recovery"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA04",
+      "interpretation_limit": "Phenotype agreement does not exclude all mutations or authenticate inherited mutation routes.",
+      "reported_or_conditional_item": "MICs similar toparental strain",
+      "source": "PMC13272224",
+      "unit_or_frame": "susceptibility phenotype"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA05",
+      "interpretation_limit": "An exact per-panel founder/genotype/introduction ledger remains unknown.",
+      "reported_or_conditional_item": "At least3biological replicates",
+      "source": "PMC13272224",
+      "unit_or_frame": "source-wide replication minimum"
+    },
+    {
+      "authentication_status": "MAIN_TEXT_AUTHENTICATED",
+      "id": "PA06",
+      "interpretation_limit": "The analyzed cytometry event is not tracked through colony formation and inheritance.",
+      "reported_or_conditional_item": "2%formaldehyde fixation before cytometric analysis",
+      "source": "PMC13272224",
+      "unit_or_frame": "endpoint processing"
+    },
+    {
+      "authentication_status": "RECORDED_NO_DOCX",
+      "id": "ACQ01",
+      "interpretation_limit": "HTTP200alone does not authenticate file content; scoped access failures do not prove the data do not exist.",
+      "reported_or_conditional_item": "4requests,71716bytes;HTTP404/CONNECT403/HTTP404/HTTP200CAPTCHA",
+      "source": "new_authoritative_endpoint_attempts",
+      "unit_or_frame": "actual acquisition outcomes"
+    },
+    {
+      "authentication_status": "SYNTHETIC_NOT_SOURCE_RECONSTRUCTION",
+      "id": "MATH01",
+      "interpretation_limit": "It illustrates a possible transformation path; actual normalization is not solved.",
+      "reported_or_conditional_item": "A72-value synthetic log-median scenario yields10 from0/100central values",
+      "source": "original_synthetic_arithmetic",
+      "unit_or_frame": "conditional reporting convention"
+    },
+    {
+      "authentication_status": "SYNTHETIC_NOT_SOURCE_RECONSTRUCTION",
+      "id": "MATH02",
+      "interpretation_limit": "Published550 remains a ratio of reported marginal medians, not an observed paired effect.",
+      "reported_or_conditional_item": "Three synthetic pairs have median-ratio550 butmedian pairedfold12",
+      "source": "original_synthetic_arithmetic",
+      "unit_or_frame": "marginal versus paired summary"
+    },
+    {
+      "authentication_status": "SYNTHETIC_NOT_SOURCE_CORRECTION",
+      "id": "MATH03",
+      "interpretation_limit": "Do not replace or correct published densities using unverified processing assumptions.",
+      "reported_or_conditional_item": "Common scaling preserves ratios;hypothetical asymmetric10fold scaling changes550to55",
+      "source": "original_synthetic_arithmetic",
+      "unit_or_frame": "conditional measurement frame"
+    }
+  ]
+}

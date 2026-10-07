@@ -1,0 +1,11 @@
+{
+  "amended_files": [
+    "DESIGN_CONTRACT.md",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "reason": "Independent review distinguishes common-curvature falsification, rejection of a fixed forecasting criterion and lack of incremental support.",
+  "engine_sha256": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351",
+  "all_other_core_files_unchanged": true,
+  "design_sha256": "f1786c6edef2397c7449bc105dd29fee45335ba78a784e025a37ec39cdb1360f"
+}

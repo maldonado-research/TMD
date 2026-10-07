@@ -1,0 +1,18 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "actual_source_reporting_convention_authenticated": false,
+  "arithmetic_checks": 30,
+  "authenticated_DOCX_acquired": false,
+  "biological_fit": false,
+  "cached_failure_response_checks": 10,
+  "clinical_table_read": false,
+  "clinical_table_reanalysis": false,
+  "engine_sha256": "bad7b8952935ff8c51e4b67ad19fc00da5e1ff67d48dc241a929b9f8100597dd",
+  "failure_response_replay": "PASS",
+  "known_introduced_units_or_lineages_authenticated": false,
+  "new_requests": 4,
+  "new_response_bytes": 71716,
+  "source_and_acquisition_checks": 52,
+  "status": "PASS",
+  "supplement_filename_declared": true
+}

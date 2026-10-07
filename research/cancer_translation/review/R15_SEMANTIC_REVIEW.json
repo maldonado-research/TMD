@@ -1,0 +1,113 @@
+{
+  "checked_utc": "2026-10-07T22:05:35.618503+00:00",
+  "status": "ACCEPT_exact_amended_files",
+  "review_type": "Independent internal AI scientific, source-unit and claims review; not qualified external peer review",
+  "scope": "Original prospective cancer-translation design and standard rational expected-endpoint mixture algebra",
+  "public_file_count": 11,
+  "public_files": {
+    "DESIGN_CONTRACT.md": {
+      "bytes": 9339,
+      "sha256": "f1786c6edef2397c7449bc105dd29fee45335ba78a784e025a37ec39cdb1360f"
+    },
+    "LICENSE": {
+      "bytes": 1335,
+      "sha256": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d"
+    },
+    "LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 861,
+      "sha256": "24d54d7e0d4918dd262726147adc364f710a9fbf44028c04a4ec13841b815af5"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 1583,
+      "sha256": "4ac7d180fc4b572c6d0a0f3a427728dc6835078ed800a7d40f82650b3e065347"
+    },
+    "README.md": {
+      "bytes": 7261,
+      "sha256": "56e36e98f40bf3b4212d4aff3e3401db9545e388f091eb8ebe31012606dc9fc9"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 870,
+      "sha256": "9ea860813089bf35bd420861126bfdc54cbad32573771efc943cd0beeafcdd2c"
+    },
+    "SOURCE_LEDGER.json": {
+      "bytes": 16857,
+      "sha256": "655f568e09d6754e2cb07f429112d165c845bff1a40e2c008c6a60103e7fe18e"
+    },
+    "SYNTHETIC_BENCHMARKS.json": {
+      "bytes": 2762,
+      "sha256": "31b1fbe91d8d163e2196f50ba179b7bbdf9b98f927ea19ef78e1d44d41ce37d1"
+    },
+    "VERIFICATION_RECEIPT.json": {
+      "bytes": 2222,
+      "sha256": "8b88d7295b0a4b19c6ff96fd334db66d8c11edbcb04070661a1b29f0c3e300b9"
+    },
+    "translation_counterexample.py": {
+      "bytes": 7308,
+      "sha256": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351"
+    },
+    "verify_translation.py": {
+      "bytes": 3220,
+      "sha256": "ad337b33860a9c1c81b4138821e0644b38ad295cb2fbbcdc93d6232c19987231"
+    }
+  },
+  "manifest_and_10_checksum_targets_match": true,
+  "source_cache_requests_authenticated": 4,
+  "source_cache_response_bytes": 631752,
+  "candidate_metadata_abstract_records": 12,
+  "selected_primary_sources": [
+    {
+      "doi": "10.1126/science.aau3879",
+      "study_type": "Human observational normal-esophagus tissue mapping",
+      "units": "844 spatial tissue subsamples from nine donors; coding calls and spatially merged putative events are not counted independent mutation births",
+      "source_methods_limit": "Detailed supplementary Methods S1-S7 and biological raw sequencing data unacquired"
+    },
+    {
+      "doi": "10.1038/s41586-021-03965-7",
+      "study_type": "Mouse observational endpoints plus reported genetic/pharmacological perturbation experiments and separate stochastic models",
+      "units": "Lesions, micro-biopsies and technical sequencing samples are nested in mice; source denominator totals are not merged across eligibility panels",
+      "causal_scope": "Reported experimental perturbations concern source mouse-model clonal competition; analogous human elimination unknown; no TMD intervention or patient result"
+    }
+  ],
+  "semantic_checks": {
+    "dominant_negative_construct_distinct_from_TMD_natural_dominance": true,
+    "cancer_associated_genotype_clone_lesion_and_malignancy_distinct": true,
+    "generic_unchosen_routes_axis_system_protocol_and_eta_rule_explicit": true,
+    "conditional_triad_with_Other_no_event_censoring_recorded": true,
+    "one_positive_triad_saturated_and_C_minus_1_across_context_restrictions_correct": true,
+    "held_out_full_forecast_requires_theta_and_external_eta_before_outcomes": true,
+    "common_curvature_rejection_fixed_forecast_failure_and_no_incremental_support_distinct_after_amendment": true,
+    "normalized_expected_endpoint_mass_not_complete_count_arrival_or_lineage_event_law": true,
+    "synthetic_mimic_is_standard_growth_retention_recovery_not_changed_mutation_generation": true,
+    "independent_multipliers_required_for_supply_correction": true,
+    "no_new_count_law_fit_CI_power_error_budget_or_stopping_rule": true,
+    "existing_26_field_registry_and_original_forecast_unchanged": true,
+    "no_TMD_confirmation_prevention_treatment_or_new_theorem_claim": true,
+    "original_notes_and_code_only_no_private_patient_raw_or_article_text_in_package": true
+  },
+  "review_amendment": {
+    "files_amended_by_root": [
+      "DESIGN_CONTRACT.md",
+      "PUBLIC_FILES.json",
+      "SHA256SUMS.txt"
+    ],
+    "issue": "Distinguish restriction falsification, failure of a fixed forecast and lack of incremental support over rivals",
+    "precise_replacement_confirmed": true,
+    "remaining_required_corrections": []
+  },
+  "producer_replayed_by_this_reviewer": {
+    "synthetic_checks": 222,
+    "cached_source_byte_anchor_checks": 26,
+    "receipt": "R15_REPLAY.json"
+  },
+  "root_independent_oracle_receipt_verified": {
+    "finite_synthetic_cases": 1280,
+    "checks": 11561,
+    "receipt": "R15_FINAL_ORACLE.json",
+    "independently_executed_by_this_reviewer": false
+  },
+  "counts_are_computational_not_biological_observations": true,
+  "engine_sha256": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351",
+  "no_candidate_edits_by_reviewer": true,
+  "reviewer_network_requests": 0,
+  "Git_Zenodo_or_publication_operations": false
+}

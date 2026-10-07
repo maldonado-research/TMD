@@ -1,0 +1,14 @@
+{
+  "status": "original_public_safe_content",
+  "included": "Original cancer-translation methods/design notes, attributed source summaries and metadata/hashes, exact synthetic expected-mixture examples, code and verification receipts.",
+  "excluded": ["private archive", "uploaded transcripts", "raw article text", "patient datasets", "raw sequencing reads", "supplementary data", "contact details", "credentials", "machine paths"],
+  "notes_license": "CC BY4.0",
+  "code_license": "MIT",
+  "article_license": "Text-mining download notices inspected; no CC redistribution rights asserted for the article text.",
+  "third_party_raw_redistribution": false,
+  "cancer_prevention_or_treatment_result_claimed": false,
+  "biological_results_invented": false,
+  "external_peer_review_claimed": false,
+  "new_source_requests": 4,
+  "patient_raw_data_acquired": false
+}

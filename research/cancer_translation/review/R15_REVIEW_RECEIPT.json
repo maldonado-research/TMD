@@ -1,0 +1,35 @@
+{
+  "actual_study_fields_resolved": 0,
+  "biological_fit": false,
+  "cancer_prevention_result": false,
+  "core_files_sha256": {
+    "DESIGN_CONTRACT.md": "f1786c6edef2397c7449bc105dd29fee45335ba78a784e025a37ec39cdb1360f",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "24d54d7e0d4918dd262726147adc364f710a9fbf44028c04a4ec13841b815af5",
+    "README.md": "56e36e98f40bf3b4212d4aff3e3401db9545e388f091eb8ebe31012606dc9fc9",
+    "SOURCE_LEDGER.json": "655f568e09d6754e2cb07f429112d165c845bff1a40e2c008c6a60103e7fe18e",
+    "SYNTHETIC_BENCHMARKS.json": "31b1fbe91d8d163e2196f50ba179b7bbdf9b98f927ea19ef78e1d44d41ce37d1",
+    "VERIFICATION_RECEIPT.json": "8b88d7295b0a4b19c6ff96fd334db66d8c11edbcb04070661a1b29f0c3e300b9",
+    "translation_counterexample.py": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351",
+    "verify_translation.py": "ad337b33860a9c1c81b4138821e0644b38ad295cb2fbbcdc93d6232c19987231"
+  },
+  "engine_sha256": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351",
+  "external_peer_review": false,
+  "independent_oracle_receipt": "R15_FINAL_ORACLE.json",
+  "independent_oracle_sha256": "651e595cd175084fad4b9b4a46e480d21aac1895853e2b4eaa244153fe4f0587",
+  "raw_article_or_patient_data_published": false,
+  "review_kind": "independent internal source and conditional-methods review",
+  "review_notes": [
+    "222 producer synthetic checks and26 cached source checks; independent1280rationalcases/11561checks.",
+    "Normalized expected endpoint mixtures do not establish full count, first-event or founder laws. Generic cancer catalogs and axes remain unchosen.",
+    "Growth/selection and recovery can mimic curvature with unchanged supply. Corrected-curvature rejection, failure of fixed forecast criterion and no incremental rival support are distinguished.",
+    "Two older foundational sources inform competing explanations; human/mouse and observed/simulated/unknownhuman translation boundaries retained."
+  ],
+  "reviewed_utc": "2026-10-07T22:07:25.436371+00:00",
+  "reviewer_network_requests": 0,
+  "round": "R000015",
+  "semantic_review_receipt": "R15_SEMANTIC_REVIEW.json",
+  "semantic_review_sha256": "47b8b1b35f3c4b3f38088f2cb44ddd6b260a0479827c7487b3c220108cf8a8c3",
+  "source_cache_needed_for_replay": true,
+  "status": "ACCEPT"
+}

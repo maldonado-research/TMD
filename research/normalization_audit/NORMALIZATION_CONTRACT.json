@@ -1,0 +1,58 @@
+{
+  "actual_reporting_and_calibration_status": {
+    "actual_registry_fields_resolved": 0,
+    "counts_to_reported_density_map": "UNKNOWN",
+    "equal_or_asymmetric_aliquot_processing": "UNKNOWN",
+    "known_introduced_CFU_packet_trials": "UNAUTHENTICATED",
+    "known_introduced_individual_cell_trials": "UNAUTHENTICATED",
+    "native_SBW25_route_capture": "UNAUTHENTICATED",
+    "raw_or_log_backtransformed_median_convention": "UNKNOWN",
+    "sample_level_censoring_and_rounding": "UNKNOWN",
+    "tracked_native_lineage_birth_and_terminal_retention": "UNAUTHENTICATED",
+    "zero_only_or_all_count_pseudocount_application": "UNKNOWN"
+  },
+  "algebra_assumptions": {
+    "asymmetric_scaling_example": "Only a hypothetical density frame, not a correction of published results",
+    "nominal_volume_map": "Assumes exact1uL,10mL->1mL volume conversion and the stated chosen concentration scale; does not measure pellet recovery",
+    "ordinary_median_grid": "Applies only to one integer colony count per specimen, one common plate volume/dilution/concentration, no censoring, rounding, technical averaging or transformation, and ordinary untransformed midpoint median",
+    "synthetic_log_example": "An illustrative even72-value multiset with36zeros and36values100; zero-only replacement by1 and backtransformed midpoint of logarithms gives10. Source data and summary convention are not authenticated",
+    "synthetic_paired_example": "Three original synthetic pairs only, not clinical records or a reconstruction"
+  },
+  "observed_published_numbers_to_preserve": {
+    "clinical_specimen_pairs": 72,
+    "treated_CFU_marginal_median": 5500,
+    "treated_cross_method_N": 71,
+    "untreated_CFU_marginal_median": 10,
+    "untreated_cross_method_N": 69
+  },
+  "round": "R000014",
+  "source_anchors": {
+    "PMC13228076": [
+      "10 mL of urine was centrifuged",
+      "the pellet was resuspended in 1 mL of 0.1% DTT solution",
+      "1 \u00b5L of each DTT-treated and untreated suspension",
+      "incubated for 12 h at 37\u00b0C",
+      "Plates yielding <10 CFU/mL were interpreted as negative",
+      "Bacterial counts were log\u2081\u2080-transformed prior to analysis",
+      "For culture-negative samples (CFU = 0), a constant value of 1 CFU was added prior to log10 transformation",
+      "N = 69 for No-DTT (three samples) and N = 71 for +DTT (one sample)",
+      "All 72 pairs were retained for within-method comparisons",
+      "10 CFU/mL (No DTT) to 5.5 \u00d7 10\u00b3 CFU/mL (+DTT)",
+      "10 \u00b5L of microbeads",
+      "A minimum of 10,000 events was acquired per sample",
+      "unstained, heat-killed, and single-stained samples",
+      "species-level identification was not systematically performed",
+      "Raw paired flow cytometry and culture data",
+      "spectrum.03910-25-s0001.docx"
+    ],
+    "PMC13272224": [
+      "OD600nm of 0.1 (~ 1 \u00d7 108 CFU/mL)",
+      "between 1,000 and 50,000 events recorded per sample",
+      "percentage of cells was normalized based on the gated percentage and the initial inoculum",
+      "transferred to LB medium for 24 h",
+      "MICs similar to those of the parental strain",
+      "All experiments were conducted in at least three independent biological replicates",
+      "Cells were fixed with 2% formaldehyde for 20 min"
+    ]
+  }
+}

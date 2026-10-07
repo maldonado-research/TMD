@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000013",
-    "next_round_id": "R000014",
+    "last_completed_round": "R000015",
+    "next_round_id": "R000016",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -40,7 +40,7 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000012",
+    "latest_primary_source_audit_round": "R000015",
     "latest_primary_source_audit_articles": 2,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
@@ -58,7 +58,7 @@
     "raw_data_audit_culture_occurrences": 24,
     "raw_data_audit_sequence_reads": 711,
     "raw_data_audit_checks": 986,
-    "latest_primary_source_audit_scope": "selected_main_text_methods_results; declared raw supplements unacquired; separate newest primary abstract-only lead",
+    "latest_primary_source_audit_scope": "foundational human2018 main narrative and mouse2021 available main methods; supplements/raw data unacquired",
     "latest_conditional_methods_round": "R000007",
     "nominal_plating_geometry_rows": 24,
     "conditional_thinning_checks": 48,
@@ -123,7 +123,25 @@
         "point_bound_endpoints": 1920,
         "rectangle_endpoints": 144
       }
-    }
+    },
+    "latest_normalization_audit_round": "R000014",
+    "normalization_new_requests": 4,
+    "normalization_response_bytes": 71716,
+    "normalization_raw_DOCX_authenticated": false,
+    "normalization_actual_reporting_convention_authenticated": false,
+    "normalization_producer_arithmetic_checks": 30,
+    "normalization_source_acquisition_checks": 52,
+    "normalization_independent_checks": 105,
+    "latest_cancer_translation_round": "R000015",
+    "cancer_translation_metadata_abstract_candidates": 12,
+    "cancer_translation_primary_sources": 2,
+    "cancer_translation_source_response_bytes": 631752,
+    "cancer_translation_producer_synthetic_checks": 222,
+    "cancer_translation_cached_source_checks": 26,
+    "cancer_translation_independent_cases": 1280,
+    "cancer_translation_independent_checks": 11561,
+    "cancer_route_catalog_or_axis_selected": false,
+    "cancer_biological_fit_or_prevention_result": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -174,8 +192,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000012/R000013: source-pinned cell/CFU calibration ledger and independently reviewed finite known-capture inversion/bounds; no biological fit.",
-    "next_action": "Authenticate declared raw calibration normalization and independent cell/CFU lineage/control denominators for R000014, with matched-background and state-transport limits. R000011 historical author-input authentication remains blocked and its prepared request unsent. Known-capture algebra cannot supply measured capture, exclude invisible lineages or resolve any of the26 actual study fields.",
+    "last_completed_step": "R14/R15: reporting normalization audit with raw acquisition blocked, conditional cancer-domain observation contract and classical growth/recovery expected-mixture mimic; internal independent review accepted.",
+    "next_action": "Screen one publicly documented epithelial lineage experiment for independently measured new-origin supply, growth/loss and recovery in a justified matched background; do not infer these from clone abundance. Actual cancer catalogs/axis require expert review. Raw S1 normalization remains blocked until authoritative access/reporting prerequisites change; no unchanged retries. R11 historical author inputs and all26actual bacterial study fields remain unresolved.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -212,7 +230,15 @@
       "research/capture_calibration/SHA256SUMS.txt": "d87040c0b27d4c70f42bd85d60b6d3ebf9c143126ac296f318265dacce9c3ed0",
       "research/capture_calibration/BENCHMARKS.json": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
       "research/capture_calibration/VERIFICATION_RECEIPT.json": "8fe56ff3b025a9d6aa8da5a23c20071adff0fa9ff354d4be51cb7c6e3d9aee1c",
-      "research/capture_calibration/review/R13_REVIEW_RECEIPT.json": "d244ec4def2f434269de62a13a655d93f2d385b4f133e150faf666b7bb6d58f0"
+      "research/capture_calibration/review/R13_REVIEW_RECEIPT.json": "d244ec4def2f434269de62a13a655d93f2d385b4f133e150faf666b7bb6d58f0",
+      "research/normalization_audit/SHA256SUMS.txt": "0af44a78ee2c203584509ef834d88e2a51d2c5a7a5b7df12ce44037f23fa122f",
+      "research/normalization_audit/VERIFICATION_RECEIPT.json": "bedc4f81490ec4f129ea7598838a824cf7be5b6680a92a054a14d712504ed077",
+      "research/normalization_audit/review/R14_REVIEW_RECEIPT.json": "0ba24a2a2740329ff30b6e301ecac432d9ea0ddbc27d4bf2f5e2cf2093467d54",
+      "research/cancer_translation/SHA256SUMS.txt": "84a0a5fe80897131ae2fe5feab55c976c07d2fb905eb26c0e21d3561b69d6a99",
+      "research/cancer_translation/VERIFICATION_RECEIPT.json": "8b88d7295b0a4b19c6ff96fd334db66d8c11edbcb04070661a1b29f0c3e300b9",
+      "research/cancer_translation/review/R15_REVIEW_RECEIPT.json": "5ce07c827d74868e9ea9df92ce139adfcac29ea421b76cc27cce5c6ca7b2cc8e",
+      "research/cancer_translation/review/R15_SEMANTIC_REVIEW.json": "47b8b1b35f3c4b3f38088f2cb44ddd6b260a0479827c7487b3c220108cf8a8c3",
+      "research/publication_diagnostics/2026-10-07_R14_R15_READ_ONLY_RECEIPT.json": "a20639ab95d53152f6db8d92b30f321f51628dce854a5660f5c8e6d35af007e5"
     }
   },
   "reviewed_checkpoint": {
@@ -229,7 +255,9 @@
       "R000009",
       "R000010",
       "R000012",
-      "R000013"
+      "R000013",
+      "R000014",
+      "R000015"
     ],
     "blocked_work_items": [
       {
@@ -241,6 +269,11 @@
         "id": "R000011",
         "reason": "Inspected source files and four access attempts do not authenticate the historical software submission, confirmation/growth/capture/recovery/native-transport law.",
         "unblocking_condition": "Authoritative saved submission/settings/output plus independently justified assay contract; no unchanged retries or synthetic substitute."
+      },
+      {
+        "id": "R000017",
+        "reason": "Declared clinical rawS1DOCX not authenticated; current reporting and introduced-unit/lineage controls unavailable.",
+        "unblocking_condition": "Meaningful changed access to authoritative supplement plus explicit reporting/control map; privacy/license review before any raw use or publication."
       }
     ],
     "source_fingerprints": [
@@ -261,8 +294,11 @@
       "R000009 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473, same R4/R6/R7 cohort; four new software/metadata access attempts do not acquire software or authenticate a historical input vector. R000010 is conditional mathematics with no new source cohort.",
       "R000012 DOI10.1128/spectrum.03910-25; PMC13228076 main methods/results SHA25601474346220301ca3803e1db4150b8e229ceb0e95b1980faca20b389d4661f6e;72 clinical specimens; rawS1unacquired; noSBW25calibration.",
       "R000012 DOI10.1007/s00203-026-04995-3; PMC13272224 main methods/results SHA256d46d998f6aa4d84fbb23b49fb201c260068b4b459a23a71a037eea54cb2b284e; PA14/clinicalisolates; notSBW25orlineagebirths.",
-      "R000012 DOI10.1039/d6lc00655h; PMID42831674 metadata/abstract only; electronicdate2026-10-05; relativecomparisonnotabsolutecapture. R000013 original conditional synthetic mathematics; no new biological cohort."
+      "R000012 DOI10.1039/d6lc00655h; PMID42831674 metadata/abstract only; electronicdate2026-10-05; relativecomparisonnotabsolutecapture. R000013 original conditional synthetic mathematics; no new biological cohort.",
+      "R000014 reuses R12 clinical/PA14 cohort;fournewdeclaredsupplement/package endpoints,noDOCX;cachedhashes retained,71716failure-responsebytes;conditional reporting arithmetic not clinical data.",
+      "R000015 DOI10.1126/science.aau3879;PMC6298579main28paragraphsSHA256dc9bfde4056846df491f4540490b7a9abcc2a0af842f8c262ae3180bb6e8a000;844samples/9donors;MethodsS1-S7unacquired;noTMDcancerfit.",
+      "R000015 DOI10.1038/s41586-021-03965-7;PMC7612642main/availablemethods71paragraphs;sourcehash in cancer_translation/SOURCE_LEDGER.json;mouse nested units,separate simulations,unknownhumantranslation;noTMDprevention."
     ],
-    "next_action": "Authenticate declared raw calibration normalization and independent cell/CFU lineage/control denominators for R000014, with matched-background and state-transport limits. R000011 historical author-input authentication remains blocked and its prepared request unsent. Known-capture algebra cannot supply measured capture, exclude invisible lineages or resolve any of the26 actual study fields."
+    "next_action": "Screen one publicly documented epithelial lineage experiment for independently measured new-origin supply, growth/loss and recovery in a justified matched background; do not infer these from clone abundance. Actual cancer catalogs/axis require expert review. Raw S1 normalization remains blocked until authoritative access/reporting prerequisites change; no unchanged retries. R11 historical author inputs and all26actual bacterial study fields remain unresolved."
   }
 }

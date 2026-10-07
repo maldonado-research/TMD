@@ -2,6 +2,10 @@
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
+| Cancer-domain translation | Conditional design/methods candidate with two foundational source assessments | Actual routes/axis/protocol/partner remain unchosen; no cancer experiment, intervention, prevention effect or copied bacterial count law. |
+| Cancer-associated clone abundance | Published human/mouse observations, source-specific interpretation | Histologically normal clones, premalignant lesions, malignant transformation and clinical incidence are different outcomes; mouse tumor competition does not establish human prevention or TMD. |
+| Endpoint common-curvature mimic | Exact synthetic expected-mixture identity at unchanged supply | Ordinary terminal yield or recovery can mimic curvature; not full count, founder or first-arrival equivalence or causal identification. |
+| Clinical normalization/zero handling | Declared supplement and reporting-source audit; raw acquisition blocked | Four distinct URLs acquired no DOCX; synthetic raw/log medians and marginal/paired ratios are alternatives, not authenticated source calculations or corrected results. |
 | Absolute cell/CFU and recovery source audit | Two primary main-method/results assessments, eight screened metadata/abstract candidates and20 source-specific measurement rows | Clinical/PA14 observations are unmatched to SBW25; no absolute capture, raw supplement fit, verified VBNC, cancer result or actual study input is inferred. |
 | Known-capture finite positive-mark inversion | Reproducible conditional mathematics with independent internal review | Requires known capture and complete population positive jump intensities; unknown capture and invisible zero marks retain full-law ambiguity. Finite culture histograms, molecular rates and biological causal mechanisms are not identified here. |
 | TMD as a biological explanation | Hypothesis under development | No confirmatory biological validation in this release. |

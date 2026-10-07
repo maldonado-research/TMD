@@ -1,0 +1,28 @@
+{
+  "HTML_response_bodies_published": false,
+  "biological_TMD_or_cancer_confirmation_claimed": false,
+  "cited_main_primary_sources": [
+    {
+      "doi": "10.1128/spectrum.03910-25",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "doi": "10.1007/s00203-026-04995-3",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "clinical_raw_table_acquired_read_or_published": false,
+  "external_raw_cache_copied": false,
+  "full_main_source_bodies_published": false,
+  "network_writes_or_author_messages": false,
+  "notes": "Public files contain original source/measurement notes, limited attributed anchors, request/status/size/hash diagnostics, conditional exact arithmetic and code. File retrieval paths are constructed authoritative routes, not independently authenticated download links. No raw clinical rows or private documents are included.",
+  "original_code_license": "MIT",
+  "original_notes_ledgers_and_synthetic_arithmetic_license": "CC-BY-4.0",
+  "personal_or_patient_identifiers_in_public_files": false,
+  "private_archive_files_read_or_copied": false,
+  "publication_credentials_used_or_published": false,
+  "source_numbers_modified": false,
+  "status": "reviewed_for_producer_public_candidate",
+  "supplement_content_license_and_privacy": "UNINSPECTED: supplement was not acquired; verify independently before reading/reusing any future table",
+  "synthetic_values_are_not_clinical_records": true
+}
