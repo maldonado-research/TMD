@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "doi": "10.1093/molbev/msag238",
+  "pmcid": "PMC13633115",
+  "article_version": "PMC13633115.1",
+  "title": "Herd immunity underlies homologous recombination in stationary phase bacteria",
+  "authors": [
+    "Pavel Payne",
+    "Pavel Plevka",
+    "Jonathan P Bollback",
+    "Călin C Guet"
+  ],
+  "electronic_publication_date": "2026-10-03",
+  "prior_pubmed_indexing_date": "2026-10-02",
+  "indexing_is_not_publication_date": true,
+  "license": "CC BY-NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "full_primary_xml_sha256": "a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735",
+  "full_primary_xml_bytes": 127109,
+  "inspection_depth": "Complete main primary Introduction, Results, Discussion, Methods, embedded figures/captions and data-availability statement. No supplementary DOCX or data/code acquired.",
+  "raw_source_redistributed": false,
+  "selected_primary_anchors": [
+    {
+      "id": "msag238-s2.1",
+      "sha256_normalized_text": "f651c548d0c40d224655d334432e32cc969dca9ea2fef6df548b1073c5bc0457",
+      "normalized_characters": 2759
+    },
+    {
+      "id": "msag238-s2.2",
+      "sha256_normalized_text": "b891936df6dad8033b441f29fbdc8e172cb9b58ba9fef5fe8a55f7d7d8c8c00c",
+      "normalized_characters": 4257
+    },
+    {
+      "id": "msag238-s2.3",
+      "sha256_normalized_text": "13d120c6c61f6e148cabfd7fa4ae24a34d140f55eb938ae71c31bf01f6363100",
+      "normalized_characters": 5588
+    },
+    {
+      "id": "msag238-s2.4",
+      "sha256_normalized_text": "071a82caf9c46fcb054a7d66fad9f2404da482faa6590768e5b60f78e92a7c21",
+      "normalized_characters": 2732
+    },
+    {
+      "id": "msag238-s3",
+      "sha256_normalized_text": "945d91c8c26916c1e0f83a6c7261bf2b27e96d1c881ddeeb6e563b71fd547e00",
+      "normalized_characters": 10164
+    },
+    {
+      "id": "msag238-s4.1",
+      "sha256_normalized_text": "ed3e0d259d84bacbd23407469dab4f15453d5263335c51e16f8d3c1f6190363b",
+      "normalized_characters": 2610
+    },
+    {
+      "id": "msag238-s4.2",
+      "sha256_normalized_text": "c156e66c986aef48cf78be0ab83dacd12117bb180a7ad3f4c0811596cf824bc4",
+      "normalized_characters": 1892
+    },
+    {
+      "id": "msag238-s4.4",
+      "sha256_normalized_text": "a03af1b5718e2b1237c3859f8422713aa337e4ebfc57b6fbf751f7d3b5555268",
+      "normalized_characters": 755
+    },
+    {
+      "id": "msag238-s4.5",
+      "sha256_normalized_text": "e53fddce385456b5dfef5271a7476f59feaaf94d89f276e11c1f624ed3cf5eb8",
+      "normalized_characters": 1491
+    },
+    {
+      "id": "msag238-s4.6",
+      "sha256_normalized_text": "e31dbc463e3c381b17c367eb105b9bf1a288616e14a49d9e5b33b7e0bdfe1fff",
+      "normalized_characters": 1176
+    },
+    {
+      "id": "msag238-F2",
+      "sha256_normalized_text": "c79e1a88c7fcff4741c2d5d60d4edaacdc2a8ea87440fc52bca1def7b0f788f9",
+      "normalized_characters": 1178
+    },
+    {
+      "id": "msag238-F5",
+      "sha256_normalized_text": "7cd83ec89c22fb3bfdf64f3b98742539ff389467ef32535baa7e3d15c6c385f6",
+      "normalized_characters": 736
+    },
+    {
+      "id": "msag238-s4.7",
+      "sha256_normalized_text": "085cb0d21a9c47cbfeacbd60b9939d7304b40153af724bc02b3f6a915cbdc868",
+      "normalized_characters": 1115
+    }
+  ],
+  "data_availability": "Authors locate data in main article and online material; supplementary msag238_supplementary_data.docx not acquired.",
+  "admitted_matched_WAM_panels": 0,
+  "actual_registry_fields_resolved": 0,
+  "no_quantitative_SBW25_transfer": true
+}

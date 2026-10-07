@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "content": [
+    "original conditional model/code",
+    "original source-contract notes",
+    "minimum derived geometry/CFU-estimate ledger",
+    "synthetic outputs",
+    "original source-fields request not sent",
+    "hash and verification receipts"
+  ],
+  "excluded": [
+    "raw ZIP/workbooks/FASTQ/GenBank",
+    "article/peer-review/author-response text",
+    "non-DOCX response bodies",
+    "editor contacts",
+    "laboratory machine/operator metadata",
+    "private archive files",
+    "credentials",
+    "__pycache__"
+  ],
+  "private_material_or_credentials_used": false,
+  "independent_review_receipt": "review/REVIEW_RECEIPT.json",
+  "source_dataset_license": "CC BY4.0",
+  "software_code_license": "MIT",
+  "original_documentation_license": "CC BY4.0",
+  "actual_study_registry_fields_modified": false
+}

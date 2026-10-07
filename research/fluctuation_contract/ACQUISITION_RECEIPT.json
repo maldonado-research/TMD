@@ -1,0 +1,44 @@
+{
+  "maximum_sources": 12,
+  "maximum_download_bytes": 20971520,
+  "requests": [
+    {
+      "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1011572.s010&type=supplementary",
+      "status": "transport_error",
+      "error_type": "URLError",
+      "execution_network_mode": "exec_command scoped require_escalated",
+      "diagnosis": "URLError caught; inner reason was not recorded. DNS, proxy, TLS and server causes cannot be distinguished."
+    },
+    {
+      "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1011572.s011&type=supplementary",
+      "status": "transport_error",
+      "error_type": "URLError",
+      "execution_network_mode": "exec_command scoped require_escalated",
+      "diagnosis": "URLError caught; inner reason was not recorded. DNS, proxy, TLS and server causes cannot be distinguished."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11838912/bin/pgen.1011572.s010.docx",
+      "status": 200,
+      "bytes": 21397,
+      "sha256": "7eb43cd14560816c2e8c469ac87858ae5eaa11c48969a058d0144ed396e9d472",
+      "response_kind": "not_docx",
+      "at_utc": "2026-10-07T18:38:02.652977+00:00",
+      "execution_network_mode": "exec_command scoped require_escalated",
+      "diagnosis": "HTTP200 response did not have DOCX ZIP magic. Linked document body not acquired/read; response type not otherwise established."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11838912/bin/pgen.1011572.s011.docx",
+      "status": 200,
+      "bytes": 21397,
+      "sha256": "99366cc34c0b6a34eeec3f9d4719d37345fb0f95f5d021aa00ef342ba11cf1fb",
+      "response_kind": "not_docx",
+      "at_utc": "2026-10-07T18:38:02.901029+00:00",
+      "execution_network_mode": "exec_command scoped require_escalated",
+      "diagnosis": "HTTP200 response did not have DOCX ZIP magic. Linked document body not acquired/read; response type not otherwise established."
+    }
+  ],
+  "total_response_bytes": 42794,
+  "authentication_used": false,
+  "no_further_retries": true,
+  "source_DOCX_bodies_acquired_or_read": false
+}

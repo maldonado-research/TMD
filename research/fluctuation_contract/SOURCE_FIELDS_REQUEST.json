@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "status": "prepared_not_sent",
+  "external_messages_sent": false,
+  "project": "Mutation by Natural Dominance",
+  "article_doi": "10.1371/journal.pgen.1011572",
+  "questions": [
+    {
+      "id": "R7-REQ01",
+      "field": "software_inputs",
+      "request": "Please provide the FALCOR server/version, MSS option/settings, exact submitted per-culture mutant and population inputs, and saved output/interval reports."
+    },
+    {
+      "id": "R7-REQ02",
+      "field": "units_volume_rounding",
+      "request": "Were inputs CFU per mL or whole-culture counts? Specify effective culture/aliquot volumes, density conversions, dilution/partial-plating options, genotype-fraction corrections and any rounding of fractional estimates."
+    },
+    {
+      "id": "R7-REQ03",
+      "field": "founding_frame",
+      "request": "Please map founding colony/transformant/occasion identities, pregrowth genotype and any pre-existing reporter mutants, inoculum measurements, and whether CFUs correspond to single cells or clumps."
+    },
+    {
+      "id": "R7-REQ04",
+      "field": "division_growth_history",
+      "request": "Please provide phase-specific growth/death and division-history measurements or the assumptions linking terminal population to divisions and mutation-event intensity."
+    },
+    {
+      "id": "R7-REQ05",
+      "field": "confirmation_pool",
+      "request": "For occasion1 SBW25rep5, reconcile H=7 counted candidates and M=8 sequenced colonies; identify all counted and sampled plates/colonies and the random-selection rule."
+    },
+    {
+      "id": "R7-REQ06",
+      "field": "missing_read_map",
+      "request": "Please provide the absent Figure4A MPB38311 colony8 read or explanation and the denominator/missingness/resequencing mapping, preserving original records."
+    },
+    {
+      "id": "R7-REQ07",
+      "field": "detection_controls",
+      "request": "Specify recovery, post-plating mutation and colony-size criteria/control results, including the exactly100-visible-colonies rule if applied, and whether detection varies with genotype or clone age."
+    },
+    {
+      "id": "R7-REQ08",
+      "field": "reporter_fitness",
+      "request": "Provide the genotype/marker/occasion-specific reporter-mutant growth contract used by the estimator; no advantage is not necessarily equal growth."
+    },
+    {
+      "id": "R7-REQ09",
+      "field": "native_transport",
+      "request": "What evidence calibrates the attTn7 reporter to native nlpD/site/phase conditions? Please distinguish the direct reporter estimate from native inference."
+    },
+    {
+      "id": "R7-REQ10",
+      "field": "source_response_files",
+      "request": "Please supply the public author-response bodies s010/s011 or a working official link. Current scoped network attempts did not acquire readable DOCX files."
+    }
+  ],
+  "request_is_not_authentication_or_partner_confirmation": true,
+  "private_raw_file_publication_authorized": false
+}

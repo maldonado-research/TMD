@@ -1,0 +1,8 @@
+{
+  "public_ledger_checks": "passed",
+  "new_biological_TMD_confirmation": false,
+  "matched_WAM_panels_admitted": 0,
+  "source_cache_identity_checks": 6,
+  "source_anchor_checks": 13,
+  "raw_source_replay": "passed"
+}

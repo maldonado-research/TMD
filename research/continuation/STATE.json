@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000006",
-    "next_round_id": "R000007",
+    "last_completed_round": "R000008",
+    "next_round_id": "R000009",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -40,8 +40,8 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000004-20261007",
-    "latest_primary_source_audit_articles": 2,
+    "latest_primary_source_audit_round": "R000008",
+    "latest_primary_source_audit_articles": 1,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
     "registered_experiment": false,
@@ -58,7 +58,20 @@
     "raw_data_audit_culture_occurrences": 24,
     "raw_data_audit_sequence_reads": 711,
     "raw_data_audit_checks": 986,
-    "latest_primary_source_audit_scope": "metadata_and_abstracts_only"
+    "latest_primary_source_audit_scope": "full_main_primary_text; supplements and raw data unacquired",
+    "latest_conditional_methods_round": "R000007",
+    "nominal_plating_geometry_rows": 24,
+    "conditional_thinning_checks": 48,
+    "conditional_coefficient_checks": 324,
+    "conditional_tail_checks": 21,
+    "conditional_PMF_guard_checks": 27,
+    "independent_conditional_assertions": 610,
+    "independent_producer_comparisons": 516,
+    "independent_zero_boundary_checks": 15,
+    "recombination_measurement_rows": 16,
+    "recombination_source_identity_checks": 6,
+    "recombination_source_anchor_checks": 13,
+    "biological_MSS_fit_executed": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -109,8 +122,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000006: exploratory authenticated SBW25 figure-data reconstruction; ten source/measurement gaps retained, no matched WAM panel and all26 actual study inputs unresolved.",
-    "next_action": "Authenticate the selected-colony, sequence-missingness and FALCOR/MSS sampling/growth/plating contract before any offline mutation-rate fit. Follow the newly indexed recombination source separately.",
+    "last_completed_step": "R000007/R000008: independently reviewed nominal sampling contract/classical conditional-model benchmark and full primary recombination assessment; no biological fit or TMD confirmation.",
+    "next_action": "Authenticate the ten-field SBW25 source-request packet before biological FALCOR/MSS fitting: exact author inputs, confirmation/rounding, capture, growth, recovery and reporter-to-native transport. Prepared packet has not been sent. All26 actual study fields remain null.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -128,7 +141,12 @@
       "research/sbw25_data_audit/VERIFICATION_RECEIPT.json": "0556e5141bfd5abc173ef1ab94e1822e0ba38d6a5546189180ae8355209e30c9",
       "research/sbw25_data_audit/review/REVIEW_RECEIPT.json": "15e9594b4092830a5bf5a95e5a12b6033c5ed3973c2729005c0ebc937459cfcb",
       "research/source_watch/2026-10-07/SOURCE_WATCH_RECEIPT.json": "f9084c20613c2dc6bf1e4f23042d8cb9df5d41bc83d90b8178e37ee8e18eb7e5",
-      "research/source_watch/2026-10-07/INDEPENDENT_REVIEW.json": "22c74773ab633fdc935aae8135d691b8f8045b73d49afbdae3452e5fb60b0467"
+      "research/source_watch/2026-10-07/INDEPENDENT_REVIEW.json": "22c74773ab633fdc935aae8135d691b8f8045b73d49afbdae3452e5fb60b0467",
+      "research/fluctuation_contract/SHA256SUMS.txt": "bc51a6752ea9b68164d8800c06779073196699006283ba13dce90763a6d0f062",
+      "research/fluctuation_contract/VERIFICATION_RECEIPT.json": "f7ad9fe00c64c9bf327212ecfa5b30ce87c89bfd169808c568cee407a3187142",
+      "research/fluctuation_contract/review/REVIEW_RECEIPT.json": "26968683e908020588cb9d772025c5167181afa05487a692c8c8c58866c0602e",
+      "research/recombination_scope/SHA256SUMS.txt": "08da5162291011e070cdbcb7bb3d1460c1437f7f4a6910ab980fee83ada73578",
+      "research/recombination_scope/R8_INDEPENDENT_REVIEW.json": "6d40ba9f25fd8bc267c5b692342406a9146ae5ec8b5927d7fb88c4b8452212bc"
     }
   },
   "reviewed_checkpoint": {
@@ -139,7 +157,9 @@
       "R000004-20261003",
       "R000005-NUMERIC",
       "R000004-20261007",
-      "R000006"
+      "R000006",
+      "R000007",
+      "R000008"
     ],
     "blocked_work_items": [
       {
@@ -160,8 +180,10 @@
       "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted.",
       "dataset DOI10.5281/zenodo.14335473; sourceZIP SHA2569f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6; Farr2025samecohort as R4, not independent replication; raw sources external.",
       "doi:10.1093/jeb/voag096; PMID42832043; abstract/metadata only; eukaryote MA source, not WAM or native bacterial calibration.",
-      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli\u2013P1 gene-exchange lead, no SBW25 transfer."
+      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli–P1 gene-exchange lead, no SBW25 transfer.",
+      "R000007 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473: same R4/R6 cohort, no independent replication; nominal geometry and conditional classical mathematics only.",
+      "R000008 doi:10.1093/molbev/msag238; PMC13633115.1 full main primary XML sha256:a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735; supplements/model/raw data unacquired; no SBW25 transfer."
     ],
-    "next_action": "Authenticate the selected-colony, sequence-missingness and FALCOR/MSS sampling/growth/plating contract before any offline mutation-rate fit. Follow the newly indexed recombination source separately."
+    "next_action": "Authenticate the ten-field SBW25 source-request packet before biological FALCOR/MSS fitting: exact author inputs, confirmation/rounding, capture, growth, recovery and reporter-to-native transport. Prepared packet has not been sent. All26 actual study fields remain null."
   }
 }

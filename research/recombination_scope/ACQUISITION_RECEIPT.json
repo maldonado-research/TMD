@@ -1,0 +1,21 @@
+{
+  "maximum_requests": 3,
+  "maximum_response_bytes": 5242880,
+  "requests": [
+    {
+      "source_doi": "10.1093/molbev/msag238",
+      "pmcid": "PMC13633115",
+      "requested_at_utc": "2026-10-07T18:35:37.426717+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13633115&retmode=xml",
+      "credential_used": false,
+      "tls_certificate_verification": true,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13633115&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 127109,
+      "sha256": "a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735",
+      "raw_path": "r8_raw/stationary_recombination_primary.xml"
+    }
+  ],
+  "scope": "One targeted primary paper; no systematic or entire-web review. No raw-text republication."
+}

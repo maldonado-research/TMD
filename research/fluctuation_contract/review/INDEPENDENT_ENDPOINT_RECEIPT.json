@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "zero_intensity_checks": 12,
+  "zero_capture_17_support_entry_checks": 3,
+  "source_fit": false,
+  "reviewed_producer_sha256": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68",
+  "executed_oracle": "For clone laws point masses at1 and16 and capped-LD at16; p0 andp1; both CP helpers at m0 and countcap32 returned[1,0,...,0]. Capped clone16 atp0 returns17 support keys with all weight at0; both CP helpers at m100 give[1,0,...,0].",
+  "checks_are_synthetic": true,
+  "reproducible_by": "independent_compound_oracles.py --producer-script PATH --output PATH",
+  "reviewer_script_sha256": "002f06444799ec69e8f6cf9f5c07f8d0cced60f1663e037263f3b7bfd0ebee8d"
+}

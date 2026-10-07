@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "project": "Mutation by Natural Dominance",
+  "round_id": "R000007",
+  "date": "2026-10-07",
+  "public_files": [
+    "ACQUISITION_RECEIPT.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MEASUREMENT_CONTRACT.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCE_FIELDS_REQUEST.json",
+    "SYNTHETIC_BENCHMARKS.json",
+    "VERIFICATION_RECEIPT.json",
+    "conditional_fluctuation.py",
+    "reproduce_measurement_contract.py",
+    "review/INDEPENDENT_COMPOUND_ORACLE_RECEIPT.json",
+    "review/INDEPENDENT_ENDPOINT_RECEIPT.json",
+    "review/R7_REVIEW_NOTES.md",
+    "review/REVIEW_RECEIPT.json",
+    "review/independent_compound_oracles.py",
+    "run_benchmarks.py"
+  ],
+  "file_entries": [
+    {
+      "path": "ACQUISITION_RECEIPT.json",
+      "bytes": 2133,
+      "sha256": "e57cbea28c6ec77124ec509edb0a892211112d2f055b4e38b84d9c91a518fb33"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1614,
+      "sha256": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 874,
+      "sha256": "6138bfb11b8a4f81abd68596b1d1821a72e1cce7c52dbef51f422046b813df38"
+    },
+    {
+      "path": "MEASUREMENT_CONTRACT.json",
+      "bytes": 20610,
+      "sha256": "2d7b4771a7f39a1e5295ce8ced6e48f195b3d09ad8275dc306053f31008a943b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11280,
+      "sha256": "b59be0f66869b9aa0339b71bb23a5b0758f592da2b2d5caf1ab50cdaa0e7e8a1"
+    },
+    {
+      "path": "SOURCE_FIELDS_REQUEST.json",
+      "bytes": 2967,
+      "sha256": "53ee99fd8fad1ece9201b1434d5557380b13ea5e356869d24d63577f0704a35a"
+    },
+    {
+      "path": "SYNTHETIC_BENCHMARKS.json",
+      "bytes": 15108,
+      "sha256": "e8bc72acc873ea9267946e47275807e2ab3c0d503fa0a3a036a273bf2f1c403a"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 2130,
+      "sha256": "f7ad9fe00c64c9bf327212ecfa5b30ce87c89bfd169808c568cee407a3187142"
+    },
+    {
+      "path": "conditional_fluctuation.py",
+      "bytes": 10539,
+      "sha256": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68"
+    },
+    {
+      "path": "reproduce_measurement_contract.py",
+      "bytes": 8652,
+      "sha256": "ab5cd72b3e25c01473832c6622e8031a31a1c10e4ae564d1c61235532788fa0b"
+    },
+    {
+      "path": "review/INDEPENDENT_COMPOUND_ORACLE_RECEIPT.json",
+      "bytes": 1883,
+      "sha256": "f485e47c88507565e9321afce287f9ca5bda322b8a7fffaddb6826877c152a8a"
+    },
+    {
+      "path": "review/INDEPENDENT_ENDPOINT_RECEIPT.json",
+      "bytes": 698,
+      "sha256": "a78b47fd3fe1f55cf2e3823e49c1758b9ed3c020686dbd359c24b6de269d904d"
+    },
+    {
+      "path": "review/R7_REVIEW_NOTES.md",
+      "bytes": 7811,
+      "sha256": "c1eac072a293d2d534a05ba91879cbf97114fffe386d3e63b35301b7eb897a87"
+    },
+    {
+      "path": "review/REVIEW_RECEIPT.json",
+      "bytes": 4844,
+      "sha256": "26968683e908020588cb9d772025c5167181afa05487a692c8c8c58866c0602e"
+    },
+    {
+      "path": "review/independent_compound_oracles.py",
+      "bytes": 6577,
+      "sha256": "002f06444799ec69e8f6cf9f5c07f8d0cced60f1663e037263f3b7bfd0ebee8d"
+    },
+    {
+      "path": "run_benchmarks.py",
+      "bytes": 934,
+      "sha256": "e3f986a0f57d27fa38224f93ae3775db412f8df1ecfa49b15cbcae0b53f437a7"
+    }
+  ],
+  "manifest_self_hash_excluded": true,
+  "checksum_file_self_hash_excluded": true,
+  "review_status": "accepted_with_stated_conditional_model_and_source_limits",
+  "review_receipt": "review/REVIEW_RECEIPT.json",
+  "raw_source_files_excluded": true,
+  "private_archive_files_excluded": true,
+  "cache_missing_source_replay": "UNRUN",
+  "source_culture_rows": 24,
+  "biological_rate_fits": 0,
+  "actual_registry_fields_resolved": 0
+}
