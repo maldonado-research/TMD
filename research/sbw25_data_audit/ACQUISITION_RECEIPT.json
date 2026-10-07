@@ -1,0 +1,25 @@
+{
+  "maximum_download_bytes": 20971520,
+  "maximum_sources": 12,
+  "requests": [
+    {
+      "url": "https://zenodo.org/api/records/14335473",
+      "status": 200,
+      "bytes": 4525,
+      "sha256": "0881feb45e454b0ef2bdf5bca1d551995372abd547abadd7c0a1e54ee574d6ee",
+      "at_utc": "2026-10-07T17:30:10.870941+00:00"
+    },
+    {
+      "url": "https://zenodo.org/api/records/14335473/files/Zenodo%20data%20files%2009%20dec%202024.zip/content",
+      "status": 200,
+      "bytes": 7880751,
+      "sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+      "md5": "c07253f941ce89ceb594187255ba085a",
+      "at_utc": "2026-10-07T17:30:34.529070+00:00"
+    }
+  ],
+  "total_response_bytes": 7885276,
+  "authentication_used": false,
+  "zip_md5_verified": "c07253f941ce89ceb594187255ba085a",
+  "zip_sha256_verified": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6"
+}

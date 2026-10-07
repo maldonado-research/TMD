@@ -151,3 +151,7 @@ The subsequent [four-source eligibility audit](panel_eligibility/README.md), dat
 - Horton, Cherry, Waugh and Taylor (2025). *G_nT Motifs Can Increase T:A→G:C Mutation Rates Over 1000-fold in Bacteria*. DOI: [10.1093/molbev/msaf183](https://doi.org/10.1093/molbev/msaf183). Local sequence context as a competing supply explanation.
 - Thulin (2014). *The cost of using exact confidence intervals for a binomial proportion*. DOI: [10.1214/14-EJS909](https://doi.org/10.1214/14-EJS909). Exact-interval conservativeness and precision costs.
 - Clopper and Pearson (1934). *The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial*. DOI: [10.1093/biomet/26.4.404](https://doi.org/10.1093/biomet/26.4.404). Established binomial confidence construction.
+
+## Later measurement follow-up — 7 October 2026
+
+The [SBW25 figure-data audit](sbw25_data_audit/README.md) supplies an authenticated exploratory reconstruction of reporter endpoint frequencies, not a common-route experiment. Its [independent methods assessment](sbw25_data_audit/METHODS_RECOMMENDATION.md) writes native relative supply as proxy supply times a normalized log-transfer factor. Because the contrast coefficients sum to zero, proxy contrast error is the coefficient-weighted transfer factor; prespecified supply and recovery widths add. This is standard algebra, not a measured new force or theorem. Single-marker C565T measurements do not supply those three-route bounds, so unknown native transfer remains unbounded and all 26 actual study inputs remain unresolved.

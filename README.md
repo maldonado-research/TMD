@@ -9,19 +9,21 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest published methods package: 0.5.0
+## Latest labelled methods release: 0.5.0
 
 [Read the 0.5.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_5_0.md) · [Download the complete package](TMD_research_extension_0_5_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_5_0_SHA256SUMS.txt) · [Zenodo report version](https://zenodo.org/records/23075312)
 
 The 53-file package adds finite-sample bounds for recovery-corrected route comparisons, including observed zeros and all-success controls. **13 automated tests passed.** Exact integer tails certify conservative binomial endpoints; exact rational projection decides whether context intervals intersect. Independent internal reviews reproduced all 160 synthetic datasets and complete confidence results (40 reused, 120 new). The targeted literature review adds three substantive papers. No new biological confirmation, certified power or external mathematical priority is claimed. The public Zenodo API confirms that record 23075312 is published as 0.5.0 in research-report DOI family 10.5281/zenodo.23068055 ([verification receipt](research/EXISTING_0_5_0_PUBLICATION_RECEIPT.json)). Expanded report files below remain 0.1.0.
 
-## Current progress — 2 October 2026
+## Current progress — 7 October 2026
 
 The methods, continuation and four-source eligibility updates have reached `main`. The [prospective design round](research/prospective_design/README.md) now fixes an operational held-out forecast and strong measured alternatives, with independent synthetic mathematical checks. It is design-only: 26 study inputs remain unresolved and no experiment is registered.
 
+The [SBW25 public-data audit](research/sbw25_data_audit/README.md) now authenticates the licensed source archive and reproduces 24 reporter culture-frequency records, time-course arithmetic, supplied competition coefficients and a regional transcript proxy. The descriptive mean-frequency ratio is about 118.97, while the paper’s reported MSS mutation-rate ratio is 58.33; the latter fit is not reproduced. Ten measurement-contract gaps include a seven-counted/eight-sequenced colony row and a missing read. These are exploratory reanalyses of published data, not new TMD experiments or a matched Wsp/Aws/Mws panel.
+
 The [certified score implementation](research/certified_score/README.md) addresses that design's numerical gap with exact binomial-tail comparisons, outward rational logarithm bounds and exact confidence-region projection. Strict score gates use the reported outward endpoints. The [targeted source watch](research/source_watch/2026-10-02/README.md) audits three primary articles on transcription-dependent mutation supply, population history and phenotypic masking. These are methods and literature advances; no matched biological panel or new experiment is admitted.
 
-[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub and remains unarchived on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records labelled release 0.5.0 and the newly published, unversioned record 23113326, whose six files are identical to 0.5.0. The [verified manual-run artifact](research/continuation/ARTIFACT_READBACK_2026-10-02.json) reports a missing provider key in that historical run; the workflow remains explicitly paused, with current secret configuration inaccessible.
+[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub and remains unarchived on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records labelled release 0.5.0 and the newly published, unversioned record 23113326, whose six files are identical to 0.5.0. A replacement draft 23219776 is now verified within that same DOI family, but metadata and file staging failed; [owner-editor staging instructions](research/ZENODO_0_6_0_BROWSER_STAGING.md) preserve the reviewed candidate. No 0.6.0 publication was made. The [verified manual-run artifact](research/continuation/ARTIFACT_READBACK_2026-10-02.json) reports a missing provider key in that historical run; the workflow remains explicitly paused, with current secret configuration inaccessible.
 
 ## Research follow-up: recovery-transport robustness
 
@@ -39,7 +41,7 @@ The installed hourly workflow uses GPT-6.1 Sol with ultra effort, persistent can
 
 The second round inspects four authenticated primary articles and records source-specific eligibility and missing measurements. It supports Lind's four rare-pathway mutants at the aggregate level, identifies reuse of the 41 Aws occurrences in Sun 2023, and sharpens sequence-hotspot and repair-dependent supply alternatives. No complete matched biological panel is admitted from the inspected material. The third [prospective design round](research/prospective_design/README.md) is complete as design-only. Its 26 study inputs remain unresolved; the daily changed-source watch and measurement contract follow.
 
-The first daily source watch is complete. Its raw article cache stays outside Git; original notes retain sampling units, licenses, source hashes and unchanged-preprint deduplication. The numerical follow-up evaluates actual frozen rational forecasts, without certifying an ideal real-number model or a causal interpretation. Its conservative precision example exceeds the prototype's sample cap; it is not an achieved-power or study-size claim. The measurement contract remains blocked, and the next queued source task inspects the declared native/reporter SBW25 figure-data archive.
+The first daily source watch is complete. Its raw article cache stays outside Git; original notes retain sampling units, licenses, source hashes and unchanged-preprint deduplication. The numerical follow-up evaluates actual frozen rational forecasts, without certifying an ideal real-number model or a causal interpretation. Its conservative precision example exceeds the prototype's sample cap; it is not an achieved-power or study-size claim. The measurement contract remains blocked. The declared SBW25 archive audit is complete within its stated scope; the next tasks reconcile its sampling/FALCOR contract and inspect the newly indexed recombination-source lead. A [bounded October 7 source watch](research/source_watch/2026-10-07/README.md) screens two abstracts without claiming their full-text or data analysis.
 
 ## Previous downloadable methods package: 0.4.0
 

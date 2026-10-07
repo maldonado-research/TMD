@@ -1,0 +1,96 @@
+{
+  "checked_utc": "2026-10-07T17:42:04.632955+00:00",
+  "family": "10.5281/zenodo.23068055",
+  "new_family_created": false,
+  "inherited_files_deleted": false,
+  "publication_attempted": false,
+  "credential_value_saved": false,
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23113326",
+      "request_bytes": 0,
+      "request_content_type": null,
+      "status": 200,
+      "response_bytes": 12628,
+      "response_sha256": "467df77068f4dc617104af7d38f0a825396b1368e7cbf8e9100fb537c0c9b349"
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23113326",
+      "request_bytes": 0,
+      "request_content_type": null,
+      "status": 200,
+      "response_bytes": 12628,
+      "response_sha256": "467df77068f4dc617104af7d38f0a825396b1368e7cbf8e9100fb537c0c9b349"
+    },
+    {
+      "method": "POST",
+      "path": "/api/deposit/depositions/23113326/actions/newversion",
+      "request_bytes": 2,
+      "request_content_type": "application/json",
+      "status": 201,
+      "response_bytes": 12164,
+      "response_sha256": "69a522b82e0e2bbc02dc3fb5ed63c05aa7443f41cc903989537c3455cd59174d"
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23219776",
+      "request_bytes": 0,
+      "request_content_type": null,
+      "status": 200,
+      "response_bytes": 12164,
+      "response_sha256": "69a522b82e0e2bbc02dc3fb5ed63c05aa7443f41cc903989537c3455cd59174d"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/deposit/depositions/23219776",
+      "request_bytes": 2354,
+      "request_content_type": "application/json",
+      "status": 500,
+      "response_bytes": 228,
+      "response_sha256": "62a72a9ff6041c9256533b0ab4250d510d0d7f4609f86e31108f8bd5e37c7f1f",
+      "redacted_server_error": {
+        "status": 500,
+        "message": "The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.",
+        "error_id": "417cf8279ea84bb8bb373d769e1909fd"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/deposit/depositions/23219776",
+      "request_bytes": 0,
+      "request_content_type": null,
+      "status": 200,
+      "response_bytes": 12164,
+      "response_sha256": "69a522b82e0e2bbc02dc3fb5ed63c05aa7443f41cc903989537c3455cd59174d"
+    }
+  ],
+  "newversion_requested": true,
+  "active_draft_id": 23219776,
+  "draft_html": "https://zenodo.org/uploads/23219776",
+  "draft_family_verified": true,
+  "draft_state": "unsubmitted",
+  "inherited_file_count": 6,
+  "approved_metadata_sha256": "396c24f59ae4948224a87028aa78d176ee5e450b42f38aa68f0ad320035c54dd",
+  "approved_zip_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+  "metadata_readback_matches": {
+    "upload_type": true,
+    "publication_type": true,
+    "title": false,
+    "creators": false,
+    "publication_date": false,
+    "version": false,
+    "description": false,
+    "access_right": true,
+    "license": true,
+    "keywords": false,
+    "notes": false
+  },
+  "metadata_saved_exactly": false,
+  "readback_version": null,
+  "draft_submitted": false,
+  "error_type": "RuntimeError",
+  "error_message": "Zenodo HTTP 500",
+  "status": "blocked"
+}

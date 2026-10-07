@@ -1,4 +1,4 @@
-# Evidence and claims — updated 2 October 2026
+# Evidence and claims — updated 7 October 2026
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
@@ -13,6 +13,11 @@
 | Certified prospective score computation | Exact rational implementation with internal adversarial review and synthetic replay | Requires externally justified count laws, independent frozen forecasts and fixed stopping; covers actual rational forecasts within explicit resource caps. |
 | Conservative score-width planning | Pre-outcome deterministic numerical bound | Example requirements exceed the prototype cap; not power, an effect estimate, achieved precision or a chosen biological sample size. |
 | Three-article mutation-supply/observation watch | Primary-source literature and measurement audit | Reporter/native transfer, selected survivors and plasmid masking remain distinct from a matched W/A/M experiment; no new biological confirmation. |
+| SBW25 raw figure-data arithmetic | Authenticated public dataset and exploratory source replay |24 culture occurrences and 711 reads are distinct units; frequency118.97-fold differs from reported MSS rate58.33-fold; no rate fit or new inferential test. |
+| Candidate-confirmation sampling frame | Unresolved for at least one source row |7 counted candidates versus8 sequenced colonies; preserve source values, no manufactured closed-pool/binomial contract. |
+| Regional transcript proxy | Mapped source calculation reproduced |5.9603 geometric-mean proxy ratio uses supplied doubling transform; no native mutation-supply calibration or resolved fourfold/sixfold caption discrepancy. |
+| Supply-assay transport sensitivity | Derived algebraic extension of existing observation sensitivity |Requires independently justified finite bounds; C565T single-marker data do not identify triad supply transfer. No new theorem claimed. |
+| October 7 mutation/recombination source watch | Two primary abstracts and metadata screened |Indexing and publication dates differ; full text/data not inspected; no SBW25 or W/A/M quantitative transfer. |
 | Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
 | Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
 | Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |

@@ -1,0 +1,64 @@
+{
+  "scope": "Two targeted methodological sources, no systematic review",
+  "credential_used": false,
+  "attempts": [
+    {
+      "id": "hall_falcor_2009",
+      "pmcid": "PMC2687991",
+      "article_kind": "original_method_tool_article",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2687991&retmode=xml",
+      "requested_at_utc": "2026-10-07T17:35:35.407028+00:00",
+      "tls_certificate_verification": true,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2687991&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 7145,
+      "sha256": "f17a294e35cb6046cf543d59430197764ec3fd5bcd4fb10c0aafb92e367290e1",
+      "raw_path": "raw/hall_falcor_2009.xml",
+      "inspection_status": "abstract_and_metadata_only_body_absent"
+    },
+    {
+      "id": "foster_methods_2006",
+      "pmcid": "PMC2041832",
+      "article_kind": "methodological_review",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2041832&retmode=xml",
+      "requested_at_utc": "2026-10-07T17:35:35.752206+00:00",
+      "tls_certificate_verification": true,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2041832&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 5503,
+      "sha256": "b5ca13563f0c2e52379ba1b29750158aaf89c42a016590e26ac7ef4732960b99",
+      "raw_path": "raw/foster_methods_2006.xml",
+      "inspection_status": "abstract_and_metadata_only_body_absent"
+    },
+    {
+      "id": "hall_falcor_2009_html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687991/",
+      "requested_at_utc": "2026-10-07T17:36:17.407186+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true,
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687991/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 21309,
+      "sha256": "4cf3ce9c4cc09f8bfc58dac8cd96944574ec815e48c8ebc7d75bcbe345821d6b",
+      "raw_path": "raw/hall_falcor_2009.html",
+      "inspection_status": "browser_check_response_not_article"
+    },
+    {
+      "id": "foster_methods_2006_html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2041832/",
+      "requested_at_utc": "2026-10-07T17:36:17.780110+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true,
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2041832/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 189431,
+      "sha256": "dd5641f959156f086b93b2309f55bcfd92276382494e697c33721d9e36ab53b4",
+      "raw_path": "raw/foster_methods_2006.html",
+      "inspection_status": "full_text_methodological_chapter_sections_read"
+    }
+  ]
+}

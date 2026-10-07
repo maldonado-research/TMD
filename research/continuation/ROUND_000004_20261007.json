@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "work_item_id": "R000004",
+  "occurrence_id": "R000004-20261007",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "status": "completed",
+  "completion_scope": "targeted_metadata_abstract_watch",
+  "report": "../source_watch/2026-10-07/README.md",
+  "new_acquisition_requests": 2,
+  "source_response_bytes": 41862,
+  "abstract_records_screened": 2,
+  "fulltext_records_inspected": 0,
+  "new_biological_panels_admitted": 0
+}

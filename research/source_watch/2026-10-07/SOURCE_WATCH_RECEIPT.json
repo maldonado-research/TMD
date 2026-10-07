@@ -1,0 +1,122 @@
+{
+  "checked_utc": "2026-10-07T17:46:49.058218+00:00",
+  "user_facing_date": "2026-10-07",
+  "search_scope": "Single targeted PubMed query, new indexing dates October2\u20137; indexing is not publication date. Not a systematic or complete web review.",
+  "request_count": 2,
+  "requests": [
+    {
+      "endpoint": "esearch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "term": "(Pseudomonas OR bacteria) AND (\"mutation bias\" OR \"spontaneous mutation\" OR \"fluctuation assay\" OR \"transcription-associated mutagenesis\") AND 2026/10/02:2026/10/07[EDAT]",
+        "retmode": "json",
+        "retmax": 20
+      },
+      "status": 200,
+      "response_bytes": 1043,
+      "sha256": "1015dad8ed46cd1c2cafddc6adae13e8bc35a68f3bf199115d43d29a7b76ede9",
+      "cache_filename": "search.json"
+    },
+    {
+      "endpoint": "efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "42832043,42827080",
+        "retmode": "xml"
+      },
+      "status": 200,
+      "response_bytes": 40819,
+      "sha256": "403def9ce61775456ec3d5fc517f7d2da6d6a1eb7a5173073241586e32a8a3dc",
+      "cache_filename": "records.xml"
+    }
+  ],
+  "search_record_count": 2,
+  "retrieved_record_count": 2,
+  "screened_records": [
+    {
+      "pmid": "42832043",
+      "doi": "10.1093/jeb/voag096",
+      "pmc": null,
+      "title": "Spontaneous mutation rate estimation in the large-genome unicellular eukaryote Euglena gracilis.",
+      "history_dates": [
+        {
+          "type": "medline",
+          "year": "2026",
+          "month": "10",
+          "day": "5"
+        },
+        {
+          "type": "pubmed",
+          "year": "2026",
+          "month": "10",
+          "day": "5"
+        },
+        {
+          "type": "entrez",
+          "year": "2026",
+          "month": "10",
+          "day": "5"
+        }
+      ],
+      "abstract_read": true,
+      "fulltext_read": false,
+      "matched_WAM_panel_admitted": false
+    },
+    {
+      "pmid": "42827080",
+      "doi": "10.1093/molbev/msag238",
+      "pmc": "PMC13633115",
+      "title": "Herd immunity underlies homologous recombination in stationary phase bacteria.",
+      "history_dates": [
+        {
+          "type": "received",
+          "year": "2026",
+          "month": "5",
+          "day": "26"
+        },
+        {
+          "type": "revised",
+          "year": "2026",
+          "month": "9",
+          "day": "1"
+        },
+        {
+          "type": "accepted",
+          "year": "2026",
+          "month": "9",
+          "day": "3"
+        },
+        {
+          "type": "medline",
+          "year": "2026",
+          "month": "10",
+          "day": "5"
+        },
+        {
+          "type": "pubmed",
+          "year": "2026",
+          "month": "10",
+          "day": "2"
+        },
+        {
+          "type": "entrez",
+          "year": "2026",
+          "month": "10",
+          "day": "2"
+        },
+        {
+          "type": "pmc-release",
+          "year": "2026",
+          "month": "10",
+          "day": "3"
+        }
+      ],
+      "abstract_read": true,
+      "fulltext_read": false,
+      "matched_WAM_panel_admitted": false
+    }
+  ],
+  "new_biological_panels_admitted": 0,
+  "abstracts_reviewed_by_root": true,
+  "independent_internal_abstract_review_performed": true
+}

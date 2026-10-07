@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "project": "Mutation by Natural Dominance",
+  "round_id": "R000006",
+  "date": "2026-10-07",
+  "public_files": [
+    "ACQUISITION_RECEIPT.json",
+    "DERIVED_MEASUREMENT_AUDIT.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MEASUREMENT_CONTRACT_GAPS.json",
+    "METHODS_ACQUISITION_RECEIPT.json",
+    "METHODS_RECOMMENDATION.md",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCE_LEDGER.json",
+    "VERIFICATION_RECEIPT.json",
+    "fetch_sbw25_data.py",
+    "reproduce_sbw25_audit.py",
+    "review/INDEPENDENT_SOURCE_ORACLE_RECEIPT.json",
+    "review/REVIEW_NOTES.md",
+    "review/REVIEW_RECEIPT.json",
+    "review/independent_source_oracles.py"
+  ],
+  "file_entries": [
+    {
+      "path": "ACQUISITION_RECEIPT.json",
+      "bytes": 906,
+      "sha256": "b2c2dcd725b7ff9614f4e365fa3831275228b5b858f91cadb0e318fdfbbde430"
+    },
+    {
+      "path": "DERIVED_MEASUREMENT_AUDIT.json",
+      "bytes": 55859,
+      "sha256": "519637b3dbe85747392d8f377cbbe6f91d47180e528f08ad1e9a2ba10729d2ef"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1614,
+      "sha256": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 1294,
+      "sha256": "63c7d7229338803897d32046f72faa27f645943372c7a4a926ed040db2f64784"
+    },
+    {
+      "path": "MEASUREMENT_CONTRACT_GAPS.json",
+      "bytes": 4610,
+      "sha256": "ce882901569a33f5555540ad600dab2a0f50d3de290e1b533d28335f94231c85"
+    },
+    {
+      "path": "METHODS_ACQUISITION_RECEIPT.json",
+      "bytes": 2843,
+      "sha256": "c066c3ebc9e737ea6c6fc27f9fd5b6c13a3271ae9edb714b4a48150c794996c2"
+    },
+    {
+      "path": "METHODS_RECOMMENDATION.md",
+      "bytes": 16296,
+      "sha256": "18ed48532bdc5b8c4104d051421eca11cd26906e765b9084961d5d17f46b0275"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11683,
+      "sha256": "d7bc10ab173ad300b5cc83433c9f9d1ff27aa57b023ace963ede5a1a79fa657a"
+    },
+    {
+      "path": "SOURCE_LEDGER.json",
+      "bytes": 1318,
+      "sha256": "d0f85bc6dc6e437f1e462e514035e289336f70ad13a6927c9b39420e819006f8"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 2436,
+      "sha256": "0556e5141bfd5abc173ef1ab94e1822e0ba38d6a5546189180ae8355209e30c9"
+    },
+    {
+      "path": "fetch_sbw25_data.py",
+      "bytes": 3106,
+      "sha256": "3e0a3b4728dcc928b67ac09248333a3ec7717c3790af66b632b2f5cf8f146d9e"
+    },
+    {
+      "path": "reproduce_sbw25_audit.py",
+      "bytes": 25710,
+      "sha256": "0b9faa6c440b4c6232b0044e9c8cb3c8226422ec476fae0523c2c5e5fc35122c"
+    },
+    {
+      "path": "review/INDEPENDENT_SOURCE_ORACLE_RECEIPT.json",
+      "bytes": 3918,
+      "sha256": "f336246069419170a3988865c127310bbb5eb030f1650bc3a3056c163ab8bfd9"
+    },
+    {
+      "path": "review/REVIEW_NOTES.md",
+      "bytes": 5862,
+      "sha256": "79826f3f3030425b8d7a460e267e46ee82f11d63dff27dd3b36bff6ea8c4fc23"
+    },
+    {
+      "path": "review/REVIEW_RECEIPT.json",
+      "bytes": 3658,
+      "sha256": "15e9594b4092830a5bf5a95e5a12b6033c5ed3973c2729005c0ebc937459cfcb"
+    },
+    {
+      "path": "review/independent_source_oracles.py",
+      "bytes": 7971,
+      "sha256": "e02fc3da70b97cbb15afa496804e17bfd9b255211887b51db6f7b9d60d2e2432"
+    }
+  ],
+  "manifest_self_hash_excluded": true,
+  "checksums_file_self_hash_excluded": true,
+  "raw_source_files_excluded": true,
+  "private_archive_files_excluded": true,
+  "review_status": "accepted_with_stated_source_audit_limits",
+  "review_receipt": "review/REVIEW_RECEIPT.json",
+  "source_checks": 986,
+  "matched_WAM_panels_admitted": 0,
+  "actual_registry_fields_resolved": 0
+}

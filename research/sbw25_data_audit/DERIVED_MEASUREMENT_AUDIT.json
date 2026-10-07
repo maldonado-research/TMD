@@ -1,0 +1,1481 @@
+{
+  "article_doi": "10.1371/journal.pgen.1011572",
+  "dataset_doi": "10.5281/zenodo.14335473",
+  "figure4A": {
+    "cached_difference_interpretation": "floating serialization residuals; no exact identity assertion",
+    "cached_numeric_and_plot_checks": 504,
+    "culture_occurrences": 24,
+    "distinct_transformants_per_background": 6,
+    "formula_text_checks": 144,
+    "integer_source_and_derived_measurement_ledger": [
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 5.82437275985663e-06,
+        "cached_minus_exact_frequency": -5.243727598566308e-22,
+        "candidate_colonies_integer": 13,
+        "confirmation_fraction": "7/8",
+        "confirmed_C565T_integer": 7,
+        "corrected_C565T_CFU_per_ml": "227500/9",
+        "corrected_terminal_frequency": "13/2232000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "4340000000/1",
+        "transformant_label": "MPB38307",
+        "transformant_replicate_number": 1,
+        "workbook_row": 2
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 2.4107142857142856e-06,
+        "cached_minus_exact_frequency": -1.1428571428571429e-22,
+        "candidate_colonies_integer": 9,
+        "confirmation_fraction": "3/4",
+        "confirmed_C565T_integer": 6,
+        "corrected_C565T_CFU_per_ml": "6750/1",
+        "corrected_terminal_frequency": "27/11200000",
+        "culture_fraction_dilution": "1/100",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 2,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2800000000/1",
+        "transformant_label": "MPB38308",
+        "transformant_replicate_number": 2,
+        "workbook_row": 3
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 3.235294117647059e-06,
+        "cached_minus_exact_frequency": 1.7647058823529412e-22,
+        "candidate_colonies_integer": 11,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "11000/1",
+        "corrected_terminal_frequency": "11/3400000",
+        "culture_fraction_dilution": "1/100",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 2,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3400000000/1",
+        "transformant_label": "MPB38309",
+        "transformant_replicate_number": 3,
+        "workbook_row": 4
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 3.238341968911917e-06,
+        "cached_minus_exact_frequency": 1.5544041450777202e-24,
+        "candidate_colonies_integer": 9,
+        "confirmation_fraction": "5/8",
+        "confirmed_C565T_integer": 5,
+        "corrected_C565T_CFU_per_ml": "12500/1",
+        "corrected_terminal_frequency": "1/308800",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3860000000/1",
+        "transformant_label": "MPB38310",
+        "transformant_replicate_number": 4,
+        "workbook_row": 5
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 1.123956326268465e-06,
+        "cached_minus_exact_frequency": -9.678869621066153e-23,
+        "candidate_colonies_integer": 7,
+        "confirmation_fraction": "1/4",
+        "confirmed_C565T_integer": 2,
+        "corrected_C565T_CFU_per_ml": "35000/9",
+        "corrected_terminal_frequency": "7/6228000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": true,
+        "terminal_total_CFU_per_ml": "3460000000/1",
+        "transformant_label": "MPB38311",
+        "transformant_replicate_number": 5,
+        "workbook_row": 6
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 2.4e-06,
+        "cached_minus_exact_frequency": -1e-22,
+        "candidate_colonies_integer": 8,
+        "confirmation_fraction": "3/4",
+        "confirmed_C565T_integer": 6,
+        "corrected_C565T_CFU_per_ml": "6000/1",
+        "corrected_terminal_frequency": "3/1250000",
+        "culture_fraction_dilution": "1/100",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 2,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2500000000/1",
+        "transformant_label": "MPB38312",
+        "transformant_replicate_number": 6,
+        "workbook_row": 7
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 2.60196905766526e-08,
+        "cached_minus_exact_frequency": -1.969057665260197e-24,
+        "candidate_colonies_integer": 37,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "740/9",
+        "corrected_terminal_frequency": "37/1422000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3160000000/1",
+        "transformant_label": "MPB38414",
+        "transformant_replicate_number": 1,
+        "workbook_row": 8
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 4.997060552616108e-08,
+        "cached_minus_exact_frequency": -2.716637272192828e-24,
+        "candidate_colonies_integer": 85,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "1700/9",
+        "corrected_terminal_frequency": "17/340200000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3780000000/1",
+        "transformant_label": "MPB38415",
+        "transformant_replicate_number": 2,
+        "workbook_row": 9
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 2.6196928635953025e-08,
+        "cached_minus_exact_frequency": -1.1969286359530263e-24,
+        "candidate_colonies_integer": 29,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "580/9",
+        "corrected_terminal_frequency": "29/1107000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2460000000/1",
+        "transformant_label": "MPB38416",
+        "transformant_replicate_number": 3,
+        "workbook_row": 10
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 1.515151515151515e-08,
+        "cached_minus_exact_frequency": -2.5151515151515153e-24,
+        "candidate_colonies_integer": 21,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 7,
+        "corrected_C565T_CFU_per_ml": "140/3",
+        "corrected_terminal_frequency": "1/66000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 7,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3080000000/1",
+        "transformant_label": "MPB38420",
+        "transformant_replicate_number": 4,
+        "workbook_row": 11
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 2.73224043715847e-08,
+        "cached_minus_exact_frequency": -4.53551912568306e-25,
+        "candidate_colonies_integer": 45,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "100/1",
+        "corrected_terminal_frequency": "1/36600000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3660000000/1",
+        "transformant_label": "MPB38421",
+        "transformant_replicate_number": 5,
+        "workbook_row": 12
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 1.9493177387914228e-08,
+        "cached_minus_exact_frequency": -2.0194931773879143e-24,
+        "candidate_colonies_integer": 20,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "400/9",
+        "corrected_terminal_frequency": "1/51300000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 1,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2280000000/1",
+        "transformant_label": "MPB38422",
+        "transformant_replicate_number": 6,
+        "workbook_row": 13
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 4.578754578754579e-06,
+        "cached_minus_exact_frequency": 4.542124542124542e-23,
+        "candidate_colonies_integer": 15,
+        "confirmation_fraction": "1/2",
+        "confirmed_C565T_integer": 4,
+        "corrected_C565T_CFU_per_ml": "50000/3",
+        "corrected_terminal_frequency": "1/218400",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3640000000/1",
+        "transformant_label": "MPB38307",
+        "transformant_replicate_number": 1,
+        "workbook_row": 14
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 7.452574525745256e-06,
+        "cached_minus_exact_frequency": -1.1525745257452575e-21,
+        "candidate_colonies_integer": 22,
+        "confirmation_fraction": "1/2",
+        "confirmed_C565T_integer": 4,
+        "corrected_C565T_CFU_per_ml": "220000/9",
+        "corrected_terminal_frequency": "11/1476000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3280000000/1",
+        "transformant_label": "MPB38308",
+        "transformant_replicate_number": 2,
+        "workbook_row": 15
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 8.203799654576856e-06,
+        "cached_minus_exact_frequency": -1.4939550949913645e-22,
+        "candidate_colonies_integer": 19,
+        "confirmation_fraction": "3/4",
+        "confirmed_C565T_integer": 6,
+        "corrected_C565T_CFU_per_ml": "95000/3",
+        "corrected_terminal_frequency": "19/2316000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3860000000/1",
+        "transformant_label": "MPB38309",
+        "transformant_replicate_number": 3,
+        "workbook_row": 16
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 3.886010362694301e-06,
+        "cached_minus_exact_frequency": 3.8186528497409327e-22,
+        "candidate_colonies_integer": 18,
+        "confirmation_fraction": "3/8",
+        "confirmed_C565T_integer": 3,
+        "corrected_C565T_CFU_per_ml": "15000/1",
+        "corrected_terminal_frequency": "3/772000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3860000000/1",
+        "transformant_label": "MPB38310",
+        "transformant_replicate_number": 4,
+        "workbook_row": 17
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 1.330321285140562e-06,
+        "cached_minus_exact_frequency": -2.48995983935743e-22,
+        "candidate_colonies_integer": 53,
+        "confirmation_fraction": "3/8",
+        "confirmed_C565T_integer": 3,
+        "corrected_C565T_CFU_per_ml": "13250/3",
+        "corrected_terminal_frequency": "53/39840000",
+        "culture_fraction_dilution": "1/100",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3320000000/1",
+        "transformant_label": "MPB38311",
+        "transformant_replicate_number": 5,
+        "workbook_row": 18
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "cached_frequency": 1.0479041916167664e-05,
+        "cached_minus_exact_frequency": -6.706586826347306e-22,
+        "candidate_colonies_integer": 21,
+        "confirmation_fraction": "3/4",
+        "confirmed_C565T_integer": 6,
+        "corrected_C565T_CFU_per_ml": "35000/1",
+        "corrected_terminal_frequency": "7/668000",
+        "culture_fraction_dilution": "1/1000",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3340000000/1",
+        "transformant_label": "MPB38312",
+        "transformant_replicate_number": 6,
+        "workbook_row": 19
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 1.3346482577251807e-07,
+        "cached_minus_exact_frequency": -1.0210387902695596e-23,
+        "candidate_colonies_integer": 203,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "4060/9",
+        "corrected_terminal_frequency": "203/1521000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3380000000/1",
+        "transformant_label": "MPB38414",
+        "transformant_replicate_number": 1,
+        "workbook_row": 20
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 1.811594202898551e-08,
+        "cached_minus_exact_frequency": 2.753623188405797e-24,
+        "candidate_colonies_integer": 30,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "200/3",
+        "corrected_terminal_frequency": "1/55200000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3680000000/1",
+        "transformant_label": "MPB38415",
+        "transformant_replicate_number": 2,
+        "workbook_row": 21
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 3.118908382066277e-08,
+        "cached_minus_exact_frequency": 3.9688109161793374e-24,
+        "candidate_colonies_integer": 32,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "640/9",
+        "corrected_terminal_frequency": "1/32062500",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2280000000/1",
+        "transformant_label": "MPB38416",
+        "transformant_replicate_number": 3,
+        "workbook_row": 22
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 2.5745257452574524e-08,
+        "cached_minus_exact_frequency": -1.7452574525745257e-24,
+        "candidate_colonies_integer": 38,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "760/9",
+        "corrected_terminal_frequency": "19/738000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "3280000000/1",
+        "transformant_label": "MPB38420",
+        "transformant_replicate_number": 4,
+        "workbook_row": 23
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 2.2875816993464053e-08,
+        "cached_minus_exact_frequency": 7.124183006535948e-25,
+        "candidate_colonies_integer": 28,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "560/9",
+        "corrected_terminal_frequency": "7/306000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2720000000/1",
+        "transformant_label": "MPB38421",
+        "transformant_replicate_number": 5,
+        "workbook_row": 24
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "cached_frequency": 5.971277399848829e-08,
+        "cached_minus_exact_frequency": 7.974300831443689e-25,
+        "candidate_colonies_integer": 79,
+        "confirmation_fraction": "1/1",
+        "confirmed_C565T_integer": 8,
+        "corrected_C565T_CFU_per_ml": "1580/9",
+        "corrected_terminal_frequency": "79/1323000000",
+        "culture_fraction_dilution": "1/1",
+        "occasion": 2,
+        "plate_volume_ml": "1/20",
+        "selective_plates_integer": 9,
+        "sequenced_denominator_integer": 8,
+        "sequenced_exceeds_recorded_candidate_pool": false,
+        "terminal_total_CFU_per_ml": "2940000000/1",
+        "transformant_label": "MPB38422",
+        "transformant_replicate_number": 6,
+        "workbook_row": 25
+      }
+    ],
+    "occasion_frequency_ratios": [
+      {
+        "occasion": 1,
+        "ratio_of_arithmetic_means": 111.07035913009547,
+        "ratio_of_medians": 108.12665562228395
+      },
+      {
+        "occasion": 2,
+        "ratio_of_arithmetic_means": 123.42853187660404,
+        "ratio_of_medians": 211.3193695657161
+      }
+    ],
+    "occasion_strata": [
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "candidate_colonies_total": 57,
+        "confirmed_C565T_total": 34,
+        "culture_occurrences": 6,
+        "occasion": 1,
+        "sequenced_total": 48,
+        "terminal_frequency": {
+          "arithmetic_mean": 3.0387799097330595e-06,
+          "maximum": 5.824372759856631e-06,
+          "median": 2.8230042016806725e-06,
+          "minimum": 1.123956326268465e-06,
+          "n": 6
+        }
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "candidate_colonies_total": 237,
+        "confirmed_C565T_total": 47,
+        "culture_occurrences": 6,
+        "occasion": 1,
+        "sequenced_total": 47,
+        "terminal_frequency": {
+          "arithmetic_mean": 2.7359053608296798e-08,
+          "maximum": 4.997060552616108e-08,
+          "median": 2.6108309606302816e-08,
+          "minimum": 1.5151515151515152e-08,
+          "n": 6
+        }
+      },
+      {
+        "background": "SBW25 attTn7::nlpD-kan",
+        "candidate_colonies_total": 148,
+        "confirmed_C565T_total": 26,
+        "culture_occurrences": 6,
+        "occasion": 2,
+        "sequenced_total": 48,
+        "terminal_frequency": {
+          "arithmetic_mean": 5.988417053846537e-06,
+          "maximum": 1.0479041916167664e-05,
+          "median": 6.015664552249918e-06,
+          "minimum": 1.3303212851405622e-06,
+          "n": 6
+        }
+      },
+      {
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "candidate_colonies_total": 410,
+        "confirmed_C565T_total": 48,
+        "culture_occurrences": 6,
+        "occasion": 2,
+        "sequenced_total": 48,
+        "terminal_frequency": {
+          "arithmetic_mean": 4.8517283344448864e-08,
+          "maximum": 1.3346482577251807e-07,
+          "median": 2.8467170636618648e-08,
+          "minimum": 1.8115942028985507e-08,
+          "n": 6
+        }
+      }
+    ],
+    "occasions": 2,
+    "pooled_descriptive_frequency": {
+      "SBW25 attTn7::nlpD-kan": {
+        "arithmetic_mean": 4.513598481789798e-06,
+        "maximum": 1.0479041916167664e-05,
+        "median": 3.562176165803109e-06,
+        "minimum": 1.123956326268465e-06,
+        "n": 12
+      },
+      "SBW25 deltapsrA attTn7::nlpD-kan": {
+        "arithmetic_mean": 3.793816847637283e-08,
+        "maximum": 1.3346482577251807e-07,
+        "median": 2.6108309606302816e-08,
+        "minimum": 1.5151515151515152e-08,
+        "n": 12
+      }
+    },
+    "pooled_mean_frequency_ratio": 118.97249295523534,
+    "reported_MSS_mutation_rate_ratio_not_reproduced": 58.333333333333336,
+    "reported_rate_fit_reproduced": false,
+    "transformants_reused_across_occasions": true,
+    "workbook_member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A colony counts/Colony Counts Fluctuation assays_20_6_24 .xlsx"
+  },
+  "figure4B_transcript_proxy": {
+    "amplicon_mapping": "sample-setup wells B/F=nlpD5prime and C/G=nlpD3prime; all24 selected Ct-well labels checked",
+    "arithmetic_mean_linear_proxy_ratio": 6.148793711731192,
+    "article_Figure4B_caption_reported_reduction": "approximately4-fold",
+    "article_text_reported_reduction": "approximately6-fold",
+    "biological_replicate_labels_per_background": 6,
+    "cached_arithmetic_and_mapping_checks": 98,
+    "geometric_mean_proxy_ratio": 5.960326212884817,
+    "log2_transcript_proxy": {
+      "SBW25": {
+        "arithmetic_mean": 3.485200564066569,
+        "maximum": 4.298060417175293,
+        "median": 3.819258213043213,
+        "minimum": 1.5218086242675781,
+        "n": 6
+      },
+      "psrA": {
+        "arithmetic_mean": 0.9098092714945476,
+        "maximum": 1.8734130859375,
+        "median": 1.1074528694152834,
+        "minimum": -0.7830686569213869,
+        "n": 6
+      }
+    },
+    "new_qPCR_fit_or_causal_promoter_measurement": false,
+    "ratio_of_log2_means_is_not_a_fold_change": 3.83069361157577,
+    "reason_for_article_text_caption_difference_verified": false,
+    "reported_transform": "log2(2^(-Ct3prime+Ct5prime)); no efficiency refit",
+    "technical_Ct_runs_averaged_per_sample": 2,
+    "workbook_member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4B data/2024_06_13_rtqpcrSBW25_Fig4B.xlsx"
+  },
+  "fitness": {
+    "cached_calculation_checks": 96,
+    "competition_occurrences": 32,
+    "marker_occasion_strata": [
+      {
+        "background": "WT",
+        "mutant_fluorescent_marker": "R",
+        "occasion": 1,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.007368468465508371,
+          "maximum": 0.0017117352423310448,
+          "median": -0.009425888664193938,
+          "minimum": -0.012333831775976651,
+          "n": 4
+        }
+      },
+      {
+        "background": "WT",
+        "mutant_fluorescent_marker": "R",
+        "occasion": 2,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.01604872956190618,
+          "maximum": -0.01091385949282846,
+          "median": -0.01612361315560422,
+          "minimum": -0.021033832443587818,
+          "n": 4
+        }
+      },
+      {
+        "background": "WT",
+        "mutant_fluorescent_marker": "G",
+        "occasion": 1,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.0006430998999022027,
+          "maximum": 0.0014375479780386101,
+          "median": -3.340523192663142e-05,
+          "minimum": -0.003943137113794158,
+          "n": 4
+        }
+      },
+      {
+        "background": "WT",
+        "mutant_fluorescent_marker": "G",
+        "occasion": 2,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": 0.005271667423010036,
+          "maximum": 0.02698289114355561,
+          "median": -0.00018335157343804976,
+          "minimum": -0.005529518304639367,
+          "n": 4
+        }
+      },
+      {
+        "background": "Delta psrA",
+        "mutant_fluorescent_marker": "R",
+        "occasion": 1,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.006496636255224739,
+          "maximum": -0.004605735559239126,
+          "median": -0.006614246483248537,
+          "minimum": -0.008152316495162753,
+          "n": 4
+        }
+      },
+      {
+        "background": "Delta psrA",
+        "mutant_fluorescent_marker": "R",
+        "occasion": 2,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.011877276258865345,
+          "maximum": -0.009605075624647137,
+          "median": -0.01061082162767923,
+          "minimum": -0.016682386155455788,
+          "n": 4
+        }
+      },
+      {
+        "background": "Delta psrA",
+        "mutant_fluorescent_marker": "G",
+        "occasion": 1,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": 0.005166750900962215,
+          "maximum": 0.008006572696324937,
+          "median": 0.005403659450437009,
+          "minimum": 0.0018531120066499062,
+          "n": 4
+        }
+      },
+      {
+        "background": "Delta psrA",
+        "mutant_fluorescent_marker": "G",
+        "occasion": 2,
+        "selection_coefficient_per_generation": {
+          "arithmetic_mean": -0.0021459888431094223,
+          "maximum": 0.001511643202624508,
+          "median": -0.0026822167837156153,
+          "minimum": -0.004731165007630966,
+          "n": 4
+        }
+      }
+    ],
+    "raw_cytometry_gating_reprocessed": false,
+    "reproduced_from_supplied_ratio_and_population_columns": true,
+    "workbook_member": "Zenodo data files 09 dec 2024/Supp. Figure S2 data/Fitness assay data nlpDkan mutants 24_6_24 .xlsx"
+  },
+  "limits": {
+    "FALCOR_MSS_fit_reproduced": false,
+    "actual_registry_fields_resolved": 0,
+    "matched_WAM_panels_admitted": 0,
+    "native_per_division_rate_measured_by_this_audit": false,
+    "native_reporter_transport_parameter_identified": false,
+    "native_selected_isolate_count_reconciled": false,
+    "new_biological_TMD_confirmation": false,
+    "qPCR_raw_fluorescence_reprocessed": false
+  },
+  "research_member_inventory": [
+    {
+      "bytes": 787,
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_ Fig1A_nlpDQ189W evolved mutants_1_38/4_6_24_README_Fig1B.rtf",
+      "sha256": "8c20b20f17181378fe6d96f34c10d5a875b82cfa752f661f27b9897fa746250e"
+    },
+    {
+      "bytes": 179404,
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_ Fig1A_nlpDQ189W evolved mutants_1_38/76 documents from 4_6_24_nlpDQ189W_mutants.fastq",
+      "sha256": "bd8e2de6590286df1c9abc85a7055af3b29491a64e93cdd9f312a126975fecba"
+    },
+    {
+      "bytes": 836,
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/4_6_24_README_Fig1A.rtf",
+      "sha256": "76d57fc96c507d73301ea15573be4035f9c5d5f3671a5e1a91da49541f31cf97"
+    },
+    {
+      "bytes": 120790,
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/68 documents seq first 72 populations.fastq",
+      "sha256": "b4ad101a1b85b7684a98b6dbab571cf0f72bb840d63be6cf1266331a4ee063fe"
+    },
+    {
+      "bytes": 156654,
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/74 documents seq second 81 populations.fastq",
+      "sha256": "faab9772668cc8eec7080b1a6b7b6788c5e00d4ff01721f6943e8bcc8c2d56b0"
+    },
+    {
+      "bytes": 71942,
+      "member": "Zenodo data files 09 dec 2024/Figure 2 data/7_6_24 fitness assay nlpdmutants vs C565T.xlsx",
+      "sha256": "3cad22bd18a19f2f55dc88de9ecddcd20a1887116a5d4042e83c29cc58156aa3"
+    },
+    {
+      "bytes": 4303872,
+      "member": "Zenodo data files 09 dec 2024/Figure 3 data/2024_06_11_rtqpcr4nlpDmutants.xls",
+      "sha256": "ffd33eaa59bd5b1139bc09d76bf381cb34e8b38b8f631b892cb8984ea2107468"
+    },
+    {
+      "bytes": 18698,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A colony counts/Colony Counts Fluctuation assays_20_6_24 .xlsx",
+      "sha256": "93c1b8e0d341124723eb64ca2c28f058a46c38ea20b7f7cf6217451d84e4c6fb"
+    },
+    {
+      "bytes": 218034,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/94 documents from 20_12_23 repeated fluctuation trial 1.fastq",
+      "sha256": "05a796016b2dcfa5b8de5f3f543a913a45af4accbfb01789a4c3a2e697a2c051"
+    },
+    {
+      "bytes": 227094,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/96 documents from 10_1_24 fluctuation kan400 trial 2.fastq",
+      "sha256": "84958e44a2275b98abd5bc3fbcfa63cad64e7a8509f384aa0b8ae7928cb4ec00"
+    },
+    {
+      "bytes": 1528,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/Readme Figure 4A sequencing files.rtf",
+      "sha256": "fdfc2127491a267e8b54fa7f27daca1bd515c9d71c94bd481bb55cf81379ca54"
+    },
+    {
+      "bytes": 7527,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/nlpD-kan reference sequence.gb",
+      "sha256": "d902f115e5cfebb46b14d774c996de53c0d51b7211584c61d8b16851cbc4dba4"
+    },
+    {
+      "bytes": 1683195,
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4B data/2024_06_13_rtqpcrSBW25_Fig4B.xlsx",
+      "sha256": "c3c7e5372c53bf8e4e58845e07058da2c86808314da93a905d448142047ea863"
+    },
+    {
+      "bytes": 21262,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/36 documents RACE sanger sequencing reps 2 and 3  SBW25  and SBW25deltawss.fastq",
+      "sha256": "1e150e2b788600518107b98c25e3a9967b206854c4d5a8c3c06bd699692db439"
+    },
+    {
+      "bytes": 96686,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/48 documents RACE sequencing replicate 1 SBW25 and SBW25deltawss.fastq",
+      "sha256": "af73a6a53909d87faf8d3d6230273a039570f2130e53a1bccf23a94843961f9a"
+    },
+    {
+      "bytes": 3877,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/6 documents RACE remaining sequencing both genotypes.fastq",
+      "sha256": "70ac8322dcd99ad1bddae4eda36330979fd6056bd14a34b014ea3b218dd3e884"
+    },
+    {
+      "bytes": 13305,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/AM181176 nlpD to rpoS with 5'RACE transcrip start sites for 3 replicates SBW25.gb",
+      "sha256": "eb4021bd0bfda84f685e85e6f1cf9104c2a6b7d964215a25be05dc36dbef17fd"
+    },
+    {
+      "bytes": 13306,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/AM181176 nlpD to rpoS with 5'RACE transcrip start sites for 3 replicates deltawss.gb",
+      "sha256": "28a97fc9d23c75f40ba35fb3a1efb0294bdd13cdee570076a5c4af2eebe4fe39"
+    },
+    {
+      "bytes": 3130,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/README_Supp. Fig S1.rtf",
+      "sha256": "16546ad9d3804f0ff717900d09c1f19722d153a3cc610e4154ea387d9324e57a"
+    },
+    {
+      "bytes": 44203,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S2 data/Fitness assay data nlpDkan mutants 24_6_24 .xlsx",
+      "sha256": "b244d3a8a87fff6cfcd5c40fe3b57c8f5bfe3f74561c2266d35f2ab0de16337d"
+    },
+    {
+      "bytes": 3349670,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S3 data/20_6_24 Suppl Figure 1  rpoSp RTqPCR vs Growth.xlsx",
+      "sha256": "13f6ac2dff384707b96a87dc989042f17b577f974b93ab805990d16b9cfb267b"
+    },
+    {
+      "bytes": 70602,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/13_11_24 timecourse trial 2 nlpD-kan.fastq.gz",
+      "sha256": "d93a6de7390c78e3a342e877d56ccea6728133e6202689cdd558c5e3a7a9edff"
+    },
+    {
+      "bytes": 68887,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/15_02_24 sangerseq timecourse trial 1 nlpD-kan.fastq.gz",
+      "sha256": "43c42944ed0d74c06d3f8a953187444642b57c2ce05edee51220e3ff61111eea"
+    },
+    {
+      "bytes": 19225,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/15_11_234 timecourse trial 2 remaining seq 16h rep2 col 9-32.fastq.gz",
+      "sha256": "5c456f5f63502b35f6915daaeb88aacca09c1028924857d50c4a80c68bd14e0f"
+    },
+    {
+      "bytes": 31661,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/26_11_24 time course calculations.xlsx",
+      "sha256": "c86db1ef830cdfa0671a225a9dcb5b919469b41a0bfdd5d42d2a17062cf3664d"
+    },
+    {
+      "bytes": 1768,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/Readme Figure S3B sequencing files.rtf",
+      "sha256": "a2b7379c0a6f51e0e55e206d6f25a806f1e9425445945b5fa7bfb2f832e49854"
+    },
+    {
+      "bytes": 7527,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/nlpD-kan reference sequence.gb",
+      "sha256": "d902f115e5cfebb46b14d774c996de53c0d51b7211584c61d8b16851cbc4dba4"
+    },
+    {
+      "bytes": 4225536,
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S5 data/2024_06_25_rtqpcrnlpD_wt_vs_TGG.xls",
+      "sha256": "63167fa68aaf0f608d8b145c9e282026d1c90401594ce36168b852d92d9a57c9"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "public_source_measurement_and_arithmetic_audit",
+  "sequencing": {
+    "all_FASTQ_record_inventory": [
+      {
+        "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_ Fig1A_nlpDQ189W evolved mutants_1_38/76 documents from 4_6_24_nlpDQ189W_mutants.fastq",
+        "records": 76
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/68 documents seq first 72 populations.fastq",
+        "records": 68
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/74 documents seq second 81 populations.fastq",
+        "records": 74
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/94 documents from 20_12_23 repeated fluctuation trial 1.fastq",
+        "records": 94
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/96 documents from 10_1_24 fluctuation kan400 trial 2.fastq",
+        "records": 96
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/36 documents RACE sanger sequencing reps 2 and 3  SBW25  and SBW25deltawss.fastq",
+        "records": 36
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/48 documents RACE sequencing replicate 1 SBW25 and SBW25deltawss.fastq",
+        "records": 48
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/6 documents RACE remaining sequencing both genotypes.fastq",
+        "records": 6
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/13_11_24 timecourse trial 2 nlpD-kan.fastq.gz",
+        "records": 95
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/15_02_24 sangerseq timecourse trial 1 nlpD-kan.fastq.gz",
+        "records": 94
+      },
+      {
+        "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/15_11_234 timecourse trial 2 remaining seq 16h rep2 col 9-32.fastq.gz",
+        "records": 24
+      }
+    ],
+    "diagnostic_culture_groups": [
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 1,
+          "T": 7
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38307",
+        "workbook_confirmed_C565T": 7,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 2,
+          "T": 6
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38308",
+        "workbook_confirmed_C565T": 6,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38309",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 3,
+          "T": 4,
+          "unresolved": 1
+        },
+        "exact_T_count_matches_workbook": false,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38310",
+        "workbook_confirmed_C565T": 5,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 7,
+        "available_records_equal_workbook_denominator": false,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 4,
+          "T": 2,
+          "unresolved": 1
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [
+          8
+        ],
+        "occasion": 1,
+        "transformant_label": "MPB38311",
+        "workbook_confirmed_C565T": 2,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 2,
+          "T": 5,
+          "unresolved": 1
+        },
+        "exact_T_count_matches_workbook": false,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38312",
+        "workbook_confirmed_C565T": 6,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 7,
+          "unresolved": 1
+        },
+        "exact_T_count_matches_workbook": false,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38414",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38415",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38416",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 7,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 5,
+          "unresolved": 2
+        },
+        "exact_T_count_matches_workbook": false,
+        "missing_expected_colony_labels": [
+          3
+        ],
+        "occasion": 1,
+        "transformant_label": "MPB38420",
+        "workbook_confirmed_C565T": 7,
+        "workbook_sequenced_denominator": 7
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38421",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 1,
+        "transformant_label": "MPB38422",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 4,
+          "T": 4
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38307",
+        "workbook_confirmed_C565T": 4,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 4,
+          "T": 4
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38308",
+        "workbook_confirmed_C565T": 4,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 2,
+          "T": 6
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38309",
+        "workbook_confirmed_C565T": 6,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 5,
+          "T": 3
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38310",
+        "workbook_confirmed_C565T": 3,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 5,
+          "T": 3
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38311",
+        "workbook_confirmed_C565T": 3,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "C": 2,
+          "T": 6
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38312",
+        "workbook_confirmed_C565T": 6,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38414",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38415",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38416",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38420",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38421",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      },
+      {
+        "available_read_records": 8,
+        "available_records_equal_workbook_denominator": true,
+        "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+        "diagnostic_target_calls": {
+          "T": 8
+        },
+        "exact_T_count_matches_workbook": true,
+        "missing_expected_colony_labels": [],
+        "occasion": 2,
+        "transformant_label": "MPB38422",
+        "workbook_confirmed_C565T": 8,
+        "workbook_sequenced_denominator": 8
+      }
+    ],
+    "records_are_not_independent_founder_trials": true,
+    "reference_annotation": "first base of annotated codon189; article nlpD C565",
+    "reference_member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/nlpD-kan reference sequence.gb",
+    "rule": "unique exact outer15-base anchors around564-566 window; Phred+33 targetQ>=20; no indel rescue or imputation",
+    "target_reference_position_1based": 2023
+  },
+  "timecourse": {
+    "adaptive_extra_sequencing": "occasion2 approximately16h replicate2 has32 sequenced colonies, including24 follow-ups; preserve outcome-dependent sampling",
+    "cached_arithmetic_checks": 144,
+    "culture_occurrences": 24,
+    "destructive_sampling": true,
+    "excluded_contaminated_selective_plate": "occasion2 earliest time replicate1:7 plates instead of8; volume0.35mL",
+    "occasion_time_strata": [
+      {
+        "confirmed_C565T_total": 6,
+        "culture_occurrences": 2,
+        "hours": 14.5,
+        "occasion": 1,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 3.4755434782608696e-06,
+          "maximum": 6e-06,
+          "median": 3.4755434782608696e-06,
+          "minimum": 9.510869565217392e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 9,
+        "culture_occurrences": 2,
+        "hours": 15.8,
+        "occasion": 1,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 7.822646103896104e-07,
+          "maximum": 8.948863636363637e-07,
+          "median": 7.822646103896104e-07,
+          "minimum": 6.696428571428571e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 4,
+        "culture_occurrences": 2,
+        "hours": 17.3,
+        "occasion": 1,
+        "sequenced_total": 14,
+        "terminal_frequency": {
+          "arithmetic_mean": 5.09372790738777e-07,
+          "maximum": 9.171195652173913e-07,
+          "median": 5.09372790738777e-07,
+          "minimum": 1.016260162601626e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 14,
+        "culture_occurrences": 2,
+        "hours": 18.75,
+        "occasion": 1,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 1.1205808080808082e-06,
+          "maximum": 1.388888888888889e-06,
+          "median": 1.1205808080808082e-06,
+          "minimum": 8.522727272727273e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 14,
+        "culture_occurrences": 2,
+        "hours": 20.0,
+        "occasion": 1,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 3.012974852862493e-06,
+          "maximum": 4.7619047619047615e-06,
+          "median": 3.012974852862493e-06,
+          "minimum": 1.2640449438202247e-06,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 14,
+        "culture_occurrences": 2,
+        "hours": 21.75,
+        "occasion": 1,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 1.395850381887616e-06,
+          "maximum": 1.950354609929078e-06,
+          "median": 1.395850381887616e-06,
+          "minimum": 8.413461538461539e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 4,
+        "culture_occurrences": 2,
+        "hours": 14.3,
+        "occasion": 2,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 1.5086874913899986e-06,
+          "maximum": 2.0220588235294116e-06,
+          "median": 1.5086874913899986e-06,
+          "minimum": 9.953161592505855e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 4,
+        "culture_occurrences": 2,
+        "hours": 15.8,
+        "occasion": 2,
+        "sequenced_total": 40,
+        "terminal_frequency": {
+          "arithmetic_mean": 2.204346626733922e-07,
+          "maximum": 2.305327868852459e-07,
+          "median": 2.204346626733922e-07,
+          "minimum": 2.1033653846153846e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 3,
+        "culture_occurrences": 2,
+        "hours": 17.3,
+        "occasion": 2,
+        "sequenced_total": 15,
+        "terminal_frequency": {
+          "arithmetic_mean": 5.627705627705628e-07,
+          "maximum": 7.386363636363637e-07,
+          "median": 5.627705627705628e-07,
+          "minimum": 3.869047619047619e-07,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 3,
+        "culture_occurrences": 2,
+        "hours": 18.8,
+        "occasion": 2,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 1.8178235975295935e-06,
+          "maximum": 2.586206896551724e-06,
+          "median": 1.8178235975295935e-06,
+          "minimum": 1.0494402985074627e-06,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 7,
+        "culture_occurrences": 2,
+        "hours": 20.3,
+        "occasion": 2,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 3.6537278543307086e-06,
+          "maximum": 4.453125e-06,
+          "median": 3.6537278543307086e-06,
+          "minimum": 2.8543307086614175e-06,
+          "n": 2
+        }
+      },
+      {
+        "confirmed_C565T_total": 10,
+        "culture_occurrences": 2,
+        "hours": 21.8,
+        "occasion": 2,
+        "sequenced_total": 16,
+        "terminal_frequency": {
+          "arithmetic_mean": 5.379929615301956e-06,
+          "maximum": 5.839646464646465e-06,
+          "median": 5.379929615301956e-06,
+          "minimum": 4.920212765957447e-06,
+          "n": 2
+        }
+      }
+    ],
+    "occasions": 2,
+    "sequenced_total": 213,
+    "workbook_member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/26_11_24 time course calculations.xlsx"
+  },
+  "zip_verification": {
+    "bytes": 7880751,
+    "directory_entries": 16,
+    "entries": 82,
+    "excluded_junk_members": 38,
+    "expanded_bytes": 15018225,
+    "md5": "c07253f941ce89ceb594187255ba085a",
+    "research_members": 28,
+    "safe_paths_no_symlinks_no_encryption": true,
+    "sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6"
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "schema_version": 2,
-  "checked_date": "2026-10-02",
+  "schema_version": 3,
+  "checked_date": "2026-10-07",
   "date_timezone": "America/Los_Angeles",
   "canonical_concept_doi": "10.5281/zenodo.23068055",
   "latest_published_version": null,
   "latest_published_record": 23113326,
   "latest_published_doi": "10.5281/zenodo.23113326",
-  "active_draft_id": null,
-  "active_draft_url": null,
+  "active_draft_id": 23219776,
+  "active_draft_url": "https://zenodo.org/uploads/23219776",
   "draft_reserved_doi": null,
   "proposed_draft_version": "0.6.0",
   "metadata_update_verified": false,
@@ -28,16 +28,39 @@
   ],
   "binary_upload_http_status": 400,
   "publication_attempted": false,
-  "next_action": "Coordinate with the publishing chat. Preserve record23113326 and its established concept family;0.6.0 remains absent. Do not upload to the now-published record. Reuse a currently linked unpublished draft if one exists, otherwise create a version from latest published23113326 only after fresh ownership/draft checks and coordinated staging. No deletion, automatic integration or test release.",
-  "checked_utc": "2026-10-03T03:42:20.199641+00:00",
+  "next_action": "Use verified existing family draft23219776. Complete owner-editor metadata and reviewedZIP/checksum staging, then readbackverifyallapprovedmetadataandfilenames/byte-sizes/checksumsbeforepublication. API metadataPUT500 anddocumentedmultipartPOST400remainblocked. Preservepublishedrecords, inheritedfiles andallautomaticarchivingOFF; noadditionaldraftorstandalonerecordneeded.",
+  "checked_utc": "2026-10-07T17:45:15.374617+00:00",
   "latest_labelled_methods_version": "0.5.0",
   "latest_labelled_methods_record": 23075312,
   "latest_published_contents": "inherited_0_5_0_files_identical_to_record23075312",
   "previous_draft_id": 23113326,
   "previous_draft_now_published": true,
   "published_0_6_0": false,
-  "active_draft_verified": false,
+  "active_draft_verified": true,
   "publication_state_change_actor": "unknown_not_this_task",
   "publication_attempted_in_this_task": false,
-  "published_file_comparison_basis": "All six filenames, byte sizes and reported MD5 checksums match record23075312; these inherited files were not re-downloaded in this round."
+  "published_file_comparison_basis": "All six filenames, byte sizes and reported MD5 checksums match record23075312; these inherited files were not re-downloaded in this round.",
+  "active_draft_state": {
+    "id": 23219776,
+    "family": "23068055",
+    "owner": 1386319,
+    "submitted": false,
+    "created_by_this_task": true,
+    "version": null,
+    "saved_metadata_matches_approved": false,
+    "reviewed_0_6_0_zip_uploaded": false,
+    "inherited_files_count": 6,
+    "inherited_files_intact": true,
+    "publication_attempted": false,
+    "editor_url": "https://zenodo.org/uploads/23219776"
+  },
+  "current_staging_errors": {
+    "metadata_put_status": 500,
+    "documented_multipart_post_status": 400,
+    "diagnostics": [
+      "publication_diagnostics/2026-10-07_STAGING_RECEIPT.json",
+      "publication_diagnostics/2026-10-07_DOCUMENTED_UPLOAD_RECEIPT.json"
+    ]
+  },
+  "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit."
 }

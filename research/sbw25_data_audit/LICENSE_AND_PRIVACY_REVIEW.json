@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "source_is_public_not_private_archive": true,
+  "source_license": "CC BY 4.0 verified from authoritative Zenodo metadata",
+  "source_attribution_present": true,
+  "public_candidate_allowed_content": [
+    "originalanalysisnotes",
+    "originalstdlibscripts",
+    "originalmeasurementgapledger",
+    "minimumintegermeasurementprovenancewithderivedfrequency",
+    "derivedaggregates",
+    "researchmemberchecksums",
+    "acquisitionandverificationreceipts"
+  ],
+  "excluded_content": [
+    "sourceZIP",
+    "rawworkbooks",
+    "rawFASTQ/GenBank/RTF",
+    "fullarticletext",
+    "Macresourceforks",
+    ".DS_Store",
+    "machinepaths",
+    "personalcontacts",
+    "credentials",
+    "privatearchivehandoffs/new-files"
+  ],
+  "raw_metadata_inspection_note": "Acquired workbooks contain laboratory machine paths and operator metadata; these fields are not exported. Public data concern bacterial experiments, not human participants.",
+  "raw_source_files_redistributed": false,
+  "private_research_files_used": false,
+  "publication_of_private_raw_files_authorized_here": false,
+  "actual_study_registry_changed": false,
+  "independent_review_status": "accepted within stated public-source audit limits; see review/REVIEW_RECEIPT.json"
+}
