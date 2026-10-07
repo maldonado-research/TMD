@@ -1,0 +1,248 @@
+{
+  "round": "R000012",
+  "rows": [
+    {
+      "id": "DTT01",
+      "source": "PMC13228076",
+      "reported_observation": "72 paired clinical urine specimens",
+      "unit": "specimens/within-specimen aliquot pairs",
+      "denominator_or_frame": "72 within-method comparisons; unique patient/founder counts not established",
+      "interpretation_limit": "Clinical mixed specimens are not independent mutant births or common-background Wsp/Aws/Mws trials.",
+      "anchors": [
+        "a parallel analytical design in 72 clinical urine samples"
+      ]
+    },
+    {
+      "id": "DTT02",
+      "source": "PMC13228076",
+      "reported_observation": "10 mL input pelleted and resuspended in 1 mL",
+      "unit": "mL original urine versus mL processed suspension",
+      "denominator_or_frame": "Reported concentration step; treatment and untreated aliquot normalization require sample-level provenance",
+      "interpretation_limit": "A nominal tenfold concentration is not measured quantitative recovery.",
+      "anchors": [
+        "10 mL of urine",
+        "the pellet was resuspended in 1 mL"
+      ]
+    },
+    {
+      "id": "DTT03",
+      "source": "PMC13228076",
+      "reported_observation": "At least 10,000 flow events with bead-normalized viable counts",
+      "unit": "flow events; reported cells/mL",
+      "denominator_or_frame": "Acquisition events and beads; not known introduced individual-cell trials",
+      "interpretation_limit": "Beads calibrate enumeration within a measurement workflow, not automatically biological culturability or mutation-event retention.",
+      "anchors": [
+        "A minimum of 10,000 events was acquired per sample",
+        "10 µL of microbeads"
+      ]
+    },
+    {
+      "id": "DTT04",
+      "source": "PMC13228076",
+      "reported_observation": "SYTO9/PI membrane-integrity gate and compensation/gating controls",
+      "unit": "stained events classified by operational gate",
+      "denominator_or_frame": "Unstained, heat-killed and single-stained controls",
+      "interpretation_limit": "A membrane-integrity classification does not independently prove VBNC status or ability to form a colony.",
+      "anchors": [
+        "unstained, heat-killed, and single-stained samples",
+        "confirmatory metabolic or molecular assays"
+      ]
+    },
+    {
+      "id": "DTT05",
+      "source": "PMC13228076",
+      "reported_observation": "1 µL plated; 12 h readout; reported negative threshold <10 CFU/mL",
+      "unit": "µL suspension plated; CFU/mL; hours",
+      "denominator_or_frame": "Reported direct counts; dilution/concentration/censoring map not recovered",
+      "interpretation_limit": "One colony in 1 µL corresponds nominally to 1,000 CFU/mL suspension, or 100 per original mL if a tenfold concentration applies. The threshold/median needs explanation; this is a reporting gap, not proof of error.",
+      "anchors": [
+        "1 µL of each DTT-treated and untreated suspension",
+        "incubated for 12 h",
+        "Plates yielding <10 CFU/mL"
+      ]
+    },
+    {
+      "id": "DTT06",
+      "source": "PMC13228076",
+      "reported_observation": "Cross-method N=69 untreated and N=71 treated; within-method pairs72",
+      "unit": "eligible specimen comparisons",
+      "denominator_or_frame": "Three versus one below-quantification exclusions; all72 retained where applicable",
+      "interpretation_limit": "Different complete-case denominators preclude treating every cross-method comparison as the same72-pair set.",
+      "anchors": [
+        "N = 69 for No-DTT (three samples) and N = 71 for +DTT (one sample)",
+        "All 72 pairs were retained"
+      ]
+    },
+    {
+      "id": "DTT07",
+      "source": "PMC13228076",
+      "reported_observation": "Reported cytometry medians7,450 and7,720; nonparametric P=.470",
+      "unit": "reported cells/mL and P-value",
+      "denominator_or_frame": "72 within-method clinical comparisons",
+      "interpretation_limit": "No statistically detected difference is not an equivalence result or proof of unchanged viability.",
+      "anchors": [
+        "7.45 × 10³ (No DTT) and 7.72 × 10³ (+DTT)",
+        "non-parametric P = 0.470"
+      ]
+    },
+    {
+      "id": "DTT08",
+      "source": "PMC13228076",
+      "reported_observation": "Reported CFU medians10 and5,500; ratio of these medians550",
+      "unit": "reported CFU/mL; ratio of marginal medians",
+      "denominator_or_frame": "72 within-method pairs; raw S1 not acquired",
+      "interpretation_limit": "550 is neither the median paired fold change, a recovery probability nor a mutation-rate ratio.",
+      "anchors": [
+        "10 CFU/mL (No DTT) to 5.5 × 10³ CFU/mL (+DTT)"
+      ]
+    },
+    {
+      "id": "DTT09",
+      "source": "PMC13228076",
+      "reported_observation": "Main-text Pearson r=.45 untreated and.44 treated",
+      "unit": "correlation across eligible specimens",
+      "denominator_or_frame": "N69 untreated andN71 treated",
+      "interpretation_limit": "Similar correlation does not establish absolute agreement or detection efficiency. Abstract ordering is not used as the parameter source.",
+      "anchors": [
+        "Pearson r = 0.45; Spearman ρ = 0.48",
+        "Pearson r = 0.44; Spearman ρ = 0.47"
+      ]
+    },
+    {
+      "id": "DTT10",
+      "source": "PMC13228076",
+      "reported_observation": "Mean log10 method bias1.22 to.64; limits[-3.60,6.03] and[-3.96,5.24]",
+      "unit": "log10 cross-method count difference",
+      "denominator_or_frame": "Different eligible cross-method sets; source-reported summaries",
+      "interpretation_limit": "Agreement is distinct from correlation; no new uncertainty calculation or paired reanalysis was performed.",
+      "anchors": [
+        "positive bias of +1.22 log₁₀",
+        "mean bias decreased to +0.64 log₁₀",
+        "−3.60 to +6.03",
+        "−3.96 to +5.24"
+      ]
+    },
+    {
+      "id": "DTT11",
+      "source": "PMC13228076",
+      "reported_observation": "Species identification not systematic; confirmatory metabolic/molecular VBNC assays absent",
+      "unit": "unresolved identity/biological state",
+      "denominator_or_frame": "Clinical specimen aggregate gates",
+      "interpretation_limit": "No identified route-specific native background, ancestry, mutation origin or verified VBNC mechanism.",
+      "anchors": [
+        "species-level identification was not systematically performed",
+        "confirmatory metabolic or molecular assays"
+      ]
+    },
+    {
+      "id": "DTT12",
+      "source": "PMC13228076",
+      "reported_observation": "Data set S1 declares paired flow/culture data in a DOCX",
+      "unit": "declared supplemental file, unacquired",
+      "denominator_or_frame": "Main text and supplement declaration only",
+      "interpretation_limit": "Raw data and sample-level normalization/censoring remain UNACQUIRED; declaration is not a reproduced analysis.",
+      "anchors": [
+        "spectrum.03910-25-s0001.docx",
+        "Raw paired flow cytometry and culture data"
+      ]
+    },
+    {
+      "id": "PA01",
+      "source": "PMC13272224",
+      "reported_observation": "PA14 reference and two clinical isolates12-0048/16-0040",
+      "unit": "bacterial strain backgrounds",
+      "denominator_or_frame": "Different reference species/background from SBW25",
+      "interpretation_limit": "P. aeruginosa is not P. fluorescens SBW25; shared genus does not justify parameter transport.",
+      "anchors": [
+        "Pseudomonas aeruginosa PA14 reference strain",
+        "clinical isolates 12-0048 and 16-0040"
+      ]
+    },
+    {
+      "id": "PA02",
+      "source": "PMC13272224",
+      "reported_observation": "1,000–50,000 acquired flow events depending on recovery;2/8/24 h",
+      "unit": "technical flow events and timepoints",
+      "denominator_or_frame": "Sample-level redox/membrane gates, not independent introductions",
+      "interpretation_limit": "Variable acquisition and gates need measurement provenance; events and timepoints are not independent lineage trials.",
+      "anchors": [
+        "between 1,000 and 50,000 events recorded per sample",
+        "Samples were collected after 2, 8, and 24 h"
+      ]
+    },
+    {
+      "id": "PA03",
+      "source": "PMC13272224",
+      "reported_observation": "OD600 .1 approximated as10^8 CFU/mL; gated percentage/initial inoculum normalization",
+      "unit": "OD proxy; approximate CFU/mL; gate percentage",
+      "denominator_or_frame": "Reference inoculum rather than independently counted introduced cells",
+      "interpretation_limit": "Approximate OD-to-CFU and gated normalization do not give absolute individual-cell capture.",
+      "anchors": [
+        "OD600nm of 0.1 (~ 1 × 108 CFU/mL)",
+        "percentage of cells was normalized based on the gated percentage and the initial inoculum"
+      ]
+    },
+    {
+      "id": "PA04",
+      "source": "PMC13272224",
+      "reported_observation": "Recovered populations regrown24 h after antibiotic removal",
+      "unit": "outgrown descendants",
+      "denominator_or_frame": "Selected surviving population; no tracked single-cell lineage in inspected method",
+      "interpretation_limit": "Regrowth and recovered CFUs cannot become the original survival denominator, allele origins or mutation-birth counts.",
+      "anchors": [
+        "transferred to LB medium for 24 h",
+        "indicative of persistence"
+      ]
+    },
+    {
+      "id": "PA05",
+      "source": "PMC13272224",
+      "reported_observation": "Persister/recovered MICs similar to parental profiles",
+      "unit": "susceptibility phenotype",
+      "denominator_or_frame": "Source operational phenotype comparison",
+      "interpretation_limit": "Supports a persistence interpretation within the assay; MIC agreement does not prove absence of all new mutations or establish inheritance.",
+      "anchors": [
+        "MICs similar to those of the parental strain"
+      ]
+    },
+    {
+      "id": "PA06",
+      "source": "PMC13272224",
+      "reported_observation": "At least three independent biological replicates",
+      "unit": "biological replicates",
+      "denominator_or_frame": "Source-wide minimum, not exact per-panel founder/occasion ledger",
+      "interpretation_limit": "Exact per-panel lineage, genotype, independent founder and acquisition denominators remain unestablished here.",
+      "anchors": [
+        "All experiments were conducted in at least three independent biological replicates"
+      ]
+    },
+    {
+      "id": "NANO01",
+      "source": "pubmed:42831674",
+      "reported_observation": "Abstract GFP ratios59/18/89%; flow65/23/86%; CFU54/17/86%",
+      "unit": "relative fluorescent-mixture proportions",
+      "denominator_or_frame": "Three model mixtures; replicate denominators not established in abstract",
+      "interpretation_limit": "Relative cross-method agreement cannot determine absolute recovery, unseen cells or mutation-event intensity.",
+      "anchors": [
+        "GFP ratios of 59%, 18%, and 89%",
+        "65%, 23%, 86%",
+        "54%, 17%, 86%"
+      ]
+    },
+    {
+      "id": "NANO02",
+      "source": "pubmed:42831674",
+      "reported_observation": "Electronic article date2026-10-05; no PMC ID in retrieved metadata",
+      "unit": "source date and inspection level",
+      "denominator_or_frame": "Abstract and metadata only; full text/supplements/raw data unacquired",
+      "interpretation_limit": "Newest lead is not a new TMD biological replication or a calibrated SBW25 method.",
+      "anchors": [
+        "relative particle counting",
+        "single-cell level"
+      ]
+    }
+  ],
+  "matched_common_background_panels_admitted": 0,
+  "actual_registry_fields_resolved": 0,
+  "new_TMD_biological_experiments": 0
+}

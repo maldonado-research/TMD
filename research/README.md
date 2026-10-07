@@ -66,4 +66,12 @@ The [previous continuation handoff](CONTINUATION_HANDOFF_2026-10-07_R7_R8.md) re
 
 [R000010](paired_aliquot/README.md) implements classical paired-disjoint, overlapping and independent-history observation laws with exact finite synthetic coefficients. It supplies a candidate conditional allocation check requiring a prespecified ratio and rejection rule, and examples showing why a passing check, covariance or endpoint agreement cannot alone identify mutation intensity or mechanism. Invisible zero-terminal marks can preserve the entire observation law while changing latent event intensity. The code's triangular coefficient table is truncated, not normalized complete biological data.
 
-The [R9/R10 handoff](CONTINUATION_HANDOFF_2026-10-07_R9_R10.md) carries forward the blocked actual-input authentication and prioritizes independent cell/CFU and absolute capture calibration. All older immutable files, forecasts and study budgets remain preserved. No Zenodo staging or publication operation was performed in these rounds.
+The [previous R9/R10 handoff](CONTINUATION_HANDOFF_2026-10-07_R9_R10.md) carries forward the blocked actual-input authentication and prioritizes independent cell/CFU and absolute capture calibration. All older immutable files, forecasts and study budgets remain preserved. No Zenodo staging or publication operation was performed in these rounds.
+
+## Absolute recovery follow-up — 7 October 2026
+
+[R000012](recovery_calibration_sources/README.md) authenticates two public primary main-text methods/results sources and screens an abstract-only microscopy lead, retaining20 source-specific measurement rows. Instrument enumeration, membrane/redox classifications, terminal colony recovery and mutation origins remain separate. Raw calibration supplements and matched native-control transport remain unresolved.
+
+[R000013](capture_calibration/README.md) supplies standard finite binomial inversion, sharp void bounds and explicit complete-law ambiguity witnesses. Known capture and positive terminal marks can identify positive terminal intensities from a complete population jump vector; unknown capture or invisible events retain ambiguity. This is conditional synthetic methods work with independent internal review, not a finite-data likelihood fit, biological rate, new theorem or cancer-prevention result.
+
+The [latest R12/R13 handoff](CONTINUATION_HANDOFF_2026-10-07_R12_R13.md) preserves earlier checkpoints and queues source-pinned raw normalization and lineage/control denominators. All26 actual study fields remain unresolved. No Zenodo staging, publication request or GitHub release was made in these rounds.

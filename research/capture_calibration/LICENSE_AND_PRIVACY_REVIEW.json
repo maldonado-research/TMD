@@ -1,0 +1,20 @@
+{
+  "status": "original_public_safe_content",
+  "included": "Original conditional derivation, finite exact synthetic examples, code, computational receipts and independent internal review.",
+  "excluded": [
+    "private archive",
+    "uploaded transcripts",
+    "raw source text",
+    "workbooks",
+    "sequence reads",
+    "machine paths",
+    "personal/contact details",
+    "credentials"
+  ],
+  "notes_license": "CC BY4.0",
+  "code_license": "MIT",
+  "third_party_raw_redistribution": false,
+  "biological_results_invented": false,
+  "external_peer_review_claimed": false,
+  "source_acquisitions": 0
+}

@@ -1,0 +1,11 @@
+{
+  "public_original_analysis": true,
+  "private_archive_or_handoff_copied": false,
+  "clinical_raw_data_or_personal_records_published": false,
+  "raw_fulltexts_redistributed": false,
+  "supplements_acquired": false,
+  "source_licenses": "Two inspected PMC main texts explicitly CC BY4.0; NanoSpacer abstract-only metadata used for a short original screening description.",
+  "code_license": "Original analysis code under included MIT license",
+  "sources": "Public DOI/PMCID/PMID records and aggregate source-reported methods/results only",
+  "no_token_values_or_personal_documents": true
+}

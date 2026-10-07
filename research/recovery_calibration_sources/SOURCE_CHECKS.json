@@ -1,0 +1,23 @@
+{
+  "round": "R000012",
+  "status": "PASS",
+  "checks": 70,
+  "measurement_rows": 20,
+  "source_text_anchors": 40,
+  "source_requests": 4,
+  "source_download_bytes": 506673,
+  "exact_descriptive_arithmetic": {
+    "ratio_of_reported_CFU_marginal_medians": "550",
+    "one_colony_in_one_microlitre_per_mL_suspension": "1000",
+    "conditional_per_original_mL_if_tenfold_concentration_applies": "100",
+    "cross_method_exclusions": [
+      3,
+      1
+    ]
+  },
+  "fitted_recovery_probability": null,
+  "biological_mutation_fit": false,
+  "new_common_background_panels": 0,
+  "actual_registry_fields_resolved": 0,
+  "ledger_sha256": "6986c45f9ca461df6319bf34fb757f3f7e4b11fab87c8b9463a2e420ec568906"
+}

@@ -1,0 +1,138 @@
+{
+  "search_matching_count": 45,
+  "bounded_candidates": 8,
+  "primary_main_texts_inspected": 2,
+  "newest_abstract_only_leads": 1,
+  "candidates": [
+    {
+      "pmid": "42831674",
+      "doi": "10.1039/d6lc00655h",
+      "pmc": null,
+      "title": "NanoSpacer: a confinement-based label-free microscopy platform for particle detection, counting, and sizing from nano- to microscale for microbiology and marine applications.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "05"
+        }
+      ],
+      "journal": "Lab on a chip",
+      "inspection": "abstract_only_lead",
+      "reason": "Relative labelled-mixture proportions; no absolute recovery, lineage or matched SBW25 input established from abstract.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42796732",
+      "doi": "10.3390/pathogens15090964",
+      "pmc": "PMC13610637",
+      "title": "Seeing Bacterial Persistence Through Different Experimental Lenses: How Methodology Shapes Biological Interpretation.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "09",
+          "Day": "09"
+        }
+      ],
+      "journal": "Pathogens (Basel, Switzerland)",
+      "inspection": "excluded_review",
+      "reason": "Narrative review, not new primary measurement observations.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42322839",
+      "doi": "10.1016/j.jhazmat.2026.142763",
+      "pmc": null,
+      "title": "Decoding the hidden resistome: Single-cell Raman detection of viable but non-culturable antibiotic-resistant bacteria in aquatic environments.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "06",
+          "Day": "19"
+        }
+      ],
+      "journal": "Journal of hazardous materials",
+      "inspection": "not_selected",
+      "reason": "Aquatic resistance/activity study; no matched TMD recovery contract established from this abstract.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42083185",
+      "doi": "10.1016/j.foodres.2026.119121",
+      "pmc": null,
+      "title": "Gamma irradiation for producing functional postbiotic ingredients from industrial probiotic biomass.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "04",
+          "Day": "13"
+        }
+      ],
+      "journal": "Food research international (Ottawa, Ont.)",
+      "inspection": "not_selected",
+      "reason": "Irradiated probiotic biomass; no matched TMD recovery contract established from this abstract.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42451585",
+      "doi": "10.3390/molecules31132215",
+      "pmc": "PMC13363164",
+      "title": "The Fabrication of Protein Carriers for Intracellular Delivery of Antibiotics Against Intracellular Bacterial Infection.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "06",
+          "Day": "24"
+        }
+      ],
+      "journal": "Molecules (Basel, Switzerland)",
+      "inspection": "not_selected",
+      "reason": "Intracellular antibiotic-delivery study, not a mutation-supply or absolute-recovery panel.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42301421",
+      "doi": "10.1007/s00203-026-04995-3",
+      "pmc": "PMC13272224",
+      "title": "Antibiotic exposure and recovery of persister states influence virulence phenotypes in Pseudomonas aeruginosa.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "06",
+          "Day": "16"
+        }
+      ],
+      "journal": "Archives of microbiology",
+      "inspection": "main_methods_results_inspected",
+      "reason": "PA14 persistence/outgrowth and cytometry; informative state/measurement contrast, not SBW25 calibration.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42084362",
+      "doi": "10.1128/spectrum.03910-25",
+      "pmc": "PMC13228076",
+      "title": "Reducing culture underestimation in urine: flow cytometry-guided validation of low-dose DTT pre-treatment for biofilm dispersal.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "05",
+          "Day": "05"
+        }
+      ],
+      "journal": "Microbiology spectrum",
+      "inspection": "main_methods_results_inspected",
+      "reason": "Paired clinical cytometry and colony recovery; informative unit/denominator example, not SBW25 calibration.",
+      "matched_TMD_panel_admitted": false
+    },
+    {
+      "pmid": "42247359",
+      "doi": null,
+      "pmc": null,
+      "title": "Clinical trial of essential oil-based dentifrices for denture cleaning and patient satisfaction.",
+      "article_dates": [],
+      "journal": "American journal of dentistry",
+      "inspection": "not_selected",
+      "reason": "Denture-cleaning trial, not a mutation-supply calibration panel.",
+      "matched_TMD_panel_admitted": false
+    }
+  ]
+}

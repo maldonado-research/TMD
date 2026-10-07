@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000010",
-    "next_round_id": "R000012",
+    "last_completed_round": "R000013",
+    "next_round_id": "R000014",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -31,7 +31,7 @@
     "workflow_checked_date": "2026-10-07",
     "secret_metadata_checked_date": "2026-10-07"
   },
-  "base_commit": "465850ee33f746cf42f1b3d5075fba2ea57332ad",
+  "base_commit": "53ca657327fdba5a365ec5c96fbb33b38093924b",
   "research_state": {
     "admitted_matched_WAM_biological_datasets": 0,
     "published_methods_version": "0.5.0",
@@ -40,8 +40,8 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000008",
-    "latest_primary_source_audit_articles": 1,
+    "latest_primary_source_audit_round": "R000012",
+    "latest_primary_source_audit_articles": 2,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
     "registered_experiment": false,
@@ -58,7 +58,7 @@
     "raw_data_audit_culture_occurrences": 24,
     "raw_data_audit_sequence_reads": 711,
     "raw_data_audit_checks": 986,
-    "latest_primary_source_audit_scope": "full_main_primary_text; supplements and raw data unacquired",
+    "latest_primary_source_audit_scope": "selected_main_text_methods_results; declared raw supplements unacquired; separate newest primary abstract-only lead",
     "latest_conditional_methods_round": "R000007",
     "nominal_plating_geometry_rows": 24,
     "conditional_thinning_checks": 48,
@@ -95,6 +95,34 @@
       "independent_culture_coefficients": 2160,
       "exact_counterexample_assertions": 18,
       "extreme_32bit_input_assertions": 24
+    },
+    "latest_calibration_source_audit_round": "R000012",
+    "calibration_metadata_abstract_candidates": 8,
+    "calibration_primary_main_texts": 2,
+    "calibration_abstract_only_leads": 1,
+    "calibration_measurement_rows": 20,
+    "calibration_source_producer_checks": 70,
+    "calibration_source_independent_primary_checks": 39,
+    "calibration_source_independent_candidate_checks": 69,
+    "latest_absolute_capture_methods_round": "R000013",
+    "capture_calibration_producer_checks": 1624,
+    "capture_calibration_population_vector_assumed_not_estimated": true,
+    "capture_calibration_biological_fit": false,
+    "capture_calibration_independent_review": {
+      "synthetic_invariant_checks": 10747,
+      "producer_comparison_checks": 20154,
+      "comparison_categories": {
+        "complete_law_witnesses": 5,
+        "external_cap_refusals": 4,
+        "extreme_valid_forward_and_bounds": 21,
+        "forward_coefficients": 4320,
+        "forward_summary_fields": 2880,
+        "invalid_input_guards": 12,
+        "inverse_coefficients": 4320,
+        "inverse_summary_and_law_fields": 6528,
+        "point_bound_endpoints": 1920,
+        "rectangle_endpoints": 144
+      }
     }
   },
   "budget": {
@@ -146,8 +174,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000009/R000010: source-pinned input reconstruction with historical submission still unauthenticated, and independently reviewed paired-sampling observation design; no biological fit.",
-    "next_action": "Screen authoritative matched cell/CFU, absolute capture/recovery and lineage measurements for R000012. R000011 author-input authentication remains blocked; its prepared ten-field source request is unsent. Do not fit biological rates from nominal fractions or conditional split agreement; all26 actual study fields remain NULL.",
+    "last_completed_step": "R000012/R000013: source-pinned cell/CFU calibration ledger and independently reviewed finite known-capture inversion/bounds; no biological fit.",
+    "next_action": "Authenticate declared raw calibration normalization and independent cell/CFU lineage/control denominators for R000014, with matched-background and state-transport limits. R000011 historical author-input authentication remains blocked and its prepared request unsent. Known-capture algebra cannot supply measured capture, exclude invisible lineages or resolve any of the26 actual study fields.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -176,7 +204,15 @@
       "research/source_input_authentication/review/REVIEW_RECEIPT.json": "170095097864fa1f71b28c6dec9a38f6f379bea7e1e618940daf2ff69d187b08",
       "research/paired_aliquot/SHA256SUMS.txt": "a324e3b17718572f450500ee59cb078eaf8d3c68733df1e762cf28286a188ace",
       "research/paired_aliquot/VERIFICATION_RECEIPT.json": "b5edb27c21c9e434d4d95acdb39149f3ec080b450c04897e6c2fbe8b2cc0d193",
-      "research/paired_aliquot/review/REVIEW_RECEIPT.json": "33b378d8f118954fed45e413489f312b537e90cf1cdd761b411396309b423bc5"
+      "research/paired_aliquot/review/REVIEW_RECEIPT.json": "33b378d8f118954fed45e413489f312b537e90cf1cdd761b411396309b423bc5",
+      "research/recovery_calibration_sources/SHA256SUMS.txt": "a7d950393d982aaacce710a58836062799c361d1711fc6fe99f6b7f89c6ac794",
+      "research/recovery_calibration_sources/SOURCE_CHECKS.json": "805f89009c9726d082d84ec232b0af430a2b8f2573ed3b78db01a428c942b7b5",
+      "research/recovery_calibration_sources/VERIFICATION_RECEIPT.json": "6f8ed1be36aae9781f17290414cdc97de40c6bc44ceb52830f5d8bb9693cc9e7",
+      "research/recovery_calibration_sources/review/R12_REVIEW_RECEIPT.json": "2bf4fe735837c79b4834678f1933a4e07f893b5ea1f0c06002b2f932a2abf387",
+      "research/capture_calibration/SHA256SUMS.txt": "d87040c0b27d4c70f42bd85d60b6d3ebf9c143126ac296f318265dacce9c3ed0",
+      "research/capture_calibration/BENCHMARKS.json": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
+      "research/capture_calibration/VERIFICATION_RECEIPT.json": "8fe56ff3b025a9d6aa8da5a23c20071adff0fa9ff354d4be51cb7c6e3d9aee1c",
+      "research/capture_calibration/review/R13_REVIEW_RECEIPT.json": "d244ec4def2f434269de62a13a655d93f2d385b4f133e150faf666b7bb6d58f0"
     }
   },
   "reviewed_checkpoint": {
@@ -191,7 +227,9 @@
       "R000007",
       "R000008",
       "R000009",
-      "R000010"
+      "R000010",
+      "R000012",
+      "R000013"
     ],
     "blocked_work_items": [
       {
@@ -217,11 +255,14 @@
       "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted.",
       "dataset DOI10.5281/zenodo.14335473; sourceZIP SHA2569f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6; Farr2025samecohort as R4, not independent replication; raw sources external.",
       "doi:10.1093/jeb/voag096; PMID42832043; abstract/metadata only; eukaryote MA source, not WAM or native bacterial calibration.",
-      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli–P1 gene-exchange lead, no SBW25 transfer.",
+      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli\u2013P1 gene-exchange lead, no SBW25 transfer.",
       "R000007 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473: same R4/R6 cohort, no independent replication; nominal geometry and conditional classical mathematics only.",
       "R000008 doi:10.1093/molbev/msag238; PMC13633115.1 full main primary XML sha256:a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735; supplements/model/raw data unacquired; no SBW25 transfer.",
-      "R000009 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473, same R4/R6/R7 cohort; four new software/metadata access attempts do not acquire software or authenticate a historical input vector. R000010 is conditional mathematics with no new source cohort."
+      "R000009 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473, same R4/R6/R7 cohort; four new software/metadata access attempts do not acquire software or authenticate a historical input vector. R000010 is conditional mathematics with no new source cohort.",
+      "R000012 DOI10.1128/spectrum.03910-25; PMC13228076 main methods/results SHA25601474346220301ca3803e1db4150b8e229ceb0e95b1980faca20b389d4661f6e;72 clinical specimens; rawS1unacquired; noSBW25calibration.",
+      "R000012 DOI10.1007/s00203-026-04995-3; PMC13272224 main methods/results SHA256d46d998f6aa4d84fbb23b49fb201c260068b4b459a23a71a037eea54cb2b284e; PA14/clinicalisolates; notSBW25orlineagebirths.",
+      "R000012 DOI10.1039/d6lc00655h; PMID42831674 metadata/abstract only; electronicdate2026-10-05; relativecomparisonnotabsolutecapture. R000013 original conditional synthetic mathematics; no new biological cohort."
     ],
-    "next_action": "Screen authoritative matched cell/CFU, absolute capture/recovery and lineage measurements for R000012. R000011 author-input authentication remains blocked; its prepared ten-field source request is unsent. Do not fit biological rates from nominal fractions or conditional split agreement; all26 actual study fields remain NULL."
+    "next_action": "Authenticate declared raw calibration normalization and independent cell/CFU lineage/control denominators for R000014, with matched-background and state-transport limits. R000011 historical author-input authentication remains blocked and its prepared request unsent. Known-capture algebra cannot supply measured capture, exclude invisible lineages or resolve any of the26 actual study fields."
   }
 }

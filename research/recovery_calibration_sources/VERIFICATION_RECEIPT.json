@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "normal_replay_byte_identity": true,
+  "producer_checks": 70,
+  "negative_guard_cases": [
+    {
+      "case": "-O",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "output_created": false
+    },
+    {
+      "case": "-OO",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "output_created": false
+    },
+    {
+      "case": "missing_cache_UNRUN",
+      "exit": 1,
+      "output_created": false
+    },
+    {
+      "case": "same_length_source_hash_mutation",
+      "exit": 1,
+      "output_created": false
+    }
+  ],
+  "scope": "Offline source identity/arithmetic replay, not biological validation"
+}

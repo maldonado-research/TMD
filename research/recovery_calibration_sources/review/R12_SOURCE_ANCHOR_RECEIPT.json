@@ -1,0 +1,68 @@
+{
+  "exact_source_anchor_checks": 39,
+  "limits": [
+    "source-text checks, not a reanalysis of sample-level data",
+    "supplement raw data unacquired by this reviewer",
+    "no empirical recovery probability transferred to TMD",
+    "correlation or ratios of medians are not capture calibration",
+    "membrane integrity is not independent confirmation of VBNC"
+  ],
+  "oracle_sha256": "dabbfb298ccecd2d631be967fd3120083f68937255cc47ee3d6d7757243afb9c",
+  "primary_source_records": [
+    {
+      "anchors": {
+        "VBNC_limit": "do not directly demonstrate the presence of VBNC subpopulations",
+        "all_pair_retention": "All 72 pairs were retained for within-method comparisons",
+        "correlation_treated": "Pearson r = 0.44; Spearman \u03c1 = 0.47",
+        "correlation_untreated": "Pearson r = 0.45; Spearman \u03c1 = 0.48",
+        "cross_method_denominators": "N = 69 for No-DTT (three samples) and N = 71 for +DTT (one sample)",
+        "flow_acquisition_events": "minimum of 10,000 events",
+        "flow_bead_normalization": "calculated by normalizing the number of total beads counted",
+        "flow_staining_volume": "10 \u00b5L of microbeads were added to 1 mL",
+        "negative_threshold": "Plates yielding <10 CFU/mL were interpreted as negative",
+        "paired_samples": "Seventy-two clinical urine samples",
+        "pellet_volume": "10 mL of urine was centrifuged at 3,000",
+        "plate_readout": "incubated for 12 h at 37\u00b0C",
+        "plating_volume": "1 \u00b5L of each DTT-treated and untreated suspension",
+        "pretreatment_duration": "15 min at room temperature under gentle agitation",
+        "pretreatment_medians": "10 CFU/mL (No DTT) to 5.5 \u00d7 10\u00b3 CFU/mL (+DTT)",
+        "raw_supplement_exists": "Raw paired FACS and culture data used for all statistical analyses are provided in Data set S1",
+        "resuspension_volume": "pellet was resuspended in 1 mL of 0.1% DTT solution",
+        "species_identity_limit": "species-level identification was not systematically performed",
+        "viability_medians": "7.45 \u00d7 10\u00b3 (No DTT) and 7.72 \u00d7 10\u00b3 (+DTT)",
+        "zero_log_handling": "For culture-negative samples (CFU = 0), a constant value of 1 CFU was added"
+      },
+      "byte_size": 82316,
+      "doi": "10.1128/spectrum.03910-25",
+      "filename": "PMC13228076.xml",
+      "license": "CC-BY-4.0",
+      "sha256": "01474346220301ca3803e1db4150b8e229ceb0e95b1980faca20b389d4661f6e",
+      "title": "Reducing culture underestimation in urine: flow cytometry\u2013guided validation of low-dose DTT pre-treatment for biofilm dispersal"
+    },
+    {
+      "anchors": {
+        "MIC_evidence": "MIC assays confirmed the absence of acquired resistance",
+        "PA14_reference": "Pseudomonas aeruginosa PA14 reference strain",
+        "antibiotic_factor": "30 \u00d7 MIC imipenem (60 \u00b5g/mL) or ciprofloxacin (3.75 \u00b5g/mL)",
+        "culture_volume": "resuspended in 50 mL of LB",
+        "flow_fixed_cells": "fixed with 2% formaldehyde for 20 min",
+        "flow_redox_stain": "BacLight\u2122 RedoxSensor\u2122 Green Vitality Kit",
+        "flow_rescaled_suspension": "resuspended in filtered PBS to an OD 600nm of 0.1",
+        "minimum_biological_replicates": "at least three independent biological replicates",
+        "recovered_growth_period": "transferred to LB medium for 24 h at 37 \u00b0C",
+        "relative_flow_normalization": "percentage of cells was normalized based on the gated percentage and the initial inoculum",
+        "sampled_volume": "1 mL samples were collected at 0, 2, 4, 6, 8, 12, and 24 h",
+        "variable_flow_events": "between 1,000 and 50,000 events recorded per sample",
+        "wash_and_plate": "washed to remove residual antibiotic, serially diluted in 0.9% saline"
+      },
+      "byte_size": 232064,
+      "doi": "10.1007/s00203-026-04995-3",
+      "filename": "PMC13272224.xml",
+      "license": "CC-BY-4.0",
+      "sha256": "d46d998f6aa4d84fbb23b49fb201c260068b4b459a23a71a037eea54cb2b284e",
+      "title": "Antibiotic exposure and recovery of persister states influence virulence phenotypes in Pseudomonas aeruginosa"
+    }
+  ],
+  "source_files": 2,
+  "status": "PASS"
+}

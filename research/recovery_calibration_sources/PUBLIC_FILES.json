@@ -1,0 +1,35 @@
+{
+  "public_files": [
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MEASUREMENT_LEDGER.json",
+    "README.md",
+    "SOURCE_CHECKS.json",
+    "SOURCE_MANIFEST.json",
+    "SOURCE_SCREEN.json",
+    "VERIFICATION_RECEIPT.json",
+    "review/R12_REVIEW_RECEIPT.json",
+    "review/R12_SOURCE_ANCHOR_RECEIPT.json",
+    "review/R12_SOURCE_REVIEW.md",
+    "review/independent_r12_source_anchors.py",
+    "verify_calibration_sources.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "files_sha256": {
+    "LICENSE": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "710acf09a86a0f715395d8e434016811bb9d1b7f30dbc67d68862e9543a91768",
+    "MEASUREMENT_LEDGER.json": "6986c45f9ca461df6319bf34fb757f3f7e4b11fab87c8b9463a2e420ec568906",
+    "README.md": "960ddf4747ab7c03aa2ded2e300e4504e5afbb613da3013b103909f58bbd3e38",
+    "SOURCE_CHECKS.json": "805f89009c9726d082d84ec232b0af430a2b8f2573ed3b78db01a428c942b7b5",
+    "SOURCE_MANIFEST.json": "c1cb30c6b138d9b96a82ea7dc7b2acb58db0942991d4e20d00e5eedb5d9902a8",
+    "SOURCE_SCREEN.json": "0747d084c1c69bc21b4a7ad318c9ba8e29a8bcfa267751cca8f5b52b4e40d1ee",
+    "VERIFICATION_RECEIPT.json": "6f8ed1be36aae9781f17290414cdc97de40c6bc44ceb52830f5d8bb9693cc9e7",
+    "review/R12_REVIEW_RECEIPT.json": "2bf4fe735837c79b4834678f1933a4e07f893b5ea1f0c06002b2f932a2abf387",
+    "review/R12_SOURCE_ANCHOR_RECEIPT.json": "ecc71659f5bb61d80119c98ee9873ff3cba5bc1c49b2481d9c0aa4f6f0198747",
+    "review/R12_SOURCE_REVIEW.md": "afdbf7cd860dfb0808fd240a8536d099867879d6bdc39ad7d5330ce902286873",
+    "review/independent_r12_source_anchors.py": "dabbfb298ccecd2d631be967fd3120083f68937255cc47ee3d6d7757243afb9c",
+    "verify_calibration_sources.py": "8d01bd3a267effb00d08a5f4ba88162b3f7a1b99acf50f15139580ab984f1024"
+  },
+  "source_scope": "Original derived analysis; no raw sources or private files"
+}

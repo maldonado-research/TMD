@@ -100,7 +100,7 @@
       "status": "completed",
       "question": "Does the newly indexed stationary-phase recombination study change the justified scope of mutation-only route entry?",
       "deliverable": "Primary full-text methods/cohort assessment of DOI10.1093/molbev/msag238 with mutation-versus-transfer units and genotype/ecology limits.",
-      "falsifier_or_boundary": "An E.coli–P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "falsifier_or_boundary": "An E.coli\u2013P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
       "maximum_download_bytes": 20971520,
       "completion_scope": "full_primary_source_assessment",
       "result": "Complete main primary text assessed with16 measurement rows,6 identity and13 source-anchor checks. Transfer creates new recipient genotypes without necessarily creating new alleles; recovered CFUs are not independent molecular events. No SBW25 quantitative transfer or TMD confirmation.",
@@ -143,10 +143,32 @@
     {
       "id": "R000012",
       "priority": 12,
-      "status": "queued",
+      "status": "completed",
       "question": "Which primary measurements independently calibrate absolute recovery and distinguish CFU packets from individual cells in an eligible mutation-supply frame?",
       "deliverable": "A bounded source-specific calibration/lineage measurement ledger with exact denominators, matched backgrounds and source hashes, or honest unresolved prerequisites.",
       "falsifier_or_boundary": "A conditional aliquot allocation gate can pass despite common unmeasured loss, cell clumping or distinct allele origins; do not use it to fill the biological registry.",
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "source_specific_calibration_measurement_audit",
+      "result": "Eight bounded metadata/abstract candidates, two primary methods/results assessments and20measurementrows; fourGETs506673B. No absolute SBW25 recovery parameter or actual study field is inferred.",
+      "report": "../recovery_calibration_sources/README.md"
+    },
+    {
+      "id": "R000013",
+      "priority": 13,
+      "status": "completed",
+      "question": "What can known absolute capture and a complete population count law identify under a finite positive-terminal-mark model?",
+      "deliverable": "Reviewed exact inverse, sharp algebraic void bounds and full-law unknown-capture/invisible-event counterexamples.",
+      "completion_scope": "conditional_calibration_methods",
+      "result": "Positive terminal weights identified under declared known-capture/full-population finite law; invisible zero marks and unknown capture retain full-law ambiguity. Synthetic exact checks, no empirical histogram fit or molecular rate.",
+      "report": "../capture_calibration/README.md"
+    },
+    {
+      "id": "R000014",
+      "priority": 14,
+      "status": "queued",
+      "question": "Can authoritative raw normalization and independent introduced-unit/lineage controls justify absolute recovery and zero-terminal retention in a matched background and state?",
+      "deliverable": "Source-pinned raw count/volume/censoring/control/ancestry ledger or explicit unacquired prerequisites; prioritize measured denominators over another unbounded literature pass.",
+      "falsifier_or_boundary": "A calibrated instrument or complete algebraic inverse cannot supply native recovery, prove no invisible events or identify mutation births without matched biological control/lineage evidence.",
       "maximum_download_bytes": 20971520
     }
   ]
