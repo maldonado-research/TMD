@@ -23,6 +23,10 @@
 | Zero-only mutation-rate identification | Conditional ambiguity established by standard compound-Poisson calculation | Does not imply the complete count distribution is always nonidentifying; capture and growth laws must be justified. |
 | Stationary-phase recombination full-primary assessment | Completed targeted main-text source review | Reported 380-fold contrast is recovered descendant abundance; raw/supplementary data not replayed and no quantitative SBW25 transfer. |
 | Imported allele versus newly created mutation | Explicit alternative origin in the measurement contract | Same endpoint allele can have different origins; mutation-only scope needs ecological and ancestry controls. |
+| Fractional source candidate estimates | Source arithmetic reproduced for 24 cultures | Nine WT rows have noninteger H·L/M; reconstructed quantities are not authenticated historical FALCOR submissions or evidence of a software error. |
+| Paired aliquot observation law | Independently reviewed finite synthetic methods | Marginal agreement does not authenticate a joint sampling frame; plate counts are not additional founders. |
+| Conditional allocation gate | Standard binomial marking identity for arbitrary terminal histories | Passing can coexist with unknown common recovery, CFU packets, growth/selection effects or imported alleles; it does not uniquely authenticate a sampling frame or mutation mechanism. |
+| Zero-terminal-clone ambiguity | Explicit conditional full-PGF counterexample | Additional invisible zero marks change latent event intensity while preserving the complete observation law; no global ambiguity claim for every positive-clone model. |
 | Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
 | Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
 | Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |

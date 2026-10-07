@@ -1,0 +1,37 @@
+{
+  "status": "derivation_and_exact_examples_ready_for_implementation_review",
+  "original_notes_sha256": "fbdef581b3d5e1933bc57158cb31a9c813cb3b764858c8b28785b8090fa95b6a",
+  "existing_R7_code_sha256": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68",
+  "existing_R7_notes_sha256": "b59be0f66869b9aa0339b71bb23a5b0758f592da2b2d5caf1ab50cdaa0e7e8a1",
+  "synthetic_example": {
+    "m": "1",
+    "K": 2,
+    "p1": "1/4",
+    "p2": "1/4",
+    "marginal_mean": "1/2",
+    "marginal_variance": "5/8",
+    "marginal_negative_log_zero": "7/16",
+    "joint_frames": {
+      "disjoint": {
+        "negative_log_joint_zero": "3/4",
+        "covariance": "1/8"
+      },
+      "overlapping": {
+        "negative_log_joint_zero": "175/256",
+        "covariance": "1/4"
+      },
+      "independent_cultures": {
+        "negative_log_joint_zero": "7/8",
+        "covariance": "0"
+      }
+    }
+  },
+  "new_source_acquisitions": 0,
+  "implementation_created_by_reviewer": false,
+  "biological_fit": false,
+  "registered_protocol": false,
+  "prospective_error_budget_modified": false,
+  "actual_study_fields_resolved": 0,
+  "new_theorem_or_priority_claim": false,
+  "public_safe": "Original prose and exact synthetic calculations only; no raw source/private archive/credentials."
+}

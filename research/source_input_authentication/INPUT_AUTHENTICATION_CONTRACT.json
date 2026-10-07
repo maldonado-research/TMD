@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "round_id": "R000009",
+  "project": "Mutation by Natural Dominance",
+  "scope": "source_input_and_software_provenance_audit_not_rate_replication",
+  "source_identifiers": {
+    "article_doi": "10.1371/journal.pgen.1011572",
+    "article_XML_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+    "dataset_doi": "10.5281/zenodo.14335473",
+    "dataset_ZIP_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+    "software_paper_doi": "10.1093/bioinformatics/btp253"
+  },
+  "software_declaration": {
+    "authenticated_from": "final main article body sec016, reference056",
+    "reported_method": "MSS maximum likelihood methods using FALCOR",
+    "declared_current_url": "https://lianglab.brocku.ca/FALCOR/",
+    "current_page_acquired": false,
+    "historical_server_build_identified": false,
+    "historical_submit_date_identified": false,
+    "submitted_per_culture_values_identified": false,
+    "settings_or_output_report_acquired": false,
+    "Hall2009_abstract_only": {
+      "declared_url": "http://www.mitochondria.org/protocols/FALCOR.html",
+      "described_execution": "Java applet requiring a browser Java Virtual Machine",
+      "described_methods": ["MSS-MLE", "Lea-Coulson median", "frequency"],
+      "full_software_paper_read": false,
+      "Farr2024_build_identity_established": false
+    }
+  },
+  "reported_outputs_not_reproduced": {
+    "WT": {
+      "final_article_anchor": "main article body sec006",
+      "rate": "4.2e-7",
+      "reported_unit": "per base-pair per replication",
+      "confidence_level": "95%",
+      "interval_endpoints_as_printed": ["4.5e-7", "3.9e-7"]
+    },
+    "deltapsrA": {
+      "final_article_anchor": "main article body sec007",
+      "rate": "7.2e-9",
+      "reported_unit": "per base-pair per replication",
+      "confidence_level": "95%",
+      "interval_endpoints_as_printed": ["9.2e-9", "5.4e-9"]
+    },
+    "endpoint_order_repaired_or_interpreted": false,
+    "matching_reported_outputs_would_authenticate_run": false
+  },
+  "unit_ledger": [
+    {"column": "H", "quantity": "size-qualified selective candidate colonies", "unit": "pooled candidate colonies across I plates", "type": "integer observed candidate count", "not_observed_mutation_births": true},
+    {"columns": ["L", "M"], "quantity": "confirmed C565T colonies and sequenced denominator", "unit": "sampled colonies", "type": "integer confirmation counts", "sampling_pool_reconciled": false},
+    {"formula": "H*L/M", "quantity": "confirmation-corrected candidate-pool estimate", "unit": "estimated C565T colonies among counted candidates", "type": "potentially fractional estimate", "noninteger_Figure4A_rows": 9, "rounding_used_by_FALCOR_known": false},
+    {"column": "K", "formula": "20*H/(I*J)", "quantity": "candidate-density estimate", "unit": "CFU per mL", "J_meaning": "culture dilution fraction", "is_raw_selective_colony_count": false},
+    {"column": "O", "formula": "K*L/M", "quantity": "C565T-corrected density estimate", "unit": "CFU per mL", "is_observed_integer_birth_count": false},
+    {"column": "G", "formula": "20*1000000*E", "quantity": "terminal total-density estimate", "unit": "CFU per mL", "CFU_are_known_independent_single_cells": false},
+    {"formula": "6*G", "quantity": "nominal terminal whole-culture CFU estimate", "unit": "CFU in reported 6mL culture", "measured_endpoint_volume_verified": false},
+    {"column": "P", "formula": "O/G", "quantity": "confirmation-corrected frequency estimate", "unit": "dimensionless", "is_mutation_rate": false}
+  ],
+  "replication_frame": {
+    "individual_transformants_per_background_reported": 6,
+    "occasions_per_transformant_reported": 2,
+    "culture_occurrences_in_released_Figure4A": 24,
+    "independent_transformation_events_established": false,
+    "perfect_independence_of_all_culture_occurrences_established": false,
+    "plates_are_nested_technical_sampling": true,
+    "per_plate_true_C565T_count_map_recovered": false,
+    "paired_disjoint_aliquot_capture_law_recovered": false,
+    "all_Figure4A_confirmation_counts_positive": true,
+    "all_experiments_or_S4_confirmation_counts_positive": false,
+    "complete_true_mutant_absence_sampling_frame_available": false
+  },
+  "ten_requested_field_statuses": [
+    {"request_id": "R7-REQ01", "field": "software_inputs", "status": "partially_documented_not_authenticated", "known": "Final sec016 identifies FALCOR/MSS and its URL.", "unknown": "Historical build, input vectors, algorithm options, run report and intervals recipe."},
+    {"request_id": "R7-REQ02", "field": "units_volume_rounding", "status": "source_units_partially_resolved_submission_unknown", "known": "Workbook density formulas, nominal 6mL volume and I*J/120 plating geometry are reconstructable.", "unknown": "What was submitted, whole-culture versus density conversion, partial-plating correction and rounding of fractional estimates."},
+    {"request_id": "R7-REQ03", "field": "founding_frame", "status": "partially_documented", "known": "Six individual transformants/background used twice; initial CFU-density estimates and culture volumes reported.", "unknown": "Pregrowth genotype validation, pre-existing reporter mutants, founder-cell versus clump mapping and independent transformation events."},
+    {"request_id": "R7-REQ04", "field": "division_growth_history", "status": "unresolved", "known": "24h pregrowth then 22h fluctuation culture reported.", "unknown": "Phase-specific divisions/death and constant per-division mutation assumptions."},
+    {"request_id": "R7-REQ05", "field": "confirmation_pool", "status": "anomaly_documented_not_reconciled", "known": "Occasion1 WT transformant5 has H=7 but M=8.", "unknown": "Exact candidate pool, plate/colony identity map and sampling law."},
+    {"request_id": "R7-REQ06", "field": "missing_read_map", "status": "gap_documented_not_reconciled", "known": "R6 documents 94 released Figure4A occasion1 reads versus 95 workbook sequencing-denominator entries.", "unknown": "MPB38311 colony8 read or missingness/resequencing explanation."},
+    {"request_id": "R7-REQ07", "field": "detection_controls", "status": "partially_documented_not_calibrated", "known": "Published dilution, control genotype, incubation and colony-size gate rules.", "unknown": "Recovery/detection calibration, post-plating mutation and exactly100-visible-colonies tie rule."},
+    {"request_id": "R7-REQ08", "field": "reporter_fitness", "status": "published_control_does_not_establish_equal_growth", "known": "Final article reports no reporter-mutant fitness advantage; R6 reproduces supplied S2 coefficients.", "unknown": "Estimator-specific clone growth, viable-cell recovery and phase dependence; no advantage is not exact equality."},
+    {"request_id": "R7-REQ09", "field": "native_transport", "status": "not_calibrated", "known": "Reporter was removed from the fitness-altering nlpD context.", "unknown": "Quantitative rate transport from attTn7 reporter to native locus and conditions."},
+    {"request_id": "R7-REQ10", "field": "source_response_files", "status": "linked_bodies_unread", "known": "Peer-history subarticles declare s010/s011 author-response DOCX links.", "unknown": "Their contents; this round did not repeat previously failed supplement attempts."}
+  ],
+  "software_or_source_fit_admissible": false,
+  "biological_rate_fit_performed": false,
+  "actual_TMD_study_fields_resolved": 0,
+  "actual_TMD_study_registry_values_changed": false,
+  "hypothesis_confirmation": false,
+  "source_request_status": "prepared_not_sent",
+  "external_messages_sent": false,
+  "raw_source_publication": false
+}

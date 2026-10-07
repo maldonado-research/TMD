@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "review_kind": "independent_internal_source_units_and_historical_input_authentication_review",
+  "review_date": "2026-10-07",
+  "reviewed_core_files_sha256": {
+    "README.md": "28a5c98e87a156575fdc94c7611dfd39d8a0d33bfdbce653261b1b323c759bdb",
+    "INPUT_AUTHENTICATION_CONTRACT.json": "74c9bc6bf2c88b7079f152befa4049ea92d26380aa51d7627b8deb3fa42336f2",
+    "SOURCE_INPUT_AUDIT.json": "e2f8d202c03fd1de754987fdf240f4bc5523d3de2b287d48b3606570b34f9445",
+    "audit_source_inputs.py": "4429f173dfd47e7eb97a5556c2ac85c91af3d2c3561d229d9422ca89474fa48e",
+    "ACQUISITION_RECEIPT.json": "7182bc826183832b6337e8ce89a6f618ef6abf0a3303f0e54df1bfad245c8fda",
+    "VERIFICATION_RECEIPT.json": "f5bf31db0b2fb57b7232a3fefb06fbb9377cfe182b447ba9dee0c1ef05ac7113",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "57c30553ca29aa9a60225fd6144f4dc520e0a6ca4810a540218bcae836d05608",
+    "LICENSE": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca"
+  },
+  "reviewer_public_files_sha256": {
+    "independent_source_vectors.py": "d83922567edced890093d9e2ca741e458a2bf18bf5dc720a9685cdf2a81668c8",
+    "INDEPENDENT_VECTOR_RECEIPT.json": "7bb0f8e47139b6cf4830966d209af2acdd88ceeca5a9ea436956696833ce6670",
+    "REVIEW_NOTES.md": "4dc3bd02f9b36317c217a935dbeb362bc9249d9d955a22b837bb5d09567ab8cd"
+  },
+  "independent_source_checks": {
+    "culture_occurrences": 24,
+    "source_quantity_vectors": 16,
+    "exact_vector_digest_range_integrality_length_checks": 80,
+    "reported_rate_interval_unit_anchor_checks": 2,
+    "WT_noninteger_corrected_candidate_pool_estimates": 9,
+    "deletion_noninteger_corrected_candidate_pool_estimates": 0
+  },
+  "producer_checks": {
+    "cached_arithmetic_comparisons": 144,
+    "formula_masters": 6,
+    "incorrect_source_hash_guards": 2,
+    "source_replay_byte_identical": true
+  },
+  "optimization_integrity_checks": {
+    "producer_CLI_optimized_launch_exit": 1,
+    "independent_oracle_CLI_optimized_launch_exit": 1,
+    "both_diagnostics_require_assertions": true,
+    "independent_normal_replay": "PASS"
+  },
+  "source_acquisition_accounting": {
+    "producer_requests": 4,
+    "producer_recorded_response_bytes": 50304,
+    "reviewer_new_requests": 0
+  },
+  "historical_FALCOR_submission_authenticated": false,
+  "biological_fit_or_reported_interval_reproduction": false,
+  "legacy_XLS_semantic_parse": "UNRUN",
+  "author_response_bodies_read": false,
+  "exact_vector_hashes_are_cached_decimal_bytes": false,
+  "new_actual_study_fields_resolved": 0,
+  "actual_study_fields_still_NULL": 26,
+  "new_confidence_or_power_claim": false,
+  "new_theorem_or_priority_claim": false,
+  "external_peer_review_claimed": false,
+  "material_unresolved_review_issues": [],
+  "accepted_limits": [
+    "Source units and exact formula vectors are reproducible; actual historical estimator inputs and settings are not authenticated.",
+    "Nine fractional H L/M estimates do not show what values were submitted or how rounding occurred.",
+    "Pooled plate counts do not identify labelled paired-aliquot counts or capture probabilities.",
+    "Access failures and scoped keyword scans do not establish completeness or original software failure.",
+    "All Figure4A confirmation counts positive; separate destructive-time-course frame is not pooled into this fit."
+  ],
+  "public_safe": "Only original review code/prose and aggregate exact receipts; no raw sources, private archive, local metadata, credentials, publication writes or contact."
+}

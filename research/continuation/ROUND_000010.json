@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "status": "completed",
+  "active_session_start_utc": "2026-10-07T19:17:35Z",
+  "scientific_analysis_frozen_before_utc": "2026-10-07T20:02:35Z",
+  "matched_WAM_panels_admitted": 0,
+  "actual_study_fields_resolved": 0,
+  "biological_rate_fit": false,
+  "new_biological_confidence_interval": false,
+  "new_theorem_or_priority_claim": false,
+  "private_raw_published": false,
+  "author_contact_or_external_request_sent": false,
+  "maximum_concurrent_agents": 3,
+  "operational_Zenodo_requests": 0,
+  "same_operation_retry_limit_exceeded": false,
+  "work_item_id": "R000010",
+  "completion_scope": "conditional_observation_design",
+  "report": "../paired_aliquot/README.md",
+  "new_source_acquisition_attempts": 0,
+  "recorded_source_response_bytes": 0,
+  "producer_checks": {
+    "joint_PMF_normalization": 60,
+    "exact_clone_PGF_identities": 360,
+    "recurrence_vs_exp_series_coefficients": 5040,
+    "union_thinning_coefficients": 630,
+    "conditional_binomial_split_coefficients": 2100,
+    "invalid_input_guards": 18
+  },
+  "independent_checks": {
+    "cell_assignment_tables": 84,
+    "cell_assignments_enumerated": 4374,
+    "marked_probability_entries_compared": 838,
+    "compound_coefficients_vs_jump_partitions": 3780,
+    "finite_moment_and_void_fields": 1296,
+    "independent_culture_coefficients": 2160,
+    "exact_counterexample_assertions": 18,
+    "extreme_32bit_input_assertions": 24
+  },
+  "conditional_split_pass_does_not_identify_mutation_mechanism": true,
+  "zero_terminal_marks_allow_full_law_event_intensity_ambiguity": true
+}

@@ -1,0 +1,101 @@
+{
+  "copy_rule": "Copy only these exact public_files; no source caches or unlisted files.",
+  "excluded": [
+    "raw source ZIP",
+    "raw workbooks",
+    "raw reads",
+    "raw sequence files",
+    "raw RTF",
+    "full article XML/text",
+    "author-response DOCX",
+    "operator relationship targets",
+    "private archive files",
+    "credentials",
+    "__pycache__"
+  ],
+  "file_entries": [
+    {
+      "bytes": 1876,
+      "path": "ACQUISITION_RECEIPT.json",
+      "sha256": "7182bc826183832b6337e8ce89a6f618ef6abf0a3303f0e54df1bfad245c8fda"
+    },
+    {
+      "bytes": 7643,
+      "path": "INPUT_AUTHENTICATION_CONTRACT.json",
+      "sha256": "74c9bc6bf2c88b7079f152befa4049ea92d26380aa51d7627b8deb3fa42336f2"
+    },
+    {
+      "bytes": 1614,
+      "path": "LICENSE",
+      "sha256": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca"
+    },
+    {
+      "bytes": 1757,
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "sha256": "57c30553ca29aa9a60225fd6144f4dc520e0a6ca4810a540218bcae836d05608"
+    },
+    {
+      "bytes": 5538,
+      "path": "README.md",
+      "sha256": "28a5c98e87a156575fdc94c7611dfd39d8a0d33bfdbce653261b1b323c759bdb"
+    },
+    {
+      "bytes": 13571,
+      "path": "SOURCE_INPUT_AUDIT.json",
+      "sha256": "e2f8d202c03fd1de754987fdf240f4bc5523d3de2b287d48b3606570b34f9445"
+    },
+    {
+      "bytes": 1463,
+      "path": "VERIFICATION_RECEIPT.json",
+      "sha256": "f5bf31db0b2fb57b7232a3fefb06fbb9377cfe182b447ba9dee0c1ef05ac7113"
+    },
+    {
+      "bytes": 13330,
+      "path": "audit_source_inputs.py",
+      "sha256": "4429f173dfd47e7eb97a5556c2ac85c91af3d2c3561d229d9422ca89474fa48e"
+    },
+    {
+      "bytes": 869,
+      "path": "review/INDEPENDENT_VECTOR_RECEIPT.json",
+      "sha256": "7bb0f8e47139b6cf4830966d209af2acdd88ceeca5a9ea436956696833ce6670"
+    },
+    {
+      "bytes": 3291,
+      "path": "review/REVIEW_NOTES.md",
+      "sha256": "4dc3bd02f9b36317c217a935dbeb362bc9249d9d955a22b837bb5d09567ab8cd"
+    },
+    {
+      "bytes": 3508,
+      "path": "review/REVIEW_RECEIPT.json",
+      "sha256": "170095097864fa1f71b28c6dec9a38f6f379bea7e1e618940daf2ff69d187b08"
+    },
+    {
+      "bytes": 5176,
+      "path": "review/independent_source_vectors.py",
+      "sha256": "d83922567edced890093d9e2ca741e458a2bf18bf5dc720a9685cdf2a81668c8"
+    }
+  ],
+  "frozen_at_UTC": "2026-10-07T19:46:18.161175+00:00",
+  "payload_bytes_excluding_two_manifests": 59636,
+  "payload_file_count": 12,
+  "public_files": [
+    "ACQUISITION_RECEIPT.json",
+    "INPUT_AUTHENTICATION_CONTRACT.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCE_INPUT_AUDIT.json",
+    "VERIFICATION_RECEIPT.json",
+    "audit_source_inputs.py",
+    "review/INDEPENDENT_VECTOR_RECEIPT.json",
+    "review/REVIEW_NOTES.md",
+    "review/REVIEW_RECEIPT.json",
+    "review/independent_source_vectors.py"
+  ],
+  "review_receipt_sha256": "170095097864fa1f71b28c6dec9a38f6f379bea7e1e618940daf2ff69d187b08",
+  "round_id": "R000009",
+  "schema_version": 1,
+  "status": "accepted_frozen_candidate"
+}

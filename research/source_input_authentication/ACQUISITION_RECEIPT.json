@@ -1,0 +1,53 @@
+{
+  "maximum_requests": 4,
+  "maximum_download_bytes": 2097152,
+  "authentication_used": false,
+  "requests": [
+    {
+      "label": "official_falcor",
+      "url": "https://lianglab.brocku.ca/FALCOR/",
+      "execution_network_mode": "scoped require_escalated",
+      "at_utc": "2026-10-07T19:19:55.392027+00:00",
+      "status": "transport_error",
+      "bytes": 0,
+      "error_type": "URLError",
+      "reason_type": "OSError",
+      "redacted_diagnostic": "CONNECT403"
+    },
+    {
+      "label": "ncbi_oa_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11838912",
+      "execution_network_mode": "scoped require_escalated",
+      "at_utc": "2026-10-07T19:19:55.394607+00:00",
+      "status": 404,
+      "bytes": 1588,
+      "sha256": "c5119217f21a7cc2605757e9834b7afb20b21a3d282a37d76e655b4a1d3d39a7",
+      "error_type": "HTTPError"
+    },
+    {
+      "label": "canonical_pmc_oa_metadata",
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC11838912",
+      "execution_network_mode": "scoped require_escalated",
+      "at_utc": "2026-10-07T19:22:38.266846+00:00",
+      "status": 404,
+      "bytes": 48716,
+      "sha256": "e0343c1e75adb7b3d48238d65bb1ce0be5081832bd6e53b9c6b0810de6e99b66",
+      "error_type": "HTTPError"
+    },
+    {
+      "label": "legacy_falcor_https_variant",
+      "url": "https://www.mitochondria.org/protocols/FALCOR.html",
+      "declared_historical_url": "http://www.mitochondria.org/protocols/FALCOR.html",
+      "execution_network_mode": "scoped require_escalated",
+      "at_utc": "2026-10-07T19:29:49.875431+00:00",
+      "limit_bytes": 524288,
+      "status": "transport_error",
+      "bytes": 0,
+      "error_type": "URLError",
+      "reason_type": "OSError",
+      "redacted_diagnostic": "CONNECT403"
+    }
+  ],
+  "recorded_response_bytes": 50304,
+  "frozen_after_four_requests": true
+}

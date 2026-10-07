@@ -1,0 +1,33 @@
+{
+  "actual_TMD_registry_check": {
+    "all_values_NULL": true,
+    "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "unresolved_fields": 26,
+    "values_modified": false
+  },
+  "article_XML_or_full_text_redistributed": false,
+  "candidate_publication_permission": "existing research-publication authorization applies only after independent review and explicit whitelist; raw sources remain external",
+  "credentials_accessed_or_exported": false,
+  "environment_configuration_changed": false,
+  "external_author_contact": false,
+  "external_dataset": {
+    "attribution": "Andrew D. Farr, Zenodo dataset; Farr et al. (2025), DOI10.1371/journal.pgen.1011572",
+    "doi": "10.5281/zenodo.14335473",
+    "license": "CC BY 4.0"
+  },
+  "independent_review_receipt": "review/REVIEW_RECEIPT.json",
+  "legacy_software_or_executables_acquired_or_redistributed": false,
+  "operator_relationship_targets_exported": false,
+  "original_materials_license": "Original code: MIT; original documentation and derived summaries: CC BY 4.0; see LICENSE.",
+  "private_archive_or_new_files_material_used": false,
+  "project": "Mutation by Natural Dominance",
+  "public_values": "minimal source formula masters, cited identifiers, aggregate ranges/counts and hashes of ordered derived quantity vectors; no full rows or raw source text",
+  "publication_requires_accepted_review_receipt": true,
+  "raw_reads_or_sequence_redistributed": false,
+  "raw_zip_redistributed": false,
+  "review_scope": "original notes, script, derived aggregate quantities/vector hashes and redacted public acquisition diagnostics",
+  "round_id": "R000009",
+  "schema_version": 1,
+  "source_replay_without_exact_cache": "UNRUN",
+  "source_workbooks_redistributed": false
+}

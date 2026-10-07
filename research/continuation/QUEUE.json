@@ -109,12 +109,44 @@
     {
       "id": "R000009",
       "priority": 9,
-      "status": "queued",
+      "status": "completed",
       "question": "Can authoritative source inputs resolve the SBW25 confirmation, FALCOR/MSS, growth and recovery contract before biological fitting?",
       "deliverable": "Authenticate the prepared source-fields packet and reconstruct exact author input/settings/rounding, with independent review; otherwise retain explicit blocked prerequisites.",
       "falsifier_or_boundary": "No biological fit from nominal capture geometry alone; no synthetic observations or imported study parameters fill actual study fields.",
-      "report": "../fluctuation_contract/SOURCE_FIELDS_REQUEST.json",
+      "report": "../source_input_authentication/README.md",
       "external_request_sent": false,
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "source_input_audit_with_unauthenticated_submission",
+      "result": "24 source culture rows and144 arithmetic comparisons reproduced;9 WT rows yield fractional candidate-pool estimates. Four bounded new software/metadata paths do not authenticate historical inputs or code. Fit remains blocked; all26actualstudyfields NULL."
+    },
+    {
+      "id": "R000010",
+      "priority": 10,
+      "status": "completed",
+      "question": "Which paired sampling law distinguishes disjoint aliquots from overlapping recapture or independent histories, and what does a passing allocation gate fail to identify?",
+      "deliverable": "Independently reviewed exact finite paired-PGF implementation and reproducible observation-quality design with meaningful alternatives.",
+      "completion_scope": "conditional_observation_design",
+      "result": "Classical disjoint, overlapping and independent-history benchmarks; conditional allocation holds for arbitrary terminal histories. Zero marks leave complete event-intensity ambiguity; moments also confound clone history with latent culture heterogeneity. No biological fit or actual registry resolution.",
+      "report": "../paired_aliquot/README.md"
+    },
+    {
+      "id": "R000011",
+      "priority": 11,
+      "status": "blocked",
+      "parent_work_item_id": "R000009",
+      "question": "Can authoritative author submissions and measured assay controls support a biological likelihood fit?",
+      "deliverable": "Historical FALCOR input/settings/output authentication with confirmation, growth, capture, recovery and native-transport contract.",
+      "result": "No historical input vector or software artifact authenticated in the inspected scope; prepared source request remains unsent.",
+      "unblocking_condition": "Authoritative saved submissions or authenticated equivalent input/settings/output reports plus independently justified measurement laws. Changed source access alone cannot replace the actual submission.",
+      "report": "../fluctuation_contract/SOURCE_FIELDS_REQUEST.json"
+    },
+    {
+      "id": "R000012",
+      "priority": 12,
+      "status": "queued",
+      "question": "Which primary measurements independently calibrate absolute recovery and distinguish CFU packets from individual cells in an eligible mutation-supply frame?",
+      "deliverable": "A bounded source-specific calibration/lineage measurement ledger with exact denominators, matched backgrounds and source hashes, or honest unresolved prerequisites.",
+      "falsifier_or_boundary": "A conditional aliquot allocation gate can pass despite common unmeasured loss, cell clumping or distinct allele origins; do not use it to fill the biological registry.",
       "maximum_download_bytes": 20971520
     }
   ]

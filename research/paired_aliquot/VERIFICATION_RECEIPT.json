@@ -1,0 +1,36 @@
+{
+  "status": "passed_conditional_synthetic_methods",
+  "python_version": "3.12.14",
+  "dependencies": "standard library only",
+  "producer_checks": {
+    "joint_PMF_normalization": 60,
+    "exact_clone_PGF_identities": 360,
+    "recurrence_vs_exp_series_coefficients": 5040,
+    "union_thinning_coefficients": 630,
+    "conditional_binomial_split_coefficients": 2100,
+    "invalid_input_guards": 18
+  },
+  "independent_checks": {
+    "cell_assignment_tables": 84,
+    "cell_assignments_enumerated": 4374,
+    "marked_probability_entries_compared": 838,
+    "compound_coefficients_vs_jump_partitions": 3780,
+    "finite_moment_and_void_fields": 1296,
+    "independent_culture_coefficients": 2160,
+    "exact_counterexample_assertions": 18,
+    "extreme_32bit_input_assertions": 24
+  },
+  "producer_replay_byte_identical": true,
+  "exact_rational_finite_laws": true,
+  "complete_biological_PMF_or_likelihood_fit": false,
+  "coefficient_table_scope": "triangular total degree0..8, relative to model-specific P00; not normalized complete PMF",
+  "biological_data_fitted": false,
+  "biological_rate_or_interval_created": false,
+  "new_theorem_or_priority_claim": false,
+  "actual_study_fields_resolved": 0,
+  "raw_source_required_for_this_synthetic_replay": false,
+  "new_network_acquisitions": 0,
+  "registered_protocol_or_error_budget_change": false,
+  "enumerated_assignments_are_not_additional_assertions_or_biological_trials": true,
+  "verification_optimized_python_rejected": true
+}

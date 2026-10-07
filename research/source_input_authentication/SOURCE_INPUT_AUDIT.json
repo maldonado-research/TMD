@@ -1,0 +1,361 @@
+{
+  "Figure4A_confirmed_positive_culture_occurrences": 24,
+  "OOXML_scan_scope": {
+    "files": 6,
+    "files_with_keyword_hits": 0,
+    "keywords": [
+      "falcor",
+      "mss",
+      "maximum likelihood",
+      "mutation rate"
+    ],
+    "mode": "case-insensitive literal XML/rels token scan, not execution"
+  },
+  "RTF_scan": [
+    {
+      "literal_decoded_keyword_hits": [],
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_ Fig1A_nlpDQ189W evolved mutants_1_38/4_6_24_README_Fig1B.rtf",
+      "sha256": "8c20b20f17181378fe6d96f34c10d5a875b82cfa752f661f27b9897fa746250e"
+    },
+    {
+      "literal_decoded_keyword_hits": [],
+      "member": "Zenodo data files 09 dec 2024/Figure 1 data/4_6_24_fig1B_nlpDwt_evolved mutants_cultures 1_153/4_6_24_README_Fig1A.rtf",
+      "sha256": "76d57fc96c507d73301ea15573be4035f9c5d5f3671a5e1a91da49541f31cf97"
+    },
+    {
+      "literal_decoded_keyword_hits": [],
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A sanger sequencing files/Readme Figure 4A sequencing files.rtf",
+      "sha256": "fdfc2127491a267e8b54fa7f27daca1bd515c9d71c94bd481bb55cf81379ca54"
+    },
+    {
+      "literal_decoded_keyword_hits": [],
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S1 data/README_Supp. Fig S1.rtf",
+      "sha256": "16546ad9d3804f0ff717900d09c1f19722d153a3cc610e4154ea387d9324e57a"
+    },
+    {
+      "literal_decoded_keyword_hits": [],
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/Readme Figure S3B sequencing files.rtf",
+      "sha256": "a2b7379c0a6f51e0e55e206d6f25a806f1e9425445945b5fa7bfb2f832e49854"
+    }
+  ],
+  "absence_scope": "No literal software tokens in the six inspected OOXML and five decoded RTF files; no general historical-file absence inference.",
+  "actual_TMD_study_fields_resolved": 0,
+  "article_doi": "10.1371/journal.pgen.1011572",
+  "article_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+  "biological_rate_fit_performed": false,
+  "cached_arithmetic_comparisons": 144,
+  "candidate_pool_confirmed_estimate_noninteger_rows": 9,
+  "dataset_doi": "10.5281/zenodo.14335473",
+  "dataset_zip_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+  "final_article_reported_rate_values_not_reproduced": [
+    {
+      "anchor": "sec006",
+      "interval_endpoints_as_printed": [
+        "4.5e-7",
+        "3.9e-7"
+      ],
+      "rate": "4.2e-7"
+    },
+    {
+      "anchor": "sec007",
+      "interval_endpoints_as_printed": [
+        "9.2e-9",
+        "5.4e-9"
+      ],
+      "rate": "7.2e-9"
+    }
+  ],
+  "final_article_software_declaration": {
+    "anchor": "main article body sec016",
+    "historical_build_or_inputs_authenticated": false,
+    "method": "MSS maximum likelihood",
+    "official_url": "https://lianglab.brocku.ca/FALCOR/",
+    "software_paper_doi": "10.1093/bioinformatics/btp253"
+  },
+  "fingerprint_serialization": "SHA256 of UTF-8 JSON list, indent2 plus final newline; exact rational strings, integer strings omit /1; computed rational formulas, not Excel cached decimal bytes",
+  "fingerprints_authenticate_or_disprove_a_historical_run": false,
+  "historical_FALCOR_input_vectors_identified": 0,
+  "hypothesis_confirmation": false,
+  "legacy_XLS_semantic_parse_UNRUN": [
+    {
+      "format": "OLE compound binary",
+      "member": "Zenodo data files 09 dec 2024/Figure 3 data/2024_06_11_rtqpcr4nlpDmutants.xls",
+      "semantic_spreadsheet_parse": "UNRUN",
+      "sha256": "ffd33eaa59bd5b1139bc09d76bf381cb34e8b38b8f631b892cb8984ea2107468"
+    },
+    {
+      "format": "OLE compound binary",
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S5 data/2024_06_25_rtqpcrnlpD_wt_vs_TGG.xls",
+      "semantic_spreadsheet_parse": "UNRUN",
+      "sha256": "63167fa68aaf0f608d8b145c9e282026d1c90401594ce36168b852d92d9a57c9"
+    }
+  ],
+  "ordered_vector_scope": "per background: source rows ascending, occasion1 then occasion2, transformants1..6",
+  "peer_history_not_final_methods": [
+    {
+      "article_type": "author-comment",
+      "id": "pgen.1011572.r001",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "aggregated-review-documents",
+      "id": "pgen.1011572.r002",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "author-comment",
+      "id": "pgen.1011572.r003",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "aggregated-review-documents",
+      "id": "pgen.1011572.r004",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "author-comment",
+      "id": "pgen.1011572.r005",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "editor-report",
+      "id": "pgen.1011572.r006",
+      "not_final_methods": true
+    },
+    {
+      "article_type": "editor-report",
+      "id": "pgen.1011572.r007",
+      "not_final_methods": true
+    }
+  ],
+  "project": "Mutation by Natural Dominance",
+  "raw_relationship_targets_exported": false,
+  "research_file_extensions": {
+    ".fastq": 8,
+    ".gb": 4,
+    ".gz": 3,
+    ".rtf": 5,
+    ".xls": 2,
+    ".xlsx": 6
+  },
+  "round_id": "R000009",
+  "schema_version": 1,
+  "source_unit_quantity_fingerprints": [
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "53",
+      "minimum": "7",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "8af0e46851d3d5e545af2e18cc481f901c7bfa6461c6d01ab19a69e0bc6e0647",
+      "quantity": "candidate_H"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "8",
+      "minimum": "2",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "8d65afcb0ea23f9500cc1016424e01d41a630ffc46f7cf79f7aa113a759cb759",
+      "quantity": "confirmed_L"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "8",
+      "minimum": "8",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "c2f544cb578fde1307461d7c167adaf3776a699580d8283c3516110669f52ef4",
+      "quantity": "sequenced_M"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "159/8",
+      "minimum": "7/4",
+      "noninteger_estimates": 9,
+      "ordered_vector_sha256": "832e0075f1ca19d168aadbcbd71c5c01317f21ccc2eb21a3538f82cfd5a56de7",
+      "quantity": "candidate_pool_corrected_estimate"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "440000/9",
+      "minimum": "8000",
+      "noninteger_estimates": 7,
+      "ordered_vector_sha256": "d115742057f4b03c8e8a11f6b4e16811a89ec5a2aaf0f82d846e64e1981f7263",
+      "quantity": "candidate_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "35000",
+      "minimum": "35000/9",
+      "noninteger_estimates": 6,
+      "ordered_vector_sha256": "2061eb51f141178fcf57e92329d889f0c3c7958ec53ff0e9bbb7b15d9f72b667",
+      "quantity": "C565T_corrected_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "4340000000",
+      "minimum": "2500000000",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "efbd439c6754c2e9ede2babcc18bb95ff96c90c505f9711838c0aea2d4203638",
+      "quantity": "terminal_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "26040000000",
+      "minimum": "15000000000",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "1851d6b9e2953d58a33e2a9003f4a88d3d7a9121c6b208c5984d969404e5ada1",
+      "quantity": "nominal_terminal_population_estimate_CFU_in_6ml"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "203",
+      "minimum": "20",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "a80cefe8fefadabc76a6e8f5ce89ddba50510cd9ae9304a01902f0a1209bb751",
+      "quantity": "candidate_H"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "8",
+      "minimum": "7",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "42a28c69c901d45a9db8b320a8f46e71f708d151e831dd9c571ffccbcfdc9b7c",
+      "quantity": "confirmed_L"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "8",
+      "minimum": "7",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "42a28c69c901d45a9db8b320a8f46e71f708d151e831dd9c571ffccbcfdc9b7c",
+      "quantity": "sequenced_M"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "203",
+      "minimum": "20",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "a80cefe8fefadabc76a6e8f5ce89ddba50510cd9ae9304a01902f0a1209bb751",
+      "quantity": "candidate_pool_corrected_estimate"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "4060/9",
+      "minimum": "400/9",
+      "noninteger_estimates": 11,
+      "ordered_vector_sha256": "bf7d7c9c5afa48ef20506cdb828ba1c2d0a8532fa5dc647a210a62da1d0c140f",
+      "quantity": "candidate_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "4060/9",
+      "minimum": "400/9",
+      "noninteger_estimates": 11,
+      "ordered_vector_sha256": "bf7d7c9c5afa48ef20506cdb828ba1c2d0a8532fa5dc647a210a62da1d0c140f",
+      "quantity": "C565T_corrected_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "3780000000",
+      "minimum": "2280000000",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "feccd63878fbb5faa585418189faf231e27128ae0776fdb7b3459a1a0996b88e",
+      "quantity": "terminal_density_estimate_CFU_per_ml"
+    },
+    {
+      "background": "SBW25 deltapsrA attTn7::nlpD-kan",
+      "culture_occurrences": 12,
+      "historical_submission_authenticated": false,
+      "maximum": "22680000000",
+      "minimum": "13680000000",
+      "noninteger_estimates": 0,
+      "ordered_vector_sha256": "f3162f2facf6683af685291c7a840d098fe89379caf1395847464451b58f8de3",
+      "quantity": "nominal_terminal_population_estimate_CFU_in_6ml"
+    }
+  ],
+  "workbook_formula_masters": {
+    "F2": "D2*20",
+    "G2": "E2*20*1000000",
+    "K2": "H2/(I2/20)/J2",
+    "N2": "L2/M2",
+    "O2": "K2*N2",
+    "P2": "O2/G2"
+  },
+  "workbook_scan": [
+    {
+      "external_link_part_count": 0,
+      "external_target_scheme_counts": {},
+      "member": "Zenodo data files 09 dec 2024/Figure 2 data/7_6_24 fitness assay nlpdmutants vs C565T.xlsx",
+      "sha256": "3cad22bd18a19f2f55dc88de9ecddcd20a1887116a5d4042e83c29cc58156aa3",
+      "software_input_keyword_hits": []
+    },
+    {
+      "external_link_part_count": 0,
+      "external_target_scheme_counts": {},
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4A data/Figure 4A colony counts/Colony Counts Fluctuation assays_20_6_24 .xlsx",
+      "sha256": "93c1b8e0d341124723eb64ca2c28f058a46c38ea20b7f7cf6217451d84e4c6fb",
+      "software_input_keyword_hits": []
+    },
+    {
+      "external_link_part_count": 2,
+      "external_target_scheme_counts": {
+        "other": 2
+      },
+      "member": "Zenodo data files 09 dec 2024/Figure 4 data/Figure 4B data/2024_06_13_rtqpcrSBW25_Fig4B.xlsx",
+      "sha256": "c3c7e5372c53bf8e4e58845e07058da2c86808314da93a905d448142047ea863",
+      "software_input_keyword_hits": []
+    },
+    {
+      "external_link_part_count": 0,
+      "external_target_scheme_counts": {},
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S2 data/Fitness assay data nlpDkan mutants 24_6_24 .xlsx",
+      "sha256": "b244d3a8a87fff6cfcd5c40fe3b57c8f5bfe3f74561c2266d35f2ab0de16337d",
+      "software_input_keyword_hits": []
+    },
+    {
+      "external_link_part_count": 2,
+      "external_target_scheme_counts": {
+        "other": 2
+      },
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S3 data/20_6_24 Suppl Figure 1  rpoSp RTqPCR vs Growth.xlsx",
+      "sha256": "13f6ac2dff384707b96a87dc989042f17b577f974b93ab805990d16b9cfb267b",
+      "software_input_keyword_hits": []
+    },
+    {
+      "external_link_part_count": 0,
+      "external_target_scheme_counts": {},
+      "member": "Zenodo data files 09 dec 2024/Supp. Figure S4 data/26_11_24 time course calculations.xlsx",
+      "sha256": "c86db1ef830cdfa0671a225a9dcb5b919469b41a0bfdd5d42d2a17062cf3664d",
+      "software_input_keyword_hits": []
+    }
+  ]
+}
