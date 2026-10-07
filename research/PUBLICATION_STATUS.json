@@ -29,7 +29,7 @@
   "binary_upload_http_status": 400,
   "publication_attempted": false,
   "next_action": "Use verified existing family draft23219776. Complete owner-editor metadata and reviewedZIP/checksum staging, then readbackverifyallapprovedmetadataandfilenames/byte-sizes/checksumsbeforepublication. API metadataPUT500 anddocumentedmultipartPOST400remainblocked. Preservepublishedrecords, inheritedfiles andallautomaticarchivingOFF; noadditionaldraftorstandalonerecordneeded.",
-  "checked_utc": "2026-10-07T17:45:15.374617+00:00",
+  "checked_utc": "2026-10-07T18:40:35.215232+00:00",
   "latest_labelled_methods_version": "0.5.0",
   "latest_labelled_methods_record": 23075312,
   "latest_published_contents": "inherited_0_5_0_files_identical_to_record23075312",
@@ -62,5 +62,7 @@
       "publication_diagnostics/2026-10-07_DOCUMENTED_UPLOAD_RECEIPT.json"
     ]
   },
-  "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit."
+  "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit.",
+  "latest_read_only_recheck": "publication_diagnostics/2026-10-07_R7_READ_ONLY_RECEIPT.json",
+  "read_only_recheck_scope": "R000007:owned family/draft and published record remain unchanged; reviewed0.6.0 ZIP absent,6inherited files intact. No staging or publication writes repeated."
 }

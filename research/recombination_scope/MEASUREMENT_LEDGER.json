@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scope": "Original source-to-measurement admissibility assessment, not raw-data or model-fit replay.",
+  "rows": [
+    {
+      "id": "strain_constructs",
+      "primary_anchor": "msag238-s2.1",
+      "what_source_measures_or_reports": "Two engineered E.coliMG1655donor/recipient backgrounds; chromosomal fluorescent resistance cassettes and plasmid immunity.",
+      "interpretation_boundary": "Not native SBW25WAMancestry or Mendelian dominance."
+    },
+    {
+      "id": "marker_separation",
+      "primary_anchor": "msag238-s2.1",
+      "what_source_measures_or_reports": "389kbp between cassettes; source P1packaging approximately100kb.",
+      "interpretation_boundary": "Reporter design supports origin classification but no molecular sequence validation of every scored colony was authenticated."
+    },
+    {
+      "id": "population_mixture",
+      "primary_anchor": "msag238-s2.2",
+      "what_source_measures_or_reports": "Initially95%immune/5%susceptible,MOI0.1 and phage/bacterial coexistence.",
+      "interpretation_boundary": "Engineered ecology and inferred herd-immunity target; not TMDforecast or SBW25parameter."
+    },
+    {
+      "id": "experimental_unit",
+      "primary_anchor": "msag238-s4.4",
+      "what_source_measures_or_reports": "Triplicate cultures, sampled serially forCFUs/PFUs.",
+      "interpretation_boundary": "Colonies,timepoints and PFUs are not additional independent founders; original lineage/pairing record unacquired."
+    },
+    {
+      "id": "antibiotic_domain",
+      "primary_anchor": "msag238-s4.2",
+      "what_source_measures_or_reports": "Kanamycin/spectinomycin only on sampling selection; chloramphenicol maintenance during growth.",
+      "interpretation_boundary": "Do not claim fully antibiotic-free selection or unconditioned ecology."
+    },
+    {
+      "id": "sample_recovery",
+      "primary_anchor": "msag238-s4.2",
+      "what_source_measures_or_reports": "100microlitre samples, citrate to suppress adsorption,48h selective incubation.",
+      "interpretation_boundary": "Observed genotype/fluorescence recovery is not direct enumeration of independent molecular births."
+    },
+    {
+      "id": "recombinant_class",
+      "primary_anchor": "msag238-s4.5",
+      "what_source_measures_or_reports": "Both fluorescent cassettes among double-resistantCFUs.",
+      "interpretation_boundary": "1.5%lack plasmid-red marker; possible alternative histories retained."
+    },
+    {
+      "id": "mutation_class",
+      "primary_anchor": "msag238-s4.5",
+      "what_source_measures_or_reports": "One fluorescent cassette among double-resistantCFUs.",
+      "interpretation_boundary": "Phenotypic classification needs origin/genotype and recovery controls before mutation-rate interpretation."
+    },
+    {
+      "id": "endpoint_contrast",
+      "primary_anchor": "msag238-s2.2",
+      "what_source_measures_or_reports": "Authors report approximately380-fold recombinant/mutantCFUabundance at24hours.",
+      "interpretation_boundary": "Descendant/recovery contrast, not a reproduced independent-event-rate ratio or universal constant."
+    },
+    {
+      "id": "nutrient_pulse",
+      "primary_anchor": "msag238-s2.3",
+      "what_source_measures_or_reports": "1:2dilutions at12/24h; samples before dilution compare stationary-phase populations.",
+      "interpretation_boundary": "Regrowth/donor/vector dynamics matter; not spontaneous mutation perdivision heldconstant."
+    },
+    {
+      "id": "locus_to_genome_extrapolation",
+      "primary_anchor": "msag238-s2.3",
+      "what_source_measures_or_reports": "689detectedCFU-derived occurrences/mL and3.5e9CFU/mL yield source1.97e-7locus quantity/generation.",
+      "interpretation_boundary": "Supplementary uniform-recovery/genome extrapolation not acquired/reproduced; descendants not assumed birth events."
+    },
+    {
+      "id": "knockout_domain",
+      "primary_anchor": "msag238-s4.6",
+      "what_source_measures_or_reports": "Keio stocks recA,recB,recF,recG,ruvA;ΔrecA42h growth versus others18h.",
+      "interpretation_boundary": "Stock/background matching and complementation unverified; growth and CFU/MOI TableS2unacquired."
+    },
+    {
+      "id": "zero_detection",
+      "primary_anchor": "msag238-F5",
+      "what_source_measures_or_reports": "No detected transductants recA,recB,recG; reducedrecF; nonsignificantruvAcontrast.",
+      "interpretation_boundary": "Zero detectedCFUs does not establish zero true molecular rate; no new confidence bounds."
+    },
+    {
+      "id": "regulatory_mechanism",
+      "primary_anchor": "msag238-s3",
+      "what_source_measures_or_reports": "Authors propose RecG/stringent-response transcriptional connection.",
+      "interpretation_boundary": "Suggested mediation, not directly proven causal transcription effect."
+    },
+    {
+      "id": "inferential_contract",
+      "primary_anchor": "msag238-s4.7",
+      "what_source_measures_or_reports": "Pairwise Levene tests and two-samplet-tests with triplicate groups.",
+      "interpretation_boundary": "No independent statistical replay; lineage/pairing/multiplecomparison data needed."
+    },
+    {
+      "id": "route_entry_domain",
+      "primary_anchor": "msag238-s3",
+      "what_source_measures_or_reports": "Imported standing variation can create a new recipient genotype without creating a new allele.",
+      "interpretation_boundary": "Expand explicitly measured entry domain or authenticate closed mutation-only frame; no unmeasured HGTterm assumed for SBW25."
+    }
+  ],
+  "complete_matched_WAM_panel": false,
+  "new_biological_TMD_confirmation": false,
+  "all_actual_study_fields_still_null": 26,
+  "quantitative_transfer_to_SBW25": false
+}

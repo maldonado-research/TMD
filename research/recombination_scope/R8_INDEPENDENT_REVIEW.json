@@ -1,0 +1,37 @@
+{
+  "status": "accepted",
+  "review_kind": "independent_internal_primary_source_and_scope_assessment",
+  "review_date": "2026-10-07",
+  "review_timezone": "America/Los_Angeles",
+  "source_read_by_root": "Primary results2.1\u20132.4,discussion3,methods4.1\u20134.7,and embedded2/5captions; no supplemental model or raw-data execution.",
+  "article_doi": "10.1093/molbev/msag238",
+  "source_sha256": "a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735",
+  "reviewed_original_core_hashes": {
+    "README.md": "ec5ad06b09928f591053740218ed5c4f9763610905d7be17a47b4e6d65152085",
+    "SOURCE_LEDGER.json": "fbea5e88481857d2c63a586b3647513c26afdf64066a93da100e4eda4f56fc21",
+    "MEASUREMENT_LEDGER.json": "29ac23233e521818d28a69c211b38b05c4e509669cbb204cf676761289b0eae6",
+    "ACQUISITION_RECEIPT.json": "68c4792136552773f0e5ba5b33d2907527da4e593049c3fd3e33b1c7422dd047",
+    "VERIFICATION_RECEIPT.json": "1a42ac2f1ff618151f6a7c8f7b402c2b96c45c4f001b246b7f64334c6bdba216",
+    "verify_source.py": "bcad8777e0da049a938259e30f5e06a8d6c99a85b973777af8124b1606f43b5d",
+    "LICENSE": "8c74fa1e6979b092f9d90e3e57e2f6376786caa08f6848ad38abbc57af749101"
+  },
+  "verified_source_identity_checks": 6,
+  "verified_source_anchors": 13,
+  "measurement_rows_assessed": 16,
+  "findings": [
+    "380-fold comparison is recovered recombinant/mutant CFU abundance, not an independently observed molecular event ratio.",
+    "Chromosomal reporter origin classification is distinguished from sequencing every scored colony.",
+    "Kanamycin and spectinomycin select only after sampling; chloramphenicol maintenance remains present during growth.",
+    "Repeated time points do not multiply triplicate independent culture counts; pairing and inference not replayed.",
+    "Gene interventions support assay-specific transfer, while growth differences, detection limits, and unauthenticated supplementary controls remain explicit.",
+    "Flat terminal census is not proof of zero turnover, births, death or selective clone histories.",
+    "The sum of mutation and transfer intensities is established conditional bookkeeping, not a new theorem or empirical SBW25 parameter.",
+    "Imported allele identity cannot be relabelled de novo mutation; ecological controls needed before mutation-only interpretation."
+  ],
+  "raw_text_redistributed": false,
+  "public_private_file_review": "Only original commentary,metadata,hashes and code; no private archive or third-party prose/figure copied.",
+  "matched_WAM_panel_admitted": false,
+  "actual_registry_fields_resolved": 0,
+  "new_TMD_confirmation": false,
+  "external_peer_review_claimed": false
+}

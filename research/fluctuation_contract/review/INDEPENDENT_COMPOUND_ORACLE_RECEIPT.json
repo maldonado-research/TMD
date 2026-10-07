@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "independent_assertions": 610,
+  "rational_tail_bound_cases": 63,
+  "high_precision_zero_bound_cases": 252,
+  "finite_PMF_partition_comparisons": 216,
+  "reviewed_producer_function_assertions": 516,
+  "reviewed_producer_endpoint_assertions": 15,
+  "reviewed_producer_sha256": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68",
+  "LD_equal_zero_intensity_different_positive_count_examples": [
+    {
+      "p": "1/10",
+      "m_for_unit_zero_intensity_decimal": "3.9086503371292664488601602702494457406495730522329990950300840484927818428798369725630245440458857348683549607028967336027751135844306751590",
+      "P1_over_P0_decimal": "0.67681662920785928345998219219450602881671410530744454499665732794524646190224033638188616177267936279240500436634480737746943182395214720452"
+    },
+    {
+      "p": "4/5",
+      "m_for_unit_zero_intensity_decimal": "1.1203550294311374467232618120195980503969880460354388782254568890830201783308786118584279954509556336991207910828682448250812632020208461415",
+      "P1_over_P0_decimal": "0.51857988227545021310695275192160779841204781585824448709817244366791928667648555256628801819617746520351683566852702069967494719191661543377"
+    }
+  ],
+  "finite_clone_equal_zero_intensity_examples": [
+    {
+      "clone_size": 2,
+      "p": "1/2",
+      "m": "4/3",
+      "negative_log_P0": "1",
+      "P1_over_P0_exact": "2/3"
+    },
+    {
+      "clone_size": 8,
+      "p": "1/2",
+      "m": "256/255",
+      "negative_log_P0": "1",
+      "P1_over_P0_exact": "8/255"
+    }
+  ],
+  "decimal_precision": 140,
+  "decimal_comparisons_are_not_certified_score_intervals": true,
+  "new_sampling_law_or_biological_rate_fit": false,
+  "source_integer_colonies_not_used_as_mutation_births": true,
+  "reviewer_script_sha256": "002f06444799ec69e8f6cf9f5c07f8d0cced60f1663e037263f3b7bfd0ebee8d"
+}

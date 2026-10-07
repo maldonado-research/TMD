@@ -85,19 +85,36 @@
     {
       "id": "R000007",
       "priority": 7,
-      "status": "queued",
+      "status": "completed",
       "question": "Can the actual reporter confirmation pool, sequence missingness and FALCOR/MSS input/model contract be authenticated?",
       "deliverable": "Source-grounded input, partial-plating, growth and sampling contract; an independently reviewed offline rate fit only if justified, otherwise exact missing prerequisites.",
       "falsifier_or_boundary": "Terminal frequencies, fractional corrected CFUs and selected colony counts cannot silently become mutational births or fixed independent trials.",
-      "maximum_download_bytes": 20971520
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "source_contract_and_conditional_model_benchmark",
+      "result": "24 culture-row nominal plating geometry reconstructed; classical conditional compound-Poisson model independently checked. Author inputs and biological fit remain unauthenticated; all26 actual study fields stay null.",
+      "report": "../fluctuation_contract/README.md"
     },
     {
       "id": "R000008",
       "priority": 8,
-      "status": "queued",
+      "status": "completed",
       "question": "Does the newly indexed stationary-phase recombination study change the justified scope of mutation-only route entry?",
       "deliverable": "Primary full-text methods/cohort assessment of DOI10.1093/molbev/msag238 with mutation-versus-transfer units and genotype/ecology limits.",
-      "falsifier_or_boundary": "An E.coli\u2013P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "falsifier_or_boundary": "An E.coli–P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "full_primary_source_assessment",
+      "result": "Complete main primary text assessed with16 measurement rows,6 identity and13 source-anchor checks. Transfer creates new recipient genotypes without necessarily creating new alleles; recovered CFUs are not independent molecular events. No SBW25 quantitative transfer or TMD confirmation.",
+      "report": "../recombination_scope/README.md"
+    },
+    {
+      "id": "R000009",
+      "priority": 9,
+      "status": "queued",
+      "question": "Can authoritative source inputs resolve the SBW25 confirmation, FALCOR/MSS, growth and recovery contract before biological fitting?",
+      "deliverable": "Authenticate the prepared source-fields packet and reconstruct exact author input/settings/rounding, with independent review; otherwise retain explicit blocked prerequisites.",
+      "falsifier_or_boundary": "No biological fit from nominal capture geometry alone; no synthetic observations or imported study parameters fill actual study fields.",
+      "report": "../fluctuation_contract/SOURCE_FIELDS_REQUEST.json",
+      "external_request_sent": false,
       "maximum_download_bytes": 20971520
     }
   ]

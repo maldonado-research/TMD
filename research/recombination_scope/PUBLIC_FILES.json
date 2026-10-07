@@ -1,0 +1,25 @@
+{
+  "public_files": [
+    "README.md",
+    "SOURCE_LEDGER.json",
+    "MEASUREMENT_LEDGER.json",
+    "ACQUISITION_RECEIPT.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_source.py",
+    "LICENSE",
+    "R8_INDEPENDENT_REVIEW.json"
+  ],
+  "files_sha256": {
+    "README.md": "ec5ad06b09928f591053740218ed5c4f9763610905d7be17a47b4e6d65152085",
+    "SOURCE_LEDGER.json": "fbea5e88481857d2c63a586b3647513c26afdf64066a93da100e4eda4f56fc21",
+    "MEASUREMENT_LEDGER.json": "29ac23233e521818d28a69c211b38b05c4e509669cbb204cf676761289b0eae6",
+    "ACQUISITION_RECEIPT.json": "68c4792136552773f0e5ba5b33d2907527da4e593049c3fd3e33b1c7422dd047",
+    "VERIFICATION_RECEIPT.json": "1a42ac2f1ff618151f6a7c8f7b402c2b96c45c4f001b246b7f64334c6bdba216",
+    "verify_source.py": "bcad8777e0da049a938259e30f5e06a8d6c99a85b973777af8124b1606f43b5d",
+    "LICENSE": "8c74fa1e6979b092f9d90e3e57e2f6376786caa08f6848ad38abbc57af749101",
+    "R8_INDEPENDENT_REVIEW.json": "6d40ba9f25fd8bc267c5b692342406a9146ae5ec8b5927d7fb88c4b8452212bc"
+  },
+  "excluded": "All raw third-party article text, supplementary files/figures, laboratory data, private archive or credentials.",
+  "source_acquisitions": 1,
+  "response_bytes": 127109
+}

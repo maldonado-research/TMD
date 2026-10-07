@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "passed_with_conditional_model_limits",
+  "python_version": "3.12.14",
+  "dependencies": "Python standard library only",
+  "synthetic_benchmark_replay_byte_identical": true,
+  "source_contract_replay_byte_identical": true,
+  "producer_checks": {
+    "exact_finite_clone_thinning_identities": 48,
+    "exact_compound_Poisson_relative_coefficient_identities": 324,
+    "infinite_clone_rational_tail_checks": 21,
+    "malformed_exact_PMF_guard_checks": 27
+  },
+  "source_culture_rows_reproduced": 24,
+  "main_article_history_subarticles_separately_classified": 7,
+  "script_sha256": {
+    "conditional_fluctuation.py": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68",
+    "run_benchmarks.py": "e3f986a0f57d27fa38224f93ae3775db412f8df1ecfa49b15cbcae0b53f437a7",
+    "reproduce_measurement_contract.py": "ab5cd72b3e25c01473832c6622e8031a31a1c10e4ae564d1c61235532788fa0b"
+  },
+  "output_sha256": {
+    "MEASUREMENT_CONTRACT.json": "2d7b4771a7f39a1e5295ce8ced6e48f195b3d09ad8275dc306053f31008a943b",
+    "SYNTHETIC_BENCHMARKS.json": "e8bc72acc873ea9267946e47275807e2ab3c0d503fa0a3a036a273bf2f1c403a"
+  },
+  "numeric_80digit_exp_logs_outward_certified": false,
+  "helpers_have_explicit_rational_and_support_caps": true,
+  "all_accepted_input_compositions_guaranteed_to_execute": false,
+  "cached_source_bytes_available_in_this_execution": true,
+  "source_contract_replay_if_cache_absent": "UNRUN; synthetic and public hash checks may still pass",
+  "author_response_DOCX_bodies_acquired_or_read": false,
+  "network_acquisition_attempts": 4,
+  "response_bytes": 42794,
+  "biological_likelihood_fits": 0,
+  "FALCOR_execution": false,
+  "new_confidence_intervals_or_biological_inferential_tests": false,
+  "matched_WAM_panels_admitted": 0,
+  "actual_registry": {
+    "relative_path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+    "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "actual_fields": 26,
+    "all_still_null": true,
+    "modified": false
+  },
+  "external_source_request_sent": false,
+  "new_theorem_or_priority_claim": false
+}

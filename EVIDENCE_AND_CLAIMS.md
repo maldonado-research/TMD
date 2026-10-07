@@ -18,6 +18,11 @@
 | Regional transcript proxy | Mapped source calculation reproduced |5.9603 geometric-mean proxy ratio uses supplied doubling transform; no native mutation-supply calibration or resolved fourfold/sixfold caption discrepancy. |
 | Supply-assay transport sensitivity | Derived algebraic extension of existing observation sensitivity |Requires independently justified finite bounds; C565T single-marker data do not identify triad supply transfer. No new theorem claimed. |
 | October 7 mutation/recombination source watch | Two primary abstracts and metadata screened |Indexing and publication dates differ; full text/data not inspected; no SBW25 or W/A/M quantitative transfer. |
+| Nominal fluctuation plating geometry | Source-reconstructed for all 24 cultures | Volume/dilution bookkeeping only; recovery, mixing and actual final volume uncalibrated. |
+| Clone-and-detection probability benchmarks | Independently reviewed classical conditional mathematics | Synthetic finite laws and numerical ideal-model evaluation; no biological MSS fit, statistical confidence result or new theorem. |
+| Zero-only mutation-rate identification | Conditional ambiguity established by standard compound-Poisson calculation | Does not imply the complete count distribution is always nonidentifying; capture and growth laws must be justified. |
+| Stationary-phase recombination full-primary assessment | Completed targeted main-text source review | Reported 380-fold contrast is recovered descendant abundance; raw/supplementary data not replayed and no quantitative SBW25 transfer. |
+| Imported allele versus newly created mutation | Explicit alternative origin in the measurement contract | Same endpoint allele can have different origins; mutation-only scope needs ecological and ancestry controls. |
 | Repeated WS 17/6/3 panel as additional replication | Unsupported | Treat as an alias until independent collection provenance is supplied. |
 | Legacy WS arrival times | Synthetic fixture | No biological waiting-time or frailty evidence. |
 | Censoring-aware route/time test | Implemented and tested on declared synthetic designs | Only exact first arrivals under stated independence and observation assumptions. |

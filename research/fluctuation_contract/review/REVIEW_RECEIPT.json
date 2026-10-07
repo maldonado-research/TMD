@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "review_kind": "independent_internal_source_contract_and_conditional_mathematics_review",
+  "review_date": "2026-10-07",
+  "review_timezone": "America/Los_Angeles",
+  "reviewed_candidate_files_sha256": {
+    "README.md": "b59be0f66869b9aa0339b71bb23a5b0758f592da2b2d5caf1ab50cdaa0e7e8a1",
+    "conditional_fluctuation.py": "73e0dd3fa45c2969116d1b6d7e8ab2c465426cc9791273eeec675033fa99ac68",
+    "run_benchmarks.py": "e3f986a0f57d27fa38224f93ae3775db412f8df1ecfa49b15cbcae0b53f437a7",
+    "SYNTHETIC_BENCHMARKS.json": "e8bc72acc873ea9267946e47275807e2ab3c0d503fa0a3a036a273bf2f1c403a",
+    "reproduce_measurement_contract.py": "ab5cd72b3e25c01473832c6622e8031a31a1c10e4ae564d1c61235532788fa0b",
+    "MEASUREMENT_CONTRACT.json": "2d7b4771a7f39a1e5295ce8ced6e48f195b3d09ad8275dc306053f31008a943b",
+    "ACQUISITION_RECEIPT.json": "e57cbea28c6ec77124ec509edb0a892211112d2f055b4e38b84d9c91a518fb33",
+    "SOURCE_FIELDS_REQUEST.json": "53ee99fd8fad1ece9201b1434d5557380b13ea5e356869d24d63577f0704a35a",
+    "LICENSE": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "6138bfb11b8a4f81abd68596b1d1821a72e1cce7c52dbef51f422046b813df38",
+    "VERIFICATION_RECEIPT.json": "f7ad9fe00c64c9bf327212ecfa5b30ce87c89bfd169808c568cee407a3187142"
+  },
+  "reviewer_oracle_script_sha256": "002f06444799ec69e8f6cf9f5c07f8d0cced60f1663e037263f3b7bfd0ebee8d",
+  "independent_checks": {
+    "reviewer_synthetic_assertions": 610,
+    "producer_functions_against_independent_oracles": 516,
+    "producer_endpoint_assertions": 15,
+    "exact_jump_partition_coefficients": 216,
+    "rational_clone_tail_cases": 63,
+    "decimal_zero_bound_cases": 252,
+    "decimal_precision": 140,
+    "decimal_bounds_outward_certified": false
+  },
+  "producer_benchmark_replay": {
+    "exact_finite_clone_thinning_identities": 48,
+    "exact_compound_Poisson_relative_coefficient_identities": 324,
+    "infinite_clone_rational_tail_checks": 21,
+    "malformed_exact_PMF_guard_checks": 27
+  },
+  "producer_benchmark_replay_byte_identical": true,
+  "source_contract_replay_byte_identical": true,
+  "source_rows_replayed": 24,
+  "root_geometry_and_200000term_series_receipt_read_sha256": "97d4fc580c766a9d3173034c380bc70efc8e9cc0a976005bc8276299a1a30264",
+  "source_geometry_counts": {
+    "3/40000": 8,
+    "1/6000": 3,
+    "3/4000": 1,
+    "3/40": 12
+  },
+  "source_reread": {
+    "primary_article": "Final sections sec007,sec015,sec016 and embedded S2-S4 captions",
+    "article_XML_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+    "dataset_ZIP_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+    "Foster2006": "Full chapter previously read; Eq5 and sampling/phenotype-lag/post-plating passages reread",
+    "Foster2006_full_HTML_sha256": "dd5641f959156f086b93b2309f55bcfd92276382494e697c33721d9e36ab53b4",
+    "new_R7_source_acquisitions": 0
+  },
+  "resolved_review_issues": [
+    "Shared bounded exact PMF validation rejects malformed laws; observed support permits zero through16",
+    "Figure4A positive confirmations kept separate from S4 outcome-dependent confirmation sample",
+    "128-bit helper composition limitation disclosed",
+    "Classical asymptotic infinite-mean clone law and conditional capture explicitly separated from actual cultures"
+  ],
+  "scientific_limits": [
+    "No original FALCOR execution or submitted-input/settings authentication",
+    "No author-response DOCX body read",
+    "No biological mutation-rate or confidence-interval fit",
+    "No full-count nonidentifiability claim from zero-only examples",
+    "No validated total recovery probability or native/reporter transfer calibration",
+    "No sampling law inferred for nested colony confirmation"
+  ],
+  "actual_study_fields_resolved": 0,
+  "matched_WAM_panels_admitted": 0,
+  "new_TMD_confirmation": false,
+  "new_theorem_or_priority_claim": false,
+  "external_peer_review_claimed": false,
+  "public_safe_content": "Original notes and bounded synthetic oracles/receipts; no raw article/workbook/reads, private archive, contact details, machine metadata, or credentials.",
+  "reviewer_public_files": [
+    "R7_REVIEW_NOTES.md",
+    "independent_compound_oracles.py",
+    "INDEPENDENT_COMPOUND_ORACLE_RECEIPT.json",
+    "INDEPENDENT_ENDPOINT_RECEIPT.json"
+  ],
+  "reviewer_public_files_sha256": {
+    "R7_REVIEW_NOTES.md": "c1eac072a293d2d534a05ba91879cbf97114fffe386d3e63b35301b7eb897a87",
+    "independent_compound_oracles.py": "002f06444799ec69e8f6cf9f5c07f8d0cced60f1663e037263f3b7bfd0ebee8d",
+    "INDEPENDENT_COMPOUND_ORACLE_RECEIPT.json": "f485e47c88507565e9321afce287f9ca5bda322b8a7fffaddb6826877c152a8a",
+    "INDEPENDENT_ENDPOINT_RECEIPT.json": "a78b47fd3fe1f55cf2e3823e49c1758b9ed3c020686dbd359c24b6de269d904d"
+  }
+}
