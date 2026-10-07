@@ -1,0 +1,106 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "all_nine_manifest_checksums_passed": true,
+  "biological_data_fit": false,
+  "calibration_observations_provided": false,
+  "comparison_categories": {
+    "complete_law_witnesses": 5,
+    "external_cap_refusals": 4,
+    "extreme_valid_forward_and_bounds": 21,
+    "forward_coefficients": 4320,
+    "forward_summary_fields": 2880,
+    "invalid_input_guards": 12,
+    "inverse_coefficients": 4320,
+    "inverse_summary_and_law_fields": 6528,
+    "point_bound_endpoints": 1920,
+    "rectangle_endpoints": 144
+  },
+  "core_files_sha256": {
+    "BENCHMARKS.json": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
+    "DERIVATION_AND_LIMITATIONS.md": "13f440ead06ca2059defd58ad811095d7dd1531f7871ae3995ceb0e683c14e03",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "6fdc285e338b687de8129f38bd04b44d960fc546ef0c13e7379fef43d0c1510f",
+    "README.md": "819b2d70e57860131388de9e7caa1ce2faeb1a581cbe2c87581ca3b2c3a92ce2",
+    "VERIFICATION_RECEIPT.json": "8fe56ff3b025a9d6aa8da5a23c20071adff0fa9ff354d4be51cb7c6e3d9aee1c",
+    "capture_calibration.py": "d0d28eb36def27d9f01dd5f8b0b31568411ad9aa4a63f74c44ce321c42ba9444",
+    "verify_benchmarks.py": "f39f8e8bb13ce47e1fa870bbec1095a5289100cd61da476cd5daac473892b820"
+  },
+  "independent_internal_synthetic_checks": 10747,
+  "independent_oracle_sha256": "9849e00d5b8c50c5904b6f67d7de9f216e7732611a2ef9dc4a3a57de0a71620c",
+  "independent_producer_comparison_checks": 20154,
+  "independent_receipt_sha256": "7afe9ec96af7d2c8030900104996cc7206dad574fe4aa6cd24e69202b3a103ea",
+  "manifest_pin_scope": "The producer-freeze manifest pins are historical; root may add reviewed files and regenerate final package manifests. The eight payload core pins must remain unchanged.",
+  "new_mutation_rate_or_CI_or_theorem_claim": false,
+  "optimized_guard_results": [
+    {
+      "exit": 1,
+      "flag": "-O",
+      "output_absent": true,
+      "target": "producer_cli"
+    },
+    {
+      "exit": 1,
+      "flag": "-O",
+      "target": "producer_benchmarks_library"
+    },
+    {
+      "exit": 1,
+      "flag": "-O",
+      "output_absent": true,
+      "target": "independent_oracle_cli"
+    },
+    {
+      "exit": 1,
+      "flag": "-OO",
+      "output_absent": true,
+      "target": "producer_cli"
+    },
+    {
+      "exit": 1,
+      "flag": "-OO",
+      "target": "producer_benchmarks_library"
+    },
+    {
+      "exit": 1,
+      "flag": "-OO",
+      "output_absent": true,
+      "target": "independent_oracle_cli"
+    }
+  ],
+  "pre_producer_derivation_sha256": "34073d12aeffbf64a29623065f09b022dd25b76e2dc5f817e3ac58ee8fd91ce3",
+  "pre_producer_oracle_source_sha256": "a2df7f4f6a6af78756f0d63cd5f9b8e5492a79c1df048cdfb8be4b06601a3c8f",
+  "producer_benchmark_replay_byte_identical": true,
+  "producer_checks": 1624,
+  "producer_freeze_files_sha256": {
+    "BENCHMARKS.json": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
+    "DERIVATION_AND_LIMITATIONS.md": "13f440ead06ca2059defd58ad811095d7dd1531f7871ae3995ceb0e683c14e03",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "6fdc285e338b687de8129f38bd04b44d960fc546ef0c13e7379fef43d0c1510f",
+    "PUBLIC_FILES.json": "cee4a210b1f8791d5a1df64bbb3beb5cc14cf4dcf1bd63845f7bf311d54877e3",
+    "README.md": "819b2d70e57860131388de9e7caa1ce2faeb1a581cbe2c87581ca3b2c3a92ce2",
+    "SHA256SUMS.txt": "c7e36614ded2bdd38bfbe31ad64a8bf59bf4ddb222d077c27f2017cf33a153ac",
+    "VERIFICATION_RECEIPT.json": "8fe56ff3b025a9d6aa8da5a23c20071adff0fa9ff354d4be51cb7c6e3d9aee1c",
+    "capture_calibration.py": "d0d28eb36def27d9f01dd5f8b0b31568411ad9aa4a63f74c44ce321c42ba9444",
+    "verify_benchmarks.py": "f39f8e8bb13ce47e1fa870bbec1095a5289100cd61da476cd5daac473892b820"
+  },
+  "producer_science_revisions_required": false,
+  "review_scope": [
+    "exact rational Gaussian-elimination inverse on independently enumerated Bernoulli assignment matrix",
+    "population positive jump vector required, empirical histogram not inverted",
+    "strictly positive terminal marks identify positive intensity only; zero marks not identified",
+    "known common c and authenticated cell/CFU unit required",
+    "unknown-c singleton and known-c zero-mark complete-law ambiguities retained",
+    "finite support B applies to marks, total CP counts unbounded",
+    "zero intensity leaves mark law undefined",
+    "void exponent and observed unit mean are distinct",
+    "sharp point and rectangle algebraic bounds are not confidence intervals",
+    "32bit external parser composition and intensity wrappers are documented computational limits",
+    "inversion sensitivity and native/control transport limits retained",
+    "no TMD/cancer confirmation or molecular mutation-birth-rate inference"
+  ],
+  "reviewer_network_requests": 0,
+  "round": "R000013",
+  "status": "ACCEPT",
+  "synthetic_cases": 960,
+  "whitelist_exact_match": true
+}

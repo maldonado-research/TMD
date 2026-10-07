@@ -1,0 +1,33 @@
+{
+  "public_files": [
+    "BENCHMARKS.json",
+    "DERIVATION_AND_LIMITATIONS.md",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "README.md",
+    "VERIFICATION_RECEIPT.json",
+    "capture_calibration.py",
+    "review/R13_INDEPENDENT_COMPARISON_RECEIPT.json",
+    "review/R13_MATH_REVIEW.md",
+    "review/R13_REVIEW_RECEIPT.json",
+    "review/independent_recovery_oracle.py",
+    "verify_benchmarks.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "files_sha256": {
+    "BENCHMARKS.json": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
+    "DERIVATION_AND_LIMITATIONS.md": "13f440ead06ca2059defd58ad811095d7dd1531f7871ae3995ceb0e683c14e03",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "6fdc285e338b687de8129f38bd04b44d960fc546ef0c13e7379fef43d0c1510f",
+    "README.md": "819b2d70e57860131388de9e7caa1ce2faeb1a581cbe2c87581ca3b2c3a92ce2",
+    "VERIFICATION_RECEIPT.json": "8fe56ff3b025a9d6aa8da5a23c20071adff0fa9ff354d4be51cb7c6e3d9aee1c",
+    "capture_calibration.py": "d0d28eb36def27d9f01dd5f8b0b31568411ad9aa4a63f74c44ce321c42ba9444",
+    "review/R13_INDEPENDENT_COMPARISON_RECEIPT.json": "7afe9ec96af7d2c8030900104996cc7206dad574fe4aa6cd24e69202b3a103ea",
+    "review/R13_MATH_REVIEW.md": "3c45154a774b98bbb1b4481e7a7691603e898cea1854f90f8fb5608d653f8a00",
+    "review/R13_REVIEW_RECEIPT.json": "d244ec4def2f434269de62a13a655d93f2d385b4f133e150faf666b7bb6d58f0",
+    "review/independent_recovery_oracle.py": "9849e00d5b8c50c5904b6f67d7de9f216e7732611a2ef9dc4a3a57de0a71620c",
+    "verify_benchmarks.py": "f39f8e8bb13ce47e1fa870bbec1095a5289100cd61da476cd5daac473892b820"
+  },
+  "source_scope": "Original conditional finite synthetic methods and independent internal review; no biological data"
+}

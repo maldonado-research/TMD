@@ -1,0 +1,42 @@
+{
+  "round": "R000012",
+  "request_count": 4,
+  "download_bytes": 506673,
+  "sources": [
+    {
+      "request_index": 1,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22colony+forming+unit%22%5BTitle%2FAbstract%5D+OR+%22colony-forming+units%22%5BTitle%2FAbstract%5D+OR+CFU%5BTitle%2FAbstract%5D%29+AND+%28%22single+cell%22%5BTitle%2FAbstract%5D+OR+%22single-cell%22%5BTitle%2FAbstract%5D+OR+%22flow+cytometry%22%5BTitle%2FAbstract%5D%29+AND+%28bacteria%5BTitle%2FAbstract%5D+OR+bacterial%5BTitle%2FAbstract%5D%29+AND+%28counting%5BTitle%2FAbstract%5D+OR+culturability%5BTitle%2FAbstract%5D+OR+recovery%5BTitle%2FAbstract%5D+OR+aggregation%5BTitle%2FAbstract%5D%29%29+AND+%28%222020%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F07%22%5BDate+-+Publication%5D%29&retmode=json&retmax=8&sort=pub+date",
+      "status": 200,
+      "bytes": 722,
+      "sha256": "88d8bc43b6e5f035bb04ca348bb8546dbb40e404c913d0d1eda5707df30ec5dd",
+      "file": "recovery_search.json"
+    },
+    {
+      "request_index": 2,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42831674%2C42796732%2C42322839%2C42083185%2C42451585%2C42301421%2C42084362%2C42247359&retmode=xml",
+      "status": 200,
+      "bytes": 191571,
+      "sha256": "be024f4023ff04c33e71c64cbdf292f0a35e94888c22843064a6dd5bad1187ee",
+      "file": "pubmed_candidates.xml"
+    },
+    {
+      "request_index": 3,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC13228076&retmode=xml",
+      "status": 200,
+      "bytes": 82316,
+      "sha256": "01474346220301ca3803e1db4150b8e229ceb0e95b1980faca20b389d4661f6e",
+      "file": "PMC13228076.xml"
+    },
+    {
+      "request_index": 4,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC13272224&retmode=xml",
+      "status": 200,
+      "bytes": 232064,
+      "sha256": "d46d998f6aa4d84fbb23b49fb201c260068b4b459a23a71a037eea54cb2b284e",
+      "file": "PMC13272224.xml"
+    }
+  ],
+  "raw_sources_redistributed": false,
+  "raw_supplements_acquired": false,
+  "inspection_scope": "Eight PubMed metadata/abstract candidates; selected main-text methods/results of two new primary studies; one newest primary abstract only. Not a complete literature review."
+}

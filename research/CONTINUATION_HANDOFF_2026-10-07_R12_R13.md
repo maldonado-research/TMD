@@ -1,0 +1,21 @@
+# TMD continuation checkpoint: R12/R13, October 7, 2026
+
+R12 completes a source-specific absolute recovery/cell-CFU measurement audit. R13 completes independently reviewed finite conditional calibration mathematics. These are original reproducible source/methods advances, not new biological experiments, external peer review, cancer-prevention evidence or new mathematical laws. All26 actual study fields remain NULL; no matched common-background Wsp/Aws/Mws panel is admitted.
+
+## Evidence and conditional result
+
+[R12](recovery_calibration_sources/README.md) screens eight newest PubMed metadata/abstract candidates from45 query matches. Four GETs acquire506,673 bytes; two new primary main-text methods/results sources and one newest abstract-only microscopy lead provide20 source-specific measurement rows. Clinical DTT/urine and PA14 persistence/outgrowth readouts differ in units, eligibility and ancestry. Declared raw supplements remain unacquired. Reported marginal median CFU ratio550 is neither paired fold change, absolute recovery nor a mutation-rate ratio. A1microlitre/tenfold concentration/low-count reporting map remains unresolved, not established erroneous. No parameter is transported to SBW25.
+
+[R13](capture_calibration/README.md) gives the standard finite binomial inverse for known homogeneous capture and complete population positive compound-Poisson jump intensities. Under strictly positive finite terminal marks, positive weights and total intensity are identified. Population coefficients are assumed, not estimated from finite cultures. Unknown capture admits a complete-law singleton intensity/capture equivalence. Arbitrary invisible terminal-zero intensity is unobservable even with known capture. The inverse cannot identify cell-versus-CFU units, mutation births, allele origin, division exposure, growth, establishment or native transport.
+
+Sharp algebraic void-exponent bounds and a deterministic calibration rectangle are included; no sample confidence interval, new error budget, power claim or empirical likelihood is supplied. Small capture causes alternating/inverse-diagonal noise amplification; exact algebra does not fix statistical instability. The positive law is undefined at zero intensity. Both packages pin exact files and independent internal review; source caches remain external and missing caches mean UNRUN.
+
+## Next action and protected state
+
+R000014 authenticates declared raw calibration normalization and independent cell/CFU lineage/control denominators with matched-background and state-transport limits. R000011 historical author inputs/settings/output and assay law remain blocked; the ten-field source request is still unsent. R000005 actual-study prerequisites remain blocked. Do not infer a measured capture probability from nominal plated fractions, beads alone, relative mixture ratios or a passing conditional allocation gate.
+
+The natural-dominance definition, shared-curvature held-out forecast, strong measured alternatives, 26-field registry, numerical error allocations, confirmatory count laws and stopping rules are unchanged. Preserve older source/review receipts, immutable ZIPs and the historical strict floating-fixture failure. Source overlap and repeated internal checks do not add independent biological cohorts.
+
+No Zenodo request, staging operation, GitHub release or publication was made in these rounds. The last authenticated October7 read-only publication checkpoint found latest published record23113326 with inherited0.5.0 files and owned unpublished same-family draft23219776. That snapshot is not a fresh read in this round. The reviewed immutable0.6.0 ZIP remains absent from the draft and excludes later rounds; preserve it. Follow the existing browser staging guide and verify metadata and filenames/sizes/checksums before publishing. Automatic GitHub archiving remains OFF; historical softwarev2.6.5 has a separate DOI family.
+
+The unattended continuation runner remains paused. Current research is active-session bounded work, not24/7 execution. Cloud configuration saving does not prove publishing or restoration; future tasks must inspect actual repository/cache state. No Mac/iCloud access or archive completeness is assumed, and private archive/raw clinical materials are excluded from public output.

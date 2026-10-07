@@ -1,0 +1,44 @@
+{
+  "status": "passed_conditional_synthetic_methods",
+  "python_version": "3.12.14",
+  "dependencies": "standard library only",
+  "producer_checks": {
+    "forward_vs_direct_assignment_entries": 375,
+    "positive_support_inverse_weight_entries": 330,
+    "positive_support_inverse_intensities": 100,
+    "PGF_exponent_identities": 420,
+    "sharp_void_endpoint_checks": 360,
+    "deterministic_rectangle_checks": 3,
+    "full_law_witness_checks": 6,
+    "invalid_input_guards": 30
+  },
+  "producer_check_total": 1624,
+  "producer_replay_byte_identical": true,
+  "engine_sha256": "d0d28eb36def27d9f01dd5f8b0b31568411ad9aa4a63f74c44ce321c42ba9444",
+  "benchmark_sha256": "2d3824384d1cc3c2df7ab472708b52c8ae4ca0df5df8095bd6cdde8e3bb5ad37",
+  "optimized_python_guards": [
+    {
+      "flag": "-O",
+      "CLI_exit": 1,
+      "CLI_output_created": false,
+      "library_exit": 1
+    },
+    {
+      "flag": "-OO",
+      "CLI_exit": 1,
+      "CLI_output_created": false,
+      "library_exit": 1
+    }
+  ],
+  "engine_input_guards_do_not_depend_on_assertions": true,
+  "population_jump_vector_assumed_not_estimated": true,
+  "external_rational_cap_bits": 32,
+  "arbitrary_helper_composition_claimed": false,
+  "empirical_histogram_inverted": false,
+  "biological_data_fitted": false,
+  "new_rate_or_confidence_interval": false,
+  "new_theorem_or_priority_claim": false,
+  "actual_study_fields_resolved": 0,
+  "new_network_acquisitions": 0,
+  "registered_protocol_or_error_budget_change": false
+}

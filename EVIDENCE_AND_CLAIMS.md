@@ -2,6 +2,8 @@
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
+| Absolute cell/CFU and recovery source audit | Two primary main-method/results assessments, eight screened metadata/abstract candidates and20 source-specific measurement rows | Clinical/PA14 observations are unmatched to SBW25; no absolute capture, raw supplement fit, verified VBNC, cancer result or actual study input is inferred. |
+| Known-capture finite positive-mark inversion | Reproducible conditional mathematics with independent internal review | Requires known capture and complete population positive jump intensities; unknown capture and invisible zero marks retain full-law ambiguity. Finite culture histograms, molecular rates and biological causal mechanisms are not identified here. |
 | TMD as a biological explanation | Hypothesis under development | No confirmatory biological validation in this release. |
 | Environment-associated rpoB spectra | Published observations and reproducible exploratory secondary analysis | Already reported by Leehan and Nicholson; this release restores blocks and predicts held-out blocks. |
 | rpoB sample totals 59/52 versus 53/51 | Reconciled | All sampled sequenced isolates versus identified point substitutions are different eligible populations. |
