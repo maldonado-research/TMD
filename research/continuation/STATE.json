@@ -162,6 +162,6 @@
       "doi:10.1093/jeb/voag096; PMID42832043; abstract/metadata only; eukaryote MA source, not WAM or native bacterial calibration.",
       "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli\u2013P1 gene-exchange lead, no SBW25 transfer."
     ],
-    "next_action": "Audit the licensed declared SBW25 native/reporter figure-data archive; authenticate denominators and transfer limits before any biological inference."
+    "next_action": "Authenticate the selected-colony, sequence-missingness and FALCOR/MSS sampling/growth/plating contract before any offline mutation-rate fit. Follow the newly indexed recombination source separately."
   }
 }
