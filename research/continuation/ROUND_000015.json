@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "round_id": "R000015",
+  "research_date": "2026-10-07",
+  "date_timezone": "America/Los_Angeles",
+  "result": "design_only_cancer_translation",
+  "execution": "manual finite active-session round with independent internal review",
+  "record_prepared_utc": "2026-10-07T22:10:11.171279+00:00",
+  "maximum_concurrent_agents": 3,
+  "new_source_acquisition_attempts": 4,
+  "recorded_source_response_bytes": 631752,
+  "operational_Zenodo_requests": 0,
+  "operational_Zenodo_response_bytes": 0,
+  "independent_review_receipt": "../cancer_translation/review/R15_REVIEW_RECEIPT.json",
+  "checks": {
+    "producer_synthetic": 222,
+    "producer_cached_source": 26,
+    "independent_cases": 1280,
+    "independent_checks": 11561
+  },
+  "actual_study_fields_resolved": 0,
+  "biological_rate_fit": false,
+  "new_biological_confidence_interval": false,
+  "new_theorem_or_priority_claim": false,
+  "cancer_prevention_result": false,
+  "private_raw_published": false,
+  "author_contact_or_external_request_sent": false,
+  "github_release_created": false,
+  "Zenodo_write_or_publication": false,
+  "next_action": "Screen one publicly documented epithelial lineage experiment for independently measured new-origin supply, growth/loss and recovery in a justified matched background; do not infer these from clone abundance. Actual cancer catalogs/axis require expert review. Raw S1 normalization remains blocked until authoritative access/reporting prerequisites change; no unchanged retries. R11 historical author inputs and all26actual bacterial study fields remain unresolved."
+}

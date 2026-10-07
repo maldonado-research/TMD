@@ -1,0 +1,85 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "biological_fit": false,
+  "checks": 30,
+  "conditional_ordinary_even_sample_median_grids": [
+    {
+      "nominal_single_colony_density": "100",
+      "ordinary_even_sample_midpoint_median_step": "50",
+      "reported_10_on_this_grid": false,
+      "reported_5500_on_this_grid": true
+    },
+    {
+      "nominal_single_colony_density": "1000",
+      "ordinary_even_sample_midpoint_median_step": "500",
+      "reported_10_on_this_grid": false,
+      "reported_5500_on_this_grid": true
+    }
+  ],
+  "conditional_scaling": {
+    "actual_between_group_normalization_authenticated": false,
+    "common10fold_scaling_preserves_median_ratio": "550",
+    "if_only_treated_reported_densities_were10fold_concentrated_original_ratio": "55"
+  },
+  "new_confidence_interval_or_theorem_claim": false,
+  "nominal_volume_map": {
+    "biological_recovery_calibrated": false,
+    "nominal_concentration_factor": "10",
+    "nominal_original_mL_represented_by_1uL": "1/100",
+    "one_colony_per_mL_suspension": "1000",
+    "one_colony_per_original_mL_if_10fold_mapping_applies": "100",
+    "original_mL": 10,
+    "plated_microlitres": 1,
+    "resuspension_mL": 1
+  },
+  "source_reported_numbers_preserved": {
+    "ratio_of_reported_marginal_medians": "550",
+    "treated_median_CFU_per_mL": 5500,
+    "untreated_median_CFU_per_mL": 10
+  },
+  "status": "PASS",
+  "synthetic_log_median_witness": {
+    "actual_source_reporting_convention_authenticated": false,
+    "adjusted_central_values": [
+      "1",
+      "100"
+    ],
+    "all_values_plus1_radical_argument": 101,
+    "all_values_plus1_rational_square_root": null,
+    "backtransformed_log_midpoint_median_exact": "10",
+    "clinical_data": false,
+    "n": 72,
+    "ordinary_untransformed_midpoint_median": "50",
+    "synthetic_sorted_multiset": [
+      {
+        "multiplicity": 36,
+        "value": "0"
+      },
+      {
+        "multiplicity": 36,
+        "value": "100"
+      }
+    ],
+    "zero_only_replacement": 1
+  },
+  "synthetic_paired_summary_witness": {
+    "clinical_data": false,
+    "median_paired_fold_change": "12",
+    "paired_fold_changes": [
+      "1100",
+      "1/2",
+      "12"
+    ],
+    "ratio_of_marginal_medians": "550",
+    "treated_values": [
+      "110000",
+      "100",
+      "120000"
+    ],
+    "untreated_values": [
+      "100",
+      "200",
+      "10000"
+    ]
+  }
+}

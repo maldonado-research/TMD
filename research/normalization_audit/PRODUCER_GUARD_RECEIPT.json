@@ -1,0 +1,47 @@
+{
+  "arithmetic_replay_byte_identical": true,
+  "cases": [
+    {
+      "case": "-O",
+      "exit_code": 1,
+      "output_absent": true
+    },
+    {
+      "case": "-OO",
+      "exit_code": 1,
+      "output_absent": true
+    },
+    {
+      "case": "missing_primary_cache",
+      "exit_code": 1,
+      "output_absent": true
+    },
+    {
+      "case": "requested_but_missing_response_cache",
+      "exit_code": 1,
+      "output_absent": true
+    },
+    {
+      "case": "primary_xml_one_newline_changed",
+      "exit_code": 1,
+      "output_absent": true
+    },
+    {
+      "case": "intentionally_omitted_response_cache",
+      "failure_response_replay": "UNRUN",
+      "source_status": "PASS"
+    },
+    {
+      "case": "arithmetic_library_-O",
+      "exit_code": 1
+    },
+    {
+      "case": "arithmetic_library_-OO",
+      "exit_code": 1
+    }
+  ],
+  "clinical_data_read_or_fitted": false,
+  "full_replay_byte_identical": true,
+  "guard_checks": 8,
+  "status": "PASS"
+}

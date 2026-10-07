@@ -1,0 +1,61 @@
+{
+  "status": "passed_conditional_design_and_synthetic_methods",
+  "python_version": "3.12.14",
+  "dependencies": "standard library only",
+  "synthetic_producer_checks": {
+    "endpoint_mixture_normalizations": 36,
+    "growth_vs_recovery_only_equalities": 36,
+    "common_terminal_yield_scale_invariance": 36,
+    "common_curvature_identities": 36,
+    "independently_corrected_supply_identities": 36,
+    "context_change_checks": 27,
+    "explicit_falsifier_checks": 3,
+    "invalid_input_guards": 12
+  },
+  "synthetic_producer_check_total": 222,
+  "stored_synthetic_benchmark_replay_passed": true,
+  "cached_source_replay": {
+    "human_esophagus": {
+      "status": "passed_cached_source_byte_and_anchor_replay",
+      "checks": 10,
+      "raw_measurements_or_supplements_replayed": false
+    },
+    "mouse_competition": {
+      "status": "passed_cached_source_byte_and_anchor_replay",
+      "checks": 16,
+      "raw_measurements_or_supplements_replayed": false
+    }
+  },
+  "cached_source_check_total": 26,
+  "optimized_python_guards": [
+    {
+      "flag": "-O",
+      "CLI_exit": 1,
+      "CLI_output_created": false,
+      "library_exit": 1
+    },
+    {
+      "flag": "-OO",
+      "CLI_exit": 1,
+      "CLI_output_created": false,
+      "library_exit": 1
+    }
+  ],
+  "absent_source_cache_recorded_UNRUN": true,
+  "mismatched_source_hash_refused": true,
+  "engine_input_guards_do_not_depend_on_assertions": true,
+  "engine_sha256": "44d3f75836264e7e5ab5d4b63e048a9a565ac8f8d649ea47a0a3cbca0eea2351",
+  "benchmark_sha256": "31b1fbe91d8d163e2196f50ba179b7bbdf9b98f927ea19ef78e1d44d41ce37d1",
+  "source_ledger_sha256": "655f568e09d6754e2cb07f429112d165c845bff1a40e2c008c6a60103e7fe18e",
+  "expected_mixture_equality_is_not_full_count_law_or_first_arrival_equivalence": true,
+  "cancer_observations_fitted": false,
+  "cancer_catalog_or_protocol_selected": false,
+  "clinical_prevention_or_treatment_result": false,
+  "external_peer_review_claimed": false,
+  "registered_study_or_error_budget_change": false,
+  "existing_actual_study_fields_resolved": 0,
+  "new_source_requests": 4,
+  "recorded_response_bytes": 631752,
+  "new_network_requests_during_verification": 0,
+  "private_or_patient_raw_data_acquired": false
+}

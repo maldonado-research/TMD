@@ -1,0 +1,40 @@
+{
+  "actual_study_fields_resolved": 0,
+  "biological_fit": false,
+  "clinical_table_acquired_or_read": false,
+  "files_sha256": {
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "54b880d7d8a4bef42f185eaa637adb7b353e54a028c6981f188dcc3e096a11bd",
+    "MEASUREMENT_LEDGER.json": "58defd18f15080614a46067fdd41524aeb38f63edcc314bf76eae60d228d8406",
+    "NORMALIZATION_ARITHMETIC.json": "16348f8bf227dda9817648888c23589eea44edd819996ab8e38037e759459c9a",
+    "NORMALIZATION_CONTRACT.json": "58a587c7eee1bc4cf1430edf66e817abaf33957d02e9e057340298bbea96f471",
+    "PRODUCER_GUARD_RECEIPT.json": "63c89e79ebd2dd8e82b329440460b056510966ebcf5c626b60655ae10cf936fd",
+    "README.md": "0866a33a9df4589bb9076d68368622f74cadf2fcca8e100daf5baa9b21009ab7",
+    "SOURCE_MANIFEST.json": "07e1db8ae5196473d260c3830cfbc463266e8044f0bf475573aeb1aa7d5d5908",
+    "VERIFICATION_RECEIPT.json": "bedc4f81490ec4f129ea7598838a824cf7be5b6680a92a054a14d712504ed077",
+    "review/R14_FINAL_ORACLE.json": "972db89e51cfdb4fa55583193e242469f813ba30b2f1e5c7a19e5561352b6e20",
+    "review/R14_REVIEW_RECEIPT.json": "0ba24a2a2740329ff30b6e301ecac432d9ea0ddbc27d4bf2f5e2cf2093467d54",
+    "review/independent_r14_oracle.py": "36ded2122fcf6761fa307cffcdfbeccb081a09272adf64f503c6ab973536ab24",
+    "verify_normalization.py": "bad7b8952935ff8c51e4b67ad19fc00da5e1ff67d48dc241a929b9f8100597dd"
+  },
+  "new_requests": 4,
+  "new_response_bytes_saved": 71716,
+  "public_content": "Original bounded normalization/source assessment, conditional exact synthetic arithmetic and offline verification; no raw clinical/source-response files.",
+  "public_files": [
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MEASUREMENT_LEDGER.json",
+    "NORMALIZATION_ARITHMETIC.json",
+    "NORMALIZATION_CONTRACT.json",
+    "PRODUCER_GUARD_RECEIPT.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCE_MANIFEST.json",
+    "VERIFICATION_RECEIPT.json",
+    "review/R14_FINAL_ORACLE.json",
+    "review/R14_REVIEW_RECEIPT.json",
+    "review/independent_r14_oracle.py",
+    "verify_normalization.py"
+  ]
+}

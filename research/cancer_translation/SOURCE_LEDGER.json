@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded cancer-domain translation methods search, not a systematic or whole-web review",
+  "query": "(normal human skin[Title/Abstract] OR normal esophagus[Title/Abstract] OR normal epithelium[Title/Abstract]) AND (mutation*[Title/Abstract] OR clonal[Title/Abstract]) AND (selection[Title/Abstract] OR cancer[Title/Abstract])",
+  "search_date": "2026-10-07",
+  "sort": "relevance",
+  "date_filter": null,
+  "total_index_hits_reported": 160,
+  "metadata_abstract_candidates_inspected": 12,
+  "candidate_screen": [
+    {
+      "pmid": "30337457",
+      "title": "Somatic mutant clones colonize the human esophagus with age.",
+      "doi": "10.1126/science.aau3879",
+      "pmc": "PMC6298579",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "selected_primary_main_narrative",
+      "source_specific_reason": "Human normal tissue maps detectable mutant clones; denominator and selection distinctions directly relevant."
+    },
+    {
+      "pmid": "25999502",
+      "title": "Tumor evolution. High burden and pervasive positive selection of somatic mutations in normal human skin.",
+      "doi": "10.1126/science.aaa6806",
+      "pmc": "PMC4471149",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_primary_not_selected",
+      "source_specific_reason": "Normal skin supports selection/growth rival; full text not acquired within two-primary budget."
+    },
+    {
+      "pmid": "33389865",
+      "title": "Angiogenesis: Promising Therapeutic Target of Metastatic Colon Cancer.",
+      "doi": "10.1615/CritRevOncog.2020035718",
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "Review of metastatic treatment; does not supply matched mutation-generation measurements."
+    },
+    {
+      "pmid": "38039962",
+      "title": "Genomic alterations driving precancerous to cancerous lesions in esophageal cancer development.",
+      "doi": "10.1016/j.ccell.2023.11.003",
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_primary_not_selected",
+      "source_specific_reason": "Stage-specific biopsies address progression; biopsy totals do not supply independent mutation births."
+    },
+    {
+      "pmid": "35864200",
+      "title": "Mechanical signatures of human colon cancers.",
+      "doi": "10.1038/s41598-022-16669-3",
+      "pmc": "PMC9304395",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_primary_not_selected",
+      "source_specific_reason": "Mechanical tissue measurements; not matched mutation-supply and lineage panel."
+    },
+    {
+      "pmid": "8509434",
+      "title": "Molecular and cellular features of esophageal cancer cells.",
+      "doi": "10.1007/BF01215923",
+      "pmc": "PMC12201035",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "Older cell-line review; not a newly authenticated matched panel."
+    },
+    {
+      "pmid": "41986343",
+      "title": "Esophageal cancer: from pathogenesis to precision therapies.",
+      "doi": "10.1038/s41392-026-02614-7",
+      "pmc": "PMC13083882",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "2026 precision-therapy review; not TMD validation or a new primary mutation test."
+    },
+    {
+      "pmid": "23548972",
+      "title": "ECRG1 and its relationship with esophageal cancer: a brief review.",
+      "doi": "10.1159/000349960",
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "Gene-focused brief review; no matched prospective TMD panel."
+    },
+    {
+      "pmid": "16139432",
+      "title": "Interpreting epithelial cancer biology in the context of stem cells: tumor properties and therapeutic implications.",
+      "doi": "10.1016/j.bbcan.2005.07.003",
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "Stem-cell/cancer review; conceptual context only."
+    },
+    {
+      "pmid": "34646013",
+      "title": "Mutant clones in normal epithelium outcompete and eliminate emerging tumours.",
+      "doi": "10.1038/s41586-021-03965-7",
+      "pmc": "PMC7612642",
+      "inspection": "metadata_and_abstract",
+      "screening_state": "selected_primary_main_methods",
+      "source_specific_reason": "Mouse spatial competition and intervention study gives strong existing survival/selection rival."
+    },
+    {
+      "pmid": "11479891",
+      "title": "Molecular genetics of small cell lung carcinoma.",
+      "doi": null,
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "Lung carcinoma genetics review; no same-unit prospective lineage test."
+    },
+    {
+      "pmid": "33782689",
+      "title": "Application of CRISPR screens to investigate mammalian cell competition.",
+      "doi": "10.1093/bfgp/elab020",
+      "pmc": null,
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_eligible",
+      "source_specific_reason": "CRISPR-screen perspective/review; no source input admitted."
+    }
+  ],
+  "primary_sources": [
+    {
+      "pmc": "PMC6298579",
+      "pmid": "30337457",
+      "doi": "10.1126/science.aau3879",
+      "title": "Somatic mutant clones colonize the human esophagus with age",
+      "first_author": "MartincorenaI\u00f1igo",
+      "year": "2018",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6298579&retmode=xml",
+      "bytes": 80663,
+      "sha256": "dc9bfde4056846df491f4540490b7a9abcc2a0af842f8c262ae3180bb6e8a000",
+      "license_status": "XML notice allows download for text mining consistent with UK copyright law; no CC redistribution license asserted. Raw article text excluded from public package.",
+      "inspection_depth": "All28 main-body paragraphs inspected, including reported method summaries; detailed supplementary MethodsS1-S7, supplementary tables and raw sequencing data were not acquired.",
+      "body_paragraphs_inspected": 28,
+      "anchors": [
+        {
+          "body_paragraph_index": 2,
+          "normalized_paragraph_sha256": "d10a7cc3ef325bc81ba7326c14ca2bf99efef0745a5e3d8b1d5100b5925c5b93",
+          "original_measurement_interpretation": "844 contiguous normal-esophagus samples from nine organ donors; technical coverage and selected whole-genome samples are distinct units."
+        },
+        {
+          "body_paragraph_index": 3,
+          "normalized_paragraph_sha256": "c274dfa7b6e1b3f25208a329fb4a716374c44ff008e49a3d3ab35cc68d55b5a0",
+          "original_measurement_interpretation": "8,919 coding mutation calls merged spatially into6,935 putative events; source event label is not an authenticated count of de novo mutation births."
+        },
+        {
+          "body_paragraph_index": 6,
+          "normalized_paragraph_sha256": "7f48b7b85031158ab75ce8bb1ace8df88259111aad9950b81d9fd5b0dc38a315",
+          "original_measurement_interpretation": "dN/dS is interpreted as relative probability of reaching detectable clone size, after mutation-context controls."
+        },
+        {
+          "body_paragraph_index": 11,
+          "normalized_paragraph_sha256": "0bfc9bb908ef308c015cf6cf6f1cf3d73fbc950b0c60f05128c6a954e3ebe962",
+          "original_measurement_interpretation": "NOTCH1 prevalence can be higher in normal esophagus than in cancers; prevalence is not malignant transformation."
+        },
+        {
+          "body_paragraph_index": 16,
+          "normalized_paragraph_sha256": "49b7fc67d25a140a7eb1e6d2b10e9b5cae7d872c8168b759a4d6480871cb4490",
+          "original_measurement_interpretation": "Multiple acquisitions and shared clone histories occur; per-biopsy genotype counts need lineage grouping."
+        },
+        {
+          "body_paragraph_index": 19,
+          "normalized_paragraph_sha256": "215b7418b376e565966d2b6f591abd8b9d389721f12456d34583ab98ddbeccd6",
+          "original_measurement_interpretation": "Main text distinguishes normal-tissue signatures from cancer-associated APOBEC processes; no quantitative model transfer is inferred."
+        },
+        {
+          "body_paragraph_index": 24,
+          "normalized_paragraph_sha256": "a97d967fd64c0c455e48aa3a15943cbdb815437115e5be0bbd5e4642119ae2fe",
+          "original_measurement_interpretation": "Source discusses differences between normal-clone prevalence and cancer origins; no TMD intervention follows."
+        }
+      ],
+      "biological_raw_data_replayed": false,
+      "matched_TMD_inputs_admitted": false
+    },
+    {
+      "pmc": "PMC7612642",
+      "pmid": "34646013",
+      "doi": "10.1038/s41586-021-03965-7",
+      "title": "Mutant clones in normal epithelium outcompete and eliminate emerging tumors",
+      "first_author": "ColomB.",
+      "year": "2021",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7612642&retmode=xml",
+      "bytes": 148997,
+      "sha256": "aeccda41bf4ac586b591f1742b6a402076c235d2eefd50373941dbe1cc27e2c1",
+      "license_status": "XML notice allows download for text mining consistent with UK copyright law; no CC redistribution license asserted. Raw article text excluded from public package.",
+      "inspection_depth": "All71 body paragraphs inspected, including main narrative, available Methods and embedded Extended Data captions; supplementary note/tables, source data, images and videos were not acquired or replayed.",
+      "body_paragraphs_inspected": 71,
+      "anchors": [
+        {
+          "body_paragraph_index": 3,
+          "normalized_paragraph_sha256": "822f508c22f2a6a6d03cfd00948b4dc0a2b4f07feab49b6530adf39dbb44757e",
+          "original_measurement_interpretation": "Whole-tissue lesion density and growth trajectories are endpoint observations; lesions are nested within animals."
+        },
+        {
+          "body_paragraph_index": 4,
+          "normalized_paragraph_sha256": "f1ffb491c0e7dcb1350c16cccfc1ae997f4907544595e2d2b88c76de55f7492f",
+          "original_measurement_interpretation": "Targeted sequencing reports11,149 mutations from141 tumors across time points; neither is an independent mutation-birth denominator."
+        },
+        {
+          "body_paragraph_index": 5,
+          "normalized_paragraph_sha256": "1ab228c13981c822246a61b6257c9cefa87aa66a2eced9722547dee6a0799523",
+          "original_measurement_interpretation": "Observed clonality and selected genes vary between early and surviving lesions, consistent with survival/clonal competition."
+        },
+        {
+          "body_paragraph_index": 10,
+          "normalized_paragraph_sha256": "cd1c18f7ad59e242a768d3c91b82142d2e5fcfdfc75bd5bdb30f36ad082a2061",
+          "original_measurement_interpretation": "Transgenic DN-Maml1 induction accelerates lesion loss in mice; this is an existing intervention study, not TMD or a patient treatment."
+        },
+        {
+          "body_paragraph_index": 11,
+          "normalized_paragraph_sha256": "6df0a9fbd6fb8b43f361b70287079cb2cbb3eaf77a1a076bf613dca922d14de7",
+          "original_measurement_interpretation": "DBZ competition perturbation changes tumor loss in the source mouse model; no procedure or dosage is proposed here."
+        },
+        {
+          "body_paragraph_index": 13,
+          "normalized_paragraph_sha256": "f27201799946472c8a9b69081cf8ab744f12728cb6165783b660686ff1bb3ec1",
+          "original_measurement_interpretation": "Whether analogous micro-tumor elimination occurs in humans is explicitly unknown in the source."
+        },
+        {
+          "body_paragraph_index": 35,
+          "normalized_paragraph_sha256": "ae5a507c9108ffd83d3f5d9646a3f1892391765d26601b7107ea360cf5e2ff91",
+          "original_measurement_interpretation": "Patchwork visualization combines measured clone properties with simulated nesting/placement where unresolved."
+        },
+        {
+          "body_paragraph_index": 37,
+          "normalized_paragraph_sha256": "3d9fba4043d157b8eabe03708c79484518b76b93155a1be0dab5563ccf8f9eab",
+          "original_measurement_interpretation": "dN/dS selection concerns the probability a clone reaches a detectable size, not direct measurement of mutation production."
+        },
+        {
+          "body_paragraph_index": 57,
+          "normalized_paragraph_sha256": "333ab4080c238144f70feb732969a28f2b24b9111c82a9603a5bbe8810c1c9a9",
+          "original_measurement_interpretation": "Methods report no prespecified statistical sample-size calculation, no randomization and no investigator blinding; lesion counts are nested."
+        },
+        {
+          "body_paragraph_index": 61,
+          "normalized_paragraph_sha256": "b463e2586d2b44dd0893412300e5fbbd5a31d5233e87f6195039b8f9e9b2fbc5",
+          "original_measurement_interpretation": "Extended Data4 gives89/64 tumors from2/9 mice for area measurements, and80/63 for other eligibility-specific summaries; do not merge these totals."
+        },
+        {
+          "body_paragraph_index": 64,
+          "normalized_paragraph_sha256": "9649ba84a3bf0ca35da1af7ca1190a226f596aa3145004862be936b74aa9e7da",
+          "original_measurement_interpretation": "81 normal epithelial micro-biopsies came from two mice; biopsies are not81 independently randomized animals."
+        },
+        {
+          "body_paragraph_index": 65,
+          "normalized_paragraph_sha256": "0a06af92470c63e975d82c6852a288d37c8ef3b9c75fa6d58b73f1d2b60b60bb",
+          "original_measurement_interpretation": "DN-Maml1 intervention panels report seven control and nine induced mice; dominant negative names a molecular construct, not TMD natural dominance."
+        },
+        {
+          "body_paragraph_index": 67,
+          "normalized_paragraph_sha256": "00fec5ef1e73cb3744db7acb9368517364198f3b4992c102d8529ed6ac954e27",
+          "original_measurement_interpretation": "Source simulation outputs are model runs with ABC-selected parameters, distinct from measured DBZ/control mice and uncertain human translation."
+        }
+      ],
+      "biological_raw_data_replayed": false,
+      "matched_TMD_inputs_admitted": false
+    }
+  ],
+  "source_requests": [
+    {
+      "attempt": 1,
+      "id": "normal_human_epithelium_mutation_selection",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28normal+human+skin%5BTitle%2FAbstract%5D+OR+normal+esophagus%5BTitle%2FAbstract%5D+OR+normal+epithelium%5BTitle%2FAbstract%5D%29+AND+%28mutation%2A%5BTitle%2FAbstract%5D+OR+clonal%5BTitle%2FAbstract%5D%29+AND+%28selection%5BTitle%2FAbstract%5D+OR+cancer%5BTitle%2FAbstract%5D%29&retmax=12&retmode=json&sort=relevance",
+      "status": 200,
+      "bytes": 543,
+      "sha256": "5fdae3764327a49db18ccc3ab98c1e9c8006f03d814102df8defd8caa7e2c364",
+      "requested_at_utc": "2026-10-07T21:54:30.170081+00:00"
+    },
+    {
+      "attempt": 2,
+      "id": "normal_epithelium_candidate_records",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30337457%2C25999502%2C33389865%2C38039962%2C35864200%2C8509434%2C41986343%2C23548972%2C16139432%2C34646013%2C11479891%2C33782689&retmode=xml",
+      "status": 200,
+      "bytes": 401549,
+      "sha256": "0f2e1af2e5a169cf47234878b7842aad5e8199b65357cbc8bdd3771c381155a7",
+      "requested_at_utc": "2026-10-07T21:54:43.446335+00:00"
+    },
+    {
+      "attempt": 3,
+      "id": "human_normal_esophagus_2018",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6298579&retmode=xml",
+      "status": 200,
+      "bytes": 80663,
+      "sha256": "dc9bfde4056846df491f4540490b7a9abcc2a0af842f8c262ae3180bb6e8a000",
+      "requested_at_utc": "2026-10-07T21:55:08.859649+00:00"
+    },
+    {
+      "attempt": 4,
+      "id": "mouse_competition_2021",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7612642&retmode=xml",
+      "status": 200,
+      "bytes": 148997,
+      "sha256": "aeccda41bf4ac586b591f1742b6a402076c235d2eefd50373941dbe1cc27e2c1",
+      "requested_at_utc": "2026-10-07T21:55:09.116871+00:00"
+    }
+  ],
+  "actual_request_count": 4,
+  "recorded_response_bytes": 631752,
+  "maximum_requests": 4,
+  "maximum_response_bytes": 8388608,
+  "no_patient_or_private_raw_data_acquired": true,
+  "raw_article_redistribution": false,
+  "cancer_effect_or_prevention_inferred": false,
+  "new_primary_discovery_or_TMD_validation_claimed": false
+}
