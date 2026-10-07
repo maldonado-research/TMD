@@ -20,14 +20,16 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000005-NUMERIC",
-    "next_round_id": "R000006",
+    "last_completed_round": "R000006",
+    "next_round_id": "R000007",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
     "manual_test_run_id": 37087326308,
     "manual_test_model_step": "skipped",
-    "manual_test_root_cause": "missing_openai_api_key_reported_in_verified_artifact"
+    "manual_test_root_cause": "missing_openai_api_key_reported_in_verified_artifact",
+    "workflow_checked_date": "2026-10-07",
+    "secret_metadata_checked_date": "2026-10-07"
   },
   "base_commit": "465850ee33f746cf42f1b3d5075fba2ea57332ad",
   "research_state": {
@@ -38,20 +40,25 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000004-20261003",
-    "latest_primary_source_audit_articles": 3,
+    "latest_primary_source_audit_round": "R000004-20261007",
+    "latest_primary_source_audit_articles": 2,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
     "registered_experiment": false,
     "unresolved_study_inputs": 26,
-    "active_zenodo_draft": null,
+    "active_zenodo_draft": 23219776,
     "latest_published_methods_record": 23113326,
     "latest_published_methods_version_label": null,
     "latest_published_record_content": "six inherited0.5.0 files; reviewed0.6.0 package absent",
     "latest_numerical_design_component": "R000005-NUMERIC",
     "certified_score_unit_tests": 20,
     "independent_score_review_assertions": 30887,
-    "actual_study_registry_fields_resolved": 0
+    "actual_study_registry_fields_resolved": 0,
+    "latest_raw_data_audit_round": "R000006",
+    "raw_data_audit_culture_occurrences": 24,
+    "raw_data_audit_sequence_reads": 711,
+    "raw_data_audit_checks": 986,
+    "latest_primary_source_audit_scope": "metadata_and_abstracts_only"
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -85,8 +92,8 @@
     {
       "id": "zenodo_deposit",
       "status": "blocked",
-      "observed": "Current read-only verification shows former draft23113326 is published in concept23068055 with six filename/size/reported-checksum-identical0.5.0 inherited files and null version label. The0.6.0 package is absent. No active draft was linked in inspected metadata; publication actor is unknown. A pre-upload guard stopped before any file write.",
-      "unblocking_condition": "Coordinate with the separate publishing task; preserve published records and automatic integrationsOFF. Reuse any currently linked draft or use latest published23113326 newversion only after fresh family/ownership checks, then verify full metadata and approved uploaded files before publication."
+      "observed": "The user confirmed this chat handles publication. Verified same-family New version created unpublished draft23219776; metadataPUT500 and documentedmultipartPOST400 failed. Fresh readback shows six inherited files intact, no reviewed0.6.0 ZIP and saved metadata mismatch. No publication attempted.",
+      "unblocking_condition": "Complete reviewed metadata and ZIP/checksum in the existing owner editor draft23219776, then independently read back metadata and verify filenames, sizes and checksums before publication. Preserve family and automatic-archiving OFF; do not create another draft or duplicate record."
     },
     {
       "id": "lind2019_workbooks_and_horton_osf",
@@ -102,8 +109,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R000005-NUMERIC: internally reviewed exact score arithmetic; parent biological measurement contract remains blocked with26 study inputs unresolved.",
-    "next_action": "Audit the licensed declared SBW25 native/reporter figure-data archive; authenticate denominators and transfer limits before any biological inference.",
+    "last_completed_step": "R000006: exploratory authenticated SBW25 figure-data reconstruction; ten source/measurement gaps retained, no matched WAM panel and all26 actual study inputs unresolved.",
+    "next_action": "Authenticate the selected-colony, sequence-missingness and FALCOR/MSS sampling/growth/plating contract before any offline mutation-rate fit. Follow the newly indexed recombination source separately.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -116,7 +123,12 @@
       "research/source_watch/INDEPENDENT_REVIEW_2026-10-02.json": "877c8fa049b51d96e29790a3c2751a712fb160747af6f8c262efebf2fe6e8879",
       "research/certified_score/SHA256SUMS.txt": "7ad5c023555608cdc13d3911596223a88bf6e1fe5b1cc3bf449d8e3f910020c4",
       "research/certified_score/VERIFICATION_RECEIPT.json": "6e0d50396a8670c9ccb3730df08134f7fa3bf6423fd676bcbccb9b6b635c2809",
-      "research/certified_score/review/INDEPENDENT_REVIEW_RECEIPT.json": "69eb5d6762bc0639f3523428c9df23c2a96dbc56eab515c3d901122cab409f60"
+      "research/certified_score/review/INDEPENDENT_REVIEW_RECEIPT.json": "69eb5d6762bc0639f3523428c9df23c2a96dbc56eab515c3d901122cab409f60",
+      "research/sbw25_data_audit/SHA256SUMS.txt": "106844dab2ba1c4471ab6216f99cf2594f2b8510db05676f2468256103eae07f",
+      "research/sbw25_data_audit/VERIFICATION_RECEIPT.json": "0556e5141bfd5abc173ef1ab94e1822e0ba38d6a5546189180ae8355209e30c9",
+      "research/sbw25_data_audit/review/REVIEW_RECEIPT.json": "15e9594b4092830a5bf5a95e5a12b6033c5ed3973c2729005c0ebc937459cfcb",
+      "research/source_watch/2026-10-07/SOURCE_WATCH_RECEIPT.json": "f9084c20613c2dc6bf1e4f23042d8cb9df5d41bc83d90b8178e37ee8e18eb7e5",
+      "research/source_watch/2026-10-07/INDEPENDENT_REVIEW.json": "22c74773ab633fdc935aae8135d691b8f8045b73d49afbdae3452e5fb60b0467"
     }
   },
   "reviewed_checkpoint": {
@@ -125,7 +137,9 @@
       "R000002",
       "R000003",
       "R000004-20261003",
-      "R000005-NUMERIC"
+      "R000005-NUMERIC",
+      "R000004-20261007",
+      "R000006"
     ],
     "blocked_work_items": [
       {
@@ -143,7 +157,10 @@
       "doi:10.1093/nar/gkag673; primary XML PMC13335488; sha256:05078a07b8098f25b9c393fdc66c9ac8959a24f86f69173ce93d6c72c9053c26; inspected in R000002; no complete matched WAM panel admitted; acquisition and reuse limits in research/panel_eligibility.",
       "doi:10.1371/journal.pgen.1011572; PMC11838912.1; primary XML sha256:937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2; source/measurement watch only; no matched WAM panel admitted.",
       "doi:10.1038/s41467-026-74044-6; PMC13402312.1; primary XML sha256:2910b3b1f75c432f2e71eaaa7c69f1ed0b08b62e9d01b6a0520f1943516bdf32; source/measurement watch only; no matched WAM panel admitted.",
-      "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted."
+      "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted.",
+      "dataset DOI10.5281/zenodo.14335473; sourceZIP SHA2569f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6; Farr2025samecohort as R4, not independent replication; raw sources external.",
+      "doi:10.1093/jeb/voag096; PMID42832043; abstract/metadata only; eukaryote MA source, not WAM or native bacterial calibration.",
+      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli\u2013P1 gene-exchange lead, no SBW25 transfer."
     ],
     "next_action": "Audit the licensed declared SBW25 native/reporter figure-data archive; authenticate denominators and transfer limits before any biological inference."
   }

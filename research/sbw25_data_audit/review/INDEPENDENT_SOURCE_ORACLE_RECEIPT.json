@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "method": "Separate raw-ZIP XML cell reader, exact averaged Ct differences, source primer-to-well mapping, direct string-anchor sequence diagnostic, and independently simplified source-integer frequency expression.",
+  "dataset_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+  "derived_source_sha256": "519637b3dbe85747392d8f377cbbe6f91d47180e528f08ad1e9a2ba10729d2ef",
+  "qPCR_replicates_mapped": 12,
+  "qPCR_primer_direction": "proxy=2^(Ct5prime-Ct3prime); log2 proxy=Ct5prime-Ct3prime",
+  "qPCR_mapping": [
+    {
+      "background": "SBW25",
+      "replicate": 1,
+      "calculation_row": 52,
+      "primer_5prime_well": "B7",
+      "primer_3prime_well": "C7",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "608723449707031/400000000000000"
+    },
+    {
+      "background": "SBW25",
+      "replicate": 2,
+      "calculation_row": 60,
+      "primer_5prime_well": "B8",
+      "primer_3prime_well": "C8",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "1719224166870117/400000000000000"
+    },
+    {
+      "background": "SBW25",
+      "replicate": 3,
+      "calculation_row": 68,
+      "primer_5prime_well": "B9",
+      "primer_3prime_well": "C9",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "2098808765411377/500000000000000"
+    },
+    {
+      "background": "SBW25",
+      "replicate": 4,
+      "calculation_row": 8,
+      "primer_5prime_well": "F1",
+      "primer_3prime_well": "G1",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "1452096176147461/400000000000000"
+    },
+    {
+      "background": "SBW25",
+      "replicate": 5,
+      "calculation_row": 16,
+      "primer_5prime_well": "F2",
+      "primer_3prime_well": "G2",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "3255200386047363/1000000000000000"
+    },
+    {
+      "background": "SBW25",
+      "replicate": 6,
+      "calculation_row": 24,
+      "primer_5prime_well": "F3",
+      "primer_3prime_well": "G3",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "8016551971435547/2000000000000000"
+    },
+    {
+      "background": "psrA",
+      "replicate": 1,
+      "calculation_row": 32,
+      "primer_5prime_well": "F4",
+      "primer_3prime_well": "G4",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "15347/8192"
+    },
+    {
+      "background": "psrA",
+      "replicate": 2,
+      "calculation_row": 40,
+      "primer_5prime_well": "F5",
+      "primer_3prime_well": "G5",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "407760238647461/400000000000000"
+    },
+    {
+      "background": "psrA",
+      "replicate": 3,
+      "calculation_row": 48,
+      "primer_5prime_well": "F6",
+      "primer_3prime_well": "G6",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "-783068656921387/1000000000000000"
+    },
+    {
+      "background": "psrA",
+      "replicate": 4,
+      "calculation_row": 56,
+      "primer_5prime_well": "F7",
+      "primer_3prime_well": "G7",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "597752571105957/500000000000000"
+    },
+    {
+      "background": "psrA",
+      "replicate": 5,
+      "calculation_row": 64,
+      "primer_5prime_well": "F8",
+      "primer_3prime_well": "G8",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "522140121459961/400000000000000"
+    },
+    {
+      "background": "psrA",
+      "replicate": 6,
+      "calculation_row": 72,
+      "primer_5prime_well": "F9",
+      "primer_3prime_well": "G9",
+      "log2_proxy_Ct5prime_minus_Ct3prime_exact": "848255157470703/1000000000000000"
+    }
+  ],
+  "geometric_mean_linear_proxy_ratio": 5.960326212884817,
+  "arithmetic_mean_linear_proxy_ratio": 6.148793711731191,
+  "sequence_records_diagnostically_checked": 190,
+  "culture_groups_checked": 24,
+  "source_frequency_exact_values_compared": 24,
+  "sequence_genotypes_overwritten": false,
+  "MSS_fit_performed": false,
+  "confidence_intervals_or_biological_inference_performed": false,
+  "new_sampling_law_admitted": false
+}

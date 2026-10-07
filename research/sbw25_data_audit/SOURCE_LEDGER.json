@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "article": {
+    "doi": "10.1371/journal.pgen.1011572",
+    "authors": [
+      "Andrew D. Farr",
+      "Christina Vasileiou",
+      "Peter A. Lind",
+      "Paul B. Rainey"
+    ],
+    "fulltext_snapshot_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+    "fulltext_acquired_in_prior_round": true,
+    "raw_text_redistributed": false
+  },
+  "dataset": {
+    "record_id": 14335473,
+    "concept_record_id": 12705546,
+    "doi": "10.5281/zenodo.14335473",
+    "title": "Supplementary data for 'An extreme mutational hotspot in nlpD depends on transcriptional induction of rpoS'",
+    "creator": "Andrew D. Farr",
+    "publication_date": "2024-12-09",
+    "version_label": null,
+    "license_id": "cc-by-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "files": [
+      {
+        "name": "Zenodo data files 09 dec 2024.zip",
+        "bytes": 7880751,
+        "reported_checksum": "md5:c07253f941ce89ceb594187255ba085a",
+        "downloaded_checksum_verified": true
+      }
+    ],
+    "metadata_response_sha256": "0881feb45e454b0ef2bdf5bca1d551995372abd547abadd7c0a1e54ee574d6ee",
+    "latest_version_endpoint_checked": false,
+    "pinned_record_only": true
+  },
+  "actual_registry_fields_resolved": 0,
+  "matched_WAM_panels_admitted": 0
+}

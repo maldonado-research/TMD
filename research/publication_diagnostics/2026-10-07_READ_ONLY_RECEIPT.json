@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-07T17:31:50.786505+00:00",
+  "user_facing_date": "2026-10-07",
+  "user_facing_timezone": "America/Los_Angeles",
+  "read_only": true,
+  "http_methods_used": [
+    "GET"
+  ],
+  "credential_metadata": {
+    "ZENODO_TOKEN_present": true,
+    "ZENODO_ACCESS_TOKEN_present": false,
+    "selected_variable": "ZENODO_TOKEN",
+    "credential_values_saved": false,
+    "authorization_destination": "zenodo.org"
+  },
+  "canonical_concept_doi": "10.5281/zenodo.23068055",
+  "requests": [
+    {
+      "name": "labelled_0_5_0_public",
+      "path": "/api/records/23075312",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 13715,
+      "response_sha256": "3facb42daf64261d47d78078fc6fd04592191e0c758a7cfca23fd5cd62b67c4d",
+      "content_type": "application/json"
+    },
+    {
+      "name": "former_draft_public",
+      "path": "/api/records/23113326",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 13694,
+      "response_sha256": "5341aabe006b1eb03b85373763425e922edf2164b4e1389687670dea08f15045",
+      "content_type": "application/json"
+    },
+    {
+      "name": "latest_from_former_draft",
+      "path": "/api/records/23113326/versions/latest",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 301,
+      "response_bytes": 99,
+      "response_sha256": "657640885fa256132302168c6f2102a9b1110c713cd69f1ff9953c230c1eaa40",
+      "content_type": "application/json",
+      "redirect": "https://zenodo.org/api/records/23113326"
+    },
+    {
+      "name": "latest_from_former_draft",
+      "path": "/api/records/23113326",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 1,
+      "status": 200,
+      "response_bytes": 13694,
+      "response_sha256": "5341aabe006b1eb03b85373763425e922edf2164b4e1389687670dea08f15045",
+      "content_type": "application/json"
+    },
+    {
+      "name": "concept_latest",
+      "path": "/api/records/23068055/versions/latest",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 301,
+      "response_bytes": 99,
+      "response_sha256": "657640885fa256132302168c6f2102a9b1110c713cd69f1ff9953c230c1eaa40",
+      "content_type": "application/json",
+      "redirect": "https://zenodo.org/api/records/23113326"
+    },
+    {
+      "name": "concept_latest",
+      "path": "/api/records/23113326",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 1,
+      "status": 200,
+      "response_bytes": 13694,
+      "response_sha256": "5341aabe006b1eb03b85373763425e922edf2164b4e1389687670dea08f15045",
+      "content_type": "application/json"
+    },
+    {
+      "name": "labelled_0_5_0_owned",
+      "path": "/api/deposit/depositions/23075312",
+      "authenticated": true,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 12648,
+      "response_sha256": "48875ea3e4b366c905bb5df70652d25f0f97cabff8ca31d440aa6f1d98c064d5",
+      "content_type": "application/json"
+    },
+    {
+      "name": "former_draft_owned",
+      "path": "/api/deposit/depositions/23113326",
+      "authenticated": true,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 12628,
+      "response_sha256": "467df77068f4dc617104af7d38f0a825396b1368e7cbf8e9100fb537c0c9b349",
+      "content_type": "application/json"
+    },
+    {
+      "name": "owned_family_search",
+      "path": "/api/deposit/depositions",
+      "authenticated": true,
+      "method": "GET",
+      "redirect_index": 0,
+      "query": {
+        "q": "conceptrecid:23068055",
+        "size": 100,
+        "all_versions": "true"
+      },
+      "status": 200,
+      "response_bytes": 33721,
+      "response_sha256": "b8f300eadda89e57dae0b81bccd0214c2708da094e921bbb271b86fe80506ea3",
+      "content_type": "application/json"
+    },
+    {
+      "name": "latest_linked_deposition",
+      "path": "/api/deposit/depositions/23113326",
+      "authenticated": true,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 12628,
+      "response_sha256": "467df77068f4dc617104af7d38f0a825396b1368e7cbf8e9100fb537c0c9b349",
+      "content_type": "application/json"
+    },
+    {
+      "name": "historical_software_public",
+      "path": "/api/records/22398093",
+      "authenticated": false,
+      "method": "GET",
+      "redirect_index": 0,
+      "status": 200,
+      "response_bytes": 9824,
+      "response_sha256": "15ae8cf3b7392099faac6e57bedd88b36949e848c45c284f4ad33e1265350edc",
+      "content_type": "application/json"
+    }
+  ],
+  "records": {
+    "labelled_0_5_0_public": {
+      "id": 23075312,
+      "conceptrecid": "23068055",
+      "owner": null,
+      "owners": [
+        {
+          "id": "1386319"
+        }
+      ],
+      "submitted": true,
+      "state": "done",
+      "version": "0.5.0",
+      "doi": "10.5281/zenodo.23075312",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-01T05:54:47.031704+00:00",
+      "modified": "2026-10-01T05:54:47.519587+00:00",
+      "publication_date": "2026-09-30",
+      "links": {
+        "self": "https://zenodo.org/api/records/23075312",
+        "latest": "https://zenodo.org/api/records/23075312/versions/latest",
+        "latest_html": "https://zenodo.org/records/23075312/latest",
+        "versions": "https://zenodo.org/api/records/23075312/versions"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "former_draft_public": {
+      "id": 23113326,
+      "conceptrecid": "23068055",
+      "owner": null,
+      "owners": [
+        {
+          "id": "1386319"
+        }
+      ],
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "doi": "10.5281/zenodo.23113326",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-03T03:32:55.804990+00:00",
+      "modified": "2026-10-03T03:32:56.343847+00:00",
+      "publication_date": "2026-10-03",
+      "links": {
+        "self": "https://zenodo.org/api/records/23113326",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+        "latest_html": "https://zenodo.org/records/23113326/latest",
+        "versions": "https://zenodo.org/api/records/23113326/versions"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "latest_from_former_draft": {
+      "id": 23113326,
+      "conceptrecid": "23068055",
+      "owner": null,
+      "owners": [
+        {
+          "id": "1386319"
+        }
+      ],
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "doi": "10.5281/zenodo.23113326",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-03T03:32:55.804990+00:00",
+      "modified": "2026-10-03T03:32:56.343847+00:00",
+      "publication_date": "2026-10-03",
+      "links": {
+        "self": "https://zenodo.org/api/records/23113326",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+        "latest_html": "https://zenodo.org/records/23113326/latest",
+        "versions": "https://zenodo.org/api/records/23113326/versions"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "concept_latest": {
+      "id": 23113326,
+      "conceptrecid": "23068055",
+      "owner": null,
+      "owners": [
+        {
+          "id": "1386319"
+        }
+      ],
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "doi": "10.5281/zenodo.23113326",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-03T03:32:55.804990+00:00",
+      "modified": "2026-10-03T03:32:56.343847+00:00",
+      "publication_date": "2026-10-03",
+      "links": {
+        "self": "https://zenodo.org/api/records/23113326",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+        "latest_html": "https://zenodo.org/records/23113326/latest",
+        "versions": "https://zenodo.org/api/records/23113326/versions"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "labelled_0_5_0_owned": {
+      "id": 23075312,
+      "conceptrecid": "23068055",
+      "owner": 1386319,
+      "owners": null,
+      "submitted": true,
+      "state": "done",
+      "version": "0.5.0",
+      "doi": "10.5281/zenodo.23075312",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-01T05:54:47.031704+00:00",
+      "modified": "2026-10-01T05:54:47.519587+00:00",
+      "publication_date": "2026-09-30",
+      "links": {
+        "self": "https://zenodo.org/api/records/23075312",
+        "html": "https://zenodo.org/records/23075312",
+        "latest_draft": "https://zenodo.org/api/deposit/depositions/23075312",
+        "newversion": "https://zenodo.org/api/deposit/depositions/23075312/actions/newversion",
+        "latest": "https://zenodo.org/api/records/23075312/versions/latest",
+        "latest_html": "https://zenodo.org/records/23075312/latest"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "former_draft_owned": {
+      "id": 23113326,
+      "conceptrecid": "23068055",
+      "owner": 1386319,
+      "owners": null,
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "doi": "10.5281/zenodo.23113326",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-03T03:32:55.804990+00:00",
+      "modified": "2026-10-03T03:32:56.343847+00:00",
+      "publication_date": "2026-10-03",
+      "links": {
+        "self": "https://zenodo.org/api/records/23113326",
+        "html": "https://zenodo.org/records/23113326",
+        "latest_draft": "https://zenodo.org/api/deposit/depositions/23113326",
+        "newversion": "https://zenodo.org/api/deposit/depositions/23113326/actions/newversion",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+        "latest_html": "https://zenodo.org/records/23113326/latest"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "owned_family_search": [
+      {
+        "id": 23113326,
+        "conceptrecid": "23068055",
+        "owner": 1386319,
+        "owners": null,
+        "submitted": true,
+        "state": "done",
+        "version": null,
+        "doi": "10.5281/zenodo.23113326",
+        "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+        "created": "2026-10-03T03:32:55.804990+00:00",
+        "modified": "2026-10-03T03:32:56.343847+00:00",
+        "publication_date": "2026-10-03",
+        "links": {
+          "self": "https://zenodo.org/api/records/23113326",
+          "html": "https://zenodo.org/records/23113326",
+          "latest_draft": "https://zenodo.org/api/deposit/depositions/23113326",
+          "newversion": "https://zenodo.org/api/deposit/depositions/23113326/actions/newversion",
+          "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+          "latest_html": "https://zenodo.org/records/23113326/latest"
+        },
+        "files": [
+          {
+            "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+            "size": 90370,
+            "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+          },
+          {
+            "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+            "size": 312580,
+            "reported_md5": "836d215c73c14ae9c2077679bb522827"
+          },
+          {
+            "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+            "size": 397233,
+            "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+            "size": 800846,
+            "reported_md5": "6e2b390801a8b034daf861d13336121c"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+            "size": 557,
+            "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+            "size": 80657,
+            "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+          }
+        ]
+      },
+      {
+        "id": 23075312,
+        "conceptrecid": "23068055",
+        "owner": 1386319,
+        "owners": null,
+        "submitted": true,
+        "state": "done",
+        "version": "0.5.0",
+        "doi": "10.5281/zenodo.23075312",
+        "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+        "created": "2026-10-01T05:54:47.031704+00:00",
+        "modified": "2026-10-01T05:54:47.519587+00:00",
+        "publication_date": "2026-09-30",
+        "links": {
+          "self": "https://zenodo.org/api/records/23075312",
+          "html": "https://zenodo.org/records/23075312",
+          "latest_draft": "https://zenodo.org/api/deposit/depositions/23075312",
+          "newversion": "https://zenodo.org/api/deposit/depositions/23075312/actions/newversion",
+          "latest": "https://zenodo.org/api/records/23075312/versions/latest",
+          "latest_html": "https://zenodo.org/records/23075312/latest"
+        },
+        "files": [
+          {
+            "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+            "size": 90370,
+            "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+          },
+          {
+            "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+            "size": 312580,
+            "reported_md5": "836d215c73c14ae9c2077679bb522827"
+          },
+          {
+            "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+            "size": 397233,
+            "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+            "size": 800846,
+            "reported_md5": "6e2b390801a8b034daf861d13336121c"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+            "size": 557,
+            "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+          },
+          {
+            "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+            "size": 80657,
+            "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+          }
+        ]
+      },
+      {
+        "id": 23068056,
+        "conceptrecid": "23068055",
+        "owner": 1386319,
+        "owners": null,
+        "submitted": true,
+        "state": "done",
+        "version": "0.1.0",
+        "doi": "10.5281/zenodo.23068056",
+        "title": "Mutation by Natural Dominance: source-audited evidence, competing-risk diagnostics, and limits of mechanism identification",
+        "created": "2026-09-30T18:58:39.384541+00:00",
+        "modified": "2026-09-30T18:58:39.889155+00:00",
+        "publication_date": "2026-09-30",
+        "links": {
+          "self": "https://zenodo.org/api/records/23068056",
+          "html": "https://zenodo.org/records/23068056",
+          "latest_draft": "https://zenodo.org/api/deposit/depositions/23068056",
+          "newversion": "https://zenodo.org/api/deposit/depositions/23068056/actions/newversion",
+          "latest": "https://zenodo.org/api/records/23068056/versions/latest",
+          "latest_html": "https://zenodo.org/records/23068056/latest"
+        },
+        "files": [
+          {
+            "filename": "TMD_Zenodo_research_extension_0_1_0_SHA256SUMS.txt",
+            "size": 226,
+            "reported_md5": "84914811c3dccaecb4f49f96e0fce96e"
+          },
+          {
+            "filename": "TMD_research_extension_0.1.0_technical_report.pdf",
+            "size": 248248,
+            "reported_md5": "336674e618904225c9baf1ec179ff1f4"
+          },
+          {
+            "filename": "TMD_research_extension_0_1_0_2026-09-30.zip",
+            "size": 199304,
+            "reported_md5": "39e21e4ce67e5b70c41a934ca1bded85"
+          }
+        ]
+      }
+    ],
+    "latest_linked_deposition": {
+      "id": 23113326,
+      "conceptrecid": "23068055",
+      "owner": 1386319,
+      "owners": null,
+      "submitted": true,
+      "state": "done",
+      "version": null,
+      "doi": "10.5281/zenodo.23113326",
+      "title": "Mutation by Natural Dominance: finite-sample bounds for recovery-corrected route comparisons",
+      "created": "2026-10-03T03:32:55.804990+00:00",
+      "modified": "2026-10-03T03:32:56.343847+00:00",
+      "publication_date": "2026-10-03",
+      "links": {
+        "self": "https://zenodo.org/api/records/23113326",
+        "html": "https://zenodo.org/records/23113326",
+        "latest_draft": "https://zenodo.org/api/deposit/depositions/23113326",
+        "newversion": "https://zenodo.org/api/deposit/depositions/23113326/actions/newversion",
+        "latest": "https://zenodo.org/api/records/23113326/versions/latest",
+        "latest_html": "https://zenodo.org/records/23113326/latest"
+      },
+      "files": [
+        {
+          "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+          "size": 90370,
+          "reported_md5": "97c023f181aaa7ede53531426431c6cb"
+        },
+        {
+          "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+          "size": 312580,
+          "reported_md5": "836d215c73c14ae9c2077679bb522827"
+        },
+        {
+          "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+          "size": 397233,
+          "reported_md5": "a59aab62b8c73384cc88734ab49e4396"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+          "size": 800846,
+          "reported_md5": "6e2b390801a8b034daf861d13336121c"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+          "size": 557,
+          "reported_md5": "6d1cf73ed61785c5f175859825d31120"
+        },
+        {
+          "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+          "size": 80657,
+          "reported_md5": "b4d2fe23cd8192d2c334bd376e566a6a"
+        }
+      ]
+    },
+    "historical_software_public": {
+      "id": 22398093,
+      "conceptrecid": "17335714",
+      "owner": null,
+      "owners": [
+        {
+          "id": "1386319"
+        }
+      ],
+      "submitted": true,
+      "state": "done",
+      "version": "2.6.5",
+      "doi": "10.5281/zenodo.22398093",
+      "title": "Theory of Mutation by Natural Dominance (TMD) \u2014 v2.6.5: portable campaign execution and stricter result acceptance",
+      "created": "2026-09-30T16:46:45.511916+00:00",
+      "modified": "2026-09-30T16:46:46.054554+00:00",
+      "publication_date": "2026-09-05",
+      "links": {
+        "self": "https://zenodo.org/api/records/22398093",
+        "latest": "https://zenodo.org/api/records/22398093/versions/latest",
+        "latest_html": "https://zenodo.org/records/22398093/latest",
+        "versions": "https://zenodo.org/api/records/22398093/versions"
+      },
+      "files": [
+        {
+          "filename": "TMD_v2_6_5_Release_Note_2026-09-05.pdf",
+          "size": 5276,
+          "reported_md5": "4fb39962d6085bb1913826d9418a7b3f"
+        },
+        {
+          "filename": "TMD_v2_6_5_SHA256SUMS.txt",
+          "size": 214,
+          "reported_md5": "8f00bd76d40b89285507631a850492a2"
+        },
+        {
+          "filename": "TMD_v2_6_5_software_release_2026-09-05.zip",
+          "size": 155536,
+          "reported_md5": "7e30c327bf50e4416d7d1b7f7914b403"
+        }
+      ]
+    }
+  },
+  "automatic_github_archiving": {
+    "last_authoritative_handoff": "all_eight_disabled",
+    "fresh_browser_verification_performed": false,
+    "configuration_changes_performed": false
+  },
+  "write_operations_performed": [],
+  "reviewed_0_6_0_archive_checks": [
+    {
+      "path": "/workspace/TMD/TMD_methods_0_6_0_2026-10-02.zip",
+      "exists": true,
+      "bytes": 1277802,
+      "sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+      "matches_reviewed_candidate": true
+    },
+    {
+      "path": "/workspace/tmd-publication/final_methods_0_6_0/TMD_methods_0_6_0_2026-10-02.zip",
+      "exists": true,
+      "bytes": 1277802,
+      "sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+      "matches_reviewed_candidate": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/maldonado-research/TMD/471d237bb6cbec403dfb6d0f3ee4e9c92c8f27ef/TMD_methods_0_6_0_2026-10-02.zip",
+      "status": 200,
+      "bytes": 1277802,
+      "sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+      "matches_reviewed_candidate": true
+    }
+  ],
+  "conclusions": {
+    "latest_public_record": 23113326,
+    "latest_public_version": null,
+    "latest_public_family": "23068055",
+    "labelled_0_5_0_record_verified": true,
+    "former_draft_is_published": true,
+    "former_draft_file_inventory_matches_labelled_0_5_0": true,
+    "file_comparison_basis": "reported filenames, byte sizes and MD5 values; six inherited files not re-downloaded",
+    "linked_unpublished_draft_id": null,
+    "latest_has_reviewed_0_6_0_archive": false,
+    "authenticated_latest_owner": 1386319,
+    "historical_software_family": "17335714",
+    "publication_actor": "unknown; no publication or write performed by this task",
+    "safe_next_action": "Coordinate staging in existing DOI family with publishing session. Reuse a currently linked unpublished draft if present; otherwise begin a new version only from the freshly verified latest published record. Verify saved metadata plus filename, size and checksum before publication. Preserve records and disabled automatic archiving."
+  }
+}

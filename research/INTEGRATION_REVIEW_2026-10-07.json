@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "review_type": "root_focused_integration_and_public_scope_check",
+  "base_commit": "471d237bb6cbec403dfb6d0f3ee4e9c92c8f27ef",
+  "changed_paths": 44,
+  "json_files_parsed": 21,
+  "local_markdown_links_checked": 113,
+  "manifest_entries_checked": 43,
+  "accepted_source_core_hashes_checked": 10,
+  "prior_round_receipts_preserved": 5,
+  "study_registry_unchanged_26_unresolved_inputs": true,
+  "old_budgets_and_publication_policy_preserved": true,
+  "credential_values_in_files": false,
+  "private_raw_files_published": false,
+  "reviewed_0_6_0_zip_unchanged": true,
+  "verified_unpublished_draft": 23219776,
+  "metadata_or_new_upload_verified": false,
+  "source_audit_checks": 986,
+  "biological_confirmation": false
+}

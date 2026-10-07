@@ -127,3 +127,7 @@ The following are proposed TMD analyses, not claims made by the cited authors.
 ## Evidence boundary and priority
 
 The strongest near-term priority is **one reproducible baseline audit plus a prespecified external test**, with explicit negative outcomes allowed. A strengthened mutation baseline may reduce TMD's reported residual. That would be useful progress: it identifies what remains to explain and avoids claiming novelty for already measured supply effects. The most valuable possible TMD contribution is prospectively predicting held-out route distributions with a narrowly defined, falsifiable correction and calibrated uncertainty. None of the reviewed papers proves that correction, supplies a quantum mechanism for it, or connects TMD to a unified theory of physics.
+
+## Source/data update — 7 October 2026
+
+The [authenticated SBW25 figure-data audit](research/sbw25_data_audit/README.md) reproduces published source arithmetic while retaining sampling, sequencing and native/reporter transfer gaps. Its [methods assessment](research/sbw25_data_audit/METHODS_RECOMMENDATION.md) reads Foster 2006 in full and Hall 2009 at abstract/metadata depth only; HTTP200 browser-check HTML is not full-text access. A separate [bounded new-index watch](research/source_watch/2026-10-07/README.md) reads two October 2026 abstracts, with exact indexing/publication distinctions. Neither is a systematic review, an independent new cohort or TMD validation.

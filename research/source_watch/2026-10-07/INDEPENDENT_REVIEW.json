@@ -1,0 +1,36 @@
+{
+  "review_status": "accepted_with_abstract_only_scope",
+  "reviewed_at_utc": "2026-10-07T17:57:22.116629+00:00",
+  "new_network_requests_by_reviewer": 0,
+  "record_response_sha256": "403def9ce61775456ec3d5fc517f7d2da6d6a1eb7a5173073241586e32a8a3dc",
+  "source_watch_receipt_sha256": "1da171fa625b1cf016a7d4494aa42ec3c9380f729c436844f6101f9ac48cf5e1",
+  "bounded_query_scope_verified": true,
+  "indexing_date_distinguished_from_publication_date": true,
+  "records": [
+    {
+      "pmid": "42832043",
+      "doi": "10.1093/jeb/voag096",
+      "publication_date": "2026-10-05",
+      "abstract_sha256": "ea40079ddc5df2aaa548363c2e201551a282ceeeaeb49fb6eeec5a5fbe7dbb7f",
+      "inspection_depth": "PubMed record and abstract only",
+      "assessment": "Authors report10MA lines,153mutations and false-negative-corrected nucleotide rate in a unicellular eukaryote; no native bacterial/WAM parameter transfer or independently verified assay law.",
+      "full_text_read": false,
+      "data_or_code_acquired": false,
+      "matched_WAM_panel_admitted": false
+    },
+    {
+      "pmid": "42827080",
+      "doi": "10.1093/molbev/msag238",
+      "publication_date": "2026-10-03",
+      "abstract_sha256": "c269f3c5611f26d46e417bbf4877741393534d12e209ae7d78dddd6f7f305b81",
+      "inspection_depth": "PubMed record and abstract only",
+      "assessment": "Authors report CRISPR\u2013phage-supported homologous recombination in stationary-phaseE.coli, including a context-specific up-to-two-orders gene-flow comparison. A genetic-variation source to distinguish from de-novo replication mutation, without inferred SBW25 occurrence or parameter transfer.",
+      "full_text_read": false,
+      "data_or_code_acquired": false,
+      "matched_WAM_panel_admitted": false
+    }
+  ],
+  "new_matched_panels": 0,
+  "new_causal_TMD_evidence": false,
+  "recommendation": "Retain as two abstract-level screening candidates; require primary full-text and measurement-contract assessment before incorporation. Recombination is an established alternative source of inherited variation, not a TMD-specific mechanism."
+}

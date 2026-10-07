@@ -40,9 +40,9 @@
       "question": "Has a new primary study, source version or accessible dataset changed the mutation-supply, establishment, drift or recovery alternatives?",
       "deliverable": "A deduplicated primary-source literature/data watch with exact publication/version status and one useful next question, or an honest no_change result.",
       "falsifier_or_boundary": "An unchanged DOI/cohort or another copy of an inspected source is not new independent evidence.",
-      "latest_completed_occurrence": "R000004-20261003",
-      "latest_report": "../source_watch/2026-10-02/README.md",
-      "latest_result": "Three primary fulltext assessments; two unchanged preprint metadata snapshots; zero admitted WAM panels."
+      "latest_completed_occurrence": "R000004-20261007",
+      "latest_report": "../source_watch/2026-10-07/README.md",
+      "latest_result": "Two newly indexed PubMed abstracts/metadata screened; no full-text/data analysis or admitted WAM panel."
     },
     {
       "id": "R000005",
@@ -58,14 +58,17 @@
     {
       "id": "R000006",
       "priority": 6,
-      "status": "queued",
+      "status": "completed",
       "question": "What do the declared SBW25 native/reporter hotspot figure data actually measure, and can they constrain supply-assay transport?",
       "deliverable": "Public licensed ZIP acquisition checksum/inventory; culture/colony/sequence/genotype/denominator ledger and reproducible eligible summaries, or exact missing-input limits. No WAM admission without its full contract.",
       "falsifier_or_boundary": "Reporter colony frequency and selected cell-chaining counts cannot become native per-division supply or independent WAM winner trials.",
       "primary_article_doi": "10.1371/journal.pgen.1011572",
       "declared_dataset_doi": "10.5281/zenodo.14335473",
       "maximum_download_bytes": 20971520,
-      "raw_redistribution": "not_default; inspect licenses/privacy and publish original derived analysis only when justified."
+      "raw_redistribution": "not_default; inspect licenses/privacy and publish original derived analysis only when justified.",
+      "completion_scope": "exploratory_public_data_audit",
+      "result": "Authenticated licensed figure archive; 24 culture frequencies, supplied time-course/competition/transcript arithmetic and sequence bookkeeping replayed. Ten measurement gaps remain; no matched WAM panel admitted.",
+      "report": "../sbw25_data_audit/README.md"
     },
     {
       "id": "R000005-NUMERIC",
@@ -78,6 +81,24 @@
       "result": "20tests and30887independentexactassertions passed; exampleinconclusive;26actualstudyfields remainnull.",
       "report": "../certified_score/README.md",
       "falsifier_or_boundary": "Unsupported sampling laws, zero qualification or resource caps yield no certificate; a score certificate does not identify a causal mutation mechanism."
+    },
+    {
+      "id": "R000007",
+      "priority": 7,
+      "status": "queued",
+      "question": "Can the actual reporter confirmation pool, sequence missingness and FALCOR/MSS input/model contract be authenticated?",
+      "deliverable": "Source-grounded input, partial-plating, growth and sampling contract; an independently reviewed offline rate fit only if justified, otherwise exact missing prerequisites.",
+      "falsifier_or_boundary": "Terminal frequencies, fractional corrected CFUs and selected colony counts cannot silently become mutational births or fixed independent trials.",
+      "maximum_download_bytes": 20971520
+    },
+    {
+      "id": "R000008",
+      "priority": 8,
+      "status": "queued",
+      "question": "Does the newly indexed stationary-phase recombination study change the justified scope of mutation-only route entry?",
+      "deliverable": "Primary full-text methods/cohort assessment of DOI10.1093/molbev/msag238 with mutation-versus-transfer units and genotype/ecology limits.",
+      "falsifier_or_boundary": "An E.coli\u2013P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "maximum_download_bytes": 20971520
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "status": "unresolved_measurement_contract",
+  "gaps": [
+    {
+      "id": "R6-G01",
+      "name": "confirmation_pool",
+      "observed_or_missing": "Figure 4A occasion 1, SBW25 replicate 5, records H=7 counted candidates and M=8 sequenced colonies.",
+      "required_next_measurement_or_provenance": "Obtain the closed selected-colony pool, sample identities and sampling rules. Finite-population or independent binomial sampling is unverified.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G02",
+      "name": "sequence_missingness",
+      "observed_or_missing": "Figure 4A occasion 1 workbook totals 95 sequenced colonies, while 94 FASTQ records are available; MPB38311 colony 8 is absent.",
+      "required_next_measurement_or_provenance": "Acquire the sample mapping, resequencing or missingness explanation. Do not infer nonexistence or impute a genotype.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G03",
+      "name": "native_isolate_mapping",
+      "observed_or_missing": "Native Figure 1 unmodified-cohort files have 142 reads versus the article's 139 cell-chaining outcomes; Q189W has 76 paired reads for 38 isolate labels.",
+      "required_next_measurement_or_provenance": "Map populations, positive and negative screens, isolates, duplicate reads and failed reads. Preserve the 153-population frame without creating WAM winners.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G04",
+      "name": "adaptive_confirmation",
+      "observed_or_missing": "S4 occasion 2, approximately 16 h replicate 2, has 32 sequenced colonies after 24 follow-ups. One contaminated plate is excluded at the earliest time.",
+      "required_next_measurement_or_provenance": "Preserve the initial and follow-up sampling and plate-exclusion rules. A fixed eight-colony confirmation-binomial analysis is unsupported.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G05",
+      "name": "MSS_input_contract",
+      "observed_or_missing": "Author rates are reported; FALCOR input conversion, exact model settings and the interval recipe were not replayed.",
+      "required_next_measurement_or_provenance": "Specify terminal population estimates, plating fractions, confirmation uncertainty, growth, fitness and timing before an offline fit.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G06",
+      "name": "reporter_fitness",
+      "observed_or_missing": "Supplied S2 coefficients vary by marker and occasion; raw cytometry gates were not reprocessed.",
+      "required_next_measurement_or_provenance": "Use marker controls, measured clone growth and model sensitivity. Exact neutrality is unestablished.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G07",
+      "name": "transcript_proxy_units",
+      "observed_or_missing": "Figure 4B log2 proxy mapping is reproduced; caption approximately fourfold and main-text approximately sixfold statements are retained.",
+      "required_next_measurement_or_provenance": "Preserve PCR efficiency and normalization assumptions, and clarify the caption. A ratio of logarithmic means is not a linear fold change.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G08",
+      "name": "native_reporter_transport",
+      "observed_or_missing": "The attTn7 reporter separates the promoter from fitness-altering nlpD. Native cell-chaining isolates were selected in a delta-wss background; reporter backgrounds are SBW25 and delta-psrA.",
+      "required_next_measurement_or_provenance": "Authenticate matched locus, genotype and growth-phase mutation supply, selection and detection. Do not transfer reporter rates directly.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G09",
+      "name": "common_race_denominator",
+      "observed_or_missing": "Acquired data provide reporter CFUs and selected cell-chaining isolates, without a common-background W/A/M trial ledger.",
+      "required_next_measurement_or_provenance": "Measure mutually exclusive route qualification and Other, no-qualified and missing endpoints with common founders and frozen comparators.",
+      "resolved": false
+    },
+    {
+      "id": "R6-G10",
+      "name": "registered_study_inputs",
+      "observed_or_missing": "None of the 26 actual study fields is resolved.",
+      "required_next_measurement_or_provenance": "Resolve assay, genotype, denominator, transport, partner and founder-law contracts; then choose precision and power and register before confirmation.",
+      "resolved": false
+    }
+  ],
+  "study_registry_fields_filled": 0,
+  "matched_WAM_panels_admitted": 0,
+  "new_biological_confirmation": false
+}

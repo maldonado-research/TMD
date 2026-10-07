@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "python_version": "3.12.14",
+  "implementation_dependencies": "Python standard library only",
+  "zip_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+  "script_sha256": "0b9faa6c440b4c6232b0044e9c8cb3c8226422ec476fae0523c2c5e5fc35122c",
+  "derived_output_sha256": "519637b3dbe85747392d8f377cbbe6f91d47180e528f08ad1e9a2ba10729d2ef",
+  "deterministic_replay_byte_identical": true,
+  "checks": {
+    "figure4A_cached_values_and_plot": 504,
+    "figure4A_expanded_formula_text": 144,
+    "timecourse_arithmetic": 144,
+    "competition_coefficients_from_supplied_ratios": 96,
+    "transcript_proxy_arithmetic_and_mapping": 98,
+    "total_counted_source_checks": 986,
+    "research_member_hashes": 28,
+    "FASTQ_files_structurally_verified": 11,
+    "FASTQ_read_records": 711
+  },
+  "offline_downloader_transport_replay": {
+    "cached_responses": 2,
+    "output_zip_byte_identical": true,
+    "authorization_headers_used": false,
+    "actual_extra_network_requests": 0
+  },
+  "live_acquisition": "two GET requests recorded separately; newly packaged downloader was tested against their cached responses, not another live download",
+  "not_run": [
+    "FALCOR/MSS mutation-rate fit",
+    "inferential confidence intervals or significance tests",
+    "raw cytometry gating",
+    "qPCR fluorescence/efficiency fit",
+    "native hotspot sequence-based mutation-rate estimation",
+    "registered experiment",
+    "biological WAM confirmation"
+  ],
+  "matched_WAM_panels_admitted": 0,
+  "actual_study_registry_fields_filled": 0,
+  "actual_registry_readback": {
+    "relative_repository_path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+    "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "actual_study_fields": 26,
+    "all_still_null": true,
+    "registry_modified_by_this_audit": false
+  },
+  "review_corrections_applied": [
+    "Individual transformants and repeated occasions do not establish independent construction events.",
+    "J is culture dilution fraction; total plated fraction requires volume and culture size.",
+    "Explicit sample-setup primer mapping verifies Ct3prime-Ct5prime and proxy2^(Ct5prime-Ct3prime).",
+    "Author attribution checked against primary author contributors; editor excluded."
+  ],
+  "packaged_downloader_sha256": "3e0a3b4728dcc928b67ac09248333a3ec7717c3790af66b632b2f5cf8f146d9e"
+}
