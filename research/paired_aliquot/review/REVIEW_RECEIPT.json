@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "review_kind": "independent_internal_marked_count_mathematics_and_design_review",
+  "review_date": "2026-10-07",
+  "reviewed_core_files_sha256": {
+    "paired_aliquot.py": "a3a1f572501582c93b0030d789827f1f7e55d06ea1e6ce7ceaccbed5f6c50f4a",
+    "verify_benchmarks.py": "9fd3989f5f78f903f3f42dbb5e5601babed6925a36cfdfe4234906ca6858c849",
+    "BENCHMARKS.json": "b7cf5fa37d7c752406b7655a980f83962c969c5d36bcded1eee64ebc474f64b7",
+    "README.md": "f33fcf5b1f24dc4ddb8200e34f09fb89a4892aa3baff8eeee16b8b2f21062a3d",
+    "LICENSE": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca"
+  },
+  "independent_oracle_checks": {
+    "cell_assignment_tables": 84,
+    "cell_assignments_enumerated": 4374,
+    "marked_probability_entries_compared": 838,
+    "compound_coefficients_vs_jump_partitions": 3780,
+    "finite_moment_and_void_fields": 1296,
+    "independent_culture_coefficients": 2160,
+    "exact_counterexample_assertions": 18,
+    "extreme_32bit_input_assertions": 24
+  },
+  "assignment_states_are_enumerated_not_independent_biological_tests": true,
+  "producer_benchmark_checks": {
+    "joint_PMF_normalization": 60,
+    "exact_clone_PGF_identities": 360,
+    "recurrence_vs_exp_series_coefficients": 5040,
+    "union_thinning_coefficients": 630,
+    "conditional_binomial_split_coefficients": 2100,
+    "invalid_input_guards": 18
+  },
+  "producer_benchmark_replay_byte_identical": true,
+  "independent_oracles": [
+    "Exhaustive per-cell disjoint3-category/overlapping4-category assignment",
+    "Exact counts-of-positive-jump partition coefficient sums, not recurrence/convolution",
+    "Independent-culture axis-only Levy-intensity partitions",
+    "Exact finite moments/void exponents and extreme32-bit supported inputs"
+  ],
+  "accepted_qualifications": [
+    "General H split/union identities do not authenticate Poisson history, clone law, allele origin or total detection",
+    "Disjoint physical sampling versus overlapping recapture and separate cultures are distinct frames",
+    "Finite conditional negative covariance versus CP positive covariance do not identify a molecular mechanism",
+    "Infinite LD first/second moments diverge; finite covariance formulas are unavailable",
+    "Zero marks provide an explicit full-PGF birth-intensity ambiguity, not a universal strictly-positive-clone nonidentifiability claim",
+    "Input/support/count caps and public-pgf composition limits are disclosed; truncated coefficient triangle is not a complete PMF"
+  ],
+  "new_source_acquisitions": 0,
+  "biological_data_fitted": false,
+  "new_confidence_or_power_result": false,
+  "actual_study_fields_resolved": 0,
+  "prospective_forecast_or_error_budget_modified": false,
+  "new_theorem_or_priority_claim": false,
+  "external_peer_review_claimed": false,
+  "material_unresolved_review_issues": [],
+  "public_safe": "Original prose/code/exact synthetic outputs only; no raw article, private archive, machine metadata, outreach, credentials or publication writes.",
+  "reviewer_public_files_sha256": {
+    "PAIRED_ALIQUOT_METHODS_REVIEW.md": "fbdef581b3d5e1933bc57158cb31a9c813cb3b764858c8b28785b8090fa95b6a",
+    "DERIVATION_RECEIPT.json": "f95616a318c42ff72d51ebf8bba023aa6c416b873caee92d2ec36efd3ed14245",
+    "independent_assignment_partition_oracle.py": "edf264dc3106197d08819877fb85b2abc61ad1779028448dfd8e298573a051c8",
+    "INDEPENDENT_ORACLE_RECEIPT.json": "81b171013210f1b417601b67d0569a8b12c9430cec8e45e40a54d06e15e0aada"
+  },
+  "verification_assertion_guards": {
+    "producer_CLI_optimized_launch": "exit1 before benchmark success",
+    "producer_programmatic_benchmarks_optimized_launch": "RuntimeError before verification",
+    "independent_oracle_CLI_optimized_launch": "exit1 before verification",
+    "all_three_negative_launches_tested": true,
+    "normal_exact_oracle_replay": "PASS unchanged numeric checks",
+    "normal_producer_benchmark_byte_replay": "PASS"
+  },
+  "verification_integrity_only_update": "Assertion guards prevent -O/-OO from reporting disabled-assertion verification; paired-model calculations and BENCHMARKS.json are unchanged."
+}

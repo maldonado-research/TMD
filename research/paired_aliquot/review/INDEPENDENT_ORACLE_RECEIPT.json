@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "scope": "independent exact finite synthetic assignment and positive-jump-partition oracles",
+  "checks": {
+    "cell_assignment_tables": 84,
+    "cell_assignments_enumerated": 4374,
+    "marked_probability_entries_compared": 838,
+    "compound_coefficients_vs_jump_partitions": 3780,
+    "finite_moment_and_void_fields": 1296,
+    "independent_culture_coefficients": 2160,
+    "exact_counterexample_assertions": 18,
+    "extreme_32bit_input_assertions": 24
+  },
+  "implementation_sha256": "a3a1f572501582c93b0030d789827f1f7e55d06ea1e6ce7ceaccbed5f6c50f4a",
+  "three_frame_counterexample": {
+    "disjoint": {
+      "negative_log_P00": "3/4",
+      "covariance": "1/8"
+    },
+    "overlapping": {
+      "negative_log_P00": "175/256",
+      "covariance": "1/4"
+    },
+    "independent_cultures": {
+      "negative_log_P00": "7/8",
+      "covariance": "0"
+    }
+  },
+  "K1_conditional_middle_given_total2": {
+    "disjoint": "1/2",
+    "overlapping": "25/34"
+  },
+  "zero_mark_full_PGF_identity": "1*(u^2-1)=2*((1+u^2)/2-1)",
+  "mixed_Poisson_counterexample": {
+    "Lambda_values": [
+      "0",
+      "3"
+    ],
+    "weights": [
+      "1/3",
+      "2/3"
+    ],
+    "E_R": "2",
+    "Var_R": "4",
+    "paired_covariance_p_quarter": "1/8",
+    "full_PGF_equal_to_K2_CP": false,
+    "proof_of_inequality": "CP K2 has probability(R=1)=0; mixture has probability(R=1)=2 exp(-3)>0."
+  },
+  "new_source_acquisitions": 0,
+  "biological_observations_or_fit": false,
+  "statistical_tests_or_confidence_intervals": false,
+  "new_theorem_or_priority_claim": false,
+  "actual_study_fields_resolved": 0,
+  "reviewer_script_sha256": "edf264dc3106197d08819877fb85b2abc61ad1779028448dfd8e298573a051c8"
+}

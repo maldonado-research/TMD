@@ -1,0 +1,35 @@
+{
+  "public_files": [
+    "BENCHMARKS.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "README.md",
+    "VERIFICATION_RECEIPT.json",
+    "paired_aliquot.py",
+    "review/DERIVATION_RECEIPT.json",
+    "review/INDEPENDENT_ORACLE_RECEIPT.json",
+    "review/PAIRED_ALIQUOT_METHODS_REVIEW.md",
+    "review/REVIEW_RECEIPT.json",
+    "review/independent_assignment_partition_oracle.py",
+    "verify_benchmarks.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "files_sha256": {
+    "BENCHMARKS.json": "b7cf5fa37d7c752406b7655a980f83962c969c5d36bcded1eee64ebc474f64b7",
+    "LICENSE": "c6366d2f224493e53568b8f988a15ace4a2c0f1c8f28a145d2aa07ee02124dca",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "e97971e0ff0e61cb4770dea2d11d22eec4f22d6b1e135362f600549057a0e590",
+    "README.md": "f33fcf5b1f24dc4ddb8200e34f09fb89a4892aa3baff8eeee16b8b2f21062a3d",
+    "VERIFICATION_RECEIPT.json": "b5edb27c21c9e434d4d95acdb39149f3ec080b450c04897e6c2fbe8b2cc0d193",
+    "paired_aliquot.py": "a3a1f572501582c93b0030d789827f1f7e55d06ea1e6ce7ceaccbed5f6c50f4a",
+    "review/DERIVATION_RECEIPT.json": "f95616a318c42ff72d51ebf8bba023aa6c416b873caee92d2ec36efd3ed14245",
+    "review/INDEPENDENT_ORACLE_RECEIPT.json": "81b171013210f1b417601b67d0569a8b12c9430cec8e45e40a54d06e15e0aada",
+    "review/PAIRED_ALIQUOT_METHODS_REVIEW.md": "fbdef581b3d5e1933bc57158cb31a9c813cb3b764858c8b28785b8090fa95b6a",
+    "review/REVIEW_RECEIPT.json": "33b378d8f118954fed45e413489f312b537e90cf1cdd761b411396309b423bc5",
+    "review/independent_assignment_partition_oracle.py": "edf264dc3106197d08819877fb85b2abc61ad1779028448dfd8e298573a051c8",
+    "verify_benchmarks.py": "9fd3989f5f78f903f3f42dbb5e5601babed6925a36cfdfe4234906ca6858c849"
+  },
+  "public_content": "Original finite synthetic code, notes, derivation and independent review; no raw or private sources.",
+  "source_acquisitions": 0,
+  "biological_fit": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_XML_sha256": "937c7eded441b32eea42777d703647965e6090ccb5850017f2b5b6cbd4ea53c2",
+  "source_ZIP_sha256": "9f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6",
+  "source_rows": 24,
+  "source_quantity_vectors": 16,
+  "exact_vector_digest_range_and_integrality_checks": 80,
+  "reported_rate_interval_unit_source_checks": 2,
+  "noninteger_candidate_pool_estimates_by_background": {
+    "SBW25 attTn7::nlpD-kan": 9,
+    "SBW25 deltapsrA attTn7::nlpD-kan": 0
+  },
+  "actual_historical_submission_authenticated": false,
+  "Excel_cached_decimal_vectors_hashed": false,
+  "new_source_acquisitions": 0,
+  "biological_fit_or_confidence_interval_reproduction": false,
+  "actual_study_fields_resolved": 0,
+  "raw_source_exported": false,
+  "reviewer_script_sha256": "d83922567edced890093d9e2ca741e458a2bf18bf5dc720a9685cdf2a81668c8"
+}
