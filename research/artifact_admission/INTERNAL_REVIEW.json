@@ -1,0 +1,53 @@
+{
+  "status": "accepted_with_unmet_admission_prerequisites",
+  "reviewer": "independent internal root review of producer source assessment",
+  "qualified_external_review": false,
+  "scope": "11 complete selected source paragraphs, key source table, selected Figure2.R excerpts; exact CP/PPV code and interpretation review; no numerical biological replay",
+  "selected_source_paragraphs": [
+    18,
+    19,
+    33,
+    74,
+    77,
+    86,
+    91,
+    98,
+    99,
+    105,
+    107
+  ],
+  "code_line_intervals": [
+    [
+      233,
+      244
+    ],
+    [
+      283,
+      294
+    ],
+    [
+      1391,
+      1442
+    ],
+    [
+      1458,
+      1466
+    ],
+    [
+      1527,
+      1533
+    ],
+    [
+      1555,
+      1563
+    ]
+  ],
+  "findings": [
+    "Shared-call/proxy training labels are correctly distinguished from independent origin/episode truth.",
+    "Call-derived missing-state omissions and cross-sample callable-membership effects require actual inputs; no numerical bug is claimed.",
+    "Averaged sample frequencies and chr17 exclusions are correctly reported.",
+    "Exact fixed-zero-error CP and PPV illustrations are correct under the documented sampling/frame assumptions.",
+    "All study inputs, forecast/eta/count-law/error/stopping contracts remain preserved."
+  ],
+  "privacy": "Original public-safe summaries/code only; no private handoff/raw article/raw third-party code/patient records/credentials included."
+}

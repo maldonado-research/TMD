@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000022",
-    "next_round_id": "R000023",
+    "last_completed_round": "R000023",
+    "next_round_id": "R000024",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -34,10 +34,10 @@
   "base_commit": "53ca657327fdba5a365ec5c96fbb33b38093924b",
   "research_state": {
     "admitted_matched_WAM_biological_datasets": 0,
-    "published_methods_version": "0.5.0",
-    "published_methods_doi": "10.5281/zenodo.23075312",
+    "published_methods_version": "0.6.0",
+    "published_methods_doi": "10.5281/zenodo.23219776",
     "methods_concept_doi": "10.5281/zenodo.23068055",
-    "unpublished_methods_candidate": "0.6.0",
+    "unpublished_methods_candidate": null,
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
     "latest_primary_source_audit_round": "R000016",
@@ -46,10 +46,10 @@
     "design_round_outcome": "design_only",
     "registered_experiment": false,
     "unresolved_study_inputs": 26,
-    "active_zenodo_draft": 23219776,
-    "latest_published_methods_record": 23113326,
-    "latest_published_methods_version_label": null,
-    "latest_published_record_content": "six inherited0.5.0 files; reviewed0.6.0 package absent",
+    "active_zenodo_draft": null,
+    "latest_published_methods_record": 23219776,
+    "latest_published_methods_version_label": "0.6.0",
+    "latest_published_record_content": "eight verified files: six preserved inherited files plus exact approved frozen 0.6.0 ZIP/checksum",
     "latest_numerical_design_component": "R000005-NUMERIC",
     "certified_score_unit_tests": 20,
     "independent_score_review_assertions": 30887,
@@ -192,7 +192,15 @@
     "caller_capture_stdlib_certificate_checks": 207327,
     "caller_capture_optimized_guards_per_mode": 37,
     "caller_capture_native_origin_authenticated": false,
-    "caller_capture_empirical_CI_or_biological_fit": false
+    "caller_capture_empirical_CI_or_biological_fit": false,
+    "latest_artifact_admission_round": "R000023",
+    "artifact_admission_scientific_requests": 12,
+    "artifact_admission_response_bytes": 479974,
+    "artifact_admission_identity_checks": 136,
+    "artifact_admission_variant_benchmark_admitted": false,
+    "artifact_admission_origin_benchmark_admitted": false,
+    "artifact_admission_qualified_external_review": false,
+    "control_resource_calculations": "standard hypothetical fixed-zero-error CP and PPV illustrations; exact verified; no native estimates or study commitments"
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -225,9 +233,9 @@
     },
     {
       "id": "zenodo_deposit",
-      "status": "blocked",
-      "observed": "The user confirmed this chat handles publication. Verified same-family New version created unpublished draft23219776; metadataPUT500 and documentedmultipartPOST400 failed. Fresh readback shows six inherited files intact, no reviewed0.6.0 ZIP and saved metadata mismatch. No publication attempted.",
-      "unblocking_condition": "Complete reviewed metadata and ZIP/checksum in the existing owner editor draft23219776, then independently read back metadata and verify filenames, sizes and checksums before publication. Preserve family and automatic-archiving OFF; do not create another draft or duplicate record."
+      "status": "resolved",
+      "observed": "Existing draft23219776 published as reviewed methods0.6.0 in concept23068055 on8Oct2026. Exact approved metadata/notes and all8 public filebytes verified before/after; frozen archive unchanged, laterR1-R23 excluded.",
+      "unblocking_condition": "Resolved; no active methods draft remains. Preserve previous publication history and OFF archiving."
     },
     {
       "id": "lind2019_workbooks_and_horton_osf",
@@ -240,11 +248,17 @@
       "status": "blocked",
       "observed": "R000003 fixes a forecast algorithm and controls, but26 actual study fields remain null; no matched biological dataset or registered experiment exists.",
       "unblocking_condition": "Authenticate a common-background measurement source/partner; choose genotypes, sampling frames, contexts, allocation, thresholds and fixed stopping, run independent design review, then register before outcomes."
+    },
+    {
+      "id": "ptato_artifact_admission",
+      "status": "blocked",
+      "observed": "Official release/code assessment completed; processed biological manifest, authentic TableS2, complete denominator/mapping and independent origin truth remain unacquired. Two supplement requests returned challenge HTML; no numerical benchmark admitted.",
+      "unblocking_condition": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension."
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R21 source-grounded qualified-review-ready native origin-control plan (external review not obtained); R22 exact conditional support/reference probabilities and sharp bounds, internally accepted.",
-    "next_action": "Obtain qualified biological/statistical assessment and validate native variant-versus-origin truth and control transport for an eligible matched system before any pilot or fit. Actual catalogs, axis, origin episodes, matched backgrounds, loss-genotype truth, independent units, native caller, uncertainty/error/stopping plan and partner remain unchosen. Do not default to another automatic mathematical extension.",
+    "last_completed_step": "R23 bounded official-artifact admission assessment plus exact recovered hypothetical control-resource calculations, independently internally reviewed; no numerical biological benchmark admitted. Existing approved methods0.6.0 published and public bytes/metadata verified.",
+    "next_action": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -305,7 +319,12 @@
       "research/native_origin_controls/INTEGRATED_SHA256SUMS.txt": "2f206020b4f62aba74718833f34e01b7d6a3081bc454bed77e484faf72794abd",
       "research/native_origin_controls/INTEGRATED_PUBLIC_FILES.json": "40654ea105792c07b35712cfdb0da2c3dacac900d8c7ef607573f0e1826cb10a",
       "research/caller_capture/INTEGRATED_SHA256SUMS.txt": "2c9986b1b4d5332a3b0d5171b812fae79c07cf82c8e853d7798122e1602f558b",
-      "research/caller_capture/INTEGRATED_PUBLIC_FILES.json": "d439d426db0576e9c51ab82fb61927f738e2e70c7c1d19617121075217908774"
+      "research/caller_capture/INTEGRATED_PUBLIC_FILES.json": "d439d426db0576e9c51ab82fb61927f738e2e70c7c1d19617121075217908774",
+      "research/artifact_admission/SHA256SUMS.txt": "da2fefdd46c1cf805580aa49596457cb88c5c671b68f41391632b9f6f4d9bc81",
+      "research/control_resource/SHA256SUMS.txt": "77f0e7cd05c3c6bdff9a0c8c3fdb70fb87588f2914afac31bae53920afe6c908",
+      "research/continuation/ROUND_000023.json": "5167c89fd464b875924da30d4bee0c4f22bc0e20621e0342ec316c615790a981",
+      "research/CONTINUATION_HANDOFF_2026-10-08_R23.md": "fb88a6d83abbe97edae9d79e9cbea5233db925ddf5e700e929c4949cfe02f088",
+      "research/publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json": "f18034b23cd94d7d54642a2002fb81ccd5c9a3b48700b7fc57c3a6b15fae6296"
     }
   },
   "reviewed_checkpoint": {
@@ -330,7 +349,8 @@
       "R000019",
       "R000020",
       "R000021",
-      "R000022"
+      "R000022",
+      "R000023"
     ],
     "blocked_work_items": [
       {
@@ -361,7 +381,7 @@
       "doi:10.1038/s41467-025-67995-9; PMC12864740.1; primary XML sha256:a0cd4bcfa00b3cd36fab1d001c04297ed5ae9c8df0f9f67f4564442705a24b79; source/measurement watch only; no matched WAM panel admitted.",
       "dataset DOI10.5281/zenodo.14335473; sourceZIP SHA2569f73dd3346c5061526fb577941a771ff39eb5828348b15c6d67c51284dfdeae6; Farr2025samecohort as R4, not independent replication; raw sources external.",
       "doi:10.1093/jeb/voag096; PMID42832043; abstract/metadata only; eukaryote MA source, not WAM or native bacterial calibration.",
-      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli–P1 gene-exchange lead, no SBW25 transfer.",
+      "doi:10.1093/molbev/msag238; PMID42827080; abstract/metadata only; E.coli\u2013P1 gene-exchange lead, no SBW25 transfer.",
       "R000007 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473: same R4/R6 cohort, no independent replication; nominal geometry and conditional classical mathematics only.",
       "R000008 doi:10.1093/molbev/msag238; PMC13633115.1 full main primary XML sha256:a7693eda90e20555348dd08ea79c44f6a9ead4986e603da49362899f3c38d735; supplements/model/raw data unacquired; no SBW25 transfer.",
       "R000009 reuses Farr2025 DOI10.1371/journal.pgen.1011572 and dataset10.5281/zenodo.14335473, same R4/R6/R7 cohort; four new software/metadata access attempts do not acquire software or authenticate a historical input vector. R000010 is conditional mathematics with no new source cohort.",
@@ -375,15 +395,21 @@
       "MitoTracer2025 DOI10.1371/journal.pcbi.1013090; PMC12184895 XML SHA25693641708979bf8ba3400c95bcb36178710798abee9015c95dcb6b1a298a9ac64; source narrative only, not native recovery or mutation-birth validation.",
       "R000021 PTA2021 DOI10.1073/pnas.2024176118; PMC8214697 SHA256c15e1bcb9d1cfe5ae72c0753ced72510e729a1ccc17e4913e365781c4cca9f4f;56 body paragraphs; no native origin truth.",
       "R000021 PTATO2023 DOI10.1016/j.xgen.2023.100389; PMC10504672 SHA2562653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5;25 selected paragraphs only plus lead scan; reused ENU data not independent experiment.",
-      "R000021 NNK2026 DOI10.1021/acs.chemrestox.6c00154; PMC13488614 SHA256e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4;56 body paragraphs; paired same-DNA method concordance, not native origin controls."
+      "R000021 NNK2026 DOI10.1021/acs.chemrestox.6c00154; PMC13488614 SHA256e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4;56 body paragraphs; paired same-DNA method concordance, not native origin controls.",
+      "R000023 reuses PTATO2023 DOI10.1016/j.xgen.2023.100389 sameR21source/cohort; acquired figure-code release8186323v1.0.1 SHA25651ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a; tool8098608v.1.2.4 inventory only plus4smallGitblobs; no numerical benchmark/independent cohort."
     ],
-    "next_action": "Obtain qualified biological/statistical assessment and validate native variant-versus-origin truth and control transport for an eligible matched system before any pilot or fit. Actual catalogs, axis, origin episodes, matched backgrounds, loss-genotype truth, independent units, native caller, uncertainty/error/stopping plan and partner remain unchosen. Do not default to another automatic mathematical extension."
+    "next_action": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension."
   },
   "previous_checkpoint_steps": [
     {
       "last_completed_round": "R000020",
       "last_completed_step": "R19 pedigree/exposure/ascertainment contract and expert-review packet; R20 exact conditional event-capture bounds and classical fixed-event sampling identities, internally independently accepted.",
       "next_action": "Obtain qualified review of the pedigree packet and define independently validated native event-inclusion controls and transfer limits for an eligible matched system. Actual catalogs, axis, partner/protocol and joint inference design remain unchosen. Do not fit mutation rates or TMD from surviving descendants alone."
+    },
+    {
+      "last_completed_round": "R000022",
+      "last_completed_step": "R21 source-grounded qualified-review-ready native origin-control plan (external review not obtained); R22 exact conditional support/reference probabilities and sharp bounds, internally accepted.",
+      "next_action": "Obtain qualified biological/statistical assessment and validate native variant-versus-origin truth and control transport for an eligible matched system before any pilot or fit. Actual catalogs, axis, origin episodes, matched backgrounds, loss-genotype truth, independent units, native caller, uncertainty/error/stopping plan and partner remain unchosen. Do not default to another automatic mathematical extension."
     }
   ]
 }

@@ -1,0 +1,163 @@
+{
+  "record_id": "R000023",
+  "candidate": "PTATO2023 paired clonal bulk-WGS/PTA validation",
+  "historical_start_decision": "DESCRIPTION_ONLY",
+  "historical_start_basis": "Prior limited R21 article assessment; no artifact analysis then",
+  "current_decision": "ARTIFACT_INSPECTED_NO_NUMERICAL_BENCHMARK_ADMITTED",
+  "genotype_stage_numerical_benchmark_admitted": false,
+  "native_origin_benchmark_admitted": false,
+  "native_origin_truth_inferred": false,
+  "numerical_replication_obtained": false,
+  "qualified_external_review_obtained": false,
+  "actual_bacterial_registry_fields_resolved": 0,
+  "admitted_matched_WAM_biological_datasets": 0,
+  "gates": [
+    {
+      "id": 1,
+      "gate": "Official accession, version, mapping and manifests",
+      "status": "PARTIALLY_VERIFIED",
+      "citations": [
+        "Article p0185/key-resources table",
+        "Zenodo8098608 and8186323 records",
+        "GitHub tool tag tree",
+        "Figure code ZIP manifest"
+      ],
+      "verified": [
+        "Raw accession and processed version pointer verified; two software identities inventoried; figure-code bytes acquired."
+      ],
+      "missing": [
+        "No complete processed-data/raw-WGS manifest or experiment-to-release map; no acquired sample metadata workbooks."
+      ]
+    },
+    {
+      "id": 2,
+      "gate": "Artifact-specific access, reuse and privacy",
+      "status": "PARTIALLY_VERIFIED",
+      "citations": [
+        "Article p0200",
+        "Inspected software LICENSE files",
+        "PMC supplement receipts"
+      ],
+      "verified": [
+        "Article CC BY4.0 and both inspected software MIT licenses verified; participant consent/ethics reported."
+      ],
+      "missing": [
+        "Dataset-specific EGA/Mendeley terms, permissions, privacy constraints and licence unverified; article licence does not authorize raw-patient redistribution."
+      ]
+    },
+    {
+      "id": 3,
+      "gate": "Positive, negative and unknown truth; untouched evaluation",
+      "status": "NOT_SATISFIED",
+      "citations": [
+        "Article p0305,p0310,p0090,p0095,p0180",
+        "Figure2.R lines233\u2013244,283\u2013294"
+      ],
+      "verified": [
+        "Shared-call training positives and linked-read/low-burden proxy negatives described; additional donor separation described."
+      ],
+      "missing": [
+        "Independent full truth labels, their per-record provenance and eligible untouched evaluation inputs absent; origin truth remains unknown."
+      ]
+    },
+    {
+      "id": 4,
+      "gate": "Frozen caller, references and adaptation",
+      "status": "PARTIALLY_VERIFIED",
+      "citations": [
+        "Article p0075,p0245,p0270,p0330,p0340,p0350",
+        "Tool resources.config/process.config/README at v.1.2.4",
+        "GeneralFunctions.R lines21\u201375"
+      ],
+      "verified": [
+        "Named versions and key filters, published tool inventory and per-sample adaptation documented."
+      ],
+      "missing": [
+        "Study-specific execution settings, trained-model bytes, recurrence-list bytes, reference hashes, image digests and logs unverified; reported Sambamba version mismatch retained."
+      ]
+    },
+    {
+      "id": 5,
+      "gate": "Eligible variants/loci/cells and all denominators",
+      "status": "NOT_SATISFIED",
+      "citations": [
+        "Article p0100,p0350",
+        "Figure2.R lines1391\u20131451,1459,1527\u20131533,1555\u20131584"
+      ],
+      "verified": [
+        "Preceding-clone CLONAL/PASS_QC/VAF restrictions, PTA QC/callability overwrites, chr17 exclusion and per-sample averaging identified."
+      ],
+      "missing": [
+        "All input rows, failed/excluded samples, per-sample category counts and callable territory unavailable; global variant-set callable membership needs actual data audit."
+      ]
+    },
+    {
+      "id": 6,
+      "gate": "Founder, clone/culture, donor/animal and batch dependence",
+      "status": "PARTIALLY_VERIFIED",
+      "citations": [
+        "Article p0095",
+        "Figure2.R lines1382\u20131395,1462\u20131466"
+      ],
+      "verified": [
+        "Nested AHH-1 cultures and four plotted PTA groups: two WT, one FANCC knockout, one MSH2 knockout."
+      ],
+      "missing": [
+        "TableS2 relationships/batches and all failed cultures not acquired; no justified independent founder-history count."
+      ]
+    },
+    {
+      "id": 7,
+      "gate": "Independent ancestry, standing variants and acquisition episode",
+      "status": "NOT_SATISFIED",
+      "citations": [
+        "Article p0095,p0305",
+        "Figure2.R lines233\u2013244,283\u2013294"
+      ],
+      "verified": [
+        "Call-derived preceding-column comparisons identified; FAIL_QC states marked NA and na.rm TRUE used in uniqueness."
+      ],
+      "missing": [
+        "No independent pedigree/episode truth; bulk/reference absence and caller-derived uniqueness are not authenticated de novo labels."
+      ]
+    },
+    {
+      "id": 8,
+      "gate": "Lost/unrecovered lineages and origin-catalogue completeness",
+      "status": "NOT_SATISFIED",
+      "citations": [
+        "Article p0050,p0095",
+        "Figure2.R input contract and archive manifest"
+      ],
+      "verified": [
+        "Observed clonal expansion and assayed-cell/genotype frame described."
+      ],
+      "missing": [
+        "No all-birth denominator, independently known positive inclusion for every target origin, lost-lineage genotypes or complete mutation-origin catalogue."
+      ]
+    },
+    {
+      "id": 9,
+      "gate": "Matching/transport to intended native system",
+      "status": "NOT_SATISFIED",
+      "citations": [
+        "R21 prospective-control plan",
+        "Actual registry candidate",
+        "Article p0095,p0270"
+      ],
+      "verified": [
+        "Different repair backgrounds and conditioned genotype-stage workflow documented."
+      ],
+      "missing": [
+        "Native matched system, routes, controls and transport unchosen/unjustified; no actual registry field resolved."
+      ]
+    }
+  ],
+  "no_inference_to": [
+    "native event inclusion pi",
+    "mutation production per division",
+    "qualifying-route count laws",
+    "TMD biological fit",
+    "cancer-prevention efficacy"
+  ]
+}

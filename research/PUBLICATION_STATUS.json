@@ -1,17 +1,17 @@
 {
-  "schema_version": 3,
-  "checked_date": "2026-10-07",
+  "schema_version": 4,
+  "checked_date": "2026-10-08",
   "date_timezone": "America/Los_Angeles",
   "canonical_concept_doi": "10.5281/zenodo.23068055",
-  "latest_published_version": null,
-  "latest_published_record": 23113326,
-  "latest_published_doi": "10.5281/zenodo.23113326",
-  "active_draft_id": 23219776,
-  "active_draft_url": "https://zenodo.org/uploads/23219776",
+  "latest_published_version": "0.6.0",
+  "latest_published_record": 23219776,
+  "latest_published_doi": "10.5281/zenodo.23219776",
+  "active_draft_id": null,
+  "active_draft_url": null,
   "draft_reserved_doi": null,
-  "proposed_draft_version": "0.6.0",
-  "metadata_update_verified": false,
-  "new_file_upload_verified": false,
+  "proposed_draft_version": null,
+  "metadata_update_verified": true,
+  "new_file_upload_verified": true,
   "inherited_file_count": 6,
   "authentication_and_family_ownership_verified": true,
   "automatic_github_archiving": "disabled_confirmed_by_authorized_repair_handoff",
@@ -22,57 +22,30 @@
   "final_archive_filename": "TMD_methods_0_6_0_2026-10-02.zip",
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
-  "metadata_http_statuses": [
-    500,
-    500
-  ],
-  "binary_upload_http_status": 400,
-  "publication_attempted": false,
-  "next_action": "Use verified existing family draft23219776. Complete owner-editor metadata and reviewedZIP/checksum staging, then readbackverifyallapprovedmetadataandfilenames/byte-sizes/checksumsbeforepublication. API metadataPUT500 anddocumentedmultipartPOST400remainblocked. Preservepublishedrecords, inheritedfiles andallautomaticarchivingOFF; noadditionaldraftorstandalonerecordneeded.",
-  "checked_utc": "2026-10-08T01:50:58.533808+00:00",
-  "latest_labelled_methods_version": "0.5.0",
-  "latest_labelled_methods_record": 23075312,
-  "latest_published_contents": "inherited_0_5_0_files_identical_to_record23075312",
+  "publication_attempted": true,
+  "next_action": "Continue R23 artifact-admission prerequisites and qualified assessment; no active methods draft remains. Later addenda are outside frozen 0.6.0.",
+  "checked_utc": "2026-10-08T21:51:59.131627+00:00",
+  "latest_labelled_methods_version": "0.6.0",
+  "latest_labelled_methods_record": 23219776,
+  "latest_published_contents": "six preserved inherited files plus immutable approved 0.6.0 ZIP and checksum",
   "previous_draft_id": 23113326,
   "previous_draft_now_published": true,
-  "published_0_6_0": false,
-  "active_draft_verified": true,
-  "publication_state_change_actor": "unknown_not_this_task",
-  "publication_attempted_in_this_task": false,
-  "published_file_comparison_basis": "All six filenames, byte sizes and reported MD5 checksums match record23075312; these inherited files were not re-downloaded in this round.",
-  "active_draft_state": {
-    "id": 23219776,
-    "family": "23068055",
-    "owner": 1386319,
-    "submitted": false,
-    "created_by_this_task": true,
-    "version": null,
-    "saved_metadata_matches_approved": false,
-    "reviewed_0_6_0_zip_uploaded": false,
-    "inherited_files_count": 6,
-    "inherited_files_intact": true,
-    "publication_attempted": false,
-    "editor_url": "https://zenodo.org/uploads/23219776"
-  },
-  "current_staging_errors": {
-    "metadata_put_status": 500,
-    "documented_multipart_post_status": 400,
-    "diagnostics": [
-      "publication_diagnostics/2026-10-07_STAGING_RECEIPT.json",
-      "publication_diagnostics/2026-10-07_DOCUMENTED_UPLOAD_RECEIPT.json"
-    ]
-  },
+  "published_0_6_0": true,
+  "active_draft_verified": false,
+  "publication_state_change_actor": "This task published reviewed 0.6.0 record23219776; actor of earlier unversioned23113326 publication remains unknown.",
+  "publication_attempted_in_this_task": true,
+  "active_draft_state": null,
+  "current_staging_errors": {},
   "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit.",
-  "latest_read_only_recheck": "publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json",
-  "read_only_recheck_scope": "R16/R18: two authenticated owned same-family GETs; draft23219776 remains unsubmitted with six inherited files and absent frozen0.6.0ZIP. No writes, newdraft, release or publication attempt.",
+  "latest_read_only_recheck": "publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json",
+  "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000019",
-      "R000020"
+      "R000023"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-07_R19_R20.md",
-    "zenodo_requests_this_round": 0,
-    "frozen_0_6_0_includes_these_addenda": false
+    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R23.md",
+    "frozen_0_6_0_includes_these_addenda": false,
+    "status": "internally_reviewed"
   },
   "github_research_addenda_history": [
     {
@@ -85,5 +58,38 @@
       "zenodo_requests_this_round": 0,
       "frozen_0_6_0_includes_these_addenda": false
     }
-  ]
+  ],
+  "publication_verified_file_count": 8,
+  "publication_verified_total_bytes": 2960144,
+  "notes_verification_source": "Exact approved text in canonical RDM additional_descriptions type other and public HTML; legacy serializer omits notes.",
+  "publication_status_history": [
+    {
+      "checked_utc": "2026-10-08T01:50:58.533808+00:00",
+      "latest_published_record": 23113326,
+      "active_draft_id": 23219776,
+      "current_staging_errors": {
+        "metadata_put_status": 500,
+        "documented_multipart_post_status": 400,
+        "diagnostics": [
+          "publication_diagnostics/2026-10-07_STAGING_RECEIPT.json",
+          "publication_diagnostics/2026-10-07_DOCUMENTED_UPLOAD_RECEIPT.json"
+        ]
+      },
+      "metadata_update_verified": false,
+      "new_file_upload_verified": false,
+      "publication_attempted": false,
+      "metadata_http_statuses": [
+        500,
+        500
+      ],
+      "binary_upload_http_status": 400,
+      "published_file_comparison_basis": "All six filenames, byte sizes and reported MD5 checksums match record23075312; these inherited files were not re-downloaded in this round."
+    }
+  ],
+  "published_file_comparison_basis": "All eight published filenames, byte sizes, MD5 and SHA256 values match freshly downloaded and verified staging bytes after publication; five inherited SHA256 manifest entries also verify. Six inherited files are preserved.",
+  "metadata_http_statuses": [
+    415,
+    200
+  ],
+  "binary_upload_http_status": 200
 }

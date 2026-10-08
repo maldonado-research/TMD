@@ -1,0 +1,198 @@
+{
+  "record_id": "R000023",
+  "scope": "Bounded official accession/release and selected source-code/methods assessment; not a full-paper, full-pipeline or numerical replication review",
+  "article": {
+    "doi": "10.1016/j.xgen.2023.100389",
+    "pmc": "PMC10504672",
+    "sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5",
+    "body_paragraph_count": 123,
+    "selected_fully_assessed_body_paragraphs": [
+      4,
+      15,
+      18,
+      19,
+      33,
+      73,
+      74,
+      77,
+      86,
+      87,
+      89,
+      90,
+      91,
+      93,
+      98,
+      99,
+      103,
+      105,
+      106,
+      107,
+      109,
+      110
+    ],
+    "paragraph_index_definition": "ONE-based article/body//p document order; full itertext stripped at both ends",
+    "anchors": [
+      {
+        "one_based_body_paragraph": 4,
+        "xml_id": "p0065",
+        "paragraph_sha256": "b1824754eef6f6df1921ada979ac2d28385fe9caff092b56062e9df44907b8dc"
+      },
+      {
+        "one_based_body_paragraph": 15,
+        "xml_id": "p0075",
+        "paragraph_sha256": "1fc0019e6f827a1df906a78acfaf9c8ce307090090225f11c74968a962889412"
+      },
+      {
+        "one_based_body_paragraph": 18,
+        "xml_id": "p0090",
+        "paragraph_sha256": "9209048f9d992bfd3356db475b8bfcfe82dfd0a9ec0e6c23163c43f643f1de28"
+      },
+      {
+        "one_based_body_paragraph": 19,
+        "xml_id": "p0095",
+        "paragraph_sha256": "d7f9e9676d264e106aebc3ee27193743111cfc00fd032616340af53788acce77"
+      },
+      {
+        "one_based_body_paragraph": 33,
+        "xml_id": "p0100",
+        "paragraph_sha256": "1cd45f19033250b22e0ad561955207022f6a07f678172ca6b07da66fb89252ef"
+      },
+      {
+        "one_based_body_paragraph": 73,
+        "xml_id": "p0180",
+        "paragraph_sha256": "64ade7229688a46078ddba65ec46cc1060ce9cfaabe9e65efdc655fd5327c54e"
+      },
+      {
+        "one_based_body_paragraph": 74,
+        "xml_id": "p0185",
+        "paragraph_sha256": "5e25ff19ba09c297e0cef9ff0c275502454f1f24d8a116e5d5b01f04f86217d1"
+      },
+      {
+        "one_based_body_paragraph": 77,
+        "xml_id": "p0200",
+        "paragraph_sha256": "e17fb246f07c660536c9890c1298f71b4344c32aabc60381b8c246a81dea36e9"
+      },
+      {
+        "one_based_body_paragraph": 86,
+        "xml_id": "p0245",
+        "paragraph_sha256": "36f57f6e96aa01bba6ce69dace54bdf2578261901fbd0a1d1f7c98cadff7742c"
+      },
+      {
+        "one_based_body_paragraph": 87,
+        "xml_id": "p0250",
+        "paragraph_sha256": "3d16c3fc08b7a19a9fc2bf147ce95f823c47783a79fd89de1b3f9b1e6dcc30b3"
+      },
+      {
+        "one_based_body_paragraph": 89,
+        "xml_id": "p0260",
+        "paragraph_sha256": "04c6b725091d09d024b84db49b935aef380ae47183c620551ed52df18fd4984e"
+      },
+      {
+        "one_based_body_paragraph": 90,
+        "xml_id": "p0265",
+        "paragraph_sha256": "68c5077eb8b3fdaa19bb11d6607965f1383f7165b78565671bd5bfdd6d664ecb"
+      },
+      {
+        "one_based_body_paragraph": 91,
+        "xml_id": "p0270",
+        "paragraph_sha256": "211fb0238d6c70cecf4fee7babae13938ec3e46062aabb66e0e5f54715c93c66"
+      },
+      {
+        "one_based_body_paragraph": 93,
+        "xml_id": "p0280",
+        "paragraph_sha256": "dd4bab53dd26aeb65350831615a2008cde903816f605eeb89f005b4401c03038"
+      },
+      {
+        "one_based_body_paragraph": 98,
+        "xml_id": "p0305",
+        "paragraph_sha256": "5cca97cf0532063647bfcd8cbdc2787ce612c18ca7634cc295dad336f344d6f2"
+      },
+      {
+        "one_based_body_paragraph": 99,
+        "xml_id": "p0310",
+        "paragraph_sha256": "046f532e08b9301063713b4c54b91f3de7ad615547b0a46e25bccbd9b8e55a7a"
+      },
+      {
+        "one_based_body_paragraph": 103,
+        "xml_id": "p0330",
+        "paragraph_sha256": "47812eaea4c1bc88a4a33d67ef8c46cbfb4d87d657de0d5ed8c49b22944ffa52"
+      },
+      {
+        "one_based_body_paragraph": 105,
+        "xml_id": "p0340",
+        "paragraph_sha256": "918e381f78b5c05d180a3977e54c9d1cfb86d630f9e2de8e2ada55f9c5b32e85"
+      },
+      {
+        "one_based_body_paragraph": 106,
+        "xml_id": "p0345",
+        "paragraph_sha256": "5924897e1150d33a7589bdb9cf2507f32145dee70c112b75d9dcdc9a78258ef5"
+      },
+      {
+        "one_based_body_paragraph": 107,
+        "xml_id": "p0350",
+        "paragraph_sha256": "64c6840cf1a12f77a1494cfa1c0f169c0f329556cbf10f4aa12a85209ae2354a"
+      },
+      {
+        "one_based_body_paragraph": 109,
+        "xml_id": "p0360",
+        "paragraph_sha256": "49429b6f714ef17fa9117834835e1756ba8e1909ff32147c5cff731325855ac2"
+      },
+      {
+        "one_based_body_paragraph": 110,
+        "xml_id": "p0365",
+        "paragraph_sha256": "0c46deb524ff524675f95a74a277dcee44a8e81adbb0ba4723a4c59e7b3ed7a1"
+      }
+    ]
+  },
+  "figure_code": {
+    "doi": "10.5281/zenodo.8186323",
+    "version": "v1.0.1",
+    "zip_bytes": 94579,
+    "zip_sha256": "51ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a",
+    "metadata_md5_verified": true,
+    "code_refs": [
+      {
+        "path": "Figures/Figure2.R",
+        "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e",
+        "selected_reviewed_line_intervals": [
+          [
+            1,
+            145
+          ],
+          [
+            211,
+            311
+          ],
+          [
+            830,
+            974
+          ],
+          [
+            1380,
+            1499
+          ],
+          [
+            1527,
+            1584
+          ],
+          [
+            1608,
+            1632
+          ]
+        ]
+      },
+      {
+        "path": "Figures/GeneralFunctions.R",
+        "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c",
+        "selected_reviewed_line_intervals": [
+          [
+            21,
+            75
+          ]
+        ]
+      }
+    ]
+  },
+  "qualified_external_review_obtained": false,
+  "numerical_benchmark_reproduced": false
+}
