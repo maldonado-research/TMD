@@ -1,0 +1,779 @@
+{
+  "candidate": "R000022",
+  "status": "passed",
+  "checks": {
+    "closed_form_or_explicit_fixture_endpoints": 14,
+    "independence_within_sharp_bounds": 14,
+    "witness_normalization": 28,
+    "direct_witness_marginals": 28,
+    "direct_witness_predicate_endpoints": 28,
+    "full_law_summary_vs_direct_witness": 28,
+    "same_marginal_two_support_counterexamples": 3,
+    "explicit_independent_reference_special_case": 3,
+    "fixed_full_carrier_law_reference_dependence": 2,
+    "fixed_reference_marginal_dependence": 2,
+    "reference_joint_law_changes_inclusion": 2,
+    "maximum_full_law_dimension": 1,
+    "structural_zero_despite_true_calls": 1,
+    "valid_32bit_rational_boundary": 1,
+    "invalid_input_guards": 30
+  },
+  "check_total": 185,
+  "fixtures": [
+    {
+      "name": "empty_known_frame",
+      "marginals": [],
+      "carriers": [],
+      "references": [],
+      "k": 1,
+      "r": 0,
+      "bounds": {
+        "lower": "0",
+        "upper": "0",
+        "lower_law": {
+          "0": "1"
+        },
+        "upper_law": {
+          "0": "1"
+        },
+        "value_if_independent": "0",
+        "bases_enumerated": 1,
+        "nonsingular_bases": 1,
+        "feasible_bases": 1,
+        "structural_zero": true,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "singleton",
+      "marginals": [
+        "1/3"
+      ],
+      "carriers": [
+        0
+      ],
+      "references": [],
+      "k": 1,
+      "r": 0,
+      "bounds": {
+        "lower": "1/3",
+        "upper": "1/3",
+        "lower_law": {
+          "0": "2/3",
+          "1": "1/3"
+        },
+        "upper_law": {
+          "0": "2/3",
+          "1": "1/3"
+        },
+        "value_if_independent": "1/3",
+        "bases_enumerated": 1,
+        "nonsingular_bases": 1,
+        "feasible_bases": 1,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "OR_two_half",
+      "marginals": [
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [],
+      "k": 1,
+      "r": 0,
+      "bounds": {
+        "lower": "1/2",
+        "upper": "1",
+        "lower_law": {
+          "0": "1/2",
+          "3": "1/2"
+        },
+        "upper_law": {
+          "1": "1/2",
+          "2": "1/2"
+        },
+        "value_if_independent": "3/4",
+        "bases_enumerated": 4,
+        "nonsingular_bases": 4,
+        "feasible_bases": 4,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "both_half",
+      "marginals": [
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [],
+      "k": 2,
+      "r": 0,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/2",
+        "lower_law": {
+          "1": "1/2",
+          "2": "1/2"
+        },
+        "upper_law": {
+          "0": "1/2",
+          "3": "1/2"
+        },
+        "value_if_independent": "1/4",
+        "bases_enumerated": 4,
+        "nonsingular_bases": 4,
+        "feasible_bases": 4,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "two_plus_reference",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2
+      ],
+      "k": 2,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/2",
+        "lower_law": {
+          "2": "1/2",
+          "5": "1/2"
+        },
+        "upper_law": {
+          "0": "1/2",
+          "7": "1/2"
+        },
+        "value_if_independent": "1/8",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 50,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "OR_plus_reference",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2
+      ],
+      "k": 1,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/2",
+        "lower_law": {
+          "3": "1/2",
+          "4": "1/2"
+        },
+        "upper_law": {
+          "2": "1/2",
+          "5": "1/2"
+        },
+        "value_if_independent": "3/8",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 50,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "two_of_three",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1,
+        2
+      ],
+      "references": [],
+      "k": 2,
+      "r": 0,
+      "bounds": {
+        "lower": "1/4",
+        "upper": "3/4",
+        "lower_law": {
+          "1": "1/4",
+          "2": "1/4",
+          "4": "1/4",
+          "7": "1/4"
+        },
+        "upper_law": {
+          "0": "1/4",
+          "3": "1/4",
+          "5": "1/4",
+          "6": "1/4"
+        },
+        "value_if_independent": "1/2",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 50,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "unequal_conjunction",
+      "marginals": [
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2
+      ],
+      "k": 2,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/4",
+        "lower_law": {
+          "1": "1/4",
+          "4": "1/4",
+          "6": "1/2"
+        },
+        "upper_law": {
+          "2": "1/4",
+          "4": "1/2",
+          "7": "1/4"
+        },
+        "value_if_independent": "3/32",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 20,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "two_groups_OR",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2,
+        3
+      ],
+      "k": 1,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "1",
+        "lower_law": {
+          "3": "1/2",
+          "12": "1/2"
+        },
+        "upper_law": {
+          "5": "1/2",
+          "10": "1/2"
+        },
+        "value_if_independent": "9/16",
+        "bases_enumerated": 4368,
+        "nonsingular_bases": 3008,
+        "feasible_bases": 2064,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "two_carrier_any_reference",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2,
+        3
+      ],
+      "k": 2,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/2",
+        "lower_law": {
+          "2": "1/2",
+          "13": "1/2"
+        },
+        "upper_law": {
+          "4": "1/2",
+          "11": "1/2"
+        },
+        "value_if_independent": "3/16",
+        "bases_enumerated": 4368,
+        "nonsingular_bases": 3008,
+        "feasible_bases": 2064,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "all_four",
+      "marginals": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2,
+        3
+      ],
+      "k": 2,
+      "r": 2,
+      "bounds": {
+        "lower": "0",
+        "upper": "1/2",
+        "lower_law": {
+          "4": "1/2",
+          "11": "1/2"
+        },
+        "upper_law": {
+          "0": "1/2",
+          "15": "1/2"
+        },
+        "value_if_independent": "1/16",
+        "bases_enumerated": 4368,
+        "nonsingular_bases": 3008,
+        "feasible_bases": 2064,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "unused_descendants",
+      "marginals": [
+        "1/4",
+        "0",
+        "1",
+        "2/3"
+      ],
+      "carriers": [
+        0
+      ],
+      "references": [],
+      "k": 1,
+      "r": 0,
+      "bounds": {
+        "lower": "1/4",
+        "upper": "1/4",
+        "lower_law": {
+          "4": "1/12",
+          "5": "1/4",
+          "12": "2/3"
+        },
+        "upper_law": {
+          "4": "1/12",
+          "5": "1/4",
+          "12": "2/3"
+        },
+        "value_if_independent": "1/4",
+        "bases_enumerated": 4368,
+        "nonsingular_bases": 3008,
+        "feasible_bases": 96,
+        "structural_zero": false,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "impossible_carrier_threshold",
+      "marginals": [
+        "1",
+        "1",
+        "1"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2
+      ],
+      "k": 3,
+      "r": 1,
+      "bounds": {
+        "lower": "0",
+        "upper": "0",
+        "lower_law": {
+          "7": "1"
+        },
+        "upper_law": {
+          "7": "1"
+        },
+        "value_if_independent": "0",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 29,
+        "structural_zero": true,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    {
+      "name": "impossible_reference_threshold",
+      "marginals": [
+        "1",
+        "1",
+        "1"
+      ],
+      "carriers": [
+        0,
+        1
+      ],
+      "references": [
+        2
+      ],
+      "k": 1,
+      "r": 2,
+      "bounds": {
+        "lower": "0",
+        "upper": "0",
+        "lower_law": {
+          "7": "1"
+        },
+        "upper_law": {
+          "7": "1"
+        },
+        "value_if_independent": "0",
+        "bases_enumerated": 70,
+        "nonsingular_bases": 58,
+        "feasible_bases": 29,
+        "structural_zero": true,
+        "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    }
+  ],
+  "same_marginals_different_two_support_laws": {
+    "common": {
+      "carrier_law": {
+        "0": "1/2",
+        "3": "1/2"
+      },
+      "both_support": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "1/2",
+        "successful_masks": [
+          3
+        ],
+        "predicate_true_masks": [
+          3
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "0",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      },
+      "independent_reference_law": {
+        "0": "1/4",
+        "4": "1/4",
+        "3": "1/4",
+        "7": "1/4"
+      },
+      "both_support_and_reference": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "1/4",
+        "successful_masks": [
+          7
+        ],
+        "predicate_true_masks": [
+          7
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "1/2",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    "independent": {
+      "carrier_law": {
+        "0": "1/4",
+        "1": "1/4",
+        "2": "1/4",
+        "3": "1/4"
+      },
+      "both_support": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "1/4",
+        "successful_masks": [
+          3
+        ],
+        "predicate_true_masks": [
+          3
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "0",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      },
+      "independent_reference_law": {
+        "0": "1/8",
+        "4": "1/8",
+        "1": "1/8",
+        "5": "1/8",
+        "2": "1/8",
+        "6": "1/8",
+        "3": "1/8",
+        "7": "1/8"
+      },
+      "both_support_and_reference": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "1/8",
+        "successful_masks": [
+          7
+        ],
+        "predicate_true_masks": [
+          7
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "1/2",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    "exclusive": {
+      "carrier_law": {
+        "1": "1/2",
+        "2": "1/2"
+      },
+      "both_support": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "0",
+        "successful_masks": [],
+        "predicate_true_masks": [
+          3
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "0",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      },
+      "independent_reference_law": {
+        "1": "1/4",
+        "5": "1/4",
+        "2": "1/4",
+        "6": "1/4"
+      },
+      "both_support_and_reference": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "0",
+        "successful_masks": [],
+        "predicate_true_masks": [
+          7
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "1/2",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    }
+  },
+  "fixed_full_carrier_law_reference_dependence": {
+    "reference_matches_carrier_pair": {
+      "law": {
+        "0": "1/2",
+        "7": "1/2"
+      },
+      "summary": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "1/2",
+        "successful_masks": [
+          7
+        ],
+        "predicate_true_masks": [
+          7
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "1/2",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    },
+    "reference_opposes_carrier_pair": {
+      "law": {
+        "3": "1/2",
+        "4": "1/2"
+      },
+      "summary": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "inclusion_probability": "0",
+        "successful_masks": [],
+        "predicate_true_masks": [
+          7
+        ],
+        "expected_carrier_call_copies": "1",
+        "expected_reference_calls": "1/2",
+        "structural_zero": false,
+        "known_mapping_supplied_not_authenticated": true,
+        "complete_native_caller_or_mutation_origin_authenticated": false
+      }
+    }
+  },
+  "maximum_full_law_dimension": {
+    "descendant_call_marginals": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "inclusion_probability": "1",
+    "successful_masks": [
+      255
+    ],
+    "predicate_true_masks": [
+      255
+    ],
+    "expected_carrier_call_copies": "4",
+    "expected_reference_calls": "4",
+    "structural_zero": false,
+    "known_mapping_supplied_not_authenticated": true,
+    "complete_native_caller_or_mutation_origin_authenticated": false
+  },
+  "structural_zero_despite_calls": {
+    "descendant_call_marginals": [
+      "1",
+      "1",
+      "1"
+    ],
+    "inclusion_probability": "0",
+    "successful_masks": [],
+    "predicate_true_masks": [],
+    "expected_carrier_call_copies": "2",
+    "expected_reference_calls": "1",
+    "structural_zero": true,
+    "known_mapping_supplied_not_authenticated": true,
+    "complete_native_caller_or_mutation_origin_authenticated": false
+  },
+  "valid_32bit_boundary": {
+    "lower": "0",
+    "upper": "1/2147483648",
+    "lower_law": {
+      "1": "1/2147483648",
+      "2": "2147483647/2147483648"
+    },
+    "upper_law": {
+      "0": "1/2147483648",
+      "2": "1073741823/1073741824",
+      "3": "1/2147483648"
+    },
+    "value_if_independent": "2147483647/4611686018427387904",
+    "bases_enumerated": 4,
+    "nonsingular_bases": 4,
+    "feasible_bases": 3,
+    "structural_zero": false,
+    "bounds_are_population_constraints_not_empirical_confidence_limits": true,
+    "complete_native_caller_or_mutation_origin_authenticated": false
+  },
+  "all_fixtures_synthetic": true,
+  "source_acquisitions": 0,
+  "actual_study_fields_resolved": 0,
+  "biological_fit_or_empirical_CI": false,
+  "native_caller_or_origin_authenticated": false,
+  "new_theorem_claim": false
+}

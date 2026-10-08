@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "dual_inequalities": 82466,
+    "endpoint_values": 5778,
+    "full_law_scalar_checks": 396,
+    "independent_inside_interval": 2889,
+    "marginal_equalities": 27554,
+    "nonnegative_witness_weights": 82466,
+    "strong_duality": 5778
+  },
+  "network_requests": 0,
+  "oracle_sha256": "7d3d234c031c009d03a792a6d8c7665ee87dbe8e5cc5a5244ee281c9c9983605",
+  "producer_imports": 0,
+  "qualified_external_review": false,
+  "script_sha256": "0a781e70be77b11e44a81f06f5a7e8bda16baf304dd5be8de74a557fa6635ff3",
+  "status": "passed_exact_frozen_oracle_certificates_without_scipy_or_producer",
+  "total_checks": 207327
+}

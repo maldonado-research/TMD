@@ -70,3 +70,11 @@ Original files were preserved. These forward-analysis corrections do not silentl
 | Recent MitoTracer method | One 2025 primary narrative/methods assessment after a two-record targeted screen | Informative mitochondrial ancestry markers are not a complete nuclear mutation-birth census or prevention evidence. |
 | Event-capture mathematics | Exact finite true-call masks, supplied carrier sets, sharp union bounds and classical HT identities | Marginals do not establish dependence; unknown/zero-inclusion events are not reconstructed; no empirical CI or mutation likelihood. |
 | Native assay compatibility | Multiple-support caller distinguished from any-call toy model | A passing toy or source audit does not authenticate native controls or a biological TMD test. |
+
+## Native origin controls and caller support — 7 October 2026
+
+R21's [source-grounded control plan](research/native_origin_controls/README.md) is internally review-ready, not a completed qualified expert review or an admitted biological dataset. PTA's >90% sensitivity and 99.9% germline precision are bulk-conditioned variant metrics. PTATO's 45–69% shared-substitution recovery differs from its 86.8% conditional detectable-variant classifier sensitivity; signature-refit truth remains estimated. NNK's paired same-animal/DNA method concordance is not independent origin truth. No incompatible percentages are multiplied into native inclusion.
+
+R22's [conditional support/reference model](research/caller_capture/README.md) has an internally checked finite-LP proof and independent exact dual certificates. All 2,889 blind marginal cases and 66 full-law cases agree. Sharp known-population bounds are not empirical confidence intervals. Complete known carrier/reference truth and validated joint call laws are supplied assumptions, not recovered from stage fractions.
+
+No new mechanism, theorem, clinical prevention result or biological TMD fit is established. Variant-negative controls assess variant errors; false de novo labels on true inherited/pre-existing variants require separate ancestry/episode truth. All 18 planning fields and 26 actual registry fields stay unresolved. Qualified assessment and native truth/control validation are the next work item.

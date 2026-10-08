@@ -73,5 +73,17 @@
     "handoff": "CONTINUATION_HANDOFF_2026-10-07_R19_R20.md",
     "zenodo_requests_this_round": 0,
     "frozen_0_6_0_includes_these_addenda": false
-  }
+  },
+  "github_research_addenda_history": [
+    {
+      "rounds": [
+        "R000021",
+        "R000022"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-07_R21_R22.md",
+      "status": "prepared_for_review",
+      "zenodo_requests_this_round": 0,
+      "frozen_0_6_0_includes_these_addenda": false
+    }
+  ]
 }

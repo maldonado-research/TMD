@@ -1,0 +1,21 @@
+{
+  "counters": {
+    "analytic_union_intersection_structural_cases": 889,
+    "complete_grid_values": [
+      "0",
+      "1/3",
+      "2/3",
+      "1"
+    ],
+    "exact_endpoint_certificates": 5778,
+    "full_law_cases": 66,
+    "full_law_declared_mask_rows": 3595,
+    "marginal_LP_cases": 2889
+  },
+  "created_utc": "2026-10-08T05:49:20.704504+00:00",
+  "oracle_bytes": 5693331,
+  "oracle_sha256": "7d3d234c031c009d03a792a6d8c7665ee87dbe8e5cc5a5244ee281c9c9983605",
+  "producer_files_inspected": false,
+  "script_sha256": "2f16567b30f5ebe9171c42fb14d8c5005f1ca93ee80cee628d73692cd8beb8f4",
+  "status": "blind_exact_certificates_frozen_before_producer_inspection"
+}

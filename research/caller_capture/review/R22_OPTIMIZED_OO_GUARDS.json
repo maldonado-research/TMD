@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "full_law_scalar_comparisons": 0,
+    "invalid_input_guards": 37,
+    "sharp_bound_comparisons": 0,
+    "witness_marginal_checks": 0,
+    "witness_nonnegative_weights": 0,
+    "witness_objective_checks": 0
+  },
+  "declared_marginal_n_cap": 4,
+  "elapsed_seconds": 0.008231,
+  "engine_sha256": "6b0ddc1174ec56a532e9f7a4e313785f0ff4b76cf938bfff2cf8b7a73a2a2c72",
+  "full_law_cases": 0,
+  "guard_only": true,
+  "marginal_cases": 0,
+  "network_requests": 0,
+  "oracle_sha256": "7d3d234c031c009d03a792a6d8c7665ee87dbe8e5cc5a5244ee281c9c9983605",
+  "per_marginal_case_times": [],
+  "prespecified_4bit_cases_refused_by_declared_domain": 0,
+  "qualified_external_review": false,
+  "script_sha256": "724e09d0f20733b43169932d22d22f40fd78c3089cc549fca0b61e6ffba60129",
+  "selection_sha256": "6e1c98d6270afa858b2dd04d03052cafa5d32bb0b05349b488638707cb496dce",
+  "status": "passed_independent_blind_comparison",
+  "total_checks": 37
+}

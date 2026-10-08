@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "candidate": "R000022",
+  "status": "passed_finite_conditional_support_reference_methods",
+  "python_version": "3.12.14",
+  "dependencies": "Python standard library only",
+  "normal_replay_byte_identical": true,
+  "verification_command": "python3 -B verify_benchmarks.py --output <external temporary output> --check-against BENCHMARKS.json",
+  "synthetic_fixture_count": 14,
+  "exact_check_total": 185,
+  "exact_checks": {
+    "closed_form_or_explicit_fixture_endpoints": 14,
+    "independence_within_sharp_bounds": 14,
+    "witness_normalization": 28,
+    "direct_witness_marginals": 28,
+    "direct_witness_predicate_endpoints": 28,
+    "full_law_summary_vs_direct_witness": 28,
+    "same_marginal_two_support_counterexamples": 3,
+    "explicit_independent_reference_special_case": 3,
+    "fixed_full_carrier_law_reference_dependence": 2,
+    "fixed_reference_marginal_dependence": 2,
+    "reference_joint_law_changes_inclusion": 2,
+    "maximum_full_law_dimension": 1,
+    "structural_zero_despite_true_calls": 1,
+    "valid_32bit_rational_boundary": 1,
+    "invalid_input_guards": 30
+  },
+  "optimized_modes": [
+    {
+      "mode": "-O",
+      "CLI_and_benchmark_library_refused": true,
+      "no_refused_output_created": true,
+      "explicit_engine_guard_failures_checked": 11,
+      "valid_empty_frame_still_supported": true
+    },
+    {
+      "mode": "-OO",
+      "CLI_and_benchmark_library_refused": true,
+      "no_refused_output_created": true,
+      "explicit_engine_guard_failures_checked": 11,
+      "valid_empty_frame_still_supported": true
+    }
+  ],
+  "packaged_output_refused_without_mutation": true,
+  "engine_sha256": "6b0ddc1174ec56a532e9f7a4e313785f0ff4b76cf938bfff2cf8b7a73a2a2c72",
+  "benchmark_sha256": "1867ea1e3ecd4d27854da2d1a3e3cb16394c2a8a40811ed4de928321bc9fedf0",
+  "domain": {
+    "complete_law_descendants": "integer0..8 excluding bool",
+    "sharp_marginal_bound_descendants": "integer0..4",
+    "external_rational_numerator_denominator_bit_cap": 32,
+    "k": "integer1..9 excluding bool",
+    "r": "integer0..9 excluding bool",
+    "known_carrier_reference_mapping": "explicit, disjoint, supplied not authenticated",
+    "native_caller_replay": false,
+    "all_returned_laws_guaranteed_to_fit_external_parser": false,
+    "four_bit_candidate_bases": 4368,
+    "four_bit_nonsingular_bases": 3008
+  },
+  "source_acquisitions": 0,
+  "raw_or_private_content": false,
+  "actual_study_inputs_resolved": 0,
+  "biological_rate_fit_or_empirical_CI": false,
+  "source_likelihood_error_budget_stopping_or_prior_forecast_changed": false,
+  "external_qualified_review_claim": false,
+  "new_theorem_or_priority_claim": false,
+  "independent_review_included_in_this_producer_receipt": false
+}

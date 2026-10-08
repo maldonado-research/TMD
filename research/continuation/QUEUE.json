@@ -100,7 +100,7 @@
       "status": "completed",
       "question": "Does the newly indexed stationary-phase recombination study change the justified scope of mutation-only route entry?",
       "deliverable": "Primary full-text methods/cohort assessment of DOI10.1093/molbev/msag238 with mutation-versus-transfer units and genotype/ecology limits.",
-      "falsifier_or_boundary": "An E.coli\u2013P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "falsifier_or_boundary": "An E.coli–P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
       "maximum_download_bytes": 20971520,
       "completion_scope": "full_primary_source_assessment",
       "result": "Complete main primary text assessed with16 measurement rows,6 identity and13 source-anchor checks. Transfer creates new recipient genotypes without necessarily creating new alleles; recovered CFUs are not independent molecular events. No SBW25 quantitative transfer or TMD confirmation.",
@@ -243,10 +243,33 @@
     {
       "id": "R000021",
       "priority": 21,
-      "status": "queued",
+      "status": "completed",
       "question": "Obtain qualified review of the pedigree packet and define independently validated native event-inclusion controls and transfer limits for an eligible matched system. Actual catalogs, axis, partner/protocol and joint inference design remain unchosen. Do not fit mutation rates or TMD from surviving descendants alone.",
       "deliverable": "Qualified-review-ready native origin-inclusion/control-transfer evidence plan or explicit unfulfilled prerequisites.",
       "falsifier_or_boundary": "Cell recovery or retrospective ancestry accuracy does not authenticate event inclusion, unseen births or cancer-prevention effects.",
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "source_grounded_review_ready_control_plan_only",
+      "qualified_external_review_obtained": false,
+      "report": "../native_origin_controls/README.md",
+      "result": "Three primary source assessments; variant-versus-origin truth and control-transfer plan; actual inputs remain unresolved."
+    },
+    {
+      "id": "R000022",
+      "priority": 22,
+      "status": "completed",
+      "question": "How do correct carrier/reference support thresholds and dependence bound conditional event inclusion?",
+      "deliverable": "Exact finite full-law and sharp marginal-only synthetic probabilities, witnesses and independent dual certificates.",
+      "completion_scope": "conditional_synthetic_support_reference_methods_only",
+      "report": "../caller_capture/README.md",
+      "result": "185 producer checks;66 blind full-law cases/2889 marginal cases/55108 comparison checks; no native caller or biological origin authentication."
+    },
+    {
+      "id": "R000023",
+      "priority": 23,
+      "status": "queued",
+      "question": "Obtain qualified biological/statistical assessment and validate native variant-versus-origin truth and control transport for an eligible matched system before any pilot or fit. Actual catalogs, axis, origin episodes, matched backgrounds, loss-genotype truth, independent units, native caller, uncertainty/error/stopping plan and partner remain unchosen. Do not default to another automatic mathematical extension.",
+      "deliverable": "Qualified assessment and independently validated native variant-versus-origin truth/control evidence, or precisely documented unmet prerequisites.",
+      "falsifier_or_boundary": "Technical variant detection, ancestry accuracy, engineered/spike controls and synthetic sharpness do not establish native new-origin inclusion or unseen births.",
       "maximum_download_bytes": 20971520
     }
   ]

@@ -1,0 +1,275 @@
+{
+  "actual_study_inputs_resolved": 0,
+  "external_qualified_review": false,
+  "inspection_depth": "47 full anchored body paragraphs across three cached primary articles plus a short paragraph-lead scan; no full-paper review by this reviewer. Root broader reading is attributed separately.",
+  "network_requests_by_reviewer": 0,
+  "new_sources_acquired": false,
+  "raw_article_or_patient_data_in_public_output": false,
+  "record_id": "R000021",
+  "sources": [
+    {
+      "article_title": "Accurate genomic variant detection in single cells with primary template-directed amplification",
+      "body_paragraph_count": 56,
+      "bytes": 133269,
+      "cache_name": "PMC8214697.xml",
+      "front_identifiers": {
+        "doi": "10.1073/pnas.2024176118",
+        "pmcaid": "8214697",
+        "pmcaiid": "8214697",
+        "pmcid": "PMC8214697",
+        "pmcid-ver": "PMC8214697.1",
+        "pmid": "34099548",
+        "publisher-id": "202024176"
+      },
+      "full_paper_review_claim": false,
+      "independently_read_full_paragraphs": 12,
+      "index_definition": "Global article/body//p list; select index minus one; SHA256 normalized full itertext with whitespace collapsed.",
+      "license_refs": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "paragraph_anchors": [
+        {
+          "index": 11,
+          "sha256": "936f4c06395d470ebcf563fa60954126a2fbdfc6bef198b1164457e077d99ef7"
+        },
+        {
+          "index": 13,
+          "sha256": "98d474f25eec7d4d4a39b3c55a188f95ffca847c0d59e83e278b2988478a007c"
+        },
+        {
+          "index": 17,
+          "sha256": "3d89e932dd88fc235386b71e8dd13bf23bb62b5fbb835bca9b2cb11b06c5074e"
+        },
+        {
+          "index": 19,
+          "sha256": "aa5f45ad66cf102bdf93ba98c52303c7fea90d100cf64bd2e69da3cabfb68d40"
+        },
+        {
+          "index": 21,
+          "sha256": "fa8c070cbf8e0bbbb93a1905713ba089b02afb7b689eb283688f68d8bf80a0a4"
+        },
+        {
+          "index": 23,
+          "sha256": "ec22d0453674833deab500a5a97d90c367e8a136fccb0abc32333adb421046e9"
+        },
+        {
+          "index": 40,
+          "sha256": "098b8425cec7dd79bc6addd84e13dc3f5f51006c05887289282d9f90319ae503"
+        },
+        {
+          "index": 47,
+          "sha256": "451d5c096a3f60065efa7c8a188ce4ca3da78c7c5bdbb049749317b987dc96e0"
+        },
+        {
+          "index": 48,
+          "sha256": "a1b581c71ef742b7759a71a2cab2b296384c0dd9545d21c9918f15882ae8dce1"
+        },
+        {
+          "index": 49,
+          "sha256": "d15a57dc94995803e4c8eaab61daf85eb7be2b70b77c9badd184746138837bc2"
+        },
+        {
+          "index": 51,
+          "sha256": "565ce2f0fc7a1c8d05ff35d61d976b8883beed45f590e095d265b296a8d65690"
+        },
+        {
+          "index": 52,
+          "sha256": "f6e38d3fba7b52622d0349f4faf7e4869317e728520a8ce4db49d4725156bc9b"
+        }
+      ],
+      "paragraph_indices_are_one_based": true,
+      "sha256": "c15e1bcb9d1cfe5ae72c0753ced72510e729a1ccc17e4913e365781c4cca9f4f"
+    },
+    {
+      "article_title": "Differential Mutagenic Response of Rat Liver and Lung to Nicotine-Derived Nitrosamine Ketone (NNK)",
+      "body_paragraph_count": 56,
+      "bytes": 171595,
+      "cache_name": "PMC13488614.xml",
+      "front_identifiers": {
+        "doi": "10.1021/acs.chemrestox.6c00154",
+        "pmcaid": "13488614",
+        "pmcaiid": "13488614",
+        "pmcid": "PMC13488614",
+        "pmcid-ver": "PMC13488614.1",
+        "pmid": "42606284"
+      },
+      "full_paper_review_claim": false,
+      "independently_read_full_paragraphs": 17,
+      "index_definition": "Global article/body//p list; select index minus one; SHA256 normalized full itertext with whitespace collapsed.",
+      "license_refs": [
+        "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      ],
+      "paragraph_anchors": [
+        {
+          "index": 10,
+          "sha256": "eb8561a2bb24de5896fe1c8689bfc1ec4ee809530aa82b4270b34b62d8af2cf0"
+        },
+        {
+          "index": 13,
+          "sha256": "41ac568ae8f55ae3bd4640ca0139b71c7daa47b771df9aa9753f2b78c6fdf67b"
+        },
+        {
+          "index": 14,
+          "sha256": "a1249e5791f01975b619a687a9775ff15ef69eb6195667b7415c998998c94830"
+        },
+        {
+          "index": 19,
+          "sha256": "ef4bf13d0cabce4a02a42724694c0cb3554d70d8db57a929130dcb1f2b5535da"
+        },
+        {
+          "index": 20,
+          "sha256": "bd60971ab2c66affaa8ae762f2b8da3c78410a36634ffdb13cbb5a9b83d3a6fc"
+        },
+        {
+          "index": 21,
+          "sha256": "c2501e81f4078029b1c8dd35691cd867949656ba8d27250e092a77114b5b214c"
+        },
+        {
+          "index": 32,
+          "sha256": "2f20d2bf3c8f2b99fa86a70863624b3398207e2e23f8e59c5a7f771158e85049"
+        },
+        {
+          "index": 33,
+          "sha256": "bc0e382967dc36121a138245a58a9f2a756c78aefc1d92e38f2be90394ebcdb6"
+        },
+        {
+          "index": 34,
+          "sha256": "1c835cd6b8d6cb33f3465d225b6bc59d32e4a96199e898f3230ca317fc4ab085"
+        },
+        {
+          "index": 35,
+          "sha256": "706a4403f52d24a88a587ce1365c38309d5f82ceb8941a257a5da58a8280950c"
+        },
+        {
+          "index": 38,
+          "sha256": "2546e8e00c7c7cc1a3d9d69eb8bbb58be97e2d4e4e737c9caa426b2a8abea00b"
+        },
+        {
+          "index": 41,
+          "sha256": "987b390fdd0e7d7b1d40eb300c865a7f040e6d3769dc1d3a83d7dbc8504b8989"
+        },
+        {
+          "index": 44,
+          "sha256": "9f3d30023f4f4d0d64a3cbe3f3d5c18e50ad2ff89215ad99463e3e1deda0b439"
+        },
+        {
+          "index": 48,
+          "sha256": "368c7d786487f02ebb667974a67e3e5fb823962e6807abe25c5752e4e7b68143"
+        },
+        {
+          "index": 49,
+          "sha256": "c6942530d485396a968444d8f46a2c896013f641985a945efe97ef7ea0d702da"
+        },
+        {
+          "index": 55,
+          "sha256": "946b80291fb91938267bad379bdc74c1ebfc80057accc4d02f568c18c94d40bb"
+        },
+        {
+          "index": 56,
+          "sha256": "d7a5ff4330e06393e45042923b08f5375ff3d6409a9119a0d0caff4ed04fff92"
+        }
+      ],
+      "paragraph_indices_are_one_based": true,
+      "sha256": "e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4"
+    },
+    {
+      "article_title": "Comprehensive single-cell genome analysis at nucleotide resolution using the PTA Analysis Toolbox",
+      "body_paragraph_count": 123,
+      "bytes": 223535,
+      "cache_name": "PMC10504672.xml",
+      "front_identifiers": {
+        "doi": "10.1016/j.xgen.2023.100389",
+        "pii": "S2666-979X(23)00186-6",
+        "pmcaid": "10504672",
+        "pmcaiid": "10504672",
+        "pmcid": "PMC10504672",
+        "pmcid-ver": "PMC10504672.1",
+        "pmid": "37719152",
+        "publisher-id": "100389"
+      },
+      "full_paper_review_claim": false,
+      "independently_read_full_paragraphs": 18,
+      "index_definition": "Global article/body//p list; select index minus one; SHA256 normalized full itertext with whitespace collapsed.",
+      "license_refs": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "paragraph_anchors": [
+        {
+          "index": 14,
+          "sha256": "7099b645df95b9a6fba1141fc041435b665837ac58af5aed57a7101d5ba99d73"
+        },
+        {
+          "index": 15,
+          "sha256": "56879bc5699de965df6533b57d7387bbae1567f7b231da3faf3aa38f811e29dc"
+        },
+        {
+          "index": 16,
+          "sha256": "0378f7ce3824d51c6538e2e47d95684399d83a27e1b516d11a7dc6f7c4b3615e"
+        },
+        {
+          "index": 18,
+          "sha256": "4518c68b33c919a18c76f4803770cb3e4594844ca4a48808627354d40bad774f"
+        },
+        {
+          "index": 19,
+          "sha256": "d3797a1688fa79c2e7eaa426b29efd933d1ccfce747c36c3a6b42b6e5957cd31"
+        },
+        {
+          "index": 33,
+          "sha256": "20d66333d8db99873911045be81246cefb939e8b0a8efb1b3d27b7c1fd5dc74e"
+        },
+        {
+          "index": 34,
+          "sha256": "ca354f13fe2d016518cc2565bc14628c5f52dfcc9f1eeeaa692f46041ef7ecc6"
+        },
+        {
+          "index": 35,
+          "sha256": "383465e5a81a8d5141ff676514bd289aa8f5895c9aac365d0227cd3e0ea0d06a"
+        },
+        {
+          "index": 71,
+          "sha256": "dca64bc92a5977c566bca7976c3d1d41b918ff53fdc836634640ba9648c9697f"
+        },
+        {
+          "index": 73,
+          "sha256": "64737c60d21504278ca3d415441f2e56a69fb31636ccb1800e076e741a9cbfbb"
+        },
+        {
+          "index": 91,
+          "sha256": "211fb0238d6c70cecf4fee7babae13938ec3e46062aabb66e0e5f54715c93c66"
+        },
+        {
+          "index": 98,
+          "sha256": "c793cbc3d4b0f919957db495c5588c2a4ca8a3549640409b9cca76e26919e40a"
+        },
+        {
+          "index": 101,
+          "sha256": "f6cf5d6836f929e349bdfe33e443a3c3ebb82c027decc874c2dbd45740c64bd2"
+        },
+        {
+          "index": 104,
+          "sha256": "a9e3fc2fd79da38476869bf4dfe23e90d8950df75f39437a60116091572a0ca9"
+        },
+        {
+          "index": 105,
+          "sha256": "918e381f78b5c05d180a3977e54c9d1cfb86d630f9e2de8e2ada55f9c5b32e85"
+        },
+        {
+          "index": 107,
+          "sha256": "64c6840cf1a12f77a1494cfa1c0f169c0f329556cbf10f4aa12a85209ae2354a"
+        },
+        {
+          "index": 109,
+          "sha256": "49429b6f714ef17fa9117834835e1756ba8e1909ff32147c5cff731325855ac2"
+        },
+        {
+          "index": 110,
+          "sha256": "0c46deb524ff524675f95a74a277dcee44a8e81adbb0ba4723a4c59e7b3ed7a1"
+        }
+      ],
+      "paragraph_indices_are_one_based": true,
+      "sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5"
+    }
+  ],
+  "status": "independent_selected_primary_anchor_reading_completed"
+}

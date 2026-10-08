@@ -1,0 +1,27 @@
+{
+  "record_id": "R000021",
+  "type": "unfilled planning template; not additional resolved study registry",
+  "actual_values": {
+    "matched_system": null,
+    "founder_identity": null,
+    "native_event_catalogue": null,
+    "ordered_axis_rationale": null,
+    "event_unit_and_episode_rule": null,
+    "native_caller_version": null,
+    "complete_inclusion_predicate": null,
+    "independent_origin_truth_source": null,
+    "truth_carrier_and_reference_sets": null,
+    "lost_lineage_truth_limits": null,
+    "negative_truth_and_false_positive_rule": null,
+    "independent_replication_unit": null,
+    "locus_and_genotype_state_matching": null,
+    "joint_call_control_design": null,
+    "batch_and_context_transport_rule": null,
+    "uncertainty_and_error_allocation": null,
+    "algorithm_adaptation_rule": null,
+    "frozen_stopping_and_analysis": null
+  },
+  "actual_bacterial_registry_fields_resolved": 0,
+  "laboratory_protocol_commissioned": false,
+  "qualified_external_review_obtained": false
+}

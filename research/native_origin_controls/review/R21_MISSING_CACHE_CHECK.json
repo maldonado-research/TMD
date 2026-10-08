@@ -1,0 +1,15 @@
+{
+  "record_id": "R000021",
+  "status": "UNRUN_MISSING_CACHE",
+  "identity_checks": 3,
+  "sources": [],
+  "missing_sources": [
+    "PMC8214697",
+    "PMC10504672",
+    "PMC13488614"
+  ],
+  "failures": [],
+  "new_network_requests": 0,
+  "source_semantics_validated_by_hashes": false,
+  "actual_study_fields_resolved": 0
+}

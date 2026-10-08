@@ -1,0 +1,511 @@
+{
+  "record_id": "R000021",
+  "scope": "Targeted source review, not systematic or exhaustive web search",
+  "sources": [
+    {
+      "id": "PTA2021",
+      "pmc": "PMC8214697",
+      "doi": "10.1073/pnas.2024176118",
+      "title": "Accurate genomic variant detection in single cells with primary template-directed amplification",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8214697/",
+      "xml_bytes": 133269,
+      "xml_sha256": "c15e1bcb9d1cfe5ae72c0753ced72510e729a1ccc17e4913e365781c4cca9f4f",
+      "body_paragraph_count": 56,
+      "root_read_one_based_paragraphs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "assessment_depth": "full main body paragraphs; figures described in embedded captions; supplementary material, raw data and code not acquired",
+      "license_note": "CC BY4.0",
+      "body_redistributed": false,
+      "paragraph_index_definition": "ONE-based XML article/body//p document order; full itertext stripped at both ends, no other normalization",
+      "anchors": [
+        {
+          "one_based_index": 5,
+          "paragraph_sha256": "371d3b6048c25273cfa35a5b28b60b6ab01927d7e3c46242541aad18b7f391f8"
+        },
+        {
+          "one_based_index": 7,
+          "paragraph_sha256": "0afcc71a148094c0a2f760ac6eae8869245291bff82067d8f150f09aa944a575"
+        },
+        {
+          "one_based_index": 8,
+          "paragraph_sha256": "ffafb3345443d87f38472029a8452072a9586835a76fd22311c52e36d26290c2"
+        },
+        {
+          "one_based_index": 11,
+          "paragraph_sha256": "936f4c06395d470ebcf563fa60954126a2fbdfc6bef198b1164457e077d99ef7"
+        },
+        {
+          "one_based_index": 12,
+          "paragraph_sha256": "450dede4aebe72f06a87988a3941c8a07a2a8b2c76e52427ca9b63473dc99fd0"
+        },
+        {
+          "one_based_index": 17,
+          "paragraph_sha256": "3d89e932dd88fc235386b71e8dd13bf23bb62b5fbb835bca9b2cb11b06c5074e"
+        },
+        {
+          "one_based_index": 18,
+          "paragraph_sha256": "db2fac8d0f3a557ea312d17b7596d14c74473effaa11629b7dee423ee62b4f5e"
+        },
+        {
+          "one_based_index": 19,
+          "paragraph_sha256": "aa5f45ad66cf102bdf93ba98c52303c7fea90d100cf64bd2e69da3cabfb68d40"
+        },
+        {
+          "one_based_index": 23,
+          "paragraph_sha256": "ec22d0453674833deab500a5a97d90c367e8a136fccb0abc32333adb421046e9"
+        },
+        {
+          "one_based_index": 25,
+          "paragraph_sha256": "f7317519f0c313f28dcaab787ef5dc7ec1c45e1f03ccdea1edcc94fe80d133b0"
+        },
+        {
+          "one_based_index": 30,
+          "paragraph_sha256": "3f5d1b39fcf40dd6a812263b0245fafed15f1bd694737ee788b8ce89d09db774"
+        },
+        {
+          "one_based_index": 34,
+          "paragraph_sha256": "f20c4763b24ea3ce79525f092ffa17342482578762eee8e4320895c203c3d221"
+        },
+        {
+          "one_based_index": 48,
+          "paragraph_sha256": "a1b581c71ef742b7759a71a2cab2b296384c0dd9545d21c9918f15882ae8dce1"
+        },
+        {
+          "one_based_index": 49,
+          "paragraph_sha256": "d15a57dc94995803e4c8eaab61daf85eb7be2b70b77c9badd184746138837bc2"
+        },
+        {
+          "one_based_index": 50,
+          "paragraph_sha256": "7f7d839858b497160e8e04ab7565d7a16d86fffc2829d30f1aec864441107612"
+        },
+        {
+          "one_based_index": 51,
+          "paragraph_sha256": "565ce2f0fc7a1c8d05ff35d61d976b8883beed45f590e095d265b296a8d65690"
+        },
+        {
+          "one_based_index": 52,
+          "paragraph_sha256": "f6e38d3fba7b52622d0349f4faf7e4869317e728520a8ce4db49d4725156bc9b"
+        }
+      ]
+    },
+    {
+      "id": "PTATO2023",
+      "pmc": "PMC10504672",
+      "doi": "10.1016/j.xgen.2023.100389",
+      "title": "Comprehensive single-cell genome analysis at nucleotide resolution using the PTA Analysis Toolbox",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504672/",
+      "xml_bytes": 223535,
+      "xml_sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5",
+      "body_paragraph_count": 123,
+      "root_read_one_based_paragraphs": [
+        3,
+        14,
+        15,
+        16,
+        18,
+        19,
+        33,
+        34,
+        35,
+        36,
+        71,
+        73,
+        82,
+        84,
+        85,
+        91,
+        92,
+        98,
+        99,
+        101,
+        104,
+        105,
+        107,
+        109,
+        110
+      ],
+      "assessment_depth": "selected25 paragraphs and short paragraph-lead scan; remaining main text, supplements, raw data and code not assessed",
+      "license_note": "CC BY4.0",
+      "body_redistributed": false,
+      "paragraph_index_definition": "ONE-based XML article/body//p document order; full itertext stripped at both ends, no other normalization",
+      "anchors": [
+        {
+          "one_based_index": 14,
+          "paragraph_sha256": "29f081d093a6a20f065d13a777cfb7aa3ec6363ab0d6f4d227683992b5cd20f9"
+        },
+        {
+          "one_based_index": 15,
+          "paragraph_sha256": "1fc0019e6f827a1df906a78acfaf9c8ce307090090225f11c74968a962889412"
+        },
+        {
+          "one_based_index": 16,
+          "paragraph_sha256": "ba02faf233ff1c61666fa97187485760b848d00f3fe782fe031ebf3911a2f6c2"
+        },
+        {
+          "one_based_index": 18,
+          "paragraph_sha256": "9209048f9d992bfd3356db475b8bfcfe82dfd0a9ec0e6c23163c43f643f1de28"
+        },
+        {
+          "one_based_index": 19,
+          "paragraph_sha256": "d7f9e9676d264e106aebc3ee27193743111cfc00fd032616340af53788acce77"
+        },
+        {
+          "one_based_index": 33,
+          "paragraph_sha256": "1cd45f19033250b22e0ad561955207022f6a07f678172ca6b07da66fb89252ef"
+        },
+        {
+          "one_based_index": 34,
+          "paragraph_sha256": "28246afea52f31d85bee7819b2e84e081fd7b4cc45ecc8371e24e9f733e8e1cb"
+        },
+        {
+          "one_based_index": 35,
+          "paragraph_sha256": "b375da3b9e58424525a1454ca55941e7f52016f07da7db282882af7699d3512e"
+        },
+        {
+          "one_based_index": 73,
+          "paragraph_sha256": "64ade7229688a46078ddba65ec46cc1060ce9cfaabe9e65efdc655fd5327c54e"
+        },
+        {
+          "one_based_index": 82,
+          "paragraph_sha256": "424877723db0f907779546da4ff8fe5e24675ba1059e8c3390d6868e07c26e8e"
+        },
+        {
+          "one_based_index": 91,
+          "paragraph_sha256": "211fb0238d6c70cecf4fee7babae13938ec3e46062aabb66e0e5f54715c93c66"
+        },
+        {
+          "one_based_index": 92,
+          "paragraph_sha256": "f13fd786715afbc69704f8267bd0d177f65bd8b4871056a1f865266e0b9ad801"
+        },
+        {
+          "one_based_index": 98,
+          "paragraph_sha256": "5cca97cf0532063647bfcd8cbdc2787ce612c18ca7634cc295dad336f344d6f2"
+        },
+        {
+          "one_based_index": 104,
+          "paragraph_sha256": "a9e3fc2fd79da38476869bf4dfe23e90d8950df75f39437a60116091572a0ca9"
+        },
+        {
+          "one_based_index": 105,
+          "paragraph_sha256": "918e381f78b5c05d180a3977e54c9d1cfb86d630f9e2de8e2ada55f9c5b32e85"
+        },
+        {
+          "one_based_index": 107,
+          "paragraph_sha256": "64c6840cf1a12f77a1494cfa1c0f169c0f329556cbf10f4aa12a85209ae2354a"
+        },
+        {
+          "one_based_index": 109,
+          "paragraph_sha256": "49429b6f714ef17fa9117834835e1756ba8e1909ff32147c5cff731325855ac2"
+        },
+        {
+          "one_based_index": 110,
+          "paragraph_sha256": "0c46deb524ff524675f95a74a277dcee44a8e81adbb0ba4723a4c59e7b3ed7a1"
+        }
+      ]
+    },
+    {
+      "id": "NNK2026",
+      "pmc": "PMC13488614",
+      "doi": "10.1021/acs.chemrestox.6c00154",
+      "title": "Differential\nMutagenic Response of Rat Liver and Lung\nto Nicotine-Derived Nitrosamine Ketone (NNK)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13488614/",
+      "xml_bytes": 171595,
+      "xml_sha256": "e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4",
+      "body_paragraph_count": 56,
+      "root_read_one_based_paragraphs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "assessment_depth": "full main body paragraphs including embedded captions; supplements, raw data, software and regulatory source documents not acquired",
+      "license_note": "CC BY-NC-ND4.0",
+      "body_redistributed": false,
+      "paragraph_index_definition": "ONE-based XML article/body//p document order; full itertext stripped at both ends, no other normalization",
+      "anchors": [
+        {
+          "one_based_index": 7,
+          "paragraph_sha256": "4f15472941a24398831c9fdcfcb040a905296031851de81f5b0d22c94dc6a88e"
+        },
+        {
+          "one_based_index": 13,
+          "paragraph_sha256": "bc0cb8f4fecc0a0261fb43ede5d30d15f5fc852a87faa88246c148b02a0a10d9"
+        },
+        {
+          "one_based_index": 14,
+          "paragraph_sha256": "7a50002225107dbdd205b6ca8675eecb11c2858bb2d0e8ca0786ae48322fa65e"
+        },
+        {
+          "one_based_index": 19,
+          "paragraph_sha256": "1c582e2b810518ea3da6a03c100b463dd8d0cecef55da02480adb84d93578158"
+        },
+        {
+          "one_based_index": 20,
+          "paragraph_sha256": "36750cd739027768d596799a6ec30e58c2cd0c66478f822c375afd6ed2383cbd"
+        },
+        {
+          "one_based_index": 21,
+          "paragraph_sha256": "b543fb3cb43acb595300b203fa574cdd27861a090f268e8037f38b29c397b25f"
+        },
+        {
+          "one_based_index": 25,
+          "paragraph_sha256": "b3241b96d2901a647656ab3dbe3bc5e4dde3272978c5e3e409aa9341d4773fa5"
+        },
+        {
+          "one_based_index": 32,
+          "paragraph_sha256": "02f92b8da71eaa7832138d389145a362a09473436e7f1afe46c5b59d08ed186a"
+        },
+        {
+          "one_based_index": 33,
+          "paragraph_sha256": "c67d95e2ae3f92f9422c0a96b73d0fa4d3b988f839e85dbe215c8af87997bd03"
+        },
+        {
+          "one_based_index": 34,
+          "paragraph_sha256": "4bb140f00af01f500060e42e16798c7ac03ed031b2c859b7fa3c42ada7818212"
+        },
+        {
+          "one_based_index": 35,
+          "paragraph_sha256": "91cccc039269448e0aa2007cba00b7f0172ab20f8e02c38c2f3695a0c1283f1e"
+        },
+        {
+          "one_based_index": 39,
+          "paragraph_sha256": "8545c9b827eebec60766cf1093fab77096a4125eacd3a129478782b6e813bba1"
+        },
+        {
+          "one_based_index": 41,
+          "paragraph_sha256": "e8a11ef167972391e4c0c6796dbc647600a8844c003cc3a972a927c2fa9c3b0d"
+        },
+        {
+          "one_based_index": 44,
+          "paragraph_sha256": "12194796a8ce2c272ca3bce4a08d84b914b18110e3b9ac87d4ab06a203f16cb4"
+        },
+        {
+          "one_based_index": 49,
+          "paragraph_sha256": "cb388dc949b95c366ce7b69d14e02c9c5d2070599249d06e9aeb09eb6ab24eaa"
+        },
+        {
+          "one_based_index": 55,
+          "paragraph_sha256": "63ce2060c34fecebdea3ab20095fe42bbf4c717a5b1fe61dc245bd8ad647c653"
+        },
+        {
+          "one_based_index": 56,
+          "paragraph_sha256": "0ff1be5b5c2c58018e120924056fa61c2e748a846e9600629b7d5ec533180f15"
+        }
+      ]
+    }
+  ],
+  "screened_abstract_records": 14,
+  "abstract_only_candidates": [
+    {
+      "pmid": "42748841",
+      "title": "Prolonged benzo[b]fluoranthene exposure increases tissue-specific mutational burden, expansion of mutant cells, and mutagenic potency.",
+      "doi": "10.1016/j.envint.2026.110516",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "42720293",
+      "title": "Genomic characterization of the attenuated human cytomegalovirus strain TR-VAC developed for subviral particle vaccine production.",
+      "doi": "10.1128/mra.00397-26",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "42606284",
+      "title": "Differential Mutagenic Response of Rat Liver and Lung to Nicotine-Derived Nitrosamine Ketone (NNK).",
+      "doi": "10.1021/acs.chemrestox.6c00154",
+      "preprint_doi": false,
+      "assessment": "selected primary"
+    },
+    {
+      "pmid": "42277565",
+      "title": "Benzo[b]fluoranthene Induces Mutation Accumulation and Cancer-Relevant Mutational Signatures in Mouse Lung Alongside Steady State Levels of Chromosome Damage in Blood.",
+      "doi": "10.1002/em.70063",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "42041034",
+      "title": "Benchmark Response Values for Error-Corrected Sequencing Mutagenicity Assessment Technologies.",
+      "doi": "10.1002/em.70051",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "41789568",
+      "title": "SigRescueR: a pan-system framework for noise correction and mutational signature identification across sequencing platforms.",
+      "doi": "10.1093/bib/bbag099",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "34099548",
+      "title": "Accurate genomic variant detection in single cells with primary template-directed amplification.",
+      "doi": "10.1073/pnas.2024176118",
+      "preprint_doi": false,
+      "assessment": "selected primary"
+    },
+    {
+      "pmid": "39709610",
+      "title": "Protocol for genome-wide analysis of somatic variants at single-cell resolution using primary template-directed DNA amplification.",
+      "doi": "10.1016/j.xpro.2024.103499",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "36163278",
+      "title": "Single-cell genome sequencing of human neurons identifies somatic point mutation and indel enrichment in regulatory elements.",
+      "doi": "10.1038/s41588-022-01180-2",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "41787279",
+      "title": "Precise exome analysis of blastocyst biopsy scale samples using primary template-directed amplification.",
+      "doi": "10.1186/s12864-025-12511-y",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "41279272",
+      "title": "A comprehensive view of somatic mosaicism by single-cell DNA analysis.",
+      "doi": "10.1101/2025.10.31.685648",
+      "preprint_doi": true,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "39021442",
+      "title": "scMicrobe PTA: near complete genomes from single bacterial cells.",
+      "doi": "10.1093/ismeco/ycae085",
+      "preprint_doi": false,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "41279007",
+      "title": "Large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus.",
+      "doi": "10.1101/2025.10.11.681805",
+      "preprint_doi": true,
+      "assessment": "metadata/abstract only"
+    },
+    {
+      "pmid": "37719152",
+      "title": "Comprehensive single-cell genome analysis at nucleotide resolution using the PTA Analysis Toolbox.",
+      "doi": "10.1016/j.xgen.2023.100389",
+      "preprint_doi": false,
+      "assessment": "selected primary"
+    }
+  ],
+  "title_query_zero_result": "The initial exact quoted title returned0 and a phrase-not-found warning; the broader method-name query found the primary study. Zero result was not used as evidence of absence.",
+  "source_request_count": 8,
+  "source_response_bytes": 925380,
+  "raw_reads_code_supplements_private_archive_acquired": false,
+  "new_primary_assessment_count": 3
+}
