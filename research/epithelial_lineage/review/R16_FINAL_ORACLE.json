@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_R16_SOURCE_AND_STAGE_REVIEW",
+  "engine_sha256": "870ad4495ed35e559d4eb58e361fadac6153a52ea9465e9ec56a51fe9a404ea7",
+  "enumerated_nested_stage_cases": 494,
+  "checks": {
+    "primary": 35,
+    "source_stage": 7,
+    "nested_flow_cases": 3458,
+    "software": 13,
+    "candidate_metadata": 3
+  },
+  "check_total": 3516,
+  "software_tree_reconstructed_sha1": "937bf7035eda7bd9e6ba0666603375ecbeffe57f",
+  "primary_source_body_paragraphs": 80,
+  "primary_claim_inspection": "Root read the complete selected primary paragraphs7,21,34\u201336,43,48,51,66\u201368,71\u201373,79; reviewed identities and20anchors. Producer reports full80paragraph inspection; hashes alone do not verify interpretation.",
+  "biological_scope": "Two displayed pedigrees,24related sequenced subclones, non-isogenic HT115/RPE1; nested realized recovery fractions are not independently calibrated route probabilities or new mutation-birth denominators.",
+  "licenses": "Article CC BY4.0 verified; pinned software lacks LICENSE, no code/archive reuse right inferred. No full primary bodies, reads, variants or notebooks published."
+}

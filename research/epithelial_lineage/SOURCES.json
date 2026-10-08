@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "scope": "One primary epithelial lineage experiment selected from a bounded targeted PubMed screen; not a systematic or global study-eligibility claim",
+  "search_date_local": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "query": "(organoid*[Title/Abstract] OR epithelial[Title/Abstract]) AND (\"mutation accumulation\"[Title/Abstract] OR \"somatic mutation\"[Title/Abstract] OR \"de novo mutation\"[Title/Abstract]) AND (lineage[Title/Abstract] OR clonal[Title/Abstract] OR \"single-cell\"[Title/Abstract] OR pedigree[Title/Abstract]) AND (culture[Title/Abstract] OR division[Title/Abstract] OR growth[Title/Abstract])",
+  "sort_requested": "publication_date",
+  "total_index_hits_reported": 18,
+  "metadata_abstract_candidates_inspected": 12,
+  "unscreened_remaining_index_hits": 6,
+  "candidate_screen": [
+    {
+      "pmid": "42793173",
+      "title": "Identification of Novel Transcriptional Alleles in Primary Prostate Cancer Cells and Cancer Stem Cells by Bulk RNA-Seq and Single-Cell RNA-Seq Analyses.",
+      "doi": "10.3390/biom16091341",
+      "pmc": "PMC13604742",
+      "dates_as_reported": [
+        "20260915",
+        "2026Sep15"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "RNA-derived transcriptional alleles and CSC cultures; no independently observed genome mutation-generation pedigree in the abstract."
+    },
+    {
+      "pmid": "42682961",
+      "title": "A clinically derived lipid-endothelial signature links serum multi-omics to immune exclusion and clinical stratification in hepatocellular carcinoma.",
+      "doi": "10.1177/17588359261481797",
+      "pmc": "PMC13530516",
+      "dates_as_reported": [
+        "20260831",
+        "2026"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "Serum/transcriptomic prognostic signature; no mutation-accumulation lineage experiment."
+    },
+    {
+      "pmid": "42705851",
+      "title": "[State Changes and Stability Grading of Driver Genes in Non-small Cell Lung Cancer Based on Repeated NGS Testing].",
+      "doi": "10.3779/j.issn.1009-3419.2026.106.18",
+      "pmc": "PMC13559061",
+      "dates_as_reported": [
+        "2026Jul20"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "Retrospective repeated patient NGS; temporal appearance of variants is not independently observed mutation production."
+    },
+    {
+      "pmid": "42436404",
+      "title": "A new conceptual framework for PKD1 in ADPKD; integrating DNA structures and inflammation.",
+      "doi": "10.1186/s12882-026-05191-7",
+      "pmc": null,
+      "dates_as_reported": [
+        "20260711",
+        "2026Jul11"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_selected",
+      "source_specific_reason": "Conceptual PKD1/inflammation framework; not a directly observed mutation pedigree."
+    },
+    {
+      "pmid": "42265324",
+      "title": "HMGA2 identified via m6A-senescence multi-omics in laryngeal squamous cell carcinoma.",
+      "doi": "10.1038/s41598-026-55980-1",
+      "pmc": "PMC13494028",
+      "dates_as_reported": [
+        "20260609",
+        "2026Jun09"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "Prognostic multi-omics and growth perturbation; no matched new-origin mutation exposure/calibration described."
+    },
+    {
+      "pmid": "40847690",
+      "title": "Single-cell multi-omics characterize colorectal tumors, adjacent healthy tissue and matched (tumor) organoids identifying CRC-unique features.",
+      "doi": "10.1002/ijc.70103",
+      "pmc": "PMC12541563",
+      "dates_as_reported": [
+        "20250823",
+        "2025Dec15"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "2025 matched colorectal tissue/organoid endpoint multi-omics; de novo/not detected variants do not supply observed mutation-generation pedigrees in inspected abstract."
+    },
+    {
+      "pmid": "40540226",
+      "title": "Integrating multi-omics data to optimize immunotherapy in endometrial cancer: a comprehensive study.",
+      "doi": "10.1007/s12672-025-02978-2",
+      "pmc": "PMC12181619",
+      "dates_as_reported": [
+        "20250620",
+        "2025Jun20"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "Immunotherapy-response multi-omics and co-culture; no matched mutation-accumulation pedigrees."
+    },
+    {
+      "pmid": "36449747",
+      "title": "Changes of Mutations and Copy-Number and Enhanced Cell Migration during Breast Tumorigenesis.",
+      "doi": "10.1002/adbi.202200072",
+      "pmc": "PMC10836759",
+      "dates_as_reported": [
+        "20221130",
+        "2023Feb"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_not_selected",
+      "source_specific_reason": "Breast stem-cell tumorigenesis and migration; no continuously observed de novo mutation/division pedigree in abstract."
+    },
+    {
+      "pmid": "34637643",
+      "title": "Simulations reveal that different responses to cell crowding determine the expansion of p53 and Notch mutant clones in squamous epithelia.",
+      "doi": "10.1098/rsif.2021.0607",
+      "pmc": "PMC8510697",
+      "dates_as_reported": [
+        "20211013",
+        "2021Oct"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_simulation_not_selected",
+      "source_specific_reason": "Crowding-response simulations and prior observations; not an independently collected mutation-birth pedigree."
+    },
+    {
+      "pmid": "31936239",
+      "title": "Roles of TrkC Signaling in the Regulation of Tumorigenicity and Metastasis of Cancer.",
+      "doi": "10.3390/cancers12010147",
+      "pmc": "PMC7016819",
+      "dates_as_reported": [
+        "20200108",
+        "2020Jan08"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_review_not_selected",
+      "source_specific_reason": "TrkC cancer-signaling review; not a lineage mutation-accumulation experiment."
+    },
+    {
+      "pmid": "30459213",
+      "title": "Quantification of somatic mutation flow across individual cell division events by lineage sequencing.",
+      "doi": "10.1101/gr.238543.118",
+      "pmc": "PMC6280753",
+      "dates_as_reported": [
+        "20181120",
+        "2018Dec"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "selected_primary_main_text_and_methods",
+      "source_specific_reason": "Directly observed single-cell divisions and subclonal genomic lineages provide the clearest generation/survivor/recovery distinction among the twelve inspected abstracts."
+    },
+    {
+      "pmid": "29215633",
+      "title": "Measuring mutation accumulation in single human adult stem cells by whole-genome sequencing of organoid cultures.",
+      "doi": "10.1038/nprot.2017.111",
+      "pmc": null,
+      "dates_as_reported": [
+        "20171207",
+        "2018Jan"
+      ],
+      "inspection": "metadata_and_abstract",
+      "screening_state": "metadata_abstract_only_protocol_not_selected",
+      "source_specific_reason": "Organoid mutation-accumulation protocol; not selected because optical generation counts and stage recovery are more directly documented in the chosen proof-of-concept experiment."
+    }
+  ],
+  "selection_rationale": "The oldest selected primary among the screened records provides direct division observation and explicit recovery-stage counts; newer abstracts lacked that specific pedigree/exposure contract. No claim that no newer eligible experiment exists.",
+  "primary_source": {
+    "pmc": "PMC6280753",
+    "pmid": "30459213",
+    "doi": "10.1101/gr.238543.118",
+    "title": "Quantification of somatic mutation flow across individual cell division events by lineage sequencing",
+    "first_author": "Yehuda Brody",
+    "year": 2018,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6280753&retmode=xml",
+    "bytes": 243460,
+    "sha256": "ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5",
+    "license": "CC BY4.0 verified in XML permissions; original source authors credited; raw article excluded from public candidate.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "inspection_depth": "All80 body paragraphs, including main narrative, available Methods and embedded main-figure captions read; raw reads, supplementary tables/figures, movies and S5pipeline unacquired/unreplayed.",
+    "body_paragraphs_inspected": 80,
+    "anchors": [
+      {
+        "body_paragraph_index": 2,
+        "normalized_paragraph_sha256": "159e57b42a573fd0823b4dc699ede238ef91fe5e07590faf70990aa87f68f331",
+        "original_interpretation": "Joint sequencing of subclones can assign branch variants to observed lineage segments; this is not an endpoint cell-count mutation estimator."
+      },
+      {
+        "body_paragraph_index": 6,
+        "normalized_paragraph_sha256": "6ded9970343b9b40c8b4ec072709cbbb7cc56b6436bd6d46ec2379b5de937c64",
+        "original_interpretation": "Two non-isogenic cell lines, HT115 POLE V411L colon carcinoma and telomerase-immortalized RPE1, each form a displayed lineage from one founder; imaging measures divisions."
+      },
+      {
+        "body_paragraph_index": 8,
+        "normalized_paragraph_sha256": "d66b0f1db05f6728ecc8f502da1bfd8aeed3a94e9ee4bcc62bc28b551ea137e1",
+        "original_interpretation": "Figure2 caption marks cells that died/unrecovered and sequenced subclones; HT115 collection141h and RPE1 collection168h do not create independent trials."
+      },
+      {
+        "body_paragraph_index": 9,
+        "normalized_paragraph_sha256": "6f8d9968d4eef1d021ecb817616bb817ea73468860a17774913488ce6c9566b0",
+        "original_interpretation": "Branch variants require support in at least two subclones; inherited appearances are grouped into a lineage event rather than counted as separate births."
+      },
+      {
+        "body_paragraph_index": 18,
+        "normalized_paragraph_sha256": "76d7a3542c078113468b7a1b0a14720bc0e82851518c5ae80dc309cc4dd6cd76",
+        "original_interpretation": "Sequencing-only lineage reconstruction reproduces relationships but lacks independent cell-division timing/counts supplied by optical imaging."
+      },
+      {
+        "body_paragraph_index": 20,
+        "normalized_paragraph_sha256": "39db08af7dc446a7025faf55eb6fe0a274fa4533819d2117823c4bf11c301b72",
+        "original_interpretation": "Results report branch-call sensitivity96.4%HT115 and91.9%RPE1, specificity99.9%; these are method-dependent internal estimates."
+      },
+      {
+        "body_paragraph_index": 21,
+        "normalized_paragraph_sha256": "93343f3728e1c681fbf9f24e93d59c70f84a6dd1658f15336754edafa23b8733",
+        "original_interpretation": "HT115 reported173SNVs/division and3.0e-8SNV/bp/division with source Poisson-model intervals; no source rate is refitted here."
+      },
+      {
+        "body_paragraph_index": 22,
+        "normalized_paragraph_sha256": "777d59bcdf63cba29c657caa637bb2528b0ffccc09bb74eb87065f19d55421f3",
+        "original_interpretation": "RPE1 reported39SNVs/division,4.3e-9SNV/bp/division, and3.3e-9after modeled oxidation-signature subtraction; raw and adjusted estimates are different."
+      },
+      {
+        "body_paragraph_index": 24,
+        "normalized_paragraph_sha256": "1a8ff506ed91cdd8db3041f2ad7e8519b4a0266b5d81506abdd755bf4202e680",
+        "original_interpretation": "Observed branch counts poorly agree with homogeneous Poisson accrual; heterogeneity/correlations are relevant count-law alternatives."
+      },
+      {
+        "body_paragraph_index": 26,
+        "normalized_paragraph_sha256": "2ed3e150d40982ea7b7e3486ee0905034ad8fd4993594249d72e501028d3295e",
+        "original_interpretation": "Clustered adjacent variants can be nonindependent; a molecular lesion/episode need not equal one SNV call."
+      },
+      {
+        "body_paragraph_index": 33,
+        "normalized_paragraph_sha256": "53887cd4db12e5ffe4fc0627c41b77a33014c0d08cf8bd89fa9433241f6bf206",
+        "original_interpretation": "Founder choice and viability/recovery produce two possible selection stages; approximate survival30%HT115/65%RPE1 is reported separately from exact Methods stage counts."
+      },
+      {
+        "body_paragraph_index": 37,
+        "normalized_paragraph_sha256": "cabb7d6596210d1ffd54fac3855e15e7c4d9ebdf8d6d51d6af312d26a2e83dad",
+        "original_interpretation": "The study states insufficient power to choose elapsed time versus division counts; no general power inference is transferred."
+      },
+      {
+        "body_paragraph_index": 42,
+        "normalized_paragraph_sha256": "402e6a594181b8618386ea87f59ecd32e3bf621c59a7a52306c9b906129cce38",
+        "original_interpretation": "HT115 and RPE1 use different media and serum concentrations, reinforcing unmatched-background interpretation."
+      },
+      {
+        "body_paragraph_index": 46,
+        "normalized_paragraph_sha256": "ed032ee0c7fc25fd868d3fc9b242e0b6e6a82490fa15e0ef3485519d18db3499",
+        "original_interpretation": "Time-lapse imaging every3min and recorded release/reseeding maintain lineage identity; independent exposure information is present in principle."
+      },
+      {
+        "body_paragraph_index": 47,
+        "normalized_paragraph_sha256": "1ff1ab7a21d6a1fb6e2d5966759cd9e7abe5ac5a0b9dea596940ad3e57d2b446",
+        "original_interpretation": "Exact source stage counts: HT11545channel/37isolated/11outgrown/11sequenced; RPE126channel/22isolated/15outgrown/13sequenced."
+      },
+      {
+        "body_paragraph_index": 50,
+        "normalized_paragraph_sha256": "0853f04bfdd024b94aa1382e7726f730d61e17997cb636e0b1a270909c2c0d47",
+        "original_interpretation": "Copy-number analysis indicates HT115 largelydiploid and RPE1predominantlytriploid; effective genome lengths5.7e9/9.2e9bp differ."
+      },
+      {
+        "body_paragraph_index": 58,
+        "normalized_paragraph_sha256": "94ef22ad585b565fa4dbfb0bbd8295798dae92476d0f3706675ae50c197194f1",
+        "original_interpretation": "First-division reference state needs an external genotype; an additional HT115 subclone from a different lineage is a reference, not a matched intervention arm."
+      },
+      {
+        "body_paragraph_index": 65,
+        "normalized_paragraph_sha256": "ecf63b28384fb270c50b317abfc9ec4d9eac1f6defedea65f72efde9d5bb4c01",
+        "original_interpretation": "Source explicitly lacks a sufficiently accurate independent validation method; call calibration uses consensus lineage consistency."
+      },
+      {
+        "body_paragraph_index": 67,
+        "normalized_paragraph_sha256": "a8ddad2d2c3e8b475928f1a57cadbe81fe7a44ed3f669cfc7d41250ac3f4fa74",
+        "original_interpretation": "Methods formula reportsRPE1sensitivity0.918 versus Results91.9%; both source values are preserved without invented reconciliation."
+      },
+      {
+        "body_paragraph_index": 78,
+        "normalized_paragraph_sha256": "f53d6bed432feed896ac60d1ecfc17d0dbf711e75052f1c18d31781722bc73fc",
+        "original_interpretation": "Sequencing accessionSRP159787 and public code are declared; raw reads, supplemental code and branch tables are not replayed in this audit."
+      }
+    ],
+    "known_accessions_not_downloaded": [
+      "SRP159787",
+      "dbGAP phs000178.v1.p1 (comparison cohort)"
+    ],
+    "additional_reference_is_not_a_matched_intervention": true,
+    "displayed_lineages_per_background": 1,
+    "replicate_panel_admitted": false
+  },
+  "source_requests": [
+    {
+      "attempt": 1,
+      "id": "epithelial_mutation_lineage_search",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28organoid%2A%5BTitle%2FAbstract%5D+OR+epithelial%5BTitle%2FAbstract%5D%29+AND+%28%22mutation+accumulation%22%5BTitle%2FAbstract%5D+OR+%22somatic+mutation%22%5BTitle%2FAbstract%5D+OR+%22de+novo+mutation%22%5BTitle%2FAbstract%5D%29+AND+%28lineage%5BTitle%2FAbstract%5D+OR+clonal%5BTitle%2FAbstract%5D+OR+%22single-cell%22%5BTitle%2FAbstract%5D+OR+pedigree%5BTitle%2FAbstract%5D%29+AND+%28culture%5BTitle%2FAbstract%5D+OR+division%5BTitle%2FAbstract%5D+OR+growth%5BTitle%2FAbstract%5D%29&retmax=12&retmode=json&sort=pub+date",
+      "status": 200,
+      "bytes": 711,
+      "sha256": "27925a30d9a8d67f059aca1d206aab8501ed6f60194e7228b63108104bc80ca6",
+      "requested_at_utc": "2026-10-08T01:49:48.082373+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    },
+    {
+      "attempt": 2,
+      "id": "epithelial_lineage_candidate_records",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42793173%2C42682961%2C42705851%2C42436404%2C42265324%2C40847690%2C40540226%2C36449747%2C34637643%2C31936239%2C30459213%2C29215633&retmode=xml",
+      "status": 200,
+      "bytes": 431350,
+      "sha256": "8f582df2e71bf6cf8f0a369ec9fab145be1fb7bebd7fe47a71019d7396139b42",
+      "requested_at_utc": "2026-10-08T01:49:59.431040+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    },
+    {
+      "attempt": 3,
+      "id": "observed_division_lineage_sequencing",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6280753&retmode=xml",
+      "status": 200,
+      "bytes": 243460,
+      "sha256": "ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5",
+      "requested_at_utc": "2026-10-08T01:50:25.692108+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    },
+    {
+      "attempt": 4,
+      "id": "declared_supplement_index_https_variant",
+      "url": "https://genome.cshlp.org/lookup/suppl/doi:10.1101/gr.238543.118/-/DC1",
+      "status": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "requested_at_utc": "2026-10-08T01:52:15.590774+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true,
+      "error_type": "URLError",
+      "redacted_failure": "Proxy CONNECT403; no response body acquired"
+    },
+    {
+      "attempt": 5,
+      "id": "declared_public_pipeline_latest_commit",
+      "url": "https://api.github.com/repos/yehudabrody/Lineage-sequencing---proof-of-concept/commits?per_page=1",
+      "status": 200,
+      "bytes": 4225,
+      "sha256": "20eda3193b129f326bf55f6eee30064e400d3b900b5a41d60f419d12782ff5b0",
+      "requested_at_utc": "2026-10-08T01:56:41.344828+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    },
+    {
+      "attempt": 6,
+      "id": "declared_pipeline_pinned_tree",
+      "url": "https://api.github.com/repos/yehudabrody/Lineage-sequencing---proof-of-concept/git/trees/bcfe5a6c1a1407306b1c8b82e423de124e7a9f9e?recursive=1",
+      "status": 200,
+      "bytes": 1875,
+      "sha256": "becdf92a3a0b5cc5cbb87b6d86022e3d91d69aab156cbc3ca9184f4613e88727",
+      "requested_at_utc": "2026-10-08T01:56:58.955874+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    },
+    {
+      "attempt": 7,
+      "id": "declared_pipeline_pinned_readme",
+      "url": "https://raw.githubusercontent.com/yehudabrody/Lineage-sequencing---proof-of-concept/bcfe5a6c1a1407306b1c8b82e423de124e7a9f9e/README.md",
+      "status": 200,
+      "bytes": 2959,
+      "sha256": "133e7c60d4b79afde4860268931c92fd487dad34225ae4e4893f075e76116f94",
+      "requested_at_utc": "2026-10-08T01:57:33.777824+00:00",
+      "credential_used": false,
+      "tls_certificate_verification": true
+    }
+  ],
+  "actual_request_count": 7,
+  "recorded_response_bytes": 684580,
+  "maximum_requests": 12,
+  "maximum_response_bytes": 20971520,
+  "declared_supplement_url_in_article": "http://genome.cshlp.org/lookup/suppl/doi:10.1101/gr.238543.118/-/DC1",
+  "attempted_supplement_https_form": "https://genome.cshlp.org/lookup/suppl/doi:10.1101/gr.238543.118/-/DC1",
+  "supplement_access_state": "HTTPSvariant failed proxyCONNECT403; no unchanged retry, no permanent source-absence claim",
+  "controlled_or_patient_raw_reads_downloaded": false,
+  "new_biological_cohort_or_cancer_efficacy": false,
+  "existing_actual_study_fields_resolved": 0,
+  "pinned_software_identity": {
+    "repository": "https://github.com/yehudabrody/Lineage-sequencing---proof-of-concept",
+    "commit_sha": "bcfe5a6c1a1407306b1c8b82e423de124e7a9f9e",
+    "commit_date_utc": "2018-10-18T22:21:26Z",
+    "tree_sha": "937bf7035eda7bd9e6ba0666603375ecbeffe57f",
+    "tree_truncated": false,
+    "tree_files": [
+      {
+        "path": "HT115_full_mutations.pkl.zip",
+        "git_blob_sha1": "e5f5f138114d8c219958f17a54aad1a7baf12e07",
+        "size": 21696850
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "cf76c4e3c358130808ccda49e93b3610f0eba5fe",
+        "size": 2959
+      },
+      {
+        "path": "RPE1_full_mutations.pkl.zip",
+        "git_blob_sha1": "7836955ca0c2cd73fe7bbc4a29a48e6a70a21088",
+        "size": 19461656
+      },
+      {
+        "path": "Step1_Set_mutation_List.ipynb",
+        "git_blob_sha1": "d4d5b3f7e39d882ac0668e6d2f717f4d6d2fca18",
+        "size": 36558
+      },
+      {
+        "path": "Step2_lineage_to_called variants_(active_search).ipynb",
+        "git_blob_sha1": "21728a0b514c74742f151768915161dd8f0a34ba",
+        "size": 475695
+      },
+      {
+        "path": "Step3-Raw variants_to_Lineage_to_called variants.ipynb",
+        "git_blob_sha1": "d90b0c7233f3e66cbaa3db46a08dd785c344753a",
+        "size": 107117
+      }
+    ],
+    "commit_response_sha256": "20eda3193b129f326bf55f6eee30064e400d3b900b5a41d60f419d12782ff5b0",
+    "tree_response_sha256": "becdf92a3a0b5cc5cbb87b6d86022e3d91d69aab156cbc3ca9184f4613e88727",
+    "readme_sha256": "133e7c60d4b79afde4860268931c92fd487dad34225ae4e4893f075e76116f94",
+    "readme_bytes": 2959,
+    "readme_git_blob_sha1": "cf76c4e3c358130808ccda49e93b3610f0eba5fe",
+    "inspection": "Complete pinned tree metadata and README inspected; README describes Python2.7 and three variant-calling notebooks. Notebooks, mutation ZIPs and SRA reads were not downloaded/executed.",
+    "reproducibility_state": "Published implementation identified at pinned commit; computation and mutation tables unreplayed.",
+    "license_boundary": "Primary article CC BY4.0; no LICENSE file present in this six-file pinned tree. No third-party code or raw data redistributed.",
+    "untrusted_binary_pickle_archives_loaded": false,
+    "independent_route_recovery_controls_provided": false
+  }
+}

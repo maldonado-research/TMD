@@ -1,0 +1,216 @@
+{
+  "accepted_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "2090b42342233e455fbef43b9f20444efaaa869974163945d6d68edda90a79e0",
+      "size_bytes": 1328
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "sha256": "cf7f263a8e5991a9c0c2c347312a34966f0b4df4d1ce8ac4ab871ceb5f9fcea1",
+      "size_bytes": 897
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "3c57fadb869cc6cf94d8d029a4dcac69b7d97db7c9e52b6aa40182331f91f593",
+      "size_bytes": 5046
+    },
+    {
+      "path": "PRODUCER_RECEIPT.json",
+      "sha256": "2e9d6f16eab8ce3bed6c4fc8344318b0a62e1108c53189175d746ec9e1fc7f46",
+      "size_bytes": 1982
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "sha256": "e8e689f8d26ccc358f2de3529e7f6664d9ca098c611886a0d23cfaa0c5536dc1",
+      "size_bytes": 1445
+    },
+    {
+      "path": "README.md",
+      "sha256": "850dab5e3fa865ad294d9798c06e82b3bed8cc779420266bc4ad1643c6d1ff61",
+      "size_bytes": 14526
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "f63f195d06c75ecd2af9aa1d45944b9c16009cdd636d2d22086c1d4c7b067da2",
+      "size_bytes": 2890
+    },
+    {
+      "path": "SOURCE_REFERENCES.json",
+      "sha256": "080ca48ca81dcdc0162a7cbce25c361f26b0515544e17098d6bfff538f6e74f4",
+      "size_bytes": 955
+    },
+    {
+      "path": "curvature_bounds.py",
+      "sha256": "0789df615235c2531b7d8084117ff526073f0ed1d008456de1bfb8243a57a852",
+      "size_bytes": 12560
+    },
+    {
+      "path": "fixtures/K_one_is_not_full_conventional_fit.json",
+      "sha256": "c1cc797dc6739ecd3dcbabdd50e9a96e557e2b150df2708ff4cacd544466aa45",
+      "size_bytes": 1242
+    },
+    {
+      "path": "fixtures/broad_growth_controls.json",
+      "sha256": "788e8abbf29cf472dc265ef764aad79ce98301b72759697925df0ff31a748248",
+      "size_bytes": 2019
+    },
+    {
+      "path": "fixtures/contact_is_feasible.json",
+      "sha256": "b8548ef943981d753882ba4215b373cbf861d39d1c4e1cb59a25ae2f9f919596",
+      "size_bytes": 2003
+    },
+    {
+      "path": "fixtures/exact_growth_mimic.json",
+      "sha256": "644ed16b028b9d627ba762aa308d83e51f15e850301ddf561cceee1bf225c3aa",
+      "size_bytes": 2011
+    },
+    {
+      "path": "fixtures/free_common_vs_fixed_forecast.json",
+      "sha256": "0c6955a8b265897fbe3ee38a430bd213e1f504d24d105ab8276ebd2c5c56800c",
+      "size_bytes": 2003
+    },
+    {
+      "path": "fixtures/gross_but_finitely_bounded_loss.json",
+      "sha256": "0ccdc7ac87cac8901ddef7cef545c1cdaf26a42ae473b830d5f6453034425fca",
+      "size_bytes": 2051
+    },
+    {
+      "path": "fixtures/irrational_interior_witness.json",
+      "sha256": "5fb9929d9fb238a3c5552548ab00e6c12365b89d032169042ad95da6dd17a188",
+      "size_bytes": 2031
+    },
+    {
+      "path": "fixtures/precise_growth_controls.json",
+      "sha256": "626ac12c5eaf9ef7d770840e18ac0c9fdaafd9973446cc7539cb8e5125400351",
+      "size_bytes": 2067
+    },
+    {
+      "path": "fixtures/uncertainty_in_all_four_factors.json",
+      "sha256": "6e2d94a3e525982e9c84140026636e7c7e9c30669ecbb413a3e78c1a7285b98b",
+      "size_bytes": 1258
+    },
+    {
+      "path": "fixtures/unequal_corrected_curvature.json",
+      "sha256": "203bd759c054c5db293cf6b13dadee249d7c614e9f74df274025eea5eeec326b",
+      "size_bytes": 2004
+    },
+    {
+      "path": "results/K_one_is_not_full_conventional_fit.json",
+      "sha256": "69649685071be0bebb80612d39d23d277b7ab57a1fb0e294a36f482cea9ae8de",
+      "size_bytes": 3683
+    },
+    {
+      "path": "results/broad_growth_controls.json",
+      "sha256": "457c533bc42b1fffb9bc9857fe85402101384b1defcc2678e68ee0f8a13ad373",
+      "size_bytes": 5268
+    },
+    {
+      "path": "results/contact_is_feasible.json",
+      "sha256": "fec41fa3936de9e6a017f77756aecf5c0e9f5341ddf115fdf26dd492d7e85409",
+      "size_bytes": 5233
+    },
+    {
+      "path": "results/exact_growth_mimic.json",
+      "sha256": "64f49b3dd3d67adc020df9d3d94567ddd1410d3900b7865f78c2574abe1658a1",
+      "size_bytes": 5251
+    },
+    {
+      "path": "results/free_common_vs_fixed_forecast.json",
+      "sha256": "abe5ea65c5b2c28c80c8bc08ca961c62e25fef676bcd6ff892a160a08355c64f",
+      "size_bytes": 5252
+    },
+    {
+      "path": "results/gross_but_finitely_bounded_loss.json",
+      "sha256": "b76d4eef49bb9447a7dc4f1e35b957743728206d7e702febf2f3bbbb16d504e8",
+      "size_bytes": 5409
+    },
+    {
+      "path": "results/irrational_interior_witness.json",
+      "sha256": "5b94cf490db2fe647f83b8ed20dd2769a970b95916074a2f9aebaf710a5aa39b",
+      "size_bytes": 5307
+    },
+    {
+      "path": "results/precise_growth_controls.json",
+      "sha256": "2c956abc1e7a2df87b4807e24a6f92cc5c9643c25a93cb923cd39cedf4a39d3a",
+      "size_bytes": 5465
+    },
+    {
+      "path": "results/uncertainty_in_all_four_factors.json",
+      "sha256": "15a7e7963e7147ce7938e470408246a0808eb981e9075ac943def4b10709a750",
+      "size_bytes": 3694
+    },
+    {
+      "path": "results/unequal_corrected_curvature.json",
+      "sha256": "5cef02049b1c09ea570759f6656656d4e4b42ea01800b632f145cced7298f8c0",
+      "size_bytes": 5138
+    },
+    {
+      "path": "verify_producer.py",
+      "sha256": "158b72b7eff7ddc69373f5a789365cba66f7364dac8a72ba7399e9944fe69847",
+      "size_bytes": 14595
+    }
+  ],
+  "actual_study_input_fields_resolved": 0,
+  "biological_fit": false,
+  "cancer_prevention_or_treatment_result": false,
+  "decision": "ACCEPT",
+  "engine_sha256": "0789df615235c2531b7d8084117ff526073f0ed1d008456de1bfb8243a57a852",
+  "external_peer_review": false,
+  "integration_acceptance_pending": true,
+  "necessary_corrections": [],
+  "novel_theorem_or_new_causal_force_claim": false,
+  "readme_sha256": "850dab5e3fa865ad294d9798c06e82b3bed8cc779420266bc4ad1643c6d1ff61",
+  "record_id": "R000018",
+  "resolved_correction": "README now correctly applies the32-bit cap to reduced/canonical rational numerators and denominators and states the separate24-character rational-string limit; engine unchanged.",
+  "reviewed_utc": "2026-10-08T02:06:18.112973+00:00",
+  "reviewer_actions": {
+    "candidate_package_edits": 0,
+    "external_review_receipt_only": true,
+    "network_requests": 0,
+    "new_sources_acquired": 0,
+    "repository_edits": 0,
+    "subagents_spawned": 0
+  },
+  "schema_version": 1,
+  "scope": "Independent internal semantic and exact-file review of the original deterministic synthetic bounded expected-endpoint curvature candidate. This is not external qualified scientific peer review, empirical authentication or statistical validation.",
+  "semantic_findings": {
+    "claims_and_admission": "ACCEPT: flags are declarations, not authenticated controls. No empirical data, CI, P value, power, cancer efficacy, causal confirmation or mathematical novelty is claimed; no literature novelty search is implied.",
+    "conventional_full_proportionality": "ACCEPT: routewise m/(qgr) scale intervals have a common context scale exactly when the full theta=eta=0 model is feasible under the box. Necessary K=1 alone allows nonzero eta and is not labeled a full conventional fit.",
+    "corner_sharpness": "ACCEPT: signs of the monomial exponents fix coordinate monotonicity on each admitted positive real Cartesian box; the minimum and maximum corners attain the reported rational extrema.",
+    "cross_context_feasibility": "ACCEPT: the context domains are Cartesian apart from the tested shared curvature, so nonempty closed interval intersection is necessary and sufficient for some common K. Contact is feasible; shared dependence would invalidate this sufficiency and is explicitly excluded.",
+    "fixed_vs_free_forecast": "ACCEPT: existence of an arbitrary common K differs from compatibility of a locked rational K0; even a fixed-curvature gate still refits eta and is not a complete held-out probability forecast.",
+    "full_interval_image": "ACCEPT: compactness, connectedness and continuity make the positive real image the full closed interval, including irrational interior witnesses; rational endpoints do not promise rational interior reconstruction.",
+    "non_cartesian_scope": "ACCEPT: boxes may remain outer enclosures under an independently justified containment assumption, but overlap would not prove feasibility in a smaller dependent joint set; engine refuses declared non-Cartesian inputs.",
+    "observation_scope": "ACCEPT: m denotes population expected recovered endpoint mass; normalized expected masses are not asserted to equal expected realized fractions, founder/culture/lineage count laws, categorical outcomes or first-arrival probabilities.",
+    "residual_reconstruction": "ACCEPT: z=m/(qgr), kappa=sqrt(z1*z3), exp(eta)=sqrt(z1/z3), exp(theta)=z2/sqrt(z1*z3) establish completeness of K=exp(2theta) for free positive context scale and eta, over real parameters.",
+    "simplex_scope": "ACCEPT: normalization of unnormalized masses and relative supply weights preserves curvature; it does not admit independent normalized-share intervals without their sum constraint. That representation is explicitly refused."
+  },
+  "statistical_coverage_or_power_established": false,
+  "validation_evidence": {
+    "all_10_certificates_match_stored_results": true,
+    "all_manifest_sizes_and_hashes_match": true,
+    "counts_are_internal_checks_not_biological_replications": true,
+    "exact_public_inventory_files": 30,
+    "independent_fixture_corner_extrema_match_stored_bounds": true,
+    "manifest_exclusions": "MANIFEST.json and SHA256SUMS.txt excluded from MANIFEST to avoid self-reference; SHA256SUMS excludes only itself.",
+    "manifest_rows_checked": 28,
+    "producer_cases": 10,
+    "producer_category_sum_matches_total": true,
+    "producer_check_total": 353,
+    "producer_receipt_path": "/workspace/tmd-research-progress/r18_curvature_bounds_2026-10-07/PRODUCER_RECEIPT.json",
+    "producer_receipt_sha256": "2e9d6f16eab8ce3bed6c4fc8344318b0a62e1108c53189175d746ec9e1fc7f46",
+    "producer_verifier_not_executed_by_this_reviewer": "Its command regenerates fixtures/results/receipt; this reviewer instead replayed certify on existing fixtures in memory without modifying candidate files.",
+    "reviewer_fixture_contexts": 18,
+    "reviewer_independent_unique_corner_curvatures": 4160,
+    "reviewer_read_only_fixture_replays": 10,
+    "root_blind_contexts": 38,
+    "root_blind_oracle_receipt_path": "/workspace/tmd-research-progress/r16_r18_review_2026-10-07/R18_FINAL_ORACLE.json",
+    "root_blind_oracle_receipt_sha256": "7a1b5610c8e2a56d38588a4450689336c0aa0f292c90aadbb2fc3aa25515cbb6",
+    "root_comparison_and_guard_checks": 466,
+    "root_normalized_expected_mass_corner_curvatures": 65740,
+    "root_oracle_not_rerun_by_this_reviewer": true,
+    "scratch_pycache_excluded_from_public_inventory": true,
+    "sha256sum_rows_checked": 29
+  }
+}

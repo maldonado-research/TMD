@@ -1,0 +1,23 @@
+{
+  "id": "R000018",
+  "status": "completed_internal_review",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "completion_scope": "conditional_population_methods_only",
+  "report": "../curvature_bounds/README.md",
+  "details": {
+    "source_requests": 0,
+    "response_bytes": 0,
+    "synthetic_fixtures": 10,
+    "producer_checks": 353,
+    "independent_contexts": 38,
+    "independent_corner_evaluations": 65740,
+    "independent_comparison_guard_checks": 466
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false
+}

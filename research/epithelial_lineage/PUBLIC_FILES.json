@@ -1,0 +1,37 @@
+{
+  "public_files": [
+    "AUDIT_RESULTS.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MEASUREMENT_LEDGER.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCES.json",
+    "VERIFICATION_RECEIPT.json",
+    "audit_epithelial_lineage.py",
+    "review/R16_FINAL_ORACLE.json",
+    "review/R16_REVIEW_RECEIPT.json",
+    "review/independent_r16_oracle.py"
+  ],
+  "files_sha256": {
+    "AUDIT_RESULTS.json": "d740cdbad9a8e89d2487eb1a5fbceb1141bd1324b3f4d2e19e705fffeb22250e",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "bd9e6338cdcf71ea241d48941e529e5a8d0de789742882d8d7e00dd3234eecd5",
+    "MEASUREMENT_LEDGER.json": "aec745c16827d2b01dcc28d7cf82468fde54244fde975d93a48abe1be67ba2d7",
+    "README.md": "0220833fca91ac275e8bba338165898e07357da9e1eb821cdb018aaa4b630772",
+    "SOURCES.json": "dc90b39fdae7aed9035f07f4fa4261965459e3ab5b8aec92d38001aaf52e8157",
+    "VERIFICATION_RECEIPT.json": "9b5c8b4e4d81a1e2b64e819292dd99270a88c36ce17ab230fa10ccc8c58f1d38",
+    "audit_epithelial_lineage.py": "870ad4495ed35e559d4eb58e361fadac6153a52ea9465e9ec56a51fe9a404ea7",
+    "review/R16_FINAL_ORACLE.json": "a77b02f46a6b5d56af343806939f07e492d3cfbfadd8b35066627628c32270d3",
+    "review/R16_REVIEW_RECEIPT.json": "d13ef967e110858c1b84243df25b720897c1c295416ed1e4186ad3337b0edd69",
+    "review/independent_r16_oracle.py": "76be88790cb1a4f8cc83c265d40234029c697210e76e0a0c536655056cbc045f"
+  },
+  "public_content": "Original one-primary epithelial lineage assessment, attributed metadata/anchors, descriptive rational stage audit and original verifier; no raw bodies, patient reads, mutation archives or third-party software.",
+  "source_acquisitions": 7,
+  "recorded_response_bytes": 684580,
+  "biological_fit": false,
+  "matched_TMD_panel_admitted": false,
+  "clinical_prevention_or_effect": false,
+  "independent_review_integrated": true
+}

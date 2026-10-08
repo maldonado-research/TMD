@@ -29,7 +29,7 @@
   "binary_upload_http_status": 400,
   "publication_attempted": false,
   "next_action": "Use verified existing family draft23219776. Complete owner-editor metadata and reviewedZIP/checksum staging, then readbackverifyallapprovedmetadataandfilenames/byte-sizes/checksumsbeforepublication. API metadataPUT500 anddocumentedmultipartPOST400remainblocked. Preservepublishedrecords, inheritedfiles andallautomaticarchivingOFF; noadditionaldraftorstandalonerecordneeded.",
-  "checked_utc": "2026-10-07T21:55:42.847794+00:00",
+  "checked_utc": "2026-10-08T01:50:58.533808+00:00",
   "latest_labelled_methods_version": "0.5.0",
   "latest_labelled_methods_record": 23075312,
   "latest_published_contents": "inherited_0_5_0_files_identical_to_record23075312",
@@ -63,6 +63,6 @@
     ]
   },
   "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit.",
-  "latest_read_only_recheck": "publication_diagnostics/2026-10-07_R14_R15_READ_ONLY_RECEIPT.json",
-  "read_only_recheck_scope": "R14/R15: two authenticated owned same-family GETs; draft23219776 remains unsubmitted with six inherited files and absent reviewed0.6.0ZIP; no metadata/upload/publication write repeated."
+  "latest_read_only_recheck": "publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json",
+  "read_only_recheck_scope": "R16/R18: two authenticated owned same-family GETs; draft23219776 remains unsubmitted with six inherited files and absent frozen0.6.0ZIP. No writes, newdraft, release or publication attempt."
 }

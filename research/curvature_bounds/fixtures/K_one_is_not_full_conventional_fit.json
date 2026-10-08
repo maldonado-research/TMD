@@ -1,0 +1,75 @@
+{
+  "assumptions": {
+    "bounds_fixed_independently_of_selected_outcomes": true,
+    "cartesian_parameter_bounds": true,
+    "coverage_or_power_claim": false,
+    "endpoint_count_law_claim": false,
+    "fixed_route_axis": true,
+    "population_expected_mass_model": true,
+    "representation": "unnormalized_expected_masses_and_relative_supply_weights"
+  },
+  "contexts": [
+    {
+      "endpoint_masses": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "growth_yields": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "name": "nonzero_eta",
+      "recovery_probabilities": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "supply_weights": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "forecast_K": "1",
+  "provenance": "synthetic",
+  "schema_version": 1
+}

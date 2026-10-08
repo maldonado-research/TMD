@@ -1,0 +1,694 @@
+{
+  "status": "PASS_INDEPENDENT_R18_ENGINE_COMPARISON",
+  "engine_sha256": "0789df615235c2531b7d8084117ff526073f0ed1d008456de1bfb8243a57a852",
+  "blind_contexts": 38,
+  "blind_enumerated_probability_curvatures": 65740,
+  "comparison_and_guard_checks": 466,
+  "full_conventional_null_route_oracles": [
+    {
+      "id": "known_growth_1/2",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "known_recovery_1/2",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "unadjusted_mimic_1/2",
+      "route_ratio_bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ],
+      "expected_full_null_feasible": false
+    },
+    {
+      "id": "known_growth_1",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "known_recovery_1",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "unadjusted_mimic_1",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": false
+    },
+    {
+      "id": "known_growth_2",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "known_recovery_2",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "unadjusted_mimic_2",
+      "route_ratio_bounds": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "expected_full_null_feasible": false
+    },
+    {
+      "id": "known_growth_4",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "known_recovery_4",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "unadjusted_mimic_4",
+      "route_ratio_bounds": [
+        [
+          "4",
+          "4"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "1/4",
+          "1/4"
+        ]
+      ],
+      "expected_full_null_feasible": false
+    },
+    {
+      "id": "all_twelve_factors_1",
+      "route_ratio_bounds": [
+        [
+          "1/4",
+          "36"
+        ],
+        [
+          "1/12",
+          "72"
+        ],
+        [
+          "1/36",
+          "320"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_2",
+      "route_ratio_bounds": [
+        [
+          "2/27",
+          "64"
+        ],
+        [
+          "3/64",
+          "135"
+        ],
+        [
+          "4/225",
+          "480"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_3",
+      "route_ratio_bounds": [
+        [
+          "1/32",
+          "100"
+        ],
+        [
+          "3/100",
+          "216"
+        ],
+        [
+          "1/81",
+          "672"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_4",
+      "route_ratio_bounds": [
+        [
+          "2/125",
+          "144"
+        ],
+        [
+          "1/48",
+          "315"
+        ],
+        [
+          "4/441",
+          "896"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_5",
+      "route_ratio_bounds": [
+        [
+          "1/108",
+          "196"
+        ],
+        [
+          "3/196",
+          "432"
+        ],
+        [
+          "1/144",
+          "1152"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_6",
+      "route_ratio_bounds": [
+        [
+          "2/343",
+          "256"
+        ],
+        [
+          "3/256",
+          "567"
+        ],
+        [
+          "4/729",
+          "1440"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_7",
+      "route_ratio_bounds": [
+        [
+          "1/256",
+          "324"
+        ],
+        [
+          "1/108",
+          "720"
+        ],
+        [
+          "1/225",
+          "1760"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "all_twelve_factors_8",
+      "route_ratio_bounds": [
+        [
+          "2/729",
+          "400"
+        ],
+        [
+          "3/400",
+          "891"
+        ],
+        [
+          "4/1089",
+          "2112"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_1",
+      "route_ratio_bounds": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_1",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_2",
+      "route_ratio_bounds": [
+        [
+          "1/3",
+          "1"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "1/3",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_2",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_3",
+      "route_ratio_bounds": [
+        [
+          "1/4",
+          "1"
+        ],
+        [
+          "1",
+          "4"
+        ],
+        [
+          "1/4",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_3",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_4",
+      "route_ratio_bounds": [
+        [
+          "1/5",
+          "1"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "1/5",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_4",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_5",
+      "route_ratio_bounds": [
+        [
+          "1/6",
+          "1"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "1/6",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_5",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_6",
+      "route_ratio_bounds": [
+        [
+          "1/7",
+          "1"
+        ],
+        [
+          "1",
+          "7"
+        ],
+        [
+          "1/7",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_6",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "7"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_7",
+      "route_ratio_bounds": [
+        [
+          "1/8",
+          "1"
+        ],
+        [
+          "1",
+          "8"
+        ],
+        [
+          "1/8",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_7",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "8"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_8",
+      "route_ratio_bounds": [
+        [
+          "1/9",
+          "1"
+        ],
+        [
+          "1",
+          "9"
+        ],
+        [
+          "1/9",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_8",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "9"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "broad_growth_9",
+      "route_ratio_bounds": [
+        [
+          "1/10",
+          "1"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "1/10",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    },
+    {
+      "id": "only_middle_9",
+      "route_ratio_bounds": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "expected_full_null_feasible": true
+    }
+  ],
+  "scope": "Deterministic supplied positive real Cartesian population-mass envelopes; no biological data, CI, forecast eta or causality inference."
+}

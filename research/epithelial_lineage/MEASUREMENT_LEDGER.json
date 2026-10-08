@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "source_doi": "10.1101/gr.238543.118",
+  "measurement_rows": [
+    {
+      "field": "backgrounds",
+      "source_body_paragraph_index": 6,
+      "inspected_observation": "Two cell lines: HT115 POLEV411L carcinoma and hTERT RPE1 retinal epithelium.",
+      "TMD_admissibility_boundary": "Different tissues, genomic backgrounds and mutant states are not matched contexts."
+    },
+    {
+      "field": "displayed_founders",
+      "source_body_paragraph_index": 6,
+      "inspected_observation": "Each displayed primary lineage starts from one cell and spans five/six generations.",
+      "TMD_admissibility_boundary": "Related subclones do not become independent founders; outsideHT115reference is not a matched context arm."
+    },
+    {
+      "field": "optical_exposure",
+      "source_body_paragraph_index": 46,
+      "inspected_observation": "Continuous tracking with3minute imaging establishes lineage divisions and interdivision times.",
+      "TMD_admissibility_boundary": "Movies/raw trees not replayed; no prospective epithelial study division record supplied."
+    },
+    {
+      "field": "branch_inheritance",
+      "source_body_paragraph_index": 9,
+      "inspected_observation": "A branch variant is supported by at least two but not all subclones.",
+      "TMD_admissibility_boundary": "Shared inherited calls are counted as a lineage event, not independent new mutation births."
+    },
+    {
+      "field": "leaf_eligibility",
+      "source_body_paragraph_index": 31,
+      "inspected_observation": "Leaf calls can reflect final-generation events, post-bottleneck outgrowth or error.",
+      "TMD_admissibility_boundary": "No precise mutation-origin time or branch-quality claim transferred to leaf calls."
+    },
+    {
+      "field": "terminal_channel_denominator",
+      "source_body_paragraph_index": 47,
+      "inspected_observation": "45HT115 and26RPE1cells in channel at collection.",
+      "TMD_admissibility_boundary": "Not all cells ever born, earlier deaths, or an independently founded culture denominator."
+    },
+    {
+      "field": "isolated_cells",
+      "source_body_paragraph_index": 47,
+      "inspected_observation": "37HT115 and22RPE1singlecells isolated.",
+      "TMD_admissibility_boundary": "Realized nested bookkeeping does not measure route-specific homogeneous capture."
+    },
+    {
+      "field": "outgrowth_selection",
+      "source_body_paragraph_index": 47,
+      "inspected_observation": "11/37HT115 and15/22RPE1isolatedcells form subclonal cultures.",
+      "TMD_admissibility_boundary": "Failed/non-growing genotypes unavailable; possible viability/outgrowth selection remains."
+    },
+    {
+      "field": "sequencing_selection",
+      "source_body_paragraph_index": 47,
+      "inspected_observation": "11/11HT115 and13/15RPE1outgrownsubclonessequenced.",
+      "TMD_admissibility_boundary": "24primary sequencedsubclones are related descendants; not24independent lineages."
+    },
+    {
+      "field": "lost_lineage_genotypes",
+      "source_body_paragraph_index": 8,
+      "inspected_observation": "Image-based tree marks dead cells and unrecovered positions.",
+      "TMD_admissibility_boundary": "Lost/extinct/failedoutgrowth genotypes are not restored by consensus variant calling."
+    },
+    {
+      "field": "growth_bias_check",
+      "source_body_paragraph_index": 33,
+      "inspected_observation": "Source compares interdivision times in sequenced versus unsequenced observed sublineages.",
+      "TMD_admissibility_boundary": "No evident time bias is a limited diagnostic, not measured equality of route-specific growth/loss/recovery."
+    },
+    {
+      "field": "culture_context",
+      "source_body_paragraph_index": 42,
+      "inspected_observation": "Cell lines use different base media and15%versus10%serum.",
+      "TMD_admissibility_boundary": "Cell-line contrast cannot isolatePOLEactivity or a shared natural-dominance parameter."
+    },
+    {
+      "field": "genome_exposure",
+      "source_body_paragraph_index": 50,
+      "inspected_observation": "Estimated effective genome lengths5.7e9HT115 and9.2e9RPE1bp; RPE1mostlytriploid.",
+      "TMD_admissibility_boundary": "SNVs/division and SNVs/bp/division are different units; normal diploid tissue transfer unjustified."
+    },
+    {
+      "field": "reported_rates",
+      "source_body_paragraph_index": 22,
+      "inspected_observation": "Source reports raw RPE1rate4.3e-9 and oxidation-adjusted3.3e-9SNV/bp/division.",
+      "TMD_admissibility_boundary": "Conditional source estimates, not a new fit or calibratedqfor generic cancer routes."
+    },
+    {
+      "field": "rate_likelihood",
+      "source_body_paragraph_index": 24,
+      "inspected_observation": "Source describes poor homogeneous Poisson concordance and mutation heterogeneity.",
+      "TMD_admissibility_boundary": "Poisson/Binomial laws, event independence or existing TMD coverage cannot be assumed."
+    },
+    {
+      "field": "linked_mutations",
+      "source_body_paragraph_index": 26,
+      "inspected_observation": "Clustered SNVs and persistent lesions motivate correlated molecular processes.",
+      "TMD_admissibility_boundary": "SingleSNV calls need not represent independent lesion episodes or route arrivals."
+    },
+    {
+      "field": "caller_calibration",
+      "source_body_paragraph_index": 65,
+      "inspected_observation": "Sensitivity/specificity inferred from consensus-lineage consistency; source states lack of accurate independent validation.",
+      "TMD_admissibility_boundary": "Not external known-input cell capture, orthogonal truth or route-specific recovery calibration."
+    },
+    {
+      "field": "last_decimal_sensitivity",
+      "source_body_paragraph_index": 67,
+      "inspected_observation": "MethodsRPE1sensitivity0.918,Results91.9%.",
+      "TMD_admissibility_boundary": "Preserve both printed source values; lastdecimal mapping not reconciled."
+    },
+    {
+      "field": "approximate_survival",
+      "source_body_paragraph_index": 33,
+      "inspected_observation": "Discussionabout30%HT115/about65%RPE1survival.",
+      "TMD_admissibility_boundary": "Exact Methods stage fractions11/37 and15/22 differ; no manufactured common denominator or software-error claim."
+    },
+    {
+      "field": "first_division_reference",
+      "source_body_paragraph_index": 58,
+      "inspected_observation": "Firstdivision alleles use hg19 forRPE1 and additionalHT115reference subclone.",
+      "TMD_admissibility_boundary": "Founder-genotype assignment is conditional, not a sequenced direct ancestral genotype for every mutation."
+    },
+    {
+      "field": "published_software",
+      "source_body_paragraph_index": 78,
+      "inspected_observation": "Paper declares public three-notebook pipeline and SRP159787; pinned README confirmsPython2.7.",
+      "TMD_admissibility_boundary": "Repository identity is inspected; notebooks, variant archives, raw reads and rate computations unreplayed."
+    },
+    {
+      "field": "matched_route_catalog",
+      "source_body_paragraph_index": null,
+      "inspected_observation": "NoR1/R2/R3catalog, orderedaxis or triad control is defined by this source.",
+      "TMD_admissibility_boundary": "Mutation spectra/signatures are not automatically the prospective cancer route categories."
+    },
+    {
+      "field": "heldout_context",
+      "source_body_paragraph_index": null,
+      "inspected_observation": "No independently frozen matched cancerqandheldouteta forecast is admitted.",
+      "TMD_admissibility_boundary": "No test of sharedcurvature or full probability forecast performed."
+    },
+    {
+      "field": "clinical_endpoint",
+      "source_body_paragraph_index": null,
+      "inspected_observation": "Cell-line lineage mutation observations concern molecular processes.",
+      "TMD_admissibility_boundary": "No measured prevention, cancer incidence reduction or clinical efficacy inferred."
+    }
+  ],
+  "source_specific_recovery_bookkeeping": true,
+  "realized_fractions_are_capture_parameter_estimates": false,
+  "all_existing26_fields_still_unresolved": true,
+  "cancer_model_catalog_or_protocol_selected": false
+}

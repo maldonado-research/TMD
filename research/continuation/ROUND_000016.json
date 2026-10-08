@@ -1,0 +1,22 @@
+{
+  "id": "R000016",
+  "status": "completed_internal_review",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "completion_scope": "source_specific_epithelial_lineage_admissibility_audit",
+  "report": "../epithelial_lineage/README.md",
+  "details": {
+    "source_requests": 7,
+    "response_bytes": 684580,
+    "primary_sources": 1,
+    "producer_checks": 62,
+    "independent_stage_cases": 494,
+    "independent_checks": 3516
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false
+}
