@@ -1,8 +1,8 @@
-# Proposed next TMD methods archive
+# TMD methods archive 0.6.0
 
-**Methods 0.6.0 is reviewed and prepared, but unpublished on Zenodo.** Authentication and ownership now work; draft 23113326 exists in report/methods concept DOI family 10.5281/zenodo.23068055. Its metadata and new file staging failed and no publication was attempted.
+**Methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776) in report/methods concept DOI family 10.5281/zenodo.23068055.** The existing draft was repaired and all eight files and exact approved metadata/notes were verified before and after publication on 8 October 2026.
 
-See [current publication state and existing-draft fallback](PUBLICATION_STATUS.md), [the reviewed package](../TMD_METHODS_0_6_0.md), [prepared metadata](ZENODO_0_6_0_METADATA_FINAL.json) and [packaging review](METHODS_0_6_0_PACKAGE_REVIEW.json). Reuse the existing draft rather than creating a duplicate. Latest published methods remain 0.5.0; historical software v2.6.5 has a separate family.
+See [current publication status](PUBLICATION_STATUS.md), [the reviewed package](../TMD_METHODS_0_6_0.md), [approved metadata](ZENODO_0_6_0_METADATA_FINAL.json), [packaging review](METHODS_0_6_0_PACKAGE_REVIEW.json) and [publication proof](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json). Historical software v2.6.5 remains a separate family.
 
 The new package preserves the reviewed 1 October methods scope: recovery-transport sensitivity, original synthetic replay, source-audit notes and prospective biological-test formulation. It excludes later continuation rounds and contains no private archive, personal files, uploaded handoffs or bulk third-party source text. Computational and source reviews are independent internal checks, not external peer review or biological validation.
 

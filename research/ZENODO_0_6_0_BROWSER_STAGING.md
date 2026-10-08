@@ -1,4 +1,6 @@
-# Owner-editor staging for reviewed TMD methods 0.6.0
+# Historical owner-editor staging instructions for TMD methods 0.6.0
+
+**Superseded on 8 October 2026:** the existing draft is now published as [methods 0.6.0](https://doi.org/10.5281/zenodo.23219776). All approved metadata and eight file bytes were verified. Do not use these historical steps to create or edit a second draft. [Current status](PUBLICATION_STATUS.md).
 
 Prepared 7 October 2026. Draft **23219776** was authenticated as unpublished in concept family **10.5281/zenodo.23068055**. API metadata saving and upload remain blocked; this is a browser fallback for the existing draft, not a new publication receipt.
 

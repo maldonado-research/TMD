@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "round": "R000023",
+  "files": [
+    "ADMISSION_DECISION.json",
+    "ARTIFACT_MANIFEST.json",
+    "INTERNAL_REVIEW.json",
+    "README.md",
+    "SOURCE_ACQUISITION_RECEIPT.json",
+    "SOURCE_REVIEW.json",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "WORKSHEET.md",
+    "verify_cached_sources.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_content": "original public-safe summaries, code, synthetic calculations and receipts",
+  "raw_third_party_data_or_code_included": false
+}

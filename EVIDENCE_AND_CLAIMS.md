@@ -1,4 +1,4 @@
-# Evidence and claims — updated 7 October 2026
+# Evidence and claims — updated 8 October 2026
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
@@ -78,3 +78,9 @@ R21's [source-grounded control plan](research/native_origin_controls/README.md) 
 R22's [conditional support/reference model](research/caller_capture/README.md) has an internally checked finite-LP proof and independent exact dual certificates. All 2,889 blind marginal cases and 66 full-law cases agree. Sharp known-population bounds are not empirical confidence intervals. Complete known carrier/reference truth and validated joint call laws are supplied assumptions, not recovered from stage fractions.
 
 No new mechanism, theorem, clinical prevention result or biological TMD fit is established. Variant-negative controls assess variant errors; false de novo labels on true inherited/pre-existing variants require separate ancestry/episode truth. All 18 planning fields and 26 actual registry fields stay unresolved. Qualified assessment and native truth/control validation are the next work item.
+
+## R23 official-artifact admission — 8 October 2026
+
+[Official PTATO artifact inspection](research/artifact_admission/README.md) advances a description-only worksheet to a bounded article/software assessment. No numerical genotype or origin benchmark is admitted. Shared-call/proxy labels, missing prior genotype calls, callable-set membership, chromosome exclusions and sample averaging require actual-input and independent-truth checks. Source-byte identity is distinct from numerical replication or qualified external review. All 26 study fields remain unresolved.
+
+[Exact control-resource illustrations](research/control_resource/README.md) are standard hypothetical CP/PPV planning calculations. They supply no observed native controls, mutation rate, achieved power, chosen study size or changed confirmatory error/stopping contract. Published methods 0.6.0 freezes the earlier methods snapshot and excludes R23.

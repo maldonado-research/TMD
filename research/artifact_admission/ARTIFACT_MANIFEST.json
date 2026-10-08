@@ -1,0 +1,1107 @@
+{
+  "record_id": "R000023",
+  "candidate": "PTATO2023 paired AHH-1 clonal bulk-WGS/PTA validation",
+  "objects": [
+    {
+      "role": "raw_WGS",
+      "source": "article key-resources table",
+      "accession": "EGAS00001007288",
+      "artifact_manifest_acquired": false,
+      "release_and_experiment_to_release_mapping": "unverified",
+      "access_conditions": "unverified; no EGA endpoint/request/data access undertaken"
+    },
+    {
+      "role": "processed_somatic_variants_and_western_blots",
+      "doi": "10.17632/c3r9chw9rb.1",
+      "stated_version": 1,
+      "source": "article key-resources table and archived figure-code README",
+      "artifact_manifest_acquired": false,
+      "license_and_access_conditions": "unverified; Mendeley hosts absent from effective allowlist; no endpoint request attempted"
+    },
+    {
+      "role": "reused_cord_blood_and_ENU_data",
+      "accession": "SRP178894",
+      "source": "article key-resources and methods paragraph87",
+      "new_independent_biological_replication": false,
+      "manifest_acquired": false
+    },
+    {
+      "role": "tool_release",
+      "doi": "10.5281/zenodo.8098608",
+      "version": "v.1.2.4",
+      "publication_date": "2023-06-30",
+      "file": "ToolsVanBox/PTATO-v.1.2.4.zip",
+      "bytes": 361371002,
+      "metadata_checksum": "md5:24a61a7fa325f29babf11586150a3e2d",
+      "downloaded": false,
+      "reason_not_downloaded": "exceeds 20MiB total bounded scientific acquisition cap",
+      "git_tree_sha": "cfa3351b6341d71534d07b3acdf0b60e222fdaae",
+      "git_tree_truncated": false,
+      "git_tree_blob_count": 154,
+      "git_tree_inventory": [
+        {
+          "path": ".gitignore",
+          "size": 318,
+          "sha": "74353301c0afba5e27ea2b96b8372e9fb174e691",
+          "type": "blob"
+        },
+        {
+          "path": "Dockerfile",
+          "size": 1490,
+          "sha": "921e6d715202159d40238b9439fae29571ad355c",
+          "type": "blob"
+        },
+        {
+          "path": "LICENSE",
+          "size": 1097,
+          "sha": "63564259be943eeba098a7f913171368f395d23a",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/GATK/3.8.1/CallableLoci.nf",
+          "size": 1297,
+          "sha": "11e8e08ab0f7e0f87b6fd6c961f4176110ad3ffb",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/GATK/4.2.6.1/CollectAlignmentSummaryMetrics.nf",
+          "size": 1079,
+          "sha": "1d6f0cdac0a8d55b35bbfa53bd2dd7a5fbdc3e85",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/GATK/4.2.6.1/CollectWGSMetrics.nf",
+          "size": 919,
+          "sha": "b1bbefa4496bc45f641ac93411335e7358c1721e",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/GATK/4.2.6.1/GetSampleName.nf",
+          "size": 674,
+          "sha": "1356e1570e9816df63f3a4c5ecd51ef0674f073f",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/GATK/4.2.6.1/SplitVcfs.nf",
+          "size": 900,
+          "sha": "7f64e73e251817691f221f6b191e33bd80031a73",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/SMuRF/3.0.1/SMuRF.nf",
+          "size": 1219,
+          "sha": "589b34a160435caf04406daf4170571566795021",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/SMuRF/3.0.2/SMuRF.nf",
+          "size": 1219,
+          "sha": "3977216e51aa4479cb21b6eae24437b840fb2625",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Sambamba/0.8.2/Index.nf",
+          "size": 501,
+          "sha": "4dc99f5d1f038a8a47bb96c72c5730f40578572b",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Samtools/1.9.4/Index.nf",
+          "size": 501,
+          "sha": "4dc99f5d1f038a8a47bb96c72c5730f40578572b",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/SnpSift/4.3.1t--1/SnpSift.nf",
+          "size": 1357,
+          "sha": "48cbbb3016b2f9f55f1ea72b13696805d122aad3",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/ABtable.nf",
+          "size": 1236,
+          "sha": "79393dde9c8990f93fad4a85b9ce0a874d038be1",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/QCreport.nf",
+          "size": 690,
+          "sha": "fb0a644517e6428d4dc672fb03e2f91276342e38",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/createCircosConfig.nf",
+          "size": 904,
+          "sha": "4f569705d1a2146f112312ccb813c906c989d4fb",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/createExcludeIndelList.nf",
+          "size": 513,
+          "sha": "f3e4279015e603493a85b6d3a9a19bd0d8bcd165",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/createRfTable.nf",
+          "size": 1041,
+          "sha": "b1c63f84d8e4779565cad6acbe45f0109f16f9fc",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/createSvPlots.nf",
+          "size": 922,
+          "sha": "9f23179825210fed816a324126896ecb39bd23ab",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/excludeIndels.nf",
+          "size": 574,
+          "sha": "0944ed734fd4d05db9f222fd78ad1a4af8ecec63",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/filterBAF.nf",
+          "size": 770,
+          "sha": "f4e100d7bf551825b54ab1304831d4cc9c3033a8",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/filterCobalt.nf",
+          "size": 747,
+          "sha": "11dcf6a1e4dc44a4a37fddee1b3f22a559ecff9c",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/filterGripss.nf",
+          "size": 843,
+          "sha": "d45993355da288203f3465114dff53ec3fecc93a",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/getContext.nf",
+          "size": 479,
+          "sha": "755d08130ff7c19ff0d23ed8ac059d0ce5c50801",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/getFilesFromDir.nf",
+          "size": 27286,
+          "sha": "90421b56a883a4ade1a749e6efd1b94ccd378932",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/integrateSvFiles.nf",
+          "size": 882,
+          "sha": "8f1967bc70e7825800097f95de2adb5e0763eb02",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/mergePtatoVcfs.nf",
+          "size": 758,
+          "sha": "3ccefdb07ea569e5c96765f258402e227496f98b",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/ptatoCutoff.nf",
+          "size": 671,
+          "sha": "4c75184007bcdbf134ab18c76aabc4f0593de41c",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/ptatoFilter.nf",
+          "size": 1126,
+          "sha": "b71884c947699db8673e4d3d721252c0dcc4bfe0",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/Utils/randomForest.nf",
+          "size": 2479,
+          "sha": "b2f8d2b13e5bd351be83f80184eec5873dc70e5f",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/bedtools/2.30.0/closest.nf",
+          "size": 724,
+          "sha": "cab5f39db59eea93dc3830fa370fbaad7dc7ca78",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/bedtools/2.30.0/groupby.nf",
+          "size": 1321,
+          "sha": "42bbb2e71f0519409252f24f80026d7822d5bab2",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/bedtools/2.30.0/intersect.nf",
+          "size": 3617,
+          "sha": "c5594ed93190305b723299289ab4adf41e0e18d8",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/bedtools/2.30.0/merge.nf",
+          "size": 1287,
+          "sha": "751249938d63674f5f5f47d400cccf011d2c9dd5",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/bedtools/2.30.0/sort.nf",
+          "size": 562,
+          "sha": "15cbe4eaeee6b44455168ca212b461d6cfee5375",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss-purple-linx/1.3.2/Circos.nf",
+          "size": 619,
+          "sha": "eeda89e182410c3c85f319d6147b6701b58ddd5a",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss-purple-linx/1.3.2/CountBamLinesApplication.nf",
+          "size": 1419,
+          "sha": "8818385c261611e5f66021617b773db21d965d55",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss-purple-linx/1.3.2/GripssApplicationKt.nf",
+          "size": 1212,
+          "sha": "fb189e416c948a6d81a24da3696c3041aae89ac0",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss-purple-linx/1.3.2/GripssHardFilterApplicationKt.nf",
+          "size": 1024,
+          "sha": "ca5d23874f3f47dd23a75c7e09138b8d574213ef",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss/2.13.2/AnnotateInsertedSequence.nf",
+          "size": 1180,
+          "sha": "601571c814470f50f2507c7d4ea3fc0806b6dd77",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/gridss/2.13.2/gridss.nf",
+          "size": 940,
+          "sha": "acb1d6c05654190e1a37e934027c0d522a4e10c9",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/htslib/1.15/bgzip.nf",
+          "size": 465,
+          "sha": "b904d7a1647ba7f96fc8abf4c60318d470223dd0",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/htslib/1.15/tabix.nf",
+          "size": 474,
+          "sha": "362049b9d24ed967d8c75b0f7456b24df68775a4",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/shapeit/4.2.2/shapeit.nf",
+          "size": 878,
+          "sha": "7e53af9a2e519b691c2b0c018de8928d22143f92",
+          "type": "blob"
+        },
+        {
+          "path": "NextflowModules/walker/2.2.0/walker.nf",
+          "size": 861,
+          "sha": "b05fbadb79211cf03b9fd580d8a78bee702c13e1",
+          "type": "blob"
+        },
+        {
+          "path": "README.md",
+          "size": 15893,
+          "sha": "1b3e5c33b8d3b6a857e2d145bb71ef1f6f5f5471",
+          "type": "blob"
+        },
+        {
+          "path": "configs/nextflow.config",
+          "size": 1142,
+          "sha": "91432333fa05c4530d018a68867b80c660b61486",
+          "type": "blob"
+        },
+        {
+          "path": "configs/process.config",
+          "size": 11254,
+          "sha": "9624d1361609ed48b8a62b9224ba853b2a0b820b",
+          "type": "blob"
+        },
+        {
+          "path": "configs/resources.config",
+          "size": 1847,
+          "sha": "9c319d307905336dea41f2dfe5219cde0baa40a0",
+          "type": "blob"
+        },
+        {
+          "path": "configs/run-template.config",
+          "size": 1572,
+          "sha": "2f9fe596bd849a514f2369e2fceeb6ee93ad42c2",
+          "type": "blob"
+        },
+        {
+          "path": "ptato-train.nf",
+          "size": 1001,
+          "sha": "c413833ff43f0e72d3ea8023d2efbae8b306b2a6",
+          "type": "blob"
+        },
+        {
+          "path": "ptato.nf",
+          "size": 1884,
+          "sha": "9b630e55180d373b2e395b3236f9f5def406c330",
+          "type": "blob"
+        },
+        {
+          "path": "ptato_img.def",
+          "size": 1419,
+          "sha": "06b02541b5e4e9076b11b8a789eb92848bace3e8",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/cobalt/COBALT_PTA_Normalized_Full.tar.gz",
+          "size": 95525217,
+          "sha": "ed0ce041de5313ca74da237c202afe15b02d1bba",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/cobalt/GC_profile.1000bp.cnp",
+          "size": 67823117,
+          "sha": "52c88e74fa105b1c8294a55597f0d813f497831d",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/features/all_RepliSeq_median.sorted.bed",
+          "size": 75823242,
+          "sha": "41949a36e0480ac7c06192bfecd53dbce306ed10",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/features/genebody.sorted.bed",
+          "size": 639276,
+          "sha": "69d1e1a342104066a472a37c6085e454a76c3f13",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/features/simpleRepeats.feature.sorted.bed",
+          "size": 20078871,
+          "sha": "1f27e19b119bb6be85a0fbe770d8aef8abaaaaa2",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa",
+          "size": 18938808,
+          "sha": "c88c8b243ae2171b866c6b63bf25bef5f8bea5a1",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.amb",
+          "size": 51840,
+          "sha": "a558f266ece2c4172edca7d6498827cefda710ce",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.ann",
+          "size": 149025,
+          "sha": "d1778313bfde0023e4197794a4f43535a5bf4a38",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.bwt",
+          "size": 18446316,
+          "sha": "9f32712146901bdaa8042b048ceebbedc58c79bc",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.dict",
+          "size": 188531,
+          "sha": "5d41c8ed0cb935e151d1677506cf42894b75b227",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.fai",
+          "size": 45639,
+          "sha": "e3e08c0e1a0eda4fc591112be28e3bf55002751b",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.gridsscache",
+          "size": 7025531,
+          "sha": "0583f185865aefe672d66c8584763081d6774152",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.img",
+          "size": 32529251,
+          "sha": "2f4f192a0f153be8f76b8b24c1043efefb02a5de",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.masked",
+          "size": 18938808,
+          "sha": "c88c8b243ae2171b866c6b63bf25bef5f8bea5a1",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.pac",
+          "size": 4611554,
+          "sha": "0f11ca8f15cc1597b5fe2829bc23e04b4ffffaca",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gridss/human_virus.fa.sa",
+          "size": 9223160,
+          "sha": "018d74d51a340f404a0d84275cfa290df83fd5f8",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gripss/KnownFusionPairs.bedpe",
+          "size": 24751,
+          "sha": "36fd1f6c13139fa78fdd24cf17423181a5587d5f",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gripss/SV_breakends_withCobalt_excludelist_220228.bed",
+          "size": 47025,
+          "sha": "69f96f915aafa5f191354707a14bf3db8d89522a",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gripss/gridss_pon_breakpoint.tar.gz",
+          "size": 33360722,
+          "sha": "4306ae92fe06742f40d5f7bb09ade20a569ec89a",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/gripss/gridss_pon_single_breakend.bed",
+          "size": 40685595,
+          "sha": "4b0cbbea057d7d1f258b417cde8c7a27b7ff644b",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/indels/excludeindellist/PTA_Indel_ExcludeIndellist_normNoGTrenamed.vcf.gz",
+          "size": 2786115,
+          "sha": "66b1ecaf1c165c28d628ec95979640cad5b2ec21",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/indels/excludeindellist/PTA_Indel_ExcludeIndellist_normNoGTrenamed.vcf.gz.tbi",
+          "size": 918123,
+          "sha": "53962d0fe5ba1d703d8c445f9882b1262e1c4aa4",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/shapeit/chromosomes.txt",
+          "size": 57,
+          "sha": "64cdb22ff726906de6ed9d2cfbf402b070769607",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/smurf/Mutational_blacklists/Fetal_15x_raw_variants_hg38.tar.gz",
+          "size": 64225187,
+          "sha": "ccf4ee13e72c124b40b68f07f60af24acf35f014",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/smurf/Mutational_blacklists/MSC_healthyBM_raw_variants_hg38.tar.gz",
+          "size": 62361274,
+          "sha": "fdb046b7454aa4e5fd6875ee64d13a555235fb02",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/smurf/config_15cov.ini",
+          "size": 1223,
+          "sha": "9505f8afb727e985a0c9feffa820234036c41685",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/smurf/config_30cov.ini",
+          "size": 1205,
+          "sha": "e8bbbb832f74e8b49bce82abb3039488d733a9db",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/smurf/hotspot_genes/cosmic_cancer_gene_census_09052019.txt",
+          "size": 4221,
+          "sha": "b724f3add70e097e0580f8feaa7cda5310f230fb",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/snvs/randomforest/randomforest_v1.0.0.rds",
+          "size": 3379198,
+          "sha": "3dfb0ad190705017bb6a87144e737079b1afce9a",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/svs/cytoBand_hg38.txt.gz",
+          "size": 11538,
+          "sha": "87fda641e9b42d3e967f6e6bd53ef059b6d75818",
+          "type": "blob"
+        },
+        {
+          "path": "resources/hg38/svs/hg38_centromeres.txt",
+          "size": 4212,
+          "sha": "67d96f693f0b0b05393b442885bb98f949a7bcef",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/ABscript.R",
+          "size": 1505,
+          "sha": "95b2492fe040db610e96b5b0f8d5fcda16f40499",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/PTA_QC_report.R",
+          "size": 12860,
+          "sha": "a1ceaa84501100f9a6d11c34487d7f1770c54745",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/create_circos_config.R",
+          "size": 1056,
+          "sha": "b740efb724c3036a7ca45506e4c79d65e1298fdd",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/create_indel_rf_table.R",
+          "size": 1362,
+          "sha": "3c875260d819fd55cfac37889ee8dcfe5e3d6cc3",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/create_snv_rf_table.R",
+          "size": 5142,
+          "sha": "4e57bc5c0c94dc277ce362aeb985fab0c1104bfc",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/create_sv_plots.R",
+          "size": 1094,
+          "sha": "d6a8d13d243f386dc85ce68d956f913db5e657e5",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/excludeIndels.R",
+          "size": 1465,
+          "sha": "d6897baad6162384daa62391f385bef4a1d5852b",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/filter_baf.R",
+          "size": 2239,
+          "sha": "d3f143c17ac4fc1d9542e722d3e249f4ae999fd5",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/filter_cobalt.R",
+          "size": 3078,
+          "sha": "a3b56befb3e894beca1af3e4383d443fe501346f",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/filter_gripss.R",
+          "size": 1247,
+          "sha": "4ca9fe8e06a0369b2795747b25c03bc8ee23a27b",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/AB_somatic.R",
+          "size": 6246,
+          "sha": "de1c30e8364d6e1c217bc78c2b1a8aa593adb1dd",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/Filter_BAF.R",
+          "size": 11627,
+          "sha": "d2741251ad986e2cea9e334be0946780b13639e2",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/Filter_COBALT.R",
+          "size": 12929,
+          "sha": "d02529a32a5cacc50ec1ea8c5e641aaf67b0d7b2",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/Filter_SV_Breakends.R",
+          "size": 18328,
+          "sha": "d16d3b6534c17fbdec27dffb45e92bbbe7a0d463",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/SV_Integration.R",
+          "size": 8629,
+          "sha": "d00497c8ba61ff21ae311a58553015b138a8c2e3",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/SV_Plots.R",
+          "size": 13055,
+          "sha": "936695fc73072de4758de06ab7512b5d4c3b34e0",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/add_ptaprob_sample.R",
+          "size": 769,
+          "sha": "ae0784d1104e1d73b598aa3cd099245fc138b02a",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/create_empty_ab_table.R",
+          "size": 502,
+          "sha": "0cadd704691cc268e08d7f87249a2fd16dc0924f",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/df_to_bedpe.R",
+          "size": 540,
+          "sha": "6c52c45f0a8fca17694e03c907fbb4674f81df6f",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/get_ab_table.R",
+          "size": 796,
+          "sha": "5579984b67ec260ca674b6133235cd881789fc57",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/get_circos_config.R",
+          "size": 12028,
+          "sha": "1e64b384799b666634a0d0935f7d590ef79755ca",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/get_context.R",
+          "size": 22938,
+          "sha": "0103f8df3fe25cfb23c85fa332a5de26e85f2e82",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/get_indel_feature_table.R",
+          "size": 3477,
+          "sha": "94c5b217d050e44e4bce2133653dfe0e08611418",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/functions/get_snv_feature_table.R",
+          "size": 3146,
+          "sha": "82006f86b20a0baddf92f00c52ef90d29ee6c063",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/get_context.R",
+          "size": 1320,
+          "sha": "fd1e2a1537a8e1c36b162d2c9b310fc4e3f7ec5a",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/integrate_sv_files.R",
+          "size": 1859,
+          "sha": "054bbd9560944372295f5ae35189847f1536c3b6",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/merge_ptato_vcfs.R",
+          "size": 1513,
+          "sha": "34c4a2b047fa716d8990bb5cbc8f16d07be2ce34",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/ptatoCluster.R",
+          "size": 3160,
+          "sha": "edb43b7d58f3b4c5e0f57d3d258974306f5f9d38",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/ptatoCutoff.R",
+          "size": 8157,
+          "sha": "45c9a66b3ea8d182b5d78446af5f7a6ea191dca0",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/ptatoFilter.R",
+          "size": 1640,
+          "sha": "a46b4444d4d86267b97ae3b7f665ebcb8a0e6767",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/ptatoIndelFilter.R",
+          "size": 861,
+          "sha": "8dfbcef216a303c9245c9baf276a93b7507c170b",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/test_randomforest.R",
+          "size": 2580,
+          "sha": "7b89eec70c6a674bbb96ffa9501db37e9dc2996f",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/R/train_randomforest.R",
+          "size": 2762,
+          "sha": "a89e7487a444c2192fd4ad0fd723bdbb01aa92e0",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/bash/config_file_reader.sh",
+          "size": 1278,
+          "sha": "63d4a1c2e9c0c0745630d15b98c39e96e776cd14",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/bash/levenshtein.sh",
+          "size": 1374,
+          "sha": "a6940c6797107ba13a2f1f4c263564704944e1b6",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/bash/params_check.sh",
+          "size": 1021,
+          "sha": "75494610763f97ab2eeb3c9b37b35ce293b8f4a7",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/bash/validate_path.sh",
+          "size": 566,
+          "sha": "56615c65f160154944dca3b17ef45d6eaa8576cc",
+          "type": "blob"
+        },
+        {
+          "path": "start_pipeline.sh",
+          "size": 155,
+          "sha": "b461a163f8248567d788f150344b7ee39cd23ec2",
+          "type": "blob"
+        },
+        {
+          "path": "start_pipeline_singularity.sh",
+          "size": 360,
+          "sha": "1bd46da58c4d5e5d59af3e964c690ad0620493e9",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/cnvs.nf",
+          "size": 1536,
+          "sha": "504936a83414864acdb8fe06ef3ef9aecc53b586",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/cnvs/filter_cnv_files.nf",
+          "size": 3039,
+          "sha": "843075497e42074eaa22eaf4ab8b191864f019c7",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/cnvs/get_cobalt_files.nf",
+          "size": 991,
+          "sha": "dd52c5df2589b825c50edf3f97304e50137d47f8",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/germline.nf",
+          "size": 1451,
+          "sha": "f39e2a7e93826780f28699dff6a21632e1e7b95b",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/get_gzipped_vcfs.nf",
+          "size": 748,
+          "sha": "597ef8d06a14406f890e248eab9987c3bc72dcf3",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/get_indexed_bams.nf",
+          "size": 643,
+          "sha": "a007edec305e7308c451f5edd1da549c641fe00a",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels.nf",
+          "size": 1193,
+          "sha": "dcc6cf7464310ea804601832ad8d74563a1361b4",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/create_excludeindellist_bed.nf",
+          "size": 898,
+          "sha": "de9cf1593fca2c118a33f3af68a7f7432030611d",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/filter_ptato_vcfs.nf",
+          "size": 886,
+          "sha": "2f06c40ade5835fc542728226d0ef7587f74819d",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/get_excludeindellist_filtered_vcfs.nf",
+          "size": 1565,
+          "sha": "2f97428e459f9ea35ef301e07f54e6006a2f3bf3",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/get_ptato_vcfs.nf",
+          "size": 1444,
+          "sha": "e415ef7a6b446d778df7599c95c7b706275a6d0d",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/get_rf_files.nf",
+          "size": 1276,
+          "sha": "77b47e2e0918ef315c3608105c9df2afaab69818",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/indels/get_rf_tables.nf",
+          "size": 858,
+          "sha": "d18ef33e754aa9f93b1a6b723078763deef20c8d",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/qc.nf",
+          "size": 3219,
+          "sha": "92d0b0eb31637f5bc195261dd41b15f8e63a437e",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants.nf",
+          "size": 8024,
+          "sha": "cc9f4088d0924f682ef5643e0e5c081a9528cd10",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/get_ab_tables.nf",
+          "size": 2399,
+          "sha": "bbfd4d05a191657c29de049612b89e886013aa1c",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/get_context_beds.nf",
+          "size": 612,
+          "sha": "0fa808679b2733893631f6b20a062cf05d179576",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/get_features_beds.nf",
+          "size": 1865,
+          "sha": "c30c52e26ce09d4d1bf289e451280485401b2b1b",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/get_somatic_vcfs.nf",
+          "size": 1748,
+          "sha": "60e811934f00460b14438d709174ead48d0fa76e",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/get_walker_vcfs.nf",
+          "size": 1434,
+          "sha": "63fb2cbe9656f7ab0a10e438e5794e866bc8f243",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/intersect_ptato_vcfs.nf",
+          "size": 711,
+          "sha": "e788669d4875d9f08398606f244a209c99706d3e",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/short_variants/merge_ptato_vcfs.nf",
+          "size": 1032,
+          "sha": "2f817066f38e9acf4f72d8d53c99d7400630ca67",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/snvs.nf",
+          "size": 1017,
+          "sha": "3e2229b0a1b06028b4271e10a37e071a989ecb91",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/snvs/filter_ptato_vcfs.nf",
+          "size": 1447,
+          "sha": "4d16eae7d2699d813342f2f65114d2a68d0132aa",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/snvs/get_ptato_vcfs.nf",
+          "size": 1254,
+          "sha": "601843ee45a6bf3d9c02142447ae8f387a35d0d6",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/snvs/get_rf_files.nf",
+          "size": 1256,
+          "sha": "a9684c7a1af616ed58595fe608a1c75e0c20fe3f",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/snvs/get_rf_tables.nf",
+          "size": 841,
+          "sha": "ff50c9c7f5d4da0d21a7f1c22dc270906161dfdd",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/svs.nf",
+          "size": 2622,
+          "sha": "1b50cc5e126327b97d0b4942cfe362c5204a4a34",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/svs/combine_cnvs_svs.nf",
+          "size": 6463,
+          "sha": "ef1b2dd1113edd9c9f5f9bec40370ecd763a27f0",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/svs/get_gridss_vcfs.nf",
+          "size": 2625,
+          "sha": "e7864cfbccbe317365d9c9065b09cf1a04be88e6",
+          "type": "blob"
+        },
+        {
+          "path": "workflows/svs/get_gripss_vcfs.nf",
+          "size": 1853,
+          "sha": "1c0a11d180f3b67946ac6705ba46c2a6701afa8d",
+          "type": "blob"
+        }
+      ],
+      "git_blob_sha_semantics": "Git object SHA1, not acquired-byte SHA256; unacquired entries are inventory evidence only",
+      "inspected_tool_LICENSE": "MIT; public metadata other-open is less specific"
+    },
+    {
+      "role": "figure_analysis_code",
+      "doi": "10.5281/zenodo.8186323",
+      "version": "v1.0.1",
+      "publication_date": "2023-07-26",
+      "file": "ProjectsVanBox/PTATO-v1.0.1.zip",
+      "bytes": 94579,
+      "metadata_checksum": "md5:3f0e88875b718540b333a0db1bb222f2",
+      "acquired_sha256": "51ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a",
+      "md5_verified": true,
+      "license": "MIT",
+      "archive_members": [
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/",
+          "size": 0,
+          "compressed_size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/",
+          "size": 0,
+          "compressed_size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/Figure1.R",
+          "size": 29000,
+          "compressed_size": 7463,
+          "sha256": "8848aa97b0395ad60016f02042e421129dc5ccc7c0fc01d53f3eb6e57fe33b31"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/Figure2.R",
+          "size": 103347,
+          "compressed_size": 17800,
+          "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/Figure3.R",
+          "size": 34246,
+          "compressed_size": 9035,
+          "sha256": "00459df1a3874d9b85de1a18590be0823235c61a98604585024be1e44e21e78e"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/Figure4.R",
+          "size": 28920,
+          "compressed_size": 7613,
+          "sha256": "f25dafba53a7bd313395568091301fcbb62ff7df205b982a06f2df701e43fad1"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/Figure5.R",
+          "size": 36745,
+          "compressed_size": 7974,
+          "sha256": "1a13c15ce017624fc204f7e47f72abc627f76ce355c687a0c81ae5aa2ac8df54"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS1.R",
+          "size": 14649,
+          "compressed_size": 4241,
+          "sha256": "9b6c728c52e4b2345bef36e2ac8e498c293cb513e32671578974437ed93095a6"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS10.R",
+          "size": 23148,
+          "compressed_size": 5167,
+          "sha256": "ddc76a5aad919b82b3dbe6561d824dd346dddd2e0d7a53aeec8e83aeafaba7eb"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS11.R",
+          "size": 20826,
+          "compressed_size": 3421,
+          "sha256": "35666869692e28c7f65183d795c85dbaefef4c0c4e4ed0bdc5ffe39a0e13779f"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS12.R",
+          "size": 4893,
+          "compressed_size": 1768,
+          "sha256": "32677e0a926c9e0453c1f0d8c75a3f711287e92e85a488a5eaa25d41b5c457a5"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS7.R",
+          "size": 35420,
+          "compressed_size": 7983,
+          "sha256": "f38ebf9e5b196dfe2056411a2edb9479f649b9fc28d2141491403719a2fc4bf4"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/FigureS8.R",
+          "size": 7540,
+          "compressed_size": 2115,
+          "sha256": "efa39192e581b1e48a7c71acf17f74a8eed35a5309535e4507ccb4e96352c6b8"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/GeneralFunctions.R",
+          "size": 24133,
+          "compressed_size": 6305,
+          "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/MutationalPatterns_Addon.R",
+          "size": 23575,
+          "compressed_size": 5060,
+          "sha256": "883e73a4b067b8f78c425f803460dfde72fad396cdd11a26663a1e2f0fdd02d2"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/Figures/manual_training_performance_functions.R",
+          "size": 16007,
+          "compressed_size": 4224,
+          "sha256": "8415d4d632d3b1558086f02384c2d64054e42a096c36b5202990173cc58abf6d"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/LICENSE",
+          "size": 1097,
+          "compressed_size": 648,
+          "sha256": "059ac3416b34ea10dc8dcad597f93b69404fa8e27848a86b286d34a853afdd31"
+        },
+        {
+          "path": "ProjectsVanBox-PTATO-95ae7b1/README.md",
+          "size": 499,
+          "compressed_size": 310,
+          "sha256": "09bc21113b9cba905069dc27a7a0789c3b582a297ddbc2052d94b7f919890acc"
+        }
+      ],
+      "data_included": false
+    },
+    {
+      "role": "metadata_supplements",
+      "article_supplement_ids": [
+        "mmc2",
+        "mmc3"
+      ],
+      "titles": [
+        "Table S1: Study participant and whole-genome sequencing sample metadata",
+        "Table S2: Metadata of whole-genome-sequenced cell lines"
+      ],
+      "actual_payloads": "HTTP200 Google recaptcha challenge HTML; not XLSX",
+      "workbooks_acquired": false
+    }
+  ]
+}

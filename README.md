@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest labelled methods release: 0.5.0
+## Latest labelled methods release: 0.6.0
+
+[Methods 0.6.0 overview](TMD_METHODS_0_6_0.md) · [Published archive](https://doi.org/10.5281/zenodo.23219776) · [Verified publication status](research/PUBLICATION_STATUS.md)
+
+The immutable reviewed package freezes the 1 October recovery-transport methods snapshot. Publication on 8 October preserves all six inherited files and adds the approved ZIP and checksum. All eight public file bytes, metadata and notes are verified. Later GitHub addenda remain separate.
+
+## Prior labelled methods release: 0.5.0
 
 [Read the 0.5.0 overview and In More Basic Terms](TMD_RESEARCH_EXTENSION_0_5_0.md) · [Download the complete package](TMD_research_extension_0_5_0_2026-09-30.zip) · [Verify its checksum](TMD_research_extension_0_5_0_SHA256SUMS.txt) · [Zenodo report version](https://zenodo.org/records/23075312)
 
@@ -39,7 +45,7 @@ The [capture-calibration methods](research/capture_calibration/README.md) identi
 
 The [certified score implementation](research/certified_score/README.md) addresses that design's numerical gap with exact binomial-tail comparisons, outward rational logarithm bounds and exact confidence-region projection. Strict score gates use the reported outward endpoints. The [targeted source watch](research/source_watch/2026-10-02/README.md) audits three primary articles on transcription-dependent mutation supply, population history and phenotypic masking. These are methods and literature advances; no matched biological panel or new experiment is admitted.
 
-[Reviewed methods 0.6.0 package](TMD_METHODS_0_6_0.md) is available in GitHub and remains unarchived on Zenodo. [Publication status](research/PUBLICATION_STATUS.md) records labelled release 0.5.0 and the newly published, unversioned record 23113326, whose six reported filenames, sizes and checksums match the inherited 0.5.0 inventory. A replacement draft 23219776 is now verified within that same DOI family, but metadata and file staging failed; [owner-editor staging instructions](research/ZENODO_0_6_0_BROWSER_STAGING.md) preserve the reviewed candidate. No 0.6.0 publication was made. The [verified manual-run artifact](research/continuation/ARTIFACT_READBACK_2026-10-02.json) reports a missing provider key in that historical run; the workflow remains explicitly paused, with current secret configuration inaccessible.
+[Reviewed methods 0.6.0](TMD_METHODS_0_6_0.md) is now [published in the existing Zenodo family](https://doi.org/10.5281/zenodo.23219776), with exact metadata and eight file bytes verified. [Publication status](research/PUBLICATION_STATUS.md) preserves the earlier staging failures and inherited-version history. The [verified manual-run artifact](research/continuation/ARTIFACT_READBACK_2026-10-02.json) reports a missing provider key in that historical run; the workflow remains explicitly paused, with current secret configuration inaccessible.
 
 ## Research follow-up: recovery-transport robustness
 
@@ -125,7 +131,7 @@ The rpoB endpoint count table cannot be passed into the time diagnostic: it has 
 
 ## Versions, citation, and funding
 
-The expanded report and code in this repository are **0.1.0**. The separate downloadable methods packages linked above are **0.2.0**, **0.3.0**, **0.4.0** and **0.5.0**. Their versions are separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
+The expanded report and code in this repository are **0.1.0**. The separate downloadable methods packages linked above are **0.2.0**, **0.3.0**, **0.4.0**, **0.5.0** and **0.6.0**. Their versions are separate from the archived **TMD software v2.6.5**, available in `TMD_v2_6_5_software_release_2026-09-05.zip` and the [published Zenodo record](https://zenodo.org/records/22398093). The historical archive is preserved byte-for-byte. Its fixtures and legacy scientific interpretations must be read alongside the corrections in this repository. The older DOI is not a DOI for this new extension.
 
 Use `CITATION.cff` to cite this repository and separately cite the original papers when using their data. Research and new analysis were prepared with AI assistance and human-directed scope; reproducible code and explicit limitations are provided for review.
 
@@ -157,4 +163,8 @@ The recent [MitoTracer source review](research/pedigree_contract/RECENT_METHODS_
 
 [R22](research/caller_capture/README.md) makes a deliberately partial support/reference predicate explicit: at least k correct carrier calls and r correct reference calls. Exact full-law probabilities and sharp marginal-only finite LP bounds use known truth and population/design probabilities. They do not replay the complete native caller, infer unseen births, fit mutation rates or provide empirical confidence intervals. Independent dual certificates and the fixed synthetic oracle reproduce the endpoints.
 
-Next R23 seeks qualified assessment and native variant-versus-origin truth/control validation for an eligible matched system. It does not default to another mathematical extension. Prior likelihoods, full held-out forecasts and eta requirements, simultaneous error budgets and fixed stopping remain unchanged. Read the [current handoff](research/CONTINUATION_HANDOFF_2026-10-07_R21_R22.md).
+At the R21/R22 checkpoint, the next R23 task sought qualified assessment and native variant-versus-origin truth/control validation for an eligible matched system. It does not default to another mathematical extension. Prior likelihoods, full held-out forecasts and eta requirements, simultaneous error budgets and fixed stopping remain unchanged. Read the [R21/R22 handoff](research/CONTINUATION_HANDOFF_2026-10-07_R21_R22.md).
+
+## Official-artifact admission follow-up — 8 October 2026
+
+[R23](research/artifact_admission/README.md) inspects official PTATO releases and selected source code. Call-derived uniqueness, missing prior genotypes, callable-set membership, chromosome exclusions and sample averaging need actual-input verification. No numerical variant or new-origin benchmark is admitted. [Recovered control-resource illustrations](research/control_resource/README.md) exactly verify hypothetical zero-error bounds and predictive values without selecting a study size or changing error/stopping commitments. All 26 actual study fields remain unresolved; qualified external assessment is outstanding. [Current R23 handoff](research/CONTINUATION_HANDOFF_2026-10-08_R23.md).

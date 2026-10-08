@@ -1,0 +1,122 @@
+{
+  "verified_at_utc": "2026-10-08T21:51:59.131627+00:00",
+  "status": "pass",
+  "record_id": 23219776,
+  "doi": "10.5281/zenodo.23219776",
+  "concept_doi": "10.5281/zenodo.23068055",
+  "version": "0.6.0",
+  "published": true,
+  "is_latest_version": true,
+  "public_unauthenticated_reads": true,
+  "metadata_checks": {
+    "title": true,
+    "publication_date": true,
+    "version": true,
+    "description": true,
+    "report": true,
+    "creator_name": true,
+    "creator_orcid": true,
+    "creator_affiliation": true,
+    "keywords": true,
+    "license": true,
+    "open": true,
+    "notes": true
+  },
+  "notes_rendered_in_public_html": true,
+  "file_count": 8,
+  "total_bytes": 2960144,
+  "all_file_bytes_equal_verified_staging": true,
+  "files": [
+    {
+      "filename": "TMD_methods_0_6_0_2026-10-02.zip",
+      "bytes": 1277802,
+      "md5": "963beb4de39cb94a95443425f7fdac49",
+      "sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_methods_0_6_0_2026-10-02_SHA256SUMS.txt",
+      "bytes": 99,
+      "md5": "71cad575679321b9e21ec1e696b36a5f",
+      "sha256": "fca258d04d7f98433da3392619f67426b4d6dd7ddd872e212653cb8f9289fb11",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_research_extension_0_2_0_2026-09-30.zip",
+      "bytes": 90370,
+      "md5": "97c023f181aaa7ede53531426431c6cb",
+      "sha256": "2e7345e2b8369436a570fb3ceca2698db1049c318babf2b45bc8906db4939b25",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_research_extension_0_3_0_2026-09-30.zip",
+      "bytes": 312580,
+      "md5": "836d215c73c14ae9c2077679bb522827",
+      "sha256": "224d292575a93afca6f5912ed2536f51ca0f42555f6b2ddd4e1bcd4e53af1753",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_research_extension_0_4_0_2026-09-30.zip",
+      "bytes": 397233,
+      "md5": "a59aab62b8c73384cc88734ab49e4396",
+      "sha256": "9ff1ed4b1fd5be448fad0766962884fccb83a4ad418acfd6a9faf1a90b2df0f2",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_research_extension_0_5_0_2026-09-30.zip",
+      "bytes": 800846,
+      "md5": "6e2b390801a8b034daf861d13336121c",
+      "sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "local_byte_equality": true
+    },
+    {
+      "filename": "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt",
+      "bytes": 557,
+      "md5": "6d1cf73ed61785c5f175859825d31120",
+      "sha256": "238875ff98d4b1f4e2b9f7f604602c114f23fc660ceaecb3afa2edd47a119171",
+      "local_byte_equality": null
+    },
+    {
+      "filename": "TMD_research_extension_0_5_0_report_2026-09-30.pdf",
+      "bytes": 80657,
+      "md5": "b4d2fe23cd8192d2c334bd376e566a6a",
+      "sha256": "cd8e959b5efed2d2946a3e18cf8a9c239364b042d56628a091a296650a811af0",
+      "local_byte_equality": null
+    }
+  ],
+  "frozen_snapshot_excludes_later_addenda": true,
+  "automatic_archiving_changed": false,
+  "separate_standalone_record_created": false,
+  "publication_http_status": 202,
+  "publication_utc": "2026-10-08T21:50:43.791444+00:00",
+  "staging_metadata_method": "Modern RDM PUT with Content-Type application/json and Accept application/vnd.inveniordm.v1+json",
+  "historical_staging_failures_preserved": true,
+  "this_staging_content_type_rejection": 415,
+  "this_staging_corrected_put_status": 200,
+  "independent_prepublication_review_checks": {
+    "independent_current_get_equals_root_prepublish_and_upload": true,
+    "correct_owned_latest_draft": true,
+    "latest_published_still_23113326": true,
+    "exact_approved_text_fields": true,
+    "correct_resource_type": true,
+    "exact_single_creator_identity_and_affiliation": true,
+    "exact_ordered_approved_keywords": true,
+    "approved_license_and_open_access": true,
+    "exact_approved_notes_valid_other_description": true,
+    "stale_0_5_source_link_removed": true,
+    "snapshot_scope_explicit_in_notes": true,
+    "exact_eight_file_inventory": true,
+    "all_six_inherited_file_ids_sizes_checksums_preserved": true,
+    "all_eight_acquired_file_bytes_match_approved_inventory": true,
+    "five_inherited_sha256_file_certificates_verified": true,
+    "new_zip_is_original_reviewed_package": true,
+    "public_safe_package_privacy_scope_preserved_by_exact_identity": true
+  },
+  "independent_prepublication_review_status": "pass",
+  "fresh_archive_replay": {
+    "unit_tests": 44,
+    "saved_synthetic_results": 160,
+    "internal_manifest_entries": 53,
+    "archive_unchanged": true
+  }
+}

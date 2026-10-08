@@ -1,6 +1,16 @@
 # TMD publication status
 
-Checked 7 October 2026 (America/Los_Angeles).
+Checked 8 October 2026 (America/Los_Angeles).
+
+**Current: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
+
+The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R23 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
+
+The modern draft API repaired staging using the correct JSON request schema and content type; the initial content-type rejection and earlier legacy failures are preserved as diagnostics. Approved notes are stored exactly as an RDM additional description of type `other`; the legacy serializer omits that field, so verification uses canonical modern metadata and public HTML. Fresh restored-runtime checks passed all 53 archive hashes, 44 unit tests and 160 saved-result comparisons without changing the ZIP.
+
+## Historical publication observations
+
+The following dated paragraphs describe the state before the verified 0.6.0 publication; they are preserved as historical evidence. Their pending-draft instructions are superseded by the current status above.
 
 The canonical report/methods concept DOI is **10.5281/zenodo.23068055**. Latest published family record [23113326](https://zenodo.org/records/23113326) remains unversioned and lists the same six filenames, sizes and reported MD5 values as labelled **0.5.0**, [record 23075312](https://zenodo.org/records/23075312). These six inherited files were not downloaded again in this check. **0.6.0 remains unpublished.** Historical software v2.6.5, [record 22398093](https://zenodo.org/records/22398093), belongs to a separate publication family.
 

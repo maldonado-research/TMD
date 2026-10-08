@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "round": "R000023",
+  "files": [
+    "INTERNAL_REVIEW.json",
+    "README.md",
+    "RESULTS.json",
+    "verify_control_calculations.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_content": "original public-safe summaries, code, synthetic calculations and receipts",
+  "raw_third_party_data_or_code_included": false
+}

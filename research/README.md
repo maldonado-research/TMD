@@ -16,7 +16,7 @@ python3 verify_transport_review.py --public-archive ../TMD_research_extension_0_
 
 The independent oracle writes its deterministic review receipt beside itself. Copy this directory to a scratch location before regenerating receipts or result files if preserving an untouched checkout. `run_reanalysis.py --check` compares outputs without rewriting them.
 
-[Environment reproduction evidence](ENVIRONMENT_REPRODUCIBILITY.md) distinguishes successful computational checks from the original release's strict floating-result identity failure. [Publication candidate](PUBLICATION_CANDIDATE.md) describes a proposed next methods version; it is not a publication receipt. The current released archive remains 0.5.0, expanded report 0.1.0, and historical software v2.6.5.
+[Environment reproduction evidence](ENVIRONMENT_REPRODUCIBILITY.md) distinguishes successful computational checks from the original release's strict floating-result identity failure. [Publication candidate](PUBLICATION_CANDIDATE.md) describes a proposed next methods version; it is not a publication receipt. That preparation checkpoint had released methods 0.5.0, expanded report 0.1.0 and historical software v2.6.5. Current methods 0.6.0 publication is documented below.
 
 New code is MIT; new documentation is CC BY 4.0 under the repository licensing terms. Preserved public source artifacts retain attribution and their existing terms. Prepared with AI assistance; internal independent review is not external peer review.
 
@@ -108,4 +108,12 @@ The recent [MitoTracer source review](pedigree_contract/RECENT_METHODS_REVIEW.js
 
 [R22](caller_capture/README.md) makes a deliberately partial support/reference predicate explicit: at least k correct carrier calls and r correct reference calls. Exact full-law probabilities and sharp marginal-only finite LP bounds use known truth and population/design probabilities. They do not replay the complete native caller, infer unseen births, fit mutation rates or provide empirical confidence intervals. Independent dual certificates and the fixed synthetic oracle reproduce the endpoints.
 
-Next R23 seeks qualified assessment and native variant-versus-origin truth/control validation for an eligible matched system. It does not default to another mathematical extension. Prior likelihoods, full held-out forecasts and eta requirements, simultaneous error budgets and fixed stopping remain unchanged. Read the [current handoff](CONTINUATION_HANDOFF_2026-10-07_R21_R22.md).
+At the R21/R22 checkpoint, the next R23 task sought qualified assessment and native variant-versus-origin truth/control validation for an eligible matched system. It does not default to another mathematical extension. Prior likelihoods, full held-out forecasts and eta requirements, simultaneous error budgets and fixed stopping remain unchanged. Read the [R21/R22 handoff](CONTINUATION_HANDOFF_2026-10-07_R21_R22.md).
+
+## Official-artifact admission and control-resource recovery — 8 October 2026
+
+[R23](artifact_admission/README.md) recovers the nine-gate worksheet and inspects official PTATO article/release pointers, selected code and the figure-analysis archive. The code conditions recovery on prior clone calls, QC/callability and chromosome exclusions, averages sample frequencies, and uses cross-sample variant-name membership for callable eligibility. Actual inputs are needed to assess those choices; no numerical variant or origin benchmark is admitted. Twelve scientific requests retrieved 479,974 bytes; 136 identity checks replay. The source assessment is bounded and internally reviewed, with qualified external assessment still outstanding.
+
+[Hypothetical control-resource calculations](control_resource/README.md) verify the previously unpublished zero-error CP minima and predictive-value identities exactly. They select no real study size, native parameter, threshold, error allocation or stopping rule. All 26 actual study fields remain unresolved. [Current handoff](CONTINUATION_HANDOFF_2026-10-08_R23.md).
+
+The approved frozen [methods 0.6.0 archive](https://doi.org/10.5281/zenodo.23219776) is now published; exact public metadata/notes and eight file bytes are verified. Its scope excludes all later R1–R23 addenda. Earlier publication paragraphs above retain their dated historical scope.

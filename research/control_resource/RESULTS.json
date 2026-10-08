@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "standard hypothetical planning illustrations recovered from unpublished planning calculations",
+  "arithmetic": "Python standard library arbitrary-precision integers and Fraction; no floating scientific comparisons",
+  "alpha": "1/20",
+  "confidence_level_single_metric": "19/20",
+  "zero_error_minima": [
+    {
+      "epsilon": "1/100",
+      "minimum_n": 299,
+      "n_passes": {
+        "n": 299,
+        "q": "1/100",
+        "alpha": "1/20",
+        "left_expression": "20 * 99^299",
+        "right_expression": "1 * 100^299",
+        "comparison": "<",
+        "difference_sign": -1,
+        "left_bit_length": 1987,
+        "right_bit_length": 1987,
+        "U_le_q": true
+      },
+      "n_minus_1_fails": {
+        "n": 298,
+        "q": "1/100",
+        "alpha": "1/20",
+        "left_expression": "20 * 99^298",
+        "right_expression": "1 * 100^298",
+        "comparison": ">",
+        "difference_sign": 1,
+        "left_bit_length": 1980,
+        "right_bit_length": 1980,
+        "U_le_q": false
+      }
+    },
+    {
+      "epsilon": "1/1000",
+      "minimum_n": 2995,
+      "n_passes": {
+        "n": 2995,
+        "q": "1/1000",
+        "alpha": "1/20",
+        "left_expression": "20 * 999^2995",
+        "right_expression": "1 * 1000^2995",
+        "comparison": "<",
+        "difference_sign": -1,
+        "left_bit_length": 29848,
+        "right_bit_length": 29848,
+        "U_le_q": true
+      },
+      "n_minus_1_fails": {
+        "n": 2994,
+        "q": "1/1000",
+        "alpha": "1/20",
+        "left_expression": "20 * 999^2994",
+        "right_expression": "1 * 1000^2994",
+        "comparison": ">",
+        "difference_sign": 1,
+        "left_bit_length": 29838,
+        "right_bit_length": 29838,
+        "U_le_q": false
+      }
+    },
+    {
+      "epsilon": "1/10000",
+      "minimum_n": 29956,
+      "n_passes": {
+        "n": 29956,
+        "q": "1/10000",
+        "alpha": "1/20",
+        "left_expression": "20 * 9999^29956",
+        "right_expression": "1 * 10000^29956",
+        "comparison": "<",
+        "difference_sign": -1,
+        "left_bit_length": 398047,
+        "right_bit_length": 398047,
+        "U_le_q": true
+      },
+      "n_minus_1_fails": {
+        "n": 29955,
+        "q": "1/10000",
+        "alpha": "1/20",
+        "left_expression": "20 * 9999^29955",
+        "right_expression": "1 * 10000^29955",
+        "comparison": ">",
+        "difference_sign": 1,
+        "left_bit_length": 398034,
+        "right_bit_length": 398034,
+        "U_le_q": false
+      }
+    }
+  ],
+  "hypothetical_500_trial_upper_bound": {
+    "n": 500,
+    "observed_errors_assumed": 0,
+    "strict_lower": "5973551516/1000000000000",
+    "strict_upper": "5973551517/1000000000000",
+    "lower_proof": {
+      "n": 500,
+      "q": "1493387879/250000000000",
+      "alpha": "1/20",
+      "left_expression": "20 * 248506612121^500",
+      "right_expression": "1 * 250000000000^500",
+      "comparison": ">",
+      "difference_sign": 1,
+      "left_bit_length": 18932,
+      "right_bit_length": 18932,
+      "U_le_q": false
+    },
+    "upper_proof": {
+      "n": 500,
+      "q": "5973551517/1000000000000",
+      "alpha": "1/20",
+      "left_expression": "20 * 994026448483^500",
+      "right_expression": "1 * 1000000000000^500",
+      "comparison": "<",
+      "difference_sign": -1,
+      "left_bit_length": 19932,
+      "right_bit_length": 19932,
+      "U_le_q": true
+    },
+    "bound_percent_display_rounded_8_places": "0.59735515"
+  },
+  "predictive_value_illustrations": [
+    {
+      "target_frame_positive_prevalence": "1/1000",
+      "sensitivity": "9/10",
+      "false_positive_probability": "1/1000",
+      "true_positive_mass": "9/10000",
+      "false_positive_mass": "999/1000000",
+      "PPV_exact": "100/211",
+      "PPV_percent_display": "47.39336493",
+      "exact_identity_verified": true
+    },
+    {
+      "target_frame_positive_prevalence": "1/1000",
+      "sensitivity": "9/10",
+      "false_positive_probability": "1/10000",
+      "true_positive_mass": "9/10000",
+      "false_positive_mass": "999/10000000",
+      "PPV_exact": "1000/1111",
+      "PPV_percent_display": "90.00900090",
+      "exact_identity_verified": true
+    }
+  ],
+  "assumptions": [
+    "Fixed sample size with no outcome-dependent stopping for the CP calculation.",
+    "Independent homogeneous Bernoulli origin-error trials for the CP calculation.",
+    "Independent origin-negative ancestry/episode truth, not only genotype-negative truth.",
+    "Complete frozen caller, eligible candidate frame, error definition and exclusions.",
+    "PPV p, s and f apply to the same target-frame origin truth and complete caller."
+  ],
+  "limitations": {
+    "native_control_observations": false,
+    "native_p_s_f_pi_estimated": false,
+    "mutation_rate_estimated": false,
+    "achieved_power": false,
+    "new_alpha_or_threshold_commitment": false,
+    "selected_actual_study_size": false,
+    "qualified_external_review_obtained": false,
+    "truth_without_authentication_may_measure_only_disagreement": true,
+    "pooling_contexts_does_not_establish_route_calibration": true,
+    "selected_control_panel_mixture_is_not_target_prevalence": true,
+    "original_historical_receipt_reconstructed": false
+  }
+}

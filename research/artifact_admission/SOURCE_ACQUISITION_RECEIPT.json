@@ -1,0 +1,139 @@
+{
+  "network_requests": 12,
+  "network_response_bytes": 479974,
+  "pre_request_sandbox_failure_count": 1,
+  "requests": [
+    {
+      "name": "ptato_pmc10504672.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10504672",
+      "requested_utc": "2026-10-08T21:41:40.282147+00:00",
+      "status": 200,
+      "bytes": 223535,
+      "sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5",
+      "content_type": "text/xml; charset=UTF-8",
+      "artifact_role": "primary_article_identity_and_methods",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "zenodo8098608.json",
+      "url": "https://zenodo.org/api/records/8098608",
+      "requested_utc": "2026-10-08T21:42:40.129181+00:00",
+      "status": 200,
+      "bytes": 3855,
+      "sha256": "ec68efd19bc10f96fa8b2eceb5c43e98fc6d079075e047c08a75e79aee9ed6ea",
+      "content_type": "application/json",
+      "artifact_role": "tool_release_manifest",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "zenodo8186323.json",
+      "url": "https://zenodo.org/api/records/8186323",
+      "requested_utc": "2026-10-08T21:42:40.129900+00:00",
+      "status": 200,
+      "bytes": 3705,
+      "sha256": "37f4a55e0798b3603db7c092b35d81cf31dce9b82418ded0bf864479bde1f13c",
+      "content_type": "application/json",
+      "artifact_role": "figure_code_release_manifest",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "github_tool_releases.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/releases?per_page=20",
+      "requested_utc": "2026-10-08T21:42:40.130338+00:00",
+      "status": 200,
+      "bytes": 19445,
+      "sha256": "a9d54d70e0fbc7c122e8954b121298b66d7a361e708eac2a643fdf09bd6e22fa",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "tool_release_history",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "ptato_mmc2.xlsx",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504672/bin/mmc2.xlsx",
+      "requested_utc": "2026-10-08T21:42:40.344825+00:00",
+      "status": 200,
+      "bytes": 21344,
+      "sha256": "9180e8de7ace5b43bf104a32d04ac15b2a3ef7df88551e67c00f80c2c77fef9d",
+      "content_type": "text/html; charset=utf-8",
+      "artifact_role": "participant_and_WGS_metadata_supplement",
+      "outcome": "captcha_html_not_workbook"
+    },
+    {
+      "name": "ptato_mmc3.xlsx",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504672/bin/mmc3.xlsx",
+      "requested_utc": "2026-10-08T21:42:40.390039+00:00",
+      "status": 200,
+      "bytes": 21343,
+      "sha256": "1b2c8f42991dcac5c84cd0d59028f3d267a5262e189fb2d9d21b81d23f457244",
+      "content_type": "text/html; charset=utf-8",
+      "artifact_role": "cell_line_metadata_supplement",
+      "outcome": "captcha_html_not_workbook"
+    },
+    {
+      "name": "figure_code_v1.0.1.zip",
+      "url": "https://zenodo.org/api/records/8186323/files/ProjectsVanBox/PTATO-v1.0.1.zip/content",
+      "requested_utc": "2026-10-08T21:43:09.788533+00:00",
+      "status": 200,
+      "bytes": 94579,
+      "sha256": "51ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a",
+      "content_type": "application/octet-stream,application/octet-stream",
+      "artifact_role": "published_figure_analysis_source",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "github_tool_v1.2.4_tree.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/git/trees/v.1.2.4?recursive=1",
+      "requested_utc": "2026-10-08T21:43:09.789215+00:00",
+      "status": 200,
+      "bytes": 49562,
+      "sha256": "ef5cf472c64c903d73ffad4428c3cf6a09576a8fd36fc2570f2c520aa61d31b5",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "tool_release_git_tree_inventory",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "tool_LICENSE_blob.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/git/blobs/63564259be943eeba098a7f913171368f395d23a",
+      "requested_utc": "2026-10-08T21:43:38.613380+00:00",
+      "status": 200,
+      "bytes": 1797,
+      "sha256": "1526a461085d39d89c9e0dad81841c99bd0ece22c2c500ceb38f281c074c9e35",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "pinned_tool_source_blob",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "tool_resources_config_blob.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/git/blobs/9c319d307905336dea41f2dfe5219cde0baa40a0",
+      "requested_utc": "2026-10-08T21:43:38.614005+00:00",
+      "status": 200,
+      "bytes": 2831,
+      "sha256": "7d0bdb4b0848d3118453e34bc8c13d86a25aa84ea39fdb6c41c532eb3cfc44c9",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "pinned_tool_source_blob",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "tool_process_config_blob.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/git/blobs/9624d1361609ed48b8a62b9224ba853b2a0b820b",
+      "requested_utc": "2026-10-08T21:43:38.614373+00:00",
+      "status": 200,
+      "bytes": 15794,
+      "sha256": "7344a0fceaa9413e1c017b7e7f2784f3b86ee25519a5875919be49810450e088",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "pinned_tool_source_blob",
+      "outcome": "bounded_source_acquired"
+    },
+    {
+      "name": "tool_README_blob.json",
+      "url": "https://api.github.com/repos/ToolsVanBox/PTATO/git/blobs/1b3e5c33b8d3b6a857e2d145bb71ef1f6f5f5471",
+      "requested_utc": "2026-10-08T21:43:38.924930+00:00",
+      "status": 200,
+      "bytes": 22184,
+      "sha256": "3ce46b47ae241cd6af1dea07cd35bbe6a297020f48448cb41d46af585ea369ef",
+      "content_type": "application/json; charset=utf-8",
+      "artifact_role": "pinned_tool_source_blob",
+      "outcome": "bounded_source_acquired"
+    }
+  ]
+}
