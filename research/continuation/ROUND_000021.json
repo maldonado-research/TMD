@@ -1,0 +1,26 @@
+{
+  "id": "R000021",
+  "status": "completed_internal_review",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "report": "../native_origin_controls/README.md",
+  "completion_scope": "source_grounded_review_ready_control_plan_only",
+  "details": {
+    "new_source_requests": 8,
+    "response_bytes": 925380,
+    "screened_abstracts": 14,
+    "primary_sources": 3,
+    "source_identity_checks": 70,
+    "independent_selected_primary_paragraphs": 47,
+    "independent_design_reviewer_primary_paragraphs": 51,
+    "independent_source_template_checks": 156,
+    "independent_integrity_checks": 56,
+    "actual_planning_fields_resolved": 0
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false
+}

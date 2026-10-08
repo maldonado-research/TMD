@@ -1,0 +1,23 @@
+{
+  "id": "R000022",
+  "status": "completed_internal_review",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "report": "../caller_capture/README.md",
+  "completion_scope": "conditional_synthetic_support_reference_methods_only",
+  "details": {
+    "source_requests": 0,
+    "producer_checks": 185,
+    "blind_full_law_cases": 66,
+    "blind_marginal_cases": 2889,
+    "independent_comparison_checks": 55108,
+    "stdlib_certificate_replay_checks": 207327,
+    "optimized_guard_checks_per_mode": 37
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false
+}

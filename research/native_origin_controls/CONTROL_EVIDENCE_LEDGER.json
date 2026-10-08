@@ -1,0 +1,263 @@
+{
+  "record_id": "R000021",
+  "rows": [
+    {
+      "id": "L01",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        5,
+        7,
+        8
+      ],
+      "measurement": "Single-cell comparison",
+      "reported_evidence": "Ten GM12878 PTA cells and ten SCMDA cells; other method data reused from selected BJ1 cells.",
+      "transfer_boundary": "Cell-level method comparison includes different backgrounds and screening rules; no matched TMD context panel.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L02",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        11,
+        12
+      ],
+      "measurement": "Reference-variant sensitivity",
+      "reported_evidence": "Reported greater than90% recovery of variants called in the corresponding bulk reference at evaluated read depths.",
+      "transfer_boundary": "A genome/variant benchmark conditional on reference and assayed cells; not probability of observing a new origin.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L03",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        17,
+        18,
+        19
+      ],
+      "measurement": "Kindred-cell precision",
+      "reported_evidence": "Five-day clonal expansion; bulk reference; reported99.9% germline precision and mean2785 false-positive calls.",
+      "transfer_boundary": "Bulk-discordant calls initially conflate true somatic variants and artifacts; rare somatic-event truth is a separate problem.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L04",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        34,
+        48,
+        49
+      ],
+      "measurement": "Selection before sequencing",
+      "reported_evidence": "Live-cell sorting; kindred founder cultures expanded to20–30 cells before reisolation.",
+      "transfer_boundary": "Dead, nonexpanding and unobserved lineages are outside this sequenced frame; no all-birth denominator.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L05",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        50,
+        52
+      ],
+      "measurement": "Native reference/call rules",
+      "reported_evidence": "Coverage and cross-sample rules; DMEM calls require a private single-cell variant absent from covered bulk reference.",
+      "transfer_boundary": "These rules are neither R20 any-call inclusion nor a generic two-carrier-plus-reference caller; freeze actual predicate and exclusions.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L06",
+      "source": "PTA2021",
+      "one_based_paragraphs": [
+        23,
+        25,
+        30,
+        51
+      ],
+      "measurement": "Mutagen example and attrition",
+      "reported_evidence": "ENU/MAN/vehicle example; reported five cells per group except four at highest ENU; cells harvested after exposure and viability sorting.",
+      "transfer_boundary": "Assayed-cell numbers are not independent founder histories or all exposed-cell retention. No prevention intervention or clinical result.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L07",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        14,
+        15,
+        104
+      ],
+      "measurement": "Sample-adaptive classification",
+      "reported_evidence": "RF features include allele balance and sequence context; linked-read/spectrum methods set a sample-specific classification cutoff.",
+      "transfer_boundary": "Freeze the entire algorithm, including adaptation, and validate on untouched target-state truth; a fitted spectrum is not independent calibration truth.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L08",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        16,
+        18,
+        109,
+        110
+      ],
+      "measurement": "Out-of-bag and in-silico evidence",
+      "reported_evidence": "Reported74% out-of-bag accuracy; mixtures and modified sequence contexts test existing feature records.",
+      "transfer_boundary": "Training/out-of-bag, synthetic modified features and new biological observations are distinct evidence types.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L09",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        19,
+        82
+      ],
+      "measurement": "Expanded knockout benchmarks",
+      "reported_evidence": "WT/FANCC/MSH2 clonal cultures and elapsed-day extrapolations benchmark observed burdens; exact artifact totals unknown.",
+      "transfer_boundary": "Repair genotypes differ, histories are nested, and elapsed-day benchmarks are not optically counted new independent mutation births.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L10",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        33
+      ],
+      "measurement": "Two sensitivity denominators",
+      "reported_evidence": "Reported45–69% detection of shared substitutions and31–56% of shared indels;86.8% mean sensitivity for detectable substitutions in callable loci.",
+      "transfer_boundary": "Conditional classifier performance cannot be substituted for full assay inclusion. Do not multiply percentages with incompatible denominators.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L11",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        34,
+        73
+      ],
+      "measurement": "Estimated truth and reused ENU data",
+      "reported_evidence": "Signature-refit estimates:89% sensitivity in high-ENU samples and37% in low-burden vehicle; exact artifacts unknown in some assessments.",
+      "transfer_boundary": "This reuses the PTA study dataset; signature-based estimates are not an independently observed complete truth catalogue.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L12",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        35,
+        73
+      ],
+      "measurement": "Organoid lead and limitations",
+      "reported_evidence": "Five single cells from a clonal intestinal organoid; signature-refit evaluation. True indels can be removed by exclusion rules.",
+      "transfer_boundary": "Possible assay feasibility lead, not a prospective origin-control experiment or cancer validation.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L13",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        91,
+        92,
+        98
+      ],
+      "measurement": "Reference and training truth",
+      "reported_evidence": "Paired bulk controls and quality rules; truth labels combine shared bulk/PTA calls, linked-read scores and expected low cord-blood burden.",
+      "transfer_boundary": "Reference absence is not universal proof of de novo birth. Copy/LOH exclusions and unavailable reference states need explicit target-domain limits.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L14",
+      "source": "PTATO2023",
+      "one_based_paragraphs": [
+        105,
+        107
+      ],
+      "measurement": "Recurrence and callable territory",
+      "reported_evidence": "Indel exclusion uses139 PTA samples from22 individuals and homopolymer rules; burden extrapolated from callable autosomal territory.",
+      "transfer_boundary": "Individuals, cells and variants are different units; exclusions can remove true events and normalization is not division exposure.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L15",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        13,
+        14,
+        25,
+        33,
+        35
+      ],
+      "measurement": "Independent biological unit",
+      "reported_evidence": "Six rats dosed per group; first five assayed with sixth reserved. Paired liver/lung and cII/ECS use the same animals/DNA.",
+      "transfer_boundary": "Animals are the biological units; two assays, two tissues, DNA molecules and loci do not double the independent animal count.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L16",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        19,
+        20
+      ],
+      "measurement": "Bulk molecular opportunity",
+      "reported_evidence": "Twenty2.4kb target regions;500ng DNA input; over500million informative duplex bases per sample.",
+      "transfer_boundary": "48kb target territory and duplex bases are molecule/callable denominators, not cells, division counts or distinct origin truth.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L17",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        13,
+        20,
+        34
+      ],
+      "measurement": "Positive control and two frequency conventions",
+      "reported_evidence": "ENU positive control; MFmin unique mutations versus MFmax unique plus clonal observations; article reports no difference here.",
+      "transfer_boundary": "A positive response verifies a stated assay function, not a complete carrier/origin catalogue; deduplication cannot reconstruct every molecular origin.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L18",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        21,
+        32,
+        39,
+        41,
+        49,
+        56
+      ],
+      "measurement": "Concordance and response levels",
+      "reported_evidence": "Reported same-DNA Pearsonr=.99, dose response and tissue NOGELs; benchmark analysis uses50% critical effect size.",
+      "transfer_boundary": "Correlated assays are useful corroboration, not independent origin truth, a TMD threshold or a cancer-prevention effect.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L19",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        34,
+        56
+      ],
+      "measurement": "Preserved source wording mismatch",
+      "reported_evidence": "Paragraph34 opens with≥10mg/kg in both tissues, then specifies lung≥1; concluding paragraph56 specifies lung≥1 and liver≥10.",
+      "transfer_boundary": "Retain this wording distinction; no raw reanalysis, silent correction or clinical safety threshold is inferred.",
+      "native_TMD_calibration_admitted": false
+    },
+    {
+      "id": "L20",
+      "source": "NNK2026",
+      "one_based_paragraphs": [
+        44,
+        55
+      ],
+      "measurement": "Mechanisms unmeasured",
+      "reported_evidence": "Systemic exposure, DNA adducts, repair enzyme activity and metabolic expression not characterized in this study.",
+      "transfer_boundary": "Tissue-specific repair/metabolism explanations are hypotheses here; one nitrosamine does not establish universal transfer.",
+      "native_TMD_calibration_admitted": false
+    }
+  ],
+  "actual_study_inputs_resolved": 0,
+  "qualified_external_review_obtained": false
+}

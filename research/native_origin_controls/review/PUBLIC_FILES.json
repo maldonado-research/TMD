@@ -1,0 +1,25 @@
+{
+  "record": "R21/R22 internal independent review",
+  "files": [
+    "R21_DESIGN_REVIEW.json",
+    "R21_INDEPENDENT_SOURCE_AND_TEMPLATE_CHECKS.json",
+    "R21_MISSING_CACHE_CHECK.json",
+    "R21_REVIEW_RECEIPT.json",
+    "R21_SOURCE_CHECK_REPLAY.json",
+    "R21_SOURCE_INSPECTION.json",
+    "README.md",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "payload_hashes": {
+    "R21_DESIGN_REVIEW.json": "d4d3cfe4aa679d6ec821dbc4e37139dd159fb4fa0f570250d9f98a66c1da3f25",
+    "R21_INDEPENDENT_SOURCE_AND_TEMPLATE_CHECKS.json": "44204ed510f55bda3604501f6191da4f4abd417b9c84c1095afcc4bedf858773",
+    "R21_MISSING_CACHE_CHECK.json": "0676cdcd2fe9f87b32033339cb3b2b7b324d40132a05646eec6a6601610dc695",
+    "R21_REVIEW_RECEIPT.json": "08396c2e4f05a7d5035397433551baced29dcd408f91dd3bd353fe894e527a03",
+    "R21_SOURCE_CHECK_REPLAY.json": "240fe48374e7c1ddb3c5fcb1a21293ed4bd85d7adcb47d492b5b5a49d604e353",
+    "R21_SOURCE_INSPECTION.json": "73644b46b4929bff98f8092e5faa5d135dc70e0b7d701b524735bf0895f9482e",
+    "README.md": "6724206aaa53c5160352224a12e5ebea3f86f4d8d2eb919858f82d3aa6feaa3a"
+  },
+  "raw_sources_private_files_or_patient_reads_included": false,
+  "qualified_external_review": false
+}

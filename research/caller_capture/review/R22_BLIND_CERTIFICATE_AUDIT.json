@@ -1,0 +1,15 @@
+{
+  "certificate_LP_method": "HiGHS proposal plus exact Fraction primal/dual verification; no toleranced optimum claim",
+  "counts": {
+    "analytic_identities": 889,
+    "dual_mask_inequalities": 82466,
+    "independent_value_within_bounds": 2889,
+    "primal_marginal_equalities_including_normalization": 27554,
+    "primal_nonnegative_weights": 82466,
+    "strong_duality_equalities": 5778,
+    "witness_predicate_values": 5778
+  },
+  "producer_files_inspected": false,
+  "status": "exact_validation_completed_during_blind_generation",
+  "total_exact_endpoint_and_analytic_checks": 207820
+}

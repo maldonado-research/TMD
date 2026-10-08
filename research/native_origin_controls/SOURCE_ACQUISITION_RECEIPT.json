@@ -1,0 +1,66 @@
+[
+  {
+    "name": "pta_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Accurate+genomic+variant+detection+in+single+cells+with+primary+template-directed+amplification%22%5BTitle%5D&retmax=4&retmode=json",
+    "requested_utc": "2026-10-08T05:48:30.412378+00:00",
+    "status": 200,
+    "bytes": 472,
+    "sha256": "bc532fe8f50413823b735536cd10e45f7b1ca7b4bdc3f84497164ce083f6e921"
+  },
+  {
+    "name": "recent_duplex_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22duplex+sequencing%22%5BTitle%2FAbstract%5D+OR+%22NanoSeq%22%5BTitle%2FAbstract%5D%29+AND+%28%22validation%22%5BTitle%2FAbstract%5D+OR+%22benchmark%22%5BTitle%2FAbstract%5D+OR+%22spike-in%22%5BTitle%2FAbstract%5D%29%29+AND+2024%3A2026%5Bpdat%5D&retmax=6&retmode=json",
+    "requested_utc": "2026-10-08T05:48:31.073463+00:00",
+    "status": 200,
+    "bytes": 442,
+    "sha256": "0067c237d4a86987af5bf61dcd51849439af10cff2ead390161a3729ee9f1122"
+  },
+  {
+    "name": "recent_duplex_abstracts.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42748841%2C42720293%2C42606284%2C42277565%2C42041034%2C41789568&retmode=xml",
+    "requested_utc": "2026-10-08T05:48:31.595034+00:00",
+    "status": 200,
+    "bytes": 158307,
+    "sha256": "1eddba2f3bfdf661721bffda7a1738ebb29f15291184aa84c0863955ab52ab73"
+  },
+  {
+    "name": "pta_broader_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22primary+template-directed+amplification%22&retmax=8&retmode=json&sort=relevance",
+    "requested_utc": "2026-10-08T05:49:15.789582+00:00",
+    "status": 200,
+    "bytes": 301,
+    "sha256": "8269dfc55f807da830df5783f3e402464400ec25cff93dd3385d2b3cdecee936"
+  },
+  {
+    "name": "pta_broader_abstracts.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34099548%2C39709610%2C36163278%2C41787279%2C41279272%2C39021442%2C41279007%2C37719152&retmode=xml",
+    "requested_utc": "2026-10-08T05:49:16.281444+00:00",
+    "status": 200,
+    "bytes": 237459,
+    "sha256": "f3512ee48550e56e04cc3d8a7c3cadf12aa864a375907fbd93fbab41a7ca7405"
+  },
+  {
+    "name": "PMC13488614.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13488614&retmode=xml",
+    "requested_utc": "2026-10-08T05:49:19.973451+00:00",
+    "status": 200,
+    "bytes": 171595,
+    "sha256": "e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4"
+  },
+  {
+    "name": "PMC8214697.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8214697&retmode=xml",
+    "requested_utc": "2026-10-08T05:50:41.147981+00:00",
+    "status": 200,
+    "bytes": 133269,
+    "sha256": "c15e1bcb9d1cfe5ae72c0753ced72510e729a1ccc17e4913e365781c4cca9f4f"
+  },
+  {
+    "name": "PMC10504672.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10504672&retmode=xml",
+    "requested_utc": "2026-10-08T05:51:44.975322+00:00",
+    "status": 200,
+    "bytes": 223535,
+    "sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5"
+  }
+]

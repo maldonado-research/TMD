@@ -1,0 +1,23 @@
+{
+  "status": "original_public_safe_candidate",
+  "included": "Original finite conditional support/reference derivation, synthetic fixtures, stdlib code and verification receipts",
+  "excluded": [
+    "raw literature text",
+    "private archive",
+    "uploaded transcript",
+    "patient data",
+    "sequencing reads",
+    "third-party source code",
+    "credentials",
+    "private personal information"
+  ],
+  "code_license": "MIT",
+  "original_notes_and_synthetic_summaries_license": "CC BY 4.0",
+  "new_source_requests": 0,
+  "raw_third_party_redistribution": false,
+  "biological_origin_or_native_caller_authenticated": false,
+  "biological_rate_fit_CI_or_prevention_claim": false,
+  "existing_26_actual_study_inputs_resolved": 0,
+  "external_qualified_review_claim": false,
+  "new_theorem_or_priority_claim": false
+}

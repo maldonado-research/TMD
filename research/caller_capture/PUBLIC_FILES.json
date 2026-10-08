@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "candidate": "R000022",
+  "status": "frozen_pending_independent_internal_review",
+  "public_files": [
+    "caller_capture.py",
+    "verify_benchmarks.py",
+    "BENCHMARKS.json",
+    "README.md",
+    "CONDITIONAL_DERIVATION.md",
+    "VERIFICATION_RECEIPT.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "files_sha256": {
+    "caller_capture.py": "6b0ddc1174ec56a532e9f7a4e313785f0ff4b76cf938bfff2cf8b7a73a2a2c72",
+    "verify_benchmarks.py": "a0303640d5c23f2b54f6238038361d19081743b59aa83a3f0ed8c6a603f5df7c",
+    "BENCHMARKS.json": "1867ea1e3ecd4d27854da2d1a3e3cb16394c2a8a40811ed4de928321bc9fedf0",
+    "README.md": "37b8b4858f1d4e244f006e95730f2dfe6b13985f4b31cfb5864e46c54b404951",
+    "CONDITIONAL_DERIVATION.md": "1b4d1abb8a889fb841334f172dbb14eac9b90703483678b2d5faef407557c1ff",
+    "VERIFICATION_RECEIPT.json": "714e02c7c29a1e74da73fefe78213eb2b45a204051553766507dc36fada9ecaf",
+    "LICENSE": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d",
+    "LICENSE_AND_PRIVACY_REVIEW.json": "3cdb73815754b79633ea2447c54f60d9f02ac28c21db6c5ff374ed8134723f2e"
+  },
+  "public_content": "Original conditional threshold/reference methods, exact synthetic finite fixtures, stdlib code and computational receipts only",
+  "source_acquisitions": 0,
+  "raw_literature_private_archive_patient_or_source_code_content": false,
+  "actual_study_inputs_resolved": 0,
+  "biological_fit_empirical_CI_or_native_caller_replay": false,
+  "new_theorem_or_priority_claim": false,
+  "external_qualified_review_claim": false
+}

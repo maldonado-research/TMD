@@ -1,0 +1,30 @@
+{
+  "record_id": "R000021",
+  "status": "PASS_CACHED_SOURCE_IDENTITY",
+  "identity_checks": 70,
+  "sources": [
+    {
+      "source": "PTA2021",
+      "source_sha256": "c15e1bcb9d1cfe5ae72c0753ced72510e729a1ccc17e4913e365781c4cca9f4f",
+      "anchors_checked": 17,
+      "assessment_depth": "full main body paragraphs; figures described in embedded captions; supplementary material, raw data and code not acquired"
+    },
+    {
+      "source": "PTATO2023",
+      "source_sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5",
+      "anchors_checked": 18,
+      "assessment_depth": "selected25 paragraphs and short paragraph-lead scan; remaining main text, supplements, raw data and code not assessed"
+    },
+    {
+      "source": "NNK2026",
+      "source_sha256": "e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4",
+      "anchors_checked": 17,
+      "assessment_depth": "full main body paragraphs including embedded captions; supplements, raw data, software and regulatory source documents not acquired"
+    }
+  ],
+  "missing_sources": [],
+  "failures": [],
+  "new_network_requests": 0,
+  "source_semantics_validated_by_hashes": false,
+  "actual_study_fields_resolved": 0
+}
