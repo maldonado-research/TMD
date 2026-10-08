@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000018",
-    "next_round_id": "R000019",
+    "last_completed_round": "R000020",
+    "next_round_id": "R000021",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -158,7 +158,22 @@
     "curvature_independent_corner_evaluations": 65740,
     "curvature_independent_comparison_guard_checks": 466,
     "curvature_empirical_CI_or_power": false,
-    "curvature_count_or_cancer_law_admitted": false
+    "curvature_count_or_cancer_law_admitted": false,
+    "latest_pedigree_contract_round": "R000019",
+    "pedigree_producer_semantic_checks": 26,
+    "pedigree_root_toy_checks": 18,
+    "pedigree_independent_semantic_checks": 144,
+    "recent_method_metadata_abstracts": 2,
+    "recent_method_primary_sources": 1,
+    "recent_method_source_requests": 4,
+    "recent_method_source_response_bytes": 220395,
+    "latest_event_capture_round": "R000020",
+    "event_capture_producer_checks": 827,
+    "event_capture_blind_cases": 55,
+    "event_capture_blind_mask_rows": 593,
+    "event_capture_independent_checks": 3306,
+    "event_capture_additional_semantic_checks": 28,
+    "event_capture_biological_fit": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -209,8 +224,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R16observed epithelial-pedigree/source-stage measurement lead and R18exact bounded expected-mass curvature/full-conventional feasibility; internal independent source/method/semantic review accepted.",
-    "next_action": "Establish a source-grounded pedigree-event ascertainment and exposure contract for a matched epithelial candidate, including lost/unrecovered lineages and separately measured route recovery, before any rate or curvature fit. Actual cancer catalogs/axis/model need qualified biological review. R17 supplement reporting, R11 historical submissions and all26actual bacterial fields remain blocked; no unchanged retries.",
+    "last_completed_step": "R19 pedigree/exposure/ascertainment contract and expert-review packet; R20 exact conditional event-capture bounds and classical fixed-event sampling identities, internally independently accepted.",
+    "next_action": "Obtain qualified review of the pedigree packet and define independently validated native event-inclusion controls and transfer limits for an eligible matched system. Actual catalogs, axis, partner/protocol and joint inference design remain unchosen. Do not fit mutation rates or TMD from surviving descendants alone.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -263,7 +278,11 @@
       "research/curvature_bounds/PRODUCER_RECEIPT.json": "2e9d6f16eab8ce3bed6c4fc8344318b0a62e1108c53189175d746ec9e1fc7f46",
       "research/curvature_bounds/review/R18_REVIEW_RECEIPT.json": "5b0de875343b4f5fa63776c0206c9aaebf641c69f625e57643c5e44f7e1a71ef",
       "research/curvature_bounds/review/R18_SEMANTIC_REVIEW.json": "80f21fca6628b1b5e6dfe66b22d715b104cfb1533ced729150a8b202e716b4bb",
-      "research/publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json": "6f4aa4c12d382243b4dcc8801557a025994e3a87c587efa31839d8649e0979a8"
+      "research/publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json": "6f4aa4c12d382243b4dcc8801557a025994e3a87c587efa31839d8649e0979a8",
+      "research/pedigree_contract/SHA256SUMS.txt": "aee7893988f5640a784459aa61ad8c920b3721334def11332dc72159232dfcd8",
+      "research/pedigree_contract/review/R19_REVIEW_RECEIPT.json": "2546d19273200044fd3db0cd878ca24f5f1525399a83ce83b32da21ebd0a0be0",
+      "research/event_capture/SHA256SUMS.txt": "9feea974dc0f183327d79d6adf530774dbd399186755d043a090a098ae9b13ec",
+      "research/event_capture/review/R20_REVIEW_RECEIPT.json": "438feb158d2517576472986d1da6cd526b66fabd7d31e47bcc92a1e96ee852fe"
     }
   },
   "reviewed_checkpoint": {
@@ -284,7 +303,9 @@
       "R000014",
       "R000015",
       "R000016",
-      "R000018"
+      "R000018",
+      "R000019",
+      "R000020"
     ],
     "blocked_work_items": [
       {
@@ -325,8 +346,9 @@
       "R000014 reuses R12 clinical/PA14 cohort;fournewdeclaredsupplement/package endpoints,noDOCX;cachedhashes retained,71716failure-responsebytes;conditional reporting arithmetic not clinical data.",
       "R000015 DOI10.1126/science.aau3879;PMC6298579main28paragraphsSHA256dc9bfde4056846df491f4540490b7a9abcc2a0af842f8c262ae3180bb6e8a000;844samples/9donors;MethodsS1-S7unacquired;noTMDcancerfit.",
       "R000015 DOI10.1038/s41586-021-03965-7;PMC7612642main/availablemethods71paragraphs;sourcehash in cancer_translation/SOURCE_LEDGER.json;mouse nested units,separate simulations,unknownhumantranslation;noTMDprevention.",
-      "R000016 DOI10.1101/gr.238543.118;PMC6280753xmlSHA256ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5; main80paragraphs; pinned softwarebcfe5a6c1a1407306b1c8b82e423de124e7a9f9e; no notebooks/variants/rawreads replay."
+      "R000016 DOI10.1101/gr.238543.118;PMC6280753xmlSHA256ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5; main80paragraphs; pinned softwarebcfe5a6c1a1407306b1c8b82e423de124e7a9f9e; no notebooks/variants/rawreads replay.",
+      "MitoTracer2025 DOI10.1371/journal.pcbi.1013090; PMC12184895 XML SHA25693641708979bf8ba3400c95bcb36178710798abee9015c95dcb6b1a298a9ac64; source narrative only, not native recovery or mutation-birth validation."
     ],
-    "next_action": "Establish a source-grounded pedigree-event ascertainment and exposure contract for a matched epithelial candidate, including lost/unrecovered lineages and separately measured route recovery, before any rate or curvature fit. Actual cancer catalogs/axis/model need qualified biological review. R17 supplement reporting, R11 historical submissions and all26actual bacterial fields remain blocked; no unchanged retries."
+    "next_action": "Obtain qualified review of the pedigree packet and define independently validated native event-inclusion controls and transfer limits for an eligible matched system. Actual catalogs, axis, partner/protocol and joint inference design remain unchosen. Do not fit mutation rates or TMD from surviving descendants alone."
   }
 }

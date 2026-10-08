@@ -1,0 +1,40 @@
+{
+  "check_count": 26,
+  "event_probabilities_or_rates_estimated": false,
+  "independent_review_status": "pending_root_review",
+  "provenance": "SYNTHETIC",
+  "status": "passed_producer_semantic_checks",
+  "synthetic_summary": {
+    "actual_study_fields_resolved": 0,
+    "biological_panel_admitted": false,
+    "cell_stage_fraction_is_event_inclusion_probability": false,
+    "collection_stages": {
+      "available_at_collection": 5,
+      "isolated": 4,
+      "outgrown": 3,
+      "sequenced": 3
+    },
+    "culture_records": 1,
+    "dead_terminal_cells": 1,
+    "event_inclusion_or_count_law_estimated": false,
+    "explicit_unknown_target_calls": 0,
+    "leaf_ambiguous_variant_tags": [
+      "TOY_VARIANT_B"
+    ],
+    "lost_tracking_terminal_cells": 1,
+    "observed_divisions": 6,
+    "same_founder_samples_are_nested_not_independent_origins": true,
+    "status": "passed_synthetic_ledger_integrity_only",
+    "synthetic_true_origins": 2,
+    "time_unit": "arbitrary_synthetic_time_units",
+    "toy_branch_supported_variant_tags": [
+      "TOY_VARIANT_A"
+    ],
+    "toy_validated_alternate_descendant_copies": 3,
+    "tracked_cell_time": "20",
+    "tracked_cells": 13,
+    "true_origin_count_available_only_from_simulation": true,
+    "unsequenced_terminal_genotypes_unknown": 4
+  },
+  "validator_sha256": "4cbe811a1d76579b451fbe3cd3a8445547b301d840862f5f5012479ddfd91545"
+}

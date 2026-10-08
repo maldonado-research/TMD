@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "query": "(\"lineage sequencing\" OR (\"somatic mutation\" AND \"cell division\" AND lineage)) AND 2024:2026[pdat]",
+  "search_date_local": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "scope": "Two returned PubMed metadata/abstract records and one recent primary narrative/methods assessment. This narrow targeted screen is not a systematic review or a claim that no newer suitable study exists.",
+  "index_hits": 2,
+  "metadata_abstracts_inspected": 2,
+  "selected_primary": {
+    "title": "MitoTracer facilitates the identification of informative mitochondrial mutations for precise lineage reconstruction.",
+    "pmid": "40549685",
+    "pmc": "PMC12184895",
+    "doi": "10.1371/journal.pcbi.1013090",
+    "year": 2025,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12184895&retmode=xml",
+    "bytes": 132852,
+    "sha256": "93641708979bf8ba3400c95bcb36178710798abee9015c95dcb6b1a298a9ac64",
+    "license": "CC BY4.0 verified in XML permissions",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "inspection": "All 50 body paragraphs, including narrative, method prose, embedded captions and supplement file labels, were read. Display equations, code, raw datasets, supplementary files and benchmark calculations were not executed or replayed.",
+    "anchors": [
+      {
+        "body_paragraph_index": 5,
+        "normalized_sha256": "f52a014bd81715bc5c4a28537e25c4cb131f46001be63aff9a9498008d14047f",
+        "original_interpretation": "Quality control and low/high frequency filtering select informative markers; marker selection is not complete acquisition ascertainment."
+      },
+      {
+        "body_paragraph_index": 7,
+        "normalized_sha256": "265530bc4187402b78435da8bf9e9a68e550abfbced4f7bab100ca42245f5c18",
+        "original_interpretation": "Mixture-based VAF feature selection and hierarchical clustering reconstruct inferred relationships; they do not independently enumerate divisions."
+      },
+      {
+        "body_paragraph_index": 8,
+        "normalized_sha256": "0df58e4382c8191f837056b6594a1d0633fa699237d6b7f885fe934257eb963e",
+        "original_interpretation": "Sequentially cultured TF1 subclones provide an ancestry benchmark; this is not an optically observed mutation-birth census."
+      },
+      {
+        "body_paragraph_index": 9,
+        "normalized_sha256": "08fe476aa0d9f0212af3d1730b3bd22dfc53144e8cd315f573ff698bb56456eb",
+        "original_interpretation": "The observed benchmark describes 65 cell populations from 15 clones and a manual 44-marker reference; overlap and lineage accuracy are not absolute route recovery."
+      },
+      {
+        "body_paragraph_index": 11,
+        "normalized_sha256": "10de6b3632b85d2c455c3ed1d4c97890485dddf17a2e1349b4de0ba38a8d0b20",
+        "original_interpretation": "Sibling-pair ROC/PR evaluates ancestry discrimination; pairs and triplets do not become independent founders."
+      },
+      {
+        "body_paragraph_index": 12,
+        "normalized_sha256": "0a56bc63edf5f02072ce0bb37d098eff56953f0a52e3b11b5e8a4420db9ee078",
+        "original_interpretation": "Simulated 100 cells from six clones and observed 96 scATAC cells are reported separately; performance metrics are not new biological mutation-rate data."
+      },
+      {
+        "body_paragraph_index": 18,
+        "normalized_sha256": "3c7fc9bc37b1ede15013814d4c56dea752c83f5f1b854b030a0f6883bd32524b",
+        "original_interpretation": "451Lu parental and resistant samples, 162 and 157 cells respectively, support an exploratory intrinsic-resistance interpretation, not a causal intervention or cancer-prevention finding."
+      },
+      {
+        "body_paragraph_index": 25,
+        "normalized_sha256": "07be8063c0b033a05876fd7c167690c0c7867da93f2682e17ebb10ae24d32e20",
+        "original_interpretation": "The authors state low and uneven coverage, suboptimal small-clone sensitivity, and exploratory conclusions lacking additional experimental validation."
+      },
+      {
+        "body_paragraph_index": 26,
+        "normalized_sha256": "f14406e1a302daa10feac7449dfe519c42548d0d84038a63169cd135c0a9340d",
+        "original_interpretation": "Minimum mitochondrial read counts and base-quality thresholds govern read/cell selection; no general absolute event-call probability is established."
+      },
+      {
+        "body_paragraph_index": 35,
+        "normalized_sha256": "a84e4879b66019a478439aca8924f7ac32eba2c60f46f9d1c740f0cac619f085",
+        "original_interpretation": "Selected-marker distance excludes low-frequency sites; thresholds require frozen transport and ascertainment review."
+      },
+      {
+        "body_paragraph_index": 39,
+        "normalized_sha256": "34e5c0574291aa1cfbb8e671ad029c1e214aed567e04fc8408a65f5385223f5b",
+        "original_interpretation": "The simulation explicitly plants inherited clone-specific mutations with Poisson settings; those process assumptions are not observationally admitted for TMD."
+      },
+      {
+        "body_paragraph_index": 40,
+        "normalized_sha256": "c4746becdb2bb11aaaf99756e5ecc3f17d48a87f496f4e962f8d11024d3a5fb7",
+        "original_interpretation": "The simulation assumes no parallel/back mutation and treats cell-specific mutations as noninformative; lineage-informative counts are not all mutation-birth counts."
+      }
+    ],
+    "front_identifiers_verified": {
+      "pmcid": "PMC12184895",
+      "pmcid-ver": "PMC12184895.1",
+      "pmcaid": "12184895",
+      "pmcaiid": "12184895",
+      "pmid": "40549685",
+      "doi": "10.1371/journal.pcbi.1013090",
+      "publisher-id": "PCOMPBIOL-D-24-01540"
+    },
+    "paragraph_indices_are_one_based": true,
+    "paragraph_index_definition": "One-based numbering in document order of article body//p; supporting-information file labels are included. Subtract one before Python-list indexing."
+  },
+  "secondary_abstract_only": {
+    "pmid": "38669515",
+    "doi": "10.1146/annurev-biodatasci-102523-104225",
+    "title": "The Evolutionary Interplay of Somatic and Germline Mutation Rates.",
+    "interpretation": "The review relates somatic and germline rates to classical selection on mutation rates, repair tradeoffs, and time/division units. Abstract only; no primary data or new TMD mechanism is inferred."
+  },
+  "useful_next_method": "Possible orthogonal ancestry benchmark for an independently observed pedigree. Require license, data and model review before code use; keep nuclear mutation origins separate from mitochondrial markers.",
+  "no_actual_inputs_resolved": true,
+  "new_mutation_rate_fit": false,
+  "cancer_prevention_result": false,
+  "new_third_party_code_or_data_downloaded": false,
+  "raw_source_bodies_published": false,
+  "acquisition_receipt": "ROUND_BUDGET.json (external sessionreceipt)",
+  "preserved_source_reporting_ambiguities": [
+    "Paragraph 13 reports a total of 5842 cells that differs from its 1251+1101 components; no count repair or dataset admission is made.",
+    "Three clone labels differ between paragraphs 12 and 15 and the figure caption; the raw mapping was not acquired.",
+    "The DEG count is 647 in the narrative and 674 in a caption; no source pipeline error is asserted."
+  ],
+  "original_summary_license": "CC BY 4.0; Yu et al. (2025) credited through the title and DOI.",
+  "classical_sampling_reference": {
+    "authors": "D. G. Horvitz and D. J. Thompson",
+    "title": "A Generalization of Sampling Without Replacement from a Finite Universe",
+    "year": 1952,
+    "journal": "Journal of the American Statistical Association",
+    "volume": "47",
+    "issue": "260",
+    "pages": "663-685",
+    "doi": "10.1080/01621459.1952.10483446",
+    "inspection": "Crossref bibliography only; primary article text was not read or replayed.",
+    "metadata_bytes": 3164,
+    "metadata_sha256": "51b215f6a341dc6c8356c3acc38b5a69a3ba139f9948a60afcd45f23d723827f"
+  },
+  "new_source_requests": 4,
+  "source_response_bytes": 220395
+}

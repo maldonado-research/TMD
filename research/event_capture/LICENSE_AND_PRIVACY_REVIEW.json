@@ -1,0 +1,14 @@
+{
+  "status": "original_public_safe_content",
+  "included": "Original fixed-event/design derivation, exact synthetic capture-mask and Horvitz-Thompson examples, original code and computational receipts.",
+  "excluded": ["private archive", "uploaded transcripts", "raw article text", "patient datasets", "sequencing reads", "third-party code", "personal/contact details", "credentials", "machine paths"],
+  "notes_license": "CC BY4.0",
+  "original_code_license": "MIT",
+  "third_party_raw_redistribution": false,
+  "biological_estimator_or_confidence_interval_fitted": false,
+  "biological_catalogue_or_mutation_process_identified": false,
+  "clinical_prevention_or_treatment_result_claimed": false,
+  "external_peer_review_claimed": false,
+  "new_source_requests": 0,
+  "new_theorem_or_priority_claim": false
+}

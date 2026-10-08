@@ -1,0 +1,145 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "actual_route_catalog_axis_and_predicate": "NULL; opaque toy variant tags are not actual molecular routes.",
+  "call_states": [
+    "toy_validated_alternate",
+    "toy_validated_reference",
+    "unknown"
+  ],
+  "cell_stop_states": [
+    "division",
+    "collection",
+    "death",
+    "lost_tracking"
+  ],
+  "event_inclusion_and_cell_stage_controls": "Separate empty measurement tables mean not obtained, not zero successes.",
+  "genotype_missingness": "All unsequenced cells stay unknown; assayed target no-call is explicit unknown, never absence-as-reference.",
+  "inference_status": "No founder/culture event, binomial/Poisson count law, joint error budget, power or first-arrival rule is admitted.",
+  "links": [
+    "Each nonfounder cell references an existing parent in the same culture.",
+    "Each observed division matches one parent stop, two daughter births, and unique cell identities.",
+    "Sequenced sample IDs are unique and belong only to sequenced terminal cells.",
+    "Variant calls cross-link existing samples and opaque toy tags; repeated inherited copies share one origin assessment.",
+    "Source/matrix anchors and toy-rule bytes are immutable by hash, without claiming authenticated timing."
+  ],
+  "nested_cell_stages": [
+    "available_at_collection",
+    "isolated",
+    "outgrown",
+    "sequenced"
+  ],
+  "origin_states": [
+    "toy_branch_supported_interval",
+    "leaf_ambiguous_not_an_admitted_origin"
+  ],
+  "record_id": "R000019",
+  "required_provenance": "SYNTHETIC",
+  "required_top_level_fields": [
+    "binomial_or_poisson_count_law_admitted",
+    "cells",
+    "collection_time",
+    "confidence_power_or_cancer_outcome_claim",
+    "cultures",
+    "design_status",
+    "divisions",
+    "event_inclusion_control_measurements",
+    "first_arrival_count_law_admitted",
+    "origin_assignments",
+    "provenance",
+    "purpose",
+    "record_id",
+    "schema_version",
+    "stage_control_measurements",
+    "synthetic_truth_only",
+    "time_unit",
+    "toy_locks_fixed_before_toy_observations",
+    "toy_rules_sha256",
+    "variant_calls"
+  ],
+  "schema_version": "R19-1",
+  "tables": {
+    "cells": {
+      "meaning": "Tracked identity/time segment and direct genotype/recovery state; unavailable or unknown is not reference.",
+      "primary_key": "cell_id",
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "birth_time",
+        "cell_id",
+        "culture_id",
+        "genotype_status",
+        "imaging_status",
+        "parent_cell_id",
+        "sample_id",
+        "stages",
+        "stop_reason",
+        "stop_time",
+        "unknown_genotype_is_a_negative_call"
+      ]
+    },
+    "cultures": {
+      "meaning": "Founder/background/context and shared dependence; no actual system is selected.",
+      "primary_key": "culture_id",
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "background_id",
+        "batch_id",
+        "context_id",
+        "culture_id",
+        "dependence_group_id",
+        "founder_cell_id",
+        "founder_reference_status",
+        "related_descendants_are_independent_biological_replicates"
+      ]
+    },
+    "divisions": {
+      "meaning": "Independent optical division record tied to exactly two daughters; no inferred mutation-rate denominator.",
+      "primary_key": "division_id",
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "daughter_cell_ids",
+        "division_id",
+        "parent_cell_id",
+        "time"
+      ]
+    },
+    "origin_assignments": {
+      "meaning": "One assessed toy variant hypothesis, with segment/window or explicit unresolved leaf status.",
+      "primary_key": "assignment_id",
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "actual_route_label",
+        "assigned_cell_segment_id",
+        "assignment_id",
+        "classification",
+        "molecular_event_time_observed_exactly",
+        "origin_time_window",
+        "variant_tag"
+      ]
+    },
+    "synthetic_truth_only": {
+      "meaning": "Simulation-only history; no analogous complete origin truth is available from real survivor sequencing.",
+      "primary_key": "variant_tag",
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "new_origin_segment",
+        "variant_tag"
+      ]
+    },
+    "variant_calls": {
+      "meaning": "One explicit alternate/reference/unknown row for each assayed toy target; reads are not mutation origins.",
+      "primary_key": [
+        "sample_id",
+        "variant_tag"
+      ],
+      "provenance": "SYNTHETIC",
+      "required_fields": [
+        "call_state",
+        "molecular_truth_is_known_only_in_simulation",
+        "sample_id",
+        "variant_tag"
+      ]
+    }
+  },
+  "time_values": "Nonnegative exact integer/rational strings; same declared toy clock; birth<stop; no event time inferred from endpoints.",
+  "type": "Practical table/field dictionary and semantic relationship specification; not a full JSON-Schema implementation."
+}

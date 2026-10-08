@@ -1,0 +1,55 @@
+{
+  "assay_component_contrast": {
+    "OR_one_or_more_true_calls": "3/4",
+    "actual_native_caller_replayed": false,
+    "at_least_two_true_carrier_calls": "1/4"
+  },
+  "biological_inference": false,
+  "check_count": 28,
+  "checks": [
+    "OR_one_carrier_call_probability_three_quarters",
+    "simplified_two_carrier_support_probability_one_quarter",
+    "OR_does_not_replay_two_support_component",
+    "two_descendant_expected_inherited_copies_one",
+    "common_same_marginals",
+    "common_event_union",
+    "common_two_distinct_origins_variance",
+    "exclusive_same_marginals",
+    "exclusive_event_union",
+    "exclusive_two_distinct_origins_variance",
+    "independent_same_marginals",
+    "independent_event_union",
+    "independent_two_distinct_origins_variance",
+    "overlap_joint_probability_five_eighths",
+    "overlap_event_covariance_one_sixteenth",
+    "overlap_HT_variance_eight_ninths",
+    "HT_sample_total_can_be_noninteger",
+    "known_empty_carrier_inclusion_zero",
+    "known_zero_inclusion_full_catalogue_total_refused",
+    "unknown_carriers_not_accepted_as_known_empty",
+    "known_empty_catalogue_total_zero",
+    "normalized_expected_event_count_shares",
+    "raw_expected_count_curvature_nine_quarters",
+    "conditional_realized_share_target_differs",
+    "engine_output_cannot_authenticate_supplied_catalogue",
+    "HT_output_does_not_claim_mutation_process_identification",
+    "direct_catalogue_helper_nine_descendants_refused",
+    "direct_catalogue_helper_boolean_n_refused"
+  ],
+  "engine_sha256": "c6324338e0f136bd4ddec51347f5bb5a4eae836f1f67af22ca90ea638dc5302a",
+  "qualified_external_review": false,
+  "source_requests": 0,
+  "status": "passed_read_only_semantic_spot_checks",
+  "target_contrast": {
+    "conditional_mean_realized_shares_given_nonempty": {
+      "r1": "4/15",
+      "r2": "7/15",
+      "r3": "4/15"
+    },
+    "normalized_expected_counts": {
+      "r1": "2/7",
+      "r2": "3/7",
+      "r3": "2/7"
+    }
+  }
+}

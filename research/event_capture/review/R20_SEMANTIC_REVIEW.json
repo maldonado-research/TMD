@@ -1,0 +1,113 @@
+{
+  "candidate_mutated_by_reviewer": false,
+  "input_guard_finding": {
+    "final_engine_sha256": "c6324338e0f136bd4ddec51347f5bb5a4eae836f1f67af22ca90ea638dc5302a",
+    "initial_engine_sha256": "c3631c7e417a5ea60747a3aa90cca8af27f6775a9094172a5c1d5dbb8bdc27f7",
+    "initial_reproduction": [
+      "event_catalogue(9, {\"e\": (8,)}, True) accepted and returned {\"e\": 256}",
+      "event_catalogue(True, {\"e\": (0,)}, True) accepted and returned {\"e\": 1}"
+    ],
+    "main_entry_points_already_refused": true,
+    "resolution": "event_catalogue now independently calls descendant_count(n); both original direct n=9 and boolean-n inputs are refused.",
+    "resolution_required": "event_catalogue must independently call descendant_count(n); freeze/replay new engine and guards",
+    "resolution_status": "resolved_and_independently_rechecked",
+    "severity": "minor supported-domain admission inconsistency; not a data/model defect"
+  },
+  "new_biological_evidence": false,
+  "new_causal_or_clinical_claim": false,
+  "own_checksum_replay": {
+    "candidate_mutated": false,
+    "entries": 9,
+    "status": "all_passed"
+  },
+  "own_exact_checks": {
+    "broad_producer_suite_rerun_by_this_reviewer": false,
+    "count": 28,
+    "receipt": "R20_SEMANTIC_SPOT_CHECK_RECEIPT.json",
+    "receipt_sha256": "be8fa2f4def681849740f33856cc6c198addac105597f09c1eece92770f76b32",
+    "script": "r20_semantic_spot_checks.py",
+    "script_sha256": "d575a506027fea323805b09d9e4cfe0ae24d8f92b5f03cd2fc785b355c9ef85e"
+  },
+  "qualified_external_review_performed": false,
+  "record_id": "R000020",
+  "review_scope": [
+    "README.md in full",
+    "CONDITIONAL_DERIVATION.md in full",
+    "event_capture.py in full",
+    "verify_benchmarks.py in full",
+    "PUBLIC_FILES.json",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "VERIFICATION_RECEIPT.json",
+    "28 separately specified exact semantic/guard spot checks"
+  ],
+  "review_type": "Read-only internal semantic/code-unit review by a separate AI agent; not qualified external biological or statistical review",
+  "reviewed_candidate": "R20 public_candidate",
+  "reviewed_pins": {
+    "BENCHMARKS.json": "61e87b9ae3803a338fd7bdc72a8ee5dd767d5363b6719c2a8373e5920d0f48b1",
+    "CONDITIONAL_DERIVATION.md": "4d59f0cf1710b0b7f238809e38f1dceb0594f20b23116e2b15b36ea729ae0095",
+    "PUBLIC_FILES.json": "96e37cfacb263d18690e9f654477aaad44da276063179670f8cd0e1c2811e3f2",
+    "README.md": "b3b55003e3c391c6b8fb37aed6ad399dea9e3cfa6bd848a4ee1e3988f471586a",
+    "SHA256SUMS.txt": "728e08422351e4775ac0c0cf23562fc91f367274b6563d9ce5b13004d3f0df55",
+    "VERIFICATION_RECEIPT.json": "3d9c6a18f5d4973aa513eae3b0d617d4ecc86bc8124cd6993bf0eb929d4dc332",
+    "event_capture.py": "c6324338e0f136bd4ddec51347f5bb5a4eae836f1f67af22ca90ea638dc5302a",
+    "verify_benchmarks.py": "babb3d8e3666ff2ec5adb21a95240894e92915bde26667d8e8be0f9ba4363fee"
+  },
+  "root_numerical_review_attribution": {
+    "independent_of_this_review": true,
+    "not_claimed_as_reperformed_here": true,
+    "reported_before_helper_fix": {
+      "blind_cases": 55,
+      "boundary_checks": 3,
+      "checks": 3286,
+      "guards": 15,
+      "mask_rows": 593,
+      "producer_benchmark_replay_checks": 825
+    }
+  },
+  "semantic_acceptance_limits": "Accepted for the explicitly conditional fixed-catalogue/design model and admitted input domain only. No biological assay authentication, empirical inference, discovery or external qualified review.",
+  "semantic_assessment": [
+    {
+      "assessment": "PASS",
+      "reason": "All-target validated true-call mask and OR event inclusion are declared conditional assumptions. The package explicitly excludes automatically substituting OR for multiple-subclone ancestry-consistent callers. A simplified two-carrier-support component has probability 1/4 versus OR probability 3/4 under two independent 1/2 calls; neither computation replays a complete native caller.",
+      "topic": "Observation law and actual caller"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "Distinct true origins and known carrier membership are supplied, not discovered. Known empty carrier sets imply zero inclusion; unknown membership is refused. Missing or extinct uncatalogued events cannot be authenticated or reconstructed. Same carrier set can carry distinct catalogue events.",
+      "topic": "Catalog and carrier knowledge"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "True all-target observability differs from isolation, outgrowth, sequencing and marginal stage fractions. A full supplied joint mask law is required for exact event inclusion, while individual true-call marginals yield only eventwise sharp union bounds. The sharp bounds do not constitute simultaneous freely chosen inclusion values for an arbitrary overlapping multi-event catalog.",
+      "topic": "Loss, stage fractions and dependence"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "Event inclusion and joint inclusion are dimensionless. Distinct-event counts, inherited target-copy counts and cells are separated. Union bounds have valid nested/circular interval witnesses. Joint event covariance follows from indicators; overlapping carriers can induce dependence even under independent descendant calls.",
+      "topic": "Indicator proofs and exact units"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "Expectation and variance condition on the fixed supplied catalogue, carrier sets and complete valid design law; positivity is required for every target event. No individual realization, mutation rate, unknown-catalog identification, estimated-probability correction, empirical variance estimator, CI, power, count-law admission or finite-sample coverage is claimed.",
+      "topic": "Horvitz-Thompson target and variance"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "The route curvature 9/4 concerns normalized expected detected-event counts, not expected realized proportions. Own finite enumeration gives conditional mean realized shares (4/15,7/15,4/15), distinct from normalized means (2/7,3/7,2/7). The package explicitly labels normalized means and does not infer a biological causal effect.",
+      "topic": "Synthetic route target"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "All fixtures remain synthetic; actual system, catalog, route/axis, native observation predicate, independent controls, replicate units and error/stopping/count-law admission are unresolved. No actual 26-field study registry inputs are filled and no existing inference engine is calibrated.",
+      "topic": "Biological/registry scope"
+    },
+    {
+      "assessment": "PASS",
+      "reason": "Elementary indicator algebra, classical Frechet bounds and Horvitz-Thompson sampling are labeled established; no new theorem/priority claim. The sampling reference is explicitly Crossref bibliography-only, with no primary full-text acquisition or review.",
+      "topic": "Established methods/source depth"
+    }
+  ],
+  "source_requests": 0,
+  "sources_acquired_or_replayed": false,
+  "status": "accepted_internal_semantic_review_of_refrozen_conditional_candidate"
+}

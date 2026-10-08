@@ -1,0 +1,23 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "actual_system_route_catalog_axis_protocol_or_partner_chosen": false,
+  "biological_or_clinical_claim": false,
+  "code_license": "MIT",
+  "excluded": [
+    "raw primary XML/article text",
+    "raw reads",
+    "source supplements/movies/notebooks",
+    "patient data",
+    "private research archive",
+    "personal documents",
+    "credentials"
+  ],
+  "external_peer_review_claim": false,
+  "included": "Original prospective requirements, expert questions, synthetic ledger/rules, semantic code, source/anchor metadata and original recent-method summary.",
+  "new_acquisition_by_producer": false,
+  "new_theorem_or_priority_claim": false,
+  "original_notes_and_synthetic_summaries_license": "CC BY 4.0",
+  "record_id": "R000019",
+  "source_article_text_copied": false,
+  "status": "original_public_safe_candidate"
+}

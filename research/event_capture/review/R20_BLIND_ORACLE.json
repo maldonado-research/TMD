@@ -1,0 +1,5112 @@
+{
+  "frozen_utc": "2026-10-08T04:50:29.326348+00:00",
+  "independence": "Generated and enumerated before any R20 producer code or fixtures were inspected",
+  "case_count": 55,
+  "mask_rows": 593,
+  "cases": [
+    {
+      "name": "empty_catalogue",
+      "n": 0,
+      "law": {
+        "0": "1"
+      },
+      "events": {},
+      "expected": {
+        "descendant_marginals": {},
+        "event_inclusion": {},
+        "joint_inclusion": {},
+        "expected_inherited_copies": "0",
+        "expected_detected_events": "0",
+        "ht": {
+          "catalogue_size": 0,
+          "expectation": "0",
+          "variance": "0",
+          "values": {
+            "0": "0"
+          }
+        },
+        "frechet": {}
+      }
+    },
+    {
+      "name": "independent_siblings",
+      "n": 2,
+      "law": {
+        "0": "1/4",
+        "1": "1/4",
+        "2": "1/4",
+        "3": "1/4"
+      },
+      "events": {
+        "birth": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "1/2"
+        },
+        "event_inclusion": {
+          "birth": "3/4"
+        },
+        "joint_inclusion": {
+          "birth": {
+            "birth": "3/4"
+          }
+        },
+        "expected_inherited_copies": "1",
+        "expected_detected_events": "3/4",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "1/3",
+          "values": {
+            "0": "0",
+            "1": "4/3",
+            "2": "4/3",
+            "3": "4/3"
+          }
+        },
+        "frechet": {
+          "birth": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          }
+        }
+      }
+    },
+    {
+      "name": "coincident_siblings",
+      "n": 2,
+      "law": {
+        "0": "1/2",
+        "3": "1/2"
+      },
+      "events": {
+        "birth": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "1/2"
+        },
+        "event_inclusion": {
+          "birth": "1/2"
+        },
+        "joint_inclusion": {
+          "birth": {
+            "birth": "1/2"
+          }
+        },
+        "expected_inherited_copies": "1",
+        "expected_detected_events": "1/2",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "1",
+          "values": {
+            "0": "0",
+            "3": "2"
+          }
+        },
+        "frechet": {
+          "birth": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          }
+        }
+      }
+    },
+    {
+      "name": "exclusive_siblings",
+      "n": 2,
+      "law": {
+        "1": "1/2",
+        "2": "1/2"
+      },
+      "events": {
+        "birth": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "1/2"
+        },
+        "event_inclusion": {
+          "birth": "1"
+        },
+        "joint_inclusion": {
+          "birth": {
+            "birth": "1"
+          }
+        },
+        "expected_inherited_copies": "1",
+        "expected_detected_events": "1",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "0",
+          "values": {
+            "1": "1",
+            "2": "1"
+          }
+        },
+        "frechet": {
+          "birth": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          }
+        }
+      }
+    },
+    {
+      "name": "overlapping_event_carriers",
+      "n": 3,
+      "law": {
+        "0": "1/8",
+        "1": "1/8",
+        "2": "1/8",
+        "3": "1/8",
+        "4": "1/8",
+        "5": "1/8",
+        "6": "1/8",
+        "7": "1/8"
+      },
+      "events": {
+        "left": [
+          0,
+          1
+        ],
+        "right": [
+          1,
+          2
+        ],
+        "same_left": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "1/2",
+          "2": "1/2"
+        },
+        "event_inclusion": {
+          "left": "3/4",
+          "right": "3/4",
+          "same_left": "3/4"
+        },
+        "joint_inclusion": {
+          "left": {
+            "left": "3/4",
+            "right": "5/8",
+            "same_left": "3/4"
+          },
+          "right": {
+            "left": "5/8",
+            "right": "3/4",
+            "same_left": "5/8"
+          },
+          "same_left": {
+            "left": "3/4",
+            "right": "5/8",
+            "same_left": "3/4"
+          }
+        },
+        "expected_inherited_copies": "3",
+        "expected_detected_events": "9/4",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "19/9",
+          "values": {
+            "0": "0",
+            "1": "8/3",
+            "2": "4",
+            "3": "4",
+            "4": "4/3",
+            "5": "4",
+            "6": "4",
+            "7": "4"
+          }
+        },
+        "frechet": {
+          "left": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          },
+          "right": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          },
+          "same_left": {
+            "lower": "1/2",
+            "upper": "1",
+            "independent": "3/4"
+          }
+        }
+      }
+    },
+    {
+      "name": "extinct_event",
+      "n": 2,
+      "law": {
+        "0": "1/3",
+        "3": "2/3"
+      },
+      "events": {
+        "observed": [
+          0,
+          1
+        ],
+        "lost": []
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "2/3",
+          "1": "2/3"
+        },
+        "event_inclusion": {
+          "observed": "2/3",
+          "lost": "0"
+        },
+        "joint_inclusion": {
+          "observed": {
+            "observed": "2/3",
+            "lost": "0"
+          },
+          "lost": {
+            "observed": "0",
+            "lost": "0"
+          }
+        },
+        "expected_inherited_copies": "4/3",
+        "expected_detected_events": "2/3",
+        "ht": null,
+        "frechet": {
+          "observed": {
+            "lower": "2/3",
+            "upper": "1",
+            "independent": "8/9"
+          },
+          "lost": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          }
+        }
+      }
+    },
+    {
+      "name": "never_callable_descendant",
+      "n": 2,
+      "law": {
+        "0": "1/3",
+        "1": "2/3"
+      },
+      "events": {
+        "lost": [
+          1
+        ],
+        "retained": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "2/3",
+          "1": "0"
+        },
+        "event_inclusion": {
+          "lost": "0",
+          "retained": "2/3"
+        },
+        "joint_inclusion": {
+          "lost": {
+            "lost": "0",
+            "retained": "0"
+          },
+          "retained": {
+            "lost": "0",
+            "retained": "2/3"
+          }
+        },
+        "expected_inherited_copies": "2/3",
+        "expected_detected_events": "2/3",
+        "ht": null,
+        "frechet": {
+          "lost": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          },
+          "retained": {
+            "lower": "2/3",
+            "upper": "2/3",
+            "independent": "2/3"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_0",
+      "n": 1,
+      "law": {
+        "0": "1/3",
+        "1": "2/3"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "2/3"
+        },
+        "event_inclusion": {
+          "event_0": "2/3"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "2/3"
+          }
+        },
+        "expected_inherited_copies": "2/3",
+        "expected_detected_events": "2/3",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "1/2",
+          "values": {
+            "0": "0",
+            "1": "3/2"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "2/3",
+            "upper": "2/3",
+            "independent": "2/3"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_1",
+      "n": 2,
+      "law": {
+        "0": "3/8",
+        "1": "1/4",
+        "2": "0",
+        "3": "3/8"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "5/8",
+          "1": "3/8"
+        },
+        "event_inclusion": {
+          "event_0": "5/8",
+          "event_1": "5/8"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "5/8",
+            "event_1": "5/8"
+          },
+          "event_1": {
+            "event_0": "5/8",
+            "event_1": "5/8"
+          }
+        },
+        "expected_inherited_copies": "2",
+        "expected_detected_events": "5/4",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "12/5",
+          "values": {
+            "0": "0",
+            "1": "16/5",
+            "3": "16/5"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "5/8",
+            "upper": "1",
+            "independent": "49/64"
+          },
+          "event_1": {
+            "lower": "5/8",
+            "upper": "1",
+            "independent": "49/64"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_2",
+      "n": 3,
+      "law": {
+        "0": "1/19",
+        "1": "9/38",
+        "2": "2/19",
+        "3": "4/19",
+        "4": "3/38",
+        "5": "5/38",
+        "6": "2/19",
+        "7": "3/38"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "25/38",
+          "1": "1/2",
+          "2": "15/38"
+        },
+        "event_inclusion": {
+          "event_0": "18/19",
+          "event_1": "18/19",
+          "event_2": "27/38"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "18/19",
+            "event_1": "18/19",
+            "event_2": "27/38"
+          },
+          "event_1": {
+            "event_0": "18/19",
+            "event_1": "18/19",
+            "event_2": "27/38"
+          },
+          "event_2": {
+            "event_0": "27/38",
+            "event_1": "27/38",
+            "event_2": "27/38"
+          }
+        },
+        "expected_inherited_copies": "4",
+        "expected_detected_events": "99/38",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "23/27",
+          "values": {
+            "0": "0",
+            "1": "19/9",
+            "2": "95/27",
+            "3": "95/27",
+            "4": "95/27",
+            "5": "95/27",
+            "6": "95/27",
+            "7": "95/27"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "25/38",
+            "upper": "1",
+            "independent": "2589/2888"
+          },
+          "event_1": {
+            "lower": "25/38",
+            "upper": "1",
+            "independent": "2589/2888"
+          },
+          "event_2": {
+            "lower": "1/2",
+            "upper": "17/19",
+            "independent": "53/76"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_3",
+      "n": 4,
+      "law": {
+        "0": "2/79",
+        "1": "6/79",
+        "2": "6/79",
+        "3": "8/79",
+        "4": "3/79",
+        "5": "9/79",
+        "6": "1/79",
+        "7": "5/79",
+        "8": "1/79",
+        "9": "8/79",
+        "10": "3/79",
+        "11": "7/79",
+        "12": "6/79",
+        "13": "2/79",
+        "14": "7/79",
+        "15": "5/79"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_1": [
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_3": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "50/79",
+          "1": "42/79",
+          "2": "38/79",
+          "3": "39/79"
+        },
+        "event_inclusion": {
+          "event_0": "77/79",
+          "event_1": "71/79",
+          "event_2": "77/79",
+          "event_3": "71/79"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "77/79",
+            "event_1": "71/79",
+            "event_2": "77/79",
+            "event_3": "71/79"
+          },
+          "event_1": {
+            "event_0": "71/79",
+            "event_1": "71/79",
+            "event_2": "71/79",
+            "event_3": "71/79"
+          },
+          "event_2": {
+            "event_0": "77/79",
+            "event_1": "71/79",
+            "event_2": "77/79",
+            "event_3": "71/79"
+          },
+          "event_3": {
+            "event_0": "71/79",
+            "event_1": "71/79",
+            "event_2": "71/79",
+            "event_3": "71/79"
+          }
+        },
+        "expected_inherited_copies": "576/79",
+        "expected_detected_events": "296/79",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "4168/5467",
+          "values": {
+            "0": "0",
+            "1": "158/77",
+            "2": "23384/5467",
+            "3": "23384/5467",
+            "4": "23384/5467",
+            "5": "23384/5467",
+            "6": "23384/5467",
+            "7": "23384/5467",
+            "8": "23384/5467",
+            "9": "23384/5467",
+            "10": "23384/5467",
+            "11": "23384/5467",
+            "12": "23384/5467",
+            "13": "23384/5467",
+            "14": "23384/5467",
+            "15": "23384/5467"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "50/79",
+            "upper": "1",
+            "independent": "37190361/38950081"
+          },
+          "event_1": {
+            "lower": "42/79",
+            "upper": "1",
+            "independent": "432359/493039"
+          },
+          "event_2": {
+            "lower": "50/79",
+            "upper": "1",
+            "independent": "37190361/38950081"
+          },
+          "event_3": {
+            "lower": "42/79",
+            "upper": "1",
+            "independent": "432359/493039"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_4",
+      "n": 5,
+      "law": {
+        "0": "1/29",
+        "1": "1/145",
+        "2": "4/145",
+        "3": "3/145",
+        "4": "7/145",
+        "5": "7/145",
+        "6": "1/145",
+        "7": "7/145",
+        "8": "3/145",
+        "9": "1/29",
+        "10": "0",
+        "11": "8/145",
+        "12": "3/145",
+        "13": "1/29",
+        "14": "7/145",
+        "15": "8/145",
+        "16": "6/145",
+        "17": "0",
+        "18": "1/145",
+        "19": "7/145",
+        "20": "1/145",
+        "21": "1/145",
+        "22": "1/145",
+        "23": "8/145",
+        "24": "1/145",
+        "25": "1/29",
+        "26": "6/145",
+        "27": "1/29",
+        "28": "8/145",
+        "29": "9/145",
+        "30": "8/145",
+        "31": "4/145"
+      },
+      "events": {
+        "event_0": [
+          0,
+          3,
+          4
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_3": [
+          1,
+          2,
+          4
+        ],
+        "event_4": [
+          0,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "83/145",
+          "1": "78/145",
+          "2": "17/29",
+          "3": "17/29",
+          "4": "71/145"
+        },
+        "event_inclusion": {
+          "event_0": "128/145",
+          "event_1": "137/145",
+          "event_2": "28/29",
+          "event_3": "131/145",
+          "event_4": "119/145"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "128/145",
+            "event_1": "25/29",
+            "event_2": "128/145",
+            "event_3": "119/145",
+            "event_4": "119/145"
+          },
+          "event_1": {
+            "event_0": "25/29",
+            "event_1": "137/145",
+            "event_2": "137/145",
+            "event_3": "131/145",
+            "event_4": "4/5"
+          },
+          "event_2": {
+            "event_0": "128/145",
+            "event_1": "137/145",
+            "event_2": "28/29",
+            "event_3": "131/145",
+            "event_4": "119/145"
+          },
+          "event_3": {
+            "event_0": "119/145",
+            "event_1": "131/145",
+            "event_2": "131/145",
+            "event_3": "131/145",
+            "event_4": "22/29"
+          },
+          "event_4": {
+            "event_0": "119/145",
+            "event_1": "4/5",
+            "event_2": "119/145",
+            "event_3": "22/29",
+            "event_4": "119/145"
+          }
+        },
+        "expected_inherited_copies": "272/29",
+        "expected_detected_events": "131/29",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "397862923/273368704",
+          "values": {
+            "0": "0",
+            "1": "9276607/2086784",
+            "2": "1608543/502516",
+            "3": "1517819197/273368704",
+            "4": "1608543/502516",
+            "5": "1517819197/273368704",
+            "6": "1608543/502516",
+            "7": "1517819197/273368704",
+            "8": "51591/15232",
+            "9": "9276607/2086784",
+            "11": "1517819197/273368704",
+            "12": "1517819197/273368704",
+            "13": "1517819197/273368704",
+            "14": "1517819197/273368704",
+            "15": "1517819197/273368704",
+            "16": "69689581/16080512",
+            "18": "69689581/16080512",
+            "19": "1517819197/273368704",
+            "20": "69689581/16080512",
+            "21": "1517819197/273368704",
+            "22": "69689581/16080512",
+            "23": "1517819197/273368704",
+            "24": "1517819197/273368704",
+            "25": "1517819197/273368704",
+            "26": "1517819197/273368704",
+            "27": "1517819197/273368704",
+            "28": "1517819197/273368704",
+            "29": "1517819197/273368704",
+            "30": "1517819197/273368704",
+            "31": "1517819197/273368704"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "17/29",
+            "upper": "1",
+            "independent": "554669/609725"
+          },
+          "event_1": {
+            "lower": "17/29",
+            "upper": "1",
+            "independent": "84721373/88410125"
+          },
+          "event_2": {
+            "lower": "17/29",
+            "upper": "1",
+            "independent": "2519628601/2563893625"
+          },
+          "event_3": {
+            "lower": "17/29",
+            "upper": "1",
+            "independent": "550229/609725"
+          },
+          "event_4": {
+            "lower": "17/29",
+            "upper": "1",
+            "independent": "3461/4205"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_5",
+      "n": 1,
+      "law": {
+        "0": "10/19",
+        "1": "9/19"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "9/19"
+        },
+        "event_inclusion": {
+          "event_0": "9/19"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "9/19"
+          }
+        },
+        "expected_inherited_copies": "9/19",
+        "expected_detected_events": "9/19",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "10/9",
+          "values": {
+            "0": "0",
+            "1": "19/9"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "9/19",
+            "upper": "9/19",
+            "independent": "9/19"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_6",
+      "n": 2,
+      "law": {
+        "0": "0",
+        "1": "10/19",
+        "2": "6/19",
+        "3": "3/19"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "13/19",
+          "1": "9/19"
+        },
+        "event_inclusion": {
+          "event_0": "9/19",
+          "event_1": "13/19"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "9/19",
+            "event_1": "3/19"
+          },
+          "event_1": {
+            "event_0": "3/19",
+            "event_1": "13/19"
+          }
+        },
+        "expected_inherited_copies": "22/19",
+        "expected_detected_events": "22/19",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "64/117",
+          "values": {
+            "1": "19/13",
+            "2": "19/9",
+            "3": "418/117"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "9/19",
+            "upper": "9/19",
+            "independent": "9/19"
+          },
+          "event_1": {
+            "lower": "13/19",
+            "upper": "13/19",
+            "independent": "13/19"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_7",
+      "n": 3,
+      "law": {
+        "0": "10/41",
+        "1": "6/41",
+        "2": "7/41",
+        "3": "2/41",
+        "4": "0",
+        "5": "6/41",
+        "6": "0",
+        "7": "10/41"
+      },
+      "events": {
+        "event_0": [],
+        "event_1": [
+          0
+        ],
+        "event_2": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "24/41",
+          "1": "19/41",
+          "2": "16/41"
+        },
+        "event_inclusion": {
+          "event_0": "0",
+          "event_1": "24/41",
+          "event_2": "24/41"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "0",
+            "event_1": "0",
+            "event_2": "0"
+          },
+          "event_1": {
+            "event_0": "0",
+            "event_1": "24/41",
+            "event_2": "24/41"
+          },
+          "event_2": {
+            "event_0": "0",
+            "event_1": "24/41",
+            "event_2": "24/41"
+          }
+        },
+        "expected_inherited_copies": "48/41",
+        "expected_detected_events": "48/41",
+        "ht": null,
+        "frechet": {
+          "event_0": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          },
+          "event_1": {
+            "lower": "24/41",
+            "upper": "24/41",
+            "independent": "24/41"
+          },
+          "event_2": {
+            "lower": "24/41",
+            "upper": "24/41",
+            "independent": "24/41"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_8",
+      "n": 4,
+      "law": {
+        "0": "0",
+        "1": "0",
+        "2": "2/47",
+        "3": "3/47",
+        "4": "1/47",
+        "5": "4/47",
+        "6": "2/47",
+        "7": "5/47",
+        "8": "2/47",
+        "9": "8/47",
+        "10": "6/47",
+        "11": "3/47",
+        "12": "3/47",
+        "13": "5/47",
+        "14": "0",
+        "15": "3/47"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          0,
+          2
+        ],
+        "event_3": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "31/47",
+          "1": "24/47",
+          "2": "23/47",
+          "3": "30/47"
+        },
+        "event_inclusion": {
+          "event_0": "45/47",
+          "event_1": "1",
+          "event_2": "37/47",
+          "event_3": "1"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "45/47",
+            "event_1": "45/47",
+            "event_2": "37/47",
+            "event_3": "45/47"
+          },
+          "event_1": {
+            "event_0": "45/47",
+            "event_1": "1",
+            "event_2": "37/47",
+            "event_3": "1"
+          },
+          "event_2": {
+            "event_0": "37/47",
+            "event_1": "37/47",
+            "event_2": "37/47",
+            "event_3": "37/47"
+          },
+          "event_3": {
+            "event_0": "45/47",
+            "event_1": "1",
+            "event_2": "37/47",
+            "event_3": "1"
+          }
+        },
+        "expected_inherited_copies": "348/47",
+        "expected_detected_events": "176/47",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "224/555",
+          "values": {
+            "2": "137/45",
+            "3": "7184/1665",
+            "4": "7184/1665",
+            "5": "7184/1665",
+            "6": "7184/1665",
+            "7": "7184/1665",
+            "8": "2",
+            "9": "7184/1665",
+            "10": "137/45",
+            "11": "7184/1665",
+            "12": "7184/1665",
+            "13": "7184/1665",
+            "15": "7184/1665"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "31/47",
+            "upper": "1",
+            "independent": "94991/103823"
+          },
+          "event_1": {
+            "lower": "31/47",
+            "upper": "1",
+            "independent": "4729537/4879681"
+          },
+          "event_2": {
+            "lower": "31/47",
+            "upper": "1",
+            "independent": "1825/2209"
+          },
+          "event_3": {
+            "lower": "31/47",
+            "upper": "1",
+            "independent": "4729537/4879681"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_9",
+      "n": 5,
+      "law": {
+        "0": "10/193",
+        "1": "1/193",
+        "2": "3/193",
+        "3": "10/193",
+        "4": "9/193",
+        "5": "2/193",
+        "6": "5/193",
+        "7": "2/193",
+        "8": "4/193",
+        "9": "3/193",
+        "10": "1/193",
+        "11": "5/193",
+        "12": "10/193",
+        "13": "10/193",
+        "14": "3/193",
+        "15": "8/193",
+        "16": "6/193",
+        "17": "5/193",
+        "18": "7/193",
+        "19": "7/193",
+        "20": "5/193",
+        "21": "10/193",
+        "22": "10/193",
+        "23": "0",
+        "24": "6/193",
+        "25": "7/193",
+        "26": "7/193",
+        "27": "9/193",
+        "28": "4/193",
+        "29": "9/193",
+        "30": "8/193",
+        "31": "7/193"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          3
+        ],
+        "event_2": [
+          0
+        ],
+        "event_3": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_4": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "95/193",
+          "1": "92/193",
+          "2": "102/193",
+          "3": "101/193",
+          "4": "107/193"
+        },
+        "event_inclusion": {
+          "event_0": "92/193",
+          "event_1": "101/193",
+          "event_2": "95/193",
+          "event_3": "182/193",
+          "event_4": "180/193"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "92/193",
+            "event_1": "48/193",
+            "event_2": "48/193",
+            "event_3": "92/193",
+            "event_4": "89/193"
+          },
+          "event_1": {
+            "event_0": "48/193",
+            "event_1": "101/193",
+            "event_2": "58/193",
+            "event_3": "101/193",
+            "event_4": "101/193"
+          },
+          "event_2": {
+            "event_0": "48/193",
+            "event_1": "58/193",
+            "event_2": "95/193",
+            "event_3": "94/193",
+            "event_4": "95/193"
+          },
+          "event_3": {
+            "event_0": "92/193",
+            "event_1": "101/193",
+            "event_2": "94/193",
+            "event_3": "182/193",
+            "event_4": "179/193"
+          },
+          "event_4": {
+            "event_0": "89/193",
+            "event_1": "101/193",
+            "event_2": "95/193",
+            "event_3": "179/193",
+            "event_4": "180/193"
+          }
+        },
+        "expected_inherited_copies": "1095/193",
+        "expected_detected_events": "650/193",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "2136577061/481976040",
+          "values": {
+            "0": "0",
+            "1": "2123/684",
+            "2": "26441/8372",
+            "3": "4482425/715806",
+            "4": "34933/16380",
+            "5": "259199/62244",
+            "6": "796897/188370",
+            "7": "4482425/715806",
+            "8": "6689573/1654380",
+            "9": "38192191/6286644",
+            "10": "116842007/19025370",
+            "11": "590875483/72296406",
+            "12": "6689573/1654380",
+            "13": "38192191/6286644",
+            "14": "116842007/19025370",
+            "15": "590875483/72296406",
+            "16": "34933/16380",
+            "17": "259199/62244",
+            "18": "796897/188370",
+            "19": "4482425/715806",
+            "20": "34933/16380",
+            "21": "259199/62244",
+            "22": "796897/188370",
+            "24": "6689573/1654380",
+            "25": "38192191/6286644",
+            "26": "116842007/19025370",
+            "27": "590875483/72296406",
+            "28": "6689573/1654380",
+            "29": "38192191/6286644",
+            "30": "116842007/19025370",
+            "31": "590875483/72296406"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "92/193",
+            "upper": "92/193",
+            "independent": "92/193"
+          },
+          "event_1": {
+            "lower": "101/193",
+            "upper": "101/193",
+            "independent": "101/193"
+          },
+          "event_2": {
+            "lower": "95/193",
+            "upper": "95/193",
+            "independent": "95/193"
+          },
+          "event_3": {
+            "lower": "107/193",
+            "upper": "1",
+            "independent": "1314768809/1387488001"
+          },
+          "event_4": {
+            "lower": "107/193",
+            "upper": "1",
+            "independent": "1316928785/1387488001"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_10",
+      "n": 1,
+      "law": {
+        "0": "1/2",
+        "1": "1/2"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2"
+        },
+        "event_inclusion": {
+          "event_0": "1/2"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "1/2"
+          }
+        },
+        "expected_inherited_copies": "1/2",
+        "expected_detected_events": "1/2",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "1",
+          "values": {
+            "0": "0",
+            "1": "2"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "1/2",
+            "upper": "1/2",
+            "independent": "1/2"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_11",
+      "n": 2,
+      "law": {
+        "0": "0",
+        "1": "1/4",
+        "2": "1/2",
+        "3": "1/4"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "3/4"
+        },
+        "event_inclusion": {
+          "event_0": "3/4",
+          "event_1": "1/2"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "3/4",
+            "event_1": "1/4"
+          },
+          "event_1": {
+            "event_0": "1/4",
+            "event_1": "1/2"
+          }
+        },
+        "expected_inherited_copies": "5/4",
+        "expected_detected_events": "5/4",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "2/3",
+          "values": {
+            "1": "2",
+            "2": "4/3",
+            "3": "10/3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "3/4",
+            "upper": "3/4",
+            "independent": "3/4"
+          },
+          "event_1": {
+            "lower": "1/2",
+            "upper": "1/2",
+            "independent": "1/2"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_12",
+      "n": 3,
+      "law": {
+        "0": "1/13",
+        "1": "1/13",
+        "2": "2/39",
+        "3": "3/13",
+        "4": "1/13",
+        "5": "8/39",
+        "6": "1/39",
+        "7": "10/39"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "10/13",
+          "1": "22/39",
+          "2": "22/39"
+        },
+        "event_inclusion": {
+          "event_0": "12/13",
+          "event_1": "12/13",
+          "event_2": "22/39"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "12/13",
+            "event_1": "12/13",
+            "event_2": "22/39"
+          },
+          "event_1": {
+            "event_0": "12/13",
+            "event_1": "12/13",
+            "event_2": "22/39"
+          },
+          "event_2": {
+            "event_0": "22/39",
+            "event_1": "22/39",
+            "event_2": "22/39"
+          }
+        },
+        "expected_inherited_copies": "170/39",
+        "expected_detected_events": "94/39",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "95/66",
+          "values": {
+            "0": "0",
+            "1": "13/6",
+            "2": "130/33",
+            "3": "130/33",
+            "4": "13/6",
+            "5": "13/6",
+            "6": "130/33",
+            "7": "130/33"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "10/13",
+            "upper": "1",
+            "independent": "6302/6591"
+          },
+          "event_1": {
+            "lower": "10/13",
+            "upper": "1",
+            "independent": "6302/6591"
+          },
+          "event_2": {
+            "lower": "22/39",
+            "upper": "22/39",
+            "independent": "22/39"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_13",
+      "n": 4,
+      "law": {
+        "0": "4/41",
+        "1": "5/82",
+        "2": "3/41",
+        "3": "5/82",
+        "4": "7/82",
+        "5": "3/82",
+        "6": "7/82",
+        "7": "5/41",
+        "8": "1/82",
+        "9": "1/41",
+        "10": "3/82",
+        "11": "1/82",
+        "12": "1/41",
+        "13": "5/41",
+        "14": "5/41",
+        "15": "1/41"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          0
+        ],
+        "event_3": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "19/41",
+          "1": "22/41",
+          "2": "51/82",
+          "3": "31/82"
+        },
+        "event_inclusion": {
+          "event_0": "32/41",
+          "event_1": "73/82",
+          "event_2": "19/41",
+          "event_3": "73/82"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "32/41",
+            "event_1": "32/41",
+            "event_2": "19/41",
+            "event_3": "32/41"
+          },
+          "event_1": {
+            "event_0": "32/41",
+            "event_1": "73/82",
+            "event_2": "19/41",
+            "event_3": "73/82"
+          },
+          "event_2": {
+            "event_0": "19/41",
+            "event_1": "19/41",
+            "event_2": "19/41",
+            "event_3": "19/41"
+          },
+          "event_3": {
+            "event_0": "32/41",
+            "event_1": "73/82",
+            "event_2": "19/41",
+            "event_3": "73/82"
+          }
+        },
+        "expected_inherited_copies": "193/41",
+        "expected_detected_events": "124/41",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "154505/44384",
+          "values": {
+            "0": "0",
+            "1": "252355/44384",
+            "2": "8241/2336",
+            "3": "252355/44384",
+            "4": "164/73",
+            "5": "252355/44384",
+            "6": "8241/2336",
+            "7": "252355/44384",
+            "8": "0",
+            "9": "252355/44384",
+            "10": "8241/2336",
+            "11": "252355/44384",
+            "12": "164/73",
+            "13": "252355/44384",
+            "14": "8241/2336",
+            "15": "252355/44384"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "22/41",
+            "upper": "1",
+            "independent": "1263/1681"
+          },
+          "event_1": {
+            "lower": "51/82",
+            "upper": "1",
+            "independent": "62442/68921"
+          },
+          "event_2": {
+            "lower": "19/41",
+            "upper": "19/41",
+            "independent": "19/41"
+          },
+          "event_3": {
+            "lower": "51/82",
+            "upper": "1",
+            "independent": "62442/68921"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_14",
+      "n": 5,
+      "law": {
+        "0": "9/166",
+        "1": "7/166",
+        "2": "4/83",
+        "3": "4/83",
+        "4": "9/166",
+        "5": "0",
+        "6": "3/83",
+        "7": "5/83",
+        "8": "1/83",
+        "9": "2/83",
+        "10": "1/166",
+        "11": "1/166",
+        "12": "7/166",
+        "13": "0",
+        "14": "3/83",
+        "15": "3/83",
+        "16": "5/83",
+        "17": "5/83",
+        "18": "5/83",
+        "19": "1/83",
+        "20": "2/83",
+        "21": "3/83",
+        "22": "1/166",
+        "23": "0",
+        "24": "7/166",
+        "25": "4/83",
+        "26": "0",
+        "27": "5/83",
+        "28": "2/83",
+        "29": "0",
+        "30": "3/166",
+        "31": "7/166"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_1": [
+          3
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_3": [
+          1
+        ],
+        "event_4": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "79/166",
+          "1": "79/166",
+          "2": "69/166",
+          "3": "33/83",
+          "4": "41/83"
+        },
+        "event_inclusion": {
+          "event_0": "157/166",
+          "event_1": "33/83",
+          "event_2": "157/166",
+          "event_3": "79/166",
+          "event_4": "157/166"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "157/166",
+            "event_1": "33/83",
+            "event_2": "157/166",
+            "event_3": "79/166",
+            "event_4": "157/166"
+          },
+          "event_1": {
+            "event_0": "33/83",
+            "event_1": "33/83",
+            "event_2": "33/83",
+            "event_3": "17/83",
+            "event_4": "33/83"
+          },
+          "event_2": {
+            "event_0": "157/166",
+            "event_1": "33/83",
+            "event_2": "157/166",
+            "event_3": "79/166",
+            "event_4": "157/166"
+          },
+          "event_3": {
+            "event_0": "79/166",
+            "event_1": "17/83",
+            "event_2": "79/166",
+            "event_3": "79/166",
+            "event_4": "79/166"
+          },
+          "event_4": {
+            "event_0": "157/166",
+            "event_1": "33/83",
+            "event_2": "157/166",
+            "event_3": "79/166",
+            "event_4": "157/166"
+          }
+        },
+        "expected_inherited_copies": "635/83",
+        "expected_detected_events": "308/83",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "543710/136433",
+          "values": {
+            "0": "0",
+            "1": "498/157",
+            "2": "65404/12403",
+            "3": "65404/12403",
+            "4": "498/157",
+            "6": "65404/12403",
+            "7": "65404/12403",
+            "8": "29465/5181",
+            "9": "29465/5181",
+            "10": "3187781/409299",
+            "11": "3187781/409299",
+            "12": "29465/5181",
+            "14": "3187781/409299",
+            "15": "3187781/409299",
+            "16": "498/157",
+            "17": "498/157",
+            "18": "65404/12403",
+            "19": "65404/12403",
+            "20": "498/157",
+            "21": "498/157",
+            "22": "65404/12403",
+            "24": "29465/5181",
+            "25": "29465/5181",
+            "27": "3187781/409299",
+            "28": "29465/5181",
+            "30": "3187781/409299",
+            "31": "3187781/409299"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "41/83",
+            "upper": "1",
+            "independent": "7492629961/7878081286"
+          },
+          "event_1": {
+            "lower": "33/83",
+            "upper": "33/83",
+            "independent": "33/83"
+          },
+          "event_2": {
+            "lower": "41/83",
+            "upper": "1",
+            "independent": "7492629961/7878081286"
+          },
+          "event_3": {
+            "lower": "79/166",
+            "upper": "79/166",
+            "independent": "79/166"
+          },
+          "event_4": {
+            "lower": "41/83",
+            "upper": "1",
+            "independent": "7492629961/7878081286"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_15",
+      "n": 1,
+      "law": {
+        "0": "1",
+        "1": "0"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "0"
+        },
+        "event_inclusion": {
+          "event_0": "0"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "0"
+          }
+        },
+        "expected_inherited_copies": "0",
+        "expected_detected_events": "0",
+        "ht": null,
+        "frechet": {
+          "event_0": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_16",
+      "n": 2,
+      "law": {
+        "0": "3/10",
+        "1": "1/20",
+        "2": "1/5",
+        "3": "9/20"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/2",
+          "1": "13/20"
+        },
+        "event_inclusion": {
+          "event_0": "13/20",
+          "event_1": "13/20"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "13/20",
+            "event_1": "13/20"
+          },
+          "event_1": {
+            "event_0": "13/20",
+            "event_1": "13/20"
+          }
+        },
+        "expected_inherited_copies": "13/10",
+        "expected_detected_events": "13/10",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "28/13",
+          "values": {
+            "0": "0",
+            "1": "0",
+            "2": "40/13",
+            "3": "40/13"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "13/20",
+            "upper": "13/20",
+            "independent": "13/20"
+          },
+          "event_1": {
+            "lower": "13/20",
+            "upper": "13/20",
+            "independent": "13/20"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_17",
+      "n": 3,
+      "law": {
+        "0": "1/19",
+        "1": "1/38",
+        "2": "3/19",
+        "3": "3/38",
+        "4": "5/19",
+        "5": "2/19",
+        "6": "5/38",
+        "7": "7/38"
+      },
+      "events": {
+        "event_0": [
+          1,
+          2
+        ],
+        "event_1": [
+          2
+        ],
+        "event_2": [
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "15/38",
+          "1": "21/38",
+          "2": "13/19"
+        },
+        "event_inclusion": {
+          "event_0": "35/38",
+          "event_1": "13/19",
+          "event_2": "35/38"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "35/38",
+            "event_1": "13/19",
+            "event_2": "35/38"
+          },
+          "event_1": {
+            "event_0": "13/19",
+            "event_1": "13/19",
+            "event_2": "13/19"
+          },
+          "event_2": {
+            "event_0": "35/38",
+            "event_1": "13/19",
+            "event_2": "35/38"
+          }
+        },
+        "expected_inherited_copies": "60/19",
+        "expected_detected_events": "48/19",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "522/455",
+          "values": {
+            "0": "0",
+            "1": "0",
+            "2": "76/35",
+            "3": "76/35",
+            "4": "1653/455",
+            "5": "1653/455",
+            "6": "1653/455",
+            "7": "1653/455"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "13/19",
+            "upper": "1",
+            "independent": "310/361"
+          },
+          "event_1": {
+            "lower": "13/19",
+            "upper": "13/19",
+            "independent": "13/19"
+          },
+          "event_2": {
+            "lower": "13/19",
+            "upper": "1",
+            "independent": "310/361"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_18",
+      "n": 4,
+      "law": {
+        "0": "0",
+        "1": "3/29",
+        "2": "0",
+        "3": "1/58",
+        "4": "3/58",
+        "5": "3/58",
+        "6": "3/58",
+        "7": "1/29",
+        "8": "0",
+        "9": "2/29",
+        "10": "7/58",
+        "11": "9/58",
+        "12": "5/29",
+        "13": "2/29",
+        "14": "2/29",
+        "15": "1/29"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_3": [
+          0,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "31/58",
+          "1": "14/29",
+          "2": "31/58",
+          "3": "20/29"
+        },
+        "event_inclusion": {
+          "event_0": "1",
+          "event_1": "1",
+          "event_2": "1",
+          "event_3": "26/29"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1",
+            "event_3": "26/29"
+          },
+          "event_1": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1",
+            "event_3": "26/29"
+          },
+          "event_2": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1",
+            "event_3": "26/29"
+          },
+          "event_3": {
+            "event_0": "26/29",
+            "event_1": "26/29",
+            "event_2": "26/29",
+            "event_3": "26/29"
+          }
+        },
+        "expected_inherited_copies": "421/58",
+        "expected_detected_events": "113/29",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "3/26",
+          "values": {
+            "1": "107/26",
+            "3": "107/26",
+            "4": "3",
+            "5": "107/26",
+            "6": "3",
+            "7": "107/26",
+            "9": "107/26",
+            "10": "107/26",
+            "11": "107/26",
+            "12": "107/26",
+            "13": "107/26",
+            "14": "107/26",
+            "15": "107/26"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "31/58",
+            "upper": "1",
+            "independent": "86621/97556"
+          },
+          "event_1": {
+            "lower": "20/29",
+            "upper": "1",
+            "independent": "2730709/2829124"
+          },
+          "event_2": {
+            "lower": "20/29",
+            "upper": "1",
+            "independent": "2730709/2829124"
+          },
+          "event_3": {
+            "lower": "20/29",
+            "upper": "1",
+            "independent": "1439/1682"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_19",
+      "n": 5,
+      "law": {
+        "0": "1/49",
+        "1": "4/147",
+        "2": "4/147",
+        "3": "1/147",
+        "4": "8/147",
+        "5": "3/49",
+        "6": "2/147",
+        "7": "2/147",
+        "8": "0",
+        "9": "2/147",
+        "10": "2/147",
+        "11": "2/49",
+        "12": "2/147",
+        "13": "5/147",
+        "14": "10/147",
+        "15": "4/147",
+        "16": "8/147",
+        "17": "0",
+        "18": "1/21",
+        "19": "0",
+        "20": "2/49",
+        "21": "1/147",
+        "22": "2/49",
+        "23": "2/49",
+        "24": "1/147",
+        "25": "8/147",
+        "26": "10/147",
+        "27": "4/147",
+        "28": "1/21",
+        "29": "5/147",
+        "30": "8/147",
+        "31": "2/49"
+      },
+      "events": {
+        "event_0": [
+          1,
+          2,
+          3
+        ],
+        "event_1": [
+          0,
+          3
+        ],
+        "event_2": [
+          0,
+          1,
+          3
+        ],
+        "event_3": [
+          3
+        ],
+        "event_4": [
+          0,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "3/7",
+          "1": "26/49",
+          "2": "29/49",
+          "3": "80/147",
+          "4": "83/147"
+        },
+        "event_inclusion": {
+          "event_0": "44/49",
+          "event_1": "103/147",
+          "event_2": "122/147",
+          "event_3": "80/147",
+          "event_4": "16/21"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "44/49",
+            "event_1": "33/49",
+            "event_2": "118/147",
+            "event_3": "80/147",
+            "event_4": "36/49"
+          },
+          "event_1": {
+            "event_0": "33/49",
+            "event_1": "103/147",
+            "event_2": "103/147",
+            "event_3": "80/147",
+            "event_4": "30/49"
+          },
+          "event_2": {
+            "event_0": "118/147",
+            "event_1": "103/147",
+            "event_2": "122/147",
+            "event_3": "80/147",
+            "event_4": "2/3"
+          },
+          "event_3": {
+            "event_0": "80/147",
+            "event_1": "80/147",
+            "event_2": "80/147",
+            "event_3": "80/147",
+            "event_4": "67/147"
+          },
+          "event_4": {
+            "event_0": "36/49",
+            "event_1": "30/49",
+            "event_2": "2/3",
+            "event_3": "67/147",
+            "event_4": "16/21"
+          }
+        },
+        "expected_inherited_copies": "839/147",
+        "expected_detected_events": "183/49",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "214108199/44232320",
+          "values": {
+            "0": "0",
+            "1": "396543/100528",
+            "2": "6223/2684",
+            "3": "5593441/1105808",
+            "4": "427/176",
+            "5": "5593441/1105808",
+            "6": "38983/10736",
+            "7": "5593441/1105808",
+            "9": "2382926/345565",
+            "10": "30869951/5529040",
+            "11": "2382926/345565",
+            "12": "2382926/345565",
+            "13": "2382926/345565",
+            "14": "2382926/345565",
+            "15": "2382926/345565",
+            "16": "0",
+            "18": "6223/2684",
+            "20": "427/176",
+            "21": "5593441/1105808",
+            "22": "38983/10736",
+            "23": "5593441/1105808",
+            "24": "30869951/5529040",
+            "25": "2382926/345565",
+            "26": "30869951/5529040",
+            "27": "2382926/345565",
+            "28": "2382926/345565",
+            "29": "2382926/345565",
+            "30": "2382926/345565",
+            "31": "2382926/345565"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "29/49",
+            "upper": "1",
+            "independent": "322127/352947"
+          },
+          "event_1": {
+            "lower": "80/147",
+            "upper": "143/147",
+            "independent": "761/1029"
+          },
+          "event_2": {
+            "lower": "80/147",
+            "upper": "1",
+            "independent": "44257/50421"
+          },
+          "event_3": {
+            "lower": "80/147",
+            "upper": "80/147",
+            "independent": "80/147"
+          },
+          "event_4": {
+            "lower": "29/49",
+            "upper": "1",
+            "independent": "263/343"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_20",
+      "n": 1,
+      "law": {
+        "0": "7/15",
+        "1": "8/15"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "8/15"
+        },
+        "event_inclusion": {
+          "event_0": "8/15"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "8/15"
+          }
+        },
+        "expected_inherited_copies": "8/15",
+        "expected_detected_events": "8/15",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "7/8",
+          "values": {
+            "0": "0",
+            "1": "15/8"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "8/15",
+            "upper": "8/15",
+            "independent": "8/15"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_21",
+      "n": 2,
+      "law": {
+        "0": "1/3",
+        "1": "1/21",
+        "2": "4/21",
+        "3": "3/7"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "10/21",
+          "1": "13/21"
+        },
+        "event_inclusion": {
+          "event_0": "2/3",
+          "event_1": "2/3"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "2/3",
+            "event_1": "2/3"
+          },
+          "event_1": {
+            "event_0": "2/3",
+            "event_1": "2/3"
+          }
+        },
+        "expected_inherited_copies": "46/21",
+        "expected_detected_events": "4/3",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "2",
+          "values": {
+            "0": "0",
+            "1": "3",
+            "2": "3",
+            "3": "3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "13/21",
+            "upper": "1",
+            "independent": "353/441"
+          },
+          "event_1": {
+            "lower": "13/21",
+            "upper": "1",
+            "independent": "353/441"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_22",
+      "n": 3,
+      "law": {
+        "0": "1/25",
+        "1": "4/25",
+        "2": "3/25",
+        "3": "3/25",
+        "4": "4/25",
+        "5": "2/25",
+        "6": "6/25",
+        "7": "2/25"
+      },
+      "events": {
+        "event_0": [
+          2
+        ],
+        "event_1": [
+          1,
+          2
+        ],
+        "event_2": [
+          0,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "11/25",
+          "1": "14/25",
+          "2": "14/25"
+        },
+        "event_inclusion": {
+          "event_0": "14/25",
+          "event_1": "4/5",
+          "event_2": "21/25"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "14/25",
+            "event_1": "14/25",
+            "event_2": "14/25"
+          },
+          "event_1": {
+            "event_0": "14/25",
+            "event_1": "4/5",
+            "event_2": "17/25"
+          },
+          "event_2": {
+            "event_0": "14/25",
+            "event_1": "17/25",
+            "event_2": "21/25"
+          }
+        },
+        "expected_inherited_copies": "67/25",
+        "expected_detected_events": "11/5",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "179/84",
+          "values": {
+            "0": "0",
+            "1": "25/21",
+            "2": "5/4",
+            "3": "205/84",
+            "4": "355/84",
+            "5": "355/84",
+            "6": "355/84",
+            "7": "355/84"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "14/25",
+            "upper": "14/25",
+            "independent": "14/25"
+          },
+          "event_1": {
+            "lower": "14/25",
+            "upper": "1",
+            "independent": "504/625"
+          },
+          "event_2": {
+            "lower": "14/25",
+            "upper": "1",
+            "independent": "471/625"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_23",
+      "n": 4,
+      "law": {
+        "0": "9/97",
+        "1": "10/97",
+        "2": "10/97",
+        "3": "7/97",
+        "4": "0",
+        "5": "3/97",
+        "6": "10/97",
+        "7": "6/97",
+        "8": "0",
+        "9": "10/97",
+        "10": "2/97",
+        "11": "5/97",
+        "12": "8/97",
+        "13": "5/97",
+        "14": "2/97",
+        "15": "10/97"
+      },
+      "events": {
+        "event_0": [
+          0,
+          3
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          1,
+          2,
+          3
+        ],
+        "event_3": [
+          0,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "56/97",
+          "1": "52/97",
+          "2": "44/97",
+          "3": "42/97"
+        },
+        "event_inclusion": {
+          "event_0": "68/97",
+          "event_1": "88/97",
+          "event_2": "78/97",
+          "event_3": "78/97"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "68/97",
+            "event_1": "68/97",
+            "event_2": "58/97",
+            "event_3": "68/97"
+          },
+          "event_1": {
+            "event_0": "68/97",
+            "event_1": "88/97",
+            "event_2": "78/97",
+            "event_3": "78/97"
+          },
+          "event_2": {
+            "event_0": "58/97",
+            "event_1": "78/97",
+            "event_2": "78/97",
+            "event_3": "68/97"
+          },
+          "event_3": {
+            "event_0": "68/97",
+            "event_1": "78/97",
+            "event_2": "68/97",
+            "event_3": "78/97"
+          }
+        },
+        "expected_inherited_copies": "572/97",
+        "expected_detected_events": "312/97",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "5475713/2275416",
+          "values": {
+            "0": "0",
+            "1": "220093/58344",
+            "2": "8051/3432",
+            "3": "292649/58344",
+            "5": "292649/58344",
+            "6": "12319/3432",
+            "7": "292649/58344",
+            "9": "292649/58344",
+            "10": "292649/58344",
+            "11": "292649/58344",
+            "12": "292649/58344",
+            "13": "292649/58344",
+            "14": "292649/58344",
+            "15": "292649/58344"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "56/97",
+            "upper": "1",
+            "independent": "7154/9409"
+          },
+          "event_1": {
+            "lower": "56/97",
+            "upper": "1",
+            "independent": "83151106/88529281"
+          },
+          "event_2": {
+            "lower": "52/97",
+            "upper": "1",
+            "independent": "781498/912673"
+          },
+          "event_3": {
+            "lower": "56/97",
+            "upper": "1",
+            "independent": "793158/912673"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_24",
+      "n": 5,
+      "law": {
+        "0": "2/87",
+        "1": "1/29",
+        "2": "4/87",
+        "3": "1/29",
+        "4": "4/87",
+        "5": "1/87",
+        "6": "4/87",
+        "7": "1/58",
+        "8": "5/174",
+        "9": "5/87",
+        "10": "1/58",
+        "11": "2/87",
+        "12": "0",
+        "13": "1/58",
+        "14": "5/87",
+        "15": "1/29",
+        "16": "5/174",
+        "17": "1/87",
+        "18": "5/174",
+        "19": "1/87",
+        "20": "7/174",
+        "21": "4/87",
+        "22": "3/58",
+        "23": "5/174",
+        "24": "5/174",
+        "25": "1/87",
+        "26": "1/29",
+        "27": "0",
+        "28": "5/174",
+        "29": "5/87",
+        "30": "7/174",
+        "31": "5/87"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          0
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_3": [
+          2
+        ],
+        "event_4": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "79/174",
+          "1": "46/87",
+          "2": "101/174",
+          "3": "43/87",
+          "4": "44/87"
+        },
+        "event_inclusion": {
+          "event_0": "46/87",
+          "event_1": "79/174",
+          "event_2": "85/87",
+          "event_3": "101/174",
+          "event_4": "85/87"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "46/87",
+            "event_1": "6/29",
+            "event_2": "46/87",
+            "event_3": "1/3",
+            "event_4": "46/87"
+          },
+          "event_1": {
+            "event_0": "6/29",
+            "event_1": "79/174",
+            "event_2": "79/174",
+            "event_3": "47/174",
+            "event_4": "79/174"
+          },
+          "event_2": {
+            "event_0": "46/87",
+            "event_1": "79/174",
+            "event_2": "85/87",
+            "event_3": "101/174",
+            "event_4": "85/87"
+          },
+          "event_3": {
+            "event_0": "1/3",
+            "event_1": "47/174",
+            "event_2": "101/174",
+            "event_3": "101/174",
+            "event_4": "101/174"
+          },
+          "event_4": {
+            "event_0": "46/87",
+            "event_1": "79/174",
+            "event_2": "85/87",
+            "event_3": "101/174",
+            "event_4": "85/87"
+          }
+        },
+        "expected_inherited_copies": "194/29",
+        "expected_detected_events": "102/29",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "97926163/31197890",
+          "values": {
+            "0": "0",
+            "1": "28536/6715",
+            "2": "15399/3910",
+            "3": "1896861/308890",
+            "4": "32364/8585",
+            "5": "4050546/678215",
+            "6": "2235639/394910",
+            "7": "245329821/31197890",
+            "8": "174/85",
+            "9": "28536/6715",
+            "10": "15399/3910",
+            "11": "1896861/308890",
+            "13": "4050546/678215",
+            "14": "2235639/394910",
+            "15": "245329821/31197890",
+            "16": "174/85",
+            "17": "28536/6715",
+            "18": "15399/3910",
+            "19": "1896861/308890",
+            "20": "32364/8585",
+            "21": "4050546/678215",
+            "22": "2235639/394910",
+            "23": "245329821/31197890",
+            "24": "174/85",
+            "25": "28536/6715",
+            "26": "15399/3910",
+            "28": "32364/8585",
+            "29": "4050546/678215",
+            "30": "2235639/394910",
+            "31": "245329821/31197890"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "46/87",
+            "upper": "46/87",
+            "independent": "46/87"
+          },
+          "event_1": {
+            "lower": "79/174",
+            "upper": "79/174",
+            "independent": "79/174"
+          },
+          "event_2": {
+            "lower": "101/174",
+            "upper": "1",
+            "independent": "4849718752/4984209207"
+          },
+          "event_3": {
+            "lower": "101/174",
+            "upper": "101/174",
+            "independent": "101/174"
+          },
+          "event_4": {
+            "lower": "101/174",
+            "upper": "1",
+            "independent": "4849718752/4984209207"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_25",
+      "n": 1,
+      "law": {
+        "0": "4/11",
+        "1": "7/11"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "7/11"
+        },
+        "event_inclusion": {
+          "event_0": "7/11"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "7/11"
+          }
+        },
+        "expected_inherited_copies": "7/11",
+        "expected_detected_events": "7/11",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "4/7",
+          "values": {
+            "0": "0",
+            "1": "11/7"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "7/11",
+            "upper": "7/11",
+            "independent": "7/11"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_26",
+      "n": 2,
+      "law": {
+        "0": "2/5",
+        "1": "2/5",
+        "2": "0",
+        "3": "1/5"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "3/5",
+          "1": "1/5"
+        },
+        "event_inclusion": {
+          "event_0": "1/5",
+          "event_1": "3/5"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "1/5",
+            "event_1": "1/5"
+          },
+          "event_1": {
+            "event_0": "1/5",
+            "event_1": "3/5"
+          }
+        },
+        "expected_inherited_copies": "4/5",
+        "expected_detected_events": "4/5",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "6",
+          "values": {
+            "0": "0",
+            "1": "5/3",
+            "3": "20/3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "1/5",
+            "upper": "1/5",
+            "independent": "1/5"
+          },
+          "event_1": {
+            "lower": "3/5",
+            "upper": "3/5",
+            "independent": "3/5"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_27",
+      "n": 3,
+      "law": {
+        "0": "7/38",
+        "1": "5/19",
+        "2": "1/19",
+        "3": "4/19",
+        "4": "0",
+        "5": "1/19",
+        "6": "5/38",
+        "7": "2/19"
+      },
+      "events": {
+        "event_0": [
+          0
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "12/19",
+          "1": "1/2",
+          "2": "11/38"
+        },
+        "event_inclusion": {
+          "event_0": "12/19",
+          "event_1": "31/38",
+          "event_2": "1/2"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "12/19",
+            "event_1": "12/19",
+            "event_2": "6/19"
+          },
+          "event_1": {
+            "event_0": "12/19",
+            "event_1": "31/38",
+            "event_2": "1/2"
+          },
+          "event_2": {
+            "event_0": "6/19",
+            "event_1": "1/2",
+            "event_2": "1/2"
+          }
+        },
+        "expected_inherited_copies": "97/38",
+        "expected_detected_events": "37/19",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "1009/372",
+          "values": {
+            "0": "0",
+            "1": "1045/372",
+            "2": "100/31",
+            "3": "1789/372",
+            "5": "1045/372",
+            "6": "100/31",
+            "7": "1789/372"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "12/19",
+            "upper": "12/19",
+            "independent": "12/19"
+          },
+          "event_1": {
+            "lower": "12/19",
+            "upper": "1",
+            "independent": "1255/1444"
+          },
+          "event_2": {
+            "lower": "1/2",
+            "upper": "1/2",
+            "independent": "1/2"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_28",
+      "n": 4,
+      "law": {
+        "0": "9/74",
+        "1": "5/74",
+        "2": "9/74",
+        "3": "2/37",
+        "4": "9/74",
+        "5": "0",
+        "6": "1/74",
+        "7": "7/74",
+        "8": "2/37",
+        "9": "0",
+        "10": "9/74",
+        "11": "0",
+        "12": "0",
+        "13": "9/74",
+        "14": "4/37",
+        "15": "0"
+      },
+      "events": {
+        "event_0": [
+          2,
+          3
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_3": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "25/74",
+          "1": "19/37",
+          "2": "17/37",
+          "3": "15/37"
+        },
+        "event_inclusion": {
+          "event_0": "47/74",
+          "event_1": "65/74",
+          "event_2": "65/74",
+          "event_3": "30/37"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "47/74",
+            "event_1": "47/74",
+            "event_2": "47/74",
+            "event_3": "47/74"
+          },
+          "event_1": {
+            "event_0": "47/74",
+            "event_1": "65/74",
+            "event_2": "65/74",
+            "event_3": "30/37"
+          },
+          "event_2": {
+            "event_0": "47/74",
+            "event_1": "65/74",
+            "event_2": "65/74",
+            "event_3": "30/37"
+          },
+          "event_3": {
+            "event_0": "47/74",
+            "event_1": "30/37",
+            "event_2": "30/37",
+            "event_3": "30/37"
+          }
+        },
+        "expected_inherited_copies": "210/37",
+        "expected_detected_events": "237/74",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "17939/6110",
+          "values": {
+            "0": "0",
+            "1": "148/65",
+            "2": "1369/390",
+            "3": "1369/390",
+            "4": "93203/18330",
+            "6": "93203/18330",
+            "7": "93203/18330",
+            "8": "93203/18330",
+            "10": "93203/18330",
+            "13": "93203/18330",
+            "14": "93203/18330"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "17/37",
+            "upper": "32/37",
+            "independent": "929/1369"
+          },
+          "event_1": {
+            "lower": "19/37",
+            "upper": "1",
+            "independent": "1680121/1874161"
+          },
+          "event_2": {
+            "lower": "19/37",
+            "upper": "1",
+            "independent": "1680121/1874161"
+          },
+          "event_3": {
+            "lower": "19/37",
+            "upper": "1",
+            "independent": "42733/50653"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_29",
+      "n": 5,
+      "law": {
+        "0": "9/157",
+        "1": "9/157",
+        "2": "1/157",
+        "3": "3/157",
+        "4": "6/157",
+        "5": "9/157",
+        "6": "4/157",
+        "7": "10/157",
+        "8": "6/157",
+        "9": "4/157",
+        "10": "2/157",
+        "11": "1/157",
+        "12": "9/157",
+        "13": "10/157",
+        "14": "3/157",
+        "15": "1/157",
+        "16": "4/157",
+        "17": "5/157",
+        "18": "3/157",
+        "19": "10/157",
+        "20": "10/157",
+        "21": "6/157",
+        "22": "5/157",
+        "23": "1/157",
+        "24": "9/157",
+        "25": "7/157",
+        "26": "0",
+        "27": "3/157",
+        "28": "0",
+        "29": "0",
+        "30": "6/157",
+        "31": "1/157"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_1": [
+          0,
+          3
+        ],
+        "event_2": [
+          4
+        ],
+        "event_3": [
+          4
+        ],
+        "event_4": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "80/157",
+          "1": "54/157",
+          "2": "81/157",
+          "3": "62/157",
+          "4": "70/157"
+        },
+        "event_inclusion": {
+          "event_0": "148/157",
+          "event_1": "115/157",
+          "event_2": "70/157",
+          "event_3": "70/157",
+          "event_4": "147/157"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "148/157",
+            "event_1": "115/157",
+            "event_2": "70/157",
+            "event_3": "70/157",
+            "event_4": "147/157"
+          },
+          "event_1": {
+            "event_0": "115/157",
+            "event_1": "115/157",
+            "event_2": "48/157",
+            "event_3": "48/157",
+            "event_4": "115/157"
+          },
+          "event_2": {
+            "event_0": "70/157",
+            "event_1": "48/157",
+            "event_2": "70/157",
+            "event_3": "70/157",
+            "event_4": "70/157"
+          },
+          "event_3": {
+            "event_0": "70/157",
+            "event_1": "48/157",
+            "event_2": "70/157",
+            "event_3": "70/157",
+            "event_4": "70/157"
+          },
+          "event_4": {
+            "event_0": "147/157",
+            "event_1": "115/157",
+            "event_2": "70/157",
+            "event_3": "70/157",
+            "event_4": "147/157"
+          }
+        },
+        "expected_inherited_copies": "922/157",
+        "expected_detected_events": "550/157",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "10909763/1787100",
+          "values": {
+            "0": "0",
+            "1": "8741917/2501940",
+            "2": "157/148",
+            "3": "8741917/2501940",
+            "4": "46315/21756",
+            "5": "8741917/2501940",
+            "6": "46315/21756",
+            "7": "8741917/2501940",
+            "8": "8741917/2501940",
+            "9": "8741917/2501940",
+            "10": "8741917/2501940",
+            "11": "8741917/2501940",
+            "12": "8741917/2501940",
+            "13": "8741917/2501940",
+            "14": "8741917/2501940",
+            "15": "8741917/2501940",
+            "16": "719531/108780",
+            "17": "3992981/500388",
+            "18": "719531/108780",
+            "19": "3992981/500388",
+            "20": "719531/108780",
+            "21": "3992981/500388",
+            "22": "719531/108780",
+            "23": "3992981/500388",
+            "24": "3992981/500388",
+            "25": "3992981/500388",
+            "27": "3992981/500388",
+            "30": "3992981/500388",
+            "31": "3992981/500388"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "81/157",
+            "upper": "1",
+            "independent": "90407214217/95388992557"
+          },
+          "event_1": {
+            "lower": "80/157",
+            "upper": "142/157",
+            "independent": "17334/24649"
+          },
+          "event_2": {
+            "lower": "70/157",
+            "upper": "70/157",
+            "independent": "70/157"
+          },
+          "event_3": {
+            "lower": "70/157",
+            "upper": "70/157",
+            "independent": "70/157"
+          },
+          "event_4": {
+            "lower": "81/157",
+            "upper": "1",
+            "independent": "559206421/607573201"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_30",
+      "n": 1,
+      "law": {
+        "0": "2/3",
+        "1": "1/3"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "1/3"
+        },
+        "event_inclusion": {
+          "event_0": "1/3"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "1/3"
+          }
+        },
+        "expected_inherited_copies": "1/3",
+        "expected_detected_events": "1/3",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "2",
+          "values": {
+            "0": "0",
+            "1": "3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "1/3",
+            "upper": "1/3",
+            "independent": "1/3"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_31",
+      "n": 2,
+      "law": {
+        "0": "2/21",
+        "1": "2/21",
+        "2": "1/3",
+        "3": "10/21"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "4/7",
+          "1": "17/21"
+        },
+        "event_inclusion": {
+          "event_0": "19/21",
+          "event_1": "17/21"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "19/21",
+            "event_1": "17/21"
+          },
+          "event_1": {
+            "event_0": "17/21",
+            "event_1": "17/21"
+          }
+        },
+        "expected_inherited_copies": "46/21",
+        "expected_detected_events": "12/7",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "178/323",
+          "values": {
+            "0": "0",
+            "1": "21/19",
+            "2": "756/323",
+            "3": "756/323"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "17/21",
+            "upper": "1",
+            "independent": "45/49"
+          },
+          "event_1": {
+            "lower": "17/21",
+            "upper": "17/21",
+            "independent": "17/21"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_32",
+      "n": 3,
+      "law": {
+        "0": "5/29",
+        "1": "4/29",
+        "2": "3/29",
+        "3": "8/29",
+        "4": "1/29",
+        "5": "4/29",
+        "6": "2/29",
+        "7": "2/29"
+      },
+      "events": {
+        "event_0": [
+          1,
+          2
+        ],
+        "event_1": [
+          2
+        ],
+        "event_2": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "18/29",
+          "1": "15/29",
+          "2": "9/29"
+        },
+        "event_inclusion": {
+          "event_0": "20/29",
+          "event_1": "9/29",
+          "event_2": "24/29"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "20/29",
+            "event_1": "9/29",
+            "event_2": "20/29"
+          },
+          "event_1": {
+            "event_0": "9/29",
+            "event_1": "9/29",
+            "event_2": "9/29"
+          },
+          "event_2": {
+            "event_0": "20/29",
+            "event_1": "9/29",
+            "event_2": "24/29"
+          }
+        },
+        "expected_inherited_copies": "75/29",
+        "expected_detected_events": "53/29",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "1661/360",
+          "values": {
+            "0": "0",
+            "1": "29/24",
+            "2": "319/120",
+            "3": "319/120",
+            "4": "2117/360",
+            "5": "2117/360",
+            "6": "2117/360",
+            "7": "2117/360"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "15/29",
+            "upper": "24/29",
+            "independent": "561/841"
+          },
+          "event_1": {
+            "lower": "9/29",
+            "upper": "9/29",
+            "independent": "9/29"
+          },
+          "event_2": {
+            "lower": "18/29",
+            "upper": "1",
+            "independent": "21309/24389"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_33",
+      "n": 4,
+      "law": {
+        "0": "6/97",
+        "1": "8/97",
+        "2": "10/97",
+        "3": "5/97",
+        "4": "8/97",
+        "5": "9/97",
+        "6": "10/97",
+        "7": "8/97",
+        "8": "4/97",
+        "9": "2/97",
+        "10": "2/97",
+        "11": "1/97",
+        "12": "9/97",
+        "13": "9/97",
+        "14": "0",
+        "15": "6/97"
+      },
+      "events": {
+        "event_0": [
+          1
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          1,
+          3
+        ],
+        "event_3": [
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "48/97",
+          "1": "42/97",
+          "2": "59/97",
+          "3": "33/97"
+        },
+        "event_inclusion": {
+          "event_0": "42/97",
+          "event_1": "87/97",
+          "event_2": "66/97",
+          "event_3": "33/97"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "42/97",
+            "event_1": "42/97",
+            "event_2": "42/97",
+            "event_3": "9/97"
+          },
+          "event_1": {
+            "event_0": "42/97",
+            "event_1": "87/97",
+            "event_2": "62/97",
+            "event_3": "29/97"
+          },
+          "event_2": {
+            "event_0": "42/97",
+            "event_1": "62/97",
+            "event_2": "66/97",
+            "event_3": "33/97"
+          },
+          "event_3": {
+            "event_0": "9/97",
+            "event_1": "29/97",
+            "event_2": "33/97",
+            "event_3": "33/97"
+          }
+        },
+        "expected_inherited_copies": "299/97",
+        "expected_detected_events": "228/97",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "35212/6699",
+          "values": {
+            "0": "0",
+            "1": "97/87",
+            "2": "32786/6699",
+            "3": "32786/6699",
+            "4": "97/87",
+            "5": "97/87",
+            "6": "32786/6699",
+            "7": "32786/6699",
+            "8": "97/22",
+            "9": "10573/1914",
+            "10": "52477/6699",
+            "11": "52477/6699",
+            "12": "10573/1914",
+            "13": "10573/1914",
+            "15": "52477/6699"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "42/97",
+            "upper": "42/97",
+            "independent": "42/97"
+          },
+          "event_1": {
+            "lower": "59/97",
+            "upper": "1",
+            "independent": "810263/912673"
+          },
+          "event_2": {
+            "lower": "42/97",
+            "upper": "75/97",
+            "independent": "5889/9409"
+          },
+          "event_3": {
+            "lower": "33/97",
+            "upper": "33/97",
+            "independent": "33/97"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_34",
+      "n": 5,
+      "law": {
+        "0": "4/75",
+        "1": "4/75",
+        "2": "1/50",
+        "3": "3/50",
+        "4": "0",
+        "5": "1/75",
+        "6": "1/30",
+        "7": "1/150",
+        "8": "2/75",
+        "9": "1/25",
+        "10": "1/150",
+        "11": "1/150",
+        "12": "1/75",
+        "13": "1/75",
+        "14": "7/150",
+        "15": "1/150",
+        "16": "3/50",
+        "17": "2/75",
+        "18": "1/30",
+        "19": "1/15",
+        "20": "1/30",
+        "21": "1/75",
+        "22": "1/50",
+        "23": "3/50",
+        "24": "7/150",
+        "25": "2/75",
+        "26": "4/75",
+        "27": "1/30",
+        "28": "3/50",
+        "29": "4/75",
+        "30": "0",
+        "31": "1/75"
+      },
+      "events": {
+        "event_0": [
+          0,
+          2,
+          4
+        ],
+        "event_1": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "event_2": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "event_3": [
+          0,
+          1,
+          3
+        ],
+        "event_4": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "37/75",
+          "1": "7/15",
+          "2": "29/75",
+          "3": "67/150",
+          "4": "3/5"
+        },
+        "event_inclusion": {
+          "event_0": "67/75",
+          "event_1": "71/75",
+          "event_2": "139/150",
+          "event_3": "64/75",
+          "event_4": "71/75"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "67/75",
+            "event_1": "67/75",
+            "event_2": "67/75",
+            "event_3": "4/5",
+            "event_4": "67/75"
+          },
+          "event_1": {
+            "event_0": "67/75",
+            "event_1": "71/75",
+            "event_2": "139/150",
+            "event_3": "64/75",
+            "event_4": "71/75"
+          },
+          "event_2": {
+            "event_0": "67/75",
+            "event_1": "139/150",
+            "event_2": "139/150",
+            "event_3": "5/6",
+            "event_4": "139/150"
+          },
+          "event_3": {
+            "event_0": "4/5",
+            "event_1": "64/75",
+            "event_2": "5/6",
+            "event_3": "64/75",
+            "event_4": "64/75"
+          },
+          "event_4": {
+            "event_0": "67/75",
+            "event_1": "71/75",
+            "event_2": "139/150",
+            "event_3": "64/75",
+            "event_4": "71/75"
+          }
+        },
+        "expected_inherited_copies": "691/75",
+        "expected_detected_events": "137/30",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "69260875/42318272",
+          "values": {
+            "0": "0",
+            "1": "232034925/42318272",
+            "2": "14925/4544",
+            "3": "232034925/42318272",
+            "5": "232034925/42318272",
+            "6": "232034925/42318272",
+            "7": "232034925/42318272",
+            "8": "2756175/631616",
+            "9": "232034925/42318272",
+            "10": "2756175/631616",
+            "11": "232034925/42318272",
+            "12": "232034925/42318272",
+            "13": "232034925/42318272",
+            "14": "232034925/42318272",
+            "15": "232034925/42318272",
+            "16": "2850675/661223",
+            "17": "232034925/42318272",
+            "18": "232034925/42318272",
+            "19": "232034925/42318272",
+            "20": "2850675/661223",
+            "21": "232034925/42318272",
+            "22": "232034925/42318272",
+            "23": "232034925/42318272",
+            "24": "232034925/42318272",
+            "25": "232034925/42318272",
+            "26": "232034925/42318272",
+            "27": "232034925/42318272",
+            "28": "232034925/42318272",
+            "29": "232034925/42318272",
+            "31": "232034925/42318272"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "3/5",
+            "upper": "1",
+            "independent": "24629/28125"
+          },
+          "event_1": {
+            "lower": "3/5",
+            "upper": "1",
+            "independent": "396643/421875"
+          },
+          "event_2": {
+            "lower": "3/5",
+            "upper": "1",
+            "independent": "1964291/2109375"
+          },
+          "event_3": {
+            "lower": "37/75",
+            "upper": "1",
+            "independent": "71759/84375"
+          },
+          "event_4": {
+            "lower": "3/5",
+            "upper": "1",
+            "independent": "30479953/31640625"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_35",
+      "n": 1,
+      "law": {
+        "0": "1/3",
+        "1": "2/3"
+      },
+      "events": {
+        "event_0": []
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "2/3"
+        },
+        "event_inclusion": {
+          "event_0": "0"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "0"
+          }
+        },
+        "expected_inherited_copies": "0",
+        "expected_detected_events": "0",
+        "ht": null,
+        "frechet": {
+          "event_0": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_36",
+      "n": 2,
+      "law": {
+        "0": "3/11",
+        "1": "5/11",
+        "2": "0",
+        "3": "3/11"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "8/11",
+          "1": "3/11"
+        },
+        "event_inclusion": {
+          "event_0": "8/11",
+          "event_1": "3/11"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "8/11",
+            "event_1": "3/11"
+          },
+          "event_1": {
+            "event_0": "3/11",
+            "event_1": "3/11"
+          }
+        },
+        "expected_inherited_copies": "14/11",
+        "expected_detected_events": "1",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "91/24",
+          "values": {
+            "0": "0",
+            "1": "11/8",
+            "3": "121/24"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "8/11",
+            "upper": "1",
+            "independent": "97/121"
+          },
+          "event_1": {
+            "lower": "3/11",
+            "upper": "3/11",
+            "independent": "3/11"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_37",
+      "n": 3,
+      "law": {
+        "0": "0",
+        "1": "2/11",
+        "2": "2/33",
+        "3": "5/33",
+        "4": "5/33",
+        "5": "4/33",
+        "6": "1/11",
+        "7": "8/33"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "23/33",
+          "1": "6/11",
+          "2": "20/33"
+        },
+        "event_inclusion": {
+          "event_0": "1",
+          "event_1": "1",
+          "event_2": "1"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1"
+          },
+          "event_1": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1"
+          },
+          "event_2": {
+            "event_0": "1",
+            "event_1": "1",
+            "event_2": "1"
+          }
+        },
+        "expected_inherited_copies": "61/11",
+        "expected_detected_events": "3",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "0",
+          "values": {
+            "1": "3",
+            "2": "3",
+            "3": "3",
+            "4": "3",
+            "5": "3",
+            "6": "3",
+            "7": "3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "23/33",
+            "upper": "1",
+            "independent": "11329/11979"
+          },
+          "event_1": {
+            "lower": "23/33",
+            "upper": "1",
+            "independent": "11329/11979"
+          },
+          "event_2": {
+            "lower": "23/33",
+            "upper": "1",
+            "independent": "11329/11979"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_38",
+      "n": 4,
+      "law": {
+        "0": "3/85",
+        "1": "1/85",
+        "2": "4/85",
+        "3": "2/17",
+        "4": "2/17",
+        "5": "9/85",
+        "6": "0",
+        "7": "7/85",
+        "8": "1/17",
+        "9": "0",
+        "10": "2/17",
+        "11": "6/85",
+        "12": "3/85",
+        "13": "6/85",
+        "14": "4/85",
+        "15": "7/85"
+      },
+      "events": {
+        "event_0": [
+          1,
+          2,
+          3
+        ],
+        "event_1": [
+          0,
+          1,
+          2
+        ],
+        "event_2": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_3": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "46/85",
+          "1": "48/85",
+          "2": "46/85",
+          "3": "41/85"
+        },
+        "event_inclusion": {
+          "event_0": "81/85",
+          "event_1": "77/85",
+          "event_2": "82/85",
+          "event_3": "82/85"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "81/85",
+            "event_1": "76/85",
+            "event_2": "81/85",
+            "event_3": "81/85"
+          },
+          "event_1": {
+            "event_0": "76/85",
+            "event_1": "77/85",
+            "event_2": "77/85",
+            "event_3": "77/85"
+          },
+          "event_2": {
+            "event_0": "81/85",
+            "event_1": "77/85",
+            "event_2": "82/85",
+            "event_3": "82/85"
+          },
+          "event_3": {
+            "event_0": "81/85",
+            "event_1": "77/85",
+            "event_2": "82/85",
+            "event_3": "82/85"
+          }
+        },
+        "expected_inherited_copies": "637/85",
+        "expected_detected_events": "322/85",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "169748/255717",
+          "values": {
+            "0": "0",
+            "1": "10030/3157",
+            "2": "1080775/255717",
+            "3": "1080775/255717",
+            "4": "1080775/255717",
+            "5": "1080775/255717",
+            "7": "1080775/255717",
+            "8": "10370/3321",
+            "10": "1080775/255717",
+            "11": "1080775/255717",
+            "12": "1080775/255717",
+            "13": "1080775/255717",
+            "14": "1080775/255717",
+            "15": "1080775/255717"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "48/85",
+            "upper": "1",
+            "independent": "550633/614125"
+          },
+          "event_1": {
+            "lower": "48/85",
+            "upper": "1",
+            "independent": "557848/614125"
+          },
+          "event_2": {
+            "lower": "48/85",
+            "upper": "1",
+            "independent": "49724437/52200625"
+          },
+          "event_3": {
+            "lower": "48/85",
+            "upper": "1",
+            "independent": "49724437/52200625"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_39",
+      "n": 5,
+      "law": {
+        "0": "1/27",
+        "1": "4/81",
+        "2": "1/54",
+        "3": "5/162",
+        "4": "1/27",
+        "5": "2/81",
+        "6": "5/81",
+        "7": "2/81",
+        "8": "1/54",
+        "9": "2/81",
+        "10": "1/18",
+        "11": "1/27",
+        "12": "2/81",
+        "13": "1/162",
+        "14": "5/162",
+        "15": "7/162",
+        "16": "0",
+        "17": "5/81",
+        "18": "5/162",
+        "19": "5/81",
+        "20": "1/54",
+        "21": "7/162",
+        "22": "2/81",
+        "23": "7/162",
+        "24": "7/162",
+        "25": "1/162",
+        "26": "1/54",
+        "27": "7/162",
+        "28": "1/162",
+        "29": "5/162",
+        "30": "0",
+        "31": "7/162"
+      },
+      "events": {
+        "event_0": [
+          0,
+          3,
+          4
+        ],
+        "event_1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "event_2": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "event_3": [
+          1,
+          2,
+          4
+        ],
+        "event_4": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "31/54",
+          "1": "46/81",
+          "2": "25/54",
+          "3": "35/81",
+          "4": "77/162"
+        },
+        "event_inclusion": {
+          "event_0": "137/162",
+          "event_1": "74/81",
+          "event_2": "25/27",
+          "event_3": "47/54",
+          "event_4": "26/27"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "137/162",
+            "event_1": "43/54",
+            "event_2": "137/162",
+            "event_3": "61/81",
+            "event_4": "137/162"
+          },
+          "event_1": {
+            "event_0": "43/54",
+            "event_1": "74/81",
+            "event_2": "71/81",
+            "event_3": "47/54",
+            "event_4": "74/81"
+          },
+          "event_2": {
+            "event_0": "137/162",
+            "event_1": "71/81",
+            "event_2": "25/27",
+            "event_3": "5/6",
+            "event_4": "25/27"
+          },
+          "event_3": {
+            "event_0": "61/81",
+            "event_1": "47/54",
+            "event_2": "5/6",
+            "event_3": "47/54",
+            "event_4": "47/54"
+          },
+          "event_4": {
+            "event_0": "137/162",
+            "event_1": "74/81",
+            "event_2": "25/27",
+            "event_3": "47/54",
+            "event_4": "26/27"
+          }
+        },
+        "expected_inherited_copies": "1537/162",
+        "expected_detected_events": "122/27",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "112233833/77428975",
+          "values": {
+            "0": "0",
+            "1": "293949/89050",
+            "2": "2465289/565175",
+            "3": "429302943/77428975",
+            "4": "74196/22607",
+            "5": "429302943/77428975",
+            "6": "2465289/565175",
+            "7": "429302943/77428975",
+            "8": "7241319/1647425",
+            "9": "7241319/1647425",
+            "10": "429302943/77428975",
+            "11": "429302943/77428975",
+            "12": "429302943/77428975",
+            "13": "429302943/77428975",
+            "14": "429302943/77428975",
+            "15": "429302943/77428975",
+            "17": "429302943/77428975",
+            "18": "429302943/77428975",
+            "19": "429302943/77428975",
+            "20": "429302943/77428975",
+            "21": "429302943/77428975",
+            "22": "429302943/77428975",
+            "23": "429302943/77428975",
+            "24": "429302943/77428975",
+            "25": "429302943/77428975",
+            "26": "429302943/77428975",
+            "27": "429302943/77428975",
+            "28": "429302943/77428975",
+            "29": "429302943/77428975",
+            "31": "429302943/77428975"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "31/54",
+            "upper": "1",
+            "independent": "309329/354294"
+          },
+          "event_1": {
+            "lower": "46/81",
+            "upper": "1",
+            "independent": "26713489/28697814"
+          },
+          "event_2": {
+            "lower": "31/54",
+            "upper": "1",
+            "independent": "27124039/28697814"
+          },
+          "event_3": {
+            "lower": "46/81",
+            "upper": "1",
+            "independent": "622313/708588"
+          },
+          "event_4": {
+            "lower": "31/54",
+            "upper": "1",
+            "independent": "1504042481/1549681956"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_40",
+      "n": 1,
+      "law": {
+        "0": "5/11",
+        "1": "6/11"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "6/11"
+        },
+        "event_inclusion": {
+          "event_0": "6/11"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "6/11"
+          }
+        },
+        "expected_inherited_copies": "6/11",
+        "expected_detected_events": "6/11",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "5/6",
+          "values": {
+            "0": "0",
+            "1": "11/6"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "6/11",
+            "upper": "6/11",
+            "independent": "6/11"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_41",
+      "n": 2,
+      "law": {
+        "0": "2/5",
+        "1": "7/25",
+        "2": "0",
+        "3": "8/25"
+      },
+      "events": {
+        "event_0": [
+          0
+        ],
+        "event_1": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "3/5",
+          "1": "8/25"
+        },
+        "event_inclusion": {
+          "event_0": "3/5",
+          "event_1": "3/5"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "3/5",
+            "event_1": "3/5"
+          },
+          "event_1": {
+            "event_0": "3/5",
+            "event_1": "3/5"
+          }
+        },
+        "expected_inherited_copies": "6/5",
+        "expected_detected_events": "6/5",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "8/3",
+          "values": {
+            "0": "0",
+            "1": "10/3",
+            "3": "10/3"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "3/5",
+            "upper": "3/5",
+            "independent": "3/5"
+          },
+          "event_1": {
+            "lower": "3/5",
+            "upper": "3/5",
+            "independent": "3/5"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_42",
+      "n": 3,
+      "law": {
+        "0": "3/25",
+        "1": "1/50",
+        "2": "3/25",
+        "3": "4/25",
+        "4": "3/25",
+        "5": "1/10",
+        "6": "9/50",
+        "7": "9/50"
+      },
+      "events": {
+        "event_0": [
+          2
+        ],
+        "event_1": [],
+        "event_2": [
+          0,
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "23/50",
+          "1": "16/25",
+          "2": "29/50"
+        },
+        "event_inclusion": {
+          "event_0": "29/50",
+          "event_1": "0",
+          "event_2": "19/25"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "29/50",
+            "event_1": "0",
+            "event_2": "23/50"
+          },
+          "event_1": {
+            "event_0": "0",
+            "event_1": "0",
+            "event_2": "0"
+          },
+          "event_2": {
+            "event_0": "23/50",
+            "event_1": "0",
+            "event_2": "19/25"
+          }
+        },
+        "expected_inherited_copies": "42/25",
+        "expected_detected_events": "67/50",
+        "ht": null,
+        "frechet": {
+          "event_0": {
+            "lower": "29/50",
+            "upper": "29/50",
+            "independent": "29/50"
+          },
+          "event_1": {
+            "lower": "0",
+            "upper": "0",
+            "independent": "0"
+          },
+          "event_2": {
+            "lower": "16/25",
+            "upper": "1",
+            "independent": "1007/1250"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_43",
+      "n": 4,
+      "law": {
+        "0": "7/81",
+        "1": "7/81",
+        "2": "8/81",
+        "3": "5/81",
+        "4": "7/81",
+        "5": "2/27",
+        "6": "4/81",
+        "7": "2/27",
+        "8": "10/81",
+        "9": "1/27",
+        "10": "2/27",
+        "11": "1/81",
+        "12": "1/81",
+        "13": "2/27",
+        "14": "1/27",
+        "15": "1/81"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1
+        ],
+        "event_1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_2": [
+          1,
+          3
+        ],
+        "event_3": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "35/81",
+          "1": "34/81",
+          "2": "34/81",
+          "3": "31/81"
+        },
+        "event_inclusion": {
+          "event_0": "56/81",
+          "event_1": "74/81",
+          "event_2": "2/3",
+          "event_3": "74/81"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "56/81",
+            "event_1": "56/81",
+            "event_2": "43/81",
+            "event_3": "56/81"
+          },
+          "event_1": {
+            "event_0": "56/81",
+            "event_1": "74/81",
+            "event_2": "2/3",
+            "event_3": "74/81"
+          },
+          "event_2": {
+            "event_0": "43/81",
+            "event_1": "2/3",
+            "event_2": "2/3",
+            "event_3": "2/3"
+          },
+          "event_3": {
+            "event_0": "56/81",
+            "event_1": "74/81",
+            "event_2": "2/3",
+            "event_3": "74/81"
+          }
+        },
+        "expected_inherited_copies": "134/27",
+        "expected_detected_events": "86/27",
+        "ht": {
+          "catalogue_size": 4,
+          "expectation": "4",
+          "variance": "353/148",
+          "values": {
+            "0": "0",
+            "1": "7533/2072",
+            "2": "10641/2072",
+            "3": "10641/2072",
+            "4": "81/37",
+            "5": "7533/2072",
+            "6": "10641/2072",
+            "7": "10641/2072",
+            "8": "273/74",
+            "9": "10641/2072",
+            "10": "10641/2072",
+            "11": "10641/2072",
+            "12": "273/74",
+            "13": "10641/2072",
+            "14": "10641/2072",
+            "15": "10641/2072"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "35/81",
+            "upper": "23/27",
+            "independent": "4399/6561"
+          },
+          "event_1": {
+            "lower": "35/81",
+            "upper": "1",
+            "independent": "37966021/43046721"
+          },
+          "event_2": {
+            "lower": "34/81",
+            "upper": "65/81",
+            "independent": "4211/6561"
+          },
+          "event_3": {
+            "lower": "35/81",
+            "upper": "1",
+            "independent": "37966021/43046721"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_44",
+      "n": 5,
+      "law": {
+        "0": "8/175",
+        "1": "3/175",
+        "2": "1/25",
+        "3": "3/175",
+        "4": "4/175",
+        "5": "9/175",
+        "6": "1/35",
+        "7": "1/175",
+        "8": "4/175",
+        "9": "4/175",
+        "10": "3/175",
+        "11": "8/175",
+        "12": "2/35",
+        "13": "8/175",
+        "14": "1/175",
+        "15": "3/175",
+        "16": "9/175",
+        "17": "9/175",
+        "18": "6/175",
+        "19": "1/35",
+        "20": "6/175",
+        "21": "2/175",
+        "22": "8/175",
+        "23": "6/175",
+        "24": "3/175",
+        "25": "8/175",
+        "26": "6/175",
+        "27": "1/25",
+        "28": "4/175",
+        "29": "3/175",
+        "30": "2/175",
+        "31": "2/35"
+      },
+      "events": {
+        "event_0": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "event_1": [
+          1,
+          4
+        ],
+        "event_2": [
+          1,
+          3,
+          4
+        ],
+        "event_3": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "event_4": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "89/175",
+          "1": "81/175",
+          "2": "82/175",
+          "3": "12/25",
+          "4": "94/175"
+        },
+        "event_inclusion": {
+          "event_0": "163/175",
+          "event_1": "5/7",
+          "event_2": "151/175",
+          "event_3": "158/175",
+          "event_4": "167/175"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "163/175",
+            "event_1": "5/7",
+            "event_2": "151/175",
+            "event_3": "22/25",
+            "event_4": "163/175"
+          },
+          "event_1": {
+            "event_0": "5/7",
+            "event_1": "5/7",
+            "event_2": "5/7",
+            "event_3": "116/175",
+            "event_4": "5/7"
+          },
+          "event_2": {
+            "event_0": "151/175",
+            "event_1": "5/7",
+            "event_2": "151/175",
+            "event_3": "142/175",
+            "event_4": "151/175"
+          },
+          "event_3": {
+            "event_0": "22/25",
+            "event_1": "116/175",
+            "event_2": "142/175",
+            "event_3": "158/175",
+            "event_4": "158/175"
+          },
+          "event_4": {
+            "event_0": "163/175",
+            "event_1": "5/7",
+            "event_2": "151/175",
+            "event_3": "158/175",
+            "event_4": "167/175"
+          }
+        },
+        "expected_inherited_copies": "1548/175",
+        "expected_detected_events": "764/175",
+        "ht": {
+          "catalogue_size": 5,
+          "expectation": "5",
+          "variance": "1308869291/649438618",
+          "values": {
+            "0": "0",
+            "1": "13888175/4300918",
+            "2": "18794945701/3247193090",
+            "3": "18794945701/3247193090",
+            "4": "56875/26386",
+            "5": "13888175/4300918",
+            "6": "18794945701/3247193090",
+            "7": "18794945701/3247193090",
+            "8": "2849775075/649438618",
+            "9": "2849775075/649438618",
+            "10": "18794945701/3247193090",
+            "11": "18794945701/3247193090",
+            "12": "2849775075/649438618",
+            "13": "2849775075/649438618",
+            "14": "18794945701/3247193090",
+            "15": "18794945701/3247193090",
+            "16": "96192222/20551855",
+            "17": "18794945701/3247193090",
+            "18": "18794945701/3247193090",
+            "19": "18794945701/3247193090",
+            "20": "18794945701/3247193090",
+            "21": "18794945701/3247193090",
+            "22": "18794945701/3247193090",
+            "23": "18794945701/3247193090",
+            "24": "18794945701/3247193090",
+            "25": "18794945701/3247193090",
+            "26": "18794945701/3247193090",
+            "27": "18794945701/3247193090",
+            "28": "18794945701/3247193090",
+            "29": "18794945701/3247193090",
+            "30": "18794945701/3247193090",
+            "31": "18794945701/3247193090"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "94/175",
+            "upper": "1",
+            "independent": "125471923/133984375"
+          },
+          "event_1": {
+            "lower": "94/175",
+            "upper": "1",
+            "independent": "23011/30625"
+          },
+          "event_2": {
+            "lower": "94/175",
+            "upper": "1",
+            "independent": "666643/765625"
+          },
+          "event_3": {
+            "lower": "89/175",
+            "upper": "1",
+            "independent": "124210819/133984375"
+          },
+          "event_4": {
+            "lower": "94/175",
+            "upper": "1",
+            "independent": "22655607589/23447265625"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_45",
+      "n": 1,
+      "law": {
+        "0": "1/10",
+        "1": "9/10"
+      },
+      "events": {
+        "event_0": [
+          0
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "9/10"
+        },
+        "event_inclusion": {
+          "event_0": "9/10"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "9/10"
+          }
+        },
+        "expected_inherited_copies": "9/10",
+        "expected_detected_events": "9/10",
+        "ht": {
+          "catalogue_size": 1,
+          "expectation": "1",
+          "variance": "1/9",
+          "values": {
+            "0": "0",
+            "1": "10/9"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "9/10",
+            "upper": "9/10",
+            "independent": "9/10"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_46",
+      "n": 2,
+      "law": {
+        "0": "5/28",
+        "1": "9/28",
+        "2": "5/14",
+        "3": "1/7"
+      },
+      "events": {
+        "event_0": [
+          0
+        ],
+        "event_1": [
+          1
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "13/28",
+          "1": "1/2"
+        },
+        "event_inclusion": {
+          "event_0": "13/28",
+          "event_1": "1/2"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "13/28",
+            "event_1": "1/7"
+          },
+          "event_1": {
+            "event_0": "1/7",
+            "event_1": "1/2"
+          }
+        },
+        "expected_inherited_copies": "27/28",
+        "expected_detected_events": "27/28",
+        "ht": {
+          "catalogue_size": 2,
+          "expectation": "2",
+          "variance": "18/13",
+          "values": {
+            "0": "0",
+            "1": "28/13",
+            "2": "2",
+            "3": "54/13"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "13/28",
+            "upper": "13/28",
+            "independent": "13/28"
+          },
+          "event_1": {
+            "lower": "1/2",
+            "upper": "1/2",
+            "independent": "1/2"
+          }
+        }
+      }
+    },
+    {
+      "name": "blind_47",
+      "n": 3,
+      "law": {
+        "0": "9/59",
+        "1": "9/59",
+        "2": "9/59",
+        "3": "8/59",
+        "4": "4/59",
+        "5": "6/59",
+        "6": "4/59",
+        "7": "10/59"
+      },
+      "events": {
+        "event_0": [
+          1,
+          2
+        ],
+        "event_1": [
+          0,
+          2
+        ],
+        "event_2": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "descendant_marginals": {
+          "0": "33/59",
+          "1": "31/59",
+          "2": "24/59"
+        },
+        "event_inclusion": {
+          "event_0": "41/59",
+          "event_1": "41/59",
+          "event_2": "50/59"
+        },
+        "joint_inclusion": {
+          "event_0": {
+            "event_0": "41/59",
+            "event_1": "32/59",
+            "event_2": "41/59"
+          },
+          "event_1": {
+            "event_0": "32/59",
+            "event_1": "41/59",
+            "event_2": "41/59"
+          },
+          "event_2": {
+            "event_0": "41/59",
+            "event_1": "41/59",
+            "event_2": "50/59"
+          }
+        },
+        "expected_inherited_copies": "200/59",
+        "expected_detected_events": "132/59",
+        "ht": {
+          "catalogue_size": 3,
+          "expectation": "3",
+          "variance": "34029/16810",
+          "values": {
+            "0": "0",
+            "1": "5369/2050",
+            "2": "5369/2050",
+            "3": "8319/2050",
+            "4": "8319/2050",
+            "5": "8319/2050",
+            "6": "8319/2050",
+            "7": "8319/2050"
+          }
+        },
+        "frechet": {
+          "event_0": {
+            "lower": "31/59",
+            "upper": "55/59",
+            "independent": "2501/3481"
+          },
+          "event_1": {
+            "lower": "33/59",
+            "upper": "57/59",
+            "independent": "2571/3481"
+          },
+          "event_2": {
+            "lower": "33/59",
+            "upper": "1",
+            "independent": "179899/205379"
+          }
+        }
+      }
+    }
+  ]
+}

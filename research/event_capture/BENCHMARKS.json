@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scope": "finite fixed-event/design expectation identities on synthetic joint genotype-observability laws",
+  "checks": {
+    "constructed_law_normalizations": 30,
+    "constructed_marginal_identities": 69,
+    "sharp_union_endpoint_identities": 20,
+    "independence_union_identities": 10,
+    "event_complement_identities": 120,
+    "pairwise_probability_bounds": 480,
+    "HT_expectation_vs_complete_mask_enumeration": 24,
+    "HT_variance_vs_complete_mask_enumeration": 24,
+    "zero_inclusion_HT_refusals": 6,
+    "explicit_counterexample_identities": 16,
+    "invalid_input_guards": 28
+  },
+  "same_descendant_marginals_different_event_inclusion": {
+    "common": {
+      "law": {
+        "0": "1/2",
+        "3": "1/2"
+      },
+      "one_birth_summary": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "event_inclusion": {
+          "one_birth": "1/2"
+        },
+        "joint_event_inclusion": {
+          "[\"one_birth\",\"one_birth\"]": "1/2"
+        },
+        "expected_observed_carrier_copy_count": "1",
+        "expected_observed_distinct_event_count": "1/2",
+        "ancestry_and_catalogue_supplied_not_authenticated": true
+      },
+      "two_distinct_events_HT": {
+        "fixed_catalogue_size": 2,
+        "design_expectation": "2",
+        "design_variance": "4",
+        "event_inclusion": {
+          "first": "1/2",
+          "second": "1/2"
+        },
+        "joint_event_inclusion": {
+          "[\"first\",\"first\"]": "1/2",
+          "[\"first\",\"second\"]": "1/2",
+          "[\"second\",\"first\"]": "1/2",
+          "[\"second\",\"second\"]": "1/2"
+        },
+        "biological_catalogue_or_mutation_process_identified": false
+      }
+    },
+    "mutually_exclusive": {
+      "law": {
+        "1": "1/2",
+        "2": "1/2"
+      },
+      "one_birth_summary": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "event_inclusion": {
+          "one_birth": "1"
+        },
+        "joint_event_inclusion": {
+          "[\"one_birth\",\"one_birth\"]": "1"
+        },
+        "expected_observed_carrier_copy_count": "1",
+        "expected_observed_distinct_event_count": "1",
+        "ancestry_and_catalogue_supplied_not_authenticated": true
+      },
+      "two_distinct_events_HT": {
+        "fixed_catalogue_size": 2,
+        "design_expectation": "2",
+        "design_variance": "0",
+        "event_inclusion": {
+          "first": "1/2",
+          "second": "1/2"
+        },
+        "joint_event_inclusion": {
+          "[\"first\",\"first\"]": "1/2",
+          "[\"first\",\"second\"]": "0",
+          "[\"second\",\"first\"]": "0",
+          "[\"second\",\"second\"]": "1/2"
+        },
+        "biological_catalogue_or_mutation_process_identified": false
+      }
+    },
+    "independent": {
+      "law": {
+        "0": "1/4",
+        "1": "1/4",
+        "2": "1/4",
+        "3": "1/4"
+      },
+      "one_birth_summary": {
+        "descendant_call_marginals": [
+          "1/2",
+          "1/2"
+        ],
+        "event_inclusion": {
+          "one_birth": "3/4"
+        },
+        "joint_event_inclusion": {
+          "[\"one_birth\",\"one_birth\"]": "3/4"
+        },
+        "expected_observed_carrier_copy_count": "1",
+        "expected_observed_distinct_event_count": "3/4",
+        "ancestry_and_catalogue_supplied_not_authenticated": true
+      },
+      "two_distinct_events_HT": {
+        "fixed_catalogue_size": 2,
+        "design_expectation": "2",
+        "design_variance": "2",
+        "event_inclusion": {
+          "first": "1/2",
+          "second": "1/2"
+        },
+        "joint_event_inclusion": {
+          "[\"first\",\"first\"]": "1/2",
+          "[\"first\",\"second\"]": "1/4",
+          "[\"second\",\"first\"]": "1/4",
+          "[\"second\",\"second\"]": "1/2"
+        },
+        "biological_catalogue_or_mutation_process_identified": false
+      }
+    }
+  },
+  "one_birth_three_inherited_observed_copies": {
+    "descendant_call_marginals": [
+      "1",
+      "1",
+      "1"
+    ],
+    "event_inclusion": {
+      "one_birth": "1"
+    },
+    "joint_event_inclusion": {
+      "[\"one_birth\",\"one_birth\"]": "1"
+    },
+    "expected_observed_carrier_copy_count": "3",
+    "expected_observed_distinct_event_count": "1",
+    "ancestry_and_catalogue_supplied_not_authenticated": true
+  },
+  "distinct_events_same_carriers": {
+    "fixed_catalogue_size": 2,
+    "design_expectation": "2",
+    "design_variance": "4",
+    "event_inclusion": {
+      "first": "1/2",
+      "second": "1/2"
+    },
+    "joint_event_inclusion": {
+      "[\"first\",\"first\"]": "1/2",
+      "[\"first\",\"second\"]": "1/2",
+      "[\"second\",\"first\"]": "1/2",
+      "[\"second\",\"second\"]": "1/2"
+    },
+    "biological_catalogue_or_mutation_process_identified": false
+  },
+  "known_empty_catalogue": {
+    "fixed_catalogue_size": 0,
+    "design_expectation": "0",
+    "design_variance": "0",
+    "event_inclusion": {},
+    "joint_event_inclusion": {},
+    "biological_catalogue_or_mutation_process_identified": false
+  },
+  "maximum_dimension_rare_joint_inclusion": {
+    "law": {
+      "0": "2147483647/2147483648",
+      "255": "1/2147483648"
+    },
+    "events": {
+      "e0": [
+        0
+      ],
+      "e1": [
+        1
+      ],
+      "e2": [
+        2
+      ],
+      "e3": [
+        3
+      ],
+      "e4": [
+        4
+      ],
+      "e5": [
+        5
+      ],
+      "e6": [
+        6
+      ],
+      "e7": [
+        7
+      ]
+    },
+    "HT_summary": {
+      "fixed_catalogue_size": 8,
+      "design_expectation": "8",
+      "design_variance": "137438953408",
+      "event_inclusion": {
+        "e0": "1/2147483648",
+        "e1": "1/2147483648",
+        "e2": "1/2147483648",
+        "e3": "1/2147483648",
+        "e4": "1/2147483648",
+        "e5": "1/2147483648",
+        "e6": "1/2147483648",
+        "e7": "1/2147483648"
+      },
+      "joint_event_inclusion": {
+        "[\"e0\",\"e0\"]": "1/2147483648",
+        "[\"e0\",\"e1\"]": "1/2147483648",
+        "[\"e0\",\"e2\"]": "1/2147483648",
+        "[\"e0\",\"e3\"]": "1/2147483648",
+        "[\"e0\",\"e4\"]": "1/2147483648",
+        "[\"e0\",\"e5\"]": "1/2147483648",
+        "[\"e0\",\"e6\"]": "1/2147483648",
+        "[\"e0\",\"e7\"]": "1/2147483648",
+        "[\"e1\",\"e0\"]": "1/2147483648",
+        "[\"e1\",\"e1\"]": "1/2147483648",
+        "[\"e1\",\"e2\"]": "1/2147483648",
+        "[\"e1\",\"e3\"]": "1/2147483648",
+        "[\"e1\",\"e4\"]": "1/2147483648",
+        "[\"e1\",\"e5\"]": "1/2147483648",
+        "[\"e1\",\"e6\"]": "1/2147483648",
+        "[\"e1\",\"e7\"]": "1/2147483648",
+        "[\"e2\",\"e0\"]": "1/2147483648",
+        "[\"e2\",\"e1\"]": "1/2147483648",
+        "[\"e2\",\"e2\"]": "1/2147483648",
+        "[\"e2\",\"e3\"]": "1/2147483648",
+        "[\"e2\",\"e4\"]": "1/2147483648",
+        "[\"e2\",\"e5\"]": "1/2147483648",
+        "[\"e2\",\"e6\"]": "1/2147483648",
+        "[\"e2\",\"e7\"]": "1/2147483648",
+        "[\"e3\",\"e0\"]": "1/2147483648",
+        "[\"e3\",\"e1\"]": "1/2147483648",
+        "[\"e3\",\"e2\"]": "1/2147483648",
+        "[\"e3\",\"e3\"]": "1/2147483648",
+        "[\"e3\",\"e4\"]": "1/2147483648",
+        "[\"e3\",\"e5\"]": "1/2147483648",
+        "[\"e3\",\"e6\"]": "1/2147483648",
+        "[\"e3\",\"e7\"]": "1/2147483648",
+        "[\"e4\",\"e0\"]": "1/2147483648",
+        "[\"e4\",\"e1\"]": "1/2147483648",
+        "[\"e4\",\"e2\"]": "1/2147483648",
+        "[\"e4\",\"e3\"]": "1/2147483648",
+        "[\"e4\",\"e4\"]": "1/2147483648",
+        "[\"e4\",\"e5\"]": "1/2147483648",
+        "[\"e4\",\"e6\"]": "1/2147483648",
+        "[\"e4\",\"e7\"]": "1/2147483648",
+        "[\"e5\",\"e0\"]": "1/2147483648",
+        "[\"e5\",\"e1\"]": "1/2147483648",
+        "[\"e5\",\"e2\"]": "1/2147483648",
+        "[\"e5\",\"e3\"]": "1/2147483648",
+        "[\"e5\",\"e4\"]": "1/2147483648",
+        "[\"e5\",\"e5\"]": "1/2147483648",
+        "[\"e5\",\"e6\"]": "1/2147483648",
+        "[\"e5\",\"e7\"]": "1/2147483648",
+        "[\"e6\",\"e0\"]": "1/2147483648",
+        "[\"e6\",\"e1\"]": "1/2147483648",
+        "[\"e6\",\"e2\"]": "1/2147483648",
+        "[\"e6\",\"e3\"]": "1/2147483648",
+        "[\"e6\",\"e4\"]": "1/2147483648",
+        "[\"e6\",\"e5\"]": "1/2147483648",
+        "[\"e6\",\"e6\"]": "1/2147483648",
+        "[\"e6\",\"e7\"]": "1/2147483648",
+        "[\"e7\",\"e0\"]": "1/2147483648",
+        "[\"e7\",\"e1\"]": "1/2147483648",
+        "[\"e7\",\"e2\"]": "1/2147483648",
+        "[\"e7\",\"e3\"]": "1/2147483648",
+        "[\"e7\",\"e4\"]": "1/2147483648",
+        "[\"e7\",\"e5\"]": "1/2147483648",
+        "[\"e7\",\"e6\"]": "1/2147483648",
+        "[\"e7\",\"e7\"]": "1/2147483648"
+      },
+      "biological_catalogue_or_mutation_process_identified": false
+    },
+    "complete_mask_HT_values": {
+      "0": "0",
+      "255": "17179869184"
+    }
+  },
+  "route_dependent_event_inclusion_example": {
+    "events": {
+      "R1": [
+        0
+      ],
+      "R2": [
+        1,
+        2
+      ],
+      "R3": [
+        3
+      ]
+    },
+    "per_descendant_marginals": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "true_fixed_events_per_route": 1,
+    "event_inclusion": {
+      "R1": "1/2",
+      "R2": "3/4",
+      "R3": "1/2"
+    },
+    "normalized_expected_detected_event_shares": {
+      "R1": "2/7",
+      "R2": "3/7",
+      "R3": "2/7"
+    },
+    "raw_curvature": "9/4",
+    "expected_share_equality_is_not_a_full_sampling_law_or_causal_effect": true
+  },
+  "biological_catalogue_or_mutation_process_identified": false,
+  "biological_estimator_or_confidence_interval_fitted": false,
+  "actual_study_fields_resolved": 0,
+  "new_count_law_or_error_budget": false,
+  "new_theorem_or_priority_claim": false,
+  "source_acquisitions": 0
+}

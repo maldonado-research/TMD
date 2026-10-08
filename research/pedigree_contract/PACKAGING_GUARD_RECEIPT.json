@@ -1,0 +1,11 @@
+{
+  "actual_fields_resolved": 0,
+  "checks": {
+    "schema_dictionary_matches_all_example_table_fields": true,
+    "verify_contract.py_optimized_refusal": true,
+    "verify_recent_sources.py_optimized_refusal": true
+  },
+  "new_source_requests": 0,
+  "record_id": "R000019",
+  "status": "passed_packaging_semantic_guards"
+}

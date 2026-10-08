@@ -1,0 +1,210 @@
+{
+  "all_actual_study_requirements_fulfilled": false,
+  "record_id": "R000019",
+  "requirements": [
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Matched candidate imaging completeness, identity across transfers, observation gaps, division and elapsed-time exposure definitions remain unchosen.",
+      "id": "M01",
+      "known_source_evidence": "Imaging independently records lineage relationships and division intervals; sequence-only ancestry lacks those division counts.",
+      "ledger_link": [
+        "cells",
+        "divisions",
+        "time_unit"
+      ],
+      "primary_paragraph_anchors": [
+        6,
+        18,
+        46
+      ],
+      "topic": "Optical exposure and identity"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Candidate founder genotype, mosaic starting state, parental alleles and independent reference validation are unresolved.",
+      "id": "M02",
+      "known_source_evidence": "Founder reference is needed at the top split; the source uses separate reference information.",
+      "ledger_link": [
+        "cultures.founder_reference_status",
+        "origin_assignments"
+      ],
+      "primary_paragraph_anchors": [
+        6,
+        58
+      ],
+      "topic": "Ancestor and origin direction"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Actual common ancestor, contexts, allele/copy-number state and background matching need independent qualification.",
+      "id": "M03",
+      "known_source_evidence": "HT115 and RPE1 differ in origin, genotype, media and estimated ploidy; this is no matched TMD context panel.",
+      "ledger_link": [
+        "cultures.background_id",
+        "cultures.context_id"
+      ],
+      "primary_paragraph_anchors": [
+        6,
+        42,
+        50
+      ],
+      "topic": "Matched genetic and environmental background"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Unobserved genotypes cannot be filled as reference; extinct lineages and tracking losses need distinct censored/missing categories.",
+      "id": "M04",
+      "known_source_evidence": "Death is visible in the pedigree; collection, isolation, outgrowth and sequencing each omit cells.",
+      "ledger_link": [
+        "cells.stop_reason",
+        "cells.genotype_status",
+        "cells.stages"
+      ],
+      "primary_paragraph_anchors": [
+        8,
+        33,
+        47
+      ],
+      "topic": "Dead, lost and collection-unavailable cells"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Route-specific origin-to-included-event ascertainment and native control transport are uncalibrated.",
+      "id": "M05",
+      "known_source_evidence": "Source branch calls need related-subclone evidence; caller consistency and nested cell-stage fractions are different measurements.",
+      "ledger_link": [
+        "variant_calls",
+        "origin_assignments",
+        "event_inclusion_control_measurements",
+        "stage_control_measurements"
+      ],
+      "primary_paragraph_anchors": [
+        9,
+        47,
+        65
+      ],
+      "topic": "Event inclusion versus cell-stage recovery"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Lock molecular event/episode units and uncertain branch assignments; do not infer exact event time from inherited copies.",
+      "id": "M06",
+      "known_source_evidence": "A branch variant is shared by descendants and assigned to a lineage segment, not counted as a new birth in every sample.",
+      "ledger_link": [
+        "variant_calls.variant_tag",
+        "origin_assignments.origin_time_window"
+      ],
+      "primary_paragraph_anchors": [
+        8,
+        9,
+        58
+      ],
+      "topic": "Inherited copies and branch-origin units"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Actual branch/caller/quality predicate and handling of leaf-only evidence must be prospectively reviewed.",
+      "id": "M07",
+      "known_source_evidence": "Leaf variants can originate in the last generation, later subclonal growth or technical error.",
+      "ledger_link": [
+        "origin_assignments.classification",
+        "TOY_RULES.json"
+      ],
+      "primary_paragraph_anchors": [
+        8,
+        9
+      ],
+      "topic": "Single-descendant and post-expansion ambiguity"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Actual dependence/episode grouping and a justified observation likelihood remain unresolved; no imported count law.",
+      "id": "M08",
+      "known_source_evidence": "Observed heterogeneity departs from homogeneous Poisson accrual, and neighboring SNVs may share an episode.",
+      "ledger_link": [
+        "synthetic_truth_only",
+        "binomial_or_poisson_count_law_admitted"
+      ],
+      "primary_paragraph_anchors": [
+        24,
+        26
+      ],
+      "topic": "Correlated lesions and heterogeneous accrual"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Actual replicate allocation and donor/founder/batch/shared-culture dependence structure need a study-level design.",
+      "id": "M09",
+      "known_source_evidence": "Displayed related descendants arise from one founder per cell-line background; founding and subsampling are selection bottlenecks.",
+      "ledger_link": [
+        "cultures.dependence_group_id",
+        "cells.culture_id"
+      ],
+      "primary_paragraph_anchors": [
+        6,
+        33
+      ],
+      "topic": "Independent replicate versus nested descendants"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Known-input state-matched event/call controls and uncertainty/transport checks remain missing.",
+      "id": "M10",
+      "known_source_evidence": "Caller sensitivity/specificity are internally estimated from consensus lineage consistency; independent validation is explicitly limited.",
+      "ledger_link": [
+        "variant_calls.call_state",
+        "event_inclusion_control_measurements"
+      ],
+      "primary_paragraph_anchors": [
+        65,
+        67
+      ],
+      "topic": "Independent validation and route controls"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Candidate callable territory, reference version, assay thresholds and immutable route/axis definitions remain unresolved.",
+      "id": "M11",
+      "known_source_evidence": "Copy-number and reference state affect allele interpretation and genomic opportunity.",
+      "ledger_link": [
+        "design_status.actual_route_catalog",
+        "design_status.actual_axis"
+      ],
+      "primary_paragraph_anchors": [
+        50,
+        58
+      ],
+      "topic": "Callability, ploidy and sequence opportunity"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "Prospective thresholds, fixed stopping/looks, held-out eta, multiplicity and joint errors need a qualified plan.",
+      "id": "M12",
+      "known_source_evidence": "Bias checks have limited targets and the study reports insufficient power for time-versus-division discrimination.",
+      "ledger_link": [
+        "design_status.actual_error_stopping_plan",
+        "toy_rules_sha256"
+      ],
+      "primary_paragraph_anchors": [
+        33,
+        37,
+        67
+      ],
+      "topic": "Threshold, stopping and joint uncertainty"
+    },
+    {
+      "candidate_requirement_status": "unresolved",
+      "critical_unresolved_candidate_input": "An actual candidate requires authorized immutable data/version/call receipts and a privacy review; cached summaries do not supply raw data.",
+      "id": "M13",
+      "known_source_evidence": "The source declares sequencing and code accessions; their existence does not establish a replay or reuse license.",
+      "ledger_link": [
+        "SOURCE_LEDGER.json"
+      ],
+      "primary_paragraph_anchors": [
+        78
+      ],
+      "topic": "Data and reproducibility boundary"
+    }
+  ],
+  "scope": "Source-grounded requirements, not an admission decision for an actual study"
+}

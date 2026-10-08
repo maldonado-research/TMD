@@ -1,0 +1,11 @@
+{
+  "new_requests": 0,
+  "normalized_anchors_verified": 16,
+  "raw_source_redistributed": false,
+  "requirement_rows": 13,
+  "source_bytes": 243460,
+  "source_likelihood_or_software_replayed": false,
+  "source_metadata_checks": 5,
+  "source_sha256": "ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5",
+  "status": "passed_cached_primary_and_requirement_anchors"
+}

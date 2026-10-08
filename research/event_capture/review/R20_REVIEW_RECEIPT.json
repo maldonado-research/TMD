@@ -1,0 +1,61 @@
+{
+  "status": "ACCEPT_EXACT_PRODUCER_CANDIDATE_WITH_INDEPENDENT_REVIEW",
+  "candidate": "R000020",
+  "producer_files": {
+    "event_capture.py": {
+      "bytes": 18243,
+      "sha256": "c6324338e0f136bd4ddec51347f5bb5a4eae836f1f67af22ca90ea638dc5302a"
+    },
+    "verify_benchmarks.py": {
+      "bytes": 991,
+      "sha256": "babb3d8e3666ff2ec5adb21a95240894e92915bde26667d8e8be0f9ba4363fee"
+    },
+    "BENCHMARKS.json": {
+      "bytes": 9777,
+      "sha256": "61e87b9ae3803a338fd7bdc72a8ee5dd767d5363b6719c2a8373e5920d0f48b1"
+    },
+    "README.md": {
+      "bytes": 7130,
+      "sha256": "b3b55003e3c391c6b8fb37aed6ad399dea9e3cfa6bd848a4ee1e3988f471586a"
+    },
+    "CONDITIONAL_DERIVATION.md": {
+      "bytes": 7862,
+      "sha256": "4d59f0cf1710b0b7f238809e38f1dceb0594f20b23116e2b15b36ea729ae0095"
+    },
+    "VERIFICATION_RECEIPT.json": {
+      "bytes": 3093,
+      "sha256": "3d9c6a18f5d4973aa513eae3b0d617d4ecc86bc8124cd6993bf0eb929d4dc332"
+    },
+    "LICENSE": {
+      "bytes": 1335,
+      "sha256": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d"
+    },
+    "LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 811,
+      "sha256": "81212e985758b123e510731829ac31d78aa289c9c75967910435a8a0b83ae4d4"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 1466,
+      "sha256": "96e37cfacb263d18690e9f654477aaad44da276063179670f8cd0e1c2811e3f2"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 768,
+      "sha256": "728e08422351e4775ac0c0cf23562fc91f367274b6563d9ce5b13004d3f0df55"
+    }
+  },
+  "producer_checks": 827,
+  "blind_cases": 55,
+  "blind_mask_rows": 593,
+  "independent_checks": 3306,
+  "separate_semantic_checks": 28,
+  "blind_generation_preceded_producer_inspection": true,
+  "blind_input_sha256": "087eaa6bab70d29056065405954d9ba43ff36f4cc3e7a8bb735a36aee985f937",
+  "normal_producer_replay_byte_identical": true,
+  "resolved_corrections": [
+    "Direct event_catalogue helper now validates n; n9/bool guards pass. Main analysis entry points already rejected these inputs; mathematics unchanged."
+  ],
+  "actual_study_inputs_resolved": 0,
+  "external_qualified_biological_review": false,
+  "new_theorem_or_cancer_prevention": false,
+  "reviewed_utc": "2026-10-08T05:12:08.167594+00:00"
+}

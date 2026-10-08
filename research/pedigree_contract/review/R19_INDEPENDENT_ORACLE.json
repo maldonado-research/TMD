@@ -1,0 +1,22 @@
+{
+  "status": "PASS_INDEPENDENT_TOY_PEDIGREE_ENUMERATION",
+  "checks": 18,
+  "tracked_cells": 13,
+  "optical_divisions": 6,
+  "terminal_cells": 7,
+  "tracked_cell_time": "20",
+  "collection_stages": {
+    "available_at_collection": 5,
+    "isolated": 4,
+    "outgrown": 3,
+    "sequenced": 3
+  },
+  "terminal_unknown_genotypes": 4,
+  "detected_alternate_copies": 3,
+  "toy_supported_origin_hypotheses": 1,
+  "leaf_ambiguous_variants": 1,
+  "synthetic_true_origin_count": 2,
+  "truth_is_known_only_in_simulation": true,
+  "actual_parameters_resolved": 0,
+  "mutation_rate_or_event_inclusion_estimated": false
+}
