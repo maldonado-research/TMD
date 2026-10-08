@@ -90,6 +90,14 @@ Producer checks comprise30normalization arithmetic,52source/acquisition,222cance
 
 [R18's exact bounded-curvature tool](curvature_bounds/README.md) tests conditional common-curvature feasibility after independently supplied supply, growth and recovery bounds. It separates free common curvature, a fixed curvature forecast and full conventional supply-growth-recovery proportionality. Wide bounds can leave the question unresolved; empty intersection is conditional algebraic incompatibility, not an empirical rejection without a justified joint uncertainty envelope. The expected-mass model does not supply a culture/founder or first-arrival count law.
 
-Both packages are internally independently checked. No cancer prevention, new mutation mechanism, new theorem or biological fit is established. Read the [current continuation handoff](CONTINUATION_HANDOFF_2026-10-07_R16_R18.md).
+Both packages are internally independently checked. No cancer prevention, new mutation mechanism, new theorem or biological fit is established. Read the [R16/R18 continuation handoff](CONTINUATION_HANDOFF_2026-10-07_R16_R18.md).
 
 Producer checks: R16source/software/stage62; R18synthetic353across10fixtures. Independent R16oracle enumerates494nested stage cases with3516checks. Independent R18blind oracle evaluates65740corner curvatures in38contexts and466comparison/guard checks; an additional semantic reviewer checks10fixture certificates and4160corner values. These are computational checks, not biological replications or external qualified peer review. Frozen0.6.0 excludes these later rounds.
+
+## Pedigree measurement and event capture — 7 October 2026
+
+[R19's pedigree contract](pedigree_contract/README.md) separates observed divisions, inferred origin intervals, inherited copies and unknown genotypes. Its practical ledger and [expert-review packet](pedigree_contract/EXPERT_REVIEW_PACKET.md) specify what qualified biological and statistical review must resolve before a pilot. The example is synthetic; no actual route catalog, model, partner or protocol is selected.
+
+[R20's event-capture methods](event_capture/README.md) show why cell recovery and mutation-event inclusion differ. Two descendants with the same individual call probability of 1/2 can give their shared event inclusion of 1/2, 3/4 or 1 under different dependence. Exact bounds and classical fixed-event sampling identities require supplied ancestry and validated call laws; they do not infer missing mutation births or fit cancer data. The OR-call model is separate from a native caller requiring multiple subclone support.
+
+The recent [MitoTracer source review](pedigree_contract/RECENT_METHODS_REVIEW.json) identifies a 2025 ancestry-method lead, with coverage, marker-selection and small-clone limits. These are internally independently checked source/design and synthetic methods advances, with no cancer-prevention effect or new theorem. Read the [current handoff](CONTINUATION_HANDOFF_2026-10-07_R19_R20.md).

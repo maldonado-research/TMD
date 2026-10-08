@@ -1,0 +1,42 @@
+{
+  "actual_registry_fields_resolved": 0,
+  "core_sha256": {
+    "RECENT_METHODS_REVIEW.json": "87c449917c9b2da5488e6eafc3cee4a591731ec5b717ba53a873df97d95d0bd6",
+    "SYNTHETIC_LEDGER.json": "da8f2795f19d4a8adfee3d2a67776f6cb7b2ae32de37a1ed759bbfb075fd870a",
+    "TOY_RULES.json": "5619183a869c319c93623c1cc4de1f13558fc878d90e8fdcb7d9350f48f4a7a3",
+    "verify_contract.py": "4cbe811a1d76579b451fbe3cd3a8445547b301d840862f5f5012479ddfd91545",
+    "verify_recent_sources.py": "633ca435403d2cce427042641173369da3620f0533a84f72432ea76a800bac9c"
+  },
+  "files": [
+    "EXPERT_REVIEW_PACKET.md",
+    "LEDGER_SCHEMA.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "MANIFEST.json",
+    "OBSERVATION_CONTRACT.md",
+    "PACKAGING_GUARD_RECEIPT.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "RECENT_METHODS_REVIEW.json",
+    "REQUIREMENT_MATRIX.json",
+    "SEMANTIC_CHECK_RECEIPT.json",
+    "SHA256SUMS.txt",
+    "SOURCE_LEDGER.json",
+    "SOURCE_REVIEW_RECEIPT.json",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "SYNTHETIC_LEDGER.json",
+    "TOY_RULES.json",
+    "review/R19_INDEPENDENT_ORACLE.json",
+    "review/R19_REVIEW_RECEIPT.json",
+    "review/R19_SEMANTIC_REVIEW.json",
+    "review/R19_SEMANTIC_REVIEW_NOTES.md",
+    "review/R19_independent_semantic_checks.py",
+    "review/independent_pedigree_oracle.py",
+    "verify_contract.py",
+    "verify_recent_sources.py"
+  ],
+  "raw_primary_or_private_files_included": false,
+  "record_id": "R000019",
+  "status": "accepted_with_internal_independent_review",
+  "independent_review_integrated": true
+}

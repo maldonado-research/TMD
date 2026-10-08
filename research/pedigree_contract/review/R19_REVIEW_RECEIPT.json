@@ -1,0 +1,98 @@
+{
+  "status": "ACCEPT_EXACT_PRODUCER_CANDIDATE_WITH_INDEPENDENT_REVIEW",
+  "candidate": "R000019",
+  "producer_files": {
+    "EXPERT_REVIEW_PACKET.md": {
+      "bytes": 3475,
+      "sha256": "666dcdb22ab846787ec0bbc643260d80c45f9f7342759df05d460bdad226a37b"
+    },
+    "LEDGER_SCHEMA.json": {
+      "bytes": 4991,
+      "sha256": "87358e79315ed1ab30c5e226b94c7c1b116a3433c783d54287419e2aa8c14e1f"
+    },
+    "LICENSE": {
+      "bytes": 1328,
+      "sha256": "2090b42342233e455fbef43b9f20444efaaa869974163945d6d68edda90a79e0"
+    },
+    "LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 859,
+      "sha256": "4ec877e35ec5720842fcb70d19e60fd458f8f43adb9fb83c0baed3042735044e"
+    },
+    "MANIFEST.json": {
+      "bytes": 3008,
+      "sha256": "da2f067d1dc12a652e13ad3ce0ab01ffef0286e689b1ab716171b9e35691ca2e"
+    },
+    "OBSERVATION_CONTRACT.md": {
+      "bytes": 5286,
+      "sha256": "c530be4b642d27316b26b05b9edb00873c2fdd01a1486ae787fd8bc0b9ff3703"
+    },
+    "PACKAGING_GUARD_RECEIPT.json": {
+      "bytes": 324,
+      "sha256": "b418011020f8cc059527896c54c8c422b775af0aeac179c6321372cc78b9b2bb"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 1266,
+      "sha256": "0b7cff84f9376df904d8649f62e7fc59f1cd9ef3184263a43975477086a56e10"
+    },
+    "README.md": {
+      "bytes": 7776,
+      "sha256": "5ca5a4d112a770466986c11c47fdd76c1aa890a3741f26bb73787b9137df3189"
+    },
+    "RECENT_METHODS_REVIEW.json": {
+      "bytes": 7971,
+      "sha256": "87c449917c9b2da5488e6eafc3cee4a591731ec5b717ba53a873df97d95d0bd6"
+    },
+    "REQUIREMENT_MATRIX.json": {
+      "bytes": 8486,
+      "sha256": "26685c56b4fc08836ff371a08b8a0675c78461e1720172a5ba54b662bac32f64"
+    },
+    "SEMANTIC_CHECK_RECEIPT.json": {
+      "bytes": 1384,
+      "sha256": "c0e7a46e58e8f97ad5843040bef9bd0c736ab7a452e5698269666be9677ae3ae"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 1671,
+      "sha256": "f025c769c3f1b6775911bd5e1ea986ab8921fec88dcefcdbea4a9db541e21f9e"
+    },
+    "SOURCE_LEDGER.json": {
+      "bytes": 4169,
+      "sha256": "11d8104e51663ad5ad918cd2de206c28bbae29281235e3efa452a38da8b54c1a"
+    },
+    "SOURCE_REVIEW_RECEIPT.json": {
+      "bytes": 905,
+      "sha256": "27dd0d322cc80ea2151614f4384a65a41ef8e1e7bf8d286e6c5d649e6366f8c5"
+    },
+    "SOURCE_VERIFICATION_RECEIPT.json": {
+      "bytes": 380,
+      "sha256": "951ed95e9d90dac89a688390cd95799f90ff4caf10bd2c8f24885c8913e860bf"
+    },
+    "SYNTHETIC_LEDGER.json": {
+      "bytes": 10841,
+      "sha256": "da8f2795f19d4a8adfee3d2a67776f6cb7b2ae32de37a1ed759bbfb075fd870a"
+    },
+    "TOY_RULES.json": {
+      "bytes": 437,
+      "sha256": "5619183a869c319c93623c1cc4de1f13558fc878d90e8fdcb7d9350f48f4a7a3"
+    },
+    "verify_contract.py": {
+      "bytes": 21339,
+      "sha256": "4cbe811a1d76579b451fbe3cd3a8445547b301d840862f5f5012479ddfd91545"
+    },
+    "verify_recent_sources.py": {
+      "bytes": 6222,
+      "sha256": "633ca435403d2cce427042641173369da3620f0533a84f72432ea76a800bac9c"
+    }
+  },
+  "producer_semantic_checks": 26,
+  "root_independent_toy_checks": 18,
+  "additional_independent_semantic_checks": 144,
+  "source_and_semantic_replay_bytes_match": true,
+  "source_scope": "16 Brody zero-based anchors;12Mitoone-basedanchors;2abstracts;HTmetadataonly;rootread50Mitobodyparagraphs",
+  "resolved_corrections": [
+    "README explicitly routes regenerated reports outside tracked checkout; core code and fixtures unchanged."
+  ],
+  "actual_study_inputs_resolved": 0,
+  "external_qualified_biological_review": false,
+  "new_theorem_or_cancer_prevention": false,
+  "reviewed_utc": "2026-10-08T05:08:41.072055+00:00"
+}

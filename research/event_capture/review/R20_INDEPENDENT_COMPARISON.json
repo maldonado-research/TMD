@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BLIND_EXACT_ORACLE_COMPARISON",
+  "cases": 55,
+  "enumerated_mask_rows": 593,
+  "blind_comparison_checks": 3286,
+  "independent_admission_guards": 17,
+  "valid_32bit_boundary_checks": 3,
+  "total_checks": 3306,
+  "scope": "Conditional fixed-event, supplied carrier and all-target true-call design; no biological fit or sampling confidence claim."
+}

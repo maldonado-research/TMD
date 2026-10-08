@@ -1,0 +1,146 @@
+{
+  "candidate": "R000019",
+  "status": "accepted_for_conditional_design_and_bookkeeping_scope",
+  "checks": {
+    "primary_hashes": 2,
+    "primary_bytes": 2,
+    "article_inventory": 2,
+    "paragraph_inventories": 2,
+    "paragraph_index_ranges": 28,
+    "paragraph_hashes": 28,
+    "primary_DOIs": 2,
+    "primary_PMIDs": 2,
+    "article_CC_BY_4_0": 2,
+    "toy_exposure_counts": 1,
+    "toy_cell_time": 1,
+    "toy_forward_graph_no_repeated_nodes": 25,
+    "toy_complete_founder_graph": 1,
+    "toy_division_links": 6,
+    "toy_nested_stages": 1,
+    "toy_terminal_unknown_set": 1,
+    "unknown_is_not_reference": 1,
+    "toy_complete_target_rows": 1,
+    "toy_inheritance_truth": 6,
+    "toy_observed_carriers": 1,
+    "toy_copies_versus_simulated_origins": 1,
+    "toy_branch_support": 1,
+    "toy_leaf_ambiguity": 1,
+    "toy_locked_predicate_scope": 1,
+    "toy_rule_hash": 1,
+    "actual_choices_NULL": 7,
+    "actual_inputs_and_controls_unresolved": 1,
+    "requirement_matrix_scope": 1,
+    "requirement_mappings": 13,
+    "OR_vs_two_carriers_plus_noncarrier": 1,
+    "capture_predicates_not_exchangeable": 1
+  },
+  "check_total": 144,
+  "sources": [
+    {
+      "doi": "10.1101/gr.238543.118",
+      "raw_sha256": "ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5",
+      "raw_bytes": 243460,
+      "anchor_count": 16,
+      "paragraph_index_convention": "zero_based",
+      "this_reviewer_inspected_all_listed_anchors": true,
+      "full_body_inspection_claimed_by_this_reviewer": false,
+      "equations_pipeline_supplements_raw_data_or_likelihood_replayed": false
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1013090",
+      "raw_sha256": "93641708979bf8ba3400c95bcb36178710798abee9015c95dcb6b1a298a9ac64",
+      "raw_bytes": 132852,
+      "anchor_count": 12,
+      "paragraph_index_convention": "one_based_subtract_one",
+      "this_reviewer_inspected_all_listed_anchors": true,
+      "full_body_inspection_claimed_by_this_reviewer": false,
+      "equations_pipeline_supplements_raw_data_or_likelihood_replayed": false
+    }
+  ],
+  "synthetic_reconstruction": {
+    "tracked_cells": 13,
+    "observed_divisions": 6,
+    "tracked_cell_time": "20",
+    "nested_stages": {
+      "available_at_collection": 5,
+      "isolated": 4,
+      "outgrown": 3,
+      "sequenced": 3
+    },
+    "unsequenced_terminal_genotypes_unknown": [
+      "A121",
+      "A122",
+      "B1",
+      "B22"
+    ],
+    "validated_inherited_copies": 3,
+    "true_origins_known_only_from_simulation": 2,
+    "branch_supported_origin_hypotheses": 1,
+    "leaf_ambiguous_hypotheses": 1
+  },
+  "predicate_boundary_example": {
+    "scope": "exact synthetic review illustration only",
+    "frame": "two true carriers plus one noncarrier; independent correct target-call marginals 1/2",
+    "R20_any_carrier_call": "3/4",
+    "R19_toy_two_carriers_plus_noncarrier_call": "1/8",
+    "source_complete_native_caller_reproduced": false
+  },
+  "review_role": "Independent AI project semantic review; not external qualified biological/statistical peer review",
+  "date_UTC": "2026-10-08T05:07:00Z",
+  "candidate_file_count": 20,
+  "checksum_entries_verified": 19,
+  "candidate_hash_pins": {
+    "verify_contract.py": "4cbe811a1d76579b451fbe3cd3a8445547b301d840862f5f5012479ddfd91545",
+    "SYNTHETIC_LEDGER.json": "da8f2795f19d4a8adfee3d2a67776f6cb7b2ae32de37a1ed759bbfb075fd870a",
+    "TOY_RULES.json": "5619183a869c319c93623c1cc4de1f13558fc878d90e8fdcb7d9350f48f4a7a3",
+    "README.md": "5ca5a4d112a770466986c11c47fdd76c1aa890a3741f26bb73787b9137df3189",
+    "RECENT_METHODS_REVIEW.json": "87c449917c9b2da5488e6eafc3cee4a591731ec5b717ba53a873df97d95d0bd6",
+    "PUBLIC_FILES.json": "0b7cff84f9376df904d8649f62e7fc59f1cd9ef3184263a43975477086a56e10",
+    "MANIFEST.json": "da2f067d1dc12a652e13ad3ce0ab01ffef0286e689b1ab716171b9e35691ca2e",
+    "SHA256SUMS.txt": "f025c769c3f1b6775911bd5e1ea986ab8921fec88dcefcdbea4a9db541e21f9e"
+  },
+  "independent_checker_sha256": "cbdd42893fbad204733c67a4c587835f3116d75f8b742c24777dbc581a650fa5",
+  "producer_code_imported_or_executed_for_this_review": false,
+  "new_network_requests": 0,
+  "reviewed_documents": [
+    "README.md",
+    "OBSERVATION_CONTRACT.md",
+    "EXPERT_REVIEW_PACKET.md",
+    "SOURCE_LEDGER.json",
+    "REQUIREMENT_MATRIX.json",
+    "LEDGER_SCHEMA.json",
+    "SYNTHETIC_LEDGER.json",
+    "TOY_RULES.json",
+    "SOURCE_REVIEW_RECEIPT.json",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "SEMANTIC_CHECK_RECEIPT.json",
+    "verify_contract.py"
+  ],
+  "resolved_correction": {
+    "origin": "Root review",
+    "issue": "README replay commands originally used default output locations that could overwrite tracked packaged receipts",
+    "resolution": "Both examples now explicitly write replay outputs externally; README and packaging hashes refreshed; core and fixtures unchanged",
+    "verified": true
+  },
+  "semantic_findings": {
+    "observation_unit": "Observed divisions and tracked cell-time are exposure records, not inferred mutation-birth counts or automatically independent trials",
+    "replication": "24 primary sequenced subclones are nested in two displayed founders with different backgrounds; not 24 independent matched cultures",
+    "stage_fractions": "Nested cell collection/isolation/outgrowth/sequencing fractions do not identify event inclusion or route-specific controls",
+    "origin_ascertainment": "Two inherited alternate observations plus outside reference and simulated ancestry support one toy interval-origin hypothesis; one-carrier evidence remains ambiguous",
+    "caller_boundary": "Toy at-least-two-carrier plus noncarrier rule is explicitly distinct from R20 any-carrier-call OR model and from the unreplayed complete source caller",
+    "missingness": "Unsequenced terminal genotypes remain unknown; missing target rows cannot become reference calls; lost or dead ancestry is not restored by assertion",
+    "locks_and_actual_inputs": "Hashes pin bytes, not prospective timing/authorship; seven actual design choices remain NULL, both control ledgers empty, registry resolved count zero",
+    "expert_packet": "Requests concrete written feasibility and observation-law assessments; no contact, commissioning, partner, registered pilot, intervention or prevention claim"
+  },
+  "limitations": [
+    "Semantic acceptance does not authenticate an actual experiment, validate biological truth or admit a TMD statistical panel",
+    "Synthetic truth supplies two origins; survivor observations alone do not identify all biological births",
+    "The binary toy graph and illustrative call rules are bookkeeping assumptions awaiting actual-system qualification",
+    "No source equations, likelihood, software, supplements, sequencing reads or patient records were replayed"
+  ],
+  "required_science_changes": [],
+  "actual_study_fields_resolved": 0,
+  "new_theorem_or_priority_claim": false,
+  "clinical_or_cancer_prevention_claim": false,
+  "external_qualified_peer_review_claim": false
+}

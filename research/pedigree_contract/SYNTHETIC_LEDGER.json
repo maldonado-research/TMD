@@ -1,0 +1,401 @@
+{
+  "binomial_or_poisson_count_law_admitted": false,
+  "cells": [
+    {
+      "birth_time": "0",
+      "cell_id": "F",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": null,
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "1",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "1",
+      "cell_id": "A",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "F",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "2",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "1",
+      "cell_id": "B",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "F",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "3",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "2",
+      "cell_id": "A1",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "4",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "2",
+      "cell_id": "A2",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "toy_assayed",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A",
+      "sample_id": "S2",
+      "stages": {
+        "available_at_collection": true,
+        "isolated": true,
+        "outgrown": true,
+        "sequenced": true
+      },
+      "stop_reason": "collection",
+      "stop_time": "6",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "4",
+      "cell_id": "A11",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "toy_assayed",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A1",
+      "sample_id": "S11",
+      "stages": {
+        "available_at_collection": true,
+        "isolated": true,
+        "outgrown": true,
+        "sequenced": true
+      },
+      "stop_reason": "collection",
+      "stop_time": "6",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "4",
+      "cell_id": "A12",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A1",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "5",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "5",
+      "cell_id": "A121",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A12",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": true,
+        "isolated": true,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "collection",
+      "stop_time": "6",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "5",
+      "cell_id": "A122",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "A12",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": true,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "collection",
+      "stop_time": "6",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "3",
+      "cell_id": "B1",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "B",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "death",
+      "stop_time": "4",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "3",
+      "cell_id": "B2",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "B",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "division",
+      "stop_time": "4",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "4",
+      "cell_id": "B21",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "toy_assayed",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "B2",
+      "sample_id": "S21",
+      "stages": {
+        "available_at_collection": true,
+        "isolated": true,
+        "outgrown": true,
+        "sequenced": true
+      },
+      "stop_reason": "collection",
+      "stop_time": "6",
+      "unknown_genotype_is_a_negative_call": false
+    },
+    {
+      "birth_time": "4",
+      "cell_id": "B22",
+      "culture_id": "TOY_CULTURE_1",
+      "genotype_status": "unknown",
+      "imaging_status": "identity_tracked_until_stop",
+      "parent_cell_id": "B2",
+      "sample_id": null,
+      "stages": {
+        "available_at_collection": false,
+        "isolated": false,
+        "outgrown": false,
+        "sequenced": false
+      },
+      "stop_reason": "lost_tracking",
+      "stop_time": "5",
+      "unknown_genotype_is_a_negative_call": false
+    }
+  ],
+  "collection_time": "6",
+  "confidence_power_or_cancer_outcome_claim": false,
+  "cultures": [
+    {
+      "background_id": "TOY_BACKGROUND_UNASSIGNED_TO_ANY_SYSTEM",
+      "batch_id": "TOY_BATCH",
+      "context_id": "TOY_CONTEXT",
+      "culture_id": "TOY_CULTURE_1",
+      "dependence_group_id": "TOY_FOUNDER_F",
+      "founder_cell_id": "F",
+      "founder_reference_status": "simulated_only",
+      "related_descendants_are_independent_biological_replicates": false
+    }
+  ],
+  "design_status": {
+    "actual_axis": null,
+    "actual_count_law": null,
+    "actual_error_stopping_plan": null,
+    "actual_event_inclusion_predicate": null,
+    "actual_partner_protocol": null,
+    "actual_registry_fields_resolved": 0,
+    "actual_route_catalog": null,
+    "actual_system": null,
+    "biological_admission": "blocked"
+  },
+  "divisions": [
+    {
+      "daughter_cell_ids": [
+        "A",
+        "B"
+      ],
+      "division_id": "D1",
+      "parent_cell_id": "F",
+      "time": "1"
+    },
+    {
+      "daughter_cell_ids": [
+        "A1",
+        "A2"
+      ],
+      "division_id": "D2",
+      "parent_cell_id": "A",
+      "time": "2"
+    },
+    {
+      "daughter_cell_ids": [
+        "B1",
+        "B2"
+      ],
+      "division_id": "D3",
+      "parent_cell_id": "B",
+      "time": "3"
+    },
+    {
+      "daughter_cell_ids": [
+        "A11",
+        "A12"
+      ],
+      "division_id": "D4",
+      "parent_cell_id": "A1",
+      "time": "4"
+    },
+    {
+      "daughter_cell_ids": [
+        "B21",
+        "B22"
+      ],
+      "division_id": "D5",
+      "parent_cell_id": "B2",
+      "time": "4"
+    },
+    {
+      "daughter_cell_ids": [
+        "A121",
+        "A122"
+      ],
+      "division_id": "D6",
+      "parent_cell_id": "A12",
+      "time": "5"
+    }
+  ],
+  "event_inclusion_control_measurements": [],
+  "first_arrival_count_law_admitted": false,
+  "origin_assignments": [
+    {
+      "actual_route_label": null,
+      "assigned_cell_segment_id": "A",
+      "assignment_id": "ORIGIN_HYPOTHESIS_A",
+      "classification": "toy_branch_supported_interval",
+      "molecular_event_time_observed_exactly": false,
+      "origin_time_window": [
+        "1",
+        "2"
+      ],
+      "variant_tag": "TOY_VARIANT_A"
+    },
+    {
+      "actual_route_label": null,
+      "assigned_cell_segment_id": null,
+      "assignment_id": "LEAF_AMBIGUOUS_B",
+      "classification": "leaf_ambiguous_not_an_admitted_origin",
+      "molecular_event_time_observed_exactly": false,
+      "origin_time_window": null,
+      "variant_tag": "TOY_VARIANT_B"
+    }
+  ],
+  "provenance": "SYNTHETIC",
+  "purpose": "pedigree_and_ascertainment_bookkeeping_only",
+  "record_id": "R000019",
+  "schema_version": 1,
+  "stage_control_measurements": [],
+  "synthetic_truth_only": [
+    {
+      "new_origin_segment": "A",
+      "variant_tag": "TOY_VARIANT_A"
+    },
+    {
+      "new_origin_segment": "B",
+      "variant_tag": "TOY_VARIANT_B"
+    }
+  ],
+  "time_unit": "arbitrary_synthetic_time_units",
+  "toy_locks_fixed_before_toy_observations": true,
+  "toy_rules_sha256": "5619183a869c319c93623c1cc4de1f13558fc878d90e8fdcb7d9350f48f4a7a3",
+  "variant_calls": [
+    {
+      "call_state": "toy_validated_alternate",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S2",
+      "variant_tag": "TOY_VARIANT_A"
+    },
+    {
+      "call_state": "toy_validated_reference",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S2",
+      "variant_tag": "TOY_VARIANT_B"
+    },
+    {
+      "call_state": "toy_validated_alternate",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S11",
+      "variant_tag": "TOY_VARIANT_A"
+    },
+    {
+      "call_state": "toy_validated_reference",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S11",
+      "variant_tag": "TOY_VARIANT_B"
+    },
+    {
+      "call_state": "toy_validated_reference",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S21",
+      "variant_tag": "TOY_VARIANT_A"
+    },
+    {
+      "call_state": "toy_validated_alternate",
+      "molecular_truth_is_known_only_in_simulation": true,
+      "sample_id": "S21",
+      "variant_tag": "TOY_VARIANT_B"
+    }
+  ]
+}

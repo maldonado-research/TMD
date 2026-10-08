@@ -61,3 +61,12 @@ Original files were preserved. These forward-analysis corrections do not silentl
 | Common corrected curvature under bounded factors | [R18](research/curvature_bounds/README.md), positive expected masses and independent Cartesian real parameter bounds | Empty intersection is conditional algebraic incompatibility; overlap is not support. No sample CI, P value, power or count law. |
 | Conventional explanation | Separate full proportionality gate | NecessaryK=1 with free axis tilt is insufficient for full supply-growth-recovery fit. |
 | Biological status | Measurement and methods candidates only | All26 bacterial inputs unresolved; actual cancer categories, axis, matched model/partner/protocol and prevention result remain unchosen. |
+
+## R19/R20 internally reviewed progress
+
+| Material | Supported scope | Boundary |
+| --- | --- | --- |
+| Pedigree/event ledger and expert packet | Source-grounded prospective records and a synthetic example | Optical divisions, retained genotypes and inferred origins differ; actual study inputs remain unresolved. |
+| Recent MitoTracer method | One 2025 primary narrative/methods assessment after a two-record targeted screen | Informative mitochondrial ancestry markers are not a complete nuclear mutation-birth census or prevention evidence. |
+| Event-capture mathematics | Exact finite true-call masks, supplied carrier sets, sharp union bounds and classical HT identities | Marginals do not establish dependence; unknown/zero-inclusion events are not reconstructed; no empirical CI or mutation likelihood. |
+| Native assay compatibility | Multiple-support caller distinguished from any-call toy model | A passing toy or source audit does not authenticate native controls or a biological TMD test. |

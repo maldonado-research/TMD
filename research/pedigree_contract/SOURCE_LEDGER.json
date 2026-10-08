@@ -1,0 +1,104 @@
+{
+  "new_source_requests": 0,
+  "no_raw_source_or_private_archive_copy": true,
+  "primary": {
+    "article_license": "CC BY 4.0 verified in cached XML",
+    "body_paragraph_count": 80,
+    "doi": "10.1101/gr.238543.118",
+    "first_author": "Yehuda Brody",
+    "normalization": "Join itertext without delimiters, collapse whitespace to single spaces, UTF-8 encode, SHA256",
+    "paragraph_indices_are_zero_based": true,
+    "pmcid": "PMC6280753",
+    "pmid": "30459213",
+    "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6280753/",
+    "raw_article_text_redistributed": false,
+    "raw_xml_bytes": 243460,
+    "raw_xml_sha256": "ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5",
+    "source_software_article_license_is_not_a_software_reuse_license": true,
+    "supplements_movies_raw_reads_or_pipeline_replayed": false,
+    "title": "Quantification of somatic mutation flow across individual cell division events by lineage sequencing",
+    "verified_anchors": [
+      {
+        "body_paragraph_index": 6,
+        "normalized_paragraph_sha256": "6ded9970343b9b40c8b4ec072709cbbb7cc56b6436bd6d46ec2379b5de937c64"
+      },
+      {
+        "body_paragraph_index": 8,
+        "normalized_paragraph_sha256": "d66b0f1db05f6728ecc8f502da1bfd8aeed3a94e9ee4bcc62bc28b551ea137e1"
+      },
+      {
+        "body_paragraph_index": 9,
+        "normalized_paragraph_sha256": "6f8d9968d4eef1d021ecb817616bb817ea73468860a17774913488ce6c9566b0"
+      },
+      {
+        "body_paragraph_index": 18,
+        "normalized_paragraph_sha256": "76d7a3542c078113468b7a1b0a14720bc0e82851518c5ae80dc309cc4dd6cd76"
+      },
+      {
+        "body_paragraph_index": 24,
+        "normalized_paragraph_sha256": "1a8ff506ed91cdd8db3041f2ad7e8519b4a0266b5d81506abdd755bf4202e680"
+      },
+      {
+        "body_paragraph_index": 26,
+        "normalized_paragraph_sha256": "2ed3e150d40982ea7b7e3486ee0905034ad8fd4993594249d72e501028d3295e"
+      },
+      {
+        "body_paragraph_index": 33,
+        "normalized_paragraph_sha256": "53887cd4db12e5ffe4fc0627c41b77a33014c0d08cf8bd89fa9433241f6bf206"
+      },
+      {
+        "body_paragraph_index": 37,
+        "normalized_paragraph_sha256": "cabb7d6596210d1ffd54fac3855e15e7c4d9ebdf8d6d51d6af312d26a2e83dad"
+      },
+      {
+        "body_paragraph_index": 42,
+        "normalized_paragraph_sha256": "402e6a594181b8618386ea87f59ecd32e3bf621c59a7a52306c9b906129cce38"
+      },
+      {
+        "body_paragraph_index": 46,
+        "normalized_paragraph_sha256": "ed032ee0c7fc25fd868d3fc9b242e0b6e6a82490fa15e0ef3485519d18db3499"
+      },
+      {
+        "body_paragraph_index": 47,
+        "normalized_paragraph_sha256": "1ff1ab7a21d6a1fb6e2d5966759cd9e7abe5ac5a0b9dea596940ad3e57d2b446"
+      },
+      {
+        "body_paragraph_index": 50,
+        "normalized_paragraph_sha256": "0853f04bfdd024b94aa1382e7726f730d61e17997cb636e0b1a270909c2c0d47"
+      },
+      {
+        "body_paragraph_index": 58,
+        "normalized_paragraph_sha256": "94ef22ad585b565fa4dbfb0bbd8295798dae92476d0f3706675ae50c197194f1"
+      },
+      {
+        "body_paragraph_index": 65,
+        "normalized_paragraph_sha256": "ecf63b28384fb270c50b317abfc9ec4d9eac1f6defedea65f72efde9d5bb4c01"
+      },
+      {
+        "body_paragraph_index": 67,
+        "normalized_paragraph_sha256": "a8ddad2d2c3e8b475928f1a57cadbe81fe7a44ed3f669cfc7d41250ac3f4fa74"
+      },
+      {
+        "body_paragraph_index": 78,
+        "normalized_paragraph_sha256": "f53d6bed432feed896ac60d1ecfc17d0dbf711e75052f1c18d31781722bc73fc"
+      }
+    ],
+    "year": 2018
+  },
+  "public_contracts": [
+    {
+      "path": "research/CONTINUATION_HANDOFF_2026-10-07_R16_R18.md",
+      "sha256": "37f6e79a730b512c2e1c9057f76a49f5d361c09a549251461fe92c4d0bbb4f0a"
+    },
+    {
+      "path": "research/cancer_translation/DESIGN_CONTRACT.md",
+      "sha256": "f1786c6edef2397c7449bc105dd29fee45335ba78a784e025a37ec39cdb1360f"
+    },
+    {
+      "path": "research/epithelial_lineage/README.md",
+      "sha256": "0220833fca91ac275e8bba338165898e07357da9e1eb821cdb018aaa4b630772"
+    }
+  ],
+  "record_id": "R000019",
+  "source_scope": "Cached primary reread and existing public contracts only"
+}

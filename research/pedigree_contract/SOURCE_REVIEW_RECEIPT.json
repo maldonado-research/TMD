@@ -1,0 +1,17 @@
+{
+  "Brody_paragraph_indices_zero_based_separate_ledger": true,
+  "HT_inspection": "Crossref bibliography only; primary text not read",
+  "Mito_full_50_paragraph_inspection_claim_belongs_to_root_not_R19": true,
+  "Mito_paragraph_anchors_verified_and_read": 12,
+  "Mito_paragraph_indices_one_based_subtract_one": true,
+  "Mito_primary_sha256": "93641708979bf8ba3400c95bcb36178710798abee9015c95dcb6b1a298a9ac64",
+  "R19_source_requests": 0,
+  "actual_event_inclusion_parameter_or_TMD_panel_supplied": false,
+  "equations_code_simulations_or_raw_data_replayed": false,
+  "raw_source_bodies_published": false,
+  "root_recent_review_sha256": "87c449917c9b2da5488e6eafc3cee4a591731ec5b717ba53a873df97d95d0bd6",
+  "root_response_bytes": 220395,
+  "root_source_requests": 4,
+  "status": "passed_independent_narrow_cached_recent_source_review",
+  "two_PubMed_candidate_abstracts_read_and_metadata_checked": true
+}

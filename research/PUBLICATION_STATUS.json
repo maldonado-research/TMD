@@ -64,5 +64,14 @@
   },
   "coordination": "User confirmed on7October2026 that this chat handlesTMDpublication andanotherchat isnoteditingit.",
   "latest_read_only_recheck": "publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json",
-  "read_only_recheck_scope": "R16/R18: two authenticated owned same-family GETs; draft23219776 remains unsubmitted with six inherited files and absent frozen0.6.0ZIP. No writes, newdraft, release or publication attempt."
+  "read_only_recheck_scope": "R16/R18: two authenticated owned same-family GETs; draft23219776 remains unsubmitted with six inherited files and absent frozen0.6.0ZIP. No writes, newdraft, release or publication attempt.",
+  "github_research_addenda": {
+    "latest_rounds": [
+      "R000019",
+      "R000020"
+    ],
+    "handoff": "CONTINUATION_HANDOFF_2026-10-07_R19_R20.md",
+    "zenodo_requests_this_round": 0,
+    "frozen_0_6_0_includes_these_addenda": false
+  }
 }

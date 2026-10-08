@@ -1,0 +1,21 @@
+{
+  "id": "R000019",
+  "status": "completed_internal_review",
+  "date": "2026-10-07",
+  "timezone": "America/Los_Angeles",
+  "report": "../pedigree_contract/README.md",
+  "completion_scope": "prospective_contract_and_synthetic_bookkeeping",
+  "details": {
+    "source_requests": 4,
+    "source_response_bytes": 220395,
+    "producer_semantic_checks": 26,
+    "root_toy_checks": 18,
+    "independent_semantic_checks": 144
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false
+}

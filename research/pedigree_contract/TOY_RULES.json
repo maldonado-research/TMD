@@ -1,0 +1,12 @@
+{
+  "actual_axis": null,
+  "actual_error_stopping_plan": null,
+  "ancestor_reference_status": "simulated_only",
+  "event_unit": "opaque_toy_variant_tag",
+  "minimum_negative_outgroup_descendants": 1,
+  "minimum_positive_descendants": 2,
+  "provenance": "SYNTHETIC",
+  "purpose": "Opaque bookkeeping example; no biological catalog",
+  "single_descendant_policy": "leaf_ambiguous_not_an_admitted_origin",
+  "statistical_count_law": null
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "candidate": "R000020",
+  "date": "2026-10-07 America/Los_Angeles",
+  "status": "passed_conditional_fixed_event_design_methods",
+  "python_version": "3.12.14",
+  "dependencies": "Python standard library only",
+  "verification_command": "python3 -B verify_benchmarks.py --output <external temporary output> --check-against BENCHMARKS.json",
+  "exact_benchmark_checks": {
+    "constructed_law_normalizations": 30,
+    "constructed_marginal_identities": 69,
+    "sharp_union_endpoint_identities": 20,
+    "independence_union_identities": 10,
+    "event_complement_identities": 120,
+    "pairwise_probability_bounds": 480,
+    "HT_expectation_vs_complete_mask_enumeration": 24,
+    "HT_variance_vs_complete_mask_enumeration": 24,
+    "zero_inclusion_HT_refusals": 6,
+    "explicit_counterexample_identities": 16,
+    "invalid_input_guards": 28
+  },
+  "exact_benchmark_check_total": 827,
+  "normal_replay_byte_identical": true,
+  "optimized_verification_guards": [
+    {
+      "mode": "-O",
+      "CLI_refused": true,
+      "library_benchmarks_refused": true,
+      "rejected_output_absent": true,
+      "explicit_engine_guards_retained": 8,
+      "direct_event_catalogue_n9_and_bool_refused": true
+    },
+    {
+      "mode": "-OO",
+      "CLI_refused": true,
+      "library_benchmarks_refused": true,
+      "rejected_output_absent": true,
+      "explicit_engine_guards_retained": 8,
+      "direct_event_catalogue_n9_and_bool_refused": true
+    }
+  ],
+  "public_domain": {
+    "descendants": "integer 0..8",
+    "distinct_event_IDs": "0..8",
+    "external_rational_numerator_denominator_bit_cap": 32,
+    "complete_joint_mask_probabilities": "nonnegative normalized exact rational law",
+    "ancestry_and_carrier_sets": "explicit supplied assumptions, not authenticated",
+    "HT_total_requires": "positive inclusion for every fixed target event",
+    "derived_helper_outputs_always_within_external_cap": false
+  },
+  "engine_sha256": "c6324338e0f136bd4ddec51347f5bb5a4eae836f1f67af22ca90ea638dc5302a",
+  "benchmark_sha256": "61e87b9ae3803a338fd7bdc72a8ee5dd767d5363b6719c2a8373e5920d0f48b1",
+  "producer_source_acquisitions": 0,
+  "parent_HT_reference_inspection_depth": "Crossref bibliographic metadata only; no primary full text",
+  "all_fixtures_synthetic": true,
+  "biological_catalogue_or_mutation_process_identified": false,
+  "biological_estimator_or_confidence_interval_fitted": false,
+  "actual_study_fields_resolved": 0,
+  "existing_error_budgets_count_laws_and_stopping_rules_changed": false,
+  "external_qualified_biological_peer_review": false,
+  "new_theorem_or_priority_claim": false,
+  "independent_review_included_in_this_producer_receipt": false,
+  "review_correction": {
+    "origin": "Independent internal semantic review",
+    "issue": "Direct event_catalogue helper omitted descendant-count admission",
+    "resolution": "Helper now calls descendant_count; direct n9 and bool guard cases added",
+    "scientific_equations_and_synthetic_fixture_values_changed": false,
+    "original_error_budgets_count_laws_and_stopping_rules_changed": false
+  }
+}
