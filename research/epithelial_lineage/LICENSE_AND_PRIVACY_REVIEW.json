@@ -1,0 +1,17 @@
+{
+  "status": "original_public_safe_content",
+  "included": "Original one-study epithelial lineage assessment, attributed metadata and source-anchor hashes, source-stage descriptive bookkeeping, original verifier and computational receipts.",
+  "excluded": ["private archive", "uploaded transcripts", "raw article body", "patient raw data", "SRA reads", "controlled comparison reads", "mutation archives", "third-party notebooks", "movies/images", "personal/contact details", "credentials", "machine paths"],
+  "notes_license": "CC BY4.0",
+  "original_verifier_license": "MIT",
+  "primary_article_license": "CC BY4.0 verified in XML permissions; source authors attributed.",
+  "github_code_and_mutation_archive_license": "Reuse license not established; no LICENSE file in the inspected six-file pinned tree. Paper license is not assumed to govern these assets.",
+  "third_party_raw_redistribution": false,
+  "untrusted_pickle_loaded": false,
+  "biological_results_invented": false,
+  "external_peer_review_claimed": false,
+  "clinical_prevention_result_claimed": false,
+  "new_source_requests": 7,
+  "recorded_response_bytes": 684580,
+  "patient_raw_data_acquired": false
+}

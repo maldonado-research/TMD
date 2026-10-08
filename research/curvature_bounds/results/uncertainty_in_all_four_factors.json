@@ -1,0 +1,133 @@
+{
+  "K_definition": "m2^2*q1*q3*g1*g3*r1*r3/(m1*m3*q2^2*g2^2*r2^2)",
+  "K_equals": "exp(2*theta) under admitted residual endpoint model",
+  "contexts": [
+    {
+      "K_interval": {
+        "closed": true,
+        "lower": "5/864",
+        "sharp_under_admitted_cartesian_bounds": true,
+        "upper": "16"
+      },
+      "conventional_qgr_model": {
+        "context_wide_exposure_scale_is_free": true,
+        "route_scale_intervals": [
+          {
+            "lower": "1",
+            "upper": "16"
+          },
+          {
+            "lower": "1/3",
+            "upper": "2"
+          },
+          {
+            "lower": "1/4",
+            "upper": "6/5"
+          }
+        ],
+        "scale_intersection_lower": "1",
+        "scale_intersection_upper": "6/5",
+        "status": "conditionally_feasible",
+        "theta_and_eta_fixed_zero": true
+      },
+      "corner_witnesses_are_rational": true,
+      "interior_feasibility_is_over_positive_real_parameters": true,
+      "maximum_corner": {
+        "endpoint_masses": [
+          "1",
+          "3",
+          "3"
+        ],
+        "growth_yields": [
+          "1",
+          "1",
+          "3"
+        ],
+        "recovery_probabilities": [
+          "1/2",
+          "1/2",
+          "2/3"
+        ],
+        "supply_weights": [
+          "2",
+          "3",
+          "6"
+        ]
+      },
+      "minimum_corner": {
+        "endpoint_masses": [
+          "2",
+          "2",
+          "4"
+        ],
+        "growth_yields": [
+          "1/2",
+          "2",
+          "2"
+        ],
+        "recovery_probabilities": [
+          "1/4",
+          "3/4",
+          "1/3"
+        ],
+        "supply_weights": [
+          "1",
+          "4",
+          "5"
+        ]
+      },
+      "name": "all_four_factors"
+    }
+  ],
+  "conventional_qgr_necessary_curvature_condition": {
+    "eta_is_free_not_a_complete_probability_forecast": true,
+    "incompatible_contexts": [],
+    "is_statistical_rejection": false,
+    "status": "conditionally_feasible",
+    "target_K": "1"
+  },
+  "conventional_supply_growth_recovery_model": {
+    "incompatible_contexts": [],
+    "is_statistical_rejection": false,
+    "status": "conditionally_feasible",
+    "theta_and_eta_fixed_zero": true
+  },
+  "culture_founder_lineage_count_law_admitted": false,
+  "empirical_histogram_confidence_or_power_claim": false,
+  "fixed_curvature_forecast": {
+    "eta_is_free_not_a_complete_probability_forecast": true,
+    "incompatible_contexts": [],
+    "is_statistical_rejection": false,
+    "status": "conditionally_feasible",
+    "target_K": "16"
+  },
+  "free_common_curvature": {
+    "between_context_sharing_evaluable": false,
+    "comparison_cross_products": {
+      "lower_numerator_times_upper_denominator": "5",
+      "upper_numerator_times_lower_denominator": "13824"
+    },
+    "compatibility_is_not_predictive_or_causal_support": true,
+    "contact_only": false,
+    "intersection_empty": false,
+    "intersection_lower": "5/864",
+    "intersection_upper": "16",
+    "is_statistical_rejection": false,
+    "limiting_lower_contexts": [
+      "all_four_factors"
+    ],
+    "limiting_upper_contexts": [
+      "all_four_factors"
+    ],
+    "status": "conditionally_feasible",
+    "touching_is_feasible": true
+  },
+  "input_sha256": "6e2d94a3e525982e9c84140026636e7c7e9c30669ecbb413a3e78c1a7285b98b",
+  "provenance": "synthetic",
+  "rational_interval_endpoints_do_not_imply_rational_interior_witness": true,
+  "record_id": "R000018",
+  "schema_version": 1,
+  "scope": "conditional exact feasibility for positive expected endpoint masses",
+  "simplex_constrained_coordinate_share_bounds_admitted": false,
+  "source_assumptions_authenticated_by_engine": false
+}

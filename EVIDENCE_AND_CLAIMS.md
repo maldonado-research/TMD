@@ -51,3 +51,13 @@ Keep observations, secondary transcriptions, simulations, mathematical theorems,
 Hash verification authenticates an artifact's bytes. It does not authenticate the experiment, causal interpretation, or accuracy of metadata. A DOI or public repository makes work accessible and citable; it does not replace scientific review.
 
 Original files were preserved. These forward-analysis corrections do not silently rewrite historical archives. The current claims ledger takes precedence over an inherited fixture's stronger interpretation.
+
+## R16/R18 internally reviewed advances
+
+| Claim | Supported scope | Boundary |
+| --- | --- | --- |
+| Optical pedigree measurement lead | Brody et al.2018 main source and pinned software identity; [R16](research/epithelial_lineage/README.md) | Twenty-four related primary subclones from two founders; unmatched backgrounds and ungenotyped losses, not a TMD validation cohort. |
+| Source stage fractions11/45 and13/26 | Exact descriptive nested bookkeeping | Neither known-input route capture nor mutation births; channel cells are not all cells ever born. |
+| Common corrected curvature under bounded factors | [R18](research/curvature_bounds/README.md), positive expected masses and independent Cartesian real parameter bounds | Empty intersection is conditional algebraic incompatibility; overlap is not support. No sample CI, P value, power or count law. |
+| Conventional explanation | Separate full proportionality gate | NecessaryK=1 with free axis tilt is insufficient for full supply-growth-recovery fit. |
+| Biological status | Measurement and methods candidates only | All26 bacterial inputs unresolved; actual cancer categories, axis, matched model/partner/protocol and prevention result remain unchosen. |

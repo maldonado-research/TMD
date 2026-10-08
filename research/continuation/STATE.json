@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000015",
-    "next_round_id": "R000016",
+    "last_completed_round": "R000018",
+    "next_round_id": "R000019",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -40,8 +40,8 @@
     "unpublished_methods_candidate": "0.6.0",
     "preserved_synthetic_datasets": 160,
     "new_transport_unit_tests": 44,
-    "latest_primary_source_audit_round": "R000015",
-    "latest_primary_source_audit_articles": 2,
+    "latest_primary_source_audit_round": "R000016",
+    "latest_primary_source_audit_articles": 1,
     "latest_design_round": "R000003",
     "design_round_outcome": "design_only",
     "registered_experiment": false,
@@ -58,7 +58,7 @@
     "raw_data_audit_culture_occurrences": 24,
     "raw_data_audit_sequence_reads": 711,
     "raw_data_audit_checks": 986,
-    "latest_primary_source_audit_scope": "foundational human2018 main narrative and mouse2021 available main methods; supplements/raw data unacquired",
+    "latest_primary_source_audit_scope": "Brody2018 main80paragraphs and pinned six-file software identity; raw variants/notebooks/supplements unacquired",
     "latest_conditional_methods_round": "R000007",
     "nominal_plating_geometry_rows": 24,
     "conditional_thinning_checks": 48,
@@ -141,7 +141,24 @@
     "cancer_translation_independent_cases": 1280,
     "cancer_translation_independent_checks": 11561,
     "cancer_route_catalog_or_axis_selected": false,
-    "cancer_biological_fit_or_prevention_result": false
+    "cancer_biological_fit_or_prevention_result": false,
+    "latest_epithelial_lineage_round": "R000016",
+    "epithelial_metadata_abstract_candidates": 12,
+    "epithelial_measurement_rows": 24,
+    "epithelial_source_requests": 7,
+    "epithelial_source_response_bytes": 684580,
+    "epithelial_producer_checks": 62,
+    "epithelial_independent_stage_cases": 494,
+    "epithelial_independent_checks": 3516,
+    "epithelial_matched_panel_admitted": false,
+    "latest_bounded_curvature_round": "R000018",
+    "curvature_synthetic_fixtures": 10,
+    "curvature_producer_checks": 353,
+    "curvature_independent_contexts": 38,
+    "curvature_independent_corner_evaluations": 65740,
+    "curvature_independent_comparison_guard_checks": 466,
+    "curvature_empirical_CI_or_power": false,
+    "curvature_count_or_cancer_law_admitted": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -192,8 +209,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R14/R15: reporting normalization audit with raw acquisition blocked, conditional cancer-domain observation contract and classical growth/recovery expected-mixture mimic; internal independent review accepted.",
-    "next_action": "Screen one publicly documented epithelial lineage experiment for independently measured new-origin supply, growth/loss and recovery in a justified matched background; do not infer these from clone abundance. Actual cancer catalogs/axis require expert review. Raw S1 normalization remains blocked until authoritative access/reporting prerequisites change; no unchanged retries. R11 historical author inputs and all26actual bacterial study fields remain unresolved.",
+    "last_completed_step": "R16observed epithelial-pedigree/source-stage measurement lead and R18exact bounded expected-mass curvature/full-conventional feasibility; internal independent source/method/semantic review accepted.",
+    "next_action": "Establish a source-grounded pedigree-event ascertainment and exposure contract for a matched epithelial candidate, including lost/unrecovered lineages and separately measured route recovery, before any rate or curvature fit. Actual cancer catalogs/axis/model need qualified biological review. R17 supplement reporting, R11 historical submissions and all26actual bacterial fields remain blocked; no unchanged retries.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -238,7 +255,15 @@
       "research/cancer_translation/VERIFICATION_RECEIPT.json": "8b88d7295b0a4b19c6ff96fd334db66d8c11edbcb04070661a1b29f0c3e300b9",
       "research/cancer_translation/review/R15_REVIEW_RECEIPT.json": "5ce07c827d74868e9ea9df92ce139adfcac29ea421b76cc27cce5c6ca7b2cc8e",
       "research/cancer_translation/review/R15_SEMANTIC_REVIEW.json": "47b8b1b35f3c4b3f38088f2cb44ddd6b260a0479827c7487b3c220108cf8a8c3",
-      "research/publication_diagnostics/2026-10-07_R14_R15_READ_ONLY_RECEIPT.json": "a20639ab95d53152f6db8d92b30f321f51628dce854a5660f5c8e6d35af007e5"
+      "research/publication_diagnostics/2026-10-07_R14_R15_READ_ONLY_RECEIPT.json": "a20639ab95d53152f6db8d92b30f321f51628dce854a5660f5c8e6d35af007e5",
+      "research/epithelial_lineage/SHA256SUMS.txt": "5ea0edce89c373a8e626b4a64b1b582deb260d00158f3b10dfdccc05f0636fce",
+      "research/epithelial_lineage/AUDIT_RESULTS.json": "d740cdbad9a8e89d2487eb1a5fbceb1141bd1324b3f4d2e19e705fffeb22250e",
+      "research/epithelial_lineage/review/R16_REVIEW_RECEIPT.json": "d13ef967e110858c1b84243df25b720897c1c295416ed1e4186ad3337b0edd69",
+      "research/curvature_bounds/SHA256SUMS.txt": "695e4be1feff3eb4e2788b59ee07b199fd50d4f9df09b1b451d728b3077be301",
+      "research/curvature_bounds/PRODUCER_RECEIPT.json": "2e9d6f16eab8ce3bed6c4fc8344318b0a62e1108c53189175d746ec9e1fc7f46",
+      "research/curvature_bounds/review/R18_REVIEW_RECEIPT.json": "5b0de875343b4f5fa63776c0206c9aaebf641c69f625e57643c5e44f7e1a71ef",
+      "research/curvature_bounds/review/R18_SEMANTIC_REVIEW.json": "80f21fca6628b1b5e6dfe66b22d715b104cfb1533ced729150a8b202e716b4bb",
+      "research/publication_diagnostics/2026-10-07_R16_R18_READ_ONLY_RECEIPT.json": "6f4aa4c12d382243b4dcc8801557a025994e3a87c587efa31839d8649e0979a8"
     }
   },
   "reviewed_checkpoint": {
@@ -257,7 +282,9 @@
       "R000012",
       "R000013",
       "R000014",
-      "R000015"
+      "R000015",
+      "R000016",
+      "R000018"
     ],
     "blocked_work_items": [
       {
@@ -297,8 +324,9 @@
       "R000012 DOI10.1039/d6lc00655h; PMID42831674 metadata/abstract only; electronicdate2026-10-05; relativecomparisonnotabsolutecapture. R000013 original conditional synthetic mathematics; no new biological cohort.",
       "R000014 reuses R12 clinical/PA14 cohort;fournewdeclaredsupplement/package endpoints,noDOCX;cachedhashes retained,71716failure-responsebytes;conditional reporting arithmetic not clinical data.",
       "R000015 DOI10.1126/science.aau3879;PMC6298579main28paragraphsSHA256dc9bfde4056846df491f4540490b7a9abcc2a0af842f8c262ae3180bb6e8a000;844samples/9donors;MethodsS1-S7unacquired;noTMDcancerfit.",
-      "R000015 DOI10.1038/s41586-021-03965-7;PMC7612642main/availablemethods71paragraphs;sourcehash in cancer_translation/SOURCE_LEDGER.json;mouse nested units,separate simulations,unknownhumantranslation;noTMDprevention."
+      "R000015 DOI10.1038/s41586-021-03965-7;PMC7612642main/availablemethods71paragraphs;sourcehash in cancer_translation/SOURCE_LEDGER.json;mouse nested units,separate simulations,unknownhumantranslation;noTMDprevention.",
+      "R000016 DOI10.1101/gr.238543.118;PMC6280753xmlSHA256ce8c2399de162f9ce6586a13fcc6024f5ca818d723a9fd98390b1e1b22e84ae5; main80paragraphs; pinned softwarebcfe5a6c1a1407306b1c8b82e423de124e7a9f9e; no notebooks/variants/rawreads replay."
     ],
-    "next_action": "Screen one publicly documented epithelial lineage experiment for independently measured new-origin supply, growth/loss and recovery in a justified matched background; do not infer these from clone abundance. Actual cancer catalogs/axis require expert review. Raw S1 normalization remains blocked until authoritative access/reporting prerequisites change; no unchanged retries. R11 historical author inputs and all26actual bacterial study fields remain unresolved."
+    "next_action": "Establish a source-grounded pedigree-event ascertainment and exposure contract for a matched epithelial candidate, including lost/unrecovered lineages and separately measured route recovery, before any rate or curvature fit. Actual cancer catalogs/axis/model need qualified biological review. R17 supplement reporting, R11 historical submissions and all26actual bacterial fields remain blocked; no unchanged retries."
   }
 }

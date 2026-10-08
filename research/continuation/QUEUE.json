@@ -188,11 +188,14 @@
     {
       "id": "R000016",
       "priority": 16,
-      "status": "queued",
+      "status": "completed",
       "question": "Which publicly documented epithelial lineage experiment separates de novo supply, clonal growth/loss and recovery in a justified candidate matched background?",
       "deliverable": "One source-grounded admissibility/lineage/control contract or precise missing fields; no controlled patient raw-read downloads.",
       "falsifier_or_boundary": "Gene prevalence, selected clones and repeated biopsies are not independently enumerated mutation births or frozen categorical founder outcomes.",
-      "maximum_download_bytes": 20971520
+      "maximum_download_bytes": 20971520,
+      "completion_scope": "source_specific_epithelial_lineage_admissibility_audit",
+      "result": "One optical-pedigree primary assessment,24measurementrows,62producerchecks and3516independentchecks; unequal backgrounds and missing genotypes/recovery prevent a matched test. Pinned software metadata only.",
+      "report": "../epithelial_lineage/README.md"
     },
     {
       "id": "R000017",
@@ -203,6 +206,26 @@
       "deliverable": "Authoritative raw acquisition/reporting map with privacy/license assessment and independently introduced-unit/lineage controls.",
       "unblocking_condition": "Changed authoritative access/reporting prerequisite; do not repeat current404/CONNECT403/CAPTCHA paths unchanged.",
       "report": "../normalization_audit/README.md"
+    },
+    {
+      "id": "R000018",
+      "priority": 18,
+      "status": "completed",
+      "question": "Can independently bounded endpoint supply/growth/recovery distinguish conditional common curvature and full conventional proportionality?",
+      "deliverable": "Exact rational population-mass envelopes, semantic proof and independent corner oracle.",
+      "completion_scope": "conditional_population_methods_only",
+      "result": "10syntheticcases/353producerchecks,38blindcontexts/65740cornercurvatures/466comparisonchecks; no empirical envelope or biological law.",
+      "report": "../curvature_bounds/README.md",
+      "falsifier_or_boundary": "Empty intersection excludes commonK only under admitted population bounds/model; overlap is not support and K1 alone is not fullconventionalfit."
+    },
+    {
+      "id": "R000019",
+      "priority": 19,
+      "status": "queued",
+      "question": "Establish a source-grounded pedigree-event ascertainment and exposure contract for a matched epithelial candidate, including lost/unrecovered lineages and separately measured route recovery, before any rate or curvature fit. Actual cancer catalogs/axis/model need qualified biological review. R17 supplement reporting, R11 historical submissions and all26actual bacterial fields remain blocked; no unchanged retries.",
+      "deliverable": "A source-grounded pedigree/exposure/ascertainment review packet or precise missing prerequisites; no empirical fit without admitted controls.",
+      "falsifier_or_boundary": "Observed divisions and surviving descendant genomes do not reveal all mutation births or genotypes of extinct/unrecovered lineages.",
+      "maximum_download_bytes": 20971520
     }
   ]
 }

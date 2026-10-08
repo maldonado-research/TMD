@@ -1,0 +1,52 @@
+{
+  "status": "ACCEPT_EXACT_PRODUCER_CANDIDATE_WITH_INDEPENDENT_REVIEW",
+  "reviewed_utc": "2026-10-08T02:09:06.306651+00:00",
+  "round": "R16",
+  "engine_sha256": "870ad4495ed35e559d4eb58e361fadac6153a52ea9465e9ec56a51fe9a404ea7",
+  "producer_files": {
+    "AUDIT_RESULTS.json": {
+      "bytes": 2777,
+      "sha256": "d740cdbad9a8e89d2487eb1a5fbceb1141bd1324b3f4d2e19e705fffeb22250e"
+    },
+    "LICENSE": {
+      "bytes": 1335,
+      "sha256": "bea535b718f81fa9ae7962f01d27b8be3743e2c424ba7cb089cbed051a735f6d"
+    },
+    "LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 1174,
+      "sha256": "bd9e6338cdcf71ea241d48941e529e5a8d0de789742882d8d7e00dd3234eecd5"
+    },
+    "MEASUREMENT_LEDGER.json": {
+      "bytes": 8129,
+      "sha256": "aec745c16827d2b01dcc28d7cf82468fde54244fde975d93a48abe1be67ba2d7"
+    },
+    "README.md": {
+      "bytes": 9228,
+      "sha256": "0220833fca91ac275e8bba338165898e07357da9e1eb821cdb018aaa4b630772"
+    },
+    "SOURCES.json": {
+      "bytes": 23003,
+      "sha256": "dc90b39fdae7aed9035f07f4fa4261965459e3ab5b8aec92d38001aaf52e8157"
+    },
+    "VERIFICATION_RECEIPT.json": {
+      "bytes": 2107,
+      "sha256": "9b5c8b4e4d81a1e2b64e819292dd99270a88c36ce17ab230fa10ccc8c58f1d38"
+    },
+    "audit_epithelial_lineage.py": {
+      "bytes": 11841,
+      "sha256": "870ad4495ed35e559d4eb58e361fadac6153a52ea9465e9ec56a51fe9a404ea7"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 1480,
+      "sha256": "3be37791ce424012e549dc78cc3a582618ac5badfc8c2b17a539fb08b1c82262"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 772,
+      "sha256": "e849ca34a55b2cd64cdbcc792d6358de0144e683982a3f551f1691b2d90f1c7a"
+    }
+  },
+  "independent_oracle": "R16_FINAL_ORACLE.json",
+  "independent_oracle_sha256": "a77b02f46a6b5d56af343806939f07e492d3cfbfadd8b35066627628c32270d3",
+  "internal_review_not_external_qualified_peer_review": true,
+  "private_raw_third_party_bodies_or_sensitive_data_published": false
+}

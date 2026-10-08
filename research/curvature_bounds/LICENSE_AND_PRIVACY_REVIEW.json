@@ -1,0 +1,16 @@
+{
+  "status": "original_public_safe_candidate",
+  "record_id": "R000018",
+  "included": "Original exact conditional-feasibility code, proof/design documentation, synthetic population-bound examples, results, producer checks and hashes.",
+  "excluded": ["private archive files", "uploaded transcripts", "patient datasets", "raw sequencing reads", "raw third-party biological measurements", "article text", "credentials", "personal contact information"],
+  "code_license": "MIT",
+  "notes_and_synthetic_summaries_license": "CC BY 4.0",
+  "third_party_raw_redistribution": false,
+  "new_network_or_data_acquisition": false,
+  "biological_results_invented": false,
+  "new_discovery_or_priority_claim": false,
+  "clinical_prevention_or_treatment_claim": false,
+  "statistical_coverage_or_power_claim": false,
+  "external_peer_review_claim": false,
+  "publication_status": "candidate_for_root_review"
+}

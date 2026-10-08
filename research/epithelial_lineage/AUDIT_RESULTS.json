@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "passed_source_stage_bookkeeping",
+  "checks": {
+    "source_byte_identity": 1,
+    "source_metadata_and_license": 6,
+    "normalized_source_anchors": 20,
+    "stage_count_fields": 8,
+    "realized_nested_flow_identities": 9,
+    "invalid_stage_input_guards": 9,
+    "cached_software_byte_and_identity_checks": 9
+  },
+  "check_total": 62,
+  "stage_flows": {
+    "HT115": {
+      "available_channel_cells": 45,
+      "isolated_cells": 37,
+      "outgrown_subclones": 11,
+      "sequenced_subclones": 11,
+      "realized_fraction_isolated_given_available": "37/45",
+      "realized_fraction_outgrown_given_isolated": "11/37",
+      "realized_fraction_sequenced_given_outgrown": "1",
+      "realized_fraction_sequenced_given_available": "11/45",
+      "not_isolated_count": 8,
+      "isolated_without_outgrowth_count": 26,
+      "outgrown_not_sequenced_count": 0,
+      "available_denominator_is_not_all_cells_ever_born": true,
+      "independent_capture_probability_or_interval_estimated": false
+    },
+    "RPE1": {
+      "available_channel_cells": 26,
+      "isolated_cells": 22,
+      "outgrown_subclones": 15,
+      "sequenced_subclones": 13,
+      "realized_fraction_isolated_given_available": "11/13",
+      "realized_fraction_outgrown_given_isolated": "15/22",
+      "realized_fraction_sequenced_given_outgrown": "13/15",
+      "realized_fraction_sequenced_given_available": "1/2",
+      "not_isolated_count": 4,
+      "isolated_without_outgrowth_count": 7,
+      "outgrown_not_sequenced_count": 2,
+      "available_denominator_is_not_all_cells_ever_born": true,
+      "independent_capture_probability_or_interval_estimated": false
+    }
+  },
+  "primary_sequenced_subclones": 24,
+  "displayed_founder_lineages_per_background": 1,
+  "additional_HT115_reference_subclone_is_a_matched_context_arm": false,
+  "source_approximate_discussion_survival": {
+    "HT115": "about30%",
+    "RPE1": "about65%"
+  },
+  "approximate_discussion_survival_denominator_reconciled": false,
+  "branch_call_RPE1_sensitivity_reported_results": "91.9%",
+  "branch_call_RPE1_sensitivity_reported_methods": "91.8%",
+  "last_decimal_detection_difference_reconciled": false,
+  "method_call_sensitivity_is_absolute_cell_or_route_capture": false,
+  "software_identity_replay": {
+    "status": "passed_pinned_metadata_and_README_identity",
+    "commit_sha": "bcfe5a6c1a1407306b1c8b82e423de124e7a9f9e",
+    "notebooks_or_variants_executed": false,
+    "software_reuse_license_established_by_article_license": false
+  },
+  "lineage_mutation_variant_table_or_rate_likelihood_replayed": false,
+  "matched_TMD_panel_admitted": false,
+  "existing_actual_study_fields_resolved": 0,
+  "cancer_prevention_or_clinical_effect": false,
+  "new_theorem_or_priority_claim": false
+}

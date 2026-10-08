@@ -1,0 +1,180 @@
+{
+  "excluded_from_manifest_hash_list": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "2090b42342233e455fbef43b9f20444efaaa869974163945d6d68edda90a79e0",
+      "size_bytes": 1328
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "sha256": "cf7f263a8e5991a9c0c2c347312a34966f0b4df4d1ce8ac4ab871ceb5f9fcea1",
+      "size_bytes": 897
+    },
+    {
+      "path": "PRODUCER_RECEIPT.json",
+      "sha256": "2e9d6f16eab8ce3bed6c4fc8344318b0a62e1108c53189175d746ec9e1fc7f46",
+      "size_bytes": 1982
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "sha256": "6d02db6aa78ca24c7693960f5a532dbe3ce6b6d95aa92055e0defbca815d0cfa",
+      "size_bytes": 1737
+    },
+    {
+      "path": "README.md",
+      "sha256": "850dab5e3fa865ad294d9798c06e82b3bed8cc779420266bc4ad1643c6d1ff61",
+      "size_bytes": 14526
+    },
+    {
+      "path": "SOURCE_REFERENCES.json",
+      "sha256": "080ca48ca81dcdc0162a7cbce25c361f26b0515544e17098d6bfff538f6e74f4",
+      "size_bytes": 955
+    },
+    {
+      "path": "curvature_bounds.py",
+      "sha256": "0789df615235c2531b7d8084117ff526073f0ed1d008456de1bfb8243a57a852",
+      "size_bytes": 12560
+    },
+    {
+      "path": "fixtures/K_one_is_not_full_conventional_fit.json",
+      "sha256": "c1cc797dc6739ecd3dcbabdd50e9a96e557e2b150df2708ff4cacd544466aa45",
+      "size_bytes": 1242
+    },
+    {
+      "path": "fixtures/broad_growth_controls.json",
+      "sha256": "788e8abbf29cf472dc265ef764aad79ce98301b72759697925df0ff31a748248",
+      "size_bytes": 2019
+    },
+    {
+      "path": "fixtures/contact_is_feasible.json",
+      "sha256": "b8548ef943981d753882ba4215b373cbf861d39d1c4e1cb59a25ae2f9f919596",
+      "size_bytes": 2003
+    },
+    {
+      "path": "fixtures/exact_growth_mimic.json",
+      "sha256": "644ed16b028b9d627ba762aa308d83e51f15e850301ddf561cceee1bf225c3aa",
+      "size_bytes": 2011
+    },
+    {
+      "path": "fixtures/free_common_vs_fixed_forecast.json",
+      "sha256": "0c6955a8b265897fbe3ee38a430bd213e1f504d24d105ab8276ebd2c5c56800c",
+      "size_bytes": 2003
+    },
+    {
+      "path": "fixtures/gross_but_finitely_bounded_loss.json",
+      "sha256": "0ccdc7ac87cac8901ddef7cef545c1cdaf26a42ae473b830d5f6453034425fca",
+      "size_bytes": 2051
+    },
+    {
+      "path": "fixtures/irrational_interior_witness.json",
+      "sha256": "5fb9929d9fb238a3c5552548ab00e6c12365b89d032169042ad95da6dd17a188",
+      "size_bytes": 2031
+    },
+    {
+      "path": "fixtures/precise_growth_controls.json",
+      "sha256": "626ac12c5eaf9ef7d770840e18ac0c9fdaafd9973446cc7539cb8e5125400351",
+      "size_bytes": 2067
+    },
+    {
+      "path": "fixtures/uncertainty_in_all_four_factors.json",
+      "sha256": "6e2d94a3e525982e9c84140026636e7c7e9c30669ecbb413a3e78c1a7285b98b",
+      "size_bytes": 1258
+    },
+    {
+      "path": "fixtures/unequal_corrected_curvature.json",
+      "sha256": "203bd759c054c5db293cf6b13dadee249d7c614e9f74df274025eea5eeec326b",
+      "size_bytes": 2004
+    },
+    {
+      "path": "results/K_one_is_not_full_conventional_fit.json",
+      "sha256": "69649685071be0bebb80612d39d23d277b7ab57a1fb0e294a36f482cea9ae8de",
+      "size_bytes": 3683
+    },
+    {
+      "path": "results/broad_growth_controls.json",
+      "sha256": "457c533bc42b1fffb9bc9857fe85402101384b1defcc2678e68ee0f8a13ad373",
+      "size_bytes": 5268
+    },
+    {
+      "path": "results/contact_is_feasible.json",
+      "sha256": "fec41fa3936de9e6a017f77756aecf5c0e9f5341ddf115fdf26dd492d7e85409",
+      "size_bytes": 5233
+    },
+    {
+      "path": "results/exact_growth_mimic.json",
+      "sha256": "64f49b3dd3d67adc020df9d3d94567ddd1410d3900b7865f78c2574abe1658a1",
+      "size_bytes": 5251
+    },
+    {
+      "path": "results/free_common_vs_fixed_forecast.json",
+      "sha256": "abe5ea65c5b2c28c80c8bc08ca961c62e25fef676bcd6ff892a160a08355c64f",
+      "size_bytes": 5252
+    },
+    {
+      "path": "results/gross_but_finitely_bounded_loss.json",
+      "sha256": "b76d4eef49bb9447a7dc4f1e35b957743728206d7e702febf2f3bbbb16d504e8",
+      "size_bytes": 5409
+    },
+    {
+      "path": "results/irrational_interior_witness.json",
+      "sha256": "5b94cf490db2fe647f83b8ed20dd2769a970b95916074a2f9aebaf710a5aa39b",
+      "size_bytes": 5307
+    },
+    {
+      "path": "results/precise_growth_controls.json",
+      "sha256": "2c956abc1e7a2df87b4807e24a6f92cc5c9643c25a93cb923cd39cedf4a39d3a",
+      "size_bytes": 5465
+    },
+    {
+      "path": "results/uncertainty_in_all_four_factors.json",
+      "sha256": "15a7e7963e7147ce7938e470408246a0808eb981e9075ac943def4b10709a750",
+      "size_bytes": 3694
+    },
+    {
+      "path": "results/unequal_corrected_curvature.json",
+      "sha256": "5cef02049b1c09ea570759f6656656d4e4b42ea01800b632f145cced7298f8c0",
+      "size_bytes": 5138
+    },
+    {
+      "path": "review/R18_BLIND_ORACLE.json",
+      "sha256": "0544525a8ae344df4a7dfc5b258af320e7d547162fc059c472eb0f9dec937881",
+      "size_bytes": 39248
+    },
+    {
+      "path": "review/R18_FINAL_ORACLE.json",
+      "sha256": "7a1b5610c8e2a56d38588a4450689336c0aa0f292c90aadbb2fc3aa25515cbb6",
+      "size_bytes": 11091
+    },
+    {
+      "path": "review/R18_REVIEW_RECEIPT.json",
+      "sha256": "5b0de875343b4f5fa63776c0206c9aaebf641c69f625e57643c5e44f7e1a71ef",
+      "size_bytes": 5277
+    },
+    {
+      "path": "review/R18_SEMANTIC_REVIEW.json",
+      "sha256": "80f21fca6628b1b5e6dfe66b22d715b104cfb1533ced729150a8b202e716b4bb",
+      "size_bytes": 10696
+    },
+    {
+      "path": "review/compare_r18_engine.py",
+      "sha256": "a91058c3cab4a3a5a3ae9a94897121def6f9fbb836d0d813db71b7d29440cca9",
+      "size_bytes": 6551
+    },
+    {
+      "path": "review/independent_r18_oracle.py",
+      "sha256": "49f9c7337a1d90a67d02f9c100b167e6e29ea034db9f9f91beb415cefbd30266",
+      "size_bytes": 5105
+    },
+    {
+      "path": "verify_producer.py",
+      "sha256": "158b72b7eff7ddc69373f5a789365cba66f7364dac8a72ba7399e9944fe69847",
+      "size_bytes": 14595
+    }
+  ],
+  "record_id": "R000018",
+  "scope": "Original candidate files before root review"
+}
