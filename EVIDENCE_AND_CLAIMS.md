@@ -2,6 +2,9 @@
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
+| Scoped official PTATO input catalogue | [R25](research/processed_input_audit/README.md): 477 folders, seven scoped direct-file inventories / 31 entries | Not a complete recursive file manifest; listed large VCF/BED contents remain unacquired. |
+| Source callability-summary arithmetic | Three exact summaries / 808 bytes; non-REF_N denominator and metadata rounding reproduced | Does not authenticate locus eligibility, independent genotype truth, native event inclusion or mutation production. |
+| Genotype-stage denominator contract | [Conditional code audit](research/genotype_denominators/README.md): standard set/mean identities and constructed examples | Actual affected rows/results remain unknown; sample-specific PTATO selection is not an independent or neutral truth frame. |
 | Official PTATO processed metadata | [R24](research/processed_metadata/README.md): exact author Tables S1/S2, dataset-specific license and root inventory authenticated | No recursive manifest, variant/BED replay, independent truth, origin inclusion or numerical benchmark admitted. |
 | PTATO training and WT label mapping | Reproducible metadata/code checks | Row-level No flags do not establish donor-held-out evaluation; WT display-label conventions differ. Neither demonstrates classifier leakage or a numerical result error without eligible inputs. |
 | Recent mutation-bias analytical theory | [7 October preprint assessment](research/source_watch/2026-10-08/README.md), bounded parsed-source inspection | Authors' approximations not replayed; first establishment differs from fixation; least-fit marginal does not supply all three TMD route probabilities. |

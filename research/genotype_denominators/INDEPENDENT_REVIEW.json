@@ -1,0 +1,56 @@
+{
+  "record_id": "R000025",
+  "accepted": true,
+  "reviewer": "independent Astra Ultra source delegate, separate from denominator-package producer",
+  "scope": "Pinned source semantics, standard set/mean algebra and declared constructed checks; no actual variant replay",
+  "reviewed_core_files_sha256": {
+    "README.md": "c40542d9d891bed0303d71c8ab84e2df094c35b49acf8b78b8ab4d1648d21054",
+    "GENOTYPE_REPLAY_CONTRACT.json": "3c82a69a466c47ac3b62f1c170517be6b1e0e4e964f885107a310f95b6fec168",
+    "DENOMINATOR_AUDIT.json": "111e4bd2c631bea8c1ad9296799b21f00d4d1ce87dde6bf52e882ee49e7c8fc8",
+    "verify_denominator_audit.py": "013f5fb0bc2144b10c765514ddfade5406060a82df075bdac547a5c1689ca2f5",
+    "AUDIT_VERIFICATION_RECEIPT.json": "c34309fcaa8c0fe13d1d19c7ca6ca8a00222faa58953fe54ee0ddfaa46642138"
+  },
+  "root_independent_review": {
+    "record_id": "R000025",
+    "status": "PASS",
+    "reviewed_at_utc": "2026-10-09T02:41:34.962417+00:00",
+    "reviewer": "root independent of denominator-package producer",
+    "checks": [
+      "source_hash:Figure2.R",
+      "source_hash:GeneralFunctions.R",
+      "independent_membership_identity:A",
+      "independent_membership_identity:B",
+      "independent_membership_identity:C",
+      "duplicate_key_row_index_boundary",
+      "independent_mean_identity:0",
+      "independent_mean_identity:1",
+      "independent_three_group_partition_and_distinct_pooling",
+      "literal_caller_precedence_directly_inspected"
+    ],
+    "independent_constructed_example": {
+      "groups": 3,
+      "sparse": [
+        "5/8",
+        "7/8"
+      ],
+      "zero_completed": [
+        "5/12",
+        "7/12"
+      ],
+      "pooled": [
+        "3/8",
+        "5/8"
+      ],
+      "sparse_sum": "3/2"
+    },
+    "interpretation": "Standard set/averaging algebra and source semantics; constructed logical examples, not actual biological rows. Duplicate keys require a row-index formulation.",
+    "actual_variant_effect_quantified": false,
+    "new_mathematical_priority_claimed": false,
+    "models_forecasts_or_stopping_changed": false
+  },
+  "peer_review_status": "ACCEPTED_AFTER_ONE_CITATION_CORRECTION",
+  "peer_review_receipt_sha256": "264eb4b90ab8125c2cea3e40e5febb3a6a99ad66adc8d4ebb78aad726b3fe856",
+  "citation_correction_completed": "Indel recurrence overwrite anchored to Figure2.R173-174 before approval",
+  "actual_affected_variant_counts": null,
+  "independent_external_scientific_review_obtained": false
+}

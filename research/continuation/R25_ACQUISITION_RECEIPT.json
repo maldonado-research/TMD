@@ -1,0 +1,329 @@
+{
+  "record_id": "R000025",
+  "logical_acquisition_call_count": 12,
+  "saved_response_capture_bytes": 1739278,
+  "byte_basis": "Serialized returned MCP objects plus root request/result wrappers; includes duplicate representations. Derived extracts excluded; provider transport bytes and internal request counts unavailable.",
+  "delegate_calls": [
+    {
+      "id": 1,
+      "args": {
+        "url": "https://data.mendeley.com/datasets/bundle.js?5e5376ee3a5def54f781",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:27:22.396Z",
+      "end": "2026-10-09T02:27:50.104Z",
+      "filename": "mendeley_frontend_bundle_firecrawl.json",
+      "saved_response_bytes": 1422017,
+      "saved_response_sha256": "7d60ca9390a6a289c58cfd234259437c02f7162239559228a79a3aed436edaaf",
+      "serialized_response_bytes_without_saved_newline": 1422016,
+      "raw_source_field_utf8_bytes": 654884,
+      "raw_source_field_sha256": "e9c250331f19e2248a9671bb673abd96225715c4cc1c1da4efe8ff28bc3ddf31",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/datasets/bundle.js?5e5376ee3a5def54f781",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 2,
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/folders/1",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:28:10.976Z",
+      "end": "2026-10-09T02:28:15.911Z",
+      "filename": "mendeley_folders_v1_firecrawl.json",
+      "saved_response_bytes": 205909,
+      "saved_response_sha256": "10a0d668e76c211f46f474e0bcd08ddf58f7e4162754de1b471f1bd37f542965",
+      "serialized_response_bytes_without_saved_newline": 205908,
+      "raw_source_field_utf8_bytes": 87413,
+      "raw_source_field_sha256": "708ed9cc6c03a5a1bb46b3fe0c88443ec2e61c20a16d63cdcd6946824688aeac",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/folders/1",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 3,
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=4e96ea59-ec7c-49a8-8a12-6fd6064de2c7&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:29:25.416Z",
+      "end": "2026-10-09T02:29:34.356Z",
+      "filename": "mendeley_wt_callable_files_firecrawl.json",
+      "saved_response_bytes": 10219,
+      "saved_response_sha256": "f7fed95e0b98b89658c644025495a63dc2b60922810d53710b79d68b7cf451aa",
+      "serialized_response_bytes_without_saved_newline": 10218,
+      "raw_source_field_utf8_bytes": 3880,
+      "raw_source_field_sha256": "f41159af18730f8ed6c9a8b00278013dcfedc9200a371a7b97702b3e9c530db8",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=4e96ea59-ec7c-49a8-8a12-6fd6064de2c7&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 4,
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=14d91882-d094-4ee1-b660-c8df4de019ce&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:29:25.416Z",
+      "end": "2026-10-09T02:29:30.610Z",
+      "filename": "mendeley_wt_ptato_callable_files_firecrawl.json",
+      "saved_response_bytes": 9005,
+      "saved_response_sha256": "8774d7d9e4de6e3b1a96b86eb8e9355733f8229f6b55058eb05c39daff099d9f",
+      "serialized_response_bytes_without_saved_newline": 9004,
+      "raw_source_field_utf8_bytes": 3381,
+      "raw_source_field_sha256": "16a777c309174091129fcb16d889b415ff89b188a36920a581b3c9fb5128b3c6",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=14d91882-d094-4ee1-b660-c8df4de019ce&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 5,
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=ca1c996b-559e-4ac8-a583-5667fb506083&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:29:25.416Z",
+      "end": "2026-10-09T02:29:37.799Z",
+      "filename": "mendeley_wt_smurf_files_firecrawl.json",
+      "saved_response_bytes": 5313,
+      "saved_response_sha256": "67544e68cc8f3e7579de897b2b81cdf726cdf6af4d1f690e631c02e3a3bec2a1",
+      "serialized_response_bytes_without_saved_newline": 5312,
+      "raw_source_field_utf8_bytes": 1751,
+      "raw_source_field_sha256": "88fea464343878d6ad3af3d8f0da2555c2469d3e3ef015fcaeb432f495d7edd7",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=ca1c996b-559e-4ac8-a583-5667fb506083&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 6,
+      "args": {
+        "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/66bb4799-66d0-4f7f-8ba9-b7420b5b16b6/file_viewed",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:30:11.321Z",
+      "end": "2026-10-09T02:30:16.143Z",
+      "filename": "mendeley_wt_pta1_callable_summary_firecrawl.json",
+      "saved_response_bytes": 1852,
+      "saved_response_sha256": "85ecf2b2e016c25204ceb2af71a6deba8c778f29c0e2fc64ab47f276dba5f8ac",
+      "serialized_response_bytes_without_saved_newline": 1851,
+      "raw_source_field_utf8_bytes": 267,
+      "raw_source_field_sha256": "460254824ba9d9177ad381a3d5c9842e5958aa31c25f09bad38a25a2dee89147",
+      "http_status_reported": 200,
+      "final_source_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/22e36b38-5387-49e7-b8ea-91bb25b60476",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 7,
+      "args": {
+        "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/11a3f9d6-4254-46d4-9018-4c23e62c49c4/file_viewed",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:30:11.321Z",
+      "end": "2026-10-09T02:30:21.319Z",
+      "filename": "mendeley_wt_pta2_callable_summary_firecrawl.json",
+      "saved_response_bytes": 1860,
+      "saved_response_sha256": "036c9a6c0c23da4b1d8ac4a6d0c5050ca911dea7268e0bf1c089b07e0ffcbc2e",
+      "serialized_response_bytes_without_saved_newline": 1859,
+      "raw_source_field_utf8_bytes": 271,
+      "raw_source_field_sha256": "4d1ca475a5b972ca8c6ff1b61900fffd5bdfd9addf7b18e2a699223daab15034",
+      "http_status_reported": 200,
+      "final_source_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/0608e6bc-8274-465b-8dd6-7230390091bd",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    },
+    {
+      "id": 8,
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=c14d8b0b-3181-444e-8d88-33924121e5f0&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "proxy": "basic",
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "start": "2026-10-09T02:30:55.918Z",
+      "end": "2026-10-09T02:31:00.227Z",
+      "filename": "mendeley_fancc_callable_files_firecrawl.json",
+      "saved_response_bytes": 3225,
+      "saved_response_sha256": "b24c166f2fb762cc225d6c5a6fbec26a4cb45e920ae68df6f7b528120b8889aa",
+      "serialized_response_bytes_without_saved_newline": 3224,
+      "raw_source_field_utf8_bytes": 815,
+      "raw_source_field_sha256": "f13680642d4a6acd1f3ec5d46d95e3963517ab0d7d8cd58c739931c8a4b10c3f",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=c14d8b0b-3181-444e-8d88-33924121e5f0&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "outcome": "official source content returned"
+    }
+  ],
+  "root_calls": [
+    {
+      "id": "root-1",
+      "filename": "msh2_callable_manifest.json",
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=87baad94-a327-449a-85da-048f228a536c&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml",
+          "markdown"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0,
+        "proxy": "basic",
+        "timeout": 30000
+      },
+      "saved_request_and_response_bytes": 31081,
+      "saved_request_and_response_sha256": "ced3e3767788028b6d481abb4ccbc1ec9a9aa86509f2a4cc5e1d2f840e3da95b",
+      "raw_source_field_utf8_bytes": 6411,
+      "raw_source_field_sha256": "d1e9bc2bb08634cada8311e7496f9a7f16580adf502f0eb8245056304dc9da79",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=87baad94-a327-449a-85da-048f228a536c&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "start_time": null,
+      "end_time": null,
+      "timing_note": "The root capture wrapper does not contain acquisition timestamps.",
+      "outcome": "official source content returned"
+    },
+    {
+      "id": "root-2",
+      "filename": "msh2_snvs_callable_manifest.json",
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=65beb6d2-b26e-435f-ac05-d0266b8908c2&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml",
+          "markdown"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0,
+        "proxy": "basic",
+        "timeout": 30000
+      },
+      "saved_request_and_response_bytes": 32977,
+      "saved_request_and_response_sha256": "d0bcabd01817611173f86b4f1017ec7b65050de7ca3f07c2fa49428396f41125",
+      "raw_source_field_utf8_bytes": 6885,
+      "raw_source_field_sha256": "0f0547212f1691448de4058bad474457d95fbee896b765ac94dedf2285cd648f",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=65beb6d2-b26e-435f-ac05-d0266b8908c2&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "start_time": null,
+      "end_time": null,
+      "timing_note": "The root capture wrapper does not contain acquisition timestamps.",
+      "outcome": "official source content returned"
+    },
+    {
+      "id": "root-3",
+      "filename": "fancc_snvs_callable_manifest.json",
+      "args": {
+        "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=9e084495-b966-4d9b-be36-5ee983b8ee87&version=1&$start=0&$limit=1000",
+        "formats": [
+          "rawHtml",
+          "markdown"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0,
+        "proxy": "basic",
+        "timeout": 30000
+      },
+      "saved_request_and_response_bytes": 12825,
+      "saved_request_and_response_sha256": "706d9f08f8bb020c935d7fb7c148225fcd8feaf80eb3595bef51e308ef5eb90b",
+      "raw_source_field_utf8_bytes": 2387,
+      "raw_source_field_sha256": "8436e67b1db154c538397ad9cab5017e0db914dd8a2d9b2dcad1bc1a492b3d68",
+      "http_status_reported": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=9e084495-b966-4d9b-be36-5ee983b8ee87&version=1&$start=0&$limit=1000",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "start_time": null,
+      "end_time": null,
+      "timing_note": "The root capture wrapper does not contain acquisition timestamps.",
+      "outcome": "official source content returned"
+    },
+    {
+      "id": "root-4",
+      "filename": "msh2_pta_callable_summary.json",
+      "args": {
+        "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/10e2ede8-0e3f-49f1-9080-bd43002178fe/file_viewed",
+        "formats": [
+          "rawHtml",
+          "markdown"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0,
+        "proxy": "basic",
+        "timeout": 30000
+      },
+      "saved_request_and_response_bytes": 2995,
+      "saved_request_and_response_sha256": "499c9f7a7a8cbdb62167cbb61ef91eed43d9c7b5f5fbf3262b78cf4529667c51",
+      "raw_source_field_utf8_bytes": 270,
+      "raw_source_field_sha256": "c7b985cba8dd5928ce98c03b172a7210da245433c4ea8d82bd8925155fcc08f8",
+      "http_status_reported": 200,
+      "final_source_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/07bb4201-eb26-4e13-a1ac-08210664168a",
+      "proxy_used": "basic",
+      "reported_credits_used": 1,
+      "start_time": null,
+      "end_time": null,
+      "timing_note": "The root capture wrapper does not contain acquisition timestamps.",
+      "outcome": "official source content returned"
+    }
+  ],
+  "no_large_inputs_or_raw_reads_acquired": true,
+  "source_version": "10.17632/c3r9chw9rb.1",
+  "complete_recursive_file_manifest": false
+}

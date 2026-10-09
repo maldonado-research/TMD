@@ -1,0 +1,28 @@
+{
+  "record_id": "R000025",
+  "scope": "Original selected-catalogue and source-summary arithmetic audit; no genotype recovery replay",
+  "directory_topology_review": "All 477 returned folder records checked for unique IDs/paths, known parents and no cycles; three cell-line subtree sizes computed. The topology contains folder names, not a full file inventory.",
+  "file_catalogue_review": "All 31 direct file records returned for the seven named scopes checked against folder identities; file-content authentication performed only for three small PTA summaries.",
+  "exact_summary_review": "All six count/frequency records in each of three authenticated small summaries assessed for the denominator convention and Table S2 callability mapping. Original derived aggregates are published; raw six-row summaries remain outside the package.",
+  "source_arithmetic_findings": [
+    "Every frequency equals count divided by non-REF_N count sum within 1e-14",
+    "Six reported frequencies sum above one because REF_N uses that same non-REF_N denominator",
+    "Two WT and one MSH2KO callability values agree with Table S2 to seven decimal places",
+    "The R24 metadata-to-recovery-label reversal is retained"
+  ],
+  "not_demonstrated": [
+    "Independent reference-genome or callable-interval denominator",
+    "Variant-level sensitivity, specificity, precision, or independent genotype truth",
+    "Untouched training/evaluation separation",
+    "Ancestry or independent acquisition episodes",
+    "Native all-birth inclusion, production per division, transport or biological efficacy"
+  ],
+  "delegate_logical_acquisition_calls": 8,
+  "root_logical_acquisition_calls": 4,
+  "global_logical_acquisition_calls": 12,
+  "delegate_response_capture_bytes": 1659400,
+  "root_request_and_response_capture_bytes": 79878,
+  "global_saved_capture_bytes": 1739278,
+  "source_content_redistributed": false,
+  "qualified_external_review_obtained": false
+}
