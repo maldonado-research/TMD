@@ -1,0 +1,79 @@
+{
+  "actual_affected_study_rows": null,
+  "biological_variant_rows_acquired": 0,
+  "constructed_category_means": {
+    "FAIL": {
+      "k": 1,
+      "m": 2,
+      "pooled": "3/4",
+      "sparse": "1",
+      "zero_completed": "1/2"
+    },
+    "PASS": {
+      "k": 1,
+      "m": 2,
+      "pooled": "1/4",
+      "sparse": "1",
+      "zero_completed": "1/2"
+    }
+  },
+  "constructed_category_sums": {
+    "pooled": "1",
+    "sparse": "2",
+    "zero_completed": "1"
+  },
+  "constructed_membership": {
+    "B_SCAN2_PASS_fraction": {
+      "literal": "1/2",
+      "local": "0"
+    },
+    "excess": {
+      "A": [],
+      "B": [
+        "v"
+      ]
+    },
+    "literal": {
+      "A": [
+        "v"
+      ],
+      "B": [
+        "v",
+        "w"
+      ]
+    },
+    "local": {
+      "A": [
+        "v"
+      ],
+      "B": [
+        "w"
+      ]
+    },
+    "reference": {
+      "A": [
+        "v"
+      ],
+      "B": [
+        "v",
+        "w"
+      ]
+    }
+  },
+  "native_origin_truth_inferred": false,
+  "numerical_figure_replay": false,
+  "record_id": "R000025",
+  "scientific_network_requests": 0,
+  "scope": "Pinned source-anchor verification and exact arithmetic for two constructed rule checks only",
+  "sources": {
+    "Figure2.R": {
+      "anchor_count": 17,
+      "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e"
+    },
+    "GeneralFunctions.R": {
+      "anchor_count": 2,
+      "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c"
+    }
+  },
+  "status": "PASS"
+}

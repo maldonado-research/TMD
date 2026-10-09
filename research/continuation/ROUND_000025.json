@@ -1,0 +1,43 @@
+{
+  "id": "R000025",
+  "status": "completed_internal_review",
+  "date": "2026-10-08",
+  "timezone": "America/Los_Angeles",
+  "report": "../processed_input_audit/README.md",
+  "completion_scope": "scoped_catalogue_and_three_summary_authentication_plus_conditional_code_denominator_audit",
+  "details": {
+    "scientific_acquisition_calls": 12,
+    "saved_response_capture_bytes": 1739278,
+    "observed_folder_records": 477,
+    "scoped_file_inventory_records": 31,
+    "scoped_inventories": 7,
+    "exact_source_summary_files": 3,
+    "exact_summary_bytes": 808,
+    "source_summary_frequency_rows": 18,
+    "code_source_anchors": 19,
+    "declared_constructed_examples": 2,
+    "root_independent_denominator_checks": 10,
+    "variant_benchmark_admitted": false,
+    "origin_benchmark_admitted": false,
+    "actual_variant_effect_counts": null
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "methods_archive_scope": "Frozen approved 0.6.0 excludes later R1\u2013R25 addenda",
+  "manual_scientific_model": {
+    "round": "R000025",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract."
+}

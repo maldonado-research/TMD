@@ -4,11 +4,13 @@ Checked 8 October 2026 (America/Los_Angeles).
 
 **Current: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
 
-The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R24 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
+The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R25 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
 
 The modern draft API repaired staging using the correct JSON request schema and content type; the initial content-type rejection and earlier legacy failures are preserved as diagnostics. Approved notes are stored exactly as an RDM additional description of type `other`; the legacy serializer omits that field, so verification uses canonical modern metadata and public HTML. Fresh restored-runtime checks passed all 53 archive hashes, 44 unit tests and 160 saved-result comparisons without changing the ZIP.
 
 R24 adds authenticated PTATO sample metadata and a critical assessment of the 7 October mutation-bias preprint. These are separate GitHub research addenda, with no numerical benchmark admitted. This round made no Zenodo request and created no version; the latest public-file verification remains the earlier publication receipt linked above.
+
+R25 adds a scoped official input catalogue, three exact callability-summary checks and a conditional genotype-denominator code contract. These remain separate GitHub audits, with no numerical genotype/origin benchmark or changed archived methods. No Zenodo request or new version was made; earlier public verification details and the approved archive bytes are preserved.
 
 ## Historical publication observations
 

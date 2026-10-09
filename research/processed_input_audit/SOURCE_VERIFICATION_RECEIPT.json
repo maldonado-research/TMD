@@ -1,0 +1,16 @@
+{
+  "record_id": "R000025",
+  "result": "PASS",
+  "checks": [
+    "Pinned exact cache bytes and SHA256",
+    "Official frontend route derivation",
+    "Acyclic observed folder topology and seven scoped catalogues",
+    "Three source summaries match official size and SHA256",
+    "All summary-frequency denominators replayed",
+    "Rounded Table S2 callability and WT label mismatch retained"
+  ],
+  "source_summary_arithmetic_replayed": true,
+  "genotype_stage_numerical_benchmark_admitted": false,
+  "native_origin_benchmark_admitted": false,
+  "qualified_external_review_obtained": false
+}

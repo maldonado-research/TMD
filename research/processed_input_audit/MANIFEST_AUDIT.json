@@ -1,0 +1,360 @@
+{
+  "record_id": "R000025",
+  "kind": "Observed official directory topology and seven scoped direct-file catalogues",
+  "folder_records": 477,
+  "root_folder_records": 33,
+  "unique_folder_ids": 477,
+  "unique_folder_paths": 477,
+  "missing_parents": 0,
+  "cycles": 0,
+  "scoped_subtree_folder_counts_including_root": {
+    "PMCAHH1-WT": 34,
+    "PMCAHH1-FANCCKO": 21,
+    "PMCAHH1-MSH2KO": 31
+  },
+  "scoped_file_inventories": [
+    {
+      "path": "PMCAHH1-WT/CallableLoci",
+      "folder_id": "4e96ea59-ec7c-49a8-8a12-6fd6064de2c7",
+      "response_cache": "mendeley_wt_callable_files_firecrawl.json",
+      "direct_file_records": 5,
+      "catalogued_file_bytes": 670393540,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-WT/PTATO/snvs_callable",
+      "folder_id": "14d91882-d094-4ee1-b660-c8df4de019ce",
+      "response_cache": "mendeley_wt_ptato_callable_files_firecrawl.json",
+      "direct_file_records": 4,
+      "catalogued_file_bytes": 7934078,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-WT/PTATO/intermediate/short_variants/SMuRF/PMCAHH1",
+      "folder_id": "ca1c996b-559e-4ac8-a583-5667fb506083",
+      "response_cache": "mendeley_wt_smurf_files_firecrawl.json",
+      "direct_file_records": 2,
+      "catalogued_file_bytes": 21689153,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-FANCCKO/CallableLoci",
+      "folder_id": "c14d8b0b-3181-444e-8d88-33924121e5f0",
+      "response_cache": "mendeley_fancc_callable_files_firecrawl.json",
+      "direct_file_records": 1,
+      "catalogued_file_bytes": 509005097,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-MSH2KO/CallableLoci",
+      "folder_id": "87baad94-a327-449a-85da-048f228a536c",
+      "response_cache": "msh2_callable_manifest.json",
+      "direct_file_records": 8,
+      "catalogued_file_bytes": 1006636042,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "folder_id": "65beb6d2-b26e-435f-ac05-d0266b8908c2",
+      "response_cache": "msh2_snvs_callable_manifest.json",
+      "direct_file_records": 8,
+      "catalogued_file_bytes": 32146917,
+      "recursive_file_coverage_claimed": false
+    },
+    {
+      "path": "PMCAHH1-FANCCKO/PTATO/snvs_callable",
+      "folder_id": "9e084495-b966-4d9b-be36-5ee983b8ee87",
+      "response_cache": "fancc_snvs_callable_manifest.json",
+      "direct_file_records": 3,
+      "catalogued_file_bytes": 801,
+      "recursive_file_coverage_claimed": false
+    }
+  ],
+  "direct_file_records_total": 31,
+  "catalogued_file_bytes_total": 2247805628,
+  "file_records": [
+    {
+      "directory": "PMCAHH1-WT/CallableLoci",
+      "filename": "AHH1BULK.callableloci.txt",
+      "id": "147d57a9-87a8-4b52-94e8-bf7cdcced351",
+      "bytes": 269,
+      "sha256": "7e4eb667aff197e9ab3fc3888b0f8a699c5a762c414af6c230f9b8aade861e3b",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/147d57a9-87a8-4b52-94e8-bf7cdcced351/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/CallableLoci",
+      "filename": "PMCAHH1-WT-C19.callableloci.txt",
+      "id": "dded7c63-eba0-45ae-8246-521af32c3436",
+      "bytes": 268,
+      "sha256": "51df6905485fec72dbe708cdef029e1bb3aae10c929d340cbb31e5ae209d2486",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/dded7c63-eba0-45ae-8246-521af32c3436/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/CallableLoci",
+      "filename": "PMCAHH1-WT-C19SC1_CallableLoci.bed",
+      "id": "ed00a7bd-4be2-4b5b-b1fa-3e07032fbe5f",
+      "bytes": 352180267,
+      "sha256": "1766a90bb8d0fe083a609d3caf021f8e0510028b58d08bebeb4840b514c23bed",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/ed00a7bd-4be2-4b5b-b1fa-3e07032fbe5f/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/CallableLoci",
+      "filename": "PMCAHH1-WT-C6.callableloci.txt",
+      "id": "2b1c17bb-56d7-4462-be4c-70bce392d9cb",
+      "bytes": 269,
+      "sha256": "df754c30e1591a8c2bcff314e9fbd0cde582da6a429ee40398b07f168e5497aa",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/2b1c17bb-56d7-4462-be4c-70bce392d9cb/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/CallableLoci",
+      "filename": "PMCAHH1-WT-C6SC1_CallableLoci.bed",
+      "id": "95099345-59fa-48d6-9f2d-95b87dbb1901",
+      "bytes": 318212467,
+      "sha256": "0add2ba4d1777c5ba445433b095742bb3eb14c50f31d33008bf1994aa0e91a03",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/95099345-59fa-48d6-9f2d-95b87dbb1901/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/snvs_callable",
+      "filename": "220802_HMFreg1700_PMCAHH1.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-WT-C19SC1.snvs.ptato.callable.vcf.gz",
+      "id": "751634e2-7086-436f-a3a0-cb2b7579b656",
+      "bytes": 3824612,
+      "sha256": "d2963c4233f38a588e675acfb6f3ad3624d9ab36cf6082048dfadb8877985ad5",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/751634e2-7086-436f-a3a0-cb2b7579b656/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/snvs_callable",
+      "filename": "220802_HMFreg1700_PMCAHH1.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-WT-C6SC1.snvs.ptato.callable.vcf.gz",
+      "id": "2d24de5a-d29c-4cc6-821f-f5d004f0064c",
+      "bytes": 4108928,
+      "sha256": "924bf4be0f1590949a448588b4130faa66d7821734397aedda7ad974fb26f8d3",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/2d24de5a-d29c-4cc6-821f-f5d004f0064c/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/snvs_callable",
+      "filename": "PMCAHH1-WT-C19SC1_CallableLoci.txt",
+      "id": "66bb4799-66d0-4f7f-8ba9-b7420b5b16b6",
+      "bytes": 267,
+      "sha256": "460254824ba9d9177ad381a3d5c9842e5958aa31c25f09bad38a25a2dee89147",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/66bb4799-66d0-4f7f-8ba9-b7420b5b16b6/file_viewed",
+      "content_acquired": true
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/snvs_callable",
+      "filename": "PMCAHH1-WT-C6SC1_CallableLoci.txt",
+      "id": "11a3f9d6-4254-46d4-9018-4c23e62c49c4",
+      "bytes": 271,
+      "sha256": "4d1ca475a5b972ca8c6ff1b61900fffd5bdfd9addf7b18e2a699223daab15034",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/11a3f9d6-4254-46d4-9018-4c23e62c49c4/file_viewed",
+      "content_acquired": true
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/intermediate/short_variants/SMuRF/PMCAHH1",
+      "filename": "220802_HMFreg1700_PMCAHH1.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted.SMuRF.filtered.vcf",
+      "id": "fba3b8e9-abd6-4be8-a782-641df625d000",
+      "bytes": 21650223,
+      "sha256": "8aa43c5a8d8b05560c01d41b06ab377e25f52dcb62891ea1443d8aceb50314d1",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/fba3b8e9-abd6-4be8-a782-641df625d000/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-WT/PTATO/intermediate/short_variants/SMuRF/PMCAHH1",
+      "filename": "220802_HMFreg1700_PMCAHH1.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted.SMuRF.vafplot.pdf",
+      "id": "72bfcc48-4b2b-483e-84b4-662cdd02dca4",
+      "bytes": 38930,
+      "sha256": "05324c271703f8b2f71242a615e7069b06e5c55f2dcfd6b05ab95351befae1d8",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/72bfcc48-4b2b-483e-84b4-662cdd02dca4/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-FANCCKO/CallableLoci",
+      "filename": "PMCAHH1-FANCCKO-C02B03SC03E05-PTAP1D7_CallableLoci.bed",
+      "id": "bb70161c-3081-48c1-be5d-5b238a3fcaf8",
+      "bytes": 509005097,
+      "sha256": "13a7f387a2171a4fd3365217c0a48e8f0f95507ce66388b2602dcbee8830c150",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/bb70161c-3081-48c1-be5d-5b238a3fcaf8/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C05A12_CallableLoci.bed",
+      "id": "560c6ab7-094f-46d8-be8c-3a20600ccbf8",
+      "bytes": 176503323,
+      "sha256": "98d7615aa3e8ae8e097c14606e78983c00e5a882073c29e1d260d13d8f33c261",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/560c6ab7-094f-46d8-be8c-3a20600ccbf8/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C05A12_dedup_CallableLoci.txt",
+      "id": "5e53bfbd-2dd2-419d-a89d-9af662fa2625",
+      "bytes": 280,
+      "sha256": "4e3fbe87d101fb2a5fb5c8f76a5e0f859587a8f221d7d0fa71257f25ecc4ec62",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/5e53bfbd-2dd2-419d-a89d-9af662fa2625/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06_CallableLoci.bed",
+      "id": "2ba40ac5-5a8d-446a-aba8-ea3b46c55585",
+      "bytes": 190542762,
+      "sha256": "1dd41a7eae3564c9965f88cb5ee8bc34d3f772802d2aef6827bb16813a2ecf98",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/2ba40ac5-5a8d-446a-aba8-ea3b46c55585/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06_dedup_CallableLoci.txt",
+      "id": "b5632444-510d-460e-be26-534aad47bff2",
+      "bytes": 280,
+      "sha256": "3294b363036d373b04f9d3438f596ec18c8421af3455811d3437bf7d99b0f060",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/b5632444-510d-460e-be26-534aad47bff2/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06_CallableLoci.bed",
+      "id": "b5dec13e-4d4a-49e6-bf2b-38de19a94c7f",
+      "bytes": 214758892,
+      "sha256": "4be8ba7013a262bd32f04bc8f00c0340080e36923f88e297dad08be16bba7540",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/b5dec13e-4d4a-49e6-bf2b-38de19a94c7f/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06_dedup_CallableLoci.txt",
+      "id": "481f15b3-aaed-4a89-9a90-dac4266c8903",
+      "bytes": 280,
+      "sha256": "a4ff7ff7d9e82914ed012872b9e6cc7c7f262657bb68ba761fe7dba646561455",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/481f15b3-aaed-4a89-9a90-dac4266c8903/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06-PTAP1E7_CallableLoci.bed",
+      "id": "7bd6e177-86e2-4bea-a6db-ac4bb705f94d",
+      "bytes": 424829943,
+      "sha256": "5c8bed3ba37d0ed3c7f5f130ea14f26d367553ade4ad33a8f376c47d07e799ee",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/7bd6e177-86e2-4bea-a6db-ac4bb705f94d/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/CallableLoci",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06-PTAP1E7_dedup_CallableLoci.txt",
+      "id": "987c1315-893f-4eac-9aa2-4f50cda3c6bf",
+      "bytes": 282,
+      "sha256": "b271a9399c0985d3055030ff4245d9fd0813a2f13bbe2d5c806b0f87aec6ba0e",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/987c1315-893f-4eac-9aa2-4f50cda3c6bf/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "HMFreg1213_PMCAHH1-MSH2KO-PTA.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-MSH2KO-C05A12.snvs.ptato.callable.vcf.gz",
+      "id": "00e3cf06-6c6e-4b63-b39e-ead304e8c7f2",
+      "bytes": 2453608,
+      "sha256": "7073c17f45949dd99c72e230f945c2024c639822f9e075ac0709b9543b5ffee5",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/00e3cf06-6c6e-4b63-b39e-ead304e8c7f2/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "HMFreg1213_PMCAHH1-MSH2KO-PTA.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-MSH2KO-C27E06SC51B06-PTAP1E7.snvs.ptato.callable.vcf.gz",
+      "id": "a0e0e28b-afbc-4f2e-af0f-52f0ca49cf38",
+      "bytes": 11843221,
+      "sha256": "50ea202b807ff63291b92385ca7dacebd471bbeca73bee81e58cdc01ded885c1",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/a0e0e28b-afbc-4f2e-af0f-52f0ca49cf38/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "HMFreg1213_PMCAHH1-MSH2KO-PTA.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-MSH2KO-C27E06SC51B06.snvs.ptato.callable.vcf.gz",
+      "id": "b5851677-a6b1-42df-af1b-1a88bf2dff83",
+      "bytes": 11006581,
+      "sha256": "39cf6755d6df0d621fdcaf4df7fdb3dad18e89030af806014cf26511d5096061",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/b5851677-a6b1-42df-af1b-1a88bf2dff83/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "HMFreg1213_PMCAHH1-MSH2KO-PTA.vcf.filtered_variants_dbnsfp_CosmicCodingMuts_gonl.snps_indels.r5.liftover.hg38.sorted_PMCAHH1-MSH2KO-C27E06.snvs.ptato.callable.vcf.gz",
+      "id": "1a7e95c5-e552-4ffa-9a4f-3f1186d12c44",
+      "bytes": 6842435,
+      "sha256": "1320a8bc03ad9508bb3c340ce8d1a6333718003a248e36aa80339ff1a9ec1119",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/1a7e95c5-e552-4ffa-9a4f-3f1186d12c44/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-MSH2KO-C05A12_CallableLoci.txt",
+      "id": "849662a3-e982-4d93-990c-01514afc79fd",
+      "bytes": 267,
+      "sha256": "c3ef030d3df280045ea34a1da289a48e391d8b589e7a83e7e6d8aed7d2cca251",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/849662a3-e982-4d93-990c-01514afc79fd/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-MSH2KO-C27E06_CallableLoci.txt",
+      "id": "335170fe-6b80-40c7-903c-baeacc9d1037",
+      "bytes": 268,
+      "sha256": "f0e2987559337aaa7667be16f8fffa8f33f22b02a1645b77014ffe15cca8ddcc",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/335170fe-6b80-40c7-903c-baeacc9d1037/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06_CallableLoci.txt",
+      "id": "1bb0bd1e-d1d5-4697-a55b-0c3bb7997d67",
+      "bytes": 267,
+      "sha256": "7ce6435a4bbd2d62efe2a9edbb568b7f380aa2fab90497c6106bf95cf69d1297",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/1bb0bd1e-d1d5-4697-a55b-0c3bb7997d67/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-MSH2KO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-MSH2KO-C27E06SC51B06-PTAP1E7_CallableLoci.txt",
+      "id": "10e2ede8-0e3f-49f1-9080-bd43002178fe",
+      "bytes": 270,
+      "sha256": "c7b985cba8dd5928ce98c03b172a7210da245433c4ea8d82bd8925155fcc08f8",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/10e2ede8-0e3f-49f1-9080-bd43002178fe/file_viewed",
+      "content_acquired": true
+    },
+    {
+      "directory": "PMCAHH1-FANCCKO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-FANCCKO-C02B03_CallableLoci.txt",
+      "id": "87e0fa9a-f855-4487-b9e8-9fe26471effa",
+      "bytes": 267,
+      "sha256": "16486917050b864547430fcddea23b72bd213b2c8a8d6d0036b05f119f8e5b2f",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/87e0fa9a-f855-4487-b9e8-9fe26471effa/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-FANCCKO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-FANCCKO-C02B03SC03E05_CallableLoci.txt",
+      "id": "e52b2fd4-3b11-4f5b-a3e8-3adf5156c060",
+      "bytes": 265,
+      "sha256": "103b908010fc6f9b4cf5a5dc5c782ff7a76b89c76b979ce214b66d3ca029444e",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/e52b2fd4-3b11-4f5b-a3e8-3adf5156c060/file_viewed",
+      "content_acquired": false
+    },
+    {
+      "directory": "PMCAHH1-FANCCKO/PTATO/snvs_callable",
+      "filename": "PMCAHH1-FANCCKO-C02B03SC03E05-PTAP1D7_CallableLoci.txt",
+      "id": "2d858b2c-a848-4c2d-a305-564dcd17439c",
+      "bytes": 269,
+      "sha256": "0159b53acfa442c457d8a6acc27ef999aa6c670a8c5b83b7ce87144d7056ab7f",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/2d858b2c-a848-4c2d-a305-564dcd17439c/file_viewed",
+      "content_acquired": false
+    }
+  ],
+  "complete_recursive_file_manifest_obtained": false,
+  "large_variant_or_locus_inputs_acquired": false,
+  "scope_limit": "Folder topology does not enumerate the files inside every folder. Only the seven listed direct-file scopes were fetched by the delegate and root. An inventory is not acquisition or authentication of the listed file content.",
+  "fancc_snvs_callable_observation": "The scoped PMCAHH1-FANCCKO/PTATO/snvs_callable inventory returned three summary text files and no VCF. This does not establish absence elsewhere in the dataset."
+}

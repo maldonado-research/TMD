@@ -1,0 +1,20 @@
+{
+  "record_id": "R000025",
+  "public_files": [
+    "README.md",
+    "GENOTYPE_REPLAY_CONTRACT.json",
+    "DENOMINATOR_AUDIT.json",
+    "verify_denominator_audit.py",
+    "AUDIT_VERIFICATION_RECEIPT.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt",
+    "INDEPENDENT_REVIEW.json"
+  ],
+  "excluded": [
+    "external source code and datasets",
+    "sources/**",
+    "review_acquired_sources.py",
+    "INDEPENDENT_SOURCE_REVIEW.json"
+  ],
+  "policy": "Publish only the explicit public_files allowlist. Constructed examples are labelled; no source code, raw third-party data, private archive or clinical identifiers are included."
+}

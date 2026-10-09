@@ -121,3 +121,7 @@ The approved frozen [methods 0.6.0 archive](https://doi.org/10.5281/zenodo.23219
 ## R24 metadata and recent-source checkpoint — 8 October 2026
 
 [Processed PTATO metadata](processed_metadata/README.md) authenticates two exact author tables and a root-level catalog; [the recent theory assessment](source_watch/2026-10-08/README.md) reviews the 7 October mutation-bias preprint. Sample training, clone timing and the WT display-label conventions are now explicit. Neither source supplies independent mutation-origin truth or a complete matched biological benchmark. The new theoretical reference does not furnish a full three-route forecast. [R24 handoff](CONTINUATION_HANDOFF_2026-10-08_R24.md).
+
+## R25: scoped input authentication and genotype denominators
+
+The [official catalogue/summary audit](processed_input_audit/README.md) checks 477 folders, seven scoped file inventories and three exact small summaries. The [genotype replay contract](genotype_denominators/README.md) separates global eligibility, sample-specific eligibility, sparse category means, zero completion and pooling. New source arithmetic and constructed code checks are internally independently reviewed; genotype/origin benchmarks and all 26 study inputs and 18 planning fields remain unresolved. [Continuation checkpoint](CONTINUATION_HANDOFF_2026-10-08_R25.md).

@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000024",
-    "next_round_id": "R000025",
+    "last_completed_round": "R000025",
+    "next_round_id": "R000026",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -202,7 +202,7 @@
     "artifact_admission_qualified_external_review": false,
     "control_resource_calculations": "standard hypothetical fixed-zero-error CP and PPV illustrations; exact verified; no native estimates or study commitments",
     "latest_processed_metadata_round": "R000024",
-    "current_artifact_admission_decision": "METADATA_AUTHENTICATED_NO_NUMERICAL_BENCHMARK_ADMITTED",
+    "current_artifact_admission_decision": "SCOPED_CATALOGUES_AND_SUMMARY_ARITHMETIC_VERIFIED_NO_GENOTYPE_BENCHMARK_ADMITTED",
     "processed_metadata_exact_tables_authenticated": 2,
     "processed_metadata_S1_rows": 79,
     "processed_metadata_S2_rows": 16,
@@ -215,7 +215,25 @@
     "recent_theory_posted_date": "2026-10-07",
     "recent_theory_source_representation_checks": 37,
     "recent_theory_formula_replay": false,
-    "recent_theory_complete_WAM_vector_supplied": false
+    "recent_theory_complete_WAM_vector_supplied": false,
+    "latest_processed_input_audit_round": "R000025",
+    "processed_input_folder_records": 477,
+    "processed_input_scoped_inventories": 7,
+    "processed_input_file_catalogue_records": 31,
+    "processed_input_authenticated_summary_files": 3,
+    "processed_input_authenticated_summary_bytes": 808,
+    "processed_input_summary_arithmetic_replayed": true,
+    "processed_input_complete_recursive_file_manifest": false,
+    "processed_input_variant_or_locus_replay": false,
+    "processed_input_genotype_benchmark_admitted": false,
+    "processed_input_scientific_calls": 12,
+    "processed_input_saved_capture_bytes": 1739278,
+    "latest_genotype_denominator_round": "R000025",
+    "genotype_denominator_code_anchors": 19,
+    "genotype_denominator_constructed_examples": 2,
+    "genotype_denominator_root_independent_checks": 10,
+    "genotype_denominator_actual_affected_rows": null,
+    "genotype_denominator_independent_truth_admitted": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -267,19 +285,23 @@
     {
       "id": "ptato_artifact_admission",
       "status": "blocked",
-      "observed": "R24 authenticates dataset-specific terms, four root-file records and exact TableS1/S2 metadata. Training/clone/day/WTlabel checks are reproduced, while recursive variant/callability manifest, independent truth, full denominators and native origin evidence remain unresolved; no numerical benchmark admitted.",
-      "unblocking_condition": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review.",
+      "observed": "R25 authenticates 477-folder topology, seven scoped inventories/31 file records and three exact callability summaries. Standard global-versus-local eligibility and sparse-mean code audits are internally reviewed; actual variant/locus effects, complete recursive file inventory, independent truth and native origin transport remain unmet. Oversized required VCF/BED inputs were not fetched.",
+      "unblocking_condition": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract.",
       "historical_observations": [
         {
           "round": "R000023",
           "observed": "Official release/code assessment completed; processed biological manifest, authentic TableS2, complete denominator/mapping and independent origin truth remain unacquired. Two supplement requests returned challenge HTML; no numerical benchmark admitted."
+        },
+        {
+          "round": "R000024",
+          "observed": "R24 authenticates dataset-specific terms, four root-file records and exact TableS1/S2 metadata. Training/clone/day/WTlabel checks are reproduced, while recursive variant/callability manifest, independent truth, full denominators and native origin evidence remain unresolved; no numerical benchmark admitted."
         }
       ]
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R24 exact official processed-metadata authentication, training/predecessor/WTannotation audit and7October mutation-bias theoretical assessment, independently internally reviewed; no numerical genotype/origin benchmark or biological validation.",
-    "next_action": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review.",
+    "last_completed_step": "R25 scoped official catalogue and three-summary arithmetic authentication plus conditional genotype denominator contract, independently internally reviewed; no genotype/origin benchmark or biological validation.",
+    "next_action": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -352,7 +374,14 @@
       "research/source_watch/2026-10-08/INDEPENDENT_REVIEW.json": "fed5292cc209a1d22aaa8a470d155cf9f4181f81b3704bb1854360ca3f491a18",
       "research/CONTINUATION_HANDOFF_2026-10-08_R24.md": "d7d24a59155aa173255a4c147f4310158aa6a10afc36e02910d70fda01201a3f",
       "research/continuation/R24_ACQUISITION_RECEIPT.json": "ca738f7b56a593da1ea77ee185fff97024c77c6b63bb11507b8dd86b6e250c23",
-      "research/continuation/ROUND_000024.json": "762472c99b447436f5208fb42c35c32d704b222925c19b3ce66615a19ba5e18d"
+      "research/continuation/ROUND_000024.json": "762472c99b447436f5208fb42c35c32d704b222925c19b3ce66615a19ba5e18d",
+      "research/CONTINUATION_HANDOFF_2026-10-08_R25.md": "552af2eba01315086623e51de7edeed51b6b38fda4c6d6a5cd12d308d599656f",
+      "research/continuation/R25_ACQUISITION_RECEIPT.json": "52b10843ef7e14f8d510e27f11649fa013ecdd94203f73fd8925ed4a5728bd84",
+      "research/continuation/ROUND_000025.json": "4cd1cb3927f482c7f13c8127570cb2bcff631a74cea0b0d3d63e722ae055ed43",
+      "research/processed_input_audit/SHA256SUMS.txt": "3bdad63d6b1008db8c26e842c91f5ba3e6957fcfd1b132fb7b76c79da6051f37",
+      "research/processed_input_audit/INDEPENDENT_REVIEW.json": "85e56eb30809467310317a2ce77cabeed8f9502eda22a08ac2c2d46671f30757",
+      "research/genotype_denominators/SHA256SUMS.txt": "e31e7fd2b0061583ef503d45564e112cde0bccacc44393f3e99870b1eb694a9c",
+      "research/genotype_denominators/INDEPENDENT_REVIEW.json": "a32243bb18aae235f384b9fbac187d57ae2afd336985a6b29e7138a19b741add"
     }
   },
   "reviewed_checkpoint": {
@@ -379,7 +408,8 @@
       "R000021",
       "R000022",
       "R000023",
-      "R000024"
+      "R000024",
+      "R000025"
     ],
     "blocked_work_items": [
       {
@@ -427,9 +457,15 @@
       "R000021 NNK2026 DOI10.1021/acs.chemrestox.6c00154; PMC13488614 SHA256e690131ecb2b52e833aa6d2e269e6699e894e1499b7fe2032cc480a1aa324fe4;56 body paragraphs; paired same-DNA method concordance, not native origin controls.",
       "R000023 reuses PTATO2023 DOI10.1016/j.xgen.2023.100389 sameR21source/cohort; acquired figure-code release8186323v1.0.1 SHA25651ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a; tool8098608v.1.2.4 inventory only plus4smallGitblobs; no numerical benchmark/independent cohort.",
       "R000024 samePTATO2023cohort/version1 DOI10.17632/c3r9chw9rb.1: TableS1 SHA256dad709491b8c7aa7729d8df7e0409952cdae7682f867c1f8531aabd5e1f929d6;TableS2 SHA2561879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f;metadataonly,no independent cohort or numerical benchmark.",
-      "ParkKrug2026 DOI10.64898/2026.10.05.756661,v1posted7Oct;parsedPDF14pages, selected source/model-scope review;rawPDF/equations/simulationsnotreplayed;least-fitmarginalnotfullWAMvector;BarberCouceexperimentalcohortalreadyR4."
+      "ParkKrug2026 DOI10.64898/2026.10.05.756661,v1posted7Oct;parsedPDF14pages, selected source/model-scope review;rawPDF/equations/simulationsnotreplayed;least-fitmarginalnotfullWAMvector;BarberCouceexperimentalcohortalreadyR4.",
+      {
+        "source_id": "10.17632/c3r9chw9rb.1",
+        "round": "R000025",
+        "scope": "477 observed folders, seven scoped inventories/31 files, three exact callability summaries; no variant/locus contents",
+        "source_manifest_sha256": "3bdad63d6b1008db8c26e842c91f5ba3e6957fcfd1b132fb7b76c79da6051f37"
+      }
     ],
-    "next_action": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review."
+    "next_action": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract."
   },
   "previous_checkpoint_steps": [
     {
@@ -446,10 +482,15 @@
       "last_completed_round": "R000023",
       "last_completed_step": "R23 bounded official-artifact admission assessment plus exact recovered hypothetical control-resource calculations, independently internally reviewed; no numerical biological benchmark admitted. Existing approved methods0.6.0 published and public bytes/metadata verified.",
       "next_action": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension."
+    },
+    {
+      "round": "R000024",
+      "last_completed_step": "R24 exact official processed-metadata authentication, training/predecessor/WTannotation audit and7October mutation-bias theoretical assessment, independently internally reviewed; no numerical genotype/origin benchmark or biological validation.",
+      "next_action": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000024",
+    "round": "R000025",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

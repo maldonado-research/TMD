@@ -1,0 +1,80 @@
+{
+  "record_id": "R000025",
+  "title": "Conditional denominator and label-precedence audit of the archived PTATO Figure2 code",
+  "status": "Original internal code audit using previously acquired sources; actual affected row counts remain unknown",
+  "evidence_class": "Standard set and averaging identities plus two declared constructed examples; no new biological observations, mathematical priority or demonstrated source-result error",
+  "sources": {
+    "figure": {"doi": "10.5281/zenodo.8186323", "version": "v1.0.1", "path": "Figures/Figure2.R", "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e"},
+    "helper": {"doi": "10.5281/zenodo.8186323", "version": "v1.0.1", "path": "Figures/GeneralFunctions.R", "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c"},
+    "metadata": {"doi": "10.17632/c3r9chw9rb.1", "path": "Table_S2.txt", "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f", "status": "Authenticated in R24, not newly acquired here"}
+  },
+  "global_membership_identity": {
+    "assumptions": ["Use one retained reference SNV row per sample and exact variant key, after the declared predecessor/autosome/VAF/chr17 rules.", "First audit duplicate keys and normalization. If rows share a key, a row-index formulation must replace the unique-key version below."],
+    "definitions": {
+      "R_s": "Set of reference SNV keys for sample s, before the callable subset",
+      "E_s": "Subset of R_s with final PTATO conclusion PASS or FAIL in that sample",
+      "G": "Union over all samples t of E_t",
+      "L_s": "R_s intersect G, the literal Figure2.R global-membership denominator for sample s",
+      "X_s": "L_s minus E_s, the rows additionally admitted by cross-sample membership"
+    },
+    "identity": "E_s is a subset of L_s; X_s = (R_s minus E_s) intersect (union over t not equal to s of E_t). Therefore |L_s| = |E_s| + |X_s|. The two denominators are identical if and only if X_s is empty.",
+    "row_index_generalization": "For each reference row i in sample s with variant key v_i, literal selection is 1{v_i belongs to G}; local selection is 1{PTATO conclusion_i in PASS,FAIL}. The excess consists of locally ineligible rows whose key matches any eligible row anywhere. With duplicate keys the matching eligible row may belong to the same sample, so the distinct-sample expression requires the uniqueness assumption.",
+    "retained_states": ["LOW_COV", "FAIL_QC", "FAIL_VAF", "unassigned caller status"],
+    "source_anchors": ["Figure2.R:1555", "Figure2.R:1557", "Figure2.R:1561", "Figure2.R:1566", "Figure2.R:1571"],
+    "interpretation": "The code's label 'callable' does not by itself establish sample-specific callable eligibility. This identity proves a possible difference in the selection rules. It does not show that any actual study row belongs to X_s."
+  },
+  "constructed_membership_example": {
+    "label": "Constructed rule-equivalence check; not study data",
+    "rows": [
+      {"sample": "A", "variant": "v", "PTATO": "PASS", "SCAN2": "PASS"},
+      {"sample": "B", "variant": "v", "PTATO": "LOW_COV", "SCAN2": "PASS"},
+      {"sample": "B", "variant": "w", "PTATO": "FAIL", "SCAN2": "ABSENT"}
+    ],
+    "explanation": "E_A={v}, E_B={w}, G={v,w}. L_B={v,w} and X_B={v}; the local B denominator is 1 and the literal global-membership B denominator is 2. For PTATO, B changes from 100% FAIL on E_B to 50% FAIL and 50% LOW_COV on L_B. For SCAN2 on the same chosen reference rows, B changes from 0/1 PASS to 1/2 PASS. Both are conditional descriptions, not independently calibrated sensitivity estimates.",
+    "precedence_feasibility": "B/v can be LOW_COV for PTATO and PASS for SCAN2 because the code assigns SCAN2 membership after LOW_COV. E_A makes B/v survive the later global join. This is an internally consistent constructed scenario, not an observed event."
+  },
+  "sparse_category_mean_identity": {
+    "assumptions": ["Fix one caller and one declared reference frame.", "Let m be the number of sample groups with positive denominator n_s.", "For category c, let n_sc be its row count and f_sc=n_sc/n_s. Let k_c be the number of sample groups with n_sc>0."],
+    "definitions": {
+      "sparse_mean": "For k_c>0, mean only over the k_c observed sample/category rows: a_c=(1/k_c) sum over s with n_sc>0 of f_sc",
+      "zero_completed_equal_sample_mean": "z_c=(1/m) sum over all m groups of f_sc, explicitly including zero frequencies",
+      "pooled_fraction": "p_c=(sum_s n_sc)/(sum_s n_s), which weights groups by their denominators"
+    },
+    "identity": "For k_c>0, a_c=(m/k_c) z_c. If k_c=0, the sparse source table has no category row; z_c=0 but a_c is undefined. When every sample's categories form a complete partition, sum_c z_c=1 and sum_c p_c=1. Sum_c a_c can exceed 1 whenever a present category is absent in at least one group; equality requires every positive category to appear in all m groups.",
+    "source_anchors": ["Figure2.R:1474-1494", "Figure2.R:1528-1529", "Figure2.R:1532-1533", "Figure2.R:1557-1577", "Figure2.R:1608-1609", "Figure2.R:1612-1613"],
+    "boundary": "The identity assumes the stated categories are retained as a partition. Factor conversion, missing keys or duplicate rows require separate auditing. Zero-denominator or omitted samples must be separately reported, not silently counted as zero-frequency groups. No binomial or independent-origin sampling law follows from this arithmetic."
+  },
+  "constructed_mean_example": {
+    "label": "Constructed denominator check; not study data",
+    "sample_counts": {"A": {"PASS": 1, "FAIL": 0}, "B": {"PASS": 0, "FAIL": 3}},
+    "m": 2,
+    "k_PASS": 1,
+    "k_FAIL": 1,
+    "sparse_means": {"PASS": "1", "FAIL": "1", "sum": "2"},
+    "zero_completed_means": {"PASS": "1/2", "FAIL": "1/2", "sum": "1"},
+    "pooled_fractions": {"PASS": "1/4", "FAIL": "3/4", "sum": "1"},
+    "interpretation": "One may display four total variant rows while averaging two sample frequencies. That display is not a pooled fraction and does not represent four independent biological trials."
+  },
+  "label_and_interval_cautions": [
+    {"source": "Figure2.R:1441-1442,1449-1451", "finding": "PTATO applies FAIL_QC then LOW_COV after caller membership; SCAN2 applies caller PASS membership after those exclusions. In a truly local E_s subset, final PTATO PASS/FAIL already requires passing these common QC/callability rules, so this particular QC/coverage overwrite contrast is neutralized there. The global L_s subset need not neutralize it when X_s is nonempty."},
+    {"source": "Figure2.R:195-212,1451", "finding": "SCAN2's membership set includes the loaded PASS and RESCUE rows; its comparison PASS category is not equivalent to the original pass=TRUE column alone."},
+    {"source": "GeneralFunctions.R:72-73; Figure2.R:1395", "finding": "PTA VAF<0.2 is flagged before high PTAprob can overwrite it with FAIL. Predecessor VAF must be strictly >0.2. Preserve threshold equality and missing-value behavior; do not describe both rules merely as a shared VAF cutoff."},
+    {"source": "Figure2.R:1500-1501,1583-1584", "finding": "FAIL_VAF is absent from the declared factor levels and can become factor NA after the original NA-to-ABSENT conversion. Count it before display conversion if present."},
+    {"source": "Figure2.R:66-72,1408", "finding": "BED column 2 is passed directly to 1-based IRanges without increment. If the authentic file uses conventional zero-based half-open BED coordinates, this differs at interval starts. The actual convention and affected rows remain unverified. Preserve literal behavior for reproduction, and label any conventional-coordinate comparison separately."},
+    {"source": "Figure2.R:1374,1383; Table_S2.txt", "finding": "All four PTA rows enter the code, including the FANCC Training=Yes branch; unique predecessor selection and the WT metadata/figure label reversal were already authenticated in R24. They are not new R25 evidence."}
+  ],
+  "literal_replay_deliverables": [
+    "Authenticated original inputs, exact source hashes, software/port identity and field parsing record.",
+    "Per-sample reference counts and exclusions; pre-display conclusion counts; original and final labels; Training status and both WT label schemes.",
+    "L_s and E_s counts, X_s category composition and every affected sample-key pairing retained externally.",
+    "For each category: contributing sample count k_c, common positive-denominator count m, literal sparse mean, explicit zero-completed mean and separately labelled pooled fraction.",
+    "Counts actually affected by precedence, threshold boundaries, missing fields, duplicate keys, BED endpoints and category factor conversion; zero counts remain legitimate findings.",
+    "Exact correspondence or explicitly bounded discrepancy with the claimed published statistic, without silently correcting the source semantics."
+  ],
+  "separate_eligibility_audit": {
+    "purpose": "Check how the conditional descriptive summary changes under an explicitly declared sample-specific PTATO PASS/FAIL reference frame and complete sample/category table.",
+    "rules": ["Use E_s rather than L_s for both callers within sample s.", "Retain SCAN2 imported pass/RESCUE state and raw QC/callability as distinct columns; state the chosen final PASS definition.", "Complete zero category counts for every admitted sample with a positive denominator before calculating equal-sample descriptive means.", "Audit duplicates, missing values, interval conventions and training status before interpreting results."],
+    "boundary": "This is a different descriptive calculation, not an unannounced repair of the original analysis, an independent genotype truth set, an unbiased comparison of callers, or a native-origin benchmark. E_s is itself selected using PTATO outcomes."
+  },
+  "scientific_boundary": "Inherited/standing variants, dropout, reference/copy state, repair differences, selection, drift, lineage loss and technical ascertainment remain conventional explanations. No authentic independent origin truth, native event inclusion, mutation-production rate, TMD biological fit or cancer-prevention claim follows. Actual 26-field and planning 18-field NULL registries, forecasts/eta, count laws, error allocation, stopping rules, provider pause and the immutable 1 October Zenodo 0.6.0 release remain unchanged."
+}

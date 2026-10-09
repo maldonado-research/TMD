@@ -1,0 +1,331 @@
+{
+  "record_id": "R000025",
+  "kind": "Independent internal replay contract from previously acquired source code; not new biological evidence or a completed numerical replay",
+  "scope": "AHH-1 shared-reference SNV recovery categories in Figure2.R, with separate ancestry and indel cautions",
+  "scientific_network_acquisitions_by_this_reviewer": 0,
+  "source_identity": {
+    "Figure2.R": {
+      "archive": "ProjectsVanBox/PTATO v1.0.1, Zenodo 8186323",
+      "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e",
+      "bytes": 103347
+    },
+    "GeneralFunctions.R": {
+      "archive": "ProjectsVanBox/PTATO v1.0.1, Zenodo 8186323",
+      "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c",
+      "bytes": 24133
+    },
+    "Table_S2.txt": {
+      "dataset": "Mendeley c3r9chw9rb version 1, authenticated in R24",
+      "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f",
+      "bytes": 1780
+    }
+  },
+  "claim_ladder": [
+    {
+      "level": "manifest_authenticated",
+      "requires": "Official versioned catalog, exact paths, IDs, byte sizes, catalog checksum and artifact access/terms",
+      "supports": "Availability and identity of named artifacts; not acquired content or numerical reproduction"
+    },
+    {
+      "level": "paired_reference_frame_reconstructed",
+      "requires": "Authenticated Table S2 and three relevant multisample SMuRF VCFs with full header and required INFO/FORMAT fields",
+      "supports": "Predecessor-derived reference rows and conditional eligible counts; not complete true-positive or origin truth"
+    },
+    {
+      "level": "PTATO_categories_replayed",
+      "requires": "Previous level plus each PTA callable SNV VCF, filtered-header cutoff and locus callability BED",
+      "supports": "Descriptive PTATO label counts in the stated reference frame, with exclusion audit"
+    },
+    {
+      "level": "comparison_categories_replayed",
+      "requires": "Previous level plus both SCAN2 rescued_muts tables",
+      "supports": "Descriptive conditional caller comparison using the archived asymmetric label semantics"
+    },
+    {
+      "level": "independent_genotype_benchmark_admitted",
+      "requires": "Independent per-record positive, negative and unknown genotype truth, untouched evaluation membership, actual full caller/reference/adaptation provenance and justified dependent-unit uncertainty",
+      "supports": "Only the independently justified genotype error target and transport domain"
+    },
+    {
+      "level": "native_origin_benchmark_admitted",
+      "requires": "Additional independent ancestry/episode truth, inherited and standing-variant origin negatives, lost-lineage limits, all-eligible origin denominator and native transfer controls",
+      "supports": "Only the justified origin target; caller labels alone never satisfy this level"
+    }
+  ],
+  "minimal_semantic_SNV_input_frame": {
+    "note": "Eighteen logical file objects including Table S2 suffice for a scoped extraction of the shared-SNV category computation, if catalog contents match the contract. This is not enough to execute all of Figure2.R unchanged: its import gate also demands each PTA indel file and the full script reads unrelated resources and subclone files.",
+    "files": [
+      {
+        "count": 1,
+        "path": "Table_S2.txt",
+        "needed_fields": [
+          "Sample",
+          "Type",
+          "Cell_line",
+          "Clone",
+          "Days_after_clone",
+          "Training",
+          "Label"
+        ]
+      },
+      {
+        "count": 3,
+        "path_pattern": "{cell_line}/PTATO/intermediate/short_variants/SMuRF/**/*.SMuRF.filtered.vcf",
+        "cell_lines": [
+          "PMCAHH1-WT",
+          "PMCAHH1-FANCCKO",
+          "PMCAHH1-MSH2KO"
+        ],
+        "needed_fields": [
+          "CHROM",
+          "POS",
+          "REF",
+          "ALT",
+          "CLONAL_SAMPLE_NAMES",
+          "FAIL_QC_SAMPLE_NAMES",
+          "FORMAT/VAF",
+          "ordered sample columns"
+        ]
+      },
+      {
+        "count": 4,
+        "path_pattern": "{cell_line}/PTATO/snvs_callable/*{sample}.snvs.ptato.callable.vcf.gz",
+        "needed_fields": [
+          "CHROM",
+          "POS",
+          "REF",
+          "ALT",
+          "FILTER",
+          "FORMAT/VAF",
+          "FORMAT/PTAprob"
+        ],
+        "filename_matching_note": "The archived list.files regular expression matches a sample suffix within a longer filename, not necessarily the basename start. Authenticate the exact catalog filename; do not invent a shorter name."
+      },
+      {
+        "count": 4,
+        "path_pattern": "{cell_line}/PTATO/snvs/**/*{sample}.snvs.ptato.filtered.vcf.gz",
+        "needed_fields": [
+          "complete header",
+          "PTAprobCutoff header field including mean, Walker and Cossim values"
+        ],
+        "filename_matching_note": "The archived list.files regular expression matches a sample suffix within a longer filename, not necessarily the basename start. Authenticate the exact catalog filename; do not invent a shorter name."
+      },
+      {
+        "count": 4,
+        "path_pattern": "{cell_line}/CallableLoci/{sample}_CallableLoci.bed",
+        "needed_fields": [
+          "contig",
+          "start",
+          "end",
+          "state",
+          "documented interval convention"
+        ]
+      },
+      {
+        "count": 2,
+        "paths": [
+          "PMCAHH1-WT/SCAN2/rescued_muts.txt",
+          "PMCAHH1-FANCCKO/SCAN2/rescued_muts.txt"
+        ],
+        "needed_fields": [
+          "sample",
+          "chr",
+          "pos",
+          "refnt",
+          "altnt",
+          "pass",
+          "af"
+        ]
+      }
+    ],
+    "artifact_admission_checks": [
+      "Authenticate each exact artifact against the same versioned catalog, not a filename or HTTP status alone.",
+      "Preserve the full VCF headers and compressed file hash; separately hash decompressed logical content if used.",
+      "Require each path lookup to return exactly one file and every metadata sample join to be explicit; report absent, duplicate or extra files.",
+      "Preserve chromosome representation, reference build, variant normalization and multiallelic behavior; audit duplicate variant keys before set membership.",
+      "Read only the admitted cell-line scope; do not publish private raw archives, clinical identifiers or full third-party content."
+    ]
+  },
+  "sample_map": [
+    {
+      "sample": "PMCAHH1-WT-C19SC1",
+      "metadata_label": "WT-PTA1",
+      "figure_label": "WT-PTA2",
+      "previous_sample": "PMCAHH1-WT-C19",
+      "training": "No",
+      "previous_training": "No"
+    },
+    {
+      "sample": "PMCAHH1-WT-C6SC1",
+      "metadata_label": "WT-PTA2",
+      "figure_label": "WT-PTA1",
+      "previous_sample": "PMCAHH1-WT-C6",
+      "training": "No",
+      "previous_training": "No"
+    },
+    {
+      "sample": "PMCAHH1-FANCCKO-C02B03SC03E05-PTAP1D7",
+      "metadata_label": "FANCCKO-PTA1",
+      "figure_label": "FANCCKO-PTA1",
+      "previous_sample": "PMCAHH1-FANCCKO-C02B03SC03E05",
+      "training": "Yes",
+      "previous_training": "Yes"
+    },
+    {
+      "sample": "PMCAHH1-MSH2KO-C27E06SC51B06-PTAP1E7",
+      "metadata_label": "MSH2KO-PTA1",
+      "figure_label": "MSH2KO-PTA1",
+      "previous_sample": "PMCAHH1-MSH2KO-C27E06SC51B06",
+      "training": "No",
+      "previous_training": "No"
+    }
+  ],
+  "ordered_replay": [
+    {
+      "step": 1,
+      "name": "Select samples and predecessor",
+      "source": "Figure2.R:1374-1383",
+      "rule": "Include every metadata Type=PTA row, without Training filtering. Within rows sharing Clone, find maximum Days_after_clone among other samples, then select matching rows at that day within the Clone group. The final selector has no Type filter or explicit exclusion of the current sample; verify unique nonself predecessor. R24's exact table gives the four unique pairs above.",
+      "audit": "Retain Training and both WT label schemes. A Training=No row is not independent proof that its donor, variants or related data were unused."
+    },
+    {
+      "step": 2,
+      "name": "Construct reference call-state matrix",
+      "source": "Figure2.R:218-249",
+      "rule": "Read each relevant multisample SMuRF file; retain autosome strings 1 through 22. Build variant names CHROM:POS_REF/ALT. For each sample assign 1 if named in CLONAL_SAMPLE_NAMES, otherwise 0, then replace with NA if named in FAIL_QC_SAMPLE_NAMES.",
+      "audit": "0 is a caller-derived nonclonal state, not an independently established genotype absence. NA is failed QC, not negative truth. Preserve original column order and duplicate/multiallelic cases."
+    },
+    {
+      "step": 3,
+      "name": "Choose predecessor reference candidates",
+      "source": "Figure2.R:1386-1395",
+      "rule": "Keep reference rows whose predecessor call state is 1 and nonmissing; obtain predecessor FORMAT/VAF and retain VAF strictly greater than 0.2. Label SNV if the name belongs to isSNV(SomaticVariants); remaining rows are labelled Indel by this code.",
+      "audit": "Report counts before and after autosome, CLONAL/PASS_QC, missing-VAF and VAF filters. This is a selected preceding-reference frame, not all biological variants or all mutation origins."
+    },
+    {
+      "step": 4,
+      "name": "Read PTA labels and cutoff",
+      "source": "Figure2.R:90-113; GeneralFunctions.R:21-29,47-75",
+      "rule": "Read callable SNV VCF on autosomes; retain original FILTER. Extract cutoff=2, the Walker entry, from filtered VCF header. First set FAIL_VAF for PTA VAF<0.2, then set FAIL for PTAprob greater than the selected cutoff. Equality at either threshold is not failed by that test. Rename each variant CHROM:POS_REF/ALT after removing chr in the helper path.",
+      "audit": "PTAprob override can replace FAIL_VAF. PTA VAF exactly 0.2 differs from strict predecessor VAF eligibility. Preserve original and derived filters plus cutoff strings/types; verify R comparison semantics for the observed header values before implementing a port."
+    },
+    {
+      "step": 5,
+      "name": "Attach sample-specific QC and callable overlap",
+      "source": "Figure2.R:64-72,1402-1411",
+      "rule": "PTA QC is FAIL_QC iff its matrix state is NA. Callable is membership among predecessor-reference intervals overlapping this PTA's CALLABLE BED intervals. The archived script passes BED column 2 directly to IRanges(start), with no +1 conversion.",
+      "audit": "Authenticate contig style and BED interval convention. Faithful replay must preserve archived behavior; a conventional BED-start correction, if warranted, is a separately named sensitivity check. Scalar Table S2 CallableLoci fractions cannot replace locus records."
+    },
+    {
+      "step": 6,
+      "name": "PTATO conclusion precedence",
+      "source": "Figure2.R:1429-1444",
+      "rule": "Start NA; assign PASS, FAIL, then FAIL_VAF by respective derived SNV membership. Apply indel memberships only for an indel-inclusive replay. Set FAIL_QC for failed PTA QC, then LOW_COV for noncallable PTA loci. Thus LOW_COV outranks FAIL_QC, which outranks PTATO filter status.",
+      "audit": "Keep raw membership, QC, coverage and final conclusion separately. Remaining NA denotes no assigned caller status in this reference frame, not proven biological absence."
+    },
+    {
+      "step": 7,
+      "name": "SCAN2 conclusion precedence",
+      "source": "Figure2.R:181-212,1446-1451",
+      "rule": "Load both SCAN2 rescued_muts tables, retaining SNVs and both pass=TRUE and RESCUE rows. Start conclusion NA; assign FAIL_QC, then LOW_COV, then PASS for any variant name present in the sample's loaded SCAN2 set. The last assignment overrides QC and coverage.",
+      "audit": "No PTA MinimalVAF filter is applied in this conversion. This is asymmetric with PTATO. Full-frame downstream summaries do not remove the asymmetry. Conditional global-callable subsets need actual data to establish whether affected rows survive."
+    },
+    {
+      "step": 8,
+      "name": "Chromosome 17 exclusion",
+      "source": "Figure2.R:1458-1459",
+      "rule": "After combining callers, drop every row whose Variant starts with 17:, for both callers and types, because the script reports SCAN2 did not run there.",
+      "audit": "Report dropped reference rows per sample and type. Do not compare this denominator to an all-autosome burden or all-locus truth total."
+    },
+    {
+      "step": 9,
+      "name": "Full conditional category denominator",
+      "source": "Figure2.R:1474-1533",
+      "rule": "For each caller/sample, count the remaining reference SNV rows in each conclusion and divide by that caller/sample total. Missing conclusions are subsequently relabelled ABSENT. Summaries average the available per-sample frequency rows by caller/category, while displayed total n is separately summed.",
+      "audit": "There is no explicit completion of zero-count sample/category cells before averaging. Report category-specific number of contributing samples, the literal mean, an explicitly zero-completed descriptive mean, and pooled descriptive fraction separately when they differ. None supplies independent-origin/binomial trials."
+    },
+    {
+      "step": 10,
+      "name": "Global CallableVariants subset",
+      "source": "Figure2.R:1555-1613",
+      "rule": "Construct a global set of Variant strings appearing in any PTATO reference SNV row with final conclusion PASS or FAIL. Select rows for each caller by membership in that global set, not by (Sample,Variant), then count and average as above.",
+      "audit": "A variant eligible in one sample can admit a LOW_COV, FAIL_QC, FAIL_VAF or absent row in another. Quantify the symmetric difference between this literal set and a separately named sample-specific PASS/FAIL reference set. Actual counts may agree; code inspection alone proves no numerical discrepancy."
+    },
+    {
+      "step": 11,
+      "name": "Display category conversion",
+      "source": "Figure2.R:1500-1501,1583-1584",
+      "rule": "After replacing missing conclusion with ABSENT, factor levels are ABSENT, LOW_COV, FAIL_QC, FAIL, PASS. FAIL_VAF is not a level and can become factor NA.",
+      "audit": "Record any FAIL_VAF rows before factor conversion and whether display conversion changes categories. Do not merge these with biological absence or omit them silently from a descriptive denominator."
+    }
+  ],
+  "separate_origin_claim_audit": {
+    "source": "Figure2.R:257-301",
+    "rule": "The uniqueness calculation truncates the call-state matrix to columns 1 through the target sample, then selects target state 1 and row sum 1 with na.rm=TRUE. It depends on file column order, not a verified pedigree. Clone-removal branches identify calls in the named clone using which(state!=0), which also omits NA.",
+    "checks_if_inputs_arrive": [
+      "Preserve and report exact ordered columns; compare them with independently justified ancestor relations, if any.",
+      "Count candidate rows having earlier NA rather than all earlier observed zero states.",
+      "Distinguish prior states 0, NA and no assayed earlier sample; none alone proves a new origin.",
+      "For any attempted exact port, inspect R subsetting edge cases such as negative which(integer(0)), matrix dimension dropping and duplicate cell-line loops before claiming full-script equivalence."
+    ],
+    "interpretation": "An inherited/pre-existing variant below detection, failed-QC predecessor, allelic dropout, reference/copy-state mismatch, selection of an initially rare lineage, recurrent locus, or true new variant can produce similar observed differences. Independent ancestry and timing are needed to distinguish them. Genotype-stage recovery fractions do not identify native event inclusion, mutation production or qualifying-route count laws."
+  },
+  "indel_extension_only_if_requested_and_artifacts_arrive": {
+    "additional_inputs": [
+      "four PTA indel VCFs",
+      "Indels/excludelist_v1.vcf",
+      "Indels/Indel_RecurrencyList_Info.txt",
+      "exact reference/context resources and MutationalPatterns behavior"
+    ],
+    "cautions": [
+      "readIndels retains VAF>=0.2, unlike predecessor VAF>0.2.",
+      "Figure2.R first computes full-list filters, then overwrites them using the recurrence subset with V3>2 at lines 173-174.",
+      "filter_indels uses interval overlap against the recurrence resource, then flags specified repeat insertions; shared coordinates are not automatically allele-exact matches.",
+      "CallableIndels uses the same global variant-name membership construction at line 1697.",
+      "Do not mix indel and SNV frames or import SNV false-positive conclusions to indels."
+    ]
+  },
+  "permitted_outputs_after_authenticated_inputs": [
+    "Manifest-level identity and file availability with exact inspected scope.",
+    "A row-level external audit table keyed by sample and variant, retaining source row index, predecessor, training flag, type, predecessor VAF and call state, PTA call state, original/derived FILTER, cutoff, sample callability, SCAN2 presence/pass flag, both final conclusions, chr17 exclusion and both callable-membership flags.",
+    "Per-sample flow counts, category counts/frequencies, literal mean denominators and separately named conditional sensitivity diagnostics.",
+    "Counts of earlier missing call states among caller-derived unique candidates, if the needed ancestor frame is available.",
+    "Original aggregate summaries may be published after independent source/denominator review; raw third-party variant tables remain external unless separately authorized."
+  ],
+  "deduplication": {
+    "already_R23": [
+      "Predecessor CLONAL/PASS_QC/VAF restrictions",
+      "global CallableVariants join",
+      "chr17 exclusion",
+      "sample averaging versus pooled fraction",
+      "NA omission in column-order uniqueness",
+      "origin truth and lost-lineage gaps"
+    ],
+    "already_R24": [
+      "Exact Table S2 bytes and sample map",
+      "WT label reversal",
+      "FANCC training flags and no training filter",
+      "unique predecessor day map",
+      "scalar callability insufficiency"
+    ],
+    "this_review_refines_without_new_biological_data": [
+      "Exact SCAN2 versus PTATO override order and rescued-row membership",
+      "PTAprob versus FAIL_VAF override and threshold boundary differences",
+      "Missing zero categories in available-row means",
+      "FAIL_VAF factor-level conversion",
+      "BED-start convention audit and separation of faithful replay from alternatives",
+      "Minimal logical artifact frame and ordered extraction contract"
+    ]
+  },
+  "preserved_boundaries": {
+    "actual_registry_null_fields": 26,
+    "native_control_planning_null_fields": 18,
+    "new_count_law": false,
+    "new_eta_or_forecast": false,
+    "new_error_allocation_or_stopping_rule": false,
+    "native_origin_truth_inferred": false,
+    "independent_external_scientific_review": false,
+    "Zenodo_0_6_0_1_October_immutable": true,
+    "provider_workflow_pause_unchanged": true
+  }
+}

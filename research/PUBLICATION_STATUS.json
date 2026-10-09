@@ -41,14 +41,14 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000024"
+      "R000025"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R24.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R25.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "zenodo_requests_this_round": 0,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "metadata_authenticated_no_numerical_benchmark_admitted"
+    "scientific_inference_status": "scoped_catalogues_and_summary_arithmetic_verified_no_genotype_benchmark_admitted"
   },
   "github_research_addenda_history": [
     {
@@ -68,6 +68,17 @@
       "handoff": "CONTINUATION_HANDOFF_2026-10-08_R23.md",
       "frozen_0_6_0_includes_these_addenda": false,
       "status": "internally_reviewed"
+    },
+    {
+      "latest_rounds": [
+        "R000024"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-08_R24.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "zenodo_requests_this_round": 0,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "metadata_authenticated_no_numerical_benchmark_admitted"
     }
   ],
   "publication_verified_file_count": 8,

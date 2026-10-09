@@ -1,0 +1,23 @@
+{
+  "record_id": "R000025",
+  "public_files": [
+    "README.md",
+    "PROVENANCE.json",
+    "MANIFEST_AUDIT.json",
+    "CALLABILITY_AUDIT.json",
+    "ADMISSION_UPDATE.json",
+    "SOURCE_REVIEW.json",
+    "verify_cached_sources.py",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt",
+    "INDEPENDENT_REVIEW.json"
+  ],
+  "excluded": [
+    "sources/**",
+    "build_review.py",
+    "LOCAL_REVIEW.json",
+    "__pycache__/**"
+  ],
+  "policy": "Publish only these original summaries, metadata facts and verifier; preserve all third-party source bytes outside Git and the public package."
+}

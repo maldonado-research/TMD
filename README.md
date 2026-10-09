@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — 8 October 2026
+## Latest research checkpoint — R25, 8 October 2026
+
+The [scoped input audit](research/processed_input_audit/README.md) verifies 477 official folder records, seven direct-file inventories with 31 entries, and three exact callability summaries. Their non-REF_N frequency denominator and Table S2 rounding are reproduced. This is source-summary arithmetic, not locus-level eligibility or a numerical genotype benchmark; required VCF/BED inputs are unacquired, and independent truth remains unestablished.
+
+The [genotype denominator contract](research/genotype_denominators/README.md) makes two source-code distinctions checkable: global variant membership can retain rows that fail eligibility within their own sample, and means over present categories differ from means with zero categories included. Standard algebra and explicitly constructed examples verify these conditional differences; their effects on actual study results remain unknown. A caller-selected reference frame is not independent truth. Read the [R25 checkpoint](research/CONTINUATION_HANDOFF_2026-10-08_R25.md).
+
+All 26 actual study inputs and 18 native-control planning fields remain unresolved. Frozen forecasts, eta, error allocations, stopping and paused automation are unchanged. These later GitHub audits remain outside the immutable 1 October methods 0.6.0 archive; no new Zenodo version is generated.
+
+## Prior R24 checkpoint — 8 October 2026
 
 The [R24 processed-metadata audit](research/processed_metadata/README.md) authenticates the official PTATO version-1 catalog, dataset license and exact Table S1/S2 bytes. It reconstructs sample roles, training membership and preceding-clone/day joins, and records a WT display-label mismatch between metadata and figure code. Row-level Training=No does not by itself establish donor-held-out evaluation. No numerical genotype or mutation-origin benchmark is admitted; the recursive variant/callability manifest and independent truth remain unresolved.
 

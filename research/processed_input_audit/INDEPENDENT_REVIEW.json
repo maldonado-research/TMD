@@ -1,0 +1,33 @@
+{
+  "record_id": "R000025",
+  "accepted": true,
+  "reviewer": "independent Astra Ultra scientific delegate, separate from source-package producer",
+  "scope": "Official source capture, scoped catalogue and three-summary arithmetic review",
+  "reviewed_core_files_sha256": {
+    "README.md": "f7e6d08c430dbb3aa7d30d944fb4efc85eeec9df299047d4c5e066efb7400197",
+    "PROVENANCE.json": "73044e62b7bb5028197244c777b975bc0c1d8edf52c0ce2629cfc4ae5118dcfa",
+    "MANIFEST_AUDIT.json": "c84f5106dea47fea2b68a542e7ab5e9f80c28fd9b8c8204f3052a6f9093e7b91",
+    "CALLABILITY_AUDIT.json": "3d263580a1da9af8ba825819d3a38230268130e637283d6dfd46f1b01f947eff",
+    "ADMISSION_UPDATE.json": "2fffc4d04b42183f55d51fa468bcb9960a35616b19cb30111c7c847a32850c87",
+    "SOURCE_REVIEW.json": "27df35a872e16a9a73785f7ebdab2c3406a35f8875fd1e427708ed6bf598682a",
+    "verify_cached_sources.py": "5dcce4f673cbfff8b0777d69ab5f0d16cf94f92eec2b0a3e8094f98d4d9706cc",
+    "SOURCE_VERIFICATION_RECEIPT.json": "9d496f8a0bdeeb6892135b1084391f36aa081baaa4c2b4d3d2ba71d3951ec534"
+  },
+  "checks": [
+    "All 477 folder paths unique and acyclic; 33 roots; 34/21/31 scoped subtree counts",
+    "Seven inventory scopes and 31 unique catalogue files",
+    "Three exact summary files total 808 bytes; official size/SHA256 equality",
+    "All count/frequency pairs reproduce non-REF_N denominator 2745186602 and rounded Table S2 values",
+    "Four PTA BED sizes and all seven BED catalogue identities checked, without unacquired-content claims",
+    "12 logical acquisition calls and 1739278 saved representation bytes, without wire-traffic claims",
+    "Prior R24 facts carried forward separately and not counted as new R25 evidence",
+    "No genotype/origin benchmark, independent biological truth, registry resolution or confirmatory design change claimed",
+    "Candidate offline verifier replayed successfully"
+  ],
+  "limitations": [
+    "Internal AI-assisted review, not independent external scientific review",
+    "No VCF/BED content acquired or numerical genotype replay",
+    "Complete recursive file inventory, reference denominator validation, truth and origin controls remain absent"
+  ],
+  "root_additional_check": "Exact 270-byte MSH2 summary hash, direct rawHtml UTF-8 equality, non-REF_N arithmetic and Table S2 rounding independently reproduced."
+}

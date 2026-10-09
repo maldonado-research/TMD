@@ -292,13 +292,30 @@
     {
       "id": "R000025",
       "priority": 25,
-      "status": "pending",
+      "status": "completed",
       "question": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review.",
       "deliverable": "Official scoped recursive manifest and authenticated bounded inputs, followed by an independently reviewed precisely named genotype-stage eligibility replay if its input/truth frame is admitted.",
       "falsifier_or_boundary": "Author-recorded sample labels, caller-derived positives, TrainingNo flags and absent/un-callable genotypes do not establish independent origin truth or all-birth inclusion. A least-fit theoretical marginal is not a complete observed-route forecast.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "blocked_until_input_truth_and_observation_contract_admitted",
-      "report": "../processed_metadata/README.md"
+      "scientific_inference_status": "no_genotype_benchmark_admitted",
+      "report": "../CONTINUATION_HANDOFF_2026-10-08_R25.md",
+      "completion_scope": "scoped_catalogue_and_three_summary_authentication_plus_conditional_code_denominator_audit",
+      "remaining_prerequisites": [
+        "Artifact-complete size-bounded variant/locus acquisition plan",
+        "Independent genotype truth and untouched evaluation membership",
+        "Native origin/transport/control contract"
+      ]
+    },
+    {
+      "id": "R000026",
+      "priority": 26,
+      "status": "pending",
+      "question": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract.",
+      "deliverable": "A precisely scoped input/truth and acquisition decision, or documented parking plus a useful matched bacterial panel lead.",
+      "falsifier_or_boundary": "Scalar callability, caller-selected positives, global variant keys and TrainingNo do not establish independent genotype/origin truth. Large-input acquisition alone cannot resolve this boundary.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "blocked_until_truth_and_observation_contract_admitted",
+      "report": "../processed_input_audit/README.md"
     }
   ]
 }
