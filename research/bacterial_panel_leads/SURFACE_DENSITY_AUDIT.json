@@ -1,0 +1,1567 @@
+{
+  "schema_version": 1,
+  "source_filename": "Surface_density_data.xlsx",
+  "source_doi": "10.5281/zenodo.15735347",
+  "source_license": "CC BY 4.0",
+  "groups": [
+    {
+      "sheet": "SM",
+      "source_date_label_B2": "\"2023-0602\"",
+      "saturated_density_cells_per_mL": "16000000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "22270.5",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 32,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 32,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F4",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G4",
+              "count": 38,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H4",
+              "count": 32,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I4",
+              "count": 36,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J4",
+              "count": 28,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 8,
+          "literal_sum_of_recorded_counts": 260,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "1600000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 100000,
+          "ROI_area_um2": "89082",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 13,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 20,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 8,
+          "literal_sum_of_recorded_counts": 137,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "160000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 1000000,
+          "ROI_area_um2": "801738",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 27,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 41,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 29,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 4,
+          "literal_sum_of_recorded_counts": 132,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "16000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "SM-Dwss",
+      "source_date_label_B2": "\"2023-0621\"",
+      "saturated_density_cells_per_mL": "19000000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "5567.625",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 98,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 91,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 99,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 3,
+          "literal_sum_of_recorded_counts": 288,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "19000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "12527.15625",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 40,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 40,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 26,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 51,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 42,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 42,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 41,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K5",
+              "count": 27,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 9,
+          "literal_sum_of_recorded_counts": 338,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "1900000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 100000,
+          "ROI_area_um2": "89082",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G6",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H6",
+              "count": 13,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I6",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J6",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K6",
+              "count": 18,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 9,
+          "literal_sum_of_recorded_counts": 156,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "190000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 7,
+          "dilution_factor": 1000000,
+          "ROI_area_um2": "801738",
+          "count_cells": [
+            {
+              "cell": "C7",
+              "count": 30,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D7",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E7",
+              "count": 38,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F7",
+              "count": 34,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G7",
+              "count": 38,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 5,
+          "literal_sum_of_recorded_counts": 175,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "19000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "SM-DfliA",
+      "source_date_label_B2": "\"2023-0605\"",
+      "saturated_density_cells_per_mL": "1250000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 100,
+          "ROI_area_um2": "22270.5",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 27,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F4",
+              "count": 27,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G4",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H4",
+              "count": 23,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I4",
+              "count": 30,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J4",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K4",
+              "count": 22,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 9,
+          "literal_sum_of_recorded_counts": 219,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "12500000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "89082",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 11,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 23,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 9,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K5",
+              "count": 9,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 9,
+          "literal_sum_of_recorded_counts": 146,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "1250000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "801738",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 27,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 26,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 22,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 4,
+          "literal_sum_of_recorded_counts": 106,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "125000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "mwsR",
+      "source_date_label_B2": "\"2024-0326\"",
+      "saturated_density_cells_per_mL": "6000000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 100,
+          "ROI_area_um2": null,
+          "count_cells": [],
+          "number_of_recorded_counts": 0,
+          "literal_sum_of_recorded_counts": null,
+          "status": "declared_dilution_missing_area_and_counts",
+          "nominal_inoculum_cells_per_mL_exact": "60000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "2474.5",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 34,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 34,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 37,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K5",
+              "count": 33,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L5",
+              "count": 33,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M5",
+              "count": 30,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N5",
+              "count": 34,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 12,
+          "literal_sum_of_recorded_counts": 396,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "6000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "9898",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 19,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G6",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H6",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I6",
+              "count": 25,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J6",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K6",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L6",
+              "count": 19,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 10,
+          "literal_sum_of_recorded_counts": 189,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "600000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 7,
+          "dilution_factor": 100000,
+          "ROI_area_um2": "89082",
+          "count_cells": [
+            {
+              "cell": "C7",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D7",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E7",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F7",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G7",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H7",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I7",
+              "count": 12,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J7",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K7",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L7",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M7",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N7",
+              "count": 19,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 12,
+          "literal_sum_of_recorded_counts": 193,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "60000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "awsX",
+      "source_date_label_B2": "\"2024-0326\"",
+      "saturated_density_cells_per_mL": "3400000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 100,
+          "ROI_area_um2": "2474.5",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 45,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 53,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 39,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F4",
+              "count": 42,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G4",
+              "count": 53,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H4",
+              "count": 38,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I4",
+              "count": 44,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J4",
+              "count": 53,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K4",
+              "count": 59,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L4",
+              "count": 47,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M4",
+              "count": 57,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N4",
+              "count": 60,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 12,
+          "literal_sum_of_recorded_counts": 590,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "34000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "12527.15625",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 43,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 39,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 37,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 35,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 40,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 49,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 43,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K5",
+              "count": 37,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L5",
+              "count": 30,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M5",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N5",
+              "count": 41,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 12,
+          "literal_sum_of_recorded_counts": 458,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "3400000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "50108.625",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 10,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G6",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H6",
+              "count": 23,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I6",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J6",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K6",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L6",
+              "count": 20,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 10,
+          "literal_sum_of_recorded_counts": 198,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "340000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 7,
+          "dilution_factor": 100000,
+          "ROI_area_um2": "200434.5",
+          "count_cells": [
+            {
+              "cell": "C7",
+              "count": 13,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D7",
+              "count": 12,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E7",
+              "count": 8,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F7",
+              "count": 9,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G7",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H7",
+              "count": 12,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I7",
+              "count": 8,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J7",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K7",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L7",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M7",
+              "count": 10,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N7",
+              "count": 14,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 12,
+          "literal_sum_of_recorded_counts": 151,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "34000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "wspF",
+      "source_date_label_B2": "\"2023-0526\"",
+      "saturated_density_cells_per_mL": "4000000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 100,
+          "ROI_area_um2": "2474.5",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 32,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 32,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 37,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F4",
+              "count": 30,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G4",
+              "count": 44,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H4",
+              "count": 37,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 6,
+          "literal_sum_of_recorded_counts": 212,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "40000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "22270.5",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 31,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 34,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 42,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 38,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 43,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 42,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 6,
+          "literal_sum_of_recorded_counts": 230,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "4000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "89082",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 12,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F6",
+              "count": 16,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G6",
+              "count": 28,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H6",
+              "count": 19,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I6",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J6",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "K6",
+              "count": 18,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "L6",
+              "count": 12,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "M6",
+              "count": 14,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "N6",
+              "count": 20,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "O6",
+              "count": 23,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "P6",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "Q6",
+              "count": 19,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "R6",
+              "count": 21,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "S6",
+              "count": 19,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "T6",
+              "count": 18,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 18,
+          "literal_sum_of_recorded_counts": 346,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "400000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 7,
+          "dilution_factor": 100000,
+          "ROI_area_um2": "801738",
+          "count_cells": [
+            {
+              "cell": "C7",
+              "count": 23,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D7",
+              "count": 25,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E7",
+              "count": 28,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F7",
+              "count": 33,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 4,
+          "literal_sum_of_recorded_counts": 109,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "40000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    },
+    {
+      "sheet": "wspF-DfliA",
+      "source_date_label_B2": "\"2023-0601\"",
+      "saturated_density_cells_per_mL": "1500000000",
+      "rows": [
+        {
+          "row": 4,
+          "dilution_factor": 100,
+          "ROI_area_um2": "50108.625",
+          "count_cells": [
+            {
+              "cell": "C4",
+              "count": 29,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D4",
+              "count": 28,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E4",
+              "count": 24,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F4",
+              "count": 25,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G4",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H4",
+              "count": 28,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I4",
+              "count": 27,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 7,
+          "literal_sum_of_recorded_counts": 183,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "15000000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 5,
+          "dilution_factor": 1000,
+          "ROI_area_um2": "200434.5",
+          "count_cells": [
+            {
+              "cell": "C5",
+              "count": 17,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D5",
+              "count": 15,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E5",
+              "count": 19,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "F5",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "G5",
+              "count": 13,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "H5",
+              "count": 11,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "I5",
+              "count": 22,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "J5",
+              "count": 17,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 8,
+          "literal_sum_of_recorded_counts": 136,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "1500000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        },
+        {
+          "row": 6,
+          "dilution_factor": 10000,
+          "ROI_area_um2": "801738",
+          "count_cells": [
+            {
+              "cell": "C6",
+              "count": 6,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "D6",
+              "count": 9,
+              "status": "observed_positive"
+            },
+            {
+              "cell": "E6",
+              "count": 12,
+              "status": "observed_positive"
+            }
+          ],
+          "number_of_recorded_counts": 3,
+          "literal_sum_of_recorded_counts": 27,
+          "status": "recorded_image_count_group",
+          "nominal_inoculum_cells_per_mL_exact": "150000",
+          "independent_cultures": null,
+          "known_introduced_lineages": null
+        }
+      ]
+    }
+  ],
+  "formula_cache_checks": [
+    {
+      "sheet": "SM",
+      "cell": "B4",
+      "source_formula_text": "801738/36",
+      "cached_value": "22270.5",
+      "independent_exact_rational": "44541/2",
+      "agrees": true
+    },
+    {
+      "sheet": "SM",
+      "cell": "B5",
+      "source_formula_text": "801738/9",
+      "cached_value": "89082",
+      "independent_exact_rational": "89082",
+      "agrees": true
+    },
+    {
+      "sheet": "SM-Dwss",
+      "cell": "B4",
+      "source_formula_text": "801738/144",
+      "cached_value": "5567.625",
+      "independent_exact_rational": "44541/8",
+      "agrees": true
+    },
+    {
+      "sheet": "SM-Dwss",
+      "cell": "B5",
+      "source_formula_text": "801738/64",
+      "cached_value": "12527.15625",
+      "independent_exact_rational": "400869/32",
+      "agrees": true
+    },
+    {
+      "sheet": "SM-Dwss",
+      "cell": "B6",
+      "source_formula_text": "801738/9",
+      "cached_value": "89082",
+      "independent_exact_rational": "89082",
+      "agrees": true
+    },
+    {
+      "sheet": "SM-DfliA",
+      "cell": "B4",
+      "source_formula_text": "801738/36",
+      "cached_value": "22270.5",
+      "independent_exact_rational": "44541/2",
+      "agrees": true
+    },
+    {
+      "sheet": "SM-DfliA",
+      "cell": "B5",
+      "source_formula_text": "801738/9",
+      "cached_value": "89082",
+      "independent_exact_rational": "89082",
+      "agrees": true
+    },
+    {
+      "sheet": "mwsR",
+      "cell": "B1",
+      "source_formula_text": "600*1000000*10",
+      "cached_value": "6000000000",
+      "independent_exact_rational": "6000000000",
+      "agrees": true
+    },
+    {
+      "sheet": "mwsR",
+      "cell": "B5",
+      "source_formula_text": "801738/324",
+      "cached_value": "2474.5",
+      "independent_exact_rational": "4949/2",
+      "agrees": true
+    },
+    {
+      "sheet": "mwsR",
+      "cell": "B6",
+      "source_formula_text": "801738/81",
+      "cached_value": "9898",
+      "independent_exact_rational": "9898",
+      "agrees": true
+    },
+    {
+      "sheet": "mwsR",
+      "cell": "B7",
+      "source_formula_text": "801738/9",
+      "cached_value": "89082",
+      "independent_exact_rational": "89082",
+      "agrees": true
+    },
+    {
+      "sheet": "awsX",
+      "cell": "B1",
+      "source_formula_text": "340*1000000*10",
+      "cached_value": "3400000000",
+      "independent_exact_rational": "3400000000",
+      "agrees": true
+    },
+    {
+      "sheet": "awsX",
+      "cell": "B4",
+      "source_formula_text": "801738/324",
+      "cached_value": "2474.5",
+      "independent_exact_rational": "4949/2",
+      "agrees": true
+    },
+    {
+      "sheet": "awsX",
+      "cell": "B5",
+      "source_formula_text": "801738/64",
+      "cached_value": "12527.15625",
+      "independent_exact_rational": "400869/32",
+      "agrees": true
+    },
+    {
+      "sheet": "awsX",
+      "cell": "B6",
+      "source_formula_text": "801738/16",
+      "cached_value": "50108.625",
+      "independent_exact_rational": "400869/8",
+      "agrees": true
+    },
+    {
+      "sheet": "awsX",
+      "cell": "B7",
+      "source_formula_text": "801738/4",
+      "cached_value": "200434.5",
+      "independent_exact_rational": "400869/2",
+      "agrees": true
+    },
+    {
+      "sheet": "wspF",
+      "cell": "B4",
+      "source_formula_text": "801738/324",
+      "cached_value": "2474.5",
+      "independent_exact_rational": "4949/2",
+      "agrees": true
+    },
+    {
+      "sheet": "wspF",
+      "cell": "B5",
+      "source_formula_text": "801738/36",
+      "cached_value": "22270.5",
+      "independent_exact_rational": "44541/2",
+      "agrees": true
+    },
+    {
+      "sheet": "wspF",
+      "cell": "B6",
+      "source_formula_text": "801738/9",
+      "cached_value": "89082",
+      "independent_exact_rational": "89082",
+      "agrees": true
+    },
+    {
+      "sheet": "wspF-DfliA",
+      "cell": "B4",
+      "source_formula_text": "801738/16",
+      "cached_value": "50108.625",
+      "independent_exact_rational": "400869/8",
+      "agrees": true
+    },
+    {
+      "sheet": "wspF-DfliA",
+      "cell": "B5",
+      "source_formula_text": "801738/4",
+      "cached_value": "200434.5",
+      "independent_exact_rational": "400869/2",
+      "agrees": true
+    }
+  ],
+  "sheet_count": 7,
+  "declared_dilution_groups": 25,
+  "complete_count_groups": 24,
+  "recorded_count_cells": 200,
+  "observed_zero_count_cells": 0,
+  "missing_cells_imputed": 0,
+  "normalization_contract": {
+    "source_surface_density": "image count / ROI area [cells/um^2]",
+    "nominal_inoculum_density": "source saturated plating-derived density / dilution factor [cells/mL]",
+    "source_ratio_units": "mL/um^2; dimensional, not a probability",
+    "required_join": "ROI/image/well/culture/date/strain/allele identity before biological replication or matched-context inference",
+    "timepoint": "2 h from the primary Methods; not encoded independently in these sheets",
+    "plate_count_to_actual_cell_number": "not independently calibrated in this workbook",
+    "source_formulas_executed": false
+  },
+  "independent_Wsp_Aws_Mws_panel": false
+}

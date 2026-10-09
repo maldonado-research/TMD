@@ -1,0 +1,152 @@
+{
+  "record_id": "R000026",
+  "decision": "PARK_NUMERICAL_PTATO_BENCHMARKING_PRIORITIZE_COMPLETE_BACTERIAL_PANEL",
+  "independent_reviewer_scope": "Primary-code and article reread plus cached source authentication; independent internal admission reasoning, not external qualified review",
+  "targets": {
+    "code_reproduction": {
+      "status": "PERMISSIBLE_IN_PRINCIPLE_INPUTS_INCOMPLETE",
+      "requires_independent_truth": false,
+      "achieved_now": false,
+      "reason": "Complete inputs and runtime are unavailable within the size cap; narrower software QA remains a possible future goal."
+    },
+    "independent_genotype_accuracy": {
+      "status": "NOT_ADMITTED",
+      "reason": "No authenticated outcome-independent target frame with adequate target-specific independent truth and auditable untouched evaluation/adaptation membership has been identified in the inspected scope."
+    },
+    "native_origin_and_TMD": {
+      "status": "NOT_ADMITTED",
+      "reason": "Genotype accuracy alone cannot establish acquisition episodes, losses, inherited/standing origin negatives, all-origin inclusion or native-system transport."
+    }
+  },
+  "evidence_rows": [
+    {
+      "evidence_role": "preceding_clone_shared_reference",
+      "anchors": "Figure2.R:1383-1411; article p0100 (body 33)",
+      "observed": "CLONAL, nonfailed-QC and VAF>0.2 predecessor calls; reported expected presence in related PTA sample",
+      "supports": "Candidate positive genotype-reference frame for conditional recovery",
+      "missing_for_stronger_claim": "Independent per-locus confirmation in target cell; reference false positives, mosaicism/copy state and missingness adjudication; complete eligible positive universe",
+      "decision": "NO_INDEPENDENT_ACCURACY_ADMISSION"
+    },
+    {
+      "evidence_role": "training_positive_and_artifact_labels",
+      "anchors": "article p0305/p0310 (body 98/99)",
+      "observed": "Shared PTA/bulk calls, linked-read score<1 artifacts, low-burden cord-blood proxy artifacts; conflicts/CNV/LOH exclusions and feature missingness",
+      "supports": "Provenance of selected training labels",
+      "missing_for_stronger_claim": "Disjoint evaluation membership and independent target-specific truth; proxy labels and training examples cannot self-validate performance",
+      "decision": "TRAINING_EVIDENCE_ONLY"
+    },
+    {
+      "evidence_role": "out_of_training_in_silico",
+      "anchors": "article p0090 (body 18)",
+      "observed": "Additional donors supply selected records; feature/context recombination for in-silico performance experiments",
+      "supports": "Separate held-out-source simulation design as described",
+      "missing_for_stronger_claim": "Artifact-complete record manifest, actual train/evaluation/adaptation separation and target-matched independent experimental units",
+      "decision": "NO_NATIVE_TRIAL_COUNT"
+    },
+    {
+      "evidence_role": "artifact_counts_and_signature_refit",
+      "anchors": "article p0095/p0180 (body 19/73); Figure2.R:898-919",
+      "observed": "Exact artifact counts explicitly unknown in some experiments; signature fitting estimates contributions",
+      "supports": "Model-dependent estimated composition under signature assumptions",
+      "missing_for_stronger_claim": "Independent per-record artifact/nonartifact adjudication; unknown states kept unknown",
+      "decision": "NO_INDEPENDENT_NEGATIVE_CATALOGUE"
+    },
+    {
+      "evidence_role": "training_flags_and_dependence",
+      "anchors": "Table_S2 rows8,9,12,16; Figure2.R:1374; Table_S1 Training/Individual/Origin audit R24",
+      "observed": "Four PTA rows; one and its predecessor Training=Yes; three Training=No; nested AHH-1 cultures and reused-source identities",
+      "supports": "Author-supplied sample map and flags",
+      "missing_for_stronger_claim": "Donor/lineage/sample/variant split, model and adaptation provenance, justified uncertainty units; no presumption of leakage or independence from flags alone",
+      "decision": "EVALUATION_INDEPENDENCE_UNESTABLISHED"
+    },
+    {
+      "evidence_role": "callable_selection_and_labels",
+      "anchors": "Figure2.R:1429-1459,1555-1584; GeneralFunctions.R:21-29,72-73",
+      "observed": "PTATO outcomes define global eligibility; caller masks have asymmetric precedence; chr17 excluded",
+      "supports": "Literal conditional category descriptions once actual inputs arrive",
+      "missing_for_stronger_claim": "Outcome-independent target frame, exact keys/coordinates, retained unknowns and fair prespecified caller evaluation; sample-specific PASS/FAIL is still outcome-selected",
+      "decision": "NO_NEUTRAL_EVALUATION_FRAME"
+    },
+    {
+      "evidence_role": "origin_and_transport",
+      "anchors": "Figure2.R:257-301; article p0095/p0100 (body19/33); native_origin_controls/CONTROL_TRANSFER_PLAN.md",
+      "observed": "Column-order uniqueness omits failed-QC states; observed expansion and culture-day burdens",
+      "supports": "Observed call-pattern and model-based burden descriptions",
+      "missing_for_stronger_claim": "Independently supported ancestry/episode truth, inherited/standing negatives, lost/nonexpanding lineage limits, native denominator and matched-system control validation",
+      "decision": "NO_NATIVE_ORIGIN_OR_TMD_ADMISSION"
+    }
+  ],
+  "truth_record_contract": {
+    "required_keys": [
+      "truth_version",
+      "reference_build_and_digest",
+      "contig",
+      "position_and_coordinate_convention",
+      "REF",
+      "ALT",
+      "normalization_rule",
+      "biological_unit_id",
+      "sample_id",
+      "source_row_id"
+    ],
+    "genotype_state_enum": [
+      "independently_supported_present",
+      "independently_supported_absent",
+      "unresolved",
+      "not_assessed"
+    ],
+    "evidence_fields": [
+      "independent_measurement_method",
+      "measurement_batch",
+      "adjudication_rule_and_reviewer",
+      "adjudication_blinding",
+      "support_or_discordance",
+      "copy_state",
+      "callable_frame_definition",
+      "truth_ascertainment_limit"
+    ],
+    "split_fields": [
+      "donor_or_founder_group",
+      "culture_or_lineage_group",
+      "training_membership",
+      "tuning_membership",
+      "adaptation_policy_and_result",
+      "evaluation_membership",
+      "related_variant_overlap_status"
+    ],
+    "rules": [
+      "Freeze truth/evaluation rules before inspecting either caller outcome",
+      "Preserve unresolved/not-assessed entries and exclusions; do not force them to negatives",
+      "For conditional sensitivity require independently supported eligible positive truth; negative truth is not mathematically required for that narrow target",
+      "For precision independently adjudicate positive calls with documented sampling/ascertainment; a full negative universe is not interchangeable with sampled call adjudication",
+      "For specificity/FPR define and independently assess the eligible negative frame; a list of absent VCF records is insufficient",
+      "Report performance only for the admitted truth/frame and maintain dependence-aware uncertainty; more loci do not automatically add independent biological units",
+      "Native origin needs a separate event/ancestry identity; do not relabel the genotype key as an origin identifier"
+    ]
+  },
+  "replay_fields_to_preserve": [
+    "source object digest and row index",
+    "sample plus CHROM:POS_REF/ALT key and duplicate/multiallelic state",
+    "metadata and figure labels, predecessor, training flags",
+    "reference VAF/call state, target QC and missing values",
+    "original and derived FILTER, exact header cutoff, comparison type semantics",
+    "callable interval coordinates/overlap and state",
+    "SCAN2 presence and TRUE/RESCUE state",
+    "final caller label with order of overrides",
+    "chr17 exclusion and pre-display FAIL_VAF",
+    "literal global eligibility and separately named sample-specific eligibility",
+    "category numerator, sample denominator, zero-denominator state and category-contributing sample count"
+  ],
+  "reopen_when": [
+    "A target-specific independently supported truth/evaluation resource and its provenance are concretely identified",
+    "The selected complete input scope is licensed, identity-resolved and fits a declared acquisition/working budget",
+    "Model/reference/adaptation history and biological dependence structure support the proposed claim",
+    "Qualified assessment admits the relevant genotype or origin target; internal AI review is disclosed"
+  ],
+  "exhaustive_absence_claim": false,
+  "numerical_PTATO_accuracy_computed": false,
+  "native_parameter_estimated": false,
+  "new_biological_observation": false,
+  "actual_registry_null_fields": 26,
+  "native_control_planning_null_fields": 18
+}

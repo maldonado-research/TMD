@@ -1,0 +1,410 @@
+{
+  "record_id": "R000026",
+  "method": "Offline independent reread of selected primary article/code sections and authenticated cached Table/catalogue content; no new empirical data or new source acquisition",
+  "source_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504672/",
+    "https://doi.org/10.5281/zenodo.8186323",
+    "https://doi.org/10.17632/c3r9chw9rb.1"
+  ],
+  "source_pins": [
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "filename": "ptato_pmc10504672.xml",
+      "bytes": 223535,
+      "sha256": "2653d1945c445ae63b23b3be068f66b294e60c3e4d680c679254283b6a4722e5",
+      "redistributed": false,
+      "cache_group": "r23"
+    },
+    {
+      "source_id": "r23:figure_code_v1.0.1.zip",
+      "filename": "figure_code_v1.0.1.zip",
+      "bytes": 94579,
+      "sha256": "51ee4dc35697ccc3dce9beacae9e85479399b59cb2e03bc166a3c00ad844d33a",
+      "redistributed": false,
+      "cache_group": "r23"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "filename": "Figure2.R",
+      "bytes": 103347,
+      "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e",
+      "redistributed": false,
+      "cache_group": "figures"
+    },
+    {
+      "source_id": "figures:GeneralFunctions.R",
+      "filename": "GeneralFunctions.R",
+      "bytes": 24133,
+      "sha256": "0687349ea90c4db697e505f3ae4f17e1616b880ff8ff473296798ca4cb815e8c",
+      "redistributed": false,
+      "cache_group": "figures"
+    },
+    {
+      "source_id": "r24:Table_S1.txt",
+      "filename": "Table_S1.txt",
+      "bytes": 10174,
+      "sha256": "dad709491b8c7aa7729d8df7e0409952cdae7682f867c1f8531aabd5e1f929d6",
+      "redistributed": false,
+      "cache_group": "r24"
+    },
+    {
+      "source_id": "r24:Table_S2.txt",
+      "filename": "Table_S2.txt",
+      "bytes": 1780,
+      "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f",
+      "redistributed": false,
+      "cache_group": "r24"
+    },
+    {
+      "source_id": "r24:mendeley_root_files_v1_firecrawl.json",
+      "filename": "mendeley_root_files_v1_firecrawl.json",
+      "bytes": 14171,
+      "sha256": "c17086640ec24c9b3f29d036b5b5b7ba8df3566fe1c8f19d4a2ef897263cf438",
+      "redistributed": false,
+      "cache_group": "r24"
+    },
+    {
+      "source_id": "r25:mendeley_folders_v1_firecrawl.json",
+      "filename": "mendeley_folders_v1_firecrawl.json",
+      "bytes": 205909,
+      "sha256": "10a0d668e76c211f46f474e0bcd08ddf58f7e4162754de1b471f1bd37f542965",
+      "redistributed": false,
+      "cache_group": "r25"
+    },
+    {
+      "source_id": "r25:mendeley_wt_callable_files_firecrawl.json",
+      "filename": "mendeley_wt_callable_files_firecrawl.json",
+      "bytes": 10219,
+      "sha256": "f7fed95e0b98b89658c644025495a63dc2b60922810d53710b79d68b7cf451aa",
+      "redistributed": false,
+      "cache_group": "r25"
+    },
+    {
+      "source_id": "r25:mendeley_wt_ptato_callable_files_firecrawl.json",
+      "filename": "mendeley_wt_ptato_callable_files_firecrawl.json",
+      "bytes": 9005,
+      "sha256": "8774d7d9e4de6e3b1a96b86eb8e9355733f8229f6b55058eb05c39daff099d9f",
+      "redistributed": false,
+      "cache_group": "r25"
+    },
+    {
+      "source_id": "r25:mendeley_wt_smurf_files_firecrawl.json",
+      "filename": "mendeley_wt_smurf_files_firecrawl.json",
+      "bytes": 5313,
+      "sha256": "67544e68cc8f3e7579de897b2b81cdf726cdf6af4d1f690e631c02e3a3bec2a1",
+      "redistributed": false,
+      "cache_group": "r25"
+    },
+    {
+      "source_id": "r25:mendeley_fancc_callable_files_firecrawl.json",
+      "filename": "mendeley_fancc_callable_files_firecrawl.json",
+      "bytes": 3225,
+      "sha256": "b24c166f2fb762cc225d6c5a6fbec26a4cb45e920ae68df6f7b528120b8889aa",
+      "redistributed": false,
+      "cache_group": "r25"
+    },
+    {
+      "source_id": "r25_root:msh2_callable_manifest.json",
+      "filename": "msh2_callable_manifest.json",
+      "bytes": 31081,
+      "sha256": "ced3e3767788028b6d481abb4ccbc1ec9a9aa86509f2a4cc5e1d2f840e3da95b",
+      "redistributed": false,
+      "cache_group": "r25_root"
+    },
+    {
+      "source_id": "r25_root:msh2_snvs_callable_manifest.json",
+      "filename": "msh2_snvs_callable_manifest.json",
+      "bytes": 32977,
+      "sha256": "d0bcabd01817611173f86b4f1017ec7b65050de7ca3f07c2fa49428396f41125",
+      "redistributed": false,
+      "cache_group": "r25_root"
+    },
+    {
+      "source_id": "r25_root:fancc_snvs_callable_manifest.json",
+      "filename": "fancc_snvs_callable_manifest.json",
+      "bytes": 12825,
+      "sha256": "706d9f08f8bb020c935d7fb7c148225fcd8feaf80eb3595bef51e308ef5eb90b",
+      "redistributed": false,
+      "cache_group": "r25_root"
+    }
+  ],
+  "paragraph_anchor_definition": "One-based article/body//p in document order; SHA256 of full itertext stripped at both ends, UTF-8",
+  "article_paragraph_anchors": [
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 18,
+      "xml_id": "p0090",
+      "paragraph_sha256": "9209048f9d992bfd3356db475b8bfcfe82dfd0a9ec0e6c23163c43f643f1de28"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 19,
+      "xml_id": "p0095",
+      "paragraph_sha256": "d7f9e9676d264e106aebc3ee27193743111cfc00fd032616340af53788acce77"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 33,
+      "xml_id": "p0100",
+      "paragraph_sha256": "1cd45f19033250b22e0ad561955207022f6a07f678172ca6b07da66fb89252ef"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 73,
+      "xml_id": "p0180",
+      "paragraph_sha256": "64ade7229688a46078ddba65ec46cc1060ce9cfaabe9e65efdc655fd5327c54e"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 74,
+      "xml_id": "p0185",
+      "paragraph_sha256": "5e25ff19ba09c297e0cef9ff0c275502454f1f24d8a116e5d5b01f04f86217d1"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 86,
+      "xml_id": "p0245",
+      "paragraph_sha256": "36f57f6e96aa01bba6ce69dace54bdf2578261901fbd0a1d1f7c98cadff7742c"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 91,
+      "xml_id": "p0270",
+      "paragraph_sha256": "211fb0238d6c70cecf4fee7babae13938ec3e46062aabb66e0e5f54715c93c66"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 98,
+      "xml_id": "p0305",
+      "paragraph_sha256": "5cca97cf0532063647bfcd8cbdc2787ce612c18ca7634cc295dad336f344d6f2"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 99,
+      "xml_id": "p0310",
+      "paragraph_sha256": "046f532e08b9301063713b4c54b91f3de7ad615547b0a46e25bccbd9b8e55a7a"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 103,
+      "xml_id": "p0330",
+      "paragraph_sha256": "47812eaea4c1bc88a4a33d67ef8c46cbfb4d87d657de0d5ed8c49b22944ffa52"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 105,
+      "xml_id": "p0340",
+      "paragraph_sha256": "918e381f78b5c05d180a3977e54c9d1cfb86d630f9e2de8e2ada55f9c5b32e85"
+    },
+    {
+      "source_id": "r23:ptato_pmc10504672.xml",
+      "one_based_body_paragraph": 107,
+      "xml_id": "p0350",
+      "paragraph_sha256": "64c6840cf1a12f77a1494cfa1c0f169c0f329556cbf10f4aa12a85209ae2354a"
+    }
+  ],
+  "code_anchor_definition": "One-based inclusive ranges; SHA256 of exact selected source lines retaining original line endings",
+  "code_anchors": [
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 3,
+      "end_line_1based": 31,
+      "exact_line_bytes_sha256": "7d61e9d381bdfa37a74b1e3911ede97c6e47ee59e64162d29b69944deaf318e7"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 61,
+      "end_line_1based": 73,
+      "exact_line_bytes_sha256": "cb11ac963561446330b4c34ab7f5a185f9a43092e51ad55ab4b14b4f32268055"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 90,
+      "end_line_1based": 174,
+      "exact_line_bytes_sha256": "c7a2e5f3fec734abec9f25ccfdb005656381d7388c750bd7e4ceb73d14b6e818"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 181,
+      "end_line_1based": 249,
+      "exact_line_bytes_sha256": "aa78df0a1e6c52d9cd56de131ab067d3ce99751616bfd7d071573a930b6682ee"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 257,
+      "end_line_1based": 301,
+      "exact_line_bytes_sha256": "c5d7fdcf4eb3e9411d45e13200fd4eccb12cee46ccdd581ebb47d60952451964"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 410,
+      "end_line_1based": 410,
+      "exact_line_bytes_sha256": "ef4d9005d933e2a9fed12bd51164dc7af60b3a599b48f3367c6aa48874e6b0ad"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 628,
+      "end_line_1based": 628,
+      "exact_line_bytes_sha256": "ef4d9005d933e2a9fed12bd51164dc7af60b3a599b48f3367c6aa48874e6b0ad"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 764,
+      "end_line_1based": 770,
+      "exact_line_bytes_sha256": "19444886228dad6b949f12acb60f8d0b56e5022377cdb7f116ff0091a975e304"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 898,
+      "end_line_1based": 919,
+      "exact_line_bytes_sha256": "24340b8fcae83cd034d98806884b30a5b07fbb7e8e12c97347015d37e157e42e"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 960,
+      "end_line_1based": 976,
+      "exact_line_bytes_sha256": "ffe70382de618eb2a2c731c43ecfaf40d426d255ddb3b28140ee73fc06d11071"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1203,
+      "end_line_1based": 1215,
+      "exact_line_bytes_sha256": "83386b016977f155373f1d4d60b37b58b99b358e55049010212c590413ad16c2"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1230,
+      "end_line_1based": 1232,
+      "exact_line_bytes_sha256": "d510567762b04c0bf456ca329ac6f6417c0aa460f9aa028aac6855047d790f3e"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1370,
+      "end_line_1based": 1466,
+      "exact_line_bytes_sha256": "4a16f2a7c419635c5711365202c2f1ce130f912b0ba6d2b78490038751189d5d"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1474,
+      "end_line_1based": 1501,
+      "exact_line_bytes_sha256": "ded5322fb733dba525c027e27accf44e103a9e5a02c9ce0bb847d88ac85d8ee3"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1527,
+      "end_line_1based": 1533,
+      "exact_line_bytes_sha256": "8accc65158031ef4676dee001aa11ae75ad74cdc767c9e1d645a27cab08f4e8f"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1555,
+      "end_line_1based": 1584,
+      "exact_line_bytes_sha256": "79b7d3ef2810d746e02e019b2616dfad0efbdc2d2abd9b31b8fe64008d443136"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1608,
+      "end_line_1based": 1613,
+      "exact_line_bytes_sha256": "5417bed14e016d8d94314a483c3a1c3d435cc7c2017e476302db08f4cb1d2542"
+    },
+    {
+      "source_id": "figures:GeneralFunctions.R",
+      "start_line_1based": 3,
+      "end_line_1based": 4,
+      "exact_line_bytes_sha256": "822830acb34e6004eb9f534725380b320e9285d154d02243528a3cf13a95dca0"
+    },
+    {
+      "source_id": "figures:GeneralFunctions.R",
+      "start_line_1based": 21,
+      "end_line_1based": 75,
+      "exact_line_bytes_sha256": "5e3292fb7fb051352195f402cba98780e7b608b7e8aa0f5f0001021434d284f8"
+    },
+    {
+      "source_id": "figures:GeneralFunctions.R",
+      "start_line_1based": 126,
+      "end_line_1based": 132,
+      "exact_line_bytes_sha256": "e69f4f2045a3c1ea65d1fea42cff723c8665b4b5757055f2ed5a70480a9bdc9a"
+    },
+    {
+      "source_id": "figures:GeneralFunctions.R",
+      "start_line_1based": 273,
+      "end_line_1based": 274,
+      "exact_line_bytes_sha256": "169b2ae28932ee4a527044b0a5092536e31f755c875a0be2cb3d5d0540bf9c1c"
+    },
+    {
+      "source_id": "figures:Figure2.R",
+      "start_line_1based": 1356,
+      "end_line_1based": 1356,
+      "exact_line_bytes_sha256": "6d68c2eb0859690b58c41387493ece663cdfc169f3cf3c0997d5b8525772591c"
+    }
+  ],
+  "prior_analysis_pins": [
+    {
+      "source_id": "research/CONTINUATION_HANDOFF_2026-10-08_R25.md",
+      "filename": "CONTINUATION_HANDOFF_2026-10-08_R25.md",
+      "bytes": 6765,
+      "sha256": "552af2eba01315086623e51de7edeed51b6b38fda4c6d6a5cd12d308d599656f",
+      "redistributed": true,
+      "repository_relative_path": "research/CONTINUATION_HANDOFF_2026-10-08_R25.md"
+    },
+    {
+      "source_id": "research/genotype_denominators/GENOTYPE_REPLAY_CONTRACT.json",
+      "filename": "GENOTYPE_REPLAY_CONTRACT.json",
+      "bytes": 19076,
+      "sha256": "3c82a69a466c47ac3b62f1c170517be6b1e0e4e964f885107a310f95b6fec168",
+      "redistributed": true,
+      "repository_relative_path": "research/genotype_denominators/GENOTYPE_REPLAY_CONTRACT.json"
+    },
+    {
+      "source_id": "research/genotype_denominators/DENOMINATOR_AUDIT.json",
+      "filename": "DENOMINATOR_AUDIT.json",
+      "bytes": 10387,
+      "sha256": "111e4bd2c631bea8c1ad9296799b21f00d4d1ce87dde6bf52e882ee49e7c8fc8",
+      "redistributed": true,
+      "repository_relative_path": "research/genotype_denominators/DENOMINATOR_AUDIT.json"
+    },
+    {
+      "source_id": "research/processed_input_audit/MANIFEST_AUDIT.json",
+      "filename": "MANIFEST_AUDIT.json",
+      "bytes": 18320,
+      "sha256": "c84f5106dea47fea2b68a542e7ab5e9f80c28fd9b8c8204f3052a6f9093e7b91",
+      "redistributed": true,
+      "repository_relative_path": "research/processed_input_audit/MANIFEST_AUDIT.json"
+    },
+    {
+      "source_id": "research/processed_metadata/METADATA_AUDIT.json",
+      "filename": "METADATA_AUDIT.json",
+      "bytes": 5057,
+      "sha256": "c123c4d5740d712ca8c86d29c9816b62743dd3659dd1d4b01725503b4c39efd0",
+      "redistributed": true,
+      "repository_relative_path": "research/processed_metadata/METADATA_AUDIT.json"
+    },
+    {
+      "source_id": "research/artifact_admission/ADMISSION_DECISION.json",
+      "filename": "ADMISSION_DECISION.json",
+      "bytes": 6195,
+      "sha256": "dbd6228e6db0bd18e04edfe59d8b4afa6287c817f3fc91fd896024a80d153b2f",
+      "redistributed": true,
+      "repository_relative_path": "research/artifact_admission/ADMISSION_DECISION.json"
+    },
+    {
+      "source_id": "research/native_origin_controls/CONTROL_TRANSFER_PLAN.md",
+      "filename": "CONTROL_TRANSFER_PLAN.md",
+      "bytes": 3971,
+      "sha256": "8a904147f796c60ac6497df04f39772a9e464a092ae5b7370c238d69d2c8a6e5",
+      "redistributed": true,
+      "repository_relative_path": "research/native_origin_controls/CONTROL_TRANSFER_PLAN.md"
+    }
+  ],
+  "source_terms": {
+    "article": "CC BY 4.0; article terms do not confer controlled-data access",
+    "figure_code": "MIT",
+    "processed_dataset": "Dataset-specific CC BY 4.0 metadata with third-party-content caveat verified in R24; no inference of EGA authorization"
+  },
+  "public_exclusions": [
+    "Raw third-party source text/code/responses",
+    "Raw Tables, callable BEDs and genotype records",
+    "Clinical/private material and private local locators"
+  ],
+  "interpretation_scope": "Twelve article paragraphs and listed code ranges; cached catalogues cover seven direct directories plus the root file listing and folder topology. No exhaustive global truth-catalogue absence claim."
+}

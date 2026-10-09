@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "acquisitions": [
+    {
+      "acquisition_id": "01_recent_papers",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_research_search_papers",
+      "args": {
+        "query": "Pseudomonas fluorescens SBW25 wrinkly spreader Wsp Aws Mws mutation pathways experimental evolution competition lineage data",
+        "from": "2024-01-01",
+        "to": "2026-10-09",
+        "k": 10
+      },
+      "captured_at_utc": "2026-10-09T04:06:40.684Z",
+      "capture_filename": "01_recent_papers.json",
+      "capture_bytes": 7761,
+      "capture_sha256": "fd549e65841339aa48ed275187e29b95ccb0a777f11cc02fd323a37a337ff34b",
+      "response_canonical_json_bytes": 6014,
+      "response_canonical_json_sha256": "dada89f1a7a14f3203f313d9c643b04c781aaad810ee6f11534ff71c68c0b2db",
+      "http_status": null,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [
+        {
+          "primaryId": "doi:10.64898/2026.01.27.702051",
+          "ids": {
+            "doi": [
+              "10.64898/2026.01.27.702051"
+            ]
+          }
+        },
+        {
+          "primaryId": "pmid:41633518",
+          "ids": {
+            "doi": [
+              "10.1098/rspb.2025.2004",
+              "10.1101/2025.04.29.651346"
+            ],
+            "pmid": [
+              "41633518"
+            ]
+          }
+        },
+        {
+          "primaryId": "pmcid:PMC11847636",
+          "ids": {
+            "doi": [
+              "10.1111/1462-2920.70061"
+            ],
+            "pmcid": [
+              "PMC11847636"
+            ],
+            "pmid": [
+              "39988434"
+            ]
+          }
+        },
+        {
+          "primaryId": "pmcid:PMC13101516",
+          "ids": {
+            "doi": [
+              "10.1128/aem.02499-25"
+            ],
+            "pmcid": [
+              "PMC13101516"
+            ],
+            "pmid": [
+              "41910253"
+            ]
+          }
+        },
+        {
+          "primaryId": "pmcid:PMC11631409",
+          "ids": {
+            "doi": [
+              "10.1098/rspb.2024.2312",
+              "10.1101/2024.02.10.579745"
+            ],
+            "pmcid": [
+              "PMC11631409"
+            ],
+            "pmid": [
+              "39657800"
+            ]
+          }
+        },
+        {
+          "primaryId": "pmcid:PMC11957537",
+          "ids": {
+            "doi": [
+              "10.7554/eLife.98218"
+            ],
+            "pmcid": [
+              "PMC11957537"
+            ],
+            "pmid": [
+              "40163529"
+            ]
+          }
+        }
+      ],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": null
+    },
+    {
+      "acquisition_id": "02_route_web",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_search",
+      "args": {
+        "query": "\"Wsp\" \"Aws\" \"Mws\" mutation data 2024 2025 2026",
+        "sources": [
+          "web"
+        ],
+        "limit": 8,
+        "highlights": true
+      },
+      "captured_at_utc": "2026-10-09T04:06:40.689Z",
+      "capture_filename": "02_route_web.json",
+      "capture_bytes": 8333,
+      "capture_sha256": "bf7cc2fb196ebcf10f5ae0711a053c8be82bbf440653e35f303f43ca844629fe",
+      "response_canonical_json_bytes": 7240,
+      "response_canonical_json_sha256": "d828212fb4f44e1afbffae66a3a22105d83dc9c04263e077702fb6fad52a6e9e",
+      "http_status": null,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [
+        "https://royalsocietypublishing.org/rspb/article/291/2036/20242312/104661/Extending-evolutionary-forecasts-across-bacterial",
+        "https://www.nature.com/articles/s41522-024-00644-z",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101516/",
+        "https://www.researchgate.net/publication/378170235_Forecasting_of_phenotypic_and_genetic_outcomes_of_experimental_evolution_in_Pseudomonas_syringae_and_Pseudomonas_savastanoi",
+        "https://docs.aws.amazon.com/sdk-for-sap-abap/v1/api/latest/release_notes.html",
+        "https://academic.oup.com/femsre/article/40/3/373/2570137",
+        "https://www.researchgate.net/publication/370495810_Distribution_of_mutation_rates_challenges_evolutionary_predictability_This_article_is_part_of_the_Microbial_Evolution_collection",
+        "https://patents.google.com/patent/WO2007117444A2/en"
+      ],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": null
+    },
+    {
+      "acquisition_id": "03_context_primary",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_research_read_paper",
+      "args": {
+        "paperId": "pmid:41633518",
+        "k": 12,
+        "question": "What are the exact experimental common ancestor strain, Wsp Aws Mws mutant genotypes, independent culture counts, lineage/arrival order and pre-existing mutants, competition and growth before endpoint, frequency/fitness assay sampling definitions, sequencing, supplemental data repository availability and licenses in Context-dependent adaptation in structured environments? Quote methods and data availability."
+      },
+      "captured_at_utc": "2026-10-09T04:07:17.680Z",
+      "capture_filename": "03_context_primary.json",
+      "capture_bytes": 884,
+      "capture_sha256": "8209a14871952e88f6a11a3bed57448c12ebc10bf9f88c06bbe79802f272c1e0",
+      "response_canonical_json_bytes": 139,
+      "response_canonical_json_sha256": "3272ad7953e47a883ff4196e6e593441ca838199ed954f780da5e628f4834d3f",
+      "http_status": null,
+      "status": "NO_INDEXED_FULL_TEXT",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": null
+    },
+    {
+      "acquisition_id": "04_biofilm_primary",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_research_read_paper",
+      "args": {
+        "paperId": "pmcid:PMC13101516",
+        "k": 10,
+        "question": "Identify common ancestral genetic background, total independent founding populations versus evolved clones, Wsp Aws Mws route frequencies, within population lineage mixtures/timepoints and competition, mutation-rate or recovery controls, pre-existing/inherited variant checks, raw/supplement data and license. Quote methods/results/data availability."
+      },
+      "captured_at_utc": "2026-10-09T04:07:17.680Z",
+      "capture_filename": "04_biofilm_primary.json",
+      "capture_bytes": 827,
+      "capture_sha256": "1ca29fa0167ebfcf6f5c37c76d5aac35fc0ff1f7956ede2d75c2d66da7d45778",
+      "response_canonical_json_bytes": 139,
+      "response_canonical_json_sha256": "3272ad7953e47a883ff4196e6e593441ca838199ed954f780da5e628f4834d3f",
+      "http_status": null,
+      "status": "NO_INDEXED_FULL_TEXT",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": null
+    },
+    {
+      "acquisition_id": "05_context_article",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2025.2004",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_at_utc": "2026-10-09T04:07:33.772Z",
+      "capture_filename": "05_context_article.json",
+      "capture_bytes": 421390,
+      "capture_sha256": "2a58b1f0997ebfdcab49a906123db50c2ebb7203c94b979bd6d72eb7065565a5",
+      "response_canonical_json_bytes": 416377,
+      "response_canonical_json_sha256": "7d6aa505b819f4c495391ca5ea3e4e6d9c274f5e869d704e654ffdda5931c583",
+      "http_status": 200,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2025.2004"
+    },
+    {
+      "acquisition_id": "06_biofilm_article",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101516/",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_at_utc": "2026-10-09T04:07:33.772Z",
+      "capture_filename": "06_biofilm_article.json",
+      "capture_bytes": 421495,
+      "capture_sha256": "7a328b10f552d77879fd622b1b808005169d89f8452eccd4b3dd657a2080824f",
+      "response_canonical_json_bytes": 416476,
+      "response_canonical_json_sha256": "e3b65472498099ae6883d11fa07c0d4088fb675a4bbd2c7305b4160f12e50ebd",
+      "http_status": 200,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101516/"
+    },
+    {
+      "acquisition_id": "07_context_deposit",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://zenodo.org/records/15735347",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_at_utc": "2026-10-09T04:08:33.276Z",
+      "capture_filename": "07_context_deposit.json",
+      "capture_bytes": 65763,
+      "capture_sha256": "c821f2c6fab3576f3ce06fc1e34ef67c5c51c965daeb2f24788d1e5864bc6874",
+      "response_canonical_json_bytes": 64662,
+      "response_canonical_json_sha256": "ad792e7e3bfc3243c3161331ace654a694e7bfc4f965d7518fdbe1b3d4b67d5e",
+      "http_status": 200,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": "https://zenodo.org/records/15735347"
+    },
+    {
+      "acquisition_id": "08_context_deposit_api",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://zenodo.org/api/records/15735347",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0
+      },
+      "captured_at_utc": "2026-10-09T04:08:55.195Z",
+      "capture_filename": "08_context_deposit_api.json",
+      "capture_bytes": 25782,
+      "capture_sha256": "44bfa5cf72c3a84967e07da9f7a212a2a27279adb4ad002eef0cddb9f71fba64",
+      "response_canonical_json_bytes": 25266,
+      "response_canonical_json_sha256": "ceef31658c08f0f8bdb5dca213423446782c317fa91e5fae77ebb64fd8aba6cd",
+      "http_status": 200,
+      "status": "SOURCE_REPRESENTATION_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": "https://zenodo.org/api/records/15735347"
+    },
+    {
+      "acquisition_id": "09_context_workbook",
+      "tool": "exec_command:cURL_exact_binary",
+      "args": {
+        "method": "GET",
+        "url": "https://zenodo.org/api/records/15735347/files/SM-mixevo_count_2024_10_02.xlsx/content",
+        "redirects": true,
+        "timeout_seconds": 45,
+        "max_file_bytes": 1000000,
+        "retry": 0,
+        "accept_encoding": "identity",
+        "tls_verification": true,
+        "proxy_and_ca": "inherited runtime settings"
+      },
+      "captured_at_utc": "2026-10-09T04:09:36.924692+00:00",
+      "capture_filename": "09_context_workbook.json",
+      "capture_bytes": 3108,
+      "capture_sha256": "58c7691c3aad55b76f7acd816f4a4cd791ea680c1e015ceb56d15b52d99b4773",
+      "response_canonical_json_bytes": null,
+      "response_canonical_json_sha256": null,
+      "http_status": 0,
+      "status": "TRANSPORT_FAILURE",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 0,
+      "exact_binary_sha256": null,
+      "source_url": "https://zenodo.org/api/records/15735347/files/SM-mixevo_count_2024_10_02.xlsx/content"
+    },
+    {
+      "acquisition_id": "10_context_workbook_network",
+      "tool": "exec_command:cURL_exact_binary",
+      "args": {
+        "method": "GET",
+        "url": "https://zenodo.org/api/records/15735347/files/SM-mixevo_count_2024_10_02.xlsx/content",
+        "redirects": true,
+        "timeout_seconds": 30,
+        "max_file_bytes": 65536,
+        "retry": 0,
+        "accept_encoding": "identity",
+        "tls_verification": true,
+        "proxy_and_ca": "inherited runtime settings",
+        "sandbox_permissions": "with_additional_permissions",
+        "additional_permissions": {
+          "network": {
+            "enabled": true
+          }
+        },
+        "changed_prerequisite": "Explicit network permission permits the inherited proxy connection that attempt 09 could not open."
+      },
+      "captured_at_utc": "2026-10-09T04:10:45.670634+00:00",
+      "capture_filename": "10_context_workbook_network.json",
+      "capture_bytes": 9556,
+      "capture_sha256": "c60f6a96ed8687e89112ef86d85e9a8e0a4cb8e6559d8b1d4c260a8dae151db2",
+      "response_canonical_json_bytes": null,
+      "response_canonical_json_sha256": null,
+      "http_status": 200,
+      "status": "EXACT_BINARY_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 9925,
+      "exact_binary_sha256": "142bf3ea4a873b2f8ae493a0832fce12ea6bb935a1eca8b3c3be4f93a3d38d23",
+      "source_url": "https://zenodo.org/api/records/15735347/files/SM-mixevo_count_2024_10_02.xlsx/content"
+    },
+    {
+      "acquisition_id": "11_surface_workbook_network",
+      "tool": "exec_command:cURL_exact_binary",
+      "args": {
+        "method": "GET",
+        "url": "https://zenodo.org/api/records/15735347/files/Surface_density_data.xlsx/content",
+        "redirects": true,
+        "timeout_seconds": 30,
+        "max_file_bytes": 65536,
+        "retry": 0,
+        "accept_encoding": "identity",
+        "tls_verification": true,
+        "proxy_and_ca": "inherited runtime settings",
+        "sandbox_permissions": "with_additional_permissions",
+        "additional_permissions": {
+          "network": {
+            "enabled": true
+          }
+        }
+      },
+      "captured_at_utc": "2026-10-09T04:15:01.525182+00:00",
+      "capture_filename": "11_surface_workbook_network.json",
+      "capture_bytes": 9379,
+      "capture_sha256": "144e30d397b5581bd1a8a07e76efc496411986b0a5ccc6e35e0b1aa264c11d5d",
+      "response_canonical_json_bytes": null,
+      "response_canonical_json_sha256": null,
+      "http_status": 200,
+      "status": "EXACT_BINARY_ACQUIRED",
+      "returned_source_identifiers": [],
+      "exact_binary_bytes": 15773,
+      "exact_binary_sha256": "5802bfb537f94b60de3a03d5f83e4fe7b94a2af8a9c32e2deb1b030939f138a0",
+      "source_url": "https://zenodo.org/api/records/15735347/files/Surface_density_data.xlsx/content"
+    }
+  ],
+  "workbook": {
+    "filename": "SM-mixevo_count_2024_10_02.xlsx",
+    "bytes": 9925,
+    "sha256": "142bf3ea4a873b2f8ae493a0832fce12ea6bb935a1eca8b3c3be4f93a3d38d23",
+    "md5": "445db9f6f795ea98a256bdb09e370446",
+    "license": "CC BY 4.0",
+    "raw_published": false
+  },
+  "surface_workbook": {
+    "filename": "Surface_density_data.xlsx",
+    "bytes": 15773,
+    "sha256": "5802bfb537f94b60de3a03d5f83e4fe7b94a2af8a9c32e2deb1b030939f138a0",
+    "md5": "6595f2b6bb05e827ec1f434f4b89a6fa",
+    "license": "CC BY 4.0",
+    "raw_published": false
+  },
+  "primary_anchors": [
+    {
+      "anchor_id": "K_genotype_variety",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "Similar trends were observed for other WS genotypes ( _awsX_ and _mwsR_ mutants; electronic supplementary material, table S3)",
+      "supported_scope": "Early occupation includes additional known genotype labels; not justwspF."
+    },
+    {
+      "anchor_id": "K_surface_denominator",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "The ratio of the surface density to the inoculum density was defined as a measure of the efficiency of early ALI occupation.",
+      "supported_scope": "Dimensional density ratio, notknown-lineage probability."
+    },
+    {
+      "anchor_id": "K_five_line_groups",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "Distribution of WS morphotypes across five independent evolution lines. More than 140 colonies were scored per replicate.",
+      "supported_scope": "Author sampling-unit account; colonies nested within lines."
+    },
+    {
+      "anchor_id": "K_morphology_not_genotype",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "Since different genotypes can produce similar morphologies",
+      "supported_scope": "Molecular route cannot be inferred solely frommorph."
+    },
+    {
+      "anchor_id": "K_six_day_source_endpoint",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "At 6 days, the evolved mat population was sampled and plated as described above.",
+      "supported_scope": "Article stated endpoint; workbook suffixes do notindependently encode day."
+    },
+    {
+      "anchor_id": "K_license",
+      "capture_filename": "05_context_article.json",
+      "excerpt": "Published by the Royal Society under the terms of the Creative Commons Attribution License",
+      "supported_scope": "Main articlelicense."
+    },
+    {
+      "anchor_id": "M_clone_population_units",
+      "capture_filename": "06_biofilm_article.json",
+      "excerpt": "In all, we sequenced 69 clones from 54 independent populations",
+      "supported_scope": "Different clone/population units."
+    },
+    {
+      "anchor_id": "M_selected_ascertainment",
+      "capture_filename": "06_biofilm_article.json",
+      "excerpt": "these frequencies are skewed toward colonies chosen from populations with visibly new morphologies",
+      "supported_scope": "Ascertainmentprevents unmatched fullracefrequency."
+    },
+    {
+      "anchor_id": "M_origin_independence_caution",
+      "capture_filename": "06_biofilm_article.json",
+      "excerpt": "Although it is possible that a few instances of parallel mutations were not entirely independent",
+      "supported_scope": "Author uncertaintyabout originindependence."
+    },
+    {
+      "anchor_id": "M_ancestral_difference",
+      "capture_filename": "06_biofilm_article.json",
+      "excerpt": "The ancestor used by WHS in 2015 also had an additional 129 bp deletion at position 360368 and a 132 bp deletion at position 6223020.",
+      "supported_scope": "Preserve cohortancestorvariation."
+    },
+    {
+      "anchor_id": "M_supplement_rights",
+      "capture_filename": "06_biofilm_article.json",
+      "excerpt": "ASM does not own the copyrights to Supplemental Material that may be linked to, or accessed through, an article.",
+      "supported_scope": "Separate supplementrights notblanketarticlelicense."
+    }
+  ],
+  "logical_scientific_calls": 11,
+  "serialized_capture_bytes": 974278,
+  "exact_binary_bytes": 25698,
+  "capture_plus_binary_bytes": 999976,
+  "byte_accounting": "UTF-8 request/response capture files include duplicated MCP and structured provider representations; exact XLSX bytes counted separately. Provider internal requests/transport bytes unavailable. Derived Markdown and parsed copies excluded.",
+  "scope": "Two bounded searches, two unavailable indexed full-text requests, two primary articles,depositpage+API,two endpointworkbook transferattempts,one surfaceworkbook transfer. No entire-webcoverage.",
+  "source_cache_published": false,
+  "source_terms": "Main articles CC BY4;Karita datasetCCBY4;Matela supplementreuse notadmitted."
+}

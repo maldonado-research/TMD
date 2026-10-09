@@ -100,7 +100,7 @@
       "status": "completed",
       "question": "Does the newly indexed stationary-phase recombination study change the justified scope of mutation-only route entry?",
       "deliverable": "Primary full-text methods/cohort assessment of DOI10.1093/molbev/msag238 with mutation-versus-transfer units and genotype/ecology limits.",
-      "falsifier_or_boundary": "An E.coli\u2013P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
+      "falsifier_or_boundary": "An E.coli–P1 abstract claim cannot be transferred quantitatively to SBW25 or treated as TMD confirmation.",
       "maximum_download_bytes": 20971520,
       "completion_scope": "full_primary_source_assessment",
       "result": "Complete main primary text assessed with16 measurement rows,6 identity and13 source-anchor checks. Transfer creates new recipient genotypes without necessarily creating new alleles; recovered CFUs are not independent molecular events. No SBW25 quantitative transfer or TMD confirmation.",
@@ -309,13 +309,27 @@
     {
       "id": "R000026",
       "priority": 26,
-      "status": "pending",
+      "status": "completed",
       "question": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract.",
       "deliverable": "A precisely scoped input/truth and acquisition decision, or documented parking plus a useful matched bacterial panel lead.",
       "falsifier_or_boundary": "Scalar callability, caller-selected positives, global variant keys and TrainingNo do not establish independent genotype/origin truth. Large-input acquisition alone cannot resolve this boundary.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "blocked_until_truth_and_observation_contract_admitted",
-      "report": "../processed_input_audit/README.md"
+      "scientific_inference_status": "PTATO_benchmark_parked_no_matched_bacterial_panel_admitted",
+      "report": "../CONTINUATION_HANDOFF_2026-10-08_R26.md",
+      "completion_scope": "source_based_input_truth_decision_and_licensed_bacterial_resource_assessment",
+      "result": "Individual dependency/cost and truth decision; two exact licensed workbooks with independent source/unit review. No accuracy/origin benchmark or biological fit.",
+      "remaining_prerequisites": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension."
+    },
+    {
+      "id": "R000027",
+      "priority": 27,
+      "status": "pending",
+      "question": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension.",
+      "deliverable": "A genotype/strain and culture/well/plate/context map with independent route/control truth decision for a complete licensed matched panel; otherwise preserve exact unmet gates and park.",
+      "falsifier_or_boundary": "Colour/morphology, ROI counts, surface-density ratios and whole-well mat success do not by themselves supply W/A/M mutation births, independent supply or phase-specific lineage controls.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "blocked_until_matched_route_control_and_count_law_admission",
+      "report": "../bacterial_panel_leads/REPORT.md"
     }
   ]
 }

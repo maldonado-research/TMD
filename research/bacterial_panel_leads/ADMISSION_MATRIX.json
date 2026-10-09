@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "decision": "LICENSED_ECOLOGICAL_LEAD_AND_ENDPOINT_WORKBOOK_AUTHENTICATED_NO_MATCHED_PANEL_ADMITTED",
+  "scope": "Only the acquired sources/two exact workbooks and existing project contract; not a global dataset-absence claim.",
+  "gates": [
+    {
+      "gate": "licensed_artifact_identity",
+      "source": "Karita primary, Zenodo API, two exact XLSX files",
+      "available": "Dataset-specific CC BY 4.0;14catalogued files;both acquired XLSX sizes/MD5/SHA256 verified.",
+      "missing_or_limitation": "Article/preprint/deposit are one family, not multiple independent cohorts.12other listed files not acquired.",
+      "decision": "ARTIFACT_ONLY_ADMITTED"
+    },
+    {
+      "gate": "common_ancestor_and_all_route_genotypes",
+      "source": "Karita Methods; surface workbook",
+      "available": "SBW25 genotype-labelled sheets include wspF,awsX,mwsR,SM and three deletion-background controls.",
+      "missing_or_limitation": "Alleles/markers/protocol joins require Table S3. Different dated sheets are not independently matched biological batches; endpoint colours/morphs lack molecular assignments.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "independent_context_matched_supply",
+      "source": "Karita introduction/model/sourceworkbooks",
+      "available": "Source cites a prior combined WS rate.",
+      "missing_or_limitation": "Neither workbook measures birth events or opportunity/division denominators. Cited historical rate and surface counts cannot supply route-resolved independent q.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "full_selected_route_frequencies",
+      "source": "Karita Fig6 and endpoint workbook",
+      "available": "Five grouped colour/morphology records;57literal counts;separate21Darkwheel;8summary cells kept separate.",
+      "missing_or_limitation": "No complete Wsp/Aws/Mws/Other allele mapping;plate/dilution weights and Darkwheel need adjudication. No winner/first-origin/fixation interpretation admitted.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "pre_endpoint_competition",
+      "source": "Karita Fig3-5,Methods",
+      "available": "Live imaging,representative introduced SM/WS dynamics;2h early-occupation counts for genotype-labelled sheets.",
+      "missing_or_limitation": "No all-route molecular time series with acquisition/establishment/loss times. Reporter state and morphology do not uniquely mark origins.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "independent_replication_and_denominators",
+      "source": "Karita Methods/two XLSX",
+      "available": "Source reports5evolutionlines. Surface workbook has7sheets,25declared dilutiongroups,24populated groups,200 positive image-count cells.",
+      "missing_or_limitation": "ROI/culture hierarchy absent;three line1subblocks cannot become independent experiments. Date/batch/genotype joins unresolved. No full binomial/multinomial count-law admission.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "ancestry_preexisting_and_inherited_negatives",
+      "source": "Both primary methods",
+      "available": "Karita single-colony preculture and ancestral fluorescent tags;Matela explicitly identifies ancestral reference differences.",
+      "missing_or_limitation": "No independent complete ancestry/acquisition-episode truth,genotype-confirmed pre-existing negative panel or missing-truth decision map.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "lost_lineage_limits",
+      "source": "Karita imaging",
+      "available": "Observed microcolony collapse and ecological mechanisms for loss.",
+      "missing_or_limitation": "No genotyped census of invisible/lost origins or calibrated observation probabilities; absence of detection is not zero loss.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "phase_specific_recovery_and_establishment",
+      "source": "Karita matrescue and surface workbook",
+      "available": "Whole-well mat outcomes and image/plating density measurements.",
+      "missing_or_limitation": "No knownintroduced independent lineage L and correctlyrecovered k by W/A/M ×baseline/selected phase. Dimensional density ratio is not a probability; no calibrated transport bound.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "complete_conventional_frozen_forecast",
+      "source": "Karita SM/WS×bulk/ALI model;existing prospective plan",
+      "available": "Useful conventional ecological/spatial mechanism family.",
+      "missing_or_limitation": "Four-state SM/WS model not full W/A/Mvector;no independentlyparameterized complete heldout probabilities. No historical outcome becomes untouched prospective evaluation.",
+      "decision": "PARTIAL_SOURCE_SUPPORT_NO_GATE_ADMISSION"
+    },
+    {
+      "gate": "alternate_Matela_panel",
+      "source": "Matela primary Methods/Results",
+      "available": "69selectedclones/54populations;3route-relatedgenes plusOther;separate longitudinal bead experiment.",
+      "missing_or_limitation": "Historical morphologyselected collection,different ancestor/protocol groups;possible shared variants;separate competition usesbmo/wspF/fuzY/ancestor. ArticleCCBY does not blanketlicense supplements.",
+      "decision": "UNMATCHED_CONTEXT_AND_ASCERTAINMENT_NO_PANEL_ADMISSION"
+    }
+  ],
+  "actual_study_inputs_resolved": 0,
+  "native_planning_inputs_resolved": 0,
+  "actual_study_inputs_remaining_NULL": 26,
+  "native_planning_inputs_remaining_NULL": 18,
+  "preserved_blockers": [
+    "R5",
+    "R11",
+    "R17"
+  ],
+  "forecasts_eta_error_stopping_changed": false,
+  "biological_fit_or_confirmation": false
+}

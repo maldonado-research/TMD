@@ -125,3 +125,7 @@ The approved frozen [methods 0.6.0 archive](https://doi.org/10.5281/zenodo.23219
 ## R25: scoped input authentication and genotype denominators
 
 The [official catalogue/summary audit](processed_input_audit/README.md) checks 477 folders, seven scoped file inventories and three exact small summaries. The [genotype replay contract](genotype_denominators/README.md) separates global eligibility, sample-specific eligibility, sparse category means, zero completion and pooling. New source arithmetic and constructed code checks are internally independently reviewed; genotype/origin benchmarks and all 26 study inputs and 18 planning fields remain unresolved. [Continuation checkpoint](CONTINUATION_HANDOFF_2026-10-08_R25.md).
+
+## R26: a concrete replay decision and licensed bacterial input audit
+
+The [PTATO benchmark decision](benchmark_decision/README.md) resolves 18 logical scoped inputs, unknown costs and a 34-object minimum for unchanged full-script execution; independent accuracy/origin truth remains unmet. The [bacterial source assessment](bacterial_panel_leads/REPORT.md) authenticates two small licensed workbooks, preserves sampled-colony and surface-count units, and sharpens the density/resident-state/timing control requirement. Both have independent internal source/unit review; no matched panel or TMD fit is admitted. [Continuation checkpoint](CONTINUATION_HANDOFF_2026-10-08_R26.md).

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "REPORT.md",
+    "ADMISSION_MATRIX.json",
+    "ACQUISITION_PLAN.json",
+    "DERIVED_WORKBOOK_AUDIT.json",
+    "SURFACE_DENSITY_AUDIT.json",
+    "SOURCES.json",
+    "verify_sources.py",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 14599,
+      "sha256": "d3cd0a8e1aa48e9da8fe542598ea42de9bebe5672a607dd73ef1b89af2ab8b8c"
+    },
+    {
+      "path": "ADMISSION_MATRIX.json",
+      "bytes": 5874,
+      "sha256": "9eb1afa680db828fb1df1470920185c11635b781003cbed3986b7d8290568be8"
+    },
+    {
+      "path": "ACQUISITION_PLAN.json",
+      "bytes": 5915,
+      "sha256": "50e8bcd544709e58dfbd9382c325fec86683075c9d45c3cfc2f2afacdef8b334"
+    },
+    {
+      "path": "DERIVED_WORKBOOK_AUDIT.json",
+      "bytes": 18460,
+      "sha256": "ddfca6ed83ab36a71554f798afa933045bf62f861411929dec362078e13941f9"
+    },
+    {
+      "path": "SURFACE_DENSITY_AUDIT.json",
+      "bytes": 42930,
+      "sha256": "ad8f11dee887559d5f213ae7f94bd9f42c8e5ca49bf59cd0105181e806bdf7db"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 19389,
+      "sha256": "3561e041a1b05f1f3b49073886ba70bef5ab4eff3cb3da6a9357fa767b13eaee"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 17446,
+      "sha256": "d16036c25df6fc6e63eb6a58bdda6e5ad6e01599755ccf4d8969f594f8c1a290"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 2192,
+      "sha256": "be2b3d4dc80101ef7a1853efffef364bdfffe3ba6fdf730c162400c1f83db020"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 8186,
+      "sha256": "9bf3ee8505f678c42e34619c64549a33b5e92e6b09db1377b6e5f8c3680633ff"
+    }
+  ],
+  "excluded": "Raw source responses, original XLSX files, private workbook metadata, author code, movies and microscopy remain outside Git. Independent review pins the eight unchanged core files.",
+  "license": "Original commentary and attributed derived audit CC BY 4.0; new code MIT; third-party rights unchanged."
+}

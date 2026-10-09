@@ -1,0 +1,22 @@
+{
+  "record_id": "R000026",
+  "public_files": [
+    "README.md",
+    "ARTIFACT_PLAN.json",
+    "SIZE_BOUNDED_REPLAY_PLAN.json",
+    "TRUTH_ADMISSION_DECISION.json",
+    "PROVENANCE.json",
+    "ACQUISITION_RECEIPT.json",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "verify_cached_plan.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt",
+    "INDEPENDENT_REVIEW.json"
+  ],
+  "excluded": [
+    "All external source caches, source bodies/code and source Tables",
+    "Genotype and callable-locus records",
+    "Private local locators, credentials and clinical materials"
+  ],
+  "policy": "Only original analysis, minimal source metadata/identities, code and verification receipts are public. External source terms remain unchanged."
+}

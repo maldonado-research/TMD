@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R25, 8 October 2026
+## Latest research checkpoint — R26, 8 October 2026
+
+The [input/truth decision](research/benchmark_decision/README.md) parks numerical PTATO accuracy and origin benchmarking. Its 18-object scoped ledger has more than 1.64 GB of known source-file sizes plus unresolved inputs; unchanged whole-script execution needs at least 34 dataset objects. Independent evaluation truth remains unestablished. Reproducing source categories is a separate task with a narrower claim.
+
+The [licensed SBW25 ecological lead](research/bacterial_panel_leads/REPORT.md) authenticates two small author workbooks from Karita et al.'s structured-environment study. Exact source arithmetic preserves five line groups, a summed total of 1,014 sampled colonies, including 21 in the separate Dark wheel category, separate ambiguous categories, and genotype-labelled surface counts for wspF, awsX and mwsR. Colours/morphotypes do not identify mutation routes, and surface-density indices are not establishment probabilities. The practical control requirement is to match density, resident ancestral scaffold and timing. No complete matched W/A/M panel or biological TMD fit is admitted. Read the [R26 checkpoint](research/CONTINUATION_HANDOFF_2026-10-08_R26.md).
+
+All 26 actual study inputs and 18 native-control planning fields remain unresolved. Frozen forecasts, eta, error allocations, stopping and paused automation are unchanged. The immutable 1 October methods 0.6.0 archive remains separate; no new Zenodo version is generated.
+
+## Prior R25 checkpoint — 8 October 2026
 
 The [scoped input audit](research/processed_input_audit/README.md) verifies 477 official folder records, seven direct-file inventories with 31 entries, and three exact callability summaries. Their non-REF_N frequency denominator and Table S2 rounding are reproduced. This is source-summary arithmetic, not locus-level eligibility or a numerical genotype benchmark; required VCF/BED inputs are unacquired, and independent truth remains unestablished.
 

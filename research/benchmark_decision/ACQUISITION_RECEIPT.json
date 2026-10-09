@@ -1,0 +1,22 @@
+{
+  "record_id": "R000026",
+  "scope": "benchmark_decision delegate only",
+  "new_scientific_acquisition_logical_calls": 0,
+  "new_scientific_response_bytes": 0,
+  "new_payload_bytes": 0,
+  "cached_primary_objects_reread": 15,
+  "network_requests_for_sources": [],
+  "runtime_status_read": "Managed environment connected; current enforced restricted policy inspected; no source networking performed",
+  "credentials_or_environment_dumped": false,
+  "inherited_proxy_CA_or_authentication_changed": false,
+  "repeated_failed_source_routes": false,
+  "full_archives_raw_reads_or_controlled_data_acquired": false,
+  "private_corpus_search_repeated": false,
+  "accounting_note": "Local reads/hashes do not count as newly acquired source bytes. Runtime-status and skill reads are environment/instruction inspection, not scientific acquisition. Provider-internal traffic is not measured.",
+  "source_receipts_reused": [
+    "../processed_input_audit/PROVENANCE.json",
+    "../processed_metadata/PROVENANCE.json",
+    "../artifact_admission/SOURCE_ACQUISITION_RECEIPT.json"
+  ],
+  "source_terms": "Original assessment only is proposed for publication; raw source cache and third-party artifacts remain external."
+}

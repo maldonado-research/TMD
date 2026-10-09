@@ -4,7 +4,7 @@ Checked 8 October 2026 (America/Los_Angeles).
 
 **Current: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
 
-The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R25 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
+The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R26 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
 
 The modern draft API repaired staging using the correct JSON request schema and content type; the initial content-type rejection and earlier legacy failures are preserved as diagnostics. Approved notes are stored exactly as an RDM additional description of type `other`; the legacy serializer omits that field, so verification uses canonical modern metadata and public HTML. Fresh restored-runtime checks passed all 53 archive hashes, 44 unit tests and 160 saved-result comparisons without changing the ZIP.
 
@@ -45,3 +45,5 @@ R19/R20 were prepared for reviewed GitHub publication on 7 October 2026. This ro
 ## Native origin controls and caller support — 7 October 2026
 
 R21/R22 are later original GitHub review addenda: a source-grounded control plan and conditional synthetic caller mathematics. No Zenodo request, staging, upload, release, publication or automatic-archiving change occurred in these rounds. The latest authenticated Zenodo observation remains 01:50:58 UTC on 8 October from R16/R18. Draft 23219776, existing family/records, inherited files and OFF archiving are preserved. Frozen 0.6.0 remains unchanged and excludes these later addenda. Qualified external review and all actual study inputs remain unresolved.
+
+R26 adds an internally reviewed input/truth decision and licensed bacterial resource assessment with exact small-source arithmetic. These change no archived method or admitted biological result. Methods0.6.0 is not regenerated; no new version, release, upload or publication is attempted. Public third-party dataset reads are research acquisitions, not a fresh state check of the author’s methods record. Earlier verified publication details remain preserved.
