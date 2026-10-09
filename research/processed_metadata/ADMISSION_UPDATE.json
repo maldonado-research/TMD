@@ -1,0 +1,81 @@
+{
+  "record_id": "R000024",
+  "previous_record_id": "R000023",
+  "previous_decision": "ARTIFACT_INSPECTED_NO_NUMERICAL_BENCHMARK_ADMITTED",
+  "current_decision": "METADATA_AUTHENTICATED_NO_NUMERICAL_BENCHMARK_ADMITTED",
+  "genotype_stage_numerical_benchmark_admitted": false,
+  "native_origin_benchmark_admitted": false,
+  "native_origin_truth_inferred": false,
+  "numerical_replication_obtained": false,
+  "qualified_external_review_obtained": false,
+  "actual_bacterial_registry_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "admitted_matched_WAM_biological_datasets": 0,
+  "gates": [
+    {
+      "id": 1,
+      "gate": "Official accession, version, mapping and manifests",
+      "status": "PARTIALLY_VERIFIED",
+      "new_evidence": ["Official processed dataset version and publication date", "Four root-level file records", "Exact Table S1 and Table S2 bytes matched to catalog SHA256 and size", "Sample-to-clone/culture metadata and code join"],
+      "remaining": ["Recursive processed-data manifest", "Raw-WGS release/sample mapping", "Bounded authentic variant/callability inputs"]
+    },
+    {
+      "id": 2,
+      "gate": "Artifact-specific access, reuse and privacy",
+      "status": "PARTIALLY_VERIFIED",
+      "new_evidence": ["Official Mendeley dataset-specific CC BY4.0 statement with third-party-content caveat"],
+      "remaining": ["EGA-specific access and reuse/privacy conditions", "Any artifact-level third-party restrictions beyond the inspected metadata"]
+    },
+    {
+      "id": 3,
+      "gate": "Positive, negative and unknown truth; untouched evaluation",
+      "status": "NOT_SATISFIED",
+      "new_evidence": ["FANCC PTA and preceding subclone flagged Training=Yes", "Table S1 row-level training flags include overlapping individual labels across Yes and No groups"],
+      "remaining": ["Independent per-record truth and its provenance", "Exact training membership and untouched evaluation frame", "Unknown origin labels must remain unknown"]
+    },
+    {
+      "id": 4,
+      "gate": "Frozen caller, references and adaptation",
+      "status": "PARTIALLY_VERIFIED",
+      "new_evidence": ["Authenticated Table S2 now matches the figure-code metadata input contract"],
+      "remaining": ["All R23 unverified execution settings, model/resource bytes, reference hashes, image digests, sample adaptation settings and logs"]
+    },
+    {
+      "id": 5,
+      "gate": "Eligible variants/loci/cells and all denominators",
+      "status": "NOT_SATISFIED",
+      "new_evidence": ["Metadata table row counts, roles and scalar callability fields authenticated", "WT recovery-bar label reversal documented by sample identity"],
+      "remaining": ["Variant/category counts and callable locus records", "Failures/exclusions and unknown truth", "Per-sample eligibility and global CallableVariants membership audit", "Genotype-stage numerical replay"]
+    },
+    {
+      "id": 6,
+      "gate": "Founder, clone/culture, donor/animal and batch dependence",
+      "status": "PARTIALLY_VERIFIED",
+      "new_evidence": ["16 Table S2 sample roles and nested Clone/day metadata authenticated", "Four unique code-selected predecessors with consistent day differences", "Table S1 aggregate source and individual-label overlaps"],
+      "remaining": ["Complete batch/attempt/failure information", "Independent pedigree verification", "Justified independent biological unit count"]
+    },
+    {
+      "id": 7,
+      "gate": "Independent ancestry, standing variants and acquisition episode",
+      "status": "NOT_SATISFIED",
+      "new_evidence": [],
+      "remaining": ["Independent pedigree/episode truth and inherited/pre-existing origin negatives; author-recorded Clone/day relationships are insufficient"]
+    },
+    {
+      "id": 8,
+      "gate": "Lost/unrecovered lineages and origin-catalogue completeness",
+      "status": "NOT_SATISFIED",
+      "new_evidence": [],
+      "remaining": ["All-birth frame, independently known positive inclusion, lost-lineage genotypes and complete origin catalogue"]
+    },
+    {
+      "id": 9,
+      "gate": "Matching/transport to intended native system",
+      "status": "NOT_SATISFIED",
+      "new_evidence": [],
+      "remaining": ["Native matched system/routes/controls and justified transport; all actual and planning fields remain unresolved"]
+    }
+  ],
+  "confirmatory_design_changes": [],
+  "no_inference_to": ["Native event inclusion pi", "Mutation production per division", "Qualifying-route count laws", "Biological TMD fit", "Cancer-prevention efficacy"]
+}

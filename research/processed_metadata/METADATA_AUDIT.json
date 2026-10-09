@@ -1,0 +1,123 @@
+{
+  "record_id": "R000024",
+  "kind": "Original aggregate and code-to-metadata consistency audit; not a genotype benchmark",
+  "Table_S1": {
+    "authenticated_bytes": 10174,
+    "sha256": "dad709491b8c7aa7729d8df7e0409952cdae7682f867c1f8531aabd5e1f929d6",
+    "data_rows": 79,
+    "columns": 16,
+    "type_counts": {
+      "PTA": 26,
+      "Clone": 40,
+      "Bulk": 13
+    },
+    "training_counts": {
+      "Yes": 12,
+      "No": 67
+    },
+    "training_yes_type_counts": {
+      "PTA": 9,
+      "Bulk": 3
+    },
+    "source_row_counts": {
+      "This_study": 41,
+      "_Brandsma_BloodCancerDiscovery_2021": 16,
+      "Osorio_CellReports_2018": 22
+    },
+    "distinct_individual_labels": 23,
+    "distinct_individual_labels_with_training_yes": 4,
+    "distinct_individual_labels_with_training_no": 23,
+    "individual_labels_in_both_training_flags": 4,
+    "interpretation": "A Training=No sample row alone does not establish a donor held out from training. Aggregate label overlap does not establish which variants were used in model fitting or demonstrate leakage. Reused-source rows are not newly generated PTATO biological experiments."
+  },
+  "Table_S2": {
+    "authenticated_bytes": 1780,
+    "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f",
+    "data_rows": 16,
+    "columns": 12,
+    "type_counts": {
+      "Bulk": 1,
+      "Clone": 6,
+      "Subclone": 5,
+      "PTA": 4
+    },
+    "training_counts": {
+      "No": 14,
+      "Yes": 2
+    },
+    "pta_training_counts": {
+      "No": 3,
+      "Yes": 1
+    },
+    "pta_metadata_to_code_join": [
+      {
+        "metadata_data_row": 8,
+        "metadata_label": "WT-PTA1",
+        "figure_code_label": "WT-PTA2",
+        "figure_code_line": 1463,
+        "label_agrees": false,
+        "previous_sample_metadata_label_under_code_rule": "WT-Clone3",
+        "previous_sample_training_flag": "No",
+        "previous_sample_days_after_clone": 0,
+        "sample_days_after_clone": 87,
+        "sample_days_after_sort": 87,
+        "code_predecessor_day_difference": 87,
+        "days_after_sort_matches_predecessor_difference": true,
+        "training_flag": "No",
+        "grouping_evidence": "Same Clone field and largest Days_after_clone among other rows, as Figure2.R lines1378-1383; author-recorded grouping, not independent pedigree evidence."
+      },
+      {
+        "metadata_data_row": 9,
+        "metadata_label": "WT-PTA2",
+        "figure_code_label": "WT-PTA1",
+        "figure_code_line": 1462,
+        "label_agrees": false,
+        "previous_sample_metadata_label_under_code_rule": "WT-Clone4",
+        "previous_sample_training_flag": "No",
+        "previous_sample_days_after_clone": 0,
+        "sample_days_after_clone": 84,
+        "sample_days_after_sort": 84,
+        "code_predecessor_day_difference": 84,
+        "days_after_sort_matches_predecessor_difference": true,
+        "training_flag": "No",
+        "grouping_evidence": "Same Clone field and largest Days_after_clone among other rows, as Figure2.R lines1378-1383; author-recorded grouping, not independent pedigree evidence."
+      },
+      {
+        "metadata_data_row": 12,
+        "metadata_label": "FANCCKO-PTA1",
+        "figure_code_label": "FANCCKO-PTA1",
+        "figure_code_line": 1464,
+        "label_agrees": true,
+        "previous_sample_metadata_label_under_code_rule": "FANCCKO-Subclone1",
+        "previous_sample_training_flag": "Yes",
+        "previous_sample_days_after_clone": 58,
+        "sample_days_after_clone": 114,
+        "sample_days_after_sort": 56,
+        "code_predecessor_day_difference": 56,
+        "days_after_sort_matches_predecessor_difference": true,
+        "training_flag": "Yes",
+        "grouping_evidence": "Same Clone field and largest Days_after_clone among other rows, as Figure2.R lines1378-1383; author-recorded grouping, not independent pedigree evidence."
+      },
+      {
+        "metadata_data_row": 16,
+        "metadata_label": "MSH2KO-PTA1",
+        "figure_code_label": "MSH2KO-PTA1",
+        "figure_code_line": 1465,
+        "label_agrees": true,
+        "previous_sample_metadata_label_under_code_rule": "MSH2KO-Subclone2",
+        "previous_sample_training_flag": "No",
+        "previous_sample_days_after_clone": 84,
+        "sample_days_after_clone": 131,
+        "sample_days_after_sort": 47,
+        "code_predecessor_day_difference": 47,
+        "days_after_sort_matches_predecessor_difference": true,
+        "training_flag": "No",
+        "grouping_evidence": "Same Clone field and largest Days_after_clone among other rows, as Figure2.R lines1378-1383; author-recorded grouping, not independent pedigree evidence."
+      }
+    ],
+    "interpretation": "Four assayed PTA rows are paired/nested metadata observations. They do not establish four independent founder histories, division denominators, biological origin truth or completeness of attempted/failed cultures."
+  },
+  "numerical_genotype_benchmark_reproduced": false,
+  "native_origin_benchmark_admitted": false,
+  "qualified_external_review_obtained": false
+}

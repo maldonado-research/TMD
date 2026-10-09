@@ -1,0 +1,40 @@
+{
+  "id": "R000024",
+  "status": "completed_internal_review",
+  "date": "2026-10-08",
+  "timezone": "America/Los_Angeles",
+  "report": "../processed_metadata/README.md",
+  "completion_scope": "authenticated_processed_metadata_and_recent_theory_source_assessment",
+  "details": {
+    "scientific_acquisition_calls": 12,
+    "saved_response_capture_bytes": 1679129,
+    "byte_basis": "Saved UTF-8 JSON response captures, including MCP text/structured duplication and capture parameters. Parsed copies/exact metadata extracts excluded. Provider transport-byte totals are unavailable; no claim that this is exact HTTP download accounting. No whole dataset/genome/PDF binary or large software bundle downloaded.",
+    "metadata_exact_files": 2,
+    "source_checks": 75,
+    "independent_root_metadata_checks": 27,
+    "new_preprint_representation_checks": 37,
+    "variant_benchmark_admitted": false,
+    "origin_benchmark_admitted": false,
+    "theory_equations_or_simulations_replayed": false,
+    "other_local_hypothesis_biological_inputs_admitted": 0
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "methods_archive_scope": "Frozenapproved0.6.0 excludeslaterR1-R24addenda",
+  "manual_scientific_model": {
+    "round": "R000024",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review."
+}

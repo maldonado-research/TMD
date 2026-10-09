@@ -2,6 +2,9 @@
 
 | Claim or material | Current status | Boundary |
 |---|---|---|
+| Official PTATO processed metadata | [R24](research/processed_metadata/README.md): exact author Tables S1/S2, dataset-specific license and root inventory authenticated | No recursive manifest, variant/BED replay, independent truth, origin inclusion or numerical benchmark admitted. |
+| PTATO training and WT label mapping | Reproducible metadata/code checks | Row-level No flags do not establish donor-held-out evaluation; WT display-label conventions differ. Neither demonstrates classifier leakage or a numerical result error without eligible inputs. |
+| Recent mutation-bias analytical theory | [7 October preprint assessment](research/source_watch/2026-10-08/README.md), bounded parsed-source inspection | Authors' approximations not replayed; first establishment differs from fixation; least-fit marginal does not supply all three TMD route probabilities. |
 | Cancer-domain translation | Conditional design/methods candidate with two foundational source assessments | Actual routes/axis/protocol/partner remain unchosen; no cancer experiment, intervention, prevention effect or copied bacterial count law. |
 | Cancer-associated clone abundance | Published human/mouse observations, source-specific interpretation | Histologically normal clones, premalignant lesions, malignant transformation and clinical incidence are different outcomes; mouse tumor competition does not establish human prevention or TMD. |
 | Endpoint common-curvature mimic | Exact synthetic expected-mixture identity at unchanged supply | Ordinary terminal yield or recovery can mimic curvature; not full count, founder or first-arrival equivalence or causal identification. |

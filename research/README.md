@@ -117,3 +117,7 @@ At the R21/R22 checkpoint, the next R23 task sought qualified assessment and nat
 [Hypothetical control-resource calculations](control_resource/README.md) verify the previously unpublished zero-error CP minima and predictive-value identities exactly. They select no real study size, native parameter, threshold, error allocation or stopping rule. All 26 actual study fields remain unresolved. [Current handoff](CONTINUATION_HANDOFF_2026-10-08_R23.md).
 
 The approved frozen [methods 0.6.0 archive](https://doi.org/10.5281/zenodo.23219776) is now published; exact public metadata/notes and eight file bytes are verified. Its scope excludes all later R1–R23 addenda. Earlier publication paragraphs above retain their dated historical scope.
+
+## R24 metadata and recent-source checkpoint — 8 October 2026
+
+[Processed PTATO metadata](processed_metadata/README.md) authenticates two exact author tables and a root-level catalog; [the recent theory assessment](source_watch/2026-10-08/README.md) reviews the 7 October mutation-bias preprint. Sample training, clone timing and the WT display-label conventions are now explicit. Neither source supplies independent mutation-origin truth or a complete matched biological benchmark. The new theoretical reference does not furnish a full three-route forecast. [R24 handoff](CONTINUATION_HANDOFF_2026-10-08_R24.md).

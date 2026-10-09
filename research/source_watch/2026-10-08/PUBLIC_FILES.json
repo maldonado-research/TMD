@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "README.md",
+    "SOURCES.json",
+    "SEARCH_RECEIPT.json",
+    "INDEPENDENT_THEORY_ASSESSMENT.md",
+    "verify_sources.py",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "excluded": "All source responses, parsed third-party text, raw tables/PDFs, clinical metadata, private locators and operational transcripts remain outside the package"
+}

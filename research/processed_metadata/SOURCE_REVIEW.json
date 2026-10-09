@@ -1,0 +1,41 @@
+{
+  "record_id": "R000024",
+  "scope": "Official processed-dataset metadata, root-file inventory, exact table authentication, aggregate sample/training structure and selected cached figure-code consistency checks; not a full pipeline, clinical-record interpretation or genotype-stage numerical replay",
+  "primary_record": "https://data.mendeley.com/datasets/c3r9chw9rb/1",
+  "exact_tables_reviewed": [
+    {
+      "filename": "Table_S1.txt",
+      "coverage": "All 79 rows parsed for dimensions, sample identifier uniqueness, Type/Training/Source counts and aggregate Individual-label overlap. No clinical findings, diagnoses or person identities reproduced or interpreted.",
+      "fully_assessed_fields_for_aggregate_audit": ["Individual", "Sample", "Source", "Training", "Type"]
+    },
+    {
+      "filename": "Table_S2.txt",
+      "coverage": "All 16 rows parsed for dimensions, sample identifier uniqueness, Type/Training counts and four PTA sample-to-code/predecessor/day joins. Author-provided callability fractions were not reproduced from locus files.",
+      "fully_assessed_fields_for_mapping_audit": ["Sample", "Gene", "Cell_line", "Clone", "Type", "Label", "Days_after_sort", "Days_after_clone", "Training"]
+    }
+  ],
+  "selected_complete_cached_code_intervals": {
+    "Figures/Figure2.R": [[1,150],[1371,1495],[1527,1585]]
+  },
+  "additional_code_locator_search": "Selected readVcf, SCAN2 and variant_tables lines located for the next input acquisition; no full execution was performed.",
+  "demonstrated_consistency_findings": [
+    "Exact SHA256 and size match for both metadata tables",
+    "Four unique code-selected predecessor rows; four day differences match Days_after_sort",
+    "Two WT metadata/code recovery-label disagreements",
+    "Four individual labels appear under both Table S1 training flags",
+    "Figure2.R selects all Table S2 PTA rows for recovery, including one Training=Yes branch"
+  ],
+  "not_demonstrated": [
+    "Any numerical error in published recovery values",
+    "Which variant records were exposed to model fitting",
+    "Untouched donor-level holdout from sample-row Training=No alone",
+    "Independent mutation ancestry/acquisition episodes",
+    "All births, lost lineages or complete origin catalogue",
+    "Native TMD transport or biological efficacy"
+  ],
+  "new_external_acquisition_by_data_access_agent": 6,
+  "additional_source_supplied_by_root": "One separately acquired Table S1 response; not counted again",
+  "all_source_bytes_outside_public_package": true,
+  "qualified_external_review_obtained": false,
+  "numerical_genotype_benchmark_reproduced": false
+}

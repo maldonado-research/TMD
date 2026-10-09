@@ -1,0 +1,166 @@
+{
+  "queries": [
+    {
+      "query": "Experimental bacterial mutation supply versus selection and establishment environmentally induced directed adaptive mutation mutation bias lineage 2025 2026",
+      "from": "2025-01-01",
+      "to": "2026-10-08",
+      "k": 7
+    },
+    {
+      "query": "Direct measurement new mutation events live single cell bacterial lineage reporter DNA replication mutation origin microscopy 2025 2026",
+      "from": "2025-01-01",
+      "to": "2026-10-08",
+      "k": 7
+    }
+  ],
+  "returned_record_count": 12,
+  "records": [
+    {
+      "primaryId": "doi:10.1101/2025.09.22.677663",
+      "ids": {
+        "doi": [
+          "10.1101/2025.09.22.677663"
+        ]
+      },
+      "title": "Mutation bias is a key predictor of adaptation rate"
+    },
+    {
+      "primaryId": "doi:10.1101/2025.06.16.655099",
+      "ids": {
+        "doi": [
+          "10.1101/2025.06.16.655099"
+        ]
+      },
+      "title": "Mutation-biased adaptation is consequential even in large bacterial populations"
+    },
+    {
+      "primaryId": "doi:10.64898/2026.10.05.756661",
+      "ids": {
+        "doi": [
+          "10.64898/2026.10.05.756661"
+        ]
+      },
+      "title": "Mutation-biased adaptation: The Yampolsky-Stoltzfus model revisited"
+    },
+    {
+      "primaryId": "pmcid:PMC13402312",
+      "ids": {
+        "doi": [
+          "10.1038/s41467-026-74044-6"
+        ],
+        "pmcid": [
+          "PMC13402312"
+        ],
+        "pmid": [
+          "42270630"
+        ]
+      },
+      "title": "Mutation-biased adaptation is consequential even in large bacterial populations."
+    },
+    {
+      "primaryId": "pmid:42000052",
+      "ids": {
+        "doi": [
+          "10.1016/j.tpb.2026.03.001"
+        ],
+        "pmid": [
+          "42000052"
+        ]
+      },
+      "title": "A continuous-time model to correct for selection in mutation accumulation experiments."
+    },
+    {
+      "primaryId": "pmcid:PMC13318777",
+      "ids": {
+        "doi": [
+          "10.3389/fmed.2026.1863965"
+        ],
+        "pmcid": [
+          "PMC13318777"
+        ],
+        "pmid": [
+          "42388494"
+        ]
+      },
+      "title": "Bacterial mutation dynamics emerging insights into virulence evolution and drug resistance. A review study."
+    },
+    {
+      "primaryId": "pmid:42560013",
+      "ids": {
+        "doi": [
+          "10.5802/crbiol.201"
+        ],
+        "pmid": [
+          "42560013"
+        ]
+      },
+      "title": "The origin of the logic of adaptive mutations: standing by to grow again."
+    },
+    {
+      "primaryId": "pmid:40956866",
+      "ids": {
+        "doi": [
+          "10.1146/annurev-micro-050224-093623"
+        ],
+        "pmid": [
+          "40956866"
+        ]
+      },
+      "title": "Mutagenesis: Insights from Single-Cell, Real-Time Approaches."
+    },
+    {
+      "primaryId": "pmcid:PMC12176655",
+      "ids": {
+        "doi": [
+          "10.1038/s41586-025-08986-0"
+        ],
+        "pmcid": [
+          "PMC12176655"
+        ],
+        "pmid": [
+          "40399682"
+        ]
+      },
+      "title": "Multigenerational cell tracking of DNA replication and heritable DNA damage."
+    },
+    {
+      "primaryId": "doi:10.64898/2026.06.21.733238",
+      "ids": {
+        "doi": [
+          "10.64898/2026.06.21.733238"
+        ]
+      },
+      "title": "Single-molecule insights into DNA gyrase in live bacteria"
+    },
+    {
+      "primaryId": "pmid:39527193",
+      "ids": {
+        "doi": [
+          "10.1007/978-1-0716-4168-2_5"
+        ],
+        "pmid": [
+          "39527193"
+        ]
+      },
+      "title": "Live Imaging of Fission Yeast Single-Cell Lineages Using a Microfluidic Device."
+    },
+    {
+      "primaryId": "pmcid:PMC12625746",
+      "ids": {
+        "doi": [
+          "10.1128/msystems.00972-25"
+        ],
+        "pmcid": [
+          "PMC12625746"
+        ],
+        "pmid": [
+          "41065399"
+        ]
+      },
+      "title": "High-throughput cytological profiling uncovers genotype-phenotype associations in Mycobacterium tuberculosis clinical isolates."
+    }
+  ],
+  "scope": "metadata and truncated abstracts; only explicitly selected primary source inspections can support substantive claims",
+  "deduplication": "BarberCouce2025preprint and2026journal samefamily; already R4 source",
+  "entire_web_review": false
+}

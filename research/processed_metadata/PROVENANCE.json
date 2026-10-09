@@ -1,0 +1,251 @@
+{
+  "record_id": "R000024",
+  "date_user": "2026-10-08 America/Los_Angeles",
+  "retrieved_utc_date": "2026-10-09",
+  "candidate": "PTATO2023 DOI10.1016/j.xgen.2023.100389 / PMC10504672",
+  "processed_dataset": {
+    "doi": "10.17632/c3r9chw9rb.1",
+    "version": 1,
+    "name": "Comprehensive single-cell genome analysis at nucleotide resolution using the PTA Analysis Toolbox",
+    "published_at": "2023-05-30T20:08:04.338Z",
+    "source_url": "https://data.mendeley.com/datasets/c3r9chw9rb/1",
+    "license_id": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0",
+    "license_scope_note": "Dataset-specific CC BY4.0 statement verified; attribution/link/change-indication required, no endorsement. Metadata explicitly retains a third-party-content permission caveat. This does not establish EGA access/privacy authorization or redistribute participant data.",
+    "is_confidential_metadata_value": false
+  },
+  "manifest_scope": "Four root-level file records only; not a recursive release manifest; 1.03 GB full archive not acquired",
+  "root_file_records": [
+    {
+      "filename": "SV_Counts_FA.txt",
+      "id": "c6f1395e-3c7d-4ca6-ad6e-a45d9fa10ffe",
+      "content_id": "57155bd2-e163-485d-846d-51e7ac3e6c73",
+      "bytes": 1543,
+      "sha256": "c92f5e850c8b6e9f95be6917a63e8342e155d915c94863ff14a0ff0149b82dc3",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/c6f1395e-3c7d-4ca6-ad6e-a45d9fa10ffe/file_viewed"
+    },
+    {
+      "filename": "Table_S1.txt",
+      "id": "9ffe1eb0-f552-44db-a918-f3cb09d9db31",
+      "content_id": "5fd7c961-2aae-469b-aa7e-d3fd05a2eeff",
+      "bytes": 10174,
+      "sha256": "dad709491b8c7aa7729d8df7e0409952cdae7682f867c1f8531aabd5e1f929d6",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/9ffe1eb0-f552-44db-a918-f3cb09d9db31/file_viewed"
+    },
+    {
+      "filename": "Table_S2.txt",
+      "id": "22742fb9-b3ef-4481-be22-dc16ca082807",
+      "content_id": "71c2422c-5264-483c-aa83-e305f37f2641",
+      "bytes": 1780,
+      "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/22742fb9-b3ef-4481-be22-dc16ca082807/file_viewed"
+    },
+    {
+      "filename": "Table_S3.txt",
+      "id": "d37da956-af39-4544-a8fc-dc6f7f678912",
+      "content_id": "4c6ddb75-57b3-486f-b80d-c4c3520d0f15",
+      "bytes": 1514,
+      "sha256": "23a969f46812a24c8fdfee094a5bcf273527dcd0ec8be79de259f64c8adf4f8f",
+      "view_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/d37da956-af39-4544-a8fc-dc6f7f678912/file_viewed"
+    }
+  ],
+  "source_pins": [
+    {
+      "cache_filename": "mendeley_v1_firecrawl.json",
+      "bytes": 321116,
+      "sha256": "7dead14ec832cbd2e923cb3398bca076c5fcfc9b30f2c820d9d8cfc6242825c1",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_api_docs_firecrawl.json",
+      "bytes": 728369,
+      "sha256": "8e1a34e1709d7e9b09e72ec38f942c298cdbe3805325b51028f6d04f3e9d02f5",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_files_v1_firecrawl.json",
+      "bytes": 1491,
+      "sha256": "1ea4101169d1983c365a57181f7d17568f428051e653a62632e01e05ab211c06",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_root_files_v1_firecrawl.json",
+      "bytes": 14171,
+      "sha256": "c17086640ec24c9b3f29d036b5b5b7ba8df3566fe1c8f19d4a2ef897263cf438",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_Table_S2_firecrawl.json",
+      "bytes": 9847,
+      "sha256": "78a1a99173f4d935e577bda6d6227d432f1d19373f514f40b42008e8de951098",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_folders_v1_firecrawl.json",
+      "bytes": 3572,
+      "sha256": "cc1860c0fe1f546bf465d69b9bef409d54eee4aeca91c4b76887dc1a67fe5679",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "Table_S2.txt",
+      "bytes": 1780,
+      "sha256": "1879e5335773e7f226f7949e14d7c6280e92edf5c5d187e27bebfef1fe88249f",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "mendeley_Table_S1_firecrawl.json",
+      "bytes": 50585,
+      "sha256": "71262f77255754c43ee66e61fe5133455b57077685deddbab35e5f5f118506a4",
+      "redistributed": false
+    },
+    {
+      "cache_filename": "Table_S1.txt",
+      "bytes": 10174,
+      "sha256": "dad709491b8c7aa7729d8df7e0409952cdae7682f867c1f8531aabd5e1f929d6",
+      "redistributed": false
+    }
+  ],
+  "cached_figure_code": {
+    "relative_path": "Figures/Figure2.R",
+    "source_doi": "10.5281/zenodo.8186323",
+    "version": "v1.0.1",
+    "sha256": "0ceea1de01d6fb30507a492f6160f72b14ac45979f5bf6984d2905494115451e",
+    "reviewed_line_intervals_this_round": [
+      [
+        1,
+        150
+      ],
+      [
+        1371,
+        1495
+      ],
+      [
+        1527,
+        1585
+      ]
+    ]
+  },
+  "data_access_agent_calls": [
+    {
+      "id": 1,
+      "url": "https://data.mendeley.com/datasets/c3r9chw9rb/1",
+      "start": "2026-10-09T00:29:16.273Z",
+      "end": "2026-10-09T00:29:25.871Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "links",
+        "rawHtml"
+      ],
+      "returned_serialized_bytes": 321115,
+      "cache_filename": "mendeley_v1_firecrawl.json",
+      "http_status_reported_by_connector": 200,
+      "final_source_url": "https://data.mendeley.com/datasets/c3r9chw9rb/1",
+      "raw_source_field_utf8_bytes": 143431,
+      "outcome": "content returned"
+    },
+    {
+      "id": 2,
+      "url": "https://data.mendeley.com/api/docs",
+      "start": "2026-10-09T00:30:43.305Z",
+      "end": "2026-10-09T00:30:53.409Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "links"
+      ],
+      "returned_serialized_bytes": 728368,
+      "cache_filename": "mendeley_api_docs_firecrawl.json",
+      "http_status_reported_by_connector": 200,
+      "final_source_url": "https://data.mendeley.com/api/docs/",
+      "raw_source_field_utf8_bytes": 0,
+      "outcome": "content returned"
+    },
+    {
+      "id": 3,
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?version=1&%24start=0&%24limit=1000",
+      "start": "2026-10-09T00:31:26.326Z",
+      "end": "2026-10-09T00:31:30.860Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ],
+      "returned_serialized_bytes": 1490,
+      "cache_filename": "mendeley_files_v1_firecrawl.json",
+      "http_status_reported_by_connector": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?version=1&%24start=0&%24limit=1000",
+      "raw_source_field_utf8_bytes": 13,
+      "outcome": "JSON error 400; no manifest"
+    },
+    {
+      "id": 4,
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=root&version=1",
+      "start": "2026-10-09T00:31:55.499Z",
+      "end": "2026-10-09T00:32:00.570Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ],
+      "returned_serialized_bytes": 14170,
+      "cache_filename": "mendeley_root_files_v1_firecrawl.json",
+      "http_status_reported_by_connector": 200,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=root&version=1",
+      "raw_source_field_utf8_bytes": 2797,
+      "outcome": "content returned"
+    },
+    {
+      "id": 5,
+      "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/22742fb9-b3ef-4481-be22-dc16ca082807/file_viewed",
+      "start": "2026-10-09T00:32:22.663Z",
+      "end": "2026-10-09T00:32:27.258Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ],
+      "returned_serialized_bytes": 9846,
+      "cache_filename": "mendeley_Table_S2_firecrawl.json",
+      "http_status_reported_by_connector": 200,
+      "final_source_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/46f2ba2d-3d31-49b2-8c29-13da5d9710bd",
+      "raw_source_field_utf8_bytes": 1780,
+      "outcome": "content returned"
+    },
+    {
+      "id": 6,
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/folders?version=1",
+      "start": "2026-10-09T00:33:08.440Z",
+      "end": "2026-10-09T00:33:12.530Z",
+      "tool": "firecrawl_scrape",
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ],
+      "returned_serialized_bytes": 3571,
+      "cache_filename": "mendeley_folders_v1_firecrawl.json",
+      "http_status_reported_by_connector": 404,
+      "final_source_url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/folders?version=1",
+      "raw_source_field_utf8_bytes": 631,
+      "outcome": "HTTP404; no folder manifest"
+    }
+  ],
+  "data_access_agent_call_count": 6,
+  "data_access_agent_serialized_returned_bytes": 1078560,
+  "byte_accounting": "UTF-8 size of each captured JSON tool-response serialization, excluding the trailing saved newline added by the file-saving step. The six saved response files are each one byte larger than this call subtotal. MCP text and structured content duplicate source content. HTTP transport bytes and connector internal request count are not exposed; these are six bounded logical acquisition calls, not a claim about server-side HTTP totals.",
+  "root_supplied_Table_S1": {
+    "source_url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/9ffe1eb0-f552-44db-a918-f3cb09d9db31/file_viewed",
+    "separate_root_acquisition": true,
+    "counted_in_agent_calls": false,
+    "byte_authentication": "Unmodified UTF-8 bytes of rawHtml exactly match official manifest size and SHA256; no newline normalization or reconstruction."
+  },
+  "Table_S2_byte_authentication": "Unmodified UTF-8 bytes of rawHtml exactly match official manifest size and SHA256; no newline normalization or reconstruction.",
+  "network_controls": "Supported Firecrawl basic-proxy connector used; no executor network requests to Mendeley/EGA, no credentials inspected, no CAPTCHA endpoint retried, no full bundle or raw reads acquired.",
+  "public_package_exclusions": [
+    "All third-party tool/source responses",
+    "Table_S1.txt and Table_S2.txt",
+    "Patient-level clinical fields and individual identifiers",
+    "External source code",
+    "Raw or processed genotype records"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-09T00:40:25.068682+00:00",
+  "status": "ACCEPTED_WITH_SCOPED_INTEGRATION_CHECK",
+  "semantic_status": "ACCEPTED",
+  "reviewer_role": "independent internal reviewer; not qualified external scientific peer review",
+  "scope": "Original recent-source synthesis, selected source passages and cached metadata, offline source identity checker, search receipt, prospective link paths and public-file scope.",
+  "candidate_files": {
+    "README.md": {
+      "sha256": "9ac6d923e9d1ed063852054a7d098c1c5003da65abbace08210a1bf688a601b1",
+      "bytes": 7002
+    },
+    "SOURCES.json": {
+      "sha256": "7a5c4523d415f181c9044c6c300471fa45013eb4fa368281176d7b99774e063f",
+      "bytes": 2803
+    },
+    "SEARCH_RECEIPT.json": {
+      "sha256": "83733cf45c55e17b6213d101b4043b56295d2eb42141fb06c6828d811e9907e5",
+      "bytes": 4335
+    },
+    "verify_sources.py": {
+      "sha256": "bf0f093902d96c7818e01761abdda979dffa9286069760b2013fa06e0310eb52",
+      "bytes": 3478
+    },
+    "VERIFICATION_RECEIPT.json": {
+      "sha256": "b8441f6a17fab04449c33d05ea32d1f1dfd48f4cc813497425f9af9c0044baca",
+      "bytes": 1459
+    },
+    "INDEPENDENT_THEORY_ASSESSMENT.md": {
+      "sha256": "f0efca0b3da6425b61cbd6c5430718427bdacdeedf567682382b984ac349cf6b",
+      "bytes": 6458
+    },
+    "PUBLIC_FILES.json": {
+      "sha256": "8ffe5fa05e6a08064c3c5939b21264350c4c16f376a6733b281db662b6c3a5a5",
+      "bytes": 462
+    }
+  },
+  "review_file_and_future_checksum_not_self_hashed": true,
+  "offline_verifier": {
+    "status": "PASS",
+    "checks": 37,
+    "exactly_matches_saved_receipt": true,
+    "network_requests": 0
+  },
+  "search_checks": {
+    "queries_equal_saved_requests": true,
+    "record_list_equals_saved_results": true,
+    "returned_count_matches": true
+  },
+  "accepted_semantic_checks": [
+    "Version posted 7 October 2026 is separate from DOI date and index date filtering.",
+    "Preprint is not certified by peer review; all-rights-reserved source has original commentary only in the candidate.",
+    "HTML is limited to abstract and metadata; model assessment uses the parsed PDF representation.",
+    "Provider metadata reports numPages=14 and totalPages=14; raw PDF bytes, PDF hash and independent full-file verification are not claimed.",
+    "Inspection scope is selected and explicit; extracted graphical tables and duplicated mathematical fragments are not numerical inputs.",
+    "First establishment, ultimate fixation and observed endpoint categories remain distinct.",
+    "Continuing mutation and frequency-dependent competitive establishment are ordinary comparator mechanisms, not proof of a TMD mechanism.",
+    "Strong and weak selection approximations retain distinct assumptions.",
+    "K-route strong-selection extension supplies least-fit marginal only; no full W/A/M vector or pairwise-normalization shortcut is admitted.",
+    "Historical endpoint-based parameter illustration is not a frozen held-out forecast.",
+    "Barber-Couce experimental source is explicitly deduplicated to R4, with no new cohort or biological outcome.",
+    "No model, count-law, native parameter, theta/eta rule, uncertainty allocation or stopping rule is changed.",
+    "All 26 actual study fields and 18 native-control planning fields remain null.",
+    "Public allowlist excludes source caches, private locators, raw clinical metadata and operational transcripts.",
+    "README now supplies the exact offline invocation with output outside the package."
+  ],
+  "registry_checks": {
+    "actual_study_fields": 26,
+    "actual_study_nulls": 26,
+    "actual_study_registry_sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "native_planning_fields": 18,
+    "native_planning_nulls": 18,
+    "native_planning_registry_sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+  },
+  "prospective_destination": "research/source_watch/2026-10-08",
+  "link_checks": [
+    {
+      "target": "../../FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "resolved_repo_path": "research/FORMULATION_AND_NEXT_EMPIRICAL_TEST.md",
+      "status": "EXISTS"
+    },
+    {
+      "target": "../../prospective_design/README.md",
+      "resolved_repo_path": "research/prospective_design/README.md",
+      "status": "EXISTS"
+    },
+    {
+      "target": "../2026-10-02/README.md",
+      "resolved_repo_path": "research/source_watch/2026-10-02/README.md",
+      "status": "EXISTS"
+    },
+    {
+      "target": "SOURCES.json",
+      "status": "PRESENT_IN_CANDIDATE_AND_ALLOWLIST"
+    },
+    {
+      "target": "VERIFICATION_RECEIPT.json",
+      "status": "PRESENT_IN_CANDIDATE_AND_ALLOWLIST"
+    },
+    {
+      "target": "../../processed_metadata/README.md",
+      "resolved_repo_path": "research/processed_metadata/README.md",
+      "status": "CORRECT_RELATIVE_PATH_PENDING_COMPANION_INTEGRATION"
+    }
+  ],
+  "blockers": [],
+  "integration_checks": [
+    "Before publishing the integrated repository, confirm research/processed_metadata/README.md exists and its independently reviewed package supports the linked artifact statement. That companion assessment is outside this review.",
+    "Create SHA256SUMS.txt after inclusion of this review and verify that only the public allowlist is copied."
+  ],
+  "boundaries": [
+    "Not an equation proof or independent numerical replay of the source models.",
+    "Not empirical truth authentication, a native biological benchmark, a qualified expert review, or a new study registration.",
+    "This receipt accepts the listed candidate bytes and must be refreshed if their substantive content changes."
+  ]
+}
