@@ -279,13 +279,26 @@
     {
       "id": "R000024",
       "priority": 24,
-      "status": "blocked",
+      "status": "completed",
       "question": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension.",
       "deliverable": "Artifact-specific manifest/terms and authenticated bounded genotype-stage input replay, with independent truth/denominator/dependence review; otherwise preserve exact unmet conditions.",
       "falsifier_or_boundary": "Caller-derived/proxy genotype labels, absence under uncallability and culture-day burdens cannot establish independent origin truth, all-birth inclusion or a TMD biological fit.",
       "maximum_download_bytes": 20971520,
-      "unblocking_condition": "Obtain the official PTATO version-1 processed-data manifest, authentic Table S2 and sample-to-clone/culture/release map under artifact-specific terms. Replay only an admitted genotype-stage eligible frame first, including missing-call and cross-sample callable-membership checks. Native origin admission additionally requires independent ancestry/episode and inherited/pre-existing negative truth, lost-lineage limits, matched-system transport and qualified biological/statistical assessment. No unchanged failed endpoints, proxy-label substitution or automatic mathematical extension.",
-      "report": "../artifact_admission/README.md"
+      "report": "../processed_metadata/README.md",
+      "completion_scope": "authenticated_processed_metadata_and_recent_theory_source_assessment",
+      "result": "ExactTablesS1/S2 anddatasetCCBY4/rootinventoryauthenticated;75sourcechecks/27independentrootmetadata checks, WTannotation/training/predecessorjoins. New7Octtheoryscopeassessed;37sourceidentitychecks. Norecursivemanifest,numericalbenchmark/origintruthoractualstudyfieldsresolved.",
+      "remaining_prerequisites": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review."
+    },
+    {
+      "id": "R000025",
+      "priority": 25,
+      "status": "pending",
+      "question": "Obtain an official recursive processed-data manifest and bounded eligible paired PTA/SMuRF variants, callability BEDs and comparison-caller resources. Preserve stable sample IDs, both WT label maps, training membership, failures/exclusions and per-sample denominators. Authenticate an independent genotype-stage evaluation frame before numerical admission. Native origin admission still requires independent ancestry/episodes, inherited/pre-existing negatives, lost-lineage limits, native transport and qualified assessment. Separately assess whether competing lineages establish before the declared endpoint; a least-fit marginal is not a full W/A/M comparator. Do not repeat unchanged400/404/CAPTCHA failures or alter frozen forecasts/error/stopping from this source review.",
+      "deliverable": "Official scoped recursive manifest and authenticated bounded inputs, followed by an independently reviewed precisely named genotype-stage eligibility replay if its input/truth frame is admitted.",
+      "falsifier_or_boundary": "Author-recorded sample labels, caller-derived positives, TrainingNo flags and absent/un-callable genotypes do not establish independent origin truth or all-birth inclusion. A least-fit theoretical marginal is not a complete observed-route forecast.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "blocked_until_input_truth_and_observation_contract_admitted",
+      "report": "../processed_metadata/README.md"
     }
   ]
 }

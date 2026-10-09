@@ -9,6 +9,14 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
+## Latest research checkpoint — 8 October 2026
+
+The [R24 processed-metadata audit](research/processed_metadata/README.md) authenticates the official PTATO version-1 catalog, dataset license and exact Table S1/S2 bytes. It reconstructs sample roles, training membership and preceding-clone/day joins, and records a WT display-label mismatch between metadata and figure code. Row-level Training=No does not by itself establish donor-held-out evaluation. No numerical genotype or mutation-origin benchmark is admitted; the recursive variant/callability manifest and independent truth remain unresolved.
+
+The [recent theory assessment](research/source_watch/2026-10-08/README.md) examines a preprint posted 7 October on mutation-biased adaptation with continuing mutation and clonal interference. First establishment and ultimate fixation are different targets; its multi-route extension provides only a least-fit marginal, not the complete Wsp/Aws/Mws forecast. No formula replay, native parameter, new theorem or biological validation is claimed. All 26 study inputs and 18 control-planning fields remain unresolved. Read the [R24 continuation checkpoint](research/CONTINUATION_HANDOFF_2026-10-08_R24.md).
+
+These later GitHub addenda remain outside the immutable methods 0.6.0 archive. This manual round uses two requested Astra Ultra delegates; the installed Sol runner configuration and paused automation are unchanged.
+
 ## Latest labelled methods release: 0.6.0
 
 [Methods 0.6.0 overview](TMD_METHODS_0_6_0.md) · [Published archive](https://doi.org/10.5281/zenodo.23219776) · [Verified publication status](research/PUBLICATION_STATUS.md)

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "round": "R000024",
+  "scientific_acquisition_calls": 12,
+  "max_calls": 12,
+  "saved_response_bytes": 1679129,
+  "max_saved_response_bytes": 20971520,
+  "byte_basis": "Saved UTF-8 JSON response captures, including MCP text/structured duplication and capture parameters. Parsed copies/exact metadata extracts excluded. Provider transport-byte totals are unavailable; no claim that this is exact HTTP download accounting. No whole dataset/genome/PDF binary or large software bundle downloaded.",
+  "captures": [
+    {
+      "capture_id": "search_0",
+      "saved_response_bytes": 8443,
+      "saved_response_sha256": "436aca36176bd810901cc77bffc516bc72cfac5dc3eec2592ecadbac98ed4672",
+      "url": null,
+      "query": {
+        "query": "Experimental bacterial mutation supply versus selection and establishment environmentally induced directed adaptive mutation mutation bias lineage 2025 2026",
+        "from": "2025-01-01",
+        "to": "2026-10-08",
+        "k": 7
+      },
+      "reported_http_status": null,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "search_1",
+      "saved_response_bytes": 6075,
+      "saved_response_sha256": "78119d21fa30f9be66f90e7aa17cb7fa408f85ce6ce32e32dcd650c4731aba94",
+      "url": null,
+      "query": {
+        "query": "Direct measurement new mutation events live single cell bacterial lineage reporter DNA replication mutation origin microscopy 2025 2026",
+        "from": "2025-01-01",
+        "to": "2026-10-08",
+        "k": 7
+      },
+      "reported_http_status": null,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "primary_0",
+      "saved_response_bytes": 261958,
+      "saved_response_sha256": "db692eb9e043b0e4b8c8bfe9fdb1335c8abf6a54502574c93c5881b7ee386fe1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13402312/",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "primary_1",
+      "saved_response_bytes": 57808,
+      "saved_response_sha256": "e47e25ba3da219c7d55f31308ca80c5609a69dc76ac3326a3c287eeec857b9a7",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756661v1.full",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "theory_pdf",
+      "saved_response_bytes": 215694,
+      "saved_response_sha256": "feea4a6221cf8fa87c3272d9f903364d7dfea0ac756080863cac1968adfdc483",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/07/2026.10.05.756661.full.pdf",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "Table_S1_firecrawl",
+      "saved_response_bytes": 50585,
+      "saved_response_sha256": "71262f77255754c43ee66e61fe5133455b57077685deddbab35e5f5f118506a4",
+      "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/9ffe1eb0-f552-44db-a918-f3cb09d9db31/file_viewed",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_v1_firecrawl",
+      "saved_response_bytes": 321116,
+      "saved_response_sha256": "7dead14ec832cbd2e923cb3398bca076c5fcfc9b30f2c820d9d8cfc6242825c1",
+      "url": "https://data.mendeley.com/datasets/c3r9chw9rb/1",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_api_docs_firecrawl",
+      "saved_response_bytes": 728369,
+      "saved_response_sha256": "8e1a34e1709d7e9b09e72ec38f942c298cdbe3805325b51028f6d04f3e9d02f5",
+      "url": "https://data.mendeley.com/api/docs",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_files_v1_firecrawl",
+      "saved_response_bytes": 1491,
+      "saved_response_sha256": "1ea4101169d1983c365a57181f7d17568f428051e653a62632e01e05ab211c06",
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?version=1&%24start=0&%24limit=1000",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_root_files_v1_firecrawl",
+      "saved_response_bytes": 14171,
+      "saved_response_sha256": "c17086640ec24c9b3f29d036b5b5b7ba8df3566fe1c8f19d4a2ef897263cf438",
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/files?folder_id=root&version=1",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_Table_S2_firecrawl",
+      "saved_response_bytes": 9847,
+      "saved_response_sha256": "78a1a99173f4d935e577bda6d6227d432f1d19373f514f40b42008e8de951098",
+      "url": "https://data.mendeley.com/public-files/datasets/c3r9chw9rb/files/22742fb9-b3ef-4481-be22-dc16ca082807/file_viewed",
+      "query": null,
+      "reported_http_status": 200,
+      "scope": "source response/representation; see respective audited inspection depth"
+    },
+    {
+      "capture_id": "mendeley_folders_v1_firecrawl",
+      "saved_response_bytes": 3572,
+      "saved_response_sha256": "cc1860c0fe1f546bf465d69b9bef409d54eee4aeca91c4b76887dc1a67fe5679",
+      "url": "https://data.mendeley.com/public-api/datasets/c3r9chw9rb/folders?version=1",
+      "query": null,
+      "reported_http_status": 404,
+      "scope": "source response/representation; see respective audited inspection depth"
+    }
+  ],
+  "failures_preserved": "Mendeley query400body, folderroute404; no unchanged CAPTCHAretry",
+  "raw_or_personal_sources_published": false
+}

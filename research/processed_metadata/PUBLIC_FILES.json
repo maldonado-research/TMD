@@ -1,0 +1,20 @@
+{
+  "record_id": "R000024",
+  "public_files": [
+    "README.md",
+    "PROVENANCE.json",
+    "METADATA_AUDIT.json",
+    "ADMISSION_UPDATE.json",
+    "SOURCE_REVIEW.json",
+    "verify_cached_sources.py",
+    "SOURCE_VERIFICATION_RECEIPT.json",
+    "ROOT_INDEPENDENT_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "excluded": [
+    "sources/**",
+    "build_review.py"
+  ],
+  "policy": "Publish only the explicit public_files allowlist; no source tables, third-party responses, source code, individual-level clinical attributes or genotype data."
+}

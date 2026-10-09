@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "source_entries": [
+    {
+      "id": "primary_0",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13402312/",
+      "source_response_sha256": "db692eb9e043b0e4b8c8bfe9fdb1335c8abf6a54502574c93c5881b7ee386fe1",
+      "saved_response_bytes": 261958,
+      "markdown_sha256": "94608a5af664f3cad4c36780f5e1086b4311286b9a65e653bcedcf9df9d260e8",
+      "markdown_bytes": 125120,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "inspection_scope": "Reacquired prior R4 article; not new evidence",
+      "provider_processed_pages": null,
+      "provider_total_pages": null,
+      "raw_pdf_sha256": null
+    },
+    {
+      "id": "primary_1",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756661v1.full",
+      "source_response_sha256": "e47e25ba3da219c7d55f31308ca80c5609a69dc76ac3326a3c287eeec857b9a7",
+      "saved_response_bytes": 57808,
+      "markdown_sha256": "ad16a42afc6531561dfc3f3a4ce81630d9cdf380b68eb4b146b0ab1f06d75787",
+      "markdown_bytes": 13185,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "inspection_scope": "Abstract and metadata only",
+      "provider_processed_pages": null,
+      "provider_total_pages": null,
+      "raw_pdf_sha256": null
+    },
+    {
+      "id": "theory_pdf",
+      "source_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/07/2026.10.05.756661.full.pdf",
+      "source_response_sha256": "feea4a6221cf8fa87c3272d9f903364d7dfea0ac756080863cac1968adfdc483",
+      "saved_response_bytes": 215694,
+      "markdown_sha256": "9e2b6a627432bcc3919a07d3de0074ad552278475995b6dc5eb29e088e07e06a",
+      "markdown_bytes": 99268,
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "inspection_scope": "Parsed PDF source representation, provider reports14of14pages",
+      "provider_processed_pages": 14,
+      "provider_total_pages": 14,
+      "raw_pdf_sha256": null
+    }
+  ],
+  "new_preprint": {
+    "doi": "10.64898/2026.10.05.756661",
+    "version": 1,
+    "posted_date": "2026-10-07",
+    "authors": [
+      "Su-Chan Park",
+      "Joachim Krug"
+    ],
+    "peer_review_status": "preprint_not_certified",
+    "reuse": "all_rights_reserved; original critical commentary only"
+  },
+  "reused_experimental_source": {
+    "doi": "10.1038/s41467-026-74044-6",
+    "baseline_round": "R000004",
+    "new_independent_cohort": false,
+    "reuse": "CC BY-NC-ND4.0; raw text and figures excluded"
+  },
+  "source_cache_required": "Arrange three captured JSON responses by the file basenames shown in the verifier; no network is executed by the verifier",
+  "numeric_formula_replay": false,
+  "graphical_tables_used_as_data": false,
+  "native_parameters_estimated": false,
+  "biological_benchmark_admitted": false
+}
