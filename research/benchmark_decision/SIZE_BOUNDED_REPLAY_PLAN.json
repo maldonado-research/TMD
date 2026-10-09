@@ -1,0 +1,109 @@
+{
+  "record_id": "R000026",
+  "selected_action": "PARK_NUMERICAL_PTATO_BENCHMARKING",
+  "reason": "No admitted independent evaluation truth, while even the smallest complete source-file pilot exceeds the current bounded acquisition envelope. Further scalar summaries cannot close either gap.",
+  "scope_alternatives": [
+    {
+      "name": "full_four_PTA_SNV_descriptive_reproduction",
+      "object_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "known_bytes_lower_bound": 1645656538,
+      "unknown_size_objects": 9,
+      "admitted_now": false,
+      "claim_if_completed": "Conditional archived category reproduction, without independent accuracy or origin claim"
+    },
+    {
+      "name": "single_WT_metadata_PTA2_PTATO_only_software_QA",
+      "sample": "PMCAHH1-WT-C6SC1",
+      "object_ids": [
+        "S01",
+        "S02",
+        "S06",
+        "S10",
+        "S14"
+      ],
+      "logical_objects": 5,
+      "known_bytes_lower_bound": 343973398,
+      "unknown_size_objects": 1,
+      "admitted_now": false,
+      "claim_if_completed": "One-sample PTATO category audit within predecessor reference frame; not either four-sample figure, cross-sample global-set effect, SCAN2 comparison, or independent performance benchmark",
+      "selection_reason": "Smaller currently known complete-source subtotal of the two WT samples; this is a cost choice, not biological or statistical optimality. MSH2/FANCC unknown totals cannot be ranked conclusively.",
+      "optional_SCAN2_object": "S17"
+    }
+  ],
+  "future_reopening_gates": [
+    {
+      "stage": 1,
+      "purpose": "Independent truth/evaluation availability decision",
+      "requires": [
+        "Named official versioned per-record truth catalogue with positive/negative/unknown labels, evidence and blinded adjudication",
+        "Independent definition of tested genomic frame and evaluation units before consulting PTATO outcomes; list exclusion and missingness reasons",
+        "Auditable training/relatedness/adaptation membership at donor, lineage, sample and variant levels; frozen intended accuracy target",
+        "Allowed data use and publication scope, qualified biological/statistical assessment"
+      ],
+      "pass_now": false,
+      "network_cap_logical_calls": 3,
+      "saved_source_capture_cap_bytes": 2097152,
+      "stop": "Stop after the first conclusive absence/unavailability for the declared scope, or when either cap is reached. Do not requery unchanged blocked endpoints."
+    },
+    {
+      "stage": 2,
+      "purpose": "Resolve all missing object identities before any payload download",
+      "requires": [
+        "Use cached folder IDs and official version-1 scoped file endpoint; authenticate every required path, byte size, hash and access condition",
+        "Resolve the FANCC callable VCF location or explicitly reduce and rename reproduction scope",
+        "Manifest every filtered-header file, both comparison tables, remaining multisample VCFs and necessary coordinate evidence",
+        "Unknown sizes or missing objects block a complete acquisition; a listing is not content verification"
+      ],
+      "pass_now": false,
+      "network_cap_logical_calls": 8,
+      "saved_source_capture_cap_bytes": 2097152,
+      "note": "Separate future allocation, not authorized extra R26 calls. No repeated recursive dataset crawl."
+    },
+    {
+      "stage": 3,
+      "purpose": "Bounded replay acquisition if stages 1 and 2 justify it",
+      "selected_now": false,
+      "max_new_payload_bytes": 18874368,
+      "max_single_payload_bytes": 8388608,
+      "metadata_plus_payload_cap_bytes": 20971520,
+      "max_expanded_working_bytes": 134217728,
+      "complete_original_file_plan_fits": false,
+      "rule": "No partial original-file acquisition may be called complete replay. Current known original-file minima exceed the cap. A larger source-file plan requires a separate justified budget; no large files are requested here.",
+      "derivative_option": "Only if the data holder or an already authorized source-side process can supply an authenticated bounded extract; existence and server-side filtering support are currently unknown. Require full parent hashes, selection code/version, original row numbers and required fields, complete headers, all candidate SNVs for the frozen predecessor/sample frame and every interval overlapping them. Selection must not depend on PTATO PASS/FAIL. Missing rows, downsampled unknowns or preview truncation invalidate completion.",
+      "fail_closed": [
+        "Check declared lengths and stream to a hard limit; oversize/truncated/error responses are rejected and never analyzed as complete",
+        "For compressed data bound compressed and expanded bytes separately; preserve both hashes",
+        "Record provider logical requests and saved responses separately from unavailable internal/wire traffic",
+        "If any cap would be exceeded, stop and retain a blocked plan; no automatic archive/raw-read fallback"
+      ]
+    }
+  ],
+  "replay_acceptance": [
+    "Authenticate every admitted object against exact versioned catalogue identity and size/hash; source snippets or scalar summaries cannot replace VCF/BED content",
+    "Pin script/helper and explicit extracted-block differences; run literal semantics before separately named alternatives",
+    "Verify reference build, keys, duplicates/multiallelics, coordinates, categorical masks and sample mapping before computing summaries",
+    "Emit per-sample attrition and zero/unknown ledgers, literal category-specific means, zero-completed means and pooled descriptors separately",
+    "Independent review must assess actual row-level disagreements and denominators; successful code execution alone admits no truth claim"
+  ],
+  "current_round_acquisition_calls": 0,
+  "current_round_acquired_bytes": 0
+}

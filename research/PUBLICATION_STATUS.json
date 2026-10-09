@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Continue R23 artifact-admission prerequisites and qualified assessment; no active methods draft remains. Later addenda are outside frozen 0.6.0.",
+  "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,14 +41,15 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000025"
+      "R000026"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R25.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R26.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
-    "zenodo_requests_this_round": 0,
+    "author_methods_Zenodo_requests_this_round": 0,
+    "third_party_Zenodo_dataset_requests_are_scientific_acquisitions": true,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "scoped_catalogues_and_summary_arithmetic_verified_no_genotype_benchmark_admitted"
+    "scientific_inference_status": "PTATO_benchmark_parked_licensed_bacterial_resource_audited_no_matched_panel_admitted"
   },
   "github_research_addenda_history": [
     {
@@ -79,6 +80,17 @@
       "zenodo_requests_this_round": 0,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "metadata_authenticated_no_numerical_benchmark_admitted"
+    },
+    {
+      "latest_rounds": [
+        "R000025"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-08_R25.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "zenodo_requests_this_round": 0,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "scoped_catalogues_and_summary_arithmetic_verified_no_genotype_benchmark_admitted"
     }
   ],
   "publication_verified_file_count": 8,

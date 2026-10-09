@@ -90,3 +90,13 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 [Official PTATO artifact inspection](research/artifact_admission/README.md) advances a description-only worksheet to a bounded article/software assessment. No numerical genotype or origin benchmark is admitted. Shared-call/proxy labels, missing prior genotype calls, callable-set membership, chromosome exclusions and sample averaging require actual-input and independent-truth checks. Source-byte identity is distinct from numerical replication or qualified external review. All 26 study fields remain unresolved.
 
 [Exact control-resource illustrations](research/control_resource/README.md) are standard hypothetical CP/PPV planning calculations. They supply no observed native controls, mutation rate, achieved power, chosen study size or changed confirmatory error/stopping contract. Published methods 0.6.0 freezes the earlier methods snapshot and excludes R23.
+
+## R26 input decision and bacterial source arithmetic — 8 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Scoped replay cost and dependencies | [18-object ledger and minimum34 whole-script objects](research/benchmark_decision/ARTIFACT_PLAN.json) | Catalogue metadata does not authenticate unacquired contents; independent accuracy/origin truth remains unestablished. |
+| Licensed author workbook identity | [Two exact XLSX identities and source terms](research/bacterial_panel_leads/SOURCES.json) | Article/preprint/deposit are one evidence family; twelve other catalogue files remain unacquired. |
+| Sampled-colony arithmetic | [57 literal cells, separate summary and ambiguous categories](research/bacterial_panel_leads/DERIVED_WORKBOOK_AUDIT.json) | 1,014 recorded entries are not independent births, molecular routes or a population denominator. Missing is not zero. |
+| Genotype-labelled surface occupancy | [Seven sheets and 25 declared dilution groups](research/bacterial_panel_leads/SURFACE_DENSITY_AUDIT.json) | Repeated image counts, differing dates and dimensional density indices do not establish matched binary establishment/recovery trials. |
+| Ecological control requirement | [Primary-source assessment and admission matrix](research/bacterial_panel_leads/REPORT.md) | Match density, resident scaffold and timing before transport; all26study and18planning inputs remainNULL, with no changed forecast/error/stopping contract. |

@@ -1,0 +1,30 @@
+{
+  "record_id": "R000026",
+  "status": "PASS_CACHED_IDENTITIES_DEPENDENCIES_AND_SIZE_FACTS_ONLY",
+  "source_pins_verified": 15,
+  "prior_analysis_pins_verified": 7,
+  "article_paragraph_hashes_verified": 12,
+  "code_range_hashes_verified": 22,
+  "folder_records_checked": 477,
+  "direct_directory_file_records_checked": 31,
+  "root_file_records_checked": 4,
+  "summary": {
+    "logical_scoped_SNV_objects": 18,
+    "catalogued_with_sizes_and_hashes": 9,
+    "content_authenticated": 1,
+    "not_content_acquired": 17,
+    "objects_without_known_size_or_hash": 9,
+    "known_byte_subtotal_including_cached_Table_S2": 1645656538,
+    "known_unacquired_byte_subtotal": 1645654758,
+    "full_scoped_byte_total": null,
+    "four_PTA_BED_byte_subtotal": 1604227774,
+    "whole_script_extra_dataset_objects": 16,
+    "whole_script_minimum_dataset_objects": 34
+  },
+  "pilot_known_bytes": 343973398,
+  "code_executed_R": false,
+  "genotype_or_BED_content_replayed": false,
+  "independent_truth_validated": false,
+  "new_network_calls": 0,
+  "review_limit": "Identity and dependency verification, not scientific adjudication or successful whole-script execution."
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "decision": "NO_NEW_ACQUISITIONS_WITHOUT_A_NAMED_PANEL_ADMISSION_QUESTION",
+  "deposit_record": 15735347,
+  "deposit_version_page_label": "v2",
+  "dataset_license": "CC BY 4.0",
+  "publication_date": "2025-06-26",
+  "article_doi": "10.1098/rspb.2025.2004",
+  "preprint_doi": "10.1101/2025.04.29.651346",
+  "one_evidence_family": true,
+  "official_deposit_files": [
+    {
+      "filename": "4state-model.ipynb",
+      "size_bytes": 90473,
+      "md5": "md5:b22b93495199512f914705bd505af298",
+      "url": "https://zenodo.org/api/records/15735347/files/4state-model.ipynb/content"
+    },
+    {
+      "filename": "Motility_assay_2024_01_30.xlsx",
+      "size_bytes": 10868,
+      "md5": "md5:986598cdee12ee6f5d6933552be67d5c",
+      "url": "https://zenodo.org/api/records/15735347/files/Motility_assay_2024_01_30.xlsx/content"
+    },
+    {
+      "filename": "Summplementary-Movie-3.m4v",
+      "size_bytes": 2919470,
+      "md5": "md5:0cac509fbaa0f5dce2a8444df74d46d6",
+      "url": "https://zenodo.org/api/records/15735347/files/Summplementary-Movie-3.m4v/content"
+    },
+    {
+      "filename": "Summplementary-Movie-2.m4v",
+      "size_bytes": 7076362,
+      "md5": "md5:cdaeb3df68d7b270a7a99245e1a8a2a6",
+      "url": "https://zenodo.org/api/records/15735347/files/Summplementary-Movie-2.m4v/content"
+    },
+    {
+      "filename": "Summplementary-Movie-1.m4v",
+      "size_bytes": 22003331,
+      "md5": "md5:eb2115a5c91f912de4fe9c1be7258247",
+      "url": "https://zenodo.org/api/records/15735347/files/Summplementary-Movie-1.m4v/content"
+    },
+    {
+      "filename": "Summplementary-Movie-4.m4v",
+      "size_bytes": 25942188,
+      "md5": "md5:25b0e87e0e236ea46c75423dac35b9a5",
+      "url": "https://zenodo.org/api/records/15735347/files/Summplementary-Movie-4.m4v/content"
+    },
+    {
+      "filename": "Motility_assay_2024_03_12.xlsx",
+      "size_bytes": 11422,
+      "md5": "md5:211daf33038173fdcb8a23984d8ebbed",
+      "url": "https://zenodo.org/api/records/15735347/files/Motility_assay_2024_03_12.xlsx/content"
+    },
+    {
+      "filename": "Collapsing_colony_size.xlsx",
+      "size_bytes": 39166,
+      "md5": "md5:393ee6d7233da0fa6ffc43d8c1bfb762",
+      "url": "https://zenodo.org/api/records/15735347/files/Collapsing_colony_size.xlsx/content"
+    },
+    {
+      "filename": "Surface_density_data.xlsx",
+      "size_bytes": 15773,
+      "md5": "md5:6595f2b6bb05e827ec1f434f4b89a6fa",
+      "url": "https://zenodo.org/api/records/15735347/files/Surface_density_data.xlsx/content"
+    },
+    {
+      "filename": "Spatial_Model_LBOX500.c",
+      "size_bytes": 22795,
+      "md5": "md5:42dd3879b30b6b23532d937d9146021a",
+      "url": "https://zenodo.org/api/records/15735347/files/Spatial_Model_LBOX500.c/content"
+    },
+    {
+      "filename": "Pellicle_success.xlsx",
+      "size_bytes": 8831,
+      "md5": "md5:c2849c49ddf7a0bfbb682b0fd5a952c1",
+      "url": "https://zenodo.org/api/records/15735347/files/Pellicle_success.xlsx/content"
+    },
+    {
+      "filename": "input.txt",
+      "size_bytes": 796,
+      "md5": "md5:ced069dea199abaa404c384566d56064",
+      "url": "https://zenodo.org/api/records/15735347/files/input.txt/content"
+    },
+    {
+      "filename": "PcdrA-evo-count_2024_10_08.xlsx",
+      "size_bytes": 9458,
+      "md5": "md5:ba66db8a6989abde309384392c6df21f",
+      "url": "https://zenodo.org/api/records/15735347/files/PcdrA-evo-count_2024_10_08.xlsx/content"
+    },
+    {
+      "filename": "SM-mixevo_count_2024_10_02.xlsx",
+      "size_bytes": 9925,
+      "md5": "md5:445db9f6f795ea98a256bdb09e370446",
+      "url": "https://zenodo.org/api/records/15735347/files/SM-mixevo_count_2024_10_02.xlsx/content"
+    }
+  ],
+  "acquired_exact_files": [
+    "SM-mixevo_count_2024_10_02.xlsx",
+    "Surface_density_data.xlsx"
+  ],
+  "next_bounded_files": [
+    {
+      "filename": "Pellicle_success.xlsx",
+      "size_bytes": 8831,
+      "question": "Recover well-level mat successes/failures, inoculum and grouping; verify these are ecological well outcomes and do not invent binary lineage/recovery controls."
+    },
+    {
+      "filename": "PcdrA-evo-count_2024_10_08.xlsx",
+      "size_bytes": 9458,
+      "question": "Identify reporter/phenotype exceptions, replicate/plate hierarchy and all excluded/no-fluorescence categories; this does not provide allele assignments."
+    }
+  ],
+  "next_two_workbook_bytes": 18289,
+  "protocol_dependency": {
+    "url": "https://doi.org/10.6084/m9.figshare.c.8229719",
+    "required": "Article supplementary Table S3 strain alleles/backgrounds and Fig S1 metadata plus precise endpoint plate/dilution and image/well/culture map. Authenticate item-specific license, version, hash, size before acquisition.",
+    "size_bytes": null,
+    "status": "NOT_ACQUIRED"
+  },
+  "analysis_order": [
+    "Authenticate source manifest, exact bytes, artifact-specific license and preprint-to-journal mappings.",
+    "Preserve date, background, plate/image/well/culture and sampling frame; adjudicate Dark wheel and missing mwsR dilution100 without imputing zero.",
+    "Resolve genotype-to-route and ancestry/episode negatives plus loss/capture, source-classification and independent supply/control eligibility.",
+    "If any essential field remains missing, retain descriptive source arithmetic and park inferential panel admission; small files cannot manufacture absent biological controls.",
+    "Only after qualified assessment and a complete protocol, freeze complete conventional/TMD observed-category forecasts before untouched held-out endpoints; no retuning error or stopping budgets."
+  ],
+  "do_not_acquire_this_round": [
+    "58.2 MB entire deposit",
+    "Four movies",
+    "Full BioImage Archive microscopy",
+    "BioProject raw reads",
+    "Unlicensed alternate supplemental spreadsheets"
+  ],
+  "unchanged_study_fields": 26,
+  "unchanged_native_planning_fields": 18,
+  "no_laboratory_protocol_selected": true
+}

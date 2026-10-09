@@ -1,0 +1,21 @@
+{
+  "round": "R000026",
+  "scientific_acquisition_calls": 11,
+  "serialized_response_capture_bytes": 974278,
+  "exact_XLSX_bytes": 25698,
+  "counted_saved_source_bytes": 999976,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "ptato_cache_reassessment_new_acquisitions": 0,
+  "root_new_scientific_acquisitions": 0,
+  "ledger": "../bacterial_panel_leads/SOURCES.json",
+  "scope": "Two searches;two no-fulltext passage results;two primary HTMLs;official dataset page/API;one failed default-sandbox binary request;two exact bounded XLSX downloads after network permission.",
+  "unavailable_accounting": [
+    "provider_internal_request_totals",
+    "wire_transport_bytes"
+  ],
+  "raw_source_bodies_and_XLSX_published": false,
+  "new_local_archive_scan": false,
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

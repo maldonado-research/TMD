@@ -1,0 +1,171 @@
+{
+  "record_id": "R000026",
+  "status": "PASS_INDEPENDENT_INTERNAL_SOURCE_UNIT_RIGHTS_AND_ARITHMETIC_REVIEW",
+  "reviewer": "Independent AI-assisted delegate, separate from package producer; not qualified external scientific review",
+  "review_scope": {
+    "public_core_files": [
+      "REPORT.md",
+      "ADMISSION_MATRIX.json",
+      "ACQUISITION_PLAN.json",
+      "DERIVED_WORKBOOK_AUDIT.json",
+      "SURFACE_DENSITY_AUDIT.json",
+      "SOURCES.json",
+      "verify_sources.py",
+      "VERIFICATION_RECEIPT.json"
+    ],
+    "primary_source_depth": [
+      "Karita article: selected Results on genotype comparisons and mat rescue, Figures1/3/4/5/6 captions, Methods strains/culture, early occupation, mat success/rescue and evolution; data-accessibility and license passages",
+      "Matela article: selected Methods/Results on69clones/54populations, morphology-biased sampling, ancestral differences, historical/protocol heterogeneity, longitudinal bead transfer, introduced community competition; article and supplement rights passages",
+      "Official Zenodo15735347 record identity,14-file metadata and dataset CC BY4.0 license",
+      "Both exact XLSX archives: workbook relationships, all populated cells of the endpoint sheet and seven surface sheets; literal counts, missing cells, cached arithmetic and sample/date/unit labels"
+    ],
+    "not_performed": [
+      "Full-paper peer review or systematic literature review",
+      "Acquisition or interpretation of unacquired supplemental strain table, movies, microscopy archive, raw reads or alternate supplements",
+      "Experimental validation, genotype origin ascertainment, population-frequency reconstruction or fitted biological model"
+    ]
+  },
+  "core_file_pins": [
+    {
+      "path": "REPORT.md",
+      "bytes": 14599,
+      "sha256": "d3cd0a8e1aa48e9da8fe542598ea42de9bebe5672a607dd73ef1b89af2ab8b8c"
+    },
+    {
+      "path": "ADMISSION_MATRIX.json",
+      "bytes": 5874,
+      "sha256": "9eb1afa680db828fb1df1470920185c11635b781003cbed3986b7d8290568be8"
+    },
+    {
+      "path": "ACQUISITION_PLAN.json",
+      "bytes": 5915,
+      "sha256": "50e8bcd544709e58dfbd9382c325fec86683075c9d45c3cfc2f2afacdef8b334"
+    },
+    {
+      "path": "DERIVED_WORKBOOK_AUDIT.json",
+      "bytes": 18460,
+      "sha256": "ddfca6ed83ab36a71554f798afa933045bf62f861411929dec362078e13941f9"
+    },
+    {
+      "path": "SURFACE_DENSITY_AUDIT.json",
+      "bytes": 42930,
+      "sha256": "ad8f11dee887559d5f213ae7f94bd9f42c8e5ca49bf59cd0105181e806bdf7db"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 19389,
+      "sha256": "3561e041a1b05f1f3b49073886ba70bef5ab4eff3cb3da6a9357fa767b13eaee"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 17446,
+      "sha256": "d16036c25df6fc6e63eb6a58bdda6e5ad6e01599755ccf4d8969f594f8c1a290"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 2192,
+      "sha256": "be2b3d4dc80101ef7a1853efffef364bdfffe3ba6fdf730c162400c1f83db020"
+    }
+  ],
+  "primary_cache_pins": [
+    {
+      "path": "05_context_article.json",
+      "bytes": 421390,
+      "sha256": "2a58b1f0997ebfdcab49a906123db50c2ebb7203c94b979bd6d72eb7065565a5"
+    },
+    {
+      "path": "06_biofilm_article.json",
+      "bytes": 421495,
+      "sha256": "7a328b10f552d77879fd622b1b808005169d89f8452eccd4b3dd657a2080824f"
+    },
+    {
+      "path": "08_context_deposit_api.json",
+      "bytes": 25782,
+      "sha256": "44bfa5cf72c3a84967e07da9f7a212a2a27279adb4ad002eef0cddb9f71fba64"
+    },
+    {
+      "path": "SM-mixevo_count_2024_10_02.xlsx",
+      "bytes": 9925,
+      "sha256": "142bf3ea4a873b2f8ae493a0832fce12ea6bb935a1eca8b3c3be4f93a3d38d23"
+    },
+    {
+      "path": "Surface_density_data.xlsx",
+      "bytes": 15773,
+      "sha256": "5802bfb537f94b60de3a03d5f83e4fe7b94a2af8a9c32e2deb1b030939f138a0"
+    }
+  ],
+  "independent_procedure": "Used a separately written standard-library ZIP/XML parser that resolves sheet names through relationship IDs, parses literal numeric cells as exact fractions, groups endpoint records from their source labels, and compares every surface row count/area/nominal-density record. Did not import the producer parser for these independent calculations. Subsequently reran producer full cached-source verifier;40checks passed.",
+  "independent_findings": {
+    "endpoint": {
+      "exact_bytes": 9925,
+      "catalogue_MD5_matches": true,
+      "raw_literal_count_cells": 57,
+      "positive_cells": 55,
+      "observed_zero_cells": 2,
+      "standard_WS_sum": 933,
+      "SM_sum": 60,
+      "separate_Dark_wheel_sum": 21,
+      "all_literal_sum": 1014,
+      "five_line_sums": [
+        297,
+        155,
+        188,
+        187,
+        187
+      ],
+      "summary_cells_checked": 8,
+      "formula_cells_among_summary": 3,
+      "all_summary_arithmetic_agrees": true,
+      "E30_cell_absent_not_zero": true,
+      "origin_or_population_denominator_established": false
+    },
+    "surface": {
+      "exact_bytes": 15773,
+      "catalogue_MD5_matches": true,
+      "relationship_mapped_sheets": 7,
+      "declared_dilution_rows": 25,
+      "populated_rows": 24,
+      "positive_numeric_image_count_fields": 200,
+      "missing_row": "mwsR dilution100 has dilution recorded but no ROI area/counts",
+      "independent_formula_cache_checks": 21,
+      "all_exact_rational_cache_values_agree": true,
+      "all25_row_count_sums_areas_and_nominal_densities_match": true,
+      "all7_saturated_density_and_date_fields_match": true,
+      "dimensional_surface_inoculum_index": "(cells/um^2)/(cells/mL) = mL/um^2",
+      "dimensionless_relative_trait_clarification": "A subsequently normalized WS/SM ratio of identically defined occupation indices would be dimensionless. Neither it nor the dimensional index is a known-introduced-lineage establishment probability. No cross-genotype ratio or matched-context transport is inferred here.",
+      "biological_independent_unit_count": null
+    }
+  },
+  "scientific_assessment": [
+    "Accept the licensed ecological measurement lead and explicit missing control requirements; retain NO_MATCHED_PANEL_ADMITTED.",
+    "Genotype-labelled wspF/awsX/mwsR surface assays improve relevance, but differing date labels, missing allele/protocol joins and absent image/well/culture hierarchy prevent claiming a contemporaneous independent route-control panel.",
+    "Six-day colony colour/morphology categories and physiological reporters cannot replace molecular route identity, ancestry/acquisition episodes or lost-origin ascertainment.",
+    "Whole-well mat outcomes at declared density/scaffold conditions are distinct from known independent introduced-lineage recovery trials.",
+    "The source four-state model suggests conventional demographic/spatial/facilitation explanations; no new TMD confirmation or frozen target probability follows.",
+    "Dataset CC BY4.0 permits attributed derived analysis of these two workbooks. Article licensing is not extended to Matela supplemental artifacts.",
+    "Preprint/deposit/article remain one evidence family; heterogeneous studies are not pooled into a fabricated matched experiment."
+  ],
+  "resolved_findings": [
+    {
+      "item": "Draft admission prose said202image-count entries",
+      "resolution": "Final frozen ADMISSION_MATRIX and REPORT correctly say200; verified against independent XLSX parsing."
+    }
+  ],
+  "outstanding_blocking_findings": [],
+  "acquisition_checks": {
+    "delegate_calls_recorded": 11,
+    "serialized_response_capture_bytes": 974278,
+    "exact_XLSX_bytes": 25698,
+    "saved_bytes_combined": 999976,
+    "new_scientific_acquisitions_by_reviewer": 0,
+    "HTTP_wire_bytes_or_provider_internal_calls_claimed": false
+  },
+  "public_safety": "No raw workbook binaries, author workstation paths, full article/code bodies or private cache locators are published in this receipt. Original commentary and aggregate review facts only.",
+  "preserved_boundaries": {
+    "study_fields_NULL": 26,
+    "native_control_fields_NULL": 18,
+    "forecast_eta_count_law_stopping_changed": false,
+    "biological_fit_or_native_parameter_admitted": false
+  },
+  "license": "Original review CC BY4.0; external sources retain their terms."
+}
