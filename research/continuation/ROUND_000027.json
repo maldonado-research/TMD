@@ -1,0 +1,43 @@
+{
+  "id": "R000027",
+  "status": "completed_internal_review",
+  "date": "2026-10-11",
+  "timezone": "Etc/UTC",
+  "report": "../CONTINUATION_HANDOFF_2026-10-11_R27.md",
+  "completion_scope": "reported_strain_and_unit_map_phase_specific_control_assessment",
+  "details": {
+    "scientific_acquisition_calls": 8,
+    "counted_saved_source_bytes": 595058,
+    "reported_strain_entries": 14,
+    "exact_additional_XLSX_files": 2,
+    "exact_additional_XLSX_bytes": 18289,
+    "pellicle_aggregate_pairs": 11,
+    "pellicle_date_blocks": 4,
+    "reporter_plate_rows": 6,
+    "reporter_literal_count_cells": 24,
+    "reporter_sampled_colony_total": 3376,
+    "control_components": 8,
+    "supplement_exact_PDF_authenticated": false,
+    "sequence_independently_validated": false,
+    "matched_bacterial_panel_admitted": false
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "methods_archive_scope": "Frozen approved0.6.0 excludes laterR1–R27 addenda",
+  "manual_scientific_model": {
+    "round": "R000027",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned."
+}

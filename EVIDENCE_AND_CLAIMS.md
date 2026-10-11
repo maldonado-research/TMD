@@ -100,3 +100,12 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Sampled-colony arithmetic | [57 literal cells, separate summary and ambiguous categories](research/bacterial_panel_leads/DERIVED_WORKBOOK_AUDIT.json) | A summed total of 1,014 sampled colonies, including 21 Dark wheel, does not enumerate independent births, molecular routes or a population denominator. Missing is not zero. |
 | Genotype-labelled surface occupancy | [Seven sheets and 25 declared dilution groups](research/bacterial_panel_leads/SURFACE_DENSITY_AUDIT.json) | Repeated image counts, differing dates and dimensional density indices do not establish matched binary establishment/recovery trials. |
 | Ecological control requirement | [Primary-source assessment and admission matrix](research/bacterial_panel_leads/REPORT.md) | Match density, resident scaffold and timing before transport; all26study and18planning inputs remainNULL, with no changed forecast/error/stopping contract. |
+
+## R27 reported genotypes and phase-specific controls — 11 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Reported allele and stock ledger | [14 Table S3 entries](research/strain_unit_map/STRAIN_MAP.json) | Published provider text, not independent sequence validation or selected actual study stock; awsX coordinate convention unresolved. |
+| Exact additional workbook identities and units | [Mat/date and reporter/plate audit](research/strain_unit_map/WORKBOOK_UNIT_AUDIT.json) | 11 whole-well aggregates and 3,376 sampled colonies do not establish lineage origins, route denominators or independent biological runs. |
+| Context and hierarchy admission decision | [Join matrix](research/strain_unit_map/UNIT_JOIN_MATRIX.json) | LB/ΔpvdS imaging cannot silently supply a KB/default-background control; molecular and unit joins remain missing. |
+| Discriminating measurement requirements | [Eight-component control contract](research/establishment_controls/CONTROL_CONTRACT.json) | Design/feasibility only; no protocol selected, external assessment obtained, full comparator implemented or statistical rule changed. |

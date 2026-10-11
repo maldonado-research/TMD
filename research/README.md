@@ -129,3 +129,7 @@ The [official catalogue/summary audit](processed_input_audit/README.md) checks 4
 ## R26: a concrete replay decision and licensed bacterial input audit
 
 The [PTATO benchmark decision](benchmark_decision/README.md) resolves 18 logical scoped inputs, unknown costs and a 34-object minimum for unchanged full-script execution; independent accuracy/origin truth remains unmet. The [bacterial source assessment](bacterial_panel_leads/REPORT.md) authenticates two small licensed workbooks, preserves sampled-colony and surface-count units, and sharpens the density/resident-state/timing control requirement. Both have independent internal source/unit review; no matched panel or TMD fit is admitted. [Continuation checkpoint](CONTINUATION_HANDOFF_2026-10-08_R26.md).
+
+## R27: reported strains, assay units and discriminating controls
+
+The [strain/unit map](strain_unit_map/REPORT.md) joins source-reported alleles and backgrounds as far as the inspected material permits. Exact mat and reporter workbooks retain dates, plate units and missing joins. The [control contract](establishment_controls/REPORT.md) gives eight measurement requirements for qualified feasibility assessment, with distinct observed-prediction and biological-interpretation gates. No complete matched panel, biological fit or actual study field is admitted. [R27 checkpoint](CONTINUATION_HANDOFF_2026-10-11_R27.md).

@@ -1,0 +1,21 @@
+{
+  "captured_at_utc": "2026-10-11T08:01:39.024068+00:00",
+  "offline_check": {
+    "public_invariants": "PASS",
+    "allowlist_and_hashes": "PASS",
+    "source_replay": "UNRUN_SOURCE_CACHE_NOT_PROVIDED",
+    "r26_source_replay": "UNRUN_PRIOR_CACHE_UNAVAILABLE",
+    "supplement_exact_pdf_replay": "UNRUN_EXACT_PDF_NOT_ACQUIRED",
+    "biological_or_causal_validation": false
+  },
+  "cache_check": {
+    "public_invariants": "PASS",
+    "allowlist_and_hashes": "PASS",
+    "source_replay": "PASS_EXACT_R27_WRAPPERS_TWO_BINARIES_AND_DERIVED_AUDIT",
+    "r26_source_replay": "UNRUN_PRIOR_CACHE_UNAVAILABLE",
+    "supplement_exact_pdf_replay": "UNRUN_EXACT_PDF_NOT_ACQUIRED",
+    "biological_or_causal_validation": false
+  },
+  "source_cache_published": false,
+  "verification_code_sha256": "b7e994f7fc7d98ad7fb375f190dc2199e56fbb6917f06d1d93e1b2110d987050"
+}

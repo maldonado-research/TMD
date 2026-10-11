@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "CONTROL_CONTRACT.json",
+    "DECISION.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_contract.py"
+  ],
+  "files": [
+    {
+      "path": "CONTROL_CONTRACT.json",
+      "bytes": 14384,
+      "sha256": "ca9ed3c47b963e418bca348d843dc46a6b498ef1a18f5e4e5d3c414cc04bb28d"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1244,
+      "sha256": "d521bf63d62a1f5b8cf412e6448b0673529b8844514650102542fac1fec487e6"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 4093,
+      "sha256": "2c7465fbd327642164eac08774caf793014f05d00d27e4189ef697a65042a4d8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 442,
+      "sha256": "07018739d6f1aa29ef8736bfb925af467704859c62b585d6d38e6bb83c0e80e5"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 17387,
+      "sha256": "910d2e006157df7bfdc3cb7f893a7e5e05ef03aad706fd4eefa3f26db653c839"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 9834,
+      "sha256": "30864292f3cbb511a4315498da94595e5f7479d5498706d297cb9beae79d9bc3"
+    },
+    {
+      "path": "verify_contract.py",
+      "bytes": 9086,
+      "sha256": "f382a995a931af3a6d9a6c16c86d503441b25eb7aba5a69d10746be1e10f461c"
+    }
+  ],
+  "excluded": "Original provider/source bodies and author workbooks remain outside Git. Shared acquisitions counted once by the strain-map branch.",
+  "license": "Original documentation CC BY 4.0; new code MIT; third-party rights unchanged.",
+  "hash_scope": "All core files and any independent review are pinned. PUBLIC_FILES is hashed by SHA256SUMS. Receipt and SHA256SUMS exclude self cycles."
+}

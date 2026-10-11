@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "review_kind": "Independent internal AI-assisted review; not qualified external scientific review",
+  "reviewer": "R27 strain/unit-map agent, separate from establishment-controls author",
+  "reviewed_at_utc": "2026-10-11T08:03:08.430747+00:00",
+  "disposition": "PASS_AFTER_INTEGRITY_HARDENING",
+  "blocking_findings": [],
+  "reviewed_core_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 17387,
+      "sha256": "910d2e006157df7bfdc3cb7f893a7e5e05ef03aad706fd4eefa3f26db653c839"
+    },
+    {
+      "path": "CONTROL_CONTRACT.json",
+      "bytes": 14384,
+      "sha256": "ca9ed3c47b963e418bca348d843dc46a6b498ef1a18f5e4e5d3c414cc04bb28d"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1244,
+      "sha256": "d521bf63d62a1f5b8cf412e6448b0673529b8844514650102542fac1fec487e6"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 9834,
+      "sha256": "30864292f3cbb511a4315498da94595e5f7479d5498706d297cb9beae79d9bc3"
+    },
+    {
+      "path": "verify_contract.py",
+      "bytes": 9086,
+      "sha256": "f382a995a931af3a6d9a6c16c86d503441b25eb7aba5a69d10746be1e10f461c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 442,
+      "sha256": "07018739d6f1aa29ef8736bfb925af467704859c62b585d6d38e6bb83c0e80e5"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Eight control components",
+      "result": "Distinct background, supply, establishment, ecological context, recovery/classification, origin truth, conventional vector and held-out decision requirements; denominators and failure rules are explicit."
+    },
+    {
+      "area": "Conditional identity",
+      "result": "Under explicitly admitted positive q\u00d7F\u00d7r weights, normalized log contrast cancels the common normalizer and decomposes into supply, establishment and recovery contrasts. Report correctly denies this as a general race law or a new estimator."
+    },
+    {
+      "area": "Prediction versus biological inference",
+      "result": "Conditional observed W/A/M scoring is preserved and distinguished from independently established native acquisition truth. Full same-category vectors, eta freezing and remaining tilt limitations retained."
+    },
+    {
+      "area": "Primary source fidelity",
+      "result": "Independently inspected cached article/supplement Methods, Table S3/Fig S1: LB/\u0394pvdS,plasmid versus chromosomal tags and density-point limitations agree. Unacquired original PDF and absent R26 replay are stated."
+    },
+    {
+      "area": "Actual registries",
+      "result": "Executed checker verifies authoritative 26 study fields and 18 native planning fields remain NULL, mandatory categories/axis/order unchanged; no new route panel admitted."
+    },
+    {
+      "area": "Source budget",
+      "result": "One branch watch acquisition 652 bytes with zero results; reused sources explicitly counted by strain-map branch only; no global-absence claim."
+    },
+    {
+      "area": "Public artifacts/privacy",
+      "result": "Exact file allowlist, core hashes and SHA256SUMS coverage verified; no original source bodies or binaries. Manual scan found no signed download query, local author home path, authorization header or private key marker."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "issue": "Initial verifier omitted own public allowlist/hash and SHA256SUMS checks.",
+      "resolution": "Author added exact regular-file allowlist, complete core identity coverage and checksum consistency; final cached command passed."
+    }
+  ],
+  "validation_command": "python -B research/establishment_controls/verify_contract.py --source-cache <control-source-cache> --shared-source-cache <strain-source-cache>",
+  "validation_status": "PASS",
+  "not_validated": [
+    "biological truth",
+    "control independence or native transport",
+    "admitted experimental count law",
+    "external qualified scientific assessment"
+  ],
+  "license": "Original review CC BY 4.0"
+}

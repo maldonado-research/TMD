@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "files": [
+    "REPORT.md",
+    "STRAIN_MAP.json",
+    "UNIT_JOIN_MATRIX.json",
+    "WORKBOOK_UNIT_AUDIT.json",
+    "SOURCES.json",
+    "verify_sources.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json"
+  ],
+  "excluded": [
+    "exact source binaries",
+    "provider response bodies",
+    "full third-party documents",
+    "incidental author workstation metadata"
+  ],
+  "license": {
+    "original_commentary_and_derived_ledgers": "CC BY 4.0",
+    "verification_code": "MIT"
+  }
+}

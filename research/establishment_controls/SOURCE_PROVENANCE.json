@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "branch_scientific_acquisitions": [
+    {
+      "acquisition_id": "01_bounded_change_watch",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_research_search_papers",
+      "args": {
+        "query": "Pseudomonas fluorescens SBW25 wrinkly spreader Wsp Aws Mws ancestral facilitation establishment lineage mutation supply recovery experimental data",
+        "from": "2026-10-08",
+        "to": "2026-10-11",
+        "k": 8
+      },
+      "started_at_utc": "2026-10-11T07:52:33.427Z",
+      "captured_at_utc": "2026-10-11T07:52:36.462Z",
+      "capture_filename": "01_bounded_change_watch.json",
+      "bytes": 652,
+      "sha256": "ae821cba869832224f3f2c1fe96ea05435352205d7b566af5557a299ebff7815",
+      "status": "SUCCESS_NO_RESULTS",
+      "inspection_depth": "Complete provider response; empty paper metadata/abstract search result",
+      "result_count": 0,
+      "license": "Provider response retained outside Git; no source text or article reuse rights inferred.",
+      "wire_bytes": null,
+      "provider_internal_request_count": null
+    }
+  ],
+  "branch_totals": {
+    "logical_source_calls": 1,
+    "failures": 0,
+    "serialized_response_capture_bytes": 652,
+    "exact_source_binary_bytes": 0,
+    "counted_acquisition_bytes": 652,
+    "wire_bytes": null,
+    "provider_internal_request_count": null
+  },
+  "shared_acquisitions_reused_without_new_requests": [
+    {
+      "acquisition_id": "01_article",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2025.2004",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_at_utc": "2026-10-11T07:51:42.379Z",
+      "captured_at_utc": "2026-10-11T07:51:56.648Z",
+      "capture_filename": "01_article.json",
+      "bytes": 421633,
+      "sha256": "72710cca10e24adb05dd466b177e8632851ede431d828bf0007b4bd2692ef062",
+      "inspection_depth": "Selected main-text passages relevant to ecological mechanism and culture/observation contexts",
+      "counted_in_this_branch_source_calls": false,
+      "counted_by": "R27 strain-map branch acquisition ledger",
+      "license": "CC BY 4.0 declared by the corresponding article/item; exact item terms governed by companion provenance",
+      "exact_pdf_binary_authenticated": null
+    },
+    {
+      "acquisition_id": "03_supplement_manifest",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://api.figshare.com/v2/articles/30997061",
+        "formats": [
+          "rawHtml"
+        ],
+        "onlyMainContent": false,
+        "maxAge": 0
+      },
+      "started_at_utc": "2026-10-11T07:52:06.424Z",
+      "captured_at_utc": "2026-10-11T07:52:11.750Z",
+      "capture_filename": "03_supplement_manifest.json",
+      "bytes": 11689,
+      "sha256": "8d6f1fd51c0bb95e0876dfaa2d29735525fcea5b3cc129a05c9cbd1f610f7795",
+      "inspection_depth": "Artifact identity and item-specific license/version metadata",
+      "counted_in_this_branch_source_calls": false,
+      "counted_by": "R27 strain-map branch acquisition ledger",
+      "license": "CC BY 4.0 declared by the corresponding article/item; exact item terms governed by companion provenance",
+      "exact_pdf_binary_authenticated": null
+    },
+    {
+      "acquisition_id": "04_supplement_pdf",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "args": {
+        "url": "https://ndownloader.figshare.com/files/60777659",
+        "formats": [
+          "markdown"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 40
+        },
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_at_utc": "2026-10-11T07:52:29.606Z",
+      "captured_at_utc": "2026-10-11T07:52:40.339Z",
+      "capture_filename": "04_supplement_pdf.json",
+      "bytes": 70904,
+      "sha256": "7221e4f36c98793628e46bab869eaedc16c19c852fd1f7b8a5932a364390f643",
+      "inspection_depth": "Selected Supplementary Methods, Table S3 and Figure S1 passages; complete 10-page representation acquired by colleague, not exact PDF binary",
+      "counted_in_this_branch_source_calls": false,
+      "counted_by": "R27 strain-map branch acquisition ledger",
+      "license": "CC BY 4.0 declared by the corresponding article/item; exact item terms governed by companion provenance",
+      "exact_pdf_binary_authenticated": false
+    }
+  ],
+  "project_records_read": [
+    {
+      "path": "research/bacterial_panel_leads/REPORT.md",
+      "inspection_depth": "R26 primary-source assessment; source cache unavailable in this branch",
+      "bytes": 14599,
+      "sha256": "d3cd0a8e1aa48e9da8fe542598ea42de9bebe5672a607dd73ef1b89af2ab8b8c",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/bacterial_panel_leads/ADMISSION_MATRIX.json",
+      "inspection_depth": "R26 source input admission decisions",
+      "bytes": 5874,
+      "sha256": "9eb1afa680db828fb1df1470920185c11635b781003cbed3986b7d8290568be8",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/bacterial_panel_leads/ACQUISITION_PLAN.json",
+      "inspection_depth": "R26 official small-artifact acquisition plan",
+      "bytes": 5915,
+      "sha256": "50e8bcd544709e58dfbd9382c325fec86683075c9d45c3cfc2f2afacdef8b334",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/bacterial_panel_leads/SURFACE_DENSITY_AUDIT.json",
+      "inspection_depth": "R26 derived density units and date/missingness record",
+      "bytes": 42930,
+      "sha256": "ad8f11dee887559d5f213ae7f94bd9f42c8e5ca49bf59cd0105181e806bdf7db",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/bacterial_panel_leads/DERIVED_WORKBOOK_AUDIT.json",
+      "inspection_depth": "R26 derived endpoint units/categories",
+      "bytes": 18460,
+      "sha256": "ddfca6ed83ab36a71554f798afa933045bf62f861411929dec362078e13941f9",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/prospective_design/README.md",
+      "inspection_depth": "Existing statistical design and immutable algorithm candidate",
+      "bytes": 17400,
+      "sha256": "675c4e632625719caee03c9c5d1c7ba0a82e3c539764f36892864bf75bbd7184",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "inspection_depth": "Authoritative 26 unfilled study inputs",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "inspection_depth": "Authoritative 18 unfilled planning inputs",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/recovery_calibration_sources/README.md",
+      "inspection_depth": "R12 source-grounded cell/CFU recovery distinctions",
+      "bytes": 6629,
+      "sha256": "960ddf4747ab7c03aa2ded2e300e4504e5afbb613da3013b103909f58bbd3e38",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    },
+    {
+      "path": "research/curvature_bounds/README.md",
+      "inspection_depth": "Existing conditional product-factor model and full-vector limitation",
+      "bytes": 14526,
+      "sha256": "850dab5e3fa865ad294d9798c06e82b3bed8cc779420266bc4ad1643c6d1ff61",
+      "license": "Original project documentation/derived audit CC BY 4.0; original sources retain separate terms."
+    }
+  ],
+  "source_families": [
+    {
+      "article_doi": "10.1098/rspb.2025.2004",
+      "preprint_doi": "10.1101/2025.04.29.651346",
+      "dataset_doi": "10.5281/zenodo.15735347",
+      "supplement_item": "https://doi.org/10.6084/m9.figshare.30997061.v1",
+      "independent_cohort_count_added": 0
+    }
+  ],
+  "source_anchors": [
+    {
+      "source_capture": "04_supplement_pdf.json",
+      "locator": "Supplementary Methods: Confocal imaging and 3D reconstruction; Co-culture spatial configuration",
+      "claim": "LB replaces KB and pvdS is deleted to reduce fluorescence for these imaging experiments."
+    },
+    {
+      "source_capture": "04_supplement_pdf.json",
+      "locator": "Table S3",
+      "claim": "Integrated fluorescence tags and plasmid pCdrA-mScarlet reporter are distinct genetic measurement constructs."
+    },
+    {
+      "source_capture": "04_supplement_pdf.json",
+      "locator": "Figure S1 caption",
+      "claim": "Three or four plotted points per strain denote tested inoculum densities; no independent culture denominator is established by that wording."
+    }
+  ],
+  "not_claimed": [
+    "R26 original source cache replay",
+    "exact PDF binary acquisition or hash authentication",
+    "systematic search or global absence",
+    "independent biological origin truth",
+    "external peer review"
+  ],
+  "public_redistribution": "Original report, decision, contract, provenance and code only; source response bodies and author workbooks excluded."
+}

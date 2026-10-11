@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension.",
+  "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,15 +41,15 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000026"
+      "R000027"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-08_R26.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-11_R27.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "third_party_Zenodo_dataset_requests_are_scientific_acquisitions": true,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "PTATO_benchmark_parked_licensed_bacterial_resource_audited_no_matched_panel_admitted"
+    "scientific_inference_status": "reported_strain_and_unit_map_control_contract_no_matched_panel_admitted"
   },
   "github_research_addenda_history": [
     {
@@ -91,6 +91,18 @@
       "zenodo_requests_this_round": 0,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "scoped_catalogues_and_summary_arithmetic_verified_no_genotype_benchmark_admitted"
+    },
+    {
+      "latest_rounds": [
+        "R000026"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-08_R26.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "third_party_Zenodo_dataset_requests_are_scientific_acquisitions": true,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "PTATO_benchmark_parked_licensed_bacterial_resource_audited_no_matched_panel_admitted"
     }
   ],
   "publication_verified_file_count": 8,

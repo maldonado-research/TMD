@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "decision": "NO_COMPLETE_MATCHED_ROUTE_ORIGIN_CONTROL_PANEL",
+  "one_evidence_family": true,
+  "joins": [
+    {
+      "id": "surface_to_strains",
+      "measurements": "R26 Surface_density_data sheets plus TableS3 and FigS1",
+      "admitted_join": "Seven assay labels map semantically to SBW25 genotype classes; wspF,awsX,mwsR are actual locus labels. FigS1 confirms t=2h and points denote3or4 inoculum densities.",
+      "available_unit": "Counted cells within image ROIs, grouped by genotype/dilution and workbook date labels.",
+      "missing_join_keys": [
+        "ROI→image→well→plate→independent preculture",
+        "strain internal ID in each worksheet",
+        "same-date matched Wsp/Aws/Mws batches",
+        "plate counts underlying inoculum calibration"
+      ],
+      "denominator": "Surface count/area divided by inoculum cells/volume; dimensional length after unit conversion.",
+      "target_admission": "Descriptive early-occupation measurement only; not independent origin or recovery probability."
+    },
+    {
+      "id": "pellicle_date_dilution",
+      "measurements": "R27 Pellicle_success.xlsx plus primary Methods4c–4e",
+      "admitted_join": "Eleven literal success/total pairs attach to four source date blocks and recorded dilution exponents.",
+      "available_unit": "Aggregated culture/well mat outcomes by date×dilution; no individual well rows.",
+      "missing_join_keys": [
+        "individual well and plate IDs",
+        "independent preculture links",
+        "explicit strain/marker column",
+        "inoculum CFU calibration for each date",
+        "crosswalk to Fig3 rescue wells"
+      ],
+      "denominator": "Recorded aggregate total; never number of introduced independently known lineages.",
+      "target_admission": "Permits descriptive date-specific mat success; cannot pool batches or substitute for native-origin establishment control."
+    },
+    {
+      "id": "rescue_design",
+      "measurements": "Article Fig3a and Methods4e",
+      "admitted_join": "Twelve initial WS monoculture wells, then a plate with3WS monocultures and9SM+WS wells; stated2/9 rescue versus0/15 combined monocultures.",
+      "available_unit": "Author-reported well design across two assay stages.",
+      "missing_join_keys": [
+        "raw well-specific outcomes and source workbook crosswalk",
+        "per-well lineage dose",
+        "Wsp/Aws/Mws matched intervention triad",
+        "matched pre-existing resident scaffold at native mutation time"
+      ],
+      "denominator": "Wells/cultures with mat formation, not introduced individual lineages.",
+      "target_admission": "Ecological facilitation design evidence; no mutation-source rate, origin-negative calibration or all-route recovery."
+    },
+    {
+      "id": "reporter_plate_groups",
+      "measurements": "R27 PcdrA-evo-count workbook and primary Methods4f/Fig4",
+      "admitted_join": "Six explicitly named plate rows form3numbered paired summaries by formula; morphotype×fluorescence categories retained.",
+      "available_unit": "Sampled plated colonies nested in source-labelled plates; three numbered groups are source summaries.",
+      "missing_join_keys": [
+        "formal prefix→independent evolution culture map",
+        "suffix→dilution and plate-replicate dictionary",
+        "founder-to-descendant molecular genotypes",
+        "per-colony native acquisition episode",
+        "loss/capture and detection controls"
+      ],
+      "denominator": "3376 sampled colonies, not mutation births; sums must not count cached totals again.",
+      "target_admission": "Descriptive phenotype/reporter discordance only; not sensitivity/specificity against molecular truth or route probability."
+    },
+    {
+      "id": "colour_endpoint",
+      "measurements": "R26 SM-mixevo_count workbook and primary Fig6/Methods4f plus TableS3",
+      "admitted_join": "Article reports five independent evolution lines sampled at day6 and plated at two dilution levels; counts preserve colour×morphology.",
+      "available_unit": "Colonies within plate-label blocks within five article-described line groups.",
+      "missing_join_keys": [
+        "exact two founder internal IDs and ΔpvdS status",
+        "suffix→plate/dilution crosswalk",
+        "Dark wheel genetic/reporting interpretation",
+        "molecular route and independent birth identity"
+      ],
+      "denominator": "Sampled colonies per source group; all raw suffixes retained.",
+      "target_admission": "Descriptive coexistence; no six molecular routes and no complete Wsp/Aws/Mws race."
+    },
+    {
+      "id": "microscopy_context",
+      "measurements": "Supplementary Methods and FigsS2–S3",
+      "admitted_join": "Confocal and micron-scale co-culture imaging explicitly uses LB, ΔpvdS and fluorescent derivatives; marker colours flipped for FigS3.",
+      "available_unit": "Microcolony/image observations under stated imaging context.",
+      "missing_join_keys": [
+        "well/culture IDs shared with KB ecological assays",
+        "cross-assay source file/ROI map",
+        "equal founder and marker effects in all route×phase cells"
+      ],
+      "denominator": "Imaging fields/colonies, not native mutation attempts.",
+      "target_admission": "Structural observation under its own context; do not transfer unchanged to KB mat-success or evolution endpoints."
+    },
+    {
+      "id": "simulated_mutation_supply",
+      "measurements": "Supplementary TextC/TableS2",
+      "admitted_join": "Forward mutation-rate parameter attributed to Lind2019; reverse phenotype-switch rate equated by simplifying assumption.",
+      "available_unit": "Model parameter, not new measurement.",
+      "missing_join_keys": [
+        "independent route-specific matched supply measurements",
+        "unobserved/reverting mutations and lineage loss census"
+      ],
+      "denominator": "Model rates; cannot become biological origin truth.",
+      "target_admission": "Mechanistic hypothesis/model input only; no new independent supply evidence."
+    }
+  ],
+  "matching_axes": [
+    "strain/internalID and allele",
+    "marker/reporter and ΔpvdS status",
+    "medium",
+    "temperature",
+    "inoculum density and absolute lineage dose",
+    "resident ancestry/scaffold state",
+    "introduction/native emergence timing",
+    "calendar batch",
+    "preculture/culture/plate/well",
+    "image/ROI",
+    "plate dilution and sampling frame",
+    "molecular observation and capture mechanism"
+  ],
+  "all_route_supply_establishment_recovery_controls_matched": false,
+  "actual_study_fields_unchanged_null": 26,
+  "native_planning_fields_unchanged_null": 18,
+  "forecast_eta_error_count_law_stopping_unchanged": true,
+  "no_laboratory_protocol_selected": true
+}
