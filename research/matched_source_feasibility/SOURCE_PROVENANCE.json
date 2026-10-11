@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "round": "R28",
+  "logical_scientific_calls": 7,
+  "logical_call_allocation": 7,
+  "saved_acquisition_bytes": 685445,
+  "byte_allocation": 12582912,
+  "byte_accounting": "Exact saved JSON capture/receipt files plus acquired XLSX binaries, counted once. Locally extracted markdown/debug text duplicates are not new acquired bytes. No wire-byte claim.",
+  "exact_binary_bytes": 112786,
+  "saved_acquisition_files": [
+    {
+      "filename": "S01.json",
+      "bytes": 8025,
+      "sha256": "18a497452d2b05db111b0375481f28b4837a3c42c94800de47aa78b46602b78f"
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 5750,
+      "sha256": "026d8a950d55d4988a632732b6afd9dcde96879a935655e088bcf1f8a8c01214"
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 235236,
+      "sha256": "a74117403cca947ceae2a1811c5efb9d8ab146b46985425ddded18097a9def98"
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 84960,
+      "sha256": "f1faafc18ed1ea59cbc0d5ab69bbd0699b3dd33971558605b4711132ebd90549"
+    },
+    {
+      "filename": "S05.json",
+      "bytes": 980,
+      "sha256": "5671e9a6a8ee8e6df8bc87fb22f0bb885c71e2f9fa147c4d86d83404e62b2ffa"
+    },
+    {
+      "filename": "S06.json",
+      "bytes": 980,
+      "sha256": "96a596ae389c39ffedc440b3456bfa8159c3242dc785220fe78e88552978169d"
+    },
+    {
+      "filename": "S07.json",
+      "bytes": 236728,
+      "sha256": "7f7462204436db59130d0bf9f288a2d14879ec33fa4f4a5ba47f1d6b721045e9"
+    },
+    {
+      "filename": "elife-38822-fig6-data1-v1.xlsx",
+      "bytes": 63836,
+      "sha256": "455113244c1b690436aecd361bc662da136d05b851e3c14a59c5038718c9af0e"
+    },
+    {
+      "filename": "elife-38822-fig9-data1-v1.xlsx",
+      "bytes": 48950,
+      "sha256": "703194d0a3136c3c701687106caec43c6e2bda032734b2762acda1f4f27fd68b"
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "S01",
+      "tool": "firecrawl_research_search_papers",
+      "arguments": {
+        "query": "Pseudomonas fluorescens SBW25 Wsp Aws Mws independent populations mutations experimental evolution common ancestor supplementary data",
+        "k": 6
+      },
+      "captured_utc": "2026-10-11T08:34:30.367Z",
+      "capture_file": "S01.json",
+      "representation": "search metadata/excerpts only",
+      "canonical_response_sha256": "765ec6e2fb8292c82202c33e6c4f706f78f0c56f175be3b428591d1f8f7baaf8",
+      "canonical_response_bytes": 6239,
+      "response_hash_encoding": "UTF-8 JSON sort_keys=True separators=(comma,colon), ensure_ascii=False; not original HTTP bytes",
+      "rights": "Search metadata: no third-party body publication"
+    },
+    {
+      "call_id": "S02",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "\"Predicting mutational routes\" \"source data\" \"38822\" xlsx",
+        "sources": [
+          "web"
+        ],
+        "limit": 5
+      },
+      "captured_utc": "2026-10-11T08:34:30.367Z",
+      "capture_file": "S02.json",
+      "representation": "search metadata/excerpts only",
+      "canonical_response_sha256": "950d37e258aa084f631fdebdd6b4a2b7216a25e227a5a93aceee5d6b78bef47d",
+      "canonical_response_bytes": 4790,
+      "response_hash_encoding": "UTF-8 JSON sort_keys=True separators=(comma,colon), ensure_ascii=False; not original HTTP bytes",
+      "rights": "Search metadata: no third-party body publication"
+    },
+    {
+      "call_id": "S03",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778958/",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_utc": "2026-10-11T08:34:52.304Z",
+      "capture_file": "S03.json",
+      "representation": "provider markdown page representation; selected methods/table/caption inspection",
+      "canonical_response_sha256": "db49650f197988fb1e6e604b7187984315d95204955fbb210b98ea891a1dd407",
+      "canonical_response_bytes": 234021,
+      "response_hash_encoding": "UTF-8 JSON sort_keys=True separators=(comma,colon), ensure_ascii=False; not original HTTP bytes",
+      "markdown_sha256": "5b6b1c5cf23a7866a174493d12c3a6190db12babc21062ad28215b1d1cbc67c2",
+      "markdown_bytes": 110618,
+      "provider_metadata": {
+        "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778958/",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778958/",
+        "statusCode": 200,
+        "scrapeId": "01a12a19-a11d-7242-aad7-4293a7a8f9ef",
+        "contentType": "text/html; charset=utf-8",
+        "proxyUsed": "basic"
+      },
+      "rights": "Genetics Society copyright; no blanket open license inferred; only attributed original assessment/derived facts published"
+    },
+    {
+      "call_id": "S04",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://elifesciences.org/articles/38822/figures",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_utc": "2026-10-11T08:34:52.307Z",
+      "capture_file": "S04.json",
+      "representation": "provider markdown page representation; selected methods/table/caption inspection",
+      "canonical_response_sha256": "57b4c3905d5f6dcbd1ae6be95269145a62b685777f8bf59086f2e2dfa6ef3372",
+      "canonical_response_bytes": 82969,
+      "response_hash_encoding": "UTF-8 JSON sort_keys=True separators=(comma,colon), ensure_ascii=False; not original HTTP bytes",
+      "markdown_sha256": "469a82be60239575b96ee723468c6db5cbe047d539ccc77335ed9a978b99aefd",
+      "markdown_bytes": 25586,
+      "provider_metadata": {
+        "sourceURL": "https://elifesciences.org/articles/38822/figures",
+        "url": "https://elifesciences.org/articles/38822/figures",
+        "statusCode": 200,
+        "scrapeId": "01a12a19-b6e7-725e-9b7a-65d9c8b49f3c",
+        "contentType": "text/html; charset=UTF-8",
+        "proxyUsed": "basic"
+      },
+      "rights": "Publisher page declares article Creative Commons Attribution; historical R2 verified CC BY 4.0. Workbook-specific separate license not authenticated; raw binaries excluded."
+    },
+    {
+      "call_id": "S05",
+      "tool": "urllib.request bounded binary GET with inherited proxy/CA TLS verification",
+      "arguments": {
+        "url": "https://cdn.elifesciences.org/articles/38822/elife-38822-fig6-data1-v1.xlsx",
+        "timeout_seconds": 30,
+        "max_bytes": 2097152,
+        "redirect_policy": "same_allowed_host_only"
+      },
+      "started_utc": "2026-10-11T08:36:10.685187+00:00",
+      "completed_utc": "2026-10-11T08:36:11.277932+00:00",
+      "changed_prerequisite": "R28 Firecrawl publisher figures page authenticates exact v1 artifact URL; fresh current spec70 explicitly allows CDN host; R2 unavailable-source state preserved historically.",
+      "capture_file": "S05.json",
+      "representation": "exact publisher binary; local SHA256, not independent biological validation",
+      "source_file": "elife-38822-fig6-data1-v1.xlsx",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://cdn.elifesciences.org/articles/38822/elife-38822-fig6-data1-v1.xlsx",
+      "source_bytes": 63836,
+      "source_sha256": "455113244c1b690436aecd361bc662da136d05b851e3c14a59c5038718c9af0e",
+      "rights": "Publisher page declares article Creative Commons Attribution; historical R2 verified CC BY 4.0. Workbook-specific separate license not authenticated; raw binaries excluded."
+    },
+    {
+      "call_id": "S06",
+      "tool": "urllib.request bounded binary GET with inherited proxy/CA TLS verification",
+      "arguments": {
+        "url": "https://cdn.elifesciences.org/articles/38822/elife-38822-fig9-data1-v1.xlsx",
+        "timeout_seconds": 30,
+        "max_bytes": 2097152,
+        "redirect_policy": "same_allowed_host_only"
+      },
+      "started_utc": "2026-10-11T08:36:11.278250+00:00",
+      "completed_utc": "2026-10-11T08:36:11.511771+00:00",
+      "changed_prerequisite": "R28 Firecrawl publisher figures page authenticates exact v1 artifact URL; fresh current spec70 explicitly allows CDN host; R2 unavailable-source state preserved historically.",
+      "capture_file": "S06.json",
+      "representation": "exact publisher binary; local SHA256, not independent biological validation",
+      "source_file": "elife-38822-fig9-data1-v1.xlsx",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://cdn.elifesciences.org/articles/38822/elife-38822-fig9-data1-v1.xlsx",
+      "source_bytes": 48950,
+      "source_sha256": "703194d0a3136c3c701687106caec43c6e2bda032734b2762acda1f4f27fd68b",
+      "rights": "Publisher page declares article Creative Commons Attribution; historical R2 verified CC BY 4.0. Workbook-specific separate license not authenticated; raw binaries excluded."
+    },
+    {
+      "call_id": "S07",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1893022/",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "captured_utc": "2026-10-11T08:36:50.193Z",
+      "capture_file": "S07.json",
+      "representation": "provider markdown page representation; selected methods/table/caption inspection",
+      "canonical_response_sha256": "cd26eb702e67c6cbd4306a762b72a8913a172804f6b2b5780b8ffb1d5caff482",
+      "canonical_response_bytes": 235487,
+      "response_hash_encoding": "UTF-8 JSON sort_keys=True separators=(comma,colon), ensure_ascii=False; not original HTTP bytes",
+      "markdown_sha256": "e960135fb4e4beb24157b4cf868d955b7d5be0f5f7b672ce1846df59e896313e",
+      "markdown_bytes": 111919,
+      "provider_metadata": {
+        "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1893022/",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1893022/",
+        "statusCode": 200,
+        "scrapeId": "01a12a1b-8554-7643-8d29-80e5fc798921",
+        "contentType": "text/html; charset=utf-8",
+        "proxyUsed": "basic"
+      },
+      "rights": "Genetics Society copyright; no blanket open license inferred; only attributed original assessment/derived facts published"
+    }
+  ],
+  "inherited_dependencies": [
+    {
+      "path": "research/establishment_controls/CONTROL_CONTRACT.json",
+      "bytes": 14384,
+      "sha256": "ca9ed3c47b963e418bca348d843dc46a6b498ef1a18f5e4e5d3c414cc04bb28d",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    },
+    {
+      "path": "research/strain_unit_map/STRAIN_MAP.json",
+      "bytes": 9264,
+      "sha256": "7f3872f00edb3040608aa7054623cf0d81826ede4a333479d9ea41b79ca2cef7",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    },
+    {
+      "path": "research/panel_eligibility/lind_sun/NOTES.md",
+      "bytes": 11015,
+      "sha256": "236e708459595614d87207809a19fb24c0e8cff49e207381cf77460f92d52f45",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    },
+    {
+      "path": "research/panel_eligibility/lind_sun/ACQUISITION_STATUS.json",
+      "bytes": 2751,
+      "sha256": "bfac69e993076c892f3bee60748927ebd218ced342141c92704d0c1c1c88cd03",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574",
+      "role": "inherited public requirement or historical source assessment; not fresh original source replay"
+    }
+  ],
+  "environment_boundary": {
+    "observed_spec_revision": "70",
+    "observations_current": true,
+    "network_state": "enforced",
+    "vpn_configured": false,
+    "binary_hosts": [
+      "cdn.elifesciences.org"
+    ],
+    "tls_verification": true,
+    "inherited_proxy_and_CA_preserved": true,
+    "credentials_used_for_source_requests": false
+  },
+  "raw_source_bodies_published": false,
+  "new_acquisition_families": [
+    "Bantinaki2007/McDonald2009 reused historical WSA-Z collection",
+    "Lind2019 source-data workbooks (same study as R2)"
+  ],
+  "not_new_independent_replications": [
+    "Bantinaki2007 versus McDonald2009 same WSA-Z collection",
+    "Lind2019 versus Sun2023 Aws reuse",
+    "Karita source-family versions"
+  ],
+  "search_scope": "Two complementary query framings, targeted candidates only; no whole-web/systematic/recent-watch claim"
+}

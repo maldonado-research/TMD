@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "round": "R28",
+  "status": "SOURCE_JOIN_AND_CLASSIFIER_ASSESSMENT_COMPLETE_PANEL_PARKED",
+  "matched_panels_admitted": 0,
+  "new_biological_fit": false,
+  "historical_collection_size": 26,
+  "molecular_table_counts": {
+    "Wsp": 16,
+    "Aws": 6,
+    "Mws": 3,
+    "Unresolved": 1
+  },
+  "functional_Wsp_count_if_declared_classifier": 17,
+  "functional_classifier_is_molecular_truth": false,
+  "exact_new_xlsx_bytes": 112786,
+  "study_fields_filled": 0,
+  "planning_fields_filled": 0,
+  "qualified_external_assessment_completed": false,
+  "no_outreach": true,
+  "preserved": [
+    "R5",
+    "R11",
+    "R17",
+    "theta/eta model and complete frozen forecasts",
+    "conventional comparator implementation",
+    "count-law admission",
+    "error allocation",
+    "fixed stopping",
+    "paused Sol runner",
+    "methods0.6.0immutable archive"
+  ],
+  "next_gate": "Named culture/isolate/background crosswalk and independently admitted measurement frame; qualified assessment of source/classifier discrepancies and supply, origin, establishment and phase-specific recovery truth. No further endpoint accumulation by default."
+}

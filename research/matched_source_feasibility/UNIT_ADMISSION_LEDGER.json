@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "round": "R28",
+  "rows": [
+    {
+      "id": "HISTORICAL_COHORT",
+      "source_frame": "Bantinaki2007/McDonald2009",
+      "unit": "one random WS isolate from each reported separate common-ancestor microcosm after five days",
+      "available_evidence": [
+        "26 labelled isolates, common ancestor and separate microcosms by Methods",
+        "25 molecular table assignments; WSX unidentified mutation with Wsp functional dependence",
+        "2007 and2009 share the collection"
+      ],
+      "missing_admission_requirements": [
+        "exported founder/inoculum/batch/plate/eligibility ledger",
+        "locked admissible classifier and handling of WSX/source discrepancies",
+        "complete run categories including no-qualified, Other, unresolved and missing",
+        "independent multi-context frozen supply/comparator vectors and unobserved holdout"
+      ],
+      "decision": "ADMIT_SOURCE_ANNOTATIONS_ONLY; historical descriptive endpoint resource",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "LIND_SPECTRUM",
+      "source_frame": "Lind2019 Fig6 DOI10.7554/eLife.38822.015",
+      "unit": "mutation occurrence row; protocol says one WS isolate per independent culture",
+      "available_evidence": [
+        "exact XLSX105 focal rows in3sheets46/41/18",
+        "nine named molecular columns"
+      ],
+      "missing_admission_requirements": [
+        "culture/isolate/batch IDs",
+        "rare-mutant rows and background allocations",
+        "common background across route measurements",
+        "matched exposure, observation model and recovery controls"
+      ],
+      "decision": "AUTHENTICATED_ARTIFACT; no common-background supply admission",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "LIND_FITNESS",
+      "source_frame": "Lind2019 Fig9 DOI10.7554/eLife.38822.021",
+      "unit": "competition coefficient entry within a genotype row",
+      "available_evidence": [
+        "18 genotype rows73coefficient cells",
+        "two3-value Mws rows",
+        "17rows replicate mean/sampleSD summaries; row21 mismatch preserved"
+      ],
+      "missing_admission_requirements": [
+        "replicate/run identifiers and exclusion mapping",
+        "verified intended row21 summary calculation",
+        "known introduced lineage units and separately measured establishment",
+        "binary stage-specific recovery/classification controls"
+      ],
+      "decision": "DESCRIPTIVE_ARITHMETIC_ONLY; not establishment or recovery probability",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "SUPPLY_EVENTS",
+      "source_frame": "All inspected families kept separate",
+      "unit": "eligible acquisition episode per admitted mutation opportunity",
+      "available_evidence": [
+        "Lind background-specific reporter fluctuation protocol in inherited article audit"
+      ],
+      "missing_admission_requirements": [
+        "route-complete common-background target-context supply",
+        "immediate-ancestor and pre-existing truth",
+        "event-to-descendant ancestry",
+        "invisible-loss/detection limits and model"
+      ],
+      "decision": "NOT_ADMITTED",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "ESTABLISHMENT",
+      "source_frame": "Historical and Lind fitness distinct from Karita ecology",
+      "unit": "independently adjudicated known introduced lineage before terminal recovery",
+      "available_evidence": [
+        "fitness comparisons provide conventional ecological/selection motivation"
+      ],
+      "missing_admission_requirements": [
+        "route-context lineage denominator",
+        "establishment observer independent of final recovery",
+        "resident state,density,timing,medium,marker matching"
+      ],
+      "decision": "NOT_ADMITTED",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "RECOVERY_CLASSIFICATION",
+      "source_frame": "Target context and both phases",
+      "unit": "truth-known eligible lineage at explicit entry stage",
+      "available_evidence": [
+        "molecular named alleles are candidate source annotations"
+      ],
+      "missing_admission_requirements": [
+        "truth-by-call matrix with ambiguous and unrecovered outcomes",
+        "route-by-context-by-phase introduced denominators",
+        "early-loss versus late-stage recovery separation",
+        "control-to-native transfer justification"
+      ],
+      "decision": "NOT_ADMITTED",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "NATIVE_ORIGIN_TRUTH",
+      "source_frame": "Target ancestry and acquisition episode",
+      "unit": "independent positive/negative origin-truth event",
+      "available_evidence": [
+        "selected endpoint genotype is reported for25historical isolates"
+      ],
+      "missing_admission_requirements": [
+        "new-versus-inherited/pre-existing independent truth",
+        "lost/unobserved native lineages",
+        "origin-positive and variant-positive/origin-negative control selection independent of successful assay calls"
+      ],
+      "decision": "NOT_ADMITTED",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    },
+    {
+      "id": "AWSX_COORDINATE",
+      "source_frame": "McDonald2009 Table1 WST versus Karita2026TableS3MPB10583",
+      "unit": "source annotation, not authenticated stock equality",
+      "available_evidence": [
+        "McDonald Table1 WST awsX Δ229–261 with 11-residue deleted peptide",
+        "McDonald Results explicitly reports WST in-frame deletion of 33 nucleotides spanning 229–261",
+        "Karita Δ32bp (229–261) retained from R27; cross-source stock equality unverified"
+      ],
+      "missing_admission_requirements": [
+        "coordinate convention",
+        "sequence/stock identity crosswalk",
+        "selected actual allele authentication"
+      ],
+      "decision": "WST REPORTED LENGTH RESOLVED TO33; cross-source annotation and stock match unresolved; no Karita correction or actual allele selection",
+      "fills_actual_study_field": false,
+      "fills_planning_field": false
+    }
+  ],
+  "complete_matched_panel_admitted": false,
+  "pooling_across_frames_permitted": false,
+  "qualified_external_assessment_completed": false
+}

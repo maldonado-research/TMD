@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "source_replay_scope": "OOXML values and fresh provider markdown representations; no source experimental validation",
+  "lind2019_spectrum": {
+    "sheets": [
+      {
+        "sheet": "Wsp",
+        "row_count": 46,
+        "first_row": 2,
+        "last_row": 47,
+        "gene_counts": {
+          "wspA": 15,
+          "wspC/D": 1,
+          "wspE": 13,
+          "wspF": 12,
+          "wspR": 5
+        },
+        "named_culture_isolate_date_batch_columns": [],
+        "formula_cells": [
+          "J6"
+        ]
+      },
+      {
+        "sheet": "Aws",
+        "row_count": 41,
+        "first_row": 2,
+        "last_row": 42,
+        "gene_counts": {
+          "awsO": 2,
+          "awsR": 14,
+          "awsX": 25
+        },
+        "named_culture_isolate_date_batch_columns": [],
+        "formula_cells": []
+      },
+      {
+        "sheet": "Mws",
+        "row_count": 18,
+        "first_row": 2,
+        "last_row": 19,
+        "gene_counts": {
+          "mwsR": 18
+        },
+        "named_culture_isolate_date_batch_columns": [],
+        "formula_cells": []
+      }
+    ],
+    "total_focal_rows": 105,
+    "rare_rows_exported": 0,
+    "rare_rows_meaning": "No rare-pathway records in this focal-pathway workbook; not zero rare mutations in the study.",
+    "column_headers": [
+      "Genome position",
+      "Type",
+      "Change",
+      "Gene position",
+      "Gene locus",
+      "Gene symbol",
+      "Effect",
+      "Comment",
+      "Proposed molecular effect"
+    ],
+    "archive": {
+      "zip_members": 14,
+      "expanded_bytes": 149450
+    }
+  },
+  "lind2019_fitness": {
+    "rows": [
+      {
+        "row": 3,
+        "gene": "wspF",
+        "mutation_label": "control WspF del T226-G275",
+        "coefficient_cells": [
+          "G3",
+          "H3",
+          "I3",
+          "J3",
+          "K3",
+          "L3",
+          "M3"
+        ],
+        "coefficient_count": 7,
+        "stored_mean": 0.0,
+        "stored_sample_sd": 0.015821896758878417,
+        "recomputed_mean": -4.460717509654647e-18,
+        "recomputed_sample_sd": 0.015821896758878417,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 4,
+        "gene": "wspA",
+        "mutation_label": "WspA A381V",
+        "coefficient_cells": [
+          "G4",
+          "H4",
+          "I4",
+          "J4"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.031157229000951126,
+        "stored_sample_sd": 0.021403767812023553,
+        "recomputed_mean": -0.031157229000951126,
+        "recomputed_sample_sd": 0.02140376781202355,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 5,
+        "gene": "wspA",
+        "mutation_label": "WspA del A281 - A308",
+        "coefficient_cells": [
+          "G5",
+          "H5",
+          "I5",
+          "J5"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.04201343171922132,
+        "stored_sample_sd": 0.013557783785228043,
+        "recomputed_mean": -0.04201343171922132,
+        "recomputed_sample_sd": 0.013557783785228044,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 6,
+        "gene": "wspC/D",
+        "mutation_label": "WspC/D M1-A324 fused to D18-S232",
+        "coefficient_cells": [
+          "G6",
+          "H6",
+          "I6",
+          "J6"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.003024273126459146,
+        "stored_sample_sd": 0.044053311327117525,
+        "recomputed_mean": -0.003024273126459146,
+        "recomputed_sample_sd": 0.044053311327117525,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 7,
+        "gene": "wspE",
+        "mutation_label": "WspE D639A",
+        "coefficient_cells": [
+          "G7",
+          "H7",
+          "I7",
+          "J7"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.005045875699126973,
+        "stored_sample_sd": 0.03165000300891618,
+        "recomputed_mean": -0.005045875699126973,
+        "recomputed_sample_sd": 0.03165000300891618,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 8,
+        "gene": "wspE",
+        "mutation_label": "WspE K734E",
+        "coefficient_cells": [
+          "G8",
+          "H8",
+          "I8",
+          "J8"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": 0.024673255482558682,
+        "stored_sample_sd": 0.01287179804946585,
+        "recomputed_mean": 0.024673255482558682,
+        "recomputed_sample_sd": 0.012871798049465848,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 9,
+        "gene": "wspF",
+        "mutation_label": "WspF P308L",
+        "coefficient_cells": [
+          "G9",
+          "H9",
+          "I9",
+          "J9"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": 0.005745100607048528,
+        "stored_sample_sd": 0.016888709110170357,
+        "recomputed_mean": 0.005745100607048528,
+        "recomputed_sample_sd": 0.016888709110170357,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 10,
+        "gene": "wspF",
+        "mutation_label": "WspF P47L",
+        "coefficient_cells": [
+          "G10",
+          "H10",
+          "I10",
+          "J10"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.015644290247224187,
+        "stored_sample_sd": 0.04073695169437762,
+        "recomputed_mean": -0.015644290247224187,
+        "recomputed_sample_sd": 0.04073695169437761,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 11,
+        "gene": "wspR",
+        "mutation_label": "WspR R143W",
+        "coefficient_cells": [
+          "G11",
+          "H11",
+          "I11",
+          "J11"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.10021297938462237,
+        "stored_sample_sd": 0.03321178215327045,
+        "recomputed_mean": -0.10021297938462236,
+        "recomputed_sample_sd": 0.0332117821532705,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 12,
+        "gene": "wspR",
+        "mutation_label": "WspR del N161-L164",
+        "coefficient_cells": [
+          "G12",
+          "H12",
+          "I12",
+          "J12"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.22174234845209637,
+        "stored_sample_sd": 0.06456313970619684,
+        "recomputed_mean": -0.22174234845209637,
+        "recomputed_sample_sd": 0.06456313970619686,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 14,
+        "gene": "awsO",
+        "mutation_label": "AwsO Q40P",
+        "coefficient_cells": [
+          "G14",
+          "H14",
+          "I14",
+          "J14"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.21116919761578754,
+        "stored_sample_sd": 0.01334060134051115,
+        "recomputed_mean": -0.21116919761578754,
+        "recomputed_sample_sd": 0.01334060134051115,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 15,
+        "gene": "awsR",
+        "mutation_label": "AwsR T27P",
+        "coefficient_cells": [
+          "G15",
+          "H15",
+          "I15",
+          "J15"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.17949474433458923,
+        "stored_sample_sd": 0.021583637997924898,
+        "recomputed_mean": -0.17949474433458923,
+        "recomputed_sample_sd": 0.021583637997925047,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 16,
+        "gene": "awsR",
+        "mutation_label": "AwsR A192V",
+        "coefficient_cells": [
+          "G16",
+          "H16",
+          "I16",
+          "J16"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.21796985157330834,
+        "stored_sample_sd": 0.007053660043046171,
+        "recomputed_mean": -0.21796985157330834,
+        "recomputed_sample_sd": 0.007053660043046171,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 17,
+        "gene": "awsX",
+        "mutation_label": "AwsX del Y77-Q87",
+        "coefficient_cells": [
+          "G17",
+          "H17",
+          "I17",
+          "J17"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.15254697933526234,
+        "stored_sample_sd": 0.017998525182156184,
+        "recomputed_mean": -0.15254697933526234,
+        "recomputed_sample_sd": 0.01799852518215629,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 18,
+        "gene": "awsX",
+        "mutation_label": "AwsX L135R",
+        "coefficient_cells": [
+          "G18",
+          "H18",
+          "I18",
+          "J18"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": -0.1633655482019144,
+        "stored_sample_sd": 0.027893895673864424,
+        "recomputed_mean": -0.1633655482019144,
+        "recomputed_sample_sd": 0.027893895673864456,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 20,
+        "gene": "mwsR",
+        "mutation_label": "MwsR del R1024 - E1026",
+        "coefficient_cells": [
+          "G20",
+          "H20",
+          "I20"
+        ],
+        "coefficient_count": 3,
+        "stored_mean": -0.0016526871981889998,
+        "stored_sample_sd": 0.008867690826606173,
+        "recomputed_mean": -0.0016526871981889975,
+        "recomputed_sample_sd": 0.008867690826606173,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      },
+      {
+        "row": 21,
+        "gene": "mwsR",
+        "mutation_label": "MwsR I844L",
+        "coefficient_cells": [
+          "G21",
+          "H21",
+          "I21"
+        ],
+        "coefficient_count": 3,
+        "stored_mean": -0.08342271304484693,
+        "stored_sample_sd": 0.015151720326583237,
+        "recomputed_mean": -0.1082494198258437,
+        "recomputed_sample_sd": 0.03436548016776037,
+        "mean_matches": false,
+        "sample_sd_matches": false
+      },
+      {
+        "row": 22,
+        "gene": "mwsR",
+        "mutation_label": "MwsR M926I",
+        "coefficient_cells": [
+          "G22",
+          "H22",
+          "I22",
+          "J22"
+        ],
+        "coefficient_count": 4,
+        "stored_mean": 0.03405616611116669,
+        "stored_sample_sd": 0.015732269286697624,
+        "recomputed_mean": 0.03405616611116669,
+        "recomputed_sample_sd": 0.015732269286697628,
+        "mean_matches": true,
+        "sample_sd_matches": true
+      }
+    ],
+    "total_genotype_rows": 18,
+    "total_coefficient_cells": 73,
+    "source_A1_label": "Figure 6 -source data",
+    "formula_cells": [
+      "E3",
+      "D4",
+      "E4",
+      "O4",
+      "D5",
+      "E5",
+      "O5",
+      "D6",
+      "E6",
+      "O6",
+      "D7",
+      "E7",
+      "O7",
+      "D8",
+      "E8",
+      "O8",
+      "D9",
+      "E9",
+      "O9",
+      "D10",
+      "E10",
+      "O10",
+      "D11",
+      "E11",
+      "O11",
+      "D12",
+      "E12",
+      "O12",
+      "D14",
+      "E14",
+      "O14",
+      "D15",
+      "E15",
+      "O15",
+      "D16",
+      "E16",
+      "O16",
+      "D17",
+      "E17",
+      "O17",
+      "D18",
+      "E18",
+      "O18",
+      "E20",
+      "O20",
+      "O21",
+      "D22",
+      "E22",
+      "O22"
+    ],
+    "nonmatching_summary_rows": [
+      21
+    ],
+    "archive": {
+      "zip_members": 17,
+      "expanded_bytes": 82557
+    },
+    "new_fit_performed": false
+  },
+  "historical_cohort": {
+    "rows": [
+      {
+        "isolate_label": "WSA",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSA"
+      },
+      {
+        "isolate_label": "WSB",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSB"
+      },
+      {
+        "isolate_label": "WSC",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSC"
+      },
+      {
+        "isolate_label": "WSD",
+        "reported_gene": "wspE",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSD"
+      },
+      {
+        "isolate_label": "WSE",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSE"
+      },
+      {
+        "isolate_label": "WSF",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSF"
+      },
+      {
+        "isolate_label": "WSG",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSG"
+      },
+      {
+        "isolate_label": "WSH",
+        "reported_gene": "wspE",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSH"
+      },
+      {
+        "isolate_label": "WSI",
+        "reported_gene": "wspE",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSI"
+      },
+      {
+        "isolate_label": "WSJ",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSJ"
+      },
+      {
+        "isolate_label": "WSK",
+        "reported_gene": "awsO",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSK"
+      },
+      {
+        "isolate_label": "WSL",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSL"
+      },
+      {
+        "isolate_label": "WSM",
+        "reported_gene": "awsR",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSM"
+      },
+      {
+        "isolate_label": "WSN",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSN"
+      },
+      {
+        "isolate_label": "WSO",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSO"
+      },
+      {
+        "isolate_label": "WSP",
+        "reported_gene": "awsR",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSP"
+      },
+      {
+        "isolate_label": "WSQ",
+        "reported_gene": "mwsR",
+        "molecular_table_route": "Mws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSQ"
+      },
+      {
+        "isolate_label": "WSR",
+        "reported_gene": "mwsR",
+        "molecular_table_route": "Mws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSR"
+      },
+      {
+        "isolate_label": "WSS",
+        "reported_gene": "awsX",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSS"
+      },
+      {
+        "isolate_label": "WST",
+        "reported_gene": "awsX",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WST"
+      },
+      {
+        "isolate_label": "WSU",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSU"
+      },
+      {
+        "isolate_label": "WSV",
+        "reported_gene": "awsX",
+        "molecular_table_route": "Aws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSV"
+      },
+      {
+        "isolate_label": "WSW",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSW"
+      },
+      {
+        "isolate_label": "WSX",
+        "reported_gene": null,
+        "molecular_table_route": null,
+        "functional_dependency": "Wsp (source discussion; causal mutation unidentified)",
+        "source_locator": "McDonald2009 Table1 / WSX"
+      },
+      {
+        "isolate_label": "WSY",
+        "reported_gene": "wspF",
+        "molecular_table_route": "Wsp",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSY"
+      },
+      {
+        "isolate_label": "WSZ",
+        "reported_gene": "mwsR",
+        "molecular_table_route": "Mws",
+        "functional_dependency": null,
+        "source_locator": "McDonald2009 Table1 / WSZ"
+      }
+    ],
+    "molecular_table_counts": {
+      "Aws": 6,
+      "Mws": 3,
+      "Unresolved": 1,
+      "Wsp": 16
+    },
+    "collection_size": 26,
+    "collection_reused_between_2007_and_2009": true,
+    "WST_reported_awsX_annotation": {
+      "table_coordinates": "Δ229-261",
+      "results_reported_deletion_nucleotides": 33,
+      "results_reported_in_frame": true,
+      "Karita_stock_equality_authenticated": false,
+      "Karita_32bp_annotation_corrected": false,
+      "actual_study_allele_selected": false
+    },
+    "source_reported_independent_microcosms": 26,
+    "selection_rule": "one random WS isolate after five days from each separate common-ancestor microcosm",
+    "complete_eligible_run_outcome_ledger_acquired": false,
+    "first_arrival_records_acquired": false,
+    "actual_study_registry_filled": false
+  }
+}

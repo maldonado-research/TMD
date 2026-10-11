@@ -133,3 +133,7 @@ The [PTATO benchmark decision](benchmark_decision/README.md) resolves 18 logical
 ## R27: reported strains, assay units and discriminating controls
 
 The [strain/unit map](strain_unit_map/REPORT.md) joins source-reported alleles and backgrounds as far as the inspected material permits. Exact mat and reporter workbooks retain dates, plate units and missing joins. The [control contract](establishment_controls/REPORT.md) gives eight measurement requirements for qualified feasibility assessment, with distinct observed-prediction and biological-interpretation gates. No complete matched panel, biological fit or actual study field is admitted. [R27 checkpoint](CONTINUATION_HANDOFF_2026-10-11_R27.md).
+
+## R28: common-ancestor source and practical review packet
+
+The [source assessment](matched_source_feasibility/REPORT.md) authenticates the historical sampling/classifier frame and exact Lind workbook fields, retaining source discrepancies and incomplete joins. The [44-field worksheet](qualified_review_packet/WORKSHEET.md) requests qualified evidence and feasibility decisions through eight ordered gates and unpriced resource items. All actual inputs remain NULL; no complete matched panel is admitted. [R28 checkpoint](CONTINUATION_HANDOFF_2026-10-11_R28.md).

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "DECISION.json",
+    "DERIVED_SOURCE_AUDIT.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json",
+    "UNIT_ADMISSION_LEDGER.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_sources.py"
+  ],
+  "files": [
+    {
+      "path": "DECISION.json",
+      "bytes": 1154,
+      "sha256": "97dc4d52d495b136871899fdd6bc3cf0ef118ccc155b88c66d93b0fe7ab1a184"
+    },
+    {
+      "path": "DERIVED_SOURCE_AUDIT.json",
+      "bytes": 18154,
+      "sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 4497,
+      "sha256": "041c55dc1a907742ab81f83d96d95bec54f81b5d757cb5ba90e60b670f5b7062"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 791,
+      "sha256": "1c2063f7343485c55497e814f8c586ad6f7206b84f096b20d459a3ffa9d11651"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 9919,
+      "sha256": "9ae7c55eec97693890805b8c867cd968dab3a4a2e43fdf1d09b602a815010469"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 12963,
+      "sha256": "e4c102bfa1e9ad495602281ddc448a454b0148f426fdd2c94ca05dde89cf599d"
+    },
+    {
+      "path": "UNIT_ADMISSION_LEDGER.json",
+      "bytes": 6489,
+      "sha256": "3e7112d3f61d37009c99475bbf4dfdf14cbd57d5836137bc7ad3dabd6d75e37f"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 14028,
+      "sha256": "389f9514dbdc9ba3d276aba203f8b3c2c8cdd7178f68b78909cc93d2bb9f0031"
+    }
+  ],
+  "excluded": "Source/provider bodies, raw XLSX, extracted source text, private records, credentials and author workstation metadata",
+  "hash_scope": "All core and review files; PUBLIC_FILES pinned by SHA256SUMS; receipt and sum file excluded from self-cycles."
+}

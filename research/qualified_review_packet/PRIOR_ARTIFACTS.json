@@ -1,0 +1,55 @@
+{
+  "scope": "Preserved immutable scientific input bytes read for this packet; mutable continuation integration files intentionally not pinned here.",
+  "files": [
+    {
+      "path": "research/CONTINUATION_HANDOFF_2026-10-11_R27.md",
+      "bytes": 7635,
+      "sha256": "c8b3d9449651fcda918686fe0fb36866e6c57efa3a432427de794565c41d27a5"
+    },
+    {
+      "path": "research/establishment_controls/REPORT.md",
+      "bytes": 17387,
+      "sha256": "910d2e006157df7bfdc3cb7f893a7e5e05ef03aad706fd4eefa3f26db653c839"
+    },
+    {
+      "path": "research/establishment_controls/CONTROL_CONTRACT.json",
+      "bytes": 14384,
+      "sha256": "ca9ed3c47b963e418bca348d843dc46a6b498ef1a18f5e4e5d3c414cc04bb28d"
+    },
+    {
+      "path": "research/establishment_controls/DECISION.json",
+      "bytes": 1244,
+      "sha256": "d521bf63d62a1f5b8cf412e6448b0673529b8844514650102542fac1fec487e6"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+    },
+    {
+      "path": "research/prospective_design/README.md",
+      "bytes": 17400,
+      "sha256": "675c4e632625719caee03c9c5d1c7ba0a82e3c539764f36892864bf75bbd7184"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+    },
+    {
+      "path": "research/native_origin_controls/EXPERT_DECISION_PACKET.md",
+      "bytes": 2193,
+      "sha256": "11528bec807027a7ccf5f481ff34a2395f1eecaccfb9ec19f34353fdcda2f538"
+    },
+    {
+      "path": "research/native_origin_controls/README.md",
+      "bytes": 4761,
+      "sha256": "2b1edceba5e53b2ec265d794b67919c1dffe86b8f016e9d8e32e4e8fbe42784b"
+    },
+    {
+      "path": "research/pedigree_contract/README.md",
+      "bytes": 7776,
+      "sha256": "5ca5a4d112a770466986c11c47fdd76c1aa890a3741f26bb73787b9137df3189"
+    }
+  ]
+}

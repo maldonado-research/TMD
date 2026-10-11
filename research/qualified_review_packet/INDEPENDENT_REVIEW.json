@@ -1,0 +1,77 @@
+{
+  "review_type": "Independent internal AI source/methods cross-review; not qualified external biological/statistical assessment",
+  "reviewer": "R28 matched-source delegate",
+  "completed_utc": "2026-10-11T08:45:08.362483+00:00",
+  "verdict": "PASS_WITH_LIMITED_SCOPE",
+  "reviewed_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 20383,
+      "sha256": "d91eda4473a0ecebfc06237be67fa4dc998f5e8e9c8de8bbbbae487b10100fe8"
+    },
+    {
+      "path": "REVIEW_WORKSHEET.json",
+      "bytes": 58142,
+      "sha256": "681e09d5b0a8d193ec275503d79bf94090a23c5b82fd8a906c85a528be18e2d5"
+    },
+    {
+      "path": "WORKSHEET.md",
+      "bytes": 29929,
+      "sha256": "ee57e378fa1c048d23673bd18f2b41c228e4ed2764b80b0e52513545fdee7bc4"
+    },
+    {
+      "path": "RESOURCE_FEASIBILITY.json",
+      "bytes": 6529,
+      "sha256": "b2d1316fc6bf77b120162018c8a8508af8f8380f624510d356a7d651fb171c46"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 7732,
+      "sha256": "bf29b9c29e7f3d1a5946efd074d2893bdf5bc6da965bf5ad0df79c27e56fa2cc"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1456,
+      "sha256": "6c4592528d6a60393819850e0ba1e9439944956aa2ca4e501f0ac4f1a4a950c6"
+    },
+    {
+      "path": "verify_packet.py",
+      "bytes": 12465,
+      "sha256": "e8916ee7c3f6aaa41d661f67968f49ce67e81b98fb1e739b873ed61cf6adacca"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 612,
+      "sha256": "b791fba42e0de270ddc0f9d6fc206729175c0944fec6e20fea3423046c28db16"
+    }
+  ],
+  "independent_checks": [
+    "Read all 44 reviewer questions/refusal conditions; independently compared exact field-set coverage with 26 study and 18 native registries and confirmed all actual response slots remain NULL.",
+    "Read report, resource worksheet, decisions and verifier; observed-prediction and biological-origin dependencies remain distinct without removing required operational inputs.",
+    "Independently inspected selected acquired primary lines 174,188,192,198,210,212,214,256,272,276,282,286,294,298 and Figure 3 caption 208; invisible MMR detection, time undersampling, mother-only retention, separate bulk MA/WGS and historicalWT comparison limitations support report.",
+    "Independently checked 13 stored primary anchor SHA256 values against local provider representation.",
+    "Ran source-cache verifier:PASS, 2674 checks, 8 negative fixtures rejected. Assertion counts are software checks, not independent biological evidence.",
+    "Confirmed no raw 87.5 MB ZIP, sequence/movie data or unacquired supplements claimed as replayed; source representation fingerprints distinguished from original PDF/raw experiment."
+  ],
+  "resolved_review_findings": [
+    {
+      "finding": "Exact acquisition argument objects and timestamp semantics were absent from initial public provenance.",
+      "resolution": "Added acquisition_records with exact tool arguments and capture-file times; unknown actual request times remain NULL and are labelled explicitly."
+    },
+    {
+      "finding": "Narrative counted seven states after listing six.",
+      "resolution": "Numeral removed; potential state descriptions preserved."
+    },
+    {
+      "finding": "Figure 3 WT MA/WGS comparison reuses Lee 2012 data.",
+      "resolution": "Added narrow source-reuse caveat without claiming fresh inspection of Lee 2012."
+    }
+  ],
+  "remaining_limitations": [
+    "Qualified expertise, actual data/stock access, observer reference truth, error bounds and resource quantities are unselected; all scientific admission gates remain NOT_ADMITTED.",
+    "Verifier is a preservation checker for this unfilled checkpoint, not a validator that may approve future completed scientific designs.",
+    "A primary paper provides a methods precedent only; no transfer to SBW25 or W/A/M and no source experimental reanalysis were performed."
+  ],
+  "new_source_acquisitions_by_review": 0,
+  "qualified_external_assessment": false
+}

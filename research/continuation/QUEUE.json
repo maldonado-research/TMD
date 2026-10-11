@@ -337,13 +337,27 @@
     {
       "id": "R000028",
       "priority": 28,
-      "status": "pending",
+      "status": "completed",
       "question": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned.",
       "deliverable": "Named artifact/join or independent source/control-feasibility decision that can change admission, plus qualified assessment questions; otherwise park without more endpoint collection.",
       "falsifier_or_boundary": "Published allele labels, reporter counts, whole-well aggregates and a conditional log identity do not establish actual selected stocks, independent lineage trials, mutation birth or complete frozen observed forecasts.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "blocked_until_scoped_measurement_and_count_law_admission",
-      "report": "../establishment_controls/REPORT.md"
+      "scientific_inference_status": "no_matched_panel_admitted_qualified_review_prepared",
+      "report": "../CONTINUATION_HANDOFF_2026-10-11_R28.md",
+      "completion_scope": "common_ancestor_source_classifier_exact_workbooks_and_practical_review_preparation",
+      "result": "Reported26microcosm source frame; molecular16/6/3+1unknown; two exactLindworkbooks and row 21 discrepancy;44-field practical worksheet, eight gates and six unpriced resource items.",
+      "remaining_prerequisites": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    },
+    {
+      "id": "R000029",
+      "priority": 29,
+      "status": "pending",
+      "question": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+      "deliverable": "Claim-specific qualified feasibility decision or named authoritative source crosswalk/aggregation reconciliation capable of changing admission; otherwise park without more endpoints.",
+      "falsifier_or_boundary": "Historical sampled WS, functionally inferred route membership, competition summaries and observer foci do not establish molecular native origins, untouched evaluation, independently calibrated predictors or selected actual study inputs.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "blocked_until_independent_units_predictors_truth_and_feasibility_admitted",
+      "report": "../qualified_review_packet/REPORT.md"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": 2680,
+  "negative_fixtures_rejected": [
+    "missing_registry_field",
+    "source_ID_cannot_fill_actual_value",
+    "missing_explicit_evidence_slot",
+    "unresolved_category_cannot_be_dropped",
+    "cyclic_admission_dependencies",
+    "prediction_cannot_bypass_origin_gates",
+    "origin_not_automatic_observed_prediction_requirement",
+    "unreviewed_establishment_admission"
+  ],
+  "study_NULLs": 26,
+  "native_planning_NULLs": 18,
+  "worksheet_rows": 44,
+  "gates": 8,
+  "resource_items": 6,
+  "source_replay": "PASS: exact stored provider responses, derived representation and 13 anchors; no raw experiment/PDF replay",
+  "scientific_admission": false,
+  "qualified_external_review": false,
+  "scope": "Read-only checkpoint consistency, preservation and optional source identity; not a future filled-worksheet admission validator."
+}

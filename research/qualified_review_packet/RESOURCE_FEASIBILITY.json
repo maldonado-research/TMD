@@ -1,0 +1,140 @@
+{
+  "status": "UNPRICED_UNCOMMISSIONED",
+  "priority_order": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "branch_note": "F4 and F5 concern additional biological interpretation; F1-F3 can resolve feasibility of the observed-prediction inputs first. F6 follows admitted definitions and must not turn these options into selected sample sizes.",
+  "items": [
+    {
+      "id": "F1",
+      "gates": [
+        "G0",
+        "O1"
+      ],
+      "feasibility_task": "Source joins and eligibility desk assessment",
+      "required_material_or_access": "Stock/reference access; original culture/well/image/plate/dilution map; molecular registry; outcome-access log.",
+      "suggested_expertise": "Data steward, microbial geneticist and statistician.",
+      "decision_changed_by_smallest_deliverable": "Join completeness and eligibility of independent units can be decided without more endpoint acquisition.",
+      "refusal_condition": "Unavailable joins or known source outcomes may restrict source to training/design.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    },
+    {
+      "id": "F2",
+      "gates": [
+        "O1",
+        "O2"
+      ],
+      "feasibility_task": "Establishment-observer feasibility",
+      "required_material_or_access": "Known-introduction identity and earlier fate channel; matched resident/scaffold state; independent blinded reference, positive and negative events.",
+      "suggested_expertise": "Imaging scientist, microbial ecologist and statistician.",
+      "decision_changed_by_smallest_deliverable": "Can an earlier event be observed with usable error/unknown bounds independently of terminal recovery?",
+      "refusal_condition": "Observer and terminal readout share the same invisible-loss mechanism; no independent truth or bound.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    },
+    {
+      "id": "F3",
+      "gates": [
+        "O2"
+      ],
+      "feasibility_task": "Stage-specific recovery feasibility",
+      "required_material_or_access": "Traceable input at named entry stage; route/context/phase challenge frame; wrong/ambiguous/unrecovered outputs and technical-parent map.",
+      "suggested_expertise": "Assay scientist and statistician.",
+      "decision_changed_by_smallest_deliverable": "Which exact downstream stages are calibrated and can routewise predictors be formed?",
+      "refusal_condition": "Entry totals are uncertain or a late control is used to calibrate earlier stages.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    },
+    {
+      "id": "F4",
+      "gates": [
+        "B1",
+        "B2"
+      ],
+      "feasibility_task": "Native-origin truth feasibility",
+      "required_material_or_access": "Independent parental/child molecular truth, event/reference carriers and event-type catalogue; imaging/collection loss ledger.",
+      "suggested_expertise": "Molecular geneticist, lineage-methods specialist and bioinformatician.",
+      "decision_changed_by_smallest_deliverable": "Are origin-positive and inherited origin-negative references available before undertaking a large sequencing/calling programme?",
+      "refusal_condition": "Only aggregate mutation-rate agreement, retrospective survival-selected genomes or reporter state exists.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    },
+    {
+      "id": "F5",
+      "gates": [
+        "B3"
+      ],
+      "feasibility_task": "Transport and ecological matching feasibility",
+      "required_material_or_access": "Route/allele/state key from R27; target/source context and marker comparison; independent mismatch evidence.",
+      "suggested_expertise": "Microbial ecologist and statistician.",
+      "decision_changed_by_smallest_deliverable": "Which bounds are scientifically defensible, and which biological claims must remain unavailable?",
+      "refusal_condition": "Unmeasured density, timing, medium or background mismatch is declared negligible.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    },
+    {
+      "id": "F6",
+      "gates": [
+        "O3",
+        "O4"
+      ],
+      "feasibility_task": "Blinded design and resource assessment",
+      "required_material_or_access": "Admitted predictor definitions, independent-unit law, plausible nuisance ranges, inaccessible endpoint allocation and full comparator requirements.",
+      "suggested_expertise": "Statistician, numerical reviewer and operations owner.",
+      "decision_changed_by_smallest_deliverable": "Can precision, costs, storage, instrument time and fixed collection be jointly justified before freezing?",
+      "refusal_condition": "Power assumes oracle truth or sample count is fixed before measuring ascertainment/dependence.",
+      "capacity_available": null,
+      "quantity_of_independent_units": null,
+      "instrument_or_assay_hours": null,
+      "storage_requirement": null,
+      "cost_and_currency": null,
+      "lead_time": null,
+      "access_or_license_evidence": null,
+      "assigned_partner": null,
+      "qualified_feasibility_decision": null
+    }
+  ],
+  "no_protocol_selected": true,
+  "no_outreach_or_quotation_requested": true
+}
