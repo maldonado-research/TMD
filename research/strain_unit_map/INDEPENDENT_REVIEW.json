@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-11T08:03:20.103313+00:00",
+  "reviewer": "Independent internal AI-assisted R27 controls delegate under Ricardo Maldonado direction",
+  "status": "PASS_NO_OUTSTANDING_SCIENTIFIC_BLOCKERS_WITHIN_DECLARED_SCOPE",
+  "external_peer_review": false,
+  "reviewed_core": [
+    {
+      "path": "REPORT.md",
+      "bytes": 10440,
+      "sha256": "2e875d7a17b828835c621e3f5086cac32b529ae6114e852418efe01421c657e3"
+    },
+    {
+      "path": "STRAIN_MAP.json",
+      "bytes": 9264,
+      "sha256": "7f3872f00edb3040608aa7054623cf0d81826ede4a333479d9ea41b79ca2cef7"
+    },
+    {
+      "path": "UNIT_JOIN_MATRIX.json",
+      "bytes": 6772,
+      "sha256": "e218216e409fa0beac45daeb7d876be8a238ac16818b3aefba24bce5fa4de57a"
+    },
+    {
+      "path": "WORKBOOK_UNIT_AUDIT.json",
+      "bytes": 7819,
+      "sha256": "ae998011626f16cd8b190985ca9daa3417d7039198bc9b190fa136ffcd2b9015"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 11670,
+      "sha256": "b247de32a88e03333a7712c7d06d61db10aedcb293d7f899dc6e057cb740374d"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 11895,
+      "sha256": "b7e994f7fc7d98ad7fb375f190dc2199e56fbb6917f06d1d93e1b2110d987050"
+    }
+  ],
+  "scope": [
+    "Read report, 14-row source-derived strain registry, seven experimental joins and workbook unit audit.",
+    "Inspected selected fresh article/supplement passages and official supplement item/license metadata.",
+    "Independently extracted ZIP/XML literal cells without importing producer code and compared all category/date totals.",
+    "Ran complete producer source replay against seven source captures and two exact workbook binaries.",
+    "Inspected source distinction between primary-derived strain annotations, exact workbooks, parsed PDF representation and unacquired exact PDF."
+  ],
+  "independent_arithmetic": {
+    "status": "PASS",
+    "method": "Independent ZIP/XML literal-cell summation; source table row IDs read without producer imports",
+    "reporter_category_totals": {
+      "SM dark": 200,
+      "SM red": 10,
+      "WS dark": 810,
+      "WS red": 2356
+    },
+    "paired_plate_totals": [
+      1067,
+      1186,
+      1123
+    ],
+    "pellicle_pairs": 11,
+    "recorded_outcomes": 45,
+    "retained_minus3_5_date_strata": [
+      {
+        "date": "2024-06-19",
+        "success": 0,
+        "total": 3
+      },
+      {
+        "date": "2024-06-16",
+        "success": 1,
+        "total": 3
+      },
+      {
+        "date": "2024-06-26",
+        "success": 9,
+        "total": 9
+      }
+    ],
+    "source_strain_row_count": 14,
+    "limitations": "No sampling weights, biological independence, molecular truth or original PDF validation."
+  },
+  "scientific_findings": [
+    "All14TableS3 internal strain IDs match the captured table; Wsp/Aws/Mws alleles retain literal source descriptions.",
+    "The awsX32bp versus33inclusive positions ambiguity is preserved without correction.",
+    "LB/ΔpvdS imaging context, constitutive tags and plasmid reporter are not silently merged with default KB assay contexts.",
+    "Figure6 founder internal IDs, reporter/colour-to-molecular routes, older Darkwheel and plate suffix meanings remain unresolved.",
+    "Known well-level successes, sampled colonies and repeated images are not relabelled independent mutation/establishment/recovery trials.",
+    "Reported reporter discordance is not sensitivity/specificity versus independent molecular truth.",
+    "Model mutation parameters remain reused/assumed, not new route-resolved supply.",
+    "All26actual and18native fields remainNULL; no new forecast, count law, error allocation, stopping, biological fit or external review is claimed."
+  ],
+  "issue_resolved": [
+    {
+      "issue": "Assertion-based verifier could silently skip checks under Python optimization.",
+      "resolution": "Producer added explicit sys.flags.optimize rejection before verification.",
+      "verification": "python -B -O verify_sources.py --source-cache ... rejected with exit1 and explicit ordinary-Python requirement."
+    }
+  ],
+  "limitations": [
+    "Hash/anchor checks authenticate declared representations and literal arithmetic, not laboratory truth.",
+    "Exact PDF binary was not acquired; only catalogue identity and provider text representation are admitted.",
+    "No complete matched control panel, independent origin census or causal conclusion is admitted."
+  ]
+}

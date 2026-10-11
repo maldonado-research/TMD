@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R26, 8 October 2026
+## Latest research checkpoint — R27, 11 October 2026
+
+The [strain and measurement map](research/strain_unit_map/REPORT.md) records reported Wsp/Aws/Mws alleles and stock IDs, explicit microscopy background/medium differences, and unresolved experimental-unit joins. Two further exact licensed workbooks expose date-block mat aggregates and 3,376 sampled-colony entries across six reporter plate labels; these are not mutation births or independent lineage trials.
+
+The [eight-component control assessment](research/establishment_controls/REPORT.md) separates independent supply, establishment before recovery, observation/classification and native-origin truth. It makes conventional ecological explanations testable on the same complete observed outcome vector. No complete matched panel or biological fit is admitted. Read the [R27 checkpoint](research/CONTINUATION_HANDOFF_2026-10-11_R27.md).
+
+All 26 actual study inputs and 18 native planning fields remain unresolved. Frozen forecasts, eta, error allocation, stopping and paused automation are unchanged. Methods 0.6.0 remains separate; no new Zenodo version is generated.
+
+## Prior R26 checkpoint — 8 October 2026
 
 The [input/truth decision](research/benchmark_decision/README.md) parks numerical PTATO accuracy and origin benchmarking. Its 18-object scoped ledger has more than 1.64 GB of known source-file sizes plus unresolved inputs; unchanged whole-script execution needs at least 34 dataset objects. Independent evaluation truth remains unestablished. Reproducing source categories is a separate task with a narrower claim.
 

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "round": "R27",
+  "status": "SOURCE_GROUNDED_DESIGN_CONTRACT_NOT_REGISTERED",
+  "components": [
+    {
+      "id": "C1_BACKGROUND_REGISTRY",
+      "question": "Are genotype, ancestry, route and experimental units authenticated before phenotype scoring?",
+      "unit": "documented stock, independent founder/run and eligible allele",
+      "denominator": "all eligible founder/run records, including excluded and unresolved records",
+      "required_fields": [
+        "stock_accession",
+        "parent_genotype",
+        "allele_definition",
+        "route_registry_version",
+        "compound_other_ambiguous_rule",
+        "marker_plasmid_background",
+        "founder_run_batch_cluster_map",
+        "independent_genotype_method"
+      ],
+      "available_evidence": [
+        "R26 genotype-labelled sheets",
+        "R27 supplement Table S3 strain and marker records"
+      ],
+      "not_supplied": [
+        "selected actual study stock",
+        "complete experiment-to-stock joins",
+        "independent starting-variant truth"
+      ],
+      "failure_rule": "Do not infer genotype or origin from morphology, reporter state or colour; preserve unknown mappings.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C2_SUPPLY",
+      "question": "How many eligible acquisition episodes arise per admitted opportunity exposure in this context?",
+      "unit": "independently adjudicated acquisition episode with ancestry and exposure",
+      "denominator": "admitted divisions/opportunities under an explicit assay and sampling model",
+      "required_fields": [
+        "event_episode_id",
+        "immediate_ancestor_truth",
+        "route_allele",
+        "context_and_exposure",
+        "preexisting_truth",
+        "sample_inclusion",
+        "lost_unobserved_limits",
+        "validated_count_likelihood"
+      ],
+      "available_evidence": [
+        "R26 reported historical combined WS rate only",
+        "R27 Table S2 conventional model provenance"
+      ],
+      "not_supplied": [
+        "route-resolved independent target-context supply",
+        "complete event/division exposure",
+        "native birth census"
+      ],
+      "failure_rule": "No selected winner/CFU/descendant frequency as mutation supply; no binomial jackpot counts without a justified law.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C3_ESTABLISHMENT",
+      "question": "Does a known eligible lineage reach a predefined establishment state before terminal recovery?",
+      "unit": "one known introduced lineage trial in a declared independent run, or an explicitly modelled cluster",
+      "denominator": "independently verified introduced lineage trials, with failed introductions separately adjudicated",
+      "required_fields": [
+        "introduction_id_and_identity",
+        "actual_introduced_lineage_total",
+        "establishment_event_definition",
+        "fixed_establishment_stage_time",
+        "independent_establishment_observer",
+        "observer_calibration_or_bounds",
+        "established_lost_unobserved_outcome",
+        "cluster_id"
+      ],
+      "available_evidence": [
+        "R26 introduced SM/WS observations and well-level rescue comparison"
+      ],
+      "not_supplied": [
+        "matched W/A/M known-lineage binary denominators",
+        "independent establishment observer error",
+        "native-control transport bounds"
+      ],
+      "failure_rule": "Final colony recovery cannot simultaneously define establishment and calibrate recovery; unknown fate remains unknown.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C4_ECOLOGICAL_CONTEXT",
+      "question": "Does measured establishment depend on resident state, density or introduction timing under a defensible comparison?",
+      "unit": "allocated independent run/block and its measured ecological state",
+      "denominator": "all allocated runs in each declared block/context, with exclusions and interference recorded",
+      "required_fields": [
+        "resident_stock_and_genotype",
+        "resident_state_and_density",
+        "focal_density_and_lineage_multiplicity",
+        "introduction_relative_time",
+        "resident_development_state",
+        "medium",
+        "spatial_mixing_state",
+        "pvdS_status",
+        "marker_and_plasmid_state",
+        "blocked_allocation",
+        "interference_model"
+      ],
+      "available_evidence": [
+        "Karita primary ecological observations",
+        "R27 supplementary Methods: LB and ΔpvdS for selected imaging",
+        "R27 Table S3 integrated tags versus plasmid reporter",
+        "R26 genotype dates and source surface units"
+      ],
+      "not_supplied": [
+        "actual factor levels or experimental allocation",
+        "matched control grid across all routes",
+        "isolated causal mediator effect"
+      ],
+      "failure_rule": "Do not pool different medium/background/date/protocol strata or regard deletion probes as exclusive interventions on one mediator.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C5_RECOVERY_CLASSIFICATION",
+      "question": "What does the assay recover and call, conditional on known truth entering a named stage?",
+      "unit": "known route/allele truth challenge at a declared assay stage, respecting its cluster",
+      "denominator": "all independently verified challenges introduced at that stage in each route × context × phase",
+      "required_fields": [
+        "truth_route_allele",
+        "truth_observer_independence",
+        "entry_stage",
+        "phase_baseline_or_selected",
+        "physiological_spatial_state",
+        "known_input_total",
+        "called_route_or_other_ambiguous_unrecovered",
+        "technical_aliquot_parent",
+        "blinding",
+        "stage_specific_transport_bounds"
+      ],
+      "available_evidence": [
+        "R26 molecular-versus-phenotype limitation",
+        "R27 supplementary reporter/marker definitions"
+      ],
+      "not_supplied": [
+        "phase-specific absolute correct-recovery controls",
+        "full misclassification matrix",
+        "calibrated pre-entry loss"
+      ],
+      "failure_rule": "A late spike-in covers only later steps; scalar correct recovery cannot identify off-diagonal errors or native origin inclusion.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C6_ORIGIN_TRUTH",
+      "question": "Are newly acquired, inherited/pre-existing and absent variants independently distinguished?",
+      "unit": "truth-labelled acquisition episode or origin-negative variant in its parental lineage",
+      "denominator": "complete predefined truth challenge frame, not only successful assay calls",
+      "required_fields": [
+        "independent_origin_truth_source",
+        "parent_child_link",
+        "preexisting_or_inherited_variant_truth",
+        "newly_acquired_positive_truth",
+        "absent_variant_negative_truth",
+        "acquisition_transfer_recurrence_rule",
+        "missing_truth_status",
+        "lost_lineage_coverage"
+      ],
+      "available_evidence": [
+        "Existing R21 native origin control distinction",
+        "R26 observed collapse as a loss mechanism"
+      ],
+      "not_supplied": [
+        "native route-specific positive/negative origin truth",
+        "complete invisible loss census"
+      ],
+      "failure_rule": "A true variant can be origin-negative; absent variants address different false positives; unknown or destroyed lineages are not certified origin-negative.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C7_CONVENTIONAL_FORECAST",
+      "question": "Do independently measured conventional mechanisms predict the same observed target vector?",
+      "unit": "one complete frozen target-context probability vector per candidate model",
+      "denominator": "same declared held-out observed conditional W/A/M frame and context weights",
+      "required_fields": [
+        "independent_supply_inputs",
+        "independent_establishment_ecology_inputs",
+        "demographic_competition_model",
+        "observation_classification_model",
+        "route_aggregation_rule",
+        "target_context_transport",
+        "complete_positive_WAM_vector",
+        "Other_no_outcome_unresolved_missing_ledger",
+        "training_ids",
+        "freeze_hash_and_time"
+      ],
+      "available_evidence": [
+        "Existing prospective comparator candidate",
+        "Karita four-state ecological mechanism family"
+      ],
+      "not_supplied": [
+        "complete independently parameterized target W/A/M vector",
+        "full competition and observation mapping"
+      ],
+      "failure_rule": "A scalar curvature, historical combined rate or SM/WS model cannot replace the vector; q×F factorization needs admission and cannot be assumed for general races.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    },
+    {
+      "id": "C8_HELDOUT_DECISION",
+      "question": "Does a frozen forecast improve or fail under admitted outcomes and existing decision rules?",
+      "unit": "independent endpoint run with one predefined outcome, or another separately justified count law",
+      "denominator": "every eligible held-out run, preserved in declared founder/batch clusters",
+      "required_fields": [
+        "frozen_TMD_eta_and_theta_rule",
+        "all_frozen_comparator_vectors",
+        "independent_calibration_training_split",
+        "endpoint_adjudication",
+        "context_weights",
+        "count_law_admission",
+        "uncertainty_and_error_budget",
+        "fixed_stopping",
+        "meaningful_effect_gates"
+      ],
+      "available_evidence": [
+        "Existing R3 prospective contract and later certified-score methods"
+      ],
+      "not_supplied": [
+        "actual selected study values",
+        "qualified external assessment",
+        "registered independent held-out experiment"
+      ],
+      "failure_rule": "No post-outcome fitting, cherry-picked contexts, refreshed alpha, pooled descendants or inference from non-rejection.",
+      "admission": "NOT_ADMITTED_REQUIRE_QUALIFIED_ASSESSMENT",
+      "actual_protocol_selected": false
+    }
+  ],
+  "transport_key": [
+    "allele_route",
+    "ancestral_stock_background",
+    "resident_genotype_state_density",
+    "focal_density_and_lineage_multiplicity",
+    "introduction_or_emergence_relative_time",
+    "medium",
+    "spatial_mixing_oxygen_state",
+    "pvdS_status",
+    "integrated_marker_and_plasmid_state",
+    "assay_stage_and_method",
+    "baseline_selected_phase",
+    "biological_batch"
+  ],
+  "minimal_lineage_control_record": [
+    "source_artifact_version",
+    "control_run_id",
+    "founder_id",
+    "cluster_id",
+    "batch_id",
+    "context_id",
+    "truth_route_allele",
+    "truth_source",
+    "entry_stage",
+    "verified_introduced_lineage_total",
+    "introduction_time",
+    "establishment_event_and_observer",
+    "establishment_outcome_or_unknown",
+    "recovery_called_category_or_unrecovered",
+    "origin_truth_or_unknown",
+    "censoring_exclusion_reason"
+  ],
+  "estimand_separation": {
+    "primary_unchanged": "declared-weight expected log-score gain per observed qualifying W/A/M endpoint",
+    "biological_origin_target": "separate blocked interpretation requiring independent acquisition truth and loss/transport controls",
+    "all_category_forecast": "would require a separately admitted and frozen complete observation model; no primary-score change here",
+    "full_vector_requirement": "Every conventional candidate must supply the same entire conditional W/A/M vector; J or K alone is insufficient."
+  },
+  "preserved_model": {
+    "axis_s": [
+      1,
+      0,
+      -1
+    ],
+    "route_order": [
+      "W",
+      "A",
+      "M"
+    ],
+    "one_positive_triad": "saturated",
+    "shared_theta_across_C_contexts": "C-1 restrictions under the existing assumptions",
+    "eta_for_full_forecast": "must be frozen independently before target outcomes",
+    "curvature_compatibility": "overlap is not support",
+    "conditional_factor_identity": "Only under admitted positive q×F×r route-weight factorization; no transfer from expected mass to run winner or birth probability."
+  },
+  "mandatory_categories": [
+    "W",
+    "A",
+    "M",
+    "Other",
+    "no_qualified_outcome",
+    "unresolved_classification",
+    "missing"
+  ],
+  "stage_rules": {
+    "establishment_not_final_recovery": true,
+    "known_control_inputs_not_native_birth_census": true,
+    "late_spike_in_not_earlier_loss_calibration": true,
+    "independent_reference_errors_must_be_bounded": true,
+    "multiple_lineages_in_one_well_require_joint_or_cluster_law": true,
+    "endpoint_reporter_not_molecular_truth": true,
+    "correct_recovery_not_full_confusion_matrix": true
+  },
+  "next_decision_order": [
+    "Authenticate allele, marker, medium and experimental-unit joins.",
+    "Assess feasibility of independent episode truth and before-recovery establishment ascertainment.",
+    "Identify costed missing measurements only if they can change a specific admission gate.",
+    "Have qualified biological/statistical reviewers assess the complete proposed protocol and control transport.",
+    "Resolve the existing registries and freeze design/forecasts/uncertainty/stopping before independent held-out endpoints."
+  ],
+  "actual_study_inputs_resolved": 0,
+  "native_planning_inputs_resolved": 0,
+  "actual_study_inputs_remaining_NULL": 26,
+  "native_planning_inputs_remaining_NULL": 18,
+  "preserved_blockers": [
+    "R5",
+    "R11",
+    "R17"
+  ],
+  "forecast_eta_count_law_error_stopping_changed": false,
+  "actual_laboratory_protocol_selected": false,
+  "actual_partner_selected": false,
+  "new_axis_selected": false,
+  "new_biological_observations": 0,
+  "admitted_matched_panels": 0,
+  "qualified_external_review_completed": false,
+  "license": "Original documentation and attributed derived assessment CC BY 4.0; third-party source rights unchanged."
+}

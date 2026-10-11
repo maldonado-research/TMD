@@ -1,0 +1,27 @@
+{
+  "round": "R000027",
+  "scientific_acquisition_calls": 8,
+  "serialized_response_capture_bytes": 576769,
+  "exact_XLSX_bytes": 18289,
+  "counted_saved_source_bytes": 595058,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "root_new_scientific_acquisitions": 0,
+  "strain_map_calls": 7,
+  "control_watch_calls": 1,
+  "shared_acquisitions_counted_once": true,
+  "source_ledgers": [
+    "../strain_unit_map/SOURCES.json",
+    "../establishment_controls/SOURCE_PROVENANCE.json"
+  ],
+  "unavailable_accounting": [
+    "provider_internal_request_totals",
+    "wire_transport_bytes"
+  ],
+  "raw_source_bodies_and_XLSX_published": false,
+  "R26_tmp_source_cache_available": false,
+  "fresh_R26_workbook_replay": false,
+  "new_substantive_local_archive_scan": false,
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

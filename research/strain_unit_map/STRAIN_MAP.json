@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "source": "Karita et al. supplementary Table S3",
+  "source_item_doi": "10.6084/m9.figshare.30997061.v1",
+  "source_license": "CC BY 4.0",
+  "evidence_level": "Published strain table, read from full 10-page provider PDF text representation; original PDF bytes not acquired; no independent genome validation.",
+  "strain_count": 14,
+  "strains": [
+    {
+      "registry_label": "SM",
+      "internal_id": "MPB13805",
+      "source_alias": "PBR341",
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "MPB13805 (PBR341)"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_wspF",
+      "internal_id": "MPB08384",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Wsp",
+      "source_reported_genetic_changes": [
+        "wspF (PFLU1224) Δ150bp (677-826)"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "wspF (PFLU1224) Δ150bp (677-826)."
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_awsX",
+      "internal_id": "MPB10583",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Aws",
+      "source_reported_genetic_changes": [
+        "awsX (PFLU5211) Δ32bp (229-261)"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "awsX (PFLU5211) Δ32bp (229-261)."
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_mwsR",
+      "internal_id": "MPB10613",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Mws",
+      "source_reported_genetic_changes": [
+        "mwsR (PFLU5329) T2183C"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "mwsR (PFLU5329) T2183C."
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_wspF_DfliA",
+      "internal_id": "MPB36210",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Wsp",
+      "source_reported_genetic_changes": [
+        "wspF (PFLU1224) Δ150bp (677-826)",
+        "ΔfliA (PFLU4417)"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "MPB36210",
+        "ΔfliA (PFLU4417)."
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_DfliA",
+      "internal_id": "MPB14427",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [
+        "ΔfliA (PFLU4417)"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "MPB14427",
+        "SM-ΔfliA"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_Dwss",
+      "internal_id": "MPB14424",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [
+        "Δwss (PFLU0300-0309)"
+      ],
+      "reporter_or_marker": [],
+      "representation_tokens": [
+        "MPB14424",
+        "Δwss (PFLU0300-0309)."
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_wspF_mScarlet",
+      "internal_id": "MPB16290",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Wsp",
+      "source_reported_genetic_changes": [
+        "wspF (PFLU1224) Δ150bp (677-826)"
+      ],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-mScarlet-I-Gm"
+      ],
+      "representation_tokens": [
+        "MPB16290",
+        "WS(wspF)-mScarlet"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_wspF_DpvdS_sGFP2",
+      "internal_id": "MPB23958",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Wsp",
+      "source_reported_genetic_changes": [
+        "wspF (PFLU1224) Δ150bp (677-826)",
+        "ΔpvdS (PFLU4389)"
+      ],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-sGFP2-Kan"
+      ],
+      "representation_tokens": [
+        "MPB23958",
+        "WS(wspF)-ΔpvdS-sGFP2"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "WS_wspF_DpvdS_mScarlet",
+      "internal_id": "MPB23959",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": "Wsp",
+      "source_reported_genetic_changes": [
+        "wspF (PFLU1224) Δ150bp (677-826)",
+        "ΔpvdS (PFLU4389)"
+      ],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-mScarlet-I-Gm"
+      ],
+      "representation_tokens": [
+        "MPB23959",
+        "WS(wspF)-ΔpvdS-mScarlet"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_mScarlet",
+      "internal_id": "MPB15845",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-mScarlet-I-Gm"
+      ],
+      "representation_tokens": [
+        "MPB15845",
+        "SM-mScarlet"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_DpvdS_sGFP2",
+      "internal_id": "MPB26812",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [
+        "ΔpvdS (PFLU4389)"
+      ],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-sGFP2-Kan"
+      ],
+      "representation_tokens": [
+        "MPB26812",
+        "SM-ΔpvdS-sGFP2"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_DpvdS_mScarlet",
+      "internal_id": "MPB26813",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [
+        "ΔpvdS (PFLU4389)"
+      ],
+      "reporter_or_marker": [
+        "attTn7::Tn7-PnptII-mScarlet-I-Gm"
+      ],
+      "representation_tokens": [
+        "MPB26813",
+        "SM-ΔpvdS-mScarlet"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    },
+    {
+      "registry_label": "SM_pCdrA_mScarlet",
+      "internal_id": "MPB38082",
+      "source_alias": null,
+      "source_background": "Pseudomonas fluorescens SBW25",
+      "focal_route_label": null,
+      "source_reported_genetic_changes": [],
+      "reporter_or_marker": [
+        "plasmid cdrA-RBSII-mScarlet-T0-T1; pRO1600; oriV; GmR; AmR; modified Addgene111614"
+      ],
+      "representation_tokens": [
+        "MPB38082",
+        "pCdrA-mScarlet (modified from Addgene 111614)"
+      ],
+      "sequence_independently_validated": false,
+      "evolved_endpoint_colonies_assigned_to_this_strain": false
+    }
+  ],
+  "coordinate_ambiguities": [
+    {
+      "locus": "awsX",
+      "source_literal": "Δ32bp (229-261)",
+      "issue": "Inclusive endpoints span 33 positions, whereas a half-open convention spans 32; the table does not specify the convention. Preserve both source statements and require reconciliation before sequence normalization.",
+      "normalized_allele": null
+    }
+  ],
+  "founder_join_cautions": [
+    "Figure6 Methods name sGFP2/mScarlet ancestral SM founders but do not provide internal IDs. Table S3 lists SM sGFP2 only with ΔpvdS. Do not silently infer Figure6 founders use this deletion or equate them with unmodified SM.",
+    "Figure4 pCdrA reporter is a plasmid-bearing ancestral SM strain, distinct from constitutive chromosomal colour markers.",
+    "The wspF strain label is a characterized pre-existing mutant used for ecological assays, not an independently observed native mutation episode in those assays."
+  ],
+  "genotype_to_colour_or_morphology_rule": "No molecular-route assignment from fluorescence colour, small/large/wheel morphology or reporter state."
+}

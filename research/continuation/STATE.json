@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000026",
-    "next_round_id": "R000027",
+    "last_completed_round": "R000027",
+    "next_round_id": "R000028",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -237,7 +237,11 @@
     "latest_input_truth_decision_round": "R000026",
     "PTATO_accuracy_and_origin_benchmarking": "parked_until_named_truth_and_costed_inputs_change",
     "latest_bacterial_resource_assessment_round": "R000026",
-    "licensed_bacterial_workbooks_authenticated": 2
+    "licensed_bacterial_workbooks_authenticated": 4,
+    "latest_strain_unit_map_round": "R000027",
+    "reported_strain_entries": 14,
+    "latest_phase_specific_control_assessment_round": "R000027",
+    "control_contract_components": 8
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -308,8 +312,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R26 concrete PTATO dependency/cost and independent-truth parking decision; two exact licensed bacterial workbooks and selected primary sources independently internally reviewed; no matched panel or biological validation.",
-    "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension.",
+    "last_completed_step": "R27 reported14strain/unit map and two exact additional licensed workbooks; medium/background/date/hierarchy boundaries and eight-component independent-control contract internally cross-reviewed; no matched panel or biological fit.",
+    "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -412,7 +416,29 @@
       "research/bacterial_panel_leads/SURFACE_DENSITY_AUDIT.json": "ad8f11dee887559d5f213ae7f94bd9f42c8e5ca49bf59cd0105181e806bdf7db",
       "research/bacterial_panel_leads/VERIFICATION_RECEIPT.json": "be2b3d4dc80101ef7a1853efffef364bdfffe3ba6fdf730c162400c1f83db020",
       "research/bacterial_panel_leads/verify_sources.py": "d16036c25df6fc6e63eb6a58bdda6e5ad6e01599755ccf4d8969f594f8c1a290",
-      "research/CONTINUATION_HANDOFF_2026-10-08_R26.md": "71f64a0b7b9e169b52473073490a36c125dc933e63e827721b1a52ad49a8476c"
+      "research/CONTINUATION_HANDOFF_2026-10-08_R26.md": "71f64a0b7b9e169b52473073490a36c125dc933e63e827721b1a52ad49a8476c",
+      "research/strain_unit_map/INDEPENDENT_REVIEW.json": "9298f1fd961cc407d80ff1a401965241c31d6682777be9117088c4edd906ca8b",
+      "research/strain_unit_map/PUBLIC_FILES.json": "13302e8b309c985fae62e2c159f7e6de93d7045d4e2389707afabf0b26713377",
+      "research/strain_unit_map/REPORT.md": "2e875d7a17b828835c621e3f5086cac32b529ae6114e852418efe01421c657e3",
+      "research/strain_unit_map/SHA256SUMS.txt": "aefa2b8dd55c3ec163ab7a458addfd164ed078c585f32a4821f74bad4de6c8ac",
+      "research/strain_unit_map/SOURCES.json": "b247de32a88e03333a7712c7d06d61db10aedcb293d7f899dc6e057cb740374d",
+      "research/strain_unit_map/STRAIN_MAP.json": "7f3872f00edb3040608aa7054623cf0d81826ede4a333479d9ea41b79ca2cef7",
+      "research/strain_unit_map/UNIT_JOIN_MATRIX.json": "e218216e409fa0beac45daeb7d876be8a238ac16818b3aefba24bce5fa4de57a",
+      "research/strain_unit_map/VERIFICATION_RECEIPT.json": "cf459bdb3681c1f6e5c2073c26fac58740a77dc37fb463e6dac2be3c065ce9ca",
+      "research/strain_unit_map/WORKBOOK_UNIT_AUDIT.json": "ae998011626f16cd8b190985ca9daa3417d7039198bc9b190fa136ffcd2b9015",
+      "research/strain_unit_map/verify_sources.py": "b7e994f7fc7d98ad7fb375f190dc2199e56fbb6917f06d1d93e1b2110d987050",
+      "research/establishment_controls/CONTROL_CONTRACT.json": "ca9ed3c47b963e418bca348d843dc46a6b498ef1a18f5e4e5d3c414cc04bb28d",
+      "research/establishment_controls/DECISION.json": "d521bf63d62a1f5b8cf412e6448b0673529b8844514650102542fac1fec487e6",
+      "research/establishment_controls/INDEPENDENT_REVIEW.json": "2c7465fbd327642164eac08774caf793014f05d00d27e4189ef697a65042a4d8",
+      "research/establishment_controls/LICENSE": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "research/establishment_controls/LICENSE_AND_PRIVACY_REVIEW.json": "07018739d6f1aa29ef8736bfb925af467704859c62b585d6d38e6bb83c0e80e5",
+      "research/establishment_controls/PUBLIC_FILES.json": "5b3134756482a02c61c6edcb3320bd6f8c969bd43148e4850caeda58bee20814",
+      "research/establishment_controls/REPORT.md": "910d2e006157df7bfdc3cb7f893a7e5e05ef03aad706fd4eefa3f26db653c839",
+      "research/establishment_controls/SHA256SUMS.txt": "2751eb902e63faa17ca0f28df2fd4eac1385c0e35de8618ff1fb147dc44626e9",
+      "research/establishment_controls/SOURCE_PROVENANCE.json": "30864292f3cbb511a4315498da94595e5f7479d5498706d297cb9beae79d9bc3",
+      "research/establishment_controls/VERIFICATION_RECEIPT.json": "39d055f75aac74ff295eb3e1b13532e06e07cbc89e4a6706cd263bab94ef4c83",
+      "research/establishment_controls/verify_contract.py": "f382a995a931af3a6d9a6c16c86d503441b25eb7aba5a69d10746be1e10f461c",
+      "research/CONTINUATION_HANDOFF_2026-10-11_R27.md": "c8b3d9449651fcda918686fe0fb36866e6c57efa3a432427de794565c41d27a5"
     }
   },
   "reviewed_checkpoint": {
@@ -441,7 +467,8 @@
       "R000023",
       "R000024",
       "R000025",
-      "R000026"
+      "R000026",
+      "R000027"
     ],
     "blocked_work_items": [
       {
@@ -508,9 +535,17 @@
         "source_id": "10.1128/aem.02499-25",
         "round": "R000026",
         "scope": "Selected primary methods;historical selectedclone collections,not a shared-background race"
+      },
+      {
+        "source_id": "10.6084/m9.figshare.30997061.v1",
+        "article_doi": "10.1098/rspb.2025.2004",
+        "dataset_doi": "10.5281/zenodo.15735347",
+        "round": "R000027",
+        "scope": "One evidence family;reported14strain table;10page PDF text representation only;two exact additional workbook identities;no matched panel",
+        "source_ledger_sha256": "b247de32a88e03333a7712c7d06d61db10aedcb293d7f899dc6e057cb740374d"
       }
     ],
-    "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension."
+    "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned."
   },
   "previous_checkpoint_steps": [
     {
@@ -537,10 +572,15 @@
       "round": "R000025",
       "last_completed_step": "R25 scoped official catalogue and three-summary arithmetic authentication plus conditional genotype denominator contract, independently internally reviewed; no genotype/origin benchmark or biological validation.",
       "next_action": "First specify an artifact-complete, size-bounded genotype replay plan and establish independent truth/evaluation availability. Preserve sample/training maps, missing/QC states, unique keys, source coordinates, literal versus alternative eligibility and category-specific denominators. Required large VCF/BED inputs need a separate justified acquisition plan; do not substitute scalar summaries or caller-selected reference labels for truth. If truth or native transport cannot be admitted, park PTATO benchmarking and prioritize a complete licensed matched bacterial route/control panel. Retain the R24 competition/endpoint question and frozen full-route forecast, error and stopping contract."
+    },
+    {
+      "round": "R000026",
+      "last_completed_step": "R26 concrete PTATO dependency/cost and independent-truth parking decision; two exact licensed bacterial workbooks and selected primary sources independently internally reviewed; no matched panel or biological validation.",
+      "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000026",
+    "round": "R000027",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

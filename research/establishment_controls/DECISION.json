@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "round": "R27",
+  "decision": "QUALIFIED_ASSESSMENT_READY_CONTROL_REQUIREMENTS_NO_MATCHED_PANEL_ADMITTED",
+  "evidence_scope": "Existing R26/R3/R12/R18/R21 project records plus selected passages of R27 colleague-acquired Karita primary/supplement representations and one narrow empty index watch.",
+  "new_source_call_count": 1,
+  "new_source_call_failures": 0,
+  "watch_results": 0,
+  "admitted_matched_panels": 0,
+  "actual_study_inputs_resolved": 0,
+  "native_planning_inputs_resolved": 0,
+  "actual_study_inputs_remaining_NULL": 26,
+  "native_planning_inputs_remaining_NULL": 18,
+  "preserved_blockers": [
+    "R5",
+    "R11",
+    "R17"
+  ],
+  "forecasts_eta_count_law_error_stopping_changed": false,
+  "paused_runner_changed": false,
+  "methods_0_6_0_changed": false,
+  "new_experiment": false,
+  "biological_confirmation": false,
+  "qualified_external_review": false,
+  "laboratory_protocol_or_partner_selected": false,
+  "mathematical_priority_claim": false,
+  "new_zenodo_release_justified": false,
+  "next_action": "Qualified assessment of genotype/context/unit joins and independent establishment, recovery and origin-truth feasibility; no fit until admission gates and existing registries are resolved."
+}

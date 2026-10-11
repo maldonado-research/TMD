@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "interpretation": "Derived unit audit, not independent origins or biological assay calibration.",
+  "pellicle": {
+    "source_filename": "Pellicle_success.xlsx",
+    "sheet": "Tabelle1",
+    "worksheet_member": "worksheets/sheet1.xml",
+    "date_epoch": "Excel 1900 system; serial >=61 converted with 1899-12-30 base; date style14 checked",
+    "strata": [
+      {
+        "date_serial_cell": "B2",
+        "date_serial": 45462,
+        "date_iso_from_workbook_format": "2024-06-19",
+        "dilution_exponent": "-2.5",
+        "pair_cell": "B4",
+        "pellicles": 3,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "B2",
+        "date_serial": 45462,
+        "date_iso_from_workbook_format": "2024-06-19",
+        "dilution_exponent": "-3",
+        "pair_cell": "B5",
+        "pellicles": 3,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "B2",
+        "date_serial": 45462,
+        "date_iso_from_workbook_format": "2024-06-19",
+        "dilution_exponent": "-3.5",
+        "pair_cell": "B6",
+        "pellicles": 0,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "B2",
+        "date_serial": 45462,
+        "date_iso_from_workbook_format": "2024-06-19",
+        "dilution_exponent": "-4",
+        "pair_cell": "B7",
+        "pellicles": 0,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "E2",
+        "date_serial": 45459,
+        "date_iso_from_workbook_format": "2024-06-16",
+        "dilution_exponent": "-2",
+        "pair_cell": "E4",
+        "pellicles": 3,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "E2",
+        "date_serial": 45459,
+        "date_iso_from_workbook_format": "2024-06-16",
+        "dilution_exponent": "-2.5",
+        "pair_cell": "E5",
+        "pellicles": 3,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "E2",
+        "date_serial": 45459,
+        "date_iso_from_workbook_format": "2024-06-16",
+        "dilution_exponent": "-3",
+        "pair_cell": "E6",
+        "pellicles": 3,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "E2",
+        "date_serial": 45459,
+        "date_iso_from_workbook_format": "2024-06-16",
+        "dilution_exponent": "-3.5",
+        "pair_cell": "E7",
+        "pellicles": 1,
+        "total_recorded": 3,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "H2",
+        "date_serial": 45237,
+        "date_iso_from_workbook_format": "2023-11-07",
+        "dilution_exponent": "-3",
+        "pair_cell": "H4",
+        "pellicles": 6,
+        "total_recorded": 6,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "H2",
+        "date_serial": 45237,
+        "date_iso_from_workbook_format": "2023-11-07",
+        "dilution_exponent": "-4",
+        "pair_cell": "H5",
+        "pellicles": 0,
+        "total_recorded": 6,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      },
+      {
+        "date_serial_cell": "K2",
+        "date_serial": 45469,
+        "date_iso_from_workbook_format": "2024-06-26",
+        "dilution_exponent": "-3.5",
+        "pair_cell": "K4",
+        "pellicles": 9,
+        "total_recorded": 9,
+        "individual_well_ids": null,
+        "independent_preculture_ids": null
+      }
+    ],
+    "date_block_count": 4,
+    "aggregate_pair_count": 11,
+    "recorded_well_outcomes_sum": 45,
+    "genotype_cell": null,
+    "well_level_outcomes_available": false,
+    "pooled_probability_admitted": false
+  },
+  "reporter": {
+    "source_filename": "PcdrA-evo-count_2024_10_08.xlsx",
+    "sheet": "Sheet1",
+    "worksheet_member": "worksheets/sheet1.xml",
+    "plate_rows": [
+      {
+        "source_row": 2,
+        "source_plate_label": "plate 1-6-1",
+        "total_sampled_colonies": 572,
+        "total_cell": "F2",
+        "cached_total_agrees": true,
+        "formula_status": "explicit"
+      },
+      {
+        "source_row": 3,
+        "source_plate_label": "plate 1-6-2",
+        "total_sampled_colonies": 495,
+        "total_cell": "F3",
+        "cached_total_agrees": true,
+        "formula_status": "shared_anchor"
+      },
+      {
+        "source_row": 4,
+        "source_plate_label": "plate 2-6-1",
+        "total_sampled_colonies": 532,
+        "total_cell": "F4",
+        "cached_total_agrees": true,
+        "formula_status": "shared_descendant_checked_by_relative_row_sum"
+      },
+      {
+        "source_row": 5,
+        "source_plate_label": "plate 2-6-2",
+        "total_sampled_colonies": 654,
+        "total_cell": "F5",
+        "cached_total_agrees": true,
+        "formula_status": "shared_descendant_checked_by_relative_row_sum"
+      },
+      {
+        "source_row": 6,
+        "source_plate_label": "plate 3-6-1",
+        "total_sampled_colonies": 506,
+        "total_cell": "F6",
+        "cached_total_agrees": true,
+        "formula_status": "shared_descendant_checked_by_relative_row_sum"
+      },
+      {
+        "source_row": 7,
+        "source_plate_label": "plate 3-6-2",
+        "total_sampled_colonies": 617,
+        "total_cell": "F7",
+        "cached_total_agrees": true,
+        "formula_status": "shared_descendant_checked_by_relative_row_sum"
+      }
+    ],
+    "numbered_groups": [
+      {
+        "numbered_plate_group": 1,
+        "source_rows": [
+          2,
+          3
+        ],
+        "summary_cell": "G3",
+        "category_sums": {
+          "SM dark": 21,
+          "SM red": 10,
+          "WS dark": 298,
+          "WS red": 738
+        },
+        "sampled_colonies": 1067,
+        "cached_summary_agrees": true,
+        "independent_culture_id": null,
+        "molecular_route_assignments": null
+      },
+      {
+        "numbered_plate_group": 2,
+        "source_rows": [
+          4,
+          5
+        ],
+        "summary_cell": "G5",
+        "category_sums": {
+          "SM dark": 8,
+          "SM red": 0,
+          "WS dark": 400,
+          "WS red": 778
+        },
+        "sampled_colonies": 1186,
+        "cached_summary_agrees": true,
+        "independent_culture_id": null,
+        "molecular_route_assignments": null
+      },
+      {
+        "numbered_plate_group": 3,
+        "source_rows": [
+          6,
+          7
+        ],
+        "summary_cell": "G7",
+        "category_sums": {
+          "SM dark": 171,
+          "SM red": 0,
+          "WS dark": 112,
+          "WS red": 840
+        },
+        "sampled_colonies": 1123,
+        "cached_summary_agrees": true,
+        "independent_culture_id": null,
+        "molecular_route_assignments": null
+      }
+    ],
+    "category_totals": {
+      "SM dark": 200,
+      "SM red": 10,
+      "WS dark": 810,
+      "WS red": 2356
+    },
+    "sampled_colonies_total": 3376,
+    "literal_category_count_cells": 24,
+    "verified_cached_formula_cells": 9,
+    "shared_formula_descendants": 4,
+    "suffix_meanings_authenticated": false,
+    "independence_of_numbered_groups_authenticated": false,
+    "raw_plate_rows_pooled_as_origins": false
+  },
+  "blank_cells_converted_to_zero": 0,
+  "spreadsheets_executed": false,
+  "raw_source_published": false
+}
