@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "DECISION.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PRIOR_ARTIFACTS.json",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "RESOURCE_FEASIBILITY.json",
+    "REVIEW_WORKSHEET.json",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json",
+    "VERIFICATION_RECEIPT.json",
+    "WORKSHEET.md",
+    "verify_packet.py"
+  ],
+  "files": [
+    {
+      "path": "DECISION.json",
+      "bytes": 1456,
+      "sha256": "6c4592528d6a60393819850e0ba1e9439944956aa2ca4e501f0ac4f1a4a950c6"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 3956,
+      "sha256": "2527754cd8a13170028671881d402c51cc9cb9691fdf9a5d6d13968ac855d91d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 612,
+      "sha256": "b791fba42e0de270ddc0f9d6fc206729175c0944fec6e20fea3423046c28db16"
+    },
+    {
+      "path": "PRIOR_ARTIFACTS.json",
+      "bytes": 1993,
+      "sha256": "d487d830ea534698c2a459d3769ca2440db3145b01dd50a3b0faebfd99e6bd2c"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 20383,
+      "sha256": "d91eda4473a0ecebfc06237be67fa4dc998f5e8e9c8de8bbbbae487b10100fe8"
+    },
+    {
+      "path": "RESOURCE_FEASIBILITY.json",
+      "bytes": 6529,
+      "sha256": "b2d1316fc6bf77b120162018c8a8508af8f8380f624510d356a7d651fb171c46"
+    },
+    {
+      "path": "REVIEW_WORKSHEET.json",
+      "bytes": 58142,
+      "sha256": "681e09d5b0a8d193ec275503d79bf94090a23c5b82fd8a906c85a528be18e2d5"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 7732,
+      "sha256": "bf29b9c29e7f3d1a5946efd074d2893bdf5bc6da965bf5ad0df79c27e56fa2cc"
+    },
+    {
+      "path": "WORKSHEET.md",
+      "bytes": 29929,
+      "sha256": "ee57e378fa1c048d23673bd18f2b41c228e4ed2764b80b0e52513545fdee7bc4"
+    },
+    {
+      "path": "verify_packet.py",
+      "bytes": 12465,
+      "sha256": "e8916ee7c3f6aaa41d661f67968f49ce67e81b98fb1e739b873ed61cf6adacca"
+    }
+  ],
+  "excluded_material": "Provider/source bodies, private records and credentials remain outside Git.",
+  "hash_scope": "Core files pinned here; PUBLIC_FILES pinned in SHA256SUMS. Receipt/checksum file omit cycles.",
+  "license": "Original documentation CC BY 4.0; verification code MIT; source rights unchanged."
+}

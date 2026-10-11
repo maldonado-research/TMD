@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000027",
-    "next_round_id": "R000028",
+    "last_completed_round": "R000028",
+    "next_round_id": "R000029",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -241,7 +241,13 @@
     "latest_strain_unit_map_round": "R000027",
     "reported_strain_entries": 14,
     "latest_phase_specific_control_assessment_round": "R000027",
-    "control_contract_components": 8
+    "control_contract_components": 8,
+    "latest_matched_source_feasibility_round": "R000028",
+    "historical_common_ancestor_collection_members": 26,
+    "exact_Lind_workbooks_authenticated": 2,
+    "latest_qualified_review_preparation_round": "R000028",
+    "qualified_review_questions": 44,
+    "qualified_review_dependency_gates": 8
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -280,9 +286,17 @@
     },
     {
       "id": "lind2019_workbooks_and_horton_osf",
-      "status": "blocked",
-      "observed": "Lind figure-data workbook/API candidates and Horton OSF metadata returned proxy CONNECT403; Horton supplementary PDF endpoint returned CAPTCHA HTML. No raw XLSX/OSF data or supplementary PDF acquired. The drafted network additions are not proof of runtime activation.",
-      "unblocking_condition": "Changed and verified runtime access or another authenticated authoritative source. Preserve inspected source hashes and avoid unchanged hourly retries."
+      "status": "partially_resolved",
+      "observed": "R28 authenticates exact official LindFigure 6/Figure 9v1XLSX after verified changed access;105 mutation rows and 73 coefficientcells inspected. Lind culture/background joins and row 21 summary reconciliation remain unavailable. HortonOSF/supplement failures remain historical and unresolved; no fresh retry.",
+      "unblocking_condition": "Named authoritative Lind unit/background crosswalk and intended summary aggregation; independently verified changed Horton access only when it can change admission. No unchanged denial retries.",
+      "historical_observations": [
+        {
+          "through_round": "R000027",
+          "status": "blocked",
+          "observed": "Lind figure-data workbook/API candidates and Horton OSF metadata returned proxy CONNECT403; Horton supplementary PDF endpoint returned CAPTCHA HTML. No raw XLSX/OSF data or supplementary PDF acquired. The drafted network additions are not proof of runtime activation.",
+          "unblocking_condition": "Changed and verified runtime access or another authenticated authoritative source. Preserve inspected source hashes and avoid unchanged hourly retries."
+        }
+      ]
     },
     {
       "id": "confirmatory_measurement_contract",
@@ -312,8 +326,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R27 reported14strain/unit map and two exact additional licensed workbooks; medium/background/date/hierarchy boundaries and eight-component independent-control contract internally cross-reviewed; no matched panel or biological fit.",
-    "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned.",
+    "last_completed_step": "R28 historical26microcosm sampling/classifier frame, two exactLindworkbooks and row 21 arithmetic discrepancy, plus44-field practical qualified-review preparation internally cross-reviewed; no matched panel or biological fit.",
+    "next_action": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -438,7 +452,34 @@
       "research/establishment_controls/SOURCE_PROVENANCE.json": "30864292f3cbb511a4315498da94595e5f7479d5498706d297cb9beae79d9bc3",
       "research/establishment_controls/VERIFICATION_RECEIPT.json": "39d055f75aac74ff295eb3e1b13532e06e07cbc89e4a6706cd263bab94ef4c83",
       "research/establishment_controls/verify_contract.py": "f382a995a931af3a6d9a6c16c86d503441b25eb7aba5a69d10746be1e10f461c",
-      "research/CONTINUATION_HANDOFF_2026-10-11_R27.md": "c8b3d9449651fcda918686fe0fb36866e6c57efa3a432427de794565c41d27a5"
+      "research/CONTINUATION_HANDOFF_2026-10-11_R27.md": "c8b3d9449651fcda918686fe0fb36866e6c57efa3a432427de794565c41d27a5",
+      "research/matched_source_feasibility/DECISION.json": "97dc4d52d495b136871899fdd6bc3cf0ef118ccc155b88c66d93b0fe7ab1a184",
+      "research/matched_source_feasibility/DERIVED_SOURCE_AUDIT.json": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5",
+      "research/matched_source_feasibility/INDEPENDENT_REVIEW.json": "041c55dc1a907742ab81f83d96d95bec54f81b5d757cb5ba90e60b670f5b7062",
+      "research/matched_source_feasibility/LICENSE": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "research/matched_source_feasibility/LICENSE_AND_PRIVACY_REVIEW.json": "1c2063f7343485c55497e814f8c586ad6f7206b84f096b20d459a3ffa9d11651",
+      "research/matched_source_feasibility/PUBLIC_FILES.json": "c13afa6d9f6efe83c097f7be89b50c50681ffa9a5e55c6d9b49fb64ca808bd62",
+      "research/matched_source_feasibility/REPORT.md": "9ae7c55eec97693890805b8c867cd968dab3a4a2e43fdf1d09b602a815010469",
+      "research/matched_source_feasibility/SHA256SUMS.txt": "15b9288a2b6bb0a44d9cec5fb544afdadd11b7fba4c16e50005af1852fd9ddce",
+      "research/matched_source_feasibility/SOURCE_PROVENANCE.json": "e4c102bfa1e9ad495602281ddc448a454b0148f426fdd2c94ca05dde89cf599d",
+      "research/matched_source_feasibility/UNIT_ADMISSION_LEDGER.json": "3e7112d3f61d37009c99475bbf4dfdf14cbd57d5836137bc7ad3dabd6d75e37f",
+      "research/matched_source_feasibility/VERIFICATION_RECEIPT.json": "725eacc4d597648d563c434ea219ab25f18e9dc0cbf1da1c03d4c25db7b2999a",
+      "research/matched_source_feasibility/verify_sources.py": "389f9514dbdc9ba3d276aba203f8b3c2c8cdd7178f68b78909cc93d2bb9f0031",
+      "research/qualified_review_packet/DECISION.json": "6c4592528d6a60393819850e0ba1e9439944956aa2ca4e501f0ac4f1a4a950c6",
+      "research/qualified_review_packet/INDEPENDENT_REVIEW.json": "2527754cd8a13170028671881d402c51cc9cb9691fdf9a5d6d13968ac855d91d",
+      "research/qualified_review_packet/LICENSE": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "research/qualified_review_packet/LICENSE_AND_PRIVACY_REVIEW.json": "b791fba42e0de270ddc0f9d6fc206729175c0944fec6e20fea3423046c28db16",
+      "research/qualified_review_packet/PRIOR_ARTIFACTS.json": "d487d830ea534698c2a459d3769ca2440db3145b01dd50a3b0faebfd99e6bd2c",
+      "research/qualified_review_packet/PUBLIC_FILES.json": "88473a996eab0c6a71360a09ae375d6d185bd56d74073a4b7ad750c05df76beb",
+      "research/qualified_review_packet/REPORT.md": "d91eda4473a0ecebfc06237be67fa4dc998f5e8e9c8de8bbbbae487b10100fe8",
+      "research/qualified_review_packet/RESOURCE_FEASIBILITY.json": "b2d1316fc6bf77b120162018c8a8508af8f8380f624510d356a7d651fb171c46",
+      "research/qualified_review_packet/REVIEW_WORKSHEET.json": "681e09d5b0a8d193ec275503d79bf94090a23c5b82fd8a906c85a528be18e2d5",
+      "research/qualified_review_packet/SHA256SUMS.txt": "c6adf3752ce4f27e5770b35da505c7002f41296621647d0068ee6fa596cfbe14",
+      "research/qualified_review_packet/SOURCE_PROVENANCE.json": "bf29b9c29e7f3d1a5946efd074d2893bdf5bc6da965bf5ad0df79c27e56fa2cc",
+      "research/qualified_review_packet/VERIFICATION_RECEIPT.json": "ba2a0dbcaec88ca9a76a51763341d0bfa130945d987145809351fa0cf4e5788c",
+      "research/qualified_review_packet/WORKSHEET.md": "ee57e378fa1c048d23673bd18f2b41c228e4ed2764b80b0e52513545fdee7bc4",
+      "research/qualified_review_packet/verify_packet.py": "e8916ee7c3f6aaa41d661f67968f49ce67e81b98fb1e739b873ed61cf6adacca",
+      "research/CONTINUATION_HANDOFF_2026-10-11_R28.md": "8b98d36f141683d61016506ac63a9a0d7b6861bc61d0e70129d61b4b56d80f01"
     }
   },
   "reviewed_checkpoint": {
@@ -468,7 +509,8 @@
       "R000024",
       "R000025",
       "R000026",
-      "R000027"
+      "R000027",
+      "R000028"
     ],
     "blocked_work_items": [
       {
@@ -543,9 +585,21 @@
         "round": "R000027",
         "scope": "One evidence family;reported14strain table;10page PDF text representation only;two exact additional workbook identities;no matched panel",
         "source_ledger_sha256": "b247de32a88e03333a7712c7d06d61db10aedcb293d7f899dc6e057cb740374d"
+      },
+      {
+        "round": "R000028",
+        "source_ids": [
+          "10.1534/genetics.106.069906",
+          "10.1534/genetics.109.107110",
+          "10.7554/eLife.38822",
+          "10.1038/s41467-024-46950-0"
+        ],
+        "scope": "One historical26-isolate cohort; two exactLindworkbooks; independent observer-method example, not pooled evidence or an admitted matched panel",
+        "source_ledger_sha256": "e4c102bfa1e9ad495602281ddc448a454b0148f426fdd2c94ca05dde89cf599d",
+        "review_source_ledger_sha256": "bf29b9c29e7f3d1a5946efd074d2893bdf5bc6da965bf5ad0df79c27e56fa2cc"
       }
     ],
-    "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned."
+    "next_action": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
   },
   "previous_checkpoint_steps": [
     {
@@ -577,10 +631,15 @@
       "round": "R000026",
       "last_completed_step": "R26 concrete PTATO dependency/cost and independent-truth parking decision; two exact licensed bacterial workbooks and selected primary sources independently internally reviewed; no matched panel or biological validation.",
       "next_action": "Keep PTATO accuracy/origin benchmarking parked until a named independently supported truth/evaluation resource and a complete costed input frame change its admission decision. For the licensed SBW25 ecological lead, first authenticate the supplementary strain/allele and experimental unit map, including source-background, marker, date, plate/dilution, image-to-well and context joins; adjudicate Dark wheel and missingness. Acquire additional small mat/reporter artifacts only when that mapping answers a concrete panel-admission question. Establish independent context-matched route supply, molecular pre-endpoint route/episode truth, inherited/pre-existing negatives, lost-lineage limits and phase-specific controls matching density, resident scaffold and timing. A complete licensed matched W/A/M panel and qualified assessment must precede biological fitting. Preserve full conventional observed-category forecasts frozen before held-out endpoints and existing eta, error/count-law and fixed-stopping rules; do not replace missing routes with colour/morphology or default to another mathematical extension."
+    },
+    {
+      "round": "R000027",
+      "last_completed_step": "R27 reported14strain/unit map and two exact additional licensed workbooks; medium/background/date/hierarchy boundaries and eight-component independent-control contract internally cross-reviewed; no matched panel or biological fit.",
+      "next_action": "Keep PTATO benchmarking parked. Treat Karita as an ecological/control design resource, not an admitted matched W/A/M panel. Only acquire a named licensed artifact if it can resolve a specific stock/background, culture/well/image/plate/dilution or molecular-route join; do not collect the remaining images or scalar endpoints by default. Resolve the awsX coordinate convention against an authoritative sequence or convention before selecting an actual allele. Prepare qualified biological/statistical feasibility assessment of the eight-component control contract, or assess a distinct licensed common-background source with the required independent measurement frame. Observed prediction requires admitted endpoint classification, independent trial/count law, complete frozen inputs and comparator vectors; biological interpretation additionally requires independent route supply, molecular pre-endpoint acquisition/ancestry truth, inherited/pre-existing negatives, invisible-loss limits, and independently observed establishment before stage-specific recovery/classification, with medium, marker, resident scaffold, density and timing matched. Keep all 26 actual study and 18 planning fields NULL until actual values are justified. Preserve R5/R11/R17, the existing theta/eta forecast, error allocation, stopping, paused runner and frozen methods 0.6.0. No outreach is commissioned."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000027",
+    "round": "R000028",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

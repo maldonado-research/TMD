@@ -1,0 +1,150 @@
+{
+  "round": "R28",
+  "logical_science_calls": 2,
+  "failed_science_calls": 0,
+  "search_scope": "One paper-index query, 2023-01-01 through 2026-10-11 inclusive, k=5; five returned metadata/excerpt records screened; one selected primary article inspected. Not a systematic review.",
+  "query": "live imaging single cell bacterial mutation events lineage tracing DNA replication error fluorescent MutL foci mutation fixation mother machine limitations",
+  "counting_rule": "Each stored complete provider response counted once in UTF-8 bytes; derived extracted Markdown is not counted again. No raw HTTP transfer-size claim.",
+  "counted_response_bytes": 215614,
+  "response_files": [
+    {
+      "path": "search_result.json",
+      "bytes": 5584,
+      "sha256": "ab5ee141b4477e5011b4c858828d3226936778289716f81c12edd72ed5063c56"
+    },
+    {
+      "path": "primary_response.json",
+      "bytes": 210030,
+      "sha256": "564ee7ed3b0698318f805ac631bcb48313a682867c49234a7c9309b4f3941e8c"
+    }
+  ],
+  "primary_source": {
+    "citation": "Enrico Bena C, Ollion J, De Paepe M, Ventroux M, Robert L, Elez M (2024). Real-time monitoring of replication errors’ fate reveals the origin and dynamics of spontaneous mutations. Nature Communications 15:2702.",
+    "doi": "10.1038/s41467-024-46950-0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10973407/",
+    "article_license": "CC BY 4.0; third-party figure material can have separate terms. No figures reproduced.",
+    "retrieval": "Firecrawl live maxAge=0 requested, returned statusCode=200; provider Markdown representation, not PDF/XML authentication.",
+    "representation_file": {
+      "path": "PMC10973407.md",
+      "bytes": 99274,
+      "sha256": "4689541cf171905e0719feb54464d2c7489a137f1be50882d7970a02e28223ef"
+    },
+    "inspection_scope": "Selected introduction/results/discussion/methods/availability passages; no supplement, raw movies, sequence reads, data ZIP or code replay.",
+    "anchors": [
+      {
+        "id": "article_license",
+        "line_1based": 140,
+        "line_sha256": "0a0080b88ccbc319aa596dcc07f90b93794e399abb0ecf204046c35b152d7f2b",
+        "prefix": "**Open Access** This article is licensed under a Creative Commons Attribution 4."
+      },
+      {
+        "id": "mother_machine_daughter_outflow",
+        "line_1based": 174,
+        "line_sha256": "4f4607eb27c18ca884e97f1eac9b8e95a4b04c51c55dceb3917430a41b0d546f",
+        "prefix": "Here, we characterize the second and last step controlling the appearance of mut"
+      },
+      {
+        "id": "high_cadence_detection",
+        "line_1based": 188,
+        "line_sha256": "8110774a687d00d0096f0e0fb45bde059dc4f594a39f2a8d75d0e8f854f90699",
+        "prefix": "We first tested whether YFP-MutL imaging can be used to detect all errors in rep"
+      },
+      {
+        "id": "bleaching_control",
+        "line_1based": 192,
+        "line_sha256": "5ca0a42cbba560c6a02a878323b9ae80d3cbbdaf31a4f233a22d39753461d67e",
+        "prefix": "To confirm that most foci in WT cells mark faithful repair of replication errors"
+      },
+      {
+        "id": "undetected_MMR_errors_invisible",
+        "line_1based": 198,
+        "line_sha256": "fb2e574c78a30bc581657b41bb75365038ccdb4136d00b73145974b0bb6828f9",
+        "prefix": "Failures of the MMR system could occur either at the detection or at the repair "
+      },
+      {
+        "id": "sampling_interval_misses_short_events",
+        "line_1based": 210,
+        "line_sha256": "326dc52ed00ee02f203aa9579a76cc2e4d350e3c7443d761f12233881e4ca8e8",
+        "prefix": "Modulating the MutH expression should change repair efficiency but not the total"
+      },
+      {
+        "id": "source_specific_lifetime_threshold",
+        "line_1based": 212,
+        "line_sha256": "0e92a1bc6fb02365703720474e8563d413ec5f8facd770ad0b2130a35057a524",
+        "prefix": "The bimodality of the distribution in _mutH_ pMutH strain growing in the absence"
+      },
+      {
+        "id": "aggregate_MA_WGS_comparison",
+        "line_1based": 214,
+        "line_sha256": "8a7a35df04c0b05b199b6176fb20c2714b0b6b9fa06185b717ac878625560715",
+        "prefix": "To confirm that we can precisely quantify repaired and unrepaired replication er"
+      },
+      {
+        "id": "detection_efficiency_limit",
+        "line_1based": 272,
+        "line_sha256": "e56a0fa050776ffa685299dc42b211d3a01ff584b52ca3d6dfeaffda1e4e78e4",
+        "prefix": "We investigated the origin of mutations. Although most spontaneous mutations ori"
+      },
+      {
+        "id": "heterogeneous_repair",
+        "line_1based": 276,
+        "line_sha256": "24b56e7c0aa46d968213eeb0332d9b9ef5f12c128ea1b0255502702c64511f07",
+        "prefix": "Finally, this work describes the temporal dynamics of spontaneous mutations by t"
+      },
+      {
+        "id": "source_medium_and_tag",
+        "line_1based": 282,
+        "line_sha256": "2b48e405c17a874223e591dbedce862dc716f83a45977df25c946f90ea45f232",
+        "prefix": "The mother machine device is described in Robert et al.[17](https://pmc.ncbi.nlm"
+      },
+      {
+        "id": "instrument_and_cadence",
+        "line_1based": 286,
+        "line_sha256": "e70a7c07096659d5364c7a36d20dd10629f3e8c2483961546a0c4d622176cb5d",
+        "prefix": "Fluorescence imaging was performed as in Robert et al.[17](https://pmc.ncbi.nlm."
+      },
+      {
+        "id": "mother_only_analysis",
+        "line_1based": 294,
+        "line_sha256": "c0b6acf81c0724e7f2beec83220d0ac268d5c08bc639d33a67b50a4b0eb26ed7",
+        "prefix": "Data analysis was performed using custom codes developed in R language. In the c"
+      }
+    ],
+    "selected_as": "Measurement-feasibility and observer-limit source only; no matched W/A/M panel, no chosen TMD protocol, no route-specific native truth.",
+    "unacquired_source_data_notice": "The article lists a source-data ZIP of 87.5 MB and separate data/code DOI 10.57745/UFHTYU. Listing only; no download or file manifest authentication."
+  },
+  "prior_source_use": "Prior TMD derived public records reused with exact fingerprints in PRIOR_ARTIFACTS.json; original prior raw sources are not freshly replayed.",
+  "runtime": "Managed cloud current spec revision 70, running, network enforced observed. Credential readiness is operational context only; no secret value read or author Zenodo call made.",
+  "acquisition_records": [
+    {
+      "response_file": "search_result.json",
+      "tool": "firecrawl_research_search_papers",
+      "request_arguments": {
+        "query": "live imaging single cell bacterial mutation events lineage tracing DNA replication error fluorescent MutL foci mutation fixation mother machine limitations",
+        "from": "2023-01-01",
+        "to": "2026-10-11",
+        "k": 5
+      },
+      "exact_request_timestamp_UTC": null,
+      "timestamp_limitation": "Exact request/response timestamp was not separately recorded; this is the local capture-file write time, not proof of server retrieval time.",
+      "capture_file_write_time_UTC": "2026-10-11T08:34:51.416252+00:00"
+    },
+    {
+      "response_file": "primary_response.json",
+      "tool": "firecrawl_scrape",
+      "request_arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10973407/",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0,
+        "timeout": 60000
+      },
+      "exact_request_timestamp_UTC": null,
+      "timestamp_limitation": "Exact request/response timestamp was not separately recorded; this is the local capture-file write time, not proof of server retrieval time.",
+      "capture_file_write_time_UTC": "2026-10-11T08:34:51.880262+00:00",
+      "provider_scrape_id": "01a12a19-8c55-7748-85e4-7da50c1e3c1b"
+    }
+  ]
+}

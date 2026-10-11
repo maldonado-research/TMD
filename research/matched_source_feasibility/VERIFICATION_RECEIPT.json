@@ -1,0 +1,35 @@
+{
+  "executed_utc": "2026-10-11T08:47:18.352782+00:00",
+  "status": "PASS",
+  "invocations": [
+    {
+      "mode": "public-only",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "source_replay": "UNRUN: no source cache supplied",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "source_experimental_truth_validated": false
+      }
+    },
+    {
+      "mode": "acquired-source replay",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "source_replay": "PASS: source identities, workbook structure/arithmetic, cohort molecular rows and selected method anchors",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "source_experimental_truth_validated": false
+      }
+    }
+  ],
+  "public_manifest_sha256": "c13afa6d9f6efe83c097f7be89b50c50681ffa9a5e55c6d9b49fb64ca808bd62",
+  "source_calls": 7,
+  "saved_acquisition_bytes": 685445,
+  "exact_xlsx_bytes": 112786,
+  "scope": "Offline identities, source values, arithmetic, primary method anchors, admission preservation and public-file closure; no biological fit or experimental truth validation."
+}

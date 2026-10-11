@@ -109,3 +109,13 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Exact additional workbook identities and units | [Mat/date and reporter/plate audit](research/strain_unit_map/WORKBOOK_UNIT_AUDIT.json) | 11 whole-well aggregates and 3,376 sampled colonies do not establish lineage origins, route denominators or independent biological runs. |
 | Context and hierarchy admission decision | [Join matrix](research/strain_unit_map/UNIT_JOIN_MATRIX.json) | LB/ΔpvdS imaging cannot silently supply a KB/default-background control; molecular and unit joins remain missing. |
 | Discriminating measurement requirements | [Eight-component control contract](research/establishment_controls/CONTROL_CONTRACT.json) | Design/feasibility only; no protocol selected, external assessment obtained, full comparator implemented or statistical rule changed. |
+
+## R28 source/classifier and feasibility evidence — 11 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Common-ancestor historical sampling frame | [26-isolate ledger](research/matched_source_feasibility/DERIVED_SOURCE_AUDIT.json) | One randomly selected WS per microcosm after five days; same collection across2007/2009, no native-birth census or untouched holdout. |
+| Molecular classifier16/6/3/1unresolved | [Primary-source assessment](research/matched_source_feasibility/REPORT.md) | Functional Wsp17 is a different classifier; WSX truth, narrative cohort scope and allele/stock crosswalk remain unresolved. |
+| Exact Lind workbook fields and summary discrepancy | [Source identities](research/matched_source_feasibility/SOURCE_PROVENANCE.json) | 105 pathway-isolated mutation rows and 73 visible coefficients do not supply a matched panel; row 21 intended aggregation is unverified, author values retained. |
+| Practical qualified-review preparation | [44-field worksheet](research/qualified_review_packet/WORKSHEET.md) | All44 answers NULL; eight gates and six unpriced work items do not select a protocol or constitute qualified external review. |
+| Concrete observer limitations | [Enrico Bena 2024 assessment](research/qualified_review_packet/REPORT.md) | E.coli repair-focus timing, unseen errors and lost daughters are not independent SBW25 route-origin truth. |

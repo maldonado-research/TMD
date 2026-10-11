@@ -1,0 +1,67 @@
+{
+  "review_type": "Independent internal AI source, experimental-unit and artifact review; not qualified external biological/statistical review",
+  "reviewer": "R28 qualified-review-packet delegate",
+  "completed_UTC": "2026-10-11T08:46:53.384646+00:00",
+  "verdict": "PASS_WITH_LIMITED_SCOPE",
+  "reviewed_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 9919,
+      "sha256": "9ae7c55eec97693890805b8c867cd968dab3a4a2e43fdf1d09b602a815010469"
+    },
+    {
+      "path": "DERIVED_SOURCE_AUDIT.json",
+      "bytes": 18154,
+      "sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5"
+    },
+    {
+      "path": "UNIT_ADMISSION_LEDGER.json",
+      "bytes": 6489,
+      "sha256": "3e7112d3f61d37009c99475bbf4dfdf14cbd57d5836137bc7ad3dabd6d75e37f"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 12963,
+      "sha256": "e4c102bfa1e9ad495602281ddc448a454b0148f426fdd2c94ca05dde89cf599d"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1154,
+      "sha256": "97dc4d52d495b136871899fdd6bc3cf0ef118ccc155b88c66d93b0fe7ab1a184"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 791,
+      "sha256": "1c2063f7343485c55497e814f8c586ad6f7206b84f096b20d459a3ffa9d11651"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 14028,
+      "sha256": "389f9514dbdc9ba3d276aba203f8b3c2c8cdd7178f68b78909cc93d2bb9f0031"
+    }
+  ],
+  "independent_checks": [
+    "Read report, unit-admission ledger, source-provenance/accounting, derived audit, decisions and verifier; no common-background panel or biological fit admitted.",
+    "Independently inspected McDonald2009 Table1 and relevant Methods/Results/Discussion passages from exact captured provider text:26 WSA-Z labels,16Wsp/6Aws/3Mws plus WSX unknown; kept LSWS/AWS/MWS references outside that count. Functional Wsp dependence of WSX does not establish its molecular mutation.",
+    "Independently inspected Bantinaki2007 Methods: common ancestral SM propagated in26 separate microcosms; one randomly selected WS genotype after5days. The2009 article reuses the collection; sampled endpoint is neither first-arrival nor a complete outcome frame.",
+    "Read primary contradictions: Discussion lists4mwsR whereas Table1/Results specify3 cohort isolates; WSX/WSR caption inconsistency remains unresolved. No source discrepancy repaired for fit.",
+    "Independently parsed both XLSX archives using standard-library ZIP/XML code separate from producer verifier: Figure6 sheets46/41/18 rows; Figure9 has18 genotype rows and73 coefficient cells.",
+    "Independently recomputed Figure9 row21 G21:I21 mean=-0.1082494198258437 and sampleSD=0.03436548016776037; D21/E21 retain -0.08342271304484693 and0.015151720326583237; no hidden worksheet rows/columns discovered. This is arithmetic disagreement, not a demonstrated biological error.",
+    "Read inherited Lind/Sun notes and checked genotype-deletion/reporter backgrounds and historical reuse limitations. Workbook rows do not resolve missing culture/batch identifiers, native supply or independent establishment/recovery.",
+    "Ran package source-cache verifier successfully before the final direct-WST33nt enhancement; inspected the enhancement and its new exact source requirement. Source identities unchanged.",
+    "Checked26study+18planningNULLs preserved; public artifacts exclude source bodies and XLSX binaries; no new scientific acquisition by this review."
+  ],
+  "resolved_review_findings": [
+    {
+      "finding": "Initial allele paragraph inferred33positions from coordinates; primary Results explicitly states WST is a33-nucleotide deletion.",
+      "resolution": "Direct source statement added to report, derived audit, unit ledger and source-verifier requirement. This resolves the reported2009 WST length only; no Karita-stock equality, source annotation correction or actual allele selection claimed."
+    }
+  ],
+  "limitations": [
+    "Provider article representations authenticate their stored text, not original PDF/XML; inspected source assertions are not independent experimental truth.",
+    "Complete eligible-run categories, frozen inputs, independent truth and stage-specific controls remain unavailable. Known source outcomes cannot be treated as untouched confirmatory holdouts.",
+    "Original source rights remain unchanged; no blanket Genetics or artifact-specific workbook license inferred."
+  ],
+  "new_source_acquisitions_by_review": 0,
+  "qualified_external_assessment": false
+}

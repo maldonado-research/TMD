@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R27, 11 October 2026
+## Latest research checkpoint — R28, 11 October 2026
+
+The [common-ancestor source assessment](research/matched_source_feasibility/REPORT.md) traces one day-five sampled isolate per 26 microcosms and distinguishes 16 molecularly assigned Wsp isolates from a 17-isolate functional grouping. Two exact Lind workbooks expose 105 mutation rows and 73 visible competition coefficients, including one stored summary not reproduced by the visible row's unweighted mean/sampleSD. Source backgrounds, unknowns and author values remain explicit.
+
+The [qualified-review packet](research/qualified_review_packet/REPORT.md) supplies 44 field-specific evidence questions, eight ordered gates and an unpriced resource worksheet. It targets independently measured establishment, recovery and origin/loss truth. No matched biological panel, fit, experiment or qualified external review is admitted. Read the [R28 checkpoint](research/CONTINUATION_HANDOFF_2026-10-11_R28.md).
+
+All 26 actual study inputs and 18 planning fields remain NULL. Forecasts, eta, error allocation, stopping and paused automation are unchanged. Methods 0.6.0 remains separate; no new Zenodo version is generated.
+
+## Prior R27 checkpoint — 11 October 2026
 
 The [strain and measurement map](research/strain_unit_map/REPORT.md) records reported Wsp/Aws/Mws alleles and stock IDs, explicit microscopy background/medium differences, and unresolved experimental-unit joins. Two further exact licensed workbooks expose date-block mat aggregates and 3,376 sampled-colony entries across six reporter plate labels; these are not mutation births or independent lineage trials.
 

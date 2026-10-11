@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "round": "R28",
+  "decision": "QUALIFIED_REVIEW_WORKSHEET_READY_NO_SCIENTIFIC_ADMISSION",
+  "new_deliverable": "44 exact field-to-question/evidence mappings, eight ordered admission gates, six unpriced resource work items and independent-observer/loss/holdout assessment.",
+  "logical_science_calls": 2,
+  "failed_science_calls": 0,
+  "counted_response_bytes": 215614,
+  "actual_study_inputs_resolved": 0,
+  "native_planning_inputs_resolved": 0,
+  "actual_study_inputs_remaining_NULL": 26,
+  "native_planning_inputs_remaining_NULL": 18,
+  "observed_prediction_admitted": false,
+  "biological_origin_interpretation_admitted": false,
+  "admitted_matched_panels": 0,
+  "new_biological_observations": 0,
+  "qualified_external_review_completed": false,
+  "outreach_performed": false,
+  "laboratory_protocol_or_partner_selected": false,
+  "preserved_blockers": [
+    "R5",
+    "R11",
+    "R17"
+  ],
+  "forecasts_eta_count_law_error_stopping_changed": false,
+  "paused_runner_changed": false,
+  "methods_0_6_0_changed": false,
+  "new_theorem_or_priority_claim": false,
+  "new_zenodo_release_justified": false,
+  "next_action": "Obtain qualified claim-specific feasibility decisions using the unfilled worksheet; first resolve source unit/allele joins and assess an independently calibrated earlier establishment observer. Biological-origin scope additionally requires independent episode/loss truth before expensive data collection."
+}

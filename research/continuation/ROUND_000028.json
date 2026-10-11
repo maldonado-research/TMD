@@ -1,0 +1,51 @@
+{
+  "id": "R000028",
+  "status": "completed_internal_review",
+  "date": "2026-10-11",
+  "timezone": "Etc/UTC",
+  "report": "../CONTINUATION_HANDOFF_2026-10-11_R28.md",
+  "completion_scope": "common_ancestor_source_classifier_exact_workbooks_and_practical_review_preparation",
+  "details": {
+    "scientific_acquisition_calls": 9,
+    "counted_saved_source_bytes": 901059,
+    "historical_collection_members": 26,
+    "molecular_counts": {
+      "Wsp": 16,
+      "Aws": 6,
+      "Mws": 3,
+      "Unresolved": 1
+    },
+    "functional_Wsp_count_if_declared_classifier": 17,
+    "exact_Lind_XLSX_files": 2,
+    "exact_Lind_XLSX_bytes": 112786,
+    "focal_mutation_rows": 105,
+    "competition_genotype_rows": 18,
+    "visible_coefficient_cells": 73,
+    "unreconciled_summary_rows": [
+      21
+    ],
+    "worksheet_questions": 44,
+    "dependency_gates": 8,
+    "unpriced_resource_items": 6,
+    "matched_bacterial_panel_admitted": false
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "private_raw_publication": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "methods_archive_scope": "Frozen approved0.6.0 excludes later R1–R28 addenda",
+  "manual_scientific_model": {
+    "round": "R000028",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+}
