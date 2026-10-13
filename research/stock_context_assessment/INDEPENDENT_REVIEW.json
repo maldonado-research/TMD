@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "reviewed_utc": "2026-10-13T23:05:51.160887+00:00",
+  "reviewer": "Independent internal AI agent r30_calculation_record",
+  "external_peer_review": false,
+  "scope": [
+    "Direct inspection of new source representations: article sampling context, Table2, strain TableS1, TextS1/Table1.2 and TableS3 focal summary/per-isolate rows",
+    "Independent arithmetic for genomic/gene origin 5854663 and current-CDS offset 102 nt giving coding 2081/codon 694",
+    "Direct inspection of reused 2009 WSR/WSX/MWS literal disagreements and Karita referenced-stock/caption scope",
+    "Public-only and full-cache verifier execution, dependency hashes, byte/call accounting, NULL and non-admission guards",
+    "Review of documentary stock-record requirements, source rights and retained unresolved identity conditions",
+    "Final packaging delta: direct SHA256 closure, duplicate JSON key and path/symlink guards, capture request/tool/time matching, and explicit code/documentation/source-rights licensing files"
+  ],
+  "findings": [
+    "No substantive blocker found. The primary record assigns the matching allele/coordinate to a later evolved SBW25-WS3 isolate; this does not authenticate WSR or either MPB stock.",
+    "The 10 SBW25 plus 10 PICF7 plus 10 A506 sampling context is preserved; no 30-trial SBW25 claim or endpoint-to-origin promotion is made.",
+    "Reused source strings preserve V272A/V728A, WSX/WSR and G3260A/G3247A disagreements rather than silently repairing author records.",
+    "Requested the wording change from authenticated to reused for the 2009 article representation; accepted before this review.",
+    "Both completed verifier modes pass. Source replay checks captured representations and declared joins; no biological validation or external peer review is claimed.",
+    "Final packaging changes preserve substantive report, derived evidence, provenance, stock requirements and decisions. Re-ran public-only and full-cache verification successfully; updated verifier and added both licensing-file hashes."
+  ],
+  "reviewed_substantive_files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "40d687c018094a33b64308703aeb402fdb661b1d26798b3a3f6aa3d32b1f5bb5"
+    },
+    {
+      "path": "DERIVED_SOURCE_AUDIT.json",
+      "sha256": "28038d00bef45cb7eadb8aeb64b2601a00029a276c4b35ee5452ac7f3bdd5f88"
+    },
+    {
+      "path": "STOCK_RECORD_REQUIREMENTS.json",
+      "sha256": "8cc318546ab48170480ae24aa75ab7a66dc2fb7ed3764cb96ba3ab08a55ddf42"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "sha256": "02be85ec6af6e004704129ec10452c70577ea766e5c2a17db9966a0d00318755"
+    },
+    {
+      "path": "DECISION.json",
+      "sha256": "701f63258690a289aca5f2e5c51fc0c157d56e7a56eaeb25fbdd508f3f8cbbae"
+    },
+    {
+      "path": "verify_sources.py",
+      "sha256": "5b6c2eb0584427964544cee877f6b5cad5c78939ac0aebdd0627a9bd117098cd"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "29784b3013f08decf576dd2c6d0df4cf843f95964dbc242b31a2e6d0b5929b13"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "sha256": "04854fc22f2dca06b43728a17091584655049d1b482fa1add2c10aed1380b3d0"
+    }
+  ]
+}

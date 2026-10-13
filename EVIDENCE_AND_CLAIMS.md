@@ -128,3 +128,11 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | mwsR coordinate-frame difference | [Conditional source join](research/source_join_resolution/REPORT.md) | 102 nt between workbook-implied and acquired CDS origins; V728A/V694A name the same projected genomic change only under declared frames, not authenticated stock truth. |
 | Embedded chart propagates disputed summaries | [Exact selected fields](research/summary_reconciliation/SOURCE_FIELDS.json) | Cache agreement does not identify intended aggregation or authenticate the published rendered figure. |
 | One additional equal-weight coefficient cannot reconcile both summaries | [Conditional diagnostic](research/summary_reconciliation/CONDITIONAL_DIAGNOSTIC.json) | Standard arithmetic-mean/sample-SD identity; no imputation, author correction, novel theorem, biological error finding or study admission. |
+
+## R30 stock and calculation evidence — 13 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Newly evolved SBW25-WS3 has the reported focal genomic point 5856845, t2183c/V728A | [Primary context assessment](research/stock_context_assessment/REPORT.md) | Corroborates the conditional coordinate interpretation; does not establish WSR/MPB10613 identity, ancestry or a single-mutation stock. |
+| Named linked code simulates pathway activity | [Calculation-record assessment](research/calculation_record_assessment/RECORD_ASSESSMENT.json) | No inspected Figure 9 aggregation record, source-code execution or admitted observed-route forecast. |
+| Reweighting fixed visible coefficients cannot match both stored moments under ordinary SD assumptions | [Conditional moment diagnostic](research/calculation_record_assessment/CONDITIONAL_DIAGNOSTIC.json) | Standard sharp minimum population SD; SEM, corrections, transformations or other observations remain unresolved. No author error or new theorem asserted. |

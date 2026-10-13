@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "round": "R30",
+  "later_primary_study": {
+    "doi": "10.1111/mmi.14855",
+    "citation_year": 2022,
+    "strain": "SBW25-WS3",
+    "source_type": "evolved isolate, This study",
+    "collection_context": "Ten WS isolates from independent 72-hour SBW25-founded microcosms; separate from ten PICF7 WS isolates and ten A506 Web isolates.",
+    "reference_as_reported": "NC_012660.1",
+    "reported_read_project": "PRJNA730882",
+    "gene": "mwsR",
+    "locus": "pflu5329",
+    "gene_label": "t2183c",
+    "genome_position_forward": 5856845,
+    "codon_change": "gtc-->gcc",
+    "protein_label": "V728A",
+    "validation_as_reported": "breseq (RA), PCR and Sanger sequencing",
+    "implied_forward_origin": 5854663,
+    "annotation_release_identified_in_acquired_source": false,
+    "raw_reads_acquired_or_reanalysed": false,
+    "historical_or_MPB_stock_alias_authenticated": false
+  },
+  "reference_comparison": {
+    "R29_projected_genome_position": 5856845,
+    "same_genome_position": true,
+    "R29_current_annotation_protein_label": "V694A",
+    "R29_current_CDS_start_offset_nt": 102,
+    "historical_stock_condition_resolved": false
+  },
+  "karita_stock_table": {
+    "MPB10583_literal": "awsX (PFLU5211) Δ32bp (229-261)",
+    "MPB10613_literal": "mwsR (PFLU5329) T2183C",
+    "both_rows_reference": "17: McDonald et al. 2009",
+    "caption_unreferenced_strain_construction_scope_applies_to_these_rows": false,
+    "stock_crosswalk_authenticated": false
+  },
+  "historical_source_disagreements": {
+    "Table1_WSR": "mwsR T2183C / V272A",
+    "Table1_WSX": "unknown",
+    "Figure4_literal_comparison": "WSX vs. SM mwsR T2183C",
+    "Table1_MWS": "mwsR G3247A / E1083K",
+    "Figure4_literal_MWS_reconstruction": "SM mwsR G3260A",
+    "author_correction_acquired": false,
+    "WSX_reclassified": false
+  },
+  "matched_panels_admitted": 0,
+  "stock_sequences_authenticated": 0
+}

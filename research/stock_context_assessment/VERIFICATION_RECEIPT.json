@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-13T23:06:06.156253+00:00",
+  "producer_checks": "PASS",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: no source cache supplied",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "stock_sequences_authenticated": 0,
+    "biological_validation": "NOT_PERFORMED",
+    "new_biological_fit": false
+  },
+  "full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: captured representations, focal source rows, conditional coordinate comparison and source disagreements",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "stock_sequences_authenticated": 0,
+    "biological_validation": "NOT_PERFORMED",
+    "new_biological_fit": false
+  },
+  "independent_internal_review": "PASS, eight reviewed substantive/licensing files match recorded hashes",
+  "external_peer_review": false,
+  "writes_or_network_in_verifier": false,
+  "biological_validation": "NOT_PERFORMED"
+}

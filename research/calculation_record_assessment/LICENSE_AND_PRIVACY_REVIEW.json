@@ -1,0 +1,13 @@
+{
+  "original_documentation_and_derived_assessment": "CC BY 4.0",
+  "new_code": "MIT",
+  "attribution": "Ricardo Maldonado, TMD R30, with AI assistance; source facts attributed to Lind et al. (2019), DOI 10.7554/eLife.38822; Libby and Lind (2019), DOI 10.21769/BioProtoc.3407; ericlibby/BioProtocol pinned commit.",
+  "third_party_rights": "Unchanged. No separate repository-code, supplement-code or workbook license authenticated.",
+  "source_body_files_public": false,
+  "source_binaries_public": false,
+  "third_party_code_public": false,
+  "private_raw_data_public": false,
+  "credential_values_public": false,
+  "source_author_email_or_workstation_metadata_public": false,
+  "scope": "Limited attributed source facts and file identities, original conditional arithmetic, decision and read-only verifier. Full source bodies remain outside Git."
+}

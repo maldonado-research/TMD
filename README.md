@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R29, 13 October 2026
+## Latest research checkpoint — R30, 13 October 2026
+
+The [stock-context assessment](research/stock_context_assessment/REPORT.md) identifies the projected mwsR mutation in newly evolved SBW25-WS3. It corroborates the coordinate interpretation without proving historical WSR or MPB10613 stock identity. A [document preflight](research/stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json) specifies the missing pedigree, background, sequence and annotation records.
+
+The [calculation-record assessment](research/calculation_record_assessment/REPORT.md) locates publisher-linked pathway simulations and a pinned illustrative code repository; neither inspected artifact explains Figure 9's fitness aggregation. A conditional standard moment bound excludes reweighting the three visible coefficients alone under ordinary population-SD assumptions; SEM, corrections and other record definitions remain unresolved. [R30 checkpoint](research/CONTINUATION_HANDOFF_2026-10-13_R30.md).
+
+All 26 actual study inputs and 18 planning fields remain NULL. No matched panel, biological fit, new theorem or qualified external review is admitted. Forecasts, eta, error allocation, stopping, paused automation and methods 0.6.0 stay unchanged; no new Zenodo version is generated.
+
+## Prior R29 checkpoint — 13 October 2026
 
 The [reference/source-join assessment](research/source_join_resolution/REPORT.md) exposes a 102-base mwsR CDS-origin difference: the same conditional genomic change is V728A in a workbook-implied frame and V694A in the acquired annotation. The historical awsX interval matches 33 bases and its reported peptide in the inspected reference. Actual stock identity and newer allele annotations remain unresolved.
 

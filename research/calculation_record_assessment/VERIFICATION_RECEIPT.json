@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-13T23:01:55.726002+00:00",
+  "public_only": {
+    "status": "PASS",
+    "new_source_replay": "UNRUN: no R30 cache supplied",
+    "inherited_source_replay": "UNRUN: no R29 cache supplied",
+    "reused_workbook_replay": "UNRUN: no R28 cache supplied",
+    "conditional_calculation": "PASS",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_intended_aggregation_identified": false,
+    "source_experimental_truth_validated": false
+  },
+  "full_cache": {
+    "status": "PASS",
+    "new_source_replay": "PASS: capture identities, supplement coverage, protocol/repository linkage and both complete initial-commit patches reproduce declared Git blob hashes; source code not executed",
+    "inherited_source_replay": "PASS: reused R29 source identities and named availability/supplement anchors",
+    "reused_workbook_replay": "PASS: reused exact R28 workbook identity and six row21 cell/formula fields",
+    "conditional_calculation": "PASS",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_intended_aggregation_identified": false,
+    "source_experimental_truth_validated": false
+  },
+  "script_sha256": "fe7a285355bd3cd75b763eb6cc7789110931d0ebaa98bff88edcaba6e839d1f1",
+  "independent_internal_review": "PASS; seven substantive hashes verified after review",
+  "network_requests": 0,
+  "source_code_or_spreadsheet_formulas_executed": false,
+  "scope": "Completed producer checks after independent internal review; not external peer review or biological validation."
+}

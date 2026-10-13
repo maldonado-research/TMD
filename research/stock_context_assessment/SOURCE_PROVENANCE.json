@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "round": "R30",
+  "logical_scientific_calls": 5,
+  "logical_call_allocation": 6,
+  "saved_acquisition_bytes": 2278704,
+  "byte_allocation": 8388608,
+  "byte_accounting": "Saved fresh JSON wrappers counted once; reused source captures are excluded from fresh bytes. Provider-internal download/wire bytes are unknown. No extracted duplicates are counted.",
+  "saved_acquisition_files": [
+    {
+      "filename": "S01.json",
+      "bytes": 12178,
+      "sha256": "f50edaa168cc77bd98c821818020570c3a91a413b86405b7ca7db15cc83698ca"
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 509916,
+      "sha256": "ba7af6e2135d872e31fca4bb016a4a16b8faca92d9a0d72f8d7dc496468cc696"
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 41094,
+      "sha256": "91da515260b53d642f174bc801053f1cdbc3604f720575da59d09d6779abb4f3"
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 161384,
+      "sha256": "dbd72c8860ab37df9d0983307b7d540f8f402b8bd52bb2cb84800c96352b9550"
+    },
+    {
+      "filename": "S05.json",
+      "bytes": 1554132,
+      "sha256": "6f5e88d41dbf812e88f33f746075dd0161d63f7b7f3e9f2889f36ffefe58615c"
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "S01",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mmi.14855",
+        "formats": [
+          "markdown"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 40
+        },
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:53:53.241Z",
+      "completed_utc": "2026-10-13T22:54:04.889Z",
+      "capture_file": "S01.json",
+      "representation": "Blocked PDF-viewer HTML representation with article metadata; no PDF body",
+      "rights": "Article declares CC BY-NC 4.0; supporting-file rights not separately inferred; raw response excluded from Git"
+    },
+    {
+      "call_id": "S02",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/mmi.14855",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:54:11.902Z",
+      "completed_utc": "2026-10-13T22:54:24.959Z",
+      "capture_file": "S02.json",
+      "representation": "Provider markdown representation of publisher full article page",
+      "rights": "Article declares CC BY-NC 4.0; supporting-file rights not separately inferred; raw response excluded from Git"
+    },
+    {
+      "call_id": "S03",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fmmi.14855&file=mmi14855-sup-0002-TableS1.xls",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:55:03.948Z",
+      "completed_utc": "2026-10-13T22:55:08.469Z",
+      "capture_file": "S03.json",
+      "representation": "Provider markdown representation of Table S1 XLS; not original workbook bytes",
+      "rights": "Article declares CC BY-NC 4.0; supporting-file rights not separately inferred; raw response excluded from Git"
+    },
+    {
+      "call_id": "S04",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fmmi.14855&file=mmi14855-sup-0001-Supinfo.pdf",
+        "formats": [
+          "markdown"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 35
+        },
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:55:03.949Z",
+      "completed_utc": "2026-10-13T22:55:44.167Z",
+      "capture_file": "S04.json",
+      "representation": "Provider markdown representation of all 28 supporting PDF pages; not original PDF bytes",
+      "rights": "Article declares CC BY-NC 4.0; supporting-file rights not separately inferred; raw response excluded from Git"
+    },
+    {
+      "call_id": "S05",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fmmi.14855&file=mmi14855-sup-0004-TableS3.xlsx",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:56:12.560Z",
+      "completed_utc": "2026-10-13T22:56:19.389Z",
+      "capture_file": "S05.json",
+      "representation": "Provider markdown representation of Table S3 XLSX; not original workbook bytes",
+      "rights": "Article declares CC BY-NC 4.0; supporting-file rights not separately inferred; raw response excluded from Git"
+    }
+  ],
+  "reused_source_files": [
+    {
+      "filename": "R27_supplement.json",
+      "bytes": 70904,
+      "sha256": "7221e4f36c98793628e46bab869eaedc16c19c852fd1f7b8a5932a364390f643",
+      "fresh_acquisition": false,
+      "inherited_manifest": "research/source_join_resolution/SOURCE_PROVENANCE.json"
+    },
+    {
+      "filename": "R28_2009.json",
+      "bytes": 235236,
+      "sha256": "a74117403cca947ceae2a1811c5efb9d8ab146b46985425ddded18097a9def98",
+      "fresh_acquisition": false,
+      "inherited_manifest": "research/source_join_resolution/SOURCE_PROVENANCE.json"
+    }
+  ],
+  "inherited_dependencies": [
+    {
+      "path": "research/source_join_resolution/SOURCE_PROVENANCE.json",
+      "bytes": 9427,
+      "sha256": "218345fb64bfa334258fae65efdf9c88348e8f322e796c5364db6eb0cd4217bd"
+    },
+    {
+      "path": "research/source_join_resolution/DERIVED_SOURCE_AUDIT.json",
+      "bytes": 4648,
+      "sha256": "0d0cdb3f37a24ee127bd40bc64610f464e6bb283bd3365f5ee0e13e5e8fe495b"
+    },
+    {
+      "path": "research/source_join_resolution/REPORT.md",
+      "bytes": 7811,
+      "sha256": "f9e1b8e2887e9bd6dfa1e1a0c56fe66c7d2f0ddc4b1b40f921749bc329f1ef8e"
+    },
+    {
+      "path": "research/strain_unit_map/STRAIN_MAP.json",
+      "bytes": 9264,
+      "sha256": "7f3872f00edb3040608aa7054623cf0d81826ede4a333479d9ea41b79ca2cef7"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+    }
+  ],
+  "acquisition_boundary": {
+    "surface": "Firecrawl connector, independent of shell execution environment",
+    "shell_network_calls": 0,
+    "exact_download_calls": 0,
+    "raw_reads_acquired": false,
+    "source_selection": "Known DOI lead from R29, then primary-page links to strain table, molecular context PDF and named mutation-call workbook; no repeated endpoint inventory.",
+    "scope": "Bounded primary-source inspection; no exhaustive stock search or absence claim."
+  },
+  "public_source_bodies": false
+}

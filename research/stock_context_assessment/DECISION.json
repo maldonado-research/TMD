@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "round": "R30",
+  "supported": [
+    {
+      "id": "later_isolate_allele_context",
+      "status": "supported_as_reported",
+      "strain": "SBW25-WS3",
+      "source": "10.1111/mmi.14855 Table 2, Table S1, Text S1 and Table S3",
+      "finding": "Later evolved isolate has reported mwsR t2183c, genomic 5856845, gtc to gcc, V728A; its implied coordinate origin agrees with R29.",
+      "independent_raw_sequence_validation": false
+    },
+    {
+      "id": "stock_table_caption_scope",
+      "status": "scope_resolved",
+      "finding": "Karita MPB10583 and MPB10613 rows cite McDonald2009; caption construction language is limited to strains without references."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "historical_WSR_to_MPB10613",
+      "finding": "Shared nucleotide label is not a stock or reconstruction crosswalk."
+    },
+    {
+      "id": "historical_WST_to_MPB10583",
+      "finding": "Shared interval is not a stock crosswalk; source 32bp label is preserved."
+    },
+    {
+      "id": "WSX_figure_legend_disagreement",
+      "finding": "2009 Table 1 and Figure 4 labels conflict; molecular assignment stays unknown."
+    },
+    {
+      "id": "author_correction",
+      "finding": "No author-issued correction acquired."
+    }
+  ],
+  "matched_panels_admitted": 0,
+  "stock_sequences_authenticated": 0,
+  "new_biological_fit": false,
+  "historical_26_changed": false,
+  "prospective_holdout_created": false,
+  "stock_selected": false,
+  "outreach_or_laboratory_work_commissioned": false,
+  "external_peer_review": false,
+  "study_null_fields": 26,
+  "planning_null_fields": 18,
+  "methods_version": "0.6.0",
+  "runner": "paused"
+}

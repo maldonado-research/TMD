@@ -1,0 +1,33 @@
+# R30: A later sequenced isolate supports the allele coordinates, not a historical stock identity
+
+The previously excerpt-only mwsR T2183C/V728A lead is now located in a primary article and three supporting source representations. It belongs to **SBW25-WS3, an evolved isolate in Mukherjee, Dechow-Seligmann and Gallie (2022)**. Their Table S3 reports genomic position **5856845**, the change **gtc→gcc**, and **V728A**. This independently reported coordinate agrees with R29's conditional reference projection. It does not identify SBW25-WS3 as historical WSR, a reconstruction of WSR, or Karita's MPB10613.
+
+Five bounded Firecrawl calls acquired one failed PDF-wrapper representation, the full publisher page representation, Table S1, the 28-page supporting PDF representation and Table S3. No original article/PDF/workbook binary or sequencing reads were acquired. [Provenance](SOURCE_PROVENANCE.json) records arguments, UTC times, fingerprints, representations and saved-byte accounting. R27/R28 captures were reused after exact fingerprint checks. The source bodies stay outside Git.
+
+## What the later primary study establishes
+
+[Mukherjee et al.](https://doi.org/10.1111/mmi.14855), Results 2.3, describes ten WS isolates from independent, 72-hour SBW25-founded microcosms and ten separate PICF7 WS isolates. Methods 4.6 also includes ten A506 Web isolates. The 30 sequenced isolates therefore are not 30 SBW25 trials. This assessment neither imports their counts into the historical 26-isolate collection nor promotes endpoint sampling into origin truth or a matched trial panel.
+
+Table 2 assigns t2183c/V728A to SBW25-WS3. [Table S1](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fmmi.14855&file=mmi14855-sup-0002-TableS1.xls) calls it an evolved SBW25 mat-forming strain, referenced to this study. Supporting Text S1, Table 1.2, repeats the nucleotide/protein pair and the codon change. These three records concern the same isolate and are not three independent cultures.
+
+The [Table S3](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fmmi.14855&file=mmi14855-sup-0004-TableS3.xlsx) summary row reports forward genomic position 5856845, mwsR/pflu5329, t2183c, gtc→gcc and V728A, with breseq read-alignment, PCR and Sanger evidence. Its per-isolate sheet repeats position 5,856,845 and t→c/V728A. Methods 4.7 identifies NC_012660.1 as the SBW25 mapping reference; the publication does not establish the annotation release used. The article declares sequencing reads under [PRJNA730882](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA730882). These are the authors' validation and availability statements; no raw-read reanalysis or independent molecular authentication was performed here.
+
+The paired genome/gene positions imply origin 5856845 − 2183 + 1 = **5854663**, matching the coordinate origin inferred from the 2019 workbook in R29. R29's exact 2021-annotated reference slice numbers the same conditional genomic change **V694A**, because that CDS begins 102 nt later. The new primary record supports the earlier numbering convention for SBW25-WS3. Historical WSR still has the literal 2009 Table 1 protein label **V272A**; no author correction, shared stock history or MPB sequence is supplied by this join.
+
+## Why the MPB stocks still need their own records
+
+[Karita et al., Table S3](https://doi.org/10.6084/m9.figshare.30997061.v1) lists MPB10583 with awsX Δ32bp (229–261) and MPB10613 with mwsR T2183C. Both rows cite reference 17, McDonald et al. (2009). The caption's repository and two-step construction statement expressly concerns strains **without references**. It therefore cannot authenticate these two referenced stocks as particular reconstructions. The source's 32bp label remains intact; R29's 33-nt coordinate/peptide calculation is not silently substituted for it.
+
+The reused [2009 article representation](https://doi.org/10.1534/genetics.109.107110) also contains disagreements relevant to stock identification. Table 1 assigns T2183C/V272A to WSR and leaves WSX molecularly unknown, while the Figure 4 legend labels a comparison as WSX versus SM mwsR T2183C. The same legend names the MWS reconstruction G3260A, whereas Table 1 and Results report G3247A/E1083K. These literals are preserved as source inconsistencies; they do not establish a WSX mutation, rename WSR, or merge the distinct MWS reference strain with WSR.
+
+McDonald reports original isolates and independently reconstructed alleles. A genotype description alone consequently cannot distinguish an original isolate, one reconstruction, a later evolved isolate, or a relabelled stock. The acquired later strain/supporting records provide no authenticated crosswalk among SBW25-WS3, WSR and MPB10613. This is a bounded source finding, not proof that no stock record exists elsewhere.
+
+## Decision and next admissible evidence
+
+[Decisions](DECISION.json) accept the later isolate's published allele-coordinate context and leave all historical/MPB stock joins unresolved. [Stock record requirements](STOCK_RECORD_REQUIREMENTS.json) name the documentary evidence needed: a versioned identifier/alias chain, original-versus-reconstruction status, relevant background, accession plus annotation/coordinate convention, and sequence/call evidence explicitly linked to that stock. This is a document preflight, not a request to select materials, perform laboratory work or contact anyone. Even a complete stock identity record would not supply matched route exposure, acquisition episodes, independent origin truth, loss limits, establishment or separately calibrated recovery/classification.
+
+No stock is selected or admitted. All 26 actual study fields and 18 planning fields remain NULL. R5/R11/R17, theta/eta, count-law and error-allocation rules, fixed stopping, paused runner and methods 0.6.0 remain unchanged. No new biological fit, causal confirmation, held-out success or external peer review is claimed.
+
+Run `python -B research/stock_context_assessment/verify_sources.py`, optionally with `--source-cache /path/to/sources`. The read-only verifier distinguishes public integrity checks from source replay, which is explicitly UNRUN without captures. A passing replay verifies representations and the stated source joins; it does not validate a biological stock.
+
+Original assessment and derived facts: Ricardo Maldonado with AI assistance, CC BY 4.0. Code: MIT. Source facts are attributed to Mukherjee, Dechow-Seligmann, Gallie, McDonald, Karita, Lind and their coauthors. The later article declares CC BY-NC 4.0; supplemental rights are not separately inferred. Original source rights remain unchanged, and source bodies are excluded from publication.
