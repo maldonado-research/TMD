@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R28, 11 October 2026
+## Latest research checkpoint — R29, 13 October 2026
+
+The [reference/source-join assessment](research/source_join_resolution/REPORT.md) exposes a 102-base mwsR CDS-origin difference: the same conditional genomic change is V728A in a workbook-implied frame and V694A in the acquired annotation. The historical awsX interval matches 33 bases and its reported peptide in the inspected reference. Actual stock identity and newer allele annotations remain unresolved.
+
+The [summary reconciliation](research/summary_reconciliation/REPORT.md) confirms propagation of the disputed fitness constants into the embedded chart and excludes one missing equal-weight coefficient as an explanation under arithmetic-mean/sample-SD assumptions. Author values and intended-aggregation unknowns remain intact. [R29 checkpoint](research/CONTINUATION_HANDOFF_2026-10-13_R29.md).
+
+All 26 actual study inputs and 18 planning fields remain NULL. No matched panel, biological fit, new theorem or qualified external review is admitted. Forecasts, eta, error allocation, stopping, paused automation and methods 0.6.0 stay unchanged; no new Zenodo version is generated.
+
+## Prior R28 checkpoint — 11 October 2026
 
 The [common-ancestor source assessment](research/matched_source_feasibility/REPORT.md) traces one day-five sampled isolate per 26 microcosms and distinguishes 16 molecularly assigned Wsp isolates from a 17-isolate functional grouping. Two exact Lind workbooks expose 105 mutation rows and 73 visible competition coefficients, including one stored summary not reproduced by the visible row's unweighted mean/sampleSD. Source backgrounds, unknowns and author values remain explicit.
 

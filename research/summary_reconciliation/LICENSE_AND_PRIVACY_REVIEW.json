@@ -1,0 +1,12 @@
+{
+  "original_documentation_and_derived_assessment": "CC BY 4.0",
+  "new_code": "MIT",
+  "attribution": "Ricardo Maldonado, TMD R29, with AI assistance; source facts attributed to Peter A Lind, Eric Libby, Jenny Herzog and Paul B Rainey (2019), DOI 10.7554/eLife.38822.",
+  "third_party_rights": "Unchanged. Article declares CC BY 4.0; no separate embedded workbook license authenticated.",
+  "source_body_files_public": false,
+  "source_binaries_public": false,
+  "private_raw_data_public": false,
+  "credential_values_public": false,
+  "author_workstation_metadata_public": false,
+  "scope": "Limited necessary attributed cell/formula/chart facts, original conditional arithmetic, provenance, decision and read-only verifier. No full article/table/workbook redistribution."
+}

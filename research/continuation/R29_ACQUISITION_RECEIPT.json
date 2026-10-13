@@ -1,0 +1,28 @@
+{
+  "round": "R000029",
+  "scientific_acquisition_calls": 11,
+  "serialized_response_capture_bytes": 1563431,
+  "exact_GenBank_reference_bytes": 25047,
+  "new_XLSX_bytes": 0,
+  "counted_saved_source_bytes": 1588478,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "source_join_calls": 6,
+  "summary_reconciliation_calls": 4,
+  "root_watch_calls": 1,
+  "shared_acquisitions_counted_once": true,
+  "reused_R28_XLSX_counted_as_new": false,
+  "source_ledgers": [
+    "../source_join_resolution/SOURCE_PROVENANCE.json",
+    "../summary_reconciliation/SOURCE_PROVENANCE.json",
+    "R29_RECENT_SOURCE_WATCH.json"
+  ],
+  "unavailable_accounting": [
+    "provider_internal_request_totals",
+    "wire_transport_bytes"
+  ],
+  "raw_source_bodies_reference_files_and_XLSX_published": false,
+  "private_material_screening": "Ten previously scoped private handoff paths rechecked unchanged; no new measurement artifact admitted. Not a full-drive/content review. Private receipt excluded.",
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

@@ -1,0 +1,37 @@
+{
+  "executed_utc": "2026-10-13T22:25:04.286037+00:00",
+  "status": "PASS",
+  "invocations": [
+    {
+      "mode": "public-only",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "source_replay": "UNRUN: no source cache supplied",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "stock_sequences_authenticated": 0,
+        "new_biological_fit": false
+      }
+    },
+    {
+      "mode": "source replay",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "source_replay": "PASS: exact reference slices, CDS loci/codons, reused workbook coordinates and selected source anchors",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "stock_sequences_authenticated": 0,
+        "new_biological_fit": false
+      }
+    }
+  ],
+  "public_manifest_sha256": "e0f81d0bdba3448c89842bd156fb031691c4d8a22a4b0109cc71acff61d2a696",
+  "scientific_calls": 6,
+  "saved_acquisition_bytes": 306141,
+  "exact_reference_bytes": 25047,
+  "scope": "Read-only reference identities, annotation-frame/codon replay, source labels, public hash closure and NULL registries; no physical stock or biological validation."
+}

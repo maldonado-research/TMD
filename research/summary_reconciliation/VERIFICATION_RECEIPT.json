@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "research/summary_reconciliation/verify_reconciliation.py"
+      ],
+      "started_utc": "2026-10-13T22:24:35.541158+00:00",
+      "completed_utc": "2026-10-13T22:24:35.581336+00:00",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "new_source_replay": "UNRUN: no R29 source cache supplied",
+        "reused_workbook_replay": "UNRUN: no R28 workbook cache supplied",
+        "conditional_calculation": "PASS",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "source_experimental_truth_validated": false
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "research/summary_reconciliation/verify_reconciliation.py",
+        "--source-cache",
+        "/workspace/tmd-progress-r29-2026-10-13/summary-reconciliation/sources",
+        "--r28-cache",
+        "/workspace/tmd-progress-r28-2026-10-11/matched-source/sources"
+      ],
+      "started_utc": "2026-10-13T22:24:35.581366+00:00",
+      "completed_utc": "2026-10-13T22:24:35.635931+00:00",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "new_source_replay": "PASS: capture identities and selected primary-source anchors; no exhaustive correction-search claim",
+        "reused_workbook_replay": "PASS: reused exact R28 binary identity, cell/formula/chart audit and row arithmetic; not a fresh acquisition",
+        "conditional_calculation": "PASS",
+        "study_nulls": 26,
+        "planning_nulls": 18,
+        "matched_panels_admitted": 0,
+        "source_experimental_truth_validated": false
+      }
+    }
+  ],
+  "read_only_verifier": true,
+  "network_calls_in_verifier": 0,
+  "source_body_files_published": false,
+  "author_values_replaced": false,
+  "closure_note": "SHA256SUMS covers this receipt and every allowlisted file except itself; final verifier execution checks the completed closure."
+}

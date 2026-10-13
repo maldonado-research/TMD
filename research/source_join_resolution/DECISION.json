@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "round": "R29",
+  "status": "REFERENCE_ANNOTATION_ADVANCED_ADMISSION_UNCHANGED",
+  "matched_panels_admitted": 0,
+  "new_biological_fit": false,
+  "actual_study_fields_null": 26,
+  "planning_fields_null": 18,
+  "stock_sequences_authenticated": 0,
+  "source_annotations_silently_corrected": false,
+  "historical_collection_reclassified": false,
+  "preserved": [
+    "R5",
+    "R11",
+    "R17",
+    "theta/eta and comparators",
+    "count-law admission",
+    "error allocation",
+    "fixed stopping",
+    "paused runner",
+    "methods 0.6.0"
+  ],
+  "external_peer_review": false,
+  "claim_boundary": "Reference annotation and conditional coordinate agreement do not establish physical stock identity, molecular WSX truth, independent origins, calibration controls, biological causality or prospective held-out success."
+}

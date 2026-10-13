@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "joins": [
+    {
+      "id": "awsX_reference_interval",
+      "status": "SUPPORTED_REFERENCE_CORRESPONDENCE",
+      "evidence": [
+        "McDonald 2009 Table 1/Results",
+        "Lind 2019 Figure 6 Aws row 22",
+        "S05 exact RefSeq slice"
+      ],
+      "conclusion": "Inclusive CDS 229–261 is 33 nt and encodes YTDDLIKGTTQ; source literal 32bp retained.",
+      "stock_identity_authenticated": false
+    },
+    {
+      "id": "mwsR_reference_coordinate",
+      "status": "SUPPORTED_CONDITIONAL_COORDINATE_PROJECTION",
+      "evidence": [
+        "McDonald 2009 Table 1 WSR",
+        "Lind 2019 Figure 6 Mws rows 13, 15–19",
+        "S06 exact RefSeq slice"
+      ],
+      "conclusion": "If historical T2183C uses workbook-implied origin 5854663, it maps to genomic position 5856845 and V728A under that origin, or current CDS 2081/V694A. Literal current CDS position 2183 has base A.",
+      "condition_authenticated_for_2009_or_Karita_stock": false,
+      "author_correction_authenticated": false
+    },
+    {
+      "id": "MPB_stock_crosswalk",
+      "status": "UNRESOLVED",
+      "evidence": [
+        "Karita Table S3 MPB10583/MPB10613",
+        "targeted search S02"
+      ],
+      "missing": "A versioned stock alias/reference/genome provenance record distinguishing original isolates from reconstructed alleles.",
+      "stock_identity_authenticated": false
+    },
+    {
+      "id": "WSX_molecular_assignment",
+      "status": "UNRESOLVED",
+      "evidence": [
+        "McDonald 2009 Table 1 and repeated-sequencing Results",
+        "targeted search S02"
+      ],
+      "molecular_route": null,
+      "functional_dependency": "Wsp",
+      "absence_of_elsewhere_evidence_proven": false
+    }
+  ],
+  "same_collection_not_replication": true,
+  "new_independent_cultures": 0,
+  "actual_study_allele_selected": false,
+  "outreach_sent": false,
+  "laboratory_protocol_commissioned": false
+}

@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+  "next_action": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,14 +41,14 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000028"
+      "R000029"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-11_R28.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-13_R29.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "source_classifier_workbook_and_qualified_review_preparation_no_matched_panel_admitted"
+    "scientific_inference_status": "reference_frame_and_conditional_calculation_assessment_no_matched_panel_admitted"
   },
   "github_research_addenda_history": [
     {
@@ -114,6 +114,17 @@
       "third_party_Zenodo_dataset_requests_are_scientific_acquisitions": true,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "reported_strain_and_unit_map_control_contract_no_matched_panel_admitted"
+    },
+    {
+      "latest_rounds": [
+        "R000028"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-11_R28.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "source_classifier_workbook_and_qualified_review_preparation_no_matched_panel_admitted"
     }
   ],
   "publication_verified_file_count": 8,

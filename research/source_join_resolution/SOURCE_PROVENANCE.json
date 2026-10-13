@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "round": "R29",
+  "logical_scientific_calls": 6,
+  "logical_call_allocation": 6,
+  "saved_acquisition_bytes": 306141,
+  "byte_allocation": 8388608,
+  "exact_reference_bytes": 25047,
+  "byte_accounting": "Exact saved wrappers/receipts and acquired GenBank binaries counted once; reused verified source files and extracted markdown duplicates are not fresh bytes; no wire-byte claim.",
+  "saved_acquisition_files": [
+    {
+      "filename": "S01.json",
+      "bytes": 6258,
+      "sha256": "f10fc937e9fe52085d1d55a9f78d9d6c3ce06ce237589b5863478ca39068f69b"
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 4472,
+      "sha256": "8e55efae4853b0eeda753d732412ddf4a49f6e77a3743c8cea7d9ce71c453932"
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 261369,
+      "sha256": "1e219285c4f7fa9cf519f12e6c883873a5e9e662cb392cbd9289cef2330904bb"
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 7140,
+      "sha256": "66d4508871dd16c983660be41afc7abec3451304a761014491acd0588ea01dc0"
+    },
+    {
+      "filename": "S05.json",
+      "bytes": 927,
+      "sha256": "0a1a3af6cd9834dbbd446bc06ab55c94d3b7080b274c1677a4a4ed4effab8323"
+    },
+    {
+      "filename": "S05.gb",
+      "bytes": 9836,
+      "sha256": "16da6060aed6504430b27ca5d343204217e36e3c9a6434ea66b664d245742463"
+    },
+    {
+      "filename": "S06.json",
+      "bytes": 928,
+      "sha256": "2891e5e103d5a4804e0fe2754f1582caa02e65af7ea10d87cfc360b6edc96432"
+    },
+    {
+      "filename": "S06.gb",
+      "bytes": 15211,
+      "sha256": "6c4a390f575a5064aac3f67c37e4a1ff6281cf7075c14a433d759040dc1cd0c3"
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "S01",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "\"PFLU5329\" (\"T2183C\" OR \"V728A\" OR \"V272A\" OR \"AM181176\")",
+        "sources": [
+          "web"
+        ],
+        "limit": 5
+      },
+      "started_utc": "2026-10-13T22:14:56.409Z",
+      "completed_utc": "2026-10-13T22:14:58.878Z",
+      "capture_file": "S01.json",
+      "representation": "ranked search excerpts only",
+      "rights": "Search metadata/excerpts; raw response excluded"
+    },
+    {
+      "call_id": "S02",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "\"MPB10583\" OR \"MPB10613\" OR (\"WSX\" \"mutation\" \"SBW25\")",
+        "sources": [
+          "web"
+        ],
+        "limit": 6
+      },
+      "started_utc": "2026-10-13T22:14:56.409Z",
+      "completed_utc": "2026-10-13T22:14:57.593Z",
+      "capture_file": "S02.json",
+      "representation": "ranked search excerpts only",
+      "rights": "Search metadata/excerpts; raw response excluded"
+    },
+    {
+      "call_id": "S03",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://elifesciences.org/articles/07074",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:15:45.736Z",
+      "completed_utc": "2026-10-13T22:15:53.099Z",
+      "capture_file": "S03.json",
+      "representation": "provider markdown page representation",
+      "rights": "Lind2015 eLife page declares CC BY4.0; raw representation excluded"
+    },
+    {
+      "call_id": "S04",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "Pseudomonas SBW25 \"PFLU5329\" \"sequence\"",
+        "sources": [
+          "web"
+        ],
+        "limit": 5
+      },
+      "started_utc": "2026-10-13T22:15:45.736Z",
+      "completed_utc": "2026-10-13T22:15:55.444Z",
+      "capture_file": "S04.json",
+      "representation": "ranked search excerpts only",
+      "rights": "Search metadata/excerpts; raw response excluded"
+    },
+    {
+      "call_id": "S05",
+      "tool": "urllib.request bounded exact GenBank GET",
+      "arguments": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012660.1&rettype=gbwithparts&retmode=text&seq_start=5706900&seq_stop=5707800",
+        "timeout_seconds": 30,
+        "max_bytes": 1048576,
+        "redirect_policy": "same_allowed_host_only",
+        "tls_verification": true,
+        "accept_encoding": "identity",
+        "credentials_used": false
+      },
+      "started_utc": "2026-10-13T22:17:40.362738+00:00",
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012660.1&rettype=gbwithparts&retmode=text&seq_start=5706900&seq_stop=5707800",
+      "content_type": "text/plain",
+      "source_file": "S05.gb",
+      "source_bytes": 9836,
+      "source_sha256": "16da6060aed6504430b27ca5d343204217e36e3c9a6434ea66b664d245742463",
+      "completed_utc": "2026-10-13T22:17:41.156332+00:00",
+      "representation": "Exact NCBI GenBank slice bytes; reference annotation, not stock sequence",
+      "rights": "No blanket open license inferred for source record; raw source excluded, attributed derived facts only",
+      "capture_file": "S05.json"
+    },
+    {
+      "call_id": "S06",
+      "tool": "urllib.request bounded exact GenBank GET",
+      "arguments": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012660.1&rettype=gbwithparts&retmode=text&seq_start=5854300&seq_stop=5859000",
+        "timeout_seconds": 30,
+        "max_bytes": 1048576,
+        "redirect_policy": "same_allowed_host_only",
+        "tls_verification": true,
+        "accept_encoding": "identity",
+        "credentials_used": false
+      },
+      "started_utc": "2026-10-13T22:17:40.363312+00:00",
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012660.1&rettype=gbwithparts&retmode=text&seq_start=5854300&seq_stop=5859000",
+      "content_type": "text/plain",
+      "source_file": "S06.gb",
+      "source_bytes": 15211,
+      "source_sha256": "6c4a390f575a5064aac3f67c37e4a1ff6281cf7075c14a433d759040dc1cd0c3",
+      "completed_utc": "2026-10-13T22:17:40.890545+00:00",
+      "representation": "Exact NCBI GenBank slice bytes; reference annotation, not stock sequence",
+      "rights": "No blanket open license inferred for source record; raw source excluded, attributed derived facts only",
+      "capture_file": "S06.json"
+    }
+  ],
+  "reused_source_files": [
+    {
+      "filename": "R28_2009.json",
+      "bytes": 235236,
+      "sha256": "a74117403cca947ceae2a1811c5efb9d8ab146b46985425ddded18097a9def98",
+      "inherited_manifest": "research/matched_source_feasibility/SOURCE_PROVENANCE.json",
+      "inherited_locator": "calls/S03",
+      "original_filename": "S03.json",
+      "fresh_acquisition": false
+    },
+    {
+      "filename": "R28_fig6.xlsx",
+      "bytes": 63836,
+      "sha256": "455113244c1b690436aecd361bc662da136d05b851e3c14a59c5038718c9af0e",
+      "inherited_manifest": "research/matched_source_feasibility/SOURCE_PROVENANCE.json",
+      "inherited_locator": "exact Figure6 workbook",
+      "original_filename": "elife-38822-fig6-data1-v1.xlsx",
+      "fresh_acquisition": false
+    },
+    {
+      "filename": "R27_supplement.json",
+      "bytes": 70904,
+      "sha256": "7221e4f36c98793628e46bab869eaedc16c19c852fd1f7b8a5932a364390f643",
+      "inherited_manifest": "research/strain_unit_map/SOURCES.json",
+      "inherited_locator": "acquisitions/04_supplement_pdf",
+      "original_filename": "04_supplement_pdf.json",
+      "fresh_acquisition": false
+    }
+  ],
+  "inherited_dependencies": [
+    {
+      "path": "research/matched_source_feasibility/SOURCE_PROVENANCE.json",
+      "bytes": 12963,
+      "sha256": "e4c102bfa1e9ad495602281ddc448a454b0148f426fdd2c94ca05dde89cf599d"
+    },
+    {
+      "path": "research/strain_unit_map/SOURCES.json",
+      "bytes": 11670,
+      "sha256": "b247de32a88e03333a7712c7d06d61db10aedcb293d7f899dc6e057cb740374d"
+    },
+    {
+      "path": "research/matched_source_feasibility/verify_sources.py",
+      "bytes": 14028,
+      "sha256": "389f9514dbdc9ba3d276aba203f8b3c2c8cdd7178f68b78909cc93d2bb9f0031"
+    },
+    {
+      "path": "research/matched_source_feasibility/DERIVED_SOURCE_AUDIT.json",
+      "bytes": 18154,
+      "sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5"
+    },
+    {
+      "path": "research/strain_unit_map/STRAIN_MAP.json",
+      "bytes": 9264,
+      "sha256": "7f3872f00edb3040608aa7054623cf0d81826ede4a333479d9ea41b79ca2cef7"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+    }
+  ],
+  "environment_boundary": {
+    "observed_spec_revision": "134",
+    "observations_current": true,
+    "network_state": "enforced",
+    "vpn_configured": false,
+    "direct_source_host": "eutils.ncbi.nlm.nih.gov",
+    "tls_verification": true,
+    "inherited_proxy_and_CA_preserved": true,
+    "credentials_used": false
+  },
+  "source_selection": "R28 exact Figure6 workbook genome/gene paired coordinates determined small gene-region bounds; search S04 identified candidate reference accession NC_012660, then exact response authenticated version.",
+  "search_limit": "Targeted, bounded results only; no systematic correction/stock search or proof of absence.",
+  "public_source_bodies": false
+}
