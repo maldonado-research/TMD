@@ -141,3 +141,7 @@ The [source assessment](matched_source_feasibility/REPORT.md) authenticates the 
 ## R29: reference-coordinate joins and conditional summary reconciliation
 
 The [source-join assessment](source_join_resolution/REPORT.md) records exact reference windows, allele peptide checks and an explicit annotation-frame condition for mwsR. Stock identity and WSX truth remain unresolved. The [reconciliation assessment](summary_reconciliation/REPORT.md) retains the embedded chart evidence and source-facing calculation constraints without correcting author values. [R29 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R29.md). All actual study and planning values remain NULL.
+
+## R30: stock context and source-calculation records
+
+The [stock-context assessment](stock_context_assessment/REPORT.md) identifies newly evolved SBW25-WS3, distinguishes recurrence from physical stock identity, and supplies a [document preflight](stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json). The [calculation-record assessment](calculation_record_assessment/REPORT.md) distinguishes pathway-simulation code from the unresolved fitness aggregation and adds an explicitly conditional weights-only constraint. [R30 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R30.md). All 44 actual study/planning fields remain NULL.

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "source_target": {
+    "article_doi": "10.7554/eLife.38822",
+    "figure": 9,
+    "worksheet_row": 21,
+    "source_data_doi": "10.7554/eLife.38822.021",
+    "genotype": "MwsR I844L"
+  },
+  "named_supplement": {
+    "doi": "10.7554/eLife.38822.022",
+    "title": "Equations and source code.",
+    "provider_reported_pages": 9,
+    "inspected_scope": "Wsp/Aws/Mws differential equations, Julia ODE/sampling code, MATLAB pathway probability contour plotting",
+    "fitness_summary_calculation_supplied_in_inspected_representation": false
+  },
+  "related_protocol": {
+    "authors": [
+      "Eric Libby",
+      "Peter A Lind"
+    ],
+    "doi": "10.21769/BioProtoc.3407",
+    "pmcid": "PMC7854003",
+    "published_repository_link": "https://github.com/ericlibby/BioProtocol",
+    "scope": "Probability of pathway-induced phenotypic change; linked sample MATLAB simulation and contour code"
+  },
+  "named_repository_commit": "e78d2b2df7c7af799687e4739f05027f204b3bf8",
+  "inspected_repository_files": [
+    {
+      "filename": "PlotModelComparison.m",
+      "lines": 49,
+      "bytes": 1260,
+      "git_blob_sha1": "74cf170994c255f600061484af62d77ed21b6f0b",
+      "sha256": "0592a61e9b9272509a97fa11e353a002127af82663c95b353c327631c9540e45"
+    },
+    {
+      "filename": "RunModelComparison.m",
+      "lines": 166,
+      "bytes": 6231,
+      "git_blob_sha1": "de2a55c5e58a1dfd889cd53dd9b83ec7d82d9c01",
+      "sha256": "b108b7adf67431086e74835f44d78283d6d83dbf550bfda37350a260e17a9bdb"
+    }
+  ],
+  "repository_scope": "RunModelComparison samples reaction rates/concentrations and an illustrative Aws model; the second pathway invokes the same helper. PlotModelComparison plots log ratios of output matrices. No Figure9 fitness replicate/exclusion/GFP-background-correction/summary mapping in these two inspected files.",
+  "reconstruction_claim": "Both complete initial added-file patches reproduce their declared Git blob SHA-1 hashes. This is content consistency within the provider representation, not independent authentication of native API response bytes.",
+  "source_code_executed": false,
+  "simulation_outputs_generated": false,
+  "source_intended_aggregation_identified": false,
+  "uninspected_named_path": {
+    "doi": "10.7554/eLife.38822.023",
+    "title": "Transparent reporting form",
+    "body_inspected": false
+  },
+  "absence_claim_exhaustive": false,
+  "needed_authoritative_record_fields": [
+    "row21 microcosm/replicate identity mapping",
+    "excluded microcosm identifiers and decisions",
+    "GFP marker correction inputs and formulas",
+    "background/reporter correction inputs and formulas",
+    "final coefficient-to-D21/E21 aggregation rule and SD definition"
+  ],
+  "new_observed_supply_establishment_or_outcome_vector": false,
+  "independent_comparator_admitted": false
+}

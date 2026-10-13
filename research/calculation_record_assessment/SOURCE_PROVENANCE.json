@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "round": "R30",
+  "base_research_commit": "1e2d0938eec52f792ef01d633e4baccec7dd2d79",
+  "logical_scientific_calls": 5,
+  "logical_call_allocation": 5,
+  "saved_acquisition_bytes": 220979,
+  "byte_allocation": 10485760,
+  "byte_accounting": "Exact UTF-8 saved JSON capture bytes counted once, including duplicated provider representations. Not wire bytes. Reused R29 captures/R28 binary excluded from new acquisition.",
+  "saved_acquisition_files": [
+    {
+      "filename": "S01.json",
+      "bytes": 36672,
+      "sha256": "db64a732beadb65f9245b12250fdcda3d34eb2e691a3a236951b54d33187576e"
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 6132,
+      "sha256": "b275b554a0102d93e0a999c1ef82ad31d45416bc312bbe56194519adc53411b7"
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 126009,
+      "sha256": "2238d40a2f035d2eca5d93b0602979b8dace8c14b7e3b96acf9c9321d0d6d5eb"
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 20035,
+      "sha256": "f4090a4a0cb2de4126b4a91d226944aa5563c02afb5d5fdc40a38b352761905a"
+    },
+    {
+      "filename": "S05.json",
+      "bytes": 32131,
+      "sha256": "50cbef53e30667ba2be34566d14db44cf7d24f6095649b13e43baa77a24e7316"
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "S01",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "arguments": {
+        "url": "https://cdn.elifesciences.org/articles/38822/elife-38822-supp1-v1.pdf",
+        "formats": [
+          "markdown"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 50
+        },
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:54:18.330Z",
+      "completed_utc": "2026-10-13T22:54:26.664Z",
+      "capture_file": "S01.json",
+      "representation": "Provider representation, not original HTTP/native API/PDF bytes",
+      "provider_metadata": {
+        "sourceURL": "https://cdn.elifesciences.org/articles/38822/elife-38822-supp1-v1.pdf",
+        "url": "https://cdn.elifesciences.org/articles/38822/elife-38822-supp1-v1.pdf",
+        "statusCode": 200,
+        "scrapeId": "01a13779-5acd-7468-b071-c486141233a6",
+        "contentType": "application/pdf",
+        "numPages": 9,
+        "totalPages": 9
+      },
+      "result_scope": "Publisher-linked code supplement; provider reports all 9 pages; pathway simulation equations/code inspected."
+    },
+    {
+      "call_id": "S02",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_search",
+      "arguments": {
+        "query": "\"Predicting mutational routes to new adaptive phenotypes\" data code repository",
+        "limit": 6,
+        "sources": [
+          "web"
+        ],
+        "highlights": true
+      },
+      "started_utc": "2026-10-13T22:54:18.330Z",
+      "completed_utc": "2026-10-13T22:54:28.112Z",
+      "capture_file": "S02.json",
+      "representation": "Provider representation, not original HTTP/native API/PDF bytes",
+      "provider_metadata": {
+        "search_id": "01a13779-6f7d-721c-90f9-2414547994eb"
+      },
+      "result_scope": "Six ranked repository-oriented search results; discovery only, not exhaustive."
+    },
+    {
+      "call_id": "S03",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854003/",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:54:38.388Z",
+      "completed_utc": "2026-10-13T22:54:43.072Z",
+      "capture_file": "S03.json",
+      "representation": "Provider representation, not original HTTP/native API/PDF bytes",
+      "provider_metadata": {
+        "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854003/",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854003/",
+        "statusCode": 200,
+        "scrapeId": "01a13779-a70e-7780-98ac-9b5158e3ccf2",
+        "contentType": "text/html; charset=utf-8"
+      },
+      "result_scope": "Related Libby/Lind protocol; direct named repository linkage and simulation scope inspected."
+    },
+    {
+      "call_id": "S04",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "arguments": {
+        "url": "https://github.com/ericlibby/BioProtocol",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:54:38.388Z",
+      "completed_utc": "2026-10-13T22:54:47.745Z",
+      "capture_file": "S04.json",
+      "representation": "Provider representation, not original HTTP/native API/PDF bytes",
+      "provider_metadata": {
+        "sourceURL": "https://github.com/ericlibby/BioProtocol",
+        "url": "https://github.com/ericlibby/BioProtocol",
+        "statusCode": 200,
+        "scrapeId": "01a13779-b7cd-7688-92e7-fb07a5eba170",
+        "contentType": "text/html; charset=utf-8"
+      },
+      "result_scope": "Repository listing and named commit; two source-code filenames."
+    },
+    {
+      "call_id": "S05",
+      "tool": "mcp__codex_apps__firecrawl_firecrawl_scrape",
+      "arguments": {
+        "url": "https://api.github.com/repos/ericlibby/BioProtocol/commits/e78d2b2df7c7af799687e4739f05027f204b3bf8",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-13T22:55:01.667Z",
+      "completed_utc": "2026-10-13T22:55:05.409Z",
+      "capture_file": "S05.json",
+      "representation": "Provider representation, not original HTTP/native API/PDF bytes",
+      "provider_metadata": {
+        "sourceURL": "https://api.github.com/repos/ericlibby/BioProtocol/commits/e78d2b2df7c7af799687e4739f05027f204b3bf8",
+        "url": "https://api.github.com/repos/ericlibby/BioProtocol/commits/e78d2b2df7c7af799687e4739f05027f204b3bf8",
+        "statusCode": 200,
+        "scrapeId": "01a1377a-0083-748a-8056-50afe54c654e",
+        "contentType": "application/json; charset=utf-8"
+      },
+      "result_scope": "Pinned initial commit API representation; two complete added-file patches inspected and blob hashes reproduced."
+    }
+  ],
+  "reused_capture_files": [
+    {
+      "filename": "S04.json",
+      "bytes": 566962,
+      "sha256": "0751e3da123e75cafacd76f243b0f5a5770636ea06f0350a62b2e331231ab4fd"
+    }
+  ],
+  "reused_workbook": {
+    "filename": "elife-38822-fig9-data1-v1.xlsx",
+    "bytes": 48950,
+    "sha256": "703194d0a3136c3c701687106caec43c6e2bda032734b2762acda1f4f27fd68b"
+  },
+  "inherited_dependencies": [
+    {
+      "bytes": 3135,
+      "sha256": "25cf1c584d33d3be1a533e29870130e7a9f90a61afe0a5ef583a2503adf99ba2",
+      "path": "research/summary_reconciliation/SOURCE_FIELDS.json"
+    },
+    {
+      "bytes": 6313,
+      "sha256": "2ed955c3f22a0589dd8d67b0c89162c41b4a9a83af2a4a4362a58d19d20bf029",
+      "path": "research/summary_reconciliation/SOURCE_PROVENANCE.json"
+    },
+    {
+      "bytes": 9033,
+      "sha256": "06a0218222a13d44b5204bf958b1d7f99e122060654a54f5509a037fd303ba3f",
+      "path": "research/summary_reconciliation/REPORT.md"
+    },
+    {
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json"
+    },
+    {
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574",
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json"
+    }
+  ],
+  "environment_boundary": {
+    "reported_pending_spec_revision": "143",
+    "shell_network_state_at_acquisition": "unknown; no shell network used",
+    "provider": "Independent Firecrawl connector",
+    "source_credentials_used": false,
+    "exact_source_downloads_performed": false
+  },
+  "raw_source_bodies_published": false,
+  "search_scope": "One repository-oriented query followed by the named linked supplement, related protocol, named repository and pinned commit representation. No correction absence certification, exhaustive deposition search or outreach.",
+  "source_license": "Source facts attributed; original article declares CC BY 4.0. No separate supplement-code, repository-code or workbook license authenticated. Third-party rights unchanged."
+}

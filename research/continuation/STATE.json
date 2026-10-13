@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000029",
-    "next_round_id": "R000030",
+    "last_completed_round": "R000030",
+    "next_round_id": "R000031",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -253,7 +253,9 @@
     "mwsR_annotation_frame_difference_nt": 102,
     "latest_summary_reconciliation_round": "R000029",
     "source_intended_fitness_aggregation_identified": false,
-    "actual_stock_sequences_authenticated": 0
+    "actual_stock_sequences_authenticated": 0,
+    "latest_stock_context_round": "R000030",
+    "latest_calculation_record_assessment_round": "R000030"
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -332,8 +334,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R29 exactreference windows and conditional allele/annotation crosswalk, plus embeddedfitness-chart replay and standard conditional moment constraints internally cross-reviewed; no stock, matchedpanel or biologicalfit admitted.",
-    "next_action": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+    "last_completed_step": "R30 primary SBW25-WS3 focal-allele context, stock-record preflight and named pathway simulation/calculation-record distinction, plus standard conditional weights-only moment bound internally cross-reviewed; no actual stock, matched panel or biological fit admitted.",
+    "next_action": "Prioritize an actual-stock pedigree/sequence and annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 replicate, exclusion, marker/background-correction and aggregation record. A named transparent reporting form remains uninspected and may be inspected only if it can change a specific calculation gate. SBW25-WS3 allele correspondence is not historical WSR or MPB stock identity; preserve WSX molecular unknown and all historical source disagreements. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, parental/new-event truth, exposure and invisible-loss bounds. Keep PTATO benchmarking, default endpoint accumulation and automatic mathematical extensions parked. Acquire only named artifacts capable of changing admission; do not repeat unchanged endpoint or same-date searches. Actual stock selection, independent study units/count law, complete frozen predictors/comparators, untouched evaluation and biological interpretation remain unresolved. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -511,7 +513,32 @@
       "research/summary_reconciliation/VERIFICATION_RECEIPT.json": "a0efd229b8c81e7ebae684d1a2a762bbe06bb8f640fae0a9235824ff50423e22",
       "research/summary_reconciliation/verify_reconciliation.py": "83ff487b19e40edd20f0f1c3dde6363769f7ec95d355a4ac6b292ec55ff37152",
       "research/CONTINUATION_HANDOFF_2026-10-13_R29.md": "e7fe8f0ffb6667760af3c6e80e92446ae4a4ad5eacc80b51c484e853d4f12eb4",
-      "research/continuation/R29_RECENT_SOURCE_WATCH.json": "ca55ecfe57d2a8fcd38c4d74605b37df3ab2d79c065d31bb1e0f373b69f1c13d"
+      "research/continuation/R29_RECENT_SOURCE_WATCH.json": "ca55ecfe57d2a8fcd38c4d74605b37df3ab2d79c065d31bb1e0f373b69f1c13d",
+      "research/stock_context_assessment/DECISION.json": "701f63258690a289aca5f2e5c51fc0c157d56e7a56eaeb25fbdd508f3f8cbbae",
+      "research/stock_context_assessment/DERIVED_SOURCE_AUDIT.json": "28038d00bef45cb7eadb8aeb64b2601a00029a276c4b35ee5452ac7f3bdd5f88",
+      "research/stock_context_assessment/INDEPENDENT_REVIEW.json": "c59a1d7b6bfd53fc43ce7df71aac03d2eec5ee2f8105e4fe6cb64755d698180c",
+      "research/stock_context_assessment/LICENSE": "29784b3013f08decf576dd2c6d0df4cf843f95964dbc242b31a2e6d0b5929b13",
+      "research/stock_context_assessment/LICENSE_AND_PRIVACY_REVIEW.json": "04854fc22f2dca06b43728a17091584655049d1b482fa1add2c10aed1380b3d0",
+      "research/stock_context_assessment/PUBLIC_FILES.json": "d6fb625b5bdefc362439521cbf7ec86e13bba5348b5cd1868305ec3a90038b75",
+      "research/stock_context_assessment/REPORT.md": "40d687c018094a33b64308703aeb402fdb661b1d26798b3a3f6aa3d32b1f5bb5",
+      "research/stock_context_assessment/SHA256SUMS.txt": "e868ec731ad818939aa7ec1e83b7792fb1c40798cf7c6f0642cd4c4f95e07982",
+      "research/stock_context_assessment/SOURCE_PROVENANCE.json": "02be85ec6af6e004704129ec10452c70577ea766e5c2a17db9966a0d00318755",
+      "research/stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json": "8cc318546ab48170480ae24aa75ab7a66dc2fb7ed3764cb96ba3ab08a55ddf42",
+      "research/stock_context_assessment/VERIFICATION_RECEIPT.json": "c0cc46a8dcfe8956a988c8de69ce0c38bffc53a811e2971a03d4eef7666323d6",
+      "research/stock_context_assessment/verify_sources.py": "5b6c2eb0584427964544cee877f6b5cad5c78939ac0aebdd0627a9bd117098cd",
+      "research/calculation_record_assessment/CONDITIONAL_DIAGNOSTIC.json": "e1ccf28812151fbc97d960e5ccf558af80c4d9334a3624ac60954486cc3205a7",
+      "research/calculation_record_assessment/DECISION.json": "49b79389cde5c31a3d5caa0cf8557936bc2af0cb9cd95846aea75653a7590682",
+      "research/calculation_record_assessment/INDEPENDENT_REVIEW.json": "bae2558965c2833799bd43516df9243cd55d78202d64e816c49429c7bb2acf87",
+      "research/calculation_record_assessment/LICENSE": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "research/calculation_record_assessment/LICENSE_AND_PRIVACY_REVIEW.json": "9763d1044e7ea64e8c3130ac73c081e9bd3ac6b07b4f70b9f12e2784baa3f392",
+      "research/calculation_record_assessment/PUBLIC_FILES.json": "c15bae4c68e8099f0c30868c486836c1b6c18c0e35b5d4d58bc77f5533aa7e82",
+      "research/calculation_record_assessment/RECORD_ASSESSMENT.json": "03ddaa4c259e099fd480a18ee15aede37af71454f754c128dd3127f4c94097b3",
+      "research/calculation_record_assessment/REPORT.md": "2ba4c34dfadff80610f0d178acd408e48e9923acee2ca915dbe6823a44dc53fd",
+      "research/calculation_record_assessment/SHA256SUMS.txt": "ab665a2d4a87d2607f44f72cda44e1137769a1d6d43a1b59faabdf4e05a2797f",
+      "research/calculation_record_assessment/SOURCE_PROVENANCE.json": "238c59687241409d6d98011efcfc1ebae45150cc51b1e84566e235dcd2377a18",
+      "research/calculation_record_assessment/VERIFICATION_RECEIPT.json": "f66bcc9c8a2bd9564ec1bd6587487f7f6a7764eea90bb0bbdb9ab7e96db904f0",
+      "research/calculation_record_assessment/verify_calculation_record.py": "fe7a285355bd3cd75b763eb6cc7789110931d0ebaa98bff88edcaba6e839d1f1",
+      "research/CONTINUATION_HANDOFF_2026-10-13_R30.md": "dcb570ce6dd7d9815d095b3570ae2f18374334f1c6e96db25d0bdbdeff6f4627"
     }
   },
   "reviewed_checkpoint": {
@@ -543,7 +570,8 @@
       "R000026",
       "R000027",
       "R000028",
-      "R000029"
+      "R000029",
+      "R000030"
     ],
     "blocked_work_items": [
       {
@@ -641,9 +669,21 @@
         "scope": "Two exactreturned reference windows withPGAPannotation21Dec2021; cached2019workbook/embeddedchart replay; conditionalframes and moments, not stocksequence or biologicaladmission",
         "source_ledger_sha256": "218345fb64bfa334258fae65efdf9c88348e8f322e796c5364db6eb0cd4217bd",
         "summary_source_ledger_sha256": "2ed955c3f22a0589dd8d67b0c89162c41b4a9a83af2a4a4362a58d19d20bf029"
+      },
+      {
+        "round": "R000030",
+        "source_ids": [
+          "10.1111/mmi.14855",
+          "10.7554/eLife.38822.022",
+          "10.21769/BioProtoc.3407",
+          "ericlibby/BioProtocol/e78d2b2df7c7af799687e4739f05027f204b3bf8"
+        ],
+        "scope": "Primary focal-allele context and linked simulation representations; no stock authentication, original binaries, code execution or calculation-aggregation truth",
+        "stock_source_ledger_sha256": "02be85ec6af6e004704129ec10452c70577ea766e5c2a17db9966a0d00318755",
+        "calculation_source_ledger_sha256": "238c59687241409d6d98011efcfc1ebae45150cc51b1e84566e235dcd2377a18"
       }
     ],
-    "next_action": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    "next_action": "Prioritize an actual-stock pedigree/sequence and annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 replicate, exclusion, marker/background-correction and aggregation record. A named transparent reporting form remains uninspected and may be inspected only if it can change a specific calculation gate. SBW25-WS3 allele correspondence is not historical WSR or MPB stock identity; preserve WSX molecular unknown and all historical source disagreements. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, parental/new-event truth, exposure and invisible-loss bounds. Keep PTATO benchmarking, default endpoint accumulation and automatic mathematical extensions parked. Acquire only named artifacts capable of changing admission; do not repeat unchanged endpoint or same-date searches. Actual stock selection, independent study units/count law, complete frozen predictors/comparators, untouched evaluation and biological interpretation remain unresolved. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
   },
   "previous_checkpoint_steps": [
     {
@@ -685,10 +725,15 @@
       "round": "R000028",
       "last_completed_step": "R28 historical26microcosm sampling/classifier frame, two exactLindworkbooks and row 21 arithmetic discrepancy, plus44-field practical qualified-review preparation internally cross-reviewed; no matched panel or biological fit.",
       "next_action": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    },
+    {
+      "round": "R000029",
+      "last_completed_step": "R29 exactreference windows and conditional allele/annotation crosswalk, plus embeddedfitness-chart replay and standard conditional moment constraints internally cross-reviewed; no stock, matchedpanel or biologicalfit admitted.",
+      "next_action": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000029",
+    "round": "R000030",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

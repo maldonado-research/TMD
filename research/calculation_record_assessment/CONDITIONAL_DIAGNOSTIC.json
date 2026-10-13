@@ -1,0 +1,36 @@
+{
+  "assumptions": "Only the unchanged visible G21/H21/I21 coefficients; nonnegative weights summing to one; their weighted arithmetic mean equals D21; E21 is population SD or an SD whose variance is at least this weighted population variance.",
+  "visible_cell_order": [
+    "G21",
+    "H21",
+    "I21"
+  ],
+  "stored_mean": -0.08342271304484693,
+  "stored_sd": 0.015151720326583237,
+  "stored_variance": 0.00022957462885499563,
+  "minimum_weighted_population_variance_at_stored_mean": 0.00044392995444833853,
+  "minimum_weighted_population_sd_at_stored_mean": 0.02106964533276103,
+  "minimum_variance_minus_stored_variance": 0.0002143553255933429,
+  "attaining_weights_in_visible_cell_order": [
+    0.7201386303066167,
+    0.27986136969338327,
+    0.0
+  ],
+  "attaining_weights_are_diagnostic_not_author_weights": true,
+  "gap_bounds_with_each_input_perturbed_at_most_5e_minus_15": [
+    0.00021435532559272206,
+    0.00021435532559396374
+  ],
+  "weights_alone_reconcile_mean_and_sd_under_assumptions": false,
+  "zero_weights_permitted": true,
+  "not_ruled_out": [
+    "SEM or other uncertainty measures",
+    "transformations",
+    "different underlying records",
+    "GFP or background corrections",
+    "source transcription or undocumented aggregation"
+  ],
+  "source_intended_aggregation_identified": false,
+  "novel_theorem_claimed": false,
+  "author_values_replaced": false
+}

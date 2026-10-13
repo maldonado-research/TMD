@@ -1,0 +1,29 @@
+{
+  "round": "R000030",
+  "scientific_acquisition_calls": 10,
+  "serialized_response_capture_bytes": 2499683,
+  "new_original_artifact_bytes": 0,
+  "new_XLSX_bytes": 0,
+  "counted_saved_source_bytes": 2499683,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "stock_context_calls": 5,
+  "calculation_record_calls": 5,
+  "root_watch_calls": 0,
+  "failed_capture_calls_included": 1,
+  "shared_acquisitions_counted_once": true,
+  "reused_R28_XLSX_counted_as_new": false,
+  "source_ledgers": [
+    "../stock_context_assessment/SOURCE_PROVENANCE.json",
+    "../calculation_record_assessment/SOURCE_PROVENANCE.json"
+  ],
+  "unavailable_accounting": [
+    "provider_internal_request_totals",
+    "wire_transport_bytes"
+  ],
+  "raw_source_bodies_or_third_party_code_published": false,
+  "private_material_screening": "No new R30 private scan. Earlier scoped handoff review is historical context, not full-drive access.",
+  "recent_date_watch": "R29 exact query retained historically; not repeated.",
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

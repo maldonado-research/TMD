@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "documentary preflight only; no submitted stock record and no admission",
+  "scope": "Necessary stock-identity evidence; not sufficient for matched TMD panel admission. No proposed experiment or material selection.",
+  "required_evidence": [
+    {
+      "id": "stock_identity",
+      "record": "Versioned repository identifier, aliases and accession or custody history explicitly connecting the claimed physical stock to the named source isolate or reconstruction."
+    },
+    {
+      "id": "derivation",
+      "record": "Original isolate versus reconstructed allele; if reconstructed, the specific reconstruction identifier and documented parent background."
+    },
+    {
+      "id": "reference",
+      "record": "Sequence accession/version plus gene model or annotation release, strand and coordinate basis used for the allele label."
+    },
+    {
+      "id": "molecular_record",
+      "record": "Sequence or variant-call evidence linked to this stock, with source provenance and validation status; a generic reference sequence or matching allele label is insufficient."
+    },
+    {
+      "id": "literal_disagreements",
+      "record": "Source-backed handling of the awsX 32bp/33nt and mwsR V272A/V728A labels, keeping original literals and any author correction distinct."
+    },
+    {
+      "id": "background",
+      "record": "Documented relevant background differences and markers; shared SBW25 naming alone does not establish equivalence."
+    }
+  ],
+  "downstream_admission_still_requires": [
+    "matched route supply/exposure",
+    "acquisition episodes and independent origin truth",
+    "pre-existing/inherited negative controls",
+    "invisible-loss limits",
+    "establishment definition",
+    "separately calibrated recovery and classification"
+  ],
+  "parser_success_is_biological_validation": false,
+  "fills_existing_study_or_planning_fields": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "round": "R30",
+  "status": "FITNESS_CALCULATION_RECORD_UNRESOLVED_NAMED_SIMULATION_CODE_SCOPED_WEIGHTS_ONLY_EXCLUDED_CONDITIONALLY",
+  "source_intended_aggregation_identified": false,
+  "author_correction_authenticated": false,
+  "author_values_replaced": false,
+  "missing_values_imputed": false,
+  "weights_alone_reconcile_under_population_sd_assumptions": false,
+  "matched_panels_admitted": 0,
+  "new_biological_fit": false,
+  "study_fields_filled": 0,
+  "planning_fields_filled": 0,
+  "outreach_performed": false,
+  "external_peer_review_claimed": false,
+  "preserved": [
+    "R5",
+    "R11",
+    "R17",
+    "core theta/eta forecasts and comparators",
+    "count-law admission",
+    "error allocation",
+    "fixed stopping",
+    "paused Sol runner",
+    "methods 0.6.0 immutable archive"
+  ],
+  "next_evidence": "Authoritative row21 replicate/exclusion/correction/aggregation calculation record or versioned source correction; evidence specification only."
+}
