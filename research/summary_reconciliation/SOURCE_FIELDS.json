@@ -1,0 +1,131 @@
+{
+  "workbook_filename": "elife-38822-fig9-data1-v1.xlsx",
+  "worksheet": "Sheet1",
+  "cell_storage_note": "Numeric values are exact lexical XML values; null means no stored value/formula. Source strings are attributed facts.",
+  "selected_cells": {
+    "A1": {
+      "value": "Figure 6 -source data",
+      "formula": null
+    },
+    "A2": {
+      "value": "Locus",
+      "formula": null
+    },
+    "B2": {
+      "value": "Gene symbol",
+      "formula": null
+    },
+    "C2": {
+      "value": "Mutation",
+      "formula": null
+    },
+    "D2": {
+      "value": "Average Selection coefficient",
+      "formula": null
+    },
+    "E2": {
+      "value": "Standard deviation",
+      "formula": null
+    },
+    "G2": {
+      "value": "Selection coefficients",
+      "formula": null
+    },
+    "O2": {
+      "value": "P value two-tailed t-test vs. wspF control",
+      "formula": null
+    },
+    "A21": {
+      "value": "PFLU5329",
+      "formula": null
+    },
+    "B21": {
+      "value": "mwsR",
+      "formula": null
+    },
+    "C21": {
+      "value": "MwsR I844L",
+      "formula": null
+    },
+    "D20": {
+      "value": "-1.6526871981889998E-3",
+      "formula": null
+    },
+    "E20": {
+      "value": "8.8676908266061734E-3",
+      "formula": "STDEV(G20:I20)"
+    },
+    "D21": {
+      "value": "-8.3422713044846927E-2",
+      "formula": null
+    },
+    "E21": {
+      "value": "1.5151720326583237E-2",
+      "formula": null
+    },
+    "G21": {
+      "value": "-7.0287998201181173E-2",
+      "formula": null
+    },
+    "H21": {
+      "value": "-0.11722093095305106",
+      "formula": null
+    },
+    "I21": {
+      "value": "-0.13723933032329888",
+      "formula": null
+    },
+    "J21": {
+      "value": null,
+      "formula": null
+    },
+    "O21": {
+      "value": "9.8264615698852938E-5",
+      "formula": "TTEST($G$3:$M$3,G21:J21,2,2)"
+    },
+    "D22": {
+      "value": "3.4056166111166693E-2",
+      "formula": "AVERAGE(G22:J22)"
+    },
+    "E22": {
+      "value": "1.5732269286697624E-2",
+      "formula": "STDEV(G22:J22)"
+    }
+  },
+  "genotype_rows": 18,
+  "visible_coefficient_cells": 73,
+  "nonmatching_unweighted_mean_sample_sd_rows": [
+    21
+  ],
+  "worksheet_formula_count": 49,
+  "hidden_rows": [],
+  "hidden_columns": [],
+  "comment_parts_present": false,
+  "embedded_chart": {
+    "part": "xl/charts/chart1.xml",
+    "fields": {
+      "category": {
+        "range": "Sheet1!$C$3:$C$22",
+        "point_index": 18,
+        "cached_value": "MwsR I844L"
+      },
+      "value": {
+        "range": "Sheet1!$D$3:$D$22",
+        "point_index": 18,
+        "cached_value": "-0.0834227130448469"
+      },
+      "error_plus": {
+        "range": "Sheet1!$E$3:$E$22",
+        "point_index": 18,
+        "cached_value": "0.0151517203265832"
+      },
+      "error_minus": {
+        "range": "Sheet1!$E$3:$E$22",
+        "point_index": 18,
+        "cached_value": "0.0151517203265832"
+      }
+    },
+    "independent_experiment": false,
+    "interpretation": "The embedded chart references and caches the stored row21 summaries. It does not supply their intended aggregation or authenticate the rendered published figure."
+  }
+}

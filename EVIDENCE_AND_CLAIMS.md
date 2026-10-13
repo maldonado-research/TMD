@@ -119,3 +119,12 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Exact Lind workbook fields and summary discrepancy | [Source identities](research/matched_source_feasibility/SOURCE_PROVENANCE.json) | 105 pathway-isolated mutation rows and 73 visible coefficients do not supply a matched panel; row 21 intended aggregation is unverified, author values retained. |
 | Practical qualified-review preparation | [44-field worksheet](research/qualified_review_packet/WORKSHEET.md) | All44 answers NULL; eight gates and six unpriced work items do not select a protocol or constitute qualified external review. |
 | Concrete observer limitations | [Enrico Bena 2024 assessment](research/qualified_review_packet/REPORT.md) | E.coli repair-focus timing, unseen errors and lost daughters are not independent SBW25 route-origin truth. |
+
+## R29 reference and calculation evidence — 13 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Reference awsX interval and peptide correspondence | [Reference audit](research/source_join_resolution/DERIVED_SOURCE_AUDIT.json) | 33 nt / YTDDLIKGTTQ on the inspected reference; no proof of MPB10583 identity or correction of its 32 bp source label. |
+| mwsR coordinate-frame difference | [Conditional source join](research/source_join_resolution/REPORT.md) | 102 nt between workbook-implied and acquired CDS origins; V728A/V694A name the same projected genomic change only under declared frames, not authenticated stock truth. |
+| Embedded chart propagates disputed summaries | [Exact selected fields](research/summary_reconciliation/SOURCE_FIELDS.json) | Cache agreement does not identify intended aggregation or authenticate the published rendered figure. |
+| One additional equal-weight coefficient cannot reconcile both summaries | [Conditional diagnostic](research/summary_reconciliation/CONDITIONAL_DIAGNOSTIC.json) | Standard arithmetic-mean/sample-SD identity; no imputation, author correction, novel theorem, biological error finding or study admission. |

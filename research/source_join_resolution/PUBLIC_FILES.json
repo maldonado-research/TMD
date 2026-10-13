@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "DECISION.json",
+    "DERIVED_SOURCE_AUDIT.json",
+    "INDEPENDENT_REVIEW.json",
+    "JOIN_DECISIONS.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json",
+    "VERIFICATION_RECEIPT.json",
+    "verify_sources.py"
+  ],
+  "files": [
+    {
+      "path": "DECISION.json",
+      "bytes": 846,
+      "sha256": "12c5d8b96442f1f6ed1497f3abd45d6f79ac76f86e52cba03dd1c63cd91745af"
+    },
+    {
+      "path": "DERIVED_SOURCE_AUDIT.json",
+      "bytes": 4648,
+      "sha256": "0d0cdb3f37a24ee127bd40bc64610f464e6bb283bd3365f5ee0e13e5e8fe495b"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 1378,
+      "sha256": "6042192a966d4bf0db9552c53f42bad775c54b8bd02ad40e4a27cd98eccc68b9"
+    },
+    {
+      "path": "JOIN_DECISIONS.json",
+      "bytes": 1929,
+      "sha256": "72a5c87340ad2c6a4fc95114bd71368d1a3549bd3a954f823d02b4b24c4cd286"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 809,
+      "sha256": "4d715813575548fbd202c7247e3be0c4aec68fd52616e7a7e9f9dd1aee553a8b"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 7811,
+      "sha256": "f9e1b8e2887e9bd6dfa1e1a0c56fe66c7d2f0ddc4b1b40f921749bc329f1ef8e"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 9427,
+      "sha256": "218345fb64bfa334258fae65efdf9c88348e8f322e796c5364db6eb0cd4217bd"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 13040,
+      "sha256": "260a06523b16169ef05c33eb0c2d55eb24b86ae19d60bc784db069683730d2e4"
+    }
+  ],
+  "excluded": "Raw source bodies, reference records, source workbooks, private paths, author workstation metadata and credential values.",
+  "hash_scope": "Manifest fingerprints all core/review files; SHA256SUMS covers all public files except itself. Receipt identifies manifest but is excluded from manifest to avoid cycles."
+}

@@ -137,3 +137,7 @@ The [strain/unit map](strain_unit_map/REPORT.md) joins source-reported alleles a
 ## R28: common-ancestor source and practical review packet
 
 The [source assessment](matched_source_feasibility/REPORT.md) authenticates the historical sampling/classifier frame and exact Lind workbook fields, retaining source discrepancies and incomplete joins. The [44-field worksheet](qualified_review_packet/WORKSHEET.md) requests qualified evidence and feasibility decisions through eight ordered gates and unpriced resource items. All actual inputs remain NULL; no complete matched panel is admitted. [R28 checkpoint](CONTINUATION_HANDOFF_2026-10-11_R28.md).
+
+## R29: reference-coordinate joins and conditional summary reconciliation
+
+The [source-join assessment](source_join_resolution/REPORT.md) records exact reference windows, allele peptide checks and an explicit annotation-frame condition for mwsR. Stock identity and WSX truth remain unresolved. The [reconciliation assessment](summary_reconciliation/REPORT.md) retains the embedded chart evidence and source-facing calculation constraints without correcting author values. [R29 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R29.md). All actual study and planning values remain NULL.

@@ -1,0 +1,55 @@
+{
+  "convention": "Retain all three exported coefficients unchanged, append unrestricted real values, equal weights, arithmetic mean and sample SD with denominator n-1.",
+  "unweighted_visible_mean": -0.1082494198258437,
+  "unweighted_visible_sample_sd": 0.03436548016776037,
+  "stored_mean": -0.08342271304484693,
+  "stored_sd": 0.015151720326583237,
+  "forced_fourth_value_from_stored_mean": -0.008942592701856595,
+  "sample_sd_with_forced_fourth": 0.057033197611556494,
+  "one_additional_value_can_reconcile_both": false,
+  "boundary_checks": [
+    {
+      "total_n": 4,
+      "additional_count": 1,
+      "minimum_sse_at_stored_mean": 0.00975835688939656,
+      "required_sse_from_stored_sd": 0.0006887238865649869,
+      "minimum_minus_required_sse": 0.009069633002831572,
+      "gap_bounds_with_each_input_perturbed_at_most_5e_minus_15": [
+        0.009069633002824635,
+        0.009069633002838511
+      ],
+      "feasible_as_unrestricted_real_extension": false
+    },
+    {
+      "total_n": 20,
+      "additional_count": 17,
+      "minimum_sse_at_stored_mean": 0.004537379641108256,
+      "required_sse_from_stored_sd": 0.004361917948244917,
+      "minimum_minus_required_sse": 0.00017546169286333926,
+      "gap_bounds_with_each_input_perturbed_at_most_5e_minus_15": [
+        0.00017546169285818258,
+        0.00017546169286849594
+      ],
+      "feasible_as_unrestricted_real_extension": false
+    },
+    {
+      "total_n": 21,
+      "additional_count": 18,
+      "minimum_sse_at_stored_mean": 0.004519251247885033,
+      "required_sse_from_stored_sd": 0.004591492577099913,
+      "minimum_minus_required_sse": -7.224132921487966e-05,
+      "gap_bounds_with_each_input_perturbed_at_most_5e_minus_15": [
+        -7.224132922017326e-05,
+        -7.224132920958605e-05
+      ],
+      "feasible_as_unrestricted_real_extension": true
+    }
+  ],
+  "smallest_feasible_total_n_for_unrestricted_real_extension": 21,
+  "smallest_additional_count_for_unrestricted_real_extension": 18,
+  "rounding_envelope": "Independent absolute perturbations up to 5e-15 in each of the three coefficients and both stored summaries; conservative rational interval bounds retain all three gap signs.",
+  "not_an_imputation": true,
+  "evidence_for_actual_additional_replicates": false,
+  "source_intended_aggregation_identified": false,
+  "novel_theorem_claimed": false
+}

@@ -351,13 +351,27 @@
     {
       "id": "R000029",
       "priority": 29,
-      "status": "pending",
+      "status": "completed",
       "question": "Keep PTATO and additional endpoint accumulation parked. Use the R28 44-field worksheet for claim-specific qualified feasibility decisions, beginning with an authenticated stock/culture/isolate/background and outcome-access crosswalk, an independently referenced earlier establishment observer, and route/context/phase recovery denominators. Resolve the historical WSX molecular-versus-functional classifier and source cohort/allele annotation discrepancies before quantitative reuse; reconcile the Lind Figure 9 row 21 stored summary against its intended aggregation without replacing author values. Acquire only a named authoritative artifact that can change one of these decisions. Already inspected historical outcomes cannot become untouched holdouts. Biological-origin interpretation additionally requires independent parental/new-event truth, inherited/pre-existing negatives, exposure and invisible-loss bounds, plus matched transport. Preserve all 26 actual study and 18 planning NULLs until justified actual values are admitted, R5/R11/R17, the frozen theta/eta model and comparator implementation, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
       "deliverable": "Claim-specific qualified feasibility decision or named authoritative source crosswalk/aggregation reconciliation capable of changing admission; otherwise park without more endpoints.",
       "falsifier_or_boundary": "Historical sampled WS, functionally inferred route membership, competition summaries and observer foci do not establish molecular native origins, untouched evaluation, independently calibrated predictors or selected actual study inputs.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "blocked_until_independent_units_predictors_truth_and_feasibility_admitted",
-      "report": "../qualified_review_packet/REPORT.md"
+      "scientific_inference_status": "reference_frame_and_summary_constraints_advanced_no_matched_panel",
+      "report": "../CONTINUATION_HANDOFF_2026-10-13_R29.md",
+      "completion_scope": "reference_coordinate_source_joins_and_conditional_fitness_summary_reconciliation",
+      "result": "Two exactreferencewindows; awsX33nt/peptide agreement; mwsR102ntannotation-frame shift and conditionalcodonprojection; embeddedchart+single-addition exclusion; no stock/WSX/aggregation truth or actual fields admitted.",
+      "remaining_prerequisites": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    },
+    {
+      "id": "R000030",
+      "priority": 30,
+      "status": "pending",
+      "question": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+      "deliverable": "A named actual-stock/sequence/annotation or source-calculation record, or qualified claim-specific feasibility decision capable of changing admission; otherwise park.",
+      "falsifier_or_boundary": "Reference allele projections and moment compatibility do not establish stock identity, molecular origin truth, native birth exposure, independently calibrated predictors or untouched evaluation.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "blocked_until_stock_measurement_and_study_inputs_admitted",
+      "report": "../source_join_resolution/REPORT.md"
     }
   ]
 }

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "reference_records": [
+    {
+      "accession": "NC_012660.1",
+      "identical_record_as_reported": "AM181176.4",
+      "assembly": "GCF_000009225.2",
+      "annotation_date": "2021-12-21",
+      "annotation_pipeline": "NCBI PGAP 5.3",
+      "exact_slice_sha256": "16da6060aed6504430b27ca5d343204217e36e3c9a6434ea66b664d245742463",
+      "old_locus_tag": "PFLU5211",
+      "current_locus_tag": "PFLU_RS25580",
+      "protein_id": "WP_015885882.1",
+      "genomic_start": 5707093,
+      "genomic_end": 5707665,
+      "strand": -1,
+      "cds_nucleotides": 573,
+      "protein_residues": 190,
+      "codon_start": 1,
+      "translation_table": 11,
+      "source_slice_start": 5706900,
+      "source_slice_end": 5707800
+    },
+    {
+      "accession": "NC_012660.1",
+      "identical_record_as_reported": "AM181176.4",
+      "assembly": "GCF_000009225.2",
+      "annotation_date": "2021-12-21",
+      "annotation_pipeline": "NCBI PGAP 5.3",
+      "exact_slice_sha256": "6c4a390f575a5064aac3f67c37e4a1ff6281cf7075c14a433d759040dc1cd0c3",
+      "old_locus_tag": "PFLU5329",
+      "current_locus_tag": "PFLU_RS26190",
+      "protein_id": "WP_224265972.1",
+      "genomic_start": 5854765,
+      "genomic_end": 5858514,
+      "strand": 1,
+      "cds_nucleotides": 3750,
+      "protein_residues": 1249,
+      "codon_start": 1,
+      "translation_table": 11,
+      "source_slice_start": 5854300,
+      "source_slice_end": 5859000
+    }
+  ],
+  "awsX_deletion": {
+    "source_2009_label": "Δ229-261",
+    "source_2009_reported_length": 33,
+    "source_2009_reported_peptide": "ΔYTDDLIKGTTQ",
+    "source_2025_literal": "Δ32bp (229-261)",
+    "reference_cds_interval_one_based_inclusive": [
+      229,
+      261
+    ],
+    "reference_genomic_interval_one_based_inclusive": [
+      5707405,
+      5707437
+    ],
+    "length": 33,
+    "deleted_sequence_sha256": "579f60fe05f3ffb277055153bfdd6b148384b8efdbb1095b56e299a81f3527ec",
+    "translated_deleted_peptide": "YTDDLIKGTTQ",
+    "source_2019_workbook_row": 22,
+    "repeat_positions_one_based": [
+      223,
+      256,
+      395
+    ],
+    "MPB10583_sequence_verified": false,
+    "Karita_annotation_corrected": false
+  },
+  "mwsR_coordinate_join": {
+    "historical_origin_basis": "Lind2019 Figure6 source data Mws paired genome/gene SNP coordinates; inferred coordinate origin, not stock sequence",
+    "historical_coordinate_witnesses": [
+      {
+        "row": 13,
+        "genome_cell": "A13",
+        "gene_cell": "D13",
+        "genome_label": "A5857192C",
+        "gene_label": "A2530C",
+        "implied_forward_origin": 5854663
+      },
+      {
+        "row": 15,
+        "genome_cell": "A15",
+        "gene_cell": "D15",
+        "genome_label": "G5857440A",
+        "gene_label": "G2778A",
+        "implied_forward_origin": 5854663
+      },
+      {
+        "row": 16,
+        "genome_cell": "A16",
+        "gene_cell": "D16",
+        "genome_label": "G5857440A",
+        "gene_label": "G2778A",
+        "implied_forward_origin": 5854663
+      },
+      {
+        "row": 17,
+        "genome_cell": "A17",
+        "gene_cell": "D17",
+        "genome_label": "G5857440A",
+        "gene_label": "G2778A",
+        "implied_forward_origin": 5854663
+      },
+      {
+        "row": 18,
+        "genome_cell": "A18",
+        "gene_cell": "D18",
+        "genome_label": "G5857638A",
+        "gene_label": "G2976A",
+        "implied_forward_origin": 5854663
+      },
+      {
+        "row": 19,
+        "genome_cell": "A19",
+        "gene_cell": "D19",
+        "genome_label": "G5857909A",
+        "gene_label": "G3247A",
+        "implied_forward_origin": 5854663
+      }
+    ],
+    "historical_implied_genomic_origin": 5854663,
+    "current_CDS_start_offset_nt": 102,
+    "source_2009_nucleotide_label": "T2183C",
+    "source_2009_protein_label": "V272A",
+    "conditional_genomic_position": 5856845,
+    "reference_codon": "GTC",
+    "alternate_codon": "GCC",
+    "historical_origin_protein_consequence": "V728A",
+    "current_CDS_position": 2081,
+    "current_protein_consequence": "V694A",
+    "literal_current_CDS_position_2183_base": "A",
+    "condition": "2009/Karita T2183C must use the same coordinate origin implied by the 2019 workbook; that equality is not independently authenticated.",
+    "MPB10613_sequence_verified": false,
+    "historical_WSR_record_corrected": false
+  },
+  "historical_cohort": {
+    "molecular_table_counts": {
+      "Wsp": 16,
+      "Aws": 6,
+      "Mws": 3,
+      "Unresolved": 1
+    },
+    "functional_Wsp_associated_count": 17,
+    "WSX_molecular_gene": null,
+    "same_2007_2009_collection": true,
+    "new_independent_origins": 0
+  }
+}

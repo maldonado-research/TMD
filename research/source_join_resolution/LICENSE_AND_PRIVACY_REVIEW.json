@@ -1,0 +1,11 @@
+{
+  "original_assessment_and_derived_facts": "CC BY 4.0",
+  "new_code": "MIT",
+  "attribution": "Ricardo Maldonado with AI assistance; source facts attributed to McDonald, Bantinaki, Lind, Karita and NCBI/RefSeq contributors.",
+  "third_party_rights": "Unchanged. Genetics society copyright. Karita supplement and Lind 2015 article declare CC BY 4.0. No separate workbook or NCBI record license authenticated; no blanket license inferred.",
+  "source_bodies_public": false,
+  "raw_reference_sequences_public": false,
+  "private_paths_public": false,
+  "credential_values_public": false,
+  "limited_factual_excerpt_scope": "Short allele labels, an 11-residue peptide, codons and coordinate facts needed to assess documented source discrepancies; no full third-party tables/articles/workbooks redistributed."
+}

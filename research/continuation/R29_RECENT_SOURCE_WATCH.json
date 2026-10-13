@@ -1,0 +1,21 @@
+{
+  "call_id": "W01",
+  "tool": "firecrawl_research_search_papers",
+  "arguments": {
+    "query": "bacterial spontaneous mutation origin and establishment SBW25 Wsp Aws Mws lineage tracking mismatch repair single-cell controls",
+    "from": "2026-10-11",
+    "to": "2026-10-13",
+    "k": 6
+  },
+  "started_utc": "2026-10-13 22:14:47 UTC",
+  "completed_utc": "2026-10-13 22:14:50 UTC",
+  "capture_file": "W01.json",
+  "logical_scientific_calls": 1,
+  "scope": "One targeted date-filtered paper-index query; partial coverage, not a systematic whole-web review.",
+  "capture_bytes": 154,
+  "capture_sha256": "178147b394a099d48727f576a0208f85569435f3904f4d14affcb68b7841e9d9",
+  "saved_acquisition_bytes": 154,
+  "results_returned": 0,
+  "raw_capture_published": false,
+  "rights": "Original query/provenance record; no third-party source body published."
+}

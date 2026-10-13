@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "round": "R29",
+  "status": "SOURCE_SUMMARY_RECONCILIATION_UNRESOLVED_CONDITIONAL_SINGLE_ADDITION_EXCLUDED",
+  "source_intended_aggregation_identified": false,
+  "author_correction_authenticated": false,
+  "author_values_replaced": false,
+  "missing_values_imputed": false,
+  "one_extra_equal_weight_value_reconciles_both_under_sample_sd": false,
+  "embedded_chart_caches_match_stored_summaries": true,
+  "matched_panels_admitted": 0,
+  "new_biological_fit": false,
+  "study_fields_filled": 0,
+  "planning_fields_filled": 0,
+  "external_peer_review_claimed": false,
+  "outreach_performed": false,
+  "preserved": [
+    "R5",
+    "R11",
+    "R17",
+    "core theta/eta forecasts and comparators",
+    "count-law admission",
+    "error allocation",
+    "fixed stopping",
+    "paused Sol runner",
+    "methods 0.6.0 immutable archive"
+  ],
+  "next_evidence": "An authoritative formula or calculation record linking row21 coefficients, marker/background corrections and exclusions to its stored summaries; or a versioned publisher/author correction. This is an evidence specification, not outreach authorization."
+}
