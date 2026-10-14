@@ -144,3 +144,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Source authors explain frequency-dependent fitness, wspF competitor and model scope | [Reporting-record assessment](research/reporting_record_assessment/REPORT.md) | Assay-specific transport limits; no row-21 calculation, reviewer coefficient admission or observed-route forecast. |
 | Thesis reports historical reconstructions and archiving | [Stock-record search](research/stock_record_search/REPORT.md) | Partial 180/197-page representation and same historical work; no independent replication or MPB custody/sequence join. |
 | Recent HiDenSeq preprint offers barcoded fluctuation-distribution measurements | [Method-lead assessment](research/barcoded_assay_lead/ASSESSMENT.json) | Yeast/pooling/calibration/competition context; no native TMD units, supply, event truth, data replay or biological fit. |
+
+## R32 calibration and mechanism limits — 13 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| HiDenSeq calibrates the UV comparison using a non-UV canonical-distribution fit and reports an independent colony-count cross-check | [Methods assessment](research/barcoded_assay_methods/REPORT.md) | Supporting records unacquired; fitted calibration requires uncertainty and justified transport, not blanket rejection or native supply admission. |
+| Authors explicitly leave general mechanism identifiability open | [Methods assessment](research/barcoded_assay_methods/REPORT.md) | Distinguishing selected models does not identify a unique cause among all plausible mechanisms; no new theorem or biological fit. |

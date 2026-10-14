@@ -1,0 +1,33 @@
+# TMD continuation checkpoint: R32, 13 October 2026
+
+User-facing date: America/Los_Angeles. Acquisition timestamps: 14 October UTC.
+
+R32's [HiDenSeq methods assessment](barcoded_assay_methods/REPORT.md) clarifies how a recent assay calibrates abundance and which mechanism claims its distribution can support. This is a source-grounded feasibility advance; no matched Wsp/Aws/Mws panel, actual stock, biological fit or new theorem is admitted.
+
+## Calibration and mechanism discrimination
+
+The version-one main text of Husain et al., DOI 10.64898/2026.08.03.742544, explains that the canUVanine experiment fixed its reads-to-absolute-mutants calibration by fitting the non-UV population to the canonical Luria–Delbrück distribution, before applying the conversion in its UV comparison. It also reports agreement of induced-rate estimates with independent mutant colony counts before and after UV. The latter is an author-reported cross-check; the underlying supporting methods/data remain unacquired and were not replayed.
+
+Known-abundance barcoded spike-ins are proposed for future implementations, rather than reported as performed here. A fitted calibration is not intrinsically invalid. A separate calibration experiment can potentially supply inputs when its model is identifiable, joint uncertainty is propagated, the transfer to the target setting is supported and the mapping is frozen before evaluation. Fitting the evaluation endpoints and then calling the resulting scale independent supply would not meet that requirement. No claim of circular analysis or source error follows from the present assessment.
+
+The authors explicitly leave general mechanism identifiability open: mutant fitness and phenotypic switching can both change distribution tails, and their statistical distinguishability is unresolved. Their selected-model comparisons do not prove that every possible biological mechanism can be uniquely inferred from a shape. For TMD, this sharpens the requirement for complete credible comparator models and independent measurements of supply, establishment and recovery. It supplies no new identifiability theorem or numerical fit. Barcode ancestry, disjoint virtual groups, independent physical units and missed/lost events still need records; yeast results are not a native bacterial calibration.
+
+## Acquired scope and blocked artifacts
+
+The named supplement landing-page request returned a Cloudflare rate-limit response (429), not supporting information. Distinct bounded searches and an indexed full-text main-article representation provided the calibration/identifiability context but no actual supporting file or named deposited code/data. The main availability statement remains future tense. No repeated live request to the failing supplement endpoint was made. This records the inspected scope, not global deposit absence.
+
+A targeted paper-index search returned one record: the same HiDenSeq DOI with PMCID PMC13484652 and PMID 42620021. Its PMC page supplied metadata and an abstract, not a full-text or supplementary artifact; it explicitly labels the work a preprint. The page's CC BY display and full-text nonarchiving message are retained as an unresolved availability/metadata discrepancy. Index aliases and another representation of the same study are not independent evidence or a newly published study.
+
+One exact MPB10583 search (seven-result limit) returned two excerpts: a known Karita preprint family and the known supplement file. No new custody/pedigree or stock-linked sequence record was identified in those excerpts. Result bodies were not inspected in this round. This does not prove stock records do not exist. The prior scoped D-Blast snapshot findings remain historical; no fresh private-folder completeness or remote-freshness claim is made.
+
+## Verification, accounting and publication
+
+Eight logical scientific calls save 571,684 UTF-8 JSON capture bytes: five method-artifact calls (541,815 bytes), two root paper-index/PMC calls (26,719 bytes) and one stock search (3,150 bytes). Full wrappers include duplicated provider representations where returned; wire/provider-internal accounting is unknown. Reused R31 material is not counted fresh. No original binaries or sequencing data were acquired, and no source analysis code or experiment was run. Raw bodies and signed/private locators stay outside Git.
+
+Two user-requested gpt-6-astra/ultra delegates supply acquisition and independent internal scientific review. Source checks verify retained representations and claim scope, not experimental truth or qualified external peer review. All 237 earlier checkpoint fingerprints, 26 study NULLs and 18 planning NULLs remain preserved. No frozen methods, forecasts, error/stopping rules or paused runner changes occur.
+
+Useful reviewed GitHub and website publication remains authorized. Methods 0.6.0, DOI 10.5281/zenodo.23219776, remains the frozen approved snapshot and excludes later R1–R32 addenda. This source-method clarification changes no archived method or admitted biological result; no new Zenodo version, release, upload or author/public-state request is made. Managed-cloud revision 160 was current/running with enforced networking and a ready token binding; readiness is not an API authorization assertion, and no secret value was read.
+
+**Next priority, R33:** Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.
+
+Original derived assessment: CC BY 4.0. Verification code: MIT. Ricardo Maldonado with AI assistance; third-party rights unchanged.

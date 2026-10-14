@@ -393,13 +393,27 @@
     {
       "id": "R000032",
       "priority": 32,
-      "status": "pending",
+      "status": "completed",
       "question": "Obtain a named actual-stock pedigree/custody and sequence/annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 calculation record linking replicate/exclusion identities, marker/background inputs and aggregation/dispersion definitions. Historical reconstruction credit and matching focal alleles do not establish the physical stock join. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions. The HiDenSeq version-one supporting information is a named next artifact only if barcode grouping, independent absolute calibration or loss assumptions can change a measurement gate; an actual versioned data/code deposit remains to be identified before numerical reuse. Preserve the yeast/WS context boundary and the authors stated frequency-dependent fitness/reference-competitor limitations. Independent units/count law, native route supply/exposure, event/ancestry truth, inherited negatives, establishment and separate recovery/classification, invisible losses, complete frozen predictors/comparators and untouched evaluation remain required. Keep PTATO benchmarking, default endpoint accumulation, repeated unchanged stock/code searches and automatic mathematical extensions parked. Keep all 26 study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
       "deliverable": "Named actual-stock/calculation record or measurement-resource artifact capable of resolving a specific qualified feasibility gate; otherwise park.",
       "falsifier_or_boundary": "Historical reconstruction, reviewer suggestions and yeast barcode distributions do not establish native stock/event truth, independent supply, complete forecasts or untouched evaluation.",
       "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "source_methods_clarified_no_native_panel",
+      "report": "../CONTINUATION_HANDOFF_2026-10-13_R32.md",
+      "completion_scope": "calibration_architecture_and_mechanism_identifiability_source_assessment",
+      "result": "Main-text non-UV calibration and explicit mechanism-identifiability limit assessed; supplementary/data artifact remains unacquired; exact stock query yields no new stock record in two excerpts.",
+      "remaining_prerequisites": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work."
+    },
+    {
+      "id": "R000033",
+      "priority": 33,
+      "status": "pending",
+      "question": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.",
+      "deliverable": "Actual named supporting data/code/calibration or stock/calculation record capable of resolving a feasibility gate; otherwise park.",
+      "falsifier_or_boundary": "Same-study aliases, model-fit agreement and fitted abundance scales do not supply native event truth or unique mechanism identification.",
+      "maximum_download_bytes": 20971520,
       "scientific_inference_status": "blocked_until_actual_measurement_and_study_inputs_admitted",
-      "report": "../barcoded_assay_lead/REPORT.md"
+      "report": "../barcoded_assay_methods/REPORT.md"
     }
   ]
 }

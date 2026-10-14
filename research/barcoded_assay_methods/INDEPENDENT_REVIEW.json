@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "status": "PASS_FOR_SCOPED_INTERNAL_PUBLICATION",
+  "review_type": "Independent internal AI scientific and source-boundary review",
+  "reviewed_utc": "2026-10-14T05:58:18.783605+00:00",
+  "external_qualified_peer_review": false,
+  "experimental_validation": false,
+  "reviewed_files": [
+    {
+      "path": "ASSESSMENT.json",
+      "bytes": 5743,
+      "sha256": "dc69d9d6bbef6d5e7e9d1f5f28a0acd311b63c5931d459a56b83f852f4cc534f"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 762,
+      "sha256": "5d75d62b7dee97c52fec8964a15ae20ed38b6f2869af20b351bfddb857bdbf31"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1050,
+      "sha256": "c5c63af3ef2b6b6a518c2ebeba1ab936a35538199223942d900abbe44348af71"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 502,
+      "sha256": "4f75cb73653456f063aaa9610f7033620d94b39cd7912399ffb24a04e532397c"
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "bytes": 331,
+      "sha256": "6dd2a24c8bb4c2fbac08404214ae637e9f1043562dd850771d0a4fb54db2d3c3"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 7811,
+      "sha256": "875cc60ac64fc521818c9eb440670bbb0db79d3fb86fdb48ae8d0afef45ca735"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 7118,
+      "sha256": "a2de6a4317fb4dfa6722d3d2aba3d9d1b2e0d0afacf9d5615e4c1f66ff053acc"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 1261,
+      "sha256": "a0a08e116a6f6925be15e38c0a93546e356883fe0d5026a09bbccfbf4f207aa6"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 10810,
+      "sha256": "ddfca00ff4eaac07dee9df44736e1b7afbda67eb435c58f457b161a0f71f8f92"
+    }
+  ],
+  "excluded_from_review_hashes": [
+    "INDEPENDENT_REVIEW.json",
+    "SHA256SUMS.txt"
+  ],
+  "source_review": {
+    "main_text": "Independently inspected the retained version-one main-text representation, including Results II.B and II.D and Discussion III; equation images and underlying source data were not reanalysed.",
+    "supplement_response": "Confirmed HTTP 429 and no acquired scientific supplement content or actual supplementary file link.",
+    "searches": "Inspected all three bounded search result lists; the unrelated bacteriophage HIDEN-SEQ family is correctly excluded and negative findings remain scoped.",
+    "PMC": "Confirmed same DOI, Version 1, PMCID/PMID aliases, preprint status, metadata/abstract coverage, explicit full-text nonarchiving and the retained license/availability discrepancy.",
+    "source_cache_hashes_verified": true,
+    "source_authentication_scope": "Saved provider representations and selected anchors, not original document bytes or experimental truth."
+  },
+  "scientific_findings": [
+    "The reported non-UV canonical-Luria-Delbruck fit sets an absolute conversion applied in the UV comparison; the report properly requires calibration-transfer evidence instead of admitting native supply.",
+    "The author-reported independent pre/post-UV colony-count agreement is retained fairly, with supporting details explicitly unacquired.",
+    "Known-abundance spike-ins are correctly described as a future suggestion, not an implemented standard.",
+    "The authors explicitly leave general mechanism identifiability open; no new impossibility theorem or unique mechanistic conclusion is claimed.",
+    "Joint estimation within genuinely separate calibration data remains potentially assessable with an identifiable model, joint uncertainty, a justified count law, native context transport and pre-evaluation freeze. The report does not reject all fitting or allege circular analysis.",
+    "Barcode/group/read totals are not admitted as independent biological runs or mutation births. Pooled dependence, grouping, inherited variants, invisible loss and separate establishment/recovery remain unresolved.",
+    "The calibration-path table leaves every route unadmitted; the report preserves the yeast-to-SBW25 boundary and distinguishes source clarification from native biological validation."
+  ],
+  "verification": {
+    "public_only": "PASS; source and shared-watch replays explicitly UNRUN without caches.",
+    "with_method_and_shared_watch_caches": "PASS; exact capture identities and selected source/search/error anchors checked.",
+    "public_membership": "Eleven regular files with exact allowlist and checksum coverage verified before replacing this review record; closure must be refreshed afterward.",
+    "own_scientific_calls": 5,
+    "own_capture_bytes": 541815,
+    "shared_root_calls": 2,
+    "shared_root_capture_bytes": 26719,
+    "shared_captures_counted_in_own_totals": false,
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "frozen_inherited_dependencies": "PASS; identities in source provenance match."
+  },
+  "blocking_findings": [],
+  "changes_required_before_closure": [
+    "Refresh package checksums after this review record is written; rerun public and full-cache verification. Any change to a reviewed substantive file requires updated review."
+  ],
+  "publication_boundary": "Original assessment/derived facts and new verification code only; no raw response bodies, private paths, signed source locators, credentials, source analysis code, or new experimental data."
+}

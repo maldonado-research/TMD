@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "original_assessment_and_derived_facts": "CC BY 4.0",
+  "new_verification_code": "MIT",
+  "source_declared_license": "CC BY 4.0 on preprint; PMC availability discrepancy retained without rights correction",
+  "raw_third_party_bodies_or_source_code_published": false,
+  "private_paths_or_payloads_published": false,
+  "author_contact_details_published": false,
+  "provider_IPs_or_identifiers_published": false,
+  "new_actual_study_data_published": false
+}

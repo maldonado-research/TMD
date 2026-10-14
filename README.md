@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R31, 13 October 2026
+## Latest research checkpoint — R32, 13 October 2026
+
+The [HiDenSeq methods assessment](research/barcoded_assay_methods/REPORT.md) clarifies its non-UV calibration and explicitly unresolved mechanism identifiability. A separate fitted calibration can potentially qualify with joint uncertainty and a justified frozen transfer; these selected-model distribution comparisons do not establish a unique biological cause. Supporting information/data remain unacquired. [R32 checkpoint](research/CONTINUATION_HANDOFF_2026-10-13_R32.md).
+
+All 26 study and 18 planning inputs remain NULL. No matched panel, biological fit, new theorem or qualified external review is admitted. Frozen methods 0.6.0 and the paused runner are unchanged; no new Zenodo version is justified.
+
+## Prior R31 checkpoint — 13 October 2026
 
 The [reporting-record assessment](research/reporting_record_assessment/REPORT.md) identifies the authors' frequency-dependent fitness and reference-competitor limits; the original Figure 9 aggregation remains unresolved. The [stock search](research/stock_record_search/REPORT.md) adds historical reconstruction context without authenticating present MPB stock identity.
 

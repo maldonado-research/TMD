@@ -149,3 +149,7 @@ The [stock-context assessment](stock_context_assessment/REPORT.md) identifies ne
 ## R31: assay context, reconstruction history and a recent measurement lead
 
 The [reporting record](reporting_record_assessment/REPORT.md) distinguishes author limitations from reviewer suggestions and template text. The [stock record search](stock_record_search/REPORT.md) preserves partial thesis coverage and historical-work overlap without a present stock join. The [HiDenSeq method assessment](barcoded_assay_lead/REPORT.md) specifies unit, calibration and native-transport gates for a recent preprint. [R31 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R31.md). All 44 actual/planning fields remain NULL.
+
+## R32: calibration architecture and mechanism identifiability
+
+The [HiDenSeq methods assessment](barcoded_assay_methods/REPORT.md) identifies the non-UV fitted calibration, author-reported independent colony-count comparison, future spike-in proposal and explicitly open mechanism-identifiability question. The supplement remains unacquired; the same-study PMC record is abstract-only. [R32 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R32.md). All 44 actual/planning inputs remain NULL.

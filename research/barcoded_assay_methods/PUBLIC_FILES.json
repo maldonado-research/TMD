@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "REPORT.md",
+    "ASSESSMENT.json",
+    "DECISION.json",
+    "SOURCE_PROVENANCE.json",
+    "verify_sources.py",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ]
+}
