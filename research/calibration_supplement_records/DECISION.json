@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "round": "R36",
+  "status": "ADMIT_SOURCE_PROCESSING_CLARIFICATION_ONLY",
+  "new_scientific_findings": [
+    "Supplement Figure S3 reports random subsampling to 60000 reads.",
+    "Original Figure S3 table totals 60000 for every one of the same 22 retained SRRs; original Figure 2D totals 62909 through151648.",
+    "Supplement Table S5 specifies selected V4/ITS1/ITS2 preprocessing thresholds; no accession-specific execution or loss counts."
+  ],
+  "limits": [
+    "Supplement inspected as Firecrawl 18-page text representation; original local PDF and page images unavailable.",
+    "All72 literal SRR/SRX/library queries return zero; negative scope bounded to captured text.",
+    "Figure S9 mock-strain under10 threshold is distinct from soil V4 rDNA-mimic exclusion.",
+    "Post-capture count-total audit is exploratory; no random seed/draw reconstructed."
+  ],
+  "exact_dose": null,
+  "dose_uncertainty": null,
+  "physical_preparation_genealogy": null,
+  "accession_specific_candidate_exclusion_counts": null,
+  "complete_attempted_sample_denominator": null,
+  "native_biological_validation": false,
+  "new_regression": false,
+  "new_theorem": false,
+  "preserve_native_study_nulls": 26,
+  "preserve_native_planning_nulls": 18,
+  "frozen_methods_version": "0.6.0",
+  "r34_six_fit_replay_changed": false,
+  "low_mass_label_conflicts_preserved": 6,
+  "next_informative_record": "An accession-linked preparation/ancestry and introduced-dose uncertainty ledger, or processed standard counts and explicit per-run QC/exclusion decisions for SRR30280226 and SRR30280227."
+}

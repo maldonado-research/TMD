@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "source_doi": "10.64898/2026.01.27.702051",
+  "observation_frame": [
+    {
+      "quantity": "Historical WS genotype identities",
+      "source_report": "14 WS mutants described in Lind et al. (2015), compared with ancestralSBW25; source Table S1 lists strain labels and genotype descriptions.",
+      "unit": "Selected strain/genotype",
+      "boundary": "Not14 new mutation births or independent W/A/M winner histories; source stock labels are not custody/sequence truth for proposed actual MPB stocks."
+    },
+    {
+      "quantity": "RNA expression at 24 hours",
+      "source_report": "Four author-reported independent biological culture replicates per genotype; static KB at 24 hours, referenceOV986001.1, normalized differentialexpression.",
+      "unit": "Culture/library expression comparison",
+      "boundary": "No actual row-linked libraries/ancestry or rawcounts authenticated here; normalized transcripts are not mutation rates or viable-cell or event counts."
+    },
+    {
+      "quantity": "c-di-GMP reporter",
+      "source_report": "MeanGFP normalized by mean mScarlet; six author-reported independent replicates in the Figure 1 caption.",
+      "unit": "Normalized fluorescence in assaycontext",
+      "boundary": "No absolute intracellularcopy calibration or route-supply admission; source-reported replicate categories retained."
+    },
+    {
+      "quantity": "Fap reporter cell-state heterogeneity",
+      "source_report": "Genotype-dependent reporter activity occurs in a fraction of measured cells; flow cytometry gates remove debris/nonfluorescent cells.",
+      "unit": "Measured gated reporter-cell fraction",
+      "boundary": "Not all-cell coverage, native event inclusion or recovery calibration; supplementstates some reporters abolish native locus function."
+    },
+    {
+      "quantity": "fap deletion and competitivefitness",
+      "source_report": "Authors compare WS backgrounds with derived fap deletions under declared culture and competition context.",
+      "unit": "Contextual competition phenotype",
+      "boundary": "Perturbed-locus comparison does not directly measure de novo route supply, origin or uniform route-level fitness."
+    },
+    {
+      "quantity": "Mat survival/persistence",
+      "source_report": "Intactmat fraction in diluted-founder microcosms/wells, repeated observations through 48 hours; paired WS/deletion genotypes runalongside, allgenotypes not necessarily in one batch.",
+      "unit": "Culture/well matstatus over time",
+      "boundary": "Repeatedtimes/wells/descendantcells do not become independent mutationorigins or a single newly-born mutant establishmentprobability; foundingdilutions share source cultures."
+    }
+  ],
+  "literal_selected_S1_labels": [
+    {
+      "source_WS_label": "WS-10",
+      "reported_MPB": "MPB15457",
+      "reported_locus": "mwsR",
+      "literal_mutation": "T2183C"
+    },
+    {
+      "source_WS_label": "WS-12",
+      "reported_MPB": "MPB15455",
+      "reported_locus": "wspF",
+      "literal_mutation": "Δ677-826"
+    },
+    {
+      "source_WS_label": "WS-13",
+      "reported_MPB": "MPB15456",
+      "reported_locus": "awsX",
+      "literal_mutation": "Δ229-261"
+    }
+  ],
+  "selected_label_interpretation": "Source-reported table labels only; no authoritative coordinate/annotation or actual proposed stock identity inferred. One selected allele per route cannot estimate within-route heterogeneity or route transport.",
+  "representation_conflicts": [
+    {
+      "scope": "WS-3 stocklabel",
+      "table_S1": "MPB15446",
+      "video4_caption": "MPB15449",
+      "status": "Unresolved representation-level conflict; original PDF, visual or authoritative source correction not authenticated."
+    },
+    {
+      "scope": "WS-2 locuslabel",
+      "results": "pflu3571",
+      "table_S1": "pflu3751",
+      "status": "Unresolved representation-level conflict; do not silently correct or allege author error."
+    },
+    {
+      "scope": "Single-mutation generalization",
+      "table_S1_WS1": "pflu0458 C208A and amrZ/algZ G116A",
+      "status": "Table description prevents treating blanket single mutation wording as authenticated sequence truth."
+    }
+  ],
+  "proposed_MPB10583_MPB10613_exact_text_matches": 0,
+  "mapping_reference": "OV986001.1 is the RNA read-mapping reference, not independent sequencing authentication of actual MPB stocks."
+}

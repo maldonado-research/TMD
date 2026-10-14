@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "round": "R36",
+  "source_paper_doi": "10.1093/ismeco/ycaf028",
+  "source_version_doi": "10.5281/zenodo.14592209",
+  "acquired_utc_date": "2026-10-14",
+  "own_scientific_acquisition_attempts": 3,
+  "usable_new_source_representations": 1,
+  "original_pdf_byte_authentication": false,
+  "own_attempt_cap": 5,
+  "own_saved_byte_cap": 8388608,
+  "new_saved_acquisition_bytes": 169527,
+  "derived_duplicate_text_bytes": 76316,
+  "total_saved_source_and_representation_bytes_including_duplicate": 245843,
+  "saved_bytes_definition": "Exact saved Firecrawl request/result wrapper plus direct HTTP body, headers and curl receipt; also report the redundant extracted markdown convenience copy separately. Reused sources and original derived analyses are not new acquisitions. Wire/provider-internal bytes unknown.",
+  "saved_acquisition_files": [
+    {
+      "filename": "S01_firecrawl_pdf_scrape.json",
+      "bytes": 158972,
+      "sha256": "d53de4cbda46524bf75986db5ceb6ab2574d29480fb981c005b4ea8214466036"
+    },
+    {
+      "filename": "S02_pdf_download_interstitial.html",
+      "bytes": 1816,
+      "sha256": "f18b38c1cf3c47660536eef838f8801396e03054da10ec29a6ecb96cf793a8b5"
+    },
+    {
+      "filename": "S02_pdf_http_headers.txt",
+      "bytes": 690,
+      "sha256": "2f340de675fcd7a29f169898654369da54d74ab2dad0601023cf9e356fbe8339"
+    },
+    {
+      "filename": "S02_pdf_http_receipt.json",
+      "bytes": 8049,
+      "sha256": "bf56189760ea7ca28436fbe9343d6b96c31cb89eb1b98e65e4ed613efe6740b6"
+    }
+  ],
+  "acquisition_ledger": [
+    {
+      "id": "S01",
+      "kind": "Firecrawl exact supplementary PDF scrape",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11912825/bin/tourlousse_supplement_ycaf028.pdf",
+      "status": "USABLE_TEXT_REPRESENTATION",
+      "provider_reported_status": 200,
+      "requested_page_cap": 30,
+      "provider_reported_processed_pages": 18,
+      "provider_reported_total_pages": 18,
+      "scrape_id": "01a13b7b-d4c6-77b5-a50f-8543b2436ce0",
+      "saved_files": [
+        "S01_firecrawl_pdf_scrape.json"
+      ]
+    },
+    {
+      "id": "S02",
+      "kind": "Bounded exact supplementary PDF GET for table/pagination authentication",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11912825/bin/tourlousse_supplement_ycaf028.pdf",
+      "status": "HTML_DOWNLOAD_INTERSTITIAL_NOT_PDF",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes": 1816,
+      "transfer_cap_bytes": 4194304,
+      "tls_verification": true,
+      "inherited_proxy_and_CA_preserved": true,
+      "saved_files": [
+        "S02_pdf_download_interstitial.html",
+        "S02_pdf_http_headers.txt",
+        "S02_pdf_http_receipt.json"
+      ]
+    }
+  ],
+  "operational_storage_note": "The completed Firecrawl response exceeded a shell argument limit during initial local storage. The already returned complete wrapper was then saved using apply_patch, with no second network request. This storage failure is not a scientific acquisition attempt.",
+  "reused_data_archive": {
+    "filename": "data.tar.gz",
+    "bytes": 280012,
+    "sha256": "24211eb1f69c4b891509f41e7f9046273c340c183b15d48bbdc909d462d82b1f",
+    "url": "https://zenodo.org/api/records/14592209/files/data.tar.gz/content"
+  },
+  "reused_sources": [
+    {
+      "round": "R33",
+      "type": "Primary article Firecrawl markdown",
+      "sha256": "c2dfb38f6e51255c59354a55639f709522eed54161898f5b141eb2d2d5fbf831",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11912825/"
+    },
+    {
+      "round": "R35",
+      "type": "Frozen public accession crosswalk",
+      "path": "research/calibration_sample_provenance/JOIN_AUDIT.json"
+    }
+  ],
+  "frozen_dependencies": [
+    {
+      "path": "research/calibration_sample_provenance/JOIN_AUDIT.json",
+      "bytes": 12379,
+      "sha256": "ed9e86cdc83fee412f9d691f2e08405479e9201c8390ef039dbd03f59f36ff94"
+    },
+    {
+      "path": "research/calibration_sample_provenance/REPORT.md",
+      "bytes": 8700,
+      "sha256": "9396d0553bccf43d34b1a6a04a2ad96cf645c3c67e38dfc3e4a4006b9438b863"
+    },
+    {
+      "path": "research/calibration_source_replay/REPORT.md",
+      "bytes": 7927,
+      "sha256": "58f18912158da6d49fd73ba7b830c0b12226ab7d0ae5ffdab8e19bfe5f34df36"
+    },
+    {
+      "path": "research/calibration_source_replay/RESULTS.json",
+      "bytes": 2607,
+      "sha256": "28d4048267d9e88598b295dee0603078dc138f487fc69849b6514d42e0244101"
+    }
+  ],
+  "supplement_scientific_acquisition_attempts": 2,
+  "worker_total_scientific_acquisition_attempts": 3,
+  "worker_complementary_acquisition": {
+    "requesting_agent": "root",
+    "topic": "native preprint original PDF annotations for dataset/KEGG links",
+    "doi": "10.64898/2026.01.27.702051v1",
+    "status": "HTTP_429_NO_PDF",
+    "original_response_body_bytes": 0,
+    "saved_files": [
+      {
+        "filename": "S03_native_pdf_failure_receipt.json",
+        "bytes": 452,
+        "sha256": "35601aee6c4db35c163fc2dfcf637a27104765e23e36cc34a075f6335439c520"
+      },
+      {
+        "filename": "S03_native_pdf_http_headers.txt",
+        "bytes": 783,
+        "sha256": "33cc15a194254728b671255cb3595a8f4c64030c70a69434d921c304fe118eba"
+      },
+      {
+        "filename": "S03_native_pdf_http_receipt.json",
+        "bytes": 7953,
+        "sha256": "b25cc37de90905a1b8baefcfeda56ef87bd5a005bccc069d5afb0af1d6e55500"
+      }
+    ],
+    "new_saved_bytes": 9188,
+    "no_retry": true
+  },
+  "worker_total_saved_bytes_including_derived_duplicate": 255031
+}

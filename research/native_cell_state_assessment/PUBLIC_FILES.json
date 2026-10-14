@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "files": [
+    "DECISION.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "OBSERVATION_FRAME.json",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json"
+  ],
+  "scope": "Exact original synthesized source assessment; no raw capture, original PDF, data table or contact details."
+}

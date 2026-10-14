@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R35, 14 October 2026
+## Latest research checkpoint — R36, 14 October 2026
+
+The [supplement audit](research/calibration_supplement_records/REPORT.md) verifies the distinction between 60,000-read Figure S3 tables and the earlier Figure 2D counts, with selected processing settings and preserved missing dose/ancestry/exclusion records. A [native cell-state assessment](research/native_cell_state_assessment/REPORT.md) reads a previously metadata-only SBW25 preprint: genotype, gated reporter state and founding-density/mat-persistence context are distinct from mutation birth or single-new-mutant establishment. [R36 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R36.md).
+
+Eight source attempts and internal source/computational reviews add source-stage clarification, with no native biological fit or new theorem. All 26 study and 18 planning inputs remain NULL; methods 0.6.0 stays frozen.
+
+## Prior R35 checkpoint — 14 October 2026
 
 The [sample-provenance audit](research/calibration_sample_provenance/REPORT.md) links all 22 replayed rows to official run/experiment/library records and one registered BioSample. Two named V4/300-mg libraries are candidates for the condition absent from Figure 2D; processed counts and accession-specific exclusions remain unavailable. Exact joins and the 37/37.5 nominal-label discrepancy are preserved without a new fit or inferred biological sample size. [R35 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R35.md).
 

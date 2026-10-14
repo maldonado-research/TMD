@@ -165,3 +165,7 @@ The [Figure 2D replay](calibration_source_replay/REPORT.md) reproduces the depos
 ## R35: official run and sample provenance
 
 The [sample-provenance audit](calibration_sample_provenance/REPORT.md) authenticates 22 run/experiment/library joins and identifies two candidate omitted-condition libraries. One registered BioSample is an archive annotation, not a physical-sample or independence law. Exclusion counts, preparation ancestry and actual dosing remain unavailable; the 37/37.5 source-label discrepancy is explicit. [R35 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R35.md). All 44 actual/planning inputs remain NULL.
+
+## R36: processing scope and native cell-state alternatives
+
+The [supplement record audit](calibration_supplement_records/REPORT.md) corroborates stated subsampling and selected primer/QC protocols while actual dose, ancestry and exclusions remain unresolved. The [native preprint assessment](native_cell_state_assessment/REPORT.md) distinguishes expression, gated reporters and culture-mat persistence from new mutation origins and native event inclusion. [R36 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R36.md). All 44 actual/planning inputs remain NULL.

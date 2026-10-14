@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000035",
-    "next_round_id": "R000036",
+    "last_completed_round": "R000036",
+    "next_round_id": "R000037",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -275,7 +275,13 @@
     "calibration_source_registered_biosamples_for_target": 1,
     "calibration_source_candidate_omitted_condition_runs": 2,
     "calibration_source_biological_ancestry_resolved": false,
-    "calibration_source_actual_dose_uncertainty_resolved": false
+    "calibration_source_actual_dose_uncertainty_resolved": false,
+    "latest_calibration_supplement_records_round": "R000036",
+    "calibration_S3_60000_total_rows_verified": 22,
+    "calibration_source_QC_protocol_settings_inspected": true,
+    "latest_native_cell_state_source_round": "R000036",
+    "native_preprint_provider_pages_acquired": 41,
+    "native_raw_data_manifest_authenticated": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -354,8 +360,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R35 official source run/experiment/library/BioSample crosswalk authenticated for22retained rows; two candidate omitted-condition libraries named and literal source-label discrepancy preserved; biological ancestry, actual dose, exclusion counts and native TMD admission remain unresolved.",
-    "next_action": "Obtain the processed per-standard counts, QC thresholds and accession-specific exclusion assignments for SRR30280226 and SRR30280227, or an actual extraction/PCR/library genealogy and row-level spike-dose/dilution uncertainty ledger linking the retained source runs. The 24 released condition-label records are not the complete attempted-sample denominator; one registered BioSample and distinct SRX/library names do not establish physical samples or independent biological trials. Preserve the literal 37 versus Figure S3 37.5 nominal labels and the R34 declared replay; do not silently change inputs or refit. An actual native MPB10583/MPB10613 stock/pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record remains an alternative priority. Use the 44-field qualified-review worksheet before native admission, with origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery and invisible-loss records, complete separately frozen predictors/comparators and evaluation, and propagated identified uncertainty. Park repeated unchanged SRA/BioSample or missing-record lookups, another figure replay and unsupported mathematical extensions. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work.",
+    "last_completed_step": "R36 source-processing distinction and native cell-state/mat-persistence evidence internally reviewed; named actual dosing, ancestry, per-run exclusions and native-origin panel remain unresolved.",
+    "next_action": "Obtain an actual run-linked preparation/dose and QC/exclusion ledger for SRR30280226/SRR30280227 and the retained calibration runs, or authentic versioned dataset/KEGG destinations and a bounded sample/genotype/replicate manifest for native preprint 10.64898/2026.01.27.702051v1, with authoritative strain/locus label reconciliation. Original PDF annotation or publisher-link access needs a changed prerequisite before retrying 429/HTMLchallenge failures. Source Table S5 protocols are not run-level execution or exclusion truth; S3 random subsampling is a distinct processing scope, not native event or ancestry evidence. Native RNA expression, gated reporter fractions and culture-mat persistence require context-specific interpretation and do not identify route mutation births or single-new-mutant establishment. Keep the historical 14 WS genotype family, biological culture replicates, wells, shared-source dilutions and repeated times distinct. No route homogeneity or transport bound follows from selected alleles. Actual MPB10583/MPB10613 pedigree/sequence or authoritative Figure 9 calculation records remain alternative priorities. Use the 44-field qualified-review worksheet before native admission, requiring origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery/loss, complete separately frozen predictors/comparators and evaluation, and identified joint uncertainty. Preserve literal 37/37.5 labels and R34 replay; do not default to refitting, plot digitization, FASTQ accumulation or a new mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -646,7 +652,28 @@
       "research/calibration_sample_provenance/SOURCE_PROVENANCE.json": "ac35c568a814af9e9310f8e4fe0965d8ffd8c950ab86ebc4ab1d3b692f6fe4f2",
       "research/calibration_sample_provenance/VERIFICATION_RECEIPT.json": "7bdb03d14bf92698eae139765ae595598f55f488a5199bafaf717c219479a7a6",
       "research/calibration_sample_provenance/replay_provenance.py": "2fb0127de19267180666a4c536c1eda685d840d6ed8617d1adb2caf00447f82a",
-      "research/CONTINUATION_HANDOFF_2026-10-14_R35.md": "5f0d3ff8238ba6ccdde155d4bfc2ae3dbb5eb5218353faff50fb27a73fab63cf"
+      "research/CONTINUATION_HANDOFF_2026-10-14_R35.md": "5f0d3ff8238ba6ccdde155d4bfc2ae3dbb5eb5218353faff50fb27a73fab63cf",
+      "research/calibration_supplement_records/COUNT_TOTAL_AUDIT.json": "c500aa6f8e2ad66d46595b6f9989b85be468f68ebcfc37832b3d4059ad1dda1f",
+      "research/calibration_supplement_records/DECISION.json": "3a733fccf9c16478752994071789a0e5c93eceb6695512f16f561b53c6f01526",
+      "research/calibration_supplement_records/LICENSE": "3a41e67b29f3e7d93776185cb020735cc3cfe1176a94844bcb4ca473c7165312",
+      "research/calibration_supplement_records/LICENSE_AND_PRIVACY_REVIEW.json": "4bcd6dfaad5205b730a1aacc9546c9d299fc3c24b924651715e2bc7a34d00f41",
+      "research/calibration_supplement_records/PRESPECIFICATION.md": "0df83f8c7eb7fc40ad52b3b88233a95e4596865ac0579b24f29068b61d9e78ac",
+      "research/calibration_supplement_records/PUBLIC_FILES.json": "825d4fc14eaf97d54f11c750dad34c146e49f91b2270425357488e34ca776466",
+      "research/calibration_supplement_records/REPORT.md": "2d8223461a7366a07e9ac4c3332eb833b367a431b3de2c7c3e44ac89e49cde03",
+      "research/calibration_supplement_records/SHA256SUMS.txt": "d83abe0adcec97562490b5280375e5938d8a88ef8c9d91ce5e644e1df9c072a5",
+      "research/calibration_supplement_records/SOURCE_PROVENANCE.json": "58832fb849664b4675fe829da56514128755bc686986504ec9af78cefd83f91b",
+      "research/calibration_supplement_records/SUPPLEMENT_AUDIT.json": "6797ab5ff7c281ab6ab32d533d0ac22972248d8de5cfb57afe5de79b11ae9661",
+      "research/calibration_supplement_records/VERIFICATION_RECEIPT.json": "8dcfc8ae55bb84b3a11fbffb249011db5ef6e1827376b0e2b8925666c71f7083",
+      "research/calibration_supplement_records/replay_supplement.py": "0ee99bbcce6dfebc0cf9932dd47a69a8c59de9573ad627710657dec090d2ec6c",
+      "research/native_cell_state_assessment/DECISION.json": "e895e04d3a3e3f20eb121aa6bcfd64411bcd0a80b4e60ac875ac5edea452c47b",
+      "research/native_cell_state_assessment/INDEPENDENT_REVIEW.json": "c2a9bb85862f6740bf06dfb00dc283d2af557e04d0f92af2859809dac27977c9",
+      "research/native_cell_state_assessment/LICENSE": "dc9552c8985888851dd05e3088bca0eb9ecacc082cebb5e074457f248de67dc9",
+      "research/native_cell_state_assessment/OBSERVATION_FRAME.json": "937939f67eee72fe10738cb3693a931ea30138a11be4971927db876fd8d5c178",
+      "research/native_cell_state_assessment/PUBLIC_FILES.json": "18e60e32eee63f118069cf38e96da1f14bd37fcfa74ac2076ffa33c2d3599900",
+      "research/native_cell_state_assessment/REPORT.md": "8fb9d7c868d40ea58959b2e6372980b708b63eb7d8a5f3d6a1fd569c2e12c932",
+      "research/native_cell_state_assessment/SHA256SUMS.txt": "2e286f8f923b0e377154e8013edb97bf3fac0ee4e589557046b2fe4bb41e8c17",
+      "research/native_cell_state_assessment/SOURCE_PROVENANCE.json": "127d080308438a1918f061b3603152d1ffa3cd8b2856968f2f3c27b3b0728160",
+      "research/CONTINUATION_HANDOFF_2026-10-14_R36.md": "3f50e7fa39414e8841a9627bb1272b22cca79bf6913b11c64583146c958ad8cf"
     }
   },
   "reviewed_checkpoint": {
@@ -684,7 +711,8 @@
       "R000032",
       "R000033",
       "R000034",
-      "R000035"
+      "R000035",
+      "R000036"
     ],
     "blocked_work_items": [
       {
@@ -851,9 +879,21 @@
         ],
         "scope": "Official metadata identifier joins and candidate omissions, no processed exclusion truth or physical biological ancestry",
         "source_ledger_sha256": "ac35c568a814af9e9310f8e4fe0965d8ffd8c950ab86ebc4ab1d3b692f6fe4f2"
+      },
+      {
+        "round": "R000036",
+        "source_ids": [
+          "10.1093/ismeco/ycaf028/supplement",
+          "10.64898/2026.01.27.702051v1"
+        ],
+        "scope": "New supplement and native primary text representations, source-count processing consistency and measurement units; original PDFs/data links/actual native events unresolved",
+        "source_ledger_sha256": [
+          "58832fb849664b4675fe829da56514128755bc686986504ec9af78cefd83f91b",
+          "127d080308438a1918f061b3603152d1ffa3cd8b2856968f2f3c27b3b0728160"
+        ]
       }
     ],
-    "next_action": "Obtain the processed per-standard counts, QC thresholds and accession-specific exclusion assignments for SRR30280226 and SRR30280227, or an actual extraction/PCR/library genealogy and row-level spike-dose/dilution uncertainty ledger linking the retained source runs. The 24 released condition-label records are not the complete attempted-sample denominator; one registered BioSample and distinct SRX/library names do not establish physical samples or independent biological trials. Preserve the literal 37 versus Figure S3 37.5 nominal labels and the R34 declared replay; do not silently change inputs or refit. An actual native MPB10583/MPB10613 stock/pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record remains an alternative priority. Use the 44-field qualified-review worksheet before native admission, with origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery and invisible-loss records, complete separately frozen predictors/comparators and evaluation, and propagated identified uncertainty. Park repeated unchanged SRA/BioSample or missing-record lookups, another figure replay and unsupported mathematical extensions. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
+    "next_action": "Obtain an actual run-linked preparation/dose and QC/exclusion ledger for SRR30280226/SRR30280227 and the retained calibration runs, or authentic versioned dataset/KEGG destinations and a bounded sample/genotype/replicate manifest for native preprint 10.64898/2026.01.27.702051v1, with authoritative strain/locus label reconciliation. Original PDF annotation or publisher-link access needs a changed prerequisite before retrying 429/HTMLchallenge failures. Source Table S5 protocols are not run-level execution or exclusion truth; S3 random subsampling is a distinct processing scope, not native event or ancestry evidence. Native RNA expression, gated reporter fractions and culture-mat persistence require context-specific interpretation and do not identify route mutation births or single-new-mutant establishment. Keep the historical 14 WS genotype family, biological culture replicates, wells, shared-source dilutions and repeated times distinct. No route homogeneity or transport bound follows from selected alleles. Actual MPB10583/MPB10613 pedigree/sequence or authoritative Figure 9 calculation records remain alternative priorities. Use the 44-field qualified-review worksheet before native admission, requiring origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery/loss, complete separately frozen predictors/comparators and evaluation, and identified joint uncertainty. Preserve literal 37/37.5 labels and R34 replay; do not default to refitting, plot digitization, FASTQ accumulation or a new mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
   },
   "previous_checkpoint_steps": [
     {
@@ -925,10 +965,15 @@
       "round": "R000034",
       "last_completed_step": "R34 original published calibration archives authenticated; declared Figure 2D processed-count calculation independently reproduced, with exact joins, original plot and preserved biological limits; no native stock/event calibration or TMD fit admitted.",
       "next_action": "Obtain actual row-level standard-dose and dilution uncertainty, extraction/library/shared-pool provenance and excluded accession/count records for a proposed calibration, or a named native MPB10583/MPB10613 pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Use the existing 44-field qualified-review worksheet before native measurement admission. The verified Figure 2D processed-count replay is a source arithmetic benchmark, not independent cell recovery, exact introduced-copy truth, mutation birth or a native count law. Known material must match the target process and enter early enough for the claimed stage; origin/ancestry truth, inherited negatives, exposure, establishment, recovery and invisible-loss limits still require actual records. Keep complete predictors/comparators and evaluation data frozen separately, and propagate identified calibration/input uncertainty before any statistical claim. Do not automatically replay another figure, infer missing failed rows, repeat blocked lookups or add an unsupported mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
+    },
+    {
+      "round": "R000035",
+      "last_completed_step": "R35 official source run/experiment/library/BioSample crosswalk authenticated for22retained rows; two candidate omitted-condition libraries named and literal source-label discrepancy preserved; biological ancestry, actual dose, exclusion counts and native TMD admission remain unresolved.",
+      "next_action": "Obtain the processed per-standard counts, QC thresholds and accession-specific exclusion assignments for SRR30280226 and SRR30280227, or an actual extraction/PCR/library genealogy and row-level spike-dose/dilution uncertainty ledger linking the retained source runs. The 24 released condition-label records are not the complete attempted-sample denominator; one registered BioSample and distinct SRX/library names do not establish physical samples or independent biological trials. Preserve the literal 37 versus Figure S3 37.5 nominal labels and the R34 declared replay; do not silently change inputs or refit. An actual native MPB10583/MPB10613 stock/pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record remains an alternative priority. Use the 44-field qualified-review worksheet before native admission, with origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery and invisible-loss records, complete separately frozen predictors/comparators and evaluation, and propagated identified uncertainty. Park repeated unchanged SRA/BioSample or missing-record lookups, another figure replay and unsupported mathematical extensions. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000035",
+    "round": "R000036",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

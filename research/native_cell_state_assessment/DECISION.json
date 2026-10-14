@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "decision": "NATIVE_CONTEXT_AND_MEASUREMENT_STAGE_RESOURCE_NO_EVENT_OR_PANEL_ADMISSION",
+  "new_primary_inspection_depth": true,
+  "new_independent_genotype_origin_cohort": false,
+  "source_claims_reproduced_by_new_experiment": false,
+  "native_raw_RNA_data_or_deposit_manifest_authenticated": false,
+  "actual_MPB10583_MPB10613_stock_join_resolved": false,
+  "calibration_input_truth_recovered": false,
+  "native_event_or_countlaw_admitted": false,
+  "study_fields_resolved": 0,
+  "planning_fields_resolved": 0,
+  "new_native_fit": false,
+  "new_theorem": false,
+  "frozen_model_or_methods_changed": false,
+  "next_useful_record": "Authentic versioned dataset and KEGG link targets and bounded processed-expression/sample, genotype and replicate manifest, plus authoritative strain/table/video label reconciliation. These would remain source-assay resources until actual native-origin/establishment/recovery contracts and qualified assessment are met."
+}

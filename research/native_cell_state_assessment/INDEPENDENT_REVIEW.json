@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-14T17:51:01.070687+00:00",
+  "scope": "Internal source-level and exact candidate-payload assessment; not qualified external biological review. Reviewer contributed source-specific cautions, then checked root-authored synthesis against the captured primary representation. Root separately inspected the cited contexts.",
+  "accepted_payload_sha256": {
+    "REPORT.md": "8fb9d7c868d40ea58959b2e6372980b708b63eb7d8a5f3d6a1fd569c2e12c932",
+    "OBSERVATION_FRAME.json": "937939f67eee72fe10738cb3693a931ea30138a11be4971927db876fd8d5c178",
+    "SOURCE_PROVENANCE.json": "127d080308438a1918f061b3603152d1ffa3cd8b2856968f2f3c27b3b0728160",
+    "DECISION.json": "e895e04d3a3e3f20eb121aa6bcfd64411bcd0a80b4e60ac875ac5edea452c47b",
+    "LICENSE": "dc9552c8985888851dd05e3088bca0eb9ecacc082cebb5e074457f248de67dc9"
+  },
+  "source_basis": {
+    "doi": "10.64898/2026.01.27.702051",
+    "version": "bioRxiv v1, posted January 27 2026",
+    "representation": "Firecrawl reports 41/41 PDF pages; primary methods, captions and supplementary table text inspected. No original PDF bytes, page-image measurement or raw RNA analysis.",
+    "full_text_capture_sha256": "4d70f4d933bc9218cd8715faf09064d5f4314f4daf82052714da90899e81b8fa",
+    "prior_metadata_family_deduplicated": true
+  },
+  "checked_claims": [
+    "Historical WS genotypes and four author-reported RNA culture replicates per genotype; no new mutation-origin cohort.",
+    "RNA mapping reference distinguished from actual physical-stock sequence authentication.",
+    "Figure 1 c-di-GMP reporter is a ratio of mean fluorescence with six reported independent replicates; no absolute copy calibration.",
+    "Gated reporter population and native-locus-disrupting reporter constructs retain measurement and transport limits.",
+    "Figure 5 mat persistence, repeated well observations and shared founder-culture dilutions are distinguished from individual-cell survival and de novo mutant establishment.",
+    "Three selected Table S1 stock/allele labels match the extracted source and do not authenticate the two proposed actual TMD stocks.",
+    "WS-1 mutation-description, WS-2 locus and WS-3 table/video conflicts remain literal unresolved representation discrepancies, without an allegation of author error.",
+    "Dataset/KEGG links labelled here are mentioned; failed PDF/HTML recovery does not establish absence of data or code."
+  ],
+  "rights_and_privacy": "PASS; original cited synthesis and selected facts only. Raw source contacts, full paper/source tables, generated plot values and private workspace paths remain outside the package.",
+  "no_admission": {
+    "actual_study_fields_resolved": 0,
+    "planning_fields_resolved": 0,
+    "native_stock_or_event_truth": false,
+    "native_count_law": false,
+    "matched_WAM_panel": false,
+    "new_fit": false,
+    "new_theorem": false,
+    "qualified_external_validation": false
+  },
+  "blocking_findings": []
+}

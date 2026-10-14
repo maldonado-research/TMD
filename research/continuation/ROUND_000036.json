@@ -1,0 +1,40 @@
+{
+  "id": "R000036",
+  "status": "completed_internal_review",
+  "date": "2026-10-14",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-14_R36.md",
+  "completion_scope": "supplement_processing_consistency_and_native_cell_state_source_assessment",
+  "details": {
+    "scientific_acquisition_attempts": 8,
+    "counted_saved_source_bytes": 756199,
+    "capture_bytes": 523504,
+    "explicit_duplicate_bytes": 232695,
+    "supplement_provider_pages": 18,
+    "native_provider_pages": 41,
+    "S3_rows_totaling_60000": 22,
+    "new_regression_performed": false,
+    "author_code_executed": false,
+    "original_PDFs_authenticated": 0,
+    "matched_panel_admitted": false
+  },
+  "native_biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "new_mathematical_theorem": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000036",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Obtain an actual run-linked preparation/dose and QC/exclusion ledger for SRR30280226/SRR30280227 and the retained calibration runs, or authentic versioned dataset/KEGG destinations and a bounded sample/genotype/replicate manifest for native preprint 10.64898/2026.01.27.702051v1, with authoritative strain/locus label reconciliation. Original PDF annotation or publisher-link access needs a changed prerequisite before retrying 429/HTMLchallenge failures. Source Table S5 protocols are not run-level execution or exclusion truth; S3 random subsampling is a distinct processing scope, not native event or ancestry evidence. Native RNA expression, gated reporter fractions and culture-mat persistence require context-specific interpretation and do not identify route mutation births or single-new-mutant establishment. Keep the historical 14 WS genotype family, biological culture replicates, wells, shared-source dilutions and repeated times distinct. No route homogeneity or transport bound follows from selected alleles. Actual MPB10583/MPB10613 pedigree/sequence or authoritative Figure 9 calculation records remain alternative priorities. Use the 44-field qualified-review worksheet before native admission, requiring origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery/loss, complete separately frozen predictors/comparators and evaluation, and identified joint uncertainty. Preserve literal 37/37.5 labels and R34 replay; do not default to refitting, plot digitization, FASTQ accumulation or a new mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
+}
