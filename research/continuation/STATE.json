@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000032",
-    "next_round_id": "R000033",
+    "last_completed_round": "R000033",
+    "next_round_id": "R000034",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -261,7 +261,10 @@
     "latest_barcoded_method_lead_round": "R000031",
     "barcoded_method_lead_dataset_admitted": false,
     "latest_barcoded_method_assessment_round": "R000032",
-    "barcoded_supporting_information_acquired": false
+    "barcoded_supporting_information_acquired": false,
+    "latest_implemented_calibration_resource_round": "R000033",
+    "calibration_source_data_archive_authenticated": false,
+    "native_calibration_records_admitted": 0
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -340,8 +343,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R32 HiDenSeq calibration architecture and explicit mechanism-identifiability limits internally reviewed; supplementary/data artifacts and stock/calculation truth remain unavailable in inspected scope; no native panel or fit admitted.",
-    "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.",
+    "last_completed_step": "R33 implemented downstream DNA calibration resources, precise entry stages and named published source-data archive identified and internally reviewed; no native stock/event panel or biological fit admitted.",
+    "next_action": "Authenticate the named data.tar.gz in published Zenodo record 14592209 (advertised 280012 bytes, MD5 58ee1d1cebd794d30544b095f3b58eea), under its recorded CC BY 4.0 terms, and inspect a safe complete archive manifest and bounded calibration count/input tables before selecting any source-replay calculation. Check exact sample, standard-dose, primer, replicate/exclusion and unit joins; a record file listing is not downloaded-byte authentication or a fit replay. Keep source calibration reanalysis separate from native TMD admission. BSINC standards enter after extraction; soil rDNA-mimics enter after bead-beating lysis; neither calibrates earlier cell loss or mutation birth. Native stock/pedigree, Figure 9 aggregation, independent event/ancestry truth, exposure and count law, establishment, recovery and invisible-loss controls, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0 unchanged. Park unchanged blocked supplements, stock searches and automatic mathematical extensions; no outreach or laboratory work.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -591,7 +594,19 @@
       "research/barcoded_assay_methods/SOURCE_PROVENANCE.json": "a2de6a4317fb4dfa6722d3d2aba3d9d1b2e0d0afacf9d5615e4c1f66ff053acc",
       "research/barcoded_assay_methods/VERIFICATION_RECEIPT.json": "a0a08e116a6f6925be15e38c0a93546e356883fe0d5026a09bbccfbf4f207aa6",
       "research/barcoded_assay_methods/verify_sources.py": "ddfca00ff4eaac07dee9df44736e1b7afbda67eb435c58f457b161a0f71f8f92",
-      "research/CONTINUATION_HANDOFF_2026-10-13_R32.md": "766bc552b7736deb5760e6e628d4ef1ab10d6e277472090ded537970a14795c3"
+      "research/CONTINUATION_HANDOFF_2026-10-13_R32.md": "766bc552b7736deb5760e6e628d4ef1ab10d6e277472090ded537970a14795c3",
+      "research/calibration_resource/ASSESSMENT.json": "435632172f69a43dda93effa9451caabfcc9df9921969d0db9b47248991e958d",
+      "research/calibration_resource/DECISION.json": "c2336a71234858dc4ea21a3445cccf74b90f7f772df7d592a31c16d8d22da8c4",
+      "research/calibration_resource/INDEPENDENT_REVIEW.json": "317b5b01ea9c823e9cf2cfe9cb19353428734e2a0ff1dd007e9025dafa9167c9",
+      "research/calibration_resource/LICENSE": "c5c63af3ef2b6b6a518c2ebeba1ab936a35538199223942d900abbe44348af71",
+      "research/calibration_resource/LICENSE_AND_PRIVACY_REVIEW.json": "58b15ce0ce3fa126bf828df1d6e210dd2665fb4b4cab2120624ac0d81d6f28c8",
+      "research/calibration_resource/PUBLIC_FILES.json": "6dd2a24c8bb4c2fbac08404214ae637e9f1043562dd850771d0a4fb54db2d3c3",
+      "research/calibration_resource/REPORT.md": "fb926f84fdbc7779585d9a829bcbef101ca0e72843c255a97602d959446716da",
+      "research/calibration_resource/SHA256SUMS.txt": "8d21809c5e991e33d00f6031c341fd2316d051a9879412fc034693ba19597361",
+      "research/calibration_resource/SOURCE_PROVENANCE.json": "3b9bc350b7d5faffb365130b450d99bc5bf08e7cfbf4de957b2020c299248986",
+      "research/calibration_resource/VERIFICATION_RECEIPT.json": "68f31c3984552d4cf53183edd5a57dee4d5751b10575bc7b6a9542fa24a1b6a8",
+      "research/calibration_resource/verify_sources.py": "3deed7d2296109c33be09bf86582957c7c8fa9bb2190e541ed4f049448f28b13",
+      "research/CONTINUATION_HANDOFF_2026-10-14_R33.md": "6fb5c93e5d2c580b5b8d54129b86e42ab6507a869ace23558e706da5023740cf"
     }
   },
   "reviewed_checkpoint": {
@@ -626,7 +641,8 @@
       "R000029",
       "R000030",
       "R000031",
-      "R000032"
+      "R000032",
+      "R000033"
     ],
     "blocked_work_items": [
       {
@@ -761,9 +777,20 @@
         ],
         "scope": "Same-preprint main-text methods clarification and abstract metadata alias; no SI/data replay, new cohort or native admission",
         "source_ledger_sha256": "a2de6a4317fb4dfa6722d3d2aba3d9d1b2e0d0afacf9d5615e4c1f66ff053acc"
+      },
+      {
+        "round": "R000033",
+        "source_ids": [
+          "10.1128/aem.02179-25",
+          "10.1093/ismeco/ycaf028",
+          "10.1093/ismeco/ycaf112",
+          "10.5281/zenodo.14592209"
+        ],
+        "scope": "Implemented genomic/rDNA standard primary representations, date-only correction and deposited-file metadata; no archive/sequence replay or native event admission",
+        "source_ledger_sha256": "3b9bc350b7d5faffb365130b450d99bc5bf08e7cfbf4de957b2020c299248986"
       }
     ],
-    "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work."
+    "next_action": "Authenticate the named data.tar.gz in published Zenodo record 14592209 (advertised 280012 bytes, MD5 58ee1d1cebd794d30544b095f3b58eea), under its recorded CC BY 4.0 terms, and inspect a safe complete archive manifest and bounded calibration count/input tables before selecting any source-replay calculation. Check exact sample, standard-dose, primer, replicate/exclusion and unit joins; a record file listing is not downloaded-byte authentication or a fit replay. Keep source calibration reanalysis separate from native TMD admission. BSINC standards enter after extraction; soil rDNA-mimics enter after bead-beating lysis; neither calibrates earlier cell loss or mutation birth. Native stock/pedigree, Figure 9 aggregation, independent event/ancestry truth, exposure and count law, establishment, recovery and invisible-loss controls, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0 unchanged. Park unchanged blocked supplements, stock searches and automatic mathematical extensions; no outreach or laboratory work."
   },
   "previous_checkpoint_steps": [
     {
@@ -820,14 +847,20 @@
       "round": "R000031",
       "last_completed_step": "R31 named reporting/author-response applicability context, historical reconstruction/stock-search limits and recent HiDenSeq method lead internally cross-reviewed; no physical stock, aggregation truth, matched panel or biological fit admitted.",
       "next_action": "Obtain a named actual-stock pedigree/custody and sequence/annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 calculation record linking replicate/exclusion identities, marker/background inputs and aggregation/dispersion definitions. Historical reconstruction credit and matching focal alleles do not establish the physical stock join. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions. The HiDenSeq version-one supporting information is a named next artifact only if barcode grouping, independent absolute calibration or loss assumptions can change a measurement gate; an actual versioned data/code deposit remains to be identified before numerical reuse. Preserve the yeast/WS context boundary and the authors stated frequency-dependent fitness/reference-competitor limitations. Independent units/count law, native route supply/exposure, event/ancestry truth, inherited negatives, establishment and separate recovery/classification, invisible losses, complete frozen predictors/comparators and untouched evaluation remain required. Keep PTATO benchmarking, default endpoint accumulation, repeated unchanged stock/code searches and automatic mathematical extensions parked. Keep all 26 study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    },
+    {
+      "round": "R000032",
+      "last_completed_step": "R32 HiDenSeq calibration architecture and explicit mechanism-identifiability limits internally reviewed; supplementary/data artifacts and stock/calculation truth remain unavailable in inspected scope; no native panel or fit admitted.",
+      "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000032",
+    "round": "R000033",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",
     "scientific_delegates": 2,
+    "nested_delegates_used": false,
     "installed_unattended_runner_configuration_changed": false,
     "scheduled_provider_inference_tested": false
   }

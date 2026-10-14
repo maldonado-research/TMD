@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.",
+  "next_action": "Authenticate the named data.tar.gz in published Zenodo record 14592209 (advertised 280012 bytes, MD5 58ee1d1cebd794d30544b095f3b58eea), under its recorded CC BY 4.0 terms, and inspect a safe complete archive manifest and bounded calibration count/input tables before selecting any source-replay calculation. Check exact sample, standard-dose, primer, replicate/exclusion and unit joins; a record file listing is not downloaded-byte authentication or a fit replay. Keep source calibration reanalysis separate from native TMD admission. BSINC standards enter after extraction; soil rDNA-mimics enter after bead-beating lysis; neither calibrates earlier cell loss or mutation birth. Native stock/pedigree, Figure 9 aggregation, independent event/ancestry truth, exposure and count law, establishment, recovery and invisible-loss controls, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0 unchanged. Park unchanged blocked supplements, stock searches and automatic mathematical extensions; no outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,14 +41,15 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000032"
+      "R000033"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-13_R32.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-14_R33.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
+    "third_party_public_Zenodo_metadata_reads": 1,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "calibration_and_identifiability_scope_clarified_no_native_panel"
+    "scientific_inference_status": "implemented_calibration_resource_and_named_deposit_no_native_panel"
   },
   "github_research_addenda_history": [
     {
@@ -158,6 +159,17 @@
       "author_methods_Zenodo_requests_this_round": 0,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "source_context_and_recent_measurement_lead_no_matched_panel_admitted"
+    },
+    {
+      "latest_rounds": [
+        "R000032"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-13_R32.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "calibration_and_identifiability_scope_clarified_no_native_panel"
     }
   ],
   "publication_verified_file_count": 8,

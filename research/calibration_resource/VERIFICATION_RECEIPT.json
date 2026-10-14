@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: own source cache not supplied",
+    "shared_root_replay": "UNRUN: shared root cache not supplied",
+    "shared_local_replay": "UNRUN: shared correction/deposit cache not supplied",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_data_reanalysed": false,
+    "external_qualified_review": false
+  },
+  "full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: capture identities and selected primary/SRA/error anchors; no sequence, supplement or experimental replay",
+    "shared_root_replay": "PASS: reused root identities, rDNA primary anchors and bounded LRQ failures only",
+    "shared_local_replay": "PASS: publication-date correction and advertised deposit inventory; no downloaded archive validation",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_data_reanalysed": false,
+    "external_qualified_review": false
+  },
+  "own_logical_scientific_calls": 6,
+  "own_saved_acquisition_bytes": 375661,
+  "round_unique_logical_scientific_calls": 12,
+  "round_unique_saved_bytes": 668958,
+  "scope": "Public closure, frozen dependencies, capture identities and selected source anchors only; no original archive, sequence/count, biological fit, native transport or qualified external review validation."
+}

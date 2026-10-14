@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "round": "R33",
+  "logical_scientific_calls": 6,
+  "logical_call_allocation": 6,
+  "saved_acquisition_bytes": 375661,
+  "byte_allocation": 10485760,
+  "calls": [
+    {
+      "id": "C01",
+      "filename": "01_harrison_review_passages.json",
+      "tool": "firecrawl_research_read_paper",
+      "arguments": {
+        "paperId": "pmid:32889760",
+        "question": "Which primary experimental studies implement independently known-abundance internal DNA or cellular standards for microbial absolute abundance, especially synthetic barcoded DNA spike-ins? Give exact references, quantities independently measured, stage added, available protocols and deposited data.",
+        "k": 6
+      },
+      "bytes": 651,
+      "sha256": "a90b6756860f6e8a2f3aed0bee86943ebc92fa0a6c6443760648a4e6ab1d10e1",
+      "capture_saved_utc": "2026-10-14T06:47:08.477868+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    },
+    {
+      "id": "C02",
+      "filename": "02_primary_standard_discovery.json",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "Harrison \"quest for absolute abundance\" Tourlousse synthetic spike-in standards",
+        "limit": 5,
+        "sources": [
+          "web"
+        ],
+        "domainTools": false
+      },
+      "bytes": 5628,
+      "sha256": "cf8f4c2049058f2133b52a79be514e06a5b9fac4b30af1c04e7ed5b4bde663c7",
+      "capture_saved_utc": "2026-10-14T06:47:38.146573+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    },
+    {
+      "id": "C03",
+      "filename": "03_portable_protocol_primary.json",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12997851/",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true
+      },
+      "bytes": 319946,
+      "sha256": "c2f3055f5f17cc79250eb11eb64e079438c9c990cd85f06fef42e1aea8490e88",
+      "capture_saved_utc": "2026-10-14T06:48:06.083235+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    },
+    {
+      "id": "C04",
+      "filename": "04_portable_protocol_supplement.json",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12997851/bin/aem.02179-25-s0001.docx",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true
+      },
+      "bytes": 939,
+      "sha256": "df857175a9e4a7c49262d83faa45e650e7b1a7003fd2f7ce8aa3d8a05e2c5780",
+      "capture_saved_utc": "2026-10-14T06:49:34.133045+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    },
+    {
+      "id": "C05",
+      "filename": "05_bioproject_sra_records.json",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1347130",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true
+      },
+      "bytes": 28791,
+      "sha256": "2faa835685a534621d632d232752495e9e844bdc842c57a5517cbc863a77fe44",
+      "capture_saved_utc": "2026-10-14T06:49:34.569054+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    },
+    {
+      "id": "C06",
+      "filename": "06_nanopore_sra_records.json",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1347130%20AND%20%22Oxford%20Nanopore%22%5BPlatform%5D",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "onlyMainContent": true
+      },
+      "bytes": 19706,
+      "sha256": "bcc362e820a010207a2592f85dc4ed0607c86631edb26e6fc0cb7d2d5ee021d1",
+      "capture_saved_utc": "2026-10-14T06:50:07.589754+00:00",
+      "timestamp_semantics": "filesystem capture completion, not tool start"
+    }
+  ],
+  "byte_accounting": "Exact saved UTF-8 JSON wrappers with arguments and full returned results, including duplicate provider representations. Wire/provider-internal bytes unknown. Root discovery is reused and excluded from own totals.",
+  "shared_discovery": "Root R33 paper-index watch S01 supplied the portable-protocol candidate; own C03 acquired the primary full-text representation. Root accounts for that discovery once.",
+  "coverage": {
+    "C01": "Harrison review PMID32889760 returned no indexed full-text passages; review contents were not acquired.",
+    "C02": "Five search excerpts only, including Harrison DOI10.1111/1755-0998.13247 and an independent 2025 synthetic-standard study. No excerpt substitutes for acquired primary methods.",
+    "C03": "PMC full-text markdown/links representation of published Bian et al. paper; figures and supplementary equations were not reconstructed.",
+    "C04": "Named DOCX retrieval failed with INVALID_ARGUMENT and all scraping engines failed; no supplement content or original DOCX bytes acquired.",
+    "C05": "SRA project query reported 218 public records; first 20 summaries visible. Platform facets list 215 Illumina and 3 Oxford Nanopore records.",
+    "C06": "Platform-filtered SRA query returned all 3 Nanopore experiment summaries. No individual experiment/run pages or FASTQ files acquired."
+  },
+  "acquisition_scope": {
+    "main_primary_representation_acquired": true,
+    "actual_supplement_file_link_identified": true,
+    "supplementary_content_acquired": false,
+    "public_dataset_metadata_acquired": true,
+    "sequencing_data_bytes_acquired": 0,
+    "original_artifact_bytes_acquired": 0,
+    "source_analysis_code_acquired": false,
+    "source_data_reanalysed": false,
+    "raw_source_bodies_published": false
+  },
+  "source_context": "Published water-sector microbial community profiling and commercial mock communities, not SBW25 mutation or native Wsp/Aws/Mws calibration.",
+  "inherited_dependencies": [
+    {
+      "path": "research/barcoded_assay_methods/REPORT.md",
+      "bytes": 7811,
+      "sha256": "875cc60ac64fc521818c9eb440670bbb0db79d3fb86fdb48ae8d0afef45ca735"
+    },
+    {
+      "path": "research/barcoded_assay_methods/ASSESSMENT.json",
+      "bytes": 5743,
+      "sha256": "dc69d9d6bbef6d5e7e9d1f5f28a0acd311b63c5931d459a56b83f852f4cc534f"
+    },
+    {
+      "path": "research/barcoded_assay_methods/DECISION.json",
+      "bytes": 762,
+      "sha256": "5d75d62b7dee97c52fec8964a15ae20ed38b6f2869af20b351bfddb857bdbf31"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+    }
+  ],
+  "shared_root": {
+    "logical_scientific_calls": 4,
+    "saved_acquisition_bytes": 261765,
+    "counted_in_own_totals": false,
+    "calls": [
+      {
+        "filename": "S01.json",
+        "tool": "firecrawl_research_search_papers",
+        "arguments": {
+          "query": "Implemented absolute abundance calibration known abundance spike-in standards barcoded microbial lineages sequencing cells mutation inference",
+          "from": "2025-01-01",
+          "to": "2026-10-14",
+          "k": 6
+        },
+        "bytes": 7582,
+        "sha256": "177eeba314694a053be50cebdb4408f1bb4418b4685dd561a2fc6a41615af36a"
+      },
+      {
+        "filename": "S02.json",
+        "tool": "firecrawl_scrape",
+        "arguments": {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1.full.pdf",
+          "formats": [
+            "markdown",
+            "links"
+          ],
+          "parsers": [
+            "pdf"
+          ],
+          "pdfOptions": {
+            "maxPages": 60
+          },
+          "maxAge": 0
+        },
+        "bytes": 2698,
+        "sha256": "92e8c6217a07dcf4b901f472805ff6ce4c9a46927a85bca8992c42f0aca70191"
+      },
+      {
+        "filename": "S03.json",
+        "tool": "firecrawl_research_read_paper",
+        "arguments": {
+          "paperId": "doi:10.64898/2026.09.28.754546",
+          "question": "What is experimentally demonstrated about known-abundance calibration standards, when added relative to extraction, genome or cell units, independent validation, limitations and public sequencing data/code deposits in long-read quantiomics?",
+          "k": 4
+        },
+        "bytes": 566,
+        "sha256": "03fa70d350aef2a77633f1dbbdba87f2b0269671f6b90dffe6b9f8e81aeabcc1"
+      },
+      {
+        "filename": "S04.json",
+        "tool": "firecrawl_scrape",
+        "arguments": {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11912825/",
+          "formats": [
+            "markdown",
+            "links"
+          ],
+          "maxAge": 0
+        },
+        "bytes": 250919,
+        "sha256": "efac426e0fe0bb45da926ef0865476b67ea69ff5131aebbf9b1424040e902217"
+      }
+    ],
+    "scope": "Reused source wrappers; counted once by original acquisition owner."
+  },
+  "shared_local": {
+    "logical_scientific_calls": 2,
+    "saved_acquisition_bytes": 31532,
+    "counted_in_own_totals": false,
+    "calls": [
+      {
+        "filename": "S01.json",
+        "tool": "firecrawl_scrape",
+        "arguments": {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12904280/",
+          "formats": [
+            "markdown"
+          ],
+          "onlyMainContent": true,
+          "maxAge": 0
+        },
+        "bytes": 20111,
+        "sha256": "c516a599eb8834caaa872fd4d6df16f88a164ad631e127a90e9b121b08b440c3"
+      },
+      {
+        "filename": "S02.json",
+        "tool": "firecrawl_scrape",
+        "arguments": {
+          "url": "https://zenodo.org/api/records/14592209",
+          "formats": [
+            "markdown"
+          ],
+          "onlyMainContent": true,
+          "maxAge": 0
+        },
+        "bytes": 11421,
+        "sha256": "8f2f0f0d3da8ec7986e0c5675a1690f46b23bae0b51a87737d2f477eba06a05e"
+      }
+    ],
+    "scope": "Reused source wrappers; counted once by original acquisition owner."
+  },
+  "round_unique_logical_scientific_calls": 12,
+  "round_unique_saved_bytes": 668958,
+  "shared_coverage": {
+    "root_S01": "Six paper-index candidates; metadata/abstract discovery, no independent replication implied by aliases.",
+    "root_S02": "Named new long-read quantiomics preprint PDF returned HTTP429; no full text obtained.",
+    "root_S03": "Same new preprint indexed passage request empty.",
+    "root_S04": "Tourlousse/Sekiguchi primary full-text representation with actual stage-specific methods and named deposits.",
+    "local_S01": "Publication-date-only correction for Tourlousse/Sekiguchi.",
+    "local_S02": "Public published Zenodo metadata and three-file inventory; no original binaries or source counts/code acquired."
+  }
+}
