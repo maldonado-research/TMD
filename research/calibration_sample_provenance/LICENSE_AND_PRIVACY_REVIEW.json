@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "original_assessment_and_synthesized_metadata_join": "CC BY 4.0",
+  "original_Python_code": "MIT",
+  "third_party_rights": "Zenodo source metadata previously declares CC BY 4.0; NCBI public availability is not treated as a CC license or ownership grant. No original source metadata table, XML, raw count table, archive, author code, contact details or institution postal address copied into Git. Only selected public accessions/library labels and original derived statements published. Third-party rights unchanged; no patent-use permission inferred.",
+  "raw_third_party_artifacts_published": false,
+  "author_or_submitter_emails_published": false,
+  "provider_paths_or_private_workstation_paths_published": false,
+  "credentials_published": false,
+  "public_metadata_whitelist": [
+    "run_accession",
+    "sra_experiment",
+    "sra_sample",
+    "biosample",
+    "library_name",
+    "primer",
+    "nominal_soil_mass_label"
+  ],
+  "new_native_actual_inputs_published": false
+}

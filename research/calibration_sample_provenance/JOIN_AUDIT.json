@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "status": "PASS_EXACT_ACCESSION_METADATA_JOIN",
+  "project": "PRJNA1100950",
+  "project_experiment_records": 178,
+  "project_run_records": 178,
+  "project_biosample_identifiers": 8,
+  "target_rows": 22,
+  "matched_target_rows": 22,
+  "unmatched_targets": [],
+  "multiply_matched_targets": [],
+  "figure2d_to_sra_primer_or_mass_conflicts": [],
+  "target_distinct_experiments": 22,
+  "target_distinct_library_names": 22,
+  "target_sra_sample_identifiers": [
+    "SRS22380613"
+  ],
+  "target_biosample_identifiers": [
+    "SAMN43151561"
+  ],
+  "named_soil_mass_condition_runs": 24,
+  "retained_accession_join": [
+    {
+      "run_accession": "SRR30280192",
+      "sra_experiment": "SRX25741093",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil37mgmixE_S28",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280203",
+      "sra_experiment": "SRX25741082",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil37mgmixE_S27",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280214",
+      "sra_experiment": "SRX25741071",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil300mgmixE_S22",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 300,
+      "figure2d_nominal_soil_mg_label": "300",
+      "figure_s3_nominal_soil_mg_label": "300",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280221",
+      "sra_experiment": "SRX25741064",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil75mgmixE_S20",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280222",
+      "sra_experiment": "SRX25741063",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil75mgmixE_S19",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280223",
+      "sra_experiment": "SRX25741062",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil37mgmixE_S22",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280224",
+      "sra_experiment": "SRX25741061",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil37mgmixE_S21",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280225",
+      "sra_experiment": "SRX25741060",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil300mgmixE_S21",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 300,
+      "figure2d_nominal_soil_mg_label": "300",
+      "figure_s3_nominal_soil_mg_label": "300",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280236",
+      "sra_experiment": "SRX25741049",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil150mgmixE_S18",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280247",
+      "sra_experiment": "SRX25741038",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil150mgmixE_S17",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280258",
+      "sra_experiment": "SRX25741027",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil150mgmixE_S42",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280272",
+      "sra_experiment": "SRX25741013",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil75mgmixE_S44",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280283",
+      "sra_experiment": "SRX25741002",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil75mgmixE_S43",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280301",
+      "sra_experiment": "SRX25740984",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil150mgmixE_S41",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280312",
+      "sra_experiment": "SRX25740973",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil75mgmixE_S26",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280323",
+      "sra_experiment": "SRX25740962",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil75mgmixE_S25",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 75,
+      "figure2d_nominal_soil_mg_label": "75",
+      "figure_s3_nominal_soil_mg_label": "75",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280326",
+      "sra_experiment": "SRX25740959",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil37mgmixE_S46",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280337",
+      "sra_experiment": "SRX25740948",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil37mgmixE_S45",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 37,
+      "figure2d_nominal_soil_mg_label": "37",
+      "figure_s3_nominal_soil_mg_label": "37.5",
+      "cross_artifact_soil_mass_label_conflict": true
+    },
+    {
+      "run_accession": "SRR30280348",
+      "sra_experiment": "SRX25740937",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil300mgmixE_S40",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 300,
+      "figure2d_nominal_soil_mg_label": "300",
+      "figure_s3_nominal_soil_mg_label": "300",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280359",
+      "sra_experiment": "SRX25740926",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS2_soil300mgmixE_S39",
+      "primer": "ITS2",
+      "nominal_soil_mg_from_library_label": 300,
+      "figure2d_nominal_soil_mg_label": "300",
+      "figure_s3_nominal_soil_mg_label": "300",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280360",
+      "sra_experiment": "SRX25740925",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil150mgmixE_S24",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    },
+    {
+      "run_accession": "SRR30280361",
+      "sra_experiment": "SRX25740924",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "ITS1_soil150mgmixE_S23",
+      "primer": "ITS1",
+      "nominal_soil_mg_from_library_label": 150,
+      "figure2d_nominal_soil_mg_label": "150",
+      "figure_s3_nominal_soil_mg_label": "150",
+      "cross_artifact_soil_mass_label_conflict": false
+    }
+  ],
+  "candidate_omitted_condition_runs": [
+    {
+      "run_accession": "SRR30280226",
+      "sra_experiment": "SRX25741059",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil300mgmixE_S16",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 300,
+      "evidence_status": "CANDIDATE_OMITTED_CONDITION_RUN",
+      "exact_postprocessing_standard_reads": null,
+      "accession_specific_exclusion_confirmed": false
+    },
+    {
+      "run_accession": "SRR30280227",
+      "sra_experiment": "SRX25741058",
+      "sra_sample": "SRS22380613",
+      "biosample": "SAMN43151561",
+      "library_name": "V4_soil300mgmixE_S15",
+      "primer": "V4",
+      "nominal_soil_mg_from_library_label": 300,
+      "evidence_status": "CANDIDATE_OMITTED_CONDITION_RUN",
+      "exact_postprocessing_standard_reads": null,
+      "accession_specific_exclusion_confirmed": false
+    }
+  ],
+  "cross_artifact_soil_mass_label_conflicts": [
+    {
+      "run_accession": "SRR30280192",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    },
+    {
+      "run_accession": "SRR30280203",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    },
+    {
+      "run_accession": "SRR30280223",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    },
+    {
+      "run_accession": "SRR30280224",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    },
+    {
+      "run_accession": "SRR30280326",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    },
+    {
+      "run_accession": "SRR30280337",
+      "figure2d_and_sra_label_mg": "37",
+      "figure_s3_label_mg": "37.5",
+      "actual_weighed_soil_mg": null
+    }
+  ],
+  "independent_biological_unit_count": null,
+  "extraction_replicate_map": null,
+  "library_preparation_replicate_map": null,
+  "physical_shared_pool_ancestry_map": null,
+  "exact_per_accession_standard_dose_copies": null,
+  "per_accession_dose_uncertainty": null,
+  "full_attempted_sample_denominator": null,
+  "new_regression_or_native_fit": false
+}

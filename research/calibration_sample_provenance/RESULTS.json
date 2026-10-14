@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "decision": "ARCHIVE_IDENTIFIERS_RESOLVED_BIOLOGICAL_ANCESTRY_UNRESOLVED",
+  "retained_runs_joined": 22,
+  "distinct_retained_experiment_and_library_labels": 22,
+  "shared_biosample": "SAMN43151561",
+  "shared_sra_sample": "SRS22380613",
+  "project_runs_inspected": 178,
+  "named_soil_mass_runs": 24,
+  "named_v4_300mg_candidates": [
+    "SRR30280226",
+    "SRR30280227"
+  ],
+  "candidate_interpretation": "Public records explicitly label V4/300 mg/mix E and are absent from selected Figure 2D. No per-accession exclusion log or fewer-than-ten standard counts recovered.",
+  "released_subset_is_full_attempted_denominator": false,
+  "six_lowest_mass_accessions_have_figureS3_label_discrepancy": true,
+  "r34_37mg_predictor_preserved": true,
+  "actual_weighed_soil_mass_resolved": false,
+  "sample_annotation_scope": "Same submitted BioSample/SRA sample annotation; not proof of one physical specimen, a shared extraction, or independent biological units.",
+  "replicate_role_of_library_suffixes": "Unspecified; S-number library labels do not identify extraction or biological replicate ancestry.",
+  "biosample_attributes": {
+    "collection_date": "not applicable",
+    "geo_loc_name": "not applicable",
+    "isolation_source": "not applicable",
+    "isolate": "not applicable",
+    "lat_lon": "missing"
+  },
+  "archive_pool_annotation_scope": "SRA Pool/Member elements repeat the sample accession; not a physical sample or experimental shared-pool ledger.",
+  "exact_per_run_dose_or_uncertainty_recovered": false,
+  "author_dose_context": "Approximately 4 million total rDNA-mimic copies; source-level claim, added after cell lysis by bead-beating.",
+  "new_calculation": "Exact identifier joins and source-label comparison only",
+  "new_regression_or_native_fit": false
+}

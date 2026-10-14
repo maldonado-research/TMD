@@ -233,3 +233,7 @@ Husain et al. [HiDenSeq version-one main text](https://www.biorxiv.org/content/1
 ## R34 bounded original-data follow-through — 14 October 2026
 
 The source archives linked by [Tourlousse and Sekiguchi](https://doi.org/10.1093/ismeco/ycaf028), fixed [Zenodo version 14592209](https://doi.org/10.5281/zenodo.14592209), are now acquired and independently byte-checked. The [declared Figure 2D replay](research/calibration_source_replay/REPORT.md) uses the actual processed table and archived recipe/output without executing author code. It reproduces descriptive values while retaining post-lysis/gene-unit, input-uncertainty, unknown-replicate and missing-condition limits. Other figures and raw sequencing remain unanalysed; no new literature search or native biological result is claimed.
+
+## R35 bounded official-metadata follow-through — 14 October 2026
+
+New [BioProject PRJNA1100950](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1100950) and linked official SRA/BioSample metadata clarify the identifiers behind the [Tourlousse/Sekiguchi source](https://doi.org/10.1093/ismeco/ycaf028). The [audit](research/calibration_sample_provenance/REPORT.md) verifies the 22 retained accession joins and two candidate V4/300-mg omissions, without biological independence or an attempted-condition denominator. Reused authenticated archive metadata preserves the 37/37.5 nominal-label discrepancy; no new fit, raw-read analysis or exhaustive new-literature search is claimed.
