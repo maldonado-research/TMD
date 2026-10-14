@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "round": "R36",
+  "source_doi": "10.64898/2026.01.27.702051",
+  "title": "Transcriptomic dissection of genetically diverse Wrinkly Spreader mutants reveals hidden layers of complexity",
+  "authors": "G. T. Rodriguez-Sanchez, D. W. Rogers and P. B. Rainey",
+  "version_url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702051v1.full.pdf",
+  "source_status": "Version-one bioRxiv preprint; acquired text header states posted 27 January 2026 and not certified by peer review. No later-version or journal-publication status checked.",
+  "inspection_depth": "Provider reports all 41 PDF pages converted; claim-specific main methods, figure captions, supplement tables/video captions inspected as text. Original PDF bytes and hyperlink annotations unavailable; source-author code and raw RNA counts not executed/acquired.",
+  "new_inspection_not_new_family": "DOI already appeared in R26 metadata-only source candidates. R36 newly acquires its text representation; historical14 WS genotypes attributed to Lind et al. (2015) are not a new independent genotype-origin cohort.",
+  "root_scientific_calls": 4,
+  "root_saved_source_bytes": 342015,
+  "root_counted_files": [
+    {
+      "filename": "S01.json",
+      "bytes": 1681,
+      "sha256": "2c8c06153659d82b07d08b791b5cf2103e5f929e479008a424660b733c521301",
+      "tool": "firecrawl_research_search_papers",
+      "arguments": {
+        "query": "Pseudomonas fluorescens SBW25 Wsp Aws Mws mutation pathways experimental evolution direct lineage establishment mutation rate wrinkly spreader genotype replicate data",
+        "from": "2026-01-01",
+        "to": "2026-10-14",
+        "k": 6
+      }
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 730,
+      "sha256": "684616bf79dd371cd035e005cf27840916c86b5583f1d691fb1ddf2b5ee6a516",
+      "tool": "firecrawl_research_read_paper",
+      "arguments": {
+        "paperId": "doi:10.64898/2026.01.27.702051",
+        "question": "What source methods or records identify actual Wrinkly Spreader strain stock labels, common ancestral reconstructions, replicate cultures and genotype/route ancestry; are MPB10583 or MPB10613 linked to sequences or pedigrees; what numerical sample/data/code deposit and mutation-supply versus transcriptomic interpretation limits are stated?",
+        "k": 4
+      }
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 337885,
+      "sha256": "4d70f4d933bc9218cd8715faf09064d5f4314f4daf82052714da90899e81b8fa",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702051v1.full.pdf",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 60
+        },
+        "maxAge": 0
+      }
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 1719,
+      "sha256": "5a71122014f204a4d54dc5e5f84bfb375c225a6f4ef04d749513ab24fe6db4f1",
+      "tool": "firecrawl_research_inspect_paper",
+      "arguments": {
+        "paperId": "doi:10.64898/2026.01.27.702051"
+      }
+    }
+  ],
+  "derived_native_primary_text_copy_counted_as_new_acquisition": false,
+  "successful_root_captures": "Search metadata, parsed PDF representation and canonical metadata; indexed passage request returnedempty.",
+  "source_license": "Acquired preprint header explicitly states CC BY 4.0. Own original synthesis CC BY 4.0; no raw paper/body/author contact export.",
+  "additional_original_binary_attempt": "Accounted once by supplement-worker ledger; original nativePDF GET HTTP 429, no PDF body.",
+  "additional_HTML_link_attempt": "Accounted once by independent-reviewer ledger; full HTML HTTP 429; zero recovered links.",
+  "data_access_scope": "Primary says dataset and KEGG exploration exist at two here links. Destinations not recovered from inspected text/links representation; this does not establish absence of data or code.",
+  "credential_values_read": false,
+  "wire_or_provider_internal_bytes": "unknown"
+}

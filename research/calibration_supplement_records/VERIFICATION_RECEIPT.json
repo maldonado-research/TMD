@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-14T17:43:51.517652+00:00",
+  "status": "PASS",
+  "runs": [
+    {
+      "invocation": "public-only",
+      "exit_code": 0,
+      "output": {
+        "frozen_dependencies": "PASS",
+        "public_integrity": "PASS",
+        "source_replay": "UNRUN"
+      }
+    },
+    {
+      "invocation": "external-capture-and-source-archive",
+      "exit_code": 0,
+      "output": {
+        "figure2d_total_read_range": [
+          62909,
+          151648
+        ],
+        "figure_s3_total_read_values": [
+          60000
+        ],
+        "frozen_dependencies": "PASS",
+        "identifier_hits": 0,
+        "identifier_queries": 72,
+        "original_pdf_byte_authentication": "UNAVAILABLE",
+        "public_integrity": "PASS",
+        "source_capture_depth": "18/18 pages reported by provider; text representation only",
+        "source_replay": "PASS"
+      }
+    }
+  ],
+  "native_data_or_fit_admission": false,
+  "author_code_execution": false,
+  "network_access_by_reproduction_code": false,
+  "count_check_scope": "22 retained rows; source count totals only; no regression or random draw reconstructed",
+  "independent_review": "separately performed by reviewer agent; acceptance recorded separately"
+}

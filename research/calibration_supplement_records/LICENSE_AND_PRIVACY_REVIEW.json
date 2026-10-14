@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "original_text_and_synthesized_audits_license": "CC BY 4.0",
+  "original_python_license": "MIT",
+  "author": "Ricardo Maldonado with AI assistance",
+  "article_license_observed": "CC BY 4.0 in reused primary capture",
+  "separate_supplement_license_observed": false,
+  "source_access_not_blanket_reuse_permission": true,
+  "no_raw_source_pdf_capture_tables_sequences_or_author_code_published": true,
+  "no_contact_postal_or_private_paths_published": true,
+  "published_material": "Original synthesis, selected numerical protocol facts, accession search audit and derived count totals, provenance hashes, original offline reproduction code.",
+  "external_evidence": "Raw response wrapper, HTML interstitial, HTTP receipts and extracted text remain outside Git.",
+  "rights_limit": "No blanket claim on separately marked third-party source material; no patent-use permission inferred."
+}

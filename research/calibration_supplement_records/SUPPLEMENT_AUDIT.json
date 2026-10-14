@@ -1,0 +1,445 @@
+{
+  "representation": "FIRECRAWL_EXTRACTED_MARKDOWN_NOT_LOCAL_ORIGINAL_PDF",
+  "provider_reported_processed_pages": 18,
+  "provider_reported_total_pages": 18,
+  "provider_reported_http_status": 200,
+  "provider_reported_content_type": "application/pdf",
+  "figures_identified": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11"
+  ],
+  "tables_identified": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "frame_records": 24,
+  "literal_identifier_queries": 72,
+  "literal_identifier_hits": 0,
+  "identifier_search": [
+    {
+      "identifier": "SRR30280192",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741093",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil37mgmixE_S28",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280203",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741082",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil37mgmixE_S27",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280214",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741071",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil300mgmixE_S22",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280221",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741064",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil75mgmixE_S20",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280222",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741063",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil75mgmixE_S19",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280223",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741062",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil37mgmixE_S22",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280224",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741061",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil37mgmixE_S21",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280225",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741060",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil300mgmixE_S21",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280236",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741049",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil150mgmixE_S18",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280247",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741038",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil150mgmixE_S17",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280258",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741027",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil150mgmixE_S42",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280272",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741013",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil75mgmixE_S44",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280283",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741002",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil75mgmixE_S43",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280301",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740984",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil150mgmixE_S41",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280312",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740973",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil75mgmixE_S26",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280323",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740962",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil75mgmixE_S25",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280326",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740959",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil37mgmixE_S46",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280337",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740948",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil37mgmixE_S45",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280348",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740937",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil300mgmixE_S40",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280359",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740926",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS2_soil300mgmixE_S39",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280360",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740925",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil150mgmixE_S24",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280361",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25740924",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "ITS1_soil150mgmixE_S23",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280226",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741059",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil300mgmixE_S16",
+      "field": "library_name",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRR30280227",
+      "field": "run_accession",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "SRX25741058",
+      "field": "sra_experiment",
+      "literal_hits": 0
+    },
+    {
+      "identifier": "V4_soil300mgmixE_S15",
+      "field": "library_name",
+      "literal_hits": 0
+    }
+  ],
+  "figure_s3_reports_random_subsampling_to_60000": true,
+  "figure_s9_reports_mock_strain_under10_exclusion": true,
+  "table_s5_selected_protocol_parameters": [
+    {
+      "source_label": "SSU-V4",
+      "scope": "SOURCE_REPORTED_PROTOCOL_NOT_RUN_LEVEL_EXECUTION",
+      "cutadapt_minimum_length_bases": 225,
+      "cutadapt_max_n": 0,
+      "cutadapt_discard_untrimmed": true,
+      "dada2_trunc_len_bases": [
+        150,
+        150
+      ],
+      "dada2_max_expected_errors": [
+        4,
+        4
+      ],
+      "explicit_truncation_setting_absent_is_not_a_zero": false
+    },
+    {
+      "source_label": "ITS1",
+      "scope": "SOURCE_REPORTED_PROTOCOL_NOT_RUN_LEVEL_EXECUTION",
+      "cutadapt_minimum_length_bases": 185,
+      "cutadapt_max_n": 0,
+      "cutadapt_discard_untrimmed": true,
+      "dada2_trunc_len_bases": null,
+      "dada2_max_expected_errors": [
+        4
+      ],
+      "explicit_truncation_setting_absent_is_not_a_zero": true
+    },
+    {
+      "source_label": "ITS2",
+      "scope": "SOURCE_REPORTED_PROTOCOL_NOT_RUN_LEVEL_EXECUTION",
+      "cutadapt_minimum_length_bases": 225,
+      "cutadapt_max_n": 0,
+      "cutadapt_discard_untrimmed": true,
+      "dada2_trunc_len_bases": [
+        225
+      ],
+      "dada2_max_expected_errors": [
+        4
+      ],
+      "explicit_truncation_setting_absent_is_not_a_zero": false
+    }
+  ],
+  "automatic_plot_tables_used": false,
+  "original_pdf_bytes_authenticated": false,
+  "per_run_measured_dose": null,
+  "per_run_dose_uncertainty": null,
+  "extraction_pcr_library_genealogy": null,
+  "accession_specific_exclusion_decisions": null,
+  "full_attempted_sample_denominator": null
+}

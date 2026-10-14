@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "R36 original supplement-record assessment",
+  "files": [
+    "COUNT_TOTAL_AUDIT.json",
+    "DECISION.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PRESPECIFICATION.md",
+    "PUBLIC_FILES.json",
+    "REPORT.md",
+    "SHA256SUMS.txt",
+    "SOURCE_PROVENANCE.json",
+    "SUPPLEMENT_AUDIT.json",
+    "VERIFICATION_RECEIPT.json",
+    "replay_supplement.py"
+  ],
+  "raw_sources_in_git": false
+}

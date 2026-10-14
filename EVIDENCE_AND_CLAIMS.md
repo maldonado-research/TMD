@@ -172,3 +172,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | All 22 retained rows have exact official run/experiment/library joins to one registered BioSample | [Sample-provenance report](research/calibration_sample_provenance/REPORT.md) | Archive annotation does not prove a physical specimen, preparation genealogy, independent biological units or mutation ancestry. |
 | Two extra released V4/300-mg libraries are named; six nominal mass labels differ across figures | [Derived joins and limits](research/calibration_sample_provenance/RESULTS.json) | Candidate omissions lack processed counts/exclusion assignment; 24 released labels do not establish the attempted denominator. Preserve R34 inputs without refitting. |
+
+## R36 source stages and native alternatives — 14 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Figure S3 totals 60,000 reads for all 22 rows, corroborating the supplement caption; selected Table S5 filters recovered | [Supplement audit](research/calibration_supplement_records/REPORT.md) | No exact random draw, source pipeline execution, per-run exclusion, dose or native recovery truth. |
+| Native preprint reports genotype/cell-state/density context for mat readouts | [Native source assessment](research/native_cell_state_assessment/REPORT.md) | Historical genotype family, expression cultures, gated cells and culture-mat persistence; no native stock/pedigree join, mutation births, single-new-mutant establishment or matched panel. |

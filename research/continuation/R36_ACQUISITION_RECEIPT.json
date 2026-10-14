@@ -1,0 +1,111 @@
+{
+  "round": "R000036",
+  "scientific_acquisition_calls": 8,
+  "conservative_saved_source_and_representation_bytes": 756199,
+  "counted_saved_source_bytes": 756199,
+  "saved_acquisition_capture_bytes": 523504,
+  "explicit_duplicate_text_bytes": 232695,
+  "actor_scientific_attempts": {
+    "root": 4,
+    "supplement_records": 3,
+    "independent_reviewer": 1
+  },
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "saved_files": [
+    {
+      "path": "watch/S01.json",
+      "bytes": 1681,
+      "sha256": "2c8c06153659d82b07d08b791b5cf2103e5f929e479008a424660b733c521301",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "watch/S02.json",
+      "bytes": 730,
+      "sha256": "684616bf79dd371cd035e005cf27840916c86b5583f1d691fb1ddf2b5ee6a516",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "watch/S03.json",
+      "bytes": 337885,
+      "sha256": "4d70f4d933bc9218cd8715faf09064d5f4314f4daf82052714da90899e81b8fa",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "watch/S04.json",
+      "bytes": 1719,
+      "sha256": "5a71122014f204a4d54dc5e5f84bfb375c225a6f4ef04d749513ab24fe6db4f1",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S01_firecrawl_pdf_scrape.json",
+      "bytes": 158972,
+      "sha256": "d53de4cbda46524bf75986db5ceb6ab2574d29480fb981c005b4ea8214466036",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S02_pdf_download_interstitial.html",
+      "bytes": 1816,
+      "sha256": "f18b38c1cf3c47660536eef838f8801396e03054da10ec29a6ecb96cf793a8b5",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S02_pdf_http_headers.txt",
+      "bytes": 690,
+      "sha256": "2f340de675fcd7a29f169898654369da54d74ab2dad0601023cf9e356fbe8339",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S02_pdf_http_receipt.json",
+      "bytes": 8049,
+      "sha256": "bf56189760ea7ca28436fbe9343d6b96c31cb89eb1b98e65e4ed613efe6740b6",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S03_native_pdf_failure_receipt.json",
+      "bytes": 452,
+      "sha256": "35601aee6c4db35c163fc2dfcf637a27104765e23e36cc34a075f6335439c520",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S03_native_pdf_http_headers.txt",
+      "bytes": 783,
+      "sha256": "33cc15a194254728b671255cb3595a8f4c64030c70a69434d921c304fe118eba",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S03_native_pdf_http_receipt.json",
+      "bytes": 7953,
+      "sha256": "b25cc37de90905a1b8baefcfeda56ef87bd5a005bccc069d5afb0af1d6e55500",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "review/S01_native_html_links.json",
+      "bytes": 2774,
+      "sha256": "093d99d774498844643614010b5aa268a77c4fabc5f3829691e2b0e024732c50",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "supplement/S01_extracted_markdown.txt",
+      "bytes": 76316,
+      "sha256": "b5c634a429114c389a9a2fafc96e6bbe2dad2912daadf688c7b202fe50da6a8e",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "watch/native_primary.txt",
+      "bytes": 156379,
+      "sha256": "9b725fa96450f5dca4fa63aa5b3ba0820c71afed5b150d0d49642aa51c8a8309",
+      "category": "derived_text_duplicate"
+    }
+  ],
+  "source_ledgers": [
+    "../calibration_supplement_records/SOURCE_PROVENANCE.json",
+    "../native_cell_state_assessment/SOURCE_PROVENANCE.json"
+  ],
+  "accounting": "Original actor acquisition scopes retained; whole-round conservative total also includes both convenience text duplicates once. Reused older sources not counted as new; no wire/provider-internal claim.",
+  "raw_source_bodies_published": false,
+  "original_PDFs_authenticated": 0,
+  "source_author_code_executed": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0
+}
