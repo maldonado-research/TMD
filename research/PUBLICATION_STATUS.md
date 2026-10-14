@@ -4,7 +4,7 @@ Checked 8 October 2026 (America/Los_Angeles).
 
 **Current: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
 
-The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R32 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
+The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R33 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
 
 The modern draft API repaired staging using the correct JSON request schema and content type; the initial content-type rejection and earlier legacy failures are preserved as diagnostics. Approved notes are stored exactly as an RDM additional description of type `other`; the legacy serializer omits that field, so verification uses canonical modern metadata and public HTML. Fresh restored-runtime checks passed all 53 archive hashes, 44 unit tests and 160 saved-result comparisons without changing the ZIP.
 
@@ -59,3 +59,5 @@ R30 adds internally cross-reviewed stock-context and source-calculation-record a
 R31 adds internally cross-reviewed reporting/author-response, historical stock-search and recent barcoded-assay method assessments. The source context is sharper, but actual stock identity, Figure 9 aggregation and native measurement admission remain unresolved. No archived method or admitted biological result changes, so no new Zenodo version, release, upload or author/public-state request is made. Methods 0.6.0 excludes later R1–R31 addenda.
 
 R32 adds a reviewed HiDenSeq main-text calibration and mechanism-identifiability assessment. The named supplementary artifact remains unacquired, and no actual stock, matched panel or biological result is admitted. No archived method changes, so methods 0.6.0 remains the frozen snapshot excluding R1–R32 addenda; no new Zenodo request or version is made.
+
+R33 identifies implemented downstream DNA-calibration resources and a published third-party data/code inventory. No source-data archive, native panel or biological result is admitted in this round. Methods 0.6.0 excludes later R1–R33 addenda and remains frozen; no new project Zenodo version or author/public-state request is made. A public metadata read of another author’s dataset is recorded separately.

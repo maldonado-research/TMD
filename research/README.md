@@ -153,3 +153,7 @@ The [reporting record](reporting_record_assessment/REPORT.md) distinguishes auth
 ## R32: calibration architecture and mechanism identifiability
 
 The [HiDenSeq methods assessment](barcoded_assay_methods/REPORT.md) identifies the non-UV fitted calibration, author-reported independent colony-count comparison, future spike-in proposal and explicitly open mechanism-identifiability question. The supplement remains unacquired; the same-study PMC record is abstract-only. [R32 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R32.md). All 44 actual/planning inputs remain NULL.
+
+## R33: implemented calibration resources and a named dataset
+
+The [assessment](calibration_resource/REPORT.md) compares barcoded genomic-DNA standards entering after extraction with synthetic rDNA-mimics added after soil cell lysis. Published validation remains source-reported; actual data/code inventory is identified before archive acquisition. [R33 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R33.md). All 44 actual/planning fields remain NULL.

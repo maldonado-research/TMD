@@ -407,13 +407,27 @@
     {
       "id": "R000033",
       "priority": 33,
-      "status": "pending",
+      "status": "completed",
       "question": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.",
       "deliverable": "Actual named supporting data/code/calibration or stock/calculation record capable of resolving a feasibility gate; otherwise park.",
       "falsifier_or_boundary": "Same-study aliases, model-fit agreement and fitted abundance scales do not supply native event truth or unique mechanism identification.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "blocked_until_actual_measurement_and_study_inputs_admitted",
-      "report": "../barcoded_assay_methods/REPORT.md"
+      "scientific_inference_status": "implemented_measurement_resource_identified_no_native_panel",
+      "report": "../CONTINUATION_HANDOFF_2026-10-14_R33.md",
+      "completion_scope": "implemented_DNA_calibration_entry_stages_and_named_data_resource",
+      "result": "Published DNA-standard methods inform named downstream calibration gates; actual source-data archive identified in public metadata before numerical replay. Scoped local inventory finds no new named biological artifact.",
+      "remaining_prerequisites": "Authenticate the named data.tar.gz in published Zenodo record 14592209 (advertised 280012 bytes, MD5 58ee1d1cebd794d30544b095f3b58eea), under its recorded CC BY 4.0 terms, and inspect a safe complete archive manifest and bounded calibration count/input tables before selecting any source-replay calculation. Check exact sample, standard-dose, primer, replicate/exclusion and unit joins; a record file listing is not downloaded-byte authentication or a fit replay. Keep source calibration reanalysis separate from native TMD admission. BSINC standards enter after extraction; soil rDNA-mimics enter after bead-beating lysis; neither calibrates earlier cell loss or mutation birth. Native stock/pedigree, Figure 9 aggregation, independent event/ancestry truth, exposure and count law, establishment, recovery and invisible-loss controls, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0 unchanged. Park unchanged blocked supplements, stock searches and automatic mathematical extensions; no outreach or laboratory work."
+    },
+    {
+      "id": "R000034",
+      "priority": 34,
+      "status": "pending",
+      "question": "Authenticate the named data.tar.gz in published Zenodo record 14592209 (advertised 280012 bytes, MD5 58ee1d1cebd794d30544b095f3b58eea), under its recorded CC BY 4.0 terms, and inspect a safe complete archive manifest and bounded calibration count/input tables before selecting any source-replay calculation. Check exact sample, standard-dose, primer, replicate/exclusion and unit joins; a record file listing is not downloaded-byte authentication or a fit replay. Keep source calibration reanalysis separate from native TMD admission. BSINC standards enter after extraction; soil rDNA-mimics enter after bead-beating lysis; neither calibrates earlier cell loss or mutation birth. Native stock/pedigree, Figure 9 aggregation, independent event/ancestry truth, exposure and count law, establishment, recovery and invisible-loss controls, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0 unchanged. Park unchanged blocked supplements, stock searches and automatic mathematical extensions; no outreach or laboratory work.",
+      "deliverable": "Authenticate the bounded published source-data archive and actual sample/count/unit joins for a qualified source replay, while keeping native fields unresolved.",
+      "falsifier_or_boundary": "Archive identity and published DNA calibration do not establish native mutation events, independent cell-loss calibration or a TMD biological fit.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "source_replay_and_native_admission_pending",
+      "report": "../calibration_resource/REPORT.md"
     }
   ]
 }

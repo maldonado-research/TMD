@@ -151,3 +151,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | HiDenSeq calibrates the UV comparison using a non-UV canonical-distribution fit and reports an independent colony-count cross-check | [Methods assessment](research/barcoded_assay_methods/REPORT.md) | Supporting records unacquired; fitted calibration requires uncertainty and justified transport, not blanket rejection or native supply admission. |
 | Authors explicitly leave general mechanism identifiability open | [Methods assessment](research/barcoded_assay_methods/REPORT.md) | Distinguishing selected models does not identify a unique cause among all plausible mechanisms; no new theorem or biological fit. |
+
+## R33 implemented standards — 14 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| BSINC implements separately barcoded genomic-DNA calibration | [Resource assessment](research/calibration_resource/REPORT.md) | Post-extraction measurement; shared extracted-DNA validation does not calibrate preceding biological loss or mutation origin. |
+| Synthetic rDNA standards have published validation and a named data/code deposit | [Resource assessment](research/calibration_resource/ASSESSMENT.json) | Soil standards added after lysis; gene quantities, metadata inventory and advertised checksums do not supply cell/event truth or a source-data replay. |

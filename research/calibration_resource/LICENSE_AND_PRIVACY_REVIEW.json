@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "original_assessment_and_derived_facts": "CC BY 4.0",
+  "new_verification_code": "MIT",
+  "main_article_declared_license": "CC BY 4.0, Bian et al. 2026",
+  "supplement_declared_rights": "Article says ASM does not own supplemental copyrights and has a nonexclusive publishing license; author contact requested for reuse. No supplement obtained or republished.",
+  "repository_license": "Not inspected; no third-party code republished.",
+  "dataset_scope": "Only derived public accession facts and rounded metadata are included; raw sequence data unacquired. No assertion of a blanket dataset reuse license.",
+  "raw_third_party_bodies_or_code_published": false,
+  "private_paths_or_payloads_published": false,
+  "author_contact_details_published": false,
+  "provider_IPs_or_identifiers_published": false,
+  "new_actual_study_data_published": false,
+  "synthetic_main_correction_and_deposit_declared_license": "CC BY 4.0 in acquired primary/correction text and public Zenodo metadata; no archive contents acquired.",
+  "synthetic_patent_disclosure": "Source declares patents related to the standards; no patent-use license inferred from the deposit license."
+}

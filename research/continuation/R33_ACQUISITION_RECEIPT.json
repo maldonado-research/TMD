@@ -1,0 +1,127 @@
+{
+  "round": "R000033",
+  "scientific_acquisition_calls": 12,
+  "counted_saved_source_bytes": 668958,
+  "serialized_response_capture_bytes": 668958,
+  "new_original_artifact_bytes": 0,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "calibration_resource_calls": 6,
+  "calibration_resource_saved_bytes": 375661,
+  "root_calls": 4,
+  "root_saved_bytes": 261765,
+  "correction_deposit_calls": 2,
+  "correction_deposit_saved_bytes": 31532,
+  "source_ledgers": [
+    "../calibration_resource/SOURCE_PROVENANCE.json"
+  ],
+  "shared_acquisitions_counted_once": true,
+  "reused_artifacts_counted_as_new": false,
+  "root_acquisitions": [
+    {
+      "filename": "S01.json",
+      "bytes": 7582,
+      "sha256": "177eeba314694a053be50cebdb4408f1bb4418b4685dd561a2fc6a41615af36a",
+      "arguments": {
+        "query": "Implemented absolute abundance calibration known abundance spike-in standards barcoded microbial lineages sequencing cells mutation inference",
+        "from": "2025-01-01",
+        "to": "2026-10-14",
+        "k": 6
+      }
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 2698,
+      "sha256": "92e8c6217a07dcf4b901f472805ff6ce4c9a46927a85bca8992c42f0aca70191",
+      "arguments": {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1.full.pdf",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "parsers": [
+          "pdf"
+        ],
+        "pdfOptions": {
+          "maxPages": 60
+        },
+        "maxAge": 0
+      }
+    },
+    {
+      "filename": "S03.json",
+      "bytes": 566,
+      "sha256": "03fa70d350aef2a77633f1dbbdba87f2b0269671f6b90dffe6b9f8e81aeabcc1",
+      "arguments": {
+        "paperId": "doi:10.64898/2026.09.28.754546",
+        "question": "What is experimentally demonstrated about known-abundance calibration standards, when added relative to extraction, genome or cell units, independent validation, limitations and public sequencing data/code deposits in long-read quantiomics?",
+        "k": 4
+      }
+    },
+    {
+      "filename": "S04.json",
+      "bytes": 250919,
+      "sha256": "efac426e0fe0bb45da926ef0865476b67ea69ff5131aebbf9b1424040e902217",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11912825/",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "maxAge": 0
+      }
+    }
+  ],
+  "correction_deposit_acquisitions": [
+    {
+      "call_id": "S01",
+      "bytes": 20111,
+      "sha256": "c516a599eb8834caaa872fd4d6df16f88a164ad631e127a90e9b121b08b440c3",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12904280/",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-14T06:51:20.448Z",
+      "completed_utc": "2026-10-14T06:51:26.178Z",
+      "filename": "S01.json"
+    },
+    {
+      "call_id": "S02",
+      "bytes": 11421,
+      "sha256": "8f2f0f0d3da8ec7986e0c5675a1690f46b23bae0b51a87737d2f477eba06a05e",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://zenodo.org/api/records/14592209",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "maxAge": 0
+      },
+      "started_utc": "2026-10-14T06:51:20.452Z",
+      "completed_utc": "2026-10-14T06:51:31.323Z",
+      "filename": "S02.json"
+    }
+  ],
+  "local_snapshot_decision": {
+    "round": "R33",
+    "decision": "bounded_local_filename_inventory_no_new_eligible_biology_artifact_identified",
+    "fresh_inventory": true,
+    "prior_named_files_checked": 12,
+    "prior_named_files_unchanged": 12,
+    "new_biological_records_admitted": 0,
+    "scope": "Fresh filename inventory of the named local archive subtree, keyword/native-format triage and unchanged prior-copy identity checks. Physics/software candidates were excluded. Not an exhaustive body search or evidence of global absence or remote freshness.",
+    "private_evidence_public": false,
+    "all_44_actual_fields_remain_null": true
+  },
+  "raw_bodies_private_paths_or_fingerprints_published": false,
+  "wire_provider_internal_accounting": "unknown",
+  "author_methods_Zenodo_requests": 0,
+  "third_party_public_Zenodo_metadata_reads": 1,
+  "outreach": false
+}

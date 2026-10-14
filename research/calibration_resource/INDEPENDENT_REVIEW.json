@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "reviewed_utc": "2026-10-14T06:59:55.790856+00:00",
+  "review_kind": "Internal scientific and source-scope review by a separate delegate; not qualified external peer review or independent experimental replication.",
+  "reviewer_role_boundary": "Reviewer independently checked BSINC primary-method claims and the combined synthesis, and contributed the source-grounded synthetic-rDNA assessment and correction/deposit checks. The synthetic section is not claimed as wholly independent of its contributor.",
+  "reviewed_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 9344,
+      "sha256": "fb926f84fdbc7779585d9a829bcbef101ca0e72843c255a97602d959446716da"
+    },
+    {
+      "path": "ASSESSMENT.json",
+      "bytes": 18234,
+      "sha256": "435632172f69a43dda93effa9451caabfcc9df9921969d0db9b47248991e958d"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1047,
+      "sha256": "c2336a71234858dc4ea21a3445cccf74b90f7f772df7d592a31c16d8d22da8c4"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 10750,
+      "sha256": "3deed7d2296109c33be09bf86582957c7c8fa9bb2190e541ed4f049448f28b13"
+    }
+  ],
+  "checks": [
+    {
+      "topic": "Absolute-input basis",
+      "finding": "PASS: commercial theoretical genome-copy inputs and DNA mass/defined dilution inputs remain author-reported calibration quantities; no independently certified stock or viable-cell denominator asserted. Sanger sequence identity is distinguished from absolute quantity."
+    },
+    {
+      "topic": "Entry stage and process matching",
+      "finding": "PASS: BSINC standard is pre-extracted DNA separately barcoded from sample extract; synthetic DNA was added post-extraction or post-lysis. Neither entry establishes pre-entry cell recovery or native mutation-origin survival. Remaining DNA/sequence/processing transfer is explicit."
+    },
+    {
+      "topic": "Units",
+      "finding": "PASS: genome copies, rRNA gene/operon copies, cells, viable cells and mutation births remain distinct. dPCR 16S-to-genome mapping has not been replayed."
+    },
+    {
+      "topic": "Calibration uncertainty and held-out independence",
+      "finding": "PASS: identifiable calibration parameters, propagated joint uncertainty, justified transfer and pre-evaluation freeze are required. The package neither prohibits separate calibration fitting nor calls endpoint-derived scale an independent predictor."
+    },
+    {
+      "topic": "Count law and dependencies",
+      "finding": "PASS: library barcodes and technical replicates are not authenticated biological units; synthetic assessment retains shared-pool dependence and rejects reading pairwise contrasts as independent trials. No native count law is admitted."
+    },
+    {
+      "topic": "Orthogonal validation",
+      "finding": "PASS: BSINC dPCR shares purified DNA with sequencing; corroboration is scoped downstream and author-reported. Shared extraction and gene/genome mapping limitations remain explicit."
+    },
+    {
+      "topic": "Correction and actual resource coverage",
+      "finding": "PASS: acquired date-only correction is distinguished from scientific measurement correction. Deposited archives have advertised sizes/checksums only; no archive-byte authentication, source counts or code replay claimed. SRA summary/validation correspondence remains unresolved without alleging source error."
+    },
+    {
+      "topic": "Source-anchor replay",
+      "finding": "PASS: all 15 BSINC selected anchors and all 7 synthetic selected anchors found in retained primary-text representations. Correction wording and the three-file Zenodo metadata were inspected directly; checks validate representations, not experimental truth."
+    },
+    {
+      "topic": "Scientific admission",
+      "finding": "PASS: no native panel, stock, calibration record, event count, biological fit or theorem admitted; all 26 study and 18 planning values remain NULL; frozen model and methods boundaries maintained."
+    },
+    {
+      "topic": "Privacy and rights",
+      "finding": "PASS: reviewed package contains concise derived source facts and public record metadata. Private local inventory, private-file fingerprints, source bodies, provider identifiers and author contact details stay external; no archive- or patent-use license is inferred."
+    }
+  ],
+  "blocking_findings": [],
+  "external_qualified_review": false,
+  "source_data_or_experiment_reanalysed": false,
+  "approval_scope": "Scientific/source-scope package ready for root integration and exact-commit publication review; integrity verifier must be rerun after review/checksum refresh."
+}

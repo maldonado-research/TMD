@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "decision": "RETAIN_IMPLEMENTED_DNA_STAGE_CALIBRATION_RESOURCE_NO_NATIVE_ADMISSION",
+  "reason": "An implemented barcoded genomic-DNA standard and public sequence metadata change resource feasibility; extraction, cell/event truth, uncertainty and native transport remain unresolved.",
+  "next_artifact": "First inspect the advertised 280,012-byte data.tar.gz at Zenodo 14592209 for actual input/count/replicate fields, preserving the source-defined filtering and copy units; independently obtain the BSINC barcode/sample/standard-quantity crosswalk and versioned workflow. No unchanged failed endpoint retry by default.",
+  "study_fields_resolved": 0,
+  "planning_fields_resolved": 0,
+  "matched_panels_admitted": 0,
+  "independent_mutation_events_admitted": 0,
+  "calibration_records_admitted": 0,
+  "methods_archive_changed": false,
+  "stock_selected": false,
+  "laboratory_work_commissioned": false,
+  "outreach_commissioned": false,
+  "frozen_core_changed": false,
+  "native_thresholds_or_stopping_changed": false
+}

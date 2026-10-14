@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "status": "IMPLEMENTED_DNA_STAGE_CALIBRATION_RESOURCE_WITH_PUBLIC_SEQUENCE_METADATA_NO_NATIVE_ADMISSION",
+  "source": {
+    "title": "Quantitative metagenomics using a portable protocol",
+    "authors_short": "Bian et al.",
+    "doi": "10.1128/aem.02179-25",
+    "PMCID": "PMC12997851",
+    "PMID": "41733350",
+    "publication_date": "2026-02-24",
+    "journal": "Applied and Environmental Microbiology",
+    "source_type": "published primary experimental methods study",
+    "independent_evidence_family_count": 1,
+    "reported_systems": [
+      "commercial microbial DNA and whole-cell mock communities",
+      "wastewater mixed liquor",
+      "secondary effluent",
+      "microalgal cultivation samples"
+    ],
+    "native_Wsp_Aws_Mws": false
+  },
+  "calibration": {
+    "method": "barcoded spike-in-based calibration (BSINC)",
+    "implemented": true,
+    "standard": "ZymoBIOMICS Microbial Community DNA Standard II (Log Distribution), eight bacterial and two fungal strains",
+    "physical_material": "pre-extracted genomic DNA",
+    "entry_stage": "Standard DNA and already-extracted sample DNA receive separate sequencing-library barcodes, then are pooled before cleanup, adapter ligation and sequencing.",
+    "barcode_kind": "library/sample partition identifiers; not heritable lineage ancestry tags or independent mutation-event labels",
+    "known_abundance_basis": "Paper uses theoretical genome copy numbers for a commercial DNA standard and input DNA amounts; exact lot quantities, composition-to-copy conversion and uncertainty records in the named supplement were not acquired. No independently certified stock counts claimed.",
+    "fit": "Barcode-effect normalization and regression of theoretical against observed standard genome copy numbers are reported, then used for sample quantitation.",
+    "measurement_target": "Estimated genome copy abundance in extracted DNA, not directly enumerated living cells or independent mutation births.",
+    "observed_copy_definition": "Main text reports BEF-normalized mapped bases divided by covered bases; supplement equations not acquired/replayed.",
+    "calibration_records_admitted": 0,
+    "TMD_conditional_fit_rule": "A separate calibration fit can be assessable with identifiable parameters, propagated joint uncertainty, a justified count law and native-context transfer frozen before evaluation. Fitting the evaluation endpoint cannot simultaneously supply its independently frozen predictor."
+  },
+  "orthogonal_validation": {
+    "method": "digital PCR on selected genus-level 16S targets with gBlock controls",
+    "shares_extraction_with_sequencing": true,
+    "reported_as_author_observation": true,
+    "independently_replayed": false,
+    "inference_limit": "Agreement on aliquots of the same purified DNA can test downstream quantitation; it does not independently establish whole-cell extraction recovery, viability or mutation-event counts. Gene-copy to genome-copy comparison requires the target/copy-number mapping, which is not replayed here."
+  },
+  "stage_limits": {
+    "potential_downstream_use": "Concrete benchmark architecture for DNA-input-to-sequence quantitation and barcode/library efficiency under the tested composition, reference and sequencing conditions.",
+    "not_established": [
+      "pre-extraction cell capture or taxon-specific lysis recovery",
+      "physical-cell count from genome copies without copy-number and viability assumptions",
+      "native SBW25 mutation births, establishment, extinction or invisible loss",
+      "inherited-negative evidence or parental ancestry",
+      "independent biological-trial count from barcode technical partitions",
+      "closely related native route/strain discrimination",
+      "transport of the reported thresholds or calibration to native Wsp/Aws/Mws"
+    ]
+  },
+  "reported_detection_criteria": {
+    "coverage_fraction_percent": 10,
+    "coefficient_of_variation_percent": 10,
+    "scope": "Source-defined LOD/LOQ criteria only; no universal cell detection probability, event-loss bound, TMD threshold or stopping-rule replacement.",
+    "native_thresholds_adopted": false
+  },
+  "resource": {
+    "bioproject": "PRJNA1347130",
+    "metadata_url": "https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1347130",
+    "project_result_count_reported": 218,
+    "project_summaries_visible": 20,
+    "platform_counts_reported": {
+      "Illumina": 215,
+      "Oxford Nanopore": 3
+    },
+    "nanopore_summaries": [
+      {
+        "experiment": "SRX30880760",
+        "sample_label": "secondary effluent",
+        "rounded_bases_display": "197.5M",
+        "url": "https://www.ncbi.nlm.nih.gov/sra/SRX30880760"
+      },
+      {
+        "experiment": "SRX30880596",
+        "sample_label": "activated sludge mixed liquor",
+        "rounded_bases_display": "9.3G",
+        "url": "https://www.ncbi.nlm.nih.gov/sra/SRX30880596"
+      },
+      {
+        "experiment": "SRX30880595",
+        "sample_label": "mock community",
+        "rounded_bases_display": "95.4M",
+        "url": "https://www.ncbi.nlm.nih.gov/sra/SRX30880595"
+      }
+    ],
+    "summary_run_count_each": 1,
+    "actual_fastq_downloaded": false,
+    "barcode_replicate_calibration_crosswalk_acquired": false,
+    "completeness": "The article reports a 4.78-Gbp validation experiment, while the visible mock-community SRA summary displays 95.4M bases. Different aggregation or processing is possible; the correspondence is unresolved, not evidence of an error or absent files.",
+    "workflow_url": "https://github.com/Harper19/wf-metagenomics_test",
+    "workflow_status": "Article-named link only; repository code, version, contents and license not acquired.",
+    "supplement_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12997851/bin/aem.02179-25-s0001.docx",
+    "supplement_status": "Named actual DOCX link; content retrieval failed."
+  },
+  "review_boundary": {
+    "Harrison_PMID32889760": "Review cited as background; own passage request empty, no full review acquired.",
+    "Hardwick_DOI10.1038/nrg.2017.44": "Background review identified previously; not acquired this round.",
+    "primary_from_review_citation_claimed": false,
+    "HiDenSeq_implemented_spike_in_claimed": false
+  },
+  "selected_primary_anchors": [
+    {
+      "id": "implemented_standard",
+      "section": "Methods: Multiplex Nanopore metagenomic sequencing",
+      "text": "a mixture of genomic DNA of eight bacterial and two fungal strains"
+    },
+    {
+      "id": "separate_barcoding",
+      "section": "Methods: Multiplex Nanopore metagenomic sequencing",
+      "text": "ligation of unique barcodes to spike-in controls and samples separately, followed by pooling and sequencing together"
+    },
+    {
+      "id": "purified_input",
+      "section": "Methods: Multiplex Nanopore metagenomic sequencing",
+      "text": "All extracted DNA was purified by 1× AMPure XP beads before library preparation."
+    },
+    {
+      "id": "replicate_barcodes",
+      "section": "Methods: Multiplex Nanopore metagenomic sequencing",
+      "text": "divided and ligated with three different barcodes"
+    },
+    {
+      "id": "barcode_factor",
+      "section": "Methods: Data analysis",
+      "text": "BEF represents the ratio of observed sequencing effort (bp) and the theoretical sequencing output (bp) determined by the input DNA for sequencing (ng)."
+    },
+    {
+      "id": "fitted_control",
+      "section": "Methods: Data analysis",
+      "text": "correlation between the theoretical and observed genome copy numbers of the spike-in controls that are co-sequenced with samples"
+    },
+    {
+      "id": "shared_extract",
+      "section": "Methods: Digital PCR",
+      "text": "aliquots of the same purified DNA used as input for the library preparations"
+    },
+    {
+      "id": "targets",
+      "section": "Methods: Digital PCR",
+      "text": "targeting the 16S rRNA gene of the target taxa"
+    },
+    {
+      "id": "extraction_bias",
+      "section": "Results: Validation",
+      "text": "the discrepancy highlights the impact of extraction bias"
+    },
+    {
+      "id": "detection_quantitation",
+      "section": "Results: Validation",
+      "text": "We set a 10% coverage fraction as the LOD and a 10% CV as the LOQ"
+    },
+    {
+      "id": "resolution",
+      "section": "Results: Validation",
+      "text": "all species belonged to distinct genera"
+    },
+    {
+      "id": "limitations",
+      "section": "Conclusions",
+      "text": "DNA extraction biases cannot be eliminated"
+    },
+    {
+      "id": "raw_deposit",
+      "section": "Data availability",
+      "text": "PRJNA1347130"
+    },
+    {
+      "id": "reported_validation_bases",
+      "section": "Results: Validation",
+      "text": "4.78 Gbp of data were generated"
+    },
+    {
+      "id": "supplement_rights",
+      "section": "Supplemental material",
+      "text": "ASM does not own the copyrights to Supplemental Material"
+    }
+  ],
+  "source_values_imported_into_TMD": false,
+  "new_mathematical_theorem": false,
+  "experiment_commissioned": false,
+  "external_qualified_review": false,
+  "synthetic_rdna_resource": {
+    "status": "IMPLEMENTED_SYNTHETIC_DNA_STAGE_STANDARD_WITH_DEPOSIT_METADATA_NO_NATIVE_ADMISSION",
+    "source": {
+      "title": "Synthetic DNA spike-in standards for cross-domain absolute quantification of microbiomes by rRNA gene amplicon sequencing",
+      "authors_short": "Tourlousse and Sekiguchi",
+      "doi": "10.1093/ismeco/ycaf028",
+      "PMCID": "PMC11912825",
+      "publication_date_corrected": "2025-02-11",
+      "type": "published primary experimental methods study",
+      "source_capture_owner": "root watch S04; reused here without a fresh call",
+      "independent_evidence_family_count": 1
+    },
+    "calibration": {
+      "implemented": true,
+      "constructs": 12,
+      "bacterial_SSU_V4_compatible_constructs": 2,
+      "material": "Synthetic rRNA operon constructs carried in purified linearized plasmid DNA. The natural bacterial/fungal mock community targets were also cloned rRNA operons in linearized plasmids.",
+      "quantity_basis": "Author-reported Quant-iT dsDNA/Qubit mass concentration, defined DNA mixtures and dilutions reported as approximate copy amounts; the precise mass-to-copy conversion and its joint uncertainty have not been replayed.",
+      "sequence_identity_basis": "Sanger sequence confirmation establishes construct identity, not a separate absolute input-copy count.",
+      "entry_stages": [
+        "Into already-extracted soil DNA for downstream amplification/sequencing calibration.",
+        "In the soil extraction experiment, after cell lysis by bead-beating and before subsequent extraction steps; the broad before-extraction wording must not be interpreted as before lysis."
+      ],
+      "measurement_target": "Estimated rRNA gene/operon copies per PCR or sample amount (including per mg soil), not direct genomes, viable cells or mutation-origin episodes.",
+      "competitive_control_scope": "Standards and natural targets undergo the downstream competitive PCR, sequencing and bioinformatics stages together. Native cell capture/lysis are not challenged by the post-lysis DNA addition.",
+      "reported_validation": "Defined plasmid mock mixtures, varied spike-in levels in a fixed soil-DNA input, and varied soil mass with fixed spike-in amount; source results are author-reported, not reanalysed.",
+      "replication": "Figure 1 reports three technical replicates; figure panels or all pairwise contrasts are not independent biological units.",
+      "bias_boundary": "The source reports discrepancies in absolute load estimates and greater stability of between-sample differences. Primer binding, amplicon length and sequence context may change relative efficiency; native route transfer is not established.",
+      "uncertainty_boundary": "No imported numerical calibration or known exact input total. Native use needs input concentration and dilution uncertainty, count/sampling and regression uncertainty, shared-pool/technical dependence, and process/sequence transfer in the joint uncertainty plan."
+    },
+    "source_defined_filters": {
+      "examples": [
+        "Lowest bacterial spike-in level omitted because Sc5001/Sc5002 each yielded at most 25 reads per sample.",
+        "Highest fungal spike-in level omitted because almost all reads were controls.",
+        "300-mg soil sample with bacterial SSU-V4 control counts below 10 reads excluded."
+      ],
+      "interpretation": "These are source-analysis exclusions, not a native detection-probability or invisible-loss bound, and no TMD filtering/stopping rule is adopted."
+    },
+    "correction": {
+      "doi": "10.1093/ismeco/ycaf112",
+      "PMCID": "PMC12904280",
+      "publication_date": "2026-02-13",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12904280/",
+      "scope": "The acquired correction clarifies the original publication date as 11 February 2025 rather than 17 March 2025. The notice states no methods, numbers or conclusions correction.",
+      "representation": "Provider full-text markdown, not original PDF",
+      "license_display": "CC BY 4.0"
+    },
+    "deposited_resource": {
+      "doi": "10.5281/zenodo.14592209",
+      "url": "https://zenodo.org/records/14592209",
+      "metadata_url": "https://zenodo.org/api/records/14592209",
+      "record_id": 14592209,
+      "record_revision_displayed": 4,
+      "conceptdoi": "10.5281/zenodo.14592208",
+      "status_displayed": "published",
+      "publication_date": "2025-01-03",
+      "license_displayed": "cc-by-4.0",
+      "record_description_scope": "Depositor describes source data and analysis script.",
+      "files": [
+        {
+          "filename": "data.tar.gz",
+          "advertised_bytes": 280012,
+          "advertised_checksum": "md5:58ee1d1cebd794d30544b095f3b58eea",
+          "public_content_url": "https://zenodo.org/api/records/14592209/files/data.tar.gz/content"
+        },
+        {
+          "filename": "rmarkdowns.tar.gz",
+          "advertised_bytes": 8757587,
+          "advertised_checksum": "md5:ab37110f41f34b9e7ffc0bf965903d8b",
+          "public_content_url": "https://zenodo.org/api/records/14592209/files/rmarkdowns.tar.gz/content"
+        },
+        {
+          "filename": "graphs.tar.gz",
+          "advertised_bytes": 995973,
+          "advertised_checksum": "md5:4ee8ff9ec8c6c36f26d29484a6c25fcf",
+          "public_content_url": "https://zenodo.org/api/records/14592209/files/graphs.tar.gz/content"
+        }
+      ],
+      "acquisition_status": "Actual public deposit metadata and file inventory were acquired through a provider representation. Listed checksums are advertised values, not independently verified file checksums.",
+      "original_file_bytes_downloaded": 0,
+      "archive_members_inspected": false,
+      "source_code_run": false,
+      "source_counts_replayed": false,
+      "metadata_authentication": "Public metadata only; no author/private account state request.",
+      "named_next_artifact": "data.tar.gz is the smallest listed file and a concrete next replay lead; its members and actual contents remain unacquired."
+    },
+    "other_named_resources": {
+      "sequence_accessions": "PQ159721-PQ159732",
+      "raw_read_bioproject": "PRJNA1100950",
+      "status": "Article-named only; sequence records and raw reads not acquired this round.",
+      "supplement": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11912825/bin/tourlousse_supplement_ycaf028.pdf",
+      "supplement_acquired": false
+    },
+    "rights_scope": {
+      "main_and_correction": "Source displays CC BY 4.0; concise attributed derived assessment only.",
+      "deposit": "Metadata displays CC BY 4.0; original files were not acquired or relicensed.",
+      "patent_disclosure": "The main article declares authors are inventors on filed patents related to the described standards; no conclusion about patent scope, validity or laboratory reuse rights is made."
+    },
+    "TMD_admission": {
+      "records_admitted": 0,
+      "stock_or_native_route_calibration_admitted": false,
+      "all_44_actual_fields_stay_null": true,
+      "count_law": "Reads, gene copies, technical aliquots and pairwise contrasts do not supply an independent founder/culture count law or one-outcome trial ledger.",
+      "not_supplied": [
+        "Native Wsp/Aws/Mws stock and allele-to-route authentication",
+        "Viable introduced-lineage denominators, ancestry and inherited-negative controls",
+        "Establishment before terminal recovery, missed/lost lineage truth",
+        "Independent mutation supply or untouched complete comparator evaluation"
+      ],
+      "conditional_value": "Concrete architecture for checking a DNA-stage quantitative assay and a named public replay resource, conditional on native process matching, identifiable calibration parameters, propagated uncertainty and frozen transfer."
+    },
+    "selected_primary_anchors": [
+      {
+        "section": "Preparation of the rDNA-mimics as linearized plasmid DNA",
+        "text": "DNA concentrations were quantified with a high-sensitivity Quant-iT dsDNA Assay Kit",
+        "id": "rdna_01"
+      },
+      {
+        "section": "Preparation of the rDNA-mimics as linearized plasmid DNA",
+        "text": "The full-length sequences of the rDNA-mimics were confirmed by Sanger sequencing",
+        "id": "rdna_02"
+      },
+      {
+        "section": "Soil DNA extraction",
+        "text": "rDNA-mimics were added to the samples after cell lysis by bead-beating.",
+        "id": "rdna_03"
+      },
+      {
+        "section": "Determination of microbial loads using rDNA-mimics spiked before DNA extraction",
+        "text": "samples were spiked after cell lysis to avoid potential shearing",
+        "id": "rdna_04"
+      },
+      {
+        "section": "Discussion",
+        "text": "as total rRNA gene/operon copy numbers",
+        "id": "rdna_05"
+      },
+      {
+        "section": "Figure 1 caption",
+        "text": "averaged over three technical replicates",
+        "id": "rdna_06"
+      },
+      {
+        "section": "Data availability",
+        "text": "10.5281/zenodo.14592209",
+        "id": "rdna_07"
+      }
+    ]
+  },
+  "independent_primary_evidence_families_total": 2
+}

@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R32, 13 October 2026
+## Latest research checkpoint — R33, 14 October 2026
+
+The [calibration-resource assessment](research/calibration_resource/REPORT.md) identifies two implemented DNA-standard methods and a named public source-data deposit. Their entry stages and gene/genome units define what can be calibrated: post-extraction or post-lysis DNA measurements require separate earlier cell-loss and mutation-origin evidence. [R33 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R33.md).
+
+The next bounded artifact is the advertised 280012-byte source-data archive in Zenodo record 14592209, before any source replay. All 26 study and 18 planning fields remain NULL. No native matched panel, biological fit or new theorem is admitted; methods 0.6.0 stays frozen.
+
+## Prior R32 checkpoint — 13 October 2026
 
 The [HiDenSeq methods assessment](research/barcoded_assay_methods/REPORT.md) clarifies its non-UV calibration and explicitly unresolved mechanism identifiability. A separate fitted calibration can potentially qualify with joint uncertainty and a justified frozen transfer; these selected-model distribution comparisons do not establish a unique biological cause. Supporting information/data remain unacquired. [R32 checkpoint](research/CONTINUATION_HANDOFF_2026-10-13_R32.md).
 
