@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000030",
-    "next_round_id": "R000031",
+    "last_completed_round": "R000031",
+    "next_round_id": "R000032",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -255,7 +255,11 @@
     "source_intended_fitness_aggregation_identified": false,
     "actual_stock_sequences_authenticated": 0,
     "latest_stock_context_round": "R000030",
-    "latest_calculation_record_assessment_round": "R000030"
+    "latest_calculation_record_assessment_round": "R000030",
+    "latest_reporting_record_assessment_round": "R000031",
+    "latest_stock_record_search_round": "R000031",
+    "latest_barcoded_method_lead_round": "R000031",
+    "barcoded_method_lead_dataset_admitted": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -334,8 +338,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R30 primary SBW25-WS3 focal-allele context, stock-record preflight and named pathway simulation/calculation-record distinction, plus standard conditional weights-only moment bound internally cross-reviewed; no actual stock, matched panel or biological fit admitted.",
-    "next_action": "Prioritize an actual-stock pedigree/sequence and annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 replicate, exclusion, marker/background-correction and aggregation record. A named transparent reporting form remains uninspected and may be inspected only if it can change a specific calculation gate. SBW25-WS3 allele correspondence is not historical WSR or MPB stock identity; preserve WSX molecular unknown and all historical source disagreements. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, parental/new-event truth, exposure and invisible-loss bounds. Keep PTATO benchmarking, default endpoint accumulation and automatic mathematical extensions parked. Acquire only named artifacts capable of changing admission; do not repeat unchanged endpoint or same-date searches. Actual stock selection, independent study units/count law, complete frozen predictors/comparators, untouched evaluation and biological interpretation remain unresolved. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+    "last_completed_step": "R31 named reporting/author-response applicability context, historical reconstruction/stock-search limits and recent HiDenSeq method lead internally cross-reviewed; no physical stock, aggregation truth, matched panel or biological fit admitted.",
+    "next_action": "Obtain a named actual-stock pedigree/custody and sequence/annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 calculation record linking replicate/exclusion identities, marker/background inputs and aggregation/dispersion definitions. Historical reconstruction credit and matching focal alleles do not establish the physical stock join. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions. The HiDenSeq version-one supporting information is a named next artifact only if barcode grouping, independent absolute calibration or loss assumptions can change a measurement gate; an actual versioned data/code deposit remains to be identified before numerical reuse. Preserve the yeast/WS context boundary and the authors stated frequency-dependent fitness/reference-competitor limitations. Independent units/count law, native route supply/exposure, event/ancestry truth, inherited negatives, establishment and separate recovery/classification, invisible losses, complete frozen predictors/comparators and untouched evaluation remain required. Keep PTATO benchmarking, default endpoint accumulation, repeated unchanged stock/code searches and automatic mathematical extensions parked. Keep all 26 study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -538,7 +542,42 @@
       "research/calculation_record_assessment/SOURCE_PROVENANCE.json": "238c59687241409d6d98011efcfc1ebae45150cc51b1e84566e235dcd2377a18",
       "research/calculation_record_assessment/VERIFICATION_RECEIPT.json": "f66bcc9c8a2bd9564ec1bd6587487f7f6a7764eea90bb0bbdb9ab7e96db904f0",
       "research/calculation_record_assessment/verify_calculation_record.py": "fe7a285355bd3cd75b763eb6cc7789110931d0ebaa98bff88edcaba6e839d1f1",
-      "research/CONTINUATION_HANDOFF_2026-10-13_R30.md": "dcb570ce6dd7d9815d095b3570ae2f18374334f1c6e96db25d0bdbdeff6f4627"
+      "research/CONTINUATION_HANDOFF_2026-10-13_R30.md": "dcb570ce6dd7d9815d095b3570ae2f18374334f1c6e96db25d0bdbdeff6f4627",
+      "research/reporting_record_assessment/APPLICABILITY_RECORD.json": "0de54e7b8049c9bb006445461679fc34e3585b77fcf6e90dec20f0e51f4982d6",
+      "research/reporting_record_assessment/DECISION.json": "db8103cf41f600ddad20b93bead02e3f65b6bdd6fe4cfe21cfb547f28d3068f5",
+      "research/reporting_record_assessment/INDEPENDENT_REVIEW.json": "0ec01d6501e226446a36199f96b9c925b853efcf33207a7a970801027229469b",
+      "research/reporting_record_assessment/LICENSE": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390",
+      "research/reporting_record_assessment/LICENSE_AND_PRIVACY_REVIEW.json": "f7a0ec7ca70c68f0fb9334a55ccd38c194cdb1302e10337acec8a90398ec1daa",
+      "research/reporting_record_assessment/PUBLIC_FILES.json": "88782c41383aa2ae04ad42a985b1a84849055e142a25d20d966f2cf7b42169bd",
+      "research/reporting_record_assessment/REPORT.md": "0c736a3fca35b05f3657cd838ccf3aef87f86374fbe0fc389442d497e79384cc",
+      "research/reporting_record_assessment/REPORTING_FORM_AUDIT.json": "77d988f91a479f91c3fe5342525f30ad807638f73a3c5616fe9691f56497fc89",
+      "research/reporting_record_assessment/SHA256SUMS.txt": "3349887d5c5d526c0b5f5e841d29a02c2624b35154e81873d5d6091ed66873da",
+      "research/reporting_record_assessment/SOURCE_PROVENANCE.json": "d4b8d768b62beed1fb8392607567c7fe7fa4d53d9a9427ea087a05746cde8f2c",
+      "research/reporting_record_assessment/VERIFICATION_RECEIPT.json": "df0f8ccfe932e55c2efbc1d743a0ea69102a2682e9be9403b4d26e2ab7a5f780",
+      "research/reporting_record_assessment/verify_reporting_record.py": "1270bab750e15470cfad1cc832b13c8931a47f1609329e48a3400fa0cf0263a0",
+      "research/stock_record_search/DECISION.json": "c77ac4d3ee86c371b9812592dafc8d3e53175bf4e7339a7cead8c4c5f67c16e8",
+      "research/stock_record_search/DERIVED_SOURCE_AUDIT.json": "a1c85223d8c5d207d719d6bd1b24a57c54ca9f5e2660c91ac7af38de669beb22",
+      "research/stock_record_search/INDEPENDENT_REVIEW.json": "6be47002133f859446c8058301f45fbcd8244c8be5c8c14572227cc2314a8d2c",
+      "research/stock_record_search/LICENSE": "ec75c610bb0bc891702f18cce624ac1bf7d334cbda2f319a363bedc6a6a6d64e",
+      "research/stock_record_search/LICENSE_AND_PRIVACY_REVIEW.json": "1c7d6b333d81497cd082132b538644677ea503939eb351e5a87c2a91f5bcdbe4",
+      "research/stock_record_search/PUBLIC_FILES.json": "3fa452d111ebe8389f88cbed68f2d5cde670dc3bc1c51e051b60958e743cfa20",
+      "research/stock_record_search/REPORT.md": "d4cd0f57c3c54cd4c433824cf3b19c9383a19b9e5b746e70b20f1554189707db",
+      "research/stock_record_search/SHA256SUMS.txt": "c6abdd1a8ff5fc2a14276014e51b9132452c3dd81efda1af5bb25ccd2ab15447",
+      "research/stock_record_search/SOURCE_PROVENANCE.json": "ee039cd558a0ee766f3924254e71b273fe553fc64ca8baa7a0a2b5f49c2d7bfe",
+      "research/stock_record_search/VERIFICATION_RECEIPT.json": "9699714e09dc237ded63376b02da52e4c5e3f0f0119c75fd2fe688af1536cc2e",
+      "research/stock_record_search/verify_sources.py": "b77da108f3bb2291f8cac0fa3f42a8c11c34f2cb4eea682b1f623e13ce216d35",
+      "research/barcoded_assay_lead/ASSESSMENT.json": "ea1044dfa10ce141a72191678bf0aaf33b1b22f3274a72f050e345fc6b3f318e",
+      "research/barcoded_assay_lead/DECISION.json": "e3869210fcc8965c834ec950f7a5fd75b06e340d3dfd855bca7838f38cc34c3f",
+      "research/barcoded_assay_lead/INDEPENDENT_REVIEW.json": "608901eb460331898c408cfc8367b2c10105a6763ba7f6941a67d80f4a212d21",
+      "research/barcoded_assay_lead/LICENSE": "c5c63af3ef2b6b6a518c2ebeba1ab936a35538199223942d900abbe44348af71",
+      "research/barcoded_assay_lead/LICENSE_AND_PRIVACY_REVIEW.json": "ea50fb8cfcfed09da173419dd05d2cdd4f175318d26b0bef2ede4c835bcfd3a0",
+      "research/barcoded_assay_lead/PUBLIC_FILES.json": "6dd2a24c8bb4c2fbac08404214ae637e9f1043562dd850771d0a4fb54db2d3c3",
+      "research/barcoded_assay_lead/REPORT.md": "820a18f8d8bd04ff005adf08707cd48bc61cda90fcb332010494cc176d02bd81",
+      "research/barcoded_assay_lead/SHA256SUMS.txt": "f87740ee2d358e7255bc06fd5bc5d7814ad0dbe441f51e5b21b404946f1edfb4",
+      "research/barcoded_assay_lead/SOURCE_PROVENANCE.json": "c516bb07c3ab2f6e05279b9865708a9f82a553839524836268ad32003f077492",
+      "research/barcoded_assay_lead/VERIFICATION_RECEIPT.json": "8ee53804f983436f583b1d0b68791e42fb7806f8e1b3eaa19cb1190d9816e92f",
+      "research/barcoded_assay_lead/verify_sources.py": "b445b64a4ae22bf7b5c2eb01680316036ade6a6eb37793792ef814dfe4e6708a",
+      "research/CONTINUATION_HANDOFF_2026-10-13_R31.md": "8e4202e672f9f9b353e91245dffa1d3c758944a017955ed425e38ad2310e240d"
     }
   },
   "reviewed_checkpoint": {
@@ -571,7 +610,8 @@
       "R000027",
       "R000028",
       "R000029",
-      "R000030"
+      "R000030",
+      "R000031"
     ],
     "blocked_work_items": [
       {
@@ -681,9 +721,24 @@
         "scope": "Primary focal-allele context and linked simulation representations; no stock authentication, original binaries, code execution or calculation-aggregation truth",
         "stock_source_ledger_sha256": "02be85ec6af6e004704129ec10452c70577ea766e5c2a17db9966a0d00318755",
         "calculation_source_ledger_sha256": "238c59687241409d6d98011efcfc1ebae45150cc51b1e84566e235dcd2377a18"
+      },
+      {
+        "round": "R000031",
+        "source_ids": [
+          "10.7554/eLife.38822.023",
+          "10.7554/eLife.38822.027",
+          "McDonald/Massey/thesis2009",
+          "10.64898/2026.08.03.742544v1"
+        ],
+        "scope": "Reporting/model-context records, partial historical reconstruction account and recent yeast method lead; no physical stock, independent replication, original binaries, native data fit or admission",
+        "source_ledger_sha256": {
+          "reporting_record_assessment": "d4b8d768b62beed1fb8392607567c7fe7fa4d53d9a9427ea087a05746cde8f2c",
+          "stock_record_search": "ee039cd558a0ee766f3924254e71b273fe553fc64ca8baa7a0a2b5f49c2d7bfe",
+          "barcoded_assay_lead": "c516bb07c3ab2f6e05279b9865708a9f82a553839524836268ad32003f077492"
+        }
       }
     ],
-    "next_action": "Prioritize an actual-stock pedigree/sequence and annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 replicate, exclusion, marker/background-correction and aggregation record. A named transparent reporting form remains uninspected and may be inspected only if it can change a specific calculation gate. SBW25-WS3 allele correspondence is not historical WSR or MPB stock identity; preserve WSX molecular unknown and all historical source disagreements. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, parental/new-event truth, exposure and invisible-loss bounds. Keep PTATO benchmarking, default endpoint accumulation and automatic mathematical extensions parked. Acquire only named artifacts capable of changing admission; do not repeat unchanged endpoint or same-date searches. Actual stock selection, independent study units/count law, complete frozen predictors/comparators, untouched evaluation and biological interpretation remain unresolved. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    "next_action": "Obtain a named actual-stock pedigree/custody and sequence/annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 calculation record linking replicate/exclusion identities, marker/background inputs and aggregation/dispersion definitions. Historical reconstruction credit and matching focal alleles do not establish the physical stock join. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions. The HiDenSeq version-one supporting information is a named next artifact only if barcode grouping, independent absolute calibration or loss assumptions can change a measurement gate; an actual versioned data/code deposit remains to be identified before numerical reuse. Preserve the yeast/WS context boundary and the authors stated frequency-dependent fitness/reference-competitor limitations. Independent units/count law, native route supply/exposure, event/ancestry truth, inherited negatives, establishment and separate recovery/classification, invisible losses, complete frozen predictors/comparators and untouched evaluation remain required. Keep PTATO benchmarking, default endpoint accumulation, repeated unchanged stock/code searches and automatic mathematical extensions parked. Keep all 26 study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
   },
   "previous_checkpoint_steps": [
     {
@@ -730,10 +785,15 @@
       "round": "R000029",
       "last_completed_step": "R29 exactreference windows and conditional allele/annotation crosswalk, plus embeddedfitness-chart replay and standard conditional moment constraints internally cross-reviewed; no stock, matchedpanel or biologicalfit admitted.",
       "next_action": "Keep PTATO, further endpoint accumulation and automatic mathematical extensions parked. Obtain a named stock/alias/sequence and annotation-frame record capable of resolving the MPB10583/MPB10613 joins and precise allele labels; preserve WSX molecular unknown and the historical sampled-WS endpoint. A genome accession alone cannot freeze CDS numbering: require strand, coordinate convention, coding origin and the annotation snapshot. For Lind Figure 9 row 21, seek an authoritative calculation record or versioned correction linking visible coefficients, exclusions and marker/background corrections to its stored summaries; a single missing equal-weight coefficient is insufficient under arithmetic-mean/sample-SD assumptions. Use the R28 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, native parental/new-event truth, exposure and invisible-loss bounds. Actual stock selection, prediction/count-law/freeze admission and biological interpretation remain unresolved. Acquire only a named authoritative artifact that can change a specific gate. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
+    },
+    {
+      "round": "R000030",
+      "last_completed_step": "R30 primary SBW25-WS3 focal-allele context, stock-record preflight and named pathway simulation/calculation-record distinction, plus standard conditional weights-only moment bound internally cross-reviewed; no actual stock, matched panel or biological fit admitted.",
+      "next_action": "Prioritize an actual-stock pedigree/sequence and annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 replicate, exclusion, marker/background-correction and aggregation record. A named transparent reporting form remains uninspected and may be inspected only if it can change a specific calculation gate. SBW25-WS3 allele correspondence is not historical WSR or MPB stock identity; preserve WSX molecular unknown and all historical source disagreements. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions on independent earlier establishment, named-stage recovery denominators, parental/new-event truth, exposure and invisible-loss bounds. Keep PTATO benchmarking, default endpoint accumulation and automatic mathematical extensions parked. Acquire only named artifacts capable of changing admission; do not repeat unchanged endpoint or same-date searches. Actual stock selection, independent study units/count law, complete frozen predictors/comparators, untouched evaluation and biological interpretation remain unresolved. Keep all 26 actual study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000030",
+    "round": "R000031",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

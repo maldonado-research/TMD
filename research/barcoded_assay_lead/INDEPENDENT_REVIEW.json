@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "reviewer": "Independent internal AI review by R31 reporting-record investigator",
+  "reviewed_utc": "2026-10-14T01:16:49.226046+00:00",
+  "external_qualified_peer_review": false,
+  "blockers": [],
+  "checks": [
+    "Read all substantive assessment/decision/provenance/licensing files and verifier.",
+    "Independently inspected retained main-PDF and version-one page representations for yeast background, 12nt barcode, approximately ten founders per barcode,119672 tracked barcodes and84percent non-detection.",
+    "Confirmed computational grouping and colony-count scale refined during fitting are author-reported; explicit competition/fitness confound and additional-calibration caveat are present.",
+    "Checked code/data future-tense statement, uninspected supplement boundary,11/11 provider pages, resolved v1 PDF URL, and Aug7 posting date against conflicting auxiliary Jan1 field.",
+    "Verified public closure now rejects extra directories/symlinks and unsafe allowlist names; both verifier modes PASS.",
+    "No source statistics admitted as native TMD data, no stock or experiment selected, no claims of event-level truth from barcode counts, all44NULL fields preserved."
+  ],
+  "limitations": [
+    "Internal AI source review, not external qualified peer review or experimental validation.",
+    "Provider representations and selected source statements checked; no original PDF bytes, supplement, raw reads, fit reproduction or native transport authenticated."
+  ],
+  "verification_results": [
+    {
+      "status": "PASS",
+      "source_replay": "UNRUN: original capture cache not supplied; no original artifact or experiment authentication",
+      "study_nulls": 26,
+      "planning_nulls": 18,
+      "matched_panels_admitted": 0,
+      "source_data_reanalysed": false,
+      "supporting_information_inspected": false,
+      "external_qualified_review": false
+    },
+    {
+      "status": "PASS",
+      "source_replay": "PASS: saved capture identities and selected reported source anchors only; no experiment, fitting, original PDF or sequence replay",
+      "study_nulls": 26,
+      "planning_nulls": 18,
+      "matched_panels_admitted": 0,
+      "source_data_reanalysed": false,
+      "supporting_information_inspected": false,
+      "external_qualified_review": false
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 6888,
+      "sha256": "820a18f8d8bd04ff005adf08707cd48bc61cda90fcb332010494cc176d02bd81"
+    },
+    {
+      "path": "ASSESSMENT.json",
+      "bytes": 4505,
+      "sha256": "ea1044dfa10ce141a72191678bf0aaf33b1b22f3274a72f050e345fc6b3f318e"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 815,
+      "sha256": "e3869210fcc8965c834ec950f7a5fd75b06e340d3dfd855bca7838f38cc34c3f"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 3572,
+      "sha256": "c516bb07c3ab2f6e05279b9865708a9f82a553839524836268ad32003f077492"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 5145,
+      "sha256": "b445b64a4ae22bf7b5c2eb01680316036ade6a6eb37793792ef814dfe4e6708a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1050,
+      "sha256": "c5c63af3ef2b6b6a518c2ebeba1ab936a35538199223942d900abbe44348af71"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 389,
+      "sha256": "ea50fb8cfcfed09da173419dd05d2cdd4f175318d26b0bef2ede4c835bcfd3a0"
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "bytes": 331,
+      "sha256": "6dd2a24c8bb4c2fbac08404214ae637e9f1043562dd850771d0a4fb54db2d3c3"
+    }
+  ]
+}

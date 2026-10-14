@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: original capture cache not supplied; no original artifact or experiment authentication",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_data_reanalysed": false,
+    "supporting_information_inspected": false,
+    "external_qualified_review": false
+  },
+  "full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: saved capture identities and selected reported source anchors only; no experiment, fitting, original PDF or sequence replay",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_data_reanalysed": false,
+    "supporting_information_inspected": false,
+    "external_qualified_review": false
+  },
+  "source_acquisition_calls": 3,
+  "saved_acquisition_bytes": 240383,
+  "scope": "Source representation and selected reported facts; no experiment, fit or native transport validation."
+}

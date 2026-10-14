@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "verified_utc": "2026-10-14T01:17:47.353791+00:00",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: no R31 source cache supplied",
+    "inherited_source_replay": "UNRUN: no R29 source cache supplied",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_intended_aggregation_identified": false,
+    "experimental_truth_validated": false,
+    "network_requests": 0
+  },
+  "full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: capture identities, five form answers, template/author distinction, author response stages and reviewer suggestion attribution",
+    "inherited_source_replay": "PASS: reused provider representation and named reporting-form/author-response identifiers",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "source_intended_aggregation_identified": false,
+    "experimental_truth_validated": false,
+    "network_requests": 0
+  },
+  "script_sha256": "1270bab750e15470cfad1cc832b13c8931a47f1609329e48a3400fa0cf0263a0",
+  "independent_internal_review": "PASS; nine current substantive identities checked",
+  "network_requests": 0,
+  "scope": "Producer source-representation replay and independent internal review; no original DOCX authentication, original calculation or biological validation."
+}

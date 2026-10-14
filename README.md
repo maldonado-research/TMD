@@ -9,7 +9,15 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R30, 13 October 2026
+## Latest research checkpoint — R31, 13 October 2026
+
+The [reporting-record assessment](research/reporting_record_assessment/REPORT.md) identifies the authors' frequency-dependent fitness and reference-competitor limits; the original Figure 9 aggregation remains unresolved. The [stock search](research/stock_record_search/REPORT.md) adds historical reconstruction context without authenticating present MPB stock identity.
+
+A [recent HiDenSeq method lead](research/barcoded_assay_lead/REPORT.md) offers a concrete barcoded fluctuation-assay resource for feasibility review. Its yeast measurements, pooled lineage counts and fitted abundance scale do not supply independent native WS inputs. [R31 checkpoint](research/CONTINUATION_HANDOFF_2026-10-13_R31.md).
+
+All 26 study and 18 planning fields remain NULL. No matched panel, biological fit, new theorem or qualified external review is admitted. Frozen forecasts, eta, error/stopping, paused runner and methods 0.6.0 stay unchanged; no new Zenodo version is generated.
+
+## Prior R30 checkpoint — 13 October 2026
 
 The [stock-context assessment](research/stock_context_assessment/REPORT.md) identifies the projected mwsR mutation in newly evolved SBW25-WS3. It corroborates the coordinate interpretation without proving historical WSR or MPB10613 stock identity. A [document preflight](research/stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json) specifies the missing pedigree, background, sequence and annotation records.
 

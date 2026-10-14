@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "doi": "10.7554/eLife.38822.023",
+  "artifact": "Transparent reporting form",
+  "inspected_headings": [
+    {
+      "heading": "Sample-size estimation",
+      "author_answer": "Section: Fitness assays. Section: Fluctuation tests and isolation of WS mutants before selection."
+    },
+    {
+      "heading": "Replicates",
+      "author_answer": "Figure 2 legend. Figure 9 legend. Section: Fluctuation tests and isolation of WS mutants before selection. Section: Fitness assays."
+    },
+    {
+      "heading": "Statistical reporting",
+      "author_answer": "Figure 2 legend, Figure 9 legend. Section: Fluctuation tests and isolation of WS mutants before selection. Section Fitness assays"
+    },
+    {
+      "heading": "Group allocation",
+      "author_answer": "No group allocation in the manuscript"
+    },
+    {
+      "heading": "Additional data files (“source data”)",
+      "author_answer": "Figure 6 – source data. Figure 9 – source data. Supplemental file."
+    }
+  ],
+  "template_dispersion_examples": "mean, median, SD, SEM, confidence intervals",
+  "template_examples_are_author_statistical_choices": false,
+  "author_answer_defines_E21_as_SEM": false,
+  "row21_original_calculation_record_supplied_in_inspected_form": false,
+  "scope": "All five headings and answers in the provider representation; original DOCX binary and completeness against original bytes not independently authenticated."
+}

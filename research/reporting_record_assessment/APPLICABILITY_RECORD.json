@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "author_response_doi": "10.7554/eLife.38822.027",
+  "decision_letter_doi": "10.7554/eLife.38822.026",
+  "author_revision_plan": {
+    "frequency_dependence": "Firstly, the fitness of WS is frequency-dependent and thus a mutant’s selection coefficient is very different at the time it originates compared to when it is established at the air-liquid interface",
+    "other_competitors": "Secondly, the selection coefficient is also dependent on the frequency of other WS types and other phenotypes selected at the air-liquid interface",
+    "assay_reference": "Thirdly, fitness in our study is measured against a _wspF_ (WS) mutant and not the wild type ancestor, which is needed for use in origin-fixation models."
+  },
+  "author_final_revision": {
+    "title_scope": "our previous title gave the unintended message that we were combining mutation and selection into our model of evolutionary forecasting.",
+    "forecast_scope": "we do not attempt to predict the outcome of experimental evolution using mutation rates and selection coefficients.",
+    "fitness_assay_purpose": "We have provided a better motivation for the fitness assays, which is to provide an explanation for these differences.",
+    "reporting_additions": "We have included statistical tests for all claims of differences as well as number of replicates."
+  },
+  "reviewer_suggestion": {
+    "eye_estimation_sentence": "Here x is the selection coefficient of the WspF control used in growth competitions, and I have estimated s by eye from Figure 6.",
+    "proposed_origin_fixation_fit_is_accepted_author_calibration": false,
+    "prepublication_figure_numbers_are_final_figure_crosswalk": false
+  },
+  "TMD_assessment": {
+    "assay_reference_and_frequency_context_required_for_transport": true,
+    "reporting_form_resolves_row21_aggregation": false,
+    "peer_review_record_resolves_row21_aggregation": false,
+    "new_observed_WAM_vector_or_establishment_parameter_supplied": false,
+    "general_origin_fixation_theory_rejected": false,
+    "matched_panels_admitted": 0
+  }
+}

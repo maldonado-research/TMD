@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "LICENSE",
+    "REPORT.md",
+    "DERIVED_SOURCE_AUDIT.json",
+    "DECISION.json",
+    "SOURCE_PROVENANCE.json",
+    "verify_sources.py",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "SHA256SUMS.txt"
+  ],
+  "raw_sources_public": false,
+  "private_paths_public": false
+}

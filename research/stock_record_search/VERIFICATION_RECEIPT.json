@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "verified_utc": "2026-10-14T01:18:40.803104+00:00",
+  "producer_public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: no source cache supplied",
+    "private_local_scope_replay": "UNRUN: private audit excluded"
+  },
+  "producer_full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: saved search excerpts and partial thesis anchors",
+    "private_local_scope_replay": "UNRUN: private audit excluded"
+  },
+  "independent_review": "PASS; see pinned substantive hashes in INDEPENDENT_REVIEW.json",
+  "saved_scientific_calls": 4,
+  "saved_acquisition_bytes": 666984,
+  "study_nulls": 26,
+  "planning_nulls": 18,
+  "matched_panels_admitted": 0,
+  "stock_sequences_authenticated": 0,
+  "biological_validation": "NOT_PERFORMED",
+  "network_requests_during_verification": 0,
+  "scope": "Source identity and representation replay, package closure and inherited admission constraints; not scientific completeness, original PDF rendering, private prior-manifest replay or physical stock authentication."
+}
