@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Obtain a named actual-stock pedigree/custody and sequence/annotation crosswalk for MPB10583/MPB10613, or an authoritative Figure 9 calculation record linking replicate/exclusion identities, marker/background inputs and aggregation/dispersion definitions. Historical reconstruction credit and matching focal alleles do not establish the physical stock join. Use the existing 44-field worksheet for qualified claim-specific feasibility decisions. The HiDenSeq version-one supporting information is a named next artifact only if barcode grouping, independent absolute calibration or loss assumptions can change a measurement gate; an actual versioned data/code deposit remains to be identified before numerical reuse. Preserve the yeast/WS context boundary and the authors stated frequency-dependent fitness/reference-competitor limitations. Independent units/count law, native route supply/exposure, event/ancestry truth, inherited negatives, establishment and separate recovery/classification, invisible losses, complete frozen predictors/comparators and untouched evaluation remain required. Keep PTATO benchmarking, default endpoint accumulation, repeated unchanged stock/code searches and automatic mathematical extensions parked. Keep all 26 study and 18 planning fields NULL until justified actual values are admitted; preserve R5/R11/R17, frozen theta/eta model and comparators, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work is commissioned.",
+  "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,14 +41,14 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000031"
+      "R000032"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-13_R31.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-13_R32.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "source_context_and_recent_measurement_lead_no_matched_panel_admitted"
+    "scientific_inference_status": "calibration_and_identifiability_scope_clarified_no_native_panel"
   },
   "github_research_addenda_history": [
     {
@@ -147,6 +147,17 @@
       "author_methods_Zenodo_requests_this_round": 0,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "stock_context_and_conditional_calculation_records_no_matched_panel_admitted"
+    },
+    {
+      "latest_rounds": [
+        "R000031"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-13_R31.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "source_context_and_recent_measurement_lead_no_matched_panel_admitted"
     }
   ],
   "publication_verified_file_count": 8,

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "status": "MAIN_TEXT_CALIBRATION_CLARIFICATION_SUPPORTING_INFORMATION_UNACQUIRED",
+  "source": {
+    "doi": "10.64898/2026.08.03.742544",
+    "version": "v1",
+    "posted_date": "2026-08-07",
+    "authors": [
+      "Kabir Husain",
+      "LaNijah Flagg",
+      "David Pincus",
+      "Arvind Murugan"
+    ],
+    "PMCID": "PMC13484652",
+    "PMID": "42620021",
+    "peer_review_certified": false,
+    "independent_study_count": 1
+  },
+  "reported_system": {
+    "organism": "Saccharomyces cerevisiae",
+    "selection": "canavanine resistance",
+    "native_Wsp_Aws_Mws": false
+  },
+  "calibration": {
+    "general_scale": "Colony-count total mutant estimate refined during fitting.",
+    "canUVanine_scale": "Fit non-UV population to canonical Luria-Delbrück to fix read-to-mutant scale, then use in UV comparisons.",
+    "reported_corroboration": "Authors report inferred induced rates agree with independent pre/post-UV mutant colony counts; SI details not acquired or independently verified.",
+    "known_abundance_spike_in": "Future implementation suggestion, not implemented-standard evidence.",
+    "TMD_rule": "A fit on a separate calibration experiment can be assessable given identifiability, honest joint uncertainty, justified count law, native context transport and a freeze before evaluation; fitting the held-out evaluation endpoint cannot simultaneously provide its independently frozen supply predictor.",
+    "calibration_records_admitted": 0
+  },
+  "mechanism_identifiability": {
+    "source_status": "General distinguishability remains open; mutant fitness and phenotypic switching can both affect distribution tails.",
+    "inference_limit": "Comparisons among specified model families do not uniquely establish all molecular mechanisms."
+  },
+  "unit_and_dependence": {
+    "reported": "Pooled barcode lineages with approximately ten founder cells per barcode and computational virtual-lineage merging.",
+    "unresolved": [
+      "actual barcode-group membership",
+      "disjointness/overlap across analyses",
+      "physical-pool dependence",
+      "empirical trial/count law"
+    ],
+    "independent_mutation_event_count_admitted": 0
+  },
+  "loss_and_inheritance": {
+    "observations": "Postselection non-detection and stability among detected barcode frequencies in the yeast selection context.",
+    "unresolved": [
+      "ancestral absence of resistance",
+      "births followed by loss",
+      "stage-specific establishment versus recovery",
+      "phenotypic delay and sequencing detection limits",
+      "orthogonal genotype and ancestry truth"
+    ],
+    "boundary": "These observations do not establish no mutation birth or native WS transport."
+  },
+  "artifact_status": {
+    "supporting_information": "UNACQUIRED_HTTP_429_NO_ACTUAL_FILE_LINK",
+    "main_text": "HTML representation acquired, equation images not inspected or reconstructed",
+    "code_and_data": "Future-tense public repository statement; no target versioned deposit identified within inspected scope.",
+    "name_collision": "Unrelated bacteriophage HIDEN-SEQ results, including its GitHub repository, excluded."
+  },
+  "PMC_status": {
+    "coverage": "metadata and abstract only; explicit full-text nonarchiving statement",
+    "rights_availability_discrepancy": "CC BY 4.0 displayed alongside explanation that selected license terms prevent full-text archiving; no inferred correction",
+    "independent_evidence_family": false
+  },
+  "selected_main_text_anchors": [
+    {
+      "id": "general_scale",
+      "section": "Results II.B and Discussion III",
+      "text": "estimated by colony counting and refined during fitting"
+    },
+    {
+      "id": "reference_fit",
+      "section": "Results II.D, canUVanine experiment",
+      "text": "the calibration from reads to absolute mutant counts was fixed by fitting the non-UV-exposed population to the canonical Luria-Delbrück distribution"
+    },
+    {
+      "id": "corroborating_counts",
+      "section": "Results II.D, induced-rate comparison",
+      "text": "agreed well with independent measurements from mutant colony counts before and after UV"
+    },
+    {
+      "id": "future_standards",
+      "section": "Discussion III",
+      "text": "future implementations could include a spike-in of barcoded cells at known abundance as an internal calibration standard"
+    },
+    {
+      "id": "identifiability_open",
+      "section": "Discussion III",
+      "text": "we do not yet know which mechanisms are, in principle, identifiable from the Luria-Delbrück distribution"
+    },
+    {
+      "id": "ambiguous_tail",
+      "section": "Discussion III",
+      "text": "whether they produce distinguishable statistical signatures remains an important open question"
+    },
+    {
+      "id": "pooled",
+      "section": "Figure 2 caption",
+      "text": "replicates are instead DNA barcoded and grown together"
+    },
+    {
+      "id": "grouping",
+      "section": "Results II.B",
+      "text": "computationally merged barcodes into virtual lineages"
+    },
+    {
+      "id": "fitness_confounds",
+      "section": "Discussion III",
+      "text": "competition between lineages and distorts barcode frequencies"
+    },
+    {
+      "id": "transport",
+      "section": "Discussion III",
+      "text": "would require additional calibration"
+    },
+    {
+      "id": "deposit",
+      "section": "Code and data availability",
+      "text": "Analysis code and sequencing data will be made available in a public repository."
+    }
+  ],
+  "biological_inference_status": "METHOD_CLARIFICATION_ONLY_NO_NATIVE_PANEL_OR_FIT",
+  "source_values_imported_into_TMD": false,
+  "new_mathematical_theorem": false,
+  "experiment_commissioned": false,
+  "external_qualified_review": false
+}

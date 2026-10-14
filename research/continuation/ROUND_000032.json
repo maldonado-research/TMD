@@ -1,0 +1,38 @@
+{
+  "id": "R000032",
+  "status": "completed_internal_review",
+  "date": "2026-10-13",
+  "timezone": "America/Los_Angeles",
+  "acquisition_timestamps_timezone": "UTC",
+  "report": "../CONTINUATION_HANDOFF_2026-10-13_R32.md",
+  "completion_scope": "calibration_architecture_and_mechanism_identifiability_source_assessment",
+  "details": {
+    "scientific_acquisition_calls": 8,
+    "counted_saved_source_bytes": 571684,
+    "supporting_information_acquired": false,
+    "source_data_or_fit_replayed": false,
+    "source_identifies_non_UV_fitted_calibration": true,
+    "source_reports_independent_colony_count_comparison": true,
+    "general_mechanism_identifiability_remains_open": true,
+    "stock_sequences_authenticated": 0,
+    "matched_bacterial_panel_admitted": false
+  },
+  "biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "new_mathematical_theorem": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000032",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Obtain an actual versioned HiDenSeq supporting-methods/data/code artifact that resolves barcode grouping, calibration uncertainty and transport, or a named MPB10583/MPB10613 stock pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Park unchanged supplement failures and repeated exact-stock searches. Use the existing 44-field qualified-review worksheet: a separately fitted calibration may be admissible with identified parameters, propagated joint uncertainty and a frozen justified transfer; evaluation endpoints cannot calibrate their own purported independent predictor. Mechanism discrimination must include biologically plausible alternatives, because these selected-model distribution comparisons do not establish unique mechanism. Native units/count law, exposure, origin/ancestry truth, inherited negatives, establishment, recovery and invisible loss, complete frozen comparators and untouched evaluation remain required. Keep all 26 study and 18 planning values NULL until supported actual inputs are admitted. Preserve R5/R11/R17, frozen theta/eta, error allocation, stopping, paused runner and methods 0.6.0; no automatic math extension, outreach or laboratory work."
+}

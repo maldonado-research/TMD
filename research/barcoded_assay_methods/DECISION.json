@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "decision": "RETAIN_METHOD_LEAD_NO_ADMISSION_SUPPORTING_INFORMATION_UNACQUIRED",
+  "reason": "Main-text calibration architecture is clarified, but actual grouping, calibration uncertainty/transport, loss and inherited-event records remain unavailable for native admission.",
+  "next_artifact": "Actual version-matched supplement or named deposit resolving unit grouping, calibration uncertainty, ancestry or loss gates; no repeated unchanged broad search by default.",
+  "study_fields_resolved": 0,
+  "planning_fields_resolved": 0,
+  "matched_panels_admitted": 0,
+  "methods_archive_changed": false,
+  "stock_selected": false,
+  "laboratory_work_commissioned": false,
+  "outreach_commissioned": false,
+  "frozen_core_changed": false
+}

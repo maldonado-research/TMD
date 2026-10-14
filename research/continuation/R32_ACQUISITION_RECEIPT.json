@@ -1,0 +1,112 @@
+{
+  "round": "R000032",
+  "scientific_acquisition_calls": 8,
+  "serialized_response_capture_bytes": 571684,
+  "counted_saved_source_bytes": 571684,
+  "new_original_artifact_bytes": 0,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "method_artifact_calls": 5,
+  "method_artifact_saved_bytes": 541815,
+  "root_watch_calls": 2,
+  "root_watch_saved_bytes": 26719,
+  "stock_calls": 1,
+  "stock_saved_bytes": 3150,
+  "shared_acquisitions_counted_once": true,
+  "reused_artifacts_counted_as_new": false,
+  "source_ledgers": [
+    "../barcoded_assay_methods/SOURCE_PROVENANCE.json"
+  ],
+  "root_watch_acquisitions": [
+    {
+      "filename": "S01.json",
+      "bytes": 1616,
+      "sha256": "f20f6c7205bdab94bdf6d81d95d3a6bd9c62a0f34ef3265276411b02b73dfebf",
+      "arguments": {
+        "query": "Direct measurement spontaneous mutation events bacterial single-cell lineages DNA repair microscopy barcoded fluctuation assays independent mutation rate calibration lineage extinction",
+        "from": "2026-08-01",
+        "to": "2026-10-14",
+        "k": 6
+      }
+    },
+    {
+      "filename": "S02.json",
+      "bytes": 25103,
+      "sha256": "430015351e05cab79f270e5d26babd16b52842bc674bd34343d6d86b44e89422",
+      "arguments": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13484652/",
+        "formats": [
+          "markdown",
+          "links"
+        ],
+        "maxAge": 0
+      }
+    }
+  ],
+  "stock_search": {
+    "schema_version": 1,
+    "round": "R32",
+    "status": "scoped_search_complete_no_stock_admitted",
+    "question": "Does one exact MPB10583 search identify a new accessible physical-stock pedigree/custody and attributable sequence/annotation record?",
+    "logical_scientific_calls": 1,
+    "logical_call_allocation": 3,
+    "saved_acquisition_bytes": 3150,
+    "byte_allocation": 6291456,
+    "byte_accounting": "Complete saved JSON response wrapper counted once; wire/provider-internal bytes unknown.",
+    "call": {
+      "call_id": "S01",
+      "tool": "firecrawl_search",
+      "arguments": {
+        "query": "\"MPB10583\"",
+        "sources": [
+          "web"
+        ],
+        "domainTools": false,
+        "limit": 7
+      },
+      "started_utc": "2026-10-14T05:50:13.231Z",
+      "completed_utc": "2026-10-14T05:50:14.467Z",
+      "capture_file": "sources/S01.json",
+      "bytes": 3150,
+      "sha256": "7765c0b98d60a83bd21d71c15d48264e4da7faf40ca37b1c717b77efd64d5360",
+      "representation": "Provider search excerpts; no result bodies inspected in R32."
+    },
+    "results": [
+      {
+        "position": 1,
+        "title": "Context-Dependent Adaptation in Structured Environments",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651346v2.full.pdf",
+        "assessment": "Karita preprint family already known. Excerpt contains target stock labels but provides no custody/pedigree or stock-linked sequence/annotation crosswalk. Version-two full body not acquired or assessed in R32."
+      },
+      {
+        "position": 2,
+        "title": "Supplementary Information",
+        "stable_source_url": "https://doi.org/10.6084/m9.figshare.30997061.v1",
+        "file_id": "60777659",
+        "assessment": "Returned signed locator names the same supplement file already captured in R27 establishment-controls provenance and assessed subsequently. Excerpt contains target stock labels; no new stock-record artifact identified. Signed locator retained only in excluded raw capture."
+      }
+    ],
+    "finding": "No new physical-stock record was identified among the two returned excerpts. Stock-search branch stops without further acquisition.",
+    "negative_scope": "One exact-identifier web-index search with a seven-result cap returned two excerpts. This does not certify absence of stock records, completeness of any archive or remote repository, accessibility of other records, or the contents of the uninspected preprint body.",
+    "scientific_effect": {
+      "stock_identity_admitted": false,
+      "new_sequence_or_annotation_record": false,
+      "matched_panel_admitted": false,
+      "study_fields_filled": 0,
+      "planning_fields_filled": 0,
+      "historical_literals_reclassified": false
+    },
+    "preservation": "Keep existing stock requirements and original awsX/mwsR literal disagreements unchanged; all 26 study and 18 planning fields remain NULL.",
+    "network_boundary": {
+      "surface": "Firecrawl connector only",
+      "shell_science_network_calls": 0,
+      "direct_downloads": 0
+    },
+    "rights": "Third-party rights unchanged; raw wrapper including signed locator excluded from Git. Original derived assessment CC BY 4.0."
+  },
+  "wire_provider_internal_accounting": "unknown",
+  "private_DBlast_scan_this_round": false,
+  "raw_bodies_or_signed_private_locators_published": false,
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

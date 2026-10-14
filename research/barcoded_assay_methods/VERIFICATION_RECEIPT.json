@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: methods source cache not supplied",
+    "shared_watch_replay": "UNRUN: shared root watch cache not supplied",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "supporting_information_acquired": false,
+    "source_data_reanalysed": false,
+    "external_qualified_review": false
+  },
+  "full_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: capture identities and selected main-text/search/error anchors only; SI unacquired",
+    "shared_watch_replay": "PASS: same-family metadata/abstract and availability discrepancy only; no PMC full text or SI",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "matched_panels_admitted": 0,
+    "supporting_information_acquired": false,
+    "source_data_reanalysed": false,
+    "external_qualified_review": false
+  },
+  "own_source_acquisition_calls": 5,
+  "own_saved_acquisition_bytes": 541815,
+  "shared_root_acquisition_calls": 2,
+  "shared_root_saved_acquisition_bytes": 26719,
+  "scope": "Public/capture integrity and selected source anchors only; no original artifact, experiment, fit, SI, native transport or qualified external review validation."
+}
