@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "A DNA-barcoded Luria-Delbrück assay resolves mechanisms of adaptation",
+    "authors": [
+      "Kabir Husain",
+      "LaNijah Flagg",
+      "David Pincus",
+      "Arvind Murugan"
+    ],
+    "doi": "10.64898/2026.08.03.742544",
+    "version": "v1",
+    "posted_date": "2026-08-07",
+    "peer_review_certified_on_inspected_version": false,
+    "metadata_date_disagreement": {
+      "citation_publication_date_auxiliary": "2026/01/01",
+      "posted_banner_DC_Date_and_citation_date": "2026-08-07",
+      "interpretation": "Posted-date claim uses the main PDF frontmatter, visible posted banner and agreeing DC.Date/citation_date, not the disagreeing auxiliary field."
+    }
+  },
+  "reported_system": {
+    "organism": "Saccharomyces cerevisiae",
+    "initial_demonstration_background": "BY4741 msh2 deletion",
+    "selection": "canavanine resistance",
+    "barcode_length_nt": 12,
+    "barcode_locus": "trp1",
+    "tracked_barcode_count": 119672,
+    "founder_design": "approximately ten cells per barcode at start, not one independently authenticated mutation event per barcode",
+    "physical_design": "pooled one-pot growth; virtual lineages computationally constructed from barcodes",
+    "undetectable_post_selection_percent": 84
+  },
+  "calibration_and_inference": {
+    "absolute_mutant_count_M": "estimated by colony counting and refined during fitting",
+    "preselection_sizes": "vary across barcode lineages; computational merging justified by authors using model addition stability",
+    "mutant_competition": "authors explicitly identify fitness differences/competition as a confound that can distort barcode frequencies",
+    "authors_reported_stability": "postselection barcode frequencies stable in their canavanine context; transport to another selective context needs calibration",
+    "code_and_data_statement": "will be made available in a public repository; no named deposition in inspected main-document statement",
+    "source_values_imported_into_TMD": false
+  },
+  "selected_source_anchors": [
+    "canavanine resistant mutants",
+    "BY4741 msh2",
+    "12-nucleotide barcode",
+    "trp1 locus",
+    "119,672",
+    "84% were undetectable",
+    "10×",
+    "computationally merged",
+    "refined during fitting",
+    "competition between lineages",
+    "would require additional calibration",
+    "Analysis code and sequencing data will be made available in a public repository."
+  ],
+  "TMD_transfer_gates": [
+    {
+      "id": "unit_and_dependence",
+      "required_record": "Barcode uniqueness/collisions, founder membership and preselection ancestry, physical pools and disjoint versus overlapping virtual-lineage construction; an independently assessed trial/count law.",
+      "boundary": "Barcode/read counts are not automatically independent culture or mutation-event counts."
+    },
+    {
+      "id": "independent_calibration",
+      "required_record": "Native exposure and absolute abundance calibrated with external standards and held separate from fitted outcomes; declared recovery, selection and classification stages.",
+      "boundary": "A total mutant count refined against the same endpoint cannot be silently reused as an independently frozen supply estimate."
+    },
+    {
+      "id": "native_context",
+      "required_record": "Route-, background-, marker-, density-, timing- and scaffold-matched measurements of competition/establishment and later recovery.",
+      "boundary": "Yeast canavanine barcode stability does not establish SBW25 WS frequency independence or transport."
+    },
+    {
+      "id": "molecular_event_truth",
+      "required_record": "Orthogonal parental/new-event genotype and ancestry observations, inherited negatives, losses and detection limits; actual stocked materials and matched route definitions.",
+      "boundary": "A barcode labels a lineage, not every mutation birth. An undetectable barcode is not proof that no mutation arose."
+    },
+    {
+      "id": "artifact_and_evaluation",
+      "required_record": "Versioned actual input/code/metadata/terms and independent qualified review, followed by frozen complete route predictors and untouched evaluation.",
+      "boundary": "The current main-document method lead does not supply an admitted matched Wsp/Aws/Mws dataset."
+    }
+  ],
+  "biological_inference_status": "METHOD_LEAD_ONLY_NO_NATIVE_PANEL_OR_FIT",
+  "new_mathematical_theorem": false,
+  "experiment_commissioned": false,
+  "external_qualified_review": false
+}

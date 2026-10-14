@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "decision": "DOCUMENTED_METHOD_LEAD_NO_ADMISSION",
+  "reason": "A recent barcoded fluctuation-assay preprint provides a concrete measurement lead but pooled dependence, fitting/calibration, genotype/event truth and native transport remain unadmitted.",
+  "qualifies_for_bounded_next_inspection": "Named supporting-information artifact for the exact version, if it can resolve unit grouping or calibration; an actual versioned data/code deposition if independently identified.",
+  "not_authorized_or_completed": [
+    "stock selection",
+    "study input filling",
+    "laboratory execution",
+    "outreach",
+    "changing frozen forecast or count law"
+  ],
+  "study_fields_resolved": 0,
+  "planning_fields_resolved": 0,
+  "matched_panels_admitted": 0,
+  "methods_archive_changed": false
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "status": "PASS",
+  "reviewer": "Independent stock-record investigator agent; internal review, not external peer review",
+  "reviewed_utc": "2026-10-14T01:17:03.777641+00:00",
+  "reviewed_files": {
+    "REPORT.md": {
+      "bytes": 8005,
+      "sha256": "0c736a3fca35b05f3657cd838ccf3aef87f86374fbe0fc389442d497e79384cc"
+    },
+    "REPORTING_FORM_AUDIT.json": {
+      "bytes": 1458,
+      "sha256": "77d988f91a479f91c3fe5342525f30ad807638f73a3c5616fe9691f56497fc89"
+    },
+    "APPLICABILITY_RECORD.json": {
+      "bytes": 2097,
+      "sha256": "0de54e7b8049c9bb006445461679fc34e3585b77fcf6e90dec20f0e51f4982d6"
+    },
+    "DECISION.json": {
+      "bytes": 1077,
+      "sha256": "db8103cf41f600ddad20b93bead02e3f65b6bdd6fe4cfe21cfb547f28d3068f5"
+    },
+    "SOURCE_PROVENANCE.json": {
+      "bytes": 5121,
+      "sha256": "d4b8d768b62beed1fb8392607567c7fe7fa4d53d9a9427ea087a05746cde8f2c"
+    },
+    "verify_reporting_record.py": {
+      "bytes": 11244,
+      "sha256": "1270bab750e15470cfad1cc832b13c8931a47f1609329e48a3400fa0cf0263a0"
+    },
+    "LICENSE": {
+      "bytes": 1074,
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    "LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 810,
+      "sha256": "f7a0ec7ca70c68f0fb9334a55ccd38c194cdb1302e10337acec8a90398ec1daa"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 407,
+      "sha256": "88782c41383aa2ae04ad42a985b1a84849055e142a25d20d966f2cf7b42169bd"
+    }
+  },
+  "checks": [
+    "Read every form heading and author answer directly in S01 cached provider representation.",
+    "Read S02 context around reviewer eye estimate, author initial revision plan, editor stage delimiter and final response. Confirmed author statements are outside quoted reviewer blocks.",
+    "Confirmed WspF competitor and both frequency-dependence statements are attributed to the author revision plan. Final response expressly declines combined mutation-selection prediction and motivates explanatory fitness assays.",
+    "Confirmed template SD/SEM examples do not define E21 as SEM; no row21 calculation record was supplied by the inspected form.",
+    "Confirmed reviewer eye estimates are not admitted calibration and prepublication figure numbering is not promoted to a final-figure crosswalk.",
+    "Ran public-only verifier: PASS with source replay UNRUN.",
+    "Ran R31 plus R29 cache verifier: PASS for source identities, extraction, discovery links, preserved 44 NULL fields and zero panel admission.",
+    "Reviewed source rights, original CC BY 4.0 assessment / MIT code declaration and public allowlist; no private source bodies or author workstation metadata in package."
+  ],
+  "limitations": [
+    "Provider representations were checked, not original DOCX bytes or native publisher HTML.",
+    "No unpublished calculation, experimental truth or general model-transport validity authenticated.",
+    "Review covers pinned substantive files; producer must refresh receipt/checksum closure after adding this review."
+  ],
+  "blocking_findings": []
+}

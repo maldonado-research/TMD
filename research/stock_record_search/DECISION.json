@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "outcome": "historical_reconstruction_context_added_stock_admission_unresolved",
+  "new_primary_context": "McDonald2009 thesis author-contribution statement explicitly names AWS/WST/MWS/WSR reconstructions; historical archived-strains declaration does not establish present custody or target-stock mapping.",
+  "gate_changes": {
+    "historical_reconstruction_report_context": "strengthened by newly acquired thesis representation",
+    "MPB10583_to_WST_or_reconstruction": "unresolved",
+    "MPB10613_to_WSR_or_reconstruction": "unresolved",
+    "actual_stock_background_and_sequence": "unresolved",
+    "author_correction": "not_acquired"
+  },
+  "preflight_requirements": "research/stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json",
+  "preflight_requirements_changed": false,
+  "new_biological_fit": false,
+  "matched_panels_admitted": 0,
+  "stock_sequences_authenticated": 0,
+  "historical_26_changed": false,
+  "prospective_holdout_created": false,
+  "stock_selected": false,
+  "outreach_or_laboratory_work_commissioned": false,
+  "external_peer_review": false,
+  "study_null_fields": 26,
+  "planning_null_fields": 18,
+  "methods_version": "0.6.0",
+  "runner": "paused",
+  "bounded_search_failure_is_stock_nonexistence_evidence": false
+}

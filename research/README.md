@@ -145,3 +145,7 @@ The [source-join assessment](source_join_resolution/REPORT.md) records exact ref
 ## R30: stock context and source-calculation records
 
 The [stock-context assessment](stock_context_assessment/REPORT.md) identifies newly evolved SBW25-WS3, distinguishes recurrence from physical stock identity, and supplies a [document preflight](stock_context_assessment/STOCK_RECORD_REQUIREMENTS.json). The [calculation-record assessment](calculation_record_assessment/REPORT.md) distinguishes pathway-simulation code from the unresolved fitness aggregation and adds an explicitly conditional weights-only constraint. [R30 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R30.md). All 44 actual study/planning fields remain NULL.
+
+## R31: assay context, reconstruction history and a recent measurement lead
+
+The [reporting record](reporting_record_assessment/REPORT.md) distinguishes author limitations from reviewer suggestions and template text. The [stock record search](stock_record_search/REPORT.md) preserves partial thesis coverage and historical-work overlap without a present stock join. The [HiDenSeq method assessment](barcoded_assay_lead/REPORT.md) specifies unit, calibration and native-transport gates for a recent preprint. [R31 checkpoint](CONTINUATION_HANDOFF_2026-10-13_R31.md). All 44 actual/planning fields remain NULL.

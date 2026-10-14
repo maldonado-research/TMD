@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "status": "REPORTING_FORM_SCOPED_AUTHOR_ASSAY_MODEL_BOUNDARY_DOCUMENTED_CALCULATION_RECORD_UNRESOLVED",
+  "source_intended_aggregation_identified": false,
+  "author_correction_authenticated": false,
+  "author_values_replaced": false,
+  "missing_values_imputed": false,
+  "source_E21_reclassified_as_SEM": false,
+  "reviewer_eye_estimates_admitted_as_calibration": false,
+  "matched_panels_admitted": 0,
+  "new_biological_fit": false,
+  "study_fields_filled": 0,
+  "planning_fields_filled": 0,
+  "outreach_performed": false,
+  "external_peer_review_claimed": false,
+  "preserved": [
+    "R5",
+    "R11",
+    "R17",
+    "core theta/eta forecasts and comparators",
+    "count-law admission",
+    "error allocation",
+    "fixed stopping",
+    "paused Sol runner",
+    "methods 0.6.0 immutable archive"
+  ],
+  "next_evidence": "Authoritative row21 replicate/exclusion/correction/aggregation calculation record or versioned source correction; assay reference and frequency context needed before transport. Evidence specification only."
+}

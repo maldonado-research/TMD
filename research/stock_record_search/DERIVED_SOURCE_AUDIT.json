@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "searches": {
+    "S01": {
+      "result_count": 7,
+      "exact_target_identifier_in_returned_excerpt_or_url": false,
+      "assessment": "off_target_inconclusive"
+    },
+    "S02": {
+      "result_count": 4,
+      "new_primary_lead": "McDonald2009_Massey_thesis"
+    },
+    "S04": {
+      "result_count": 4,
+      "known_source_excerpts": 2,
+      "unrelated_identifier_collision_excerpts": 2,
+      "new_stock_record_acquired": false
+    }
+  },
+  "thesis": {
+    "author": "Michael Joseph McDonald",
+    "year": 2009,
+    "source_url": "https://mro.massey.ac.nz/bitstreams/906926b8-2806-41a6-858a-706290e9a2e9/download",
+    "representation": "provider_markdown_partial_PDF",
+    "reported_pages_acquired": 180,
+    "reported_total_PDF_pages": 197,
+    "chapter2_author_contribution_reconstructions": [
+      "AWS",
+      "WST",
+      "MWS",
+      "WSR"
+    ],
+    "reported_ancestral_replacement_alleles": [
+      "G3247A",
+      "T2183C"
+    ],
+    "Table2_1_WSR": "mwsR T2183C / V272A",
+    "Table2_1_WST": "awsX \u0394229\u2013261 / YTDDLIKGTTQ",
+    "Table2_1_MWS": "mwsR G3247A / E1083K",
+    "Table2_1_WSX": "unknown",
+    "Figure2_1_caption_T2183C_comparison_label": "WSX",
+    "Figure2_1_caption_MWS_reconstruction_label": "G3260A",
+    "reported_LSWS_alias": "PR1200 (previously named PBR663)",
+    "historical_created_strains_archiving_declaration": true,
+    "target_MPB_identifier_occurrences_in_acquired_text": 0,
+    "current_stock_or_custody_crosswalk_authenticated": false,
+    "author_correction_acquired": false,
+    "provider_figure_numbers_admitted_as_data": false
+  },
+  "stock_sequences_authenticated": 0,
+  "matched_panels_admitted": 0,
+  "absence_of_records_everywhere_established": false
+}

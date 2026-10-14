@@ -136,3 +136,11 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Newly evolved SBW25-WS3 has the reported focal genomic point 5856845, t2183c/V728A | [Primary context assessment](research/stock_context_assessment/REPORT.md) | Corroborates the conditional coordinate interpretation; does not establish WSR/MPB10613 identity, ancestry or a single-mutation stock. |
 | Named linked code simulates pathway activity | [Calculation-record assessment](research/calculation_record_assessment/RECORD_ASSESSMENT.json) | No inspected Figure 9 aggregation record, source-code execution or admitted observed-route forecast. |
 | Reweighting fixed visible coefficients cannot match both stored moments under ordinary SD assumptions | [Conditional moment diagnostic](research/calculation_record_assessment/CONDITIONAL_DIAGNOSTIC.json) | Standard sharp minimum population SD; SEM, corrections, transformations or other observations remain unresolved. No author error or new theorem asserted. |
+
+## R31 reporting and measurement evidence — 13 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Source authors explain frequency-dependent fitness, wspF competitor and model scope | [Reporting-record assessment](research/reporting_record_assessment/REPORT.md) | Assay-specific transport limits; no row-21 calculation, reviewer coefficient admission or observed-route forecast. |
+| Thesis reports historical reconstructions and archiving | [Stock-record search](research/stock_record_search/REPORT.md) | Partial 180/197-page representation and same historical work; no independent replication or MPB custody/sequence join. |
+| Recent HiDenSeq preprint offers barcoded fluctuation-distribution measurements | [Method-lead assessment](research/barcoded_assay_lead/ASSESSMENT.json) | Yeast/pooling/calibration/competition context; no native TMD units, supply, event truth, data replay or biological fit. |

@@ -1,0 +1,29 @@
+{
+  "round": "R000031",
+  "scientific_acquisition_calls": 9,
+  "serialized_response_capture_bytes": 1009782,
+  "counted_saved_source_bytes": 1009782,
+  "new_original_artifact_bytes": 0,
+  "new_XLSX_bytes": 0,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "reporting_record_calls": 2,
+  "stock_record_calls": 4,
+  "barcoded_method_lead_calls": 3,
+  "root_recent_date_watch_calls": 0,
+  "shared_acquisitions_counted_once": true,
+  "reused_artifacts_counted_as_new": false,
+  "source_ledgers": [
+    "../reporting_record_assessment/SOURCE_PROVENANCE.json",
+    "../stock_record_search/SOURCE_PROVENANCE.json",
+    "../barcoded_assay_lead/SOURCE_PROVENANCE.json"
+  ],
+  "unavailable_accounting": [
+    "provider_internal_request_totals",
+    "wire_transport_bytes"
+  ],
+  "raw_source_bodies_third_party_code_private_identifiers_published": false,
+  "private_material_screening": "Ten dedicated handoffs and two named historical text copies in local snapshot; unchanged against prior manifests; no linked actual stock/sequence record in bounded scan. Private attestation excluded; no complete-drive or remote-freshness claim.",
+  "author_methods_Zenodo_requests": 0,
+  "outreach": false
+}

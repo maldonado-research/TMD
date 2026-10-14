@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "round": "R31",
+  "status": "PASS",
+  "reviewer": "Independent internal AI review by reporting-record investigator",
+  "reviewed_utc": "2026-10-14T01:18:22.244446+00:00",
+  "external_peer_review": false,
+  "blockers": [],
+  "checks": [
+    "Read report, derived source audit, decision, provenance, verifier and licensing scope.",
+    "Directly inspected retained thesis Chapter2 contribution statement and ancestral replacement paragraph; explicit AWS/WST/MWS/WSR reconstruction credit is supported.",
+    "Directly checked literal Table2.1 and Figure2.1 WSR/WSX and G3247A/G3260A discrepancies, LSWS PR1200/PBR663 alias, historical archiving statement and acquired strain-table context.",
+    "Confirmed provider coverage180of197pages; no exact original PDF or unacquired remainder authenticated. The overlapping Genetics/thesis account is not independent biological replication.",
+    "Inspected all three retained search result sets:7/4/4 results, targeted exact-query excerpts include known Karita records and unrelated identifier collisions; excerpt-only/bounded scope accurately stated.",
+    "Checked twelve named private local-file identities against the external scope attestation without publishing their paths or hashes; prior-manifest comparison is recorded as producer attestation.",
+    "Public-only and full-cache verifier both PASS; private-scope replay remains UNRUN in public outputs.",
+    "Original facts/license distinctions, no third-party bodies, current stock admission guard and44NULL fields preserved."
+  ],
+  "limitations": [
+    "Internal AI source review, not external peer review, physical stock identification or biological validation.",
+    "No current custody/sequence crosswalk or author correction authenticated.",
+    "Private prior-manifest comparison relies on producer attestation; public verifier intentionally does not replay private records."
+  ],
+  "verification_results": [
+    {
+      "status": "PASS",
+      "source_replay": "UNRUN: no source cache supplied",
+      "private_local_scope_replay": "UNRUN: private audit excluded",
+      "study_nulls": 26,
+      "planning_nulls": 18,
+      "matched_panels_admitted": 0,
+      "stock_sequences_authenticated": 0,
+      "biological_validation": "NOT_PERFORMED",
+      "new_biological_fit": false
+    },
+    {
+      "status": "PASS",
+      "source_replay": "PASS: saved search excerpts and partial thesis anchors",
+      "private_local_scope_replay": "UNRUN: private audit excluded",
+      "study_nulls": 26,
+      "planning_nulls": 18,
+      "matched_panels_admitted": 0,
+      "stock_sequences_authenticated": 0,
+      "biological_validation": "NOT_PERFORMED",
+      "new_biological_fit": false
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 4750,
+      "sha256": "d4cd0f57c3c54cd4c433824cf3b19c9383a19b9e5b746e70b20f1554189707db"
+    },
+    {
+      "path": "DERIVED_SOURCE_AUDIT.json",
+      "bytes": 1764,
+      "sha256": "a1c85223d8c5d207d719d6bd1b24a57c54ca9f5e2660c91ac7af38de669beb22"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1294,
+      "sha256": "c77ac4d3ee86c371b9812592dafc8d3e53175bf4e7339a7cead8c4c5f67c16e8"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 5698,
+      "sha256": "ee039cd558a0ee766f3924254e71b273fe553fc64ca8baa7a0a2b5f49c2d7bfe"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 8082,
+      "sha256": "b77da108f3bb2291f8cac0fa3f42a8c11c34f2cb4eea682b1f623e13ce216d35"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1523,
+      "sha256": "ec75c610bb0bc891702f18cce624ac1bf7d334cbda2f319a363bedc6a6a6d64e"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 963,
+      "sha256": "1c7d6b333d81497cd082132b538644677ea503939eb351e5a87c2a91f5bcdbe4"
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "bytes": 405,
+      "sha256": "3fa452d111ebe8389f88cbed68f2d5cde670dc3bc1c51e051b60958e743cfa20"
+    }
+  ]
+}
