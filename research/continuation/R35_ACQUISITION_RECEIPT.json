@@ -1,0 +1,123 @@
+{
+  "round": "R000035",
+  "scientific_acquisition_calls": 5,
+  "successful_scientific_responses": 4,
+  "counted_saved_source_bytes": 1536860,
+  "new_original_structured_response_bytes": 1500664,
+  "new_saved_firecrawl_wrapper_bytes": 29275,
+  "new_saved_http_or_local_failure_receipt_bytes": 6921,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "source_ledger": "../calibration_sample_provenance/SOURCE_PROVENANCE.json",
+  "saved_acquisition_files": [
+    {
+      "filename": "S01_bioproject_firecrawl.json",
+      "bytes": 14530,
+      "sha256": "04c88e176bb5e7c5e88bd5ebb50d84acaac2d5834e157570a7762f08da631894"
+    },
+    {
+      "filename": "S02_sra_esearch.body",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "filename": "S02_sra_esearch.receipt.json",
+      "bytes": 511,
+      "sha256": "703ca523953d21b24dbd557793db0e72e7927b043bcd4de5a4e6134a30c16ba6"
+    },
+    {
+      "filename": "S03_sra_esearch.body",
+      "bytes": 2257,
+      "sha256": "a35c5b2952297a8e2ccc903c046aed944fe0ea15d052420b40c5a1afd48b94f9"
+    },
+    {
+      "filename": "S03_sra_esearch.receipt.json",
+      "bytes": 1617,
+      "sha256": "c447f037fc7768465c66d524e4b1f454250fb962a61b4b035db157592c97ed4d"
+    },
+    {
+      "filename": "S04_sra_experiments.body",
+      "bytes": 1498407,
+      "sha256": "8fbcfc424317eeddea3cd35df5fbff4d94189beb639cbb08f82f5dc3c56532b5"
+    },
+    {
+      "filename": "S04_sra_experiments.receipt.json",
+      "bytes": 4793,
+      "sha256": "58362e147e9cace119a004e7299ecbf2e2c1eb6d7d10d35d56f92e5bf313d364"
+    },
+    {
+      "filename": "S05_biosample_firecrawl.json",
+      "bytes": 14745,
+      "sha256": "ced9b6a1c6ebc4c057197808132fd3da4b0ad407f7d9883d6f37202c36db7df2"
+    }
+  ],
+  "calls": [
+    {
+      "id": "S01",
+      "kind": "Firecrawl official BioProject scrape",
+      "url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1100950",
+      "status": 200,
+      "scrape_id": "01a13b64-32dc-73f2-b3cd-30ff4ca05d55",
+      "saved_files": [
+        "S01_bioproject_firecrawl.json"
+      ]
+    },
+    {
+      "id": "S02",
+      "kind": "structured metadata acquisition attempt",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1100950%5BBioProject%5D&retmax=1000&retmode=json",
+      "status": "LOCAL_SANDBOX_NETWORK_UNAVAILABLE_BEFORE_HTTP",
+      "response_bytes": 0,
+      "saved_files": [
+        "S02_sra_esearch.body",
+        "S02_sra_esearch.receipt.json"
+      ]
+    },
+    {
+      "id": "S03",
+      "kind": "exact eSearch JSON",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1100950%5BBioProject%5D&retmax=1000&retmode=json",
+      "status": 200,
+      "query_count": 178,
+      "returned_ids": 178,
+      "saved_files": [
+        "S03_sra_esearch.body",
+        "S03_sra_esearch.receipt.json"
+      ]
+    },
+    {
+      "id": "S04",
+      "kind": "exact SRA experiment-package XML",
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "request_fields": {
+        "db": "sra",
+        "id": "comma-joined 178 IDs in S03 idlist, preserving order",
+        "retmode": "xml"
+      },
+      "status": 200,
+      "experiment_packages": 178,
+      "saved_files": [
+        "S04_sra_experiments.body",
+        "S04_sra_experiments.receipt.json"
+      ]
+    },
+    {
+      "id": "S05",
+      "kind": "Firecrawl official BioSample scrape",
+      "url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN43151561",
+      "status": 200,
+      "scrape_id": "01a13b66-94c8-7296-b69b-c9a3c9b8b354",
+      "saved_files": [
+        "S05_biosample_firecrawl.json"
+      ]
+    }
+  ],
+  "accounting": "Exact UTF-8 Firecrawl request/result wrappers plus original eUtils response bytes and saved acquisition receipts. The zero-byte sandbox failure is one conservative attempt. Acquisition script and local calculations are not acquired source bytes. Reused R33/R34 artifacts add no new acquisition bytes.",
+  "shared_acquisitions_counted_once": true,
+  "reused_artifacts_counted_as_new": false,
+  "raw_source_bodies_published": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "source_author_code_executed": false,
+  "wire_or_provider_internal_bytes": "unknown"
+}

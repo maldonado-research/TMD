@@ -161,3 +161,7 @@ The [assessment](calibration_resource/REPORT.md) compares barcoded genomic-DNA s
 ## R34: authenticated source-data calibration replay
 
 The [Figure 2D replay](calibration_source_replay/REPORT.md) reproduces the deposited processed-count calculation with original Python, an independent Decimal check, exact accession/primer/mass joins and an original plot. Archive inventory and source arithmetic are verified; biological independence and native calibration remain unestablished. [R34 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R34.md). All 44 actual/planning inputs remain NULL.
+
+## R35: official run and sample provenance
+
+The [sample-provenance audit](calibration_sample_provenance/REPORT.md) authenticates 22 run/experiment/library joins and identifies two candidate omitted-condition libraries. One registered BioSample is an archive annotation, not a physical-sample or independence law. Exclusion counts, preparation ancestry and actual dosing remain unavailable; the 37/37.5 source-label discrepancy is explicit. [R35 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R35.md). All 44 actual/planning inputs remain NULL.

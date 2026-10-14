@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R34, 14 October 2026
+## Latest research checkpoint — R35, 14 October 2026
+
+The [sample-provenance audit](research/calibration_sample_provenance/REPORT.md) links all 22 replayed rows to official run/experiment/library records and one registered BioSample. Two named V4/300-mg libraries are candidates for the condition absent from Figure 2D; processed counts and accession-specific exclusions remain unavailable. Exact joins and the 37/37.5 nominal-label discrepancy are preserved without a new fit or inferred biological sample size. [R35 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R35.md).
+
+This advances source-identifier provenance. All 26 study and 18 planning inputs remain NULL; biological ancestry, native calibration and TMD validation remain unresolved. Methods 0.6.0 is unchanged.
+
+## Prior R34 checkpoint — 14 October 2026
 
 The [source-calibration replay](research/calibration_source_replay/REPORT.md) authenticates two original published archives and reproduces all six Figure 2D slope/R² values using original Python and independent high-precision arithmetic. The [plot](research/calibration_source_replay/figure2d_replay.png) shows the 22 supplied accession rows. Missing attempted-condition records, unknown replicate ancestry and post-lysis entry limit biological interpretation. [R34 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R34.md).
 

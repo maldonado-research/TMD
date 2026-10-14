@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Obtain actual row-level standard-dose and dilution uncertainty, extraction/library/shared-pool provenance and excluded accession/count records for a proposed calibration, or a named native MPB10583/MPB10613 pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Use the existing 44-field qualified-review worksheet before native measurement admission. The verified Figure 2D processed-count replay is a source arithmetic benchmark, not independent cell recovery, exact introduced-copy truth, mutation birth or a native count law. Known material must match the target process and enter early enough for the claimed stage; origin/ancestry truth, inherited negatives, exposure, establishment, recovery and invisible-loss limits still require actual records. Keep complete predictors/comparators and evaluation data frozen separately, and propagate identified calibration/input uncertainty before any statistical claim. Do not automatically replay another figure, infer missing failed rows, repeat blocked lookups or add an unsupported mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work.",
+  "next_action": "Obtain the processed per-standard counts, QC thresholds and accession-specific exclusion assignments for SRR30280226 and SRR30280227, or an actual extraction/PCR/library genealogy and row-level spike-dose/dilution uncertainty ledger linking the retained source runs. The 24 released condition-label records are not the complete attempted-sample denominator; one registered BioSample and distinct SRX/library names do not establish physical samples or independent biological trials. Preserve the literal 37 versus Figure S3 37.5 nominal labels and the R34 declared replay; do not silently change inputs or refit. An actual native MPB10583/MPB10613 stock/pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record remains an alternative priority. Use the 44-field qualified-review worksheet before native admission, with origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery and invisible-loss records, complete separately frozen predictors/comparators and evaluation, and propagated identified uncertainty. Park repeated unchanged SRA/BioSample or missing-record lookups, another figure replay and unsupported mathematical extensions. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,15 +41,17 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000034"
+      "R000035"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-14_R34.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-14_R35.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
-    "third_party_public_Zenodo_original_file_reads": 2,
+    "third_party_public_Zenodo_requests_this_round": 0,
+    "public_NCBI_metadata_successful_responses": 4,
+    "scientific_acquisition_attempts": 5,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "processed_source_numerical_replay_verified_no_native_panel"
+    "scientific_inference_status": "official_source_identifier_crosswalk_verified_biological_ancestry_and_native_panel_unresolved"
   },
   "github_research_addenda_history": [
     {
@@ -182,6 +184,18 @@
       "third_party_public_Zenodo_metadata_reads": 1,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "implemented_calibration_resource_and_named_deposit_no_native_panel"
+    },
+    {
+      "latest_rounds": [
+        "R000034"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-14_R34.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "third_party_public_Zenodo_original_file_reads": 2,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "processed_source_numerical_replay_verified_no_native_panel"
     }
   ],
   "publication_verified_file_count": 8,

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "round": "R35",
+  "status": "PASS_SCIENTIFIC_PAYLOAD_REVIEW",
+  "recommendation": "ACCEPT_FOR_NAMED_ARCHIVE_PROVENANCE_SCOPE",
+  "reviewed_utc": "2026-10-14T17:19:21.647141+00:00",
+  "reviewer_role": "Separate internal AI scientific/computational reviewer; not a qualified external biological review.",
+  "reviewed_payloads": [
+    {
+      "path": "REPORT.md",
+      "bytes": 8700,
+      "sha256": "9396d0553bccf43d34b1a6a04a2ad96cf645c3c67e38dfc3e4a4006b9438b863"
+    },
+    {
+      "path": "JOIN_AUDIT.json",
+      "bytes": 12379,
+      "sha256": "ed9e86cdc83fee412f9d691f2e08405479e9201c8390ef039dbd03f59f36ff94"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 1802,
+      "sha256": "e5f140bdfe07c3b3d8151029bfca6707114c6c38e028cfd82a5bd1d73fa5cd4a"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 6979,
+      "sha256": "ac35c568a814af9e9310f8e4fe0965d8ffd8c950ab86ebc4ab1d3b692f6fe4f2"
+    },
+    {
+      "path": "DECISION.json",
+      "bytes": 1254,
+      "sha256": "298280b0816a9a04d049c8d450c1d96893bb407b052720fb5a4d9a09c9127808"
+    },
+    {
+      "path": "PRESPECIFICATION.md",
+      "bytes": 2220,
+      "sha256": "6013d7cfa8a0cd50b2bf950c71b1bc98e524bad5d41867c294c3ac19d0c91d71"
+    },
+    {
+      "path": "replay_provenance.py",
+      "bytes": 12502,
+      "sha256": "2fb0127de19267180666a4c536c1eda685d840d6ed8617d1adb2caf00447f82a"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 1025,
+      "sha256": "6cc233641d1729c6cfecff149a0ca39c0a09de1d28164912caa56fcd2d5785fb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1096,
+      "sha256": "7cd88dafe0b3b2073e523769adc58fe3fd9cb18e67e9fc8ac85f51bbff264c23"
+    }
+  ],
+  "reviewed_scope": {
+    "independently_authenticated_original_archives": 2,
+    "all_archive_headers_checked": 173,
+    "all_regular_member_hashes_checked": 171,
+    "metadata_screen_members": {
+      "TSV": 32,
+      "XLSX": 16,
+      "Rmarkdown": 23,
+      "HTML": 23
+    },
+    "archive_screen_limit": "Schemas, accession rows, workbook cells and metadata-term text screening; not a full scientific review of every figure. No source-author code, HTML scripts, workbook formulas or additional figure computations executed.",
+    "new_official_xml_bytes": 1498407,
+    "new_official_xml_sha256": "8fbcfc424317eeddea3cd35df5fbff4d94189beb639cbb08f82f5dc3c56532b5",
+    "independent_xml_parser_used": true,
+    "producer_derivation_not_reused_for_independent_join": true,
+    "project_packages_and_distinct_runs": 178,
+    "retained_exact_accession_joins": 22,
+    "distinct_retained_SRX_and_library_names": 22,
+    "shared_target_SRS": "SRS22380613",
+    "shared_target_BioSample": "SAMN43151561",
+    "run_to_experiment_and_experiment_to_sample_crossreferences_verified": true,
+    "named_condition_records": 24,
+    "additional_V4_300mg_candidate_runs": [
+      "SRR30280226",
+      "SRR30280227"
+    ],
+    "candidate_archive_identifier_search_members": 94,
+    "candidate_identifier_search_hits": 0,
+    "lowest_mass_label_conflicts": 6,
+    "conflict_values": "37 in Figure 2D and explicit SRA library labels; 37.5 in Figure S3. Original 37-mg replay unchanged.",
+    "all_24_public_join_rows_match_independent_parser": true,
+    "all_saved_acquisition_lengths_and_SHA256_verified": true,
+    "saved_acquisition_bytes": 1536860,
+    "reviewer_new_scientific_acquisitions": 0
+  },
+  "scientific_limits": [
+    "Run, experiment, sample, BioSample and library labels establish archive joins; neither shared nor distinct labels determine independent biological units or physical preparation ancestry.",
+    "SRA Pool/Member associations and paper-level equimolar sequencing-library pooling do not supply target physical shared-pool membership.",
+    "Two V4/300-mg candidates are absent from Figure 2D. Their exact processed standard reads and accession-specific exclusion decisions remain unverified.",
+    "Twenty-four released condition-label records are not the complete attempted biological-sample denominator; no missing zero observations, detection probability or invisible-loss bound is inferred.",
+    "Source mass labels do not establish actual weighed mass. Approximate paper-level copy dose does not establish per-run introduced-copy truth or dilution uncertainty.",
+    "Post-lysis DNA standards do not measure preceding cell loss, viability, mutation births or lineage establishment.",
+    "No effective biological sample size, new fit, native transfer, new theorem, qualified external validation or resolution of the 44 native fields follows."
+  ],
+  "preservation_checks": {
+    "prior_checkpoint_hashes_verified": 276,
+    "study_fields_NULL": 26,
+    "planning_fields_NULL": 18,
+    "native_admission": false,
+    "R34_processed_source_replay_changed": false
+  },
+  "rights_and_privacy": "Public payloads contain selected public identifiers and original synthesis/code; raw XML contacts/postal details, original archive data/code, private paths and credentials remain outside Git. Original prose/joins CC BY 4.0 and original code MIT do not relicense NCBI or other third-party sources or grant patent-use permission.",
+  "verification_semantics": "Final package membership/checksum closure and producer full replay are verified separately after their receipt files are finalized. Public-only integrity verification must continue to label external-source replay UNRUN.",
+  "blocking_findings": []
+}

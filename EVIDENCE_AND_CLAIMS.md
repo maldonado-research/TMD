@@ -165,3 +165,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | Original archive identities and selected processed table/recipe/output agree | [Source replay report](research/calibration_source_replay/REPORT.md) | Original bytes and arithmetic consistency; no experiment, FASTQ processing or exact introduced-copy truth verified. |
 | All six descriptive slope/R² values are reproduced independently | [Numerical results](research/calibration_source_replay/RESULTS.json) | 22 accession rows, missing V4 condition and unknown ancestry; no independent biological law, CI, native event calibration or TMD fit. |
+
+## R35 official sample provenance — 14 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| All 22 retained rows have exact official run/experiment/library joins to one registered BioSample | [Sample-provenance report](research/calibration_sample_provenance/REPORT.md) | Archive annotation does not prove a physical specimen, preparation genealogy, independent biological units or mutation ancestry. |
+| Two extra released V4/300-mg libraries are named; six nominal mass labels differ across figures | [Derived joins and limits](research/calibration_sample_provenance/RESULTS.json) | Candidate omissions lack processed counts/exclusion assignment; 24 released labels do not establish the attempted denominator. Preserve R34 inputs without refitting. |

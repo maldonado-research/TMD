@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "public_integrity": "PASS; source replay correctly UNRUN without external captures",
+  "exact_external_source_replay": "PASS; all acquisition files and source data archive authenticated; exact 22 retained joins, two omission candidates and six mass-label discrepancies reproduced",
+  "negative_parser_checks": {
+    "status": "PASS",
+    "rejected_cases": [
+      "duplicate run",
+      "wrong BioProject",
+      "broken run-to-experiment reference",
+      "broken experiment-to-sample reference",
+      "conflicting explicit target soil mass"
+    ]
+  },
+  "source_replay_validates": "Acquired metadata identities, accession joins and literal source mass labels; not independent biological units, exact dose or per-run exclusion truth.",
+  "source_author_code_executed": false,
+  "new_network_requests_by_verifier": 0,
+  "public_only_result": {
+    "status": "PASS",
+    "source_metadata_replay": "UNRUN: external source captures not supplied; public integrity and frozen inputs only",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "native_records_admitted": 0,
+    "biological_independence_established": false
+  },
+  "study_nulls": 26,
+  "planning_nulls": 18,
+  "native_records_admitted": 0
+}
