@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R33, 14 October 2026
+## Latest research checkpoint — R34, 14 October 2026
+
+The [source-calibration replay](research/calibration_source_replay/REPORT.md) authenticates two original published archives and reproduces all six Figure 2D slope/R² values using original Python and independent high-precision arithmetic. The [plot](research/calibration_source_replay/figure2d_replay.png) shows the 22 supplied accession rows. Missing attempted-condition records, unknown replicate ancestry and post-lysis entry limit biological interpretation. [R34 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R34.md).
+
+This is a processed-source numerical benchmark. All 26 study and 18 planning inputs remain NULL; no native panel, biological fit or new theorem is admitted. Frozen methods 0.6.0 is unchanged.
+
+## Prior R33 checkpoint — 14 October 2026
 
 The [calibration-resource assessment](research/calibration_resource/REPORT.md) identifies two implemented DNA-standard methods and a named public source-data deposit. Their entry stages and gene/genome units define what can be calibrated: post-extraction or post-lysis DNA measurements require separate earlier cell-loss and mutation-origin evidence. [R33 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R33.md).
 

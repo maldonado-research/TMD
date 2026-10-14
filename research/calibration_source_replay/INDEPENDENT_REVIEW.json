@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-14T07:37:43.620460+00:00",
+  "scope": "Separate internal source, arithmetic, scientific-scope and publication review of the completed fourteen-file package. Not qualified external peer review or experimental validation.",
+  "external_qualified_review": false,
+  "independence": "Reviewer implemented a separate standard-library Decimal calculation at 60-digit precision against the authenticated archive before inspecting the producer numerical output. Producer uses original floating-point Python; no author R/Rmarkdown or HTML code was executed.",
+  "artifact_checks": {
+    "original_archive_count": 2,
+    "all_member_identity_matches": 173,
+    "regular_files_hashed": 171,
+    "expanded_regular_bytes": 20993744,
+    "selected_TSV_XLSX_all_cells_equal": true,
+    "original_archive_md5_and_sha256_verified": true,
+    "all_22_public_accession_primer_mass_joins_match": true
+  },
+  "numerical_checks": {
+    "target": "Figure 2D",
+    "fallback_used": false,
+    "predictor": "log10(nominal soil amount in mg)",
+    "response": "log10(environmental reads / sum of twelve explicit standard-count columns)",
+    "fit": "Unweighted OLS with intercept separately by primer; every supplied row retained.",
+    "primer_row_counts": {
+      "ITS1": 8,
+      "ITS2": 8,
+      "V4": 6
+    },
+    "independently_compared_metrics": [
+      "slope",
+      "intercept",
+      "r_squared",
+      "residual_sum_of_squares"
+    ],
+    "maximum_absolute_difference": "3.844122728449457166980933978E-16",
+    "independent_comparison_tolerance": "1e-14",
+    "archived_author_display_checks": 6,
+    "archived_author_display_tolerance": "5e-8",
+    "XLSX_crosscheck_independent_of_producer": true,
+    "producer_fresh_run_matches_published_results": true
+  },
+  "scientific_scope_checks": [
+    "Approximately four million total rDNA-mimic copies is primary-paper context, not an authenticated per-accession dose or propagated calibration uncertainty.",
+    "Two accession rows per included primer/mass do not establish technical or biological ancestry or independent-unit count. No inferential standard error, effect confidence interval, significance, power or biological degrees of freedom is inferred.",
+    "V4 300-mg rows are absent in the processed table. Primary-paper low-standard-read exclusion is disclosed; excluded accession/count records and the complete attempted-sample denominator are unavailable.",
+    "Ten other standard columns have zero observed counts in the selected V4 rows, consistent with source-stated primer compatibility. All twelve columns remain in the denominator, without a pseudocount, new exclusion or averaging. This observation does not assert a universal zero-probability count law.",
+    "The read-ratio response is dimensionless and reflects rRNA-gene/operon quantities. Standards entered after bead-beating cell lysis. The fit cannot establish prior cell losses, viable cells, mutation births, lineage establishment or native process matching.",
+    "Agreement validates the represented processed-table arithmetic, not upstream sequencing/classification, exact introduced-copy truth, experimental calibration uncertainty or a native physical-unit count law.",
+    "All 26 study and 18 planning fields remain NULL; no native stock, fitted native calibration, matched panel, independent event, native fit or theorem is admitted."
+  ],
+  "verification": {
+    "public_only": "PASS; original-source numerical replay explicitly UNRUN without an archive cache",
+    "with_original_archive_cache": "PASS; identities, source recipe/output anchors, all rows and numerical reproduction",
+    "read_only_no_network": true,
+    "plot_visually_inspected": true,
+    "plot_findings": "Three labeled primer panels; accession-row counts, nominal-mass log scale and log read-ratio response are clear. V4 has no plotted 300-mg point. No confidence bands or independent-biological-sample-size claim."
+  },
+  "privacy_and_rights": {
+    "raw_source_count_tables_archives_Rmarkdown_HTML_absent_from_package": true,
+    "author_workstation_paths_and_private_receipts_absent": true,
+    "source_attribution_and_CC_BY_4_metadata_basis_stated": true,
+    "patent_disclosure_not_interpreted_as_laboratory_permission": true,
+    "original_Python_MIT_and_original_assessment_plot_CC_BY_4": true
+  },
+  "blockers": [],
+  "reviewed_file_identities": [
+    {
+      "path": "DECISION.json",
+      "bytes": 1137,
+      "sha256": "5000766948e984ef19f15db3a578a4bb5ee8fe33ede7b9558070d68e2e443af3"
+    },
+    {
+      "path": "JOIN_AUDIT.json",
+      "bytes": 5711,
+      "sha256": "e70716446d39d9603949665d2b88ba5bbb9a9993a9e9a97213c5f51c8c093cf8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "a3221bd7fcdef31d200befd35bb52ad22d5afedd7a653cfa79338eb9672f531d"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 771,
+      "sha256": "a4d148c5234706793031124a5ee9e64dc1b5e4bfbd44b26022dd54ef6ad1145e"
+    },
+    {
+      "path": "PUBLIC_FILES.json",
+      "bytes": 403,
+      "sha256": "ca9928058d4b474c21f06afd7ddacc1adb45691d1ebc494a8c7c17339852333c"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 7927,
+      "sha256": "58f18912158da6d49fd73ba7b830c0b12226ab7d0ae5ffdab8e19bfe5f34df36"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 2607,
+      "sha256": "28d4048267d9e88598b295dee0603078dc138f487fc69849b6514d42e0244101"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 5182,
+      "sha256": "9c87a44d64526f4ab520a2d2022f9e79716dd6bfb5ca45d4beb19617a1be0fff"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 1044,
+      "sha256": "78a1184b8f07f584f53392cfaaef4bc458c847242c4540b90d304eab55477f99"
+    },
+    {
+      "path": "figure2d_replay.png",
+      "bytes": 145487,
+      "sha256": "cfb6071430a534dcd893ff82ac556d5e9223d4545ef7f1ba967a6945e12ba838"
+    },
+    {
+      "path": "replay_figure2d.py",
+      "bytes": 8764,
+      "sha256": "173d4bc895d24cbfafdcb323c90a7409e69d81470587365cb676558a93abdcdd"
+    },
+    {
+      "path": "verify_replay.py",
+      "bytes": 7929,
+      "sha256": "b290d6b74a124d236e53468da15315c63fdf6584cc46d0dd73422a2b2e9fec0d"
+    }
+  ]
+}
