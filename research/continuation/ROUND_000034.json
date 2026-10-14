@@ -1,0 +1,41 @@
+{
+  "id": "R000034",
+  "status": "completed_internal_review",
+  "date": "2026-10-14",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-14_R34.md",
+  "completion_scope": "original_archive_authentication_and_declared_processed_source_calibration_replay",
+  "details": {
+    "scientific_acquisition_calls": 2,
+    "counted_saved_source_bytes": 9039598,
+    "original_archive_bytes": 9037599,
+    "complete_archive_members": 173,
+    "regular_archive_members": 171,
+    "selected_accession_rows": 22,
+    "source_slope_and_R_squared_values_reproduced": 6,
+    "source_author_code_executed": false,
+    "FASTQ_replayed": false,
+    "stock_sequences_authenticated": 0,
+    "matched_bacterial_panel_admitted": false
+  },
+  "source_data_replayed": true,
+  "native_biological_fit": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "new_mathematical_theorem": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000034",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Obtain actual row-level standard-dose and dilution uncertainty, extraction/library/shared-pool provenance and excluded accession/count records for a proposed calibration, or a named native MPB10583/MPB10613 pedigree/sequence crosswalk or authoritative Figure 9 replicate/correction/aggregation record. Use the existing 44-field qualified-review worksheet before native measurement admission. The verified Figure 2D processed-count replay is a source arithmetic benchmark, not independent cell recovery, exact introduced-copy truth, mutation birth or a native count law. Known material must match the target process and enter early enough for the claimed stage; origin/ancestry truth, inherited negatives, exposure, establishment, recovery and invisible-loss limits still require actual records. Keep complete predictors/comparators and evaluation data frozen separately, and propagate identified calibration/input uncertainty before any statistical claim. Do not automatically replay another figure, infer missing failed rows, repeat blocked lookups or add an unsupported mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, stopping, paused runner and methods 0.6.0. No outreach or laboratory work."
+}

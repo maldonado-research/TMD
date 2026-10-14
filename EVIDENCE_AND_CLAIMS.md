@@ -158,3 +158,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | BSINC implements separately barcoded genomic-DNA calibration | [Resource assessment](research/calibration_resource/REPORT.md) | Post-extraction measurement; shared extracted-DNA validation does not calibrate preceding biological loss or mutation origin. |
 | Synthetic rDNA standards have published validation and a named data/code deposit | [Resource assessment](research/calibration_resource/ASSESSMENT.json) | Soil standards added after lysis; gene quantities, metadata inventory and advertised checksums do not supply cell/event truth or a source-data replay. |
+
+## R34 actual source-data replay — 14 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Original archive identities and selected processed table/recipe/output agree | [Source replay report](research/calibration_source_replay/REPORT.md) | Original bytes and arithmetic consistency; no experiment, FASTQ processing or exact introduced-copy truth verified. |
+| All six descriptive slope/R² values are reproduced independently | [Numerical results](research/calibration_source_replay/RESULTS.json) | 22 accession rows, missing V4 condition and unknown ancestry; no independent biological law, CI, native event calibration or TMD fit. |

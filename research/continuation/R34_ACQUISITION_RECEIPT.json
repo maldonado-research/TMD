@@ -1,0 +1,82 @@
+{
+  "round": "R000034",
+  "status": "PASS_ORIGINAL_ARCHIVE_IDENTITIES_ONLY",
+  "logical_scientific_calls": 2,
+  "new_original_artifact_bytes": 9037599,
+  "calls": [
+    {
+      "call_number": 1,
+      "tool": "standard_library_HTTPS_GET",
+      "requested_url": "https://zenodo.org/api/records/14592209/files/data.tar.gz/content",
+      "final_url": "https://zenodo.org/api/records/14592209/files/data.tar.gz/content",
+      "status_code": 200,
+      "public_request_without_authorization_header": true,
+      "started_utc": "2026-10-14T07:20:34.452901+00:00",
+      "completed_utc": "2026-10-14T07:20:35.804183+00:00",
+      "filename": "data.tar.gz",
+      "bytes": 280012,
+      "advertised_bytes": 280012,
+      "advertised_md5": "58ee1d1cebd794d30544b095f3b58eea",
+      "actual_md5": "58ee1d1cebd794d30544b095f3b58eea",
+      "sha256": "24211eb1f69c4b891509f41e7f9046273c340c183b15d48bbdc909d462d82b1f",
+      "response_headers": {
+        "Content-Type": "application/octet-stream,application/octet-stream",
+        "Content-Length": "280012",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "original_binary_acquired": true,
+      "identity_matches_advertised_metadata": true,
+      "proxy_CA_TLS_policy_preserved": true,
+      "http_capture_file": "S01_HTTP.json",
+      "http_capture_bytes": 989,
+      "http_capture_sha256": "a7e068f650c60fb44a01c47ac008dce13f490453debc80fdc05679a7a69ae5a5"
+    },
+    {
+      "call_number": 2,
+      "tool": "standard_library_HTTPS_GET",
+      "requested_url": "https://zenodo.org/api/records/14592209/files/rmarkdowns.tar.gz/content",
+      "final_url": "https://zenodo.org/api/records/14592209/files/rmarkdowns.tar.gz/content",
+      "status_code": 200,
+      "public_request_without_authorization_header": true,
+      "started_utc": "2026-10-14T07:20:35.804470+00:00",
+      "completed_utc": "2026-10-14T07:20:47.495191+00:00",
+      "filename": "rmarkdowns.tar.gz",
+      "bytes": 8757587,
+      "advertised_bytes": 8757587,
+      "advertised_md5": "ab37110f41f34b9e7ffc0bf965903d8b",
+      "actual_md5": "ab37110f41f34b9e7ffc0bf965903d8b",
+      "sha256": "c280ab4583e53b2ee7d1c53aa48b0febae40e75797d7c06fe4f8a73ccd5c35a3",
+      "response_headers": {
+        "Content-Type": "application/octet-stream,application/octet-stream",
+        "Content-Length": "8757587",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "original_binary_acquired": true,
+      "identity_matches_advertised_metadata": true,
+      "proxy_CA_TLS_policy_preserved": true,
+      "http_capture_file": "S02_HTTP.json",
+      "http_capture_bytes": 1010,
+      "http_capture_sha256": "8ec2955ad3031ba64db01fefb7df346ed8249fa65c62854356e41127b2e798d3"
+    }
+  ],
+  "source_terms_basis": "Article-linked fixed version DOI10.5281/zenodo.14592209; reused R33 public metadata declares CC BY 4.0.",
+  "source_analysis_code_executed": false,
+  "author_private_state_requests": 0,
+  "wire_or_provider_internal_bytes": "unknown",
+  "counted_saved_source_bytes": 9039598,
+  "serialized_HTTP_capture_bytes": 1999,
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "source_ledgers": [
+    "../calibration_source_replay/SOURCE_PROVENANCE.json"
+  ],
+  "shared_acquisitions_counted_once": true,
+  "reused_artifacts_counted_as_new": false,
+  "expanded_copies_counted_as_fresh": false,
+  "raw_source_bodies_published": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_public_Zenodo_original_file_reads": 2,
+  "scientific_acquisition_calls": 2
+}

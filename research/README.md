@@ -157,3 +157,7 @@ The [HiDenSeq methods assessment](barcoded_assay_methods/REPORT.md) identifies t
 ## R33: implemented calibration resources and a named dataset
 
 The [assessment](calibration_resource/REPORT.md) compares barcoded genomic-DNA standards entering after extraction with synthetic rDNA-mimics added after soil cell lysis. Published validation remains source-reported; actual data/code inventory is identified before archive acquisition. [R33 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R33.md). All 44 actual/planning fields remain NULL.
+
+## R34: authenticated source-data calibration replay
+
+The [Figure 2D replay](calibration_source_replay/REPORT.md) reproduces the deposited processed-count calculation with original Python, an independent Decimal check, exact accession/primer/mass joins and an original plot. Archive inventory and source arithmetic are verified; biological independence and native calibration remain unestablished. [R34 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R34.md). All 44 actual/planning inputs remain NULL.

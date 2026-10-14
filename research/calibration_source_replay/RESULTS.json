@@ -1,0 +1,94 @@
+{
+  "status": "PASS_PROCESSED_FIGURE2D_DESCRIPTIVE_REPLAY",
+  "figure": "2D",
+  "fallback_used": false,
+  "processed_accession_rows": 22,
+  "fit_method": "Unweighted OLS with intercept by primer; all supplied rows retained.",
+  "predictor": "log10(nominal soil amount in mg)",
+  "response": "log10(environmental reads / sum of all twelve rDNA-mimic count columns)",
+  "pseudocount": null,
+  "new_exclusions": 0,
+  "source_author_code_executed": false,
+  "independent_biological_unit_count": null,
+  "inferential_confidence_intervals": null,
+  "absolute_spike_copy_truth_verified": false,
+  "native_TMD_parameters_estimated": false,
+  "fits": {
+    "ITS1": {
+      "n_accession_rows": 8,
+      "soil_levels_mg": [
+        37,
+        75,
+        150,
+        300
+      ],
+      "rows_per_soil_level": {
+        "37": 2,
+        "75": 2,
+        "150": 2,
+        "300": 2
+      },
+      "slope": 0.875856190165648,
+      "intercept": -0.7693689628559566,
+      "r_squared": 0.9905208589203915,
+      "residual_sum_of_squares": 0.006730258165590394,
+      "total_sum_of_squares": 0.7100071735474549,
+      "archived_author_display": {
+        "slope": 0.8758562,
+        "r_squared": 0.9905209
+      },
+      "author_display_agreement_absolute_tolerance": 5e-08,
+      "two_decimal_label": "0.88 (0.99)"
+    },
+    "ITS2": {
+      "n_accession_rows": 8,
+      "soil_levels_mg": [
+        37,
+        75,
+        150,
+        300
+      ],
+      "rows_per_soil_level": {
+        "37": 2,
+        "75": 2,
+        "150": 2,
+        "300": 2
+      },
+      "slope": 0.8675090472862772,
+      "intercept": -0.7289420263599349,
+      "r_squared": 0.9741363661083452,
+      "residual_sum_of_squares": 0.018318021641805963,
+      "total_sum_of_squares": 0.7082539800301022,
+      "archived_author_display": {
+        "slope": 0.867509,
+        "r_squared": 0.9741364
+      },
+      "author_display_agreement_absolute_tolerance": 5e-08,
+      "two_decimal_label": "0.87 (0.97)"
+    },
+    "V4": {
+      "n_accession_rows": 6,
+      "soil_levels_mg": [
+        37,
+        75,
+        150
+      ],
+      "rows_per_soil_level": {
+        "37": 2,
+        "75": 2,
+        "150": 2
+      },
+      "slope": 0.900361657125454,
+      "intercept": 1.228333972035743,
+      "r_squared": 0.953494014014277,
+      "residual_sum_of_squares": 0.014611254856866833,
+      "total_sum_of_squares": 0.3141800898781585,
+      "archived_author_display": {
+        "slope": 0.9003617,
+        "r_squared": 0.953494
+      },
+      "author_display_agreement_absolute_tolerance": 5e-08,
+      "two_decimal_label": "0.90 (0.95)"
+    }
+  }
+}

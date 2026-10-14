@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "decision": "PROCESSED_SOURCE_CALIBRATION_SUMMARY_REPRODUCED_NO_NATIVE_ADMISSION",
+  "source_processed_count_reanalysis_performed": true,
+  "figure": "2D",
+  "fallback_used": false,
+  "author_summary_agreement": "All six slope/R-squared values agree with archived seven-decimal output within 5e-8.",
+  "author_code_executed": false,
+  "raw_sequence_reprocessing_performed": false,
+  "absolute_input_copy_truth_verified": false,
+  "study_fields_resolved": 0,
+  "planning_fields_resolved": 0,
+  "matched_panels_admitted": 0,
+  "native_calibration_records_admitted": 0,
+  "independent_mutation_events_admitted": 0,
+  "new_mathematical_theorem": false,
+  "native_TMD_fit_performed": false,
+  "methods_archive_changed": false,
+  "frozen_core_changed": false,
+  "stock_selected": false,
+  "laboratory_work_or_outreach_commissioned": false,
+  "next_useful_record": "Actual row-level spike input and extraction/library replicate provenance, excluded-sample IDs/counts and attempted-sample denominator, if needed for stronger calibration uncertainty or recovery claims. This descriptive replay does not supply them."
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "round": "R34",
+  "source_paper_doi": "10.1093/ismeco/ycaf028",
+  "source_version_doi": "10.5281/zenodo.14592209",
+  "source_metadata_and_rights_basis": "R33 acquired public version metadata; CC BY 4.0. Original archive bytes newly acquired R34, no new license or patent-use permission inferred.",
+  "own_scientific_acquisition_calls": 0,
+  "root_scientific_acquisition_calls": 2,
+  "new_original_artifact_bytes": 9037599,
+  "root_HTTP_receipt_bytes": 1999,
+  "round_saved_source_bytes": 9039598,
+  "original_archives": [
+    {
+      "filename": "data.tar.gz",
+      "bytes": 280012,
+      "advertised_md5": "58ee1d1cebd794d30544b095f3b58eea",
+      "sha256": "24211eb1f69c4b891509f41e7f9046273c340c183b15d48bbdc909d462d82b1f",
+      "requested_url": "https://zenodo.org/api/records/14592209/files/data.tar.gz/content"
+    },
+    {
+      "filename": "rmarkdowns.tar.gz",
+      "bytes": 8757587,
+      "advertised_md5": "ab37110f41f34b9e7ffc0bf965903d8b",
+      "sha256": "c280ab4583e53b2ee7d1c53aa48b0febae40e75797d7c06fe4f8a73ccd5c35a3",
+      "requested_url": "https://zenodo.org/api/records/14592209/files/rmarkdowns.tar.gz/content"
+    }
+  ],
+  "selected_members": [
+    {
+      "archive": "data.tar.gz",
+      "path": "data/figure2D.tsv",
+      "bytes": 1709,
+      "sha256": "a1213f9a69d9c19260f05e7ed472994fb41e2cc689a046da1723c4fbc4d1deb1"
+    },
+    {
+      "archive": "data.tar.gz",
+      "path": "data/figure2D.xlsx",
+      "bytes": 13203,
+      "sha256": "ae699a33d1d688d4639c18ba12ab551d3646e7013824db2303d8cfc9ba3144c6"
+    },
+    {
+      "archive": "rmarkdowns.tar.gz",
+      "path": "rmarkdowns/figure2D.Rmd",
+      "bytes": 4879,
+      "sha256": "d00ba020080548432cb5416abe3bb9c3f34a1ebfa9b9058a151ef5ac61011a00"
+    },
+    {
+      "archive": "rmarkdowns.tar.gz",
+      "path": "rmarkdowns/figure2D.html",
+      "bytes": 743267,
+      "sha256": "e8fdf2425be0dea68939265cf0e87d02fdcc1d424ea8428868d8b52ce48b91cc"
+    }
+  ],
+  "recipe_text_anchors": [
+    "read.delim(paste0(sd_dir, \"figure2D.tsv\"))",
+    "names_to = \"match_id\"",
+    "grepl(\"00\", match_id)",
+    "value = sum(value)",
+    "value = log(value[match_id == \"environmental\"] / value[match_id == \"controls\"], 10)",
+    "summary(lm(tmp$value ~ log(tmp$level_id, 10)))",
+    "xlab(\"soil input (mg), log-scale\")"
+  ],
+  "acquisition_limits": {
+    "source_author_code_executed": false,
+    "raw_reads_downloaded_or_reprocessed": false,
+    "unselected_archive_contents_scientifically_assessed": false,
+    "raw_source_tables_code_or_HTML_published": false
+  },
+  "reused_primary_context": {
+    "package": "research/calibration_resource",
+    "source_paper_doi": "10.1093/ismeco/ycaf028",
+    "correction_doi": "10.1093/ismeco/ycaf112",
+    "correction_scope": "Original publication date only; no science correction stated.",
+    "actual_soil_standard_entry": "After cell lysis by bead-beating.",
+    "nominal_spike_dose": "Main article reports approximately 4e6 total rDNA-mimic copies for varying-soil experiment. No exact per-accession dose record or calibration uncertainty in selected table.",
+    "source_context_copy_truth": "Qubit/Quant-iT DNA mass concentration and Sanger construct identity checks, not direct counted viable cells."
+  },
+  "inherited_dependencies": [
+    {
+      "path": "research/calibration_resource/ASSESSMENT.json",
+      "bytes": 18234,
+      "sha256": "435632172f69a43dda93effa9451caabfcc9df9921969d0db9b47248991e958d"
+    },
+    {
+      "path": "research/calibration_resource/REPORT.md",
+      "bytes": 9344,
+      "sha256": "fb926f84fdbc7779585d9a829bcbef101ca0e72843c255a97602d959446716da"
+    },
+    {
+      "path": "research/calibration_resource/SOURCE_PROVENANCE.json",
+      "bytes": 10880,
+      "sha256": "3b9bc350b7d5faffb365130b450d99bc5bf08e7cfbf4de957b2020c299248986"
+    },
+    {
+      "path": "research/prospective_design/REGISTRY_CANDIDATE.json",
+      "bytes": 5365,
+      "sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+    },
+    {
+      "path": "research/native_origin_controls/PROSPECTIVE_CONTROL_FIELDS.json",
+      "bytes": 1007,
+      "sha256": "e6d59032b0cbdc1fbcc9c10ae0d33e0946ff83b2ff1e47d168ceba0580038574"
+    }
+  ],
+  "complete_archive_inventory": [
+    {
+      "archive": "data.tar.gz",
+      "members": 99,
+      "regular_files": 98,
+      "directories": 1,
+      "expanded_regular_bytes": 998808,
+      "scientifically_selected_members": [
+        "data/figure2D.tsv",
+        "data/figure2D.xlsx"
+      ]
+    },
+    {
+      "archive": "rmarkdowns.tar.gz",
+      "members": 74,
+      "regular_files": 73,
+      "directories": 1,
+      "expanded_regular_bytes": 19994936,
+      "scientifically_selected_members": [
+        "rmarkdowns/figure2D.Rmd",
+        "rmarkdowns/figure2D.html"
+      ]
+    }
+  ],
+  "complete_inventory_scope": "Root and separate reviewer inspected all 173 headers and hashed all 171 regular members; no links, unsafe names, devices or sparse payloads found. This package independently rechecks immutable archive identities and safe member headers during replay. Complete source bodies and full external inspection records are not copied into Git."
+}

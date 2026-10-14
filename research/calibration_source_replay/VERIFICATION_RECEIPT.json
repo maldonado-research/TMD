@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "public_only": {
+    "status": "PASS",
+    "source_replay": "UNRUN: original archive cache not supplied; recorded results checked for integrity and internal consistency only",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "native_records_admitted": 0,
+    "source_author_code_executed": false,
+    "external_qualified_review": false
+  },
+  "with_original_archive_cache": {
+    "status": "PASS",
+    "source_replay": "PASS: original archive identities, selected recipe/output anchors, all 22 processed rows and six author-display agreements; no raw sequencing or experimental-truth validation",
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "native_records_admitted": 0,
+    "source_author_code_executed": false,
+    "external_qualified_review": false
+  },
+  "scope": "Package/source-byte integrity and processed-data descriptive reproduction only; author environment, upstream sequencing, exact introduced-copy truth, independent biological units and native transport unverified."
+}

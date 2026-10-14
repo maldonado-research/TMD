@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "public_files": [
+    "REPORT.md",
+    "RESULTS.json",
+    "JOIN_AUDIT.json",
+    "SOURCE_PROVENANCE.json",
+    "DECISION.json",
+    "replay_figure2d.py",
+    "verify_replay.py",
+    "figure2d_replay.png",
+    "VERIFICATION_RECEIPT.json",
+    "INDEPENDENT_REVIEW.json",
+    "LICENSE",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ]
+}

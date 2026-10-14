@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "target_predeclared": "Figure 2D; fallback Figure 2B unused because selected inputs and archived recipe are available.",
+  "processed_table": "data.tar.gz:data/figure2D.tsv",
+  "archived_recipe": "rmarkdowns.tar.gz:rmarkdowns/figure2D.Rmd",
+  "archived_author_output": "rmarkdowns.tar.gz:rmarkdowns/figure2D.html",
+  "source_table_columns": [
+    "srr_accession",
+    "primer_id",
+    "level_id",
+    "Cn4001",
+    "Cn5001",
+    "Cn5002",
+    "Cn6001",
+    "Sc4001",
+    "Sc5003",
+    "Sc5004",
+    "Sc5005",
+    "Sc5006",
+    "Sc6001",
+    "Sc5001",
+    "Sc5002",
+    "environmental"
+  ],
+  "standard_count_columns": [
+    "Cn4001",
+    "Cn5001",
+    "Cn5002",
+    "Cn6001",
+    "Sc4001",
+    "Sc5003",
+    "Sc5004",
+    "Sc5005",
+    "Sc5006",
+    "Sc6001",
+    "Sc5001",
+    "Sc5002"
+  ],
+  "classification": "The archived recipe classifies count-column names containing 00 as controls. All twelve explicit standard columns match that rule; environmental does not.",
+  "row_join_key": "srr_accession, primer_id, level_id; accessions are unique within the 22-row selected table.",
+  "accession_to_primer_and_nominal_soil": [
+    {
+      "accession": "SRR30280192",
+      "primer": "ITS1",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280203",
+      "primer": "ITS1",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280312",
+      "primer": "ITS1",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280323",
+      "primer": "ITS1",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280360",
+      "primer": "ITS1",
+      "nominal_soil_mg": 150
+    },
+    {
+      "accession": "SRR30280361",
+      "primer": "ITS1",
+      "nominal_soil_mg": 150
+    },
+    {
+      "accession": "SRR30280214",
+      "primer": "ITS1",
+      "nominal_soil_mg": 300
+    },
+    {
+      "accession": "SRR30280225",
+      "primer": "ITS1",
+      "nominal_soil_mg": 300
+    },
+    {
+      "accession": "SRR30280326",
+      "primer": "ITS2",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280337",
+      "primer": "ITS2",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280272",
+      "primer": "ITS2",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280283",
+      "primer": "ITS2",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280258",
+      "primer": "ITS2",
+      "nominal_soil_mg": 150
+    },
+    {
+      "accession": "SRR30280301",
+      "primer": "ITS2",
+      "nominal_soil_mg": 150
+    },
+    {
+      "accession": "SRR30280348",
+      "primer": "ITS2",
+      "nominal_soil_mg": 300
+    },
+    {
+      "accession": "SRR30280359",
+      "primer": "ITS2",
+      "nominal_soil_mg": 300
+    },
+    {
+      "accession": "SRR30280223",
+      "primer": "V4",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280224",
+      "primer": "V4",
+      "nominal_soil_mg": 37
+    },
+    {
+      "accession": "SRR30280221",
+      "primer": "V4",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280222",
+      "primer": "V4",
+      "nominal_soil_mg": 75
+    },
+    {
+      "accession": "SRR30280236",
+      "primer": "V4",
+      "nominal_soil_mg": 150
+    },
+    {
+      "accession": "SRR30280247",
+      "primer": "V4",
+      "nominal_soil_mg": 150
+    }
+  ],
+  "spike_dose": {
+    "quantity": "approximately 4e6 total rDNA-mimic copies per varying-soil sample",
+    "basis": "Main primary article, retained and assessed in R33; not a dose column in Figure 2D table.",
+    "exact_per_accession_copy_input_known": false,
+    "input_mass_dilution_and_copy_uncertainty_available": false
+  },
+  "replicate_join": {
+    "rows_per_included_primer_mass": 2,
+    "explicit_extraction_replicate_ID": null,
+    "explicit_library_replicate_ID": null,
+    "shared_extraction_or_pool_membership": null,
+    "independent_biological_unit_count": null,
+    "description": "Pairs of public accession rows only. Neither independence nor technical-versus-biological replication is authenticated by the selected table/Rmarkdown. No degrees-of-freedom, standard-error, CI or significance claim is made."
+  },
+  "units": {
+    "predictor": "Nominal mg of soil, source level_id and Rmarkdown x-axis label.",
+    "response": "Dimensionless base-10 log environmental/control read ratio; no pseudocount.",
+    "standard": "Naked DNA/rRNA gene-operon constructs after cell lysis, not viable-cell or mutation-event standards.",
+    "not_inferred": [
+      "living-cell count",
+      "cell-lysis recovery fraction",
+      "independent mutation births",
+      "native Wsp/Aws/Mws calibration"
+    ]
+  },
+  "filters": {
+    "row_processing_in_this_replay": "All 22 supplied rows retained without new exclusions, averaging, reweighting or pseudocount.",
+    "author_processed_table": "V4 includes 37, 75 and 150 mg; no 300-mg V4 rows. ITS1/ITS2 each include all four amounts.",
+    "primary_article_explanation": "The article reports excluding the 300-mg soil condition for bacterial SSU-V4 because fewer than 10 standard reads were observed.",
+    "Rmarkdown_scope": "The selected Rmarkdown loads the already-processed table and computes ratios/fits; it does not implement or authenticate the upstream exclusion.",
+    "excluded_accessions_or_counts_recovered": false,
+    "all_attempted_samples_or_detection_denominator_known": false,
+    "structural_zeros": "Ten V4-incompatible standard columns are zero in all V4 rows; retained in the sum, no pseudocount or taxon-removal step."
+  },
+  "original_sequence_processing_reproduced": false,
+  "XLSX_crosscheck": "Separate reviewer confirms TSV and XLSX cell-for-cell equality; numerical reproduction reads TSV only."
+}

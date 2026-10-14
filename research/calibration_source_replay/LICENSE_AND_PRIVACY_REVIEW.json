@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "original_assessment_derived_summaries_and_plot": "CC BY 4.0",
+  "original_Python_code": "MIT",
+  "third_party_source_terms": "Fixed Zenodo metadata acquired R33 declares CC BY 4.0; original author data/code remain external. Patent disclosure retained without interpreting laboratory-use rights.",
+  "raw_source_tables_Rmarkdown_HTML_or_archive_bytes_published": false,
+  "private_author_workstation_paths_published": false,
+  "provider_private_paths_credentials_contacts_published": false,
+  "public_accession_metadata_and_transformed_summary": "Selected public accession/primer/mass joins and original derived numerical summaries only; no raw read-count table duplicated.",
+  "new_native_actual_inputs_published": false
+}
