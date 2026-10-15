@@ -463,13 +463,28 @@
     {
       "id": "R000037",
       "priority": 37,
-      "status": "pending",
+      "status": "completed",
       "question": "Obtain an actual run-linked preparation/dose and QC/exclusion ledger for SRR30280226/SRR30280227 and the retained calibration runs, or authentic versioned dataset/KEGG destinations and a bounded sample/genotype/replicate manifest for native preprint 10.64898/2026.01.27.702051v1, with authoritative strain/locus label reconciliation. Original PDF annotation or publisher-link access needs a changed prerequisite before retrying 429/HTMLchallenge failures. Source Table S5 protocols are not run-level execution or exclusion truth; S3 random subsampling is a distinct processing scope, not native event or ancestry evidence. Native RNA expression, gated reporter fractions and culture-mat persistence require context-specific interpretation and do not identify route mutation births or single-new-mutant establishment. Keep the historical 14 WS genotype family, biological culture replicates, wells, shared-source dilutions and repeated times distinct. No route homogeneity or transport bound follows from selected alleles. Actual MPB10583/MPB10613 pedigree/sequence or authoritative Figure 9 calculation records remain alternative priorities. Use the 44-field qualified-review worksheet before native admission, requiring origin/ancestry, inherited negatives, exposure, establishment, named-stage recovery/loss, complete separately frozen predictors/comparators and evaluation, and identified joint uncertainty. Preserve literal 37/37.5 labels and R34 replay; do not default to refitting, plot digitization, FASTQ accumulation or a new mathematical extension. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, error allocation, fixed stopping, paused runner and methods 0.6.0. No outreach or laboratory work.",
       "deliverable": "Actual row-linked source or native manifest, authoritative stock/label/calculation record or qualified admission decision; otherwise park.",
       "falsifier_or_boundary": "Protocol settings, subsampledcounts, reportercell fractions and culturemat persistence are not actual dose/ancestry/native mutation origins or complete attempteddenominators.",
       "maximum_download_bytes": 20971520,
-      "scientific_inference_status": "named_actual_records_and_native_context_transport_pending",
-      "report": "../native_cell_state_assessment/REPORT.md"
+      "scientific_inference_status": "metadata_provenance_only_no_native_admission",
+      "report": "../CONTINUATION_HANDOFF_2026-10-15_R37.md",
+      "result_status": "no_change",
+      "completion_scope": "native_article_provenance_and_parked_manifest_access_no_change",
+      "result": "Official article metadata and institutional bibliographic link authenticated; native data manifest not recovered, no admission change. Source-access chain parked.",
+      "remaining_prerequisites": "Keep the R37 native preprint source-access chain parked until a newly authenticated official artifact, verified changed access, a supplied lawful original file or qualified claim-specific assessment changes the admission decision. The next useful artifact is an authentic dataset/KEGG destination and bounded versioned sample/genotype/replicate manifest with applicable terms. Actual MPB10583/MPB10613 stock/pedigree/sequence truth, authoritative Figure 9 calculation records, or actual run-linked preparation/dose and QC/exclusion records for SRR30280226/SRR30280227 and retained calibration runs remain alternative gates. Do not repeat unchanged 429/403 responses, billing failures, inaccessible URLs or empty source queries. Metadata and institutional record identifiers are not data manifests; expression, gated reporter fractions and culture-mat persistence do not identify mutation births or single-new-mutant establishment. Preserve all 26 study and 18 planning NULLs, historical genotype and sampling-unit distinctions, unresolved label conflicts, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators and evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. Use the existing 44-field qualified-review worksheet before biological admission. No unsupported mathematical extension, outreach or laboratory work."
+    },
+    {
+      "id": "R000038",
+      "priority": 38,
+      "status": "parked",
+      "question": "Keep the R37 native preprint source-access chain parked until a newly authenticated official artifact, verified changed access, a supplied lawful original file or qualified claim-specific assessment changes the admission decision. The next useful artifact is an authentic dataset/KEGG destination and bounded versioned sample/genotype/replicate manifest with applicable terms. Actual MPB10583/MPB10613 stock/pedigree/sequence truth, authoritative Figure 9 calculation records, or actual run-linked preparation/dose and QC/exclusion records for SRR30280226/SRR30280227 and retained calibration runs remain alternative gates. Do not repeat unchanged 429/403 responses, billing failures, inaccessible URLs or empty source queries. Metadata and institutional record identifiers are not data manifests; expression, gated reporter fractions and culture-mat persistence do not identify mutation births or single-new-mutant establishment. Preserve all 26 study and 18 planning NULLs, historical genotype and sampling-unit distinctions, unresolved label conflicts, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators and evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. Use the existing 44-field qualified-review worksheet before biological admission. No unsupported mathematical extension, outreach or laboratory work.",
+      "deliverable": "A new admission-relevant actual record or qualified assessment; resume only when a named prerequisite changes.",
+      "falsifier_or_boundary": "Access failure or metadata-only provenance is not data absence, a native-origin observation or a biological falsification.",
+      "maximum_download_bytes": 20971520,
+      "scientific_inference_status": "parked_until_named_input_or_access_changes",
+      "report": "../CONTINUATION_HANDOFF_2026-10-15_R37.md"
     }
   ]
 }
