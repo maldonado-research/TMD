@@ -1,0 +1,39 @@
+{
+  "id": "R000038",
+  "status": "completed_internal_review",
+  "date": "2026-10-15",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-15_R38.md",
+  "completion_scope": "source_specific_CNV_observer_validation_and_native_origin_admission_requirements",
+  "question": "Can a distinct independently validated single-cell mutation/event measurement resource improve event-to-allele, ancestry and loss controls beyond already inspected R28 repair-focus evidence?",
+  "scope_change": "A distinct primary-source measurement resource assessed under renewed user authorization; parked R37 access chain not retried.",
+  "details": {
+    "scientific_acquisition_attempts": 12,
+    "counted_saved_source_bytes": 353703,
+    "source_primary_browser_views": 3,
+    "source_original_XML_acquired": false,
+    "official_OSF_root_records": 6,
+    "official_Flow_folder_records": 4,
+    "source_file_contents_or_terms_authenticated": false
+  },
+  "native_biological_fit": false,
+  "new_mathematical_theorem": false,
+  "source_numerical_replay": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000038",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Prioritize a bounded, versioned and lawfully reusable clone-level fluorescence/genotype/selection crosswalk from the Lauer et al. (2018) source, with independently DNA-genotyped positive and negative units, their sampling and culture history, and missingness. Official metadata identifies S4_Table.xlsx (30532 bytes, API current_version 1) and Generate S1 Text.Rmd (20506 bytes, API current_version 1); file contents and applicable deposit terms remain unverified. Acquire a named artifact only if it can resolve an actual classification or ancestry gate, and authenticate its version and terms before reuse. Do not repeat unchanged Rmd access or publisher XML/proxy failures. The population 7.1% threshold, regrown-clone fluorescence correction, selected late-clone sequencing, barcode identity and pairwise fitness are distinct observations; none supplies an all-birth census or independently observed single-new-mutant establishment. Keep R37 native-preprint access parked pending changed prerequisites. Actual native stock/pedigree/sequence records, run-linked preparation/dose and QC/exclusion ledgers, authoritative Figure 9 calculations or qualified claim-specific assessment remain alternative priorities. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
+}

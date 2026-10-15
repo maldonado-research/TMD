@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "DECISION.json",
+      "bytes": 1218,
+      "sha256": "b679250569b6837dca6f94b1379074d91f8fdb0b10f30fb17859aeb1e6443995"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 6386,
+      "sha256": "639774d68cba44cf3f1535b5b0e62248176bd998446b294f483b3d133e285398"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 380,
+      "sha256": "2f4c091231179d6bb549258196a00c12a05c5e7cdb751612e794235ef1dbbfa0"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 1010,
+      "sha256": "976b7adf01647637709266c5ff7c3e92f2ec81e8320457f8912853d2057ee2ac"
+    },
+    {
+      "path": "MEASUREMENT_ADMISSION_MATRIX.json",
+      "bytes": 8654,
+      "sha256": "c56b3cfc79d6e5b924f2d5febf3576c6cc3c3918d0f75ebd8134fc8a30959d65"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 10522,
+      "sha256": "de4296007eb9e2ee8b6b76eae1f78a79dbd2d3927e85aea59b45279c111f1183"
+    },
+    {
+      "path": "ROOT_SOURCE_INVENTORY.json",
+      "bytes": 5907,
+      "sha256": "31349850887ec4b0dd92e489ade89ae46ef885a7732bd00da89be002ae0f6114"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 17727,
+      "sha256": "f6800e198574f91da5edf9ce6aa11fafe09b662798d7db6eb5b2ff07440c8828"
+    }
+  ],
+  "closure": "These eight payloads plus PUBLIC_FILES.json and SHA256SUMS.txt form the complete ten-file package. SHA256SUMS covers the payloads and this manifest, excluding itself."
+}

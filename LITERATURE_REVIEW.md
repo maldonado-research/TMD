@@ -241,3 +241,7 @@ New [BioProject PRJNA1100950](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA11009
 ## R36 new inspection depth — 14 October 2026
 
 The previously uninspected [Tourlousse supplement](https://pmc.ncbi.nlm.nih.gov/articles/instance/11912825/bin/tourlousse_supplement_ycaf028.pdf) is assessed as an 18-page provider text representation, with source-table consistency checks and explicit unavailable original-PDF limits. A targeted 2026 native-route query returns the already-known metadata lead [Rodriguez-Sanchez et al., version 1](https://doi.org/10.64898/2026.01.27.702051); its 41-page text representation is newly acquired and claim-specific methods/captions/tables inspected. This is new source depth, not a new independent genotype cohort or exhaustive web review. [Native assessment](research/native_cell_state_assessment/REPORT.md) preserves stock/locus conflicts and unrecovered stated dataset links without inferring author error or data absence.
+
+## R38 distinct older primary-source method — 15 October 2026
+
+[Lauer et al. (2018)](https://doi.org/10.1371/journal.pbio.3000069) is new to the inspected project ledgers, not newly published or a replication of R28 MutL. Selected Results/Discussion/Methods representations support a [measurement-admission assessment](research/cnv_observer_assessment/REPORT.md). Population detection, later selected-clone sequencing, FACS purity checks, barcode ancestry and pairwise fitness retain their own units and limitations. Recent-source searches were bounded; no exhaustive review or newly validated TMD result is claimed.

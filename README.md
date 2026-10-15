@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R36, 14 October 2026
+## Latest research checkpoint — R38, 15 October 2026
+
+The [CNV observer assessment](research/cnv_observer_assessment/REPORT.md) distinguishes population detection, selected-clone DNA validation, regrown-clone fluorescence correction and fitness from native mutation birth or establishment. The [12-gate matrix](research/cnv_observer_assessment/MEASUREMENT_ADMISSION_MATRIX.json) specifies the missing independent genotype/ancestry/negative-control records. Official OSF metadata identifies bounded next artifacts without authenticating their contents or reuse terms. [R38 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R38.md).
+
+This is a new source-specific assessment of an older published yeast study. All 26 study and 18 planning inputs remain NULL; no native biological fit, new theorem or source numerical replay. R37 unchanged access failures remain parked and methods 0.6.0 remains frozen.
+
+## Prior R36 checkpoint — 14 October 2026
 
 The [supplement audit](research/calibration_supplement_records/REPORT.md) verifies the distinction between 60,000-read Figure S3 tables and the earlier Figure 2D counts, with selected processing settings and preserved missing dose/ancestry/exclusion records. A [native cell-state assessment](research/native_cell_state_assessment/REPORT.md) reads a previously metadata-only SBW25 preprint: genotype, gated reporter state and founding-density/mat-persistence context are distinct from mutation birth or single-new-mutant establishment. [R36 checkpoint](research/CONTINUATION_HANDOFF_2026-10-14_R36.md).
 

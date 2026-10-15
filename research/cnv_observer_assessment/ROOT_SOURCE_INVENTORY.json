@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "round": "R000038",
+  "project": "fxhze",
+  "source_article_doi": "10.1371/journal.pbio.3000069",
+  "project_url": "https://osf.io/fxhze/",
+  "project_metadata": {
+    "URL": "https://api.osf.io/v2/nodes/fxhze/",
+    "title": "Lauer et al., 2018",
+    "public": true,
+    "node_license": null,
+    "license_relationship_present": false,
+    "interpretation": "The inspected node metadata supplies no license; terms elsewhere remain unverified. Article licensing does not automatically license the separate deposit.",
+    "capture_identity": {
+      "bytes": 4250,
+      "sha256": "c3f51c8d871e52fdf272c7fa43db4d99cd2e2fb990977bb425bbab35bdd7cd08"
+    }
+  },
+  "inspected_levels": [
+    {
+      "level": "root",
+      "capture_identity": {
+        "bytes": 11543,
+        "sha256": "a9f831e13120102e2e5bc7451110c85e7b315a6525c1c350d6190dd05deb103e"
+      },
+      "returned_records": 6,
+      "API_reported_total": 6,
+      "next_page": null,
+      "records": [
+        {
+          "id": "5be058245736490019858621",
+          "name": "Sequencing_data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be0583c954c620017ea5782",
+          "name": "Flow_cytometry",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be05d6b57364900178896c5",
+          "name": "Fitness_assays",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be0ab80573649001a86cd69",
+          "name": "GenerateSFigs.R",
+          "kind": "file",
+          "API_reported_size_bytes": 22607,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "169a844b68040e090cf111e41f16bee5589b0d751022f9bb7eb3a4c38af09efa",
+          "literal_download_link": "https://osf.io/download/94hkq/",
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be48d3c9ed85c001a255e91",
+          "name": "S4_Table.xlsx",
+          "kind": "file",
+          "API_reported_size_bytes": 30532,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "6b8854f2b9b24942caa1498638efac5b02937de80310314b4582cb605100198d",
+          "literal_download_link": "https://osf.io/download/yt58k/",
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be48d3c973841001b20d034",
+          "name": "S2_Table.xlsx",
+          "kind": "file",
+          "API_reported_size_bytes": 13328,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "8297012c3ba45a2d9a06601389b9551b199f2f94af8b4f305c4fe2a0cb61f5de",
+          "literal_download_link": "https://osf.io/download/xnkma/",
+          "file_content_acquired": false
+        }
+      ]
+    },
+    {
+      "level": "Flow_cytometry",
+      "capture_identity": {
+        "bytes": 7397,
+        "sha256": "932e126ef51f8e7df962deab4d8da9195aadea27c2f25f643d3a27c0d1c2ec12"
+      },
+      "returned_records": 4,
+      "API_reported_total": 4,
+      "next_page": null,
+      "records": [
+        {
+          "id": "5be065675736490018863b84",
+          "name": "Figure_1_data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be06584954c620017ea6d29",
+          "name": "Figure_2_data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be0a09e573649001985de49",
+          "name": "Generate S1 Text.Rmd",
+          "kind": "file",
+          "API_reported_size_bytes": 20506,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "32540035d795e00afc83933ccc759da083e347fcc9776fdb6f040946cf2d1e3c",
+          "literal_download_link": "https://osf.io/download/scfrt/",
+          "file_content_acquired": false
+        },
+        {
+          "id": "5be0a7c85736490017892101",
+          "name": "Barcode_data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "file_content_acquired": false
+        }
+      ]
+    }
+  ],
+  "scope": "Two bounded official folder listings; not a complete recursive file, sample, lineage or event manifest. File sizes, versions and hashes are API-reported metadata, not independently authenticated file bytes.",
+  "attempted_Rmd_read": {
+    "explicit_link": "https://osf.io/download/scfrt/",
+    "outcome": "Tool reported inaccessible URL; no authenticated HTTP status or Rmd body.",
+    "author_code_executed": false
+  },
+  "original_publisher_XML": "Producer local socket failure followed by root proxy CONNECT403; no original XML acquired and no further retry.",
+  "capture_actor_roles": "Root acquired folder metadata; reviewer acquired project metadata and failed Rmd read; root cross-reviewed reviewer captures. Independent review of parent-produced inventory facts uses the captured official records.",
+  "raw_source_bodies_published": false
+}

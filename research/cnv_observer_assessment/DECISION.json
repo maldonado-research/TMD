@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "round": "R000038",
+  "decision": "distinct_primary_source_measurement_admission_boundary_only",
+  "new_native_panel": false,
+  "new_native_fit": false,
+  "source_reanalysis": false,
+  "independent_source_replication_claimed": false,
+  "26_study_nulls_changed": false,
+  "18_planning_nulls_changed": false,
+  "protected_methods_changed": false,
+  "source_role": "Implemented reporter construction/control, population detection threshold, selected-clone molecular validation and pairwise-fitness source; not independently measured mutation supply plus establishment.",
+  "publication_recommendation": "Suitable as reviewed source-derived measurement-admission report if root accepts; no claim of solved origin/establishment bottleneck, biological support for TMD, or novel mathematical result.",
+  "frozen": [
+    "R5",
+    "R11",
+    "R17",
+    "theta/eta",
+    "full comparators",
+    "separate frozen evaluation",
+    "error allocation",
+    "fixed stopping",
+    "paused runner",
+    "methods0.6.0"
+  ],
+  "license_and_privacy": "No source fulltext, figures, raw captures, author contact or workspace-private paths proposed for publication; derived source facts only with attribution."
+}

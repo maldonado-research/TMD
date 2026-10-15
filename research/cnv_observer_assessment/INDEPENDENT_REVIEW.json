@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "round": "R000038",
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-15T16:37:22.073635+00:00",
+  "review_type": "Independent internal scientific source and payload review with explicit role separation; AI-assisted, not qualified external biological review.",
+  "reviewed_payloads": [
+    {
+      "path": "research/cnv_observer_assessment/DECISION.json",
+      "bytes": 1218,
+      "sha256": "b679250569b6837dca6f94b1379074d91f8fdb0b10f30fb17859aeb1e6443995"
+    },
+    {
+      "path": "research/cnv_observer_assessment/LICENSE",
+      "bytes": 380,
+      "sha256": "2f4c091231179d6bb549258196a00c12a05c5e7cdb751612e794235ef1dbbfa0"
+    },
+    {
+      "path": "research/cnv_observer_assessment/LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 1010,
+      "sha256": "976b7adf01647637709266c5ff7c3e92f2ec81e8320457f8912853d2057ee2ac"
+    },
+    {
+      "path": "research/cnv_observer_assessment/MEASUREMENT_ADMISSION_MATRIX.json",
+      "bytes": 8654,
+      "sha256": "c56b3cfc79d6e5b924f2d5febf3576c6cc3c3918d0f75ebd8134fc8a30959d65"
+    },
+    {
+      "path": "research/cnv_observer_assessment/REPORT.md",
+      "bytes": 10522,
+      "sha256": "de4296007eb9e2ee8b6b76eae1f78a79dbd2d3927e85aea59b45279c111f1183"
+    },
+    {
+      "path": "research/cnv_observer_assessment/ROOT_SOURCE_INVENTORY.json",
+      "bytes": 5907,
+      "sha256": "31349850887ec4b0dd92e489ade89ae46ef885a7732bd00da89be002ae0f6114"
+    },
+    {
+      "path": "research/cnv_observer_assessment/SOURCE_PROVENANCE.json",
+      "bytes": 17727,
+      "sha256": "f6800e198574f91da5edf9ce6aa11fafe09b662798d7db6eb5b2ff07440c8828"
+    }
+  ],
+  "reviewed_source_doi": "10.1371/journal.pbio.3000069",
+  "source_check_scope": {
+    "producer_captures_verified": 6,
+    "producer_saved_capture_bytes": 183203,
+    "primary_browser_representations_inspected": 3,
+    "selected_full_provider_line_hashes_verified": 68,
+    "official_OSF_folder_listing_records_verified": [
+      6,
+      4
+    ],
+    "uninspected": "Article representation gap at provider labels 383\u2013395; original XML/PDF, supplementary files, FCS, sequence reads, deposited code bodies and complete recursive manifests remain unacquired. No quantitative source replay."
+  },
+  "independence": {
+    "producer_source_review": "Reviewer independently inspected producer primary captures and checked scientific claims, denominators, selected provenance anchors and exact payload bytes.",
+    "root_inventory_review": "Reviewer checked both parent-acquired official OSF folder listings against the selected factual inventory; API metadata hashes are not authenticated file-content hashes.",
+    "reviewer_acquisitions": "Reviewer produced V01 inaccessible Rmd read and V02 public OSF node metadata. Root separately checked their captures, receipts and interpretations; they are not described as independently validated by their own producer.",
+    "root_cross_review_status": "PASS; explicit null node_license and absent license relationship are limited to the inspected record, without a global absence inference.",
+    "external_qualified_review_obtained": false
+  },
+  "accepted_scientific_checks": [
+    "The new source concerns engineered yeast GAP1 copy-number reporting, distinct from the already assessed E. coli repair-focus source and from native SBW25 W/A/M routes.",
+    "The 7.1% criterion is a population apparent-CNV threshold from control mean plus one standard deviation; it is not an event-level error probability, confidence bound or mutation birth time.",
+    "Selected late-clone DNA validation is distinct from the regrown-clone fluorescence reference used for sorting-purity correction; neither supplies an event-level false-negative or inherited-origin truth denominator.",
+    "The 29 sequencing and 28 competitive-fitness denominators remain distinct without asserting disjoint cohorts; eight nonsignificant fitness differences are not a neutrality equivalence result.",
+    "Barcodes can be shared by multiple founders, complex CNVs can comprise several events, and ancestral/new interpretations remain probabilistic; label counts do not become independently measured mutation births.",
+    "Pairwise clone fitness and aggregate trajectory expansion do not supply independently observed single-new-mutant establishment or separate native supply and establishment.",
+    "Original population, barcode-culture, detailed barcode-sequencing, cell, clone and event units remain distinct; 267/270 and 265/270 timing discrepancies are preserved.",
+    "Reporter controls supply limited contextual evidence without universal reporter invariance, complete CNV-spectrum coverage or transport to SBW25.",
+    "The two OSF folder levels authenticate selected metadata only; project license metadata and file access limits do not license or authenticate unretrieved deposit contents.",
+    "The falsifiable future-admission predicates are conditional review requirements, not source-author claims, a selected protocol or a commissioned experiment."
+  ],
+  "preservation_at_source_review": {
+    "prior_checkpoint_hashes_verified": 316,
+    "study_inputs_NULL": 26,
+    "planning_inputs_NULL": 18,
+    "matched_native_panels": 0,
+    "native_biological_fits": 0,
+    "methods_version": "0.6.0",
+    "protected_contract": "R5/R11/R17, theta/eta, complete comparators, evaluation separation, error allocation, fixed stopping and paused runner preserved."
+  },
+  "resolved_review_findings": [
+    "Clarified nonsignificant fitness comparisons.",
+    "Removed possible disjoint-cohort inference from unequal clone denominators.",
+    "Added cross-capture anchors for the population and clone denominator row.",
+    "Provider line labels are identified as labels, and verbatim anchor prefixes are excluded from public provenance."
+  ],
+  "blocking_findings": [],
+  "admission_decision": "Accept original source-derived measurement assessment for publication; no native biological admission, numerical calibration, source replication, new theorem or methods version.",
+  "publication_scope": "Seven exact original-analysis/metadata payloads; exact integration, archive closure, website and publication receipts require separate review.",
+  "original_documentation_license": "CC BY 4.0 under repository terms; third-party source rights unchanged.",
+  "attribution": "Ricardo Maldonado with AI assistance"
+}

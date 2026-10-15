@@ -1,0 +1,132 @@
+{
+  "round": "R000038",
+  "scientific_acquisition_calls": 12,
+  "conservative_fetch_query_attempts": 12,
+  "actor_scientific_attempts": {
+    "event_measurement": 6,
+    "root": 4,
+    "independent_reviewer": 2
+  },
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "counted_saved_source_bytes": 353703,
+  "derived_text_duplicate_bytes": 105831,
+  "saved_files": [
+    {
+      "path": "event_measurement/sources/acquisition_01_search.json",
+      "bytes": 37218,
+      "sha256": "823e351fea247a80aa70fd7fd7bcdd62080cf5fbfe9c945c849bb80e8a9624a9",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "event_measurement/sources/acquisition_02_search.json",
+      "bytes": 38304,
+      "sha256": "16baf89512c26e7922b8ec23e97828a50ef5286fbf7f9cc6f804f18058182c00",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "event_measurement/sources/acquisition_03_primary_open.json",
+      "bytes": 35710,
+      "sha256": "8e276360630f13ef38dd7a391c49de8aeba0d340dc4e72ffad00485eb01d196c",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "event_measurement/sources/acquisition_04_receipt.json",
+      "bytes": 399,
+      "sha256": "0374e412add8a3c6a0a26c5a65fe4b3cf634286bec4b2b372bd2e2fed5ff204f",
+      "category": "failed_command_receipt"
+    },
+    {
+      "path": "event_measurement/sources/acquisition_05_primary_middle.json",
+      "bytes": 35520,
+      "sha256": "7f1b06dcfdc1773b3292063ac5b0843c7011eb89397435b0f133a8fbc0ad3054",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "event_measurement/sources/acquisition_06_primary_methods.json",
+      "bytes": 36052,
+      "sha256": "75fdc5c2047830e5d032dcd7751b6f67584cd3e7462fda6ed8c5e4eef9ab5a65",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S01.json",
+      "bytes": 38222,
+      "sha256": "8921e6f38805179046de356f17752079a6ec42b503bec4d32610fc50049be4df",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S02.body",
+      "bytes": 11543,
+      "sha256": "a9f831e13120102e2e5bc7451110c85e7b315a6525c1c350d6190dd05deb103e",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S02.receipt.json",
+      "bytes": 702,
+      "sha256": "6cada2bf4c094bef167d5b615366df81b8aeb04a97070e90e9d6ab50face73a0",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S03.receipt.json",
+      "bytes": 507,
+      "sha256": "786900fbe15a2854dd2903fc1414e04f91cf34bd1665014af6859b2e04b91497",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S04.body",
+      "bytes": 7397,
+      "sha256": "932e126ef51f8e7df962deab4d8da9195aadea27c2f25f643d3a27c0d1c2ec12",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S04.receipt.json",
+      "bytes": 799,
+      "sha256": "6989dca7717998ac12a1aa621070742b57f3aee67b510a803df5382ebbd55ca0",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/V01.json",
+      "bytes": 598,
+      "sha256": "916e56cd8fd09abd55559992e3eaf1667a7fdc300e98b3e3553d628805681242",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "review/V02.body",
+      "bytes": 4250,
+      "sha256": "c3f51c8d871e52fdf272c7fa43db4d99cd2e2fb990977bb425bbab35bdd7cd08",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "review/V02.receipt.json",
+      "bytes": 651,
+      "sha256": "7db6b0fff0b3f3e1d3e772cfbdc158f2f873f0078813d7458c97d5603a2e3851",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/acquisition_03_primary_open.json.txt",
+      "bytes": 35120,
+      "sha256": "783113054504dc3bb2af1db579a463e0f39237c8f896503f6ae51140ad73fe3e",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/acquisition_05_primary_middle.json.txt",
+      "bytes": 35086,
+      "sha256": "29728ede160d87b84abe0fea28c92b199bcc76cc5ec3b300ac737b86263982e0",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/acquisition_06_primary_methods.json.txt",
+      "bytes": 35625,
+      "sha256": "a03eae550aea08152c554dfdd97e5d4a8f0680911e3a5212b3b74c14b83ed966",
+      "category": "derived_text_duplicate"
+    }
+  ],
+  "accounting_scope": "Exact15 saved capture/receipt files total247872 bytes. Three reviewer convenience text copies add105831 explicitly counted derived bytes; whole-round conservative envelope353703 bytes. Overlapping browser captures are counted at saved sizes. Wire/provider-internal bytes unknown.",
+  "raw_source_bodies_published": false,
+  "original_publisher_XML_acquired": false,
+  "source_data_or_code_file_contents_acquired": false,
+  "author_code_executed": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "saved_capture_and_receipt_bytes": 247872
+}
