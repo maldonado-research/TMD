@@ -1,0 +1,100 @@
+{
+  "round": "R000037",
+  "scientific_acquisition_calls": 10,
+  "actor_scientific_attempts": {
+    "native_manifest": 5,
+    "root": 5,
+    "independent_reviewer": 1
+  },
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "counted_saved_source_bytes": 85293,
+  "saved_capture_bytes_excluding_separate_request_receipts": 84439,
+  "separate_request_receipt_bytes": 854,
+  "derived_text_duplicate_bytes": 0,
+  "saved_files": [
+    {
+      "path": "native/N01.body",
+      "bytes": 2485,
+      "sha256": "b27fa62d84837cc53dc3ca8199eaa9d84520d0ae5413c110c6acceff7e30cd74",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "native/N01.receipt.json",
+      "bytes": 404,
+      "sha256": "fd5cea8f5ba305911f5c7d273a667f864fef4025decb150a2bb4424a148bf17c",
+      "category": "request_receipt"
+    },
+    {
+      "path": "native/N02.body",
+      "bytes": 17,
+      "sha256": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "native/N02.receipt.json",
+      "bytes": 450,
+      "sha256": "8f3229180917a947804faedb1246f093a45a9f767dfd004ff6b891aef20805d9",
+      "category": "request_receipt"
+    },
+    {
+      "path": "native/N03.json",
+      "bytes": 1069,
+      "sha256": "732a62d15f51dea5a120eda8879c02fa70beb2e96781fdef2a93b812444866c9",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "native/N04.json",
+      "bytes": 30402,
+      "sha256": "f762c14c9e56a6a38f5d16dc8e74da8d4d3e36eeb33341dca39334a4df3abe88",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "native/N05.json",
+      "bytes": 34591,
+      "sha256": "e1d6c1929e29a540ccf152763f73b26395e222e0c4da384fb8d1a3a095b9561b",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S01.json",
+      "bytes": 13151,
+      "sha256": "34728f96fc17b4c888827dc13f78ec4caee5503b189a52817a5373cdfade0d99",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S02.json",
+      "bytes": 566,
+      "sha256": "2e42d68bc43dd66f71499309b7be518da8c9f9bb98249faa05b3e9366080840f",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S03.json",
+      "bytes": 580,
+      "sha256": "977e491b704ca322cac44feb2f7622631be6c85f3ae71fea521504a80651db67",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S04.json",
+      "bytes": 612,
+      "sha256": "c33a425d54dddee613cd92f5821755b0fe8552564bb48bff8692bad316f1dfe1",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "review/V01.json",
+      "bytes": 966,
+      "sha256": "358f45d088e69b7f7751e4a3f8fe879ce5a75b6e85d62868cb50aff0d2923300",
+      "category": "acquisition_capture"
+    }
+  ],
+  "accounting_scope": "Exact locally saved acquisition captures and separate request receipts, including failed and unexecuted attempts. Wire and provider-internal bytes are unknown. Historical cached sources are not new acquisitions. Root S04 contains two search queries in one tool call: ten tool-level calls are conservatively counted as eleven fetch/query attempts against the twelve-acquisition limit.",
+  "raw_source_bodies_published": false,
+  "author_code_executed": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "conservative_scientific_acquisition_attempts": 11,
+  "actor_tool_level_calls": {
+    "native_manifest": 5,
+    "root": 4,
+    "independent_reviewer": 1
+  }
+}

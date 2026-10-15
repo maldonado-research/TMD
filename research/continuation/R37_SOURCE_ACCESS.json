@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "round": "R000037",
+  "date": "2026-10-15",
+  "decision": "no_change",
+  "scope": "Article metadata and bounded source-access provenance; no scientific native admission.",
+  "source_family": {
+    "doi": "10.64898/2026.01.27.702051",
+    "version": "1",
+    "same_preprint_previously_assessed_in": [
+      "R000026",
+      "R000036"
+    ],
+    "new_independent_cohort": false
+  },
+  "selected_official_API_record": {
+    "doi": "10.64898/2026.01.27.702051",
+    "title": "Transcriptomic dissection of genetically diverse Wrinkly Spreader mutants reveals hidden layers of complexity",
+    "date": "2026-01-27",
+    "version": "1",
+    "type": "new results",
+    "license": "cc_by",
+    "category": "microbiology",
+    "jatsxml": "https://www.biorxiv.org/content/early/2026/01/27/2026.01.27.702051.source.xml",
+    "published": "NA",
+    "server": "bioRxiv"
+  },
+  "interpretation": {
+    "version": "One exact v1 record returned by this API response; not a complete independent publication-status review.",
+    "published": "Literal API value NA, not proof that no journal publication exists.",
+    "license": "Literal article metadata cc_by; prior inspected v1 header states CC BY 4.0. No dataset, code, or KEGG file license authenticated.",
+    "jatsxml": "Explicit official API target, attempted once and returned HTTP 429. Article XML bytes not recovered."
+  },
+  "institutional_record": {
+    "publication_listing_url": "https://www.evolbio.mpg.de/publication-search/3231717?person=%2Fpersons%2Fresource%2Fpersons56565",
+    "listing_inspected": true,
+    "listed_as": "2026 working paper",
+    "literal_PuRe_link": "https://pure.mpg.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_3696516",
+    "PuRe_record_body_authenticated": false,
+    "link_is_dataset_destination": false
+  },
+  "attempts": [
+    {
+      "id": "N01",
+      "actor": "native_manifest",
+      "artifact": "Official bioRxiv exact-DOI metadata API",
+      "outcome": "HTTP 200; one version-one article metadata record, explicit JATS target; no dataset manifest."
+    },
+    {
+      "id": "N02",
+      "actor": "native_manifest",
+      "url": "https://www.biorxiv.org/content/early/2026/01/27/2026.01.27.702051.source.xml",
+      "outcome": "HTTP 429, 17 response bytes; article XML not recovered; no retry."
+    },
+    {
+      "id": "N03",
+      "actor": "native_manifest",
+      "artifact": "Firecrawl title search",
+      "outcome": "HTTP 402 account-credit rejection before search execution; counted conservatively; no retry."
+    },
+    {
+      "id": "N04",
+      "actor": "native_manifest",
+      "artifact": "Fallback exact-title/Wrinkly/dataset search",
+      "outcome": "Search excerpts exposed an official MPI publication-list lead. Search results are not a dataset manifest."
+    },
+    {
+      "id": "N05",
+      "actor": "native_manifest",
+      "artifact": "Fallback repository/KEGG search",
+      "outcome": "No target-study destination authenticated. SBW25 predator-prey SRX14841400/GSM6042763 was rejected as a different study."
+    },
+    {
+      "id": "S01",
+      "actor": "root",
+      "artifact": "Official MPI publication listing",
+      "outcome": "Inspected matching title, authors and year, with a DOI-labelled link; followed explicit MPG.PuRe link140."
+    },
+    {
+      "id": "S02",
+      "actor": "root",
+      "artifact": "Explicit PuRe linked bibliographic page",
+      "outcome": "Tool reports HTTP 403 Forbidden; item_3696516 exposed in attempted URL, no record body acquired."
+    },
+    {
+      "id": "S03",
+      "actor": "root",
+      "url": "https://pure.mpg.de/rest/items/item_3696516",
+      "outcome": "Tool reports URL inaccessible; no authenticated HTTP status or repository JSON body."
+    },
+    {
+      "id": "S04",
+      "actor": "root",
+      "artifact": "Exact PuRe item/title search restricted to pure.mpg.de",
+      "outcome": "Empty search results for these two queries; no global absence inference."
+    },
+    {
+      "id": "V01",
+      "actor": "independent_reviewer",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.01.27.702051&format=json&resultType=core",
+      "outcome": "Tool reports URL inaccessible; no authenticated HTTP status, metadata body, PPR identifier or full-text link. Root cross-reviewed capture and accounting."
+    }
+  ],
+  "admission": {
+    "dataset_destination_authenticated": false,
+    "KEGG_destination_authenticated": false,
+    "sample_genotype_replicate_manifest_authenticated": false,
+    "linked_data_or_code_terms_authenticated": false,
+    "native_panel_admitted": false,
+    "native_biological_fit": false,
+    "new_theorem": false
+  },
+  "local_archive_delta": {
+    "scope": "Scoped filename inventory and twelve previously named file identities; no exhaustive content search.",
+    "inventory_paths": 11224,
+    "new_paths": 0,
+    "removed_paths": 0,
+    "named_file_identities_unchanged": 12,
+    "targeted_native_paper_filename_candidates": 0,
+    "private_paths_and_bodies_published": false,
+    "absence_claim": "No conclusion about all local contents, remote folders or uninspected files."
+  },
+  "rights_and_privacy": {
+    "article_API_license": "cc_by",
+    "prior_R36_header_license": "CC BY 4.0",
+    "linked_dataset_code_KEGG_license": "unknown",
+    "public_content": "Original synthesis, selected factual bibliographic metadata and capture identities only; no raw articles, contacts, private paths or credential values.",
+    "original_documentation_license": "CC BY 4.0 under repository terms",
+    "AI_assistance_disclosed": true
+  },
+  "retry_rule": "Park this source-access chain. Resume only for a newly authenticated official artifact, verified changed access, a supplied lawful original file or a qualified claim-specific assessment. Do not repeat unchanged 429/403, billing failures, inaccessible URLs or empty queries each round.",
+  "scientific_boundary": "Metadata, expression replicates, gated reporter fractions and culture-mat persistence cannot establish mutation births, single-new-mutant establishment, physical stock ancestry or a matched W/A/M panel."
+}
