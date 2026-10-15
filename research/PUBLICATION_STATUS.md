@@ -71,3 +71,5 @@ R36 adds internally reviewed supplemental processing scope and native cell-state
 R38 adds a reviewed primary-source CNV observer assessment and bounded official OSF metadata. It does not alter the frozen methods 0.6.0 archive, admit a native panel, execute author code or establish a biological fit/theorem. R37 remains a preserved no-change provenance checkpoint. No new project/author Zenodo version or fresh third-party Zenodo request; raw sources stay outside Git.
 
 R39 adds independently reviewed CNV inference dependencies and an authenticated static source-code audit. Both primary article XMLs are acquired; S4 workbook and CSV inputs remain unrecovered. No numerical replay, native fit or methods change. Methods 0.6.0 stays frozen; no new project or third-party Zenodo request or version.
+
+R40 adds an independently reviewed static competition/barcode pipeline audit and official named-CSV metadata. Software MIT licensing is authenticated; separate data terms and actual CSV contents remain unresolved. No source code execution, numerical replay, native fit or new theorem. Methods 0.6.0 remains frozen; no project or third-party Zenodo request or new version.

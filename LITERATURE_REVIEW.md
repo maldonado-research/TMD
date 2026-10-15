@@ -249,3 +249,7 @@ The previously uninspected [Tourlousse supplement](https://pmc.ncbi.nlm.nih.gov/
 ## R39 conventional inference comparator — 15 October 2026
 
 [Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) adds a [formation-rate/fitness dependency audit](research/cnv_inference_audit/REPORT.md) and authenticated static Figure 7 code. It reuses eleven 2018 evolution trajectories while adding assay measurements. Formation-rate confirmation, source-specific marker correction, model choice and outcome-informed time-window limits retain distinct roles. Full 2018 and 2022 primary XML representations authenticate article CC BY 4.0; separate software/data terms remain unverified. No newly published discovery or native fit is claimed.
+
+## R40 actual analysis artifacts and input identities — 15 October 2026
+
+The [Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) source chain now has an authenticated [fitness and barcode pipeline audit](research/cnv_fitness_pipeline_audit/REPORT.md). Three actual code artifacts and an MIT license resolve static dependencies while exact OSF metadata identifies named input/output CSVs. Their contents, row weighting, unit calibration and publication execution remain unverified. Standard conditional bookkeeping does not constitute a new theorem or biological result. No new evolution cohort or newly published discovery is claimed.

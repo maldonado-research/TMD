@@ -1,0 +1,167 @@
+{
+  "round": "R000040",
+  "scientific_acquisition_calls": 9,
+  "actor_scientific_attempts": {
+    "root": 4,
+    "records": 4,
+    "independent_reviewer": 1
+  },
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "counted_saved_source_bytes": 306365,
+  "derived_text_duplicate_bytes": 131686,
+  "capture_and_receipt_bytes": 174679,
+  "saved_files": [
+    {
+      "path": "ROOT_S01.body",
+      "bytes": 4644,
+      "sha256": "70b5a2adeface83c39d9af6d6d411d9879b195f77b7e2366e5e288e5092b22bd",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S01.receipt.json",
+      "bytes": 570,
+      "sha256": "1579f0bb30558962a6cc27af4c391f566bcc766cba1a705d28132c03b1355e3e",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S02.body",
+      "bytes": 15976,
+      "sha256": "9edd5079891d41041b68e1e2846acff91ba4c82b1c6250fc0141a609f367dec6",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S02.receipt.json",
+      "bytes": 606,
+      "sha256": "c7effbf8825db00152b8f49ea0a9e0d5cec237234765b0ffc7a8b816e4bd2f7a",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S03.body",
+      "bytes": 6529,
+      "sha256": "92fa50a1c48515f91f32386af37fd58a6d754e07821aa0b8df7d85f564db27a2",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S03.receipt.json",
+      "bytes": 655,
+      "sha256": "c757d90843c5d9b0a1fceb10bedc62361100d318ce7bdf9bab106ae200e0fe64",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S04.body",
+      "bytes": 10816,
+      "sha256": "c63fc0633f91c6dcb8c239c26cdf3317b420f51e6e914fe820efffebf6514e9a",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S04.receipt.json",
+      "bytes": 656,
+      "sha256": "372b00b303d58a7278ea6df43e07962baa5eafcbfffefb080cad3d54e23cca0c",
+      "category": "request_receipt"
+    },
+    {
+      "path": "records/sources/2021-09-16_analysis_Grace.ipynb",
+      "bytes": 57074,
+      "sha256": "f8c6594030d09283cf87e069dd61fed91c9945cb025249e58a955d860af558a2",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "records/sources/LICENSE",
+      "bytes": 1071,
+      "sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "records/sources/fitmut_v2_a_20210916.py",
+      "bytes": 32258,
+      "sha256": "06966314d5360c32eab264f22023d5973f436f76e67f4789e5f4836ce87eed45",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "records/sources/fitness_assays.R",
+      "bytes": 3158,
+      "sha256": "9a10ee1caf7001137101de4811cd05e55a4a5fa91db1da51d84c0243317e9d08",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "records/sources/s01.body",
+      "bytes": 4654,
+      "sha256": "7dbf860ee5ad406363f362797c9e989ca62c5e14800ac938670843532dfe6f7c",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "records/sources/s01.receipt.json",
+      "bytes": 741,
+      "sha256": "dd0cebc0bd4b737baec66c5b48d3a3348366689dbe304592614e8879f975c35f",
+      "category": "request_receipt"
+    },
+    {
+      "path": "records/sources/s02.body",
+      "bytes": 1776,
+      "sha256": "591f916bd3297049de748cf1df7465d6e039e651de5971ce2ad0b2741c481b50",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "records/sources/s02.receipt.json",
+      "bytes": 741,
+      "sha256": "fe139c29ada3855676278c1299c2318ec3aa7541b7332ba10402c59510aae35f",
+      "category": "request_receipt"
+    },
+    {
+      "path": "records/sources/s03.body",
+      "bytes": 78939,
+      "sha256": "0314d9ceeb5dd8fbfdb312573ddb31fd51468be7545e71329d00b93444944b7d",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "records/sources/s03.receipt.json",
+      "bytes": 743,
+      "sha256": "5e4d7827b918eef0549e5741d02541bf5262357e755df0a03548b244e61cef21",
+      "category": "request_receipt"
+    },
+    {
+      "path": "records/sources/s04.body",
+      "bytes": 44747,
+      "sha256": "0873ab2fe841de87c516424226a2af4847a7cc115b174096e3fdf8098a4cffba",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "records/sources/s04.receipt.json",
+      "bytes": 743,
+      "sha256": "5b8bb05088d63042383d52da97fd785203e2acee8de831a30a99db032de79f13",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/V01.receipt.json",
+      "bytes": 981,
+      "sha256": "2d0b062054fff23625381501512b117e4e85a43f182348e502277e64af202d9c",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/V01_SEARCH_RESULT.json",
+      "bytes": 162,
+      "sha256": "04ac7ee627f3fc53e2c04c71889538dfed772f841126fda5e3ce01476c5865b7",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "review/ROOT_S02_fitness_paragraphs.json",
+      "bytes": 15437,
+      "sha256": "1cd41eef05d4fe97783c61052f0604499b7c25002574459e58a798317e58cfb3",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/ROOT_S03_fitness_paragraphs.json",
+      "bytes": 22688,
+      "sha256": "5c86fe60cb17849c69b43fb84a188e2910fe055eec4f1ff6243597cf2efe9102",
+      "category": "derived_text_duplicate"
+    }
+  ],
+  "accounting_scope": "Exact saved metadata/Git API wrappers, request receipts, decoded code/notebook/license copies, one saved search-result serialization, and explicit cached-article paragraph copies. Overlap counted conservatively. Wire/provider-internal bytes unknown. Operational publication/live checks excluded.",
+  "cached_article_reuse_not_new_network_requests": true,
+  "source_author_code_executed": false,
+  "source_numerical_replay": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "scientific_budget_closed": true
+}

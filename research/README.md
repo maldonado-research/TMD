@@ -177,3 +177,7 @@ The [source assessment](cnv_observer_assessment/REPORT.md) and [12-gate matrix](
 ## R39: CNV inference and static source-code dependencies
 
 The [report](cnv_inference_audit/REPORT.md), [inference dependency map](cnv_inference_audit/INFERENCE_DEPENDENCIES.json) and [authenticated code audit](cnv_inference_audit/CODE_AUDIT.json) distinguish measured fitness, inferred formation/establishment and selected comparison inputs. Actual clone/CSV joins remain unresolved; all 44 actual/planning values remain NULL. [R39 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R39.md).
+
+## R40: competition rows and inferred barcode lineages
+
+The [combined report](cnv_fitness_pipeline_audit/REPORT.md), [actual source pipeline audit](cnv_fitness_pipeline_audit/PIPELINE_AUDIT.json) and [official CSV inventory](cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json) specify units, row multiplicity, alias, aggregation and positional-mapping prerequisites. The source software MIT license is authenticated; actual CSVs, publication execution and separate data terms remain unresolved. [R40 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R40.md). All 44 actual/planning inputs remain NULL.

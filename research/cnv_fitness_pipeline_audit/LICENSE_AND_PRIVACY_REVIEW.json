@@ -1,0 +1,10 @@
+{
+  "round": "R000040",
+  "original_analysis": "CC BY 4.0 under repository terms; AI assistance disclosed.",
+  "inspected_software_license": "MIT, copyright 2022 Grace Avecilla; exact license blob authenticated.",
+  "separate_OSF_data_terms": "Unverified. Inspected node_license null and no license relationship do not establish absence of terms elsewhere. Article CC BY 4.0 and software MIT are not transferred to separate data.",
+  "public_payload": "Original analysis, conditional standard bookkeeping identities, selected file/anchor facts and source identities. No full source/code/notebook bodies or embedded outputs, raw data, author contacts, private archive locators or credentials.",
+  "archive_screen": "Exact names of the three competition CSVs screened among 36,527 mounted archive files; no matches. No content/alternate-name/global-absence claim.",
+  "author_code_executed": false,
+  "native_values_filled": false
+}

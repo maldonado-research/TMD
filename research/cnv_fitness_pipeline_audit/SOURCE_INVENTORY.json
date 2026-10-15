@@ -1,0 +1,250 @@
+{
+  "round": "R000040",
+  "source_article_doi": "10.1371/journal.pbio.3001633",
+  "project_id": "e9d5x",
+  "project_title": "Neural networks allow simulation-based inference of evolutionary parameters from adaptation dynamics",
+  "project_URL": "https://osf.io/e9d5x/",
+  "project_public": true,
+  "node_metadata": {
+    "URL": "https://api.osf.io/v2/nodes/e9d5x/",
+    "capture": {
+      "bytes": 4644,
+      "sha256": "70b5a2adeface83c39d9af6d6d411d9879b195f77b7e2366e5e288e5092b22bd"
+    },
+    "node_license": null,
+    "license_relationship_present": false,
+    "scope": "The inspected node metadata does not establish reuse terms; terms elsewhere remain unverified. Article CC BY 4.0 and GitHub MIT do not automatically license separate OSF data."
+  },
+  "inspected_levels": [
+    {
+      "level": "root",
+      "source_URL": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/",
+      "capture": {
+        "bytes": 15976,
+        "sha256": "9edd5079891d41041b68e1e2846acff91ba4c82b1c6250fc0141a609f367dec6"
+      },
+      "returned_records": 9,
+      "API_reported_total": 9,
+      "next_page": null,
+      "records": [
+        {
+          "file_id": "6144babea4364703b6fe45a7",
+          "name": "Simulated observation sets",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/6144babea4364703b6fe45a7/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "6144bafc585ec203c7f29f02",
+          "name": "Simulated individual observations",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/6144bafc585ec203c7f29f02/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61521a14ec788500d740f21e",
+          "name": "Results of inference",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/61521a14ec788500d740f21e/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61521bc2ec788500db40ea96",
+          "name": "Presimulated data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/61521bc2ec788500db40ea96/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "615513fff684f400a6afd515",
+          "name": "Data from Lauer et al 2018",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/615513fff684f400a6afd515/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61551444f684f400a7affe58",
+          "name": "Fitness assays",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/61551444f684f400a7affe58/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "615514a8c20b1e00aa7d3a85",
+          "name": "Barcode data",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/615514a8c20b1e00aa7d3a85/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "6165b0fd86713b0218903db9",
+          "name": "Supplementary Data 1",
+          "kind": "folder",
+          "API_reported_size_bytes": null,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": null,
+          "literal_download_link": null,
+          "literal_folder_listing_link": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/6165b0fd86713b0218903db9/",
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "6256d505cb57b10572a654b1",
+          "name": "cnv_sims_inference-master.zip",
+          "kind": "file",
+          "API_reported_size_bytes": 8176829,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "e3033503ba2f1bf8a72127515de323301ebf823e866b14b13b807be8a1d4049e",
+          "literal_download_link": "https://osf.io/download/b4sj9/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        }
+      ]
+    },
+    {
+      "level": "Fitness assays",
+      "source_URL": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/61551444f684f400a7affe58/",
+      "capture": {
+        "bytes": 6529,
+        "sha256": "92fa50a1c48515f91f32386af37fd58a6d754e07821aa0b8df7d85f564db27a2"
+      },
+      "returned_records": 3,
+      "API_reported_total": 3,
+      "next_page": null,
+      "records": [
+        {
+          "file_id": "6155145617d22700ac866da3",
+          "name": "clone_fitness_pergen.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 1534,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "49821a734e7481079e50af7de17b45a975b071698894f544c0217ddc8ca4a146",
+          "literal_download_link": "https://osf.io/download/c8awv/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61551457eb3ea700b75a4060",
+          "name": "data_props_Lauer2018.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 30118,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "cb54b8fe84ef9cad1b5ea6acd5e3e72f151f98af86d2cb30e162b5f476750561",
+          "literal_download_link": "https://osf.io/download/8s4px/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "615514589c072e00a90385cb",
+          "name": "data_props_bc.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 25545,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "8df37aa38f412ae2376d3ce400c57854ee41d1801aa53d4feef1098904fc8431",
+          "literal_download_link": "https://osf.io/download/9u7ka/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        }
+      ]
+    },
+    {
+      "level": "Data from Lauer et al 2018",
+      "source_URL": "https://api.osf.io/v2/nodes/e9d5x/files/osfstorage/615513fff684f400a6afd515/",
+      "capture": {
+        "bytes": 10816,
+        "sha256": "c63fc0633f91c6dcb8c239c26cdf3317b420f51e6e914fe820efffebf6514e9a"
+      },
+      "returned_records": 5,
+      "API_reported_total": 5,
+      "next_page": null,
+      "records": [
+        {
+          "file_id": "6155142417d22700b3864811",
+          "name": "generations_bc.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 125,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "d7567cecadb5b3fba11d1552a98e00c4a08997e32980e4c09ad4f3bbb225cd4c",
+          "literal_download_link": "https://osf.io/download/xpg4j/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61551426c20b1e009a7dd20f",
+          "name": "PopPropForABC.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 1171,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "c7bda94a2d869a4903f89b6d7a234f36f2e6dc44ac97f4970648eb8e3561a94f",
+          "literal_download_link": "https://osf.io/download/aqz6k/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "61551426c20b1e00a17d9c39",
+          "name": "PopPropForABC_bc.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 804,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "8b93122bdb6e4ebf8ee89ac7be9623fc3a23bf6ad0d6c9b17c52b7d3e433baf1",
+          "literal_download_link": "https://osf.io/download/nydzt/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "6155142617d22700b3864818",
+          "name": "generations.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 102,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "a7a9079dbda0c4dae85af8e47e0271c183125a5861b9dab630fd83c3f6f205b0",
+          "literal_download_link": "https://osf.io/download/3r9q7/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        },
+        {
+          "file_id": "6155142fc20b1e009a7dd222",
+          "name": "PopPropForABC_all.csv",
+          "kind": "file",
+          "API_reported_size_bytes": 1918,
+          "API_reported_current_version": 1,
+          "API_reported_sha256": "47d488c4f22e73927c1b738410413e55601618d6a5cd495943f77026262ff257",
+          "literal_download_link": "https://osf.io/download/w9xur/",
+          "literal_folder_listing_link": null,
+          "file_content_acquired": false
+        }
+      ]
+    }
+  ],
+  "scope": "Three official folder levels/listings, not a complete recursive deposit or sample/clone/event manifest. Record names, sizes, versions and hashes are API metadata; actual file bytes, rows and row counts remain unauthenticated.",
+  "download_boundary": "Each identified file download uses osf.io, absent from the current enforced allowed-host set. No blocked file-download request, proxy bypass or challenge solving attempted. A lawful permitted file body is still required.",
+  "root_scientific_acquisition_attempts": 4,
+  "raw_source_bodies_published": false
+}
