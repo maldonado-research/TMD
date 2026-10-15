@@ -1,0 +1,11 @@
+{
+  "round": "R000038",
+  "public_payload": "Original source-derived analysis, measurement-admission matrix, selected bibliographic/inventory facts and identities only. No source fulltext, figures, author contacts, raw FCS/FASTQ, code body, private archive locator or credential value.",
+  "article_terms": "Article page states Creative Commons Attribution; precise license version not inspected.",
+  "deposit_terms": "OSF inspected node_license null, no license relationship; applicable data/code terms remain unverified. No inference about terms elsewhere.",
+  "original_documentation": "CC BY 4.0 under repository terms; AI assistance disclosed.",
+  "raw_captures": "Retained outside Git.",
+  "source_author_code_execution": false,
+  "private_archive_scope": "Targeted source DOI/GAP1/Lauer search in Markdown/text in a named D-Blast 3 subtree found zero matches. Not exhaustive coverage or evidence of global absence; private locators remain external.",
+  "native_study_or_planning_values_filled": false
+}

@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "round": "R000038",
+  "producer_scope": "event_measurement",
+  "source": {
+    "citation": "Lauer S, Avecilla G, Spealman P, Sethia G, Brandt N, Levy SF, Gresham D (2018). Single-cell copy number variant detection reveals the dynamics and diversity of adaptation. PLoS Biology 16(12):e3000069.",
+    "doi": "10.1371/journal.pbio.3000069",
+    "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000069",
+    "publication_date": "2018-12-18",
+    "inspected_version": "Published article browser-rendered representation captured 2026-10-15; no independently downloaded publisher XML/PDF or full version history.",
+    "license": "Article states Creative Commons Attribution License; exact version uninspected.",
+    "inspection_depth": "Selected primary Results/Discussion/Methods and supporting-item descriptions in three browser captures; no supplement/data/code replay. Rendered lines 383–395 absent; all downstream supplement material uninspected.",
+    "dedup_scope": "Read continuation STATE and source ledgers, with full-research-tree exact DOI/title/Lauer search showing no match. R28 Bena2024 DOI10.1038/s41467-024-46950-0 is already inspected and excluded as new evidence.",
+    "cohort": "S. cerevisiae reference-strain derivatives; GAP1 reporter chemostat evolution and a separately derived barcode experiment. Neither is SBW25; late clone sequencing and competition are nested source assays, not independent external replication.",
+    "external_artifacts_named_but_not_acquired_by_this_producer": [
+      "OSF fxhze",
+      "SRA SRP142330",
+      "GreshamLab/flow",
+      "Supplementary tables and figures"
+    ],
+    "additional_team_inspection": "Root inspected bounded official OSF root and Flow_cytometry folder metadata; reviewer inspected public node metadata with node_license null. Neither deposit terms, individual data/code file contents nor a complete versioned manifest are authenticated. See separately accounted root/reviewer records."
+  },
+  "accounting": {
+    "maximum_acquisitions": 6,
+    "individual_acquisitions": 6,
+    "search_queries": 2,
+    "primary_browser_opens": 3,
+    "failed_command_acquisitions": 1,
+    "failed_HTTP_responses": 0,
+    "failure": "Local network socket Operation not permitted before HTTP; no retry by this producer.",
+    "maximum_saved_source_capture_bytes": 12582912,
+    "saved_capture_bytes": 183203,
+    "counting_rule": "Exact saved UTF-8 JSON captures, including request wrappers and a failed-command receipt; not wire-transfer bytes. Derived reports and repeated extraction are excluded. Root/reviewer acquisitions are separately accounted.",
+    "root_additional_acquisitions": "Not included in producer accounting; root manages merged ledger."
+  },
+  "runtime": "Managed environment observed spec190; observations_current=true; HTTP policy enforced; inherited proxy and TLS verification retained. Runtime readiness does not establish article endpoint accessibility.",
+  "acquisitions": [
+    {
+      "capture": "acquisition_01_search.json",
+      "saved_bytes": 37218,
+      "sha256": "823e351fea247a80aa70fd7fd7bcdd62080cf5fbfe9c945c849bb80e8a9624a9",
+      "capture_file_write_time_utc": "2026-10-15T16:26:23.168057+00:00",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "single cell spontaneous mutation tracking MutL fluorescence whole genome sequencing validation 2025 2026 mother machine"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "provider_response_captured",
+      "exact_request_time_utc": null,
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded."
+    },
+    {
+      "capture": "acquisition_02_search.json",
+      "saved_bytes": 38304,
+      "sha256": "16baf89512c26e7922b8ec23e97828a50ef5286fbf7f9cc6f804f18058182c00",
+      "capture_file_write_time_utc": "2026-10-15T16:26:51.184674+00:00",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"spontaneous mutations\" \"single cells\" sequencing tracking 2025 2026 fluorescence mutation reporter"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "provider_response_captured",
+      "exact_request_time_utc": null,
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded."
+    },
+    {
+      "capture": "acquisition_03_primary_open.json",
+      "saved_bytes": 35710,
+      "sha256": "8e276360630f13ef38dd7a391c49de8aeba0d340dc4e72ffad00485eb01d196c",
+      "capture_file_write_time_utc": "2026-10-15T16:27:23.297398+00:00",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000069"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "provider_response_captured",
+      "exact_request_time_utc": null,
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded.",
+      "selected_evidence_anchors": [
+        {
+          "line_sha256": "81526df076eeac2bf1f21d1050699358a4af2c4b14337116f48c03da873185fe",
+          "provider_line_label": 131
+        },
+        {
+          "line_sha256": "31f41d0615d6469a342a4a41fbffe636d9b5b37e2af3b23edd8afa928f496c9a",
+          "provider_line_label": 175
+        },
+        {
+          "line_sha256": "cb9b98ec884fed070197466d322cf9bc30719515aa50b0c857bb3a86e2e683bf",
+          "provider_line_label": 176
+        },
+        {
+          "line_sha256": "a896de90ebd2ac581aafcb5b35343aa8b5b4462390170725424c1918bcda2c5c",
+          "provider_line_label": 209
+        },
+        {
+          "line_sha256": "70108acc95f4eb16333ff101054da8450d083d9e10cb81d519735b55ac3cd472",
+          "provider_line_label": 210
+        },
+        {
+          "line_sha256": "1a4b6b2bba2e31478f217aa91c31554860e74a2976dd48d89a76d38bc9de0efe",
+          "provider_line_label": 211
+        },
+        {
+          "line_sha256": "711712c2e877455773bbf771d57886d981fdfc840994758d3a59840377de1535",
+          "provider_line_label": 212
+        },
+        {
+          "line_sha256": "e4d91f050b42f898d8de5d67418d3d08432ca54ca7743f0809b825cef62afe93",
+          "provider_line_label": 227
+        },
+        {
+          "line_sha256": "9d0509e36dc377d2964876f760bbc4a95da07b87c603021873e9b5624a34baaa",
+          "provider_line_label": 228
+        },
+        {
+          "line_sha256": "b16ca6a794a5dfe62df1070b9b835b87aac3804a4364d7e54ad840f8e632da66",
+          "provider_line_label": 229
+        },
+        {
+          "line_sha256": "24dc0dbb6057ebd4dfecf60f9ed0da8df1d68e645871e866633224857b58371b",
+          "provider_line_label": 244
+        },
+        {
+          "line_sha256": "79ed68e7d95e676318ac371ae82bf97b3354530843ffc75007c32e16eb12ce2a",
+          "provider_line_label": 254
+        },
+        {
+          "line_sha256": "dfd45f2024c9ff5f7b520c234cd6a9374c8264307d36c268b6a818e0c76c9980",
+          "provider_line_label": 259
+        },
+        {
+          "line_sha256": "bfd1ea8bd2e2b87de038e6e9f91aba53d78b675644071cb2b4020df93c035ba6",
+          "provider_line_label": 260
+        }
+      ]
+    },
+    {
+      "capture": "acquisition_04_receipt.json",
+      "saved_bytes": 399,
+      "sha256": "0374e412add8a3c6a0a26c5a65fe4b3cf634286bec4b2b372bd2e2fed5ff204f",
+      "capture_file_write_time_utc": "2026-10-15T16:27:23.481230+00:00",
+      "request": {
+        "url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000069&type=manuscript"
+      },
+      "status": "local_socket_failure_no_HTTP_response",
+      "exact_request_time_utc": "2026-10-15T16:27:23.470542+00:00",
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded."
+    },
+    {
+      "capture": "acquisition_05_primary_middle.json",
+      "saved_bytes": 35520,
+      "sha256": "7f1b06dcfdc1773b3292063ac5b0843c7011eb89397435b0f133a8fbc0ad3054",
+      "capture_file_write_time_utc": "2026-10-15T16:27:54.106074+00:00",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn541138view0",
+            "lineno": 280
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "provider_response_captured",
+      "exact_request_time_utc": null,
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded.",
+      "selected_evidence_anchors": [
+        {
+          "line_sha256": "24dc0dbb6057ebd4dfecf60f9ed0da8df1d68e645871e866633224857b58371b",
+          "provider_line_label": 244
+        },
+        {
+          "line_sha256": "79ed68e7d95e676318ac371ae82bf97b3354530843ffc75007c32e16eb12ce2a",
+          "provider_line_label": 254
+        },
+        {
+          "line_sha256": "dfd45f2024c9ff5f7b520c234cd6a9374c8264307d36c268b6a818e0c76c9980",
+          "provider_line_label": 259
+        },
+        {
+          "line_sha256": "bfd1ea8bd2e2b87de038e6e9f91aba53d78b675644071cb2b4020df93c035ba6",
+          "provider_line_label": 260
+        },
+        {
+          "line_sha256": "d0015676a8084469ffda46a12564adc5ed87d77e890fc2874dce476085ee5b4c",
+          "provider_line_label": 274
+        },
+        {
+          "line_sha256": "5049b51f11f98ea04ff956acd0e0b3e5f8aec7378de4ec7cdebe24e1f5fce103",
+          "provider_line_label": 275
+        },
+        {
+          "line_sha256": "3e841bfecf1eb223861e4c0f79bcd6791ff1a527956aa7fbb03019a1a0e0c276",
+          "provider_line_label": 276
+        },
+        {
+          "line_sha256": "cf11151d968f14b0178ad4951fdf9178e4cd3b40dd9fb77912e284cda8b0b173",
+          "provider_line_label": 277
+        },
+        {
+          "line_sha256": "b3134d63e69d0d68af9a41acf8358c004fd10802028b861dd125cd2e4c1604a4",
+          "provider_line_label": 278
+        },
+        {
+          "line_sha256": "ec8afbe35cb2edf0e77c0290374ffb3cb84909285680a66aafdc9ab056af202b",
+          "provider_line_label": 337
+        },
+        {
+          "line_sha256": "20c454dc2304c0238a6b65b50cc88ee513da375d7c8aebca8aaaafc5686683e3",
+          "provider_line_label": 338
+        },
+        {
+          "line_sha256": "ea6555c1809036b5eb0fb0cc5175a5cb406a900096403b6dcecb03acc5e39a49",
+          "provider_line_label": 339
+        },
+        {
+          "line_sha256": "201fbebe69040460422c8bf31c3d1ed0c3fb922c0f1e0b761d1ee5cf5692aeca",
+          "provider_line_label": 340
+        },
+        {
+          "line_sha256": "6fa97c6a509bbd9089b9eaa6ec0a85f804d33124d6637e2b346c832e884fc2e4",
+          "provider_line_label": 342
+        },
+        {
+          "line_sha256": "fa344a86c1a17b1d075c32ea29afddab249574d571b0d76f10c8de8af273247d",
+          "provider_line_label": 349
+        },
+        {
+          "line_sha256": "8974020d3262f0080056814c7cb89b63218c0b6d86915617188b1f3569eaead0",
+          "provider_line_label": 350
+        },
+        {
+          "line_sha256": "129f6045a74de9df45875848c95efc6304a2650505637706bd1cd2f439949c9c",
+          "provider_line_label": 352
+        },
+        {
+          "line_sha256": "c10b7bc7ca34be5a859c23116d41f9fe3607c1bfc9ba713f79f69f0de850488f",
+          "provider_line_label": 353
+        },
+        {
+          "line_sha256": "ec583161ad61e93055b2d13c4efcd964ef3f728b009975a7ef73f85b9dfd000e",
+          "provider_line_label": 360
+        },
+        {
+          "line_sha256": "6b0a62e8da8cfe5d692e8f09bc6a0b27dc971de0d0c62f833ac8dfd3e1359bb0",
+          "provider_line_label": 370
+        },
+        {
+          "line_sha256": "7239891363500ea581b8c5e417dc3cb9f4943dddd53663fec012a5f59470af2a",
+          "provider_line_label": 371
+        },
+        {
+          "line_sha256": "8bca2de407d3646d3d8cf7767e88b9772e265a40e12f19f33b9c22fd35c49cf8",
+          "provider_line_label": 372
+        },
+        {
+          "line_sha256": "fd89236ef61355bac2aaac369e07cbd305dbd876d7a68e2f6a4b36782b7c75ad",
+          "provider_line_label": 373
+        }
+      ]
+    },
+    {
+      "capture": "acquisition_06_primary_methods.json",
+      "saved_bytes": 36052,
+      "sha256": "75fdc5c2047830e5d032dcd7751b6f67584cd3e7462fda6ed8c5e4eef9ab5a65",
+      "capture_file_write_time_utc": "2026-10-15T16:28:04.802315+00:00",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn541138view0",
+            "lineno": 430
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "provider_response_captured",
+      "exact_request_time_utc": null,
+      "timestamp_scope": "Local capture write time is not server retrieval time; browser request times were not separately recorded.",
+      "selected_evidence_anchors": [
+        {
+          "line_sha256": "ceebf1ed9d79dae17600aa619690be079f6fbee0b848db8f58bf5ed730d13f0f",
+          "provider_line_label": 400
+        },
+        {
+          "line_sha256": "b963fdd35146cd2ad4a332e7f187ee1931a49ea4f7c10ab7ecc2888bd1a5df59",
+          "provider_line_label": 407
+        },
+        {
+          "line_sha256": "b87436835ffb4c154aaa7e6471cdbd9d9bec72a1b412508a6a7b447688bff37d",
+          "provider_line_label": 414
+        },
+        {
+          "line_sha256": "adbd3be360a21ae74c1d9c3f0dbdbd4c2303337e02ee568964687eaf9bc30ced",
+          "provider_line_label": 415
+        },
+        {
+          "line_sha256": "3bc3238f9343239f028b37254368d41e7d8a02074a3a0773aded00ef909d3ec6",
+          "provider_line_label": 422
+        },
+        {
+          "line_sha256": "467343db92c0c0c30f3487f9e85c3a5718514c69fddd6fd365797f64c7e5c074",
+          "provider_line_label": 423
+        },
+        {
+          "line_sha256": "7806b25d21d6899019cc4bf249a26f9548a1fe07204f5b132b6d9e7486ff337a",
+          "provider_line_label": 424
+        },
+        {
+          "line_sha256": "48f5864b2730ee8a4d8c42b089cafbf51b139c3731fa156b38487a60f0e43d43",
+          "provider_line_label": 425
+        },
+        {
+          "line_sha256": "05aa7489ff553fff5ae678449e0cef5b27201179ebec84298e0a84e8f8913e38",
+          "provider_line_label": 426
+        },
+        {
+          "line_sha256": "32f1c6023df3e4b1e0dda64cdb4802e2557f00820878be03f7701842374ae041",
+          "provider_line_label": 430
+        },
+        {
+          "line_sha256": "202180b8d89f0f5b7455b30b1ee497a4b59680cf4fa12b668c228844397bb38c",
+          "provider_line_label": 432
+        },
+        {
+          "line_sha256": "bce23b1b09c30f8865e432e7e529e28875703e5ddbd0dd32a982ed44d74fb015",
+          "provider_line_label": 433
+        },
+        {
+          "line_sha256": "f71ece7f3fe0b9a0c0c91ef66d70ce4db4dbbbfe2a3276f1fb3f2712e095912f",
+          "provider_line_label": 434
+        },
+        {
+          "line_sha256": "38c8d0bd65d75522a5524759a74de0908c8473011f2f33d6cfec24743ae24305",
+          "provider_line_label": 437
+        },
+        {
+          "line_sha256": "bbdd53cad61bf73c9f73306672c5942db1b0ef3c720f36a791b7203cb40b5f65",
+          "provider_line_label": 438
+        },
+        {
+          "line_sha256": "e84f2a13967ad401bf33e649964a46e582686a84f3e4ba77ac590274b1fe4b7f",
+          "provider_line_label": 439
+        },
+        {
+          "line_sha256": "eaf5b51f1e8f08531bfecb8843f959332c6d3554312e7f21c7d82bab9bcfc489",
+          "provider_line_label": 441
+        },
+        {
+          "line_sha256": "d08361b2193279eaa1a39f2b5265164ca2926c4990132e668ef92f6690f89302",
+          "provider_line_label": 442
+        },
+        {
+          "line_sha256": "0c5057ff3ffc179d0aa8bf53edc78651e8f4ff409180863ddb074785c5c225f4",
+          "provider_line_label": 443
+        },
+        {
+          "line_sha256": "f8b477aa64d594e64ab092862e05acbce4bfd368b27377192abecf8b5292a40b",
+          "provider_line_label": 444
+        },
+        {
+          "line_sha256": "b562eab41f3c46b09bd98270d93353e5c07f375541d8913f91eabf0e74ef3aa1",
+          "provider_line_label": 451
+        },
+        {
+          "line_sha256": "bd34829e23ba3978c09e71a6cbee83b80d1107dfffa318705002e00afd4c4c23",
+          "provider_line_label": 452
+        },
+        {
+          "line_sha256": "968c02abadb5169dcda95787ce0bf53217dab832f7a36cd42f3adb7020f779b6",
+          "provider_line_label": 472
+        },
+        {
+          "line_sha256": "7b1d1fc197d010c2163c7998c67c02405604b696479ef67672b210c30613d82a",
+          "provider_line_label": 475
+        },
+        {
+          "line_sha256": "06fa34c180fa94d6fd1b65c0c6fe5ca7927de3a8632210605a4ccf94cfc88557",
+          "provider_line_label": 479
+        },
+        {
+          "line_sha256": "b7b5df7b7916d5e5e496a586b4d8f98af34cb4fb7bb693bce6fdefede2ed393c",
+          "provider_line_label": 480
+        },
+        {
+          "line_sha256": "0f68193b965b78e339e116d7e4fd086fef4c3d4976940aee3ca72f3bd5dcaa90",
+          "provider_line_label": 481
+        },
+        {
+          "line_sha256": "a2713b7ea0e79de195d11c77c62e6d371c30b930866f8b9ec9da59fbb3a31395",
+          "provider_line_label": 483
+        },
+        {
+          "line_sha256": "d62a7059c899e69d11ecd4b0abd5cb7a807c935a86e091e72de12ec9430bb68a",
+          "provider_line_label": 506
+        },
+        {
+          "line_sha256": "8eeadfd3d6a7529090141d53aa1dce072cd8af9f15f56ea2582c7c8796e0db56",
+          "provider_line_label": 507
+        },
+        {
+          "line_sha256": "f41e2fdeadba44004de9dad82e0c93968f67361621bce48f31ca96bca7b92b51",
+          "provider_line_label": 535
+        }
+      ]
+    }
+  ],
+  "anchor_scope": "Provider line labels and hashes identify selected rendered-source lines; labels are not asserted to be one-based document line numbers. Verbatim anchor prefixes are omitted from public files."
+}

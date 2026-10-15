@@ -179,3 +179,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | Figure S3 totals 60,000 reads for all 22 rows, corroborating the supplement caption; selected Table S5 filters recovered | [Supplement audit](research/calibration_supplement_records/REPORT.md) | No exact random draw, source pipeline execution, per-run exclusion, dose or native recovery truth. |
 | Native preprint reports genotype/cell-state/density context for mat readouts | [Native source assessment](research/native_cell_state_assessment/REPORT.md) | Historical genotype family, expression cultures, gated cells and culture-mat persistence; no native stock/pedigree join, mutation births, single-new-mutant establishment or matched panel. |
+
+## R38 reporter validation and origin requirements — 15 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Published yeast CNV source combines reporter controls and selected-clone molecular checks | [Source assessment](research/cnv_observer_assessment/REPORT.md) | The 7.1% population threshold, later sequence validation, fluorescence purity correction and fitness are separate targets; no all-birth or establishment inference. |
+| Official deposit metadata identifies six root and four Flow_cytometry records | [Inventory](research/cnv_observer_assessment/ROOT_SOURCE_INVENTORY.json) | Two folder levels only; API file versions/hashes are not local file-byte authentication. Deposit reuse terms and native event truth unresolved. |

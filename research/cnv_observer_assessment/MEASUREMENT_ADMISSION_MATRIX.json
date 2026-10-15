@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "round": "R000038",
+  "source_doi": "10.1371/journal.pbio.3000069",
+  "claims": [
+    {
+      "gate": "reporter_construction",
+      "source_support": "Source supports a defined engineered reporter",
+      "evidence": "PCR/Sanger confirmation of integration; constitutive mCitrine construct, GAP1-proximal insertion and neutral-locus controls.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        422,
+        423,
+        424
+      ],
+      "nonimplication": "Integration verification is not ancestral/new-event truth for later spontaneous CNVs.",
+      "admission_decision": "Source construction facts only; native assay unselected."
+    },
+    {
+      "gate": "signal_copy_number_calibration",
+      "source_support": "Source supports source-specific signal response",
+      "evidence": "Engineered haploid/diploid copy controls and forward-scatter normalization.",
+      "capture": "acquisition_03_primary_open.json",
+      "rendered_lines": [
+        209,
+        210,
+        211,
+        212
+      ],
+      "nonimplication": "Does not cover all CNV architectures, missed negatives, all routes, or native SBW25 transport.",
+      "admission_decision": "Reporter classification precedent; no native calibration parameter."
+    },
+    {
+      "gate": "threshold_time",
+      "source_support": "Source supports population threshold crossing",
+      "evidence": "T_up requires apparent CNV fraction exceeding 7.1%, defined as mean+one SD of evolving one-copy controls at generations 1–153.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        437,
+        438,
+        439
+      ],
+      "nonimplication": "This is not per-event FPR, confidence bound, mutation birth, or earlier establishment.",
+      "admission_decision": "Population detection threshold only."
+    },
+    {
+      "gate": "molecular_validation",
+      "source_support": "Source supports genotypes of selected later clones",
+      "evidence": "29 increased-fluorescence clones from generations 150/250 were sequenced; read-depth/Southern checks support CNV structures.",
+      "capture": "acquisition_05_primary_middle.json",
+      "rendered_lines": [
+        259,
+        260,
+        274,
+        275
+      ],
+      "nonimplication": "Selected recovered survivors do not authenticate every earlier focus/gate call or provide a complete negative frame.",
+      "admission_decision": "Orthogonal late-clone evidence only."
+    },
+    {
+      "gate": "sort_purity_correction",
+      "source_support": "Source supports phenotype remeasurement after culture",
+      "evidence": "FACS fractions regrown 48 h; isolated clones rechecked by flow; at least 25 clones per subpopulation for correction.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        479,
+        480,
+        481
+      ],
+      "nonimplication": "Independent flow analysis remains the same phenotype modality; no event-specific sequence truth or false-negative denominator.",
+      "admission_decision": "Do not substitute late WGS for this correction method."
+    },
+    {
+      "gate": "event_units",
+      "source_support": "Source itself limits label-to-event equivalence",
+      "evidence": "Unique barcodes shared by multiple founding cells; complex CNV may require successive events.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        400,
+        415
+      ],
+      "nonimplication": "Barcode count is not a one-to-one independent event count.",
+      "admission_decision": "No event-count-law admission."
+    },
+    {
+      "gate": "ancestral_new_classification",
+      "source_support": "Source supplies probabilistic origin interpretation",
+      "evidence": "Common cross-population barcode may be preexisting; independent new CNVs in that barcode are possible.",
+      "capture": "acquisition_05_primary_middle.json",
+      "rendered_lines": [
+        370,
+        371,
+        372,
+        373
+      ],
+      "nonimplication": "Population-specific barcode is not an independently genotype-negative ancestor; indistinguishable precursor histories remain.",
+      "admission_decision": "No inherited-negative truth or individual acquisition time."
+    },
+    {
+      "gate": "supply",
+      "source_support": "Source supports high-supply interpretation conditional on selection/detection",
+      "evidence": "Observed CNV-lineage diversity and population dynamics motivate inference of high supply.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        400,
+        407,
+        414,
+        415
+      ],
+      "nonimplication": "No independent event-level exposure, unseen-loss denominator or route-specific birth census.",
+      "admission_decision": "Mutation-supply input unadmitted."
+    },
+    {
+      "gate": "fitness",
+      "source_support": "Source provides separate pairwise competition assays",
+      "evidence": "Evolved clones compete with nonfluorescent FY4 in glutamine-limited chemostats; relative abundance followed every 2–3 generations over about 15 generations.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        443,
+        444,
+        535
+      ],
+      "nonimplication": "The reported competition and sequencing denominators are 28 and 29 and require an explicit clone-level join; this does not imply disjoint cohorts. Pairwise competitive growth is not new-mutant establishment in resident ecology.",
+      "admission_decision": "Source clone-fitness facts only."
+    },
+    {
+      "gate": "reporter_perturbation",
+      "source_support": "Source provides limited conditional control evidence",
+      "evidence": "No significant fitness defect in source controls; other source controls form GAP1 CNVs by DNA/Southern.",
+      "capture": "acquisition_05_primary_middle.json",
+      "rendered_lines": [
+        275,
+        276,
+        277
+      ],
+      "nonimplication": "No quantitative equivalence bound, complete mutation-spectrum invariance or native transport proof.",
+      "admission_decision": "Native marker/assay impact remains unknown."
+    },
+    {
+      "gate": "timing_and_denominators",
+      "source_support": "Source text has distinct denominators and timing labels",
+      "evidence": "Original 26 experimental plus 6 controls; six barcode populations; two barcode-sequenced populations; 29 WGS versus 28 fitness clones; Results 270 versus FACS Methods 265.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        479,
+        535
+      ],
+      "nonimplication": "Do not merge populations, cells, clones, barcodes, mutation events or silently correct times.",
+      "admission_decision": "Keep source joins and discrepancies explicit.",
+      "additional_evidence": [
+        {
+          "capture": "acquisition_03_primary_open.json",
+          "provider_line_labels": [
+            227,
+            228,
+            229,
+            259
+          ]
+        },
+        {
+          "capture": "acquisition_05_primary_middle.json",
+          "provider_line_labels": [
+            340,
+            349,
+            352
+          ]
+        }
+      ]
+    },
+    {
+      "gate": "native_panel",
+      "source_support": "Source remains foreign to actual native TMD admission",
+      "evidence": "Yeast GAP1 copy-number measurement architecture; neither SBW25 nor matched W/A/M routes.",
+      "capture": "acquisition_06_primary_methods.json",
+      "rendered_lines": [
+        422,
+        424
+      ],
+      "nonimplication": "No native parental/event ancestry, supply, establishment, recovery/loss or matched transport.",
+      "admission_decision": "0 native panels; 0 native fits; 26 study and 18 planning NULLs unchanged."
+    }
+  ],
+  "falsifiable_boundary": "If a future TMD analysis equates a reporter-labelled lineage with one newly born, independently established mutation, independent genotyping that finds target variants among reporter-negative units, no target variant among reporter-positive units, preexisting target variants in ancestors, or multiple founders/events per label refutes the corresponding perfect-classification or one-to-one claim. Calibrated classification may still be supported with actual denominators and uncertainty; no such native dataset is admitted.",
+  "next_named_artifact_rule": "Only acquire a bounded licensed clone-level fluorescence/sequence crosswalk with selection, ancestry, missingness and denominator metadata, or an actual DNA-genotyped positive/negative sorting-control set that can change a specific gate."
+}

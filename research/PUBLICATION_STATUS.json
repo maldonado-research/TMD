@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Keep the R37 native preprint source-access chain parked until a newly authenticated official artifact, verified changed access, a supplied lawful original file or qualified claim-specific assessment changes the admission decision. The next useful artifact is an authentic dataset/KEGG destination and bounded versioned sample/genotype/replicate manifest with applicable terms. Actual MPB10583/MPB10613 stock/pedigree/sequence truth, authoritative Figure 9 calculation records, or actual run-linked preparation/dose and QC/exclusion records for SRR30280226/SRR30280227 and retained calibration runs remain alternative gates. Do not repeat unchanged 429/403 responses, billing failures, inaccessible URLs or empty source queries. Metadata and institutional record identifiers are not data manifests; expression, gated reporter fractions and culture-mat persistence do not identify mutation births or single-new-mutant establishment. Preserve all 26 study and 18 planning NULLs, historical genotype and sampling-unit distinctions, unresolved label conflicts, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators and evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. Use the existing 44-field qualified-review worksheet before biological admission. No unsupported mathematical extension, outreach or laboratory work.",
+  "next_action": "Prioritize a bounded, versioned and lawfully reusable clone-level fluorescence/genotype/selection crosswalk from the Lauer et al. (2018) source, with independently DNA-genotyped positive and negative units, their sampling and culture history, and missingness. Official metadata identifies S4_Table.xlsx (30532 bytes, API current_version 1) and Generate S1 Text.Rmd (20506 bytes, API current_version 1); file contents and applicable deposit terms remain unverified. Acquire a named artifact only if it can resolve an actual classification or ancestry gate, and authenticate its version and terms before reuse. Do not repeat unchanged Rmd access or publisher XML/proxy failures. The population 7.1% threshold, regrown-clone fluorescence correction, selected late-clone sequencing, barcode identity and pairwise fitness are distinct observations; none supplies an all-birth census or independently observed single-new-mutant establishment. Keep R37 native-preprint access parked pending changed prerequisites. Actual native stock/pedigree/sequence records, run-linked preparation/dose and QC/exclusion ledgers, authoritative Figure 9 calculations or qualified claim-specific assessment remain alternative priorities. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,17 +41,16 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000037"
+      "R000038"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-15_R37.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-15_R38.md",
     "frozen_0_6_0_includes_these_addenda": false,
-    "status": "internally_reviewed_no_change_checkpoint",
+    "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "third_party_public_Zenodo_requests_this_round": 0,
-    "scientific_acquisition_attempts": 11,
-    "tool_level_calls": 10,
+    "scientific_acquisition_attempts": 12,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "native_article_provenance_and_parked_manifest_access_no_change"
+    "scientific_inference_status": "source_specific_CNV_observer_validation_and_native_origin_admission_requirements"
   },
   "github_research_addenda_history": [
     {
@@ -223,6 +222,20 @@
       "scientific_acquisition_attempts": 8,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "source_processing_and_native_context_assessed_no_event_or_panel_admission"
+    },
+    {
+      "latest_rounds": [
+        "R000037"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-15_R37.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed_no_change_checkpoint",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "third_party_public_Zenodo_requests_this_round": 0,
+      "scientific_acquisition_attempts": 11,
+      "tool_level_calls": 10,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "native_article_provenance_and_parked_manifest_access_no_change"
     }
   ],
   "publication_verified_file_count": 8,

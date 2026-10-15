@@ -169,3 +169,7 @@ The [sample-provenance audit](calibration_sample_provenance/REPORT.md) authentic
 ## R36: processing scope and native cell-state alternatives
 
 The [supplement record audit](calibration_supplement_records/REPORT.md) corroborates stated subsampling and selected primer/QC protocols while actual dose, ancestry and exclusions remain unresolved. The [native preprint assessment](native_cell_state_assessment/REPORT.md) distinguishes expression, gated reporters and culture-mat persistence from new mutation origins and native event inclusion. [R36 checkpoint](CONTINUATION_HANDOFF_2026-10-14_R36.md). All 44 actual/planning inputs remain NULL.
+
+## R38: reporter validation and native-origin admission
+
+The [source assessment](cnv_observer_assessment/REPORT.md) and [12-gate matrix](cnv_observer_assessment/MEASUREMENT_ADMISSION_MATRIX.json) separate population thresholds, selected-clone DNA checks, regrown-clone fluorescence and pairwise fitness. The [official inventory](cnv_observer_assessment/ROOT_SOURCE_INVENTORY.json) identifies named data/code objects at two folder levels; contents and applicable deposit terms remain unverified. [R38 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R38.md). All 44 actual/planning values remain NULL. R37 source-access no-change checkpoint is preserved.
