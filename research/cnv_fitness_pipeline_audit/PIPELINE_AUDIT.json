@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "round": "R000040",
+  "kind": "original_static_fitness_and_barcode_pipeline_audit",
+  "source_article_doi": "10.1371/journal.pbio.3001633",
+  "article_linked_repository": "https://github.com/graceave/cnv_sims_inference",
+  "version_scope": "Content-addressed objects in inspected repository tree; exact publication-execution identity unverified.",
+  "author_code_executed": false,
+  "biological_fit_executed": false,
+  "raw_source_published": false,
+  "anchor_convention": "Source lines are one-based, inclusive. Text-file source_slice_sha256 hashes exact original byte lines including their original line endings. Notebook cell indices are one-based in the cells array; slice hashes use the selected cell source joined as stored, split with line endings retained, then UTF-8 encoded. No source slices are republished. Article text hash uses UTF-8 joined itertext without whitespace normalization.",
+  "artifacts": [
+    {
+      "id": "competition",
+      "repository_relative_path": "fitness_assays/fitness_assays.R",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+      "git_blob_sha1": "e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+      "bytes": 3158,
+      "sha256": "9a10ee1caf7001137101de4811cd05e55a4a5fa91db1da51d84c0243317e9d08",
+      "API_wrapper_bytes": 4654,
+      "API_wrapper_sha256": "7dbf860ee5ad406363f362797c9e989ca62c5e14800ac938670843532dfe6f7c",
+      "captured_at_utc": "2026-10-15T22:38:19.977928+00:00",
+      "verification": {
+        "git_framed_sha1": true,
+        "API_size": true,
+        "inspected_tree_member": true
+      },
+      "newly_acquired_in_round": true
+    },
+    {
+      "id": "license",
+      "repository_relative_path": "LICENSE",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+      "git_blob_sha1": "4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+      "bytes": 1071,
+      "sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb",
+      "API_wrapper_bytes": 1776,
+      "API_wrapper_sha256": "591f916bd3297049de748cf1df7465d6e039e651de5971ce2ad0b2741c481b50",
+      "captured_at_utc": "2026-10-15T22:38:20.333667+00:00",
+      "verification": {
+        "git_framed_sha1": true,
+        "API_size": true,
+        "inspected_tree_member": true
+      },
+      "newly_acquired_in_round": true
+    },
+    {
+      "id": "notebook",
+      "repository_relative_path": "barcode_dfe/2021-09-16_analysis_Grace.ipynb",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/519fb8201ae2b205228e42e75ff89650d73062eb",
+      "git_blob_sha1": "519fb8201ae2b205228e42e75ff89650d73062eb",
+      "bytes": 57074,
+      "sha256": "f8c6594030d09283cf87e069dd61fed91c9945cb025249e58a955d860af558a2",
+      "API_wrapper_bytes": 78939,
+      "API_wrapper_sha256": "0314d9ceeb5dd8fbfdb312573ddb31fd51468be7545e71329d00b93444944b7d",
+      "captured_at_utc": "2026-10-15T22:39:49.785708+00:00",
+      "verification": {
+        "git_framed_sha1": true,
+        "API_size": true,
+        "inspected_tree_member": true
+      },
+      "newly_acquired_in_round": true
+    },
+    {
+      "id": "fitmut",
+      "repository_relative_path": "barcode_dfe/fitmut_v2_a_20210916.py",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+      "git_blob_sha1": "143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+      "bytes": 32258,
+      "sha256": "06966314d5360c32eab264f22023d5973f436f76e67f4789e5f4836ce87eed45",
+      "API_wrapper_bytes": 44747,
+      "API_wrapper_sha256": "0873ab2fe841de87c516424226a2af4847a7cc115b174096e3fdf8098a4cffba",
+      "captured_at_utc": "2026-10-15T22:40:15.430011+00:00",
+      "verification": {
+        "git_framed_sha1": true,
+        "API_size": true,
+        "inspected_tree_member": true
+      },
+      "newly_acquired_in_round": true
+    },
+    {
+      "id": "figure7",
+      "repository_relative_path": "figures/Figure7andSup.Rmd",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "git_blob_sha1": "14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "bytes": 9832,
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "newly_acquired_in_round": false,
+      "verification_scope": "Previously verified in R39; locally reused without a network call."
+    },
+    {
+      "id": "article",
+      "doi": "10.1371/journal.pbio.3001633",
+      "source_url": "https://doi.org/10.1371/journal.pbio.3001633",
+      "bytes": 330366,
+      "sha256": "c817733f5154c57afeae2f94388152fb8930a7b5efbdaa0467a57091c5a5266d",
+      "newly_acquired_in_round": false,
+      "verification_scope": "Previously authenticated full JATS XML; locally reused without a network call."
+    }
+  ],
+  "inspected_repository_tree": {
+    "git_tree_sha": "a004f163f4480965233d6f5d873a0c4763242a67",
+    "entries": 62,
+    "truncated": false,
+    "capture_bytes": 15461,
+    "capture_sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb",
+    "scope": "One returned tree snapshot, not all branches/history or external deposits; cached R39 source reused."
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 7,
+          "line_end": 10,
+          "source_slice_sha256": "35bc7317e68835a4a1e2593688c47d63d3f58c886f36e3276c6a72bb20d7ccbb"
+        }
+      ],
+      "literal_source_finding": "Imports data_props_bc.csv and data_props_Lauer2018.csv; removes Lauer strain labels DGY500 and DGY1315.",
+      "interpretation_limit": "No input CSV bytes, clone rows, control identities or preprocessing were authenticated.",
+      "dependencies": [
+        "data_props_bc.csv",
+        "data_props_Lauer2018.csv"
+      ]
+    },
+    {
+      "id": "F02",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 13,
+          "line_end": 25,
+          "source_slice_sha256": "623b51f87dc4c7c4d8352828150714c4bf69799595a440c2e9955ba4c7a7e12e"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 39,
+          "line_end": 45,
+          "source_slice_sha256": "8b5ac135fb8dc18365b28797986d389cbb12a9a1fd0f38b25ba35e81281c4b76"
+        }
+      ],
+      "literal_source_finding": "Fits a separate transformed-on-hours linear regression for each available strain within run2, run3 and run4; divides slope and calculated standard error by natural log of two. An empty selected subset returns NULL.",
+      "interpretation_limit": "The supplied hours and transformed columns are not defined here. Other run labels, actual missingness, eligible counts and fitted rows remain unknown."
+    },
+    {
+      "id": "F03",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 29,
+          "line_end": 36,
+          "source_slice_sha256": "6ed84d821e2d8790318109ba65ec1d04f9ab9f46e2cd18160f7356b7d83c2fad"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 60,
+          "line_end": 65,
+          "source_slice_sha256": "88634aaa5865ddfde1a9ae581dd5c74cb613de596c6a0d165ac52b3abf6c6574"
+        }
+      ],
+      "literal_source_finding": "Barcoded target strains are selected where type differs from anc_bc. Each fit includes target strain plus GAP1_bc_anc1, GAP1_bc_anc2 and GAP1_bc_anc3; the model includes type-by-hours interaction and run. The named typeevo_bc:hours coefficient and its confidence interval are divided by natural log of two.",
+      "interpretation_limit": "Requires actual type/strain mapping and factor/reference coding. This documents a source-specific marker-cost adjustment, not general marker neutrality or a verified biological crosswalk."
+    },
+    {
+      "id": "F04",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 18,
+          "line_end": 23,
+          "source_slice_sha256": "1e8cace3d180d3b9437ead14115d6199f4057de506bdc6c7a4ef55146c3a5b91"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 33,
+          "line_end": 36,
+          "source_slice_sha256": "9128fb89e2fa06a1f92b3dd24b8fccda40b108e9a71422e049fc57790fbd802c"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 52,
+          "line_end": 58,
+          "source_slice_sha256": "0a047cb026037c19f77e9fd15c8b8f5fb37778ece263de955e229163a7dc4927"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 68,
+          "line_end": 72,
+          "source_slice_sha256": "0b2067dc5f3896c9ee7d764dac3d8c23f7c0f36f51ff968ac1045fc2d1fcd8f7"
+        }
+      ],
+      "literal_source_finding": "Unbarcoded confidence limits retain the original slope scale while its coefficient and calculated SE are scaled; barcoded interaction confidence limits are scaled. The unbarcoded calculated SE is not returned. Final CSV export drops p values and confidence intervals.",
+      "interpretation_limit": "Intermediate bookkeeping observation only. No error in exported point estimates or a published uncertainty interval is established."
+    },
+    {
+      "id": "F05",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 39,
+          "line_end": 58,
+          "source_slice_sha256": "4255f5ed9cb32e08cdcb0ec8b698ee69985c07407aa1ca06429ed1ba4e4184b9"
+        }
+      ],
+      "literal_source_finding": "One fitted result is constructed per available clone/run pair; grouping by clone and assigning its mean preserves those rows. Selection and renaming do not collapse to unique clones. The mean does not explicitly request missing-value removal.",
+      "interpretation_limit": "If a clone has multiple fitted runs, the constructed table repeats its mean. Actual row multiplicities, missingness, and use of this generated table in publication remain unverified.",
+      "actual_clone_count": null,
+      "actual_row_multiplicities": null
+    },
+    {
+      "id": "F06",
+      "anchors": [
+        {
+          "artifact_id": "competition",
+          "line_start": 68,
+          "line_end": 72,
+          "source_slice_sha256": "0b2067dc5f3896c9ee7d764dac3d8c23f7c0f36f51ff968ac1045fc2d1fcd8f7"
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 148,
+          "line_end": 150,
+          "source_slice_sha256": "ca7823e805715c560c4c52a661c3661abcf3828159efb6ba60680cf0043395da"
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 200,
+          "line_end": 210,
+          "source_slice_sha256": "223f5396a0372646569606b08bc527c97abf6c90bda7fab77fbfc0ae5e37629c"
+        }
+      ],
+      "literal_source_finding": "The two-column clone/fitness_coef output combines barcoded estimates with the retained Lauer rows. Figure 7 removes clone labels containing DGY1657 and includes positive fitness_coef rows without an explicit deduplication step.",
+      "interpretation_limit": "Conditional on this generation chain, row multiplicity can affect clone weights and the relative contribution of source groups. No numerical effect is demonstrated. Positive estimates are not significance and do not identify the 2018 18/28 significantly fitter clones.",
+      "conditional_row_weighting": true,
+      "actual_distribution_effect": null
+    },
+    {
+      "id": "B01",
+      "anchors": [
+        {
+          "artifact_id": "notebook",
+          "line_start": 8,
+          "line_end": 8,
+          "source_slice_sha256": "b00e9c7378cb6998d1ca170f3cafc6ab0ebfbb6051de9cc41a4384d54c3ca195",
+          "cell_index_1based": 1
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 80,
+          "line_end": 88,
+          "source_slice_sha256": "8e8027183883127736ead68cd44dc580f545d667d136759a250f3830fcba4181"
+        }
+      ],
+      "literal_source_finding": "Notebook cell 1 explicitly states the bc04 source label is bc01 in the paper, consistent with the later plotting assignment.",
+      "interpretation_limit": "An authenticated author-code alias statement; independent sample provenance and biological crosswalk remain unverified.",
+      "author_alias_statement_authenticated": true,
+      "independent_biological_alias_validated": false
+    },
+    {
+      "id": "B02",
+      "anchors": [
+        {
+          "artifact_id": "notebook",
+          "line_start": 13,
+          "line_end": 25,
+          "source_slice_sha256": "d194b5b7f60ee715a97f57a24b78d53b7570d5a627ead2526b67ed9eccf98ebd",
+          "cell_index_1based": 1
+        }
+      ],
+      "literal_source_finding": "Reads bc04_PyFit.csv, keeps its first four numeric count columns, retains rows with four-column total at least 20, and if lower-total rows exist appends one row of their column sums. Writes numeric counts without header, index or barcode identifier.",
+      "interpretation_limit": "Actual threshold membership and aggregate-row presence are unknown. An aggregate tail cannot be assumed to represent one biological lineage.",
+      "actual_retained_count": null,
+      "actual_aggregated_count": null
+    },
+    {
+      "id": "B03",
+      "anchors": [
+        {
+          "artifact_id": "notebook",
+          "line_start": 29,
+          "line_end": 36,
+          "source_slice_sha256": "8086889eaf01b7458de0ca6be33aff13db15a9576c126be763eb0bff1f4c5845",
+          "cell_index_1based": 1
+        },
+        {
+          "artifact_id": "fitmut",
+          "line_start": 401,
+          "line_end": 406,
+          "source_slice_sha256": "d87080fccbc878a7f3ce7227719f9413a9614150460c6e566fdecf36aa28f545"
+        }
+      ],
+      "literal_source_finding": "Notebook takes the first four time and cell-depth entries from timepts.csv; the generator command-line contract describes time as generations and the second column as total effective cells.",
+      "interpretation_limit": "Actual time values, alignment, cell-depth calibration and equivalence to competition units remain unverified."
+    },
+    {
+      "id": "B04",
+      "anchors": [
+        {
+          "artifact_id": "fitmut",
+          "line_start": 413,
+          "line_end": 423,
+          "source_slice_sha256": "40f2d73fcbc4459febcc8f58831221f828f27cc86fd18c0fe1d38347aa51d8b1"
+        }
+      ],
+      "literal_source_finding": "Reads a numeric matrix, replaces zero counts with 0.1, computes per-time total read depths and rescales by supplied effective cell-depth values.",
+      "interpretation_limit": "The resulting cell-number matrix is a modeled conversion, not an independent count of all cells or mutation births."
+    },
+    {
+      "id": "B05",
+      "anchors": [
+        {
+          "artifact_id": "fitmut",
+          "line_start": 485,
+          "line_end": 514,
+          "source_slice_sha256": "74f8a29e5d6b2cb896b3e441ef42038a6b194b734709bac16fb7d7736bca0511"
+        },
+        {
+          "artifact_id": "fitmut",
+          "line_start": 535,
+          "line_end": 554,
+          "source_slice_sha256": "fb649e674e6f095be1d612549aaf5fc0d58a79f2673ce959f4f7538f74b70904"
+        }
+      ],
+      "literal_source_finding": "Initializes lineage arrays, fills them by count-matrix row index and writes a CSV without barcode identifiers. Output also contains arrays with time-point semantics, combined using unequal-length padding.",
+      "interpretation_limit": "Lineage outputs preserve input indices in this source; actual count-to-barcode matching and producer identity require the actual CSV and mapping records. Time-point fields must not automatically be interpreted as lineage attributes."
+    },
+    {
+      "id": "B06",
+      "anchors": [
+        {
+          "artifact_id": "fitmut",
+          "line_start": 535,
+          "line_end": 554,
+          "source_slice_sha256": "fb649e674e6f095be1d612549aaf5fc0d58a79f2673ce959f4f7538f74b70904"
+        },
+        {
+          "artifact_id": "notebook",
+          "line_start": 5,
+          "line_end": 27,
+          "source_slice_sha256": "6bb0459c5b6167eaac2835ca22ebde9413467f97394820277187412d19961ec7",
+          "cell_index_1based": 6
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 123,
+          "line_end": 128,
+          "source_slice_sha256": "b1ef768b7ceab035719f62c235dc495faee54b069ddd20c11416829baaa9d84f"
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 196,
+          "line_end": 199,
+          "source_slice_sha256": "46630e63dbfbf61129ad58266c64d513a6dfede1ac121ef92614cd537c628e85"
+        }
+      ],
+      "literal_source_finding": "The generator sets fitness and establishment time to zero when adaptive-minus-neutral log likelihood is nonpositive before writing _MutSeq_Result.csv. Notebook cell 6 writes a separate thresholded derivative. Figure 7 consumes the original _MutSeq_Result.csv and selects positive CNV-labelled estimates.",
+      "interpretation_limit": "If this script generated the consumed CSV, the Figure 7 positive-estimate selector can inherit the upstream likelihood decision. This is not a p-value significance test, independent establishment observation or mutation-birth census; exact producer version, missingness and CSV contents are unknown."
+    },
+    {
+      "id": "B07",
+      "anchors": [
+        {
+          "artifact_id": "notebook",
+          "line_start": 13,
+          "line_end": 25,
+          "source_slice_sha256": "d194b5b7f60ee715a97f57a24b78d53b7570d5a627ead2526b67ed9eccf98ebd",
+          "cell_index_1based": 1
+        },
+        {
+          "artifact_id": "fitmut",
+          "line_start": 550,
+          "line_end": 554,
+          "source_slice_sha256": "cb237ce1323a1fc11894c21dfa975fe8f63baf7c019116c8a633d7f9ae0bd805"
+        },
+        {
+          "artifact_id": "figure7",
+          "line_start": 123,
+          "line_end": 128,
+          "source_slice_sha256": "b1ef768b7ceab035719f62c235dc495faee54b069ddd20c11416829baaa9d84f"
+        }
+      ],
+      "literal_source_finding": "The audited chain loses explicit barcode identifiers in numeric input/output, while Figure 7 later binds a filtered-barcode list by row position before joining CNV labels by barcode and population.",
+      "interpretation_limit": "Requires the original barcode/count ordering, threshold and aggregate-row mapping, emitted-output order and row count, filtered-barcode order and length, and unique CNV join keys. No actual mismatch is established.",
+      "actual_input_order_verified": false,
+      "join_key_cardinality_verified": false,
+      "mismatch_established": false
+    },
+    {
+      "id": "B08",
+      "anchors": [
+        {
+          "artifact_id": "figure7",
+          "line_start": 127,
+          "line_end": 128,
+          "source_slice_sha256": "2118d856f067acfcef1cdf883b3e6ad654c80f0e71f27516b0fb8d234285149e"
+        }
+      ],
+      "literal_source_finding": "Missing CNV join labels become noCNV in the plotting data.",
+      "interpretation_limit": "An unmatched join is not independently authenticated DNA-negative truth."
+    },
+    {
+      "id": "B09",
+      "anchors": [
+        {
+          "artifact_id": "notebook",
+          "line_start": 8,
+          "line_end": 38,
+          "source_slice_sha256": "2ad00c08d8ff18438910beac13cbdc8acef87e01adbd1802579a5d3fd38f0a6c",
+          "cell_index_1based": 1
+        },
+        {
+          "artifact_id": "notebook",
+          "line_start": 1,
+          "line_end": 2,
+          "source_slice_sha256": "a3d59d81377c8de439f552b15c15df5363db9519e114f672228a76a8a93f89a1",
+          "cell_index_1based": 2
+        }
+      ],
+      "literal_source_finding": "The saved notebook includes two output shape lines for a currently single-name loop; its command cell has a null execution count while retaining output.",
+      "interpretation_limit": "Saved output is not admitted as a replay, current input count or publication execution record. Cause of saved-state differences is unknown.",
+      "anchor_note": "Source-slice hashes locate the current inputs; the full authenticated notebook object covers stored outputs and execution metadata.",
+      "stored_output_counts_admitted": false,
+      "notebook_executed": false
+    },
+    {
+      "id": "L01",
+      "anchors": [
+        {
+          "artifact_id": "license",
+          "line_start": 1,
+          "line_end": 21,
+          "source_slice_sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb"
+        }
+      ],
+      "literal_source_finding": "The inspected root LICENSE contains MIT terms and a 2022 copyright notice for Grace Avecilla.",
+      "interpretation_limit": "Confirms this repository software-license body. Does not establish licensing of external OSF datasets or exact publication execution. No raw code is republished.",
+      "license_identifier": "MIT",
+      "external_OSF_data_license_verified": false
+    },
+    {
+      "id": "U01",
+      "anchors": [
+        {
+          "artifact_id": "article",
+          "JATS_anchor": "sec016/direct-p[1]",
+          "source_text_sha256": "d0b505643ef79a83997f8cd1412c8abf73e132c236eb5ced7ef5c3b2a8cdd17b"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 18,
+          "line_end": 23,
+          "source_slice_sha256": "1e8cace3d180d3b9437ead14115d6199f4057de506bdc6c7a4ef55146c3a5b91"
+        },
+        {
+          "artifact_id": "competition",
+          "line_start": 32,
+          "line_end": 36,
+          "source_slice_sha256": "5984b28684cfa5672a24489296548d37accdbf909a29dbc2f9ebf7bca2bcd68c"
+        },
+        {
+          "artifact_id": "fitmut",
+          "line_start": 403,
+          "line_end": 406,
+          "source_slice_sha256": "60fb254775db85c4f5dfed3268a07be3991757526194660b15dafc27e6b1cbb6"
+        }
+      ],
+      "literal_source_finding": "Article describes 92 hours/about 16 generations and states division of per-hour relative fitness by natural log of two. Competition script applies that division. Barcode generator describes time input as generations.",
+      "interpretation_limit": "Agreement authenticates the stated source convention; dimensional provenance is unresolved without time/log-ratio preprocessing and generation normalization. No numerical correction or common-unit validation is claimed.",
+      "source_convention_authenticated": true,
+      "independent_unit_calibration_verified": false
+    }
+  ],
+  "unacquired_dependency_contract": [
+    {
+      "name": "data_props_bc.csv",
+      "role": "Competition measurements and strain/type/run labels",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "data_props_Lauer2018.csv",
+      "role": "Lauer competition measurements, clone IDs and run structure",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "clone_fitness_pergen.csv",
+      "role": "Actual exported point-estimate rows and multiplicities",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "bc04_PyFit.csv",
+      "role": "Original numeric count matrix and separately required barcode order",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "timepts.csv",
+      "role": "Barcode time unit and effective population depth",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "fitmut_input_read_number_filtered.csv",
+      "role": "Actual filtered numeric count matrix including aggregate row, if any",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "fitmut_input_time_points.csv",
+      "role": "Actual selected time/depth values",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "bc04_v2_a_MutSeq_Result.csv",
+      "role": "Actual inferred lineage rows and likelihood classification",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "bc04_bcfiltered_barcodes.csv",
+      "role": "Later positional barcode-list length and order",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    },
+    {
+      "name": "CNV_barcodes.csv",
+      "role": "CNV label joins and their key cardinality",
+      "bytes_acquired": false,
+      "exact_basename_present_in_inspected_tree": false
+    }
+  ],
+  "actual_data_non_admissions": [
+    "Actual clone rows and 29-versus-28 membership reconciliation",
+    "Actual clone/run multiplicities or quantified distribution change",
+    "Actual barcode order or aggregate-row mapping",
+    "Independent biological alias crosswalk",
+    "Independent time-unit calibration",
+    "Independent DNA-negative controls or mutation-birth denominator",
+    "Independently observed establishment times",
+    "Exact publication execution or source-result reproduction",
+    "Native matched W/A/M panel or biological TMD fit"
+  ],
+  "publication_scope": {
+    "original_analysis": true,
+    "raw_code": false,
+    "raw_article": false,
+    "raw_notebook_outputs": false,
+    "private_workspace_paths": false,
+    "contact_data": false
+  },
+  "methods_status": "Methods 0.6.0 unchanged; source audit supplies no new theorem or empirical TMD confirmation."
+}

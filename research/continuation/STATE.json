@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000039",
-    "next_round_id": "R000040",
+    "last_completed_round": "R000040",
+    "next_round_id": "R000041",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -289,7 +289,12 @@
     "latest_CNV_inference_dependency_audit_round": "R000039",
     "CNV_inference_source_doi": "10.1371/journal.pbio.3001633",
     "CNV_inference_static_code_authenticated": true,
-    "CNV_inference_source_CSV_contents_authenticated": false
+    "CNV_inference_source_CSV_contents_authenticated": false,
+    "latest_CNV_fitness_pipeline_audit_round": "R000040",
+    "CNV_fitness_pipeline_Git_objects_authenticated": 4,
+    "CNV_fitness_pipeline_software_MIT_authenticated": true,
+    "CNV_fitness_named_CSV_metadata_records": 3,
+    "CNV_fitness_actual_CSV_contents_authenticated": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -368,8 +373,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R39 published conventional CNV rate/fitness inference dependencies and immutable Figure 7 static-code audit internally reviewed; actual workbook/CSV crosswalk and native admission remain unresolved.",
-    "next_action": "Prioritize actual lawful, versioned clone/genotype/fluorescence/fitness records or named Figure 7 CSV inputs from the Lauer 2018 / Avecilla 2022 source chain. Require clone membership and selection/missingness for the 29 sequenced versus 28 fitness clones; row-order validation for barcode identifiers, bc04/bc01 alias documentation, join cardinality, and independent DNA-genotyped positive/negative truth. Authenticate input units, marker corrections, provenance and applicable data/code terms before any numerical replay. S4 workbook and required CSV contents remain unrecovered; the actual inspected Rmd is a static repository snapshot, not authenticated publication-execution code. Do not repeat unchanged publisher redirects, PMC browser challenges, local preHTTP failures, parked R37 access or exhausted billing paths without a changed prerequisite. Treat positive fitness estimates as sign-selected, source MAP ranges as ranges across fits, and the generation-116 window as source outcome-informed. Formation-rate inference and inferred establishment from trajectories do not replace independent mutation-birth/loss and establishment measurements. A source-specific qualified assessment or actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records remains an alternative. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work.",
+    "last_completed_step": "R40 actual competition/barcode source pipeline, software MIT license and official named-CSV metadata internally reviewed; units, clone/run rows and inferred lineages retain explicit data and execution prerequisites.",
+    "next_action": "Prioritize lawful permitted actual bytes and terms for the three version-1 competition files in OSF E9D5X: clone_fitness_pergen.csv (API-reported 1534 bytes), data_props_Lauer2018.csv (30118 bytes) and data_props_bc.csv (25545 bytes), with exact SHA-256 identities in the R40 source inventory. Current osf.io download destinations are outside the enforced runtime allowlist; resume through a supported changed-access prerequisite or a lawfully supplied exact file, without proxy/host bypass or unchanged failure retries. Verify input time units, transformed-response construction, reference growth and selection-coefficient convention before comparing hourly and per-generation slopes; the source division by ln(2) is a documented convention, not independently calibrated here. Authenticate clone/run multiplicities, exclusions, intervals and source execution before assigning one biological unit per exported row or alleging numeric error. For barcodes, acquire actual count/time inputs, filtered barcode identifiers, the author-stated bc04/bc01 biological crosswalk, retained/aggregated row manifest and output provenance, including likelihood classification and padding. Keep model-derived lineages distinct from direct competition assays, independent mutation births and genotype-negative truth. S4 clone/genotype/fluorescence membership and 29-versus-28 missingness remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and a qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -708,7 +713,18 @@
       "research/cnv_inference_audit/REPORT.md": "39249064555fda6708bae02bc6cea8a30f8e8c0d3689ba17d679168e549eaf92",
       "research/cnv_inference_audit/SHA256SUMS.txt": "00e6b7a7c74d718d4f0d9698590ddca5768e1b614762be9c8c99b115ce4aa101",
       "research/cnv_inference_audit/SOURCE_PROVENANCE.json": "a9eef7a5bbde5f150a029e82829af8061817a659e0a9316efa7baf93508fb8b9",
-      "research/CONTINUATION_HANDOFF_2026-10-15_R39.md": "93533028eaf7b009785137a67f71a4a3b9beee6f33eb0f11f3bce61850535d20"
+      "research/CONTINUATION_HANDOFF_2026-10-15_R39.md": "93533028eaf7b009785137a67f71a4a3b9beee6f33eb0f11f3bce61850535d20",
+      "research/cnv_fitness_pipeline_audit/CODE_REPORT.md": "2355c7c6bc7211eadec457c0e6ed36b4337fc7e45b5c2311da1496039b8a2fc7",
+      "research/cnv_fitness_pipeline_audit/INDEPENDENT_REVIEW.json": "f212404a0265f323f05184a901a8b244725651169053ba2cc0498497541533ea",
+      "research/cnv_fitness_pipeline_audit/LICENSE": "268dead42a32367471a6b1009bc7c5a9bbe99494aab58e544bb5dc5bb774a5b6",
+      "research/cnv_fitness_pipeline_audit/LICENSE_AND_PRIVACY_REVIEW.json": "7c033d4bc70cf249814d5b51b56dc228531c37f6d25ba361585fce79c56e085a",
+      "research/cnv_fitness_pipeline_audit/PIPELINE_AUDIT.json": "ec4328ab7c6a8132b13dec387e79b6de1db5bed3c4d8f4182293c8900abb04cb",
+      "research/cnv_fitness_pipeline_audit/PUBLIC_FILES.json": "006b24b95b9a4b41dde4803f1e170507af4af3f2d78e69a73571453f60f9b7b7",
+      "research/cnv_fitness_pipeline_audit/REPORT.md": "07352fa880bba0adbe57597a4c82e6ea6512a7cb6836e512eb03c3d68dce7b99",
+      "research/cnv_fitness_pipeline_audit/SHA256SUMS.txt": "770cfa856a8b1b052e33ac939bd097971fc13ef4dab9bb57869783a183231f95",
+      "research/cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json": "01f6c6a52e30c8b5c6064f59f1682e4af99d1bbaf9d36b5b8a63d88c762a361d",
+      "research/cnv_fitness_pipeline_audit/SOURCE_PROVENANCE.json": "c331f73872650e6ed0a05e05e647a516d28bb4e1554dd7b4ec2bfb7660ed5271",
+      "research/CONTINUATION_HANDOFF_2026-10-15_R40.md": "e81162ecb5385dedcd8e732a917bb5722490b32a1f9767447948a0303ebe41f8"
     }
   },
   "reviewed_checkpoint": {
@@ -750,7 +766,8 @@
       "R000036",
       "R000037",
       "R000038",
-      "R000039"
+      "R000039",
+      "R000040"
     ],
     "blocked_work_items": [
       {
@@ -959,9 +976,24 @@
         "scope": "Two full primary article XMLs and immutable static Rmd; shared evolution material and missing input dependencies explicit. No source replay or native biological admission.",
         "source_ledger_sha256": "a9eef7a5bbde5f150a029e82829af8061817a659e0a9316efa7baf93508fb8b9",
         "static_code_audit_sha256": "d5577eb4e64c2beb5fd54c37d374c04f18624b7fe9d15dd4ae707c9f057b0201"
+      },
+      {
+        "round": "R000040",
+        "source_ids": [
+          "10.1371/journal.pbio.3001633",
+          "OSF:e9d5x",
+          "Git:e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+          "Git:519fb8201ae2b205228e42e75ff89650d73062eb",
+          "Git:143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+          "Git:4fb88d257676ae59e4d9d95aeb949d81a0af4ec6"
+        ],
+        "scope": "Actual static analysis artifacts and MIT license plus bounded official project/file metadata; no CSV contents, model execution or native biological admission.",
+        "source_ledger_sha256": "c331f73872650e6ed0a05e05e647a516d28bb4e1554dd7b4ec2bfb7660ed5271",
+        "pipeline_audit_sha256": "ec4328ab7c6a8132b13dec387e79b6de1db5bed3c4d8f4182293c8900abb04cb",
+        "inventory_sha256": "01f6c6a52e30c8b5c6064f59f1682e4af99d1bbaf9d36b5b8a63d88c762a361d"
       }
     ],
-    "next_action": "Prioritize actual lawful, versioned clone/genotype/fluorescence/fitness records or named Figure 7 CSV inputs from the Lauer 2018 / Avecilla 2022 source chain. Require clone membership and selection/missingness for the 29 sequenced versus 28 fitness clones; row-order validation for barcode identifiers, bc04/bc01 alias documentation, join cardinality, and independent DNA-genotyped positive/negative truth. Authenticate input units, marker corrections, provenance and applicable data/code terms before any numerical replay. S4 workbook and required CSV contents remain unrecovered; the actual inspected Rmd is a static repository snapshot, not authenticated publication-execution code. Do not repeat unchanged publisher redirects, PMC browser challenges, local preHTTP failures, parked R37 access or exhausted billing paths without a changed prerequisite. Treat positive fitness estimates as sign-selected, source MAP ranges as ranges across fits, and the generation-116 window as source outcome-informed. Formation-rate inference and inferred establishment from trajectories do not replace independent mutation-birth/loss and establishment measurements. A source-specific qualified assessment or actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records remains an alternative. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
+    "next_action": "Prioritize lawful permitted actual bytes and terms for the three version-1 competition files in OSF E9D5X: clone_fitness_pergen.csv (API-reported 1534 bytes), data_props_Lauer2018.csv (30118 bytes) and data_props_bc.csv (25545 bytes), with exact SHA-256 identities in the R40 source inventory. Current osf.io download destinations are outside the enforced runtime allowlist; resume through a supported changed-access prerequisite or a lawfully supplied exact file, without proxy/host bypass or unchanged failure retries. Verify input time units, transformed-response construction, reference growth and selection-coefficient convention before comparing hourly and per-generation slopes; the source division by ln(2) is a documented convention, not independently calibrated here. Authenticate clone/run multiplicities, exclusions, intervals and source execution before assigning one biological unit per exported row or alleging numeric error. For barcodes, acquire actual count/time inputs, filtered barcode identifiers, the author-stated bc04/bc01 biological crosswalk, retained/aggregated row manifest and output provenance, including likelihood classification and padding. Keep model-derived lineages distinct from direct competition assays, independent mutation births and genotype-negative truth. S4 clone/genotype/fluorescence membership and 29-versus-28 missingness remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and a qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
   },
   "previous_checkpoint_steps": [
     {
@@ -1053,10 +1085,15 @@
       "round": "R000038",
       "last_completed_step": "R38 distinct CNV observer primary-source assessment and official two-level deposit metadata internally reviewed; classification, ancestry, supply and establishment gates remain distinct and native inputs unresolved.",
       "next_action": "Prioritize a bounded, versioned and lawfully reusable clone-level fluorescence/genotype/selection crosswalk from the Lauer et al. (2018) source, with independently DNA-genotyped positive and negative units, their sampling and culture history, and missingness. Official metadata identifies S4_Table.xlsx (30532 bytes, API current_version 1) and Generate S1 Text.Rmd (20506 bytes, API current_version 1); file contents and applicable deposit terms remain unverified. Acquire a named artifact only if it can resolve an actual classification or ancestry gate, and authenticate its version and terms before reuse. Do not repeat unchanged Rmd access or publisher XML/proxy failures. The population 7.1% threshold, regrown-clone fluorescence correction, selected late-clone sequencing, barcode identity and pairwise fitness are distinct observations; none supplies an all-birth census or independently observed single-new-mutant establishment. Keep R37 native-preprint access parked pending changed prerequisites. Actual native stock/pedigree/sequence records, run-linked preparation/dose and QC/exclusion ledgers, authoritative Figure 9 calculations or qualified claim-specific assessment remain alternative priorities. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, complete separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
+    },
+    {
+      "round": "R000039",
+      "last_completed_step": "R39 published conventional CNV rate/fitness inference dependencies and immutable Figure 7 static-code audit internally reviewed; actual workbook/CSV crosswalk and native admission remain unresolved.",
+      "next_action": "Prioritize actual lawful, versioned clone/genotype/fluorescence/fitness records or named Figure 7 CSV inputs from the Lauer 2018 / Avecilla 2022 source chain. Require clone membership and selection/missingness for the 29 sequenced versus 28 fitness clones; row-order validation for barcode identifiers, bc04/bc01 alias documentation, join cardinality, and independent DNA-genotyped positive/negative truth. Authenticate input units, marker corrections, provenance and applicable data/code terms before any numerical replay. S4 workbook and required CSV contents remain unrecovered; the actual inspected Rmd is a static repository snapshot, not authenticated publication-execution code. Do not repeat unchanged publisher redirects, PMC browser challenges, local preHTTP failures, parked R37 access or exhausted billing paths without a changed prerequisite. Treat positive fitness estimates as sign-selected, source MAP ranges as ranges across fits, and the generation-116 window as source outcome-informed. Formation-rate inference and inferred establishment from trajectories do not replace independent mutation-birth/loss and establishment measurements. A source-specific qualified assessment or actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records remains an alternative. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000039",
+    "round": "R000040",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

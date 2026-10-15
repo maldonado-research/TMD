@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R39, 15 October 2026
+## Latest research checkpoint — R40, 15 October 2026
+
+The [fitness-pipeline audit](research/cnv_fitness_pipeline_audit/REPORT.md) authenticates actual competition/barcode code and distinguishes repeated clone/run estimates, source unit conventions and model-classified lineages. The [official inventory](research/cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json) locates the three named competition CSVs with versioned metadata; their contents and separate data terms remain unverified. [R40 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R40.md).
+
+This is static source analysis and conditional standard bookkeeping. No observed numerical error, source replay, native biological fit or new theorem. All 26 study and 18 planning inputs remain NULL; methods 0.6.0 and the paused runner stay fixed.
+
+## Prior R39 checkpoint — 15 October 2026
 
 The [CNV inference audit](research/cnv_inference_audit/REPORT.md) distinguishes experimentally checked fitness from a formation rate still awaiting empirical confirmation in a published conventional model. It authenticates actual Figure 7 code and records its positive-estimate filters, identifier alignment and join dependencies. The 2022 measurements reuse 2018 evolution populations; workbook and CSV inputs remain unrecovered. [R39 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R39.md).
 

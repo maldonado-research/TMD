@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "round": "R000040",
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-15T22:46:26.230678+00:00",
+  "review_type": "Independent AI-assisted static source and exact candidate review; not qualified external biological review.",
+  "base_commit": "7c2df0dad86a9aa5ea96455e4c94d9cea121fb0c",
+  "accepted_payloads": {
+    "research/cnv_fitness_pipeline_audit/CODE_REPORT.md": {
+      "bytes": 8897,
+      "sha256": "2355c7c6bc7211eadec457c0e6ed36b4337fc7e45b5c2311da1496039b8a2fc7"
+    },
+    "research/cnv_fitness_pipeline_audit/LICENSE": {
+      "bytes": 301,
+      "sha256": "268dead42a32367471a6b1009bc7c5a9bbe99494aab58e544bb5dc5bb774a5b6"
+    },
+    "research/cnv_fitness_pipeline_audit/LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 931,
+      "sha256": "7c033d4bc70cf249814d5b51b56dc228531c37f6d25ba361585fce79c56e085a"
+    },
+    "research/cnv_fitness_pipeline_audit/PIPELINE_AUDIT.json": {
+      "bytes": 25564,
+      "sha256": "ec4328ab7c6a8132b13dec387e79b6de1db5bed3c4d8f4182293c8900abb04cb"
+    },
+    "research/cnv_fitness_pipeline_audit/REPORT.md": {
+      "bytes": 8840,
+      "sha256": "07352fa880bba0adbe57597a4c82e6ea6512a7cb6836e512eb03c3d68dce7b99"
+    },
+    "research/cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json": {
+      "bytes": 10649,
+      "sha256": "01f6c6a52e30c8b5c6064f59f1682e4af99d1bbaf9d36b5b8a63d88c762a361d"
+    },
+    "research/cnv_fitness_pipeline_audit/SOURCE_PROVENANCE.json": {
+      "bytes": 10596,
+      "sha256": "c331f73872650e6ed0a05e05e647a516d28bb4e1554dd7b4ec2bfb7660ed5271"
+    }
+  },
+  "source_verification": {
+    "new_immutable_objects": 4,
+    "reused_source_artifacts": 2,
+    "facts_reviewed": 17,
+    "exact_anchor_hashes_verified": 36,
+    "tree_specific_missing_dependency_names_checked": 10,
+    "official_folder_listings_reviewed": 3,
+    "exact_inventory_records_verified": 17,
+    "actual_competition_CSV_metadata_records": 3,
+    "actual_CSV_contents_authenticated": false,
+    "source_hash_convention": "Decoded-object SHA-256 and Git-framed SHA-1 checked separately from API response hashes. Text anchors hash exact original byte lines including original endings; notebook anchors use joined stored cell source with line endings retained; article paragraph uses UTF-8 joined itertext without normalization. The search-result hash covers local tool-response JSON serialization, not upstream HTTP bytes."
+  },
+  "scientific_review": {
+    "competition_row_multiplicity": "The inspected group-by/mutate/select sequence preserves retained clone/run rows. The conditional empirical-distribution identity is valid for a nonempty eligible Lauer subset under the stated common selector. Actual multiplicities, group contributions and numerical effects remain unmeasured.",
+    "units": "The code and article literally divide hourly-regression coefficients by ln(2). The stated conditional relation k_g=k_h/nu assumes the same declared response and g=nu*t. Neither nu nor a corrected published coefficient was inferred from the approximate assay duration.",
+    "barcode_identity": "The notebook authenticates an author-provided bc04/bc01 alias statement, a four-column filter and possible low-count aggregate row. Numerical outputs and later positional barcode labels still require actual mapping records.",
+    "upstream_classification": "Finite adaptive-minus-neutral likelihood values determine the source classification and neutral zeroing. The later positive selector can inherit that model decision; it is not a separately calibrated significance test or direct mutation-origin observation.",
+    "notebook_outputs": "Stored display values are not admitted as authenticated current counts, a source replay or a publication-execution record.",
+    "validation_boundary": "The 2022 study reuses 2018 evolution populations. Experimental fitness comparisons do not independently confirm the inferred formation rate. Unmatched CNV joins do not establish DNA-negative truth.",
+    "reported_uncertainty": "Intermediate nonbarcoded interval scaling is described without asserting an erroneous published estimate or interval; exported fitness tables omit uncertainty columns.",
+    "licensing": "The actual inspected software license is MIT. Separate OSF data terms remain unverified; neither MIT nor article CC BY 4.0 is transferred automatically.",
+    "privacy_and_scope": "Seven payloads contain original analysis and selected identities, without raw code/article/notebook bodies, biological datasets, author contacts, private workspace paths or credentials."
+  },
+  "scientific_non_admissions": [
+    "No actual clone rows, clone/run counts, 29-versus-28 reconciliation, missingness reason or numerical source result was authenticated.",
+    "No source-author code execution, simulation, biological fit, new theorem, independent native origin/establishment observation or native matched W/A/M admission occurred.",
+    "Methods 0.6.0 remains unchanged; no new Zenodo version is justified."
+  ],
+  "baseline_preservation": {
+    "prior_tracked_files_frozen": 880,
+    "prior_checkpoint_fingerprints_verified": 338,
+    "study_NULLs": 26,
+    "planning_NULLs": 18,
+    "native_matched_panels": 0,
+    "all_prior_research_state_frozen": true,
+    "blocked_R5_R11_R17_and_paused_runner_frozen": true,
+    "integrated_diff_review_required": true
+  },
+  "acquisition_review": {
+    "scientific_attempts": 9,
+    "saved_source_files": 24,
+    "conservative_saved_source_bytes": 306365,
+    "explicit_duplicate_bytes": 131686,
+    "capture_and_receipt_bytes": 174679,
+    "reviewer_search_independently_cross_reviewed_by_root": true,
+    "unspent_attempts_remain_unused": true
+  },
+  "blocking_findings": [],
+  "scope": "Exact seven-file source package accepted. Integrated working-tree, immutable committed-head, website preservation and deployment evidence require separate review."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "R000040",
+  "status": "completed_internal_review",
+  "date": "2026-10-15",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-15_R40.md",
+  "completion_scope": "authenticated_competition_and_barcode_pipeline_contract_with_official_CSV_metadata",
+  "question": "Can actual source CSV/workbook or fitness-analysis artifacts authenticate clone/barcode selection, alignment, units or missingness beyond the R39 static Figure 7 audit?",
+  "scope_change": "Actual code/license acquired with explicit command-network permission; official OSF file metadata acquired. Input bodies remain outside permitted download access; no unchanged blocked file request repeated.",
+  "details": {
+    "scientific_acquisition_attempts": 9,
+    "counted_saved_source_bytes": 306365,
+    "new_immutable_Git_objects": 4,
+    "pipeline_findings": 17,
+    "source_anchor_hashes": 36,
+    "official_OSF_root_records": 9,
+    "official_OSF_fitness_records": 3,
+    "official_OSF_Lauer_data_records": 5,
+    "actual_CSV_contents_acquired": false,
+    "source_software_MIT_authenticated": true
+  },
+  "native_biological_fit": false,
+  "new_mathematical_theorem": false,
+  "source_numerical_replay": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000040",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Prioritize lawful permitted actual bytes and terms for the three version-1 competition files in OSF E9D5X: clone_fitness_pergen.csv (API-reported 1534 bytes), data_props_Lauer2018.csv (30118 bytes) and data_props_bc.csv (25545 bytes), with exact SHA-256 identities in the R40 source inventory. Current osf.io download destinations are outside the enforced runtime allowlist; resume through a supported changed-access prerequisite or a lawfully supplied exact file, without proxy/host bypass or unchanged failure retries. Verify input time units, transformed-response construction, reference growth and selection-coefficient convention before comparing hourly and per-generation slopes; the source division by ln(2) is a documented convention, not independently calibrated here. Authenticate clone/run multiplicities, exclusions, intervals and source execution before assigning one biological unit per exported row or alleging numeric error. For barcodes, acquire actual count/time inputs, filtered barcode identifiers, the author-stated bc04/bc01 biological crosswalk, retained/aggregated row manifest and output provenance, including likelihood classification and padding. Keep model-derived lineages distinct from direct competition assays, independent mutation births and genotype-negative truth. S4 clone/genotype/fluorescence membership and 29-versus-28 missingness remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and a qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
+}
