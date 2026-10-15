@@ -245,3 +245,7 @@ The previously uninspected [Tourlousse supplement](https://pmc.ncbi.nlm.nih.gov/
 ## R38 distinct older primary-source method — 15 October 2026
 
 [Lauer et al. (2018)](https://doi.org/10.1371/journal.pbio.3000069) is new to the inspected project ledgers, not newly published or a replication of R28 MutL. Selected Results/Discussion/Methods representations support a [measurement-admission assessment](research/cnv_observer_assessment/REPORT.md). Population detection, later selected-clone sequencing, FACS purity checks, barcode ancestry and pairwise fitness retain their own units and limitations. Recent-source searches were bounded; no exhaustive review or newly validated TMD result is claimed.
+
+## R39 conventional inference comparator — 15 October 2026
+
+[Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) adds a [formation-rate/fitness dependency audit](research/cnv_inference_audit/REPORT.md) and authenticated static Figure 7 code. It reuses eleven 2018 evolution trajectories while adding assay measurements. Formation-rate confirmation, source-specific marker correction, model choice and outcome-informed time-window limits retain distinct roles. Full 2018 and 2022 primary XML representations authenticate article CC BY 4.0; separate software/data terms remain unverified. No newly published discovery or native fit is claimed.

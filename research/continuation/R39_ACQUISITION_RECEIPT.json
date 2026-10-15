@@ -1,0 +1,166 @@
+{
+  "round": "R000039",
+  "scientific_acquisition_calls": 12,
+  "actor_scientific_attempts": {
+    "root": 4,
+    "clone_records": 6,
+    "independent_reviewer": 2
+  },
+  "maximum_source_acquisitions": 12,
+  "maximum_download_bytes": 20971520,
+  "counted_saved_source_bytes": 807863,
+  "derived_text_duplicate_bytes": 119398,
+  "capture_and_receipt_bytes": 688465,
+  "saved_files": [
+    {
+      "path": "ROOT_S01.body",
+      "bytes": 276,
+      "sha256": "e9f9c0f88078d54577c61e0c459402d43f2072e39899df00cd1a5d2a5615a9b6",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S01.receipt.json",
+      "bytes": 686,
+      "sha256": "36ad6d9388622c027bdb86c5557378156a8bbfb2b8ca38919b60de387d85f917",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S02.body",
+      "bytes": 269029,
+      "sha256": "41877c5a2d0f2d1905b78601a0f39b4d08f2cb55502fae0d572b50f1a58a6abe",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S02.receipt.json",
+      "bytes": 591,
+      "sha256": "cfb7484ee643add16c1df3baa7c204f5dbf95d4988c46543624e1aea0b1a5033",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S03.body",
+      "bytes": 330366,
+      "sha256": "c817733f5154c57afeae2f94388152fb8930a7b5efbdaa0467a57091c5a5266d",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S03.receipt.json",
+      "bytes": 590,
+      "sha256": "0ee3df94f4b295cb59165018107510dbacfa8e29c8ae660bf7b48a4f83ece3b8",
+      "category": "request_receipt"
+    },
+    {
+      "path": "ROOT_S04.body",
+      "bytes": 21377,
+      "sha256": "30d35b2ce0ccf840e31b9dbc35241eda053c1ccc6a4b8fb77e88a11c76b0b078",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "ROOT_S04.receipt.json",
+      "bytes": 567,
+      "sha256": "d84b4f4341097441b38e540535ffa8834fccda535f41db1f439988df952d98a6",
+      "category": "request_receipt"
+    },
+    {
+      "path": "clone_records/sources/Figure7andSup.Rmd",
+      "bytes": 9832,
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "clone_records/sources/s01.json",
+      "bytes": 264,
+      "sha256": "81bdf57c1d825cb48bcc45241c83806a3a1744a6f34ba8eb97f6ea842ea8cc03",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s02.json",
+      "bytes": 28779,
+      "sha256": "345c6b4bc34230393cd5c99ffee42bd4513b6670aaca7b99acc87c54529f3628",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s03.json",
+      "bytes": 1283,
+      "sha256": "04a03e5bc9bf7d8416be28b4ebd352893367ddb62c4838e3665b9da862ed11e4",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s04.body",
+      "bytes": 2644,
+      "sha256": "dc3045d74a9afcb50c036bf417d875587986ac8133a82b65aef68d8f94a40a69",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s04.receipt.json",
+      "bytes": 565,
+      "sha256": "a0b1e20c51036ef7b1e52e293fb974a54305e5ebad6784a143906e3bbdd13a86",
+      "category": "request_receipt"
+    },
+    {
+      "path": "clone_records/sources/s05.body",
+      "bytes": 15461,
+      "sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s05.receipt.json",
+      "bytes": 590,
+      "sha256": "ebf1f4a76a197184a591175f4543754e4b35bceb010e35e2127b0c874fb7fd91",
+      "category": "request_receipt"
+    },
+    {
+      "path": "clone_records/sources/s06.body",
+      "bytes": 13850,
+      "sha256": "261daae2d6ef73c81bad84b67e557e4e8b5fc8b33458d88c67258d7f7497d7ab",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "clone_records/sources/s06.receipt.json",
+      "bytes": 637,
+      "sha256": "0937a31df10ea48a8f0209209328c6254a4645d3ba15e5de67a6e74268ce7a5f",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/V01.receipt.json",
+      "bytes": 455,
+      "sha256": "53b04465100ed4805c39f51047ece55cadc876b8a9821fc1e4c2da54a2043345",
+      "category": "failed_preHTTP_request_receipt"
+    },
+    {
+      "path": "review/V02.receipt.json",
+      "bytes": 455,
+      "sha256": "776ac7ad6f5b08381b478d7c26dc057d8e80db9929e559cb287577206097c9ba",
+      "category": "failed_preHTTP_request_receipt"
+    },
+    {
+      "path": "review/ROOT_S03_sections.txt",
+      "bytes": 69894,
+      "sha256": "dce2cbcb5d1c6e8094211f3fe165d8b4a92a7b1fd11ade2e580f6a14ab2b8f46",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/ROOT_XML_SOURCE_REVIEW.json",
+      "bytes": 6582,
+      "sha256": "617290fe46e54f81d1438e98629ea7cf5c69f4c26bf45d4d81094d2959eb1692",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/AVECILLA2022_SOURCE_REVIEW.json",
+      "bytes": 31004,
+      "sha256": "c9784d17b5749bb772422d4d900b9a3736606452a3cab7b2d67846c40b63224d",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "clone_records/CACHED_SELECTION_NOTES.json",
+      "bytes": 2086,
+      "sha256": "1fe3102d20fc4b5b7622338e3bdec38e253a6f50c2c2e7ffaa9891740231b641",
+      "category": "derived_text_duplicate"
+    }
+  ],
+  "accounting_scope": "Every attempted scientific query/fetch, including invalid references and two preHTTP local failures. Exact saved wrappers/bodies/receipts plus decoded Rmd and explicitly retained source-rich extracts counted conservatively. Overlap counted; wire/provider-internal bytes unknown. Operational GitHub and live delivery checks excluded.",
+  "source_author_code_executed": false,
+  "source_numerical_replay": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "scientific_budget_closed": true
+}

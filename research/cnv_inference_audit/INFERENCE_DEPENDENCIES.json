@@ -1,0 +1,122 @@
+{
+  "round": "R000039",
+  "source_doi": "10.1371/journal.pbio.3001633",
+  "source_identity": {
+    "bytes": 330366,
+    "sha256": "c817733f5154c57afeae2f94388152fb8930a7b5efbdaa0467a57091c5a5266d"
+  },
+  "anchor_convention": "JATS section id plus one-based direct p child where indicated. SHA-256 hashes are UTF-8 bytes of ''.join(ElementTree.itertext()) without additional whitespace normalization; identity entry hashes article-title text and figure entries hash the selected full figure text. Full source text omitted.",
+  "claims": [
+    {
+      "id": "identity",
+      "anchor": "front/article-meta",
+      "finding": "Avecilla, Chuong, Li, Sherlock, Gresham and Ram (2022), PLoS Biology 20(5):e3001633, published 27 May 2022; DOI 10.1371/journal.pbio.3001633; PMC9140244.1. The article XML explicitly states CC BY 4.0. This is a distinct primary study, rather than a correction or the 2018 supplement.",
+      "source_text_sha256": "923ae88c2ec1995dc5848d46a3ab0a3816dc8ded5de25a2dc628ea031a01f137"
+    },
+    {
+      "id": "cohort_reuse",
+      "anchor": "pbio.3001633.g001",
+      "finding": "Figure 1A uses eleven Lauer et al. (2018) populations: gln_01–gln_09 and bc01/bc02. The new study and assay measurements reuse these prior evolution populations.",
+      "source_text_sha256": "db99e474059d2533575f7d4086c379e68f8af48f346e28745dfd9e37b81c44e3"
+    },
+    {
+      "id": "inferred_targets",
+      "anchor": "sec003/direct-p[1]",
+      "finding": "The joint inference targets are GAP1 CNV formation rate δ_C and one effective selection coefficient s_C. The article uses μ elsewhere for chemostat growth. The model starts with an isogenic population and permits each cell to acquire only one beneficial mutation, either a GAP1 CNV or another beneficial class. Other beneficial mutation parameters δ_B=10^−5 and s_B=0.001 are fixed except in declared sensitivity analyses.",
+      "source_text_sha256": "77784fc88d5b2d7b680c79fe75cb0fadd76ea29f347bdde850e156d489f7c5a1"
+    },
+    {
+      "id": "models",
+      "anchor": "sec003/direct-p[2]",
+      "finding": "Wright–Fisher uses fixed population size, discrete generations and multinomial drift. The chemostat model uses continuous overlapping generations, nutrient-dependent growth and dilution, simulated by Gillespie τ-leaping with experimental and literature parameters. Both model ordinary mutation, selection and drift.",
+      "source_text_sha256": "231763673e41269ae3967fb2f236daf51b521ec80ecfa00ac59e06307b6f781c"
+    },
+    {
+      "id": "observed_frame_prior",
+      "anchor": "sec004/direct-p[1]",
+      "finding": "The observed summaries are reporter-based population CNV proportions at 25 time points. Priors are log-uniform, with δ_C from 10^−12 to 10^−3 and s_C from 10^−4 to 0.4. These priors, models and the inherited reporter observation map condition the posterior; the trajectories do not enumerate individual mutation births.",
+      "source_text_sha256": "a38447451e5e1d28b02032275ee926e68411242543df79744589b403654dd5c9"
+    },
+    {
+      "id": "synthetic_validation",
+      "anchor": "sec005/direct-p[1]",
+      "finding": "Initial algorithm assessment uses 40 synthetic observations: five per parameter and model combination, with the generating parameters treated as truth. Three inference or training repetitions do not constitute biological replication or independent molecular validation.",
+      "source_text_sha256": "e14626b05933fc532762260e9a6e2b695d3b2602cef12007cd04639244dd9a09"
+    },
+    {
+      "id": "cross_model_limit",
+      "anchor": "sec006/direct-p[2]",
+      "finding": "Wright–Fisher inference on synthetic chemostat observations performs better at weak selection, s_C=0.001. At s_C=0.1, the true parameters fall outside the 50% and 95% highest density regions and formation rate is overestimated by 3–5 fold. This is a source-reported model-mismatch example, not a universal equivalence bound.",
+      "source_text_sha256": "4e0c1bf3b7869769a566078046c2ac17906a5830762c0b9d124db788593de640"
+    },
+    {
+      "id": "synthetic_holdout",
+      "anchor": "sec007/direct-p[3]",
+      "finding": "The three-of-eleven held-out observations used to compare DFE inference strategies belong to simulated observation sets. The empirical analysis is a separate step; these are not held-out native TMD outcomes.",
+      "source_text_sha256": "98edf60ad722653afb79177b80d544b9d3a174e22904cddfe3059fdac54ab29e"
+    },
+    {
+      "id": "post_mismatch_time_restriction",
+      "anchor": "sec008/direct-p[1]",
+      "finding": "Following posterior-predictive mismatch on the full trajectories, the authors excluded data after generation 116 and focused on earlier observations. The source uses both ‘up to 116’ and ‘prior to 116’; exact boundary-row inclusion was not checked against an input table. Early average MAP RMSE was 0.06 for restricted inference versus 0.13 for full inference. Overall RMSE through generation 267 was 0.129 versus 0.126, without a significant difference. This is an outcome-informed source analysis window, not a prospective TMD cutoff or stopping change.",
+      "source_text_sha256": "9efca4c02e1d1d02190343eb4ddca9b8ab2d89132f5f6ec19a99b0d6242c7cc7"
+    },
+    {
+      "id": "model_conditioned_estimates",
+      "anchor": "sec008/direct-p[2]",
+      "finding": "Reported MAP s_C values range from 0.04 to 0.1 under both models. Formation-rate δ_C values range from 10^−4.1 to 10^−3.4 under Wright–Fisher and from 10^−4.7 to 10^−4 under the chemostat model. These source-reported ranges across population fits have not been independently reproduced or admitted as native inputs. Model choice affects inferred formation rate despite broadly similar trajectory and fitness agreement.",
+      "source_text_sha256": "ca2ca80ba9adfcdca092d6f3e3023c821e6f68d8703fe61dd6e0b1b9dcc5cac4"
+    },
+    {
+      "id": "fitness_barcode_validation",
+      "anchor": "sec009/direct-p[1]",
+      "finding": "Whole-population barcode trajectories in bc01 identify 1,569 adaptive lineages among 80,751, of which 1,513 are classified as GAP1 CNV lineages. These are fitted lineage categories and source class assignments. Neither count is an independent mutation-birth or exposure denominator.",
+      "source_text_sha256": "1ef5fd1aeef87ab4e78ab033f54f0a6c4454bfb22c716c27196ac1cc88914a13"
+    },
+    {
+      "id": "competition_reuse",
+      "anchor": "sec009/direct-p[2]",
+      "finding": "New pairwise clone competitions from bc01/bc02 are combined with previously reported selection coefficients from gln01–gln09 clones to define the DFE. These are additional assays nested in the prior evolution material. No literal clone table has been authenticated here.",
+      "source_text_sha256": "88c57fb0614414f65c0b1442d23a0f3d8a67eea2a1373c759bf4bfae9e801e06"
+    },
+    {
+      "id": "rate_not_empirically_validated",
+      "anchor": "sec010/direct-p[4]",
+      "finding": "The Discussion states that inferred fitness was experimentally validated, while empirical validation of the inferred GAP1 CNV formation rate in nitrogen-limiting conditions requires experimental confirmation. This limits the scope of the abstract’s broader independent-confirmation wording.",
+      "source_text_sha256": "012a04975c5f6ec1c41f35f47a9c65c182c30750c269858b80355ad11c52db7f"
+    },
+    {
+      "id": "one_effective_class_limit",
+      "anchor": "sec010/direct-p[5]",
+      "finding": "The authors identify inference of one effective formation rate and selection coefficient as a limitation. Heterogeneous CNV mechanisms and other mutation classes remain possible extensions. The fitted pair does not supply a complete route-specific forecast or directly separate mutation supply from establishment.",
+      "source_text_sha256": "61db8374c1529587f2868796cb8b96e5a8faffabb4f29b68ba66e9caa13103ae"
+    },
+    {
+      "id": "competition_marker_cost",
+      "anchor": "sec016/direct-p[1]",
+      "finding": "Selected fluorescent clones competed with FY4 at approximately 1:9 for 92 hours, or about 16 generations, with flow measurements every 2–3 generations. The barcoded reporter had a slight fitness cost, and the authors used an evolved-versus-ancestral interaction to adjust comparisons. This is a source-specific marker correction, not a universal neutrality or establishment result.",
+      "source_text_sha256": "d0b505643ef79a83997f8cd1412c8abf73e132c236eb5ced7ef5c3b2a8cdd17b"
+    },
+    {
+      "id": "barcode_same_material",
+      "anchor": "sec017/direct-p[1]",
+      "finding": "Barcode sequencing uses periodically frozen samples from the prior 2018 barcoded chemostat evolution. New sequencing adds measurements of retained material without adding independently evolved populations.",
+      "source_text_sha256": "1acb9217c5020867e187eb9335cdb37957b7fa2a07e73d65abbdf353f7c5179d"
+    },
+    {
+      "id": "barcode_filtering",
+      "anchor": "sec017/direct-p[2]",
+      "finding": "The barcode pipeline uses UMI handling and clustering, and discards clusters smaller than four or with entropy quality scores above 0.75. Library fractions use supporting unique reads. These processing thresholds condition lineage visibility. Raw data in PRJNA767552 remain uninspected.",
+      "source_text_sha256": "bbab2a435b5f255423642cabb736af3a21c179733311d4f98c3248deccb8d9c8"
+    },
+    {
+      "id": "establishment_inference",
+      "anchor": "sec018/direct-p[1]",
+      "finding": "PyFitMut compares fitted lineage trajectories under adaptive and neutral assumptions. Fitness, establishment time and population mean fitness are iteratively estimated. Establishment denotes survival of drift into approximate deterministic growth, but its timing is inferred from trajectories. It is not an independent earlier molecular observer or a loss-inclusive mutation-birth census.",
+      "source_text_sha256": "4bff5a1a0d7113af1985f8a661376a45f498c705e6f323f890e7a30da9b9aa9a"
+    }
+  ],
+  "status": "Original dependency interpretation of a published conventional comparator; no native fit or empirical TMD confirmation.",
+  "source_code_executed": false,
+  "new_fit_executed": false
+}

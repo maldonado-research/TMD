@@ -1,0 +1,255 @@
+{
+  "round": "R000039",
+  "fulltext_sources": [
+    {
+      "doi": "10.1371/journal.pbio.3000069",
+      "PMCID_version": "PMC6298651.1",
+      "PMID": "30562346",
+      "license": "CC BY 4.0",
+      "capture": {
+        "bytes": 269029,
+        "sha256": "41877c5a2d0f2d1905b78601a0f39b4d08f2cb55502fae0d572b50f1a58a6abe"
+      },
+      "URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6298651&retmode=xml"
+    },
+    {
+      "doi": "10.1371/journal.pbio.3001633",
+      "PMCID_version": "PMC9140244.1",
+      "PMID": "35622868",
+      "publication_date": "2022-05-27",
+      "license": "CC BY 4.0",
+      "capture": {
+        "bytes": 330366,
+        "sha256": "c817733f5154c57afeae2f94388152fb8930a7b5efbdaa0467a57091c5a5266d"
+      },
+      "URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9140244&retmode=xml"
+    }
+  ],
+  "root_acquisitions": [
+    {
+      "id": "S01",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=10.1371%2Fjournal.pbio.3000069%5BDOI%5D&retmode=json&retmax=5",
+      "started_at_utc": "2026-10-15T17:11:49.166590+00:00",
+      "cap_bytes": 1048576,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=10.1371%2Fjournal.pbio.3000069%5BDOI%5D&retmode=json&retmax=5",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 276,
+      "sha256": "e9f9c0f88078d54577c61e0c459402d43f2072e39899df00cd1a5d2a5615a9b6",
+      "completed_at_utc": "2026-10-15T17:11:49.551632+00:00"
+    },
+    {
+      "id": "S02",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6298651&retmode=xml",
+      "started_at_utc": "2026-10-15T17:12:36.857837+00:00",
+      "cap_bytes": 2097152,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6298651&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 269029,
+      "sha256": "41877c5a2d0f2d1905b78601a0f39b4d08f2cb55502fae0d572b50f1a58a6abe",
+      "completed_at_utc": "2026-10-15T17:12:37.179650+00:00"
+    },
+    {
+      "id": "S03",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9140244&retmode=xml",
+      "started_at_utc": "2026-10-15T17:13:11.291589+00:00",
+      "cap_bytes": 524288,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9140244&retmode=xml",
+      "content_type": "text/xml; charset=UTF-8",
+      "bytes": 330366,
+      "sha256": "c817733f5154c57afeae2f94388152fb8930a7b5efbdaa0467a57091c5a5266d",
+      "completed_at_utc": "2026-10-15T17:13:11.694673+00:00"
+    },
+    {
+      "id": "S04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298651/bin/pbio.3000069.s021.xlsx",
+      "started_at_utc": "2026-10-15T17:13:37.756069+00:00",
+      "cap_bytes": 1048576,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298651/bin/pbio.3000069.s021.xlsx",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 21377,
+      "sha256": "30d35b2ce0ccf840e31b9dbc35241eda053c1ccc6a4b8fb77e88a11c76b0b078",
+      "completed_at_utc": "2026-10-15T17:13:38.016531+00:00"
+    }
+  ],
+  "producer_acquisitions": [
+    {
+      "attempt": 1,
+      "capture": "s01.json",
+      "operation": "web.click",
+      "requested_artifact": "R38 article capture, link 132",
+      "outcome": "invalid web reference; no publisher response",
+      "capture_bytes": 264,
+      "capture_sha256": "81bdf57c1d825cb48bcc45241c83806a3a1744a6f34ba8eb97f6ea842ea8cc03",
+      "retry": false,
+      "tool_name": "mcp__codex_apps__search_service_web_run",
+      "tool_request": {
+        "click": [
+          {
+            "ref_id": "turn541138view0",
+            "id": 132
+          }
+        ],
+        "response_length": "long"
+      },
+      "capture_saved_at_utc": "2026-10-15T17:10:56.095887+00:00",
+      "save_time_note": "Local capture write time; no separate tool network start/end timestamp available."
+    },
+    {
+      "attempt": 2,
+      "capture": "s02.json",
+      "operation": "web.open",
+      "requested_artifact": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000069",
+      "outcome": "browser article representation; S4 linked as DOI .s021",
+      "capture_bytes": 28779,
+      "capture_sha256": "345c6b4bc34230393cd5c99ffee42bd4513b6670aaca7b99acc87c54529f3628",
+      "retry": false,
+      "tool_name": "mcp__codex_apps__search_service_web_run",
+      "tool_request": {
+        "open": [
+          {
+            "ref_id": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000069",
+            "lineno": 560
+          }
+        ],
+        "response_length": "long"
+      },
+      "capture_saved_at_utc": "2026-10-15T17:10:56.475895+00:00",
+      "save_time_note": "Local capture write time; no separate tool network start/end timestamp available."
+    },
+    {
+      "attempt": 3,
+      "capture": "s03.json",
+      "operation": "web.click",
+      "requested_artifact": "https://journals.plos.org/plosbiology/article/file?id=10.1371%2Fjournal.pbio.3000069.s021&type=supplementary",
+      "outcome": "tool cannot access PLOS storage redirect; no workbook bytes",
+      "capture_bytes": 1283,
+      "capture_sha256": "04a03e5bc9bf7d8416be28b4ebd352893367ddb62c4838e3665b9da862ed11e4",
+      "retry": false,
+      "tool_name": "mcp__codex_apps__search_service_web_run",
+      "tool_request": {
+        "click": [
+          {
+            "ref_id": "turn767652view0",
+            "id": 257
+          }
+        ],
+        "response_length": "long"
+      },
+      "capture_saved_at_utc": "2026-10-15T17:11:37.084815+00:00",
+      "save_time_note": "Local capture write time; no separate tool network start/end timestamp available."
+    },
+    {
+      "attempt": 4,
+      "capture": "s04.body",
+      "operation": "HTTPS GET via inherited proxy/TLS",
+      "requested_artifact": "https://api.github.com/repos/GreshamLab/flow/git/trees/HEAD?recursive=1",
+      "outcome": 200,
+      "capture_bytes": 2644,
+      "capture_sha256": "dc3045d74a9afcb50c036bf417d875587986ac8133a82b65aef68d8f94a40a69",
+      "receipt_file": "s04.receipt.json",
+      "started_at_utc": "2026-10-15T17:16:11.850768+00:00",
+      "completed_at_utc": "2026-10-15T17:16:12.213427+00:00",
+      "retry": false
+    },
+    {
+      "attempt": 5,
+      "capture": "s05.body",
+      "operation": "HTTPS GET via inherited proxy/TLS",
+      "requested_artifact": "https://api.github.com/repos/graceave/cnv_sims_inference/git/trees/HEAD?recursive=1",
+      "outcome": 200,
+      "capture_bytes": 15461,
+      "capture_sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb",
+      "receipt_file": "s05.receipt.json",
+      "started_at_utc": "2026-10-15T17:16:29.057259+00:00",
+      "completed_at_utc": "2026-10-15T17:16:29.517818+00:00",
+      "retry": false
+    },
+    {
+      "attempt": 6,
+      "capture": "s06.body",
+      "operation": "HTTPS GET via inherited proxy/TLS",
+      "requested_artifact": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "outcome": 200,
+      "capture_bytes": 13850,
+      "capture_sha256": "261daae2d6ef73c81bad84b67e557e4e8b5fc8b33458d88c67258d7f7497d7ab",
+      "receipt_file": "s06.receipt.json",
+      "started_at_utc": "2026-10-15T17:17:22.358974+00:00",
+      "completed_at_utc": "2026-10-15T17:17:22.721228+00:00",
+      "retry": false
+    }
+  ],
+  "reviewer_acquisitions": [
+    {
+      "file": "V01.receipt.json",
+      "bytes": 455,
+      "sha256": "53b04465100ed4805c39f51047ece55cadc876b8a9821fc1e4c2da54a2043345",
+      "receipt": {
+        "id": "V01",
+        "url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+        "started_at_utc": "2026-10-15T17:19:34.171379+00:00",
+        "max_response_bytes": 262144,
+        "proxy": "inherited",
+        "TLS_verification": true,
+        "retries": 0,
+        "source_execution": false,
+        "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+        "completed_at_utc": "2026-10-15T17:19:34.182829+00:00"
+      }
+    },
+    {
+      "file": "V02.receipt.json",
+      "bytes": 455,
+      "sha256": "776ac7ad6f5b08381b478d7c26dc057d8e80db9929e559cb287577206097c9ba",
+      "receipt": {
+        "id": "V02",
+        "url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+        "started_at_utc": "2026-10-15T17:19:34.166601+00:00",
+        "max_response_bytes": 262144,
+        "proxy": "inherited",
+        "TLS_verification": true,
+        "retries": 0,
+        "source_execution": false,
+        "error": "URLError: <urlopen error [Errno 1] Operation not permitted>",
+        "completed_at_utc": "2026-10-15T17:19:34.178702+00:00"
+      }
+    }
+  ],
+  "raw_source_bodies_published": false,
+  "acquisition_totals": {
+    "round": "R000039",
+    "scientific_acquisition_calls": 12,
+    "actor_scientific_attempts": {
+      "root": 4,
+      "clone_records": 6,
+      "independent_reviewer": 2
+    },
+    "maximum_source_acquisitions": 12,
+    "maximum_download_bytes": 20971520,
+    "counted_saved_source_bytes": 807863,
+    "derived_text_duplicate_bytes": 119398,
+    "capture_and_receipt_bytes": 688465,
+    "accounting_scope": "Every attempted scientific query/fetch, including invalid references and two preHTTP local failures. Exact saved wrappers/bodies/receipts plus decoded Rmd and explicitly retained source-rich extracts counted conservatively. Overlap counted; wire/provider-internal bytes unknown. Operational GitHub and live delivery checks excluded.",
+    "source_author_code_executed": false,
+    "source_numerical_replay": false,
+    "author_methods_Zenodo_requests": 0,
+    "third_party_Zenodo_requests": 0,
+    "scientific_budget_closed": true
+  },
+  "coverage": "Full main article XML and one actual immutable Rmd statically inspected; S4 workbook, required CSV contents, fitness_assays.R and GitHub license body unrecovered. No numerical replay. DOI search expanded to AllFields; article identity independently verified after retrieval."
+}

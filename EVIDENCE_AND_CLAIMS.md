@@ -186,3 +186,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | Published yeast CNV source combines reporter controls and selected-clone molecular checks | [Source assessment](research/cnv_observer_assessment/REPORT.md) | The 7.1% population threshold, later sequence validation, fluorescence purity correction and fitness are separate targets; no all-birth or establishment inference. |
 | Official deposit metadata identifies six root and four Flow_cytometry records | [Inventory](research/cnv_observer_assessment/ROOT_SOURCE_INVENTORY.json) | Two folder levels only; API file versions/hashes are not local file-byte authentication. Deposit reuse terms and native event truth unresolved. |
+
+## R39 conventional CNV inference and code dependencies — 15 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Published study validates inferred fitness while requiring empirical formation-rate confirmation | [Source report](research/cnv_inference_audit/REPORT.md) | Same historical evolution populations; model/window-dependent rate inference is not independent mutation-birth truth. |
+| Actual immutable Figure 7 Rmd statically authenticated | [Code audit](research/cnv_inference_audit/CODE_AUDIT.json) | Positive estimates are sign-selected, not significance-selected. Row-order, aliases, joins and actual CSV contents remain unverified; no source replay or demonstrated bug. |

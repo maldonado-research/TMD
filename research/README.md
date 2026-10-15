@@ -173,3 +173,7 @@ The [supplement record audit](calibration_supplement_records/REPORT.md) corrobor
 ## R38: reporter validation and native-origin admission
 
 The [source assessment](cnv_observer_assessment/REPORT.md) and [12-gate matrix](cnv_observer_assessment/MEASUREMENT_ADMISSION_MATRIX.json) separate population thresholds, selected-clone DNA checks, regrown-clone fluorescence and pairwise fitness. The [official inventory](cnv_observer_assessment/ROOT_SOURCE_INVENTORY.json) identifies named data/code objects at two folder levels; contents and applicable deposit terms remain unverified. [R38 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R38.md). All 44 actual/planning values remain NULL. R37 source-access no-change checkpoint is preserved.
+
+## R39: CNV inference and static source-code dependencies
+
+The [report](cnv_inference_audit/REPORT.md), [inference dependency map](cnv_inference_audit/INFERENCE_DEPENDENCIES.json) and [authenticated code audit](cnv_inference_audit/CODE_AUDIT.json) distinguish measured fitness, inferred formation/establishment and selected comparison inputs. Actual clone/CSV joins remain unresolved; all 44 actual/planning values remain NULL. [R39 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R39.md).

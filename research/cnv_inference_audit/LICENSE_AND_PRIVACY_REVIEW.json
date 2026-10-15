@@ -1,0 +1,10 @@
+{
+  "round": "R000039",
+  "original_analysis": "CC BY 4.0 under repository terms; AI assistance disclosed.",
+  "article_terms": "Explicit CC BY 4.0 in both authenticated article XML representations.",
+  "separate_data_code_terms": "OSF applicable terms remain unverified; prior inspected node_license null is not global absence. GitHub LICENSE body not acquired. No article license transferred to separate software/data.",
+  "public_payload": "Original interpretation, dependency maps and selected identity/anchor facts only. No source fulltext, code bodies, figures, author contacts, raw biological data, credentials or private archive locators.",
+  "private_archive_scope": "Bounded 11,224-filename screen in a named study subtree found zero matching DOI/Lauer/S4 filenames; no contents/global-absence claim.",
+  "source_code_execution": false,
+  "native_values_filled": false
+}
