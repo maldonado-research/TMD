@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "round": "R000041",
+  "kind": "conditional_bounded_multiplicity_bookkeeping",
+  "source_article_doi": "10.1371/journal.pbio.3001633",
+  "prior_audit": "../cnv_fitness_pipeline_audit/PIPELINE_AUDIT.json",
+  "scope": {
+    "population": "Same selected, nonempty Lauer-derived clone frame only",
+    "source_conditional_max_multiplicity": 3,
+    "allowed_multiplicities": [
+      1,
+      2,
+      3
+    ],
+    "source_runs": [
+      "run2",
+      "run3",
+      "run4"
+    ],
+    "threshold": "Common clone mean <= x",
+    "comparison": "Exported-row CDF versus unique-eligible-clone CDF with unchanged means and selectors",
+    "excluded_source_component": "Separately appended barcoded portion",
+    "not_all_mutation_births": true,
+    "actual_row_count": null,
+    "actual_clone_count": null,
+    "actual_multiplicities": null,
+    "actual_cdf_distortion": null
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "condition": "Inspected source generates the relevant table without alteration, extra row duplication or undocumented loss.",
+      "verified_for_actual_deposited_data": false
+    },
+    {
+      "id": "A2",
+      "condition": "Clone identifiers are stable, nonmissing and one-to-one with clones in the selected Lauer-derived frame; no identity split or merge.",
+      "verified_for_actual_deposited_data": false
+    },
+    {
+      "id": "A3",
+      "condition": "Each retained fit and exported mean is finite numeric; at most one fitted row per clone per run2/run3/run4, and at least one eligible clone remains.",
+      "verified_for_actual_deposited_data": false
+    },
+    {
+      "id": "A4",
+      "condition": "All exported rows of each clone have one identical mean; both CDFs apply the same ancestor exclusions and positive-mean selector, retaining or removing each clone as a whole.",
+      "verified_for_actual_deposited_data": false
+    },
+    {
+      "id": "A5",
+      "condition": "The Lauer-derived component is identified and analyzed separately from the appended barcoded component.",
+      "verified_for_actual_deposited_data": false
+    }
+  ],
+  "formula_contract": {
+    "p": "sum_j r_j*I(m_j<=x) / sum_j r_j",
+    "q": "sum_j I(m_j<=x) / J",
+    "envelope_lower": "p / (K - (K-1)*p)",
+    "envelope_upper": "K*p / (1 + (K-1)*p)",
+    "uniform_gap_supremum": "(sqrt(K)-1)/(sqrt(K)+1)",
+    "K3_uniform_gap_supremum": "2-sqrt(3)",
+    "K3_uniform_gap_approximate": 0.2679491924311227,
+    "uniform_scope": "Sharp supremum over all finite populations of unspecified size and composition; bounds every threshold gap, with no actual distortion estimate.",
+    "K3_supremum_attained_by_finite_integer_population": false,
+    "finite_unknown_J_lower": "ceil(k/K)/(ceil(k/K)+N-k)",
+    "finite_unknown_J_upper": "k/(k+ceil((N-k)/K))",
+    "finite_known_J_B_min": "max(ceil(k/K), J-(N-k))",
+    "finite_known_J_B_max": "min(k, J-ceil((N-k)/K))",
+    "finite_known_J_bounds": "[B_min/J, B_max/J]",
+    "finite_feasibility": [
+      "N,K positive integers; 0<=k<=N; bool excluded",
+      "When supplied, J positive integer and J<=N<=K*J",
+      "When J is supplied, B_min<=B_max is additionally required"
+    ],
+    "finite_sharpness_scope": "Exact attained endpoints given only N,k,K and optional J; intermediate fractions need not be attainable; full value patterns or known identities can constrain further.",
+    "multiple_thresholds": "Pointwise endpoint bounds need not be simultaneously attainable by one identity assignment.",
+    "empty_frame": "Reject; empirical CDF undefined.",
+    "equal_multiplicities": "p=q exactly."
+  },
+  "implementation": {
+    "file": "bounds.py",
+    "dependencies": "Python standard library only",
+    "arithmetic": "Exact fractions.Fraction; no floating-point arithmetic in bounds implementation",
+    "probability_inputs": "int or Fraction excluding bool; floats rejected",
+    "count_inputs": "int excluding bool",
+    "functions": [
+      "clone_cdf_envelope",
+      "finite_clone_cdf_bounds",
+      "endpoint_realizations"
+    ],
+    "witness_status": "Constructed hypothetical endpoint realizations; not estimates of actual identities or multiplicities",
+    "bounds_complexity": "Constant number of integer operations, no iteration over N or J; integer bit complexity depends on input magnitude.",
+    "witness_complexity": "O(N) entries in worst case; opt-in."
+  },
+  "verification": {
+    "test_file": "test_bounds.py",
+    "test_methods": 9,
+    "status": "passed",
+    "python_version": "3.12.14",
+    "independent_oracle": "Enumerates all ordered bounded compositions directly, without ceiling formulas",
+    "enumeration_totals": "N=1..10; K=1..4; k=0..N; candidate J=1..N+1",
+    "constructive_tests": "N=1..30; K in {1,2,3,5}; all threshold counts; unknown and selected known J",
+    "additional_tests": [
+      "Rational-envelope endpoint attainment",
+      "Equal-weight identity",
+      "Infeasible threshold despite feasible global totals",
+      "Large exact integer arithmetic",
+      "Type/range/empty-frame rejection"
+    ],
+    "meaning": "Validation of original deterministic bookkeeping implementation only"
+  },
+  "figure": {
+    "generator": "make_figure.py",
+    "files": [
+      "figure.png",
+      "figure.svg"
+    ],
+    "plotting_dependency": "matplotlib 3.10.8",
+    "data_status": "Hypothetical mathematical curves; no empirical points",
+    "caps": [
+      1,
+      2,
+      3
+    ],
+    "interpretation": "Pointwise envelopes and uniform gap suprema under bounded multiplicity assumptions; finite row totals may tighten bounds."
+  },
+  "sources": [
+    {
+      "id": "competition",
+      "repository_relative_path": "fitness_assays/fitness_assays.R",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+      "git_blob_sha1": "e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+      "sha256": "9a10ee1caf7001137101de4811cd05e55a4a5fa91db1da51d84c0243317e9d08",
+      "bytes": 3158,
+      "cached_reuse": true,
+      "new_network_fetch": false,
+      "git_framed_sha1_verified_locally": true,
+      "anchors": [
+        {
+          "line_start": 7,
+          "line_end": 10,
+          "source_slice_sha256": "35bc7317e68835a4a1e2593688c47d63d3f58c886f36e3276c6a72bb20d7ccbb",
+          "paraphrased_finding": "Named upstream ancestor exclusions."
+        },
+        {
+          "line_start": 13,
+          "line_end": 25,
+          "source_slice_sha256": "623b51f87dc4c7c4d8352828150714c4bf69799595a440c2e9955ba4c7a7e12e",
+          "paraphrased_finding": "One finite numeric result assumed per valid per-run fit; empty subset returns no result."
+        },
+        {
+          "line_start": 39,
+          "line_end": 45,
+          "source_slice_sha256": "8b5ac135fb8dc18365b28797986d389cbb12a9a1fd0f38b25ba35e81281c4b76",
+          "paraphrased_finding": "One invocation per unique clone label within each of run2, run3 and run4."
+        },
+        {
+          "line_start": 48,
+          "line_end": 58,
+          "source_slice_sha256": "17728f86e0f7896576b8b12e17089d38c0e8bd9a2a68d1d06f1e3170277a0fdf",
+          "paraphrased_finding": "Combines fitted run rows and assigns a common clone mean without collapsing rows."
+        },
+        {
+          "line_start": 60,
+          "line_end": 72,
+          "source_slice_sha256": "0f1b009e9ea804160046d4ffdd1b3c019898c50e56ddd91f3c53c451cdfd1ce0",
+          "paraphrased_finding": "Barcoded clone fits are constructed separately and appended before export."
+        }
+      ]
+    },
+    {
+      "id": "figure7",
+      "repository_relative_path": "figures/Figure7andSup.Rmd",
+      "source_url": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "git_blob_sha1": "14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "bytes": 9832,
+      "cached_reuse": true,
+      "new_network_fetch": false,
+      "git_framed_sha1_verified_locally": true,
+      "anchors": [
+        {
+          "line_start": 147,
+          "line_end": 150,
+          "source_slice_sha256": "ab76a8b63cc9635b58e0b8a08662b32ed4612e29abd2a7cf1060f71fa72f8442",
+          "paraphrased_finding": "Ancestor substring selector applied to the competition table."
+        },
+        {
+          "line_start": 200,
+          "line_end": 204,
+          "source_slice_sha256": "ca64d0ce6cef9ff766ced8792cb6e0b6b1d1eecc45e15e5495f77cdf3d6aa022",
+          "paraphrased_finding": "Positive-mean selector on the competition table before plotting."
+        }
+      ]
+    }
+  ],
+  "source_anchor_convention": "One-based inclusive source lines; SHA-256 over exact original byte lines including original line endings. Only hashes and paraphrased facts are included.",
+  "non_admissions": {
+    "new_theorem": false,
+    "new_TMD_predictor": false,
+    "confidence_interval": false,
+    "actual_published_bias_established": false,
+    "source_error_established": false,
+    "author_code_executed_or_imported": false,
+    "source_execution_reproduced": false,
+    "biological_fit_executed": false,
+    "native_WAM_admission": false,
+    "density_height_or_KDE_bandwidth_bound": false,
+    "combined_barcoded_distribution_bound": false,
+    "actual_row_multiplicity_estimate": false
+  },
+  "source_rights": {
+    "cached_repository_software_license": "MIT (authenticated in R40)",
+    "separate_OSF_dataset_terms_verified": false,
+    "raw_author_code_republished": false,
+    "raw_biological_data_republished": false,
+    "fresh_source_requests": 0,
+    "fresh_source_bytes": 0
+  },
+  "preservation": {
+    "study_inputs_NULL": 26,
+    "planning_inputs_NULL": 18,
+    "native_WAM_panels": 0,
+    "methods_version": "0.6.0",
+    "unchanged": [
+      "R5",
+      "R11",
+      "R17",
+      "theta/eta",
+      "predictors",
+      "comparators",
+      "evaluation",
+      "error allocation",
+      "fixed stopping",
+      "paused runner"
+    ],
+    "new_methods_version_admitted": false
+  },
+  "public_files": [
+    "REPORT.md",
+    "BOUNDS_CONTRACT.json",
+    "bounds.py",
+    "test_bounds.py",
+    "make_figure.py",
+    "figure.png",
+    "figure.svg"
+  ]
+}

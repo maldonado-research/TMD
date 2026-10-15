@@ -1,0 +1,43 @@
+{
+  "id": "R000041",
+  "status": "completed_internal_review",
+  "date": "2026-10-15",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-15_R41.md",
+  "completion_scope": "exact_conditional_clone_weight_sensitivity_and_recent_primary_comparator_assessment",
+  "question": "Can exact conditional sensitivity bounds quantify how clone/run multiplicities from the authenticated source could alter a row-based fitness comparison, without assuming actual data or changing the frozen TMD test?",
+  "scope_change": "Unchanged CSV download access kept parked; renewed user authorization used for a source-supported deterministic sensitivity audit and a separate recent-primary-source comparator. No unsupported TMD theory extension.",
+  "details": {
+    "scientific_acquisition_attempts": 3,
+    "counted_saved_source_bytes": 172495,
+    "own_math_tests": 9,
+    "independent_reachable_states": 51583,
+    "independent_known_J_cases": 31200,
+    "independent_witnesses": 42416,
+    "recent_primary_doi": "10.1126/sciadv.adj6957",
+    "recent_claims": 16,
+    "recent_paragraph_anchors": 36,
+    "actual_CSV_contents_acquired": false
+  },
+  "conditional_numeric_validation": true,
+  "native_biological_fit": false,
+  "new_mathematical_theorem": false,
+  "source_numerical_replay": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000041",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Keep unchanged OSF CSV download access parked until a supported changed-access prerequisite or lawfully supplied exact file becomes available. Prioritize actual bytes and applicable terms for the three R40 version-1 competition CSVs, with their advertised hashes, time/response units, clone/run identity, exclusions and publication-execution provenance. Apply the R41 exact bounds only after verifying the isolated selected Lauer-derived frame, stable biological clone labels, a common finite estimate per clone and the one-to-three repeated-row cap. Actual row totals, threshold counts and optional unique-clone count can tighten the bounds; hypothetical inputs do not fill study fields. Do not apply empirical-CDF bounds directly to the combined barcoded KDE, automatic bandwidth, all mutation births or unmeasured recovery. Barcode count/time/identifier/aggregate-row truth, S4 genotype/fluorescence and 29-versus-28 missingness remain unresolved. The separate 2026 Ding source motivates genotype/environment and growth-clock controls; its endpoint, exclusion, callable-site and expected-LOH corrections are not native mutation-birth or establishment truth. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No source-author code execution, biological fit, unsupported theory extension, outreach or laboratory work."
+}

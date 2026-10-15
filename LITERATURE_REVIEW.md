@@ -253,3 +253,7 @@ The previously uninspected [Tourlousse supplement](https://pmc.ncbi.nlm.nih.gov/
 ## R40 actual analysis artifacts and input identities — 15 October 2026
 
 The [Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) source chain now has an authenticated [fitness and barcode pipeline audit](research/cnv_fitness_pipeline_audit/REPORT.md). Three actual code artifacts and an MIT license resolve static dependencies while exact OSF metadata identifies named input/output CSVs. Their contents, row weighting, unit calibration and publication execution remain unverified. Standard conditional bookkeeping does not constitute a new theorem or biological result. No new evolution cohort or newly published discovery is claimed.
+
+## R41 new-to-ledger 2026 primary comparator — 15 October 2026
+
+[Ding et al. (29 April 2026)](https://doi.org/10.1126/sciadv.adj6957) adds a [full-primary-source assessment](research/clone_weight_sensitivity/WATCH.md) of yeast growth/mutation-rate associations. Established lines, exclusions, growth proxy, generation/time denominators, split-measurement checks and expected LOH correction remain explicit. One full primary article was assessed following a bounded search; other returned leads are not full-text evidence. Separate [conditional row-weight mathematics](research/clone_weight_sensitivity/REPORT.md) uses cached R40 code and no observations from this study.
