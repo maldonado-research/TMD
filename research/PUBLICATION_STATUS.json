@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Prioritize lawful permitted actual bytes and terms for the three version-1 competition files in OSF E9D5X: clone_fitness_pergen.csv (API-reported 1534 bytes), data_props_Lauer2018.csv (30118 bytes) and data_props_bc.csv (25545 bytes), with exact SHA-256 identities in the R40 source inventory. Current osf.io download destinations are outside the enforced runtime allowlist; resume through a supported changed-access prerequisite or a lawfully supplied exact file, without proxy/host bypass or unchanged failure retries. Verify input time units, transformed-response construction, reference growth and selection-coefficient convention before comparing hourly and per-generation slopes; the source division by ln(2) is a documented convention, not independently calibrated here. Authenticate clone/run multiplicities, exclusions, intervals and source execution before assigning one biological unit per exported row or alleging numeric error. For barcodes, acquire actual count/time inputs, filtered barcode identifiers, the author-stated bc04/bc01 biological crosswalk, retained/aggregated row manifest and output provenance, including likelihood classification and padding. Keep model-derived lineages distinct from direct competition assays, independent mutation births and genotype-negative truth. S4 clone/genotype/fluorescence membership and 29-versus-28 missingness remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and a qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work.",
+  "next_action": "Keep unchanged OSF CSV download access parked until a supported changed-access prerequisite or lawfully supplied exact file becomes available. Prioritize actual bytes and applicable terms for the three R40 version-1 competition CSVs, with their advertised hashes, time/response units, clone/run identity, exclusions and publication-execution provenance. Apply the R41 exact bounds only after verifying the isolated selected Lauer-derived frame, stable biological clone labels, a common finite estimate per clone and the one-to-three repeated-row cap. Actual row totals, threshold counts and optional unique-clone count can tighten the bounds; hypothetical inputs do not fill study fields. Do not apply empirical-CDF bounds directly to the combined barcoded KDE, automatic bandwidth, all mutation births or unmeasured recovery. Barcode count/time/identifier/aggregate-row truth, S4 genotype/fluorescence and 29-versus-28 missingness remain unresolved. The separate 2026 Ding source motivates genotype/environment and growth-clock controls; its endpoint, exclusion, callable-site and expected-LOH corrections are not native mutation-birth or establishment truth. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No source-author code execution, biological fit, unsupported theory extension, outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,16 +41,16 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000040"
+      "R000041"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-15_R40.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-15_R41.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "third_party_public_Zenodo_requests_this_round": 0,
-    "scientific_acquisition_attempts": 9,
+    "scientific_acquisition_attempts": 3,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "authenticated_competition_and_barcode_pipeline_contract_with_official_CSV_metadata"
+    "scientific_inference_status": "exact_conditional_clone_weight_sensitivity_and_recent_primary_comparator_assessment"
   },
   "github_research_addenda_history": [
     {
@@ -262,6 +262,19 @@
       "scientific_acquisition_attempts": 12,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "conventional_CNV_inference_dependency_and_authenticated_static_code_audit"
+    },
+    {
+      "latest_rounds": [
+        "R000040"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-15_R40.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "third_party_public_Zenodo_requests_this_round": 0,
+      "scientific_acquisition_attempts": 9,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "authenticated_competition_and_barcode_pipeline_contract_with_official_CSV_metadata"
     }
   ],
   "publication_verified_file_count": 8,

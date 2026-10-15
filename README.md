@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R40, 15 October 2026
+## Latest research checkpoint — R41, 15 October 2026
+
+The [conditional clone-weight analysis](research/clone_weight_sensitivity/REPORT.md) adds exact rational bounds, constructive checks and a hypothetical figure for the selected three-run source frame. It quantifies possible row-versus-clone CDF differences without estimating actual distortion. A separate [April 2026 primary-source assessment](research/clone_weight_sensitivity/WATCH.md) retains genotype/environment, growth-clock, exclusion and detection limits. [R41 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R41.md).
+
+Nine mathematical tests and independent enumeration pass. Actual CSV inputs remain unrecovered; all 26 study and 18 planning inputs stay NULL. No biological fit, new theorem or frozen TMD predictor change; methods 0.6.0 and the paused runner remain fixed.
+
+## Prior R40 checkpoint — 15 October 2026
 
 The [fitness-pipeline audit](research/cnv_fitness_pipeline_audit/REPORT.md) authenticates actual competition/barcode code and distinguishes repeated clone/run estimates, source unit conventions and model-classified lineages. The [official inventory](research/cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json) locates the three named competition CSVs with versioned metadata; their contents and separate data terms remain unverified. [R40 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R40.md).
 

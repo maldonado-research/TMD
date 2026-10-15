@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "BOUNDS_CONTRACT.json",
+      "bytes": 10200,
+      "sha256": "9611da4717ad8630dece09a38d27dfa745a0a6ec663785b510c2b45d43348449"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 6909,
+      "sha256": "38e30fc81445dffd7f9e9e11e722882dbf670142d1a029e2ce1922b9c8c91e05"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1428,
+      "sha256": "f52a9e54a75d11d00456ec5310c8d1c87ae73f673d99ce47702028c6c37198c2"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 869,
+      "sha256": "9a7ec065f7c7c3fab69c0ab505c88b3e146afc492ada4d1ddab8c896e95f49c3"
+    },
+    {
+      "path": "RECENT_SOURCE_ASSESSMENT.json",
+      "bytes": 15624,
+      "sha256": "86072847bd218f487f9032accd5511dfdbc101cbe1d60a011d75b45b241503d7"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 12469,
+      "sha256": "7444e4d127173d99ec6e0a4b9660a2fbe26dd55b86de30e6e126c77706a89921"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 4499,
+      "sha256": "fde3c8e49161904b13238bb637690913a6779891f94c5d50d40b3d4c076757e1"
+    },
+    {
+      "path": "WATCH.md",
+      "bytes": 5103,
+      "sha256": "90c9f49270789b40603fd5bc1a726f7705721b222045d74d43b2e53efc2d91f8"
+    },
+    {
+      "path": "bounds.py",
+      "bytes": 6533,
+      "sha256": "4a4e72a2a144cededa6abc1d0d25eb1448133a34af352397beed9f2dab9f3e3f"
+    },
+    {
+      "path": "figure.png",
+      "bytes": 201681,
+      "sha256": "d272c4b51e4b315df21e410a9b3652db5437b69162289d55333a3a82ca14c30b"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 131505,
+      "sha256": "f72599cdee8120eba70d5f616c1a53ec324f648f6cb6162490b96c5834bc7d5a"
+    },
+    {
+      "path": "make_figure.py",
+      "bytes": 3664,
+      "sha256": "1d3b78b26ca088c5194fac15137289fcfbaec8f0236af4fb33e7e5e42c25725d"
+    },
+    {
+      "path": "test_bounds.py",
+      "bytes": 8199,
+      "sha256": "fe5819939b1296bd73f167fe7c0fedbb954cb86ed438d731ff8258f6d8b64de4"
+    }
+  ],
+  "closure": "Thirteen payloads plus this manifest and SHA256SUMS.txt form the complete fifteen-file package. Checksum list covers payloads and manifest, excluding itself."
+}

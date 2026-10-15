@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "round": "R000041",
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-15T23:25:02.796696+00:00",
+  "review_type": "Internal independent AI-assisted review; not qualified external biological or legal review.",
+  "baseline_commit": "c52d07411db82ae1e84f019ea876bd0a3ced0488",
+  "scope": "Exact 12-file conditional weighting and recent-primary-source package. Integrated repository, immutable commit, merge and live publication verification are separate.",
+  "accepted_payloads": {
+    "research/clone_weight_sensitivity/BOUNDS_CONTRACT.json": {
+      "bytes": 10200,
+      "sha256": "9611da4717ad8630dece09a38d27dfa745a0a6ec663785b510c2b45d43348449"
+    },
+    "research/clone_weight_sensitivity/LICENSE": {
+      "bytes": 1428,
+      "sha256": "f52a9e54a75d11d00456ec5310c8d1c87ae73f673d99ce47702028c6c37198c2"
+    },
+    "research/clone_weight_sensitivity/LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 869,
+      "sha256": "9a7ec065f7c7c3fab69c0ab505c88b3e146afc492ada4d1ddab8c896e95f49c3"
+    },
+    "research/clone_weight_sensitivity/RECENT_SOURCE_ASSESSMENT.json": {
+      "bytes": 15624,
+      "sha256": "86072847bd218f487f9032accd5511dfdbc101cbe1d60a011d75b45b241503d7"
+    },
+    "research/clone_weight_sensitivity/REPORT.md": {
+      "bytes": 12469,
+      "sha256": "7444e4d127173d99ec6e0a4b9660a2fbe26dd55b86de30e6e126c77706a89921"
+    },
+    "research/clone_weight_sensitivity/SOURCE_PROVENANCE.json": {
+      "bytes": 4499,
+      "sha256": "fde3c8e49161904b13238bb637690913a6779891f94c5d50d40b3d4c076757e1"
+    },
+    "research/clone_weight_sensitivity/WATCH.md": {
+      "bytes": 5103,
+      "sha256": "90c9f49270789b40603fd5bc1a726f7705721b222045d74d43b2e53efc2d91f8"
+    },
+    "research/clone_weight_sensitivity/bounds.py": {
+      "bytes": 6533,
+      "sha256": "4a4e72a2a144cededa6abc1d0d25eb1448133a34af352397beed9f2dab9f3e3f"
+    },
+    "research/clone_weight_sensitivity/figure.png": {
+      "bytes": 201681,
+      "sha256": "d272c4b51e4b315df21e410a9b3652db5437b69162289d55333a3a82ca14c30b"
+    },
+    "research/clone_weight_sensitivity/figure.svg": {
+      "bytes": 131505,
+      "sha256": "f72599cdee8120eba70d5f616c1a53ec324f648f6cb6162490b96c5834bc7d5a"
+    },
+    "research/clone_weight_sensitivity/make_figure.py": {
+      "bytes": 3664,
+      "sha256": "1d3b78b26ca088c5194fac15137289fcfbaec8f0236af4fb33e7e5e42c25725d"
+    },
+    "research/clone_weight_sensitivity/test_bounds.py": {
+      "bytes": 8199,
+      "sha256": "fe5819939b1296bd73f167fe7c0fedbb954cb86ed438d731ff8258f6d8b64de4"
+    }
+  },
+  "mathematical_review": {
+    "result": "PASS",
+    "independent_proof": "Derived odds bounds from mean multiplicities in [1,K], finite count bounds from reachable clone totals, and uniform supremum by optimizing the extreme-weight gap.",
+    "oracle": "Independent reachable-state convolution, developed without importing candidate arithmetic.",
+    "caps_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "row_totals_checked": [
+      1,
+      24
+    ],
+    "reachable_configurations": 51583,
+    "unknown_J_endpoint_cases": 1944,
+    "known_J_full_feasible_set_cases": 31200,
+    "feasible_known_J_endpoint_cases": 19264,
+    "infeasible_known_J_cases_rejected": 11936,
+    "constructed_endpoint_witnesses_checked": 42416,
+    "additional_invalid_inputs_rejected": 43,
+    "producer_tests_rerun_passed": 9,
+    "K3_gap": "2-sqrt(3), approximately 0.2679491924311227; sharp supremum, unattained by a finite integer population.",
+    "finite_sharpness": "Exact pointwise endpoints conditional only on N,k,K and optional J; further identities/ties can tighten and simultaneous threshold attainment is not asserted.",
+    "evidence_code_sha256": "eed2583cf012c352525035255d578b284cc77e92dc9b74c965f06e84e64f1913",
+    "external_candidate_checker_sha256": "fd6a3983a591641516c74b793e324a6267d4c1771a57d6b93f7b2875a33f103f"
+  },
+  "source_application_review": {
+    "result": "PASS_CONDITIONAL_ONLY",
+    "source_files_verified": 2,
+    "source_line_anchor_hashes_verified": 7,
+    "conditions": [
+      "Unchanged inspected generating pipeline, with no added duplication or undocumented loss.",
+      "Stable one-to-one clone identities, finite per-run fits and common exported clone mean.",
+      "One to three retained rows per eligible clone in run2/run3/run4; nonempty selected population.",
+      "Identical ancestor and positive-mean selectors in both CDFs.",
+      "Isolated selected Lauer-derived portion only."
+    ],
+    "not_established": [
+      "Actual row multiplicities or clone counts",
+      "Identity of deposited tables with inspected source execution",
+      "Published numerical bias or error",
+      "Combined-barcode KDE or density-height bound",
+      "All mutation births, native W/A/M panel, new theorem, confidence interval, or biological fit"
+    ]
+  },
+  "figure_review": {
+    "visual_inspection": "PASS; readable mathematical curves, explicit hypothetical label and conditional Lauer scope, no empirical points.",
+    "independently_regenerated_PNG_and_SVG_byte_identical": true
+  },
+  "recent_primary_source_review": {
+    "result": "PASS_WITH_STATED_LIMITS",
+    "doi": "10.1126/sciadv.adj6957",
+    "pmcid_version": "PMC13127557.1",
+    "publication_date_verified": "2026-04-29",
+    "full_cached_XML_sha256": "53a50bde3b2f4327c7889b710505095936a29930f26fc6c2b0093fc3b646dc2c",
+    "original_claims_reviewed": 16,
+    "paragraph_anchor_occurrences_verified": 36,
+    "key_limits": [
+      "652 lines established/sequenced, followed by seven contamination exclusions and one outlier exclusion.",
+      "Growth proxy and generation denominator depend on an exponential-growth measurement model.",
+      "Per-hour SNV/indel nonsignificance does not establish independence.",
+      "LOH addback estimates expected lost mutations; it does not observe all births.",
+      "Source-reported controls were not numerically replayed; causal mechanisms and generality remain unresolved.",
+      "The paper fitness symbol is not the native TMD Wsp route."
+    ]
+  },
+  "rights_privacy_and_budget": {
+    "original_software": "MIT",
+    "original_documentation_and_figures": "CC BY 4.0",
+    "article_declares": "CC BY-NC 4.0",
+    "source_fulltext_code_data_figures_contacts_published": false,
+    "private_paths_or_credentials_found": false,
+    "reviewer_new_source_acquisition_attempts": 0,
+    "whole_round_scientific_attempts": 3,
+    "unused_scientific_attempts": 9,
+    "claimed_saved_capture_and_receipt_bytes": 172495,
+    "CSV_download_gate": "Unchanged and parked; no download-host retry."
+  },
+  "preservation_scope": "Actual baseline independently verified at 893 tracked files, 349 matching checkpoint fingerprints, 26 study NULLs, 18 planning NULLs, zero native panels and methods 0.6.0. Integrated candidate preservation checked separately.",
+  "blocking_findings": []
+}

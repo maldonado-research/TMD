@@ -200,3 +200,10 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | Actual source scripts/notebook/license authenticate competition and barcode dependencies | [Pipeline report](research/cnv_fitness_pipeline_audit/REPORT.md) | Conditional clone/run multiplicity, source time convention and likelihood-classified lineages; no actual duplicate count, alignment failure or published error established. |
 | Official project metadata locates three competition CSVs with version/hash fields | [Inventory](research/cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json) | File bytes and rows remain unrecovered; software MIT does not automatically license separate data. No native origin or biological panel admitted. |
+
+## R41 conditional bounds and recent primary evidence — 15 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Exact deterministic row-to-clone CDF envelopes and finite-count bounds | [Report and tool](research/clone_weight_sensitivity/REPORT.md) | Stable identities/common finite estimates/source cap required. Hypothetical, not observed distortion, a confidence interval, combined KDE bound or new theorem. |
+| April 2026 yeast study reports growth/mutation associations with explicit controls | [Recent source assessment](research/clone_weight_sensitivity/WATCH.md) | Genotype/environment and clock/detection/expected-loss context; no native W/A/M data or TMD validation. |

@@ -181,3 +181,7 @@ The [report](cnv_inference_audit/REPORT.md), [inference dependency map](cnv_infe
 ## R40: competition rows and inferred barcode lineages
 
 The [combined report](cnv_fitness_pipeline_audit/REPORT.md), [actual source pipeline audit](cnv_fitness_pipeline_audit/PIPELINE_AUDIT.json) and [official CSV inventory](cnv_fitness_pipeline_audit/SOURCE_INVENTORY.json) specify units, row multiplicity, alias, aggregation and positional-mapping prerequisites. The source software MIT license is authenticated; actual CSVs, publication execution and separate data terms remain unresolved. [R40 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R40.md). All 44 actual/planning inputs remain NULL.
+
+## R41: exact conditional weighting sensitivity and recent comparator
+
+The [report](clone_weight_sensitivity/REPORT.md), [exact tool](clone_weight_sensitivity/bounds.py), [assumptions](clone_weight_sensitivity/BOUNDS_CONTRACT.json) and [hypothetical figure](clone_weight_sensitivity/figure.png) quantify row-repetition sensitivity for an eligible source frame. The separate [recent source](clone_weight_sensitivity/WATCH.md) informs conventional growth/mutation controls. Actual data and biological admission remain unresolved. [R41 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R41.md).

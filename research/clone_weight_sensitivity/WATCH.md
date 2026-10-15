@@ -1,0 +1,25 @@
+# Recent evidence: growth, mutation supply and the generation clock
+
+Ricardo Maldonado · 15 October 2026 · Original synthesis with AI assistance
+
+Ding et al., [Spontaneous mutation rate and spectrum are modulated by organismal fitness](https://doi.org/10.1126/sciadv.adj6957), was published on 29 April 2026 in Science Advances. The full primary XML, PMC13127557.1 / PMID 42054461, was authenticated this round. An exact DOI/PMCID/title screen found no match in the inspected TMD and mounted archive Markdown/JSON/text. This is newly assessed evidence here, not a discovery made by this project or an exhaustive current-literature review.
+
+The study uses eleven diploid budding-yeast genotypes in YPD, Congo red and LiCl environments, chosen to produce substantial genotype-by-environment differences in growth. It established and sequenced 652 mutation-accumulation lines, then excluded seven potentially contaminated lines and one high-mutation outlier from downstream analyses. The established-line count must therefore not be relabelled the final analyzed sample. The article reports more than 9000 accumulated sequence changes, distinguishing raw counts from loss-of-heterozygosity-adjusted SNV/indel counts.
+
+## What the study adds to a conventional comparator
+
+Across 33 genotype/environment combinations, the authors report negative associations between growth and per-generation mutation rates for four mutation categories. Some selected strain pairs reverse their growth and SNV mutation-rate rankings across Congo red and LiCl. These are reported tendencies with qualifications, not a deterministic reversal in every pair or a universal rule. The 33 combinations and overlapping strain pairs are not independent native TMD winner trials.
+
+Fitness is operationalized through population growth: r is estimated as ln(N)/t from colony endpoint cell counts under an exponential-growth assumption. Growth is used in both the fitness proxy and the per-generation mutation-rate denominator. To address a shared-measurement-error pathway, the authors split replicate growth measurements between those uses and report persistence of the associations. They also report sensitivity analyses for multinucleotide events and aneuploidy-adjusted callable genome size. These are source-reported controls, not numerical analyses reproduced here.
+
+For the declared growth/generation relationship, generation time g obeys rg=ln(2). The source writes u=μr/ln(2), with μ=M/(L×gen) and u=M/(L×T). M is a corrected mutation count, L a callable-site denominator, gen estimated generations, and T elapsed hours. This conversion explains why a per-generation association alone does not identify a particular fitness-responsive mutagenesis mechanism: longer generations can also increase time-dependent mutations per generation. It does not imply that every reported association is a clock artifact.
+
+The distinctions differ by mutation class. Per-hour rates remain negatively associated with growth for the structural/chromosome categories, whereas the reported SNV and small-indel per-hour correlations are nonsignificant. Nonsignificance does not demonstrate exact independence or a universal molecular clock. The authors leave multiple replication-dependent and replication-independent explanations open, acknowledge fitness-independent effects, and call for examination beyond one unicellular eukaryote.
+
+## What the measurements do not supply
+
+Bottleneck intervals and numbers of parallel lines vary across conditions to make division totals broadly comparable. Variant calls and callable sites have coverage, strand and quality criteria. The loss-of-heterozygosity correction adds an expected lost count using M=Mraw+Mhomo; it is not a directly observed census of lost mutation births. Endpoint sequencing, selection-minimizing bottlenecks and SNV-based selection checks do not supply an all-birth or independent establishment record. No raw mutation table, SRA reads, supplement or source code was analyzed here.
+
+The paper's fitness symbol W is not the TMD Wsp route. These eleven genotypes and their genome-wide mutation classes do not form a common-background native Wsp/Aws/Mws panel. Their numerical parameters are not transported into the actual study registry. The useful implication is that a strong measured comparator should retain genotype, environment, growth, time and generation denominators rather than assume mutation supply is constant across contexts. Existing TMD predictors, comparators and confirmatory rules are not changed by this assessment.
+
+The [16-claim source assessment](RECENT_SOURCE_ASSESSMENT.json) records exact paragraph hashes and inference limits. The article declares CC BY-NC 4.0. Only original analysis and bibliographic/identity facts are included here; fulltext, source figures, contacts and datasets remain outside Git. This biological source is separate from the [conditional clone-weight calculations](REPORT.md), which contain no observations from this paper. All 26 study and 18 planning inputs remain NULL; no biological validation or new theorem is claimed.

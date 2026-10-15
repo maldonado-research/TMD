@@ -1,0 +1,96 @@
+{
+  "round": "R000041",
+  "math_basis": "Classical bounded-weight identities applied conditionally to the isolated selected Lauer-derived source portion; no mathematical novelty claim.",
+  "cached_source_code": {
+    "repository": "https://github.com/graceave/cnv_sims_inference",
+    "path": "fitness_assays/fitness_assays.R",
+    "git_blob_sha1": "e608d45bc725e788e8d9ef935b4c09cf9934b8c6",
+    "sha256": "9a10ee1caf7001137101de4811cd05e55a4a5fa91db1da51d84c0243317e9d08",
+    "source_author_code_executed": false,
+    "fresh_network_request": false,
+    "source_body_copied_this_round": false
+  },
+  "current_primary_source": {
+    "doi": "10.1126/sciadv.adj6957",
+    "pmid": "42054461",
+    "pmcid_version": "PMC13127557.1",
+    "publication_date": "2026-04-29",
+    "bytes": 131160,
+    "sha256": "53a50bde3b2f4327c7889b710505095936a29930f26fc6c2b0093fc3b646dc2c",
+    "title": "Spontaneous mutation rate and spectrum are modulated by organismal fitness",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "recent_article_request": {
+    "id": "ROOT_S03",
+    "URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13127557&retmode=xml",
+    "started_at_utc": "2026-10-15T23:16:31.716078+00:00",
+    "cap_bytes": 2097152,
+    "proxy": "inherited",
+    "TLS_verification": true,
+    "retries": 0,
+    "source_author_execution": false,
+    "status": 200,
+    "final_URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13127557&retmode=xml",
+    "content_type": "text/xml; charset=UTF-8",
+    "complete_within_cap": true,
+    "bytes": 131160,
+    "sha256": "53a50bde3b2f4327c7889b710505095936a29930f26fc6c2b0093fc3b646dc2c",
+    "completed_at_utc": "2026-10-15T23:16:32.293130+00:00"
+  },
+  "search_scope": "One corrected targeted query after one argument-validation failure. Result snippets are discovery leads; one full primary article assessed. No exhaustive-web claim.",
+  "search_receipts": [
+    {
+      "round": "R000041",
+      "attempt_id": "ROOT_S01",
+      "tool": "mcp__codex_apps__search_service_web_run",
+      "query": "2025 2026 directly measure spontaneous mutation rates single cell lineage sequencing validation",
+      "outcome": "validation_error_before_search",
+      "capture_file": "ROOT_S01.json",
+      "bytes": 3325,
+      "sha256": "b16c86c52e337e8fd590708152bd007c0966ed776e8b4b35cfe717332b541bcd",
+      "hash_scope": "Saved JSON serialization of MCP response, not upstream wire bytes.",
+      "source_author_code_executed": false
+    },
+    {
+      "round": "R000041",
+      "attempt_id": "ROOT_S02",
+      "tool": "mcp__codex_apps__search_service_web_run",
+      "query": "2025 2026 directly measure spontaneous mutation rates single cell lineage sequencing validation",
+      "outcome": "search_result",
+      "capture_file": "ROOT_S02.json",
+      "bytes": 36319,
+      "sha256": "6621b10e6609ea1e56d16f47a1cd5261d69cdeed3117d95ea952e12c6826571f",
+      "hash_scope": "Saved JSON serialization of MCP response, not upstream wire bytes.",
+      "source_author_code_executed": false
+    }
+  ],
+  "acquisition_totals": {
+    "round": "R000041",
+    "scientific_acquisition_calls": 3,
+    "actor_scientific_attempts": {
+      "root": 3,
+      "math": 0,
+      "independent_reviewer": 0
+    },
+    "maximum_source_acquisitions": 12,
+    "unused_scientific_acquisitions": 9,
+    "maximum_download_bytes": 20971520,
+    "counted_saved_source_bytes": 172495,
+    "derived_text_duplicate_bytes": 0,
+    "capture_and_receipt_bytes": 172495,
+    "attempt_outcomes": [
+      "Tool argument validation rejected before search; counted.",
+      "One corrected targeted search returned candidate excerpts.",
+      "One authenticated full primary article XML."
+    ],
+    "accounting_scope": "Exact saved MCP JSON serializations, full XML and separate receipts. JSON hashes are local serialization identities, not upstream HTTP wire hashes. Cached source code was read without copying source bodies. Independent-review evidence contains original analysis/hash anchors only. Wire/provider-internal bytes unknown. Operational GitHub/live checks excluded.",
+    "source_author_code_executed": false,
+    "biological_fit": false,
+    "author_methods_Zenodo_requests": 0,
+    "third_party_Zenodo_requests": 0,
+    "scientific_budget_closed": true
+  },
+  "raw_source_bodies_published": false,
+  "actual_CSV_input_contents_acquired": false,
+  "independently_observed_native_mutation_birth_or_establishment": false
+}
