@@ -1,0 +1,39 @@
+{
+  "id": "R000039",
+  "status": "completed_internal_review",
+  "date": "2026-10-15",
+  "timezone": "America/Los_Angeles",
+  "report": "../CONTINUATION_HANDOFF_2026-10-15_R39.md",
+  "completion_scope": "conventional_CNV_inference_dependency_and_authenticated_static_code_audit",
+  "question": "Can a named licensed versioned Lauer2018 clone table authenticate fluorescence/genotype/selection joins and their denominators or missingness beyond the R38 primary-text assessment?",
+  "scope_change": "Named workbook acquisition remained blocked; actual fulltext and a distinct linked conventional inference study plus immutable source code support a narrower source audit.",
+  "details": {
+    "scientific_acquisition_attempts": 12,
+    "counted_saved_source_bytes": 807863,
+    "primary_article_XMLs": 2,
+    "actual_Rmd_static_artifact": true,
+    "clone_workbook_acquired": false,
+    "required_CSV_contents_acquired": false,
+    "source_code_license_body_inspected": false
+  },
+  "native_biological_fit": false,
+  "new_mathematical_theorem": false,
+  "source_numerical_replay": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000039",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Prioritize actual lawful, versioned clone/genotype/fluorescence/fitness records or named Figure 7 CSV inputs from the Lauer 2018 / Avecilla 2022 source chain. Require clone membership and selection/missingness for the 29 sequenced versus 28 fitness clones; row-order validation for barcode identifiers, bc04/bc01 alias documentation, join cardinality, and independent DNA-genotyped positive/negative truth. Authenticate input units, marker corrections, provenance and applicable data/code terms before any numerical replay. S4 workbook and required CSV contents remain unrecovered; the actual inspected Rmd is a static repository snapshot, not authenticated publication-execution code. Do not repeat unchanged publisher redirects, PMC browser challenges, local preHTTP failures, parked R37 access or exhausted billing paths without a changed prerequisite. Treat positive fitness estimates as sign-selected, source MAP ranges as ranges across fits, and the generation-116 window as source outcome-informed. Formation-rate inference and inferred establishment from trajectories do not replace independent mutation-birth/loss and establishment measurements. A source-specific qualified assessment or actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records remains an alternative. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No unsupported mathematical extension, outreach or laboratory work."
+}

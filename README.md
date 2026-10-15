@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R38, 15 October 2026
+## Latest research checkpoint — R39, 15 October 2026
+
+The [CNV inference audit](research/cnv_inference_audit/REPORT.md) distinguishes experimentally checked fitness from a formation rate still awaiting empirical confirmation in a published conventional model. It authenticates actual Figure 7 code and records its positive-estimate filters, identifier alignment and join dependencies. The 2022 measurements reuse 2018 evolution populations; workbook and CSV inputs remain unrecovered. [R39 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R39.md).
+
+This is source and static-code analysis, with all 26 study and 18 planning inputs NULL. No native biological fit, source numerical replay or new theorem; methods 0.6.0 stays frozen.
+
+## Prior R38 checkpoint — 15 October 2026
 
 The [CNV observer assessment](research/cnv_observer_assessment/REPORT.md) distinguishes population detection, selected-clone DNA validation, regrown-clone fluorescence correction and fitness from native mutation birth or establishment. The [12-gate matrix](research/cnv_observer_assessment/MEASUREMENT_ADMISSION_MATRIX.json) specifies the missing independent genotype/ancestry/negative-control records. Official OSF metadata identifies bounded next artifacts without authenticating their contents or reuse terms. [R38 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R38.md).
 

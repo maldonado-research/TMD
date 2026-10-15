@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "round": "R000039",
+  "status": "PASS",
+  "accepted": true,
+  "reviewed_utc": "2026-10-15T17:28:25.381926+00:00",
+  "review_role": "Independent AI-assisted internal scientific/source review; not qualified external biological review",
+  "base_commit": "8a9f1bd5088e0dbec3f0f7aecc7f5af8a32f0963",
+  "accepted_payloads": {
+    "research/cnv_inference_audit/CODE_AUDIT.json": {
+      "bytes": 9089,
+      "sha256": "d5577eb4e64c2beb5fd54c37d374c04f18624b7fe9d15dd4ae707c9f057b0201"
+    },
+    "research/cnv_inference_audit/CODE_REPORT.md": {
+      "bytes": 3735,
+      "sha256": "056b07e7c6c168dc1469a444bc0b438d31a0b1ad6bd870ac443bf286ae3913db"
+    },
+    "research/cnv_inference_audit/INFERENCE_DEPENDENCIES.json": {
+      "bytes": 10122,
+      "sha256": "732f66b040fbc2d99dad04847ff5dd767f94144037d915ba0946f5e788838ad2"
+    },
+    "research/cnv_inference_audit/LICENSE": {
+      "bytes": 316,
+      "sha256": "c09be8efe6055fdb16b130266ff89e53c183acb0850948efc0c7bbe6f0136c93"
+    },
+    "research/cnv_inference_audit/LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 881,
+      "sha256": "7299f3e50293c14817d328eac46f2c77cee4f6ec4fe4a847b02ebab7376a8671"
+    },
+    "research/cnv_inference_audit/REPORT.md": {
+      "bytes": 7273,
+      "sha256": "39249064555fda6708bae02bc6cea8a30f8e8c0d3689ba17d679168e549eaf92"
+    },
+    "research/cnv_inference_audit/SOURCE_PROVENANCE.json": {
+      "bytes": 10600,
+      "sha256": "a9eef7a5bbde5f150a029e82829af8061817a659e0a9316efa7baf93508fb8b9"
+    }
+  },
+  "source_checks": [
+    "Independently parsed both full article XML representations and verified DOI, versioned PMCID and explicit CC BY 4.0 article terms.",
+    "Recomputed all 18 source-text anchor hashes from the 2022 XML and checked each original interpretation against its source section.",
+    "Verified the decoded Figure 7 script against API content, Git blob framing and membership in the nontruncated 62-entry repository tree. No source-author code was executed.",
+    "Checked static ancestor exclusion, positive-estimate filtering, positional barcode attachment, population alias, unmatched-label classification and trajectory filtering without claiming an observed input error.",
+    "Checked cached S4 metadata and the 2018 supplement listing while retaining unacquired workbook contents and unresolved 29-versus-28 clone membership.",
+    "Verified twelve acquisition attempts, including the two reviewer pre-HTTP failures, and all 24 retained source-related file hashes totaling 807863 bytes. Root cross-reviewed the reviewer failure receipts."
+  ],
+  "scientific_findings": [
+    "Experimental fitness checks do not establish empirical validation of the inferred formation rate; the source explicitly calls for its experimental confirmation.",
+    "The eleven reporter trajectories and follow-up assay material share the prior 2018 evolution populations. Additional assays do not imply a newly evolved independent cohort.",
+    "Generation-window adaptation, synthetic holdout checks, inferred establishment times and simulator mismatch are accurately separated from frozen native TMD evaluation.",
+    "Positive coefficients are distinguished from statistical significance and complete clone or mutation-event denominators.",
+    "No native panel, biological fit, independent mutation-birth observer, source numerical replay or complete supply/establishment measurement is admitted."
+  ],
+  "rights_and_privacy": "Original analysis only. Article CC BY 4.0 is authenticated; separate OSF terms and the GitHub license body remain unverified. Raw article/code captures, contacts and private filesystem locators are excluded.",
+  "protected_state_scope": "This source review admits no changes to 26 study NULLs, 18 planning NULLs, R5/R11/R17, theta/eta, comparators, evaluation, error allocation, stopping, paused runner or methods 0.6.0. Exact integration preservation is reviewed separately.",
+  "blocking_findings": [],
+  "scope": "Acceptance binds these seven payloads. Integrated files, immutable commit, website and delivery require separate review."
+}
