@@ -261,3 +261,7 @@ The [Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) sourc
 ## R42 recent barcode-inference evidence — 16 October 2026
 
 [Kuo and Kryazhimskiy (27 February 2026)](https://doi.org/10.1371/journal.pcbi.1013946) introduce BASIL. The [12-claim primary assessment](research/rendered_notebook_audit/WATCH.md) preserves pre-existing-mutation benchmarks, retained calibration barcodes/libraries, confidence selection, proxy fitness checks and explicit inability to infer beneficial mutation rates. No code, data workbook or reads were acquired or replayed, and no comparator is adopted. The separate [rendered Figure 7 audit](research/rendered_notebook_audit/REPORT.md) adds source-output facts and corrects prior KDE wording; it supplies no new native biological admission.
+
+## R43 source-linked identity and observation evidence — 16 October 2026
+
+New pinned extraction/combining scripts from the [Avecilla 2022](https://doi.org/10.1371/journal.pbio.3001633) source family extend the [barcode observation contract](research/barcode_identity_audit/REPORT.md). They add source recipes, not actual barcode-to-CNV assignments or a new biological experiment. One current native-system discovery query returned a source already substantively assessed; it was not reacquired. No new primary-paper assessment or exhaustive literature-review claim is added. The separate original preflight checks supplied table structure without adopting a new scientific predictor or comparator.

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "round": "R000043",
+  "purpose": "Structural preflight of analyst-prepared keyed result and source-annotation tables; not a source-file converter, biological validation or a frozen TMD admission rule.",
+  "original_software": [
+    "preflight.py",
+    "test_preflight.py"
+  ],
+  "input": {
+    "encoding": "UTF-8 JSON with duplicate object members rejected by the CLI",
+    "top_level_fields_exact": [
+      "result_rows",
+      "annotation_rows"
+    ],
+    "result_row_fields_exact": [
+      "row_id",
+      "experiment",
+      "population",
+      "barcode",
+      "row_role",
+      "fitness"
+    ],
+    "annotation_row_fields_exact": [
+      "experiment",
+      "population",
+      "barcode",
+      "cnv_annotation"
+    ],
+    "composite_identity_key": [
+      "experiment",
+      "population",
+      "barcode"
+    ],
+    "identifier_policy": "Nonempty printable strings, unchanged, with no leading/trailing whitespace. No automatic numeric coercion, case conversion, whitespace stripping or population alias mapping.",
+    "row_id": "Unique string per result row, including declared aggregate and padding rows.",
+    "row_role": "Explicitly individual, aggregate or padding; never inferred from fitness sign, missing barcode, position or array length.",
+    "individual_rows": "Nonempty composite key and explicit finite decimal-string fitness. At least one individual row is required. Negative and zero estimates are retained.",
+    "aggregate_and_padding_rows": "Excluded from the individual join only under the supplied explicit role. In this normalized interface barcode and fitness must be null; experiment, population and row_id remain. This does not authenticate those roles or alter the original source records, which must be retained separately.",
+    "annotation": "Unique composite key and explicit source label CNV or noCNV. A supplied negative label still does not authenticate independent genotype-negative truth. This narrow interface rejects explicit ambiguous/unknown annotation labels; it is not a complete assay-state schema. Preserve the full assay record, including unknown states, separately.",
+    "positional_only_input": "Rejected. An equally long numeric output vector and identifier vector do not authenticate their pairing.",
+    "externally_required_provenance": "Original source file identities, independently justified identity and row-role binding, population alias/crosswalk evidence, source execution, exclusions, measurement units and applicable terms. The utility cannot construct or authenticate these records."
+  },
+  "outputs": {
+    "success_status": "STRUCTURAL_CHECKS_PASSED",
+    "failure": "StructuralError in the Python API; CLI emits REJECTED on stderr and exits 2.",
+    "missing_annotation": "Retained individual with null source_cnv_annotation and annotation_status unmatched_unknown; never silently converted to noCNV.",
+    "orphan_annotations": "Reported separately and retained, not silently dropped or interpreted as absent biological events.",
+    "accounting": "Every result row is either a keyed individual or an explicitly excluded aggregate/padding row. Annotation counts distinguish matched individuals and orphan annotation rows.",
+    "determinism": "Structural findings are invariant to row permutations within each table. Exact input JSON byte hash is recorded separately by the CLI and can change under serialization/permutation.",
+    "numeric_sign": "positive_numeric_estimate describes only the supplied decimal value; it is not an adaptive, significance, establishment or mutation-birth label."
+  },
+  "gates_never_certified": [
+    "biological_lineage_identity_verified",
+    "source_row_binding_and_role_provenance_verified",
+    "genotype_negative_truth_verified",
+    "clock_units_verified",
+    "source_execution_verified",
+    "native_measurement_admitted"
+  ],
+  "verification": {
+    "fixtures": "Entirely synthetic examples, not recovered source rows or study values.",
+    "root_tests": 8,
+    "test_command": "python -B -m unittest -v test_preflight.py",
+    "adversarial_scopes": [
+      "Equal-length positional inputs are rejected; two different supplied keyed bindings can both pass structurally, exposing the separate provenance requirement.",
+      "Row permutations preserve keyed findings, while same barcode strings in different populations remain distinct.",
+      "Duplicate result identities, result row IDs and annotation identities are rejected before join expansion.",
+      "Zero estimates and unmatched annotations remain individual and unknown respectively; no biological gate is promoted.",
+      "Aggregate and padding rows require explicit roles and remain accounted; original role authenticity is not inferred.",
+      "Numeric/boolean IDs, whitespace changes, control characters and automatic population aliases are refused or kept distinct.",
+      "Nonfinite and ambiguous fitness values and empty individual frames are rejected.",
+      "CLI records exact input bytes and SHA-256 and rejects duplicate JSON members."
+    ]
+  },
+  "scientific_boundary": {
+    "actual_source_inputs_acquired_or_replayed": false,
+    "source_author_code_executed": false,
+    "native_matched_panel_admitted": false,
+    "actual_study_fields_filled": 0,
+    "actual_planning_fields_filled": 0,
+    "frozen_predictor_or_comparator_changed": false,
+    "new_theorem_or_biological_fit": false,
+    "statistical_error_or_stopping_changed": false,
+    "methods_0_6_0_changed": false
+  }
+}

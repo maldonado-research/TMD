@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R42, 16 October 2026
+## Latest research checkpoint — R43, 16 October 2026
+
+The [barcode identity contract](research/barcode_identity_audit/REPORT.md) now links extraction, retention, numerical outputs, ordered IDs and CNV annotations to explicit evidence requirements. An original [structural preflight](research/barcode_identity_audit/preflight.py) rejects positional-only inputs and duplicate keys, accounts for declared row roles and preserves unmatched annotations as unknown. Eight adversarial tests and 67 separate assertions pass. Structural success does not authenticate supplied identities, roles or biological truth.
+
+No missing CSV or individual barcode-to-CNV assignment was recovered. All 26 study and 18 planning inputs remain NULL; methods 0.6.0 and the paused runner remain unchanged. [R43 checkpoint](research/CONTINUATION_HANDOFF_2026-10-16_R43.md).
+
+## Prior R42 checkpoint — 16 October 2026
 
 The [rendered notebook audit](research/rendered_notebook_audit/REPORT.md) authenticates four stored source-category counts totaling 80,751 and the Figure 7 plotting contract. These are grouped source rows, not verified distinct biological lineages or mutation births. **Correction to the R41 handoff:** the authenticated plot is a binned ridgeline with 25 bins, not an authenticated automatic-bandwidth KDE. The R41 empirical-CDF calculation remains separate and unchanged.
 
