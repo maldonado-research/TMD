@@ -207,3 +207,11 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | --- | --- | --- |
 | Exact deterministic row-to-clone CDF envelopes and finite-count bounds | [Report and tool](research/clone_weight_sensitivity/REPORT.md) | Stable identities/common finite estimates/source cap required. Hypothetical, not observed distortion, a confidence interval, combined KDE bound or new theorem. |
 | April 2026 yeast study reports growth/mutation associations with explicit controls | [Recent source assessment](research/clone_weight_sensitivity/WATCH.md) | Genotype/environment and clock/detection/expected-loss context; no native W/A/M data or TMD validation. |
+
+## R42 source-output evidence and correction — 16 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Four stored bc01 group counts total 80,751; source joins and sign labels are explicit | [Rendered notebook audit](research/rendered_notebook_audit/REPORT.md) | Saved grouped rows are not unique biological lineages, mutation births, genotype-negative truth or authenticated final plot counts. |
+| Figure 7 source snapshots request binline with 25 bins and x scale 0–0.2 | [Plot contract and scoped correction](research/rendered_notebook_audit/AUDIT.json) | Corrects R41 handoff combined-KDE wording. Source recipe agrees; directory assignments differ. Neither matching code nor R41 CDF bounds certifies the actual plotted distribution. |
+| BASIL improves selected fitness-inference comparisons under stated tests | [Recent primary assessment](research/rendered_notebook_audit/WATCH.md) | Pre-existing simulation labels, retained calibration and proxy real-data checks do not establish all mutation births or native TMD truth. FitMut2 findings are not automatically original FitMut findings. |

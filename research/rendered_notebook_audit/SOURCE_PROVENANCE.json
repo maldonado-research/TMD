@@ -1,0 +1,262 @@
+{
+  "round": "R000042",
+  "prepared_UTC": "2026-10-16T00:38:32.841044+00:00",
+  "sources": [
+    {
+      "id": "P03",
+      "description": "new README",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b",
+      "new_acquisition": true,
+      "new_full_body_copy_saved": true,
+      "git_blob_sha1": "b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "expected_git_blob_sha1": "b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "git_blob_verified": true
+    },
+    {
+      "id": "P04",
+      "description": "new rendered notebook",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b1d81e85d194665438cac46f001e39ac3e5d0838",
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb",
+      "new_acquisition": true,
+      "new_full_body_copy_saved": true,
+      "git_blob_sha1": "b1d81e85d194665438cac46f001e39ac3e5d0838",
+      "expected_git_blob_sha1": "b1d81e85d194665438cac46f001e39ac3e5d0838",
+      "git_blob_verified": true
+    },
+    {
+      "id": "R39-tree",
+      "description": "cached repository tree",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/trees/HEAD?recursive=1",
+      "bytes": 15461,
+      "sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb",
+      "new_acquisition": false,
+      "new_full_body_copy_saved": false
+    },
+    {
+      "id": "R39-Rmd",
+      "description": "cached separate Figure7 source",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "bytes": 9832,
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "new_acquisition": false,
+      "new_full_body_copy_saved": false,
+      "git_blob_sha1": "14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "expected_git_blob_sha1": "14efd06f001d17c8c039751496a36c1b7b0efc18",
+      "git_blob_verified": true
+    },
+    {
+      "id": "R40-license",
+      "description": "cached repository license",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+      "bytes": 1071,
+      "sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb",
+      "new_acquisition": false,
+      "new_full_body_copy_saved": false,
+      "git_blob_sha1": "4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+      "expected_git_blob_sha1": "4fb88d257676ae59e4d9d95aeb949d81a0af4ec6",
+      "git_blob_verified": true
+    },
+    {
+      "id": "R40-preprocessor",
+      "description": "cached barcode preprocessor",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/519fb8201ae2b205228e42e75ff89650d73062eb",
+      "bytes": 57074,
+      "sha256": "f8c6594030d09283cf87e069dd61fed91c9945cb025249e58a955d860af558a2",
+      "new_acquisition": false,
+      "new_full_body_copy_saved": false,
+      "git_blob_sha1": "519fb8201ae2b205228e42e75ff89650d73062eb",
+      "expected_git_blob_sha1": "519fb8201ae2b205228e42e75ff89650d73062eb",
+      "git_blob_verified": true
+    },
+    {
+      "id": "R40-FitMut",
+      "description": "cached implementation",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+      "bytes": 32258,
+      "sha256": "06966314d5360c32eab264f22023d5973f436f76e67f4789e5f4836ce87eed45",
+      "new_acquisition": false,
+      "new_full_body_copy_saved": false,
+      "git_blob_sha1": "143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+      "expected_git_blob_sha1": "143f01ede5c41c47f447d10c07ce4bd708fe08ab",
+      "git_blob_verified": true
+    }
+  ],
+  "acquisition_attempts_conservatively_counted": 4,
+  "attempt_cap": 6,
+  "remaining_attempts_frozen_unused": 2,
+  "remote_HTTP_successes": 2,
+  "local_failures_conservatively_counted": 2,
+  "repeated_blocked_endpoints_requested": false,
+  "blocked_OSF_download_hosts_requested": false,
+  "network_revision": "209",
+  "network_observations_current": true,
+  "network_policy": "enforced",
+  "permissions_note": "P02 failed with local sandbox EPERM. P03/P04 used supported exec network permission, inherited proxy, TLS verification and permitted api.github.com. No proxy bypass/configuration change.",
+  "receipts": [
+    {
+      "id": "P01",
+      "attempt_type": "local acquisition command failed before network request",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "network_requests": 0,
+      "conservatively_counted_acquisition_attempt": true,
+      "error_type": "ModuleNotFoundError",
+      "error": "No module named 'requests'",
+      "captured_failure_bytes": 48,
+      "captured_failure_sha256": "16eeaa9423819271c9a1f68f202a9fcce35d3bd8d09d3ec6a9743526666ccf71",
+      "completed_at_utc": "2026-10-16T00:33:51.828420+00:00"
+    },
+    {
+      "id": "P02",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "started_at_utc": "2026-10-16T00:33:51.876845+00:00",
+      "cap_bytes": 16384,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "redirects_followed": false,
+      "source_author_execution": false,
+      "command": "python producer/acquire.py ID URL CAP",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 1] Operation not permitted>",
+      "complete_within_cap": false,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "completed_at_utc": "2026-10-16T00:33:51.891706+00:00"
+    },
+    {
+      "id": "P03",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "started_at_utc": "2026-10-16T00:34:06.621085+00:00",
+      "cap_bytes": 16384,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "redirects_followed": false,
+      "source_author_execution": false,
+      "command": "python producer/acquire.py ID URL CAP",
+      "status": 200,
+      "final_URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7",
+      "content_type": "text/plain; charset=utf-8",
+      "location": null,
+      "complete_within_cap": true,
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b",
+      "completed_at_utc": "2026-10-16T00:34:06.995040+00:00"
+    },
+    {
+      "id": "P04",
+      "URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b1d81e85d194665438cac46f001e39ac3e5d0838",
+      "started_at_utc": "2026-10-16T00:34:19.109600+00:00",
+      "cap_bytes": 2097152,
+      "proxy": "inherited",
+      "TLS_verification": true,
+      "retries": 0,
+      "redirects_followed": false,
+      "source_author_execution": false,
+      "command": "python producer/acquire.py ID URL CAP",
+      "status": 200,
+      "final_URL": "https://api.github.com/repos/graceave/cnv_sims_inference/git/blobs/b1d81e85d194665438cac46f001e39ac3e5d0838",
+      "content_type": "text/plain; charset=utf-8",
+      "location": null,
+      "complete_within_cap": true,
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb",
+      "completed_at_utc": "2026-10-16T00:34:19.627369+00:00"
+    }
+  ],
+  "saved_capture_receipt_and_failure_files": [
+    {
+      "file": "P01.failure.txt",
+      "bytes": 48,
+      "sha256": "16eeaa9423819271c9a1f68f202a9fcce35d3bd8d09d3ec6a9743526666ccf71"
+    },
+    {
+      "file": "P01.receipt.json",
+      "bytes": 561,
+      "sha256": "8839ec795e2116011b0ba9d45a930c6411a6a05b98ec415befef4cffe0872154"
+    },
+    {
+      "file": "P02.body",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "P02.receipt.json",
+      "bytes": 681,
+      "sha256": "4a8241c265099703cd8710627ea4d51a111dcfca48ced42e65d0c6c4f895b3ea"
+    },
+    {
+      "file": "P03.body",
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b"
+    },
+    {
+      "file": "P03.receipt.json",
+      "bytes": 801,
+      "sha256": "51bba6606569d799d6d0983046d5d6a6e0ceee29e7ed7e93eec087f632e37b2f"
+    },
+    {
+      "file": "P04.body",
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb"
+    },
+    {
+      "file": "P04.receipt.json",
+      "bytes": 806,
+      "sha256": "ac3cbacd3ee1e009f72a7ec92c302ea39beae641e74ac8e27b5378bd438a7c29"
+    }
+  ],
+  "saved_capture_receipt_and_failure_bytes": 1737712,
+  "saved_additional_full_source_body_copies": 0,
+  "source_derived_facts_in_public_audit": "Original assessment with four aggregate source-reported counts and field names; no source table markup, scripts, figures, private paths or raw measurement rows.",
+  "source_terms": "Cached source repository MIT license is authenticated, copyright 2022 Grace Avecilla. It does not settle independent OSF data terms or automatically license every bundled HTML dependency; full third-party bodies are retained outside Git. Only original analysis, source identities and necessary factual aggregates are publication candidates.",
+  "missing_CSVs": [
+    "clone_fitness_pergen.csv",
+    "data_props_Lauer2018.csv",
+    "data_props_bc.csv"
+  ],
+  "scope": "Two new pinned original-repository objects; no new global mirror search, broad web survey, empirical replay or data-body recovery.",
+  "separate_recent_primary_source": {
+    "title": "Putting BASIL in a BLT: A Bayesian filtering method for estimating the fitness effects of nascent adaptive mutations",
+    "authors": [
+      "Huan-Yu Kuo",
+      "Sergey Kryazhimskiy"
+    ],
+    "doi": "10.1371/journal.pcbi.1013946",
+    "PMCID_version": "PMC12974954.1",
+    "PMID": "41758887",
+    "publication_date": "2026-02-27",
+    "primary_article_license": "CC BY 4.0",
+    "license_URL": "https://creativecommons.org/licenses/by/4.0/",
+    "source_bytes": 361118,
+    "source_sha256": "3f860d7ff32d330fb3f2d9b9990694624c67f903af3ce13bc9d3630b6e0c09ba",
+    "acquisition_id": "ROOT_S04",
+    "main_body_paragraph_count": 115,
+    "excluded_peer_review_sub_articles": 4
+  },
+  "whole_round_acquisition_accounting": {
+    "round": "R000042",
+    "scientific_acquisition_calls": 8,
+    "actor_scientific_attempts": {
+      "root": 4,
+      "producer": 4,
+      "independent_reviewer": 0
+    },
+    "maximum_source_acquisitions": 12,
+    "unused_scientific_acquisitions": 4,
+    "maximum_download_bytes": 20971520,
+    "capture_and_receipt_bytes": 2176744,
+    "derived_text_duplicate_bytes": 67131,
+    "counted_saved_source_bytes": 2243875,
+    "accounting_scope": "Exact saved MCP JSON serializations, HTTP body bytes, separate receipts, conservatively counted local failed acquisition setup and explicit source-derived extracts. Provider/wire/internal bytes unknown. Local operational Git baselines and original analyses are separate.",
+    "source_author_code_executed": false,
+    "biological_fit": false,
+    "author_methods_Zenodo_requests": 0,
+    "third_party_Zenodo_requests": 0,
+    "scientific_budget_closed": true
+  },
+  "raw_source_bodies_published": false
+}

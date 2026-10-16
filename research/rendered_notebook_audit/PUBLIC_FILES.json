@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "AUDIT.json",
+      "bytes": 18544,
+      "sha256": "b923a397e749138f336723ca2c37a468bfedf308883bf30e242b74d387e18a76"
+    },
+    {
+      "path": "BASIL_SOURCE_ASSESSMENT.json",
+      "bytes": 19114,
+      "sha256": "a6de7c06d34a951f0b75d4ccabcb2440d23954d2c5ac6b0c8e03c79251d6af2d"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 5185,
+      "sha256": "8a57dfd25826e04cd33f0167eb3b274b7d57af5b9c092f5c0f9489e0f57d9eb6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 394,
+      "sha256": "4850b8e0a1b0d18924c700e957dd85f1eea4776bb1c0ab41e27c585214a2bd2c"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 949,
+      "sha256": "65ca3a2ef9440053835cd09eca7e4a136109a00f5af298e965da06e4e7913cb1"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 8379,
+      "sha256": "14cd27c1c6d92d9f23f917e3d8e29d5003ac9219ba275a0b0210bee05632ba53"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 11471,
+      "sha256": "0536345ae8ca327d98e0913de01115cc7d14ad26cc560cf15ff08408dadb7ab6"
+    },
+    {
+      "path": "WATCH.md",
+      "bytes": 4588,
+      "sha256": "1e4e1b83991619f0ff07e8af24a4829bd4f2dc14d65b014b70f649abe4427870"
+    }
+  ],
+  "closure": "Eight payloads plus manifest and checksum list. Checksums cover all other package files, excluding themselves."
+}

@@ -185,3 +185,7 @@ The [combined report](cnv_fitness_pipeline_audit/REPORT.md), [actual source pipe
 ## R41: exact conditional weighting sensitivity and recent comparator
 
 The [report](clone_weight_sensitivity/REPORT.md), [exact tool](clone_weight_sensitivity/bounds.py), [assumptions](clone_weight_sensitivity/BOUNDS_CONTRACT.json) and [hypothetical figure](clone_weight_sensitivity/figure.png) quantify row-repetition sensitivity for an eligible source frame. The separate [recent source](clone_weight_sensitivity/WATCH.md) informs conventional growth/mutation controls. Actual data and biological admission remain unresolved. [R41 checkpoint](CONTINUATION_HANDOFF_2026-10-15_R41.md).
+
+## R42: rendered outputs and binned-plot correction
+
+The [notebook audit](rendered_notebook_audit/REPORT.md) authenticates stored group counts, input-schema reports and the binned plot contract while preserving unavailable-input and identity limits. It corrects R41 handoff KDE wording. A separate [BASIL assessment](rendered_notebook_audit/WATCH.md) retains detection, calibration and mutation-rate boundaries. [Checkpoint](CONTINUATION_HANDOFF_2026-10-16_R42.md).

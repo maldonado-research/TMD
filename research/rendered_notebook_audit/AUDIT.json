@@ -1,0 +1,465 @@
+{
+  "round": "R000042",
+  "title": "Rendered Figure 7 outputs and the binned plot contract",
+  "source_article_doi": "10.1371/journal.pbio.3001633",
+  "status": "original static provenance analysis; no author execution or empirical replay",
+  "source_facts": {
+    "stored_summary_counts": [
+      {
+        "population": "bc01",
+        "source_join_label": "CNV",
+        "source_fitness_label": "adaptive",
+        "reported_count": 1513
+      },
+      {
+        "population": "bc01",
+        "source_join_label": "CNV",
+        "source_fitness_label": "neutral",
+        "reported_count": 6888
+      },
+      {
+        "population": "bc01",
+        "source_join_label": "noCNV",
+        "source_fitness_label": "adaptive",
+        "reported_count": 56
+      },
+      {
+        "population": "bc01",
+        "source_join_label": "noCNV",
+        "source_fitness_label": "neutral",
+        "reported_count": 72294
+      }
+    ],
+    "arithmetic_total_only": 80751,
+    "arithmetic_CNV_label_total": 8401,
+    "arithmetic_noCNV_label_total": 72350,
+    "arithmetic_adaptive_label_total": 1569,
+    "arithmetic_neutral_label_total": 79182,
+    "table_metadata": {
+      "classes": [
+        "grouped_df",
+        "tbl_df",
+        "tbl",
+        "data.frame"
+      ],
+      "nrow": 4,
+      "ncol": 4
+    },
+    "Lauer_input_schema_names": [
+      "anc",
+      "timept",
+      "sample",
+      "evo",
+      "prop",
+      "transformed",
+      "hours",
+      "generation",
+      "run",
+      "strain",
+      "type"
+    ],
+    "fitness_export_schema_names": [
+      "clone",
+      "fitness_coef"
+    ],
+    "inference_result_schema_names": [
+      "Mutation_Fitness",
+      "Establishment_Time",
+      "Likelihood_Log",
+      "Likelihood_Log_Adaptive",
+      "Likelihood_Log_Neutral",
+      "Mean_Fitness",
+      "Kappa_Value",
+      "Mutant_Cell_Fraction"
+    ]
+  },
+  "claims": [
+    {
+      "id": "R42-P01",
+      "finding": "Original-author README explicitly associates the HTML notebooks with the Rmd figures and directs figure data to OSF E9D5X; it supplies no alternate CSV host or separate data terms.",
+      "anchors": [
+        "P03 complete source identity"
+      ],
+      "limit": "No exhaustive mirror or global terms-absence claim."
+    },
+    {
+      "id": "R42-P02",
+      "finding": "HTML contains a real paged-table JSON data payload, with four rows and four columns also stated in notebook frame metadata.",
+      "anchors": [
+        "stored_table",
+        "summary_count_code"
+      ],
+      "limit": "Stored author output, not independently replayed results."
+    },
+    {
+      "id": "R42-P03",
+      "finding": "Stored bc01 summary counts are CNV/adaptive 1513, CNV/neutral 6888, noCNV/adaptive 56, noCNV/neutral 72294; their arithmetic total is 80751.",
+      "anchors": [
+        "stored_table"
+      ],
+      "limit": "Counted rows in a saved grouped summary; not authenticated distinct biological lineages or mutation births."
+    },
+    {
+      "id": "R42-P04",
+      "finding": "The summary uses n() after numerical-result and identifier binding, population assignment and CNV left join. Adaptive is defined by Mutation_Fitness > 0; the displayed noCNV class follows a missing joined CNV annotation.",
+      "anchors": [
+        "joined_dfe",
+        "summary_count_code"
+      ],
+      "limit": "Uniqueness, join cardinality, identifier alignment, biological negative truth and source-execution identity remain unverified."
+    },
+    {
+      "id": "R42-P05",
+      "finding": "The stored summary and comparison selectors do not apply the separate trajectory-display zero/reappearance filters. The comparison takes CNV-labeled positive inferred fitness and positive competition coefficients after its ancestor-name filter.",
+      "anchors": [
+        "trajectory_filter",
+        "comparison_selectors",
+        "fitness_import"
+      ],
+      "limit": "80751 is not a panel-A trajectory count; 1513 is only a stored source-category count, not a certified final displayed-bin count."
+    },
+    {
+      "id": "R42-P06",
+      "finding": "All three source representations specify geom_density_ridges2 with stat=\"binline\", bins=25, scale=1 and an x-axis scale limited to 0 through 0.2.",
+      "anchors": [
+        "binned_plot"
+      ],
+      "limit": "Corrects prior combined-KDE wording. No empirical KDE bandwidth, exact bin edges, numerical histogram replay or executed figure identity is established."
+    },
+    {
+      "id": "R42-P07",
+      "finding": "All 183 nonblank R lines agree across visible/embedded/separate source after replacing setup directory assignments; the only actual nonblank differences involve bar_dir, param_dir and fit_dir as recorded.",
+      "anchors": [
+        "embedded_rmd",
+        "source_comparison"
+      ],
+      "limit": "These are matching analysis recipes with different source-local input directory assignments, not byte-identical code snapshots or authenticated shared input bytes."
+    },
+    {
+      "id": "R42-P08",
+      "finding": "Stored reader output declares clone and fitness_coef for the fitness export; eleven typed columns for the Lauer-derived competition input, including both hours and generation; and eight numeric columns for model-inference results.",
+      "anchors": [
+        "fitness_schema_output",
+        "competition_schema_output",
+        "inference_schema_output"
+      ],
+      "limit": "Column names/types do not establish actual row values, conversion, missingness, unique clone counts, intervals, or time calibration."
+    },
+    {
+      "id": "R42-P09",
+      "finding": "The cached upstream preprocessor can aggregate low-count rows; cached FitMut source assigns nonpositive likelihood-difference rows zero fitness/establishment and exports lineage-length and time-length arrays using zip_longest.",
+      "anchors": [
+        "R40 preserved upstream source identities"
+      ],
+      "limit": "This does not demonstrate an aggregate or padded row in the displayed summary, nor recover the missing identifier manifest."
+    },
+    {
+      "id": "R42-P10",
+      "finding": "All three target competition CSV byte identities remain unrecovered. The source table does not fill any TMD study or planning input.",
+      "anchors": [
+        "R40 source inventory",
+        "P03 complete source identity"
+      ],
+      "limit": "All 26 study and 18 planning NULLs and 0 native matched panels remain unchanged."
+    }
+  ],
+  "anchors": {
+    "barcode_import": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 6,
+      "start_byte_zero_based": 681892,
+      "end_byte_exclusive": 682169,
+      "start_line_one_based": 1871,
+      "end_line_one_based": 1872,
+      "raw_element_bytes": 277,
+      "raw_element_sha256": "e1865c29f6b464e45dd924bc0f208d6165b155e88d19d2a7d81d379512b5f3cc",
+      "decoded_text_bytes": 165,
+      "decoded_text_sha256": "80a4bddc14735d02c5f6687e02e85e7f27cf437f617e85de9da8f60db539185e"
+    },
+    "filtered_identifier_import": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 8,
+      "start_byte_zero_based": 683736,
+      "end_byte_exclusive": 683942,
+      "start_line_one_based": 1888,
+      "end_line_one_based": 1889,
+      "raw_element_bytes": 206,
+      "raw_element_sha256": "988ded6ccfa989279648b3246d48c2ee11b4dc89756d1b66df3498e8dddfc686",
+      "decoded_text_bytes": 164,
+      "decoded_text_sha256": "81852f86d3bf879547e7bdf1996b469728b08338fc5b9fd862ab8b097d6857fe"
+    },
+    "trajectory_filter": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 10,
+      "start_byte_zero_based": 686875,
+      "end_byte_exclusive": 688516,
+      "start_line_one_based": 1899,
+      "end_line_one_based": 1933,
+      "raw_element_bytes": 1641,
+      "raw_element_sha256": "41a47e80873dd60d3b1ba61d3edac431d43b008caa46f3ab69362a0249ba120e",
+      "decoded_text_bytes": 1375,
+      "decoded_text_sha256": "157f674e867f191fe2dfc1dbc002591bfbfdde9f5a62af1763a1e26b059bc4fd"
+    },
+    "joined_dfe": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 11,
+      "start_byte_zero_based": 689158,
+      "end_byte_exclusive": 689616,
+      "start_line_one_based": 1940,
+      "end_line_one_based": 1945,
+      "raw_element_bytes": 458,
+      "raw_element_sha256": "e9f650b6ce6aad8ecb6f993b44c2f3ccdd321be1e48bdfd03c1f7817a40efda6",
+      "decoded_text_bytes": 329,
+      "decoded_text_sha256": "e1d51b77b65601f8cd9b10c835e5689625839dfc9c1221646258e00deaf26ee4"
+    },
+    "inference_schema_output": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 12,
+      "start_byte_zero_based": 690528,
+      "end_byte_exclusive": 691173,
+      "start_line_one_based": 1948,
+      "end_line_one_based": 1959,
+      "raw_element_bytes": 645,
+      "raw_element_sha256": "bd42a2caccd1f449e7b3383093201361450af43338f49ae8c1db0766d1a4efec",
+      "decoded_text_bytes": 621,
+      "decoded_text_sha256": "f52fe68bcd5c872ec4def4833c2f76ac80d5cb72b88a7575ccce70b9648a5933"
+    },
+    "summary_count_code": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 13,
+      "start_byte_zero_based": 691493,
+      "end_byte_exclusive": 691730,
+      "start_line_one_based": 1962,
+      "end_line_one_based": 1966,
+      "raw_element_bytes": 237,
+      "raw_element_sha256": "32c538772bde4898a5889d6f8182f158e405fed3b26c7b1878ae0dfc2968bc0c",
+      "decoded_text_bytes": 171,
+      "decoded_text_sha256": "4d2fe83fb0b31121e003c43b2fd4b1510428d094c967fb5330b5add07b7aa94a"
+    },
+    "fitness_import": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 18,
+      "start_byte_zero_based": 717380,
+      "end_byte_exclusive": 717564,
+      "start_line_one_based": 2164,
+      "end_line_one_based": 2165,
+      "raw_element_bytes": 184,
+      "raw_element_sha256": "b38b5920d411fed6cc661f5c73636e9300c476563a14ede108d479a095fdb6e4",
+      "decoded_text_bytes": 127,
+      "decoded_text_sha256": "15cb137aae2a5837c2bde10f34eff161ed70bc2623fa2a022d24f83f7739726d"
+    },
+    "fitness_schema_output": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 19,
+      "start_byte_zero_based": 718164,
+      "end_byte_exclusive": 718579,
+      "start_line_one_based": 2168,
+      "end_line_one_based": 2173,
+      "raw_element_bytes": 415,
+      "raw_element_sha256": "6534312e403f03671d94c239b02e5729aebae8b828eb458210272f4f16876dae",
+      "decoded_text_bytes": 391,
+      "decoded_text_sha256": "5713c22731c822eb0b29dadac6e6759fd69c2f3c57b146da5ec7e5c0b055c0b5"
+    },
+    "competition_import": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 20,
+      "start_byte_zero_based": 718759,
+      "end_byte_exclusive": 718873,
+      "start_line_one_based": 2176,
+      "end_line_one_based": 2176,
+      "raw_element_bytes": 114,
+      "raw_element_sha256": "23ae1e0bb9325cfc796f413445195e54ff8c0152d146401f6f9a0fb52a3f0a0c",
+      "decoded_text_bytes": 70,
+      "decoded_text_sha256": "cf8391d0b739f2eb94814aa0401a3c02ce52244c060f9ae6a844f3342dc3c7fd"
+    },
+    "competition_schema_output": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 21,
+      "start_byte_zero_based": 719781,
+      "end_byte_exclusive": 720420,
+      "start_line_one_based": 2179,
+      "end_line_one_based": 2193,
+      "raw_element_bytes": 639,
+      "raw_element_sha256": "f71e06bdcaef66818ce56d12920aa44582260165eb197da31bc6f94664c633ed",
+      "decoded_text_bytes": 615,
+      "decoded_text_sha256": "7a3e8b357296c748a5c5d3041d128d22aa199bd37ab55e9bd5d81a81f9fc2f1c"
+    },
+    "example_competition_plot": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 23,
+      "start_byte_zero_based": 1508298,
+      "end_byte_exclusive": 1508899,
+      "start_line_one_based": 2224,
+      "end_line_one_based": 2237,
+      "raw_element_bytes": 601,
+      "raw_element_sha256": "8c63edca4323dd17c1a3028507e6fc5d503a3ed9cb6805140a4a4e24cada90ad",
+      "decoded_text_bytes": 471,
+      "decoded_text_sha256": "34d165c5703ee4df3292e8499cfc56f613a52d0d140efe7c586c64bcc4ab026d"
+    },
+    "comparison_selectors": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 24,
+      "start_byte_zero_based": 1634284,
+      "end_byte_exclusive": 1635458,
+      "start_line_one_based": 2247,
+      "end_line_one_based": 2262,
+      "raw_element_bytes": 1174,
+      "raw_element_sha256": "7da7f7ba12e2ef7ed680e68ab6c97cf5f087dbe5a08568167c301de974928e94",
+      "decoded_text_bytes": 926,
+      "decoded_text_sha256": "923c01e04887e9a9a21b128c9398dc48cfa197e49333202d8100d1b07f87c830"
+    },
+    "binned_plot": {
+      "source": "P04",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 26,
+      "start_byte_zero_based": 1636631,
+      "end_byte_exclusive": 1637446,
+      "start_line_one_based": 2268,
+      "end_line_one_based": 2283,
+      "raw_element_bytes": 815,
+      "raw_element_sha256": "9d444e0e499e2e389b3bb46383307394a8de63cff16cd025275ddccc63f5066c",
+      "decoded_text_bytes": 638,
+      "decoded_text_sha256": "cf95dedd83c6a051f1d0d5a4e99ba63f5b54f32e5a745fd026051589a583eb34"
+    },
+    "stored_table": {
+      "source": "P04",
+      "type": "HTML application/json paged table",
+      "start_byte_zero_based": 692834,
+      "end_byte_exclusive": 693495,
+      "start_line_one_based": 1973,
+      "end_line_one_based": 1975,
+      "raw_element_bytes": 661,
+      "raw_element_sha256": "1bd866e4e40902c182da459f705cfabae23ad23a73526787a15541ac6b31ff38",
+      "json_text_bytes": 597,
+      "json_text_sha256": "d953064d24136f2be575c1f096add5888b57d5e64a40e369e4b129b3fd806465",
+      "reported_rows": 4,
+      "reported_columns": 4
+    },
+    "embedded_rmd": {
+      "source": "P04",
+      "type": "base64 source text only",
+      "start_byte_zero_based": 1717765,
+      "end_byte_exclusive": 1730913,
+      "start_line_one_based": 2303,
+      "end_line_one_based": 2303,
+      "raw_element_bytes": 13148,
+      "raw_element_sha256": "60404037a5a1adcaac0bb012abb6349254a2b99add67943a838483588b476816",
+      "decoded_bytes": 9835,
+      "decoded_sha256": "19ab083c527ce3ae6ed3cebf2804f1a124406970216fd6eb20d2516e7f304f17",
+      "decoded_git_blob_sha1": "bd010591419833031b68987451c6745ce3d0d6b4",
+      "decoded_body_saved_separately": false
+    }
+  },
+  "source_comparison": [
+    {
+      "left": "visible",
+      "right": "embedded",
+      "nonblank_R_line_count_each": 183,
+      "differences": [
+        {
+          "nonblank_R_line_one_based": 6,
+          "setup_variable": "bar_dir",
+          "left_line_sha256": "f2b59cff7c820ee4a6f0e33cd8a7abc1072e578b6e8a3ffd5cb5c0e1533f4184",
+          "right_line_sha256": "8490cbb770237e4705344e5a0d63d86881ffbba11026396532297666ed002d8c"
+        },
+        {
+          "nonblank_R_line_one_based": 7,
+          "setup_variable": "param_dir",
+          "left_line_sha256": "376bf5597cc2895930181185e768f7bd081902b41622c626eead67175962b87e",
+          "right_line_sha256": "55d312ae63a90e0f05276b9158bc0bea8f9dae4b9760d8b7ef98a99682d9d638"
+        },
+        {
+          "nonblank_R_line_one_based": 8,
+          "setup_variable": "fit_dir",
+          "left_line_sha256": "6e1f9bc7d455be4724f0cd4ce5e412ace12ff8825840d9d5e345bfd6f461e381",
+          "right_line_sha256": "7e627c213427d47dbf627cd38ab8b2349e0ee251a1cea23d07c15c19523a6016"
+        }
+      ],
+      "all_other_nonblank_R_lines_identical": true,
+      "private_directory_values_published": false
+    },
+    {
+      "left": "visible",
+      "right": "separate",
+      "nonblank_R_line_count_each": 183,
+      "differences": [
+        {
+          "nonblank_R_line_one_based": 6,
+          "setup_variable": "bar_dir",
+          "left_line_sha256": "f2b59cff7c820ee4a6f0e33cd8a7abc1072e578b6e8a3ffd5cb5c0e1533f4184",
+          "right_line_sha256": "b40e81f947b17cb7087712527a85c91ac45ad6f7262f431ffdc57edf352ab077"
+        },
+        {
+          "nonblank_R_line_one_based": 7,
+          "setup_variable": "param_dir",
+          "left_line_sha256": "376bf5597cc2895930181185e768f7bd081902b41622c626eead67175962b87e",
+          "right_line_sha256": "55d312ae63a90e0f05276b9158bc0bea8f9dae4b9760d8b7ef98a99682d9d638"
+        },
+        {
+          "nonblank_R_line_one_based": 8,
+          "setup_variable": "fit_dir",
+          "left_line_sha256": "6e1f9bc7d455be4724f0cd4ce5e412ace12ff8825840d9d5e345bfd6f461e381",
+          "right_line_sha256": "7e627c213427d47dbf627cd38ab8b2349e0ee251a1cea23d07c15c19523a6016"
+        }
+      ],
+      "all_other_nonblank_R_lines_identical": true,
+      "private_directory_values_published": false
+    },
+    {
+      "left": "embedded",
+      "right": "separate",
+      "nonblank_R_line_count_each": 183,
+      "differences": [
+        {
+          "nonblank_R_line_one_based": 6,
+          "setup_variable": "bar_dir",
+          "left_line_sha256": "8490cbb770237e4705344e5a0d63d86881ffbba11026396532297666ed002d8c",
+          "right_line_sha256": "b40e81f947b17cb7087712527a85c91ac45ad6f7262f431ffdc57edf352ab077"
+        }
+      ],
+      "all_other_nonblank_R_lines_identical": true,
+      "private_directory_values_published": false
+    }
+  ],
+  "comparison_method": "Extract static visible R pre/code text with HTML entity decoding; extract embedded base64 Rmd as bytes; extract fenced R chunks from embedded and cached separate Rmd; remove blank lines only; compare every remaining line and hash differing local-directory assignments. No R, JavaScript, serialized R frame or source-author program executed.",
+  "visible_R_chunks": 18,
+  "separate_Rmd_chunks": 11,
+  "visible_comment_source_pairs_exactly_match": 18,
+  "embedded_source_fulltext_vs_separate": {
+    "equal": false,
+    "only_changed_fulltext_line_one_based": 13,
+    "variable": "bar_dir",
+    "embedded_bytes": 9835,
+    "separate_bytes": 9832
+  },
+  "invariants": {
+    "study_NULL_count": 26,
+    "planning_NULL_count": 18,
+    "native_matched_panels": 0,
+    "R5_R11_R17_unchanged": true,
+    "theta_eta_unchanged": true,
+    "frozen_predictors_comparators_evaluation_unchanged": true,
+    "error_allocation_and_fixed_stopping_unchanged": true,
+    "methods_version": "0.6.0",
+    "methods_DOI": "10.5281/zenodo.23219776",
+    "runner": "paused",
+    "biological_fit": false,
+    "author_code_execution": false,
+    "outreach": false,
+    "laboratory_work": false,
+    "new_theorem": false,
+    "new_Zenodo_version": false
+  }
+}

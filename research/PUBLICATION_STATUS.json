@@ -23,7 +23,7 @@
   "final_archive_bytes": 1277802,
   "final_archive_sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
   "publication_attempted": true,
-  "next_action": "Keep unchanged OSF CSV download access parked until a supported changed-access prerequisite or lawfully supplied exact file becomes available. Prioritize actual bytes and applicable terms for the three R40 version-1 competition CSVs, with their advertised hashes, time/response units, clone/run identity, exclusions and publication-execution provenance. Apply the R41 exact bounds only after verifying the isolated selected Lauer-derived frame, stable biological clone labels, a common finite estimate per clone and the one-to-three repeated-row cap. Actual row totals, threshold counts and optional unique-clone count can tighten the bounds; hypothetical inputs do not fill study fields. Do not apply empirical-CDF bounds directly to the combined barcoded KDE, automatic bandwidth, all mutation births or unmeasured recovery. Barcode count/time/identifier/aggregate-row truth, S4 genotype/fluorescence and 29-versus-28 missingness remain unresolved. The separate 2026 Ding source motivates genotype/environment and growth-clock controls; its endpoint, exclusion, callable-site and expected-LOH corrections are not native mutation-birth or establishment truth. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No source-author code execution, biological fit, unsupported theory extension, outreach or laboratory work.",
+  "next_action": "Keep unchanged OSF download access parked until a supported changed prerequisite or lawful exact file is available. Prioritize actual versioned competition CSVs and applicable terms, barcode counts/time/identifier vectors, CNV annotation uniqueness and missingness, retained/aggregate-row manifest and execution checksums. The stored bc01 grouped summary is not a distinct-lineage or mutation-birth census. Verify hours/generation/response conventions and the isolated selected Lauer-derived clone frame before using R41 CDF bounds. The authenticated Figure 7 recipe is binline with 25 bins and x scale 0 to 0.2; no automatic KDE bandwidth is authenticated, and CDF bounds do not certify plotted bins. Preserve genotype-negative truth separately from unmatched annotations and adaptive truth separately from positive inferred fitness. BASIL is a new measurement comparator lead only: no FitMut2 result is transported to original FitMut; no source calibration or confidence factor is adopted into the frozen TMD test. Direct births, losses, establishment and recovery still need independent evidence. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, methods 0.6.0 and paused runner. No source-author code execution, biological fit, unsupported theory, outreach or laboratory work.",
   "checked_utc": "2026-10-08T21:51:59.131627+00:00",
   "latest_labelled_methods_version": "0.6.0",
   "latest_labelled_methods_record": 23219776,
@@ -41,16 +41,16 @@
   "read_only_recheck_scope": "Fresh unauthenticated public metadata, HTML and all eight file bytes verified after publication. Exact approved notes rendered publicly.",
   "github_research_addenda": {
     "latest_rounds": [
-      "R000041"
+      "R000042"
     ],
-    "handoff": "CONTINUATION_HANDOFF_2026-10-15_R41.md",
+    "handoff": "CONTINUATION_HANDOFF_2026-10-16_R42.md",
     "frozen_0_6_0_includes_these_addenda": false,
     "status": "internally_reviewed",
     "author_methods_Zenodo_requests_this_round": 0,
     "third_party_public_Zenodo_requests_this_round": 0,
-    "scientific_acquisition_attempts": 3,
+    "scientific_acquisition_attempts": 8,
     "new_zenodo_version_created": false,
-    "scientific_inference_status": "exact_conditional_clone_weight_sensitivity_and_recent_primary_comparator_assessment"
+    "scientific_inference_status": "rendered_notebook_table_plot_contract_and_recent_lineage_inference_assessment"
   },
   "github_research_addenda_history": [
     {
@@ -275,6 +275,19 @@
       "scientific_acquisition_attempts": 9,
       "new_zenodo_version_created": false,
       "scientific_inference_status": "authenticated_competition_and_barcode_pipeline_contract_with_official_CSV_metadata"
+    },
+    {
+      "latest_rounds": [
+        "R000041"
+      ],
+      "handoff": "CONTINUATION_HANDOFF_2026-10-15_R41.md",
+      "frozen_0_6_0_includes_these_addenda": false,
+      "status": "internally_reviewed",
+      "author_methods_Zenodo_requests_this_round": 0,
+      "third_party_public_Zenodo_requests_this_round": 0,
+      "scientific_acquisition_attempts": 3,
+      "new_zenodo_version_created": false,
+      "scientific_inference_status": "exact_conditional_clone_weight_sensitivity_and_recent_primary_comparator_assessment"
     }
   ],
   "publication_verified_file_count": 8,

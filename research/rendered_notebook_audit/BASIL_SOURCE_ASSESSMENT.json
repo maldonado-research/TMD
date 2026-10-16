@@ -1,0 +1,357 @@
+{
+  "round": "R000042",
+  "assessment_kind": "original source assessment by independent internal AI reviewer; no qualified external peer review",
+  "source": {
+    "title": "Putting BASIL in a BLT: A Bayesian filtering method for estimating the fitness effects of nascent adaptive mutations",
+    "authors": [
+      "Huan-Yu Kuo",
+      "Sergey Kryazhimskiy"
+    ],
+    "doi": "10.1371/journal.pcbi.1013946",
+    "PMCID_version": "PMC12974954.1",
+    "PMID": "41758887",
+    "publication_date": "2026-02-27",
+    "primary_article_license": "CC BY 4.0",
+    "license_URL": "https://creativecommons.org/licenses/by/4.0/",
+    "source_bytes": 361118,
+    "source_sha256": "3f860d7ff32d330fb3f2d9b9990694624c67f903af3ce13bc9d3630b6e0c09ba",
+    "acquisition_id": "ROOT_S04",
+    "main_body_paragraph_count": 115,
+    "excluded_peer_review_sub_articles": 4
+  },
+  "anchor_contract": {
+    "main_article_selector": "pmc-articleset/article[1]",
+    "numbering": "1-based document order of main_article.find('body').iter('p'), including its figure/table/supplement-caption paragraphs, excluding front/back and all sibling sub-article peer-review content",
+    "hash": "SHA-256 of UTF-8 bytes of exact concatenated ElementTree itertext, no normalization",
+    "unique_anchor_count": 28
+  },
+  "anchors": [
+    {
+      "anchor_id": "body-p009",
+      "main_body_paragraph_index_1based": 9,
+      "text_sha256": "d50b7fe203f063b73d5f35460a571087ae0c7110007819751cd3d6bf29e5cfe2",
+      "utf8_bytes": 1402,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p011",
+      "main_body_paragraph_index_1based": 11,
+      "text_sha256": "90e42e75b7152567c3fafbad184a8e2309ebbe1c6441e8cafda1ca84da2e92db",
+      "utf8_bytes": 1166,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p019",
+      "main_body_paragraph_index_1based": 19,
+      "text_sha256": "12c68a399b1f543a9c2ad5f2e83e74cd30ebc015156abf9506ebf58b8efef9d1",
+      "utf8_bytes": 1948,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p021",
+      "main_body_paragraph_index_1based": 21,
+      "text_sha256": "a6c86ed77348f2ac5ab33e00d7dde1602dbca5508c088852d39d49c5fbf6a12a",
+      "utf8_bytes": 966,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p023",
+      "main_body_paragraph_index_1based": 23,
+      "text_sha256": "2c944e39396695f060ed0ba1a577f8f3219b4731c3fc38b7a2971a95de96b129",
+      "utf8_bytes": 643,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p027",
+      "main_body_paragraph_index_1based": 27,
+      "text_sha256": "30f06f53cba39377ba98e9fc048175fef723433acfb397e3a564306471456b73",
+      "utf8_bytes": 477,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p030",
+      "main_body_paragraph_index_1based": 30,
+      "text_sha256": "3cfe4b232ccbde8ab96e7f96e20c24421d14a34a53da9bf91284f73d5dfdc111",
+      "utf8_bytes": 741,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p037",
+      "main_body_paragraph_index_1based": 37,
+      "text_sha256": "ac0ccaa8520f594bdf8ac7e86a8600f8ba73f0b2ddc7c3fcae31bb9850f49e56",
+      "utf8_bytes": 1303,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p038",
+      "main_body_paragraph_index_1based": 38,
+      "text_sha256": "d443ca9b179db329f01f12778fc6b8d58ddcc55ae9da089464b9d3c90cc69d1d",
+      "utf8_bytes": 1434,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p041",
+      "main_body_paragraph_index_1based": 41,
+      "text_sha256": "4a76543285d1948b047782c6647f124900e14bbfc57e8d1868e747e79e1410f6",
+      "utf8_bytes": 892,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p042",
+      "main_body_paragraph_index_1based": 42,
+      "text_sha256": "006cbf89071d686fbb7f9c1ebcb674e91be49e1bbb38a997857dffe9c5cc779b",
+      "utf8_bytes": 1025,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p043",
+      "main_body_paragraph_index_1based": 43,
+      "text_sha256": "ae0426bb1ec5b5e7aa801829b583ba1cc9374af457c4fa5929bb0e735c6503c3",
+      "utf8_bytes": 554,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p044",
+      "main_body_paragraph_index_1based": 44,
+      "text_sha256": "b176b955750f1c87610230ec792d05f93d401ffec8ec43c87e07f9e6f48fe976",
+      "utf8_bytes": 402,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p045",
+      "main_body_paragraph_index_1based": 45,
+      "text_sha256": "6fa3fb00fe864bcf3217e663e6bfbfeaf2faf0e6f8db5f3ce9d853dced6322c8",
+      "utf8_bytes": 1182,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p048",
+      "main_body_paragraph_index_1based": 48,
+      "text_sha256": "2c40e5334cb3df308d837bdd676e70ab8202677908dd1c4907b475d765306a0e",
+      "utf8_bytes": 585,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p051",
+      "main_body_paragraph_index_1based": 51,
+      "text_sha256": "f3747842738ec4bb00939b3132abaf919a94f34f8b1379132290ab6108035d0e",
+      "utf8_bytes": 2074,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p052",
+      "main_body_paragraph_index_1based": 52,
+      "text_sha256": "3f3cbc56296984973d5158ecd43dec1ef7a9d59cdd1988554cfba21073279210",
+      "utf8_bytes": 1363,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p057",
+      "main_body_paragraph_index_1based": 57,
+      "text_sha256": "58820023d99d6cb5125b34380732bc0d5c6f54e38f8b9497542f48236e24406c",
+      "utf8_bytes": 1484,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p059",
+      "main_body_paragraph_index_1based": 59,
+      "text_sha256": "6720a0fc65deefc23fa11675b868f9a770ae3e44812a7b90b1fdec8d44632c25",
+      "utf8_bytes": 945,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p060",
+      "main_body_paragraph_index_1based": 60,
+      "text_sha256": "2de1d11fd8a6fb762654adfc53271b792167b8e9693033eb9e8bcb3b743e4c1d",
+      "utf8_bytes": 1119,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p061",
+      "main_body_paragraph_index_1based": 61,
+      "text_sha256": "0c89899d1254fd4bcd1b08b361752b8c95f79ef422ff0b571256e0a1c8d12fb2",
+      "utf8_bytes": 929,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p062",
+      "main_body_paragraph_index_1based": 62,
+      "text_sha256": "435b0362270c6f90dc861e2598e0f7b0f46679e2651a643905e25b92383f1ea8",
+      "utf8_bytes": 491,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p064",
+      "main_body_paragraph_index_1based": 64,
+      "text_sha256": "d0e12e1e47a40a38157f536decc7bac649011dedf0f93387fd0e39ce9243e8d6",
+      "utf8_bytes": 366,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p065",
+      "main_body_paragraph_index_1based": 65,
+      "text_sha256": "76f02f1a8db52ac4683b283d75b30ef4dd0ab4e1854be1650c6badd6bf7ff5ba",
+      "utf8_bytes": 478,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p071",
+      "main_body_paragraph_index_1based": 71,
+      "text_sha256": "f53cb3e5d799e7f0456d2ea2839480aafc498bb3579481be141af58828590517",
+      "utf8_bytes": 821,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p095",
+      "main_body_paragraph_index_1based": 95,
+      "text_sha256": "88f0e6fd1d5d5da4451383a584384f93a16e42395017ee6d56be38a27d4df277",
+      "utf8_bytes": 389,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "body-p114",
+      "main_body_paragraph_index_1based": 114,
+      "text_sha256": "75301e4e961cbc90582954ad2f2b3385c579d937d06114307b5a559b6417d2b9",
+      "utf8_bytes": 209,
+      "text_extraction": "''.join(list(main_article.find('body').iter('p'))[index-1].itertext()); no whitespace, Unicode or mathematical-text normalization"
+    },
+    {
+      "anchor_id": "front-code-and-data-availability",
+      "main_article_front_paragraphs_match": 1,
+      "selector_contains_URL": "https://www.ncbi.nlm.nih.gov/bioproject/1227420",
+      "text_sha256": "80054b1afbb9693bbc76561c73c642e9ac9ca3930d69ad05393aea0d495c5720",
+      "utf8_bytes": 342,
+      "text_extraction": "''.join(element.itertext()); no normalization"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "B01",
+      "source_anchors": [
+        "body-p021",
+        "body-p023",
+        "body-p061"
+      ],
+      "source_supported_claim": "BASIL infers latent lineage sizes and selection coefficients through a dynamic and measurement model; the paper explicitly says it does not infer the rate at which beneficial mutations arise.",
+      "TMD_interpretation_and_boundary": "Fitness inference and adaptive-lineage classification do not supply independent mutation-birth, establishment, loss or recovery truth."
+    },
+    {
+      "claim_id": "B02",
+      "source_anchors": [
+        "body-p009",
+        "body-p071"
+      ],
+      "source_supported_claim": "The reported comparison simulations assign 3,000 pre-existing adapted lineages among 100,000 lineages, with no new mutations arising during simulation.",
+      "TMD_interpretation_and_boundary": "Their known selection labels support a simulation benchmark under its assumptions, not validation of a mutation-birth detector or native mutation rate."
+    },
+    {
+      "claim_id": "B03",
+      "source_anchors": [
+        "body-p011",
+        "body-p019"
+      ],
+      "source_supported_claim": "The paper reports selection-regime and reference-dependent errors and explains how reference contamination and regression to the mean can bias neutral-decline estimates.",
+      "TMD_interpretation_and_boundary": "These results motivate checking the observation model and reference composition; they do not establish an error in the R40 original FitMut artifact or every barcode method. The comparison implementation is FitMut2."
+    },
+    {
+      "claim_id": "B04",
+      "source_anchors": [
+        "body-p027",
+        "body-p030",
+        "body-p062",
+        "body-p064",
+        "body-p065"
+      ],
+      "source_supported_claim": "The calibration uses a constructed yeast barcode mixture. Methods begin with 26 clones and ten libraries, exclude one low-coverage replicate and four barcodes, and retain 22 barcodes across nine replicates. The fitted noise parameter is allowed to vary by interval because experimental details can matter.",
+      "TMD_interpretation_and_boundary": "The retained calibration frame is conditional on detected, included barcodes. It does not identify universal measurement error or recovery of missing native mutation events; the calibrated numeric parameter is not transferable by assumption."
+    },
+    {
+      "claim_id": "B05",
+      "source_anchors": [
+        "body-p037",
+        "body-p038",
+        "body-p057"
+      ],
+      "source_supported_claim": "The confidence factor trades precision against recall; beta=3.3 was selected using F1 scores from the same weak/strong simulation comparison, and the paper states its effectiveness on real data is difficult to ascertain.",
+      "TMD_interpretation_and_boundary": "Reported simulation precision and recall are conditional benchmark results, not an independently calibrated native false-positive rate or a replacement for the frozen TMD error allocation."
+    },
+    {
+      "claim_id": "B06",
+      "source_anchors": [
+        "body-p041",
+        "body-p061"
+      ],
+      "source_supported_claim": "The paper reports missing roughly 15–20% of truly adapted lineages in its simulations, particularly weak-effect lineages, and identifies lost and established-but-undetected mutations as required inputs to rate inference.",
+      "TMD_interpretation_and_boundary": "Failure to call a barcode adapted does not establish absence of an adaptive event or measure the number of invisible origins."
+    },
+    {
+      "claim_id": "B07",
+      "source_anchors": [
+        "body-p042",
+        "body-p043"
+      ],
+      "source_supported_claim": "The real-data comparison uses competition estimates for 410 sampled yeast clones and explicitly allows their fitness to differ from the corresponding original adapted lineages. The paper reports higher correlations for BASIL than FitMut2 in the tested environments.",
+      "TMD_interpretation_and_boundary": "This is a conditional comparison with a proxy fitness target, not direct birth, genotype, establishment-time or native W/A/M truth. No listed correlation was independently replayed here."
+    },
+    {
+      "claim_id": "B08",
+      "source_anchors": [
+        "body-p044",
+        "body-p045",
+        "body-p048"
+      ],
+      "source_supported_claim": "Coverage and time-point down-sampling change detected-lineage sets differently for BASIL and FitMut2; agreement is assessed relative to the full-data analyses.",
+      "TMD_interpretation_and_boundary": "These perturbation checks diagnose sensitivity and self-consistency. The full-data calls are not independent biological truth, and source descriptions of likely spurious calls are not independently adjudicated errors here."
+    },
+    {
+      "claim_id": "B09",
+      "source_anchors": [
+        "body-p051",
+        "body-p059",
+        "body-p060"
+      ],
+      "source_supported_claim": "The paper observes a late mean-fitness decline in one reanalyzed dataset, proposes secondary mutations as the cause, and describes constant-fitness/intra-lineage limitations, including unreliable use under fluctuating or frequency-dependent selection or spatially structured expansion.",
+      "TMD_interpretation_and_boundary": "The proposed explanation is not direct proof of secondary mutation histories. The model cannot be transported to these contexts without an independently justified observation and dynamics contract."
+    },
+    {
+      "claim_id": "B10",
+      "source_anchors": [
+        "body-p052",
+        "body-p061"
+      ],
+      "source_supported_claim": "Measured fitness distributions differ across some biological replicates, and the paper connects the detection problem to sampling, competition, establishment and missed lineages.",
+      "TMD_interpretation_and_boundary": "A distribution over detected adapted lineages is not the complete distribution or rate of all mutational origins; it cannot fill the missing native route supply or comparator vector."
+    },
+    {
+      "claim_id": "B11",
+      "source_anchors": [
+        "body-p021",
+        "body-p095"
+      ],
+      "source_supported_claim": "The real-data mean-fitness check compares inferred mean fitness with an a posteriori estimate using inferred selection coefficients and frequencies of called adapted lineages.",
+      "TMD_interpretation_and_boundary": "This is an internal consistency check with shared inferred inputs, not an independent assay of mean fitness."
+    },
+    {
+      "claim_id": "B12",
+      "source_anchors": [
+        "body-p114",
+        "front-code-and-data-availability"
+      ],
+      "source_supported_claim": "The main article points to S1 Data containing its measurement-noise experiment, study summaries and BASIL outputs. Front-matter availability separately points to code and BioProject 1227420.",
+      "TMD_interpretation_and_boundary": "Only the main article XML was acquired in this assessment. The pointer does not authenticate the data workbook, sequence reads, code snapshot, input exclusions or a numerical replay."
+    }
+  ],
+  "admission": {
+    "matched_native_WAM_panel_admitted": false,
+    "source_numerical_replay": false,
+    "source_author_code_execution": false,
+    "mutation_birth_or_native_origin_truth_admitted": false,
+    "BASIL_adopted_as_frozen_comparator": false,
+    "new_theorem": false,
+    "actual_study_fields_resolved": 0,
+    "actual_planning_fields_resolved": 0,
+    "methods_0_6_0_changed": false
+  },
+  "reviewer_scientific_acquisitions": 0,
+  "public_source_bodies_included": false
+}
