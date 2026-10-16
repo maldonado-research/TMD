@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R41, 15 October 2026
+## Latest research checkpoint — R42, 16 October 2026
+
+The [rendered notebook audit](research/rendered_notebook_audit/REPORT.md) authenticates four stored source-category counts totaling 80,751 and the Figure 7 plotting contract. These are grouped source rows, not verified distinct biological lineages or mutation births. **Correction to the R41 handoff:** the authenticated plot is a binned ridgeline with 25 bins, not an authenticated automatic-bandwidth KDE. The R41 empirical-CDF calculation remains separate and unchanged.
+
+A [February 2026 BASIL assessment](research/rendered_notebook_audit/WATCH.md) distinguishes inferred fitness, detected lineages, calibration exclusions and invisible mutation losses. No source-author code was run or native TMD data admitted. Actual CSVs remain unrecovered; all 26 study and 18 planning inputs stay NULL. [R42 checkpoint](research/CONTINUATION_HANDOFF_2026-10-16_R42.md).
+
+## Prior R41 checkpoint — 15 October 2026
 
 The [conditional clone-weight analysis](research/clone_weight_sensitivity/REPORT.md) adds exact rational bounds, constructive checks and a hypothetical figure for the selected three-run source frame. It quantifies possible row-versus-clone CDF differences without estimating actual distortion. A separate [April 2026 primary-source assessment](research/clone_weight_sensitivity/WATCH.md) retains genotype/environment, growth-clock, exclusion and detection limits. [R41 checkpoint](research/CONTINUATION_HANDOFF_2026-10-15_R41.md).
 

@@ -1,0 +1,131 @@
+{
+  "round": "R000042",
+  "status": "PASS",
+  "review_type": "independent internal AI-assisted source, scope, identity and package review; not qualified external peer review",
+  "reviewer": "r42_independent_review",
+  "accepted_payloads": {
+    "research/rendered_notebook_audit/AUDIT.json": {
+      "bytes": 18544,
+      "sha256": "b923a397e749138f336723ca2c37a468bfedf308883bf30e242b74d387e18a76"
+    },
+    "research/rendered_notebook_audit/BASIL_SOURCE_ASSESSMENT.json": {
+      "bytes": 19114,
+      "sha256": "a6de7c06d34a951f0b75d4ccabcb2440d23954d2c5ac6b0c8e03c79251d6af2d"
+    },
+    "research/rendered_notebook_audit/LICENSE": {
+      "bytes": 394,
+      "sha256": "4850b8e0a1b0d18924c700e957dd85f1eea4776bb1c0ab41e27c585214a2bd2c"
+    },
+    "research/rendered_notebook_audit/LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 949,
+      "sha256": "65ca3a2ef9440053835cd09eca7e4a136109a00f5af298e965da06e4e7913cb1"
+    },
+    "research/rendered_notebook_audit/REPORT.md": {
+      "bytes": 8379,
+      "sha256": "14cd27c1c6d92d9f23f917e3d8e29d5003ac9219ba275a0b0210bee05632ba53"
+    },
+    "research/rendered_notebook_audit/SOURCE_PROVENANCE.json": {
+      "bytes": 11471,
+      "sha256": "0536345ae8ca327d98e0913de01115cc7d14ad26cc560cf15ff08408dadb7ab6"
+    },
+    "research/rendered_notebook_audit/WATCH.md": {
+      "bytes": 4588,
+      "sha256": "1e4e1b83991619f0ff07e8af24a4829bd4f2dc14d65b014b70f649abe4427870"
+    }
+  },
+  "reviewed_source_claims": 10,
+  "source_anchor_checks": 15,
+  "independently_rehashed_source_identities": [
+    {
+      "source": "P03",
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b",
+      "git_blob_sha1": "b7ff6cf77072b6e795941c9c8fa893a2e4b5e4e7"
+    },
+    {
+      "source": "P04",
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb",
+      "git_blob_sha1": "b1d81e85d194665438cac46f001e39ac3e5d0838"
+    },
+    {
+      "source": "R39-tree",
+      "bytes": 15461,
+      "sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb"
+    },
+    {
+      "source": "R39-Rmd",
+      "bytes": 9832,
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "git_blob_sha1": "14efd06f001d17c8c039751496a36c1b7b0efc18"
+    },
+    {
+      "source": "R40-license",
+      "bytes": 1071,
+      "sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb",
+      "git_blob_sha1": "4fb88d257676ae59e4d9d95aeb949d81a0af4ec6"
+    },
+    {
+      "source": "R40-preprocessor",
+      "bytes": 57074,
+      "sha256": "f8c6594030d09283cf87e069dd61fed91c9945cb025249e58a955d860af558a2",
+      "git_blob_sha1": "519fb8201ae2b205228e42e75ff89650d73062eb"
+    },
+    {
+      "source": "R40-FitMut",
+      "bytes": 32258,
+      "sha256": "06966314d5360c32eab264f22023d5973f436f76e67f4789e5f4836ce87eed45",
+      "git_blob_sha1": "143f01ede5c41c47f447d10c07ce4bd708fe08ab"
+    }
+  ],
+  "notebook_checks": {
+    "table_rows": 4,
+    "table_columns": 4,
+    "row_total": 80751,
+    "table_meaning": "Stored grouped output; distinct biological lineages and execution provenance unauthenticated",
+    "source_recipe": "binline with 25 bins and x-scale limits 0–0.2; KDE/automatic bandwidth description corrected",
+    "nonblank_R_lines_each": 183,
+    "visible_vs_other_directory_assignment_differences": 3,
+    "other_matching_nonblank_R_lines": 180,
+    "HTML_R_source_comment_pairs": 18,
+    "underlying_competition_CSVs_acquired": false,
+    "source_author_code_or_serialized_frame_executed": false,
+    "source_numerical_replay": false
+  },
+  "BASIL_assessment": {
+    "claims": 12,
+    "unique_exact_anchors": 28,
+    "authorship": "original synthesis by this independent reviewer",
+    "cross_review": "Root independently checked all 28 anchors and all 12 claim semantics; this is a separate internal cross-review, not external review",
+    "claim_scope": "Fitness and classification measurement limits; no new mutation-birth validation or native transport; original FitMut is distinct from FitMut2"
+  },
+  "whole_round_accounting": {
+    "scientific_attempts": 8,
+    "root": 4,
+    "producer": 4,
+    "reviewer": 0,
+    "saved_capture_and_receipt_files": 16,
+    "explicit_reviewer_source_extracts": 2,
+    "capture_and_receipt_bytes": 2176744,
+    "source_derived_duplicate_bytes": 67131,
+    "total_counted_bytes": 2243875,
+    "source_author_execution": false,
+    "budget_closed": true
+  },
+  "preserved": {
+    "previous_artifacts": 365,
+    "study_NULLs": 26,
+    "planning_NULLs": 18,
+    "native_matched_panels": 0,
+    "frozen_algorithm_unchanged": true,
+    "methods": "0.6.0",
+    "runner": "paused"
+  },
+  "privacy_findings": [],
+  "remaining_limits": [
+    "Stored output does not authenticate underlying input rows, source execution, unique barcodes, CNV negative truth, lineage origin or native transfer.",
+    "Actual competition CSV bytes, applicable terms, clock and clone/run fields remain unresolved.",
+    "BASIL benchmark and calibration results are source reports, not independent numerical replay or independent native truth."
+  ],
+  "blocking_findings": []
+}

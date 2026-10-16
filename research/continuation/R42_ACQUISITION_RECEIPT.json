@@ -1,0 +1,131 @@
+{
+  "round": "R000042",
+  "scientific_acquisition_calls": 8,
+  "actor_scientific_attempts": {
+    "root": 4,
+    "producer": 4,
+    "independent_reviewer": 0
+  },
+  "maximum_source_acquisitions": 12,
+  "unused_scientific_acquisitions": 4,
+  "maximum_download_bytes": 20971520,
+  "capture_and_receipt_bytes": 2176744,
+  "derived_text_duplicate_bytes": 67131,
+  "counted_saved_source_bytes": 2243875,
+  "saved_files": [
+    {
+      "path": "producer/sources/P01.failure.txt",
+      "bytes": 48,
+      "sha256": "16eeaa9423819271c9a1f68f202a9fcce35d3bd8d09d3ec6a9743526666ccf71",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P01.receipt.json",
+      "bytes": 561,
+      "sha256": "8839ec795e2116011b0ba9d45a930c6411a6a05b98ec415befef4cffe0872154",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P02.body",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P02.receipt.json",
+      "bytes": 681,
+      "sha256": "4a8241c265099703cd8710627ea4d51a111dcfca48ced42e65d0c6c4f895b3ea",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P03.body",
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P03.receipt.json",
+      "bytes": 801,
+      "sha256": "51bba6606569d799d6d0983046d5d6a6e0ceee29e7ed7e93eec087f632e37b2f",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P04.body",
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P04.receipt.json",
+      "bytes": 806,
+      "sha256": "ac3cbacd3ee1e009f72a7ec92c302ea39beae641e74ac8e27b5378bd438a7c29",
+      "category": "request_receipt"
+    },
+    {
+      "path": "review/independent/rendered_figure_pre_blocks.json",
+      "bytes": 30768,
+      "sha256": "37f5b8e77c4e9f9080e263798cfc093469cc92e814c2cb2ab7e7b2164ab54ab2",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "review/independent/rendered_figure_visible.txt",
+      "bytes": 36363,
+      "sha256": "1c8f3e87692c1fcb0bc3323da3d5997d22fd2f3acd6cc24531e6fdc1092b27f6",
+      "category": "derived_text_duplicate"
+    },
+    {
+      "path": "sources/ROOT_S01.json",
+      "bytes": 36488,
+      "sha256": "c76c7dea5feab4985e1bf35a470a66092972b3082e3461f3b65049a75a28516d",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "sources/ROOT_S01.receipt.json",
+      "bytes": 447,
+      "sha256": "62676b6b12874bacdc230db2eff6b1cab7ed2e10c106ac4e653174f43b2b4a9b",
+      "category": "request_receipt"
+    },
+    {
+      "path": "sources/ROOT_S02.json",
+      "bytes": 38918,
+      "sha256": "1698dafe0aecafcc9746d30efbb49e182a5ad50afdf08e6ce4c6150dfb8422b4",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "sources/ROOT_S02.receipt.json",
+      "bytes": 391,
+      "sha256": "14169428dd0f045aad7d1cd7f97b3951ba787b09f5c7215519366d7b507cb0d7",
+      "category": "request_receipt"
+    },
+    {
+      "path": "sources/ROOT_S03.body",
+      "bytes": 267,
+      "sha256": "742a7099a06d1abf2f1a6f92f18a37be0c4ff0008bcbcdd265c26ce9634af138",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "sources/ROOT_S03.receipt.json",
+      "bytes": 738,
+      "sha256": "04e9176ada870958775ecc1ccad70e8adf8323823fd6f0d8799262b943a8a22d",
+      "category": "request_receipt"
+    },
+    {
+      "path": "sources/ROOT_S04.body",
+      "bytes": 361118,
+      "sha256": "3f860d7ff32d330fb3f2d9b9990694624c67f903af3ce13bc9d3630b6e0c09ba",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "sources/ROOT_S04.receipt.json",
+      "bytes": 665,
+      "sha256": "eb46521ce0eec5f7007b0c81b876a36edbbd74e2bd65f4bd0230beebbb566bfc",
+      "category": "request_receipt"
+    }
+  ],
+  "accounting_scope": "Exact saved MCP JSON serializations, HTTP body bytes, separate receipts, conservatively counted local failed acquisition setup and explicit source-derived extracts. Provider/wire/internal bytes unknown. Local operational Git baselines and original analyses are separate.",
+  "source_author_code_executed": false,
+  "biological_fit": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "scientific_budget_closed": true
+}

@@ -257,3 +257,7 @@ The [Avecilla et al. (2022)](https://doi.org/10.1371/journal.pbio.3001633) sourc
 ## R41 new-to-ledger 2026 primary comparator — 15 October 2026
 
 [Ding et al. (29 April 2026)](https://doi.org/10.1126/sciadv.adj6957) adds a [full-primary-source assessment](research/clone_weight_sensitivity/WATCH.md) of yeast growth/mutation-rate associations. Established lines, exclusions, growth proxy, generation/time denominators, split-measurement checks and expected LOH correction remain explicit. One full primary article was assessed following a bounded search; other returned leads are not full-text evidence. Separate [conditional row-weight mathematics](research/clone_weight_sensitivity/REPORT.md) uses cached R40 code and no observations from this study.
+
+## R42 recent barcode-inference evidence — 16 October 2026
+
+[Kuo and Kryazhimskiy (27 February 2026)](https://doi.org/10.1371/journal.pcbi.1013946) introduce BASIL. The [12-claim primary assessment](research/rendered_notebook_audit/WATCH.md) preserves pre-existing-mutation benchmarks, retained calibration barcodes/libraries, confidence selection, proxy fitness checks and explicit inability to infer beneficial mutation rates. No code, data workbook or reads were acquired or replayed, and no comparator is adopted. The separate [rendered Figure 7 audit](research/rendered_notebook_audit/REPORT.md) adds source-output facts and corrects prior KDE wording; it supplies no new native biological admission.
