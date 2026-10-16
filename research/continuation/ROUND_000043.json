@@ -1,0 +1,43 @@
+{
+  "id": "R000043",
+  "status": "completed_internal_review",
+  "date": "2026-10-16",
+  "timezone": "Etc/UTC",
+  "report": "../CONTINUATION_HANDOFF_2026-10-16_R43.md",
+  "completion_scope": "barcode_observation_identity_contract_and_original_structural_preflight",
+  "question": "Can authenticated source records resolve barcode identity, CNV classification, retained-row or measurement-law questions beyond the stored R42 summary, without inferring missing raw data or changing the frozen test?",
+  "scope_change": "Actual identity inputs remain parked. New source recipes and cached identity/selection steps support a narrow executable structural contract; it does not authenticate supplied biological identities or modify frozen admission rules.",
+  "details": {
+    "scientific_acquisition_attempts": 5,
+    "counted_saved_source_bytes": 84306,
+    "source_claims": 10,
+    "source_anchors": 14,
+    "source_identities": 11,
+    "own_adversarial_tests": 8,
+    "independent_assertions": 67,
+    "actual_CSV_contents_acquired": false,
+    "actual_barcode_CNV_assignments_recovered": false
+  },
+  "conditional_numeric_validation": false,
+  "original_structural_software_verified": true,
+  "native_biological_fit": false,
+  "new_mathematical_theorem": false,
+  "source_numerical_replay": false,
+  "existing_actual_study_fields_resolved": 0,
+  "native_control_planning_fields_resolved": 0,
+  "external_qualified_peer_review": false,
+  "statistical_error_or_stopping_changed": false,
+  "unattended_runner_activated": false,
+  "new_Zenodo_version_created": false,
+  "manual_scientific_model": {
+    "round": "R000043",
+    "user_requested_display_name": "Astra Ultra",
+    "delegated_model_id": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "scientific_delegates": 2,
+    "nested_delegates_used": false,
+    "installed_unattended_runner_configuration_changed": false,
+    "scheduled_provider_inference_tested": false
+  },
+  "next_action": "Obtain actual versioned count/time/barcode vectors, numerical results, annotation assays and a run-linked row crosswalk with retention, aggregate and padding roles, source checksums and applicable terms. Keep unchanged OSF download access parked until a supported prerequisite changes or a lawful exact file is supplied. Use the original preflight only on an externally justified normalized keyed table; supplying keys and explicit roles does not authenticate their biological or source-row binding. Preserve source CNV labels separately from genotype truth and unmatched annotations as unknown. Do not infer roles from zero fitness, array length or row position, and do not convert different saved views into attrition or error estimates. Actual clock calibration, missingness, independent mutation origins/losses/establishment and recovery remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, frozen predictors/comparators/evaluation, error allocation, stopping, methods 0.6.0 and the paused runner. No source-author program execution, biological fit, unsupported theory extension, outreach or laboratory work."
+}

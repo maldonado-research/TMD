@@ -215,3 +215,11 @@ No new mechanism, theorem, clinical prevention result or biological TMD fit is e
 | Four stored bc01 group counts total 80,751; source joins and sign labels are explicit | [Rendered notebook audit](research/rendered_notebook_audit/REPORT.md) | Saved grouped rows are not unique biological lineages, mutation births, genotype-negative truth or authenticated final plot counts. |
 | Figure 7 source snapshots request binline with 25 bins and x scale 0–0.2 | [Plot contract and scoped correction](research/rendered_notebook_audit/AUDIT.json) | Corrects R41 handoff combined-KDE wording. Source recipe agrees; directory assignments differ. Neither matching code nor R41 CDF bounds certifies the actual plotted distribution. |
 | BASIL improves selected fitness-inference comparisons under stated tests | [Recent primary assessment](research/rendered_notebook_audit/WATCH.md) | Pre-existing simulation labels, retained calibration and proxy real-data checks do not establish all mutation births or native TMD truth. FitMut2 findings are not automatically original FitMut findings. |
+
+## R43 keyed-table structure and observation contract — 16 October 2026
+
+| Supported result | Evidence | Inference boundary |
+| --- | --- | --- |
+| Original-author extraction/combining recipes and cached export/join steps can be authenticated | [Source contract](research/barcode_identity_audit/REPORT.md) | No actual run-linked input, row crosswalk, barcode-to-CNV assignment or observed data error is established. |
+| Explicit keyed-table structure can be checked and ambiguous positional inputs rejected | [Original preflight and tests](research/barcode_identity_audit/VALIDATION_CONTRACT.json) | Synthetic checks only; structural PASS leaves biological, source-binding, genotype-negative, clock, execution and native-admission gates false. |
+| Unlinked saved counts use different predicates | [Static audit](research/barcode_identity_audit/AUDIT.json) | No attrition, subset, missed-lineage count, quality error or source numerical contradiction is inferred. |

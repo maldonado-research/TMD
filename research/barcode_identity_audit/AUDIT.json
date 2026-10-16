@@ -1,0 +1,333 @@
+{
+  "round": "R000043",
+  "title": "Barcode observation and classification contract",
+  "source_article_doi": "10.1371/journal.pbio.3001633",
+  "status": "Original static source analysis; no source-author execution, numerical replay or empirical admission",
+  "claims": [
+    {
+      "id": "R43-P01",
+      "finding": "The pinned extraction script selects Bartender module 1.1-20210106, supplies a fixed barcode extraction pattern, and supplies -z -1 to clustering. A comment says quality cutoff 30 while the literal extraction command contains -q ?. The audit does not resolve the tool-specific interpretation or actual expanded runtime argument.",
+      "anchors": [
+        "extraction_recipe"
+      ],
+      "limit": "A source recipe establishes neither observed read quality nor true barcode identities, actual execution, clustering error rates or genotype."
+    },
+    {
+      "id": "R43-P02",
+      "finding": "The pinned combining script lists bc02 and bc04 inputs with six nominal generation labels: 5, 37, 62, 99, 124 and 149. Its comment says remove clusters with size below 10 and each command supplies -c 10.",
+      "anchors": [
+        "combination_recipe"
+      ],
+      "limit": "No tool implementation/documentation or execution receipt was acquired; the threshold comment and literal argument do not prove exact exclusion semantics, retained counts or biological time calibration."
+    },
+    {
+      "id": "R43-P03",
+      "finding": "The cached preprocessing source uses the first four count columns, retains rows whose four-column sum is at least 20, and, when lower-count rows exist, appends one row containing their columnwise sums. It writes numerical filtered counts but the displayed cell does not write the corresponding ordered barcode identifiers.",
+      "anchors": [
+        "preprocessor_source"
+      ],
+      "limit": "This is a conditional code path. No aggregate-row occurrence, retained-row count, barcode mapping or order equality in the Figure 7 inputs is established."
+    },
+    {
+      "id": "R43-P04",
+      "finding": "The visible cell-0 loop contains only bc04, but its single stored text output contains two printed array shapes, (75676, 4) and (113109, 4), with nominal time vectors [5,37,62,99]. The stored output cannot be unambiguously assigned to the one visible loop invocation.",
+      "anchors": [
+        "preprocessor_source",
+        "preprocessor_stored_output"
+      ],
+      "limit": "No claim of author error or historical execution cause. Saved notebook source and outputs do not establish a synchronized execution or identify which printed array corresponds to the Figure 7 run."
+    },
+    {
+      "id": "R43-P05",
+      "finding": "Cached cell 5 selects Likelihood_Log > 0 and prints 1772. R42 separately authenticates a grouped Figure 7 table with 1569 rows labeled adaptive by Mutation_Fitness > 0 after positional binding and a CNV join. These use different predicates and lack a shared input/run identity.",
+      "anchors": [
+        "adaptive_count_source",
+        "adaptive_count_stored_output",
+        "R42_stored_table",
+        "R42_joined_dfe",
+        "R42_summary_count_code"
+      ],
+      "limit": "Neither number certifies the other; their difference is not an attrition estimate, missing-lineage count, proof of contradiction or evidence of numerical error."
+    },
+    {
+      "id": "R43-P06",
+      "finding": "Figure 7 attaches barcode identifiers to model results by column binding, assigns population bc01, and left joins CNV annotations on barcode and population. The shown pipeline does not assert identifier uniqueness or prove ordered correspondence before binding.",
+      "anchors": [
+        "retained_identifier_import",
+        "positional_bind_join_and_summary"
+      ],
+      "limit": "Matching row counts alone cannot certify pairing. Actual duplicates, joins that multiply rows, and misalignment remain unobserved, not demonstrated."
+    },
+    {
+      "id": "R43-P07",
+      "finding": "The CNV annotation import assigns CNV to every imported annotation row. After the left join, a missing joined CNV label is recoded noCNV. Therefore the displayed class records annotation matching, not an independently verified negative genotype.",
+      "anchors": [
+        "cnv_import",
+        "positional_bind_join_and_summary"
+      ],
+      "limit": "No annotation assay, per-barcode positive/negative truth, detection sensitivity, uniqueness or missingness manifest was recovered."
+    },
+    {
+      "id": "R43-P08",
+      "finding": "The Figure 7 trajectory branch requires initial nonzero abundance and rejects specified zero-to-positive transitions before dividing each time column by its retained-column sum. The grouped DFE branch does not use those trajectory exclusions.",
+      "anchors": [
+        "trajectory_filter_and_normalization",
+        "positional_bind_join_and_summary"
+      ],
+      "limit": "The display normalization is conditional on selected rows. It does not by itself recover abundance relative to all original cells, final trajectory counts, mutation births or extinction truth."
+    },
+    {
+      "id": "R43-P09",
+      "finding": "Cached FitMut export combines lineage-related result arrays with time-related summaries using zip_longest and does not include explicit barcode/population keys in its displayed result dictionary.",
+      "anchors": [
+        "FitMut_classification_and_export"
+      ],
+      "limit": "Padding is a structural possibility, not proof of padded rows in the Figure 7 summary. A genuine row-role manifest is required; row position or zero inferred fitness is not a reliable exclusion rule."
+    },
+    {
+      "id": "R43-P10",
+      "finding": "The selected four new pinned author sources recover no individual barcode-to-CNV assignments or retained-row manifest. The cached complete tree lists no CSV paths. Figure 6 source concerns aggregate parameter inference; the root history repeats Figure 7 construction. No rendered Figure 6 notebook or further artifact was acquired after this triage.",
+      "anchors": [
+        "R39-tree complete source identity",
+        "P01 complete source identity",
+        "P04 complete source identity"
+      ],
+      "limit": "Scoped inventory result, not a claim that no lawful copy exists elsewhere. All 26 study and 18 planning NULLs, zero native matched panels and frozen TMD conditions remain unchanged."
+    }
+  ],
+  "anchors": {
+    "extraction_recipe": {
+      "source": "P02",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 28,
+      "end_line_one_based": 37,
+      "start_byte_zero_based": 739,
+      "end_byte_exclusive": 1233,
+      "bytes": 494,
+      "sha256": "619362942105489df94903b3455593c31081c867062c571fc08d29e6a132e153"
+    },
+    "combination_recipe": {
+      "source": "P03",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 8,
+      "end_line_one_based": 17,
+      "start_byte_zero_based": 147,
+      "end_byte_exclusive": 1035,
+      "bytes": 888,
+      "sha256": "32f390350c4aeaa58eddcec5944b1fcf3e1ee6bd9c6f71d3bb5ff0ae70c1150e"
+    },
+    "cnv_import": {
+      "source": "R39-Rmd",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 19,
+      "end_line_one_based": 22,
+      "start_byte_zero_based": 913,
+      "end_byte_exclusive": 1023,
+      "bytes": 110,
+      "sha256": "83d013f7507169914bbf166c8106e0c5e2eebf12880dc6bf4c7660cbbe563859"
+    },
+    "retained_identifier_import": {
+      "source": "R39-Rmd",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 79,
+      "end_line_one_based": 88,
+      "start_byte_zero_based": 3814,
+      "end_byte_exclusive": 4353,
+      "bytes": 539,
+      "sha256": "4fe32759b67aca5dd5b401b42eaf3345046b0e9cb3d8f6a5d8f368fb7ac65845"
+    },
+    "trajectory_filter_and_normalization": {
+      "source": "R39-Rmd",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 102,
+      "end_line_one_based": 119,
+      "start_byte_zero_based": 4805,
+      "end_byte_exclusive": 5555,
+      "bytes": 750,
+      "sha256": "f827d5e5d6af7075d0cdeea39fcf1f5551e10fde7cea5795a4769a4f925c3369"
+    },
+    "positional_bind_join_and_summary": {
+      "source": "R39-Rmd",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 122,
+      "end_line_one_based": 135,
+      "start_byte_zero_based": 5560,
+      "end_byte_exclusive": 6095,
+      "bytes": 535,
+      "sha256": "6392383d4e79b1d25e219d33f42e3667d256c2310e1bb92f28c30e49c3950512"
+    },
+    "FitMut_classification_and_export": {
+      "source": "R40-FitMut",
+      "type": "raw UTF-8 line range",
+      "start_line_one_based": 535,
+      "end_line_one_based": 554,
+      "start_byte_zero_based": 30588,
+      "end_byte_exclusive": 31636,
+      "bytes": 1048,
+      "sha256": "fb649e674e6f095be1d612549aaf5fc0d58a79f2673ce959f4f7538f74b70904"
+    },
+    "preprocessor_source": {
+      "source": "R40-preprocessor",
+      "type": "JSON pointer to text-string array, joined without separator",
+      "json_pointer": "/cells/0/source",
+      "decoded_text_bytes": 1444,
+      "decoded_text_sha256": "07396ce5ea4bcb7dcc2f5dd6c8ea1edab1f58bb3f4656f57fd5d24adeec25b9c"
+    },
+    "preprocessor_stored_output": {
+      "source": "R40-preprocessor",
+      "type": "JSON pointer to text-string array, joined without separator",
+      "json_pointer": "/cells/0/outputs/0/text",
+      "decoded_text_bytes": 159,
+      "decoded_text_sha256": "67c9300cfcee5f66f58ce8cb01be989973157bdbb9c35563d5eb8a379f4d35da"
+    },
+    "adaptive_count_source": {
+      "source": "R40-preprocessor",
+      "type": "JSON pointer to text-string array, joined without separator",
+      "json_pointer": "/cells/5/source",
+      "decoded_text_bytes": 1318,
+      "decoded_text_sha256": "854d34d69e51953f0439b0de96b55cd3bcd7f51637b0d1e4300f3d6655ee2cfe"
+    },
+    "adaptive_count_stored_output": {
+      "source": "R40-preprocessor",
+      "type": "JSON pointer to text-string array, joined without separator",
+      "json_pointer": "/cells/5/outputs/0/text",
+      "decoded_text_bytes": 5,
+      "decoded_text_sha256": "f1e657d5ecdd92eaab10efbdac88e633ed1e269481d102da0a72c77045d108ae"
+    },
+    "R42_stored_table": {
+      "source": "R42-rendered",
+      "type": "HTML application/json paged table",
+      "start_byte_zero_based": 692834,
+      "end_byte_exclusive": 693495,
+      "start_line_one_based": 1973,
+      "end_line_one_based": 1975,
+      "raw_element_bytes": 661,
+      "raw_element_sha256": "1bd866e4e40902c182da459f705cfabae23ad23a73526787a15541ac6b31ff38",
+      "json_text_bytes": 597,
+      "json_text_sha256": "d953064d24136f2be575c1f096add5888b57d5e64a40e369e4b129b3fd806465",
+      "reported_rows": 4,
+      "reported_columns": 4
+    },
+    "R42_joined_dfe": {
+      "source": "R42-rendered",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 11,
+      "start_byte_zero_based": 689158,
+      "end_byte_exclusive": 689616,
+      "start_line_one_based": 1940,
+      "end_line_one_based": 1945,
+      "raw_element_bytes": 458,
+      "raw_element_sha256": "e9f650b6ce6aad8ecb6f993b44c2f3ccdd321be1e48bdfd03c1f7817a40efda6",
+      "decoded_text_bytes": 329,
+      "decoded_text_sha256": "e1d51b77b65601f8cd9b10c835e5689625839dfc9c1221646258e00deaf26ee4"
+    },
+    "R42_summary_count_code": {
+      "source": "R42-rendered",
+      "type": "HTML pre/code",
+      "pre_index_zero_based": 13,
+      "start_byte_zero_based": 691493,
+      "end_byte_exclusive": 691730,
+      "start_line_one_based": 1962,
+      "end_line_one_based": 1966,
+      "raw_element_bytes": 237,
+      "raw_element_sha256": "32c538772bde4898a5889d6f8182f158e405fed3b26c7b1878ae0dfc2968bc0c",
+      "decoded_text_bytes": 171,
+      "decoded_text_sha256": "4d2fe83fb0b31121e003c43b2fd4b1510428d094c967fb5330b5add07b7aa94a"
+    }
+  },
+  "observation_contract": [
+    {
+      "stage": "Input identity",
+      "required": [
+        "versioned bytes and checksum for read-count matrix, time/cell-depth vectors, barcode list, numerical result table and CNV annotations",
+        "run identifier linking each input and result",
+        "documented bc04 to bc01 population alias"
+      ],
+      "failure_to_resolve": "Artifact names and matching lengths cannot establish one run."
+    },
+    {
+      "stage": "Retention and aggregation",
+      "required": [
+        "original row key and final row key",
+        "retention/exclusion reason per original row",
+        "explicit aggregate membership if aggregation occurred",
+        "explicit padding/summary row roles if any"
+      ],
+      "failure_to_resolve": "Do not infer aggregate or padding roles from position, zero fitness or empty annotations."
+    },
+    {
+      "stage": "Ordered identity",
+      "required": [
+        "explicit population/barcode keys on each numerical result row, or an independently authenticated one-to-one row crosswalk",
+        "key uniqueness and missing-key checks",
+        "preserved mapping order when a positional export is unavoidable"
+      ],
+      "failure_to_resolve": "Equal row counts and a successful column bind do not validate identity."
+    },
+    {
+      "stage": "CNV annotation",
+      "required": [
+        "unique population/barcode annotation keys",
+        "assay provenance and explicit positive/negative/unknown state",
+        "missing annotation and unmatched-key report",
+        "join cardinality report"
+      ],
+      "failure_to_resolve": "Missing annotation remains unknown; a source CNV label is an annotation match until independently validated."
+    },
+    {
+      "stage": "Reporting views",
+      "required": [
+        "separate table for likelihood selection, positive inferred fitness, and trajectory retention",
+        "row-key manifest for each view",
+        "time units and denominator definition",
+        "counts before and after each documented transform"
+      ],
+      "failure_to_resolve": "No transfer of a count between stored views without shared run and input identity."
+    }
+  ],
+  "source_facts": {
+    "nominal_combiner_generation_labels": [
+      5,
+      37,
+      62,
+      99,
+      124,
+      149
+    ],
+    "preprocessor_first_columns": 4,
+    "preprocessor_total_read_threshold": 20,
+    "stored_raw_array_row_counts": [
+      75676,
+      113109
+    ],
+    "stored_raw_array_column_counts": [
+      4,
+      4
+    ],
+    "stored_likelihood_positive_count": 1772,
+    "R42_stored_positive_fitness_grouped_count": 1569,
+    "individual_barcode_CNV_assignments_recovered": 0,
+    "actual_input_CSVs_recovered": 0
+  },
+  "not_inferred": [
+    "Actual biological lineage count",
+    "CNV-negative genotype truth",
+    "Actual barcode identities or crosswalk",
+    "Actual filtering, aggregation or padding occurrence",
+    "Synchronized execution or publication inputs",
+    "Mutation births, invisible losses, establishment or recovery"
+  ],
+  "frozen_state": {
+    "study_nulls": 26,
+    "planning_nulls": 18,
+    "native_matched_panels": 0,
+    "biological_fits": 0,
+    "methods_version": "0.6.0",
+    "methods_doi": "10.5281/zenodo.23219776",
+    "runner": "paused",
+    "R5_R11_R17": "unchanged",
+    "theta_eta": "unchanged",
+    "predictors_comparators": "unchanged",
+    "error_allocation_stopping": "unchanged"
+  }
+}

@@ -20,8 +20,8 @@
     "api_credential_status_scope": "Historical run37087326308 reported missing_openai_api_key in the checksum-verified artifact. Current GitHub secret presence remains unknown because metadata reads return403. No provider key is injected in this runtime.",
     "github_enable_variable_status": "unknown_integration_cannot_inspect",
     "latest_activation_receipt": "ARTIFACT_READBACK_2026-10-02.json",
-    "last_completed_round": "R000042",
-    "next_round_id": "R000043",
+    "last_completed_round": "R000043",
+    "next_round_id": "R000044",
     "persistent_storage": "reviewed GitHub checkpoints; runtime artifacts before review",
     "workflow_template": ".github/workflows/tmd-continuous-research.yml",
     "github_workflow_state": "disabled_manually",
@@ -305,7 +305,11 @@
     "R41_combined_KDE_wording_superseded_by_R42": true,
     "rendered_summary_unique_biological_lineage_total_authenticated": false,
     "latest_BASIL_assessment_doi": "10.1371/journal.pcbi.1013946",
-    "BASIL_native_panel_or_frozen_comparator_adopted": false
+    "BASIL_native_panel_or_frozen_comparator_adopted": false,
+    "latest_barcode_identity_audit_round": "R000043",
+    "barcode_structural_preflight_verified": true,
+    "barcode_biological_identity_or_source_binding_authenticated": false,
+    "barcode_preflight_adopts_frozen_admission_rule": false
   },
   "budget": {
     "maximum_active_minutes_per_round": 45,
@@ -384,8 +388,8 @@
     }
   ],
   "checkpoint": {
-    "last_completed_step": "R42 rendered Figure 7 source-output summary and binned-plot contract authenticated; prior combined-KDE wording corrected. Separate February 2026 BASIL assessment reviewed. Actual inputs, biological identities and native measurement gates remain unresolved.",
-    "next_action": "Keep unchanged OSF download access parked until a supported changed prerequisite or lawful exact file is available. Prioritize actual versioned competition CSVs and applicable terms, barcode counts/time/identifier vectors, CNV annotation uniqueness and missingness, retained/aggregate-row manifest and execution checksums. The stored bc01 grouped summary is not a distinct-lineage or mutation-birth census. Verify hours/generation/response conventions and the isolated selected Lauer-derived clone frame before using R41 CDF bounds. The authenticated Figure 7 recipe is binline with 25 bins and x scale 0 to 0.2; no automatic KDE bandwidth is authenticated, and CDF bounds do not certify plotted bins. Preserve genotype-negative truth separately from unmatched annotations and adaptive truth separately from positive inferred fitness. BASIL is a new measurement comparator lead only: no FitMut2 result is transported to original FitMut; no source calibration or confidence factor is adopted into the frozen TMD test. Direct births, losses, establishment and recovery still need independent evidence. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, methods 0.6.0 and paused runner. No source-author code execution, biological fit, unsupported theory, outreach or laboratory work.",
+    "last_completed_step": "R43 source-linked barcode observation/identity contract and original structural preflight reviewed. Eight synthetic adversarial tests and 67 separate assertions pass. Actual inputs, identity/role provenance and native biological gates remain unresolved.",
+    "next_action": "Obtain actual versioned count/time/barcode vectors, numerical results, annotation assays and a run-linked row crosswalk with retention, aggregate and padding roles, source checksums and applicable terms. Keep unchanged OSF download access parked until a supported prerequisite changes or a lawful exact file is supplied. Use the original preflight only on an externally justified normalized keyed table; supplying keys and explicit roles does not authenticate their biological or source-row binding. Preserve source CNV labels separately from genotype truth and unmatched annotations as unknown. Do not infer roles from zero fitness, array length or row position, and do not convert different saved views into attrition or error estimates. Actual clock calibration, missingness, independent mutation origins/losses/establishment and recovery remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, frozen predictors/comparators/evaluation, error allocation, stopping, methods 0.6.0 and the paused runner. No source-author program execution, biological fit, unsupported theory extension, outreach or laboratory work.",
     "artifact_hashes": {
       "research/drift_audit/derived/summary.json": "d199a778f9f01c1906598021eb540b600f6ce894aa37c9f6e016d2897aab90a2",
       "research/drift_audit/REVIEW_RECEIPT.json": "7a60ed00a45a76c9b1d84bb1215d0d6d73f2b5399898cdc7e268eeb955f525ea",
@@ -762,7 +766,19 @@
       "research/rendered_notebook_audit/SHA256SUMS.txt": "a07dc5df7f76ce9338c68430da86cecbdc2ba0b362191f9cbb6491e3c4dbbb9f",
       "research/rendered_notebook_audit/SOURCE_PROVENANCE.json": "0536345ae8ca327d98e0913de01115cc7d14ad26cc560cf15ff08408dadb7ab6",
       "research/rendered_notebook_audit/WATCH.md": "1e4e1b83991619f0ff07e8af24a4829bd4f2dc14d65b014b70f649abe4427870",
-      "research/CONTINUATION_HANDOFF_2026-10-16_R42.md": "3115d0b89e06d70600d47acb3f86d061fc30db915cfa62b0d9ddb9fa6043e341"
+      "research/CONTINUATION_HANDOFF_2026-10-16_R42.md": "3115d0b89e06d70600d47acb3f86d061fc30db915cfa62b0d9ddb9fa6043e341",
+      "research/barcode_identity_audit/AUDIT.json": "f780250094c3f2f62abb7130da1e5d9cc883749be276d8cfa0feae873c6fb57a",
+      "research/barcode_identity_audit/INDEPENDENT_REVIEW.json": "2022c89af69898f72f69047c8b142b87cac5363efa373172ef1d071b08b638b4",
+      "research/barcode_identity_audit/LICENSE": "a29c5e4a57288c08182ea058221c0c0f40e9957a66eac7a36c90de7894f4a369",
+      "research/barcode_identity_audit/LICENSE_AND_PRIVACY_REVIEW.json": "cb286bcc216dc3fc4b30c26c22b6886ce995dcbf331ded535e1e4e767e931006",
+      "research/barcode_identity_audit/PUBLIC_FILES.json": "4d82c769b97bfea71bcbd9ade7b6acf3d7709eb16ab2ce9013cd81b604285747",
+      "research/barcode_identity_audit/REPORT.md": "4760cff3172c13627237b100bf05863bac11f84469413ccb6847c4d24cf156fd",
+      "research/barcode_identity_audit/SHA256SUMS.txt": "a600aaeceb8aa1aff6c4097c64ffef2f8323af37d8154d801c489d548e334079",
+      "research/barcode_identity_audit/SOURCE_PROVENANCE.json": "7c62f91afdb8220634715bbc82b732ef73fe1922ce2124a6cf60eda821fff3b9",
+      "research/barcode_identity_audit/VALIDATION_CONTRACT.json": "375255188f6710b672c64d47c1271d39e47f6fee5d1c16f32e6b691fa9b0e2bf",
+      "research/barcode_identity_audit/preflight.py": "9009be006cf7d2f38cc730c5e3f69e93e5b3b93fd0c6f7d9881995be499ce9d7",
+      "research/barcode_identity_audit/test_preflight.py": "e73315831d76ea64a29f5421a2291e78181dfe184482021876c23a924a2cfb22",
+      "research/CONTINUATION_HANDOFF_2026-10-16_R43.md": "a8dcf72a99d031f611a621b5687d37abb5bb6ab40f71e72c65f11eb19ef59768"
     }
   },
   "reviewed_checkpoint": {
@@ -807,7 +823,8 @@
       "R000039",
       "R000040",
       "R000041",
-      "R000042"
+      "R000042",
+      "R000043"
     ],
     "blocked_work_items": [
       {
@@ -1056,9 +1073,22 @@
         "source_ledger_sha256": "0536345ae8ca327d98e0913de01115cc7d14ad26cc560cf15ff08408dadb7ab6",
         "rendered_audit_sha256": "b923a397e749138f336723ca2c37a468bfedf308883bf30e242b74d387e18a76",
         "recent_assessment_sha256": "a6de7c06d34a951f0b75d4ccabcb2440d23954d2c5ac6b0c8e03c79251d6af2d"
+      },
+      {
+        "round": "R000043",
+        "source_ids": [
+          "Git:ff53af609c6e3201bd5ef894d1747822d29ba53d",
+          "Git:1b030f7ef15ed1ed1c191bec4031753c6d2beeb2",
+          "10.1371/journal.pbio.3001633"
+        ],
+        "scope": "barcode_observation_identity_contract_and_original_structural_preflight",
+        "source_ledger_sha256": "7c62f91afdb8220634715bbc82b732ef73fe1922ce2124a6cf60eda821fff3b9",
+        "source_audit_sha256": "f780250094c3f2f62abb7130da1e5d9cc883749be276d8cfa0feae873c6fb57a",
+        "original_preflight_sha256": "9009be006cf7d2f38cc730c5e3f69e93e5b3b93fd0c6f7d9881995be499ce9d7",
+        "validation_contract_sha256": "375255188f6710b672c64d47c1271d39e47f6fee5d1c16f32e6b691fa9b0e2bf"
       }
     ],
-    "next_action": "Keep unchanged OSF download access parked until a supported changed prerequisite or lawful exact file is available. Prioritize actual versioned competition CSVs and applicable terms, barcode counts/time/identifier vectors, CNV annotation uniqueness and missingness, retained/aggregate-row manifest and execution checksums. The stored bc01 grouped summary is not a distinct-lineage or mutation-birth census. Verify hours/generation/response conventions and the isolated selected Lauer-derived clone frame before using R41 CDF bounds. The authenticated Figure 7 recipe is binline with 25 bins and x scale 0 to 0.2; no automatic KDE bandwidth is authenticated, and CDF bounds do not certify plotted bins. Preserve genotype-negative truth separately from unmatched annotations and adaptive truth separately from positive inferred fitness. BASIL is a new measurement comparator lead only: no FitMut2 result is transported to original FitMut; no source calibration or confidence factor is adopted into the frozen TMD test. Direct births, losses, establishment and recovery still need independent evidence. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, methods 0.6.0 and paused runner. No source-author code execution, biological fit, unsupported theory, outreach or laboratory work."
+    "next_action": "Obtain actual versioned count/time/barcode vectors, numerical results, annotation assays and a run-linked row crosswalk with retention, aggregate and padding roles, source checksums and applicable terms. Keep unchanged OSF download access parked until a supported prerequisite changes or a lawful exact file is supplied. Use the original preflight only on an externally justified normalized keyed table; supplying keys and explicit roles does not authenticate their biological or source-row binding. Preserve source CNV labels separately from genotype truth and unmatched annotations as unknown. Do not infer roles from zero fitness, array length or row position, and do not convert different saved views into attrition or error estimates. Actual clock calibration, missingness, independent mutation origins/losses/establishment and recovery remain unresolved. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, frozen predictors/comparators/evaluation, error allocation, stopping, methods 0.6.0 and the paused runner. No source-author program execution, biological fit, unsupported theory extension, outreach or laboratory work."
   },
   "previous_checkpoint_steps": [
     {
@@ -1165,10 +1195,15 @@
       "round": "R000041",
       "last_completed_step": "R41 exact conditional row-to-clone CDF sensitivity tool, constructive independent checks and hypothetical figure reviewed; separate 2026 primary growth/mutation comparator assessed. Actual CSV access and all native measurement gates remain unresolved.",
       "next_action": "Keep unchanged OSF CSV download access parked until a supported changed-access prerequisite or lawfully supplied exact file becomes available. Prioritize actual bytes and applicable terms for the three R40 version-1 competition CSVs, with their advertised hashes, time/response units, clone/run identity, exclusions and publication-execution provenance. Apply the R41 exact bounds only after verifying the isolated selected Lauer-derived frame, stable biological clone labels, a common finite estimate per clone and the one-to-three repeated-row cap. Actual row totals, threshold counts and optional unique-clone count can tighten the bounds; hypothetical inputs do not fill study fields. Do not apply empirical-CDF bounds directly to the combined barcoded KDE, automatic bandwidth, all mutation births or unmeasured recovery. Barcode count/time/identifier/aggregate-row truth, S4 genotype/fluorescence and 29-versus-28 missingness remain unresolved. The separate 2026 Ding source motivates genotype/environment and growth-clock controls; its endpoint, exclusion, callable-site and expected-LOH corrections are not native mutation-birth or establishment truth. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion or authoritative Figure 9 records and qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, paused runner and methods 0.6.0. No source-author code execution, biological fit, unsupported theory extension, outreach or laboratory work."
+    },
+    {
+      "round": "R000042",
+      "last_completed_step": "R42 rendered Figure 7 source-output summary and binned-plot contract authenticated; prior combined-KDE wording corrected. Separate February 2026 BASIL assessment reviewed. Actual inputs, biological identities and native measurement gates remain unresolved.",
+      "next_action": "Keep unchanged OSF download access parked until a supported changed prerequisite or lawful exact file is available. Prioritize actual versioned competition CSVs and applicable terms, barcode counts/time/identifier vectors, CNV annotation uniqueness and missingness, retained/aggregate-row manifest and execution checksums. The stored bc01 grouped summary is not a distinct-lineage or mutation-birth census. Verify hours/generation/response conventions and the isolated selected Lauer-derived clone frame before using R41 CDF bounds. The authenticated Figure 7 recipe is binline with 25 bins and x scale 0 to 0.2; no automatic KDE bandwidth is authenticated, and CDF bounds do not certify plotted bins. Preserve genotype-negative truth separately from unmatched annotations and adaptive truth separately from positive inferred fitness. BASIL is a new measurement comparator lead only: no FitMut2 result is transported to original FitMut; no source calibration or confidence factor is adopted into the frozen TMD test. Direct births, losses, establishment and recovery still need independent evidence. Actual native stock/pedigree/sequence, run-linked preparation/dose/QC/exclusion, authoritative Figure 9 records or qualified claim-specific assessment remain alternative gates. Preserve all 26 study and 18 planning NULLs, R5/R11/R17, theta/eta, separately frozen predictors/comparators/evaluation, error allocation, fixed stopping, methods 0.6.0 and paused runner. No source-author code execution, biological fit, unsupported theory, outreach or laboratory work."
     }
   ],
   "latest_manual_round_model": {
-    "round": "R000042",
+    "round": "R000043",
     "user_requested_display_name": "Astra Ultra",
     "delegated_model_id": "gpt-6-astra",
     "reasoning_effort": "ultra",

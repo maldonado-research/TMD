@@ -1,0 +1,84 @@
+{
+  "round": "R000043",
+  "scientific_acquisition_calls": 5,
+  "actor_scientific_attempts": {
+    "root": 1,
+    "producer": 4,
+    "independent_reviewer": 0
+  },
+  "maximum_source_acquisitions": 12,
+  "unused_scientific_acquisitions": 7,
+  "maximum_download_bytes": 20971520,
+  "capture_and_receipt_bytes": 84306,
+  "derived_text_duplicate_bytes": 0,
+  "counted_saved_source_bytes": 84306,
+  "saved_files": [
+    {
+      "path": "producer/sources/P01.body",
+      "bytes": 22025,
+      "sha256": "3453b7d7e66d2e6a477b0b5f1bf068ade0c7376bc0273762705cd6b95182e141",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P01.receipt.json",
+      "bytes": 802,
+      "sha256": "4f12da07e8ebf3a31a1247c99e9b7c8edd4c5f68ae6bf7c74e353effe4278bbb",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P02.body",
+      "bytes": 1237,
+      "sha256": "02db6fbc1accbafdae3f8f312090e87e901626f5dc494f8f13a050321ca7e129",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P02.receipt.json",
+      "bytes": 801,
+      "sha256": "966066c3186f59172a7dd16ca550c8b619fdbafb10b38108141b24112e0daa3e",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P03.body",
+      "bytes": 1038,
+      "sha256": "f617f3e4f52247991247e0eff84d76c94a6fa6e208544de2b7c0725699e43a4e",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P03.receipt.json",
+      "bytes": 801,
+      "sha256": "419977a47a52b4a74b7b764ce5ac6c47f1b4d0a9bb914b24b8f0554b115aced7",
+      "category": "request_receipt"
+    },
+    {
+      "path": "producer/sources/P04.body",
+      "bytes": 27521,
+      "sha256": "432ab178dab61f760b1c2e09235217339b5ae1d3289ca60d8f33390056951526",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "producer/sources/P04.receipt.json",
+      "bytes": 802,
+      "sha256": "6e16c9df6b07b3bd33f89fa6e8106b113e5edc2f16a2da833d9f8fb4670315c1",
+      "category": "request_receipt"
+    },
+    {
+      "path": "sources/ROOT_S01.json",
+      "bytes": 28846,
+      "sha256": "11c14c4c04e377a59311a0a5acef489a1856af9681de52c177797ed4125f0127",
+      "category": "acquisition_capture"
+    },
+    {
+      "path": "sources/ROOT_S01.receipt.json",
+      "bytes": 433,
+      "sha256": "a54d1f8c323dfa1ad7d0fce96cb2750f2da637183195b391df44e81f9ca456f6",
+      "category": "request_receipt"
+    }
+  ],
+  "accounting_scope": "Exact saved MCP JSON serialization, HTTP body bytes and separate receipts. Existing cached source bodies were reused without new body/extract copies. Original programs, original analyses and operational Git baselines are separate. Provider/internal/wire bytes unknown.",
+  "search_scope": "One current native-system discovery query returned a primary source already substantively assessed; no source was reacquired and no exhaustive-web claim follows.",
+  "source_author_code_executed": false,
+  "biological_fit": false,
+  "author_methods_Zenodo_requests": 0,
+  "third_party_Zenodo_requests": 0,
+  "scientific_budget_closed": true
+}

@@ -1,0 +1,239 @@
+{
+  "round": "R000043",
+  "status": "PASS",
+  "accepted": true,
+  "review_type": "Independent internal AI-assisted source, software and publication-boundary review; not qualified external biological review",
+  "source_claims_reviewed": 10,
+  "source_identities_verified": 11,
+  "source_anchors_verified": 14,
+  "source_anchor_checks": [
+    {
+      "id": "extraction_recipe",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "combination_recipe",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "cnv_import",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "retained_identifier_import",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "trajectory_filter_and_normalization",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "positional_bind_join_and_summary",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "FitMut_classification_and_export",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "preprocessor_source",
+      "decoded_pointer_verified": true
+    },
+    {
+      "id": "preprocessor_stored_output",
+      "decoded_pointer_verified": true
+    },
+    {
+      "id": "adaptive_count_source",
+      "decoded_pointer_verified": true
+    },
+    {
+      "id": "adaptive_count_stored_output",
+      "decoded_pointer_verified": true
+    },
+    {
+      "id": "R42_stored_table",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": false
+    },
+    {
+      "id": "R42_joined_dfe",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": true
+    },
+    {
+      "id": "R42_summary_count_code",
+      "raw_byte_range_verified": true,
+      "line_range_verified": true,
+      "decoded_text_verified": true
+    }
+  ],
+  "source_identity_checks": [
+    {
+      "id": "P01",
+      "bytes": 22025,
+      "sha256": "3453b7d7e66d2e6a477b0b5f1bf068ade0c7376bc0273762705cd6b95182e141",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "P02",
+      "bytes": 1237,
+      "sha256": "02db6fbc1accbafdae3f8f312090e87e901626f5dc494f8f13a050321ca7e129",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "P03",
+      "bytes": 1038,
+      "sha256": "f617f3e4f52247991247e0eff84d76c94a6fa6e208544de2b7c0725699e43a4e",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "P04",
+      "bytes": 27521,
+      "sha256": "432ab178dab61f760b1c2e09235217339b5ae1d3289ca60d8f33390056951526",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R39-Rmd",
+      "bytes": 9832,
+      "sha256": "5eff8f43410a7dd254cbcc1c358dde96a2ce0573c0f03b605884bc21f8d50b28",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R40-preprocessor",
+      "bytes": 57074,
+      "sha256": "f8c6594030d09283cf87e069dd61fed91c9945cb025249e58a955d860af558a2",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R40-FitMut",
+      "bytes": 32258,
+      "sha256": "06966314d5360c32eab264f22023d5973f436f76e67f4789e5f4836ce87eed45",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R40-license",
+      "bytes": 1071,
+      "sha256": "00041524dd7996095bc2a382971cb7a3226c1573140b219b87aa1abc98219cfb",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R42-rendered",
+      "bytes": 1732366,
+      "sha256": "4b052ab68e759b32ca18d026aaebb2cb1d87edc8d911818479211f559e8527eb",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R42-README",
+      "bytes": 2449,
+      "sha256": "2eb5874fefa535d324512b40292853a4823d0bed46112457958c650d75ae537b",
+      "git_blob_and_tree_verified": true
+    },
+    {
+      "id": "R39-tree",
+      "bytes": 15461,
+      "sha256": "7cc242869a514247b1a25662603b00e17ddb75dd1f548eb5645b0825a23083eb"
+    }
+  ],
+  "original_preflight": {
+    "code_sha256": "9009be006cf7d2f38cc730c5e3f69e93e5b3b93fd0c6f7d9881995be499ce9d7",
+    "producer_test_methods": 8,
+    "independent_adversarial_assertions": 67,
+    "scope": "Normalized explicit-key table structure only; all biological and source-provenance gates remain false",
+    "important_boundaries": [
+      "Supplied keys, normalized roles and source labels are not independently authenticated",
+      "No original source array normalization is implemented",
+      "Positive numeric estimate is not adaptive truth",
+      "Successful structure does not admit a panel or prove execution, clock, origin or genotype negatives"
+    ]
+  },
+  "scientific_assessment": {
+    "new_upstream_evidence": "Pinned extraction and combining recipes",
+    "actual_barcode_CNV_assignments_recovered": 0,
+    "actual_input_CSVs_recovered": 0,
+    "stored_views_linked_into_one_execution": false,
+    "different_predicates_and_counts_interpreted_as_attrition_or_error": false,
+    "unmatched_annotations_are_genotype_negative_truth": false,
+    "structural_success_authenticates_keys_or_roles": false,
+    "native_matched_panels": 0,
+    "biological_fits": 0
+  },
+  "preservation": {
+    "baseline_artifact_hashes_verified": 376,
+    "study_NULLs": 26,
+    "planning_NULLs": 18,
+    "methods_version": "0.6.0",
+    "methods_doi": "10.5281/zenodo.23219776",
+    "frozen_R5_R11_R17_theta_eta_predictors_comparators_error_stopping_unchanged": true,
+    "runner_paused": true
+  },
+  "acquisition": {
+    "whole_round_attempts": 5,
+    "root_attempts": 1,
+    "producer_attempts": 4,
+    "reviewer_attempts": 0,
+    "saved_capture_and_receipt_files": 10,
+    "saved_capture_and_receipt_bytes": 84306,
+    "source_derived_copy_bytes": 0,
+    "unused_attempts": 7,
+    "source_author_code_executed": false
+  },
+  "privacy_and_terms": {
+    "full_source_bodies_or_author_local_paths_published": false,
+    "original_software_license": "MIT",
+    "original_analysis_license": "CC BY 4.0",
+    "independent_OSF_terms_resolved": false
+  },
+  "public_payload_hashes": {
+    "research/barcode_identity_audit/AUDIT.json": {
+      "bytes": 15238,
+      "sha256": "f780250094c3f2f62abb7130da1e5d9cc883749be276d8cfa0feae873c6fb57a"
+    },
+    "research/barcode_identity_audit/LICENSE": {
+      "bytes": 1434,
+      "sha256": "a29c5e4a57288c08182ea058221c0c0f40e9957a66eac7a36c90de7894f4a369"
+    },
+    "research/barcode_identity_audit/LICENSE_AND_PRIVACY_REVIEW.json": {
+      "bytes": 827,
+      "sha256": "cb286bcc216dc3fc4b30c26c22b6886ce995dcbf331ded535e1e4e767e931006"
+    },
+    "research/barcode_identity_audit/REPORT.md": {
+      "bytes": 9714,
+      "sha256": "4760cff3172c13627237b100bf05863bac11f84469413ccb6847c4d24cf156fd"
+    },
+    "research/barcode_identity_audit/SOURCE_PROVENANCE.json": {
+      "bytes": 13986,
+      "sha256": "7c62f91afdb8220634715bbc82b732ef73fe1922ce2124a6cf60eda821fff3b9"
+    },
+    "research/barcode_identity_audit/VALIDATION_CONTRACT.json": {
+      "bytes": 5500,
+      "sha256": "375255188f6710b672c64d47c1271d39e47f6fee5d1c16f32e6b691fa9b0e2bf"
+    },
+    "research/barcode_identity_audit/preflight.py": {
+      "bytes": 7231,
+      "sha256": "9009be006cf7d2f38cc730c5e3f69e93e5b3b93fd0c6f7d9881995be499ce9d7"
+    },
+    "research/barcode_identity_audit/test_preflight.py": {
+      "bytes": 6214,
+      "sha256": "e73315831d76ea64a29f5421a2291e78181dfe184482021876c23a924a2cfb22"
+    }
+  },
+  "blocking_findings": [],
+  "reviewed_UTC": "2026-10-16T01:46:06.633044+00:00"
+}

@@ -189,3 +189,7 @@ The [report](clone_weight_sensitivity/REPORT.md), [exact tool](clone_weight_sens
 ## R42: rendered outputs and binned-plot correction
 
 The [notebook audit](rendered_notebook_audit/REPORT.md) authenticates stored group counts, input-schema reports and the binned plot contract while preserving unavailable-input and identity limits. It corrects R41 handoff KDE wording. A separate [BASIL assessment](rendered_notebook_audit/WATCH.md) retains detection, calibration and mutation-rate boundaries. [Checkpoint](CONTINUATION_HANDOFF_2026-10-16_R42.md).
+
+## R43: barcode identity and structural preflight
+
+The [source contract](barcode_identity_audit/REPORT.md), [original utility](barcode_identity_audit/preflight.py) and [validation contract](barcode_identity_audit/VALIDATION_CONTRACT.json) make explicit keyed-table checks available before actual source inputs arrive. Supplied keys, annotations and roles do not become authenticated biological truth. [Checkpoint](CONTINUATION_HANDOFF_2026-10-16_R43.md).

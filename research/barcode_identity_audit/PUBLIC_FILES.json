@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "AUDIT.json",
+      "bytes": 15238,
+      "sha256": "f780250094c3f2f62abb7130da1e5d9cc883749be276d8cfa0feae873c6fb57a"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.json",
+      "bytes": 7858,
+      "sha256": "2022c89af69898f72f69047c8b142b87cac5363efa373172ef1d071b08b638b4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1434,
+      "sha256": "a29c5e4a57288c08182ea058221c0c0f40e9957a66eac7a36c90de7894f4a369"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_REVIEW.json",
+      "bytes": 827,
+      "sha256": "cb286bcc216dc3fc4b30c26c22b6886ce995dcbf331ded535e1e4e767e931006"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 9714,
+      "sha256": "4760cff3172c13627237b100bf05863bac11f84469413ccb6847c4d24cf156fd"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 13986,
+      "sha256": "7c62f91afdb8220634715bbc82b732ef73fe1922ce2124a6cf60eda821fff3b9"
+    },
+    {
+      "path": "VALIDATION_CONTRACT.json",
+      "bytes": 5500,
+      "sha256": "375255188f6710b672c64d47c1271d39e47f6fee5d1c16f32e6b691fa9b0e2bf"
+    },
+    {
+      "path": "preflight.py",
+      "bytes": 7231,
+      "sha256": "9009be006cf7d2f38cc730c5e3f69e93e5b3b93fd0c6f7d9881995be499ce9d7"
+    },
+    {
+      "path": "test_preflight.py",
+      "bytes": 6214,
+      "sha256": "e73315831d76ea64a29f5421a2291e78181dfe184482021876c23a924a2cfb22"
+    }
+  ],
+  "closure": "Nine payloads plus this manifest and SHA256SUMS.txt form the eleven-file package. Checksums cover all files except the checksum list itself."
+}
