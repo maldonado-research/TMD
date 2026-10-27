@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+The [resistance source-history follow-up](resistance_source_history/README.md) traces the prior file discrepancies through public versions and static processing steps. It finds a consistent 33-record delimiter pattern without establishing its cause or an error in a publication. The [forecast contrast](model_disagreement/README.md) now also has an independent check against the existing predictor implementation.
+
 The [resistance-well data audit](resistance_well_audit/README.md) inspects a pinned public dataset and identifies unresolved differences between its per-well and aggregate representations. Its reproducible checks concern observed assays, not independent mutation births or an admitted native TMD panel.
 
 The [model-disagreement design note](model_disagreement/README.md) identifies independently calibrated contexts that could distinguish the frozen route predictors, with an exact conditional example. It changes no frozen method or study plan and supplies no biological validation.
