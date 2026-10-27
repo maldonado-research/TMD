@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+The [ecological context assessments](ecological_context_2026/) examine a cross-feeding study's sample and data-availability limits and a phase-resolved competition study's frequency-dependent fitness. They inform candidate controls; neither supplies native TMD validation or changes the frozen forecast.
+
 The 27 October 2026 [identity-binding bounds](identity_binding_bounds/README.md) describe conditional ranges for a source-label association when an authenticated row crosswalk is incomplete. An independent finite enumeration accompanies the proof; no native data or TMD validation is claimed. A separate [recent research screen](identity_binding_bounds/LITERATURE_2026-10.md) reviews two abstracts relevant to ecological context and mutation modality.
 
 Ricardo Maldonado · 1 October 2026 · Exploratory methods and prospective research
