@@ -1,0 +1,83 @@
+[
+  {
+    "name": "1ul_individual_double.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_individual_double.csv",
+    "status": 200,
+    "bytes": 4171,
+    "sha256": "d4f9ab5d19af79245c1167c9626a3037328b7ead9cc60b05c7c040f0af6fadf4",
+    "git_blob_sha1": "150b0b2b14a4dca9b05d3df9d1235592283493f0",
+    "utc": "2026-10-27T01:57:28.094991+00:00"
+  },
+  {
+    "name": "1ul_individual_none.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_individual_none.csv",
+    "status": 200,
+    "bytes": 2924,
+    "sha256": "eaaa7986c77c39792d318a7c5ed4df3478d84b054140038b4df80c36cfc09825",
+    "git_blob_sha1": "b68b547dcd8be11e21abbb2939c3e62f693b006d",
+    "utc": "2026-10-27T01:57:28.097918+00:00"
+  },
+  {
+    "name": "1ul_individual_single.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_individual_single.csv",
+    "status": 200,
+    "bytes": 10434,
+    "sha256": "14c6b19ff2606358e24e14e8f7e9bb34125afa1c27e94c930cdb875ab6fa645d",
+    "git_blob_sha1": "c1f3db880c17f6322c8c4a53f143b6f052a984d5",
+    "utc": "2026-10-27T01:57:28.098100+00:00"
+  },
+  {
+    "name": "1ul_aggregate_double.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_aggregate_double.csv",
+    "status": 200,
+    "bytes": 1297,
+    "sha256": "16cad1b045957d6239a55e47517fe377251cc9f180a8589c410dfbe1a2d90380",
+    "git_blob_sha1": "a83dc5f4bff0dc1aba7a7658fbf950e38c59401c",
+    "utc": "2026-10-27T01:57:28.091377+00:00"
+  },
+  {
+    "name": "1ul_aggregate_none.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_aggregate_none.csv",
+    "status": 200,
+    "bytes": 778,
+    "sha256": "87d6153fc6ba03ea3c2bf50a7fd4698a1b7721c08ef1d7f253d2f00dfe135352",
+    "git_blob_sha1": "dbfe59adf5315a63d7a8f023c741aebec6de55c4",
+    "utc": "2026-10-27T01:57:28.342749+00:00"
+  },
+  {
+    "name": "1ul_aggregate_single.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/1ul_aggregate_single.csv",
+    "status": 200,
+    "bytes": 1861,
+    "sha256": "96b680382e10da104a38d3ffe6aa3854f7b0c7da5ecd8bad0f858ad1a2f1238d",
+    "git_blob_sha1": "c720e636e5b53355c3e5e86c4d7dbaabc3413a6f",
+    "utc": "2026-10-27T01:57:28.360351+00:00"
+  },
+  {
+    "name": "2018-06-08_ODvsNT.csv",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/2018-06-08_ODvsNT.csv",
+    "status": 200,
+    "bytes": 3569,
+    "sha256": "fb78f0ba58580ed408be4121b982505520fb95bccef329d9a91543818f1c3a51",
+    "git_blob_sha1": "17d0b6f44c66e8d5b2c9b58342265712224f5fcf",
+    "utc": "2026-10-27T01:57:28.376960+00:00"
+  },
+  {
+    "name": "README.md",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/README.md",
+    "status": 200,
+    "bytes": 680,
+    "sha256": "e13e9d1e514d30be492c9987521c31b6d892fe2d2428c847e153288dd57d561a",
+    "git_blob_sha1": "029d4c326127fce8027f1cfec2cf814accd9770f",
+    "utc": "2026-10-27T01:57:28.363602+00:00"
+  },
+  {
+    "name": "munging.R",
+    "url": "https://raw.githubusercontent.com/dannagifford/multi-resistance/907311849f5610f114ed3ef99f5de73e51349b67/munging.R",
+    "status": 200,
+    "bytes": 16571,
+    "sha256": "66b64d38d1c1010049d796f5e7d785ddf9aa29b965d65d7d33068344a3162700",
+    "git_blob_sha1": "63fc1297d9008fd7094ce5825d209a8794b2b5cd",
+    "utc": "2026-10-27T01:57:28.562259+00:00"
+  }
+]
