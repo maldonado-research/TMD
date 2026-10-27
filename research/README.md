@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+The 27 October 2026 [identity-binding bounds](identity_binding_bounds/README.md) describe conditional ranges for a source-label association when an authenticated row crosswalk is incomplete. An independent finite enumeration accompanies the proof; no native data or TMD validation is claimed. A separate [recent research screen](identity_binding_bounds/LITERATURE_2026-10.md) reviews two abstracts relevant to ecological context and mutation modality.
+
 Ricardo Maldonado · 1 October 2026 · Exploratory methods and prospective research
 
 Start with [the formulation and next empirical test](FORMULATION_AND_NEXT_EMPIRICAL_TEST.md), then [the reproducible sensitivity analysis](transport_robustness/README.md) and [independent internal review](TRANSPORT_MATH_REVIEW.md). The [five-source literature update](literature/LITERATURE_UPDATE_2026-10-01.md) develops competing explanations; the [public source eligibility audit](public_dataset_audit/AUDIT_REPORT.md) verifies a published table inventory without relabeling its measurements as TMD trials.
