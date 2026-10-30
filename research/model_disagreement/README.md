@@ -4,6 +4,8 @@ Ricardo Maldonado · 27 October 2026 · Original design analysis with AI assista
 
 This note identifies a potentially informative context contrast. It supplies no biological observations, selected study conditions, fitted predictor, sample-size claim or new mathematical theorem. It does not change the frozen TMD candidate, comparators, study registry, error allocation or stopping rule.
 
+The [calibration sensitivity follow-up](../calibration_disagreement/README.md) shows that uncertainty in the hypothetical controls can greatly reduce oracle separation, and that oracle separation does not guarantee performance of the frozen point forecasts. Read it before using the numerical example for design decisions.
+
 An independent synthetic check runs this example through the existing forecast builder and compares it with the exact fractions below. From the repository root, run `python -B research/model_disagreement/verify_disagreement.py --repo .`. It also verifies the owner's stored receipt and checks that the inspected files are unchanged. This is an implementation check, not an empirical test.
 
 The current TMD candidate uses independently measured establishment through only

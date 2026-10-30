@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+The [calibration sensitivity analysis](calibration_disagreement/README.md) qualifies the point-estimate context contrast with simultaneous control intervals and an explicit fixed-forecast counterexample. The [recovered Huseby sampling map](huseby_lineage_audit/README.md) resolves ten-lineage endpoint counts while preserving their distinction from independent mutation origins. Neither admits a native TMD panel.
+
 The [resistance source-history follow-up](resistance_source_history/README.md) traces the prior file discrepancies through public versions and static processing steps. It finds a consistent 33-record delimiter pattern without establishing its cause or an error in a publication. The [forecast contrast](model_disagreement/README.md) now also has an independent check against the existing predictor implementation.
 
 The [resistance-well data audit](resistance_well_audit/README.md) inspects a pinned public dataset and identifies unresolved differences between its per-well and aggregate representations. Its reproducible checks concern observed assays, not independent mutation births or an admitted native TMD panel.
