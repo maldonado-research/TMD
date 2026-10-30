@@ -1,0 +1,33 @@
+{
+  "scope": "Saved provider-parsed representations, not raw PDF identities",
+  "doi": "10.1093/molbev/msx052",
+  "representations": [
+    {
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5400412/bin/msx052_Supp.pdf",
+      "scrape_id": "01a18b65-da02-7009-ab4e-8576dfdd2700",
+      "status": 200,
+      "pages": 9,
+      "bytes_saved": 16643,
+      "sha256": "7f59a64906bba61f7651806b0ba653db48e9480208798eea413e2dfbcb8cba76"
+    },
+    {
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5400412/",
+      "scrape_id": "01a18b65-4964-766e-90d3-617fa1ae7800",
+      "status": 200,
+      "pages": null,
+      "bytes_saved": 113983,
+      "sha256": "73345e8802a78cbc877f8d6bbe22b70afe166c387af692ad93582642346722fb"
+    },
+    {
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5400412/bin/msx052_Supp.pdf",
+      "scrape_id": "01a18b66-d57e-7153-ba89-8ee0361964f8",
+      "status": 200,
+      "pages": 9,
+      "bytes_saved": 16418,
+      "sha256": "3b6356fb8361a7324ab3ad60fb614d94061d4be68014108b1d00debc8c483e11"
+    }
+  ],
+  "raw_pdf_acquired": false,
+  "source_license": "Article: CC BY-NC 4.0; full source kept external",
+  "source_author_code_executed": false
+}

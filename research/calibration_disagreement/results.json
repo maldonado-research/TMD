@@ -1,0 +1,183 @@
+{
+  "A_probability_intervals": [
+    [
+      "0.0542526202713280695245541269928",
+      "0.489636098687438810985199167445"
+    ],
+    [
+      "0.510281548011424152272442801832",
+      "0.807242571536566775741391745934"
+    ]
+  ],
+  "CP_intervals": {
+    "10": {
+      "lower_root_bracket": [
+        "85781543118178129/2305843009213693952",
+        "686252344945425033/18446744073709551616"
+      ],
+      "outer_lower": "0.0372018141631550798738292673562",
+      "outer_upper": "0.204653017048016235251550049012",
+      "upper_root_bracket": [
+        "1887590914698636661/9223372036854775808",
+        "3775181829397273323/18446744073709551616"
+      ]
+    },
+    "20": {
+      "lower_root_bracket": [
+        "1967498446070876323/18446744073709551616",
+        "491874611517719081/4611686018427387904"
+      ],
+      "outer_lower": "0.106658304479594909740507863161",
+      "outer_upper": "0.324256396188766449315173112655",
+      "upper_root_bracket": [
+        "5981474754757543937/18446744073709551616",
+        "2990737377378771969/9223372036854775808"
+      ]
+    },
+    "80": {
+      "lower_root_bracket": [
+        "6232634659476003839/9223372036854775808",
+        "12465269318952007679/18446744073709551616"
+      ],
+      "outer_lower": "0.675743603811233550684826887345",
+      "outer_upper": "0.893341695520405090259492136839",
+      "upper_root_bracket": [
+        "4119811406909668823/4611686018427387904",
+        "16479245627638675293/18446744073709551616"
+      ]
+    }
+  },
+  "assumptions": {
+    "CP_root_bracket_width_at_most": "1/18446744073709551616",
+    "allocation_status": "illustrative separate budget; not frozen study allocation",
+    "alpha": "1/20",
+    "biological_truth_for_sensitivity": "p_c = normalize(qstar * F_c)",
+    "context_weights": [
+      "1/2",
+      "1/2"
+    ],
+    "cross_arm_independence_required_for_union_bound": false,
+    "hypothetical_control_counts": [
+      [
+        20,
+        10,
+        20
+      ],
+      [
+        20,
+        80,
+        20
+      ]
+    ],
+    "n_per_binary_control": 100,
+    "qstar": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "six_marginal_binomial_count_laws_assumed": true,
+    "tail_allocation": "1/240",
+    "transcendental_arithmetic": "60-digit Decimal; printed 30 significant digits; not certified",
+    "transfer_error_and_qstar_uncertainty": "excluded, not assumed calibrated by these data"
+  },
+  "attaining_F_vectors": [
+    [
+      "0.106658304479594909740507863161",
+      "0.204653017048016235251550049012",
+      "0.106658304479594909740507863161"
+    ],
+    [
+      "0.324256396188766449315173112655",
+      "0.675743603811233550684826887345",
+      "0.324256396188766449315173112655"
+    ]
+  ],
+  "attaining_outcome_vectors": [
+    [
+      "0.255181950656280594507400416278",
+      "0.489636098687438810985199167445",
+      "0.255181950656280594507400416278"
+    ],
+    [
+      "0.244859225994287923863778599084",
+      "0.510281548011424152272442801832",
+      "0.244859225994287923863778599084"
+    ]
+  ],
+  "best_common_at_witness": [
+    "0.250020588325284259185589507681",
+    "0.499958823349431481628820984638",
+    "0.250020588325284259185589507681"
+  ],
+  "fixed_qF_gain_over_best_common_at_witness": "-0.125379473940681574002015485750",
+  "fixed_qF_gain_over_illustrative_common_at_witness": "-0.125379470549648466085251703494",
+  "fixed_qF_misspecification_cost_at_witness": "0.125592606373263606018004074540",
+  "fixed_qF_vectors": [
+    [
+      "0.398058252427184466019417475728",
+      "0.203883495145631067961165048544",
+      "0.398058252427184466019417475728"
+    ],
+    [
+      "0.168724279835390946502057613169",
+      "0.662551440329218106995884773663",
+      "0.168724279835390946502057613169"
+    ]
+  ],
+  "illustrative_fixed_common": [
+    "0.25",
+    "0.5",
+    "0.25"
+  ],
+  "interpretation": [
+    "The oracle JS bound compares true qstar*F probabilities to any common vector.",
+    "The negative witness score concerns the stored point forecasts, not an oracle.",
+    "No actual TMD coefficients, training observations or held-out endpoints are supplied.",
+    "No achieved power, study-size recommendation or study decision follows.",
+    "Observed independently frozen forecast evaluation does not require F to be known truth.",
+    "This confidence box is neither a posterior distribution nor a probability on its corners."
+  ],
+  "oracle_JS_at_point_forecasts_nats": "0.111666761660981195763971741987",
+  "point_to_robust_JS_ratio": "523.931343100501850884794716965",
+  "sharp_oracle_JS_over_outer_CP_box_nats": "0.000213132432582032015988588789692",
+  "status": "illustrative_conditional_design_sensitivity_not_empirical_or_power",
+  "strict_interior_counterexample": {
+    "F_vectors_exact": [
+      [
+        "107/1000",
+        "51/250",
+        "107/1000"
+      ],
+      [
+        "81/250",
+        "169/250",
+        "81/250"
+      ]
+    ],
+    "fixed_qF_gain_over_illustrative_common": "-0.124192534478781873556979943335",
+    "outcome_vectors": [
+      [
+        "0.255980861244019138755980861244",
+        "0.488038277511961722488038277512",
+        "0.255980861244019138755980861244"
+      ],
+      [
+        "0.244712990936555891238670694864",
+        "0.510574018126888217522658610272",
+        "0.244712990936555891238670694864"
+      ]
+    ]
+  },
+  "total_oracle_expected_log_regret_500_endpoints_each": "0.213132432582032015988588789692",
+  "z_gap_lower": "0.0825935339305340841877414511749",
+  "z_intervals": [
+    [
+      "-2.16517702118785279508705991301",
+      "0.651685636758445828342922838604"
+    ],
+    [
+      "0.734279170688979912530664289779",
+      "2.12533883690137517158836214059"
+    ]
+  ]
+}
