@@ -1,0 +1,382 @@
+{
+  "allocation": {
+    "alpha": "1/20",
+    "calibration_components": 4,
+    "calibration_share": "1/8",
+    "contexts": 2,
+    "count_components": 28,
+    "eta": "1/640",
+    "gamma": "1/640"
+  },
+  "experiments": [
+    {
+      "averaged_count_union_noncoverage_exact": "51004909422039255135001971083713460929940575341049520804226543373775136498605641/11307821214581659709333104004754678501295896940003961331978279688272766566400000000",
+      "calibration_law": {
+        "0": "1/5",
+        "1": "4/5"
+      },
+      "calibration_n": 8,
+      "calibration_outcomes": [
+        {
+          "calibration_certificate_fails": true,
+          "calibration_ones": 0,
+          "count_experiment_index": 0,
+          "maximum": 0,
+          "maximum_multiplicity": 8,
+          "probability_exact": "1/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 1,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 1,
+          "probability_exact": "32/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 2,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 2,
+          "probability_exact": "448/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 3,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 3,
+          "probability_exact": "3584/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 4,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 4,
+          "probability_exact": "3584/78125"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 5,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 5,
+          "probability_exact": "57344/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 6,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 6,
+          "probability_exact": "114688/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 7,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 7,
+          "probability_exact": "131072/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 8,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 8,
+          "probability_exact": "65536/390625"
+        }
+      ],
+      "calibration_union_noncoverage_exact": "1/390625",
+      "combined_certificate_noncoverage_approx": 0.0045131431197424215,
+      "combined_certificate_noncoverage_exact": "653232838577492597251240199247971613142323954028944293936594019453147069197/144740111546645244279463731260859884816587480832050705049321980009891412049920",
+      "conditional_count_experiments": [
+        {
+          "Other_false_gate_probability": "4/5",
+          "category_probabilities": [
+            "3/16",
+            "3/8",
+            "3/16",
+            "1/5",
+            "1/20"
+          ],
+          "conditional_union_budget_exact": "7/640",
+          "control_lower_failure_counts": [],
+          "control_n_each_route": 24,
+          "full_cohort_n": 24,
+          "gate_lower_failure_counts": [],
+          "label_upper_failure_counts": [
+            [],
+            [
+              0,
+              1,
+              2
+            ],
+            []
+          ],
+          "native_T": "3/4",
+          "native_eligible_p": [
+            "1/4",
+            "1/2",
+            "1/4"
+          ],
+          "native_gate_probability": "19/20",
+          "nonzero_multinomial_states": 20475,
+          "one_control_lower_error_exact": "0",
+          "same_unit_label_gate_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "seven_endpoint_union_error_approx": 0.0014484748397306131,
+          "seven_endpoint_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "true_route_correct_probability": "1"
+        },
+        {
+          "Other_false_gate_probability": "0",
+          "category_probabilities": [
+            "9/64",
+            "9/32",
+            "9/64",
+            "0",
+            "7/16"
+          ],
+          "conditional_union_budget_exact": "7/640",
+          "control_lower_failure_counts": [
+            24
+          ],
+          "control_n_each_route": 24,
+          "full_cohort_n": 24,
+          "gate_lower_failure_counts": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "label_upper_failure_counts": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "native_T": "3/4",
+          "native_eligible_p": [
+            "1/4",
+            "1/2",
+            "1/4"
+          ],
+          "native_gate_probability": "9/16",
+          "nonzero_multinomial_states": 2925,
+          "one_control_lower_error_exact": "282429536481/281474976710656",
+          "same_unit_label_gate_union_error_exact": "62638827505227889295554638977753/41538374868278621028243970633760768",
+          "seven_endpoint_union_error_approx": 0.004510594666864769,
+          "seven_endpoint_union_error_exact": "4178329441431742451986339626443484091077311494416716869237858882098397353863/926336713898529563388567880069503262826159877325124512315660672063305037119488",
+          "true_route_correct_probability": "3/4"
+        }
+      ],
+      "cross_context_and_arm_dependence": "all four cells use identical samples and outcomes",
+      "global_budget_exact": "1/20",
+      "projection_actual_noncoverage_computed": false,
+      "rule": "strict_maximum",
+      "scope": "Exact sufficient simultaneous event; projection can cover even when this event fails."
+    },
+    {
+      "averaged_count_union_noncoverage_exact": "6840229034423828125/4722366482869645213696",
+      "calibration_law": {
+        "0": "1/5",
+        "1": "4/5"
+      },
+      "calibration_n": 8,
+      "calibration_outcomes": [
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 0,
+          "count_experiment_index": 0,
+          "maximum": 0,
+          "maximum_multiplicity": 8,
+          "probability_exact": "1/390625"
+        },
+        {
+          "calibration_certificate_fails": true,
+          "calibration_ones": 1,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 1,
+          "probability_exact": "32/390625"
+        },
+        {
+          "calibration_certificate_fails": true,
+          "calibration_ones": 2,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 2,
+          "probability_exact": "448/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 3,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 3,
+          "probability_exact": "3584/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 4,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 4,
+          "probability_exact": "3584/78125"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 5,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 5,
+          "probability_exact": "57344/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 6,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 6,
+          "probability_exact": "114688/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 7,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 7,
+          "probability_exact": "131072/390625"
+        },
+        {
+          "calibration_certificate_fails": false,
+          "calibration_ones": 8,
+          "count_experiment_index": 1,
+          "maximum": 1,
+          "maximum_multiplicity": 8,
+          "probability_exact": "65536/390625"
+        }
+      ],
+      "calibration_union_noncoverage_exact": "96/78125",
+      "combined_certificate_noncoverage_approx": 0.002675494953847552,
+      "combined_certificate_noncoverage_exact": "987083413682542825280441/368934881474191032320000000",
+      "conditional_count_experiments": [
+        {
+          "Other_false_gate_probability": "1",
+          "category_probabilities": [
+            "3/16",
+            "3/8",
+            "3/16",
+            "1/4",
+            "0"
+          ],
+          "conditional_union_budget_exact": "7/640",
+          "control_lower_failure_counts": [],
+          "control_n_each_route": 24,
+          "full_cohort_n": 24,
+          "gate_lower_failure_counts": [],
+          "label_upper_failure_counts": [
+            [],
+            [
+              0,
+              1,
+              2
+            ],
+            []
+          ],
+          "native_T": "3/4",
+          "native_eligible_p": [
+            "1/4",
+            "1/2",
+            "1/4"
+          ],
+          "native_gate_probability": "1",
+          "nonzero_multinomial_states": 2925,
+          "one_control_lower_error_exact": "0",
+          "same_unit_label_gate_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "seven_endpoint_union_error_approx": 0.0014484748397306131,
+          "seven_endpoint_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "true_route_correct_probability": "1"
+        },
+        {
+          "Other_false_gate_probability": "4/5",
+          "category_probabilities": [
+            "3/16",
+            "3/8",
+            "3/16",
+            "1/5",
+            "1/20"
+          ],
+          "conditional_union_budget_exact": "7/640",
+          "control_lower_failure_counts": [],
+          "control_n_each_route": 24,
+          "full_cohort_n": 24,
+          "gate_lower_failure_counts": [],
+          "label_upper_failure_counts": [
+            [],
+            [
+              0,
+              1,
+              2
+            ],
+            []
+          ],
+          "native_T": "3/4",
+          "native_eligible_p": [
+            "1/4",
+            "1/2",
+            "1/4"
+          ],
+          "native_gate_probability": "19/20",
+          "nonzero_multinomial_states": 20475,
+          "one_control_lower_error_exact": "0",
+          "same_unit_label_gate_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "seven_endpoint_union_error_approx": 0.0014484748397306131,
+          "seven_endpoint_union_error_exact": "6840229034423828125/4722366482869645213696",
+          "true_route_correct_probability": "1"
+        }
+      ],
+      "cross_context_and_arm_dependence": "all four cells use identical samples and outcomes",
+      "global_budget_exact": "1/20",
+      "projection_actual_noncoverage_computed": false,
+      "rule": "inclusive_maximum",
+      "scope": "Exact sufficient simultaneous event; projection can cover even when this event fails."
+    }
+  ],
+  "independence_from_producer": "standard library only; no producer/CP imports or simulation",
+  "optional_calibration_search_counterexample": {
+    "125_blocks_failure_approx": 0.050117754953916245,
+    "125_blocks_failure_gt_global_alpha_exactly_verified": true,
+    "Other_score_law": "Bernoulli(3/50)",
+    "all_zero_block_probability_exact": "4834261064495283656135474384731246155464317711405874863598474882876002527391625241496758869624743943082225232375954573355598812698568201219259665309298661030484069317334482043476151148728929060162195500730712929/11754943508222875079687365372222456778186655567720875215087517062784172594547271728515625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "fixed_block_n": 126,
+    "four_blocks_failure_approx": 0.0016439992991342418,
+    "four_blocks_failure_exact": "31389457753081624078411747757401584032768853199140059334339347214051956325227278451278349872274237241707757601010841804480632479300067441694183948895399360559242646014940049272250047152556044466002596738003108231645419536981366767249283834593525583587469164125494363826806129251757914590039905749577135494365908783506170349123456223198969660623467605833480826226664541595520243902049701695260978052297971800413561417987282762998244023072434137829587090299632550226628747372039788190460095236313937119640696491314516183141366981161224189634573062781630739153191187980279412894165988285476168847377417204000956527949936560633604017945066990034415068732451223405443481984986512422035391932150864194913394451303533001777492382445837570574202751891498173109906905970074202858107255685332162240511335473991691709830482197865933610373421312034246925460082760319/19093352271872529262824871207585110623683767128577041649335086933008072665779502860636607719425095176605469704334940419720736583923776774810844581963755736810192027628336080326387722430122074273130103179174563621799460396187106578227281118266888250220281763070119296551263247509341482569333769249094229892728239762755837460872498922981321811676025390625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "scope": "Counterexample to per-gate and global false-tail certification after unauthorized search; not a computed J-test size"
+  },
+  "optional_count_search_counterexample": {
+    "all_success_block_probability_exact": "1/1024",
+    "block_n": 10,
+    "eta_exact": "1/640",
+    "law": "Bernoulli(1/2)",
+    "searched_blocks": 2,
+    "searched_lower_endpoint_noncoverage_exact": "2047/1048576"
+  },
+  "oracle_sha256": "ffbae430cc5b118a2edcfcaaef52d72584dce1faf556edfc5bf4809b3f9a9e2f",
+  "status": "passed",
+  "strict_5_percent_population_tail_planning": {
+    "minimum_n_per_gate": 126,
+    "n125_failure_exact": "6985542176085217222851596560258580948420433440428974096385224930781994780974024536243893621456715550276088843210040689109537673913336015951278562374199998902499/4253529586511730793292182592897102643200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "n126_failure_exact": "132725301345619127234180334644913038019988235368150507831319273684857900838506466188633978807677595455245688020990773093081215804353384303074292685109799979147481/85070591730234615865843651857942052864000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "scope": "Conditional design arithmetic under stated premises; no native validation or power claim",
+    "strict_U_approximations": {
+      "125": "0.05037845306960178797383706913313353750507560622952",
+      "126": "0.04998878905564587508326808393098751454237990629745",
+      "59": "0.10373254330022949074900591841686131147707924287308"
+    }
+  }
+}

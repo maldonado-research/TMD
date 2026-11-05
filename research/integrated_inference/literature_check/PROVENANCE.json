@@ -1,0 +1,121 @@
+{
+  "assessment_date": "2026-11-05",
+  "official_requests": [
+    {
+      "date_utc": "2026-11-05T04:57:17.070531+00:00",
+      "query": "((SBW25[Title/Abstract]) OR (Pseudomonas[Title/Abstract] AND (\"mutation bias\"[Title/Abstract] OR \"mutational bias\"[Title/Abstract] OR \"mutation supply\"[Title/Abstract] OR \"phenotypic switching\"[Title/Abstract] OR \"phenotypic state\"[Title/Abstract] OR establishment[Title/Abstract]))) AND (\"2025/01/01\"[Date - Publication] : \"2026/11/05\"[Date - Publication])",
+      "retmax": 30,
+      "sort": "relevance",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28SBW25%5BTitle%2FAbstract%5D%29+OR+%28Pseudomonas%5BTitle%2FAbstract%5D+AND+%28%22mutation+bias%22%5BTitle%2FAbstract%5D+OR+%22mutational+bias%22%5BTitle%2FAbstract%5D+OR+%22mutation+supply%22%5BTitle%2FAbstract%5D+OR+%22phenotypic+switching%22%5BTitle%2FAbstract%5D+OR+%22phenotypic+state%22%5BTitle%2FAbstract%5D+OR+establishment%5BTitle%2FAbstract%5D%29%29%29+AND+%28%222025%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F05%22%5BDate+-+Publication%5D%29&retmode=json&retmax=30&sort=relevance",
+      "status": 200,
+      "sha256": "ed7c7a80c194d34387f9ad7aa32301be18f120b651d8d6bbbf4f139ea2a33e4b",
+      "file": "pubmed_search.json",
+      "purpose": "One bounded 2025\u20132026 native/near-native source search; not exhaustive",
+      "prior_exclusions": [
+        "Wright 2026",
+        "Majic 2026",
+        "Bohlin 2026",
+        "SLST 2026",
+        "Tong 2018",
+        "Karita 2025/2026",
+        "Rodriguez-Sanchez 2026"
+      ],
+      "result_semantics": "HTTP 200 with backend SOLR error; failed search, no hit count",
+      "successful_search": false
+    },
+    {
+      "date_utc": "2026-11-05T04:57:35.991637+00:00",
+      "parameters": {
+        "query": "SBW25 Pseudomonas mutation phenotypic evolution",
+        "filter": "from-pub-date:2025-01-01,until-pub-date:2026-11-05",
+        "rows": 20
+      },
+      "url": "https://api.crossref.org/works?query=SBW25+Pseudomonas+mutation+phenotypic+evolution&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2026-11-05&rows=20",
+      "status": 200,
+      "sha256": "37d53111750060ceefd36da7be583760dd92c2e3ae46b295dd095106eaf821f6",
+      "file": "crossref_search.json",
+      "purpose": "Bounded fallback after PubMed returned HTTP 200 with backend error; no successful PubMed search result",
+      "records_screened": 20,
+      "result_semantics": "Relevance-ranked metadata records; broad query matching and duplicate source-family wrappers; not complete coverage",
+      "successful_search": true
+    }
+  ],
+  "local_preflight_failures": [
+    {
+      "failure": "Python requests unavailable",
+      "remote_request_sent": false
+    },
+    {
+      "failure": "Default sandbox socket permission denied; rerun used supported additional network permission with inherited proxy and TLS verification",
+      "remote_request_sent": false
+    }
+  ],
+  "network_policy": {
+    "managed_runtime_skill_read": true,
+    "networking_reference_read": true,
+    "local_policy_inspected": true,
+    "status_observations_current": true,
+    "status_policy_state": "enforced",
+    "status_spec_revision": "230",
+    "vpn_configured": false,
+    "credential_values_inspected_or_printed": false
+  },
+  "prior_repository_files": [
+    {
+      "repository_relative_path": "research/threshold_calibration/SOURCE_BOUNDARY_NOTE.md",
+      "sha256": "9eb6da4b8ff3b8d30fd59adb7ad55828d7887cb723b6331e02aa97b23082f009",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/operating_characteristics/RECENT_SOURCES.md",
+      "sha256": "5c8bccf115d1022f5fc5abb290c49dad15bd1fe09957d12b4c635f717951f27a",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/literature/LITERATURE_UPDATE_2026-10-01.md",
+      "sha256": "ab88bfc8b7162393eff565a62312e4536eb08bd1d5ead88ff0241f95bdee80f7",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/source_watch/2026-10-08/README.md",
+      "sha256": "9ac6d923e9d1ed063852054a7d098c1c5003da65abbace08210a1bf688a601b1",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/native_cell_state_assessment/REPORT.md",
+      "sha256": "8fb9d7c868d40ea58959b2e6372980b708b63eb7d8a5f3d6a1fd569c2e12c932",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/conditional_curvature/WRIGHT_SOURCE_UPDATE.md",
+      "sha256": "f97408216e5842366fcb795125e55e57fd35b8a8be2e583dc5242929d66279ec",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/conditional_design/SOURCE_SCREEN.md",
+      "sha256": "de9c88b80411fe7162e8555487af8baeee9bba37ebf04ab90e5488c913544a20",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+      "sha256": "a5498973e9dcd794b2620d4f0263ea0cf1bb5a9400053eda56a4a03d3cd3acdc",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "research/bacterial_panel_leads/SOURCES.json",
+      "sha256": "3561e041a1b05f1f3b49073886ba70bef5ab4eff3cb3da6a9357fa767b13eaee",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    },
+    {
+      "repository_relative_path": "LITERATURE_REVIEW.md",
+      "sha256": "eac23a0fe98abae9a7e4cef2651664dd13a6b681c2e74d4d8243e3ecf9348a59",
+      "inspection": "relevant source passages or metadata/DOI matches inspected; not a claim of full-file review"
+    }
+  ],
+  "new_biological_dataset": false,
+  "new_native_calibration": false,
+  "source_author_code_executed": false,
+  "slst_supplement_retry": false,
+  "firecrawl_retry": false,
+  "scope_note": "No full text, supplementary artifact or numerical source data acquired in this check. New-to-ledger is distinct from newly published science."
+}

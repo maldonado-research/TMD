@@ -1,0 +1,165 @@
+{
+  "contexts": [
+    {
+      "baseline": {
+        "calibration_summary": {
+          "maximum": 0,
+          "maximum_multiplicity": 1000,
+          "tested": 1000
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "known_truth_controls": {
+          "A": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "M": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "W": {
+            "correct": 900,
+            "introduced": 1000
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        },
+        "pipeline_id": "synthetic-A_rich-baseline",
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_rich-baseline:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_rich-baseline:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_rich-baseline:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_rich-baseline:truth_control_record"
+        }
+      },
+      "id": "A_rich",
+      "selected": {
+        "calibration_summary": {
+          "maximum": 0,
+          "maximum_multiplicity": 1000,
+          "tested": 1000
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "known_truth_controls": {
+          "A": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "M": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "W": {
+            "correct": 900,
+            "introduced": 1000
+          }
+        },
+        "observed_counts": {
+          "A": 720,
+          "M": 90,
+          "U": 100,
+          "W": 90
+        },
+        "pipeline_id": "synthetic-A_rich-selected",
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_rich-selected:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_rich-selected:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_rich-selected:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_rich-selected:truth_control_record"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "calibration_summary": {
+          "maximum": 0,
+          "maximum_multiplicity": 1000,
+          "tested": 1000
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "known_truth_controls": {
+          "A": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "M": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "W": {
+            "correct": 900,
+            "introduced": 1000
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        },
+        "pipeline_id": "synthetic-A_poor-baseline",
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_poor-baseline:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_poor-baseline:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_poor-baseline:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_poor-baseline:truth_control_record"
+        }
+      },
+      "id": "A_poor",
+      "selected": {
+        "calibration_summary": {
+          "maximum": 0,
+          "maximum_multiplicity": 1000,
+          "tested": 1000
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "known_truth_controls": {
+          "A": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "M": {
+            "correct": 900,
+            "introduced": 1000
+          },
+          "W": {
+            "correct": 900,
+            "introduced": 1000
+          }
+        },
+        "observed_counts": {
+          "A": 90,
+          "M": 405,
+          "U": 100,
+          "W": 405
+        },
+        "pipeline_id": "synthetic-A_poor-selected",
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_poor-selected:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_poor-selected:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_poor-selected:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_poor-selected:truth_control_record"
+        }
+      }
+    }
+  ],
+  "plan_sha256": "0c7816ef50c67f3b75063f8d1f577d50218246beb68467217281e08772101387",
+  "provenance": "synthetic",
+  "schema_version": "integrated-observations-1"
+}

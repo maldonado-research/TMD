@@ -1,0 +1,76 @@
+{
+  "alpha": "1/20",
+  "calibration_error_share": "1/8",
+  "contexts": [
+    {
+      "baseline": {
+        "calibration": {
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "rule": "strict_maximum",
+          "tested": 1000
+        },
+        "future_cohort_tested": 1000,
+        "pipeline_id": "synthetic-A_rich-baseline",
+        "true_route_control_introduced": {
+          "A": 0,
+          "M": 0,
+          "W": 0
+        }
+      },
+      "id": "A_rich",
+      "selected": {
+        "calibration": {
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "rule": "strict_maximum",
+          "tested": 1000
+        },
+        "future_cohort_tested": 1000,
+        "pipeline_id": "synthetic-A_rich-selected",
+        "true_route_control_introduced": {
+          "A": 0,
+          "M": 0,
+          "W": 0
+        }
+      }
+    }
+  ],
+  "contract": {
+    "chronology": "all_training_and_calibration_complete_then_freeze_then_independent_future_cohort_and_truth_controls",
+    "classifier": "arbitrary_by_arm_and_context_unrestricted_Other_column",
+    "cohort": "full_cohort_before_gate_selection_true_W_A_M_or_Other",
+    "conditional_sampling_justification": "All synthetic future units and route controls are independent of all training/calibration; fixed frozen pipelines give binomial marginals.",
+    "control_sampling": "conditional_on_all_training_and_calibration_fixed_known_truth_denominator_binomial_correct_call_marginals",
+    "correct_call_pipeline": "full_learned_gate_and_label_pipeline_frozen_before_future_truth_control_evaluation",
+    "correct_call_transport": "native_eligible_correct_call_probability_at_least_true_route_control_probability_for_each_frozen_pipeline",
+    "design": "all_contexts_denominators_rules_pipeline_definitions_alpha_and_budget_share_fixed_before_calibration",
+    "eligibility": "frozen_independent_truth_definition_W_A_M_versus_Other",
+    "endpoint_sampling": "conditional_on_all_training_and_calibration_fixed_denominator_binomial_label_and_gate_marginals",
+    "endpoint_unit": "one synthetic independent full-cohort unit",
+    "false_gate_transport": "native_Other_tail_at_most_calibration_control_tail_pointwise_at_every_possible_learned_threshold",
+    "observation": "one_W_A_M_U_label_per_full_cohort_unit_gate_failures_and_unresolved_retained_as_U",
+    "target": "strictly_positive_W_A_M_composition_conditional_on_true_eligibility_T_positive",
+    "training": "calibration_score_laws_iid_conditional_on_independent_training_for_each_training_result",
+    "true_route_control_unit": "one synthetic independent known-route introduction"
+  },
+  "schema_version": "integrated-plan-1"
+}

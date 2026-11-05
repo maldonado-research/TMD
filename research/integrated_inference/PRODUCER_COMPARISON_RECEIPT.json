@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "case": "strict_separation",
+      "common_status": "separated",
+      "eta": "1/640",
+      "gamma": "1/640",
+      "reject_common_J": true
+    },
+    {
+      "case": "inclusive_all_tied",
+      "common_status": "not_rejected",
+      "eta": "1/640",
+      "gamma": "1/640",
+      "reject_common_J": false
+    },
+    {
+      "case": "one_context_no_truth_controls",
+      "common_status": "not_rejected",
+      "eta": "1/320",
+      "gamma": "1/320",
+      "reject_common_J": false
+    },
+    {
+      "case": "independent_mixed_comparators_unequal_control_n",
+      "common_status": "not_rejected",
+      "eta": "1/840",
+      "gamma": "1/240",
+      "reject_common_J": false
+    },
+    {
+      "case": "independent_zero_future_cohort",
+      "common_status": "not_rejected",
+      "eta": "1/840",
+      "gamma": "1/240",
+      "reject_common_J": false
+    }
+  ],
+  "checks": {
+    "J_and_common_equalities": 14,
+    "calibration_module_equalities": 18,
+    "cap_projection_equalities": 18,
+    "cases": 5,
+    "count_endpoint_equalities": 126,
+    "gate_module_equalities": 18,
+    "independent_exact_tail_checks": 64
+  },
+  "comparison_sha256": "0fff3c6713dfedcb5f1f78cd67955e23f493a9af530e0458751f94befc0e6ed3",
+  "dependencies": {
+    "classification": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+    "cp": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+    "eligibility": "5c5645e83b3f38ecfb8e196bb5332a555ef752ffab42d4315b6ce7ebbf5d2f6f",
+    "threshold": "4256ca07cdd4d6e597c4ed2eda28926917e428391aa05710b2f5b962eb616c0b"
+  },
+  "producer_sha256": "6bd25d526dc7a95338ab861eb426b36728fc997bf80c3bd45f4c19ce6494e45f",
+  "scope": "Frozen producer comparison and independent closed binomial sums; synthetic inputs only; no empirical native validation.",
+  "status": "passed"
+}
