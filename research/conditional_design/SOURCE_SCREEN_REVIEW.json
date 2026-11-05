@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "review_type": "independent internal AI-assisted source inspection",
+  "source_screen_sha256": "de9c88b80411fe7162e8555487af8baeee9bba37ebf04ab90e5488c913544a20",
+  "checks": {
+    "native_2025_2026_sha256_matches": true,
+    "native_supply_sha256_matches": true,
+    "records_sha256_matches": true,
+    "18_distinct_records": true,
+    "42937301_article_ids_match": true,
+    "42186845_article_ids_match": true,
+    "41633518_article_ids_match": true
+  },
+  "selected_abstracts_checked": [
+    "42937301",
+    "42186845",
+    "41633518"
+  ],
+  "finding": "Selected lead summaries accurately paraphrase acquired abstracts. Final bounded-absence wording was inspected and resolves the only recommended revision; no blocking factual error remains.",
+  "recommended_revision": "Replace categorical absence of a complete panel with no complete panel identified or admitted from this bounded abstract screen and prior Karita assessments. Full methods and numerical source data were not inspected.",
+  "limitations": "Title/metadata screen of 18 records; detailed abstract verification limited to three named records. Does not authenticate data or prove absence of usable material in uninspected source files.",
+  "network_calls": 0,
+  "author_code_executed": false,
+  "public_safe": true,
+  "revision_status": "applied_and_verified",
+  "disposition": "accepted_for_public_source_screen_with_stated_scope_limits",
+  "final_text_check": {
+    "bounded_absence_sentence_present": true,
+    "source_acquisitions_repeated": false
+  }
+}

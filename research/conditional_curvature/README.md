@@ -6,6 +6,8 @@ This bounded standard-library implementation tests whether conditional W/A/M out
 
 Two observation contracts are supported. The reference version treats positive offsets as exactly known. The second uses independent baseline counts and conditions away an unknown offset shared by the two observed assay laws within each context. It does not substitute estimated recovery controls for known offsets or establish biological transfer.
 
+The companion [conditional design analysis](../conditional_design/README.md) now computes support geometry, retained information and complete small-budget rejection probabilities. It separates those planning quantities from biological power and leaves these test definitions unchanged.
+
 ## Relationship to prior project methods
 
 The prospective design already states the positive-triad restriction and notes that conditioning on each context's total and W–M difference removes its tilt. Published methods 0.5.0/0.6.0 already test a common recovery-corrected contrast by intersection of simultaneous confidence intervals, propagating baseline/control uncertainty and optional recovery-transfer bounds. The certified score engine instead compares realized expected log scores of frozen forecasts. Existing paired-aliquot exact calculations address allocation quality under their own count laws.

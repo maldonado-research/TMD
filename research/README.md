@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+The [conditional design analysis](conditional_design/README.md) distinguishes available contrasts, attainable significance and actual rejection probability under declared synthetic laws. Exact support geometry and a complete small-budget allocation example quantify information lost to nuisance conditioning; a local allocation formula supplies a qualified planning screen. A [bounded native-organism literature screen](conditional_design/SOURCE_SCREEN.md) adds two observation/background leads without admitting a biological panel.
+
 The [exact conditional curvature diagnostic](conditional_curvature/README.md) assesses the shared-curvature restriction separately from forecast superiority. It supplies known-offset and independent-baseline modes, an exact counterexample to treating estimated offsets as known, and complete small-table verification. Its observation and joint sampling contracts remain prerequisites; no biological panel is admitted. A [primary-text follow-up on Wright 2026](conditional_curvature/WRIGHT_SOURCE_UPDATE.md) clarifies the recent resistance assays and their ancestry and measurement limits.
 
 The [finite synthetic operating diagnostic](operating_characteristics/README.md) repeats the unchanged forecast and score pipeline through 2,560 simulated studies. It identifies a flexible-comparator bottleneck and provides an outcome-free ceiling check for proposed gain margins. The simulation supplies no biological validation or scientific sample-size recommendation.

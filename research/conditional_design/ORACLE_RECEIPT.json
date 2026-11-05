@@ -1,0 +1,101 @@
+{
+  "scope": "Independent internal synthetic matched-baseline replay and support geometry checks; known-offset comparison is outside this oracle; no biological data or external peer review",
+  "geometry": {
+    "local_table_checks": 3136,
+    "distinct_capacity_patterns": 6,
+    "global_size_and_rank_checks": 1554
+  },
+  "matched_baseline_budget8_splits_independently_reproduced": [
+    {
+      "B": 0,
+      "N": 8,
+      "conditional_information": "0",
+      "rejection_probabilities": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "B": 1,
+      "N": 7,
+      "conditional_information": "0",
+      "rejection_probabilities": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "B": 2,
+      "N": 6,
+      "conditional_information": "1869950305583486800/129789854315815434741",
+      "rejection_probabilities": [
+        "3944/43046721",
+        "1213732/6947055801",
+        "877307/688747536"
+      ]
+    },
+    {
+      "B": 3,
+      "N": 5,
+      "conditional_information": "29703147288009436620321941360/712524775973281290545029685181",
+      "rejection_probabilities": [
+        "7880/14348907",
+        "732940/992436543",
+        "150115/57395628"
+      ]
+    },
+    {
+      "B": 4,
+      "N": 4,
+      "conditional_information": "13198095485749057587582784/243607108326858850571358075",
+      "rejection_probabilities": [
+        "16888/14348907",
+        "648604/425329947",
+        "240301/57395628"
+      ]
+    },
+    {
+      "B": 5,
+      "N": 3,
+      "conditional_information": "29703147288009436620321941360/712524775973281290545029685181",
+      "rejection_probabilities": [
+        "7880/14348907",
+        "134900/182284263",
+        "29875/14348907"
+      ]
+    },
+    {
+      "B": 6,
+      "N": 2,
+      "conditional_information": "1869950305583486800/129789854315815434741",
+      "rejection_probabilities": [
+        "3944/43046721",
+        "25636/234365481",
+        "8381/43046721"
+      ]
+    },
+    {
+      "B": 7,
+      "N": 1,
+      "conditional_information": "0",
+      "rejection_probabilities": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "B": 8,
+      "N": 0,
+      "conditional_information": "0",
+      "rejection_probabilities": [
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "all_null_arm_swap_invariances": true
+}
