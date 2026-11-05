@@ -1,0 +1,21 @@
+{
+  "contract": {
+    "control_population": "one synthetic iid Other population",
+    "control_unit": "synthetic independently truth-labelled Other unit",
+    "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+    "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+    "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+    "score_definition": "one scalar rational score from a fixed synthetic measurement pipeline",
+    "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+    "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+    "truth": "control_units_known_Other_independently_of_scores"
+  },
+  "control_summary": {
+    "maximum": 50,
+    "maximum_multiplicity": 12,
+    "tested": 12
+  },
+  "gamma": "1/20",
+  "provenance": "synthetic",
+  "rule": "inclusive_maximum"
+}

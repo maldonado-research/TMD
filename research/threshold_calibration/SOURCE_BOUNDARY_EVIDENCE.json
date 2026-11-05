@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "scope": "Source qualification and attribution for a classical selection-aware threshold result; no numerical native calibration",
+  "slst_source": {
+    "doi": "10.3389/fcimb.2026.1807759",
+    "pmcid": "PMC13231282",
+    "bytes": 126193,
+    "sha256": "8e86d14d30a55fa672ec950379d03a7d3b57df2ece2ea297f2b5720fb09c7cb4",
+    "exact_excerpts": [
+      {
+        "anchor": "s2_3 paragraph 3",
+        "text": "In the twelve negative controls processed across runs, the maximum number of full-length SLST sequences detected was 50 (Supplementary Table 3). This value was therefore used as the background noise threshold: samples yielding fewer than 50 sequences were considered outliers and excluded from downstream analyses."
+      },
+      {
+        "anchor": "s4_7 paragraph 2",
+        "text": "Each run also included negative controls consisting of nuclease-free water processed through the entire workflow in parallel with the samples. These controls were used to monitor potential contamination and to define a threshold for background noise."
+      },
+      {
+        "anchor": "s4_6 paragraph 2 excerpt",
+        "text": "Families supported by ≥50 reads were assembled de novo with SPAdes v3.14.1 (Prjibelski et al., 2020, https://github.com/ablab/spades) based on background levels observed in negative controls."
+      }
+    ],
+    "reported_n": 12,
+    "reported_maximum": 50,
+    "score": "integer reconstructed full-length sequence count per sample",
+    "literal_exclusion": "N < 50",
+    "literal_complementary_gate": "N >= 50",
+    "observed_blank_passes_literal_gate_range": [
+      1,
+      12
+    ],
+    "maximum_multiplicity_range": [
+      1,
+      12
+    ],
+    "individual_blank_counts_obtained": false,
+    "actual_downstream_blank_inclusion_claimed": false,
+    "continuous_score_assumption_established": false,
+    "iid_calibration_scores_established": false,
+    "prespecified_calibration_n_established": false,
+    "score_pipeline_training_independent_of_calibration_established": false,
+    "upstream_read_filter_has_same_numerical_cutoff_but_distinct_unit": true,
+    "raw_supplement_retry_performed": false,
+    "source_filename": "slst_full.xml"
+  },
+  "strict_max_counterfactual": {
+    "future_gate": "S > max_i S_i; frozen after calibration",
+    "assumptions": [
+      "fixed score pipeline, or conditioning on independent score-training data",
+      "prespecified fixed n",
+      "iid calibration scores",
+      "future controls from same score distribution",
+      "strict comparison"
+    ],
+    "violation_bound": "P_calibration(p_strict(M) > b) <= (1-b)^n",
+    "confidence_upper_bound": "1-delta^(1/n)",
+    "valid_for_discrete_scores": true,
+    "exact_under_continuity": true,
+    "illustrative_n": 12,
+    "illustrative_delta": 0.05,
+    "illustrative_upper_bound": 0.22092219194555585,
+    "is_actual_source_inclusive_gate_calibration": false,
+    "is_native_false_entry_bound": false
+  },
+  "inclusive_counterexample": {
+    "score_distribution": "P(S=50)=1",
+    "sample_size": 12,
+    "maximum": 50,
+    "strict_future_pass_probability": 0,
+    "inclusive_future_pass_probability": 1,
+    "supports": "No nontrivial distribution-free inclusive-gate upper bound from n and max alone"
+  },
+  "attribution": [
+    {
+      "role": "historical bibliographic attribution only",
+      "doi": "10.1214/aoms/1177731788",
+      "title": "Determination of Sample Sizes for Setting Tolerance Limits",
+      "authors": [
+        "S. S. Wilks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1941,
+            3
+          ]
+        ]
+      },
+      "metadata_file": "wilks_crossref.json",
+      "metadata_sha256": "a20bacaf1a4639b5696b5bd57f946e5a1e4382620e528aa8a4ae7b221cff8db9"
+    },
+    {
+      "role": "directly inspected primary result",
+      "doi": "10.1126/sciadv.aao1659",
+      "title": "Neyman-Pearson classification algorithms and NP receiver operating characteristics",
+      "authors": [
+        "Xin Tong",
+        "Yang Feng",
+        "Jingyi Jessica Li"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            2
+          ]
+        ]
+      },
+      "metadata_file": "tong_crossref.json",
+      "metadata_sha256": "aa7283bb64642f0a2ce8b1a695efc93e6e662f3a53bdca1f3db2a7df2b70f225"
+    }
+  ],
+  "direct_primary_result": {
+    "doi": "10.1126/sciadv.aao1659",
+    "pmcid": "PMC5804623",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5804623/",
+    "file": "tong_full.xml",
+    "bytes": 171426,
+    "sha256": "f25ce747226b449ed9c6d6f720d90e6ceb1bf0bd288d47f7fb654fff52d2a7ff",
+    "anchors": [
+      "Proposition 1",
+      "Equation (1)",
+      "Discussion: sample homogeneity limitation"
+    ],
+    "formula": "P[R0(phi_k)>alpha] <= sum_{j=k}^n choose(n,j)(1-alpha)^j alpha^(n-j)",
+    "strict_comparator": "T > T_(k)",
+    "maximum_specialization": "k=n",
+    "independent_score_training_required": true,
+    "iid_within_class_required": true,
+    "score_continuity_required_for_tightness_only": true,
+    "license": "CC BY-NC 4.0; local reading copy, not a proposed repository full-text addition"
+  },
+  "admission": {
+    "native_false_entry_bound": null,
+    "native_beta": null,
+    "native_target_fraction": null,
+    "new_biological_controls_admitted": 0,
+    "new_theorem_claimed": false,
+    "author_error_claimed": false,
+    "author_code_executed": false,
+    "external_writes": false
+  },
+  "prior_audit_qualification": "Existing rejection of fixed-gate binomial inference remains correct. Add a distinction for specified selection-aware order-statistic calibration; do not retract source comparator or native-truth boundary."
+}

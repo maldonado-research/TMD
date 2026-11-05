@@ -1,0 +1,54 @@
+{
+  "comparison_script_sha256": "33bb9aabc80867f5a667c6ce99249fd771b439d28923aabba3296131ad095185",
+  "exact_direct_binomial_endpoint_and_output_checks": 600,
+  "illustrative_95_percent_results": [
+    {
+      "k": 0,
+      "n": 12,
+      "rule": "strict_maximum",
+      "upper_approx": 0.22092219196276747,
+      "upper_exact": "3979780405605571/18014398509481984"
+    },
+    {
+      "k": 1,
+      "n": 12,
+      "rule": "inclusive_maximum",
+      "upper_approx": 0.33868066845643013,
+      "upper_exact": "6101128529031877/18014398509481984"
+    },
+    {
+      "k": 12,
+      "n": 12,
+      "rule": "inclusive_maximum",
+      "upper_approx": 1.0,
+      "upper_exact": "1"
+    },
+    {
+      "k": 0,
+      "n": 59,
+      "rule": "strict_maximum",
+      "upper_approx": 0.049507609892932604,
+      "upper_exact": "7134798510906085/144115188075855872"
+    }
+  ],
+  "malformed_cases_refused": [
+    "zero denominator",
+    "Boolean denominator",
+    "float denominator",
+    "float score",
+    "zero maximum multiplicity",
+    "oversized maximum multiplicity",
+    "Boolean maximum multiplicity",
+    "zero gamma",
+    "gamma equal one",
+    "zero-floor gamma",
+    "learned processor contract",
+    "unknown rule",
+    "omitted truth description",
+    "missing maximum multiplicity",
+    "duplicate JSON key"
+  ],
+  "producer_sha256": "4256ca07cdd4d6e597c4ed2eda28926917e428391aa05710b2f5b962eb616c0b",
+  "scope": "Independent direct exact binomial sums establish outward endpoints. Arbitrary-distribution strict/inclusive selection coverage is separately proved and finite-audited; no native calibration is supplied.",
+  "status": "passed"
+}

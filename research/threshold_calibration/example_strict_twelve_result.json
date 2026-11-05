@@ -1,0 +1,56 @@
+{
+  "confidence": {
+    "coverage_at_least_exact": "19/20",
+    "coverage_scope": "marginal_over_repeated_calibration_samples_not_conditional_on_maximum_or_multiplicity",
+    "one_sided_error_exact": "1/20",
+    "sampling_basis": "strict_maximum_order_statistic"
+  },
+  "contract": {
+    "control_population": "one synthetic iid Other population",
+    "control_unit": "synthetic independently truth-labelled Other unit",
+    "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+    "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+    "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+    "score_definition": "one scalar rational score from a fixed synthetic measurement pipeline",
+    "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+    "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+    "truth": "control_units_known_Other_independently_of_scores"
+  },
+  "contracts_and_control_summary_are_assertions_not_programmatically_established": true,
+  "control_false_gate_upper_exact": "3979780405605571/18014398509481984",
+  "control_summary": {
+    "maximum": "50",
+    "tested": 12
+  },
+  "dependencies": {
+    "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+    "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+  },
+  "frozen_gate": {
+    "score_comparator": ">",
+    "threshold_exact": "50"
+  },
+  "input_sha256": "23b58bdb3fe48f54c252954e8b818464d6d9326a948265ab1b41e3418645ca7f",
+  "interpretation": "Selection-aware maximum-threshold calibration under declared premises; no native value, eligibility estimate or biological validation is supplied.",
+  "native_false_gate_upper": null,
+  "native_transfer": "Requires separately justified native_Other_tail_at_realized_threshold <= control_tail; not established here.",
+  "numerical_endpoint": {
+    "endpoint": {
+      "certificate": {
+        "exact_tail_certified": true,
+        "outward_expansions": 0,
+        "outward_width": 1.7211557705152685e-11,
+        "proposed_root": 0.2209221919455559
+      },
+      "exact": "3979780405605571/18014398509481984"
+    },
+    "equivalent_k": 0,
+    "equivalent_k_is_not_a_fixed_gate_binomial_success_count": true,
+    "kernel": "certified_one_sided_CP_upper",
+    "n": 12
+  },
+  "provenance": "synthetic",
+  "rule": "strict_maximum",
+  "schema_version": "threshold-calibration-1",
+  "target": "P(future_control_score > realized_maximum | calibration_sample)"
+}
