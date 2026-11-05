@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "slst_source_identity",
+      "passed": true
+    },
+    {
+      "check": "s2_3 paragraph 3",
+      "passed": true
+    },
+    {
+      "check": "s4_7 paragraph 2",
+      "passed": true
+    },
+    {
+      "check": "s4_6 paragraph 2 excerpt",
+      "passed": true
+    },
+    {
+      "check": "direct_primary_result_identity",
+      "passed": true
+    },
+    {
+      "check": "primary_Proposition 1",
+      "passed": true
+    },
+    {
+      "check": "primary_i.i.d.",
+      "passed": true
+    },
+    {
+      "check": "metadata_10.1214/aoms/1177731788",
+      "passed": true
+    },
+    {
+      "check": "metadata_10.1126/sciadv.aao1659",
+      "passed": true
+    }
+  ],
+  "source_bodies_redistributed": false,
+  "source_study_code_executed": false,
+  "native_control_bound": null,
+  "scope": "Pinned source identities, quoted SLST anchors and primary metadata/text markers; not an independent source-data or biological validation."
+}
