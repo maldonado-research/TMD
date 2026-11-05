@@ -1,0 +1,939 @@
+{
+  "common_J": {
+    "interpretation": "Overlap is compatibility under the declared model, not evidence that curvatures are equal.",
+    "lower": {
+      "attained_in_positive_domain": true,
+      "exact": "140511574819190706434715866674135486144959718264070954244161660680241747967839505994959632681416028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+      "infinity": null
+    },
+    "separated": true,
+    "status": "separated",
+    "upper": {
+      "attained_in_positive_domain": true,
+      "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/2677462394185291659682367216982385228577269178826555420506567095142184556541693212699464008355316350361881856122",
+      "infinity": null
+    }
+  },
+  "confidence": {
+    "CP_trial_work": 32000,
+    "alpha_exact": "1/20",
+    "between_component_independence_required": false,
+    "calibration_components": 4,
+    "calibration_coverage_marginal_over_calibration_not_conditional_on_observed_threshold": true,
+    "calibration_error_share_exact": "1/8",
+    "calibration_family_error_exact": "1/160",
+    "count_components": 28,
+    "count_coverage_conditional_on_all_training_and_calibration_required": true,
+    "count_family_error_exact": "7/160",
+    "global_error_bound_exact": "1/20",
+    "per_calibration_error_exact": "1/640",
+    "per_count_endpoint_error_exact": "1/640",
+    "simultaneous_coverage_at_least_exact": "19/20",
+    "transport_estimation_error_included": false
+  },
+  "contexts": [
+    {
+      "J": {
+        "lower": {
+          "attained_in_positive_domain": true,
+          "exact": "140511574819190706434715866674135486144959718264070954244161660680241747967839505994959632681416028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null
+        },
+        "status": "ok",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        }
+      },
+      "baseline": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "calibration": {
+          "confidence": {
+            "coverage_at_least_exact": "639/640",
+            "coverage_scope": "marginal_over_repeated_calibration_samples_not_conditional_on_maximum_or_multiplicity",
+            "one_sided_error_exact": "1/640",
+            "sampling_basis": "strict_maximum_order_statistic"
+          },
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "contracts_and_control_summary_are_assertions_not_programmatically_established": true,
+          "control_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "control_summary": {
+            "maximum": "0",
+            "tested": 1000
+          },
+          "dependencies": {
+            "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+            "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+          },
+          "frozen_gate": {
+            "score_comparator": ">",
+            "threshold_exact": "0"
+          },
+          "interpretation": "Selection-aware maximum-threshold calibration under declared premises; no native value, eligibility estimate or biological validation is supplied.",
+          "native_false_gate_upper": null,
+          "native_transfer": "Requires separately justified native_Other_tail_at_realized_threshold <= control_tail; not established here.",
+          "numerical_endpoint": {
+            "endpoint": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 6.399155964972201e-13,
+                "proposed_root": 0.006440637779985173
+              },
+              "exact": "1856387450166495/288230376151711744"
+            },
+            "equivalent_k": 0,
+            "equivalent_k_is_not_a_fixed_gate_binomial_success_count": true,
+            "kernel": "certified_one_sided_CP_upper",
+            "n": 1000
+          },
+          "provenance": "synthetic",
+          "rule": "strict_maximum",
+          "schema_version": "threshold-calibration-1",
+          "target": "P(future_control_score > realized_maximum | calibration_sample)"
+        },
+        "caps": {
+          "A": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "49363722316288066134610558359731/115278038816455269176465448746325"
+        },
+        "closure_witness_scope": "Cap outer set only; no full joint gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "265111389466715745/286373988701545249",
+            "a": "1",
+            "f": "1856387450166495/288230376151711744",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "265111389466715745/286373988701545249",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": true,
+          "lower_attained_for_positive_T": true,
+          "other_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "positive_T_approach_if_zero": null,
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "gate_positive_lower": {
+          "certificate": {
+            "exact_tail_certified": true,
+            "outward_expansions": 0,
+            "outward_width": 6.832752685575125e-12,
+            "proposed_root": 0.9262305399009423
+          },
+          "exact": "4171371514326285/4503599627370496"
+        },
+        "lower": {
+          "attained_in_positive_domain": true,
+          "exact": "273922167839453913855970186108717864329672455604832981753620769/2436777080919596437211201141440856509242902962410545409202392361",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "16550594183879136907244332026863/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "49363722316288066134610558359731/115278038816455269176465448746325"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        },
+        "pipeline_id": "synthetic-A_rich-baseline",
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_rich-baseline:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_rich-baseline:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_rich-baseline:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_rich-baseline:truth_control_record"
+        },
+        "range_kind": "conservative_joint_error_budget_outer_projection",
+        "status": "ok",
+        "sum_caps_exact": "49363722316288066134610558359731/38426012938818423058821816248775",
+        "upper": {
+          "attained_in_positive_domain": true,
+          "exact": "49363722316288066134610558359731/16550594183879136907244332026863",
+          "infinity": null
+        },
+        "upper_closure_witness": {
+          "A": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "16550594183879136907244332026863/115278038816455269176465448746325"
+        }
+      },
+      "id": "A_rich",
+      "selected": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "calibration": {
+          "confidence": {
+            "coverage_at_least_exact": "639/640",
+            "coverage_scope": "marginal_over_repeated_calibration_samples_not_conditional_on_maximum_or_multiplicity",
+            "one_sided_error_exact": "1/640",
+            "sampling_basis": "strict_maximum_order_statistic"
+          },
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "contracts_and_control_summary_are_assertions_not_programmatically_established": true,
+          "control_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "control_summary": {
+            "maximum": "0",
+            "tested": 1000
+          },
+          "dependencies": {
+            "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+            "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+          },
+          "frozen_gate": {
+            "score_comparator": ">",
+            "threshold_exact": "0"
+          },
+          "interpretation": "Selection-aware maximum-threshold calibration under declared premises; no native value, eligibility estimate or biological validation is supplied.",
+          "native_false_gate_upper": null,
+          "native_transfer": "Requires separately justified native_Other_tail_at_realized_threshold <= control_tail; not established here.",
+          "numerical_endpoint": {
+            "endpoint": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 6.399155964972201e-13,
+                "proposed_root": 0.006440637779985173
+              },
+              "exact": "1856387450166495/288230376151711744"
+            },
+            "equivalent_k": 0,
+            "equivalent_k_is_not_a_fixed_gate_binomial_success_count": true,
+            "kernel": "certified_one_sided_CP_upper",
+            "n": 1000
+          },
+          "provenance": "synthetic",
+          "rule": "strict_maximum",
+          "schema_version": "threshold-calibration-1",
+          "target": "P(future_control_score > realized_maximum | calibration_sample)"
+        },
+        "caps": {
+          "A": "1962928009346415343640773434065201/2075004698696194845176378077433850",
+          "M": "618139866066202296135337315910783/4150009397392389690352756154867700",
+          "W": "618139866066202296135337315910783/4150009397392389690352756154867700"
+        },
+        "closure_witness_scope": "Cap outer set only; no full joint gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "265111389466715745/286373988701545249",
+            "a": "1",
+            "f": "1856387450166495/288230376151711744",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "265111389466715745/286373988701545249",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": true,
+          "lower_attained_for_positive_T": true,
+          "other_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "positive_T_approach_if_zero": null,
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "gate_positive_lower": {
+          "certificate": {
+            "exact_tail_certified": true,
+            "outward_expansions": 0,
+            "outward_width": 6.832752685575125e-12,
+            "proposed_root": 0.9262305399009423
+          },
+          "exact": "4171371514326285/4503599627370496"
+        },
+        "lower": {
+          "attained_in_positive_domain": true,
+          "exact": "8489820562216064810546983328520553148363234189447837026966292345956/382096894020342512928362196657373041264014520593471077364815673089",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "1456864832629992549041040761523067/2075004698696194845176378077433850",
+          "M": "618139866066202296135337315910783/4150009397392389690352756154867700",
+          "W": "618139866066202296135337315910783/4150009397392389690352756154867700"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 720,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.818823142339838e-11,
+                "proposed_root": 0.7609936508155251
+              },
+              "exact": "6854421444652049/9007199254740992"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          }
+        },
+        "observed_counts": {
+          "A": 720,
+          "M": 90,
+          "U": 100,
+          "W": 90
+        },
+        "pipeline_id": "synthetic-A_rich-selected",
+        "positive_feasible_witness": {
+          "A": "6854421444652049/9012927071748016",
+          "M": "2158505627095967/18025854143496032",
+          "W": "2158505627095967/18025854143496032"
+        },
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_rich-selected:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_rich-selected:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_rich-selected:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_rich-selected:truth_control_record"
+        },
+        "range_kind": "conservative_joint_error_budget_outer_projection",
+        "status": "ok",
+        "sum_caps_exact": "1290533937706308819888055374987992/1037502349348097422588189038716925",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        },
+        "upper_closure_witness": {
+          "A": "1962928009346415343640773434065201/2075004698696194845176378077433850",
+          "M": "112076689349779501535604643368649/2075004698696194845176378077433850",
+          "W": "0"
+        }
+      }
+    },
+    {
+      "J": {
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "status": "ok",
+        "upper": {
+          "attained_in_positive_domain": true,
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/2677462394185291659682367216982385228577269178826555420506567095142184556541693212699464008355316350361881856122",
+          "infinity": null
+        }
+      },
+      "baseline": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "calibration": {
+          "confidence": {
+            "coverage_at_least_exact": "639/640",
+            "coverage_scope": "marginal_over_repeated_calibration_samples_not_conditional_on_maximum_or_multiplicity",
+            "one_sided_error_exact": "1/640",
+            "sampling_basis": "strict_maximum_order_statistic"
+          },
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "contracts_and_control_summary_are_assertions_not_programmatically_established": true,
+          "control_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "control_summary": {
+            "maximum": "0",
+            "tested": 1000
+          },
+          "dependencies": {
+            "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+            "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+          },
+          "frozen_gate": {
+            "score_comparator": ">",
+            "threshold_exact": "0"
+          },
+          "interpretation": "Selection-aware maximum-threshold calibration under declared premises; no native value, eligibility estimate or biological validation is supplied.",
+          "native_false_gate_upper": null,
+          "native_transfer": "Requires separately justified native_Other_tail_at_realized_threshold <= control_tail; not established here.",
+          "numerical_endpoint": {
+            "endpoint": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 6.399155964972201e-13,
+                "proposed_root": 0.006440637779985173
+              },
+              "exact": "1856387450166495/288230376151711744"
+            },
+            "equivalent_k": 0,
+            "equivalent_k_is_not_a_fixed_gate_binomial_success_count": true,
+            "kernel": "certified_one_sided_CP_upper",
+            "n": 1000
+          },
+          "provenance": "synthetic",
+          "rule": "strict_maximum",
+          "schema_version": "threshold-calibration-1",
+          "target": "P(future_control_score > realized_maximum | calibration_sample)"
+        },
+        "caps": {
+          "A": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "49363722316288066134610558359731/115278038816455269176465448746325"
+        },
+        "closure_witness_scope": "Cap outer set only; no full joint gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "265111389466715745/286373988701545249",
+            "a": "1",
+            "f": "1856387450166495/288230376151711744",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "265111389466715745/286373988701545249",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": true,
+          "lower_attained_for_positive_T": true,
+          "other_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "positive_T_approach_if_zero": null,
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "gate_positive_lower": {
+          "certificate": {
+            "exact_tail_certified": true,
+            "outward_expansions": 0,
+            "outward_width": 6.832752685575125e-12,
+            "proposed_root": 0.9262305399009423
+          },
+          "exact": "4171371514326285/4503599627370496"
+        },
+        "lower": {
+          "attained_in_positive_domain": true,
+          "exact": "273922167839453913855970186108717864329672455604832981753620769/2436777080919596437211201141440856509242902962410545409202392361",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "16550594183879136907244332026863/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "49363722316288066134610558359731/115278038816455269176465448746325"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        },
+        "pipeline_id": "synthetic-A_poor-baseline",
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_poor-baseline:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_poor-baseline:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_poor-baseline:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_poor-baseline:truth_control_record"
+        },
+        "range_kind": "conservative_joint_error_budget_outer_projection",
+        "status": "ok",
+        "sum_caps_exact": "49363722316288066134610558359731/38426012938818423058821816248775",
+        "upper": {
+          "attained_in_positive_domain": true,
+          "exact": "49363722316288066134610558359731/16550594183879136907244332026863",
+          "infinity": null
+        },
+        "upper_closure_witness": {
+          "A": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "M": "49363722316288066134610558359731/115278038816455269176465448746325",
+          "W": "16550594183879136907244332026863/115278038816455269176465448746325"
+        }
+      },
+      "id": "A_poor",
+      "selected": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "calibration": {
+          "confidence": {
+            "coverage_at_least_exact": "639/640",
+            "coverage_scope": "marginal_over_repeated_calibration_samples_not_conditional_on_maximum_or_multiplicity",
+            "one_sided_error_exact": "1/640",
+            "sampling_basis": "strict_maximum_order_statistic"
+          },
+          "contract": {
+            "control_population": "one synthetic iid control population in this arm/context",
+            "control_unit": "one synthetic independently known-Other unit",
+            "deployment": "same_fixed_score_pipeline_and_realized_threshold_frozen_for_independent_future_units",
+            "design": "n_score_pipeline_maximum_rule_comparator_and_gamma_fixed_before_calibration",
+            "sampling": "fixed_positive_n_iid_scalar_scores_from_one_control_population",
+            "score_definition": "fixed synthetic scalar score; independently trained before every calibration sample",
+            "score_pipeline": "entire_score_pipeline_fixed_independently_of_calibration_data",
+            "summary": "maximum_and_if_required_multiplicity_over_all_n_controls_no_omissions",
+            "truth": "control_units_known_Other_independently_of_scores"
+          },
+          "contracts_and_control_summary_are_assertions_not_programmatically_established": true,
+          "control_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "control_summary": {
+            "maximum": "0",
+            "tested": 1000
+          },
+          "dependencies": {
+            "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+            "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+          },
+          "frozen_gate": {
+            "score_comparator": ">",
+            "threshold_exact": "0"
+          },
+          "interpretation": "Selection-aware maximum-threshold calibration under declared premises; no native value, eligibility estimate or biological validation is supplied.",
+          "native_false_gate_upper": null,
+          "native_transfer": "Requires separately justified native_Other_tail_at_realized_threshold <= control_tail; not established here.",
+          "numerical_endpoint": {
+            "endpoint": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 6.399155964972201e-13,
+                "proposed_root": 0.006440637779985173
+              },
+              "exact": "1856387450166495/288230376151711744"
+            },
+            "equivalent_k": 0,
+            "equivalent_k_is_not_a_fixed_gate_binomial_success_count": true,
+            "kernel": "certified_one_sided_CP_upper",
+            "n": 1000
+          },
+          "provenance": "synthetic",
+          "rule": "strict_maximum",
+          "schema_version": "threshold-calibration-1",
+          "target": "P(future_control_score > realized_maximum | calibration_sample)"
+        },
+        "caps": {
+          "A": "618139866066202296135337315910783/4150009397392389690352756154867700",
+          "M": "1165523756550385478124950165162099/2075004698696194845176378077433850",
+          "W": "1165523756550385478124950165162099/2075004698696194845176378077433850"
+        },
+        "closure_witness_scope": "Cap outer set only; no full joint gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "265111389466715745/286373988701545249",
+            "a": "1",
+            "f": "1856387450166495/288230376151711744",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "265111389466715745/286373988701545249",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": true,
+          "lower_attained_for_positive_T": true,
+          "other_false_gate_upper_exact": "1856387450166495/288230376151711744",
+          "positive_T_approach_if_zero": null,
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_counts": {
+          "positive": 950,
+          "tested": 1000
+        },
+        "gate_positive_lower": {
+          "certificate": {
+            "exact_tail_certified": true,
+            "outward_expansions": 0,
+            "outward_width": 6.832752685575125e-12,
+            "proposed_root": 0.9262305399009423
+          },
+          "exact": "4171371514326285/4503599627370496"
+        },
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "0",
+          "M": "1/2",
+          "W": "1/2"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 405,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.4768192863199274e-11,
+                "proposed_root": 0.4518536463685229
+              },
+              "exact": "4069935827045651/9007199254740992"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 405,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.4768192863199274e-11,
+                "proposed_root": 0.4518536463685229
+              },
+              "exact": "4069935827045651/9007199254740992"
+            }
+          }
+        },
+        "observed_counts": {
+          "A": 90,
+          "M": 405,
+          "U": 100,
+          "W": 405
+        },
+        "pipeline_id": "synthetic-A_poor-selected",
+        "positive_feasible_witness": {
+          "A": "2158505627095967/18438248935278571",
+          "M": "8139871654091302/18438248935278571",
+          "W": "8139871654091302/18438248935278571"
+        },
+        "provenance": {
+          "calibration_record": "Chosen synthetic record: synthetic-A_poor-selected:calibration_record",
+          "frozen_pipeline_record": "Chosen synthetic record: synthetic-A_poor-selected:frozen_pipeline_record",
+          "future_cohort_record": "Chosen synthetic record: synthetic-A_poor-selected:future_cohort_record",
+          "truth_control_record": "Chosen synthetic record: synthetic-A_poor-selected:truth_control_record"
+        },
+        "range_kind": "conservative_joint_error_budget_outer_projection",
+        "status": "ok",
+        "sum_caps_exact": "182077065250611869263280619881351/143103772323875506563888143271300",
+        "upper": {
+          "attained_in_positive_domain": true,
+          "exact": "1334258379236245039255221185689721651671951112161/9774537107761776097665470252759134059922410510138",
+          "infinity": null
+        },
+        "upper_closure_witness": {
+          "A": "618139866066202296135337315910783/4150009397392389690352756154867700",
+          "M": "1165523756550385478124950165162099/2075004698696194845176378077433850",
+          "W": "133424668691712937551946500959191/461112155265821076705861794985300"
+        }
+      }
+    }
+  ],
+  "contract": {
+    "chronology": "all_training_and_calibration_complete_then_freeze_then_independent_future_cohort_and_truth_controls",
+    "classifier": "arbitrary_by_arm_and_context_unrestricted_Other_column",
+    "cohort": "full_cohort_before_gate_selection_true_W_A_M_or_Other",
+    "conditional_sampling_justification": "All synthetic future units and route controls are independent of all training/calibration; fixed frozen pipelines give binomial marginals.",
+    "control_sampling": "conditional_on_all_training_and_calibration_fixed_known_truth_denominator_binomial_correct_call_marginals",
+    "correct_call_pipeline": "full_learned_gate_and_label_pipeline_frozen_before_future_truth_control_evaluation",
+    "correct_call_transport": "native_eligible_correct_call_probability_at_least_true_route_control_probability_for_each_frozen_pipeline",
+    "design": "all_contexts_denominators_rules_pipeline_definitions_alpha_and_budget_share_fixed_before_calibration",
+    "eligibility": "frozen_independent_truth_definition_W_A_M_versus_Other",
+    "endpoint_sampling": "conditional_on_all_training_and_calibration_fixed_denominator_binomial_label_and_gate_marginals",
+    "endpoint_unit": "one synthetic independent full-cohort unit",
+    "false_gate_transport": "native_Other_tail_at_most_calibration_control_tail_pointwise_at_every_possible_learned_threshold",
+    "observation": "one_W_A_M_U_label_per_full_cohort_unit_gate_failures_and_unresolved_retained_as_U",
+    "target": "strictly_positive_W_A_M_composition_conditional_on_true_eligibility_T_positive",
+    "training": "calibration_score_laws_iid_conditional_on_independent_training_for_each_training_result",
+    "true_route_control_unit": "one synthetic independent known-route introduction"
+  },
+  "contracts_and_records_are_assertions_not_programmatically_established": true,
+  "decision_scope": "Level-alpha common-J rejection under all declared premises; one context descriptive; incompatible caps unevaluable.",
+  "dependencies": {
+    "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+    "classification_bounds_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+    "eligibility_gate_bounds_SHA256": "5c5645e83b3f38ecfb8e196bb5332a555ef752ffab42d4315b6ce7ebbf5d2f6f",
+    "threshold_calibration_SHA256": "4256ca07cdd4d6e597c4ed2eda28926917e428391aa05710b2f5b962eb616c0b"
+  },
+  "hash_scope": "Content integrity only; not registration, chronology, truth, transport or sampling validation.",
+  "joint_gate_classifier_sharpness_claimed": false,
+  "native_parameter_authentication_performed": false,
+  "plan_sha256": "15d7bb44eb9cffc78ab9690fd704ac46b92d84ba3899dab235d39868b34ae73f",
+  "provenance": "synthetic",
+  "registry_changes_performed": false,
+  "reject_common_J": true,
+  "schema_version": "integrated-inference-1",
+  "target": "J=Q(selected)/Q(baseline), Q=pA^2/(pW*pM); p conditional on true full-cohort eligibility"
+}

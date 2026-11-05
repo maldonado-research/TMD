@@ -1,0 +1,391 @@
+{
+  "scope": "Twenty records from one bounded Crossref fallback; no exhaustive absence claim",
+  "records": [
+    {
+      "rank": 1,
+      "doi": "10.1093/molbev/msag125",
+      "title": "Compensatory evolution facilitates loss of prfB autoregulation in Pseudomonas fluorescens SBW25",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2026,
+          5,
+          26
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "prfB compensation",
+      "disposition": "Previously assessed source family; journal abstract already read by prior audit; preprint not a new cohort.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN.md",
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json"
+      ]
+    },
+    {
+      "rank": 2,
+      "doi": "10.64898/2026.01.08.698412",
+      "title": "Compensatory evolution facilitates loss of prfB autoregulation in Pseudomonas fluorescens SBW25",
+      "crossref_type": "posted-content",
+      "published_date_parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "prfB compensation",
+      "disposition": "Previously assessed source family; journal abstract already read by prior audit; preprint not a new cohort.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN.md",
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json"
+      ]
+    },
+    {
+      "rank": 3,
+      "doi": "10.7554/elife.98218.4.sa2",
+      "title": "Reviewer #3 (Public review): Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 4,
+      "doi": "10.7554/elife.98218.3.sa3",
+      "title": "eLife Assessment: Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          2,
+          18
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 5,
+      "doi": "10.7554/elife.98218.4.sa0",
+      "title": "eLife Assessment: Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 6,
+      "doi": "10.7554/elife.98218.3.sa2",
+      "title": "Reviewer #1 (Public review): Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          2,
+          18
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 7,
+      "doi": "10.7554/elife.98218.4.sa1",
+      "title": "Reviewer #1 (Public review): Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 8,
+      "doi": "10.7554/elife.98218.3.sa1",
+      "title": "Reviewer #3 (Public review): Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          2,
+          18
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 9,
+      "doi": "10.36266/ijed/192",
+      "title": "Glucokinase Gene Mutation: Three Interesting Cases with Varied Phenotypic Presentations",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2025,
+          6,
+          4
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 10,
+      "doi": "10.21070/acopen.11.2026.13865",
+      "title": "Phenotypic and Molecular Profiling of Pseudomonas aeruginosa Under Thermal Stress Conditions",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 11,
+      "doi": "10.1016/j.colsurfb.2025.115048",
+      "title": "Flow geometry effect on Pseudomonas fluorescens SBW25 biofilm structure",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2025,
+          12
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "SBW25 flow geometry",
+      "disposition": "Previously indexed metadata lead; title-only inspection does not establish usable calibration.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json"
+      ]
+    },
+    {
+      "rank": 12,
+      "doi": "10.2139/ssrn.7385560",
+      "title": "Transfer of Pseudomonas syringae and Pseudomonas savastanoi pathovars to Pseudomonas amygdali based on phenotypic and genotypic charqacterization with improved genomic resources",
+      "crossref_type": "posted-content",
+      "published_date_parts": [
+        [
+          2026
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 13,
+      "doi": "10.2139/ssrn.5227967",
+      "title": "Transfer of Pseudomonas Syringae and Pseudomonas Savastanoi Pathovars to Pseudomonas Amygdali Based on Phenotypic and Genotypic Characterization with Improved Genomic Resources",
+      "crossref_type": "posted-content",
+      "published_date_parts": [
+        [
+          2025
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 14,
+      "doi": "10.21203/rs.3.rs-6434862/v1",
+      "title": "Phenotypic exploration of Mice with a Point Mutation in BRAT1",
+      "crossref_type": "posted-content",
+      "published_date_parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 15,
+      "doi": "10.1142/9789819825417_0004",
+      "title": "Phenotypic Responses to Experimental Evolution",
+      "crossref_type": "book-chapter",
+      "published_date_parts": [
+        [
+          2026,
+          5
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 16,
+      "doi": "10.1101/2025.05.29.656822",
+      "title": "Single-Cell Phenotypic Heterogeneity Shapes Quorum Signaling Dynamics in Pseudomonas aeruginosa",
+      "crossref_type": "posted-content",
+      "published_date_parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "P. aeruginosa quorum-sensing heterogeneity",
+      "disposition": "New to records searched; registered abstract provides adjacent cell-state memory observation, but no inspected native mutation-origin, establishment or loss-calibration evidence. No validation-claim change.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 17,
+      "doi": "10.7554/elife.98218.4.sa3",
+      "title": "Author response: Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 18,
+      "doi": "10.7554/elife.98218.3.sa0",
+      "title": "Author response: Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25",
+      "crossref_type": "peer-review",
+      "published_date_parts": [
+        [
+          2025,
+          2,
+          18
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "mreB evolutionary rescue",
+      "disposition": "Peer-review/response wrapper of already indexed primary source; not primary experimental evidence.",
+      "prior_repository_records": [
+        "research/conditional_design/SOURCE_SCREEN_RECEIPT.json",
+        "research/bacterial_panel_leads/SOURCES.json"
+      ]
+    },
+    {
+      "rank": 19,
+      "doi": "10.21275/sr25620113700",
+      "title": "Detection of Metallo Beta Lactamases Production in Pseudomonas Aeruginosa by Phenotypic Methods from Clinical Isolates in a Tertiary Care Hospital",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2025,
+          6,
+          27
+        ]
+      ],
+      "source_depth": "Crossref metadata/title only",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    },
+    {
+      "rank": 20,
+      "doi": "10.31163/2618-964x/2025-21",
+      "title": "Phenotypic heterogeneity in Pseudomonas chlororaphis cell populatio",
+      "crossref_type": "journal-article",
+      "published_date_parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ],
+      "source_depth": "Crossref metadata and registered abstract",
+      "primary_full_text_inspected": false,
+      "evidence_family": "Other returned record",
+      "disposition": "Not prioritized: inspected metadata/title or abstract does not address native mutation-origin/establishment/recovery calibration or learned-gate validation.",
+      "prior_repository_records": []
+    }
+  ]
+}
