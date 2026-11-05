@@ -1,0 +1,42 @@
+{
+  "contexts": [
+    {
+      "baseline": {
+        "correct_call_lower": {
+          "A": "3/5",
+          "M": "3/5",
+          "W": "3/5"
+        },
+        "observed": {
+          "A": "1/5",
+          "M": "1/5",
+          "U": "2/5",
+          "W": "1/5"
+        }
+      },
+      "id": "U_retained",
+      "selected": {
+        "correct_call_lower": {
+          "A": "3/5",
+          "M": "3/5",
+          "W": "3/5"
+        },
+        "observed": {
+          "A": "1/5",
+          "M": "1/5",
+          "U": "2/5",
+          "W": "1/5"
+        }
+      }
+    }
+  ],
+  "contract": {
+    "classifier": "arbitrary_column_stochastic_by_arm_and_context",
+    "cohort": "independently_prequalified_true_W_A_M_no_other_entrants",
+    "endpoint_unit": "synthetic independently eligible true-triad unit",
+    "latent": "strictly_positive_W_A_M_probabilities",
+    "observation": "one_W_A_M_U_label_per_unit_U_retained_in_denominator"
+  },
+  "mode": "population",
+  "provenance": "synthetic"
+}

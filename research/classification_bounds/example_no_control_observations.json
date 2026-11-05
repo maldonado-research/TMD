@@ -1,0 +1,113 @@
+{
+  "alpha": "1/20",
+  "contexts": [
+    {
+      "baseline": {
+        "known_truth_controls": {
+          "A": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "M": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "W": {
+            "correct": 0,
+            "introduced": 0
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        }
+      },
+      "id": "A_rich",
+      "selected": {
+        "known_truth_controls": {
+          "A": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "M": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "W": {
+            "correct": 0,
+            "introduced": 0
+          }
+        },
+        "observed_counts": {
+          "A": 720,
+          "M": 90,
+          "U": 100,
+          "W": 90
+        }
+      }
+    },
+    {
+      "baseline": {
+        "known_truth_controls": {
+          "A": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "M": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "W": {
+            "correct": 0,
+            "introduced": 0
+          }
+        },
+        "observed_counts": {
+          "A": 300,
+          "M": 300,
+          "U": 100,
+          "W": 300
+        }
+      },
+      "id": "A_poor",
+      "selected": {
+        "known_truth_controls": {
+          "A": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "M": {
+            "correct": 0,
+            "introduced": 0
+          },
+          "W": {
+            "correct": 0,
+            "introduced": 0
+          }
+        },
+        "observed_counts": {
+          "A": 90,
+          "M": 405,
+          "U": 100,
+          "W": 405
+        }
+      }
+    }
+  ],
+  "contract": {
+    "classifier": "arbitrary_column_stochastic_by_arm_and_context",
+    "cohort": "independently_prequalified_true_W_A_M_no_other_entrants",
+    "control_sampling": "fixed_known_truth_denominators_valid_binomial_correct_call_marginals",
+    "control_transport": "native_correct_call_probability_at_least_control_probability",
+    "design": "contexts_endpoint_rules_and_error_allocation_fixed_before_outcomes",
+    "endpoint_sampling": "fixed_denominators_valid_binomial_label_marginals",
+    "endpoint_unit": "synthetic independently eligible true-triad unit",
+    "known_truth_control_unit": "synthetic independently known introduced true-route unit",
+    "latent": "strictly_positive_W_A_M_probabilities",
+    "observation": "one_W_A_M_U_label_per_unit_U_retained_in_denominator"
+  },
+  "mode": "counts",
+  "provenance": "synthetic"
+}

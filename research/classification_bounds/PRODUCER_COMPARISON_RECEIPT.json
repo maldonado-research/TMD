@@ -1,0 +1,36 @@
+{
+  "producer_sha256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+  "preserved_CP_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "cap_vectors_compared": 729,
+  "classifier_completion_cases": 8100,
+  "one_sided_count_limits_compared": 48,
+  "fixtures": [
+    {
+      "fixture": "example_shared_classifier.json",
+      "common_J_status": "compatible",
+      "saved_result_matches_execution": true
+    },
+    {
+      "fixture": "example_retained_U_denominator.json",
+      "common_J_status": "compatible",
+      "saved_result_matches_execution": true
+    },
+    {
+      "fixture": "example_incompatible_population_contract.json",
+      "common_J_status": "unevaluable_observation_contract",
+      "saved_result_matches_execution": true
+    },
+    {
+      "fixture": "example_count_separation.json",
+      "common_J_status": "separated",
+      "saved_result_matches_execution": true
+    },
+    {
+      "fixture": "example_no_control_observations.json",
+      "common_J_status": "not_rejected",
+      "saved_result_matches_execution": true
+    }
+  ],
+  "all_checks_passed": true,
+  "scope": "Frozen producer comparison against independent polygon/completion logic; CP endpoints intentionally reuse the preserved certified scalar engine."
+}

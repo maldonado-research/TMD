@@ -1,0 +1,12 @@
+{
+  "self_hash_omitted": true,
+  "files": {
+    "independent_oracle.py": "116a212eab6617b8c1df7d707fb618b2651352b65378a07d0ab291e9c9cba2d6",
+    "count_coverage_oracle.py": "9a18e50232290dfff277dabdb75d858e674d5edd3b90fd54653e3f9fbafe32cf",
+    "compare_frozen_producer.py": "7d886023dcea2d8345f4e7a62d5b55da76747ef18259d8e69d880c34d37585f5",
+    "INDEPENDENT_ORACLE_RECEIPT.json": "daac80812b261bbc9b0658e1aabb6828e6890cae831a39f73a424db4a6e6c551",
+    "COUNT_COVERAGE_RECEIPT.json": "95d538b93047360fe9affc28b66542b223638f2c7026c3927c54da5fa0f0959f",
+    "PRODUCER_COMPARISON_RECEIPT.json": "d3fea139baf2961172b4476a35ba6773ec02722f0966389c89903ce47844e290",
+    "INDEPENDENT_REVIEW.md": "3146922e8f009cded043895de284943e797659460136b420587db5dbc318b9e8"
+  }
+}
