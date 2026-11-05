@@ -1,0 +1,14 @@
+{
+  "status": "internal_review_pass",
+  "new_code_license": "MIT under repository terms",
+  "new_documentation_license": "CC BY 4.0 under repository terms",
+  "preserved_code_license": "MIT; original LICENSE and VERSION_LINEAGE.md retained in sources/",
+  "examples": "All numerical probabilities, controls and count tables are explicitly synthetic.",
+  "personal_or_private_data_added": false,
+  "external_source_bodies_added": false,
+  "external_source_author_code_executed": false,
+  "new_native_evidence_claimed": false,
+  "mathematical_priority_claimed": false,
+  "full_confusion_matrix_identified": false,
+  "qualified_external_biological_review": false
+}

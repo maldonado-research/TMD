@@ -1,0 +1,15 @@
+{
+  "all_inputs_synthetic": true,
+  "checks": {
+    "count_endpoint_certificates": 48,
+    "population_completion_certificates": 18,
+    "positive_grid_bounds": 11942,
+    "refusals": 21
+  },
+  "claim": "Executed bounded checks, not a general power or biological validation result.",
+  "count_example_rejects": true,
+  "no_control_example_rejects": false,
+  "producer_sha256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+  "source_CP_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "status": "pass"
+}

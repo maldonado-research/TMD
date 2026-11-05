@@ -1,0 +1,817 @@
+{
+  "schema_version": 1,
+  "mode": "offline_source_replay",
+  "table_replay": {
+    "status": "PASS",
+    "doi": "10.3389/fcimb.2026.1807759",
+    "pmcid": "PMC13231282",
+    "jats_bytes": 126193,
+    "jats_sha256": "8e86d14d30a55fa672ec950379d03a7d3b57df2ece2ea297f2b5720fb09c7cb4",
+    "table_id": "T1",
+    "rows": [
+      {
+        "source_row": {
+          "Mix": "FixedMix",
+          "Sequenced read pairs (M)": "1.1",
+          "Full-length SLST sequences reconstructed": "8192",
+          "Sequences assigned to any SLST type": "7639",
+          "Sequences assigned to expected SLST types": "7634",
+          "% assigned (of total)": "93.2",
+          "% assigned expected (of total)": "93.2",
+          "Bray-curtis similarity (observed vs. expected)": "0.939"
+        },
+        "observed_reconstructed_sequences": 8192,
+        "assigned_to_expected_set": 7634,
+        "assigned_outside_expected_set": 5,
+        "unassigned_after_reconstruction": 553,
+        "rates": {
+          "expected_set_among_reconstructed": {
+            "numerator": 7634,
+            "denominator": 8192,
+            "reduced_fraction": "3817/4096"
+          },
+          "outside_expected_set_among_reconstructed": {
+            "numerator": 5,
+            "denominator": 8192,
+            "reduced_fraction": "5/8192"
+          },
+          "unassigned_among_reconstructed": {
+            "numerator": 553,
+            "denominator": 8192,
+            "reduced_fraction": "553/8192"
+          },
+          "expected_set_among_assigned": {
+            "numerator": 7634,
+            "denominator": 7639,
+            "reduced_fraction": "7634/7639"
+          }
+        }
+      },
+      {
+        "source_row": {
+          "Mix": "StaggeredMix-L1",
+          "Sequenced read pairs (M)": "1.2",
+          "Full-length SLST sequences reconstructed": "7732",
+          "Sequences assigned to any SLST type": "7368",
+          "Sequences assigned to expected SLST types": "7367",
+          "% assigned (of total)": "95.3",
+          "% assigned expected (of total)": "95.3",
+          "Bray-curtis similarity (observed vs. expected)": "0.976"
+        },
+        "observed_reconstructed_sequences": 7732,
+        "assigned_to_expected_set": 7367,
+        "assigned_outside_expected_set": 1,
+        "unassigned_after_reconstruction": 364,
+        "rates": {
+          "expected_set_among_reconstructed": {
+            "numerator": 7367,
+            "denominator": 7732,
+            "reduced_fraction": "7367/7732"
+          },
+          "outside_expected_set_among_reconstructed": {
+            "numerator": 1,
+            "denominator": 7732,
+            "reduced_fraction": "1/7732"
+          },
+          "unassigned_among_reconstructed": {
+            "numerator": 364,
+            "denominator": 7732,
+            "reduced_fraction": "91/1933"
+          },
+          "expected_set_among_assigned": {
+            "numerator": 7367,
+            "denominator": 7368,
+            "reduced_fraction": "7367/7368"
+          }
+        }
+      },
+      {
+        "source_row": {
+          "Mix": "StaggeredMix-G1",
+          "Sequenced read pairs (M)": "1.1",
+          "Full-length SLST sequences reconstructed": "7043",
+          "Sequences assigned to any SLST type": "6739",
+          "Sequences assigned to expected SLST types": "6739",
+          "% assigned (of total)": "95.7",
+          "% assigned expected (of total)": "95.7",
+          "Bray-curtis similarity (observed vs. expected)": "0.983"
+        },
+        "observed_reconstructed_sequences": 7043,
+        "assigned_to_expected_set": 6739,
+        "assigned_outside_expected_set": 0,
+        "unassigned_after_reconstruction": 304,
+        "rates": {
+          "expected_set_among_reconstructed": {
+            "numerator": 6739,
+            "denominator": 7043,
+            "reduced_fraction": "6739/7043"
+          },
+          "outside_expected_set_among_reconstructed": {
+            "numerator": 0,
+            "denominator": 7043,
+            "reduced_fraction": "0"
+          },
+          "unassigned_among_reconstructed": {
+            "numerator": 304,
+            "denominator": 7043,
+            "reduced_fraction": "304/7043"
+          },
+          "expected_set_among_assigned": {
+            "numerator": 6739,
+            "denominator": 6739,
+            "reduced_fraction": "1"
+          }
+        }
+      }
+    ],
+    "section_anchors_checked": [
+      "s2_1",
+      "s4_2",
+      "s4_6",
+      "s5"
+    ],
+    "interpretation": {
+      "denominator": "Observed full-length SLST sequences reconstructed; excludes failures before this stage.",
+      "expected_set_is_correct_per_true_type": false,
+      "why_not": "Calls to another type inside the expected mixture set remain in the expected-set count.",
+      "known_introduced_cell_denominator_obtained": false,
+      "classwise_correct_call_lower_bounds_obtained": false
+    }
+  },
+  "metadata_replay": {
+    "status": "PASS",
+    "bioproject": "PRJNA1422617",
+    "master_accession": "KJKS00000000.1",
+    "tls_version": "01",
+    "sequence_accession_range": "KJKS01000001-KJKS01338437",
+    "master_reported_sequence_records": 338437,
+    "listed_biosamples": 106,
+    "retrieved_biosamples": 106,
+    "groups_by_sample_name_and_isolate": {
+      "FixedMix": 2,
+      "Mock": 12,
+      "SpikeMix": 40,
+      "StaggeredMix-G1": 2,
+      "StaggeredMix-L1": 2,
+      "clinical": 48
+    },
+    "sample_records": [
+      {
+        "accession": "SAMN55197633",
+        "sample_name": "FixedMix_1",
+        "isolate": "FixedMix_rep1",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197634",
+        "sample_name": "FixedMix_2",
+        "isolate": "FixedMix_rep2",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197635",
+        "sample_name": "StaggeredMix-G1_1",
+        "isolate": "StaggeredMix_G1_rep1",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197636",
+        "sample_name": "StaggeredMix-G1_2",
+        "isolate": "StaggeredMix_G1_rep2",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197637",
+        "sample_name": "StaggeredMix-L1_1",
+        "isolate": "StaggeredMix_L1_rep1",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197638",
+        "sample_name": "StaggeredMix-L1_2",
+        "isolate": "StaggeredMix_L1_rep2",
+        "isolation_source": "validation sample with defined composition"
+      },
+      {
+        "accession": "SAMN55197780",
+        "sample_name": "Mock_run-1",
+        "isolate": "Mock_control_run_1",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197781",
+        "sample_name": "Mock_run-2",
+        "isolate": "Mock_control_run_2",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197782",
+        "sample_name": "Mock_run-3",
+        "isolate": "Mock_control_run_3",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197783",
+        "sample_name": "Mock_run-4",
+        "isolate": "Mock_control_run_4",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197784",
+        "sample_name": "Mock_run-5",
+        "isolate": "Mock_control_run_5",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197785",
+        "sample_name": "Mock_run-6",
+        "isolate": "Mock_control_run_6",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197786",
+        "sample_name": "Mock_run-7",
+        "isolate": "Mock_control_run_7",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197787",
+        "sample_name": "Mock_run-8",
+        "isolate": "Mock_control_run_8",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197788",
+        "sample_name": "Mock_run-9",
+        "isolate": "Mock_control_run_9",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197789",
+        "sample_name": "Mock_run-10",
+        "isolate": "Mock_control_run_10",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197790",
+        "sample_name": "Mock_run-11",
+        "isolate": "Mock_control_run_11",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197791",
+        "sample_name": "Mock_run-12",
+        "isolate": "Mock_control_run_12",
+        "isolation_source": "mock community control"
+      },
+      {
+        "accession": "SAMN55197792",
+        "sample_name": "SpikeMix-0.5_01",
+        "isolate": "SpikeMix_0.5pct_rep01",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197793",
+        "sample_name": "SpikeMix-0.5_02",
+        "isolate": "SpikeMix_0.5pct_rep02",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197794",
+        "sample_name": "SpikeMix-0.5_03",
+        "isolate": "SpikeMix_0.5pct_rep03",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197795",
+        "sample_name": "SpikeMix-0.5_04",
+        "isolate": "SpikeMix_0.5pct_rep04",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197796",
+        "sample_name": "SpikeMix-0.5_05",
+        "isolate": "SpikeMix_0.5pct_rep05",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197797",
+        "sample_name": "SpikeMix-0.5_06",
+        "isolate": "SpikeMix_0.5pct_rep06",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197798",
+        "sample_name": "SpikeMix-0.5_07",
+        "isolate": "SpikeMix_0.5pct_rep07",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197799",
+        "sample_name": "SpikeMix-0.5_08",
+        "isolate": "SpikeMix_0.5pct_rep08",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197800",
+        "sample_name": "SpikeMix-0.5_09",
+        "isolate": "SpikeMix_0.5pct_rep09",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197801",
+        "sample_name": "SpikeMix-0.5_10",
+        "isolate": "SpikeMix_0.5pct_rep10",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197802",
+        "sample_name": "SpikeMix-5_01",
+        "isolate": "SpikeMix_5pct_rep01",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197803",
+        "sample_name": "SpikeMix-5_02",
+        "isolate": "SpikeMix_5pct_rep02",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197804",
+        "sample_name": "SpikeMix-5_03",
+        "isolate": "SpikeMix_5pct_rep03",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197805",
+        "sample_name": "SpikeMix-5_04",
+        "isolate": "SpikeMix_5pct_rep04",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197806",
+        "sample_name": "SpikeMix-5_05",
+        "isolate": "SpikeMix_5pct_rep05",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197807",
+        "sample_name": "SpikeMix-5_06",
+        "isolate": "SpikeMix_5pct_rep06",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197808",
+        "sample_name": "SpikeMix-5_07",
+        "isolate": "SpikeMix_5pct_rep07",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197809",
+        "sample_name": "SpikeMix-5_08",
+        "isolate": "SpikeMix_5pct_rep08",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197810",
+        "sample_name": "SpikeMix-5_09",
+        "isolate": "SpikeMix_5pct_rep09",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197811",
+        "sample_name": "SpikeMix-5_10",
+        "isolate": "SpikeMix_5pct_rep10",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197812",
+        "sample_name": "SpikeMix-10_01",
+        "isolate": "SpikeMix_10pct_rep01",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197813",
+        "sample_name": "SpikeMix-10_02",
+        "isolate": "SpikeMix_10pct_rep02",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197814",
+        "sample_name": "SpikeMix-10_03",
+        "isolate": "SpikeMix_10pct_rep03",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197815",
+        "sample_name": "SpikeMix-10_04",
+        "isolate": "SpikeMix_10pct_rep04",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197816",
+        "sample_name": "SpikeMix-10_05",
+        "isolate": "SpikeMix_10pct_rep05",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197817",
+        "sample_name": "SpikeMix-10_06",
+        "isolate": "SpikeMix_10pct_rep06",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197818",
+        "sample_name": "SpikeMix-10_07",
+        "isolate": "SpikeMix_10pct_rep07",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197819",
+        "sample_name": "SpikeMix-10_08",
+        "isolate": "SpikeMix_10pct_rep08",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197820",
+        "sample_name": "SpikeMix-10_09",
+        "isolate": "SpikeMix_10pct_rep09",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197821",
+        "sample_name": "SpikeMix-10_10",
+        "isolate": "SpikeMix_10pct_rep10",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197822",
+        "sample_name": "SpikeMix-50_01",
+        "isolate": "SpikeMix_50pct_rep01",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197823",
+        "sample_name": "SpikeMix-50_02",
+        "isolate": "SpikeMix_50pct_rep02",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197824",
+        "sample_name": "SpikeMix-50_03",
+        "isolate": "SpikeMix_50pct_rep03",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197825",
+        "sample_name": "SpikeMix-50_04",
+        "isolate": "SpikeMix_50pct_rep04",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197826",
+        "sample_name": "SpikeMix-50_05",
+        "isolate": "SpikeMix_50pct_rep05",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197827",
+        "sample_name": "SpikeMix-50_06",
+        "isolate": "SpikeMix_50pct_rep06",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197828",
+        "sample_name": "SpikeMix-50_07",
+        "isolate": "SpikeMix_50pct_rep07",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197829",
+        "sample_name": "SpikeMix-50_08",
+        "isolate": "SpikeMix_50pct_rep08",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197830",
+        "sample_name": "SpikeMix-50_09",
+        "isolate": "SpikeMix_50pct_rep09",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197831",
+        "sample_name": "SpikeMix-50_10",
+        "isolate": "SpikeMix_50pct_rep10",
+        "isolation_source": "spike-in validation sample"
+      },
+      {
+        "accession": "SAMN55197832",
+        "sample_name": "01-Back",
+        "isolate": "Patient_01_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197833",
+        "sample_name": "01-Face",
+        "isolate": "Patient_01_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197834",
+        "sample_name": "02-Back",
+        "isolate": "Patient_02_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197835",
+        "sample_name": "02-Face",
+        "isolate": "Patient_02_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197836",
+        "sample_name": "03-Back",
+        "isolate": "Patient_03_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197837",
+        "sample_name": "03-Face",
+        "isolate": "Patient_03_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197838",
+        "sample_name": "04-Back",
+        "isolate": "Patient_04_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197839",
+        "sample_name": "04-Face",
+        "isolate": "Patient_04_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197840",
+        "sample_name": "05-Back",
+        "isolate": "Patient_05_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197841",
+        "sample_name": "05-Face",
+        "isolate": "Patient_05_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197842",
+        "sample_name": "06-Back",
+        "isolate": "Patient_06_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197843",
+        "sample_name": "06-Face",
+        "isolate": "Patient_06_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197844",
+        "sample_name": "07-Back",
+        "isolate": "Patient_07_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197845",
+        "sample_name": "07-Face",
+        "isolate": "Patient_07_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197846",
+        "sample_name": "08-Back",
+        "isolate": "Patient_08_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197847",
+        "sample_name": "08-Face",
+        "isolate": "Patient_08_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197848",
+        "sample_name": "09-Back",
+        "isolate": "Patient_09_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197849",
+        "sample_name": "09-Face",
+        "isolate": "Patient_09_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197850",
+        "sample_name": "10-Back",
+        "isolate": "Patient_10_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197851",
+        "sample_name": "10-Face",
+        "isolate": "Patient_10_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197852",
+        "sample_name": "11-Back",
+        "isolate": "Patient_11_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197853",
+        "sample_name": "11-Face",
+        "isolate": "Patient_11_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197854",
+        "sample_name": "12-Back",
+        "isolate": "Patient_12_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197855",
+        "sample_name": "12-Face",
+        "isolate": "Patient_12_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197856",
+        "sample_name": "13-Back",
+        "isolate": "Patient_13_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197857",
+        "sample_name": "13-Face",
+        "isolate": "Patient_13_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197858",
+        "sample_name": "14-Back",
+        "isolate": "Patient_14_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197859",
+        "sample_name": "14-Face",
+        "isolate": "Patient_14_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197860",
+        "sample_name": "15-Back",
+        "isolate": "Patient_15_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197861",
+        "sample_name": "15-Face",
+        "isolate": "Patient_15_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197862",
+        "sample_name": "16-Back",
+        "isolate": "Patient_16_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197863",
+        "sample_name": "16-Face",
+        "isolate": "Patient_16_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197864",
+        "sample_name": "17-Back",
+        "isolate": "Patient_17_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197865",
+        "sample_name": "17-Face",
+        "isolate": "Patient_17_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197866",
+        "sample_name": "18-Back",
+        "isolate": "Patient_18_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197867",
+        "sample_name": "18-Face",
+        "isolate": "Patient_18_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197868",
+        "sample_name": "19-Back",
+        "isolate": "Patient_19_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197869",
+        "sample_name": "19-Face",
+        "isolate": "Patient_19_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197870",
+        "sample_name": "20-Back",
+        "isolate": "Patient_20_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197871",
+        "sample_name": "20-Face",
+        "isolate": "Patient_20_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197872",
+        "sample_name": "21-Back",
+        "isolate": "Patient_21_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197873",
+        "sample_name": "21-Face",
+        "isolate": "Patient_21_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197874",
+        "sample_name": "22-Back",
+        "isolate": "Patient_22_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197875",
+        "sample_name": "22-Face",
+        "isolate": "Patient_22_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197876",
+        "sample_name": "23-Face",
+        "isolate": "Patient_23_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197877",
+        "sample_name": "24-Face",
+        "isolate": "Patient_24_face",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197878",
+        "sample_name": "25-Back",
+        "isolate": "Patient_25_back",
+        "isolation_source": "human skin microbiome"
+      },
+      {
+        "accession": "SAMN55197879",
+        "sample_name": "26-Face",
+        "isolate": "Patient_26_face",
+        "isolation_source": "human skin microbiome"
+      }
+    ],
+    "source_sha256": {
+      "bioproject_record.xml": "2048b8e9fbd8a21d290bdb6606319655382dd7dbfaa6d472eb7272f87db8ccf8",
+      "bioproject_nuccore_links.json": "b72572bfe8470325723e184f4c27c6e4d4fa82e6f4e8eaa38479f802955d4fcd",
+      "bioproject_sra_links.json": "56a48802d44c00bd2c341a003ecd4de1fa0bc61191edb852f9332edb75632338",
+      "tls_master.gb": "725b7cc48cf1babb979024d5c32f9fd6aaeefe8e3f02c303ce5966ff11d7af81",
+      "biosample_first_six.xml": "579211c1d1870b8a0f794a2a64d2e36d22bb4323f3a76174fe1363f3d248a884",
+      "biosample_remaining_100.xml": "d8334a4abf605a14aaea1e5da11242f3e619e8fe19d7e69305460c7161e95bee",
+      "tls_first_sequence.gb": "fbdad7765dab40dfcae37412e22bd72dd0c12caf069a12ca0afb0a2e2ce55c11"
+    },
+    "figure2_single_isolate_controls_identified_in_this_roster": 0,
+    "negative_controls_identified_in_this_roster": 0,
+    "sra_links_returned_for_bioproject": 0,
+    "coverage_issue": "Two named samples per defined mixture appear here; Methods s4_2 says triplicate. The bounded archive roster does not resolve this difference.",
+    "scope": "All BioSamples listed by this TLS master were inspected, plus one sequence record. This is not an exhaustive search of all deposits or an analysis of the 338437 sequences."
+  },
+  "admission": {
+    "native_Wsp_Aws_Mws_controls": 0,
+    "empirical_t_bounds": 0,
+    "author_code_executed": false,
+    "network_requests": 0
+  }
+}

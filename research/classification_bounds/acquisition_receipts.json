@@ -1,0 +1,139 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231282/",
+    "file": "pmc_article.html",
+    "utc": "2026-11-05T04:02:26.151229+00:00",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=KJKS01000000&retmode=json",
+    "file": "nuccore_project_search.json",
+    "utc": "2026-11-05T04:02:26.160716+00:00",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=bioproject&id=1422617&retmode=xml",
+    "file": "bioproject_record.xml",
+    "utc": "2026-11-05T04:02:26.160881+00:00",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231282/",
+    "file": "pmc_article.html",
+    "utc": "2026-11-05T04:02:42.989753+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231282/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 226926,
+    "sha256": "b40669177dc1b876fe124fa2ab126c8ec6fc25f16c0dceb41823d792bd188e95"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=KJKS01000000&retmode=json",
+    "file": "nuccore_project_search.json",
+    "utc": "2026-11-05T04:02:43.394929+00:00",
+    "network_permission": true,
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=bioproject&id=1422617&retmode=xml",
+    "file": "bioproject_record.xml",
+    "utc": "2026-11-05T04:02:44.025765+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=bioproject&id=1422617&retmode=xml",
+    "content_type": "text/xml; charset=UTF-8",
+    "bytes": 2606,
+    "sha256": "2048b8e9fbd8a21d290bdb6606319655382dd7dbfaa6d472eb7272f87db8ccf8"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13231282/bin/DataSheet1.xlsx",
+    "file": "DataSheet1.xlsx",
+    "utc": "2026-11-05T04:03:20.500467+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13231282/bin/DataSheet1.xlsx",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 21474,
+    "sha256": "b3a25324990bbecc7744c527022f81621f87ca938d29378b1040b50d74a6558b",
+    "first_bytes": "b'<!doctype html><html lang=\"en-US\" d'",
+    "saved_file": "DataSheet1.xlsx.challenge.html",
+    "artifact_type": "recaptcha_challenge_html",
+    "supplementary_workbook_acquired": false,
+    "further_attachment_attempts": false
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJKS01000000&rettype=gb&retmode=text",
+    "file": "tls_master.gb",
+    "utc": "2026-11-05T04:03:20.852829+00:00",
+    "network_permission": true,
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=nuccore&id=1422617&retmode=json",
+    "file": "bioproject_nuccore_links.json",
+    "utc": "2026-11-05T04:03:46.106372+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=nuccore&id=1422617&retmode=json",
+    "content_type": "application/json; charset=UTF-8",
+    "bytes": 188,
+    "sha256": "b72572bfe8470325723e184f4c27c6e4d4fa82e6f4e8eaa38479f802955d4fcd"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=sra&id=1422617&retmode=json",
+    "file": "bioproject_sra_links.json",
+    "utc": "2026-11-05T04:03:46.433289+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=sra&id=1422617&retmode=json",
+    "content_type": "application/json; charset=UTF-8",
+    "bytes": 99,
+    "sha256": "56a48802d44c00bd2c341a003ecd4de1fa0bc61191edb852f9332edb75632338"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=3279182772&rettype=gb&retmode=text",
+    "file": "tls_master.gb",
+    "utc": "2026-11-05T04:04:00.808903+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=3279182772&rettype=gb&retmode=text",
+    "content_type": "text/plain",
+    "bytes": 3294,
+    "sha256": "725b7cc48cf1babb979024d5c32f9fd6aaeefe8e3f02c303ce5966ff11d7af81"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=55197633,55197634,55197635,55197636,55197637,55197638&retmode=xml",
+    "file": "biosample_first_six.xml",
+    "utc": "2026-11-05T04:04:35.221424+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=55197633,55197634,55197635,55197636,55197637,55197638&retmode=xml",
+    "content_type": "text/xml; charset=UTF-8",
+    "bytes": 11756,
+    "sha256": "579211c1d1870b8a0f794a2a64d2e36d22bb4323f3a76174fe1363f3d248a884"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJKS01000001&rettype=gb&retmode=text",
+    "file": "tls_first_sequence.gb",
+    "utc": "2026-11-05T04:04:35.500400+00:00",
+    "network_permission": true,
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KJKS01000001&rettype=gb&retmode=text",
+    "content_type": "text/plain",
+    "bytes": 2132,
+    "sha256": "fbdad7765dab40dfcae37412e22bd72dd0c12caf069a12ca0afb0a2e2ce55c11"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=55197780,55197781,55197782,55197783,55197784,55197785,55197786,55197787,55197788,55197789,55197790,55197791,55197792,55197793,55197794,55197795,55197796,55197797,55197798,55197799,55197800,55197801,55197802,55197803,55197804,55197805,55197806,55197807,55197808,55197809,55197810,55197811,55197812,55197813,55197814,55197815,55197816,55197817,55197818,55197819,55197820,55197821,55197822,55197823,55197824,55197825,55197826,55197827,55197828,55197829,55197830,55197831,55197832,55197833,55197834,55197835,55197836,55197837,55197838,55197839,55197840,55197841,55197842,55197843,55197844,55197845,55197846,55197847,55197848,55197849,55197850,55197851,55197852,55197853,55197854,55197855,55197856,55197857,55197858,55197859,55197860,55197861,55197862,55197863,55197864,55197865,55197866,55197867,55197868,55197869,55197870,55197871,55197872,55197873,55197874,55197875,55197876,55197877,55197878,55197879&retmode=xml",
+    "file": "biosample_remaining_100.xml",
+    "utc": "2026-11-05T04:05:42.033169+00:00",
+    "network_permission": true,
+    "selection": "Remaining 100 accessions explicitly listed by the retrieved TLS master; metadata only",
+    "status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=55197780,55197781,55197782,55197783,55197784,55197785,55197786,55197787,55197788,55197789,55197790,55197791,55197792,55197793,55197794,55197795,55197796,55197797,55197798,55197799,55197800,55197801,55197802,55197803,55197804,55197805,55197806,55197807,55197808,55197809,55197810,55197811,55197812,55197813,55197814,55197815,55197816,55197817,55197818,55197819,55197820,55197821,55197822,55197823,55197824,55197825,55197826,55197827,55197828,55197829,55197830,55197831,55197832,55197833,55197834,55197835,55197836,55197837,55197838,55197839,55197840,55197841,55197842,55197843,55197844,55197845,55197846,55197847,55197848,55197849,55197850,55197851,55197852,55197853,55197854,55197855,55197856,55197857,55197858,55197859,55197860,55197861,55197862,55197863,55197864,55197865,55197866,55197867,55197868,55197869,55197870,55197871,55197872,55197873,55197874,55197875,55197876,55197877,55197878,55197879&retmode=xml",
+    "content_type": "text/xml; charset=UTF-8",
+    "bytes": 196073,
+    "sha256": "d8334a4abf605a14aaea1e5da11242f3e619e8fe19d7e69305460c7161e95bee"
+  }
+]

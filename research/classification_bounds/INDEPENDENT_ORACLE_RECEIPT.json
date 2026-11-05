@@ -1,0 +1,9 @@
+{
+  "rational_cap_vectors_checked": 729,
+  "positive_rational_latent_grid_checks": 46509,
+  "classifier_completion_cases": 8100,
+  "true_other_completion_cases": 16200,
+  "all_checks_passed": true,
+  "producer_implementation_imported": false,
+  "scope": "Finite exact rational software checks support but do not replace the algebraic proof."
+}

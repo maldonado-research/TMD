@@ -1,0 +1,55 @@
+{
+  "alpha_exact": "1/20",
+  "one_sided_tail_exact": "1/480",
+  "observed_units_per_arm": 50,
+  "known_truth_units_per_route_arm": 40,
+  "classifier": "identity; all known-truth controls always correct",
+  "contexts": [
+    {
+      "selected_probabilities": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "baseline_probabilities": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "J_exact": "1",
+      "covered_probability_exact": "515377520732011330344094014268470131788900989137/515377520732011331036461129765621272702107522001",
+      "coverage_decimal": 1.0,
+      "positive_probability_of_noncoverage": true,
+      "noncoverage_probability_exact": "692367115497151140913206532864/515377520732011331036461129765621272702107522001",
+      "noncoverage_decimal": 1.343417373954833e-18,
+      "outcomes_enumerated": 1758276,
+      "nonvacuous_J_intervals": 3060
+    },
+    {
+      "selected_probabilities": [
+        "4/7",
+        "2/7",
+        "1/7"
+      ],
+      "baseline_probabilities": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "J_exact": "1",
+      "covered_probability_exact": "26349274184708551552384403668636111614589630214138721750705160265/26349274184708551558907275013196503399063045365534435193751781449",
+      "coverage_decimal": 1.0,
+      "positive_probability_of_noncoverage": true,
+      "noncoverage_probability_exact": "6522871344560391784473415151395713443046621184/26349274184708551558907275013196503399063045365534435193751781449",
+      "noncoverage_decimal": 2.475541185246709e-19,
+      "outcomes_enumerated": 1758276,
+      "nonvacuous_J_intervals": 3060
+    }
+  ],
+  "scope": "Per-context baseline/selected J coverage under a two-context allocation; not a four-arm shared-null enumeration.",
+  "count_design_independence": "Used only for the two-arm multinomial product in this illustrative enumeration; union-bound theorem does not require across-cell independence.",
+  "producer_implementation_imported": false,
+  "cp_source": "sources/boundary_confidence.py (preserved engine, or --cp-source override)",
+  "cp_source_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "all_checks_passed": true
+}

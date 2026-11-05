@@ -1,0 +1,30 @@
+{
+  "external_sources_acquired": false,
+  "source_author_code_executed": false,
+  "scope": "Existing project methods and an unmodified project-owned confidence kernel; no new biological data.",
+  "references": [
+    {"path": "research/conditional_recovery/MEASUREMENT_BRIDGE.md", "role": "Wrong-label boundary and prior shared-classifier counterexample"},
+    {"path": "research/conditional_recovery/CLASSIFICATION_COUNTEREXAMPLE.json", "role": "Exact synthetic counterexample reused as a population fixture"},
+    {"path": "research/transport_robustness/METHODS.md", "role": "Earlier diagonal recovery sensitivity and simultaneous common-J projection"},
+    {"path": "research/prospective_design/README.md", "role": "Existing unit, truth-control, route registry, transport and denominator requirements"},
+    {"path": "research/identity_binding_bounds/README.md", "role": "Related deterministic ambiguity bounds; a different identity problem"},
+    {"path": "research/caller_capture/CONDITIONAL_DERIVATION.md", "role": "Related joint correct-call mask and marginal bounds; a different capture problem"}
+  ],
+  "preserved_sources": [
+    {
+      "local_path": "sources/boundary_confidence.py",
+      "repository_source": "research/transport_robustness/sources/inference/boundary_confidence.py",
+      "sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+      "origin": "TMD research extension 0.5.0, preserved in methods 0.6.0",
+      "usage": "Only certified_outer_endpoint and its scalar dependencies; its historical document validator and diagonal recovery projection are not used for the new classifier contract."
+    },
+    {
+      "local_path": "sources/LICENSE",
+      "sha256": "997d6d23658d21366ac0484ca5386fde34db3b6706e51eaf4b34c6bd48cbf390"
+    },
+    {
+      "local_path": "sources/VERSION_LINEAGE.md",
+      "sha256": "85bf5ca772b2bc502b0ce3ac6659c3c59909c73416dc42171d41dcdb4ad84aaf"
+    }
+  ]
+}
