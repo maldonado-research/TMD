@@ -1,0 +1,1111 @@
+{
+  "alpha": "1/20",
+  "calculation": "complete joint multinomial enumeration with integer masses and rational summaries",
+  "contexts": 2,
+  "exp_eta_each_context": "1",
+  "exp_theta1": "1",
+  "laws_in_order": [
+    {
+      "exp_theta2": "1",
+      "selected_context2": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ]
+    },
+    {
+      "exp_theta2": "3/2",
+      "selected_context2": [
+        "2/7",
+        "3/7",
+        "2/7"
+      ]
+    },
+    {
+      "exp_theta2": "4",
+      "selected_context2": [
+        "1/6",
+        "2/3",
+        "1/6"
+      ]
+    }
+  ],
+  "per_context_total_budget": 8,
+  "q_each_context": [
+    "1/3",
+    "1/3",
+    "1/3"
+  ],
+  "scope": "exact synthetic design calculations; no biological power or study recommendation",
+  "splits": [
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 2025,
+        "fiber_size_histogram": {
+          "1": 2025
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 0,
+      "complete_joint_tables": 2025,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.8398092392205998,
+          "exact": "2702155534344638736548378929414892097877540834999206477076258256/3217582527256336300328365111529676342123192934708909134516298605"
+        },
+        "fiber_count": 1241,
+        "fiber_size_histogram": {
+          "1": 682,
+          "2": 370,
+          "3": 154,
+          "4": 34,
+          "5": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.4915004792118777,
+              "exact": "21157484/43046721"
+            },
+            "probability_singleton": {
+              "approx": 0.04812364221655814,
+              "exact": "2071565/43046721"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.012793448309338125,
+              "exact": "183572/14348907"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.5575078316723671,
+              "exact": "7028846770/12607619787"
+            },
+            "probability_singleton": {
+              "approx": 0.02899045882635272,
+              "exact": "1096502047/37822859361"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.021224383443303362,
+              "exact": "802766870/37822859361"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.5776183196029612,
+              "exact": "3182665555/5509980288"
+            },
+            "probability_singleton": {
+              "approx": 0.03528944766344689,
+              "exact": "194444161/5509980288"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.1192841209307789,
+              "exact": "219084385/1836660096"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.0,
+        "exact": "0"
+      },
+      "selected_per_context": 8
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 11664,
+        "fiber_size_histogram": {
+          "1": 11664
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 1,
+      "complete_joint_tables": 11664,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.7200289670745825,
+          "exact": "23855185703516543123935140247/33130869443264438569426510665"
+        },
+        "fiber_count": 855,
+        "fiber_size_histogram": {
+          "1": 514,
+          "2": 250,
+          "3": 82,
+          "4": 9
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.38306917732479556,
+              "exact": "610736/1594323"
+            },
+            "probability_singleton": {
+              "approx": 0.09208694432265817,
+              "exact": "440449/4782969"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.009425108128444906,
+              "exact": "45080/4782969"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.44883791196137535,
+              "exact": "115485260/257298363"
+            },
+            "probability_singleton": {
+              "approx": 0.061840887032771366,
+              "exact": "196439/3176523"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.015570794750839514,
+              "exact": "4006340/257298363"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.4924880831080026,
+              "exact": "16750615/34012224"
+            },
+            "probability_singleton": {
+              "approx": 0.06380341047056755,
+              "exact": "19530863/306110016"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.08965275085935116,
+              "exact": "27443605/306110016"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.0,
+        "exact": "0"
+      },
+      "selected_per_context": 7
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.014407522956558443,
+          "exact": "1869950305583486800/129789854315815434741"
+        },
+        "fiber_count": 27999,
+        "fiber_size_histogram": {
+          "1": 27774,
+          "2": 225
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0038828509144749955,
+              "exact": "167144/43046721"
+            },
+            "probability_singleton": {
+              "approx": 0.9735407488993181,
+              "exact": "41907737/43046721"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 9.162138040665165e-05,
+              "exact": "3944/43046721"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0048758687090327,
+              "exact": "33872932/6947055801"
+            },
+            "probability_singleton": {
+              "approx": 0.9716500374199312,
+              "exact": "6750107029/6947055801"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.00017471171022194587,
+              "exact": "1213732/6947055801"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.005483151376384742,
+              "exact": "3776507/688747536"
+            },
+            "probability_singleton": {
+              "approx": 0.9732772227296941,
+              "exact": "670342289/688747536"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0012737715260588605,
+              "exact": "877307/688747536"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 2,
+      "complete_joint_tables": 28224,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.5945752704943714,
+          "exact": "3494551863167227276/5877391873801971159"
+        },
+        "fiber_count": 559,
+        "fiber_size_histogram": {
+          "1": 370,
+          "2": 154,
+          "3": 34,
+          "4": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.24486631629851668,
+              "exact": "130132/531441"
+            },
+            "probability_singleton": {
+              "approx": 0.17226559486377604,
+              "exact": "91549/531441"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.005968677614260096,
+              "exact": "3172/531441"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.29844961741944703,
+              "exact": "25596866/85766121"
+            },
+            "probability_singleton": {
+              "approx": 0.12835528611583122,
+              "exact": "11008535/85766121"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.00979018276925454,
+              "exact": "839666/85766121"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.35321753731834765,
+              "exact": "6006857/17006112"
+            },
+            "probability_singleton": {
+              "approx": 0.11586804791124508,
+              "exact": "1970465/17006112"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.05612141093743238,
+              "exact": "954407/17006112"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.024231621581871414,
+        "exact": "6017032595791264650700/248313245379039460357551"
+      },
+      "selected_per_context": 6
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.041687178172065784,
+          "exact": "29703147288009436620321941360/712524775973281290545029685181"
+        },
+        "fiber_count": 43200,
+        "fiber_size_histogram": {
+          "1": 42300,
+          "2": 900
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.02641873698115125,
+              "exact": "520/19683"
+            },
+            "probability_singleton": {
+              "approx": 0.9079734783980411,
+              "exact": "1447603/1594323"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0005491707486848999,
+              "exact": "7880/14348907"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.02925017242135148,
+              "exact": "29028940/992436543"
+            },
+            "probability_singleton": {
+              "approx": 0.8994322400721998,
+              "exact": "674701/750141"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.000738525808193663,
+              "exact": "732940/992436543"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.023348729627977936,
+              "exact": "446705/19131876"
+            },
+            "probability_singleton": {
+              "approx": 0.8981404123672974,
+              "exact": "17183111/19131876"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0026154431135416794,
+              "exact": "150115/57395628"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 3,
+      "complete_joint_tables": 44100,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.46076842459716405,
+          "exact": "21216160520/46045170171"
+        },
+        "fiber_count": 341,
+        "fiber_size_histogram": {
+          "1": 250,
+          "2": 82,
+          "3": 9
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.06536943894054091,
+              "exact": "3860/59049"
+            },
+            "probability_singleton": {
+              "approx": 0.3097258209283815,
+              "exact": "18289/59049"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0010161052685058172,
+              "exact": "20/19683"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0879630547824356,
+              "exact": "119750/1361367"
+            },
+            "probability_singleton": {
+              "approx": 0.25414675102305256,
+              "exact": "38443/151263"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.002020028397926496,
+              "exact": "2750/1361367"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.12529318870768344,
+              "exact": "118375/944784"
+            },
+            "probability_singleton": {
+              "approx": 0.21084078477196905,
+              "exact": "199199/944784"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.01627356094091348,
+              "exact": "5125/314928"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.09047316601286565,
+        "exact": "742578682200235915508048534/8207722962791401370557934043"
+      },
+      "selected_per_context": 5
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.054177792989687994,
+          "exact": "13198095485749057587582784/243607108326858850571358075"
+        },
+        "fiber_count": 49329,
+        "fiber_size_histogram": {
+          "1": 48034,
+          "2": 1294,
+          "3": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.048063312418151434,
+              "exact": "689656/14348907"
+            },
+            "probability_singleton": {
+              "approx": 0.8739912384964235,
+              "exact": "4180273/4782969"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0011769537568262168,
+              "exact": "16888/14348907"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.05368631144140904,
+              "exact": "22834396/425329947"
+            },
+            "probability_singleton": {
+              "approx": 0.858981319272118,
+              "exact": "121783493/141776649"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0015249431754684323,
+              "exact": "648604/425329947"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.04669256341266969,
+              "exact": "2679949/57395628"
+            },
+            "probability_singleton": {
+              "approx": 0.838617028460774,
+              "exact": "16044317/19131876"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.004186747464458442,
+              "exact": "240301/57395628"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 4,
+      "complete_joint_tables": 50625,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.3175470788206331,
+          "exact": "5080088/15997905"
+        },
+        "fiber_count": 189,
+        "fiber_size_histogram": {
+          "1": 154,
+          "2": 34,
+          "3": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.5189757658893461,
+              "exact": "1135/2187"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.46358770265475807,
+              "exact": "30053/64827"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.37831504343850025,
+              "exact": "6619/17496"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.17061341956255374,
+        "exact": "11548333550030425389134936/67687134925493604251380455"
+      },
+      "selected_per_context": 4
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.041687178172065784,
+          "exact": "29703147288009436620321941360/712524775973281290545029685181"
+        },
+        "fiber_count": 43200,
+        "fiber_size_histogram": {
+          "1": 42300,
+          "2": 900
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.02641873698115125,
+              "exact": "520/19683"
+            },
+            "probability_singleton": {
+              "approx": 0.9079734783980411,
+              "exact": "1447603/1594323"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0005491707486848999,
+              "exact": "7880/14348907"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.031022425671490907,
+              "exact": "5654900/182284263"
+            },
+            "probability_singleton": {
+              "approx": 0.893926114729937,
+              "exact": "18105407/20253807"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0007400529139479254,
+              "exact": "134900/182284263"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.035255298539463666,
+              "exact": "168625/4782969"
+            },
+            "probability_singleton": {
+              "approx": 0.854154396568324,
+              "exact": "1361798/1594323"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.002082040116365658,
+              "exact": "29875/14348907"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 5,
+      "complete_joint_tables": 44100,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.17166372721928277,
+          "exact": "292/1701"
+        },
+        "fiber_count": 91,
+        "fiber_size_histogram": {
+          "1": 82,
+          "2": 9
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.7695473251028807,
+              "exact": "187/243"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.7343699384515711,
+              "exact": "2267/3087"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.6347736625514403,
+              "exact": "617/972"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.24284208928316406,
+        "exact": "7425786822002359155080485340/30578664694914482192702626113"
+      },
+      "selected_per_context": 3
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.014407522956558443,
+          "exact": "1869950305583486800/129789854315815434741"
+        },
+        "fiber_count": 27999,
+        "fiber_size_histogram": {
+          "1": 27774,
+          "2": 225
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0038828509144749955,
+              "exact": "167144/43046721"
+            },
+            "probability_singleton": {
+              "approx": 0.9735407488993181,
+              "exact": "41907737/43046721"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 9.162138040665165e-05,
+              "exact": "3944/43046721"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.00463564854075076,
+              "exact": "1086436/234365481"
+            },
+            "probability_singleton": {
+              "approx": 0.9684108940940838,
+              "exact": "32423155/33480783"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.00010938470926100248,
+              "exact": "25636/234365481"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.008251058193259365,
+              "exact": "355181/43046721"
+            },
+            "probability_singleton": {
+              "approx": 0.9437740914110508,
+              "exact": "40626380/43046721"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.00019469543336413474,
+              "exact": "8381/43046721"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 6,
+      "complete_joint_tables": 28224,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.04938271604938271,
+          "exact": "4/81"
+        },
+        "fiber_count": 35,
+        "fiber_size_histogram": {
+          "1": 34,
+          "2": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.9506172839506173,
+              "exact": "77/81"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.9410430839002267,
+              "exact": "415/441"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 0.8950617283950617,
+              "exact": "145/162"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": {
+        "approx": 0.29175233987030846,
+        "exact": "467487576395871700/1602343880442165861"
+      },
+      "selected_per_context": 2
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 11664,
+        "fiber_size_histogram": {
+          "1": 11664
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 7,
+      "complete_joint_tables": 11664,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 9,
+        "fiber_size_histogram": {
+          "1": 9
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": null,
+      "selected_per_context": 1
+    },
+    {
+      "baseline_conditioned": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 2025,
+        "fiber_size_histogram": {
+          "1": 2025
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "baseline_per_context": 8,
+      "complete_joint_tables": 2025,
+      "known_offset_same_selected_N": {
+        "expected_null_conditional_information_for_theta_difference": {
+          "approx": 0.0,
+          "exact": "0"
+        },
+        "fiber_count": 1,
+        "fiber_size_histogram": {
+          "1": 1
+        },
+        "laws": [
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          },
+          {
+            "probability_rejection_attainable_fiber": {
+              "approx": 0.0,
+              "exact": "0"
+            },
+            "probability_singleton": {
+              "approx": 1.0,
+              "exact": "1"
+            },
+            "unconditional_rejection_probability": {
+              "approx": 0.0,
+              "exact": "0"
+            }
+          }
+        ]
+      },
+      "null_information_retained_relative_to_known_offset": null,
+      "selected_per_context": 0
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "retrieved_date_utc": "2026-11-05",
+  "scope": "Two bounded PubMed searches, metadata/title screen; detailed abstract assessment limited to PMID 42937301, 42186845 and existing source 41633518. Not systematic or full-text review.",
+  "queries": [
+    {
+      "name": "native_2025_2026",
+      "query": "(SBW25 OR \"wrinkly spreader\") AND (\"2025/01/01\"[Date - Publication] : \"2026/11/05\"[Date - Publication])",
+      "count": "15",
+      "retrieved": 15,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28SBW25+OR+%22wrinkly+spreader%22%29+AND+%28%222025%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F05%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100",
+      "sha256": "81a282210782e959befdf5b52539689fd2a6e1ec66b9e05ce48fa5870bd8c190"
+    },
+    {
+      "name": "native_supply",
+      "query": "(\"Pseudomonas fluorescens\" AND (\"mutation bias\" OR \"mutation supply\" OR \"establishment\")) AND (\"2025/01/01\"[Date - Publication] : \"2026/11/05\"[Date - Publication])",
+      "count": "3",
+      "retrieved": 3,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Pseudomonas+fluorescens%22+AND+%28%22mutation+bias%22+OR+%22mutation+supply%22+OR+%22establishment%22%29%29+AND+%28%222025%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F05%22%5BDate+-+Publication%5D%29&retmode=json&retmax=100",
+      "sha256": "b66a22599bfeb540ac7bdca4d82c0938c8ca820a4fd91dabf4f44eec46f23510"
+    },
+    {
+      "name": "records",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42937301%2C42186845%2C41641996%2C41633518%2C41150720%2C40951970%2C40834503%2C40810117%2C40633259%2C40595697%2C40163529%2C39988434%2C39925187%2C39888938%2C39636122%2C42905270%2C40538871%2C40530873&retmode=xml",
+      "sha256": "6ad93d11b299128b5d97066707eb3a290bddff607d10bdba4a9f21758c84b0d7",
+      "bytes": 530766
+    }
+  ],
+  "records": [
+    {
+      "pmid": "42937301",
+      "title": "Metagenome sequences of unintended bacterial communities from a Pseudomonas fluorescens experimental evolution study.",
+      "article_ids": {
+        "pubmed": "42937301",
+        "doi": "10.1128/mra.00853-26"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "27"
+        }
+      ]
+    },
+    {
+      "pmid": "42186845",
+      "title": "Compensatory evolution facilitates loss of prfB autoregulation in Pseudomonas fluorescens SBW25.",
+      "article_ids": {
+        "pubmed": "42186845",
+        "pmc": "PMC13245932",
+        "doi": "10.1093/molbev/msag125",
+        "pii": "8694116"
+      },
+      "electronic_publication_dates": []
+    },
+    {
+      "pmid": "41641996",
+      "title": "Global regulation and virulence mediated by the histidine-responsive local transcription factor HutC in Pseudomonas aeruginosa.",
+      "article_ids": {
+        "pubmed": "41641996",
+        "pmc": "PMC12977541",
+        "doi": "10.1128/mbio.03886-25"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2026",
+          "Month": "02",
+          "Day": "05"
+        }
+      ]
+    },
+    {
+      "pmid": "41633518",
+      "title": "Context-dependent adaptation in structured environments.",
+      "article_ids": {
+        "pubmed": "41633518",
+        "doi": "10.1098/rspb.2025.2004",
+        "pii": "480077"
+      },
+      "electronic_publication_dates": []
+    },
+    {
+      "pmid": "41150720",
+      "title": "Jumbo phage-mediated transduction of genomic islands.",
+      "article_ids": {
+        "pubmed": "41150720",
+        "pmc": "PMC12595487",
+        "doi": "10.1073/pnas.2512465122"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "10",
+          "Day": "28"
+        }
+      ]
+    },
+    {
+      "pmid": "40951970",
+      "title": "NRPS gene dynamics in the wheat rhizoplane show increased proportion of viscosin NRPS genes of importance for root colonization during drought.",
+      "article_ids": {
+        "pubmed": "40951970",
+        "pmc": "PMC12570501",
+        "doi": "10.1128/msphere.00852-24"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "09",
+          "Day": "15"
+        }
+      ]
+    },
+    {
+      "pmid": "40834503",
+      "title": "Flow geometry effect on Pseudomonas fluorescens SBW25 biofilm structure.",
+      "article_ids": {
+        "pubmed": "40834503",
+        "doi": "10.1016/j.colsurfb.2025.115048",
+        "pii": "S0927-7765(25)00555-7"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "08",
+          "Day": "14"
+        }
+      ]
+    },
+    {
+      "pmid": "40810117",
+      "title": "A Pseudomonas fluorescens AND-gate biosensor for protein expression at plant root proximity.",
+      "article_ids": {
+        "pubmed": "40810117",
+        "pmc": "PMC12341994",
+        "doi": "10.3389/fsysb.2025.1620608",
+        "pii": "1620608"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "07",
+          "Day": "30"
+        }
+      ]
+    },
+    {
+      "pmid": "40633259",
+      "title": "Contrasting biochemical compositions and microbial interactions of English oak and black poplar root mucilage.",
+      "article_ids": {
+        "pubmed": "40633259",
+        "doi": "10.1016/j.jplph.2025.154561",
+        "pii": "S0176-1617(25)00143-9"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "07",
+          "Day": "01"
+        }
+      ]
+    },
+    {
+      "pmid": "40595697",
+      "title": "Microfluidics unveils role of gravity and shear stress on Pseudomonas fluorescens motility and biofilm growth.",
+      "article_ids": {
+        "pubmed": "40595697",
+        "pmc": "PMC12216817",
+        "doi": "10.1038/s41522-025-00744-4",
+        "pii": "10.1038/s41522-025-00744-4"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "07",
+          "Day": "01"
+        }
+      ]
+    },
+    {
+      "pmid": "40163529",
+      "title": "Evolutionary rescue of spherical mreB deletion mutants of the rod-shape bacterium Pseudomonas fluorescens SBW25.",
+      "article_ids": {
+        "pubmed": "40163529",
+        "pmc": "PMC11957537",
+        "doi": "10.7554/eLife.98218",
+        "pii": "98218"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "03",
+          "Day": "31"
+        }
+      ]
+    },
+    {
+      "pmid": "39988434",
+      "title": "Co-Existence Slows Diversification in Experimental Populations of E. coli and P. fluorescens.",
+      "article_ids": {
+        "pubmed": "39988434",
+        "pmc": "PMC11847636",
+        "doi": "10.1111/1462-2920.70061"
+      },
+      "electronic_publication_dates": []
+    },
+    {
+      "pmid": "39925187",
+      "title": "More extinction driven by the Red Queen in smaller habitats.",
+      "article_ids": {
+        "pubmed": "39925187",
+        "doi": "10.1002/ecy.70018"
+      },
+      "electronic_publication_dates": []
+    },
+    {
+      "pmid": "39888938",
+      "title": "An extreme mutational hotspot in nlpD depends on transcriptional induction of rpoS.",
+      "article_ids": {
+        "pubmed": "39888938",
+        "pmc": "PMC11838912",
+        "doi": "10.1371/journal.pgen.1011572",
+        "pii": "PGENETICS-D-24-01022"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "01",
+          "Day": "31"
+        }
+      ]
+    },
+    {
+      "pmid": "39636122",
+      "title": "A more significant role for insertion sequences in large-scale rearrangements in bacterial genomes.",
+      "article_ids": {
+        "pubmed": "39636122",
+        "pmc": "PMC11708052",
+        "doi": "10.1128/mbio.03052-24"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2024",
+          "Month": "12",
+          "Day": "05"
+        }
+      ]
+    },
+    {
+      "pmid": "42905270",
+      "title": "Grapevine rust fungus Neophysopella tropicalis deploys protein effectors with plant immunity-suppressing activity during sequential stages of pathogenesis.",
+      "article_ids": {
+        "pubmed": "42905270",
+        "pmc": "PMC13687297",
+        "doi": "10.1007/s00299-026-03980-w",
+        "pii": "10.1007/s00299-026-03980-w"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "21"
+        }
+      ]
+    },
+    {
+      "pmid": "40538871",
+      "title": "Synergistic activation of grapevine defense mechanisms against downy mildew by Ascophyllum nodosum extract and Pseudomonas fluorescens CHA0.",
+      "article_ids": {
+        "pubmed": "40538871",
+        "pmc": "PMC12176806",
+        "doi": "10.3389/fpls.2025.1568426"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "06",
+          "Day": "05"
+        }
+      ]
+    },
+    {
+      "pmid": "40530873",
+      "title": "ARTP mutagenesis for genome-wide identification of genes important for biofilm regulation in spoilage bacterium Pseudomonas fluorescens PF08.",
+      "article_ids": {
+        "pubmed": "40530873",
+        "pmc": "PMC12175535",
+        "doi": "10.1128/aem.00218-25"
+      },
+      "electronic_publication_dates": [
+        {
+          "Year": "2025",
+          "Month": "05",
+          "Day": "07"
+        }
+      ]
+    }
+  ],
+  "firecrawl_status": "Credits exhausted in preceding research round; no repeat attempted. Official NCBI APIs used.",
+  "full_text_acquired": false,
+  "biological_panel_admitted": false,
+  "author_code_executed": false
+}

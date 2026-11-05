@@ -1,0 +1,151 @@
+{
+  "assertions": 33972,
+  "checks": [
+    "exhaustive B=N=2 and B=N=3 joint tables against existing baseline engine",
+    "complete selected tables N=0..8 against existing known-offset engine",
+    "exact null arm-swap symmetry for every budget-8 split",
+    "geometry fiber sizes and two-context covariance ranks",
+    "conditional information cannot increase after additional pooled-count conditioning",
+    "discrete-test reversal witness",
+    "malformed input refusal"
+  ],
+  "discreteness_witness": {
+    "baseline_conditioned": {
+      "alpha": "1/20",
+      "cartesian_candidate_count": 9,
+      "conditioned_D": [
+        0,
+        0
+      ],
+      "conditioned_N": [
+        4,
+        4
+      ],
+      "conditioned_baseline_M": [
+        4,
+        4
+      ],
+      "conditioned_pooled_routes": [
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ]
+      ],
+      "conditioned_total_A": 4,
+      "context_order": [
+        "1",
+        "2"
+      ],
+      "decision": "reject_shared_curvature",
+      "fiber": [
+        {
+          "A": [
+            0,
+            4
+          ],
+          "probability": "1/578"
+        },
+        {
+          "A": [
+            2,
+            2
+          ],
+          "probability": "288/289"
+        },
+        {
+          "A": [
+            4,
+            0
+          ],
+          "probability": "1/578"
+        }
+      ],
+      "fiber_size": 3,
+      "minimum_attainable_p": "1/289",
+      "observation_contract": "shared_positive_offset_within_context",
+      "observed_A_allocation": [
+        0,
+        4
+      ],
+      "observed_conditional_probability": "1/578",
+      "p_value": "1/289",
+      "rejection_attainable_at_alpha": true,
+      "sampling_contract": "independent_baseline_selected_multinomials",
+      "scope": "shared observed-offset conditional curvature restriction; no mechanism or forecast superiority claim",
+      "singleton_fiber": false
+    },
+    "known_offset": {
+      "alpha": "1/20",
+      "cartesian_candidate_count": 9,
+      "conditioned_D": [
+        0,
+        0
+      ],
+      "conditioned_N": [
+        4,
+        4
+      ],
+      "conditioned_total_A": 4,
+      "context_order": [
+        "1",
+        "2"
+      ],
+      "decision": "not_rejected",
+      "fiber": [
+        {
+          "A": [
+            0,
+            4
+          ],
+          "probability": "1/26"
+        },
+        {
+          "A": [
+            2,
+            2
+          ],
+          "probability": "12/13"
+        },
+        {
+          "A": [
+            4,
+            0
+          ],
+          "probability": "1/26"
+        }
+      ],
+      "fiber_size": 3,
+      "minimum_attainable_p": "1/13",
+      "observed_A_allocation": [
+        0,
+        4
+      ],
+      "observed_conditional_probability": "1/26",
+      "offset_contract": "fixed_known_positive_rational",
+      "p_value": "1/13",
+      "rejection_attainable_at_alpha": false,
+      "sampling_contract": "independent_multinomial_given_totals",
+      "scope": "known-offset conditional shared-curvature restriction; no mechanism or forecast superiority claim",
+      "singleton_fiber": false
+    }
+  },
+  "local_source_hashes": {
+    "design_diagnostics.py": "29dd6c3e477f8129961e3f8bc8f28b2bade68fb9d82877ff4e1da25e25018c40",
+    "verify_design_diagnostics.py": "ef245f0dcffa217a1450ee2c6de92d568ce78199525d658334208a42f0aa5976"
+  },
+  "protected_source_hashes_before_and_after": {
+    "research/conditional_curvature/baseline_conditional_homogeneity.py": "2e3017844278f6a56e54af8b42fe9f76e9c4323dc679b7adda0b0ebda1a9bc66",
+    "research/conditional_curvature/conditional_homogeneity.py": "7e1d7f39b02ec046c65c789aa670ec1c29b2aaa82528d32f4f41b4dc73d86cc3",
+    "research/prospective_design/REGISTRY_CANDIDATE.json": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c"
+  },
+  "scope": "internal AI-assisted computational verification, not external peer review",
+  "status": "passed",
+  "unchanged_baseline_engine_calls": 11297,
+  "unchanged_known_offset_engine_calls": 4918
+}
