@@ -8,6 +8,8 @@ Two observation contracts are supported. The reference version treats positive o
 
 The companion [conditional design analysis](../conditional_design/README.md) now computes support geometry, retained information and complete small-budget rejection probabilities. It separates those planning quantities from biological power and leaves these test definitions unchanged.
 
+The [conditional recovery sensitivity wrapper](../conditional_recovery/README.md) uses this engine's two-context combinatorial support with a fixed reference ordering and an externally justified differential-recovery interval. It does not silently reinterpret this engine's original p-value as recovery-robust or cover general misclassification.
+
 ## Relationship to prior project methods
 
 The prospective design already states the positive-triad restriction and notes that conditioning on each context's total and W–M difference removes its tilt. Published methods 0.5.0/0.6.0 already test a common recovery-corrected contrast by intersection of simultaneous confidence intervals, propagating baseline/control uncertainty and optional recovery-transfer bounds. The certified score engine instead compares realized expected log scores of frozen forecasts. Existing paired-aliquot exact calculations address allocation quality under their own count laws.

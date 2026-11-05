@@ -1,0 +1,66 @@
+{
+  "biological_J_context1": "1",
+  "biological_J_context2": "1",
+  "same_confusion_matrix_all_phases_and_contexts": [
+    [
+      "1/2",
+      "0",
+      "0"
+    ],
+    [
+      "1/2",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "observed_baseline_both_contexts": [
+    "1/6",
+    "1/2",
+    "1/3"
+  ],
+  "observed_selected_context2": [
+    "2/7",
+    "4/7",
+    "1/7"
+  ],
+  "observed_J_context1": "1",
+  "observed_J_context2": "16/9",
+  "physical_recovery_all_one": true,
+  "classification_is_not_phase_specific_diagonal_recovery": true,
+  "total_callable_probability_by_true_route": [
+    "1",
+    "1",
+    "1"
+  ],
+  "correctly_assigned_probability_by_true_route": [
+    "1/2",
+    "1",
+    "1"
+  ],
+  "both_phase_ratio_vectors_equal_one": true,
+  "recovery_only_t_from_total_callability": "1",
+  "recovery_only_t_from_diagonal_correct_call_rates": "1",
+  "why_neither_t_explains_observed_difference": "Off-diagonal W-to-A entrants remain in the observed A count. The diagonal multiplicative observation law is false; treating correct-call rates as loss ignores those entrants.",
+  "additional_route_independent_callable_fraction_example": "3/5",
+  "route_independent_dropout_preserves_conditional_observed_probabilities": true,
+  "if_gold_standard_excludes_wrong_route_calls": {
+    "baseline": [
+      "1/5",
+      "2/5",
+      "2/5"
+    ],
+    "selected_context2": [
+      "2/5",
+      "2/5",
+      "1/5"
+    ],
+    "observed_J_context2": "1",
+    "interpretation": "Adjudicated exclusion removes cross-route contamination, restoring the diagonal loss model in this constructed example."
+  },
+  "verification": "Executed with Python standard-library Fraction arithmetic; no rounded values or external source code."
+}

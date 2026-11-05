@@ -1,0 +1,18 @@
+{
+  "complete_attainable_conditional_threshold_checks": 42,
+  "context_reversal_checks": 3,
+  "direct_rational_tail_comparisons": 24,
+  "gamma_adjustment_and_inclusive_boundary_checked": true,
+  "malformed_or_unsupported_input_refusals": 42,
+  "maximum_supported_fiber_size_checked": 101,
+  "point_interval_matches_unchanged_engine": 8,
+  "scope": "synthetic producer checks; not external peer review",
+  "source_sha256": {
+    "README.md": "97996bc6dfd7ce93da6b7643019b995c48eb063e5227c5df738c0c1a722d90b5",
+    "baseline_conditional_homogeneity.py": "2e3017844278f6a56e54af8b42fe9f76e9c4323dc679b7adda0b0ebda1a9bc66",
+    "conditional_homogeneity.py": "7e1d7f39b02ec046c65c789aa670ec1c29b2aaa82528d32f4f41b4dc73d86cc3",
+    "recovery_sensitivity.py": "1a42ce0427ed6f9e358b8757a54c69e4c092266a17da0f5ff179aa0ba8f7fe69",
+    "verify_recovery.py": "9fab681b17afb3915ceefecfee3a9b3d5b6c66d97a656d02d4d73fabe29735ad"
+  },
+  "status": "passed"
+}

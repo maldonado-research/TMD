@@ -1,0 +1,13 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "../conditional_curvature/baseline_conditional_homogeneity.py": "2e3017844278f6a56e54af8b42fe9f76e9c4323dc679b7adda0b0ebda1a9bc66",
+    "../conditional_curvature/conditional_homogeneity.py": "7e1d7f39b02ec046c65c789aa670ec1c29b2aaa82528d32f4f41b4dc73d86cc3",
+    "INDEPENDENT_REVIEW.md": "28c3320af82655410c46ef7b2f91a105c6a933448c43a0fad0101de83b61f263",
+    "compare_producer.py": "3038be519609fd28adb260f4487e7ac19b3b933826b61feb65703d79e223c6c1",
+    "independent_receipt.json": "3051febea107c962dab43c53bfbde8c31554a6fcebbba269462992bb46cf0232",
+    "independent_recovery_oracle.py": "45fb6da851caf3dcd0a72714f3b16175f18c1a75270b42434bd7e6fbf899023e",
+    "producer_comparison_receipt.json": "571b066a624aad2c8b1c82484d972c687af0a5b78caf9c50b44e98efb0cee469",
+    "recovery_sensitivity.py": "1a42ce0427ed6f9e358b8757a54c69e4c092266a17da0f5ff179aa0ba8f7fe69"
+  }
+}
