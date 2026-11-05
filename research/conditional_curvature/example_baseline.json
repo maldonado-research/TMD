@@ -1,0 +1,33 @@
+{
+  "observation_contract": "shared_positive_offset_within_context",
+  "sampling_contract": "independent_baseline_selected_multinomials",
+  "alpha": "1/20",
+  "contexts": [
+    {
+      "id": "c0",
+      "baseline": [
+        4,
+        4,
+        4
+      ],
+      "selected": [
+        6,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "c1",
+      "baseline": [
+        4,
+        4,
+        4
+      ],
+      "selected": [
+        0,
+        12,
+        0
+      ]
+    }
+  ]
+}

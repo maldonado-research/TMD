@@ -1,0 +1,373 @@
+{
+  "assertions": 312385,
+  "baseline_complete_uniform_nulls": [
+    {
+      "M_per_context": 1,
+      "N_per_context": 5,
+      "fibers": 3969,
+      "informative_fibers": 0,
+      "max_fiber_size": 1,
+      "rejection_probability": "0",
+      "tables": 3969
+    },
+    {
+      "M_per_context": 3,
+      "N_per_context": 3,
+      "fibers": 9919,
+      "informative_fibers": 81,
+      "max_fiber_size": 2,
+      "rejection_probability": "8/59049",
+      "tables": 10000
+    },
+    {
+      "M_per_context": 4,
+      "N_per_context": 4,
+      "fibers": 49329,
+      "informative_fibers": 1295,
+      "max_fiber_size": 3,
+      "rejection_probability": "16888/14348907",
+      "tables": 50625
+    }
+  ],
+  "baseline_heterogeneous_offset_and_tilt_null": {
+    "fibers": 9919,
+    "informative_fibers": 81,
+    "max_fiber_size": 2,
+    "rejection_probability": "26244/438728213",
+    "tables": 10000
+  },
+  "biological_fit": false,
+  "external_peer_review": false,
+  "known_offset_complete_nulls": [
+    {
+      "fibers": 2082,
+      "informative_fibers": 696,
+      "max_fiber_size": 5,
+      "rejection_probability": "8492845849053696/1180688625212459375",
+      "tables": 3150
+    },
+    {
+      "fibers": 2082,
+      "informative_fibers": 696,
+      "max_fiber_size": 5,
+      "rejection_probability": "445161302661065175/80451931236413782766",
+      "tables": 3150
+    }
+  ],
+  "plugin_counterexample": {
+    "alpha": "1/20",
+    "baseline_N_per_context": 1,
+    "calibration_cases": [
+      {
+        "conditional_on_calibration_rejection_probability": "20/19683",
+        "qhat": [
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ],
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "7580/59049",
+        "qhat": [
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ],
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "20/19683",
+        "qhat": [
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ],
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "7580/59049",
+        "qhat": [
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ],
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "20/19683",
+        "qhat": [
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ],
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "7580/59049",
+        "qhat": [
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ],
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "20/19683",
+        "qhat": [
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ],
+          [
+            "3/5",
+            "1/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "7580/59049",
+        "qhat": [
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ],
+          [
+            "1/5",
+            "3/5",
+            "1/5"
+          ]
+        ]
+      },
+      {
+        "conditional_on_calibration_rejection_probability": "20/19683",
+        "qhat": [
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ],
+          [
+            "1/5",
+            "1/5",
+            "3/5"
+          ]
+        ]
+      }
+    ],
+    "contexts": 2,
+    "eta_exp": [
+      "1",
+      "1"
+    ],
+    "selected_N_per_context": 5,
+    "theta_exp": "1",
+    "true_q": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "unconditional_rejection_probability": "30620/531441"
+  },
+  "refusal_cases": 23,
+  "source_hashes": {
+    "baseline_conditional_homogeneity.py": "2e3017844278f6a56e54af8b42fe9f76e9c4323dc679b7adda0b0ebda1a9bc66",
+    "conditional_homogeneity.py": "7e1d7f39b02ec046c65c789aa670ec1c29b2aaa82528d32f4f41b4dc73d86cc3",
+    "verify_conditional.py": "9a48c72c63a624d08a56881447a4f6a3e533fa36ea964fecdd01b50c33878c6f"
+  },
+  "status": "passed",
+  "study_registry_changed": false,
+  "synthetic_examples": {
+    "baseline": {
+      "alpha": "1/20",
+      "cartesian_candidate_count": 15,
+      "conditioned_D": [
+        0,
+        0
+      ],
+      "conditioned_N": [
+        12,
+        12
+      ],
+      "conditioned_baseline_M": [
+        12,
+        12
+      ],
+      "conditioned_pooled_routes": [
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          4,
+          16,
+          4
+        ]
+      ],
+      "conditioned_total_A": 12,
+      "context_order": [
+        "c0",
+        "c1"
+      ],
+      "decision": "reject_shared_curvature",
+      "fiber": [
+        {
+          "A": [
+            0,
+            12
+          ],
+          "probability": "875/755849"
+        },
+        {
+          "A": [
+            2,
+            10
+          ],
+          "probability": "532224/755849"
+        },
+        {
+          "A": [
+            4,
+            8
+          ],
+          "probability": "222750/755849"
+        }
+      ],
+      "fiber_size": 3,
+      "minimum_attainable_p": "875/755849",
+      "observation_contract": "shared_positive_offset_within_context",
+      "observed_A_allocation": [
+        0,
+        12
+      ],
+      "observed_conditional_probability": "875/755849",
+      "p_value": "875/755849",
+      "rejection_attainable_at_alpha": true,
+      "sampling_contract": "independent_baseline_selected_multinomials",
+      "scope": "shared observed-offset conditional curvature restriction; no mechanism or forecast superiority claim",
+      "singleton_fiber": false
+    },
+    "known": {
+      "alpha": "1/20",
+      "cartesian_candidate_count": 49,
+      "conditioned_D": [
+        0,
+        0
+      ],
+      "conditioned_N": [
+        12,
+        12
+      ],
+      "conditioned_total_A": 12,
+      "context_order": [
+        "c0",
+        "c1"
+      ],
+      "decision": "reject_shared_curvature",
+      "fiber": [
+        {
+          "A": [
+            0,
+            12
+          ],
+          "probability": "1/597104"
+        },
+        {
+          "A": [
+            2,
+            10
+          ],
+          "probability": "297/74638"
+        },
+        {
+          "A": [
+            4,
+            8
+          ],
+          "probability": "111375/597104"
+        },
+        {
+          "A": [
+            6,
+            6
+          ],
+          "probability": "23100/37319"
+        },
+        {
+          "A": [
+            8,
+            4
+          ],
+          "probability": "111375/597104"
+        },
+        {
+          "A": [
+            10,
+            2
+          ],
+          "probability": "297/74638"
+        },
+        {
+          "A": [
+            12,
+            0
+          ],
+          "probability": "1/597104"
+        }
+      ],
+      "fiber_size": 7,
+      "minimum_attainable_p": "1/298552",
+      "observed_A_allocation": [
+        0,
+        12
+      ],
+      "observed_conditional_probability": "1/597104",
+      "offset_contract": "fixed_known_positive_rational",
+      "p_value": "1/298552",
+      "rejection_attainable_at_alpha": true,
+      "sampling_contract": "independent_multinomial_given_totals",
+      "scope": "known-offset conditional shared-curvature restriction; no mechanism or forecast superiority claim",
+      "singleton_fiber": false
+    }
+  }
+}

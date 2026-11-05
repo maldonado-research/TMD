@@ -1,6 +1,6 @@
 # Recent source screen, 30 October–5 November 2026
 
-Original source assessment with AI assistance, prepared 5 November 2026. All three assessments below are based on official metadata and abstracts only. No full text, supplementary data or source-author code was inspected for these sources.
+Original source assessment with AI assistance, prepared 5 November 2026. The initial assessments below used official metadata and abstracts only. A subsequent [Wright primary-text assessment](../conditional_curvature/WRIGHT_SOURCE_UPDATE.md) inspected the official full article and clarifies its assay definitions, shared-founder ancestry and supplementary-data mapping. The other two assessments remain abstract-only. No supplementary data or source-author code was inspected for these sources.
 
 - **Wright et al., published 2 November 2026:** [Resistance mutation supply modulates the benefit of CRISPR immunity against virulent phages in Pseudomonas aeruginosa](https://doi.org/10.1371/journal.pbio.3004094), *PLOS Biology*, PMID 42970595. NCBI records electronic publication on that date and acceptance on 19 October. The abstract reports variable CRISPR benefits across phages and a negative association with receptor-resistance mutation supply. This supports examining context-specific supply as a competing explanation. The inspected evidence does not establish independent establishment/recovery calibration or transport to SBW25 Wsp/Aws/Mws outcomes.
 
@@ -10,4 +10,4 @@ Original source assessment with AI assistance, prepared 5 November 2026. All thr
 
 The bounded screen used three PubMed entry-date searches and all returned interval pages for bioRxiv evolutionary biology (51 version records), genetics (44) and microbiology (129). Title/abstract keyword screening included mutation supply, establishment, fluctuation, lineage tracking, mutation rate, mutational and Pseudomonas. Versions are not independent studies. This was not a systematic review and supports no general absence claim.
 
-Firecrawl's three attempted searches did not run because credits were exhausted. Direct NCBI and bioRxiv APIs succeeded. PLOS manuscript and Drosophila JATS requests returned HTTP 403. No source establishes a changed native admission gate from the evidence inspected; study/planning fields and frozen forecasts remain unchanged.
+Firecrawl's three attempted searches did not run because credits were exhausted. Direct NCBI and bioRxiv APIs succeeded. Initial PLOS manuscript and Drosophila JATS requests returned HTTP 403. The subsequent Wright publisher HTML acquisition succeeded; its S4 workbook request returned HTTP 403. No source establishes a changed native admission gate from the evidence inspected; study/planning fields and frozen forecasts remain unchanged.

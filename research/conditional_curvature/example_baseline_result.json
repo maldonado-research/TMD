@@ -1,0 +1,70 @@
+{
+  "context_order": [
+    "c0",
+    "c1"
+  ],
+  "conditioned_N": [
+    12,
+    12
+  ],
+  "conditioned_D": [
+    0,
+    0
+  ],
+  "conditioned_total_A": 12,
+  "observed_A_allocation": [
+    0,
+    12
+  ],
+  "cartesian_candidate_count": 15,
+  "fiber_size": 3,
+  "singleton_fiber": false,
+  "minimum_attainable_p": "875/755849",
+  "rejection_attainable_at_alpha": true,
+  "p_value": "875/755849",
+  "observed_conditional_probability": "875/755849",
+  "alpha": "1/20",
+  "decision": "reject_shared_curvature",
+  "fiber": [
+    {
+      "A": [
+        0,
+        12
+      ],
+      "probability": "875/755849"
+    },
+    {
+      "A": [
+        2,
+        10
+      ],
+      "probability": "532224/755849"
+    },
+    {
+      "A": [
+        4,
+        8
+      ],
+      "probability": "222750/755849"
+    }
+  ],
+  "scope": "shared observed-offset conditional curvature restriction; no mechanism or forecast superiority claim",
+  "observation_contract": "shared_positive_offset_within_context",
+  "sampling_contract": "independent_baseline_selected_multinomials",
+  "conditioned_baseline_M": [
+    12,
+    12
+  ],
+  "conditioned_pooled_routes": [
+    [
+      10,
+      4,
+      10
+    ],
+    [
+      4,
+      16,
+      4
+    ]
+  ]
+}

@@ -4,6 +4,8 @@ Ricardo Maldonado · 5 November 2026 · Original design analysis with AI assista
 
 This original design diagnostic repeats the existing forecast builder and certified score procedure through **2,560 entirely synthetic studies**. It exposes a practical distinction: a common-curvature predictor can clearly outperform the supply–establishment predictor while rarely clearing a gate that also requires superiority to the flexible predictor. The latter shares its population forecast under common curvature. The calculation supplies no biological observations, achieved biological power, scientific sample size, registry values or causal result.
 
+The separate [conditional curvature diagnostic](../conditional_curvature/README.md) now provides an exact restriction check under explicit observation and joint sampling contracts. It tests a different target and does not replace this forecast comparison or inherit its error allocation.
+
 The code reads `research/prospective_design/verify_design.py` and `research/certified_score/certified_score.py` unchanged. It hashes those files and `REGISTRY_CANDIDATE.json` before and after execution. The illustrative simulation settings do not replace any unresolved study allocation, threshold, comparator, stopping rule or forecast algorithm. Established count models, Clopper–Pearson intervals, linear score projection and Monte Carlo evaluation are used without a new-theorem claim.
 
 ## What is repeated
