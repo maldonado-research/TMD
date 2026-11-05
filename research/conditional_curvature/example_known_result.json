@@ -1,0 +1,82 @@
+{
+  "context_order": [
+    "c0",
+    "c1"
+  ],
+  "conditioned_N": [
+    12,
+    12
+  ],
+  "conditioned_D": [
+    0,
+    0
+  ],
+  "conditioned_total_A": 12,
+  "observed_A_allocation": [
+    0,
+    12
+  ],
+  "cartesian_candidate_count": 49,
+  "fiber_size": 7,
+  "singleton_fiber": false,
+  "minimum_attainable_p": "1/298552",
+  "rejection_attainable_at_alpha": true,
+  "p_value": "1/298552",
+  "observed_conditional_probability": "1/597104",
+  "alpha": "1/20",
+  "decision": "reject_shared_curvature",
+  "fiber": [
+    {
+      "A": [
+        0,
+        12
+      ],
+      "probability": "1/597104"
+    },
+    {
+      "A": [
+        2,
+        10
+      ],
+      "probability": "297/74638"
+    },
+    {
+      "A": [
+        4,
+        8
+      ],
+      "probability": "111375/597104"
+    },
+    {
+      "A": [
+        6,
+        6
+      ],
+      "probability": "23100/37319"
+    },
+    {
+      "A": [
+        8,
+        4
+      ],
+      "probability": "111375/597104"
+    },
+    {
+      "A": [
+        10,
+        2
+      ],
+      "probability": "297/74638"
+    },
+    {
+      "A": [
+        12,
+        0
+      ],
+      "probability": "1/597104"
+    }
+  ],
+  "scope": "known-offset conditional shared-curvature restriction; no mechanism or forecast superiority claim",
+  "offset_contract": "fixed_known_positive_rational",
+  "sampling_contract": "independent_multinomial_given_totals"
+}
