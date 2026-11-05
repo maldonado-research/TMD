@@ -1,0 +1,173 @@
+{
+  "endpoint_grid_checks": 77550,
+  "fibers": 49329,
+  "generic_endpoint_failure": {
+    "h": [
+      2,
+      1,
+      2
+    ],
+    "observed_index": 1,
+    "p_half": "1/6",
+    "p_one": "1/5",
+    "p_two": "1/6"
+  },
+  "n_each_arm": 4,
+  "scenarios": [
+    {
+      "all_attainable_thresholds_checked": 151374,
+      "alpha": "1/20",
+      "intervals": [
+        [
+          "1/4",
+          "1/4"
+        ],
+        [
+          "1/8",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "4"
+        ]
+      ],
+      "joint_mass": "1",
+      "p1": [
+        "1/5",
+        "8/15",
+        "4/15"
+      ],
+      "p2": [
+        "1/3",
+        "1/6",
+        "1/2"
+      ],
+      "q1": [
+        "1/6",
+        "1/3",
+        "1/2"
+      ],
+      "q2": [
+        "1/2",
+        "1/6",
+        "1/3"
+      ],
+      "rejection_probabilities": [
+        "1095757/2989355625",
+        "248288/2989355625",
+        "273776/2989355625"
+      ],
+      "rho": "1/2",
+      "t": "1/4",
+      "zero_bias_reference_rejection_probability": "646861/996451875"
+    },
+    {
+      "all_attainable_thresholds_checked": 151374,
+      "alpha": "1/20",
+      "intervals": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1/2",
+          "2"
+        ],
+        [
+          "1/4",
+          "4"
+        ]
+      ],
+      "joint_mass": "1",
+      "p1": [
+        "1/5",
+        "8/15",
+        "4/15"
+      ],
+      "p2": [
+        "2/7",
+        "2/7",
+        "3/7"
+      ],
+      "q1": [
+        "1/6",
+        "1/3",
+        "1/2"
+      ],
+      "q2": [
+        "1/2",
+        "1/6",
+        "1/3"
+      ],
+      "rejection_probabilities": [
+        "16575824/29536801875",
+        "90752/1093955625",
+        "2236672/29536801875"
+      ],
+      "rho": "1",
+      "t": "1",
+      "zero_bias_reference_rejection_probability": "16575824/29536801875"
+    },
+    {
+      "all_attainable_thresholds_checked": 151374,
+      "alpha": "1/20",
+      "intervals": [
+        [
+          "4",
+          "4"
+        ],
+        [
+          "2",
+          "8"
+        ],
+        [
+          "1/4",
+          "4"
+        ]
+      ],
+      "joint_mass": "1",
+      "p1": [
+        "1/5",
+        "8/15",
+        "4/15"
+      ],
+      "p2": [
+        "2/9",
+        "4/9",
+        "1/3"
+      ],
+      "q1": [
+        "1/6",
+        "1/3",
+        "1/2"
+      ],
+      "q2": [
+        "1/2",
+        "1/6",
+        "1/3"
+      ],
+      "rejection_probabilities": [
+        "168643504/242137805625",
+        "61386704/242137805625",
+        "35023616/242137805625"
+      ],
+      "rho": "2",
+      "t": "4",
+      "zero_bias_reference_rejection_probability": "75279376/80712601875"
+    }
+  ],
+  "source": "independent raw four-arm multinomial enumeration",
+  "status": "pass",
+  "tables_per_scenario": 50625,
+  "unique_weight_sequences": 285,
+  "witness": {
+    "h": [
+      1,
+      576,
+      1
+    ],
+    "p_interval_quarter_to_four": "17/2321",
+    "p_interval_sixteenth_to_sixteen": "257/9473",
+    "p_zero": "1/289"
+  }
+}

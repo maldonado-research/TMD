@@ -1,0 +1,99 @@
+{
+  "adjusted_p_exact": "17/2321",
+  "alpha_exact": "1/20",
+  "bound_noncoverage_probability_exact": "0",
+  "bound_validity_established_by_counts": false,
+  "cartesian_candidates": 9,
+  "certificate": "positive_contiguous_support_and_contiguous_strict_complement",
+  "conditioned_D": [
+    0,
+    0
+  ],
+  "conditioned_N": [
+    4,
+    4
+  ],
+  "conditioned_baseline_M": [
+    4,
+    4
+  ],
+  "conditioned_pooled_routes": [
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      4,
+      2
+    ]
+  ],
+  "conditioned_total_A": 4,
+  "context_order": [
+    "c1",
+    "c2"
+  ],
+  "differential_tilt_interval": [
+    "1/4",
+    "4"
+  ],
+  "endpoint_p_exact": [
+    "17/2321",
+    "17/2321"
+  ],
+  "fiber": [
+    {
+      "j": 0,
+      "reference_weight_exact": "1",
+      "selected_A": [
+        4,
+        0
+      ]
+    },
+    {
+      "j": 1,
+      "reference_weight_exact": "576",
+      "selected_A": [
+        2,
+        2
+      ]
+    },
+    {
+      "j": 2,
+      "reference_weight_exact": "1",
+      "selected_A": [
+        0,
+        4
+      ]
+    }
+  ],
+  "fiber_size": 3,
+  "guarantee_scope": "conditional_on_fiber_given_deterministically_covering_interval",
+  "information_status": "non_singleton_fiber",
+  "log_concavity_verified": true,
+  "maximizing_endpoints": [
+    "lower",
+    "upper"
+  ],
+  "minimum_second_context_A": 0,
+  "observation_contract": "shared_biological_curvature_with_differential_recovery",
+  "observed_index": 2,
+  "polynomial_integer_bit_bound": 18,
+  "recovery_bound_contract": "externally_justified_coverage_interval",
+  "reference_event_indices": [
+    0,
+    2
+  ],
+  "reference_ordering": "inclusive_h_j_at_t_equals_one_frozen_across_all_t",
+  "reference_p_exact": "1/289",
+  "reject": true,
+  "robust_p_exact": "17/2321",
+  "sampling_contract": "independent_baseline_selected_multinomials",
+  "scope": "two-context shared biological curvature conditional on declared recovery bounds; no mechanism claim",
+  "strict_complement_interval": [
+    1,
+    1
+  ],
+  "supremum_method": "exact_endpoint_maximum_for_fixed_reference_statistic"
+}

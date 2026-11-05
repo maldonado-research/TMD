@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "inspection_date_utc": "2026-11-05",
+  "source": {
+    "title": "UMI-guided single locus sequence typing method for phylotyping Cutibacterium acnes from skin samples",
+    "doi": "10.3389/fcimb.2026.1807759",
+    "pmid": "42246005",
+    "pmcid": "PMC13231282",
+    "pmcid_version": "PMC13231282.1",
+    "publication_date": "2026-05-20",
+    "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231282/",
+    "acquisition_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13231282",
+    "representation": "NCBI full JATS XML",
+    "source_filename": "slst_full.xml",
+    "bytes": 126193,
+    "sha256": "8e86d14d30a55fa672ec950379d03a7d3b57df2ece2ea297f2b5720fb09c7cb4",
+    "declared_license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "acquisition_by_parent": true,
+  "reviewer_network_requests": 0,
+  "inspection_level": "Selected main-text Results, Discussion, Methods and figure-caption anchors read from full JATS; no independent raw-data or supplementary-file analysis.",
+  "source_new_to_this_continuation": true,
+  "new_publication_claim": false,
+  "checks": [
+    {
+      "id": "single_isolate_specificity",
+      "section_id": "s2_1",
+      "section_title": "SLST-Seq assigns sequences to the correct SLST type with high specificity",
+      "anchor": "an average of 93% of sequences were correctly assigned",
+      "anchor_present": true,
+      "assessment": "The reported average across six isolate preparations concerns observed sequence assignment; the remainder includes unassigned and other-type sequences, not only loss."
+    },
+    {
+      "id": "mixture_distortion",
+      "section_id": "s2_2",
+      "section_title": "SLST-Seq accurately quantifies SLST type composition in defined DNA mixtures",
+      "anchor": "26.4% vs expected 33.3%",
+      "anchor_present": true,
+      "assessment": "Observed relative abundance of G1 is lower than the nominal defined-mixture abundance; the quotient is not an absolute recovery probability."
+    },
+    {
+      "id": "pooled_technical_replicates",
+      "section_id": "s4_2",
+      "section_title": "Preparation of controls",
+      "anchor": "replicate counts were combined within each mixture",
+      "anchor_present": true,
+      "assessment": "Technical library/sequencing replicate counts were pooled into mixture proportions; these are not independently introduced cells or mutation events."
+    },
+    {
+      "id": "clinical_preamp",
+      "section_id": "s4_4",
+      "section_title": "UMI-guided SLST library preparation",
+      "anchor": "a pre-amplification of the SLST locus was performed prior to molecular barcoding",
+      "anchor_present": true,
+      "assessment": "Clinical skin-strip DNA has an upstream enrichment stage before UMI labeling."
+    },
+    {
+      "id": "control_entry",
+      "section_id": "s4_4",
+      "section_title": "UMI-guided SLST library preparation",
+      "anchor": "while mixes and controls were processed using",
+      "anchor_present": true,
+      "assessment": "Clinical barcoding uses pre-amplified DNA; mixes/controls enter using purified DNA. Shared downstream workflow does not establish full upstream equivalence."
+    },
+    {
+      "id": "spike_no_preamp",
+      "section_id": "s2_4",
+      "section_title": "Quantitative accuracy is maintained at low C. acnes DNA fractions",
+      "anchor": "All SpikeMix samples were processed without pre-amplification",
+      "anchor_present": true,
+      "assessment": "SpikeMix bypasses the clinical pre-amplification stage."
+    },
+    {
+      "id": "caller_eligibility",
+      "section_id": "s4_6",
+      "section_title": "Data processing",
+      "anchor": "Families supported by ≥50 reads were assembled",
+      "anchor_present": true,
+      "assessment": "The output is conditioned on molecular-family support and locus/classification criteria; it is not all input molecules or original cells."
+    },
+    {
+      "id": "nominal_mix_measurement",
+      "section_id": "s4_2",
+      "section_title": "Preparation of controls",
+      "anchor": "DNA concentrations were determined",
+      "anchor_present": true,
+      "assessment": "Input standards are genomic DNA concentration mixtures, not known independent introduced-cell trial denominators."
+    }
+  ],
+  "same_pipeline_caveat": "The source says all mixtures use the same SLST library/sequencing/bioinformatic pipeline, but separately describes clinical pre-amplification before UMI labeling and purified-DNA inputs for mixes/controls. Upstream equivalence is not established by the general same-workflow sentence.",
+  "admission": {
+    "native_Wsp_Aws_Mws_controls": 0,
+    "independent_cell_recovery_probabilities": 0,
+    "empirical_t_bounds": 0,
+    "numerical_values_transferred": false,
+    "author_code_executed": false,
+    "raw_source_body_redistributed": false
+  },
+  "scope": "Measurement architecture example for distinguishing assignment, relative composition, stage-specific calibration and native recovery. No TMD fit, mutation mechanism or clinical recommendation."
+}

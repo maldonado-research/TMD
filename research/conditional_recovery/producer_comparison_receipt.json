@@ -1,0 +1,60 @@
+{
+  "all_table_api_comparisons": 50625,
+  "dependent_interval_stress_test": {
+    "adjusted_pvalues": [
+      "1",
+      "2426/60025"
+    ],
+    "adjusted_rejection_probability": "0",
+    "all_adjusted_attainable_thresholds_valid": true,
+    "alpha": "1/100",
+    "interval_for_J0": [
+      "1",
+      "1"
+    ],
+    "interval_for_J1": [
+      "1/100",
+      "1/100"
+    ],
+    "marginal_noncoverage": "1/25",
+    "raw_pvalues": [
+      "1",
+      "1/2401"
+    ],
+    "raw_rejection_probability": "1/25",
+    "true_t": "1",
+    "weights": [
+      24,
+      1
+    ]
+  },
+  "malformed_inputs_rejected": [
+    "false_count",
+    "float_count",
+    "negative_count",
+    "over_budget",
+    "gamma_bool",
+    "gamma_negative",
+    "gamma_one",
+    "gamma_float",
+    "interval_zero",
+    "interval_negative",
+    "interval_reversed",
+    "interval_float",
+    "interval_bool",
+    "interval_oversized",
+    "duplicate_id",
+    "wrong_contract",
+    "alpha_one",
+    "alpha_zero",
+    "disconnected_complement",
+    "boolean_observed",
+    "negative_weight",
+    "boolean_weight",
+    "float_weight"
+  ],
+  "producer_filename": "recovery_sensitivity.py",
+  "producer_sha256": "1a42ce0427ed6f9e358b8757a54c69e4c092266a17da0f5ff179aa0ba8f7fe69",
+  "scope": "Synthetic computational review. Mathematical validity remains conditional on the declared count and coverage contracts.",
+  "status": "pass"
+}

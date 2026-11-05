@@ -1,0 +1,32 @@
+{
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742544v1.full",
+  "source_capture_reused": true,
+  "source_capture_bytes": 523750,
+  "source_capture_sha256": "19e4953db7a99d5a17bd7ccfed55b4be97216902898e7a5553efe8e96aed04b2",
+  "expected_capture_sha256": "19e4953db7a99d5a17bd7ccfed55b4be97216902898e7a5553efe8e96aed04b2",
+  "inspection": "Re-read structuredContent.markdown from the R32 cached provider representation; no new acquisition, author code execution or source-data analysis.",
+  "anchors": [
+    {
+      "id": "reference_fit",
+      "text": "the calibration from reads to absolute mutant counts was fixed by fitting the non-UV-exposed population to the canonical Luria-Delbr\u00fcck distribution",
+      "present": true
+    },
+    {
+      "id": "future_standards",
+      "text": "future implementations could include a spike-in of barcoded cells at known abundance as an internal calibration standard",
+      "present": true
+    },
+    {
+      "id": "corroborating_counts",
+      "text": "agreed well with independent measurements from mutant colony counts before and after UV",
+      "present": true
+    },
+    {
+      "id": "transport",
+      "text": "would require additional calibration",
+      "present": true
+    }
+  ],
+  "new_numeric_TMD_recovery_bounds": 0,
+  "new_matched_controls": 0
+}

@@ -1,0 +1,97 @@
+{
+  "adjusted_p_exact": "9625/189283",
+  "alpha_exact": "1/20",
+  "bound_noncoverage_probability_exact": "0",
+  "bound_validity_established_by_counts": false,
+  "cartesian_candidates": 15,
+  "certificate": "positive_contiguous_support_and_contiguous_strict_complement",
+  "conditioned_D": [
+    0,
+    0
+  ],
+  "conditioned_N": [
+    12,
+    12
+  ],
+  "conditioned_baseline_M": [
+    12,
+    12
+  ],
+  "conditioned_pooled_routes": [
+    [
+      10,
+      4,
+      10
+    ],
+    [
+      4,
+      16,
+      4
+    ]
+  ],
+  "conditioned_total_A": 12,
+  "context_order": [
+    "c1",
+    "c2"
+  ],
+  "differential_tilt_interval": [
+    "1/33",
+    "33"
+  ],
+  "endpoint_p_exact": [
+    "875/260139017",
+    "9625/189283"
+  ],
+  "fiber": [
+    {
+      "j": 0,
+      "reference_weight_exact": "20432412000",
+      "selected_A": [
+        4,
+        8
+      ]
+    },
+    {
+      "j": 1,
+      "reference_weight_exact": "48819843072",
+      "selected_A": [
+        2,
+        10
+      ]
+    },
+    {
+      "j": 2,
+      "reference_weight_exact": "80262000",
+      "selected_A": [
+        0,
+        12
+      ]
+    }
+  ],
+  "fiber_size": 3,
+  "guarantee_scope": "conditional_on_fiber_given_deterministically_covering_interval",
+  "information_status": "non_singleton_fiber",
+  "log_concavity_verified": true,
+  "maximizing_endpoints": [
+    "upper"
+  ],
+  "minimum_second_context_A": 8,
+  "observation_contract": "shared_biological_curvature_with_differential_recovery",
+  "observed_index": 2,
+  "polynomial_integer_bit_bound": 50,
+  "recovery_bound_contract": "externally_justified_coverage_interval",
+  "reference_event_indices": [
+    2
+  ],
+  "reference_ordering": "inclusive_h_j_at_t_equals_one_frozen_across_all_t",
+  "reference_p_exact": "875/755849",
+  "reject": false,
+  "robust_p_exact": "9625/189283",
+  "sampling_contract": "independent_baseline_selected_multinomials",
+  "scope": "two-context shared biological curvature conditional on declared recovery bounds; no mechanism claim",
+  "strict_complement_interval": [
+    0,
+    1
+  ],
+  "supremum_method": "exact_endpoint_maximum_for_fixed_reference_statistic"
+}

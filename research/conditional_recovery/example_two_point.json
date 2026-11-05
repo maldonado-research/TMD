@@ -1,0 +1,39 @@
+{
+  "alpha": "1/20",
+  "bound_noncoverage_probability": "0",
+  "contexts": [
+    {
+      "baseline": [
+        0,
+        4,
+        0
+      ],
+      "id": "c1",
+      "selected": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "baseline": [
+        2,
+        0,
+        2
+      ],
+      "id": "c2",
+      "selected": [
+        1,
+        2,
+        1
+      ]
+    }
+  ],
+  "differential_tilt_interval": [
+    "1",
+    "24/19"
+  ],
+  "observation_contract": "shared_biological_curvature_with_differential_recovery",
+  "recovery_bound_contract": "externally_justified_coverage_interval",
+  "sampling_contract": "independent_baseline_selected_multinomials"
+}

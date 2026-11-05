@@ -1,0 +1,79 @@
+{
+  "query": "(bacteria AND (barcoded OR barcoding) AND (\"detection bias\" OR \"recovery efficiency\" OR dropout OR \"spike-in\")) AND (\"2025/01/01\"[Date - Publication] : \"2026/11/05\"[Date - Publication])",
+  "count": "7",
+  "retrieved": 7,
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28bacteria+AND+%28barcoded+OR+barcoding%29+AND+%28%22detection+bias%22+OR+%22recovery+efficiency%22+OR+dropout+OR+%22spike-in%22%29%29+AND+%28%222025%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F11%2F05%22%5BDate+-+Publication%5D%29&retmode=json&retmax=30",
+  "search_sha256": "065f34070269142490ee4950043c6a883d0df06facc3aff451e5abc281c268b4",
+  "records_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42767804%2C42287871%2C42246005%2C42119158%2C42112774%2C41733350%2C40796904&retmode=xml",
+  "records_sha256": "1581436eee2acda4de15d657c564b86bbb06e21bcbad92f84895e18d0c3c5943",
+  "inspection_date_utc": "2026-11-05",
+  "scope": "One bounded official PubMed query; seven titles/metadata screened; abstracts 42246005,42112774,41733350 inspected. Selected main-text sections of 42246005 subsequently inspected. Not a systematic review.",
+  "records": [
+    {
+      "pmid": "42767804",
+      "title": "Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data.",
+      "article_ids": {
+        "pubmed": "42767804",
+        "doi": "10.1101/gr.281734.125",
+        "pii": "gr.281734.125"
+      }
+    },
+    {
+      "pmid": "42287871",
+      "title": "Development and validation of a ddPCR & viability PCR assay for enhancing eDNA benthic surveys: A deep-sea case study.",
+      "article_ids": {
+        "pubmed": "42287871",
+        "doi": "10.1016/j.marenvres.2026.108186",
+        "pii": "S0141-1136(26)00355-7"
+      }
+    },
+    {
+      "pmid": "42246005",
+      "title": "UMI-guided single locus sequence typing method for phylotyping Cutibacterium acnes from skin samples.",
+      "article_ids": {
+        "pubmed": "42246005",
+        "pmc": "PMC13231282",
+        "doi": "10.3389/fcimb.2026.1807759"
+      }
+    },
+    {
+      "pmid": "42119158",
+      "title": "CUBED: Universal combinatorial barcoding platform for highly multiplexed digital PCR.",
+      "article_ids": {
+        "pubmed": "42119158",
+        "doi": "10.1016/j.bios.2026.118793",
+        "pii": "S0956-5663(26)00425-2"
+      }
+    },
+    {
+      "pmid": "42112774",
+      "title": "A Scalable and Cost-Effective In-Line Barcoding Strategy for Standardized 16S rRNA Gene Amplicon Sequencing: Performance Evaluation and Bias Assessment.",
+      "article_ids": {
+        "pubmed": "42112774",
+        "pmc": "PMC13159520",
+        "doi": "10.1111/1755-0998.70138"
+      }
+    },
+    {
+      "pmid": "41733350",
+      "title": "Quantitative metagenomics using a portable protocol.",
+      "article_ids": {
+        "pubmed": "41733350",
+        "pmc": "PMC12997851",
+        "doi": "10.1128/aem.02179-25"
+      }
+    },
+    {
+      "pmid": "40796904",
+      "title": "What lurks in the dark? An innovative framework for studying diverse wild insect microbiota.",
+      "article_ids": {
+        "pubmed": "40796904",
+        "pmc": "PMC12341219",
+        "doi": "10.1186/s40168-025-02169-9",
+        "pii": "10.1186/s40168-025-02169-9"
+      }
+    }
+  ],
+  "previously_assessed_source": "41733350 is the BSINC evidence family already assessed in calibration_resource and follow-ups.",
+  "firecrawl_status": "Credit-usage tool reported zero remaining credits; no Firecrawl search attempted."
+}
