@@ -1,0 +1,68 @@
+{
+  "all_checks_passed": true,
+  "producer_implementation_imported": false,
+  "gate_necessity_cases": 87178,
+  "sharp_gate_endpoint_witnesses": 625,
+  "zero_beta_positive_T_approaches": 975,
+  "conservative_endpoint_monotonicity_cases": 8281,
+  "eligible_fraction_label_completion_cases": 28000,
+  "unrestricted_joint_gate_label_completions": 10520,
+  "counterexamples": {
+    "PPV_not_full_cohort_fraction": {
+      "T": "1/10",
+      "gate_sensitivity": "1",
+      "Other_false_gate": "0",
+      "gate_rate": "1/10",
+      "PPV": "1",
+      "true_latent_p": [
+        "4/5",
+        "1/10",
+        "1/10"
+      ],
+      "observed": [
+        "1/5",
+        "1/5",
+        "1/5",
+        "2/5"
+      ],
+      "correct_lower": [
+        "3/5",
+        "3/5",
+        "3/5"
+      ]
+    },
+    "no_negative_control_information": {
+      "F": "1",
+      "gate_rate": "1",
+      "beta": "0"
+    },
+    "ignored_gate_label_coupling": {
+      "definition": "G+ iff observed W",
+      "observed": [
+        "1/2",
+        "1/4",
+        "1/4",
+        "0"
+      ],
+      "correct_lower": [
+        "1",
+        "1",
+        "1"
+      ],
+      "Other_false_gate": "0",
+      "beta": "1/2",
+      "outer_caps": [
+        "1",
+        "1/2",
+        "1/2"
+      ],
+      "outer_feasible_p": [
+        "1/10",
+        "9/20",
+        "9/20"
+      ],
+      "joint_required_T": "5"
+    }
+  },
+  "scope": "Finite exact rational checks support the algebraic proof. Gate-only sharpness does not establish sharpness under additional gate-label coupling."
+}

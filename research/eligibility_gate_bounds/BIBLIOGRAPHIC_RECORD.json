@@ -1,0 +1,25 @@
+{
+  "pmid": "623091",
+  "title": "Estimating prevalence from the results of a screening test.",
+  "article_ids": {
+    "pubmed": "623091",
+    "doi": "10.1093/oxfordjournals.aje.a112510"
+  },
+  "journal": "American journal of epidemiology",
+  "year": "1978",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=623091&retmode=xml",
+  "representation_bytes": 3323,
+  "sha256": "f7abdc9070c541963124f8fdcce0c169305afa9c00f19696f50e2363460c41a2",
+  "inspection_scope": "Official bibliographic metadata and abstract, not full text.",
+  "authors": [
+    {
+      "surname": "Rogan",
+      "initials": "WJ"
+    },
+    {
+      "surname": "Gladen",
+      "initials": "B"
+    }
+  ],
+  "role": "Historical bibliographic background on screening positivity versus prevalence; no full-text acquisition or theorem priority claim."
+}

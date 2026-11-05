@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "files": [
+    "INDEPENDENT_SOURCE_REVIEW.json",
+    "LICENSE_AND_PRIVACY_REVIEW.json",
+    "SLST_ELIGIBILITY_CONTROLS.md",
+    "SLST_ELIGIBILITY_REPLAY.json",
+    "VERIFICATION_RECEIPT.json",
+    "native_controls/NATIVE_CONTROL_EVIDENCE.json",
+    "native_controls/NATIVE_CONTROL_NOTE.md",
+    "native_controls/verify_native_controls.py",
+    "verify_slst_eligibility.py",
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "raw_source_bodies_included": false,
+  "individual_clinical_records_included": false,
+  "new_network_requests": 0,
+  "numerical_native_beta": null
+}

@@ -1,0 +1,36 @@
+{
+  "contract": {
+    "cohort": "full_cohort_before_gate_selection_true_W_A_M_or_Other",
+    "eligibility": "frozen_independent_truth_definition_W_A_M_versus_Other",
+    "endpoint_unit": "synthetic full-cohort endpoint unit",
+    "gate": "binary_gate_on_full_cohort_same_rule_in_native_and_Other_controls"
+  },
+  "contracts_are_assertions_not_programmatically_established": true,
+  "dependencies": {
+    "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+    "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+  },
+  "eligibility": {
+    "closed_model_witness": {
+      "T": "18/19",
+      "a": "1",
+      "f": "1/20",
+      "g": "19/20"
+    },
+    "eligible_fraction_lower_exact": "18/19",
+    "gate_positive_lower_exact": "19/20",
+    "informative": true,
+    "lower_attained_for_positive_T": true,
+    "other_false_gate_upper_exact": "1/20",
+    "positive_T_approach_if_zero": null,
+    "sharpness_scope": "gate_marginals_only",
+    "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+    "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+  },
+  "input_sha256": "dcc087229025741db60edb52956f43ae8e4114a1c6a48bd899fefa55c3d61a9d",
+  "interpretation": "Population gate marginal calculation only, without a confidence or joint Q feasibility claim.",
+  "joint_gate_classifier_sharpness_claimed": false,
+  "mode": "gate",
+  "provenance": "synthetic",
+  "schema_version": "eligibility-gate-bounds-1"
+}

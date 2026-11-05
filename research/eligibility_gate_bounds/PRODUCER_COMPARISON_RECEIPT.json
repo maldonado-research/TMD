@@ -1,0 +1,28 @@
+{
+  "all_checks_passed": true,
+  "producer_sha256": "5c5645e83b3f38ecfb8e196bb5332a555ef752ffab42d4315b6ce7ebbf5d2f6f",
+  "gate_marginal_cases": 625,
+  "eligibility_cap_cases": 2916,
+  "one_sided_count_endpoints_compared": 64,
+  "fixtures": [
+    {
+      "input": "example_calibrated_counts.json",
+      "input_sha256": "a2c2a0b086c9514a337be47aca7ebeb96121d92f7d51a0b134e235907aa509e5",
+      "saved_result_matches": true,
+      "reject_common_J": true
+    },
+    {
+      "input": "example_no_Other_controls.json",
+      "input_sha256": "65a3bfa1f2c8ebebce198859e56512e4c72da3bf89440c500ff94e05874ca455",
+      "saved_result_matches": true,
+      "reject_common_J": false
+    },
+    {
+      "input": "example_population_gate.json",
+      "input_sha256": "dcc087229025741db60edb52956f43ae8e4114a1c6a48bd899fefa55c3d61a9d",
+      "saved_result_matches": true,
+      "reject_common_J": null
+    }
+  ],
+  "scope": "Frozen producer compared with independent gate/cap arithmetic and polygon extrema. CP endpoints intentionally reuse the separately audited, preserved scalar engine."
+}

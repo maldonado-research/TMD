@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "mode": "offline_source_replay",
+  "article": {
+    "status": "PASS",
+    "doi": "10.3389/fcimb.2026.1807759",
+    "pmcid": "PMC13231282",
+    "source_sha256": "8e86d14d30a55fa672ec950379d03a7d3b57df2ece2ea297f2b5720fb09c7cb4",
+    "source_bytes": 126193,
+    "negative_controls": {
+      "truth_material": "nuclease-free water; workflow blanks",
+      "reported_controls": 12,
+      "reported_maximum_full_length_sequences_per_control": 50,
+      "literal_sample_exclusion": "full_length_sequence_count < 50",
+      "literal_complementary_count_gate": "full_length_sequence_count >= 50",
+      "blank_counts_meeting_literal_gate_identified_range": [
+        1,
+        12
+      ],
+      "blank_fraction_meeting_literal_gate_identified_range": [
+        {
+          "numerator": 1,
+          "denominator": 12,
+          "exact_fraction": "1/12"
+        },
+        {
+          "numerator": 12,
+          "denominator": 12,
+          "exact_fraction": "1"
+        }
+      ],
+      "hypothetical_strict_gt_50_gate_blank_positives": 0,
+      "per_control_counts_obtained": false,
+      "actual_downstream_inclusion_of_blanks_reported": false,
+      "threshold_selected_using_these_controls": true,
+      "independent_fixed_gate_validation": false,
+      "known_other_biological_trial_denominator": false,
+      "anchors": [
+        "s2_3 paragraph 3",
+        "s4_7 paragraph 2",
+        "ST3"
+      ]
+    },
+    "upstream_umi_family_filter": {
+      "minimum_reads_per_umi_family": 50,
+      "unit": "reads per UMI family, before assembly and full-length locus screening",
+      "distinct_from_sample_count_gate": true,
+      "anchor": "s4_6 paragraph 2"
+    },
+    "background_dna_controls": {
+      "mock_target_to_E_coli_DNA_mass_ratio": "2:98",
+      "spike_target_DNA_percentages": [
+        "50",
+        "10",
+        "5",
+        "0.5"
+      ],
+      "spike_technical_replicates_per_condition": 10,
+      "all_listed_conditions_contain_target_DNA": true,
+      "pure_E_coli_negative_condition_identified_in_this_design": false,
+      "known_other_unit_gate_outcome_table_obtained": false,
+      "observed_Others_label": "assigned SLST types outside the intended target-type set",
+      "DNA_mass_fraction_is_unit_level_gate_false_positive_probability": false,
+      "anchors": [
+        "s2_3 paragraphs 1-2",
+        "s4_2 paragraphs 3,5",
+        "s4_7 paragraph 1"
+      ]
+    },
+    "clinical_counts": {
+      "original_donors": 30,
+      "original_site_samples": 60,
+      "retained_site_samples": 48,
+      "excluded_site_samples": 12,
+      "retained_fraction": {
+        "numerator": 48,
+        "denominator": 60,
+        "exact_fraction": "4/5"
+      },
+      "excluded_fraction": {
+        "numerator": 12,
+        "denominator": 60,
+        "exact_fraction": "1/5"
+      },
+      "reported_retained_sites": {
+        "face": 25,
+        "back": 23
+      },
+      "reported_retained_pairing": {
+        "paired": 22,
+        "face_only": 3,
+        "back_only": 1
+      },
+      "sites_implied_by_preceding_exclusion_narrative": {
+        "face": 26,
+        "back": 22
+      },
+      "narrative_and_retained_sites_reconcile": false,
+      "total_inclusion_count_reconciles": true,
+      "true_target_fraction_or_PPV_identified": false,
+      "samples_are_independent_donors": false,
+      "anchor": "s2_5 paragraph 1"
+    },
+    "mock_run_count_wording": {
+      "main_text": 12,
+      "SF2_caption": 11,
+      "reconciled": false
+    }
+  },
+  "metadata": {
+    "status": "PASS",
+    "metadata_records_checked": 106,
+    "clinical_samples": 48,
+    "clinical_sites": {
+      "back": 23,
+      "face": 25
+    },
+    "unique_coded_subject_tokens": 26,
+    "clinical_pairing": {
+      "paired": 22,
+      "face_only": 3,
+      "back_only": 1
+    },
+    "site_and_subject_tokens_agree_across_sample_name_and_isolate_fields": true,
+    "individual_clinical_tokens_or_identities_emitted": false,
+    "source_sha256": {
+      "biosample_first_six.xml": "579211c1d1870b8a0f794a2a64d2e36d22bb4323f3a76174fe1363f3d248a884",
+      "biosample_remaining_100.xml": "d8334a4abf605a14aaea1e5da11242f3e619e8fe19d7e69305460c7161e95bee"
+    },
+    "scope": "Aggregate of the previously acquired 106 master-linked BioSample records; no new network inventory."
+  },
+  "admission": {
+    "native_eligibility_false_entry_bound": null,
+    "empirical_target_prevalence_bound": null,
+    "independent_known_other_calibration_trials_admitted": 0,
+    "network_requests": 0,
+    "author_code_executed": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "contract": {
+    "cohort": "full_cohort_before_gate_selection_true_W_A_M_or_Other",
+    "eligibility": "frozen_independent_truth_definition_W_A_M_versus_Other",
+    "endpoint_unit": "synthetic full-cohort endpoint unit",
+    "gate": "binary_gate_on_full_cohort_same_rule_in_native_and_Other_controls"
+  },
+  "gate_positive_lower": "19/20",
+  "mode": "gate",
+  "other_false_gate_upper": "1/20",
+  "provenance": "synthetic"
+}

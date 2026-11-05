@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_status": "PASS_WITH_NONBLOCKING_WORDING_NOTE",
+  "review_scope": "Independent inspection of the SLST note, verifier, cached JATS and aggregate BioSample metadata; native source note was not independently re-reviewed here because this reviewer authored it.",
+  "reviewed_sha256": {
+    "SLST_ELIGIBILITY_CONTROLS.md": "535e6ade89fe9a77aae015c859ceed2abeae0af98c898228de71012ea76ad857",
+    "verify_slst_eligibility.py": "42b6a39e9a90c4b21c3036982b790295582a84ad1dafccb3c3d384f19af2c118",
+    "SLST_ELIGIBILITY_REPLAY.json": "6dcb80c06a0a0f487d4ce06a8b7f2d62b2db7863bc96354ec70c5e74235ae6f6"
+  },
+  "scientific_checks": {
+    "separate_50_reads_per_UMI_family_and_50_reconstructed_sequences_per_sample": "PASS",
+    "literal_complement_of_excluding_counts_below_50_is_count_at_least_50": "PASS",
+    "reported_maximum_50_across_12_blanks_identifies_1_through_12_count_gate_passes": "PASS",
+    "hypothetical_strict_greater_than_50_has_zero_passes_on_same_reported_counts": "PASS",
+    "range_is_descriptive_and_does_not_assert_actual_inclusion_of_blank_records": "PASS",
+    "threshold_selection_is_distinguished_from_independent_fixed_gate_validation": "PASS",
+    "workflow_water_blanks_are_not_known_Other_native_biological_units": "PASS",
+    "mixed_target_background_DNA_mass_and_output_Others_do_not_measure_false_entry_given_true_Other": "PASS",
+    "clinical_48_of_60_is_sample_gate_positivity_not_truth_prevalence_or_PPV": "PASS",
+    "25_face_23_back_22_paired_3_face_only_1_back_only_reproduced_independently_from_metadata": "PASS",
+    "article_exclusion_narrative_implies_26_face_22_back_and_is_not_silently_repaired": "PASS",
+    "main_text_12_mock_runs_and_SF2_caption_11_runs_preserved": "PASS",
+    "numerical_native_calibration_remains_unset": "PASS"
+  },
+  "execution_checks": {
+    "verifier_execution_exit_code": 0,
+    "fresh_replay_matches_stored_JSON": true,
+    "independent_boundary_witnesses_checked_for_each_attainable_pass_count": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "independent_metadata_aggregation": {
+      "records": 106,
+      "face": 25,
+      "back": 23,
+      "coded_subjects": 26,
+      "paired": 22,
+      "face_only": 3,
+      "back_only": 1
+    },
+    "individual_clinical_codes_in_replay": false,
+    "network_requests_by_review": 0,
+    "author_code_executed": false
+  },
+  "findings": [
+    {
+      "severity": "nonblocking_wording",
+      "location": "SLST_ELIGIBILITY_CONTROLS.md opening sentence and retained-roster paragraph",
+      "observation": "The phrases independently cross-checked and independently agree are supported as separate offline parsing or cross-checks, not as independent biological replication. The article and archive may share the same underlying study and submitter.",
+      "recommendation": "Optionally use separately cross-checked and agree across both metadata fields to make that boundary explicit. No numerical or substantive conclusion requires a change."
+    }
+  ],
+  "blocking_findings": [],
+  "limits": "This review validates derivation from the pinned cached representations. It does not validate the experimental records, acquire unavailable supplemental tables, or establish a native eligibility false-entry parameter."
+}
