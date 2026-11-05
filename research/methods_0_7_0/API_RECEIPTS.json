@@ -1,0 +1,105 @@
+{
+  "credential_values_recorded": false,
+  "requests": [
+    {
+      "timestamp_utc": "2026-11-05T05:16:42.903107+00:00",
+      "method": "POST",
+      "url": "https://zenodo.org/api/deposit/depositions/23219776/actions/newversion",
+      "status": 201,
+      "request_bytes": 2,
+      "response_bytes": 6814,
+      "response_sha256": "0325de60a8e1b99ac51d4c7561d197fb27ab6d97b065d9c1ab09e53789004cd0",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:17:26.305091+00:00",
+      "method": "PUT",
+      "url": "https://zenodo.org/api/records/23970140/draft",
+      "status": 200,
+      "request_bytes": 3780,
+      "response_bytes": 14380,
+      "response_sha256": "840717c61553a50041ea6e58122583c2ad7facead755280edc37828ea68b9dc4",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:17:26.807504+00:00",
+      "method": "POST",
+      "url": "https://zenodo.org/api/records/23970140/draft/files",
+      "status": 201,
+      "request_bytes": 45,
+      "response_bytes": 9235,
+      "response_sha256": "5814738975d92474a6f4ab1a2579a793e04005ce35c43fa80ceb84d124824e54",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:17:27.519361+00:00",
+      "method": "PUT",
+      "url": "https://zenodo.org/api/records/23970140/draft/files/TMD_methods_0_7_0_2026-11-04.zip/content",
+      "status": 200,
+      "request_bytes": 498964,
+      "response_bytes": 943,
+      "response_sha256": "03a5dddf9cea6b9adcc467e898532e44b68bc2aae90e694007f09ecd0696b5cc",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:17:27.722993+00:00",
+      "method": "POST",
+      "url": "https://zenodo.org/api/records/23970140/draft/files/TMD_methods_0_7_0_2026-11-04.zip/commit",
+      "status": 200,
+      "request_bytes": 0,
+      "response_bytes": 943,
+      "response_sha256": "8d5c186bbe3ffcf538a6b35dc79060f6f357e3be47863f2d94bc7d38e863dd06",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:19:44.033174+00:00",
+      "method": "POST",
+      "url": "https://zenodo.org/api/records/23970140/draft/actions/publish",
+      "status": 202,
+      "request_bytes": 0,
+      "response_bytes": 16203,
+      "response_sha256": "8150f0d5b93db71b2f824e28e781293db98a4c6521c2c425ed5116d71bfb446f",
+      "authenticated": true
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:20:16.054063+00:00",
+      "method": "GET",
+      "url": "https://zenodo.org/api/records/23970140",
+      "status": 200,
+      "request_bytes": 0,
+      "response_bytes": 19787,
+      "response_sha256": "4b39c89fc2b98fb37c4500a6f7ba9582d73127a5b853b999babc0d23cae9f370",
+      "authenticated": false
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:20:16.930533+00:00",
+      "method": "GET",
+      "url": "https://zenodo.org/api/records/23970140/versions/latest",
+      "status": 200,
+      "request_bytes": 0,
+      "response_bytes": 19787,
+      "response_sha256": "4b39c89fc2b98fb37c4500a6f7ba9582d73127a5b853b999babc0d23cae9f370",
+      "authenticated": false
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:20:17.320603+00:00",
+      "method": "GET",
+      "url": "https://zenodo.org/api/records/23970140/files",
+      "status": 200,
+      "request_bytes": 0,
+      "response_bytes": 8908,
+      "response_sha256": "3ef17f5a50fe1809d688e4ce80f777a5448f0691f33cc233d2fcd2f0dfc1c9fc",
+      "authenticated": false
+    },
+    {
+      "timestamp_utc": "2026-11-05T05:20:23.324763+00:00",
+      "method": "GET",
+      "url": "https://zenodo.org/records/23970140",
+      "status": 200,
+      "request_bytes": 0,
+      "response_bytes": 118878,
+      "response_sha256": "4327484c25c291a38acf5d6af332a5164077a8bc97c0f10f2c259622078ca22e",
+      "authenticated": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "initial_response_format_errors": [
+    {
+      "request": {
+        "timestamp_utc": "2026-11-05T05:16:20.807328+00:00",
+        "method": "POST",
+        "url": "https://zenodo.org/api/deposit/depositions/23219776/actions/newversion",
+        "status": 406,
+        "request_bytes": 2,
+        "response_bytes": 88,
+        "response_sha256": "c4da04682d12a4b6af79d185fb2dea312becefa30547f59d3ae4ab1aee810877",
+        "authenticated": true
+      },
+      "error": {
+        "status": 406,
+        "message": "Invalid 'Accept' header. Expected one of: application/json"
+      }
+    },
+    {
+      "request": {
+        "timestamp_utc": "2026-11-05T05:17:58.727948+00:00",
+        "method": "GET",
+        "url": "https://zenodo.org/api/records/23970140/draft/files/TMD_methods_0_6_0_2026-10-02.zip/content",
+        "status": 406,
+        "request_bytes": 0,
+        "response_bytes": 124,
+        "response_sha256": "63e76c4220dbbbd547f99544390431b7f85b375cf13b80db616ac11be1db3af5",
+        "authenticated": true
+      },
+      "error": {
+        "status": 406,
+        "message": "Invalid 'Accept' header. Expected one of: application/vnd.inveniordm.v1+json, application/json"
+      }
+    },
+    {
+      "request": {
+        "timestamp_utc": "2026-11-05T05:19:51.806270+00:00",
+        "method": "GET",
+        "url": "https://zenodo.org/api/records/23970140/files",
+        "status": 406,
+        "request_bytes": 0,
+        "response_bytes": 88,
+        "response_sha256": "c4da04682d12a4b6af79d185fb2dea312becefa30547f59d3ae4ab1aee810877",
+        "authenticated": false
+      },
+      "error": {
+        "status": 406,
+        "message": "Invalid 'Accept' header. Expected one of: application/json"
+      }
+    }
+  ],
+  "resolution": "Legacy new-version action uses Accept application/json. Modern RDM file content GET uses Accept application/vnd.inveniordm.v1+json; response contains file bytes. No failed mutation was blindly repeated; family and draft guards were reread before corrected creation. Public file listing and file content use Accept application/json, confirmed by successful unauthenticated downloads.",
+  "credential_values_recorded": false
+}

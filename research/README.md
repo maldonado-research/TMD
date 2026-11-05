@@ -1,5 +1,7 @@
 # TMD recovery-transport research follow-up
 
+**Current archive: [methods 0.7.0](../TMD_METHODS_0_7_0.md), [published as record 23970140](https://doi.org/10.5281/zenodo.23970140).** The standalone methods tree has an isolated replay and verified public file bytes. Earlier publication paragraphs below retain their historical scope; [publication status](PUBLICATION_STATUS.md) records the current release and preserved history.
+
 The [integrated observation pipeline](integrated_inference/README.md) composes learned-threshold calibration, full-cohort eligibility and wrong-label bounds under one prespecified total error budget. Its independent exact review and synthetic checks expose the cost of multiple confidence allocations: in the illustrative two-context allocation, the strict 5% false-tail goal needs at least 126 controls per gate. This is conditional planning arithmetic, not a native study recommendation. A [bounded literature check](integrated_inference/literature_check/ASSESSMENT.md) supplies no new admitted biological measurements.
 
 The [selection-aware threshold calibration](threshold_calibration/README.md) gives false-pass probability bounds for a predeclared maximum-threshold rule with a fixed score pipeline and iid controls. It covers strict comparison and inclusive comparison with a recorded tie count, while preserving the uncertainty budget needed for eligibility inference. The [source qualification](threshold_calibration/SOURCE_BOUNDARY_NOTE.md) explains why these guarantees do not supply a native bound for the inspected SLST assay.
