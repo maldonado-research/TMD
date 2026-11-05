@@ -1,0 +1,18 @@
+{
+  "CP_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "all_inputs_synthetic": true,
+  "calibrated_example_rejects": true,
+  "checks": {
+    "endpoint_certificates": 64,
+    "gate_grid_inequalities": 3645,
+    "gate_witnesses": 81,
+    "refusals": 22,
+    "small_binomial_coverage_cases": 144
+  },
+  "classification_sha256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+  "no_Other_controls_example_rejects": false,
+  "producer_sha256": "5c5645e83b3f38ecfb8e196bb5332a555ef752ffab42d4315b6ce7ebbf5d2f6f",
+  "scope": "Bounded synthetic implementation checks; no native data, power study or external biological validation.",
+  "status": "pass",
+  "verifier_sha256": "e3fd646cbf4bfad0c1c34efe9189429b5b54455cbcf403e39e47631a2e31c43f"
+}

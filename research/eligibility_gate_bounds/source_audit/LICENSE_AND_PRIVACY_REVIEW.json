@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "PASS_FOR_ORIGINAL_ANALYSIS_AND_AGGREGATES",
+  "artifact_scope": "Original source analysis, standard-library replay code, arithmetic results, aggregate metadata counts, source identifiers and hashes.",
+  "third_party_source_bodies_in_public_package": false,
+  "raw_biosample_records_in_public_package": false,
+  "individual_clinical_codes_or_donor_identities_in_public_package": false,
+  "supplementary_workbooks_in_public_package": false,
+  "source_licensing": {
+    "SLST_JATS": "The inspected JATS explicitly identifies CC BY 4.0; this package attributes Orcel et al. and links the source.",
+    "native_sources": "Only original analysis, limited source phrases needed for replay checks, source identifiers and hashes are included. The cached McDonald representation is not publisher-original bytes. No broader rights to third-party bodies are asserted."
+  },
+  "privacy": "Clinical sample-name and isolate tokens are compared only within the offline verifier. Its output contains aggregate site counts, coded-subject count and pairing totals; no individual clinical token or source record is emitted.",
+  "external_writes_or_messages": false,
+  "access_challenges_bypassed": false,
+  "author_code_executed": false,
+  "third_party_rights_unchanged": true
+}

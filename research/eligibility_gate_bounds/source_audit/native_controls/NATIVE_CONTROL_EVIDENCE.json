@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "PASS_CACHED_SOURCE_REPLAY",
+  "scope": "McDonald 2009 selected cached passages and Lind 2019 main-article sections; no new acquisition",
+  "sources": {
+    "mcdonald2009": {
+      "filename": "S03.md",
+      "bytes": 110618,
+      "sha256": "5b6b1c5cf23a7866a174493d12c3a6190db12babc21062ad28215b1d1cbc67c2",
+      "representation": "cached Firecrawl markdown representation, not original publisher bytes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778958/",
+      "doi": "10.1534/genetics.109.107110"
+    },
+    "lind2019": {
+      "filename": "lind2019_pmc.xml",
+      "bytes": 297863,
+      "sha256": "38fd0408ef2b5e367aa1fe0307f160839bdc537e85fcd517a584d5177bcd6984",
+      "representation": "cached full JATS XML; only main article sections inspected here",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/",
+      "doi": "10.7554/eLife.38822"
+    }
+  },
+  "observations": [
+    {
+      "id": "lind_selected_rare_routes",
+      "source": "lind2019",
+      "anchors": [
+        "main article JATS sec[@id='s2-4']",
+        "main article JATS sec[@id='s4-2']",
+        "main article JATS sec[@id='s4-3']"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324874/#s2-4",
+      "selected_ws_mutants": 109,
+      "focal_wam_mutants": 105,
+      "focal_route_counts": {
+        "Wsp": 46,
+        "Aws": 41,
+        "Mws": 18
+      },
+      "reported_rare_pathway_mutants": 4,
+      "reported_rare_pathways": [
+        "PFLU0085",
+        "PFLU0183"
+      ],
+      "derived_rare_fraction_among_sampled_ws_mutants": "4/109",
+      "derived_wam_fraction_among_sampled_ws_mutants": "105/109",
+      "selection": "One colony with WS morphology per independent culture; mixtures of genetic backgrounds include pathway double deletions.",
+      "truth_procedure": "Candidate-gene Sanger sequencing; genome sequencing for a few candidates without identified focal mutations.",
+      "interpretation": "Concrete non-focal biological routes occur within the selected WS-mutant collection. This conditional sample composition is not a false-entry probability for known-Other units.",
+      "known_other_pre_gate_denominator": null,
+      "independent_frozen_gate_outcomes": null,
+      "admitted_as_native_beta_calibration": false
+    },
+    {
+      "id": "sws_triple_deletion",
+      "source": "mcdonald2009",
+      "anchor": "SWS: a wsp-, aws-, and mws-independent route to WS",
+      "cached_markdown_lines": [
+        326,
+        328
+      ],
+      "selected_strain": "SWS PBR715",
+      "parent": "SM Δwsp Δaws Δmws PBR716",
+      "selected_strain_count": 1,
+      "reported_suppressor_mutants": 41,
+      "interpretation": "A WS phenotype can occur despite deletion of the three focal modules. Functional swsR dependence was demonstrated, while repeated sequencing did not identify its causal mutation. A selected strain and its suppressor mutants are not independent known-Other eligibility trials.",
+      "known_other_pre_gate_denominator": null,
+      "independent_frozen_gate_outcomes": null,
+      "admitted_as_native_beta_calibration": false
+    },
+    {
+      "id": "wsx_unresolved",
+      "source": "mcdonald2009",
+      "anchors": [
+        "Table 1 WSX row and footnote b",
+        "Discussion WSX functional-dependency statement"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778958/#tblfn2",
+      "cached_markdown_lines": [
+        196,
+        208,
+        340
+      ],
+      "reported_wsp_suppressor_insertions": 17,
+      "interpretation": "WSX lacks an identified mutation in the focal loci but depends functionally on Wsp; molecular uncertainty does not establish known-Other truth. Suppressor insertions are mechanistic observations, not independent negative-control trials.",
+      "admitted_as_known_other_truth": false,
+      "admitted_as_native_beta_calibration": false
+    }
+  ],
+  "numerical_native_beta": null,
+  "source_body_redistributed": false,
+  "new_network_requests": 0,
+  "author_code_executed": false,
+  "conclusion": "The inspected sources establish that a WS phenotype gate can admit non-focal routes; they do not supply a known-Other pre-gate denominator and independent frozen-gate outcome ledger for numerical native false-entry calibration."
+}

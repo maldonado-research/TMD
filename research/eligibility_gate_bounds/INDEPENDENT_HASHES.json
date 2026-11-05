@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "gate_oracle.py": "79db4b9a439cc44461494291136ec352e998870fc6765769f6d0dfb26502a4fc",
+    "GATE_ORACLE_RECEIPT.json": "b96f7ace822ca8a6dfb3eb4f85a879f4e388f64af7a1f2aa2af6e18e83116f3d",
+    "compare_frozen_producer.py": "3a4547fbbc52186ad5683fad758f17fd717562b1bd6a6ee634701e3ea2f8ecae",
+    "PRODUCER_COMPARISON_RECEIPT.json": "aa920a1c2e4aefd286c457c86f31c63072dd4e84075d15701fe8b529bb40b247",
+    "INDEPENDENT_REVIEW.md": "aece38c4a0d717b9291c968883950dab59c5e145bd1e564758db0fdc5b528c2e",
+    "cp-audit/audit_cp.py": "2b7b98ec753d87b6488e39fd852de6da6e2507ff9bc37885819257dca30f0acd",
+    "cp-audit/receipt.json": "2d2159ab11d5a02b2a6b89423cb032553e665943be54570512272ebab95f0724",
+    "cp-audit/REVIEW.md": "cb9726807d303e2a6e526546d8bdfe2cf5facb59ac3ad0ca39f12590cf689639"
+  }
+}

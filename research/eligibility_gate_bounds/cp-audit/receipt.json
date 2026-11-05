@@ -1,0 +1,28 @@
+{
+  "classification_engine_sha256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368",
+  "endpoint_tail_checks": 182,
+  "max_grid_lower_noncoverage_exact": "5989/1953125",
+  "max_grid_upper_noncoverage_exact": "5989/1953125",
+  "one_sided_coverage_checks": 1066,
+  "plugin_counterexample": {
+    "T": "1/2",
+    "a": "1",
+    "certified_beta": "0",
+    "event_probability_exact": "3/8",
+    "f": "1/2",
+    "g": "3/4",
+    "known_other_false_gate_counts": [
+      0,
+      1
+    ],
+    "native_gate_counts": [
+      1,
+      1
+    ],
+    "plugin_beta": "1"
+  },
+  "preserved_CP_sha256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+  "same_unit_gate_label_dependent_cases": 492,
+  "status": "passed",
+  "tail_error_exact": "1/320"
+}

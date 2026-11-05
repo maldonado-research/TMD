@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "validation": {
+    "SLST_full_source_and_cached_metadata_replay": "PASS",
+    "SLST_article_only_replay": "PASS",
+    "article_only_metadata_status": "UNRUN_METADATA_NOT_SUPPLIED",
+    "source_hash_mutation_rejected": "PASS",
+    "native_source_replay_by_parent_agent": "PASS_IDENTICAL_TO_STORED_OUTPUT"
+  },
+  "source_acquisition": {
+    "new_network_requests": 0,
+    "archive_metadata_records_refetched": 0,
+    "supplementary_workbooks_acquired": 0,
+    "author_code_executed": false,
+    "repository_files_changed": false
+  },
+  "admission": {
+    "numerical_native_false_entry_bound": null,
+    "empirical_target_truth_fraction_bound": null,
+    "independent_known_other_calibration_trials": 0
+  },
+  "independent_source_review": {
+    "status": "PASS_NO_BLOCKING_FINDINGS",
+    "receipt": "INDEPENDENT_SOURCE_REVIEW.json",
+    "nonblocking_wording_note_resolved": "Changed independently cross-checked to separately cross-checked and explicitly described article and metadata as records of the same study. No code or numerical output changed.",
+    "final_note_sha256": "9e5d0db916a177b0fc24c221bad28eba56c28ade57639e312bcb421cc73011e9"
+  }
+}

@@ -1,0 +1,690 @@
+{
+  "common_J": {
+    "interpretation": "Conservative outer intervals overlap; full joint feasibility or equal biological curvature is not established.",
+    "lower": {
+      "attained_in_positive_domain": false,
+      "exact": "0",
+      "infinity": null
+    },
+    "separated": false,
+    "status": "not_rejected",
+    "upper": {
+      "attained_in_positive_domain": false,
+      "exact": null,
+      "infinity": "positive"
+    }
+  },
+  "confidence": {
+    "CP_trial_work": 28000,
+    "alpha_exact": "1/20",
+    "between_component_independence_required": false,
+    "control_transport_error_included": false,
+    "finite_count_projection_claimed_sharp": false,
+    "one_sided_allocations": 32,
+    "per_endpoint_error_exact": "1/640",
+    "simultaneous_coverage_at_least_exact": "19/20"
+  },
+  "contexts": [
+    {
+      "J": {
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "status": "ok",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        }
+      },
+      "baseline": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "caps": {
+          "A": "1",
+          "M": "1",
+          "W": "1"
+        },
+        "closure_witness_scope": "Cap outer set only; no full gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "0",
+            "a": "4171371514326285/4503599627370496",
+            "f": "4171371514326285/4503599627370496",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "0",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": false,
+          "lower_attained_for_positive_T": false,
+          "other_false_gate_upper_exact": "1",
+          "positive_T_approach_if_zero": "T=epsilon, a=f=gL, 0<epsilon<=1; g=gL",
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_limits": {
+          "Other_positive_successes": 0,
+          "Other_trials": 0,
+          "gate_positive_lower": {
+            "certificate": {
+              "exact_tail_certified": true,
+              "outward_expansions": 0,
+              "outward_width": 6.832752685575125e-12,
+              "proposed_root": 0.9262305399009423
+            },
+            "exact": "4171371514326285/4503599627370496"
+          },
+          "gate_positive_successes": 950,
+          "gate_trials": 1000,
+          "other_false_gate_upper": {
+            "certificate": {
+              "no_observations": true,
+              "support_boundary": true
+            },
+            "exact": "1"
+          }
+        },
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "0",
+          "M": "1/2",
+          "W": "1/2"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          }
+        },
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "range_kind": "conservative_count_confidence_outer_projection_with_eligibility_lower_bound",
+        "status": "ok",
+        "sum_caps_exact": "3",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        },
+        "upper_closure_witness": {
+          "A": "1",
+          "M": "0",
+          "W": "0"
+        }
+      },
+      "id": "A_rich",
+      "selected": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "caps": {
+          "A": "1",
+          "M": "1",
+          "W": "1"
+        },
+        "closure_witness_scope": "Cap outer set only; no full gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "0",
+            "a": "4171371514326285/4503599627370496",
+            "f": "4171371514326285/4503599627370496",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "0",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": false,
+          "lower_attained_for_positive_T": false,
+          "other_false_gate_upper_exact": "1",
+          "positive_T_approach_if_zero": "T=epsilon, a=f=gL, 0<epsilon<=1; g=gL",
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_limits": {
+          "Other_positive_successes": 0,
+          "Other_trials": 0,
+          "gate_positive_lower": {
+            "certificate": {
+              "exact_tail_certified": true,
+              "outward_expansions": 0,
+              "outward_width": 6.832752685575125e-12,
+              "proposed_root": 0.9262305399009423
+            },
+            "exact": "4171371514326285/4503599627370496"
+          },
+          "gate_positive_successes": 950,
+          "gate_trials": 1000,
+          "other_false_gate_upper": {
+            "certificate": {
+              "no_observations": true,
+              "support_boundary": true
+            },
+            "exact": "1"
+          }
+        },
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "0",
+          "M": "1/2",
+          "W": "1/2"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 720,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.818823142339838e-11,
+                "proposed_root": 0.7609936508155251
+              },
+              "exact": "6854421444652049/9007199254740992"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          }
+        },
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "range_kind": "conservative_count_confidence_outer_projection_with_eligibility_lower_bound",
+        "status": "ok",
+        "sum_caps_exact": "3",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        },
+        "upper_closure_witness": {
+          "A": "1",
+          "M": "0",
+          "W": "0"
+        }
+      }
+    },
+    {
+      "J": {
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "status": "ok",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        }
+      },
+      "baseline": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "caps": {
+          "A": "1",
+          "M": "1",
+          "W": "1"
+        },
+        "closure_witness_scope": "Cap outer set only; no full gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "0",
+            "a": "4171371514326285/4503599627370496",
+            "f": "4171371514326285/4503599627370496",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "0",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": false,
+          "lower_attained_for_positive_T": false,
+          "other_false_gate_upper_exact": "1",
+          "positive_T_approach_if_zero": "T=epsilon, a=f=gL, 0<epsilon<=1; g=gL",
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_limits": {
+          "Other_positive_successes": 0,
+          "Other_trials": 0,
+          "gate_positive_lower": {
+            "certificate": {
+              "exact_tail_certified": true,
+              "outward_expansions": 0,
+              "outward_width": 6.832752685575125e-12,
+              "proposed_root": 0.9262305399009423
+            },
+            "exact": "4171371514326285/4503599627370496"
+          },
+          "gate_positive_successes": 950,
+          "gate_trials": 1000,
+          "other_false_gate_upper": {
+            "certificate": {
+              "no_observations": true,
+              "support_boundary": true
+            },
+            "exact": "1"
+          }
+        },
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "0",
+          "M": "1/2",
+          "W": "1/2"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 300,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.258118160221276e-11,
+                "proposed_root": 0.3444744909094576
+              },
+              "exact": "1551375189000171/4503599627370496"
+            }
+          }
+        },
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "range_kind": "conservative_count_confidence_outer_projection_with_eligibility_lower_bound",
+        "status": "ok",
+        "sum_caps_exact": "3",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        },
+        "upper_closure_witness": {
+          "A": "1",
+          "M": "0",
+          "W": "0"
+        }
+      },
+      "id": "A_poor",
+      "selected": {
+        "boundary_approximation": "(1-epsilon)*closure_witness + epsilon*positive_feasible_witness, 0<epsilon<1",
+        "caps": {
+          "A": "1",
+          "M": "1",
+          "W": "1"
+        },
+        "closure_witness_scope": "Cap outer set only; no full gate/classifier/count-confidence feasibility certificate.",
+        "eligibility": {
+          "closed_model_witness": {
+            "T": "0",
+            "a": "4171371514326285/4503599627370496",
+            "f": "4171371514326285/4503599627370496",
+            "g": "4171371514326285/4503599627370496"
+          },
+          "eligible_fraction_lower_exact": "0",
+          "gate_positive_lower_exact": "4171371514326285/4503599627370496",
+          "informative": false,
+          "lower_attained_for_positive_T": false,
+          "other_false_gate_upper_exact": "1",
+          "positive_T_approach_if_zero": "T=epsilon, a=f=gL, 0<epsilon<=1; g=gL",
+          "sharpness_scope": "gate_marginals_only",
+          "target": "T=P(true_W_A_M_in_full_cohort); not gate_positive_PPV or retained_label_fraction",
+          "witness_scope": "Gate mixture only; no joint gate/classifier feasibility certificate."
+        },
+        "gate_limits": {
+          "Other_positive_successes": 0,
+          "Other_trials": 0,
+          "gate_positive_lower": {
+            "certificate": {
+              "exact_tail_certified": true,
+              "outward_expansions": 0,
+              "outward_width": 6.832752685575125e-12,
+              "proposed_root": 0.9262305399009423
+            },
+            "exact": "4171371514326285/4503599627370496"
+          },
+          "gate_positive_successes": 950,
+          "gate_trials": 1000,
+          "other_false_gate_upper": {
+            "certificate": {
+              "no_observations": true,
+              "support_boundary": true
+            },
+            "exact": "1"
+          }
+        },
+        "lower": {
+          "attained_in_positive_domain": false,
+          "exact": "0",
+          "infinity": null
+        },
+        "lower_closure_witness": {
+          "A": "0",
+          "M": "1/2",
+          "W": "1/2"
+        },
+        "marginal_limits": {
+          "A": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 90,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.0546402854575299e-11,
+                "proposed_root": 0.11982113228869884
+              },
+              "exact": "2158505627095967/18014398509481984"
+            }
+          },
+          "M": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 405,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.4768192863199274e-11,
+                "proposed_root": 0.4518536463685229
+              },
+              "exact": "4069935827045651/9007199254740992"
+            }
+          },
+          "W": {
+            "control_successes": 900,
+            "control_trials": 1000,
+            "correct_call_lower": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 1.1386683084948863e-11,
+                "proposed_root": 0.8689622868946247
+              },
+              "exact": "3913458231406365/4503599627370496"
+            },
+            "observed_successes": 405,
+            "observed_trials": 1000,
+            "observed_upper": {
+              "certificate": {
+                "exact_tail_certified": true,
+                "outward_expansions": 0,
+                "outward_width": 2.4768192863199274e-11,
+                "proposed_root": 0.4518536463685229
+              },
+              "exact": "4069935827045651/9007199254740992"
+            }
+          }
+        },
+        "positive_feasible_witness": {
+          "A": "1/3",
+          "M": "1/3",
+          "W": "1/3"
+        },
+        "range_kind": "conservative_count_confidence_outer_projection_with_eligibility_lower_bound",
+        "status": "ok",
+        "sum_caps_exact": "3",
+        "upper": {
+          "attained_in_positive_domain": false,
+          "exact": null,
+          "infinity": "positive"
+        },
+        "upper_closure_witness": {
+          "A": "1",
+          "M": "0",
+          "W": "0"
+        }
+      }
+    }
+  ],
+  "contract": {
+    "classifier": "arbitrary_column_stochastic_by_arm_and_context_unrestricted_Other_column",
+    "cohort": "full_cohort_before_gate_selection_true_W_A_M_or_Other",
+    "control_sampling": "fixed_known_truth_denominators_valid_binomial_correct_call_and_Other_false_gate_marginals",
+    "correct_call_transport": "native_eligible_correct_call_probability_at_least_true_route_control_probability",
+    "design": "contexts_endpoint_gate_rules_and_error_allocation_fixed_before_outcomes",
+    "eligibility": "frozen_independent_truth_definition_W_A_M_versus_Other",
+    "endpoint_sampling": "same_full_cohort_units_fixed_denominator_valid_binomial_label_and_gate_marginals",
+    "endpoint_unit": "synthetic full-cohort endpoint unit",
+    "false_gate_transport": "native_Other_gate_positive_probability_at_most_known_Other_control_probability",
+    "gate": "binary_gate_on_full_cohort_same_rule_in_native_and_Other_controls",
+    "known_Other_control_unit": "synthetic independently known true-Other unit",
+    "observation": "one_W_A_M_U_label_per_full_cohort_unit_U_retained",
+    "target": "strictly_positive_W_A_M_composition_conditional_on_true_eligibility_T_positive",
+    "true_route_control_unit": "synthetic independently known true-route unit"
+  },
+  "contracts_are_assertions_not_programmatically_established": true,
+  "decision_scope": "Finite-sample level-alpha test under the declared count, truth and transport premises. One context is descriptive; an incompatible cap set is unevaluable.",
+  "dependencies": {
+    "certified_CP_SHA256": "23feb7547d481fc4d361b25da28fe9d46d79be2f9fe66376f9c9ca85c069c79d",
+    "classification_SHA256": "66996adfd4f90bccf7315a82022d6b96d390378f4be781f992e7229058bfb368"
+  },
+  "input_sha256": "65a3bfa1f2c8ebebce198859e56512e4c72da3bf89440c500ff94e05874ca455",
+  "joint_gate_classifier_sharpness_claimed": false,
+  "mode": "counts",
+  "provenance": "synthetic",
+  "reject_common_J": false,
+  "schema_version": "eligibility-gate-bounds-1",
+  "target": "J=Q(selected)/Q(baseline), Q(p)=pA^2/(pW*pM); p conditional on true full-cohort eligibility"
+}

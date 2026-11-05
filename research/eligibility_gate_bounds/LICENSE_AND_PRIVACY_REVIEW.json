@@ -1,0 +1,14 @@
+{
+  "status": "producer_scope_record",
+  "new_code_license": "MIT under repository terms; LICENSE included",
+  "new_documentation_license": "CC BY 4.0 under repository terms",
+  "dependency_license": "Original TMD MIT code loaded from hash-pinned unchanged repository paths",
+  "examples": "All gate probabilities, label counts and known-truth controls are synthetic",
+  "personal_or_private_data_added": false,
+  "external_source_bodies_added": false,
+  "external_biological_source_author_code_executed": false,
+  "new_native_evidence_claimed": false,
+  "mathematical_priority_claimed": false,
+  "joint_gate_classifier_sharpness_claimed": false,
+  "qualified_external_biological_review": false
+}
