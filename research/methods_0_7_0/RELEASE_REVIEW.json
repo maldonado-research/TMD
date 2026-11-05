@@ -1,0 +1,155 @@
+{
+  "all_eight_inherited_public_files_to_be_preserved": true,
+  "archive_files": 169,
+  "artifacts": [
+    {
+      "bytes": 498964,
+      "filename": "TMD_methods_0_7_0_2026-11-04.zip",
+      "md5": "904c3777535cb0515ff43431f1b86997",
+      "sha256": "575dfdcf1ee55d6c3691038f12dd0e73dcc1edee1e10828d6240789ccc0df4f4"
+    },
+    {
+      "bytes": 99,
+      "filename": "TMD_methods_0_7_0_2026-11-04_SHA256SUMS.txt",
+      "md5": "844d21889749dba7871f6ddfa37884c7",
+      "sha256": "3c37948cd298a1facd9b4331ce644120411deacc2c7bb2f7d24f421ba4fb33ab"
+    }
+  ],
+  "audit_date_utc": "2026-11-05",
+  "automatic_archiving_changed": false,
+  "credentials_or_private_inventories_included": false,
+  "deterministic_rebuild_from_extracted_archive_byte_identical": true,
+  "external_native_premises_unresolved": [
+    "Independent truth and native eligibility",
+    "Valid fixed-design sampling laws and full denominators",
+    "Prospective freezing and chronology",
+    "Deterministic native-control transport",
+    "Qualified external biological review"
+  ],
+  "external_peer_review": false,
+  "frozen_registry_sha256": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+  "full_extracted_replay": {
+    "archive_unchanged_after_replay": true,
+    "checks": [
+      {
+        "name": "conditional_curvature",
+        "receipt_sha256": "d07e7cd5205ad892c6d8307e432bc756045f65b46b564021217df935a3750e21",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "conditional_design",
+        "receipt_sha256": "bfff06cf0e482bd6687c2d10938494afc4b408d601ed28a1f3bb5fac3a63d6e4",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "conditional_recovery",
+        "receipt_sha256": "ba0908cb11842c818e833fddc875a75584e193c4d4dafb26f6597f679705d568",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "classification_bounds",
+        "receipt_sha256": "4efe3e88e777642821b36e1002a3fbf2b2b1b95f985dcf75544419fd88a2672e",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "eligibility_gate_bounds",
+        "receipt_sha256": "8c0c538daa8f155570c1e439b0ff565ed06b5f674c33ca9de59fabed5f6801eb",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "threshold_calibration",
+        "receipt_sha256": "0ce5713f70dcda380a381c0a02bb5a58e9ce1b37f23ed30e7bee87aa75c8735d",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "classification_independent_comparison",
+        "receipt_sha256": "d3fea139baf2961172b4476a35ba6773ec02722f0966389c89903ce47844e290",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "threshold_independent_comparison",
+        "receipt_sha256": "4a93086562208d692a054d28a09b644ab9688b9c41b6ce43a85a348613f81f3b",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "integrated_inference",
+        "receipt_sha256": "9c05672e32f268a1c94a33f65d23d113e8d7ee927cb4aa77e61190863ed6f327",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "integrated_independent_comparison",
+        "receipt_sha256": "eeb12210840d4b744ebe5f513d902f9a946f8288307aa5ece4c88316529f0a9f",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      },
+      {
+        "name": "integrated_independent_exact_oracle",
+        "receipt_sha256": "20bfa5b595b0287980123bcb9d05173fdd2aacdb2e81460619185d41472fcd61",
+        "saved_receipt_matches": true,
+        "status": "pass"
+      }
+    ],
+    "external_peer_review": false,
+    "inherited_hash_entries_checked": 51,
+    "integrated_cli_fixture_replays": [
+      "example_inclusive_all_tied",
+      "example_one_context_no_truth_controls",
+      "example_strict_separation"
+    ],
+    "manifest_files_checked": 168,
+    "measurement_bridge": {
+      "check_count": 20,
+      "status": "PASS_COUNTEREXAMPLE_SOURCE_UNRUN"
+    },
+    "native_validation": false,
+    "network_used": false,
+    "original_source_files_checked": 163,
+    "python": "3.12.14",
+    "saved_fixture_files_checked": 43,
+    "scope": "Bounded computational archive replay; preserved larger oracle receipts are hash verified, not all recomputed.",
+    "source_authentication_replayed": false,
+    "status": "pass"
+  },
+  "individual_human_sample_metadata_included": false,
+  "merge_commit": "6ee37825927225fb86ce0251c04e4bf156c6a92b",
+  "metadata_recommendation": "ZENODO_METADATA_RECOMMENDATION.json",
+  "metadata_recommendation_sha256": "d993163a77b1d4a2a21f27158929f9d5da0ce3ed37df64adaee923b5e4f07950",
+  "metadata_scientific_scope_independently_reviewed": true,
+  "native_biological_validation": false,
+  "new_theorem_claim": false,
+  "old_0_6_0_local_zip_sha256_unchanged": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+  "original_code_license": "MIT",
+  "original_documentation_license": "CC BY 4.0",
+  "original_source_files_compared_to_committed_objects": 163,
+  "preserved_dependency_notices": "classification_bounds/sources/LICENSE and VERSION_LINEAGE.md",
+  "previous_methods_record": "23219776",
+  "previous_methods_version": "0.6.0",
+  "privacy_scope": "First-party methods, original notes, synthetic data and already-public aggregate source summaries; four classification source-audit/individual-metadata files excluded unchanged; no raw source bodies or source-author code.",
+  "proposed_version": "0.7.0",
+  "public_source_confirmation": "Parent confirmed PR49 public and merged through connector readback. Offline content comparison used exact source commit.",
+  "publication_family": "10.5281/zenodo.23068055",
+  "registered_experiment": false,
+  "registry_role": "Single frozen protected-hash dependency; explicitly design_candidate_not_registered",
+  "release_blockers": [],
+  "release_date": "2026-11-04",
+  "release_date_timezone": "America/Los_Angeles",
+  "release_recommendation": "Publish a new 0.7.0 methods/report version in the existing family; biological data are not required for this explicitly conditional computational-methods snapshot.",
+  "remote_actions_performed_by_packaging_agent": 0,
+  "replay_receipt": "FINAL_EXTRACTED_REPLAY_RECEIPT.json",
+  "replay_receipt_sha256": "4c1c8f2c9dc421d0d4cc3568225bb87c2f813af66bff2a40958409e2afaf0d36",
+  "repository_edits_performed_by_packaging_agent": 0,
+  "resource_type": "publication-report",
+  "separate_software_family_unchanged": "22398093",
+  "source_commit": "7bd3f2e47dd13e4f31a9c60c2c6465f188fe14cb",
+  "status": "ready_for_parent_publication_decision",
+  "third_party_raw_source_bodies_included": false
+}

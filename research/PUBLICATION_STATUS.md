@@ -1,8 +1,24 @@
 # TMD publication status
 
+Checked 4 November 2026 (America/Los_Angeles); public verification 5 November UTC.
+
+**Current: methods 0.7.0 is published as [record 23970140](https://doi.org/10.5281/zenodo.23970140), in the existing report/methods concept [23068055](https://doi.org/10.5281/zenodo.23068055).** Its standalone archive collects conditional curvature, design, recovery, classification, eligibility, maximum-threshold calibration and the integrated observation pipeline. All claims remain conditional; native biological validation and qualified external review are outstanding.
+
+[Release overview](../TMD_METHODS_0_7_0.md) · [Public-byte receipt](methods_0_7_0/PUBLICATION_RECEIPT.json) · [Release review](methods_0_7_0/RELEASE_REVIEW.json) · [Extracted replay](methods_0_7_0/FINAL_EXTRACTED_REPLAY_RECEIPT.json).
+
+The new ZIP is 498,964 bytes, contains 169 files, and has SHA-256 `575dfdcf1ee55d6c3691038f12dd0e73dcc1edee1e10828d6240789ccc0df4f4`. Eleven bounded verification jobs, 43 saved fixtures, three integrated CLI examples, 51 preserved hashes and 163 source-commit comparisons pass; deterministic rebuilding is byte-identical. Larger historical oracle receipts and excluded source authentication are distinguished from checks freshly rerun.
+
+All ten public files, including the eight inherited files, were downloaded without authentication and checked by length, MD5 and SHA-256 after publication. Complete supplied metadata and exact notes match canonical metadata and rendered public HTML. Methods 0.6.0, its eight published files, earlier records and the separate historical software family retain their bytes and identities. No GitHub Release event was created and automatic archiving was not changed.
+
+The [transport diagnostics](methods_0_7_0/TRANSPORT_DIAGNOSTICS.json) preserve response-format rejections and their corrections. One new version was created in the verified owned family; no duplicate standalone family was created. Actual study/planning inputs remain unresolved, and the integrated diagnostic does not change the frozen primary study protocol.
+
+The dated observations below describe earlier publication states. Their current/pending wording applies only to their historical checkpoints.
+
+# Historical publication status through methods 0.6.0
+
 Checked 8 October 2026 (America/Los_Angeles).
 
-**Current: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
+**At the 8 October checkpoint: methods 0.6.0 is published as [record 23219776](https://doi.org/10.5281/zenodo.23219776), preserving concept DOI 10.5281/zenodo.23068055.** Publication completed at 14:50 PDT on 8 October. All eight public files / 2,960,144 bytes were independently verified before publication and downloaded again without authentication afterward. Exact approved metadata and notes are saved and rendered publicly. [Publication receipt](publication_diagnostics/2026-10-08_PUBLICATION_RECEIPT.json).
 
 The approved ZIP is unchanged and freezes the 1 October methods snapshot. Later R1–R36 addenda remain separate GitHub work. The six inherited files, earlier published versions and separate software family are preserved. No active draft remains, and automatic archiving was not changed.
 

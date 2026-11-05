@@ -9,7 +9,13 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Latest research checkpoint — R43, 16 October 2026
+## Current methods release — 0.7.0
+
+[Methods 0.7.0](TMD_METHODS_0_7_0.md) is [published on Zenodo](https://doi.org/10.5281/zenodo.23970140). The [integrated observation pipeline](research/integrated_inference/README.md) connects learned gates, full-cohort eligibility and wrong-label bounds under one declared error budget. Its proof, independent checks and synthetic examples make the assumptions and uncertainty allocations explicit. Native biological validation remains outstanding.
+
+The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
+
+## Prior research checkpoint — R43, 16 October 2026
 
 The [barcode identity contract](research/barcode_identity_audit/REPORT.md) now links extraction, retention, numerical outputs, ordered IDs and CNV annotations to explicit evidence requirements. An original [structural preflight](research/barcode_identity_audit/preflight.py) rejects positional-only inputs and duplicate keys, accounts for declared row roles and preserves unmatched annotations as unknown. Eight adversarial tests and 67 separate assertions pass. Structural success does not authenticate supplied identities, roles or biological truth.
 

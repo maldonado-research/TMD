@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "scope": "Independent internal AI-assisted read-only review of staged methods archive; not external peer review.",
+  "reviewer_task": "integrated_oracle_49",
+  "draft_id": "23970140",
+  "draft_revision_id": 9,
+  "parent_id": "23068055",
+  "metadata_all_supplied_fields_match": true,
+  "all_ten_staged_bodies_length_md5_sha256_verified": true,
+  "eight_inherited_files_match_previous_public_inventory": true,
+  "final_archive_replay_pass": true,
+  "release_blockers": [],
+  "staging_verification_sha256": "5c115c645fe7384761a14b0203d59186ad2055610d3327ced3423938f50964a0",
+  "metadata_candidate_sha256": "2e5d2f09ac2e2d94e2a9dad98005bd539c54f9ea2e5cbc72ed3b27da5ea1bda9",
+  "remote_actions_by_reviewer": 0
+}

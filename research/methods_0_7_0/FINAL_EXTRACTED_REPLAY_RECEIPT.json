@@ -1,0 +1,91 @@
+{
+  "archive_unchanged_after_replay": true,
+  "checks": [
+    {
+      "name": "conditional_curvature",
+      "receipt_sha256": "d07e7cd5205ad892c6d8307e432bc756045f65b46b564021217df935a3750e21",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "conditional_design",
+      "receipt_sha256": "bfff06cf0e482bd6687c2d10938494afc4b408d601ed28a1f3bb5fac3a63d6e4",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "conditional_recovery",
+      "receipt_sha256": "ba0908cb11842c818e833fddc875a75584e193c4d4dafb26f6597f679705d568",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "classification_bounds",
+      "receipt_sha256": "4efe3e88e777642821b36e1002a3fbf2b2b1b95f985dcf75544419fd88a2672e",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "eligibility_gate_bounds",
+      "receipt_sha256": "8c0c538daa8f155570c1e439b0ff565ed06b5f674c33ca9de59fabed5f6801eb",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "threshold_calibration",
+      "receipt_sha256": "0ce5713f70dcda380a381c0a02bb5a58e9ce1b37f23ed30e7bee87aa75c8735d",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "classification_independent_comparison",
+      "receipt_sha256": "d3fea139baf2961172b4476a35ba6773ec02722f0966389c89903ce47844e290",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "threshold_independent_comparison",
+      "receipt_sha256": "4a93086562208d692a054d28a09b644ab9688b9c41b6ce43a85a348613f81f3b",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "integrated_inference",
+      "receipt_sha256": "9c05672e32f268a1c94a33f65d23d113e8d7ee927cb4aa77e61190863ed6f327",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "integrated_independent_comparison",
+      "receipt_sha256": "eeb12210840d4b744ebe5f513d902f9a946f8288307aa5ece4c88316529f0a9f",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    },
+    {
+      "name": "integrated_independent_exact_oracle",
+      "receipt_sha256": "20bfa5b595b0287980123bcb9d05173fdd2aacdb2e81460619185d41472fcd61",
+      "saved_receipt_matches": true,
+      "status": "pass"
+    }
+  ],
+  "external_peer_review": false,
+  "inherited_hash_entries_checked": 51,
+  "integrated_cli_fixture_replays": [
+    "example_inclusive_all_tied",
+    "example_one_context_no_truth_controls",
+    "example_strict_separation"
+  ],
+  "manifest_files_checked": 168,
+  "measurement_bridge": {
+    "check_count": 20,
+    "status": "PASS_COUNTEREXAMPLE_SOURCE_UNRUN"
+  },
+  "native_validation": false,
+  "network_used": false,
+  "original_source_files_checked": 163,
+  "python": "3.12.14",
+  "saved_fixture_files_checked": 43,
+  "scope": "Bounded computational archive replay; preserved larger oracle receipts are hash verified, not all recomputed.",
+  "source_authentication_replayed": false,
+  "status": "pass"
+}

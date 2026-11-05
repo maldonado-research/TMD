@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Mutation by Natural Dominance: conditional observation and control inference",
+    "publication_date": "2026-11-04",
+    "version": "0.7.0",
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "description": "<p>This methods/report snapshot archives original TMD software and explanations for conditional observation and control inference, with synthetic examples and bounded computational checks. It includes exact conditional curvature tests, design diagnostics, differential-recovery sensitivity, wrong-label classification bounds, eligible-cohort bounds using known-Other controls, and selection-aware maximum-threshold calibration. An integrated pipeline carries a declared error budget through threshold calibration, full-cohort gates, route controls and count uncertainty to simultaneous curvature intervals. The component methods retain their distinct sampling and observation contracts.</p><p>All guarantees are conditional on the stated independent-truth, denominator, sampling, fixed-design, score-freezing and transport premises. The archive supplies no native biological validation, matched native control panel, new mathematical theorem or priority claim, registered experiment, or qualified external peer review. Its examples and operating checks are synthetic; public source notes are limited to original commentary, attribution and aggregate observations. AI assistance and independent internal computational review are disclosed.</p><p>Original software is MIT licensed and original documentation is CC BY 4.0, with preserved attribution. The standalone archive provides pinned dependency hashes, a full file manifest, portable reproduction commands and an isolated bounded replay. Earlier methods archives remain unchanged.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "The 0.7.0 artifact is TMD_methods_0_7_0_2026-11-04.zip with its matching SHA-256 checksum file. The eight inherited public files are retained byte-for-byte and represent earlier releases; they are not regenerated or relabeled. Methods 0.6.0 remains the immutable 1 October snapshot published as DOI 10.5281/zenodo.23219776. This version belongs to the existing report/methods concept DOI 10.5281/zenodo.23068055; historical software v2.6.5, record 22398093, is a separate family. The single preserved registry candidate is included only for an integrity check and remains unregistered. Raw third-party article bodies, noncommercial reading copies, individual human sample metadata, private inventories, credentials and caches are excluded. Some larger independent oracle receipts are preserved and hash checked rather than fully rerun; excluded source bodies are not freshly authenticated by the standalone computational replay. Publication date is 4 November 2026 America/Los_Angeles; source snapshot and computational audit are 5 November 2026 UTC. Public source content: https://github.com/maldonado-research/TMD/tree/7bd3f2e47dd13e4f31a9c60c2c6465f188fe14cb (merged through PR 49)."
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "mutation bias"
+      },
+      {
+        "subject": "observation models"
+      },
+      {
+        "subject": "conditional inference"
+      },
+      {
+        "subject": "misclassification"
+      },
+      {
+        "subject": "control calibration"
+      },
+      {
+        "subject": "eligibility gates"
+      },
+      {
+        "subject": "reproducible methods"
+      }
+    ],
+    "publisher": "Zenodo"
+  }
+}
