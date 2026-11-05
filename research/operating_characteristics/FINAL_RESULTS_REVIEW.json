@@ -1,0 +1,407 @@
+{
+  "all_source_hashes_match_current": true,
+  "cells": 20,
+  "cells_checked": [
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 17,
+        "inconclusive_at_declared_score_gate": 111
+      },
+      "key": [
+        "conventional_equal",
+        30,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 59,
+        "inconclusive_at_declared_score_gate": 69
+      },
+      "key": [
+        "conventional_equal",
+        30,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "inconclusive_at_declared_score_gate": 128
+      },
+      "key": [
+        "conventional_equal",
+        300,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 6,
+        "inconclusive_at_declared_score_gate": 122
+      },
+      "key": [
+        "conventional_equal",
+        300,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 12,
+        "inconclusive_at_declared_score_gate": 116
+      },
+      "key": [
+        "conventional_weak",
+        30,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 61,
+        "certified_success_at_declared_score_gate": 1,
+        "inconclusive_at_declared_score_gate": 66
+      },
+      "key": [
+        "conventional_weak",
+        30,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 1,
+        "inconclusive_at_declared_score_gate": 127
+      },
+      "key": [
+        "conventional_weak",
+        300,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 6,
+        "inconclusive_at_declared_score_gate": 122
+      },
+      "key": [
+        "conventional_weak",
+        300,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 44,
+        "inconclusive_at_declared_score_gate": 84
+      },
+      "key": [
+        "conventional_strong",
+        30,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 104,
+        "inconclusive_at_declared_score_gate": 24
+      },
+      "key": [
+        "conventional_strong",
+        30,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 39,
+        "inconclusive_at_declared_score_gate": 89
+      },
+      "key": [
+        "conventional_strong",
+        300,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 121,
+        "inconclusive_at_declared_score_gate": 7
+      },
+      "key": [
+        "conventional_strong",
+        300,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 13,
+        "inconclusive_at_declared_score_gate": 115
+      },
+      "key": [
+        "common_weak",
+        30,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 41,
+        "certified_success_at_declared_score_gate": 4,
+        "inconclusive_at_declared_score_gate": 83
+      },
+      "key": [
+        "common_weak",
+        30,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 1,
+        "inconclusive_at_declared_score_gate": 127
+      },
+      "key": [
+        "common_weak",
+        300,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 3,
+        "certified_success_at_declared_score_gate": 1,
+        "inconclusive_at_declared_score_gate": 124
+      },
+      "key": [
+        "common_weak",
+        300,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 7,
+        "certified_success_at_declared_score_gate": 1,
+        "inconclusive_at_declared_score_gate": 120
+      },
+      "key": [
+        "common_strong",
+        30,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 19,
+        "certified_success_at_declared_score_gate": 18,
+        "inconclusive_at_declared_score_gate": 91
+      },
+      "key": [
+        "common_strong",
+        30,
+        400
+      ]
+    },
+    {
+      "decisions": {
+        "inconclusive_at_declared_score_gate": 128
+      },
+      "key": [
+        "common_strong",
+        300,
+        80
+      ]
+    },
+    {
+      "decisions": {
+        "certified_failure_at_declared_score_gate": 4,
+        "certified_success_at_declared_score_gate": 4,
+        "inconclusive_at_declared_score_gate": 120
+      },
+      "key": [
+        "common_strong",
+        300,
+        400
+      ]
+    }
+  ],
+  "certificate_truth_numerically_unresolved": 0,
+  "checks": [
+    "all cell record counts and decisions independently accumulated",
+    "per-comparator certificate counts and gain means checked against raw records",
+    "pre-outcome ceiling flags counted independently",
+    "marginal Monte Carlo CP intervals replayed",
+    "selected common-strong claims checked",
+    "representative stored score_input fully recomputed by unchanged engine"
+  ],
+  "common_strong_cal300_N400": {
+    "all_comparator_001_margin_impossible_before_outcomes": {
+      "count": 107,
+      "fraction": 0.8359375,
+      "monte_carlo_95pct_CP_interval": [
+        0.7602123809047043,
+        0.895479901926592
+      ]
+    },
+    "all_comparator_005_margin_impossible_before_outcomes": {
+      "count": 127,
+      "fraction": 0.9921875,
+      "monte_carlo_95pct_CP_interval": [
+        0.9572409680113196,
+        0.9998022243380547
+      ]
+    },
+    "certificate_truth_numerically_unresolved": 0,
+    "decisions": {
+      "certified_failure_at_declared_score_gate": {
+        "count": 4,
+        "fraction": 0.03125,
+        "monte_carlo_95pct_CP_interval": [
+          0.008578935405239463,
+          0.07807952561415732
+        ]
+      },
+      "certified_success_at_declared_score_gate": {
+        "count": 4,
+        "fraction": 0.03125,
+        "monte_carlo_95pct_CP_interval": [
+          0.008578935405239463,
+          0.07807952561415732
+        ]
+      },
+      "inconclusive_at_declared_score_gate": {
+        "count": 120,
+        "fraction": 0.9375,
+        "monte_carlo_95pct_CP_interval": [
+          0.8805632165167481,
+          0.9726333152502775
+        ]
+      },
+      "unevaluable_endpoint_zero_qualifying": {
+        "count": 0,
+        "fraction": 0.0,
+        "monte_carlo_95pct_CP_interval": [
+          0.0,
+          0.028408053563907743
+        ]
+      },
+      "unevaluable_training_zero_qualifying": {
+        "count": 0,
+        "fraction": 0.0,
+        "monte_carlo_95pct_CP_interval": [
+          0.0,
+          0.028408053563907743
+        ]
+      }
+    },
+    "excluded_totals": {
+      "Other": 10240,
+      "missing": 2574,
+      "no_qualified_outcome": 5089,
+      "unresolved_classification": 2583
+    },
+    "false_certificates_proved": {
+      "count": 0,
+      "fraction": 0.0,
+      "monte_carlo_95pct_CP_interval": [
+        0.0,
+        0.028408053563907743
+      ]
+    },
+    "individual_negative_certificates": {
+      "flexible": {
+        "count": 4,
+        "fraction": 0.03125,
+        "monte_carlo_95pct_CP_interval": [
+          0.008578935405239463,
+          0.07807952561415732
+        ]
+      },
+      "supply_establishment_observation": {
+        "count": 0,
+        "fraction": 0.0,
+        "monte_carlo_95pct_CP_interval": [
+          0.0,
+          0.028408053563907743
+        ]
+      },
+      "supply_observation": {
+        "count": 0,
+        "fraction": 0.0,
+        "monte_carlo_95pct_CP_interval": [
+          0.0,
+          0.028408053563907743
+        ]
+      }
+    },
+    "individual_positive_certificates": {
+      "flexible": {
+        "count": 4,
+        "fraction": 0.03125,
+        "monte_carlo_95pct_CP_interval": [
+          0.008578935405239463,
+          0.07807952561415732
+        ]
+      },
+      "supply_establishment_observation": {
+        "count": 128,
+        "fraction": 1.0,
+        "monte_carlo_95pct_CP_interval": [
+          0.9715919464360923,
+          1.0
+        ]
+      },
+      "supply_observation": {
+        "count": 122,
+        "fraction": 0.953125,
+        "monte_carlo_95pct_CP_interval": [
+          0.9007648762781173,
+          0.9826059439219534
+        ]
+      }
+    },
+    "mean_qualifying_totals": [
+      319.765625,
+      320.1875
+    ],
+    "repeats_with_fitted_forecasts": 128,
+    "repetitions": 128,
+    "simultaneous_outcome_region_misses_truth": {
+      "count": 4,
+      "fraction": 0.03125,
+      "monte_carlo_95pct_CP_interval": [
+        0.008578935405239463,
+        0.07807952561415732
+      ]
+    },
+    "truth_all_comparator_gains_positive": {
+      "count": 56,
+      "fraction": 0.4375,
+      "monte_carlo_95pct_CP_interval": [
+        0.3500213783700019,
+        0.5279368152841926
+      ]
+    },
+    "truth_gain_mean_nats": {
+      "flexible": 7.245636079524065e-05,
+      "supply_establishment_observation": 0.23418353458688604,
+      "supply_observation": 0.14908167064563532
+    }
+  },
+  "decision_counts": {
+    "certified_failure_at_declared_score_gate": 558,
+    "certified_success_at_declared_score_gate": 29,
+    "inconclusive_at_declared_score_gate": 1973
+  },
+  "false_certificates_proved": 0,
+  "repetitions": 2560,
+  "representative_file": "example_common_strong_cal300_N400.json",
+  "representative_score_result_exact_match": true,
+  "result_file": "/workspace/tmd-operating-draft/results.json",
+  "result_sha256": "e0ec0c96303e5785f8c914856426f08e1a340c8f1ae4c3b1bf951d26f3e6a847",
+  "script_sha256": "9fb6b14166c5019887c1d6c0e7050e649890e83f78cdf82cc7d984ee2ee2284a",
+  "simultaneous_region_misses_truth": 80,
+  "status": "independent_final_results_checks_passed"
+}

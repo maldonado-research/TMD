@@ -1,0 +1,3364 @@
+{
+  "aggregate_finite_checks": {
+    "certificate_truth_numerically_unresolved": 0,
+    "interpretation": "Finite observations across heterogeneous cells; no pooled binomial guarantee or zero-error claim.",
+    "proved_false_certificates": 0,
+    "simultaneous_outcome_region_misses_truth": 80,
+    "unevaluable_repetitions": 0
+  },
+  "cells": [
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_equal",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 43,
+          "fraction": 0.3359375,
+          "monte_carlo_95pct_CP_interval": [
+            0.2549080897588283,
+            0.42475287220440805
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 103,
+          "fraction": 0.8046875,
+          "monte_carlo_95pct_CP_interval": [
+            0.7253279818687588,
+            0.8694354477338493
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 17,
+            "fraction": 0.1328125,
+            "monte_carlo_95pct_CP_interval": [
+              0.07931095384992659,
+              0.20411080261692405
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 111,
+            "fraction": 0.8671875,
+            "monte_carlo_95pct_CP_interval": [
+              0.795889197383076,
+              0.9206890461500734
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2009,
+          "missing": 507,
+          "no_qualified_outcome": 1073,
+          "unresolved_classification": 505
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 9,
+            "fraction": 0.0703125,
+            "monte_carlo_95pct_CP_interval": [
+              0.032653627218678594,
+              0.12927938811481
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          },
+          "supply_observation": {
+            "count": 11,
+            "fraction": 0.0859375,
+            "monte_carlo_95pct_CP_interval": [
+              0.043682306772097945,
+              0.14856349234469235
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 14,
+            "fraction": 0.109375,
+            "monte_carlo_95pct_CP_interval": [
+              0.06110136769711971,
+              0.17670058831572533
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 8,
+            "fraction": 0.0625,
+            "monte_carlo_95pct_CP_interval": [
+              0.02736668474972248,
+              0.11943678348325193
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.1015625,
+          63.9140625
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 10,
+          "fraction": 0.078125,
+          "monte_carlo_95pct_CP_interval": [
+            0.0380993892904371,
+            0.13898245920427144
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 17,
+          "fraction": 0.1328125,
+          "monte_carlo_95pct_CP_interval": [
+            0.07931095384992659,
+            0.20411080261692405
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.002010817751822702,
+          "supply_establishment_observation": -0.0021675259662678383,
+          "supply_observation": -0.04256220260731265
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_equal",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 30,
+          "fraction": 0.234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.16406018869020045,
+            0.31737552024424076
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 95,
+          "fraction": 0.7421875,
+          "monte_carlo_95pct_CP_interval": [
+            0.6574135820847005,
+            0.8154172648210078
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 59,
+            "fraction": 0.4609375,
+            "monte_carlo_95pct_CP_interval": [
+              0.37249739770777524,
+              0.5512260016985238
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 69,
+            "fraction": 0.5390625,
+            "monte_carlo_95pct_CP_interval": [
+              0.44877399830147624,
+              0.6275026022922248
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10332,
+          "missing": 2584,
+          "no_qualified_outcome": 5071,
+          "unresolved_classification": 2569
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 18,
+            "fraction": 0.140625,
+            "monte_carlo_95pct_CP_interval": [
+              0.08552322955802083,
+              0.21311476943083107
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 30,
+            "fraction": 0.234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.16406018869020045,
+              0.31737552024424076
+            ]
+          },
+          "supply_observation": {
+            "count": 45,
+            "fraction": 0.3515625,
+            "monte_carlo_95pct_CP_interval": [
+              0.26928731915540993,
+              0.44087791885249317
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 31,
+            "fraction": 0.2421875,
+            "monte_carlo_95pct_CP_interval": [
+              0.17086809501051903,
+              0.3258111246395856
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 22,
+            "fraction": 0.171875,
+            "monte_carlo_95pct_CP_interval": [
+              0.11096028122119606,
+              0.24857637006789446
+            ]
+          },
+          "supply_observation": {
+            "count": 6,
+            "fraction": 0.046875,
+            "monte_carlo_95pct_CP_interval": [
+              0.01739405607804656,
+              0.0992351237218827
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.9921875,
+          319.4140625
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 7,
+          "fraction": 0.0546875,
+          "monte_carlo_95pct_CP_interval": [
+            0.02226714580319822,
+            0.10943205165676773
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 17,
+          "fraction": 0.1328125,
+          "monte_carlo_95pct_CP_interval": [
+            0.07931095384992659,
+            0.20411080261692405
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0021045566590636527,
+          "supply_establishment_observation": -0.0050635703534097215,
+          "supply_observation": -0.03460133025996877
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_equal",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 109,
+          "fraction": 0.8515625,
+          "monte_carlo_95pct_CP_interval": [
+            0.7779401389416307,
+            0.9082018262706697
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 128,
+            "fraction": 1.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.9715919464360923,
+              1.0
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2070,
+          "missing": 523,
+          "no_qualified_outcome": 1000,
+          "unresolved_classification": 509
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.40625,
+          63.546875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 4,
+          "fraction": 0.03125,
+          "monte_carlo_95pct_CP_interval": [
+            0.008578935405239463,
+            0.07807952561415732
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 6,
+          "fraction": 0.046875,
+          "monte_carlo_95pct_CP_interval": [
+            0.01739405607804656,
+            0.0992351237218827
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 2.8928022934540865e-05,
+          "supply_establishment_observation": -0.0009010601505213751,
+          "supply_observation": -0.0047733971775097625
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_equal",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 114,
+          "fraction": 0.890625,
+          "monte_carlo_95pct_CP_interval": [
+            0.8232994116842747,
+            0.9388986323028803
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 6,
+            "fraction": 0.046875,
+            "monte_carlo_95pct_CP_interval": [
+              0.01739405607804656,
+              0.0992351237218827
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 122,
+            "fraction": 0.953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.9007648762781173,
+              0.9826059439219534
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10052,
+          "missing": 2492,
+          "no_qualified_outcome": 5148,
+          "unresolved_classification": 2591
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_observation": {
+            "count": 2,
+            "fraction": 0.015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.001897892914712429,
+              0.055302590131759644
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 2,
+            "fraction": 0.015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.001897892914712429,
+              0.055302590131759644
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          320.140625,
+          321.3984375
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 16,
+          "fraction": 0.125,
+          "monte_carlo_95pct_CP_interval": [
+            0.07316607795655727,
+            0.19504378200508654
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 1.764327498415692e-05,
+          "supply_establishment_observation": -0.0007785177284862691,
+          "supply_observation": -0.004316056930202134
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 44,
+          "fraction": 0.34375,
+          "monte_carlo_95pct_CP_interval": [
+            0.2620855341665447,
+            0.43282738234847784
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 104,
+          "fraction": 0.8125,
+          "monte_carlo_95pct_CP_interval": [
+            0.7339835974853486,
+            0.8760151010937989
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 12,
+            "fraction": 0.09375,
+            "monte_carlo_95pct_CP_interval": [
+              0.04938549594953656,
+              0.15803636657074094
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 116,
+            "fraction": 0.90625,
+            "monte_carlo_95pct_CP_interval": [
+              0.8419636334292591,
+              0.9506145040504634
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2031,
+          "missing": 522,
+          "no_qualified_outcome": 1070,
+          "unresolved_classification": 500
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 2,
+            "fraction": 0.015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.001897892914712429,
+              0.055302590131759644
+            ]
+          },
+          "supply_observation": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          63.8046875,
+          63.984375
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 9,
+          "fraction": 0.0703125,
+          "monte_carlo_95pct_CP_interval": [
+            0.032653627218678594,
+            0.12927938811481
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0004457105475013348,
+          "supply_establishment_observation": 0.004502602208310227,
+          "supply_observation": -0.02880629376458064
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 39,
+          "fraction": 0.3046875,
+          "monte_carlo_95pct_CP_interval": [
+            0.22645057761110365,
+            0.392206841846928
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 98,
+          "fraction": 0.765625,
+          "monte_carlo_95pct_CP_interval": [
+            0.6826244797557592,
+            0.8359398113097996
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 61,
+            "fraction": 0.4765625,
+            "monte_carlo_95pct_CP_interval": [
+              0.38758641481399536,
+              0.5666475098114461
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 66,
+            "fraction": 0.515625,
+            "monte_carlo_95pct_CP_interval": [
+              0.4256729371845722,
+              0.6048378036357462
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10398,
+          "missing": 2433,
+          "no_qualified_outcome": 5157,
+          "unresolved_classification": 2633
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 27,
+            "fraction": 0.2109375,
+            "monte_carlo_95pct_CP_interval": [
+              0.14384835143573582,
+              0.2918637366965413
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 24,
+            "fraction": 0.1875,
+            "monte_carlo_95pct_CP_interval": [
+              0.12398489890620112,
+              0.2660164025146514
+            ]
+          },
+          "supply_observation": {
+            "count": 44,
+            "fraction": 0.34375,
+            "monte_carlo_95pct_CP_interval": [
+              0.2620855341665447,
+              0.43282738234847784
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 28,
+            "fraction": 0.21875,
+            "monte_carlo_95pct_CP_interval": [
+              0.15054899593815207,
+              0.30040304362773895
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 18,
+            "fraction": 0.140625,
+            "monte_carlo_95pct_CP_interval": [
+              0.08552322955802083,
+              0.21311476943083107
+            ]
+          },
+          "supply_observation": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          320.5078125,
+          318.390625
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 4,
+          "fraction": 0.03125,
+          "monte_carlo_95pct_CP_interval": [
+            0.008578935405239463,
+            0.07807952561415732
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 15,
+          "fraction": 0.1171875,
+          "monte_carlo_95pct_CP_interval": [
+            0.06709408177994192,
+            0.1859089017380029
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": -0.00036086864577243767,
+          "supply_establishment_observation": -0.0043073663473159945,
+          "supply_observation": -0.028539916209818692
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 114,
+          "fraction": 0.890625,
+          "monte_carlo_95pct_CP_interval": [
+            0.8232994116842747,
+            0.9388986323028803
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 127,
+            "fraction": 0.9921875,
+            "monte_carlo_95pct_CP_interval": [
+              0.9572409680113196,
+              0.9998022243380547
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2063,
+          "missing": 552,
+          "no_qualified_outcome": 1037,
+          "unresolved_classification": 488
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          63.9765625,
+          63.6796875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 1,
+          "fraction": 0.0078125,
+          "monte_carlo_95pct_CP_interval": [
+            0.00019777566194534302,
+            0.04275903198868036
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 10,
+          "fraction": 0.078125,
+          "monte_carlo_95pct_CP_interval": [
+            0.0380993892904371,
+            0.13898245920427144
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": -2.363587228156124e-05,
+          "supply_establishment_observation": -0.0018074437783309862,
+          "supply_observation": -0.003938066326076601
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 99,
+          "fraction": 0.7734375,
+          "monte_carlo_95pct_CP_interval": [
+            0.6910934520419687,
+            0.8427132647484541
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 6,
+            "fraction": 0.046875,
+            "monte_carlo_95pct_CP_interval": [
+              0.01739405607804656,
+              0.0992351237218827
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 122,
+            "fraction": 0.953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.9007648762781173,
+              0.9826059439219534
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10208,
+          "missing": 2616,
+          "no_qualified_outcome": 5156,
+          "unresolved_classification": 2575
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_observation": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.9765625,
+          319.4375
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 2,
+          "fraction": 0.015625,
+          "monte_carlo_95pct_CP_interval": [
+            0.001897892914712429,
+            0.055302590131759644
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 14,
+          "fraction": 0.109375,
+          "monte_carlo_95pct_CP_interval": [
+            0.06110136769711971,
+            0.17670058831572533
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 3.6776673235430974e-05,
+          "supply_establishment_observation": -0.0026243026950199164,
+          "supply_observation": -0.004000736957714244
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 2,
+          "fraction": 0.015625,
+          "monte_carlo_95pct_CP_interval": [
+            0.001897892914712429,
+            0.055302590131759644
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 24,
+          "fraction": 0.1875,
+          "monte_carlo_95pct_CP_interval": [
+            0.12398489890620112,
+            0.2660164025146514
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 44,
+            "fraction": 0.34375,
+            "monte_carlo_95pct_CP_interval": [
+              0.2620855341665447,
+              0.43282738234847784
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 84,
+            "fraction": 0.65625,
+            "monte_carlo_95pct_CP_interval": [
+              0.5671726176515222,
+              0.7379144658334553
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2089,
+          "missing": 493,
+          "no_qualified_outcome": 989,
+          "unresolved_classification": 488
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 17,
+            "fraction": 0.1328125,
+            "monte_carlo_95pct_CP_interval": [
+              0.07931095384992659,
+              0.20411080261692405
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 28,
+            "fraction": 0.21875,
+            "monte_carlo_95pct_CP_interval": [
+              0.15054899593815207,
+              0.30040304362773895
+            ]
+          },
+          "supply_observation": {
+            "count": 9,
+            "fraction": 0.0703125,
+            "monte_carlo_95pct_CP_interval": [
+              0.032653627218678594,
+              0.12927938811481
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 42,
+            "fraction": 0.328125,
+            "monte_carlo_95pct_CP_interval": [
+              0.24775540363043547,
+              0.4166539991274476
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "supply_observation": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.171875,
+          64.1171875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 5,
+          "fraction": 0.0390625,
+          "monte_carlo_95pct_CP_interval": [
+            0.012803176883608103,
+            0.08880442660301924
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.014756133868929504,
+          "supply_establishment_observation": -0.10801293392846253,
+          "supply_observation": -0.02094767374989006
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 23,
+          "fraction": 0.1796875,
+          "monte_carlo_95pct_CP_interval": [
+            0.1174493886064738,
+            0.25731853721663356
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 104,
+            "fraction": 0.8125,
+            "monte_carlo_95pct_CP_interval": [
+              0.7339835974853486,
+              0.8760151010937989
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 24,
+            "fraction": 0.1875,
+            "monte_carlo_95pct_CP_interval": [
+              0.12398489890620112,
+              0.2660164025146514
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10219,
+          "missing": 2595,
+          "no_qualified_outcome": 5235,
+          "unresolved_classification": 2603
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 43,
+            "fraction": 0.3359375,
+            "monte_carlo_95pct_CP_interval": [
+              0.2549080897588283,
+              0.42475287220440805
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 86,
+            "fraction": 0.671875,
+            "monte_carlo_95pct_CP_interval": [
+              0.5833460008725524,
+              0.7522445963695645
+            ]
+          },
+          "supply_observation": {
+            "count": 38,
+            "fraction": 0.296875,
+            "monte_carlo_95pct_CP_interval": [
+              0.2194017954170704,
+              0.3840059801004827
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 62,
+            "fraction": 0.484375,
+            "monte_carlo_95pct_CP_interval": [
+              0.39516219636425376,
+              0.5743270628154278
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 13,
+            "fraction": 0.1015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.05519549548625946,
+              0.1674123164266348
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          318.5,
+          320.15625
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.028209877423299532,
+          "supply_establishment_observation": -0.1190147763594379,
+          "supply_observation": -0.022903695378221855
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "conventional_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 6,
+          "fraction": 0.046875,
+          "monte_carlo_95pct_CP_interval": [
+            0.01739405607804656,
+            0.0992351237218827
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 84,
+          "fraction": 0.65625,
+          "monte_carlo_95pct_CP_interval": [
+            0.5671726176515222,
+            0.7379144658334553
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 39,
+            "fraction": 0.3046875,
+            "monte_carlo_95pct_CP_interval": [
+              0.22645057761110365,
+              0.392206841846928
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 89,
+            "fraction": 0.6953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.607793158153072,
+              0.7735494223888963
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2065,
+          "missing": 498,
+          "no_qualified_outcome": 1029,
+          "unresolved_classification": 504
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 31,
+            "fraction": 0.2421875,
+            "monte_carlo_95pct_CP_interval": [
+              0.17086809501051903,
+              0.3258111246395856
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 13,
+            "fraction": 0.1015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.05519549548625946,
+              0.1674123164266348
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 35,
+            "fraction": 0.2734375,
+            "monte_carlo_95pct_CP_interval": [
+              0.1984224843326956,
+              0.3592399964109063
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          63.828125,
+          64.171875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0009253253567986586,
+          "supply_establishment_observation": -0.11523983499372586,
+          "supply_observation": 0.002722913055285288
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "conventional_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 6,
+          "fraction": 0.046875,
+          "monte_carlo_95pct_CP_interval": [
+            0.01739405607804656,
+            0.0992351237218827
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 81,
+          "fraction": 0.6328125,
+          "monte_carlo_95pct_CP_interval": [
+            0.5430915176402777,
+            0.7162376083433628
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 121,
+            "fraction": 0.9453125,
+            "monte_carlo_95pct_CP_interval": [
+              0.8905679483432323,
+              0.9777328541968018
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10342,
+          "missing": 2485,
+          "no_qualified_outcome": 5209,
+          "unresolved_classification": 2565
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 43,
+            "fraction": 0.3359375,
+            "monte_carlo_95pct_CP_interval": [
+              0.2549080897588283,
+              0.42475287220440805
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 119,
+            "fraction": 0.9296875,
+            "monte_carlo_95pct_CP_interval": [
+              0.87072061188519,
+              0.9673463727813214
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 53,
+            "fraction": 0.4140625,
+            "monte_carlo_95pct_CP_interval": [
+              0.32773706619627774,
+              0.5044569931924343
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          320.3515625,
+          318.703125
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 2,
+          "fraction": 0.015625,
+          "monte_carlo_95pct_CP_interval": [
+            0.001897892914712429,
+            0.055302590131759644
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.002673520714668761,
+          "supply_establishment_observation": -0.11392804073682124,
+          "supply_observation": 0.0043406500851144
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "common_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 36,
+          "fraction": 0.28125,
+          "monte_carlo_95pct_CP_interval": [
+            0.20538706495426595,
+            0.36752319405786693
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 93,
+          "fraction": 0.7265625,
+          "monte_carlo_95pct_CP_interval": [
+            0.6407600035890937,
+            0.8015775156673044
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 13,
+            "fraction": 0.1015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.05519549548625946,
+              0.1674123164266348
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 115,
+            "fraction": 0.8984375,
+            "monte_carlo_95pct_CP_interval": [
+              0.8325876835733652,
+              0.9448045045137405
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2029,
+          "missing": 450,
+          "no_qualified_outcome": 1055,
+          "unresolved_classification": 497
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 9,
+            "fraction": 0.0703125,
+            "monte_carlo_95pct_CP_interval": [
+              0.032653627218678594,
+              0.12927938811481
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 36,
+            "fraction": 0.28125,
+            "monte_carlo_95pct_CP_interval": [
+              0.20538706495426595,
+              0.36752319405786693
+            ]
+          },
+          "supply_observation": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.578125,
+          63.9296875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 3,
+          "fraction": 0.0234375,
+          "monte_carlo_95pct_CP_interval": [
+            0.0048597033601254225,
+            0.06696630222722888
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 26,
+          "fraction": 0.203125,
+          "monte_carlo_95pct_CP_interval": [
+            0.13718631537631154,
+            0.28328723669983447
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0019473055259092572,
+          "supply_establishment_observation": 0.14033295984378472,
+          "supply_observation": -0.013557085271290743
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "common_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 49,
+          "fraction": 0.3828125,
+          "monte_carlo_95pct_CP_interval": [
+            0.29833054705522954,
+            0.47284712456166744
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 102,
+          "fraction": 0.796875,
+          "monte_carlo_95pct_CP_interval": [
+            0.7167127633001655,
+            0.8628136846236885
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 41,
+            "fraction": 0.3203125,
+            "monte_carlo_95pct_CP_interval": [
+              0.24062792607583106,
+              0.4085303442552686
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 83,
+            "fraction": 0.6484375,
+            "monte_carlo_95pct_CP_interval": [
+              0.5591220811475068,
+              0.7307126808445901
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10290,
+          "missing": 2477,
+          "no_qualified_outcome": 5134,
+          "unresolved_classification": 2635
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 31,
+            "fraction": 0.2421875,
+            "monte_carlo_95pct_CP_interval": [
+              0.17086809501051903,
+              0.3258111246395856
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 14,
+            "fraction": 0.109375,
+            "monte_carlo_95pct_CP_interval": [
+              0.06110136769711971,
+              0.17670058831572533
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 35,
+            "fraction": 0.2734375,
+            "monte_carlo_95pct_CP_interval": [
+              0.1984224843326956,
+              0.3592399964109063
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 86,
+            "fraction": 0.671875,
+            "monte_carlo_95pct_CP_interval": [
+              0.5833460008725524,
+              0.7522445963695645
+            ]
+          },
+          "supply_observation": {
+            "count": 23,
+            "fraction": 0.1796875,
+            "monte_carlo_95pct_CP_interval": [
+              0.1174493886064738,
+              0.25731853721663356
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.6953125,
+          319.8671875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 5,
+          "fraction": 0.0390625,
+          "monte_carlo_95pct_CP_interval": [
+            0.012803176883608103,
+            0.08880442660301924
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 36,
+          "fraction": 0.28125,
+          "monte_carlo_95pct_CP_interval": [
+            0.20538706495426595,
+            0.36752319405786693
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0011637343766109274,
+          "supply_establishment_observation": 0.13360456774413126,
+          "supply_observation": 0.0019358288796060288
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "common_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 113,
+          "fraction": 0.8828125,
+          "monte_carlo_95pct_CP_interval": [
+            0.8140910982619971,
+            0.9329059182200581
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 127,
+            "fraction": 0.9921875,
+            "monte_carlo_95pct_CP_interval": [
+              0.9572409680113196,
+              0.9998022243380547
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2041,
+          "missing": 526,
+          "no_qualified_outcome": 1013,
+          "unresolved_classification": 491
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 26,
+            "fraction": 0.203125,
+            "monte_carlo_95pct_CP_interval": [
+              0.13718631537631154,
+              0.28328723669983447
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.3125,
+          63.8828125
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 5,
+          "fraction": 0.0390625,
+          "monte_carlo_95pct_CP_interval": [
+            0.012803176883608103,
+            0.08880442660301924
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 53,
+          "fraction": 0.4140625,
+          "monte_carlo_95pct_CP_interval": [
+            0.32773706619627774,
+            0.5044569931924343
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 2.5000914487061707e-05,
+          "supply_establishment_observation": 0.13173796969965854,
+          "supply_observation": 0.016499186614481156
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "common_weak",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 106,
+          "fraction": 0.828125,
+          "monte_carlo_95pct_CP_interval": [
+            0.7514236299321055,
+            0.889039718778804
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 124,
+            "fraction": 0.96875,
+            "monte_carlo_95pct_CP_interval": [
+              0.9219204743858427,
+              0.9914210645947605
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10238,
+          "missing": 2515,
+          "no_qualified_outcome": 5113,
+          "unresolved_classification": 2665
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 3,
+            "fraction": 0.0234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0048597033601254225,
+              0.06696630222722888
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 2,
+            "fraction": 0.015625,
+            "monte_carlo_95pct_CP_interval": [
+              0.001897892914712429,
+              0.055302590131759644
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 122,
+            "fraction": 0.953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.9007648762781173,
+              0.9826059439219534
+            ]
+          },
+          "supply_observation": {
+            "count": 9,
+            "fraction": 0.0703125,
+            "monte_carlo_95pct_CP_interval": [
+              0.032653627218678594,
+              0.12927938811481
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.5234375,
+          320.078125
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 5,
+          "fraction": 0.0390625,
+          "monte_carlo_95pct_CP_interval": [
+            0.012803176883608103,
+            0.08880442660301924
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 59,
+          "fraction": 0.4609375,
+          "monte_carlo_95pct_CP_interval": [
+            0.37249739770777524,
+            0.5512260016985238
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 2.6401337772838193e-05,
+          "supply_establishment_observation": 0.12743887246961927,
+          "supply_observation": 0.016454247000578685
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "common_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 42,
+          "fraction": 0.328125,
+          "monte_carlo_95pct_CP_interval": [
+            0.24775540363043547,
+            0.4166539991274476
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 102,
+          "fraction": 0.796875,
+          "monte_carlo_95pct_CP_interval": [
+            0.7167127633001655,
+            0.8628136846236885
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 1,
+            "fraction": 0.0078125,
+            "monte_carlo_95pct_CP_interval": [
+              0.00019777566194534302,
+              0.04275903198868036
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 120,
+            "fraction": 0.9375,
+            "monte_carlo_95pct_CP_interval": [
+              0.8805632165167481,
+              0.9726333152502775
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 1984,
+          "missing": 507,
+          "no_qualified_outcome": 1013,
+          "unresolved_classification": 494
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 7,
+            "fraction": 0.0546875,
+            "monte_carlo_95pct_CP_interval": [
+              0.02226714580319822,
+              0.10943205165676773
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 67,
+            "fraction": 0.5234375,
+            "monte_carlo_95pct_CP_interval": [
+              0.43335249018855393,
+              0.6124135851860046
+            ]
+          },
+          "supply_observation": {
+            "count": 25,
+            "fraction": 0.1953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.1305645522661507,
+              0.2746720181312412
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.171875,
+          64.59375
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 7,
+          "fraction": 0.0546875,
+          "monte_carlo_95pct_CP_interval": [
+            0.02226714580319822,
+            0.10943205165676773
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 61,
+          "fraction": 0.4765625,
+          "monte_carlo_95pct_CP_interval": [
+            0.38758641481399536,
+            0.5666475098114461
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 9.560871644691371e-05,
+          "supply_establishment_observation": 0.25581960425299277,
+          "supply_observation": 0.12898189537784102
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 30,
+      "calibration_trials_per_arm": 30,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "common_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 42,
+          "fraction": 0.328125,
+          "monte_carlo_95pct_CP_interval": [
+            0.24775540363043547,
+            0.4166539991274476
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 100,
+          "fraction": 0.78125,
+          "monte_carlo_95pct_CP_interval": [
+            0.699596956372261,
+            0.8494510040618479
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 19,
+            "fraction": 0.1484375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0917981737293303,
+              0.22205986105836928
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 18,
+            "fraction": 0.140625,
+            "monte_carlo_95pct_CP_interval": [
+              0.08552322955802083,
+              0.21311476943083107
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 91,
+            "fraction": 0.7109375,
+            "monte_carlo_95pct_CP_interval": [
+              0.6242216983810067,
+              0.7876195944845676
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10308,
+          "missing": 2572,
+          "no_qualified_outcome": 5195,
+          "unresolved_classification": 2588
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 19,
+            "fraction": 0.1484375,
+            "monte_carlo_95pct_CP_interval": [
+              0.0917981737293303,
+              0.22205986105836928
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 35,
+            "fraction": 0.2734375,
+            "monte_carlo_95pct_CP_interval": [
+              0.1984224843326956,
+              0.3592399964109063
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 121,
+            "fraction": 0.9453125,
+            "monte_carlo_95pct_CP_interval": [
+              0.8905679483432323,
+              0.9777328541968018
+            ]
+          },
+          "supply_observation": {
+            "count": 92,
+            "fraction": 0.71875,
+            "monte_carlo_95pct_CP_interval": [
+              0.6324768059421331,
+              0.794612935045734
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.796875,
+          318.7734375
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 2,
+          "fraction": 0.015625,
+          "monte_carlo_95pct_CP_interval": [
+            0.001897892914712429,
+            0.055302590131759644
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 72,
+          "fraction": 0.5625,
+          "monte_carlo_95pct_CP_interval": [
+            0.47206318471580744,
+            0.6499786216299981
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 0.0018404001774318414,
+          "supply_establishment_observation": 0.27040872344769,
+          "supply_observation": 0.14209550241629473
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 80,
+      "scenario": "common_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 112,
+          "fraction": 0.875,
+          "monte_carlo_95pct_CP_interval": [
+            0.8049562179949135,
+            0.9268339220434427
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 128,
+          "fraction": 1.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.9715919464360923,
+            1.0
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 128,
+            "fraction": 1.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.9715919464360923,
+              1.0
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 2013,
+          "missing": 505,
+          "no_qualified_outcome": 1032,
+          "unresolved_classification": 514
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 99,
+            "fraction": 0.7734375,
+            "monte_carlo_95pct_CP_interval": [
+              0.6910934520419687,
+              0.8427132647484541
+            ]
+          },
+          "supply_observation": {
+            "count": 20,
+            "fraction": 0.15625,
+            "monte_carlo_95pct_CP_interval": [
+              0.09813166689127684,
+              0.23094973573461175
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          64.2734375,
+          63.9765625
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 2,
+          "fraction": 0.015625,
+          "monte_carlo_95pct_CP_interval": [
+            0.001897892914712429,
+            0.055302590131759644
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 61,
+          "fraction": 0.4765625,
+          "monte_carlo_95pct_CP_interval": [
+            0.38758641481399536,
+            0.5666475098114461
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 3.7197678942669273e-05,
+          "supply_establishment_observation": 0.24798286782469062,
+          "supply_observation": 0.1466806382327223
+        }
+      },
+      "training_full_frame_per_context": 320
+    },
+    {
+      "baseline_trials_per_context": 300,
+      "calibration_trials_per_arm": 300,
+      "heldout_full_frame_per_context": 400,
+      "scenario": "common_strong",
+      "summary": {
+        "all_comparator_001_margin_impossible_before_outcomes": {
+          "count": 107,
+          "fraction": 0.8359375,
+          "monte_carlo_95pct_CP_interval": [
+            0.7602123809047043,
+            0.895479901926592
+          ]
+        },
+        "all_comparator_005_margin_impossible_before_outcomes": {
+          "count": 127,
+          "fraction": 0.9921875,
+          "monte_carlo_95pct_CP_interval": [
+            0.9572409680113196,
+            0.9998022243380547
+          ]
+        },
+        "certificate_truth_numerically_unresolved": 0,
+        "decisions": {
+          "certified_failure_at_declared_score_gate": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "certified_success_at_declared_score_gate": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "inconclusive_at_declared_score_gate": {
+            "count": 120,
+            "fraction": 0.9375,
+            "monte_carlo_95pct_CP_interval": [
+              0.8805632165167481,
+              0.9726333152502775
+            ]
+          },
+          "unevaluable_endpoint_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "unevaluable_training_zero_qualifying": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "excluded_totals": {
+          "Other": 10240,
+          "missing": 2574,
+          "no_qualified_outcome": 5089,
+          "unresolved_classification": 2583
+        },
+        "false_certificates_proved": {
+          "count": 0,
+          "fraction": 0.0,
+          "monte_carlo_95pct_CP_interval": [
+            0.0,
+            0.028408053563907743
+          ]
+        },
+        "individual_negative_certificates": {
+          "flexible": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          },
+          "supply_observation": {
+            "count": 0,
+            "fraction": 0.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.0,
+              0.028408053563907743
+            ]
+          }
+        },
+        "individual_positive_certificates": {
+          "flexible": {
+            "count": 4,
+            "fraction": 0.03125,
+            "monte_carlo_95pct_CP_interval": [
+              0.008578935405239463,
+              0.07807952561415732
+            ]
+          },
+          "supply_establishment_observation": {
+            "count": 128,
+            "fraction": 1.0,
+            "monte_carlo_95pct_CP_interval": [
+              0.9715919464360923,
+              1.0
+            ]
+          },
+          "supply_observation": {
+            "count": 122,
+            "fraction": 0.953125,
+            "monte_carlo_95pct_CP_interval": [
+              0.9007648762781173,
+              0.9826059439219534
+            ]
+          }
+        },
+        "mean_qualifying_totals": [
+          319.765625,
+          320.1875
+        ],
+        "repeats_with_fitted_forecasts": 128,
+        "repetitions": 128,
+        "simultaneous_outcome_region_misses_truth": {
+          "count": 4,
+          "fraction": 0.03125,
+          "monte_carlo_95pct_CP_interval": [
+            0.008578935405239463,
+            0.07807952561415732
+          ]
+        },
+        "truth_all_comparator_gains_positive": {
+          "count": 56,
+          "fraction": 0.4375,
+          "monte_carlo_95pct_CP_interval": [
+            0.3500213783700019,
+            0.5279368152841926
+          ]
+        },
+        "truth_gain_mean_nats": {
+          "flexible": 7.245636079524065e-05,
+          "supply_establishment_observation": 0.23418353458688604,
+          "supply_observation": 0.14908167064563532
+        }
+      },
+      "training_full_frame_per_context": 320
+    }
+  ],
+  "configuration": {
+    "baseline_law_exact": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "binary_recovery_control_probability_exact": "3/4",
+    "calibration_counts": [
+      30,
+      300
+    ],
+    "candidate_screening": "none; fixed contexts",
+    "context_weights_exact": [
+      "1/2",
+      "1/2"
+    ],
+    "cp_bisection_bits": 24,
+    "endpoint_counts": [
+      80,
+      400
+    ],
+    "excluded_probabilities_exact": {
+      "Other": "1/10",
+      "missing": "1/40",
+      "no_qualified_outcome": "1/20",
+      "unresolved_classification": "1/40"
+    },
+    "exp_x_heldout_exact": [
+      "1",
+      "1"
+    ],
+    "exp_x_training_exact": [
+      "1/2",
+      "4/5",
+      "5/4",
+      "2"
+    ],
+    "failure_threshold_exact": "0",
+    "forecast_denominator": 1099511627776,
+    "heldout_contexts": 2,
+    "log_fraction_bits": 56,
+    "log_terms": 24,
+    "qualifying_probability_exact": "4/5",
+    "replicates_per_cell": 128,
+    "report_fraction_bits": 48,
+    "score_alpha_exact": "1/20",
+    "score_calls_per_complete_study": 1,
+    "success_threshold_exact": "0",
+    "training_contexts": 4,
+    "training_full_frame_per_context": 320
+  },
+  "frozen_source_hashes_before_and_after": {
+    "research/certified_score/certified_score.py": "ee26c443966ffa9d4c5d8bd11268b36a78800092770323b40523693f51dddcb0",
+    "research/prospective_design/REGISTRY_CANDIDATE.json": "80d96b15a8fd6ed61c4ba440d423972d5ce73e8563403b38d5fae8b608b7b54c",
+    "research/prospective_design/verify_design.py": "f5e3618e23daa691e109de41bbd35346c05cb01687f78eb12479c7bbb516117a"
+  },
+  "full_results_bytes": 4037344,
+  "full_results_sha256": "e0ec0c96303e5785f8c914856426f08e1a340c8f1ae4c3b1bf951d26f3e6a847",
+  "scenario_specs": {
+    "common_strong": {
+      "exp_theta": "3",
+      "family": "common",
+      "target_A": [
+        "1/10",
+        "4/5"
+      ],
+      "training_A": [
+        "1/10",
+        "3/10",
+        "1/2",
+        "4/5"
+      ]
+    },
+    "common_weak": {
+      "exp_theta": "3/2",
+      "family": "common",
+      "target_A": [
+        "1/10",
+        "4/5"
+      ],
+      "training_A": [
+        "1/10",
+        "3/10",
+        "1/2",
+        "4/5"
+      ]
+    },
+    "conventional_equal": {
+      "family": "conventional",
+      "target_A": [
+        "1/4",
+        "1/4"
+      ],
+      "training_A": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ]
+    },
+    "conventional_strong": {
+      "family": "conventional",
+      "target_A": [
+        "1/10",
+        "4/5"
+      ],
+      "training_A": [
+        "1/10",
+        "3/10",
+        "1/2",
+        "4/5"
+      ]
+    },
+    "conventional_weak": {
+      "family": "conventional",
+      "target_A": [
+        "9/40",
+        "11/40"
+      ],
+      "training_A": [
+        "9/40",
+        "11/40",
+        "11/40",
+        "9/40"
+      ]
+    }
+  },
+  "scope": "No biology, registry values, screening, algorithm modification, publication, or guaranteed power. Actual frozen builder + actual certified score on independently simulated stages. Monte Carlo intervals are marginal 95% each, not simultaneous across reported cells. Recovery controls and full endpoint laws are separately stipulated operational laws, not an absolute biological recovery map.",
+  "script_sha256": "9fb6b14166c5019887c1d6c0e7050e649890e83f78cdf82cc7d984ee2ee2284a",
+  "seed": 20261105,
+  "source_files_unchanged": true,
+  "status": "finite_synthetic_operating_characteristic_diagnostic",
+  "total_repetitions": 2560
+}

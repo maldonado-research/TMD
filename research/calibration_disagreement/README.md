@@ -4,6 +4,8 @@ Ricardo Maldonado · 30 October 2026 · Original conditional design analysis wit
 
 **The hypothetical contrast is much less robust to calibration uncertainty than its point calculation suggests.** Under the particular simultaneous control region below, the smallest oracle separation is approximately **0.00021313 nats per endpoint**, compared with **0.11166676** at the frozen point vectors. Moreover, the actual point forecasts can lose to a common forecast for control probabilities inside that region. This is a prospective sensitivity calculation, not biological evidence, a power result, or a change to the frozen study.
 
+The [subsequent operating diagnostic](../operating_characteristics/README.md) rebuilds the existing forecasts and scores across repeated synthetic training, control and endpoint samples. It also distinguishes an unattainable gain margin from an inconclusive endpoint comparison.
+
 The starting point is the [27 October design note](https://github.com/maldonado-research/TMD/blob/c9ff3d68d640d6eb024024bec378743620a31748/research/model_disagreement/README.md). It gives hypothetical establishment successes `(20,10,20)` and `(20,80,20)` in route order W/A/M, each from 100 trials. Uniform fixed `q*`, equal context weights, and the existing smoothing rule produce the two conventional point forecasts
 
 \[
