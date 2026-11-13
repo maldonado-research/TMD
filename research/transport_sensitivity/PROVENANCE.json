@@ -1,0 +1,69 @@
+{
+  "date_utc": "2026-11-13",
+  "scope": "Conditional transport sensitivity; bounded primary-source assessment; no native admission",
+  "source_baseline": {
+    "repository": "maldonado-research/TMD",
+    "commit": "f425bf4e1ae99db42d1b5c88bec1992be75ace50",
+    "tree": "803ac364fee3814c5702d08a6ae93b7ee2d91a4c",
+    "fixture_path": "research/integrated_inference/example_strict_separation_result.json",
+    "fixture_git_blob_sha": "95611357a2a71327788aca9f42445b237fdf7548",
+    "projection_path": "research/classification_bounds/classification_bounds.py",
+    "projection_git_blob_sha": "02b59520c6b42c23d89641a5779a4d61f641e7fb"
+  },
+  "execution": {
+    "local_environment_reported": "failed",
+    "runtime_readback": "starting/offline; no execution capabilities",
+    "diagnostic_history": "not_found",
+    "actual_math_execution": "functions.exec V8 JavaScript exact BigInt fractions",
+    "python_execution": false,
+    "CP_endpoint_recomputation": false,
+    "node_filesystem_CLI_execution": false,
+    "native_measurements": false
+  },
+  "search": {
+    "attempted_consensus_queries": [
+      "\"Pseudomonas fluorescens\" SBW25 Wsp Aws Mws mutation bias year:2025-2026",
+      "\"Pseudomonas fluorescens\" mutation origin establishment fluctuation assay wrinkly spreader"
+    ],
+    "consensus_result": "MCP -32001 Unknown tool(consensus.search)",
+    "firecrawl_credit_observation": {
+      "remaining": 0,
+      "plan": 1000
+    },
+    "successful_fallback": "search_service_web_run",
+    "literal_web_queries": [
+      "\"Pseudomonas fluorescens\" \"SBW25\" \"mutation\" \"2025\" Wsp Aws Mws",
+      "\"Pseudomonas fluorescens\" \"2026\" \"mutation\" establishment",
+      "\"SBW25\" mutation rates establishment independent origins data"
+    ],
+    "publication_depth": {
+      "Farr_2025": "Publisher full text, methods/results depth; parent PLOS readback",
+      "Matela_2026": "Independent reader publisher full text, methods/results depth; parent DOI redirect unavailable",
+      "dataset_14335473": "Landing and ZIP-directory only; cells/sequences not replayed"
+    },
+    "repository_search": {
+      "queries": [
+        "nlpD",
+        "1011572",
+        "02499"
+      ],
+      "observed_results": 0,
+      "limitation": "Index negatives do not establish absence from repository history."
+    }
+  },
+  "privacy": {
+    "private_reference_files_read": 3,
+    "private_contents_or_identifiers_published": false,
+    "third_party_fulltext_or_data_redistributed": false
+  },
+  "scientific_limits": {
+    "new_native_controls_admitted": 0,
+    "actual_study_inputs_unresolved": 26,
+    "planning_fields_unresolved": 18,
+    "novel_theorem_claim": false,
+    "power_claim": false,
+    "original_study_protocol_changed": false,
+    "registry_changed": false,
+    "archive_0_7_0_changed": false
+  }
+}
