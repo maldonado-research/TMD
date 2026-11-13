@@ -15,6 +15,10 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
+## Latest research checkpoint — transport sensitivity, 13 November 2026
+
+The [transport-sensitivity addendum](research/transport_sensitivity/README.md) quantifies departures from the source-to-native control assumptions in methods 0.7.0. In the saved synthetic example, common additional false-pass and correct-call deficits lose rejection near 4.45 percentage points. This is a conditional robustness calculation, not a native error estimate or sample-size recommendation. Independent exact arithmetic and a [bounded primary-source assessment](research/transport_sensitivity/SOURCE_ASSESSMENT.md) are included; no native calibration is admitted.
+
 ## Prior research checkpoint — R43, 16 October 2026
 
 The [barcode identity contract](research/barcode_identity_audit/REPORT.md) now links extraction, retention, numerical outputs, ordered IDs and CNV annotations to explicit evidence requirements. An original [structural preflight](research/barcode_identity_audit/preflight.py) rejects positional-only inputs and duplicate keys, accounts for declared row roles and preserves unmatched annotations as unknown. Eight adversarial tests and 67 separate assertions pass. Structural success does not authenticate supplied identities, roles or biological truth.

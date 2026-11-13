@@ -1,0 +1,16 @@
+# Bounded primary-source check
+
+13 November 2026 UTC. This is a targeted assessment, not a systematic review or a claim that suitable data do not exist. Papers below were read this round; prior repository coverage was not exhaustively reconciled, so neither is labeled a newly discovered study.
+
+| Source | Inspected evidence and consequence |
+| --- | --- |
+| Farr et al. (31 January 2025), [An extreme mutational hotspot in nlpD depends on transcriptional induction of rpoS](https://doi.org/10.1371/journal.pgen.1011572) | SBW25 experiments distinguish hotspot mutation measurements from fitness effects, using an engineered reporter and altered background. Twelve assay cultures came from six transformants used on two occasions. Sequencing confirmed C565T in 60 of 96 reporter candidates; the authors corrected candidate counts using confirmation information. This selected-candidate confirmation fraction is neither a native known-Other false-pass rate nor classwise full-pipeline correct-call sensitivity. The assay illustrates ascertainment and grouping requirements; it does not calibrate Wsp/Aws/Mws transfer. |
+| Matela et al. (online 30 March 2026), [Genetic diversification of Pseudomonas fluorescens maintained by multi-niche selection within biofilms](https://journals.asm.org/doi/10.1128/aem.02499-25) | Bead-transfer SBW25 biofilms include adaptive smooth bmo lineages alongside wrinkly types. Endpoint clone and population observations therefore depend on both ecology and ascertainment. Sequenced wrinkly clone counts cannot be substituted for independent mutation-origin or establishment denominators. The paper does not supply a truth-labeled end-to-end native TMD control panel. |
+
+Farr's [supplementary dataset](https://doi.org/10.5281/zenodo.14335473) was inspected at landing-page and ZIP-directory depth. It is version v3, published 9 December 2024 and modified 10 January 2025. The listing identifies Figure 4A colony-count/confirmation resources, fitness and time-course materials. Numeric workbook cells and sequence records were not replayed. A future bounded data audit could examine culture-level count and confirmation joins while retaining transformant and occasion structure; it would remain a reporter-source audit.
+
+The independent source reader used three web queries and two publisher full texts at methods/results depth. Consensus searches failed with an unknown-tool error. Firecrawl had no available credits. A separate web connector supplied the successful fallback; challenged PMC access was not bypassed. The parent independently inspected the PLOS article and Zenodo landing page; its DOI-redirect read of the Matela paper failed, so that paper's detailed inspection is attributed to the independent source reader.
+
+**Admission decision: no native calibration or biological validation added.** Existing actual study/planning fields remain unresolved. The useful implication is to preserve true biological state, full denominators, assay entry stage and culture/batch provenance when assessing transfer. These are design requirements and inferences, not measured native transfer bounds.
+
+Only original assessment and bibliographic facts are published here. No raw article body, workbook, sequence file, private handoff or data archive is redistributed.

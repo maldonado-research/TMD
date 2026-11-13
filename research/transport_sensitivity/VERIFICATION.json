@@ -1,0 +1,62 @@
+{
+  "status": "pass",
+  "runtime_scope": "Pure JavaScript core executed in V8; Python, CP inversion, filesystem CLI and native experiments not executed.",
+  "assertions": 12344,
+  "checks": {
+    "zero_endpoint_matches": 30,
+    "scenario_evaluations": 771,
+    "adjacent_cap_comparisons": 9216,
+    "adjacent_interval_comparisons": 2304,
+    "input_refusals": 16,
+    "hand_examples": 7
+  },
+  "frontiers": [
+    {
+      "status": "certified_dyadic_bracket",
+      "path": "both",
+      "bits": 24,
+      "still_rejecting": "746603/16777216",
+      "no_longer_rejecting": "186651/4194304",
+      "width": "1/16777216",
+      "lower_approximation": 0.04450100660324097,
+      "upper_approximation": 0.04450106620788574,
+      "boundary_scope": "Bracket for first loss along this common path, from evaluable starting caps; no claim of exact boundary equality or native mismatch estimate."
+    },
+    {
+      "status": "certified_dyadic_bracket",
+      "path": "false_gate",
+      "bits": 24,
+      "still_rejecting": "6764835/16777216",
+      "no_longer_rejecting": "1691209/4194304",
+      "width": "1/16777216",
+      "lower_approximation": 0.40321558713912964,
+      "upper_approximation": 0.4032156467437744,
+      "boundary_scope": "Bracket for first loss along this common path, from evaluable starting caps; no claim of exact boundary equality or native mismatch estimate."
+    },
+    {
+      "status": "certified_dyadic_bracket",
+      "path": "correct_call",
+      "bits": 24,
+      "still_rejecting": "798621/16777216",
+      "no_longer_rejecting": "399311/8388608",
+      "width": "1/16777216",
+      "lower_approximation": 0.047601521015167236,
+      "upper_approximation": 0.04760158061981201,
+      "boundary_scope": "Bracket for first loss along this common path, from evaluable starting caps; no claim of exact boundary equality or native mismatch estimate."
+    }
+  ],
+  "starting_reject_common_J": true,
+  "native_validation": false,
+  "confidence_endpoint_recomputation": false,
+  "source_authentication_performed": false,
+  "independent_oracle_parent_replay": {
+    "zero_field_comparisons": 106,
+    "invariant_assertions": 68988,
+    "failures": 0,
+    "independent_polynomial_endpoint_checks": 6
+  },
+  "parent_to_independent_scenario_field_comparisons": 465,
+  "comparison_scope": "Exact same input endpoint bundle; no fresh certified-CP construction or Python source execution.",
+  "independent_transfer_source_git_blob": "5fbee9b352289a3bb32fc6ccbe975b672fd65dbd",
+  "independent_transfer_receipt_git_blob": "317a59b0b3c35ec402d8162cdda7fdf2c33caa7e"
+}

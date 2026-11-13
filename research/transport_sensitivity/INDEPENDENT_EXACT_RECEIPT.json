@@ -1,0 +1,742 @@
+{
+  "schema": "independent-exact-transport-sensitivity-receipt-1",
+  "fixture": {
+    "repository": "maldonado-research/TMD",
+    "commit": "f425bf4e1ae99db42d1b5c88bec1992be75ace50",
+    "path": "research/integrated_inference/example_strict_separation_result.json",
+    "retrieval": "All 939 source lines retrieved and parsed, with no missing lines."
+  },
+  "execution": {
+    "runtime": "functions.exec V8 JavaScript with BigInt rational arithmetic",
+    "node_cli_wrapper_executed": false,
+    "python_source_executed": false,
+    "CP_endpoints_regenerated": false
+  },
+  "scope": {
+    "kind": "Illustrative sensitivity analysis of a stored synthetic fixture",
+    "native_validation": false,
+    "power_claim": false,
+    "novel_theorem_claim": false,
+    "confidence_interpretation": "The stored count/calibration confidence event is preserved only under separately justified deterministic transport slacks; transport-estimation error is not added here.",
+    "monotonicity": "Boolean rejection monotonicity is used only from this fixture's evaluable starting cap sets; empty-to-nonempty transitions can reveal rejection in other inputs.",
+    "finite_endpoint_convention": "Zero and positive infinity are unattained limits for positive composition. Finite positive endpoints are attained. Equality of positive common endpoints is compatible.",
+    "mutation_scope": "These receipt/source objects are unreferenced transfer blobs. No branch, commit or PR was created by this calculation agent."
+  },
+  "zero_reproduction": {
+    "counts": {
+      "eligibility": 4,
+      "caps": 12,
+      "QEndpointFields": 24,
+      "witnessCoordinates": 36,
+      "sumCaps": 4,
+      "armStatus": 4,
+      "JEndpointFields": 12,
+      "JStatus": 2,
+      "commonEndpointFields": 6,
+      "commonStatus": 1,
+      "rejection": 1
+    },
+    "total": 106,
+    "failures": []
+  },
+  "invariant_checks": {
+    "counts": {
+      "pathEvaluable": 771,
+      "witnessSimplex": 9441,
+      "witnessCap": 28323,
+      "finiteEndpointValue": 3929,
+      "positiveWitness": 3147,
+      "infiniteEndpointDenominator": 2365,
+      "rejectNeverReappears": 768,
+      "commonLowerNonincreasing": 768,
+      "commonUpperNondecreasing": 768,
+      "capsNondecreasing": 9216,
+      "QLowerNonincreasing": 3072,
+      "QUpperNondecreasing": 3072,
+      "emptyClassification": 62,
+      "latticeQBounds": 3249,
+      "saturatedCompatible": 4,
+      "saturatedCaps": 16,
+      "saturatedQ": 16,
+      "singletonExact": 1
+    },
+    "total": 68988,
+    "failures": []
+  },
+  "polynomial_crosscheck": {
+    "formula": "P(h)=(h-2v)^2*(h-2u)^3*z*(h-v-z)-v^4*u^3",
+    "definitions": {
+      "h": "beta*native_correct_call_lower",
+      "u": "1551375189000171/4503599627370496",
+      "v": "2158505627095967/18014398509481984",
+      "z": "4069935827045651/9007199254740992"
+    },
+    "scope": "Fixture-specific branch crosscheck at the six threshold-bracket endpoints. At these points common L=(h-2v)^2*(h-2u)/(v^2*u), U=v^2*u^2/[z*(h-v-z)*(h-2u)^2].",
+    "cases": [
+      {
+        "path": "both",
+        "side": "leftResult",
+        "h": "936744617204704901270480517965821/1231948179607970391951707903885312",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": 1,
+        "matchesDecision": true
+      },
+      {
+        "path": "both",
+        "side": "rightResult",
+        "h": "936744485692909550887596251523069/1231948102236717936615440722690048",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": -1,
+        "matchesDecision": true
+      },
+      {
+        "path": "falsepass",
+        "side": "leftResult",
+        "h": "582684224046473143311983034083325/766310032201187098041288767832064",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": 1,
+        "matchesDecision": true
+      },
+      {
+        "path": "falsepass",
+        "side": "rightResult",
+        "h": "1438726313120426347413906145993/1892123345259097883222275522560",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": -1,
+        "matchesDecision": true
+      },
+      {
+        "path": "correctcall",
+        "side": "leftResult",
+        "h": "980668248914444312215794838775805/1289713788804881815037989831573504",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": 1,
+        "matchesDecision": true
+      },
+      {
+        "path": "correctcall",
+        "side": "rightResult",
+        "h": "980668177749147589924357007321085/1289713788804881815037989831573504",
+        "LMatches": true,
+        "UMatches": true,
+        "polynomialSign": -1,
+        "matchesDecision": true
+      }
+    ]
+  },
+  "bracket_results": [
+    {
+      "path": "both",
+      "denominator": "16777216",
+      "leftNumerator": "746603",
+      "rightNumerator": "746604",
+      "left": "746603/16777216",
+      "right": "186651/4194304",
+      "leftDecimal": 0.04450100660324097,
+      "rightDecimal": 0.04450106620788574,
+      "width": "1/16777216",
+      "steps": 24,
+      "calls": 28,
+      "leftStatus": "separated",
+      "rightStatus": "compatible",
+      "leftCommon": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "579423637887370355650954424691371921698276459395399735948799631319537635231355453485688414912766012/147952125522210521782375315377793640962175838007469405820869992802448257576462393052538570951686987",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "229529256694996371741385419762384002329623285252675764935369162496722174029174245625319887509175293421598281474777/58608940776450853100589599984487248406530691524944375100473777777714887831502099087160646997557757622991969283738",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "rightCommon": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "64380324316142132573745834024919136924336537802549214313696591914914708029605002151241849146717532/16439121960695996744836771013304269038169296365397272734559887459084537699256083916528824282811827",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "2833693993196845956824423268928666553493335043652303777593430574699290464546281755705704198449412665834740424713/723565612258246667656940441152122339332978461431658321933653438434143165268236511370356628945568064141715097722",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "leftCommonApprox": [
+        3.916291407387638,
+        3.916283994458769
+      ],
+      "rightCommonApprox": [
+        3.9162872852983206,
+        3.9162916882587795
+      ]
+    },
+    {
+      "path": "falsepass",
+      "denominator": "16777216",
+      "leftNumerator": "6764835",
+      "rightNumerator": "6764836",
+      "left": "6764835/16777216",
+      "right": "1691209/4194304",
+      "leftDecimal": 0.40321558713912964,
+      "rightDecimal": 0.4032156467437744,
+      "width": "1/16777216",
+      "steps": 24,
+      "calls": 28,
+      "leftStatus": "separated",
+      "rightStatus": "compatible",
+      "leftCommon": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "15494932077961075553109454920987330010264301696161441538122033672184431992496809583004478986532188/3956534093774502975252432419846978075190217430981335420380699522225076641181039275308099824815539",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "682007647501671093771482234228733458713430401243402357827355553511224786041113386339240928518905710147990495241/174146450734385345535251861862373218622488746898107642484791343804654954022081679831596791544543575538423613562",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "rightCommon": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "2099263236132482869463644648764163420289159892183406405511972641431254261763529008030919852/536033855997352292331259971599469069247676207282945778653384563204310862638325309489948375",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "831589624658382857804367236290249605058911273095224536466592025958919938900592902810963307493790656172125/212341209459969867777536670634681562460689369941386951201849491366853526206682492136530395216670869168706",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "leftCommonApprox": [
+        3.916289285195829,
+        3.9162879554857795
+      ],
+      "rightCommonApprox": [
+        3.9162885191767667,
+        3.9162893852460248
+      ]
+    },
+    {
+      "path": "correctcall",
+      "denominator": "16777216",
+      "leftNumerator": "798621",
+      "rightNumerator": "798622",
+      "left": "798621/16777216",
+      "right": "399311/8388608",
+      "leftDecimal": 0.047601521015167236,
+      "rightDecimal": 0.04760158061981201,
+      "width": "1/16777216",
+      "steps": 24,
+      "calls": 28,
+      "leftStatus": "separated",
+      "rightStatus": "compatible",
+      "leftCommon": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "73868023598387354434007147007957636061688655269410752564811108402661660640226591674362958924232028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/830198024847823987692345391804223752121202730714036857317033918299930934326730500450299692558687566174618962042",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "rightCommon": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "73867950879328305233971992904759590007009322377810742520629589415089890467429877449665820235412828/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "45792820261236747447685434755618118320079076890576889187199148989739870502922094413280000036152794393180853551/11692908442274267215161852706581248600868699185494867179412509461943567864629545051298487124033626065807588022",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      },
+      "leftCommonApprox": [
+        3.916292051702257,
+        3.916282791860139
+      ],
+      "rightCommonApprox": [
+        3.9162881963253415,
+        3.9162899878424144
+      ]
+    }
+  ],
+  "grid_results": [
+    {
+      "path": "both",
+      "deltaF": "0",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        7.449561215126067,
+        1.214317797930127
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "140511574819190706434715866674135486144959718264070954244161660680241747967839505994959632681416028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/2677462394185291659682367216982385228577269178826555420506567095142184556541693212699464008355316350361881856122",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "both",
+      "deltaF": "1/20",
+      "deltaD": "1/20",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        3.5426522435006986,
+        4.725255370338197
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "20689456848589491857098595532826102022476363521148082592310144767103098384760941094855933053198238316/5840103805431674949547346773243172711396870007009336699296024175861764296789985997299420834796282375",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "23290982377717693082754008692043804124424643299913084605157337453346255639948814862628518187090381868832246887625/4929042041605193837963195504159559419778963518207057139901696202324727008185490177568710746354283766386265223162",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "both",
+      "deltaF": "1/10",
+      "deltaD": "1/10",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        0.7253067122596957,
+        103.12338939269438
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "1399440403838378007072206982143440382006574062376896117709023950722937073703887300803617049799573319196/1929446371009605610358438001533524267795512491609259908631088197858782897464272778623439626219443827875",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "2993295228490720959914724754933224793685612037671969537538742367673214628945437654559960200601423632120545118269566625/29026346458534618295956024620184715066758941694589949010069314681658137056163449412551076621996915090442763899606378",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "both",
+      "deltaF": "3/20",
+      "deltaD": "3/20",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        0,
+        "infinity"
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "path": "both",
+      "deltaF": "1/5",
+      "deltaD": "1/5",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        0,
+        "infinity"
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "path": "falsepass",
+      "deltaF": "0",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        7.449561215126067,
+        1.214317797930127
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "140511574819190706434715866674135486144959718264070954244161660680241747967839505994959632681416028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/2677462394185291659682367216982385228577269178826555420506567095142184556541693212699464008355316350361881856122",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "falsepass",
+      "deltaF": "1/20",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        7.141785492906069,
+        1.3087563212353037
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "14421965332353168619537957872780603313934802498934200557484110605817948582414167283719764097134366188/2019378115833708049221260350925861497540784384645895089801025248364645610178937380399533070876225639",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "348090345123814225676584627090247949028351748028261518571556885015092222191871072970647901292711474051710067287141/265970325778644589640345117623279137004059404609454728949455881558956259758869745760778418041885896977368759002002",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "falsepass",
+      "deltaF": "1/10",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        6.806417199246857,
+        1.4259045333095084
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "432349529700879415733113715456992407347411853091534389106296397696807201178929319071752763095777412/63520868181386192933611127622502856552938682851333659543410311040618366994708568843570028846730661",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "10949410986705883712536716067428348582297620622485485276776378116774447659608368192263228900233831301766968882559/7678922908879757626139066997929072339729252274492147215473828286269336548714527758388121105468027850433184675798",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "falsepass",
+      "deltaF": "3/20",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        6.439760920029864,
+        1.5745453581231885
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "9292373434736036224514139312004252089981880231557594288687935785556660524176174404479853267155815916/1442968698703327461146834678117012963384415501980978228655973053629289070725405332868924701103698023",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "248731759741356160290337674945710139879545076473000967659653795481127293269381185979136668301493179461604453262437/157970526830574790317447441243373898845922576643267978580527531086209045442993126892672169835990370667104961946514",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "falsepass",
+      "deltaF": "1/5",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        6.037491714268057,
+        1.7684135367589064
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "7252784404415515723104483500839715857266045938129739068947961553585451339394878813804567750467784172/1201290990971536556388320977026930758779182037483926595675163544595932853679956784518188845001945191",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "207072559795852248838532971764329085208670949758531438550677019783476190275019800734635196218081892927529047958629/117095099925195326936345479679304270791630409189843553649852581312255630347986342167493731381270015012483734299538",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "correctcall",
+      "deltaF": "0",
+      "deltaD": "0",
+      "reject": true,
+      "status": "separated",
+      "commonApprox": [
+        7.449561215126067,
+        1.214317797930127
+      ],
+      "commonExact": {
+        "status": "separated",
+        "separated": true,
+        "lower": {
+          "exact": "140511574819190706434715866674135486144959718264070954244161660680241747967839505994959632681416028/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/2677462394185291659682367216982385228577269178826555420506567095142184556541693212699464008355316350361881856122",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "correctcall",
+      "deltaF": "0",
+      "deltaD": "1/20",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        3.7622596253044494,
+        4.221279021345693
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "70962706334542194317449635585902086888686768018519361435854820346389003724168972925597599795787100/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/770214482887069656587465354104767171983488576505363692327422988814042197990219126855718609462583606607860779130",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "correctcall",
+      "deltaF": "0",
+      "deltaD": "1/10",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        1.0334384078287555,
+        51.19624797801087
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "19492431026382020384212347432563099696531473388110925096645530388389659187369518769132281724941660/18861724974336337838712451714392834586764407096860110656962874198397043334357007327178380557979059",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        },
+        "upper": {
+          "exact": "3251290238547809068785665867648886400725614459230959132291139578271530805707468703342880002566848401915840602121/63506416328482905495592057805901304654577317286146090009438222972336182740353104266110354963416943768433379450",
+          "infinity": null,
+          "attained_in_positive_domain": true
+        }
+      }
+    },
+    {
+      "path": "correctcall",
+      "deltaF": "0",
+      "deltaD": "3/20",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        0,
+        "infinity"
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "path": "correctcall",
+      "deltaF": "0",
+      "deltaD": "1/5",
+      "reject": false,
+      "status": "compatible",
+      "commonApprox": [
+        0,
+        "infinity"
+      ],
+      "commonExact": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    }
+  ],
+  "saturated_endpoint_cases": [
+    {
+      "label": "F_equals_g",
+      "deltaF": "265111389466715745/288230376151711744",
+      "deltaD": "0",
+      "common": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "label": "F_equals_one",
+      "deltaF": "286373988701545249/288230376151711744",
+      "deltaD": "0",
+      "common": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "label": "d_equals_zero",
+      "deltaF": "0",
+      "deltaD": "3913458231406365/4503599627370496",
+      "common": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    },
+    {
+      "label": "both_saturated",
+      "deltaF": "1",
+      "deltaD": "1",
+      "common": {
+        "status": "compatible",
+        "separated": false,
+        "lower": {
+          "exact": "0",
+          "infinity": null,
+          "attained_in_positive_domain": false
+        },
+        "upper": {
+          "exact": null,
+          "infinity": "positive",
+          "attained_in_positive_domain": false
+        }
+      }
+    }
+  ]
+}
