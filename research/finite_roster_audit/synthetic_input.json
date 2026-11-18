@@ -1,0 +1,57 @@
+{
+  "schema": "finite-roster-audit-v1",
+  "alpha": "1/20",
+  "selection": "stratified_srswor",
+  "rows": {
+    "W": {
+      "N": 20,
+      "n": 20,
+      "verified": {
+        "W": 18,
+        "A": 0,
+        "M": 0,
+        "Other": 2
+      }
+    },
+    "A": {
+      "N": 20,
+      "n": 20,
+      "verified": {
+        "W": 0,
+        "A": 18,
+        "M": 0,
+        "Other": 2
+      }
+    },
+    "M": {
+      "N": 20,
+      "n": 20,
+      "verified": {
+        "W": 0,
+        "A": 0,
+        "M": 18,
+        "Other": 2
+      }
+    },
+    "U_pass": {
+      "N": 10,
+      "n": 10,
+      "verified": {
+        "W": 1,
+        "A": 1,
+        "M": 1,
+        "Other": 7
+      }
+    },
+    "U_fail": {
+      "N": 30,
+      "n": 15,
+      "verified": {
+        "W": 2,
+        "A": 1,
+        "M": 1,
+        "Other": 10
+      }
+    }
+  }
+}

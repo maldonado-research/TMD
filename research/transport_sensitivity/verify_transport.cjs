@@ -52,7 +52,7 @@ function runTransportChecks(api,input,saved) {
   for(const value of bads){let refused=false;try{api.analyzeTransport(input,{false_gate:value,correct_call:"0"});}catch(e){refused=true;}ok(refused);checks.input_refusals++;}
   let refused=false;try{api.analyzeTransport(input,{false_gate:"0",correct_call:"0",extra:"1"});}catch(e){refused=true;}ok(refused);checks.input_refusals++;
   const f=api.analyzeTransport(input,{false_gate:"0",correct_call:"0"});
-  return {status:"pass",runtime_scope:"Pure JavaScript core executed in V8; Python, CP inversion, filesystem CLI and native experiments not executed.",
+  return {status:"pass",runtime_scope:"JavaScript calculations on saved endpoints. The caller records the runtime and invocation.",
     assertions,checks,frontiers:allRows,starting_reject_common_J:f.reject_common_J,native_validation:false,
     confidence_endpoint_recomputation:false,source_authentication_performed:false};
 }

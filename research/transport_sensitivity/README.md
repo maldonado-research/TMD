@@ -6,6 +6,8 @@ The integrated 0.7.0 calculation assumes that source controls transfer conservat
 
 [Published 0.7.0 method](../integrated_inference/README.md) · [Independent review](INDEPENDENT_REVIEW.md) · [Bounded source assessment](SOURCE_ASSESSMENT.md)
 
+On 18 November both documented Node invocations reproduced the saved calculations from the 13 November merge. The [replay receipt](NODE_REPLAY_2026_11_18.json) records the pinned files, runtime, output hashes and field comparisons. The original verification records below describe the earlier run. Subsequent edits clarify the verifier’s runtime description and the oracle’s usage comment.
+
 ## External envelopes and the inherited event
 
 For each independently trained, frozen pipeline require, at every possible learned threshold t,
