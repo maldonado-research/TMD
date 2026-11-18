@@ -15,7 +15,11 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — transport sensitivity, 13 November 2026
+## Latest research checkpoint — independent verification on a fixed roster, 18 November 2026
+
+The [finite-roster audit](research/finite_roster_audit/README.md) tests whether independent labels establish which route led, including records that failed the gate. It reports exact count ranges for incomplete reviews and distinguishes random sampling from undocumented selection. [Published plant data](research/finite_roster_audit/SOURCE_ASSESSMENT.md) supply examples of how verification coverage changes what can be inferred. The W/A/M demonstrations are synthetic.
+
+## Prior research checkpoint — transport sensitivity, 13 November 2026
 
 The [transport-sensitivity addendum](research/transport_sensitivity/README.md) quantifies departures from the source-to-native control assumptions in methods 0.7.0. In the saved synthetic example, common additional false-pass and correct-call deficits lose rejection near 4.45 percentage points. This is a conditional robustness calculation, not a native error estimate or sample-size recommendation. Independent exact arithmetic and a [bounded primary-source assessment](research/transport_sensitivity/SOURCE_ASSESSMENT.md) are included; no native calibration is admitted.
 

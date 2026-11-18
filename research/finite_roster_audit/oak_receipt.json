@@ -1,0 +1,55 @@
+{
+  "checked_utc_date": "2026-11-18",
+  "source": {
+    "article": "Xian et al. (2025). Minimizing detection bias of somatic mutations in a highly heterozygous oak genome.",
+    "doi": "https://doi.org/10.1093/g3journal/jkaf143",
+    "archive_record": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12341919/#sup1",
+    "archive_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12341919.1/jkaf143_supplementary_data.zip",
+    "pmc_article_version": "PMC12341919.1",
+    "archive_filename": "jkaf143_supplementary_data.zip",
+    "archive_bytes": 13235969,
+    "archive_sha256": "21379397a16827e01b05b68583eb352de651fdddd58162ea727e500858b13923",
+    "workbook_filename": "Supplementary_Tables_G3-2025-405931.xlsx",
+    "workbook_bytes": 715224,
+    "workbook_sha256": "b4d3b7993012cc350d2e7fb0fb5e87f359642ae2f996dec22a0475ee3e0a49f0"
+  },
+  "selection": {
+    "roster": "All ten previously amplicon-validated upper-branch SNVs that Xian et al. compared in the Napoleon Oak, from Schmid-Siegert et al. (2017).",
+    "worksheet": "TableS10",
+    "worksheet_member": "xl/worksheets/sheet10.xml",
+    "worksheet_member_sha256": "523ec05019a96d65731a889cb66e7e31b776faf4cb0acfa3208de7fb00266873",
+    "pairing": "Within each ten-row block, use the tuple of values in column A (prior-assembly SNV) and column B (name) as the record key. All three blocks contain the same ten unique keys.",
+    "flag": "The legend at A2 designates orange as detected. Read the fill on column B for one detection indicator per prior record and method. Both zero-color and orange cells can contain a record name.",
+    "detected_fill_argb": "FFFFC000",
+    "method_rows": {
+      "combined": [6, 15],
+      "strelka2_haploid": [18, 27],
+      "strelka2_diploid": [30, 39]
+    },
+    "pattern_order": ["combined", "strelka2_haploid", "strelka2_diploid"],
+    "method_labels": "A4, A17 and A29 introduce the combination approach, haploid-assembly Strelka2 and diploid-assembly Strelka2. A17 spells the caller 'Strelke2'. The article gives its standard name.",
+    "scope": "Counts measure recovery on this selected positive roster from one oak. No reference-negative or TMD route labels were supplied for these comparisons."
+  },
+  "counts": {
+    "paired_reference_positives": 10,
+    "detected_by_method": {
+      "combined": 10,
+      "strelka2_haploid": 9,
+      "strelka2_diploid": 7
+    },
+    "pattern_counts": {
+      "000": 0, "001": 0, "010": 0, "011": 0,
+      "100": 0, "101": 1, "110": 3, "111": 6
+    },
+    "both_strelka2_references_detected": 6,
+    "neither_strelka2_reference_detected": 0
+  },
+  "reproduction": {
+    "dependency": "Python 3 standard library",
+    "from_repository_root": [
+      "curl -fL 'https://pmc-oa-opendata.s3.amazonaws.com/PMC12341919.1/jkaf143_supplementary_data.zip' -o /tmp/jkaf143_supplementary_data.zip",
+      "python3 -B research/finite_roster_audit/replay_oak.py /tmp/jkaf143_supplementary_data.zip"
+    ],
+    "workbook_alternative": "The same command accepts the original extracted Supplementary_Tables_G3-2025-405931.xlsx in place of the ZIP."
+  }
+}

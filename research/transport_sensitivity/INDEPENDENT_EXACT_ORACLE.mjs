@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Independent exact-rational diagnostic of the stored synthetic fixture.
 // Read-only input; no CP endpoint generation and no Python execution.
-// Usage: node transport_sensitivity_exact.mjs example_strict_separation_result.json
+// Usage: node research/transport_sensitivity/INDEPENDENT_EXACT_ORACLE.mjs research/integrated_inference/example_strict_separation_result.json
 // Pin the fixture to maldonado-research/TMD commit f425bf4e1ae99db42d1b5c88bec1992be75ace50.
 // Q, J and common-intersection formulas reproduce the existing cap projection.
 // Every decision uses BigInt fractions; Number conversion is display-only.

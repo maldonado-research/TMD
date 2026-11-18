@@ -1,0 +1,54 @@
+{
+  "source": {
+    "workbook": "10.6084/m9.figshare.26368540.v1",
+    "figures": "10.6084/m9.figshare.26367951.v1",
+    "article": "10.1186/s13059-024-03337-0",
+    "workbook_bytes": 1807558,
+    "workbook_md5": "907e0155a2c9d0ed663c6cabb02eba91"
+  },
+  "article_reported": {
+    "targeted": 20,
+    "confirmed": 14,
+    "inconclusive": 6
+  },
+  "figure_transcription": {
+    "confirmed_ids_figure_S7": 14,
+    "inconclusive_ids_figure_S8": 3
+  },
+  "replayed": {
+    "source_events_S4": 215,
+    "source_low_confidence_events_S3": 15,
+    "assay_ids_S7_S8_S10": 20,
+    "numeric_readouts_S10": 17,
+    "blank_readouts_S10": 3,
+    "distinct_printed_locations_S10": 19,
+    "distinct_linked_source_events": 19,
+    "linked_low_confidence_events": 0,
+    "by_source_organ": {
+      "fruit_only": {
+        "source_events": 145,
+        "assay_ids": 0,
+        "distinct_linked_events": 0,
+        "confirmed_events": 0,
+        "inconclusive_numeric_events": 0,
+        "blank_readout_events": 0
+      },
+      "fruit_and_leaf": {
+        "source_events": 60,
+        "assay_ids": 17,
+        "distinct_linked_events": 16,
+        "confirmed_events": 11,
+        "inconclusive_numeric_events": 3,
+        "blank_readout_events": 2
+      },
+      "leaf_only": {
+        "source_events": 10,
+        "assay_ids": 3,
+        "distinct_linked_events": 3,
+        "confirmed_events": 2,
+        "inconclusive_numeric_events": 0,
+        "blank_readout_events": 1
+      }
+    }
+  }
+}

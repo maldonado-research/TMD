@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "replay_date_utc": "2026-11-18",
+  "repository": "maldonado-research/TMD",
+  "commit": "aed64836f3436619d91c8a7da16539e503faf4ec",
+  "scope": "Filesystem Node replay of the project-authored calculations on the saved synthetic endpoint fixture.",
+  "runtime": {
+    "node": "v24.19.0",
+    "v8": "13.6.233.17-node.51",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "retrieval": {
+    "method": "GitHub connector fetch_file pinned by commit; git hash-object independently rechecked every materialized file.",
+    "files_verified": 12,
+    "expected_git_blobs": {
+      "research/transport_sensitivity/INDEPENDENT_EXACT_ORACLE.mjs": "5fbee9b352289a3bb32fc6ccbe975b672fd65dbd",
+      "research/transport_sensitivity/INDEPENDENT_EXACT_RECEIPT.json": "aedc08e99a281586a8c6a8d6fb84b4c568f40f79",
+      "research/transport_sensitivity/INDEPENDENT_REVIEW.md": "250366c64e18f015382370b61f746283e09e3bff",
+      "research/transport_sensitivity/PROVENANCE.json": "e9c0b56d26ba9aa06644d9f4b34fb033b1610360",
+      "research/transport_sensitivity/README.md": "68563cd10916aeec8182b358980f179c9173fc2a",
+      "research/transport_sensitivity/SOURCE_ASSESSMENT.md": "eb48a1b2f050e5c3248290584f4ab1dd377ed808",
+      "research/transport_sensitivity/VERIFICATION.json": "ba409345a3108a2348a0e87d4d87478120e425e1",
+      "research/transport_sensitivity/example_saved_endpoints.json": "091fd520c39b847e69df81303651064f53a7b72d",
+      "research/transport_sensitivity/example_sensitivity_result.json": "96d004ed4eb095ec17bfe848f3745909eda3cd12",
+      "research/transport_sensitivity/transport_sensitivity.cjs": "8fa2c9b4c2ba8605f6c5c660e54d77d49e06210e",
+      "research/transport_sensitivity/verify_transport.cjs": "fd1bcaf3d87f453bfc4974a2469da1d73717d54c",
+      "research/integrated_inference/example_strict_separation_result.json": "95611357a2a71327788aca9f42445b237fdf7548"
+    },
+    "independently_refetched_fixture_at_original_commit": {
+      "commit": "f425bf4e1ae99db42d1b5c88bec1992be75ace50",
+      "blob": "95611357a2a71327788aca9f42445b237fdf7548",
+      "byte_identity": true
+    }
+  },
+  "readme_commands": [
+    {
+      "shell": "bash",
+      "working_directory": "repository root",
+      "command": "node - > primary.stdout.json <<'JS'\nconst fs = require(\"node:fs\");\nconst api = require(\"./research/transport_sensitivity/transport_sensitivity.cjs\");\nconst verify = require(\"./research/transport_sensitivity/verify_transport.cjs\");\nconst input = JSON.parse(fs.readFileSync(\"research/transport_sensitivity/example_saved_endpoints.json\", \"utf8\"));\nconst saved = JSON.parse(fs.readFileSync(\"research/integrated_inference/example_strict_separation_result.json\", \"utf8\"));\nconsole.log(JSON.stringify(verify.runTransportChecks(api, input, saved), null, 2));\nJS",
+      "exit_status": 0,
+      "stdout_sha256": "180519057651c96a7068ad20a615421824771e03efd55e12d2e4760783ee45cf",
+      "stdout_bytes": 2042
+    },
+    {
+      "shell": "bash",
+      "working_directory": "repository root",
+      "command": "node research/transport_sensitivity/INDEPENDENT_EXACT_ORACLE.mjs research/integrated_inference/example_strict_separation_result.json > oracle.stdout.json",
+      "exit_status": 0,
+      "stdout_sha256": "6e79a6dab8cb2ea740ebfbb0f3d45b5e45519ee00d945e158dd87074bad20712",
+      "stdout_bytes": 221981
+    }
+  ],
+  "comparison": {
+    "method": "Deep equality of each primary output field against VERIFICATION.json, exact reproduction of published independent diagnostic sections and all saved numeric example result sections; direct cross-implementation comparison of 31 fields over 15 scenarios.",
+    "status": "pass",
+    "primary_returned_fields": 9,
+    "primary_assertions": 12344,
+    "primary_checks": {
+      "zero_endpoint_matches": 30,
+      "scenario_evaluations": 771,
+      "adjacent_cap_comparisons": 9216,
+      "adjacent_interval_comparisons": 2304,
+      "input_refusals": 16,
+      "hand_examples": 7
+    },
+    "zero_field_comparisons": 106,
+    "invariant_assertions": 68988,
+    "failures": 0,
+    "independent_polynomial_endpoint_checks": 6,
+    "scenario_field_comparisons": 465,
+    "independent_oracle_grid_rows": 15,
+    "independent_oracle_brackets": 3,
+    "independent_oracle_saturation_cases": 4,
+    "saved_example_grid_rows": 6,
+    "saved_example_frontiers": 3,
+    "saved_example_complete_frontier_endpoint_results": 6,
+    "saved_zero_reproduced": true,
+    "exit_status": 0
+  },
+  "documentation_observations": [
+    {
+      "path": "research/transport_sensitivity/verify_transport.cjs",
+      "line": 55,
+      "issue": "The verifier always emits historical runtime_scope prose saying its filesystem CLI was not run, including when executed successfully under Node. Execution evidence is recorded by the calling process."
+    },
+    {
+      "path": "research/transport_sensitivity/INDEPENDENT_EXACT_ORACLE.mjs",
+      "line": 4,
+      "issue": "The source-header usage example uses an unpublished filename. The README gives the working paths.",
+      "example": "node transport_sensitivity_exact.mjs example_strict_separation_result.json",
+      "working_directory": "research/transport_sensitivity",
+      "exit_status": 1,
+      "error": "MODULE_NOT_FOUND"
+    }
+  ],
+  "limitations": {
+    "cp_endpoint_recalculation": false,
+    "native_validation": false,
+    "third_party_study_code_executed": false
+  }
+}

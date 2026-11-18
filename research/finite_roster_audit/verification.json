@@ -1,0 +1,27 @@
+{
+  "boundary_cases": 6,
+  "coverage_design_truth_tail_cases": 1140,
+  "coverage_mask_count_cases": 12012,
+  "example_joint_coverage": {
+    "coverage": "1715/1716",
+    "covered_draws": 20580,
+    "total_draws": 20592
+  },
+  "invalid_fixture_rejections": 10,
+  "joint_coverage_mask_cases": 135,
+  "joint_design_cases": 10,
+  "joint_tables_enumerated": 5388,
+  "minimum_coverage_example": {
+    "N": 8,
+    "covered_draws": 36,
+    "n": 4,
+    "tail": "1/4",
+    "total_draws": 70,
+    "truth": 4
+  },
+  "minimum_observed_cell_coverage": "18/35",
+  "row_projection_cases": 1386,
+  "share_rectangle_cases": 441,
+  "small_cell_interval_cases": 1980,
+  "status": "pass"
+}
