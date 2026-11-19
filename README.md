@@ -15,7 +15,11 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — independent verification on a fixed roster, 18 November 2026
+## Latest research checkpoint — route rankings in two archived collections
+
+On the recorded molecular classifications, W exceeds A and A exceeds M in both collections after accounting for unresolved assignments and repeated samples from a parent. In the recent archive the A–M margin ranges from one to eight across 50 represented populations. One more unclassified phenotype-positive population could produce a tie. [Exact results and source replays](research/archived_route_ranks/README.md).
+
+## Prior research checkpoint — independent verification on a fixed roster, 18 November 2026
 
 The [finite-roster audit](research/finite_roster_audit/README.md) tests whether independent labels establish which route led, including records that failed the gate. It reports exact count ranges for incomplete reviews and distinguishes random sampling from undocumented selection. [Published plant data](research/finite_roster_audit/SOURCE_ASSESSMENT.md) supply examples of how verification coverage changes what can be inferred. The W/A/M demonstrations are synthetic.
 

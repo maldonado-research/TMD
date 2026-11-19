@@ -2,6 +2,8 @@
 
 **Current archive: [methods 0.7.0](../TMD_METHODS_0_7_0.md), [published as record 23970140](https://doi.org/10.5281/zenodo.23970140).** The standalone methods tree has an isolated replay and verified public file bytes. Earlier publication paragraphs below retain their historical scope; [publication status](PUBLICATION_STATUS.md) records the current release and preserved history.
 
+The [archived route rankings](archived_route_ranks/README.md) use the published parent identifiers to bound rankings on two actual selected collections. The [paired apricot comparison](archived_route_ranks/OBSERVATION_CHECK.md) examines how an observed leader changes across tissue readouts.
+
 The [finite-roster audit](finite_roster_audit/README.md) uses independently verified records across all output strata to bound route counts, leadership and classification errors on one enumerated frame. A [published-data assessment](finite_roster_audit/SOURCE_ASSESSMENT.md) examines coverage of mutation verification in plants.
 
 The [transport-sensitivity follow-up](transport_sensitivity/README.md) propagates explicit native/control mismatch through the 0.7.0 observation bounds. Exact synthetic frontier brackets and independent checks identify which assumptions drive the conclusion. Its [source assessment](transport_sensitivity/SOURCE_ASSESSMENT.md) distinguishes reporter confirmation, morphology ascertainment and native end-to-end calibration. No study or planning input is filled.

@@ -1,0 +1,121 @@
+{
+  "unit": "one retained archived label per represented parent",
+  "historical_ledger_sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5",
+  "historical_26": {
+    "totals": {
+      "W": [
+        16,
+        17
+      ],
+      "A": [
+        6,
+        7
+      ],
+      "M": [
+        3,
+        4
+      ],
+      "O": [
+        0,
+        1
+      ]
+    },
+    "differences": {
+      "W-A": [
+        9,
+        11
+      ],
+      "W-M": [
+        12,
+        14
+      ],
+      "A-M": [
+        2,
+        4
+      ]
+    },
+    "strict_orders": [
+      "W>A>M"
+    ],
+    "ties_possible": false,
+    "distinct_count_tables": 4
+  },
+  "matela_50": {
+    "totals": {
+      "W": [
+        37,
+        40
+      ],
+      "A": [
+        7,
+        9
+      ],
+      "M": [
+        1,
+        6
+      ],
+      "O": [
+        0,
+        0
+      ]
+    },
+    "differences": {
+      "W-A": [
+        28,
+        33
+      ],
+      "W-M": [
+        31,
+        39
+      ],
+      "A-M": [
+        1,
+        8
+      ]
+    },
+    "strict_orders": [
+      "W>A>M"
+    ],
+    "ties_possible": false,
+    "distinct_count_tables": 12
+  },
+  "matela_51_hypothetical_one_unrestricted_extra": {
+    "totals": {
+      "W": [
+        37,
+        41
+      ],
+      "A": [
+        7,
+        10
+      ],
+      "M": [
+        1,
+        7
+      ],
+      "O": [
+        0,
+        1
+      ]
+    },
+    "differences": {
+      "W-A": [
+        27,
+        34
+      ],
+      "W-M": [
+        30,
+        40
+      ],
+      "A-M": [
+        0,
+        9
+      ]
+    },
+    "strict_orders": [
+      "W>A>M"
+    ],
+    "ties_possible": true,
+    "distinct_count_tables": 31
+  }
+}

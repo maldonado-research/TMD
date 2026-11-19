@@ -1,0 +1,197 @@
+{
+  "article_doi": "10.1186/s13059-024-03337-0",
+  "workbook_doi": "10.6084/m9.figshare.26368540.v1",
+  "workbook_sha256": "9cc9ea73b92f335e24670f9b75d2b923feaa120a3467546211d8a879a75046b5",
+  "S3_low_confidence_events": 15,
+  "branch_columns": [
+    "branch",
+    "fruit_L1_exclusive",
+    "fruit_L2_exclusive",
+    "leaf_listed_L1_exclusive",
+    "leaf_listed_L2_exclusive"
+  ],
+  "all_listed": {
+    "distinct_events": 215,
+    "distinct_coordinates": 214,
+    "events_by_layer": {
+      "L1_exclusive": {
+        "leaf_listed": 0,
+        "no_leaf_listing": 123
+      },
+      "L2_exclusive": {
+        "leaf_listed": 49,
+        "no_leaf_listing": 21
+      },
+      "both_fruit_layers": {
+        "leaf_listed": 11,
+        "no_leaf_listing": 1
+      },
+      "leaf_only": {
+        "leaf_listed": 10,
+        "no_leaf_listing": 0
+      }
+    },
+    "event_branch_pairs_by_layer": {
+      "L1_exclusive": {
+        "leaf_listed": 0,
+        "no_leaf_listing": 304
+      },
+      "L2_exclusive": {
+        "leaf_listed": 71,
+        "no_leaf_listing": 21
+      },
+      "both_fruit_layers": {
+        "leaf_listed": 14,
+        "no_leaf_listing": 2
+      },
+      "leaf_only": {
+        "leaf_listed": 10,
+        "no_leaf_listing": 0
+      }
+    },
+    "exclusive_event_branch_counts": [
+      [
+        "B1",
+        34,
+        9,
+        0,
+        7
+      ],
+      [
+        "B2",
+        42,
+        19,
+        0,
+        14
+      ],
+      [
+        "B3",
+        31,
+        9,
+        0,
+        7
+      ],
+      [
+        "B4",
+        51,
+        16,
+        0,
+        9
+      ],
+      [
+        "B5",
+        42,
+        9,
+        0,
+        8
+      ],
+      [
+        "B6",
+        51,
+        17,
+        0,
+        17
+      ],
+      [
+        "B7",
+        53,
+        13,
+        0,
+        9
+      ]
+    ],
+    "branches_with_more_L1_in_fruit_and_more_L2_with_leaf_calls": 7
+  },
+  "excluding_S3_low_confidence": {
+    "distinct_events": 200,
+    "distinct_coordinates": 199,
+    "events_by_layer": {
+      "L1_exclusive": {
+        "leaf_listed": 0,
+        "no_leaf_listing": 116
+      },
+      "L2_exclusive": {
+        "leaf_listed": 43,
+        "no_leaf_listing": 21
+      },
+      "both_fruit_layers": {
+        "leaf_listed": 11,
+        "no_leaf_listing": 0
+      },
+      "leaf_only": {
+        "leaf_listed": 9,
+        "no_leaf_listing": 0
+      }
+    },
+    "event_branch_pairs_by_layer": {
+      "L1_exclusive": {
+        "leaf_listed": 0,
+        "no_leaf_listing": 277
+      },
+      "L2_exclusive": {
+        "leaf_listed": 56,
+        "no_leaf_listing": 21
+      },
+      "both_fruit_layers": {
+        "leaf_listed": 14,
+        "no_leaf_listing": 1
+      },
+      "leaf_only": {
+        "leaf_listed": 9,
+        "no_leaf_listing": 0
+      }
+    },
+    "exclusive_event_branch_counts": [
+      [
+        "B1",
+        31,
+        7,
+        0,
+        5
+      ],
+      [
+        "B2",
+        38,
+        14,
+        0,
+        9
+      ],
+      [
+        "B3",
+        28,
+        5,
+        0,
+        3
+      ],
+      [
+        "B4",
+        46,
+        15,
+        0,
+        8
+      ],
+      [
+        "B5",
+        38,
+        8,
+        0,
+        7
+      ],
+      [
+        "B6",
+        47,
+        16,
+        0,
+        16
+      ],
+      [
+        "B7",
+        49,
+        12,
+        0,
+        8
+      ]
+    ],
+    "branches_with_more_L1_in_fruit_and_more_L2_with_leaf_calls": 7
+  }
+}
