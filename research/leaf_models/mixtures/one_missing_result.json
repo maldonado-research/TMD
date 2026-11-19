@@ -1,0 +1,153 @@
+{
+  "original_crossing_pair_thresholds": [
+    {
+      "pair": [
+        71,
+        92
+      ],
+      "additions_for_a_ancestral_to_b": 7,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        71,
+        101
+      ],
+      "additions_for_a_ancestral_to_b": 13,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        77,
+        94
+      ],
+      "additions_for_a_ancestral_to_b": 1,
+      "additions_for_b_ancestral_to_a": 3,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        77,
+        109
+      ],
+      "additions_for_a_ancestral_to_b": 2,
+      "additions_for_b_ancestral_to_a": 2,
+      "minimum_for_shared_path": 2
+    },
+    {
+      "pair": [
+        92,
+        101
+      ],
+      "additions_for_a_ancestral_to_b": 9,
+      "additions_for_b_ancestral_to_a": 3,
+      "minimum_for_shared_path": 3
+    },
+    {
+      "pair": [
+        92,
+        103
+      ],
+      "additions_for_a_ancestral_to_b": 20,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        94,
+        95
+      ],
+      "additions_for_a_ancestral_to_b": 3,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        95,
+        109
+      ],
+      "additions_for_a_ancestral_to_b": 2,
+      "additions_for_b_ancestral_to_a": 2,
+      "minimum_for_shared_path": 2
+    },
+    {
+      "pair": [
+        97,
+        110
+      ],
+      "additions_for_a_ancestral_to_b": 3,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    },
+    {
+      "pair": [
+        101,
+        103
+      ],
+      "additions_for_a_ancestral_to_b": 14,
+      "additions_for_b_ancestral_to_a": 1,
+      "minimum_for_shared_path": 1
+    }
+  ],
+  "cost_histogram_for_possible_colocation": {
+    "1": 7,
+    "2": 2,
+    "3": 1
+  },
+  "with_one_addition_M101_at_focal_leaf": {
+    "unconstrained_with_attained_colocation": {
+      "minimum_total": 99,
+      "leaves_by_minimum_signatures": {
+        "1": 55,
+        "2": 16,
+        "3": 4
+      },
+      "focal_leaf_signatures": [
+        [
+          71,
+          101
+        ]
+      ],
+      "originally_double_listed_leaf_signatures": [
+        [
+          71,
+          100,
+          101
+        ],
+        [
+          92
+        ]
+      ]
+    },
+    "forced_separate": {
+      "minimum_total": 101,
+      "leaves_by_minimum_signatures": {
+        "1": 54,
+        "2": 16,
+        "3": 5
+      },
+      "focal_leaf_signatures": [
+        [
+          71
+        ],
+        [
+          101
+        ]
+      ],
+      "originally_double_listed_leaf_signatures": [
+        [
+          71,
+          100
+        ],
+        [
+          101
+        ],
+        [
+          92
+        ]
+      ]
+    }
+  }
+}

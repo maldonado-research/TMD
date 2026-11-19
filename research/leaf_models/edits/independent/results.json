@@ -1,0 +1,406 @@
+{
+  "branches": {
+    "B1": {
+      "minimum": 5,
+      "distinct_local_tables": 24,
+      "trees_evaluated": 125,
+      "retaining_every_local_marker": 24,
+      "by_edits": [
+        {
+          "added": 0,
+          "removed": 5,
+          "tables": 1
+        },
+        {
+          "added": 1,
+          "removed": 4,
+          "tables": 5
+        },
+        {
+          "added": 2,
+          "removed": 3,
+          "tables": 9
+        },
+        {
+          "added": 3,
+          "removed": 2,
+          "tables": 7
+        },
+        {
+          "added": 4,
+          "removed": 1,
+          "tables": 2
+        }
+      ],
+      "pair_and_M101_at_target": [
+        {
+          "relation": "M71_properly_within_M101",
+          "M101_at_target": 0,
+          "tables": 8
+        },
+        {
+          "relation": "disjoint",
+          "M101_at_target": 0,
+          "tables": 16
+        }
+      ]
+    },
+    "B2": {
+      "minimum": 1,
+      "distinct_local_tables": 4,
+      "trees_evaluated": 125,
+      "retaining_every_local_marker": 4,
+      "by_edits": [
+        {
+          "added": 0,
+          "removed": 1,
+          "tables": 3
+        },
+        {
+          "added": 1,
+          "removed": 0,
+          "tables": 1
+        }
+      ],
+      "pair_and_M101_at_target": []
+    },
+    "B3": {
+      "minimum": 3,
+      "distinct_local_tables": 8,
+      "trees_evaluated": 125,
+      "retaining_every_local_marker": 8,
+      "by_edits": [
+        {
+          "added": 0,
+          "removed": 3,
+          "tables": 5
+        },
+        {
+          "added": 2,
+          "removed": 1,
+          "tables": 3
+        }
+      ],
+      "pair_and_M101_at_target": []
+    },
+    "B4": {
+      "minimum": 0,
+      "distinct_local_tables": 1,
+      "trees_evaluated": 3,
+      "retaining_every_local_marker": 1,
+      "by_edits": [
+        {
+          "added": 0,
+          "removed": 0,
+          "tables": 1
+        }
+      ],
+      "pair_and_M101_at_target": []
+    }
+  },
+  "conditions": {
+    "unconstrained": {
+      "whole_table_minimum": 9,
+      "whole_table_minimizers": 768,
+      "B1": {
+        "minimum": 5,
+        "distinct_local_tables": 24,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 24,
+        "by_edits": [
+          {
+            "added": 0,
+            "removed": 5,
+            "tables": 1
+          },
+          {
+            "added": 1,
+            "removed": 4,
+            "tables": 5
+          },
+          {
+            "added": 2,
+            "removed": 3,
+            "tables": 9
+          },
+          {
+            "added": 3,
+            "removed": 2,
+            "tables": 7
+          },
+          {
+            "added": 4,
+            "removed": 1,
+            "tables": 2
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "M71_properly_within_M101",
+            "M101_at_target": 0,
+            "tables": 8
+          },
+          {
+            "relation": "disjoint",
+            "M101_at_target": 0,
+            "tables": 16
+          }
+        ]
+      }
+    },
+    "unconstrained_target_absent": {
+      "whole_table_minimum": 9,
+      "whole_table_minimizers": 768,
+      "B1": {
+        "minimum": 5,
+        "distinct_local_tables": 24,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 24,
+        "by_edits": [
+          {
+            "added": 0,
+            "removed": 5,
+            "tables": 1
+          },
+          {
+            "added": 1,
+            "removed": 4,
+            "tables": 5
+          },
+          {
+            "added": 2,
+            "removed": 3,
+            "tables": 9
+          },
+          {
+            "added": 3,
+            "removed": 2,
+            "tables": 7
+          },
+          {
+            "added": 4,
+            "removed": 1,
+            "tables": 2
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "M71_properly_within_M101",
+            "M101_at_target": 0,
+            "tables": 8
+          },
+          {
+            "relation": "disjoint",
+            "M101_at_target": 0,
+            "tables": 16
+          }
+        ]
+      }
+    },
+    "unconstrained_target_present": {
+      "whole_table_minimum": 11,
+      "whole_table_minimizers": 1024,
+      "B1": {
+        "minimum": 7,
+        "distinct_local_tables": 32,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 32,
+        "by_edits": [
+          {
+            "added": 3,
+            "removed": 4,
+            "tables": 3
+          },
+          {
+            "added": 4,
+            "removed": 3,
+            "tables": 10
+          },
+          {
+            "added": 5,
+            "removed": 2,
+            "tables": 12
+          },
+          {
+            "added": 6,
+            "removed": 1,
+            "tables": 6
+          },
+          {
+            "added": 7,
+            "removed": 0,
+            "tables": 1
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "M71_properly_within_M101",
+            "M101_at_target": 1,
+            "tables": 32
+          }
+        ]
+      }
+    },
+    "M71_properly_within_M101_both_present": {
+      "whole_table_minimum": 9,
+      "whole_table_minimizers": 256,
+      "B1": {
+        "minimum": 5,
+        "distinct_local_tables": 8,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 8,
+        "by_edits": [
+          {
+            "added": 1,
+            "removed": 4,
+            "tables": 1
+          },
+          {
+            "added": 2,
+            "removed": 3,
+            "tables": 3
+          },
+          {
+            "added": 3,
+            "removed": 2,
+            "tables": 3
+          },
+          {
+            "added": 4,
+            "removed": 1,
+            "tables": 1
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "M71_properly_within_M101",
+            "M101_at_target": 0,
+            "tables": 8
+          }
+        ]
+      }
+    },
+    "M101_properly_within_M71_both_present": {
+      "whole_table_minimum": 18,
+      "whole_table_minimizers": 32,
+      "B1": {
+        "minimum": 14,
+        "distinct_local_tables": 1,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 1,
+        "by_edits": [
+          {
+            "added": 0,
+            "removed": 14,
+            "tables": 1
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "M101_properly_within_M71",
+            "M101_at_target": 0,
+            "tables": 1
+          }
+        ]
+      }
+    },
+    "equal_both_present": {
+      "whole_table_minimum": 19,
+      "whole_table_minimizers": 576,
+      "B1": {
+        "minimum": 15,
+        "distinct_local_tables": 18,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 18,
+        "by_edits": [
+          {
+            "added": 0,
+            "removed": 15,
+            "tables": 1
+          },
+          {
+            "added": 1,
+            "removed": 14,
+            "tables": 2
+          },
+          {
+            "added": 2,
+            "removed": 13,
+            "tables": 4
+          },
+          {
+            "added": 3,
+            "removed": 12,
+            "tables": 6
+          },
+          {
+            "added": 4,
+            "removed": 11,
+            "tables": 4
+          },
+          {
+            "added": 5,
+            "removed": 10,
+            "tables": 1
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "equal",
+            "M101_at_target": 0,
+            "tables": 17
+          },
+          {
+            "relation": "equal",
+            "M101_at_target": 1,
+            "tables": 1
+          }
+        ]
+      }
+    },
+    "disjoint_both_present": {
+      "whole_table_minimum": 9,
+      "whole_table_minimizers": 512,
+      "B1": {
+        "minimum": 5,
+        "distinct_local_tables": 16,
+        "trees_evaluated": 125,
+        "retaining_every_local_marker": 16,
+        "by_edits": [
+          {
+            "added": 0,
+            "removed": 5,
+            "tables": 1
+          },
+          {
+            "added": 1,
+            "removed": 4,
+            "tables": 4
+          },
+          {
+            "added": 2,
+            "removed": 3,
+            "tables": 6
+          },
+          {
+            "added": 3,
+            "removed": 2,
+            "tables": 4
+          },
+          {
+            "added": 4,
+            "removed": 1,
+            "tables": 1
+          }
+        ],
+        "pair_and_M101_at_target": [
+          {
+            "relation": "disjoint",
+            "M101_at_target": 0,
+            "tables": 16
+          }
+        ]
+      }
+    }
+  }
+}

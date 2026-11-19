@@ -1,0 +1,60 @@
+{
+  "analysis": "Exact OR mixture on the numbered Figure 4 leaf records",
+  "branches": {
+    "B1": {
+      "leaves": 29,
+      "distinct_original_markers": 13,
+      "distinct_multileaf_supports": 4,
+      "labeled_forests_after_reduction": 1,
+      "forests_attaining_every_leaf_lower_bound": 1,
+      "leaf_counts_by_minimum_paths": {
+        "1": 12,
+        "2": 12,
+        "3": 5
+      },
+      "minimum_parts": 51
+    },
+    "B2": {
+      "leaves": 33,
+      "distinct_original_markers": 18,
+      "distinct_multileaf_supports": 4,
+      "labeled_forests_after_reduction": 8,
+      "forests_attaining_every_leaf_lower_bound": 1,
+      "leaf_counts_by_minimum_paths": {
+        "1": 32,
+        "2": 1
+      },
+      "minimum_parts": 34
+    },
+    "B3": {
+      "leaves": 6,
+      "distinct_original_markers": 9,
+      "distinct_multileaf_supports": 3,
+      "labeled_forests_after_reduction": 2,
+      "forests_attaining_every_leaf_lower_bound": 1,
+      "leaf_counts_by_minimum_paths": {
+        "1": 4,
+        "2": 2
+      },
+      "minimum_parts": 8
+    },
+    "B4": {
+      "leaves": 7,
+      "distinct_original_markers": 8,
+      "distinct_multileaf_supports": 2,
+      "labeled_forests_after_reduction": 2,
+      "forests_attaining_every_leaf_lower_bound": 1,
+      "leaf_counts_by_minimum_paths": {
+        "1": 7
+      },
+      "minimum_parts": 7
+    }
+  },
+  "combined_histogram": {
+    "1": 55,
+    "2": 15,
+    "3": 5
+  },
+  "total_minimum_parts": 100,
+  "leaves_requiring_mixture": 20
+}

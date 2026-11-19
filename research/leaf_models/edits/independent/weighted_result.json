@@ -1,0 +1,159 @@
+{
+  "order": [
+    "removed",
+    "added"
+  ],
+  "M101_unlisted_at_target": [
+    [
+      0,
+      26
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "M101_listed_at_target": [
+    [
+      0,
+      12
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      18,
+      1
+    ]
+  ],
+  "unconstrained": [
+    [
+      0,
+      12
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "positive_removal_weight_relative_to_addition": [
+    {
+      "lower": "0",
+      "upper": "3",
+      "lower_included": false,
+      "upper_included": false,
+      "target": "unlisted"
+    },
+    {
+      "lower": "3",
+      "upper": "3",
+      "lower_included": true,
+      "upper_included": true,
+      "target": "either"
+    },
+    {
+      "lower": "3",
+      "upper": "infinity",
+      "lower_included": false,
+      "upper_included": false,
+      "target": "listed"
+    }
+  ]
+}

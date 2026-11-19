@@ -1,0 +1,474 @@
+{
+  "xlsx_sha256": "135002ebe85ea2307238cf7d866e7b799fdf27968e1f628a67ed76c91fae1b60",
+  "S1_purpose_counts": {
+    "GSD, TG": 15,
+    "TG": 135,
+    "WGR+VC, TG": 35
+  },
+  "S4_matching_interplatform_site_vine_measurements": 2800,
+  "additional_135_distinct_GT_labels": 14,
+  "additional_135_variable_binary_markers": 32,
+  "S3_missing_ancestral_states": [
+    "B_chr02_14844060",
+    "B_chr12_16426387",
+    "B_chr19_11789116"
+  ],
+  "S3_missing_ancestral_states_in_selected_56": [
+    "B_chr19_11789116"
+  ],
+  "S4_against_S3_and_S5": [
+    {
+      "sample": "Tempranillo-017",
+      "GT": "GT-09",
+      "site": "B_chr10_05943585",
+      "S4": "A:G",
+      "S3_and_S5": "G:T",
+      "changes_heterozygosity": false
+    },
+    {
+      "sample": "Tempranillo-018",
+      "GT": "GT-10",
+      "site": "B_chr10_05943585",
+      "S4": "A:G",
+      "S3_and_S5": "G:T",
+      "changes_heterozygosity": false
+    },
+    {
+      "sample": "Tempranillo-019",
+      "GT": "GT-10",
+      "site": "B_chr10_05943585",
+      "S4": "A:G",
+      "S3_and_S5": "G:T",
+      "changes_heterozygosity": false
+    },
+    {
+      "sample": "Tempranillo-181",
+      "GT": "GT-10",
+      "site": "B_chr10_05943585",
+      "S4": "A:G",
+      "S3_and_S5": "G:T",
+      "changes_heterozygosity": false
+    },
+    {
+      "sample": "Tempranillo-020",
+      "GT": "GT-11",
+      "site": "B_chr08_21422396",
+      "S4": "G:T",
+      "S3_and_S5": "T:T",
+      "changes_heterozygosity": true
+    },
+    {
+      "sample": "Tempranillo-029",
+      "GT": "GT-16",
+      "site": "B_chr08_00848520",
+      "S4": "C:C",
+      "S3_and_S5": "C:T",
+      "changes_heterozygosity": true
+    },
+    {
+      "sample": "Tempranillo-030",
+      "GT": "GT-16",
+      "site": "B_chr08_00848520",
+      "S4": "C:C",
+      "S3_and_S5": "C:T",
+      "changes_heterozygosity": true
+    },
+    {
+      "sample": "Tempranillo-031",
+      "GT": "GT-16",
+      "site": "B_chr08_00848520",
+      "S4": "C:C",
+      "S3_and_S5": "C:T",
+      "changes_heterozygosity": true
+    },
+    {
+      "sample": "Tempranillo-185",
+      "GT": "GT-16",
+      "site": "B_chr08_00848520",
+      "S4": "C:C",
+      "S3_and_S5": "C:T",
+      "changes_heterozygosity": true
+    }
+  ],
+  "binary_pair_spectra": {
+    "all_56": {
+      "S5_genotype_profiles": {
+        "markers": 56,
+        "original_50": {
+          "2": 82,
+          "3": 1458
+        },
+        "combined_185": {
+          "2": 70,
+          "3": 1470
+        },
+        "changed_pairs": {
+          "2_to_3": 12
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      },
+      "S4_observed_plus_S5_for_additional_vines": {
+        "markers": 56,
+        "original_50": {
+          "2": 137,
+          "3": 1403
+        },
+        "combined_185": {
+          "2": 69,
+          "3": 1471
+        },
+        "changed_pairs": {
+          "2_to_3": 68
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      }
+    },
+    "exclude_all_discrepant": {
+      "S5_genotype_profiles": {
+        "markers": 53,
+        "original_50": {
+          "2": 81,
+          "3": 1297
+        },
+        "combined_185": {
+          "2": 69,
+          "3": 1309
+        },
+        "changed_pairs": {
+          "2_to_3": 12
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      },
+      "S4_observed_plus_S5_for_additional_vines": {
+        "markers": 53,
+        "original_50": {
+          "2": 81,
+          "3": 1297
+        },
+        "combined_185": {
+          "2": 69,
+          "3": 1309
+        },
+        "changed_pairs": {
+          "2_to_3": 12
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      }
+    },
+    "exclude_only_heterozygosity_discrepant": {
+      "S5_genotype_profiles": {
+        "markers": 54,
+        "original_50": {
+          "2": 81,
+          "3": 1350
+        },
+        "combined_185": {
+          "2": 69,
+          "3": 1362
+        },
+        "changed_pairs": {
+          "2_to_3": 12
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      },
+      "S4_observed_plus_S5_for_additional_vines": {
+        "markers": 54,
+        "original_50": {
+          "2": 81,
+          "3": 1350
+        },
+        "combined_185": {
+          "2": 69,
+          "3": 1362
+        },
+        "changed_pairs": {
+          "2_to_3": 12
+        },
+        "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+          {
+            "state": [
+              false,
+              false
+            ],
+            "sample": "Tempranillo-001",
+            "new": false
+          },
+          {
+            "state": [
+              false,
+              true
+            ],
+            "sample": "Tempranillo-121",
+            "new": true
+          },
+          {
+            "state": [
+              true,
+              true
+            ],
+            "sample": "Tempranillo-014",
+            "new": false
+          }
+        ]
+      }
+    }
+  },
+  "new_class_clean_pairs": {
+    "GT-20": [
+      [
+        "B_chr03_05282640",
+        "B_chr05_20068081"
+      ],
+      [
+        "B_chr03_05282640",
+        "B_chr07_04046792"
+      ],
+      [
+        "B_chr05_20068081",
+        "B_chr06_03720953"
+      ],
+      [
+        "B_chr05_20068081",
+        "B_chr07_03609678"
+      ],
+      [
+        "B_chr05_20068081",
+        "B_chr14_24600904"
+      ],
+      [
+        "B_chr06_03720953",
+        "B_chr07_04046792"
+      ],
+      [
+        "B_chr07_03609678",
+        "B_chr07_04046792"
+      ],
+      [
+        "B_chr07_04046792",
+        "B_chr14_24600904"
+      ]
+    ],
+    "GT-21": [
+      [
+        "B_chr02_19352340",
+        "B_chr08_07685896"
+      ],
+      [
+        "B_chr08_07685896",
+        "B_chr13_23404775"
+      ],
+      [
+        "B_chr08_07685896",
+        "B_chr14_27625666"
+      ]
+    ],
+    "GT-22": [
+      [
+        "B_chr07_21558514",
+        "B_chr08_14329777"
+      ]
+    ]
+  },
+  "nominal_unordered_hybrid_56": {
+    "markers": 56,
+    "original_50": {
+      "2": 137,
+      "3": 1403
+    },
+    "combined_185": {
+      "2": 69,
+      "3": 1416,
+      "4": 54,
+      "5": 1
+    },
+    "changed_pairs": {
+      "2_to_3": 67,
+      "2_to_4": 1,
+      "3_to_4": 53,
+      "3_to_5": 1
+    },
+    "worked_pair_B_chr02_19352340_and_B_chr08_07685896": [
+      {
+        "state": [
+          "A:T",
+          "C:T"
+        ],
+        "sample": "Tempranillo-014",
+        "new": false
+      },
+      {
+        "state": [
+          "T:T",
+          "C:C"
+        ],
+        "sample": "Tempranillo-001",
+        "new": false
+      },
+      {
+        "state": [
+          "T:T",
+          "C:T"
+        ],
+        "sample": "Tempranillo-121",
+        "new": true
+      }
+    ]
+  },
+  "B_chr09_06530273_B_chr10_05943585_unordered_hybrid_witness": {
+    "T:T / G:G": {
+      "example_sample": "Tempranillo-001",
+      "GT": "GT-00",
+      "S4": true,
+      "vines": 173
+    },
+    "T:T / A:G": {
+      "example_sample": "Tempranillo-017",
+      "GT": "GT-09",
+      "S4": true,
+      "vines": 1
+    },
+    "C:T / A:G": {
+      "example_sample": "Tempranillo-018",
+      "GT": "GT-10",
+      "S4": true,
+      "vines": 3
+    },
+    "T:T / G:T": {
+      "example_sample": "Tempranillo-132",
+      "GT": "GT-09",
+      "S4": false,
+      "vines": 1
+    },
+    "C:T / G:T": {
+      "example_sample": "Tempranillo-133",
+      "GT": "GT-10",
+      "S4": false,
+      "vines": 7
+    }
+  }
+}

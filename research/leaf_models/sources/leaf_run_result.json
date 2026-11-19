@@ -1,0 +1,86 @@
+{
+  "matched_original_leaf_samples": 75,
+  "unique_runs_among_ten_common_additions": 7,
+  "distinct_sites_among_ten_common_additions": 6,
+  "named_target": {
+    "run_accession": "SRR8183363",
+    "sample_accession": "SAMN10274729",
+    "sample_alias": "DHQ1_B1-1-L1",
+    "library_name": "DHQ1_B1-1-L1",
+    "experiment_accession": "SRX5003298",
+    "reported_genome_wide_mapped_depth": 47.59,
+    "reported_percent_genome_at_five_reads": 92.5
+  },
+  "ten_hypothetical_additions": [
+    {
+      "site": "Pp01:47012878",
+      "change": "SNV:C>A",
+      "sample": "DHQ1_B3-1-L1",
+      "run": "SRR8183370",
+      "biosample": "SAMN10274779"
+    },
+    {
+      "site": "Pp04:59918",
+      "change": "SNV:C>T",
+      "sample": "DHQ1_B1-1-L1",
+      "run": "SRR8183363",
+      "biosample": "SAMN10274729"
+    },
+    {
+      "site": "Pp04:9295050",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B3-1-L1",
+      "run": "SRR8183370",
+      "biosample": "SAMN10274779"
+    },
+    {
+      "site": "Pp04:21561355",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-1-L1",
+      "run": "SRR8183363",
+      "biosample": "SAMN10274729"
+    },
+    {
+      "site": "Pp04:21561355",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-11-L2",
+      "run": "SRR8183341",
+      "biosample": "SAMN10274720"
+    },
+    {
+      "site": "Pp04:21561355",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-6-L2",
+      "run": "SRR8183312",
+      "biosample": "SAMN10274738"
+    },
+    {
+      "site": "Pp04:21561355",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-8-L2",
+      "run": "SRR8183316",
+      "biosample": "SAMN10274742"
+    },
+    {
+      "site": "Pp05:11214460",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-1-L1",
+      "run": "SRR8183363",
+      "biosample": "SAMN10274729"
+    },
+    {
+      "site": "Pp05:11214460",
+      "change": "SNV:G>A",
+      "sample": "DHQ1_B1-1-L2",
+      "run": "SRR8183378",
+      "biosample": "SAMN10274730"
+    },
+    {
+      "site": "Pp07:1251826",
+      "change": "DEL:AGAGAGAGAGAG",
+      "sample": "DHQ1_B2-11-L1",
+      "run": "SRR8183360",
+      "biosample": "SAMN10274748"
+    }
+  ]
+}

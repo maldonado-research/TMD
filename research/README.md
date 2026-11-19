@@ -2,6 +2,8 @@
 
 **Current archive.** The [0.9.0 plant lineage supplement](leaf_release_0_9_0/README.md) is [published as record 24377898](https://doi.org/10.5281/zenodo.24377898). The [0.8.2 plant observation supplement](plant_release_0_8_2/README.md) is [published as record 24377555](https://doi.org/10.5281/zenodo.24377555). The [0.8.1 paired-observation supplement](paired_release_0_8_1/README.md) is [published as record 24356808](https://doi.org/10.5281/zenodo.24356808). The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 
+Two models of the same peach calls give distinct predictions for a named leaf and its neighbor. A separate 185-vine dataset resolves marker pairs that smaller samples cannot distinguish. [Exact calculations and independent source checks](leaf_models/README.md)
+
 A study of 75 peach leaves tests which pairs of mutation carrier lists could fit one lineage tree. Exact counts are checked against the original diagram. An independent dataset compares physical and genetic distances on four tropical trees. [Findings and reproduction guide](leaf_lineages/README.md)
 
 A follow-up tests how a five-read discovery rule affects the split-lysate comparison, checks individual site and tissue contributions, and examines two previously published branch markers in the same flower. [Selection analysis and reproduction commands](split_selection/README.md)
