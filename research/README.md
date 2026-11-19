@@ -1,6 +1,6 @@
 # TMD recovery-transport research follow-up
 
-**Current archive: [methods 0.7.0](../TMD_METHODS_0_7_0.md), [published as record 23970140](https://doi.org/10.5281/zenodo.23970140).** The standalone methods tree has an isolated replay and verified public file bytes. Earlier publication paragraphs below retain their historical scope; [publication status](PUBLICATION_STATUS.md) records the current release and preserved history.
+**Current archive.** The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 
 The [archived route rankings](archived_route_ranks/README.md) use the published parent identifiers to bound rankings on two actual selected collections. The [paired apricot comparison](archived_route_ranks/OBSERVATION_CHECK.md) examines how an observed leader changes across tissue readouts.
 

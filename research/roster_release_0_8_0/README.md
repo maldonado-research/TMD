@@ -1,0 +1,9 @@
+# Retrospective route rankings and observation audits, version 0.8.0
+
+Published in the TMD report and methods series on 18 November 2026 Pacific. [Zenodo record 24356344](https://doi.org/10.5281/zenodo.24356344) · [Concept DOI](https://doi.org/10.5281/zenodo.23068055) · [Scientific report](../archived_route_ranks/README.md)
+
+The ZIP contains the fixed-roster audit, two retrospective route-ranking analyses, aggregate results from the plant observation checks, and original reproduction scripts. Its source commit is `f1fc8aa3f56936bcc16ca8d2d048ba5887a96989`. A separate rebuild reproduced the ZIP byte for byte and compared all 26 source files to Git. All five packaged commands passed. Direct replays of the historical route ledger, the Matela workbook and both apricot analyses matched the packaged results. The oak result carries its earlier verified journal-workbook replay. [Extracted replay](EXTRACTED_REPLAY.json) · [Merged source](https://github.com/maldonado-research/TMD/pull/53)
+
+The ZIP is 107,541 bytes and its SHA-256 is `61ed8c14efc9fd1917e5c4c541cc53556d83ff6548d25a6f071ebae6358398ad`. The public record contains the two new files and ten inherited files. All twelve public files were retrieved and checked without authentication. The public metadata identify the existing report family, the new version and the published date. [ZIP](../../TMD_roster_audits_0_8_0_2026-11-18.zip) · [Checksum](../../TMD_roster_audits_0_8_0_2026-11-18_SHA256SUMS.txt) · [Public-file verification](PUBLICATION_RECEIPT.json) · [Submitted metadata](ZENODO_METADATA_FINAL.json)
+
+Open the README at the root of the extracted ZIP for reproduction commands. Source studies retain their own licensing. Earlier methods release 0.7.0 archives the integrated observation pipeline. [Integrated release](https://doi.org/10.5281/zenodo.23970140)

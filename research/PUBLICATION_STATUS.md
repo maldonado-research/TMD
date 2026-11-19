@@ -1,8 +1,12 @@
 # TMD publication status
 
+The current report and methods version is **0.8.0**, published on 18 November 2026 Pacific as [record 24356344](https://doi.org/10.5281/zenodo.24356344) in [concept family 23068055](https://doi.org/10.5281/zenodo.23068055). The archive contains the retrospective route rankings and observation audits. The two new files and ten inherited files were downloaded from the public record and verified. [Release and source](roster_release_0_8_0/README.md) · [Public receipt](roster_release_0_8_0/PUBLICATION_RECEIPT.json).
+
+## Earlier methods 0.7.0 checkpoint
+
 Checked 4 November 2026 (America/Los_Angeles); public verification 5 November UTC.
 
-**Current: methods 0.7.0 is published as [record 23970140](https://doi.org/10.5281/zenodo.23970140), in the existing report/methods concept [23068055](https://doi.org/10.5281/zenodo.23068055).** Its standalone archive collects conditional curvature, design, recovery, classification, eligibility, maximum-threshold calibration and the integrated observation pipeline. All claims remain conditional; native biological validation and qualified external review are outstanding.
+**At the November 5 checkpoint, methods 0.7.0 was published as [record 23970140](https://doi.org/10.5281/zenodo.23970140), in the existing report/methods concept [23068055](https://doi.org/10.5281/zenodo.23068055).** Its standalone archive collects conditional curvature, design, recovery, classification, eligibility, maximum-threshold calibration and the integrated observation pipeline. All claims remain conditional; native biological validation and qualified external review are outstanding.
 
 [Release overview](../TMD_METHODS_0_7_0.md) · [Public-byte receipt](methods_0_7_0/PUBLICATION_RECEIPT.json) · [Release review](methods_0_7_0/RELEASE_REVIEW.json) · [Extracted replay](methods_0_7_0/FINAL_EXTRACTED_REPLAY_RECEIPT.json).
 
