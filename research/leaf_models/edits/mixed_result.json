@@ -1,0 +1,330 @@
+{
+  "rooted_marker_trees_evaluated_by_branch": {
+    "B1": 125,
+    "B2": 125,
+    "B3": 125,
+    "B4": 3
+  },
+  "branch_frontiers_removed_added": {
+    "B1": [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "B2": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "B3": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "B4": [
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "focal_leaf": "DHQ1_B1-1-L1",
+  "focal_site": "Pp04:21561355",
+  "frontier_constrained_by_focal_M101_presence": {
+    "false": [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        0
+      ]
+    ],
+    "true": [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        18,
+        1
+      ]
+    ]
+  },
+  "global_frontier": [
+    {
+      "removed": 0,
+      "added": 12,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": true
+        }
+      ]
+    },
+    {
+      "removed": 1,
+      "added": 9,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 2,
+      "added": 7,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 3,
+      "added": 6,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 4,
+      "added": 5,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 5,
+      "added": 4,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 6,
+      "added": 3,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 7,
+      "added": 2,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 8,
+      "added": 1,
+      "possible_M71_M101_relations": [
+        "M71_proper_nonempty_subset_of_M101",
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "M71_proper_nonempty_subset_of_M101",
+          "present_in_completed_table": false
+        },
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    },
+    {
+      "removed": 9,
+      "added": 0,
+      "possible_M71_M101_relations": [
+        "disjoint_nonempty"
+      ],
+      "joint_relation_and_focal_M101_state": [
+        {
+          "relation": "disjoint_nonempty",
+          "present_in_completed_table": false
+        }
+      ]
+    }
+  ]
+}

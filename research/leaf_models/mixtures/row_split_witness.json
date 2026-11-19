@@ -1,0 +1,941 @@
+{
+  "input_sha256": {
+    "carriers": "7f5c8a082cbc5dbbef3282e6b9e8d2c679117b5e93b029a115a22ce2ab1946dc",
+    "roster": "fcd0d1139a85c5b6c6b2dee206394569727041bf4b310cc2ae0739e2f6c33be7"
+  },
+  "markers": 48,
+  "bulk_leaves": 75,
+  "minimum_signature_occurrences": 100,
+  "minimum_extra_occurrences": 25,
+  "minimum_mixed_leaves": 20,
+  "smallest_possible_maximum_per_leaf": 3,
+  "distribution_by_minimum_signatures": {
+    "1": 55,
+    "2": 15,
+    "3": 5
+  },
+  "distribution_by_main_branch": {
+    "B1": {
+      "1": 12,
+      "2": 12,
+      "3": 5
+    },
+    "B2": {
+      "1": 32,
+      "2": 1
+    },
+    "B3": {
+      "1": 4,
+      "2": 2
+    },
+    "B4": {
+      "1": 7
+    }
+  },
+  "pair_relations_in_this_expanded_witness": {
+    "disjoint": 1079,
+    "identical": 9,
+    "nested": 40
+  },
+  "leaves": {
+    "DHQ1_B1-1-L1": {
+      "incomparable_markers": [
+        "M71"
+      ],
+      "lineage_signatures": [
+        [
+          "M71"
+        ]
+      ]
+    },
+    "DHQ1_B1-1-L2": {
+      "incomparable_markers": [
+        "M71",
+        "M92",
+        "M101"
+      ],
+      "lineage_signatures": [
+        [
+          "M71",
+          "M100"
+        ],
+        [
+          "M101"
+        ],
+        [
+          "M92"
+        ]
+      ]
+    },
+    "DHQ1_B1-10-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-10-L2": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-11-L1": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-11-L2": {
+      "incomparable_markers": [
+        "M92",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-12-L1": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-12-L2": {
+      "incomparable_markers": [
+        "M93"
+      ],
+      "lineage_signatures": [
+        [
+          "M93",
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-13-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-13-L2": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-14-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-14-L2": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M80",
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-15-L1": {
+      "incomparable_markers": [
+        "M92",
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-16-L1": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-3-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-3-L2": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-4-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-4-L2": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-5-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-5-L2": {
+      "incomparable_markers": [
+        "M92",
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-6-L1": {
+      "incomparable_markers": [
+        "M92",
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M76",
+          "M101"
+        ],
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-6-L2": {
+      "incomparable_markers": [
+        "M92",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-7-L1": {
+      "incomparable_markers": [
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-7-L2": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101",
+          "M112"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-8-L1": {
+      "incomparable_markers": [
+        "M92",
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M83",
+          "M101"
+        ],
+        [
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-8-L2": {
+      "incomparable_markers": [
+        "M92",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M84",
+          "M92"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-9-L1": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M98",
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-9-L2": {
+      "incomparable_markers": [
+        "M87"
+      ],
+      "lineage_signatures": [
+        [
+          "M87",
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B1-L1": {
+      "incomparable_markers": [
+        "M101",
+        "M103"
+      ],
+      "lineage_signatures": [
+        [
+          "M101"
+        ],
+        [
+          "M103"
+        ]
+      ]
+    },
+    "DHQ1_B2-1-L1": {
+      "incomparable_markers": [
+        "M78"
+      ],
+      "lineage_signatures": [
+        [
+          "M78",
+          "M86",
+          "M90"
+        ]
+      ]
+    },
+    "DHQ1_B2-1-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M102"
+        ]
+      ]
+    },
+    "DHQ1_B2-10-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-10-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M107"
+        ]
+      ]
+    },
+    "DHQ1_B2-11-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M97"
+        ]
+      ]
+    },
+    "DHQ1_B2-11-L2": {
+      "incomparable_markers": [
+        "M97",
+        "M110"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M97"
+        ],
+        [
+          "M86",
+          "M110"
+        ]
+      ]
+    },
+    "DHQ1_B2-12-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M111"
+        ]
+      ]
+    },
+    "DHQ1_B2-12-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-13-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-13-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-14-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-14-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M115"
+        ]
+      ]
+    },
+    "DHQ1_B2-15-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M96"
+        ]
+      ]
+    },
+    "DHQ1_B2-15-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M96"
+        ]
+      ]
+    },
+    "DHQ1_B2-16-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M110"
+        ]
+      ]
+    },
+    "DHQ1_B2-16-L2": {
+      "incomparable_markers": [
+        "M74"
+      ],
+      "lineage_signatures": [
+        [
+          "M74",
+          "M86",
+          "M108"
+        ]
+      ]
+    },
+    "DHQ1_B2-2-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M110"
+        ]
+      ]
+    },
+    "DHQ1_B2-2-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M99",
+          "M110"
+        ]
+      ]
+    },
+    "DHQ1_B2-3-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-3-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-4-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-4-L2": {
+      "incomparable_markers": [
+        "M85"
+      ],
+      "lineage_signatures": [
+        [
+          "M85",
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-5-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-5-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86",
+          "M89"
+        ]
+      ]
+    },
+    "DHQ1_B2-6-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-6-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-7-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-7-L2": {
+      "incomparable_markers": [
+        "M72"
+      ],
+      "lineage_signatures": [
+        [
+          "M72",
+          "M86",
+          "M105",
+          "M114"
+        ]
+      ]
+    },
+    "DHQ1_B2-8-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-8-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-9-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-9-L2": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B2-L1": {
+      "incomparable_markers": [
+        "M86"
+      ],
+      "lineage_signatures": [
+        [
+          "M86"
+        ]
+      ]
+    },
+    "DHQ1_B3-1-L1": {
+      "incomparable_markers": [
+        "M94"
+      ],
+      "lineage_signatures": [
+        [
+          "M94",
+          "M109"
+        ]
+      ]
+    },
+    "DHQ1_B3-2-L1": {
+      "incomparable_markers": [
+        "M77"
+      ],
+      "lineage_signatures": [
+        [
+          "M77",
+          "M79",
+          "M95"
+        ]
+      ]
+    },
+    "DHQ1_B3-3-L1": {
+      "incomparable_markers": [
+        "M82"
+      ],
+      "lineage_signatures": [
+        [
+          "M82",
+          "M109"
+        ]
+      ]
+    },
+    "DHQ1_B3-4-L1": {
+      "incomparable_markers": [
+        "M77",
+        "M109"
+      ],
+      "lineage_signatures": [
+        [
+          "M109",
+          "M117"
+        ],
+        [
+          "M77",
+          "M95"
+        ]
+      ]
+    },
+    "DHQ1_B3-5-L1": {
+      "incomparable_markers": [
+        "M77",
+        "M94"
+      ],
+      "lineage_signatures": [
+        [
+          "M88",
+          "M94",
+          "M109"
+        ],
+        [
+          "M77",
+          "M95"
+        ]
+      ]
+    },
+    "DHQ1_B3-L1": {
+      "incomparable_markers": [
+        "M75"
+      ],
+      "lineage_signatures": [
+        [
+          "M75",
+          "M77",
+          "M95"
+        ]
+      ]
+    },
+    "DHQ1_B4-1-1-L1": {
+      "incomparable_markers": [
+        "M81"
+      ],
+      "lineage_signatures": [
+        [
+          "M81",
+          "M91",
+          "M116"
+        ]
+      ]
+    },
+    "DHQ1_B4-1-2-L1": {
+      "incomparable_markers": [
+        "M81"
+      ],
+      "lineage_signatures": [
+        [
+          "M81"
+        ]
+      ]
+    },
+    "DHQ1_B4-1-3-L1": {
+      "incomparable_markers": [
+        "M81"
+      ],
+      "lineage_signatures": [
+        [
+          "M81",
+          "M116"
+        ]
+      ]
+    },
+    "DHQ1_B4-1-4-L1": {
+      "incomparable_markers": [
+        "M81"
+      ],
+      "lineage_signatures": [
+        [
+          "M81",
+          "M113"
+        ]
+      ]
+    },
+    "DHQ1_B4-1-L1": {
+      "incomparable_markers": [
+        "M81"
+      ],
+      "lineage_signatures": [
+        [
+          "M81",
+          "M116"
+        ]
+      ]
+    },
+    "DHQ1_B4-2-L1": {
+      "incomparable_markers": [
+        "M104"
+      ],
+      "lineage_signatures": [
+        [
+          "M104",
+          "M106",
+          "M118"
+        ]
+      ]
+    },
+    "DHQ1_B4-3-L1": {
+      "incomparable_markers": [
+        "M73"
+      ],
+      "lineage_signatures": [
+        [
+          "M73"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "source_doi": "10.1093/hr/uhaf237",
+  "selection_vines": 50,
+  "additional_vines": 135,
+  "genotypes_in_additional_vines": 14,
+  "expanded_vines_by_new_genotype": {
+    "GT-20": 1,
+    "GT-21": 3,
+    "GT-22": 3
+  },
+  "paired_genotype_agreements": {
+    "homozygous": 2577,
+    "heterozygous": 223
+  },
+  "two_state_to_three_state_witnesses_by_new_genotype": {
+    "GT-20": 8,
+    "GT-21": 3,
+    "GT-22": 1
+  },
+  "panel_state_counts": {
+    "selection_template": {
+      "2": 82,
+      "3": 1458
+    },
+    "selection_s4": {
+      "2": 137,
+      "3": 1403
+    },
+    "all_template": {
+      "2": 70,
+      "3": 1470
+    },
+    "hybrid_s4_plus_135_templates": {
+      "2": 69,
+      "3": 1471
+    }
+  },
+  "selection_to_all_changes": {
+    "template": {
+      "2 to 3": 12
+    },
+    "hybrid": {
+      "2 to 3": 68
+    }
+  },
+  "marker_subset_sensitivity": {
+    "exclude_binary_discrepancies": {
+      "excluded": [
+        "B_chr08_00848520",
+        "B_chr08_21422396"
+      ],
+      "marker_count": 54,
+      "pairs": 1431,
+      "numbers_of_states_before": {
+        "2": 81,
+        "3": 1350
+      },
+      "numbers_of_states_after": {
+        "2": 69,
+        "3": 1362
+      },
+      "changes": {
+        "2 to 3": 12
+      }
+    },
+    "exclude_allele_discrepancies": {
+      "excluded": [
+        "B_chr08_00848520",
+        "B_chr08_21422396",
+        "B_chr10_05943585"
+      ],
+      "marker_count": 53,
+      "pairs": 1378,
+      "numbers_of_states_before": {
+        "2": 81,
+        "3": 1297
+      },
+      "numbers_of_states_after": {
+        "2": 69,
+        "3": 1309
+      },
+      "changes": {
+        "2 to 3": 12
+      }
+    }
+  },
+  "s4_vs_genotype_template_allele_disagreements": 9,
+  "s4_vs_genotype_template_binary_disagreements": 5,
+  "panel_56_by_selection_50_specimen_sheet": {
+    "pairs": 1540,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 1485,
+    "rooted_relations": {
+      "constant_marker": 54,
+      "disjoint": 1178,
+      "equal": 82,
+      "first_within_second": 68,
+      "second_within_first": 103
+    }
+  },
+  "panel_56_by_s4_selection_and_s5_additional": {
+    "pairs": 1540,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 1485,
+    "rooted_relations": {
+      "disjoint": 1227,
+      "equal": 69,
+      "first_within_second": 75,
+      "second_within_first": 114
+    }
+  },
+  "four_state_pairs_s4_selection": [],
+  "four_state_pairs_s4_selection_and_s5_additional": [],
+  "panel_markers_with_unresolved_ancestor": [
+    "B_chr19_11789116"
+  ],
+  "worked_pair": {
+    "sites": [
+      "B_chr02_19352340",
+      "B_chr08_07685896"
+    ],
+    "selection_vines": {
+      "00": 46,
+      "01": 0,
+      "10": 0,
+      "11": 4
+    },
+    "additional_vines": {
+      "00": 124,
+      "01": 3,
+      "10": 0,
+      "11": 8
+    }
+  },
+  "original_158_by_selection_50": {
+    "pairs": 12403,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 11935,
+    "rooted_relations": {
+      "disjoint": 8989,
+      "equal": 2185,
+      "first_within_second": 384,
+      "second_within_first": 377
+    }
+  },
+  "panel_56_by_selection_50": {
+    "pairs": 1540,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 1485,
+    "rooted_relations": {
+      "disjoint": 1227,
+      "equal": 82,
+      "first_within_second": 69,
+      "second_within_first": 107
+    }
+  },
+  "panel_56_by_additional_135": {
+    "pairs": 1540,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 1485,
+    "rooted_relations": {
+      "constant_marker": 989,
+      "disjoint": 413,
+      "equal": 49,
+      "first_within_second": 13,
+      "second_within_first": 21
+    }
+  },
+  "panel_56_by_all_185": {
+    "pairs": 1540,
+    "all_four_observed": 0,
+    "ancestrally_resolved_pairs": 1485,
+    "rooted_relations": {
+      "disjoint": 1227,
+      "equal": 70,
+      "first_within_second": 74,
+      "second_within_first": 114
+    }
+  },
+  "rooted_pair_changes_selection_to_combined": {
+    "equal to first_within_second": [
+      [
+        "B_chr02_19352340",
+        "B_chr08_07685896"
+      ],
+      [
+        "B_chr03_05282640",
+        "B_chr05_20068081"
+      ],
+      [
+        "B_chr03_05282640",
+        "B_chr07_04046792"
+      ],
+      [
+        "B_chr06_03720953",
+        "B_chr07_04046792"
+      ],
+      [
+        "B_chr07_03609678",
+        "B_chr07_04046792"
+      ]
+    ],
+    "equal to second_within_first": [
+      [
+        "B_chr05_20068081",
+        "B_chr06_03720953"
+      ],
+      [
+        "B_chr05_20068081",
+        "B_chr07_03609678"
+      ],
+      [
+        "B_chr05_20068081",
+        "B_chr14_24600904"
+      ],
+      [
+        "B_chr07_04046792",
+        "B_chr14_24600904"
+      ],
+      [
+        "B_chr07_21558514",
+        "B_chr08_14329777"
+      ],
+      [
+        "B_chr08_07685896",
+        "B_chr13_23404775"
+      ],
+      [
+        "B_chr08_07685896",
+        "B_chr14_27625666"
+      ]
+    ]
+  }
+}
