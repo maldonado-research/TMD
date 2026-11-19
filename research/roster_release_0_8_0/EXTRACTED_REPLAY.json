@@ -1,0 +1,114 @@
+{
+  "status": "pass",
+  "verified_utc_date": "2026-11-19",
+  "python": "3.12.14",
+  "openpyxl": "3.1.5",
+  "source_commit": "f1fc8aa3f56936bcc16ca8d2d048ba5887a96989",
+  "archive": {
+    "name": "TMD_roster_audits_0_8_0_2026-11-18.zip",
+    "bytes": 107541,
+    "sha256": "61ed8c14efc9fd1917e5c4c541cc53556d83ff6548d25a6f071ebae6358398ad",
+    "manifest_sha256": "85f8c7b7789b2cdf6bc85925b0a8eb4174d40128371f9f3c9884ab99ecc88954",
+    "builder_sha256": "806c5a9a6b74a2ae1d734f1db5a21b4a10adfe1b407b73a28f59265c40f3bb07",
+    "members": 27,
+    "source_files_compared_byte_for_byte_to_git": 26,
+    "exact_reviewed_git_scope": true,
+    "exact_rebuild_and_checksum_file": true,
+    "sorted_fixed_metadata_all_members": true
+  },
+  "extracted_packaged_commands": [
+    {
+      "command": "research/archived_route_ranks/audit.py",
+      "stdout_sha256": "913764d0ab5f6199fe4f1c0e449bee0ce7f0ec1e5fc234e46d44d96021f28b16",
+      "comparison": "JSON equals rank_result.json"
+    },
+    {
+      "command": "research/archived_route_ranks/verify.py",
+      "stdout_sha256": "1a86561d086f309dceeb8c788735d354f37f785e196c91040d0b885132a751cd",
+      "comparison": "Verified 26 archived records, 57 published records, 50/51 parent slots, and 815 exhaustive small rosters."
+    },
+    {
+      "command": "research/finite_roster_audit/audit.py synthetic_reversal.json",
+      "stdout_sha256": "93bcdf5dcbe7df1d88c318f10d6d1e1f7add9d555a24a1c37a5c0737d3386dc7",
+      "comparison": "25 records, strict leader A"
+    },
+    {
+      "command": "research/finite_roster_audit/audit.py synthetic_input.json",
+      "stdout_sha256": "494ef1f47918b59ec59328bcd99b47515f61aef24953057397c47fbeabb9cbc3",
+      "comparison": "JSON equals synthetic_result.json"
+    },
+    {
+      "command": "research/finite_roster_audit/verify_audit.py",
+      "stdout_sha256": "3247a8622eec786edcf76b3e41ef51c4cafe9c63717dc62f9bcd1ce8baf22d4f",
+      "comparison": "JSON equals verification.json including 5,388 joint tables"
+    }
+  ],
+  "direct_source_replays": [
+    {
+      "script": "research/archived_route_ranks/replay_history.py",
+      "input_bytes": 18154,
+      "input_sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5",
+      "stdout_sha256": "017b25ef687199f77f7c6af212d229d4392a1f96e4bcc6f1abfb4bb2293269af",
+      "equals_packaged_json": "research/archived_route_ranks/historical_receipt.json"
+    },
+    {
+      "script": "research/archived_route_ranks/replay_matela.py",
+      "input_bytes": 17274,
+      "input_sha256": "90d591f688302c603abbfafcde57ce6fb1011eb6043177d44e3f704f3e818b21",
+      "stdout_sha256": "8ba9b5456212d00c8c0718f62bb1de7476994aef26153112454ec58f187c0266",
+      "equals_packaged_json": "research/archived_route_ranks/matela_receipt.json"
+    },
+    {
+      "script": "research/archived_route_ranks/replay_apricot_layers.py",
+      "input_bytes": 1807558,
+      "input_sha256": "9cc9ea73b92f335e24670f9b75d2b923feaa120a3467546211d8a879a75046b5",
+      "stdout_sha256": "8d5f808fff32488e816ca3113b88a7f872e2703e3147070b8b0ee434adcd6441",
+      "equals_packaged_json": "research/archived_route_ranks/apricot_layers_receipt.json"
+    },
+    {
+      "script": "research/finite_roster_audit/replay_apricot.py",
+      "input_bytes": 1807558,
+      "input_sha256": "9cc9ea73b92f335e24670f9b75d2b923feaa120a3467546211d8a879a75046b5",
+      "stdout_sha256": "ef58ed3e70261b808280754f11e39d8dbe4f84c8698c2067336886030f389e9c",
+      "equals_packaged_json": "research/finite_roster_audit/apricot_receipt.json"
+    }
+  ],
+  "counts": {
+    "route_projection": {
+      "historical_isolates": 26,
+      "matela_selected_wrinkly_clones": 57,
+      "matela_represented_parents": 50
+    },
+    "apricot": {
+      "allele_keys": 215,
+      "assays": 20,
+      "targeted_distinct_candidates": 19,
+      "fruit_layer_exclusive_leaf_detections": {
+        "L1": [
+          0,
+          123
+        ],
+        "L2": [
+          49,
+          70
+        ]
+      },
+      "excluding_low_confidence": {
+        "L1": [
+          0,
+          116
+        ],
+        "L2": [
+          43,
+          64
+        ]
+      }
+    }
+  },
+  "oak": {
+    "status": "prior hosted receipt only; original source unavailable locally; no new replay",
+    "packaged_receipt": "research/finite_roster_audit/oak_receipt.json",
+    "prior_reference_positives": 10,
+    "prior_source_archive_sha256": "21379397a16827e01b05b68583eb352de651fdddd58162ea727e500858b13923"
+  }
+}

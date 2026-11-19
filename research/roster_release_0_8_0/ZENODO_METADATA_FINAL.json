@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance: retrospective route rankings and observation audits",
+    "version": "0.8.0",
+    "publication_date": "2026-11-18",
+    "subjects": [
+      {
+        "subject": "mutation bias"
+      },
+      {
+        "subject": "retrospective data analysis"
+      },
+      {
+        "subject": "finite populations"
+      },
+      {
+        "subject": "ascertainment bias"
+      },
+      {
+        "subject": "incomplete verification"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>This report compares two historical, phenotype-selected isolate collections. In the Bantinaki–McDonald archive, 16 W, six A, three M and one unresolved molecular assignment preserve W &gt; A &gt; M for all completions. In Matela et al., 57 sequenced wrinkly records came from 50 represented populations. Choosing one archived representative and one supported focal-family label per population gives an A-minus-M count difference from one to eight. The paper reports 51 phenotype-positive populations. An additional unrestricted label for the unrepresented positive population permits a tie. These are exact finite-record comparisons. The observations leave mutation arrival, causal mechanisms and population-wide route frequencies unresolved.</p><p>The package also contains finite-roster verification methods, synthetic examples, and retrospective replays of published apricot and oak observation records. The documentation identifies previously reported findings, independent checks and the limits of the source frames. The work uses AI assistance and internal computational review. Original source papers and their supplements are credited in the reports.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.8.0 adds TMD_roster_audits_0_8_0_2026-11-18.zip and its SHA-256 sidecar to the report/methods series. Ten inherited files preserve earlier reports and methods. The new ZIP includes the two roster analysis directories, their original aggregate results, the guide, licenses and source manifest. The integrated 0.7.0 method has DOI 10.5281/zenodo.23970140. Original software is MIT licensed and original documentation is CC BY 4.0. The referenced third-party study data retain their original terms and are obtainable from the credited sources. The source snapshot and checks are dated 19 November UTC, 18 November 2026 Pacific. Source commit: https://github.com/maldonado-research/TMD/tree/f1fc8aa3f56936bcc16ca8d2d048ba5887a96989"
+      }
+    ]
+  }
+}

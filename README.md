@@ -9,7 +9,11 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Current methods release — 0.7.0
+## Current report and methods release — 0.8.0
+
+The [retrospective route rankings and observation audits](research/roster_release_0_8_0/README.md) are [published on Zenodo](https://doi.org/10.5281/zenodo.24356344). The standalone release includes the archived-population counts, partial-verification method, plant observation checks and reproducible aggregate calculations.
+
+## Earlier integrated methods release — 0.7.0
 
 [Methods 0.7.0](TMD_METHODS_0_7_0.md) is [published on Zenodo](https://doi.org/10.5281/zenodo.23970140). The [integrated observation pipeline](research/integrated_inference/README.md) connects learned gates, full-cohort eligibility and wrong-label bounds under one declared error budget. Its proof, independent checks and synthetic examples make the assumptions and uncertainty allocations explicit. Native biological validation remains outstanding.
 
