@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — what tree samples establish about mutation order",
+    "version": "0.9.0",
+    "publication_date": "2026-11-19",
+    "subjects": [
+      {
+        "subject": "somatic mutation"
+      },
+      {
+        "subject": "plant genetics"
+      },
+      {
+        "subject": "cell lineage"
+      },
+      {
+        "subject": "perfect phylogeny"
+      },
+      {
+        "subject": "partial identification"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>This report reanalyzes published data from a peach sapling and four tropical trees. Among 48 mutations recorded in 75 peach leaves, ten pairs have crossing carrier lists. Three markers reported in 27, 14 and eight of the same 29 leaves cross in all three pairwise comparisons. Two independent transcriptions of the original peach diagram agree at all 46 shoot locations. After matching labels, the diagram reproduces all 3,600 entries in the leaf catalogue.</p>\n<p>If all listed memberships are kept and each added membership costs one, the minimum required to make all sets disjoint or nested is 12. Two tables achieve that minimum and share ten additions. Both put the recorded M71 carriers inside an enlarged M101 group. Imposing the reverse containment requires 26 additions and equality requires 27. These are mathematical consequences of an observation model. The time order of the mutations in individual cells remains unresolved. A later peach flower aliquot with zero alternate M101 reads contained alternate reads at two markers proposed to occur downstream.</p>\n<p>In a separate original workbook covering four tropical trees, genetic distances favored the measured physical pairing in 134 of 140 tip-only quartets. Six tied. Of 140 quartets including basal cambium, 129 agreed, six tied and five differed. All five discrepancies involved the same individual and the same two tips. These observations constrain interpretations of surviving samples. They leave the biological TMD prediction about the first successful heritable route open.</p>\n<p>Primary studies are Wang et al. (2019), doi:10.1371/journal.pbio.3000191, Ji et al. (2025), doi:10.1371/journal.pgen.1011829, and Satake et al. (2024), doi:10.7554/eLife.88456. Prepared with AI assistance and independent internal computational checks. The peach carrier tables derive from publisher renderings. The original figure and the tropical distance workbook were checked directly.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.9.0 adds the leaf lineage ZIP and its SHA-256 checksum to the sixteen files inherited from version 0.8.2 (doi:10.5281/zenodo.24377555). Original Python code is under MIT and original documentation under CC BY 4.0. Source data retain the original authors' terms. The source commit is https://github.com/maldonado-research/TMD/tree/b96446a969e066f4835fba0ce49412100a388343."
+      }
+    ]
+  }
+}

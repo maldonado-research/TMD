@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.8.2**, published 19 November 2026 Pacific in concept family 23068055. The new archive covers split-lysate selection, historical branch markers and repeat recovery in plant data. All 16 public files were downloaded and checked. [Zenodo 0.8.2](https://doi.org/10.5281/zenodo.24377555) · [Data, code and verification](plant_release_0_8_2/README.md)
+The current report and methods version is **0.9.0**, published 19 November 2026 Pacific in concept family 23068055. The report examines mutation carrier lists in peach leaves and genetic distances across four tropical trees with independently measured branching geometry. The public verification covers all 18 files. [Zenodo 0.9.0](https://doi.org/10.5281/zenodo.24377898) · [Release and verification](leaf_release_0_9_0/README.md)
+
+## Earlier report and methods 0.8.2 checkpoint
+
+Version **0.8.2** was published 19 November 2026 Pacific in concept family 23068055. The new archive covers split-lysate selection, historical branch markers and repeat recovery in plant data. All 16 public files were downloaded and checked. [Zenodo 0.8.2](https://doi.org/10.5281/zenodo.24377555) · [Data, code and verification](plant_release_0_8_2/README.md)
 
 ## Earlier report and methods 0.8.1 checkpoint
 
