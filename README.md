@@ -27,7 +27,11 @@ The [retrospective route rankings and observation audits](research/roster_releas
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — how site selection changes the peach comparison
+## Latest research checkpoint — ancestry from observed leaf mutations
+
+Of 1,128 marker pairs in one peach tree, ten have crossing carrier lists. Preserving every listed marker occurrence takes at least 12 added memberships to obtain a single compatible tree. In a separate four-tree dataset, genetic distances agree with the measured physical pairing in 134 of 140 leaf-tip quartets, with six ties. Five discordant comparisons emerge when basal tissue is included. [Analysis, figures and reproducible checks](research/leaf_lineages/README.md)
+
+## Prior research checkpoint — how site selection changes the peach comparison
 
 One flower yielded 14 one-sided results among 64 eligible split-lysate comparisons. A five-read discovery rule applied to the archived counts raises the expected count from 3.18 to 7.13 and forces four one-sided outcomes. Source descriptions differ at the five-read boundary. A previously reported branch marker also supplies a one-sided comparison with 43 alternate reads. [Analysis, source tables and checks](research/split_selection/README.md) · [Prospective rule for independent data](research/shared_misses/PREDICTION.md)
 

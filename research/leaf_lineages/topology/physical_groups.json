@@ -1,0 +1,131 @@
+{
+  "sequenced_leaf_count": 75,
+  "distinct_figure_locations": 46,
+  "sampled_leaves_by_main_branch": {
+    "B1": 29,
+    "B2": 33,
+    "B3": 6,
+    "B4": 7
+  },
+  "sites_detected_per_main_branch": {
+    "B1": 13,
+    "B2": 18,
+    "B3": 9,
+    "B4": 8
+  },
+  "sites_listed_across_main_branches": 0,
+  "groups": {
+    "multiple_locations": {
+      "distinct_sites": 11,
+      "site_leaf_occurrences": 108,
+      "occurrences_per_sample": "36/25",
+      "additional_occurrences_beyond_first": 97,
+      "sites_by_number_of_carrier_leaves": {
+        "2": 1,
+        "3": 1,
+        "4": 4,
+        "5": 1,
+        "8": 1,
+        "14": 1,
+        "27": 1,
+        "33": 1
+      }
+    },
+    "one_location": {
+      "distinct_sites": 37,
+      "site_leaf_occurrences": 40,
+      "occurrences_per_sample": "8/15",
+      "additional_occurrences_beyond_first": 3,
+      "sites_by_number_of_carrier_leaves": {
+        "1": 34,
+        "2": 3
+      }
+    }
+  },
+  "multiple_leaves_at_one_location": [
+    {
+      "locus": [
+        "Pp01",
+        2130859
+      ],
+      "location": "B1-1",
+      "leaves": 2
+    },
+    {
+      "locus": [
+        "Pp04",
+        10594791
+      ],
+      "location": "B2-15",
+      "leaves": 2
+    },
+    {
+      "locus": [
+        "Pp04",
+        12171497
+      ],
+      "location": "B2-11",
+      "leaves": 2
+    }
+  ],
+  "additional_carrier_weight_at_equal_group_totals": "13/47",
+  "historical_two_marker_figure_match": {
+    "figure_marker_order": [
+      4,
+      2
+    ],
+    "later_marker_order": [
+      "M71",
+      "M101"
+    ],
+    "matching_B1_locations": 16,
+    "B1_1_printed_two_marker_patterns": [
+      "10",
+      "11"
+    ],
+    "B1_leaf_counts_by_pattern": {
+      "00": 14,
+      "01": 13,
+      "10": 1,
+      "11": 1
+    },
+    "all_75_leaf_counts_by_pattern": {
+      "00": 60,
+      "01": 13,
+      "10": 1,
+      "11": 1
+    }
+  },
+  "main_branch_B1_three_marker_check": {
+    "figure_4_mutation_labels_in_order": [
+      1,
+      2,
+      3
+    ],
+    "sampled_leaves": 29,
+    "figure_locations_with_agreeing_drawn_leaf_patterns": 16,
+    "column_totals": [
+      27,
+      14,
+      8
+    ],
+    "observed_pattern_counts": {
+      "000": 1,
+      "011": 1,
+      "100": 11,
+      "101": 3,
+      "110": 9,
+      "111": 4
+    },
+    "crossing_pairs": 3,
+    "minimum_entry_changes_to_laminar": 4,
+    "minimizing_pattern_families": [
+      [
+        "000",
+        "100",
+        "110",
+        "111"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "source_individual": "DHQ1",
+  "source_organ": "leaf",
+  "distinct_leaf_roster": 75,
+  "distinct_leaves_listed_across_sites": 75,
+  "leaf_count_by_main_branch": {
+    "B1": 29,
+    "B2": 33,
+    "B3": 6,
+    "B4": 7
+  },
+  "site_count": 48,
+  "site_count_by_main_branch": {
+    "B1": 13,
+    "B2": 18,
+    "B3": 9,
+    "B4": 8
+  },
+  "listed_site_leaf_memberships": 148,
+  "distinct_carrier_sets": 41,
+  "number_of_sites_by_listed_leaf_count": {
+    "1": 34,
+    "2": 4,
+    "3": 1,
+    "4": 4,
+    "5": 1,
+    "8": 1,
+    "14": 1,
+    "27": 1,
+    "33": 1
+  },
+  "leaf_fraction_genome_covered_at_depth_five_percent_range": [
+    91.7,
+    93.1
+  ],
+  "unordered_site_pairs": 1128,
+  "relations": {
+    "equal": 9,
+    "strict_containment": 54,
+    "disjoint": 1055,
+    "crossing": 10
+  },
+  "relations_by_main_branch": {
+    "B1": {
+      "equal": 0,
+      "strict_containment": 19,
+      "disjoint": 54,
+      "crossing": 5
+    },
+    "B2": {
+      "equal": 5,
+      "strict_containment": 18,
+      "disjoint": 129,
+      "crossing": 1
+    },
+    "B3": {
+      "equal": 1,
+      "strict_containment": 13,
+      "disjoint": 18,
+      "crossing": 4
+    },
+    "B4": {
+      "equal": 3,
+      "strict_containment": 4,
+      "disjoint": 21,
+      "crossing": 0
+    },
+    "different_branches": {
+      "equal": 0,
+      "strict_containment": 0,
+      "disjoint": 833,
+      "crossing": 0
+    }
+  },
+  "crossing_pairs": [
+    {
+      "first": "Pp01:2130859",
+      "second": "Pp04:59918",
+      "both": 1,
+      "first_only": 1,
+      "second_only": 7,
+      "neither_listed": 66
+    },
+    {
+      "first": "Pp01:2130859",
+      "second": "Pp04:21561355",
+      "both": 1,
+      "first_only": 1,
+      "second_only": 13,
+      "neither_listed": 60
+    },
+    {
+      "first": "Pp01:47012878",
+      "second": "Pp04:7551178",
+      "both": 1,
+      "first_only": 3,
+      "second_only": 1,
+      "neither_listed": 70
+    },
+    {
+      "first": "Pp01:47012878",
+      "second": "Pp06:23762314",
+      "both": 2,
+      "first_only": 2,
+      "second_only": 2,
+      "neither_listed": 69
+    },
+    {
+      "first": "Pp04:59918",
+      "second": "Pp04:21561355",
+      "both": 5,
+      "first_only": 3,
+      "second_only": 9,
+      "neither_listed": 58
+    },
+    {
+      "first": "Pp04:59918",
+      "second": "Pp05:11214460",
+      "both": 7,
+      "first_only": 1,
+      "second_only": 20,
+      "neither_listed": 47
+    },
+    {
+      "first": "Pp04:7551178",
+      "second": "Pp04:9295050",
+      "both": 1,
+      "first_only": 1,
+      "second_only": 3,
+      "neither_listed": 70
+    },
+    {
+      "first": "Pp04:9295050",
+      "second": "Pp06:23762314",
+      "both": 2,
+      "first_only": 2,
+      "second_only": 2,
+      "neither_listed": 69
+    },
+    {
+      "first": "Pp04:12171497",
+      "second": "Pp07:1251826",
+      "both": 1,
+      "first_only": 1,
+      "second_only": 3,
+      "neither_listed": 70
+    },
+    {
+      "first": "Pp04:21561355",
+      "second": "Pp05:11214460",
+      "both": 13,
+      "first_only": 1,
+      "second_only": 14,
+      "neither_listed": 47
+    }
+  ],
+  "historical_M71_then_M101_cells": {
+    "both": 1,
+    "first_only": 1,
+    "second_only": 13,
+    "neither_listed": 60
+  }
+}
