@@ -1,0 +1,2164 @@
+{
+  "total_populations": 76,
+  "scorable": 76,
+  "hits": {
+    "baseline": 45,
+    "early": 55,
+    "change": 57
+  },
+  "prediction_abstentions": {
+    "baseline": 0,
+    "early": 0,
+    "change": 0
+  },
+  "endpoint_ties": 0,
+  "unique_prediction_joint_first_at_tied_endpoint": {
+    "baseline": 0,
+    "early": 0,
+    "change": 0
+  },
+  "paired": {
+    "both": 47,
+    "early_only": 8,
+    "change_only": 10,
+    "neither": 11
+  },
+  "by_source_condition": {
+    "1": {
+      "n": 21,
+      "baseline": 11,
+      "early": 19,
+      "change": 19
+    },
+    "2": {
+      "n": 11,
+      "baseline": 6,
+      "early": 5,
+      "change": 8
+    },
+    "3": {
+      "n": 11,
+      "baseline": 7,
+      "early": 8,
+      "change": 7
+    },
+    "4": {
+      "n": 11,
+      "baseline": 7,
+      "early": 7,
+      "change": 5
+    },
+    "5": {
+      "n": 11,
+      "baseline": 7,
+      "early": 7,
+      "change": 8
+    },
+    "6": {
+      "n": 11,
+      "baseline": 7,
+      "early": 9,
+      "change": 10
+    }
+  },
+  "complete_unique_seven_visit_histories": 76,
+  "uninterrupted_baseline_leaders": 30,
+  "baseline_winner_recovered_by_endpoint_after_losing_observed_lead": 15,
+  "dependence_sensitivities": {
+    "label_pair_id": {
+      "groups": 38,
+      "groups_by_size": {
+        "1": 32,
+        "7": 4,
+        "8": 2
+      },
+      "repeated_groups": 6,
+      "repeated_groups_with_both_endpoint_leaders": 5,
+      "fewest_errors_for_one_fixed_label_per_group": 12,
+      "equal_group_weighted_hit_fractions": {
+        "baseline": "1213/2128",
+        "early": "83/112",
+        "change": "821/1064"
+      },
+      "leave_one_group_out_change_minus_early_hit_count_range": [
+        -1,
+        3
+      ]
+    },
+    "strain_pair_id": {
+      "groups": 44,
+      "groups_by_size": {
+        "1": 33,
+        "2": 5,
+        "5": 3,
+        "6": 3
+      },
+      "repeated_groups": 11,
+      "repeated_groups_with_both_endpoint_leaders": 5,
+      "fewest_errors_for_one_fixed_label_per_group": 6,
+      "equal_group_weighted_hit_fractions": {
+        "baseline": "743/1320",
+        "early": "17/24",
+        "change": "203/264"
+      },
+      "leave_one_group_out_change_minus_early_hit_count_range": [
+        -1,
+        4
+      ]
+    }
+  },
+  "per_population": {
+    "W001": {
+      "condition_id": "3",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 9276,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W002": {
+      "condition_id": "3",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 11976,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W003": {
+      "condition_id": "3",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 218,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W004": {
+      "condition_id": "3",
+      "pair_id": "P010",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S006",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 8628,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W005": {
+      "condition_id": "3",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S007",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 3516,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "A",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W006": {
+      "condition_id": "3",
+      "pair_id": "P027",
+      "label_pair_id": "L021",
+      "strain_pair_id": "S021",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 980,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W007": {
+      "condition_id": "3",
+      "pair_id": "P028",
+      "label_pair_id": "L022",
+      "strain_pair_id": "S022",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 4,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "B"
+      }
+    },
+    "W008": {
+      "condition_id": "3",
+      "pair_id": "P029",
+      "label_pair_id": "L023",
+      "strain_pair_id": "S023",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 5393,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "B",
+        "22": "B",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W009": {
+      "condition_id": "3",
+      "pair_id": "P036",
+      "label_pair_id": "L030",
+      "strain_pair_id": "S030",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 21735,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W010": {
+      "condition_id": "3",
+      "pair_id": "P037",
+      "label_pair_id": "L031",
+      "strain_pair_id": "S031",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 32006,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W011": {
+      "condition_id": "3",
+      "pair_id": "P038",
+      "label_pair_id": "L032",
+      "strain_pair_id": "S032",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 13082,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W012": {
+      "condition_id": "4",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1859,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "A"
+      }
+    },
+    "W013": {
+      "condition_id": "4",
+      "pair_id": "P004",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S003",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1296,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W014": {
+      "condition_id": "4",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 5320,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W015": {
+      "condition_id": "4",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 6499,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W016": {
+      "condition_id": "4",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S007",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 533,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W017": {
+      "condition_id": "4",
+      "pair_id": "P039",
+      "label_pair_id": "L033",
+      "strain_pair_id": "S033",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 8338,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W018": {
+      "condition_id": "4",
+      "pair_id": "P040",
+      "label_pair_id": "L034",
+      "strain_pair_id": "S034",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 6957,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W019": {
+      "condition_id": "4",
+      "pair_id": "P041",
+      "label_pair_id": "L035",
+      "strain_pair_id": "S035",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 9812,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W020": {
+      "condition_id": "4",
+      "pair_id": "P042",
+      "label_pair_id": "L036",
+      "strain_pair_id": "S036",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 19351,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W021": {
+      "condition_id": "4",
+      "pair_id": "P043",
+      "label_pair_id": "L037",
+      "strain_pair_id": "S037",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 8998,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W022": {
+      "condition_id": "4",
+      "pair_id": "P044",
+      "label_pair_id": "L038",
+      "strain_pair_id": "S038",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 5968,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W023": {
+      "condition_id": "6",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2911,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W024": {
+      "condition_id": "6",
+      "pair_id": "P004",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S003",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 7427,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "A"
+      }
+    },
+    "W025": {
+      "condition_id": "6",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 14242,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W026": {
+      "condition_id": "6",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 18194,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W027": {
+      "condition_id": "6",
+      "pair_id": "P010",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S006",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 17206,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W028": {
+      "condition_id": "6",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S007",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1524,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W029": {
+      "condition_id": "6",
+      "pair_id": "P017",
+      "label_pair_id": "L011",
+      "strain_pair_id": "S011",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2415,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "B",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W030": {
+      "condition_id": "6",
+      "pair_id": "P018",
+      "label_pair_id": "L012",
+      "strain_pair_id": "S012",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1010,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W031": {
+      "condition_id": "6",
+      "pair_id": "P019",
+      "label_pair_id": "L013",
+      "strain_pair_id": "S013",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 7905,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W032": {
+      "condition_id": "6",
+      "pair_id": "P026",
+      "label_pair_id": "L020",
+      "strain_pair_id": "S020",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2322,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W033": {
+      "condition_id": "6",
+      "pair_id": "P030",
+      "label_pair_id": "L024",
+      "strain_pair_id": "S024",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 14738,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W034": {
+      "condition_id": "1",
+      "pair_id": "P001",
+      "label_pair_id": "L001",
+      "strain_pair_id": "S001",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1412,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W035": {
+      "condition_id": "1",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 835,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W036": {
+      "condition_id": "1",
+      "pair_id": "P003",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 3734,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W037": {
+      "condition_id": "1",
+      "pair_id": "P004",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S003",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2334,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W038": {
+      "condition_id": "1",
+      "pair_id": "P005",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S003",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 8996,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "A"
+      }
+    },
+    "W039": {
+      "condition_id": "1",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2100,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W040": {
+      "condition_id": "1",
+      "pair_id": "P007",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 17755,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W041": {
+      "condition_id": "1",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 609,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W042": {
+      "condition_id": "1",
+      "pair_id": "P009",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 10047,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W043": {
+      "condition_id": "1",
+      "pair_id": "P010",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S006",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2437,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W044": {
+      "condition_id": "1",
+      "pair_id": "P011",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S006",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 11046,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W045": {
+      "condition_id": "1",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S007",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2682,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W046": {
+      "condition_id": "1",
+      "pair_id": "P014",
+      "label_pair_id": "L008",
+      "strain_pair_id": "S008",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 4332,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W047": {
+      "condition_id": "1",
+      "pair_id": "P015",
+      "label_pair_id": "L009",
+      "strain_pair_id": "S009",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 704,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W048": {
+      "condition_id": "1",
+      "pair_id": "P016",
+      "label_pair_id": "L010",
+      "strain_pair_id": "S010",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 544,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W049": {
+      "condition_id": "1",
+      "pair_id": "P020",
+      "label_pair_id": "L014",
+      "strain_pair_id": "S014",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2218,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W050": {
+      "condition_id": "1",
+      "pair_id": "P031",
+      "label_pair_id": "L025",
+      "strain_pair_id": "S025",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 24063,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W051": {
+      "condition_id": "1",
+      "pair_id": "P032",
+      "label_pair_id": "L026",
+      "strain_pair_id": "S026",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 11664,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W052": {
+      "condition_id": "1",
+      "pair_id": "P033",
+      "label_pair_id": "L027",
+      "strain_pair_id": "S027",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 20561,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W053": {
+      "condition_id": "1",
+      "pair_id": "P034",
+      "label_pair_id": "L028",
+      "strain_pair_id": "S028",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 6308,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W054": {
+      "condition_id": "1",
+      "pair_id": "P035",
+      "label_pair_id": "L029",
+      "strain_pair_id": "S029",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 203,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W055": {
+      "condition_id": "5",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S002",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 14027,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "B",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W056": {
+      "condition_id": "5",
+      "pair_id": "P004",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S003",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 646,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "B"
+      }
+    },
+    "W057": {
+      "condition_id": "5",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S004",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 29022,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W058": {
+      "condition_id": "5",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S005",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 43018,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W059": {
+      "condition_id": "5",
+      "pair_id": "P010",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S006",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 2416,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "A",
+        "22": "A",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W060": {
+      "condition_id": "5",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S007",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 12219,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W061": {
+      "condition_id": "5",
+      "pair_id": "P021",
+      "label_pair_id": "L015",
+      "strain_pair_id": "S015",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 1339,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "A"
+      }
+    },
+    "W062": {
+      "condition_id": "5",
+      "pair_id": "P022",
+      "label_pair_id": "L016",
+      "strain_pair_id": "S016",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 24922,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "B",
+        "20": "A",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W063": {
+      "condition_id": "5",
+      "pair_id": "P023",
+      "label_pair_id": "L017",
+      "strain_pair_id": "S017",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 17537,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W064": {
+      "condition_id": "5",
+      "pair_id": "P024",
+      "label_pair_id": "L018",
+      "strain_pair_id": "S018",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 56998,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W065": {
+      "condition_id": "5",
+      "pair_id": "P025",
+      "label_pair_id": "L019",
+      "strain_pair_id": "S019",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 69380,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W066": {
+      "condition_id": "2",
+      "pair_id": "P002",
+      "label_pair_id": "L002",
+      "strain_pair_id": "S039",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 6190,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W067": {
+      "condition_id": "2",
+      "pair_id": "P004",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S040",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 802,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "A",
+        "25": "B"
+      }
+    },
+    "W068": {
+      "condition_id": "2",
+      "pair_id": "P005",
+      "label_pair_id": "L003",
+      "strain_pair_id": "S040",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 43486,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W069": {
+      "condition_id": "2",
+      "pair_id": "P006",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S041",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 12865,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W070": {
+      "condition_id": "2",
+      "pair_id": "P007",
+      "label_pair_id": "L004",
+      "strain_pair_id": "S041",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 9471,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W071": {
+      "condition_id": "2",
+      "pair_id": "P008",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S042",
+      "predictions": {
+        "baseline": "B",
+        "early": "A",
+        "change": "A"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 9914,
+      "observed_leaders": {
+        "0": "B",
+        "10": "A",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W072": {
+      "condition_id": "2",
+      "pair_id": "P009",
+      "label_pair_id": "L005",
+      "strain_pair_id": "S042",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 65961,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W073": {
+      "condition_id": "2",
+      "pair_id": "P010",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S043",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 17750,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W074": {
+      "condition_id": "2",
+      "pair_id": "P011",
+      "label_pair_id": "L006",
+      "strain_pair_id": "S043",
+      "predictions": {
+        "baseline": "A",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "A",
+      "hits": {
+        "baseline": true,
+        "early": false,
+        "change": false
+      },
+      "endpoint_transfers_to_erase_unique_lead": 69275,
+      "observed_leaders": {
+        "0": "A",
+        "10": "B",
+        "15": "A",
+        "20": "A",
+        "22": "A",
+        "24": "A",
+        "25": "A"
+      }
+    },
+    "W075": {
+      "condition_id": "2",
+      "pair_id": "P012",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S044",
+      "predictions": {
+        "baseline": "A",
+        "early": "A",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": false,
+        "early": false,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 3995,
+      "observed_leaders": {
+        "0": "A",
+        "10": "A",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    },
+    "W076": {
+      "condition_id": "2",
+      "pair_id": "P013",
+      "label_pair_id": "L007",
+      "strain_pair_id": "S044",
+      "predictions": {
+        "baseline": "B",
+        "early": "B",
+        "change": "B"
+      },
+      "endpoint": "B",
+      "hits": {
+        "baseline": true,
+        "early": true,
+        "change": true
+      },
+      "endpoint_transfers_to_erase_unique_lead": 49728,
+      "observed_leaders": {
+        "0": "B",
+        "10": "B",
+        "15": "B",
+        "20": "B",
+        "22": "B",
+        "24": "B",
+        "25": "B"
+      }
+    }
+  }
+}

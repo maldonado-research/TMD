@@ -1,0 +1,140 @@
+{
+  "population_roster": 76,
+  "complete_in_both": 70,
+  "agreement_in_both": {
+    "baseline": 53,
+    "early": 52,
+    "change": 46,
+    "final": 53
+  },
+  "within_library_all_available": [
+    {
+      "predictions": "original",
+      "endpoint": "original",
+      "populations": 76,
+      "strict_hits": {
+        "baseline": 57,
+        "early": 60,
+        "change": 58
+      },
+      "early_only": 6,
+      "change_only": 4,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    },
+    {
+      "predictions": "rerun",
+      "endpoint": "rerun",
+      "populations": 70,
+      "strict_hits": {
+        "baseline": 43,
+        "early": 53,
+        "change": 52
+      },
+      "early_only": 8,
+      "change_only": 7,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    },
+    {
+      "predictions": "selected",
+      "endpoint": "selected",
+      "populations": 76,
+      "strict_hits": {
+        "baseline": 45,
+        "early": 55,
+        "change": 57
+      },
+      "early_only": 8,
+      "change_only": 10,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    }
+  ],
+  "matched_population_comparisons": [
+    {
+      "predictions": "original",
+      "endpoint": "original",
+      "populations": 70,
+      "strict_hits": {
+        "baseline": 55,
+        "early": 58,
+        "change": 53
+      },
+      "early_only": 6,
+      "change_only": 1,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    },
+    {
+      "predictions": "original",
+      "endpoint": "rerun",
+      "populations": 70,
+      "strict_hits": {
+        "baseline": 48,
+        "early": 51,
+        "change": 48
+      },
+      "early_only": 5,
+      "change_only": 2,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    },
+    {
+      "predictions": "rerun",
+      "endpoint": "original",
+      "populations": 70,
+      "strict_hits": {
+        "baseline": 52,
+        "early": 54,
+        "change": 39
+      },
+      "early_only": 15,
+      "change_only": 0,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    },
+    {
+      "predictions": "rerun",
+      "endpoint": "rerun",
+      "populations": 70,
+      "strict_hits": {
+        "baseline": 43,
+        "early": 53,
+        "change": 52
+      },
+      "early_only": 8,
+      "change_only": 7,
+      "prediction_ties": {
+        "baseline": 0,
+        "early": 0,
+        "change": 0
+      },
+      "endpoint_ties": 0
+    }
+  ]
+}

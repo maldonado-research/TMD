@@ -1,0 +1,172 @@
+{
+  "input_sha256": "619c7d99a261304a5117fa24530573a2dabc2f7deca0aea812a1c2ce00a522bb",
+  "delta_definition": "change strict hits minus early strict hits",
+  "scopes": {
+    "complete_repeat_only": {
+      "wells": 70,
+      "attainable_delta": [
+        -15,
+        -13,
+        -11,
+        -9,
+        -7,
+        -5,
+        -3,
+        -1
+      ],
+      "well_contributions": [
+        {
+          "options": [
+            -1
+          ],
+          "wells": 8
+        },
+        {
+          "options": [
+            -1,
+            1
+          ],
+          "wells": 7
+        },
+        {
+          "options": [
+            0
+          ],
+          "wells": 55
+        }
+      ],
+      "endpoint_choices": {
+        "original": {
+          "early": 54,
+          "change": 39,
+          "delta": -15
+        },
+        "rerun_where_allowed": {
+          "early": 53,
+          "change": 52,
+          "delta": -1
+        },
+        "archived": {
+          "early": 53,
+          "change": 52,
+          "delta": -1
+        }
+      }
+    },
+    "all_complete_repeat_choices": {
+      "wells": 76,
+      "attainable_delta": [
+        -12,
+        -10,
+        -8,
+        -6,
+        -4,
+        -2,
+        0,
+        2
+      ],
+      "well_contributions": [
+        {
+          "options": [
+            -1
+          ],
+          "wells": 8
+        },
+        {
+          "options": [
+            -1,
+            1
+          ],
+          "wells": 7
+        },
+        {
+          "options": [
+            0
+          ],
+          "wells": 58
+        },
+        {
+          "options": [
+            1
+          ],
+          "wells": 3
+        }
+      ],
+      "endpoint_choices": {
+        "original": {
+          "early": 56,
+          "change": 44,
+          "delta": -12
+        },
+        "rerun_where_allowed": {
+          "early": 55,
+          "change": 57,
+          "delta": 2
+        },
+        "archived": {
+          "early": 55,
+          "change": 57,
+          "delta": 2
+        }
+      }
+    },
+    "all_available_endpoint_choices": {
+      "wells": 76,
+      "attainable_delta": [
+        -14,
+        -12,
+        -10,
+        -8,
+        -6,
+        -4,
+        -2,
+        0,
+        2
+      ],
+      "well_contributions": [
+        {
+          "options": [
+            -1
+          ],
+          "wells": 8
+        },
+        {
+          "options": [
+            -1,
+            1
+          ],
+          "wells": 8
+        },
+        {
+          "options": [
+            0
+          ],
+          "wells": 58
+        },
+        {
+          "options": [
+            1
+          ],
+          "wells": 2
+        }
+      ],
+      "endpoint_choices": {
+        "original": {
+          "early": 56,
+          "change": 44,
+          "delta": -12
+        },
+        "rerun_where_allowed": {
+          "early": 55,
+          "change": 55,
+          "delta": 0
+        },
+        "archived": {
+          "early": 55,
+          "change": 57,
+          "delta": 2
+        }
+      }
+    }
+  }
+}

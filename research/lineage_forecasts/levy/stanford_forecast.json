@@ -1,0 +1,165 @@
+{
+  "sha256": "086425e373e248f508b352d5dc44ca29191e63cb3f63d20f58a8aa51bdbc3147",
+  "source_visit_units": "generation",
+  "used_visits": [
+    0,
+    16,
+    112
+  ],
+  "all_unique_roster_rows": 494066,
+  "all_rows_in_each_rule": 494066,
+  "positive_t0_t16_t112": [
+    494066,
+    483996,
+    440428
+  ],
+  "positive_at_either_prediction_visit": 494066,
+  "positive_at_both_prediction_visits": 483996,
+  "detection_patterns_t0_t16_t112": {
+    "100": 8885,
+    "101": 1185,
+    "110": 44753,
+    "111": 439243
+  },
+  "assigned_reads_t0_t16_t112": [
+    222295794,
+    83845251,
+    53421787
+  ],
+  "baseline_persistence": {
+    "leader_count": 1,
+    "winners": [
+      {
+        "id": 262,
+        "assigned_reads_t0_t16_t112": [
+          150589,
+          77532,
+          52098
+        ],
+        "rank_t0_t16_t112": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            91,
+            91
+          ]
+        ]
+      }
+    ],
+    "next_distinct_score_ids": [
+      1458
+    ],
+    "top_score_num": 150589,
+    "next_distinct_score_num": 93154,
+    "leader_margin_num": 57435,
+    "score_den": 222295794
+  },
+  "early_persistence": {
+    "leader_count": 1,
+    "winners": [
+      {
+        "id": 262,
+        "assigned_reads_t0_t16_t112": [
+          150589,
+          77532,
+          52098
+        ],
+        "rank_t0_t16_t112": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            91,
+            91
+          ]
+        ]
+      }
+    ],
+    "next_distinct_score_ids": [
+      1458
+    ],
+    "top_score_num": 77532,
+    "next_distinct_score_num": 38495,
+    "leader_margin_num": 39037,
+    "score_den": 83845251
+  },
+  "two_visit_linear_trend": {
+    "leader_count": 1,
+    "winners": [
+      {
+        "id": 262,
+        "assigned_reads_t0_t16_t112": [
+          150589,
+          77532,
+          52098
+        ],
+        "rank_t0_t16_t112": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            91,
+            91
+          ]
+        ]
+      }
+    ],
+    "next_distinct_score_ids": [
+      1458
+    ],
+    "top_score_num": 21843902497977,
+    "next_distinct_score_num": 9304032668406,
+    "leader_margin_num": 12539869829571,
+    "score_den": 18638446644174294
+  },
+  "endpoint": {
+    "leader_count": 1,
+    "winners": [
+      {
+        "id": 3730,
+        "assigned_reads_t0_t16_t112": [
+          272,
+          288,
+          2207149
+        ],
+        "rank_t0_t16_t112": [
+          [
+            277382,
+            277962
+          ],
+          [
+            93224,
+            93759
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "next_distinct_score_ids": [
+      1488
+    ],
+    "top_score_num": 2207149,
+    "next_distinct_score_num": 901830,
+    "leader_margin_num": 1305319,
+    "score_den": 53421787
+  }
+}
