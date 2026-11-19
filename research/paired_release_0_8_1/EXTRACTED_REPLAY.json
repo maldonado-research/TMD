@@ -1,0 +1,145 @@
+{
+  "status": "pass",
+  "verified_at_utc": "2026-11-19T01:30:37.502429+00:00",
+  "version": "0.8.1",
+  "source_commit": "9ea37e9bafe3f88881e05a5c82b83c84ee9b58bd",
+  "source_repository": "https://github.com/maldonado-research/TMD",
+  "assets": {
+    "TMD_paired_evidence_0_8_1_2026-11-18.zip": {
+      "bytes": 459039,
+      "sha256": "59bbbf42b80b4adea932af1a16b6b248f1043ea4e174456dbd4e5ea9bb859154"
+    },
+    "TMD_paired_evidence_0_8_1_2026-11-18_SHA256SUMS.txt": {
+      "bytes": 107,
+      "sha256": "264d28f2c309cea5ed80b32749b2a49147d176ff24b7b488944b1e358c105ab1"
+    }
+  },
+  "independent_build": "A separate local clone at the pinned commit reproduced both publication assets byte for byte.",
+  "manifest_verification": {
+    "source_files_compared_to_git_blobs": 40,
+    "zip_entries": 41,
+    "every_member_declared_and_canonical": true,
+    "third_party_workbooks_in_archive": 0
+  },
+  "verification_environment": {
+    "python": "3.12.14",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.8"
+  },
+  "offline_calculation_and_verification": {
+    "paired phenotype verifier": {
+      "exit_code": 0,
+      "stdout_sha256": "3031e8440541f69d7cbe6be10d4b4db0727f61a972f6633a7fc89082e134fdf7"
+    },
+    "paired phenotype result": {
+      "matched_packaged_file": "research/paired_evidence/paired_result.json",
+      "sha256": "14babba10e89e1f303aa50dcaa7e5474319c4a2adb3ed97ab3513eafa54ece66"
+    },
+    "attribution verifier": {
+      "exit_code": 0,
+      "stdout_sha256": "0e47241b0e24b766d983c256341aca37d2161989315a4d9b9121c9afaf01ce22"
+    },
+    "attribution calculation": {
+      "exit_code": 0,
+      "stdout_sha256": "b20f1b3649180ed4633b2733fbb6a63299b81972a0b0151b9595abb038a98a11"
+    },
+    "peach aggregate verifier": {
+      "exit_code": 0,
+      "stdout_sha256": "df995d827773858e924589d9e191f16e8b77d42fdbfbdbcc58ecf2b544e6d2a9"
+    },
+    "weight verifier": {
+      "exit_code": 0,
+      "stdout_sha256": "ba061a6231ddc4afd4528846bd0eb6a4bf33af2c94754b94658fcd9a7d3cb89d"
+    },
+    "weight analysis": {
+      "matched_packaged_file": "research/archived_rank_robustness/weights_result.json",
+      "sha256": "c7fee323018a748ce2a51f9b153d9b45975c480bb0d0a480f593c42e284ab640"
+    },
+    "Howells ranked completions": {
+      "matched_packaged_file": "research/archived_rank_robustness/howells_completion.json",
+      "sha256": "a1e6f1efd771025e580a9458d66ef1b1f4e6441ba22c10cf8e89f61cc88da8b7"
+    },
+    "earlier two-archive ranks": {
+      "matched_packaged_file": "research/archived_route_ranks/rank_result.json",
+      "sha256": "913764d0ab5f6199fe4f1c0e449bee0ce7f0ec1e5fc234e46d44d96021f28b16"
+    },
+    "earlier two-archive verification": {
+      "exit_code": 0,
+      "stdout_sha256": "1a86561d086f309dceeb8c788735d354f37f785e196c91040d0b885132a751cd"
+    }
+  },
+  "external_inputs": {
+    "Matela Table S1": {
+      "bytes": 17274,
+      "sha256": "90d591f688302c603abbfafcde57ce6fb1011eb6043177d44e3f704f3e818b21"
+    },
+    "Howells Figshare v1": {
+      "bytes": 104373,
+      "sha256": "48f769eb2b49fb02e5a468a0c991d70557848fb79b99629cbd5683233bfbb328"
+    },
+    "Howells publisher": {
+      "bytes": 104431,
+      "sha256": "19b7352e4a82f93c468a2ab752fa24cfe478e0c05b4d7502cb5c7019a7a0b90c"
+    },
+    "Ji Table S2": {
+      "bytes": 19707,
+      "sha256": "b101c5288f34ca8853d2dd8592b1fd80e1ea4347a96dc049913693ca79302fa4"
+    },
+    "Ji Table S5": {
+      "bytes": 19053,
+      "sha256": "a37bcda6a357e779840974bd8cf51bb526db863bb689013eac02f28c076e4394"
+    },
+    "Bantinaki\u2013McDonald derived ledger": {
+      "bytes": 18154,
+      "sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5"
+    },
+    "Goel apricot workbook": {
+      "bytes": 1807558,
+      "sha256": "9cc9ea73b92f335e24670f9b75d2b923feaa120a3467546211d8a879a75046b5"
+    }
+  },
+  "source_replays_from_extracted_package": {
+    "Howells source aggregate": {
+      "matched_packaged_file": "research/archived_rank_robustness/howells_receipt.json",
+      "sha256": "a47ee3142be5573ea88114a86f6455d0bda659dc3a64653ff15553875d5077a2"
+    },
+    "Howells cross-copy comparison": {
+      "matched_packaged_file": "research/archived_rank_robustness/cross_source_receipt.json",
+      "sha256": "16d40a38597d0a3cc58e436dc03c5d595f5bcb0b09f1f1454d59b8b5addd142e"
+    },
+    "Ji Tables S2/S5 replay": {
+      "matched_packaged_file": "research/paired_evidence/peach_receipt.json",
+      "sha256": "1b923883cecbba34444f53b97a5ce20f61a72698cfce6a32cf258a98ccbb8b70"
+    },
+    "Matela original aggregate": {
+      "matched_packaged_file": "research/archived_route_ranks/matela_receipt.json",
+      "sha256": "8ba9b5456212d00c8c0718f62bb1de7476994aef26153112454ec58f187c0266"
+    },
+    "Matela block receipt": {
+      "matched_packaged_file": "research/archived_rank_robustness/block_receipt.json",
+      "sha256": "d82fc04f5553fc96e2c3baf4cdb581ce615c442726a004dfe14f9494b4972b54"
+    },
+    "Matela independent workbook-weight replay": {
+      "exit_code": 0,
+      "stdout_sha256": "2c6febeb9b8af87691a5331b54fa081b6d215b7e34e6ebcffe95c2101d5f4be5"
+    },
+    "Bantinaki\u2013McDonald derived ledger replay": {
+      "matched_packaged_file": "research/archived_route_ranks/historical_receipt.json",
+      "sha256": "017b25ef687199f77f7c6af212d229d4392a1f96e4bcc6f1abfb4bb2293269af"
+    },
+    "Goel apricot source replay": {
+      "matched_packaged_file": "research/archived_route_ranks/apricot_layers_receipt.json",
+      "sha256": "8d5f808fff32488e816ca3113b88a7f872e2703e3147070b8b0ee434adcd6441"
+    }
+  },
+  "regenerated_figures": {
+    "rank margins figure": {
+      "matched_packaged_file": "research/archived_rank_robustness/rank_margins.png",
+      "sha256": "24358b3bbc3ff15b35c67a59f69d04da7c97c8826e2624eb293a5ff7c23f4776"
+    },
+    "peach split figure": {
+      "matched_packaged_file": "research/paired_evidence/peach_pairs.png",
+      "sha256": "da735119645784b35c91e9c1ffd97cd77e10d5830e1a1cee3a58bcf0b6d6448a"
+    }
+  }
+}

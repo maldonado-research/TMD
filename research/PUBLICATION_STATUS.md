@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.8.0**, published on 18 November 2026 Pacific as [record 24356344](https://doi.org/10.5281/zenodo.24356344) in [concept family 23068055](https://doi.org/10.5281/zenodo.23068055). The archive contains the retrospective route rankings and observation audits. The two new files and ten inherited files were downloaded from the public record and verified. [Release and source](roster_release_0_8_0/README.md) · [Public receipt](roster_release_0_8_0/PUBLICATION_RECEIPT.json).
+The current report and methods version is **0.8.1**, published 18 November 2026 Pacific in concept family 23068055. It archives the three-collection comparison, paired phenotype ceiling, annotation-edit sensitivities and peach split-sample detection analysis. Fourteen public files were downloaded and independently checked against the local release and prior public record. [Zenodo 0.8.1](https://doi.org/10.5281/zenodo.24356808) · [Release and verification](paired_release_0_8_1/README.md).
+
+## Earlier report and methods 0.8.0 checkpoint
+
+The preceding report and methods version was **0.8.0**, published on 18 November 2026 Pacific as [record 24356344](https://doi.org/10.5281/zenodo.24356344) in [concept family 23068055](https://doi.org/10.5281/zenodo.23068055). The archive contains the retrospective route rankings and observation audits. The two new files and ten inherited files were downloaded from the public record and verified. [Release and source](roster_release_0_8_0/README.md) · [Public receipt](roster_release_0_8_0/PUBLICATION_RECEIPT.json).
 
 ## Earlier methods 0.7.0 checkpoint
 
