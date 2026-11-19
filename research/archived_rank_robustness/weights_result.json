@@ -1,0 +1,251 @@
+{
+  "all_ambiguous_to_M_witness": {
+    "equal_source_shares": {
+      "A": "64/585",
+      "M": "1/2",
+      "W": "457/1170"
+    },
+    "equal_source_year_shares": {
+      "A": "182/1425",
+      "M": "3/10",
+      "W": "1631/2850"
+    },
+    "omit_largest_source_counts": {
+      "A": 2,
+      "M": 6,
+      "W": 3
+    },
+    "pooled_counts": {
+      "A": 7,
+      "M": 6,
+      "W": 37
+    }
+  },
+  "equal_source_share_gaps": {
+    "A-M": [
+      "-457/1170",
+      "167/1170"
+    ],
+    "W-A": [
+      "251/1170",
+      "797/1170"
+    ],
+    "W-M": [
+      "-64/585",
+      "443/585"
+    ]
+  },
+  "equal_source_year_share_gaps": {
+    "A-M": [
+      "-491/2850",
+      "421/2850"
+    ],
+    "W-A": [
+      "1153/2850",
+      "1951/2850"
+    ],
+    "W-M": [
+      "388/1425",
+      "1129/1425"
+    ]
+  },
+  "first_tie": {
+    "scope": "Every gap is positive at equal parent weights. Each represented block receives a multiplier in [1, gamma].",
+    "source": {
+      "A-M": {
+        "finite_tie": true,
+        "first_tie_ratio": "5/4",
+        "negative_lower_magnitude": 4,
+        "positive_lower_sum": 5
+      },
+      "W-A": {
+        "finite_tie": true,
+        "first_tie_ratio": "29",
+        "negative_lower_magnitude": 1,
+        "positive_lower_sum": 29
+      },
+      "W-M": {
+        "finite_tie": true,
+        "first_tie_ratio": "34/3",
+        "negative_lower_magnitude": 3,
+        "positive_lower_sum": 34
+      }
+    },
+    "source_year": {
+      "A-M": {
+        "finite_tie": true,
+        "first_tie_ratio": "5/4",
+        "negative_lower_magnitude": 4,
+        "positive_lower_sum": 5
+      },
+      "W-A": {
+        "finite_tie": true,
+        "first_tie_ratio": "29",
+        "negative_lower_magnitude": 1,
+        "positive_lower_sum": 29
+      },
+      "W-M": {
+        "finite_tie": true,
+        "first_tie_ratio": "34/3",
+        "negative_lower_magnitude": 3,
+        "positive_lower_sum": 34
+      }
+    }
+  },
+  "omit_one_source": {
+    "S1": {
+      "count_gaps": {
+        "A-M": [
+          -4,
+          3
+        ],
+        "W-A": [
+          -1,
+          4
+        ],
+        "W-M": [
+          -3,
+          5
+        ]
+      },
+      "remaining_parents": 11
+    },
+    "S2": {
+      "count_gaps": {
+        "A-M": [
+          4,
+          5
+        ],
+        "W-A": [
+          29,
+          30
+        ],
+        "W-M": [
+          33,
+          35
+        ]
+      },
+      "remaining_parents": 40
+    },
+    "S3": {
+      "count_gaps": {
+        "A-M": [
+          2,
+          8
+        ],
+        "W-A": [
+          28,
+          32
+        ],
+        "W-M": [
+          32,
+          38
+        ]
+      },
+      "remaining_parents": 49
+    }
+  },
+  "omit_one_source_year": {
+    "S1.1": {
+      "count_gaps": {
+        "A-M": [
+          -2,
+          5
+        ],
+        "W-A": [
+          25,
+          30
+        ],
+        "W-M": [
+          25,
+          33
+        ]
+      },
+      "remaining_parents": 41
+    },
+    "S1.2": {
+      "count_gaps": {
+        "A-M": [
+          1,
+          8
+        ],
+        "W-A": [
+          17,
+          22
+        ],
+        "W-M": [
+          20,
+          28
+        ]
+      },
+      "remaining_parents": 39
+    },
+    "S1.3": {
+      "count_gaps": {
+        "A-M": [
+          -1,
+          6
+        ],
+        "W-A": [
+          13,
+          18
+        ],
+        "W-M": [
+          14,
+          22
+        ]
+      },
+      "remaining_parents": 31
+    },
+    "S2.1": {
+      "count_gaps": {
+        "A-M": [
+          4,
+          5
+        ],
+        "W-A": [
+          29,
+          30
+        ],
+        "W-M": [
+          33,
+          35
+        ]
+      },
+      "remaining_parents": 40
+    },
+    "S3.1": {
+      "count_gaps": {
+        "A-M": [
+          2,
+          8
+        ],
+        "W-A": [
+          28,
+          32
+        ],
+        "W-M": [
+          32,
+          38
+        ]
+      },
+      "remaining_parents": 49
+    }
+  },
+  "pooled_count_gaps": {
+    "A-M": [
+      1,
+      8
+    ],
+    "W-A": [
+      28,
+      33
+    ],
+    "W-M": [
+      31,
+      39
+    ]
+  },
+  "represented_parents": 50,
+  "source_sha256": "90d591f688302c603abbfafcde57ce6fb1011eb6043177d44e3f704f3e818b21"
+}
