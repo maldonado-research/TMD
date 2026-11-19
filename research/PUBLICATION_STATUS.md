@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.8.1**, published 18 November 2026 Pacific in concept family 23068055. It archives the three-collection comparison, paired phenotype ceiling, annotation-edit sensitivities and peach split-sample detection analysis. Fourteen public files were downloaded and independently checked against the local release and prior public record. [Zenodo 0.8.1](https://doi.org/10.5281/zenodo.24356808) · [Release and verification](paired_release_0_8_1/README.md).
+The current report and methods version is **0.8.2**, published 19 November 2026 Pacific in concept family 23068055. The new archive covers split-lysate selection, historical branch markers and repeat recovery in plant data. All 16 public files were downloaded and checked. [Zenodo 0.8.2](https://doi.org/10.5281/zenodo.24377555) · [Data, code and verification](plant_release_0_8_2/README.md)
+
+## Earlier report and methods 0.8.1 checkpoint
+
+Version **0.8.1** was published 18 November 2026 Pacific in concept family 23068055. It archives the three-collection comparison, paired phenotype ceiling, annotation-edit sensitivities and peach split-sample detection analysis. Fourteen public files were downloaded and independently checked against the local release and prior public record. [Zenodo 0.8.1](https://doi.org/10.5281/zenodo.24356808) · [Release and verification](paired_release_0_8_1/README.md).
 
 ## Earlier report and methods 0.8.0 checkpoint
 
