@@ -1,0 +1,721 @@
+{
+  "article": "https://doi.org/10.1371/journal.pgen.1011829",
+  "source_workbooks": {
+    "S2": {
+      "sha256": "b101c5288f34ca8853d2dd8592b1fd80e1ea4347a96dc049913693ca79302fa4",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s016.xlsx"
+    },
+    "S3": {
+      "sha256": "80774928a21b4aaa717e5c87afdb3d01aae9d8392b1cbfc23e542358ff292d6f",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s017.xlsx"
+    },
+    "S5": {
+      "sha256": "a37bcda6a357e779840974bd8cf51bb526db863bb689013eac02f28c076e4394",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s019.xlsx"
+    }
+  },
+  "organ_by_tissue": {
+    "Pair1": "Carpel",
+    "Pair2": "Sepal",
+    "Pair3": "Sepal",
+    "Pair4": "Sepal",
+    "Pair5": "Sepal",
+    "Pair6": "Sepal",
+    "Pair7": "Sepal",
+    "Pair8": "Petal",
+    "Pair9": "Petal",
+    "Pair10": "Petal",
+    "Pair11": "Petal",
+    "Pair12": "Petal",
+    "Pair13": "Petal",
+    "Pair14": "Petal",
+    "Pair15": "Petal",
+    "Pair16": "Stamen",
+    "Pair17": "Stamen",
+    "Pair18": "Stamen",
+    "Pair19": "Stamen",
+    "Pair20": "Stamen"
+  },
+  "other_flower_libraries": 30,
+  "other_library_fields": [
+    "largest_alternate_count_in_one_library",
+    "libraries_with_positive_alternate_count"
+  ],
+  "other_library_evidence_by_site": {
+    "M21": [
+      6,
+      27
+    ],
+    "M22": [
+      1,
+      1
+    ],
+    "M23": [
+      5,
+      2
+    ],
+    "M24": [
+      7,
+      1
+    ],
+    "M25": [
+      9,
+      2
+    ],
+    "M26": [
+      1,
+      1
+    ],
+    "M27": [
+      12,
+      1
+    ],
+    "M28": [
+      0,
+      0
+    ],
+    "M29": [
+      8,
+      1
+    ],
+    "M30": [
+      10,
+      1
+    ],
+    "M31": [
+      6,
+      4
+    ],
+    "M32": [
+      8,
+      1
+    ],
+    "M33": [
+      0,
+      0
+    ],
+    "M34": [
+      9,
+      1
+    ],
+    "M35": [
+      21,
+      3
+    ],
+    "M36": [
+      5,
+      1
+    ],
+    "M37": [
+      11,
+      1
+    ],
+    "M38": [
+      43,
+      1
+    ],
+    "M39": [
+      5,
+      1
+    ],
+    "M40": [
+      0,
+      0
+    ],
+    "M41": [
+      12,
+      1
+    ],
+    "M42": [
+      44,
+      30
+    ],
+    "M43": [
+      8,
+      1
+    ],
+    "M44": [
+      9,
+      1
+    ],
+    "M45": [
+      6,
+      1
+    ],
+    "M46": [
+      11,
+      2
+    ],
+    "M47": [
+      5,
+      1
+    ],
+    "M48": [
+      0,
+      0
+    ],
+    "M49": [
+      0,
+      0
+    ],
+    "M50": [
+      0,
+      0
+    ],
+    "M51": [
+      0,
+      0
+    ],
+    "M52": [
+      13,
+      2
+    ],
+    "M53": [
+      16,
+      3
+    ],
+    "M54": [
+      7,
+      1
+    ],
+    "M55": [
+      0,
+      0
+    ],
+    "M56": [
+      2,
+      1
+    ],
+    "M57": [
+      18,
+      1
+    ]
+  },
+  "pooled_alternates_0_1_ge2": [
+    669,
+    7,
+    64
+  ],
+  "eligible_fields": [
+    "tissue",
+    "site",
+    "depth_a",
+    "depth_b",
+    "pooled_alternate",
+    "one_sided"
+  ],
+  "eligible": [
+    [
+      "Pair1",
+      "M42",
+      57,
+      54,
+      47,
+      false
+    ],
+    [
+      "Pair1",
+      "M56",
+      56,
+      31,
+      6,
+      false
+    ],
+    [
+      "Pair2",
+      "M21",
+      46,
+      37,
+      3,
+      false
+    ],
+    [
+      "Pair2",
+      "M23",
+      49,
+      45,
+      16,
+      false
+    ],
+    [
+      "Pair2",
+      "M42",
+      93,
+      107,
+      85,
+      false
+    ],
+    [
+      "Pair3",
+      "M21",
+      43,
+      33,
+      5,
+      true
+    ],
+    [
+      "Pair3",
+      "M42",
+      84,
+      58,
+      62,
+      false
+    ],
+    [
+      "Pair3",
+      "M53",
+      43,
+      28,
+      4,
+      true
+    ],
+    [
+      "Pair4",
+      "M21",
+      52,
+      45,
+      11,
+      false
+    ],
+    [
+      "Pair4",
+      "M42",
+      81,
+      56,
+      51,
+      false
+    ],
+    [
+      "Pair5",
+      "M21",
+      25,
+      54,
+      6,
+      false
+    ],
+    [
+      "Pair5",
+      "M40",
+      88,
+      139,
+      22,
+      false
+    ],
+    [
+      "Pair5",
+      "M42",
+      88,
+      72,
+      61,
+      false
+    ],
+    [
+      "Pair6",
+      "M21",
+      58,
+      38,
+      6,
+      false
+    ],
+    [
+      "Pair6",
+      "M40",
+      105,
+      103,
+      13,
+      false
+    ],
+    [
+      "Pair6",
+      "M42",
+      95,
+      63,
+      61,
+      false
+    ],
+    [
+      "Pair7",
+      "M21",
+      35,
+      42,
+      5,
+      false
+    ],
+    [
+      "Pair7",
+      "M42",
+      84,
+      81,
+      67,
+      false
+    ],
+    [
+      "Pair8",
+      "M21",
+      48,
+      29,
+      10,
+      false
+    ],
+    [
+      "Pair8",
+      "M31",
+      28,
+      22,
+      4,
+      false
+    ],
+    [
+      "Pair8",
+      "M40",
+      112,
+      93,
+      2,
+      true
+    ],
+    [
+      "Pair8",
+      "M42",
+      84,
+      81,
+      43,
+      false
+    ],
+    [
+      "Pair9",
+      "M21",
+      44,
+      26,
+      5,
+      false
+    ],
+    [
+      "Pair9",
+      "M31",
+      17,
+      17,
+      7,
+      false
+    ],
+    [
+      "Pair9",
+      "M40",
+      124,
+      90,
+      21,
+      false
+    ],
+    [
+      "Pair9",
+      "M42",
+      102,
+      87,
+      56,
+      false
+    ],
+    [
+      "Pair10",
+      "M21",
+      42,
+      25,
+      4,
+      false
+    ],
+    [
+      "Pair10",
+      "M42",
+      72,
+      101,
+      37,
+      false
+    ],
+    [
+      "Pair11",
+      "M21",
+      38,
+      33,
+      11,
+      false
+    ],
+    [
+      "Pair11",
+      "M42",
+      94,
+      93,
+      42,
+      false
+    ],
+    [
+      "Pair12",
+      "M21",
+      31,
+      23,
+      3,
+      false
+    ],
+    [
+      "Pair12",
+      "M22",
+      56,
+      31,
+      5,
+      true
+    ],
+    [
+      "Pair12",
+      "M28",
+      22,
+      30,
+      5,
+      true
+    ],
+    [
+      "Pair12",
+      "M33",
+      47,
+      43,
+      6,
+      true
+    ],
+    [
+      "Pair12",
+      "M42",
+      67,
+      31,
+      17,
+      false
+    ],
+    [
+      "Pair12",
+      "M48",
+      71,
+      69,
+      10,
+      true
+    ],
+    [
+      "Pair12",
+      "M50",
+      40,
+      47,
+      7,
+      true
+    ],
+    [
+      "Pair13",
+      "M21",
+      30,
+      33,
+      7,
+      false
+    ],
+    [
+      "Pair13",
+      "M26",
+      45,
+      44,
+      18,
+      false
+    ],
+    [
+      "Pair13",
+      "M42",
+      89,
+      91,
+      52,
+      false
+    ],
+    [
+      "Pair13",
+      "M53",
+      50,
+      44,
+      29,
+      false
+    ],
+    [
+      "Pair14",
+      "M21",
+      33,
+      23,
+      6,
+      false
+    ],
+    [
+      "Pair14",
+      "M42",
+      68,
+      75,
+      56,
+      false
+    ],
+    [
+      "Pair14",
+      "M44",
+      16,
+      24,
+      5,
+      false
+    ],
+    [
+      "Pair14",
+      "M57",
+      55,
+      52,
+      38,
+      false
+    ],
+    [
+      "Pair15",
+      "M21",
+      35,
+      22,
+      6,
+      true
+    ],
+    [
+      "Pair15",
+      "M41",
+      41,
+      27,
+      18,
+      false
+    ],
+    [
+      "Pair15",
+      "M42",
+      69,
+      71,
+      29,
+      false
+    ],
+    [
+      "Pair15",
+      "M51",
+      56,
+      39,
+      8,
+      true
+    ],
+    [
+      "Pair16",
+      "M21",
+      25,
+      34,
+      7,
+      false
+    ],
+    [
+      "Pair16",
+      "M42",
+      58,
+      76,
+      46,
+      false
+    ],
+    [
+      "Pair16",
+      "M49",
+      20,
+      33,
+      5,
+      true
+    ],
+    [
+      "Pair16",
+      "M55",
+      26,
+      29,
+      5,
+      true
+    ],
+    [
+      "Pair17",
+      "M21",
+      41,
+      31,
+      4,
+      false
+    ],
+    [
+      "Pair17",
+      "M42",
+      54,
+      60,
+      37,
+      false
+    ],
+    [
+      "Pair18",
+      "M21",
+      43,
+      31,
+      4,
+      false
+    ],
+    [
+      "Pair18",
+      "M42",
+      79,
+      89,
+      47,
+      false
+    ],
+    [
+      "Pair18",
+      "M46",
+      43,
+      45,
+      3,
+      true
+    ],
+    [
+      "Pair18",
+      "M52",
+      98,
+      81,
+      4,
+      true
+    ],
+    [
+      "Pair19",
+      "M21",
+      36,
+      44,
+      5,
+      false
+    ],
+    [
+      "Pair19",
+      "M42",
+      89,
+      107,
+      58,
+      false
+    ],
+    [
+      "Pair19",
+      "M53",
+      17,
+      26,
+      17,
+      false
+    ],
+    [
+      "Pair20",
+      "M21",
+      38,
+      34,
+      5,
+      false
+    ],
+    [
+      "Pair20",
+      "M42",
+      73,
+      99,
+      68,
+      false
+    ]
+  ]
+}

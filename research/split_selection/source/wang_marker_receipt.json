@@ -1,0 +1,13 @@
+{
+  "matched_coordinate_pairs": 48,
+  "exact_SNV_allele_matches": 46,
+  "indel_coordinate_matches": 2,
+  "historical_leaf_sample_counts_for_flower_markers": {
+    "M71": 2,
+    "M101": 14
+  },
+  "current_paper_deep_markers_absent_from_2019_catalogue": [
+    "M119",
+    "M120"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "source_table_S3_sha256": "80774928a21b4aaa717e5c87afdb3d01aae9d8392b1cbfc23e542358ff292d6f",
+  "five_read_proxy": "One Flower #2 library contains at least five deposited alternate reads.",
+  "distinguishable_groups": {
+    "all": {
+      "sites": 37,
+      "comparisons": 64,
+      "observed_one_sided": 14,
+      "raw_expected": 3.17859655,
+      "site_local_screen_expected": 7.13070634
+    },
+    "outside_pass": {
+      "sites": 26,
+      "comparisons": 50,
+      "observed_one_sided": 5,
+      "raw_expected": 2.24212007,
+      "site_local_screen_expected": 2.24212007
+    },
+    "guaranteed": {
+      "sites": 29,
+      "comparisons": 56,
+      "observed_one_sided": 7,
+      "raw_expected": 2.74556389,
+      "site_local_screen_expected": 2.74556389
+    },
+    "outside_below_five": {
+      "sites": 11,
+      "comparisons": 14,
+      "observed_one_sided": 9,
+      "raw_expected": 0.93647648,
+      "site_local_screen_expected": 4.88858627
+    },
+    "allocation_sensitive": {
+      "sites": 8,
+      "comparisons": 8,
+      "observed_one_sided": 7,
+      "raw_expected": 0.43303266,
+      "site_local_screen_expected": 4.38514245
+    }
+  },
+  "retained_sites_maximum_exactly_five": [
+    "M22",
+    "M28",
+    "M36",
+    "M39",
+    "M47",
+    "M49",
+    "M55",
+    "M56"
+  ],
+  "allocation_sensitive_sites": [
+    {
+      "site": "M22",
+      "one_sided": 1,
+      "screen_forces_one_sided": true
+    },
+    {
+      "site": "M28",
+      "one_sided": 1,
+      "screen_forces_one_sided": true
+    },
+    {
+      "site": "M33",
+      "one_sided": 1,
+      "screen_forces_one_sided": false
+    },
+    {
+      "site": "M49",
+      "one_sided": 1,
+      "screen_forces_one_sided": true
+    },
+    {
+      "site": "M50",
+      "one_sided": 1,
+      "screen_forces_one_sided": false
+    },
+    {
+      "site": "M51",
+      "one_sided": 1,
+      "screen_forces_one_sided": false
+    },
+    {
+      "site": "M55",
+      "one_sided": 1,
+      "screen_forces_one_sided": true
+    },
+    {
+      "site": "M56",
+      "one_sided": 0,
+      "screen_forces_one_sided": false
+    }
+  ]
+}

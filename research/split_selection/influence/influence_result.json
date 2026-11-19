@@ -1,0 +1,639 @@
+{
+  "selection": "Flower #2 split-tissue comparisons with at least two pooled alternate reads.",
+  "full": {
+    "eligible": 64,
+    "observed_one_sided": 14,
+    "expected_one_sided": 3.17859655,
+    "excess": 10.82140345
+  },
+  "group_deletions": {
+    "site": {
+      "total_groups": 37,
+      "groups_with_eligible_rows": 21,
+      "positive_negative_zero_group_counts": [
+        13,
+        8,
+        16
+      ],
+      "positive_group_excess_sum": 11.08705282,
+      "negative_group_excess_sum": -0.26564937,
+      "minimum_leave_one_out_excess": 9.82280109,
+      "maximum_leave_one_out_excess": 10.9493024,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 13,
+        "witness": [
+          "M48",
+          "M51",
+          "M50",
+          "M33",
+          "M55",
+          "M28",
+          "M49",
+          "M22",
+          "M52",
+          "M53",
+          "M46",
+          "M40",
+          "M21"
+        ],
+        "smallest_excess_after_one_fewer_removal": 0.20956169,
+        "retained": {
+          "eligible": 28,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.26564937,
+          "excess": -0.26564937
+        }
+      },
+      "group_contributions": {
+        "M21": {
+          "eligible": 19,
+          "observed_one_sided": 2,
+          "expected_one_sided": 1.52478894,
+          "excess": 0.47521106
+        },
+        "M22": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.10797679,
+          "excess": 0.89202321
+        },
+        "M23": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 8.7e-06,
+          "excess": -8.7e-06
+        },
+        "M24": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M25": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M26": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 9.1e-07,
+          "excess": -9.1e-07
+        },
+        "M27": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M28": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.06496445,
+          "excess": 0.93503555
+        },
+        "M29": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M30": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M31": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.12789895,
+          "excess": -0.12789895
+        },
+        "M32": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M33": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.02703763,
+          "excess": 0.97296237
+        },
+        "M34": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M35": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M36": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M37": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M38": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M39": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M40": {
+          "eligible": 4,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.50204527,
+          "excess": 0.49795473
+        },
+        "M41": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 1.587e-05,
+          "excess": -1.587e-05
+        },
+        "M42": {
+          "eligible": 20,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.00073743,
+          "excess": -0.00073743
+        },
+        "M43": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M44": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.07123318,
+          "excess": -0.07123318
+        },
+        "M45": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M46": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.24177116,
+          "excess": 0.75822884
+        },
+        "M47": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M48": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.00139764,
+          "excess": 0.99860236
+        },
+        "M49": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.08810723,
+          "excess": 0.91189277
+        },
+        "M50": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.01395346,
+          "excess": 0.98604654
+        },
+        "M51": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.01219257,
+          "excess": 0.98780743
+        },
+        "M52": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.12757298,
+          "excess": 0.87242702
+        },
+        "M53": {
+          "eligible": 3,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.14809286,
+          "excess": 0.85190714
+        },
+        "M54": {
+          "eligible": 0,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0,
+          "excess": 0.0
+        },
+        "M55": {
+          "eligible": 1,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.05304619,
+          "excess": 0.94695381
+        },
+        "M56": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.06575434,
+          "excess": -0.06575434
+        },
+        "M57": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 5.10926e-16,
+          "excess": -5.10926e-16
+        }
+      }
+    },
+    "tissue": {
+      "total_groups": 20,
+      "groups_with_eligible_rows": 20,
+      "positive_negative_zero_group_counts": [
+        6,
+        14,
+        0
+      ],
+      "positive_group_excess_sum": 11.96849195,
+      "negative_group_excess_sum": -1.1470885,
+      "minimum_leave_one_out_excess": 6.2900914,
+      "maximum_leave_one_out_excess": 11.07119176,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 5,
+        "witness": [
+          "Pair12",
+          "Pair15",
+          "Pair16",
+          "Pair3",
+          "Pair18"
+        ],
+        "smallest_excess_after_one_fewer_removal": 0.72045222,
+        "retained": {
+          "eligible": 42,
+          "observed_one_sided": 1,
+          "expected_one_sided": 1.77560299,
+          "excess": -0.77560299
+        }
+      },
+      "group_contributions": {
+        "Pair1": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.06575434,
+          "excess": -0.06575434
+        },
+        "Pair10": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.16253523,
+          "excess": -0.16253523
+        },
+        "Pair11": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.00054553,
+          "excess": -0.00054553
+        },
+        "Pair12": {
+          "eligible": 7,
+          "observed_one_sided": 5,
+          "expected_one_sided": 0.46868795,
+          "excess": 4.53131205
+        },
+        "Pair13": {
+          "eligible": 4,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.01140192,
+          "excess": -0.01140192
+        },
+        "Pair14": {
+          "eligible": 4,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.1084544,
+          "excess": -0.1084544
+        },
+        "Pair15": {
+          "eligible": 4,
+          "observed_one_sided": 2,
+          "expected_one_sided": 0.05899418,
+          "excess": 1.94100582
+        },
+        "Pair16": {
+          "eligible": 4,
+          "observed_one_sided": 2,
+          "expected_one_sided": 0.15833157,
+          "excess": 1.84166843
+        },
+        "Pair17": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.1290205,
+          "excess": -0.1290205
+        },
+        "Pair18": {
+          "eligible": 4,
+          "observed_one_sided": 2,
+          "expected_one_sided": 0.50394479,
+          "excess": 1.49605521
+        },
+        "Pair19": {
+          "eligible": 3,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.06086428,
+          "excess": -0.06086428
+        },
+        "Pair2": {
+          "eligible": 3,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.24978831,
+          "excess": -0.24978831
+        },
+        "Pair20": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.05576211,
+          "excess": -0.05576211
+        },
+        "Pair3": {
+          "eligible": 3,
+          "observed_one_sided": 2,
+          "expected_one_sided": 0.21303507,
+          "excess": 1.78696493
+        },
+        "Pair4": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.00070931,
+          "excess": -0.00070931
+        },
+        "Pair5": {
+          "eligible": 3,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.09356327,
+          "excess": -0.09356327
+        },
+        "Pair6": {
+          "eligible": 3,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.0468035,
+          "excess": -0.0468035
+        },
+        "Pair7": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.05948532,
+          "excess": -0.05948532
+        },
+        "Pair8": {
+          "eligible": 4,
+          "observed_one_sided": 1,
+          "expected_one_sided": 0.62851449,
+          "excess": 0.37148551
+        },
+        "Pair9": {
+          "eligible": 4,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.10240047,
+          "excess": -0.10240047
+        }
+      }
+    },
+    "organ": {
+      "total_groups": 4,
+      "groups_with_eligible_rows": 4,
+      "positive_negative_zero_group_counts": [
+        3,
+        1,
+        0
+      ],
+      "positive_group_excess_sum": 10.88715779,
+      "negative_group_excess_sum": -0.06575434,
+      "minimum_leave_one_out_excess": 4.36293763,
+      "maximum_leave_one_out_excess": 10.88715779,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 3,
+        "witness": [
+          "Petal",
+          "Stamen",
+          "Sepal"
+        ],
+        "smallest_excess_after_one_fewer_removal": 1.27086087,
+        "retained": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.06575434,
+          "excess": -0.06575434
+        }
+      },
+      "group_contributions": {
+        "Carpel": {
+          "eligible": 2,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.06575434,
+          "excess": -0.06575434
+        },
+        "Petal": {
+          "eligible": 31,
+          "observed_one_sided": 8,
+          "expected_one_sided": 1.54153418,
+          "excess": 6.45846582
+        },
+        "Sepal": {
+          "eligible": 16,
+          "observed_one_sided": 2,
+          "expected_one_sided": 0.66338479,
+          "excess": 1.33661521
+        },
+        "Stamen": {
+          "eligible": 15,
+          "observed_one_sided": 4,
+          "expected_one_sided": 0.90792324,
+          "excess": 3.09207676
+        }
+      }
+    }
+  },
+  "support_in_30_other_flower_libraries": {
+    "max_alt_ge_1_and_positive_libraries_ge_1": {
+      "qualifying": {
+        "sites": 29,
+        "eligible_sites": 13,
+        "eligible": 53,
+        "observed_one_sided": 6,
+        "expected_one_sided": 2.41585211,
+        "excess": 3.58414789
+      },
+      "complement": {
+        "sites": 8,
+        "eligible_sites": 8,
+        "eligible": 11,
+        "observed_one_sided": 8,
+        "expected_one_sided": 0.76274444,
+        "excess": 7.23725556
+      }
+    },
+    "max_alt_ge_2_and_positive_libraries_ge_1": {
+      "qualifying": {
+        "sites": 27,
+        "eligible_sites": 11,
+        "eligible": 51,
+        "observed_one_sided": 5,
+        "expected_one_sided": 2.30787441,
+        "excess": 2.69212559
+      },
+      "complement": {
+        "sites": 10,
+        "eligible_sites": 10,
+        "eligible": 13,
+        "observed_one_sided": 9,
+        "expected_one_sided": 0.87072214,
+        "excess": 8.12927786
+      }
+    },
+    "max_alt_ge_1_and_positive_libraries_ge_2": {
+      "qualifying": {
+        "sites": 9,
+        "eligible_sites": 7,
+        "eligible": 47,
+        "observed_one_sided": 5,
+        "expected_one_sided": 2.17087103,
+        "excess": 2.82912897
+      },
+      "complement": {
+        "sites": 28,
+        "eligible_sites": 14,
+        "eligible": 17,
+        "observed_one_sided": 9,
+        "expected_one_sided": 1.00772553,
+        "excess": 7.99227447
+      }
+    },
+    "max_alt_ge_5_and_positive_libraries_ge_1": {
+      "qualifying": {
+        "sites": 26,
+        "eligible_sites": 10,
+        "eligible": 50,
+        "observed_one_sided": 5,
+        "expected_one_sided": 2.24212007,
+        "excess": 2.75787993
+      },
+      "complement": {
+        "sites": 11,
+        "eligible_sites": 11,
+        "eligible": 14,
+        "observed_one_sided": 9,
+        "expected_one_sided": 0.93647648,
+        "excess": 8.06352352
+      }
+    }
+  },
+  "deletions_at_sites_with_five_reads_in_another_library": {
+    "site": {
+      "total_groups": 26,
+      "groups_with_eligible_rows": 10,
+      "positive_negative_zero_group_counts": [
+        4,
+        6,
+        16
+      ],
+      "positive_group_excess_sum": 2.95777405,
+      "negative_group_excess_sum": -0.19989413,
+      "minimum_leave_one_out_excess": 1.88545291,
+      "maximum_leave_one_out_excess": 2.88577887,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 4,
+        "witness": [
+          "M52",
+          "M53",
+          "M46",
+          "M21"
+        ],
+        "smallest_excess_after_one_fewer_removal": 0.27531693,
+        "retained": {
+          "eligible": 26,
+          "observed_one_sided": 0,
+          "expected_one_sided": 0.19989413,
+          "excess": -0.19989413
+        }
+      }
+    },
+    "tissue": {
+      "total_groups": 20,
+      "groups_with_eligible_rows": 20,
+      "positive_negative_zero_group_counts": [
+        3,
+        17,
+        0
+      ],
+      "positive_group_excess_sum": 4.23621853,
+      "negative_group_excess_sum": -1.4783386,
+      "minimum_leave_one_out_excess": 0.970915,
+      "maximum_leave_one_out_excess": 3.0112379,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 2,
+        "witness": [
+          "Pair3",
+          "Pair18"
+        ],
+        "smallest_excess_after_one_fewer_removal": 0.970915,
+        "retained": {
+          "eligible": 43,
+          "observed_one_sided": 1,
+          "expected_one_sided": 1.52514022,
+          "excess": -0.52514022
+        }
+      }
+    },
+    "organ": {
+      "total_groups": 4,
+      "groups_with_eligible_rows": 4,
+      "positive_negative_zero_group_counts": [
+        3,
+        1,
+        0
+      ],
+      "positive_group_excess_sum": 2.75787993,
+      "negative_group_excess_sum": -8.07113e-22,
+      "minimum_leave_one_out_excess": 1.42108941,
+      "maximum_leave_one_out_excess": 2.75787993,
+      "minimum_groups_to_erase_excess_retaining_informative_cells": {
+        "groups_removed": 3,
+        "witness": [
+          "Sepal",
+          "Stamen",
+          "Petal"
+        ],
+        "smallest_excess_after_one_fewer_removal": 0.18785924,
+        "retained": {
+          "eligible": 1,
+          "observed_one_sided": 0,
+          "expected_one_sided": 8.07113e-22,
+          "excess": -8.07113e-22
+        }
+      }
+    }
+  }
+}

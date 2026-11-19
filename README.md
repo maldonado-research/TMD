@@ -23,7 +23,11 @@ The [retrospective route rankings and observation audits](research/roster_releas
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — how often do split tissues disagree?
+## Latest research checkpoint — how site selection changes the peach comparison
+
+One flower yielded 14 one-sided results among 64 eligible split-lysate comparisons. A five-read discovery rule applied to the archived counts raises the expected count from 3.18 to 7.13 and forces four one-sided outcomes. Source descriptions differ at the five-read boundary. A previously reported branch marker also supplies a one-sided comparison with 43 alternate reads. [Analysis, source tables and checks](research/split_selection/README.md) · [Prospective rule for independent data](research/shared_misses/PREDICTION.md)
+
+## Prior research checkpoint — how often do split tissues disagree?
 
 In one peach flower, 14 of 64 site–tissue comparisons with at least two alternate reads placed every alternate read in one split. Uniform allocation at the recorded depths predicts 3.18. At 669 other comparisons, both splits contained only reference reads. Their combined depth ranged from 21 to 294 per comparison. The analysis specifies a directional prediction for the first eligible independent plant archive. [Findings, source files and reproduction guide](research/shared_misses/README.md) · [Prospective test](research/shared_misses/PREDICTION.md)
 
