@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — site discovery and split-lysate measurements in plants",
+    "version": "0.8.2",
+    "publication_date": "2026-11-19",
+    "subjects": [
+      {
+        "subject": "somatic mutation"
+      },
+      {
+        "subject": "ascertainment bias"
+      },
+      {
+        "subject": "plant genetics"
+      },
+      {
+        "subject": "partial identification"
+      },
+      {
+        "subject": "reproducible research"
+      },
+      {
+        "subject": "technical replicates"
+      }
+    ],
+    "description": "<p>This report examines how the discovery of mutation sites affects later measurements on those sites. Ji et al. split material from 20 lysed tissues of one peach flower into two aliquots. At the 37 discovered sites, 14 of 64 comparisons with at least two alternate reads had all alternate reads in one aliquot. Uniform allocation at the observed read depths predicts 3.18. Conditioning on an inclusive five-read support rule raises the expectation to 7.13. Four one-sided observations are required by that rule on the deposited counts. The paper also describes additional filters, and two source descriptions differ at exactly five reads.</p>\n<p>Of 48 earlier branch sites, two have detailed counts in the flower study's historical marker panel. At one marker, one aliquot contained 43 alternate reads out of 215 and its paired aliquot contained zero out of 248. The five-read threshold cannot require this pattern. This selected subset comes from the same flower. A separate 2026 sweet-orange archive documents positively associated recovery of original leaf-specific calls across repeat libraries from the same DNA.</p>\n<p>The supplement includes the preceding shared-miss analysis, a tropical-tree source audit, exact calculations, independent computational checks and a prospective scoring rule published before any eligible new archive was evaluated. These results characterize measurement and site selection. The biological TMD prediction about the first successful heritable evolutionary route remains open.</p>\n<p>Primary studies include Ji et al. (2025), doi:10.1371/journal.pgen.1011829, Wang et al. (2019), doi:10.1371/journal.pbio.3000191, Beaulieu et al. (2026), doi:10.1093/plcell/koag288, and Schmitt et al. (2024), doi:10.1073/pnas.2313312121. Prepared with AI assistance and internal computational verification. Some supplemental source tables were checked through publisher renderings.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.8.2 adds the plant observation ZIP and its SHA-256 checksum to the fourteen files inherited from version 0.8.1 (doi:10.5281/zenodo.24356808). Original Python code is under MIT and original research documentation under CC BY 4.0. Source data retain the original authors' terms. The source commit is https://github.com/maldonado-research/TMD/tree/2c3cc0c4bcefff8e5401a6bde21abac13f83262c."
+      }
+    ]
+  }
+}

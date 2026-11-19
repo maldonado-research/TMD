@@ -9,7 +9,11 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-## Current report and methods supplement — 0.8.1
+## Current report and methods supplement — 0.8.2
+
+Version 0.8.2 archives the peach site-discovery analysis, the earlier paired observations, a tropical-tree source audit, a sweet-orange repeat-library comparison and the frozen independent-archive prediction. [Zenodo 0.8.2](https://doi.org/10.5281/zenodo.24377555) · [Release and verification](research/plant_release_0_8_2/README.md)
+
+## Earlier report and methods supplement — 0.8.1
 
 The paired endpoint and archived ranking supplement is published in the TMD report and methods series. It includes the Howells and peach results, the earlier school-weighting analysis, aggregate data and exact reproduction scripts. [Zenodo 0.8.1](https://doi.org/10.5281/zenodo.24356808) · [Release files and verification](research/paired_release_0_8_1/README.md).
 
