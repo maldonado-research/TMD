@@ -1,0 +1,69 @@
+{
+  "article": "https://doi.org/10.1073/pnas.2313312121",
+  "dataset": "https://doi.org/10.5281/zenodo.10089692",
+  "source_members": {
+    "D_leaves": {
+      "member": "treemutation_save/02_mutations/02_filtered/angela.leaf_mutations_spectra.tsv.gz",
+      "gzip_bytes": 691727,
+      "sha256": "cd340e3989ce17c45343fc50a058c2704acb8e766f60e7554b2ec7aa51e22fad"
+    },
+    "S_leaves": {
+      "member": "treemutation_save/02_mutations/02_filtered/sixto.leaf_mutations_spectra.tsv.gz",
+      "gzip_bytes": 136754,
+      "sha256": "46b6c60e4896cd85b7c291335fa876b47649b58c05050266c33ff2ac556d2de2"
+    },
+    "D_list": {
+      "member": "treemutation_save/02_mutations/02_filtered/angela.fruits_candidate_mutations.tsv.gz",
+      "gzip_bytes": 3352,
+      "sha256": "45d99d58633e2ae51cdbbe93af8b77ddf81f907f7285612f131021e68d5be39a"
+    },
+    "fruit": {
+      "member": "treemutation_save/02_mutations/04_fruits/fruit_mutations.tsv.gz",
+      "gzip_bytes": 40172,
+      "sha256": "ac860196c362ee608dddffb5883a3cab9db2c5c9a4869dc90be1caca96c7d328"
+    }
+  },
+  "archived_code": [
+    "https://github.com/sylvainschmitt/treemutation/blob/fc6a2eeef7b2bb1d178ebfbf3a79652ca13fb9df/11-MutationsAngela.Rmd",
+    "https://github.com/sylvainschmitt/treemutation/blob/fc6a2eeef7b2bb1d178ebfbf3a79652ca13fb9df/12-MutationsSixto.Rmd",
+    "https://github.com/sylvainschmitt/treemutation/blob/fc6a2eeef7b2bb1d178ebfbf3a79652ca13fb9df/40-Figures.Rmd"
+  ],
+  "Dicorynia_deposited_candidate_list_equals_reconstructed": true,
+  "species": {
+    "Dicorynia guianensis": {
+      "reconstructed_candidate_keys": 124,
+      "fruit_table_rows": 7252,
+      "distinct_keys_in_filtered_fruit_table": 23,
+      "distinct_keys_with_positive_in_any_listed_tissue": 23,
+      "distinct_positive_keys_by_literal_tissue_label": {
+        "cotyledon": 18,
+        "embryo sac": 20,
+        "endocarpe": 21
+      },
+      "distinct_positive_keys_in_embryo_sac_or_cotyledon": 20,
+      "keys_only_positive_outside_embryo_sac_and_cotyledon": 3,
+      "outside_only_keys_with_positive_by_tissue": {
+        "endocarpe": 3
+      },
+      "candidates_absent_from_filtered_fruit_table": 101
+    },
+    "Sextonia rubra": {
+      "reconstructed_candidate_keys": 36,
+      "fruit_table_rows": 1722,
+      "distinct_keys_in_filtered_fruit_table": 9,
+      "distinct_keys_with_positive_in_any_listed_tissue": 9,
+      "distinct_positive_keys_by_literal_tissue_label": {
+        "embryo sac": 8,
+        "fruit base": 5,
+        "nucelle": 4,
+        "pericarpe": 9
+      },
+      "distinct_positive_keys_in_embryo_sac_or_cotyledon": 8,
+      "keys_only_positive_outside_embryo_sac_and_cotyledon": 1,
+      "outside_only_keys_with_positive_by_tissue": {
+        "pericarpe": 1
+      },
+      "candidates_absent_from_filtered_fruit_table": 27
+    }
+  }
+}
