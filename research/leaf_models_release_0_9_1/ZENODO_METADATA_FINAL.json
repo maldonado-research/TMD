@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — missed calls, mixed lineages and sampling in peach leaves and grapevines",
+    "version": "0.9.1",
+    "publication_date": "2026-11-19",
+    "subjects": [
+      {
+        "subject": "somatic mutation"
+      },
+      {
+        "subject": "plant genetics"
+      },
+      {
+        "subject": "cell lineage"
+      },
+      {
+        "subject": "perfect phylogeny"
+      },
+      {
+        "subject": "genotype concordance"
+      },
+      {
+        "subject": "partial identification"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>In the 75-leaf DHQ1 peach catalogue of Wang et al. (doi:10.1371/journal.pbio.3000191), the previously reported additions-only inference for M101 in leaf DHQ1_B1-1-L1 depends on the cost of removing a listed membership. If one removal costs three times as much as one addition, the optimal single-lineage tables permit either state. Below this positive-cost threshold all optimal tables leave the entry unlisted. Above it all list M101. With equal costs 768 distinct tables attain the minimum of nine edits. These assumptions have no measured biological cost calibration.</p>\n<p>A separate model holds every bulk observation fixed and allows mixtures of cellular marker patterns on a single irreversible tree. Twenty leaves require multiple signatures, including five that require at least three. A constructive assignment attains all individual minima, giving 100 signature occurrences across the 75 samples. Adding M101 in L1 alone allows M71 and M101 to occur on the same path in a neighboring leaf. The public sequencing-run crosswalk identifies all 75 specimens. The biological state of the focal leaf remains unresolved.</p>\n<p>A native workbook from Tello et al. (doi:10.1093/hr/uhaf237) supplies an independent comparison in 185 Tempranillo grapevines. All 2,800 paired genotypes agree across assays in the original 50 vines. Nine entries at three markers differ between specimen calls and corresponding class profiles. On the 53 fully concordant markers, adding 135 vines distinguishes 12 of 1,378 pairs and no pair shows all four binary states. The report also examines a transmitted dwarf phenotype in loblolly pine. These retrospective results characterize evidence about marker relationships. The first successful route specified by TMD remains unobserved.</p>\n<p>The release includes reduced source inputs, an original figure, exact calculations, independent verifiers, source-limited interpretations and instructions for reproduction. Prior minimum conflict-free row-split mathematics is credited to its authors. Prepared with AI assistance and internal independent computation.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.9.1 adds the leaf models report ZIP and its SHA-256 checksum to the eighteen files inherited from version 0.9.0 (doi:10.5281/zenodo.24377898). Original Python code is under MIT and original documentation under CC BY 4.0. Source data retain the original authors' terms. The science commit is https://github.com/maldonado-research/TMD/tree/f14d1a086dac09f1f884a40743a75b40295f3df3."
+      }
+    ]
+  }
+}

@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.9.0**, published 19 November 2026 Pacific in concept family 23068055. The report examines mutation carrier lists in peach leaves and genetic distances across four tropical trees with independently measured branching geometry. The public verification covers all 18 files. [Zenodo 0.9.0](https://doi.org/10.5281/zenodo.24377898) · [Release and verification](leaf_release_0_9_0/README.md)
+The current report and methods version is **0.9.1**, published 19 November 2026 Pacific in concept family 23068055. The report tests how assumptions about missing calls, removed listings and mixtures of cellular lineages change inference from one peach tree. The public verification covers all 20 files. [Zenodo 0.9.1](https://doi.org/10.5281/zenodo.24378187) · [Release and verification](leaf_models_release_0_9_1/README.md)
+
+## Earlier report and methods 0.9.0 checkpoint
+
+Version **0.9.0** was published 19 November 2026 Pacific in concept family 23068055. The report examines mutation carrier lists in peach leaves and genetic distances across four tropical trees with independently measured branching geometry. The public verification covers all 18 files. [Zenodo 0.9.0](https://doi.org/10.5281/zenodo.24377898) · [Release and verification](leaf_release_0_9_0/README.md)
 
 ## Earlier report and methods 0.8.2 checkpoint
 
