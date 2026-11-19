@@ -1,0 +1,60 @@
+{
+  "source_sha256": "ade8ac17497ac11a3b8cf6392099a732475fde846cca5659ccb226f152fddd79",
+  "dots": 571,
+  "cells": [
+    {
+      "group": "WB-10",
+      "genotype": "A/A",
+      "dwarf": 2,
+      "normal": 44
+    },
+    {
+      "group": "WB-10",
+      "genotype": "A/G",
+      "dwarf": 53,
+      "normal": 17
+    },
+    {
+      "group": "WB-10",
+      "genotype": "G/G",
+      "dwarf": 18,
+      "normal": 0
+    },
+    {
+      "group": "WB-20",
+      "genotype": "A/A",
+      "dwarf": 3,
+      "normal": 37
+    },
+    {
+      "group": "WB-20",
+      "genotype": "A/G",
+      "dwarf": 41,
+      "normal": 22
+    },
+    {
+      "group": "WB-20",
+      "genotype": "G/G",
+      "dwarf": 14,
+      "normal": 0
+    },
+    {
+      "group": "Nana",
+      "genotype": "A/A",
+      "dwarf": 8,
+      "normal": 61
+    },
+    {
+      "group": "Nana",
+      "genotype": "A/G",
+      "dwarf": 120,
+      "normal": 68
+    },
+    {
+      "group": "Nana",
+      "genotype": "G/G",
+      "dwarf": 54,
+      "normal": 9
+    }
+  ]
+}

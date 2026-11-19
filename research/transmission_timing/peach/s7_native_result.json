@@ -1,0 +1,215 @@
+{
+  "source_sha256": "9a8ffb1020eeeddf9e2c129b91b0f710a41a4ad68b59f9444fabd2b88ce8f5c3",
+  "source_rows_by_year": {
+    "2016": 75,
+    "2017": 4,
+    "2019": 108
+  },
+  "marker_panels": [
+    "M120",
+    "M71",
+    "M42",
+    "M10",
+    "M101",
+    "M119",
+    "M21",
+    "M11"
+  ],
+  "matched_2016_leaves": 75,
+  "source_id_sets_match": true,
+  "shared_S11_parent_sample_marker_read_pairs_verified": 52,
+  "catalogue_comparison_2016": {
+    "M101": {
+      "listed": {
+        "n": 14,
+        "alt_histogram": {
+          "3": 5,
+          "4": 5,
+          "5": 2,
+          "7": 2
+        },
+        "depth_range": [
+          45,
+          85
+        ],
+        "vaf_range": [
+          "1/27",
+          "1/8"
+        ]
+      },
+      "unlisted": {
+        "n": 61,
+        "alt_histogram": {
+          "0": 48,
+          "1": 3,
+          "2": 10
+        },
+        "depth_range": [
+          37,
+          86
+        ],
+        "vaf_range": [
+          "0",
+          "2/41"
+        ]
+      }
+    },
+    "M71": {
+      "listed": {
+        "n": 2,
+        "alt_histogram": {
+          "4": 1,
+          "15": 1
+        },
+        "depth_range": [
+          14,
+          32
+        ],
+        "vaf_range": [
+          "2/7",
+          "15/32"
+        ]
+      },
+      "unlisted": {
+        "n": 73,
+        "alt_histogram": {
+          "0": 73
+        },
+        "depth_range": [
+          15,
+          53
+        ],
+        "vaf_range": [
+          "0",
+          "0"
+        ]
+      }
+    }
+  },
+  "M101_branch_and_prediction_summary": {
+    "four_minimum_additions": {
+      "number": 4,
+      "ref_read_sum": 234,
+      "alt_read_sum": 6,
+      "min_total": 51,
+      "max_total": 70,
+      "at_least_k_alt": {
+        "1": 3,
+        "2": 3,
+        "3": 0
+      }
+    },
+    "other_B1_unlisted": {
+      "number": 11,
+      "ref_read_sum": 597,
+      "alt_read_sum": 17,
+      "min_total": 41,
+      "max_total": 77,
+      "at_least_k_alt": {
+        "1": 10,
+        "2": 7,
+        "3": 0
+      }
+    },
+    "B1_listed": {
+      "number": 14,
+      "ref_read_sum": 811,
+      "alt_read_sum": 59,
+      "min_total": 45,
+      "max_total": 85,
+      "at_least_k_alt": {
+        "1": 14,
+        "2": 14,
+        "3": 14
+      }
+    },
+    "other_branches": {
+      "number": 46,
+      "ref_read_sum": 2700,
+      "alt_read_sum": 0,
+      "min_total": 37,
+      "max_total": 86,
+      "at_least_k_alt": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    }
+  },
+  "four_M101_minimum_addition_rows": {
+    "DHQ1_B1-1-L1": {
+      "worksheet_row": 120,
+      "ref": 57,
+      "alt": 2
+    },
+    "DHQ1_B1-11-L2": {
+      "worksheet_row": 139,
+      "ref": 70,
+      "alt": 0
+    },
+    "DHQ1_B1-6-L2": {
+      "worksheet_row": 129,
+      "ref": 58,
+      "alt": 2
+    },
+    "DHQ1_B1-8-L2": {
+      "worksheet_row": 133,
+      "ref": 49,
+      "alt": 2
+    }
+  },
+  "two_focal_leaves": {
+    "DHQ1_B1-1-L1": {
+      "worksheet_row": 120,
+      "M101": {
+        "ref": 57,
+        "alt": 2
+      },
+      "M71": {
+        "ref": 17,
+        "alt": 15
+      }
+    },
+    "DHQ1_B1-1-L2": {
+      "worksheet_row": 121,
+      "M101": {
+        "ref": 44,
+        "alt": 4
+      },
+      "M71": {
+        "ref": 10,
+        "alt": 4
+      }
+    }
+  },
+  "M71_M101_read_thresholds_across_75_leaves": [
+    {
+      "minimum_alt": 1,
+      "shared": 2,
+      "M71_only": 0,
+      "M101_only": 25,
+      "neither": 48
+    },
+    {
+      "minimum_alt": 2,
+      "shared": 2,
+      "M71_only": 0,
+      "M101_only": 22,
+      "neither": 51
+    },
+    {
+      "minimum_alt": 3,
+      "shared": 1,
+      "M71_only": 1,
+      "M101_only": 13,
+      "neither": 60
+    },
+    {
+      "minimum_alt": 4,
+      "shared": 1,
+      "M71_only": 1,
+      "M101_only": 8,
+      "neither": 65
+    }
+  ]
+}

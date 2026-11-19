@@ -1,0 +1,724 @@
+{
+  "visits": [
+    70,
+    1410,
+    2640,
+    5150,
+    7530,
+    10150
+  ],
+  "all_initially_haploid": {
+    "prefixes_compared_with_final": {
+      "70": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "first_appears_later": 3,
+          "identical": 11,
+          "partly_overlapping": 3
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 14
+        }
+      },
+      "1410": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "identical": 12,
+          "partly_overlapping": 5
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 17
+        }
+      },
+      "2640": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "identical": 13,
+          "partly_overlapping": 4
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 17
+        }
+      },
+      "5150": {
+        "group_set_relations": {
+          "identical": 15,
+          "partly_overlapping": 3
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "same": 18
+        }
+      },
+      "7530": {
+        "group_set_relations": {
+          "identical": 16,
+          "partly_overlapping": 2
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "same": 18
+        }
+      }
+    },
+    "penultimate_vs_final": {
+      "group_set_relations": {
+        "identical": 16,
+        "partly_overlapping": 2
+      },
+      "direction_of_first_qualifying_visit_when_both_observed": {
+        "same": 18
+      },
+      "per_well_start_and_set_sizes": {
+        "P1B02": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1B03": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1B04": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1B11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C02": [
+          70,
+          70,
+          2,
+          1,
+          1,
+          "partly_overlapping"
+        ],
+        "P1C04": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C05": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1C06": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1D03": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1E04": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1E11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1F05": [
+          70,
+          70,
+          6,
+          6,
+          6,
+          "identical"
+        ],
+        "P1F11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1G04": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1G05": [
+          1410,
+          1410,
+          63,
+          62,
+          62,
+          "partly_overlapping"
+        ],
+        "P1G11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1H11": [
+          1410,
+          1410,
+          4,
+          4,
+          4,
+          "identical"
+        ]
+      }
+    },
+    "final_requiring_second_adequately_covered_high_visit": {
+      "group_set_relations": {
+        "identical": 18
+      },
+      "direction_of_first_qualifying_visit_when_both_observed": {
+        "same": 18
+      },
+      "per_well_start_and_set_sizes": {
+        "P1B02": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1B03": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1B04": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1B11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C02": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C04": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C05": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1C06": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1D03": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1E04": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1E11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1F05": [
+          70,
+          70,
+          6,
+          6,
+          6,
+          "identical"
+        ],
+        "P1F11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1G04": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1G05": [
+          1410,
+          1410,
+          62,
+          62,
+          62,
+          "identical"
+        ],
+        "P1G11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1H11": [
+          1410,
+          1410,
+          4,
+          4,
+          4,
+          "identical"
+        ]
+      }
+    }
+  },
+  "excluding_P1B03": {
+    "prefixes_compared_with_final": {
+      "70": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "first_appears_later": 3,
+          "identical": 10,
+          "partly_overlapping": 3
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 13
+        }
+      },
+      "1410": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "identical": 11,
+          "partly_overlapping": 5
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 16
+        }
+      },
+      "2640": {
+        "group_set_relations": {
+          "disjoint": 1,
+          "identical": 12,
+          "partly_overlapping": 4
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "later": 1,
+          "same": 16
+        }
+      },
+      "5150": {
+        "group_set_relations": {
+          "identical": 14,
+          "partly_overlapping": 3
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "same": 17
+        }
+      },
+      "7530": {
+        "group_set_relations": {
+          "identical": 15,
+          "partly_overlapping": 2
+        },
+        "direction_of_first_qualifying_visit_when_both_observed": {
+          "same": 17
+        }
+      }
+    },
+    "penultimate_vs_final": {
+      "group_set_relations": {
+        "identical": 15,
+        "partly_overlapping": 2
+      },
+      "direction_of_first_qualifying_visit_when_both_observed": {
+        "same": 17
+      },
+      "per_well_start_and_set_sizes": {
+        "P1B02": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1B04": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1B11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C02": [
+          70,
+          70,
+          2,
+          1,
+          1,
+          "partly_overlapping"
+        ],
+        "P1C04": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C05": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1C06": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1D03": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1E04": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1E11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1F05": [
+          70,
+          70,
+          6,
+          6,
+          6,
+          "identical"
+        ],
+        "P1F11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1G04": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1G05": [
+          1410,
+          1410,
+          63,
+          62,
+          62,
+          "partly_overlapping"
+        ],
+        "P1G11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1H11": [
+          1410,
+          1410,
+          4,
+          4,
+          4,
+          "identical"
+        ]
+      }
+    },
+    "final_requiring_second_adequately_covered_high_visit": {
+      "group_set_relations": {
+        "identical": 17
+      },
+      "direction_of_first_qualifying_visit_when_both_observed": {
+        "same": 17
+      },
+      "per_well_start_and_set_sizes": {
+        "P1B02": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1B04": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1B11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C02": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1C04": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C05": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1C06": [
+          70,
+          70,
+          3,
+          3,
+          3,
+          "identical"
+        ],
+        "P1C11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1D03": [
+          70,
+          70,
+          4,
+          4,
+          4,
+          "identical"
+        ],
+        "P1E04": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1E11": [
+          1410,
+          1410,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1F05": [
+          70,
+          70,
+          6,
+          6,
+          6,
+          "identical"
+        ],
+        "P1F11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1G04": [
+          70,
+          70,
+          2,
+          2,
+          2,
+          "identical"
+        ],
+        "P1G05": [
+          1410,
+          1410,
+          62,
+          62,
+          62,
+          "identical"
+        ],
+        "P1G11": [
+          70,
+          70,
+          1,
+          1,
+          1,
+          "identical"
+        ],
+        "P1H11": [
+          1410,
+          1410,
+          4,
+          4,
+          4,
+          "identical"
+        ]
+      }
+    }
+  }
+}
