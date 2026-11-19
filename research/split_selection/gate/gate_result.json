@@ -1,0 +1,91 @@
+{
+  "threshold": 5,
+  "totals": {
+    "sites": 37,
+    "eligible_pairs": 64,
+    "observed_one_sided": 14,
+    "expected_without_gate": 3.178596554,
+    "expected_given_gate": 7.13070634
+  },
+  "by_site_status": {
+    "automatic_given_split_totals": {
+      "sites": 3,
+      "eligible_pairs": 6,
+      "observed_one_sided": 2,
+      "expected_without_gate": 0.503443819,
+      "expected_given_gate": 0.503443819
+    },
+    "outside_library_passes": {
+      "sites": 26,
+      "eligible_pairs": 50,
+      "observed_one_sided": 5,
+      "expected_without_gate": 2.242120074,
+      "expected_given_gate": 2.242120074
+    },
+    "sensitive_to_allocation": {
+      "sites": 8,
+      "eligible_pairs": 8,
+      "observed_one_sided": 7,
+      "expected_without_gate": 0.43303266,
+      "expected_given_gate": 4.385142446
+    }
+  },
+  "sensitive_sites": {
+    "M22": {
+      "eligible_pairs": 1,
+      "gate_probability": "2289/21199",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.107976791,
+      "expected_given_gate": 1.0
+    },
+    "M28": {
+      "eligible_pairs": 1,
+      "gate_probability": "201/3094",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.064964447,
+      "expected_given_gate": 1.0
+    },
+    "M33": {
+      "eligible_pairs": 1,
+      "gate_probability": "297757/1447941",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.027037635,
+      "expected_given_gate": 0.131479361
+    },
+    "M49": {
+      "eligible_pairs": 1,
+      "gate_probability": "1032/11713",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.088107231,
+      "expected_given_gate": 1.0
+    },
+    "M50": {
+      "eligible_pairs": 1,
+      "gate_probability": "32089147/72140197",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.013953464,
+      "expected_given_gate": 0.031369038
+    },
+    "M51": {
+      "eligible_pairs": 1,
+      "gate_probability": "2241221/2982479",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.012192567,
+      "expected_given_gate": 0.016225117
+    },
+    "M55": {
+      "eligible_pairs": 1,
+      "gate_probability": "835/15741",
+      "observed_one_sided": 1,
+      "expected_without_gate": 0.053046185,
+      "expected_given_gate": 1.0
+    },
+    "M56": {
+      "eligible_pairs": 1,
+      "gate_probability": "535329/1677679",
+      "observed_one_sided": 0,
+      "expected_without_gate": 0.065754339,
+      "expected_given_gate": 0.20606893
+    }
+  }
+}

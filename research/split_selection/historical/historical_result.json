@@ -1,0 +1,61 @@
+{
+  "by_marker": {
+    "M71": {
+      "frame": 20,
+      "zero_depth": 0,
+      "zero_or_one_alternate": 0,
+      "eligible": 20,
+      "observed_one_sided": 0,
+      "expected_one_sided": 1.0057891e-05,
+      "one_sided_rows": []
+    },
+    "M101": {
+      "frame": 20,
+      "zero_depth": 0,
+      "zero_or_one_alternate": 0,
+      "eligible": 20,
+      "observed_one_sided": 2,
+      "expected_one_sided": 0.060721265145,
+      "one_sided_rows": [
+        {
+          "pair": "Pair1",
+          "depth_a": 117,
+          "depth_b": 108,
+          "alt_a": 5,
+          "alt_b": 0
+        },
+        {
+          "pair": "Pair19",
+          "depth_a": 248,
+          "depth_b": 215,
+          "alt_a": 0,
+          "alt_b": 43
+        }
+      ]
+    }
+  },
+  "both_markers": {
+    "frame": 40,
+    "zero_depth": 0,
+    "zero_or_one_alternate": 0,
+    "eligible": 40,
+    "observed_one_sided": 2,
+    "expected_one_sided": 0.060731323036,
+    "one_sided_rows": [
+      {
+        "pair": "Pair1",
+        "depth_a": 117,
+        "depth_b": 108,
+        "alt_a": 5,
+        "alt_b": 0
+      },
+      {
+        "pair": "Pair19",
+        "depth_a": 248,
+        "depth_b": 215,
+        "alt_a": 0,
+        "alt_b": 43
+      }
+    ]
+  }
+}
