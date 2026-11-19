@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance: paired endpoint evidence and archived route rankings",
+    "version": "0.8.1",
+    "publication_date": "2026-11-18",
+    "subjects": [
+      {
+        "subject": "mutation bias"
+      },
+      {
+        "subject": "retrospective data analysis"
+      },
+      {
+        "subject": "finite populations"
+      },
+      {
+        "subject": "ascertainment bias"
+      },
+      {
+        "subject": "incomplete verification"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>This supplement tests how far the Wsp, Aws and Mws ordering observed in two phenotype-selected archives carries to a third collection. Among five coculture wrinkly records in Howells et al. (2025), two have a Wsp annotation, two have an Mws annotation and one is unresolved. Holding the recorded annotations fixed forces Mws above Aws. One reassignment can reverse that comparison, while restoring the entire Wsp &gt; Aws &gt; Mws order requires two edits. Among all nine matched parent pairs, the recorded family category can distinguish at most 12 of 18 wrinkly and smooth endpoints correctly. School weighting in the Matela archive can permit an Aws–Mws tie at a per-parent weight ratio of 5/4.</p>\n<p>A separate analysis of Ji et al. (2025) replays 37 candidate sites across 20 split tissues of one peach flower. The two subsamples agree in 719 of 740 comparisons, including 669 double-reference calls. Of 71 comparisons positive in either subsample, 50 are positive in both. Giving each of the 22 sites with a positive observation equal weight yields 41.74% mean overlap. These results describe selected observations and leave the underlying mutation rates and causal route identities unresolved. The supplement includes aggregate receipts, reproducible analyses, two figures and checks against the source workbooks. Original studies: https://doi.org/10.1111/1462-2920.70061, https://doi.org/10.1128/aem.02499-25 and https://doi.org/10.1371/journal.pgen.1011829. Prepared with AI assistance and internal computational review.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.8.1 adds TMD_paired_evidence_0_8_1_2026-11-18.zip and its SHA-256 sidecar to twelve inherited files. Version 0.8.0 is archived at DOI 10.5281/zenodo.24356344. Original code is distributed under MIT and original documentation under CC BY 4.0. Third-party data retain the source terms. Source commit: https://github.com/maldonado-research/TMD/tree/9ea37e9bafe3f88881e05a5c82b83c84ee9b58bd"
+      }
+    ]
+  }
+}

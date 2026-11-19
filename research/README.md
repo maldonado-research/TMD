@@ -1,6 +1,6 @@
 # TMD recovery-transport research follow-up
 
-**Current archive.** The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
+**Current archive.** The [0.8.1 paired-observation supplement](paired_release_0_8_1/README.md) is [published as record 24356808](https://doi.org/10.5281/zenodo.24356808). The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 
 The [paired endpoint and detection audit](paired_evidence/README.md) bounds phenotype classification using family annotations and checks split-sample repeatability using two original peach workbooks. It gives exact limits on annotation edits and shows how the unit of comparison changes reported positive overlap.
 
