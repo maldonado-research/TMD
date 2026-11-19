@@ -1,0 +1,129 @@
+{
+  "version": "0.9.1",
+  "doi": "10.5281/zenodo.24378187",
+  "concept_id": "23068055",
+  "previous_record": "24377898",
+  "public_file_count": 20,
+  "files": {
+    "TMD_leaf_lineages_0_9_0_2026-11-19.zip": {
+      "bytes": 349901,
+      "md5": "08286a4a7d52a021b7a8f1094d58b046",
+      "sha256": "13a33cd030e9fc868f732bb40a75348e670272d3f2910157023be3d0144e92a3",
+      "compared_with": "24377898"
+    },
+    "TMD_leaf_lineages_0_9_0_2026-11-19_SHA256SUMS.txt": {
+      "bytes": 105,
+      "md5": "a2ad365403322b9459474318f22a8eb7",
+      "sha256": "baf07ad04dd41094a0647891790c30c9283658e1e2930cf89d99677fc433c02b",
+      "compared_with": "24377898"
+    },
+    "TMD_leaf_models_0_9_1_2026-11-19.zip": {
+      "bytes": 328071,
+      "md5": "0a5e86a8c762d31628c22011ca50fca0",
+      "sha256": "4f3216045f835e9aa079af01bf78296b8e78511ab04c94fb9c42c9d41be9c852",
+      "compared_with": "local release asset"
+    },
+    "TMD_leaf_models_0_9_1_2026-11-19_SHA256SUMS.txt": {
+      "bytes": 103,
+      "md5": "69f4c31a88621d7be7eba05609f2f74b",
+      "sha256": "58caf45f1dd283c368d4df011e728585c4226897a66091451fdf2db4e8ab6ece",
+      "compared_with": "local release asset"
+    },
+    "TMD_methods_0_6_0_2026-10-02.zip": {
+      "bytes": 1277802,
+      "md5": "963beb4de39cb94a95443425f7fdac49",
+      "sha256": "72173d93fad40ce6d5b3a9e5db9b18e5804a0509c18866f56cfc3c66baa1de76",
+      "compared_with": "24377898"
+    },
+    "TMD_methods_0_6_0_2026-10-02_SHA256SUMS.txt": {
+      "bytes": 99,
+      "md5": "71cad575679321b9e21ec1e696b36a5f",
+      "sha256": "fca258d04d7f98433da3392619f67426b4d6dd7ddd872e212653cb8f9289fb11",
+      "compared_with": "24377898"
+    },
+    "TMD_methods_0_7_0_2026-11-04.zip": {
+      "bytes": 498964,
+      "md5": "904c3777535cb0515ff43431f1b86997",
+      "sha256": "575dfdcf1ee55d6c3691038f12dd0e73dcc1edee1e10828d6240789ccc0df4f4",
+      "compared_with": "24377898"
+    },
+    "TMD_methods_0_7_0_2026-11-04_SHA256SUMS.txt": {
+      "bytes": 99,
+      "md5": "844d21889749dba7871f6ddfa37884c7",
+      "sha256": "3c37948cd298a1facd9b4331ce644120411deacc2c7bb2f7d24f421ba4fb33ab",
+      "compared_with": "24377898"
+    },
+    "TMD_paired_evidence_0_8_1_2026-11-18.zip": {
+      "bytes": 459039,
+      "md5": "0cdf05523ae3b38e26b16736a2f1e7b8",
+      "sha256": "59bbbf42b80b4adea932af1a16b6b248f1043ea4e174456dbd4e5ea9bb859154",
+      "compared_with": "24377898"
+    },
+    "TMD_paired_evidence_0_8_1_2026-11-18_SHA256SUMS.txt": {
+      "bytes": 107,
+      "md5": "f4c1f102e0f4d4b102305d3de35b6184",
+      "sha256": "264d28f2c309cea5ed80b32749b2a49147d176ff24b7b488944b1e358c105ab1",
+      "compared_with": "24377898"
+    },
+    "TMD_plant_observation_0_8_2_2026-11-19.zip": {
+      "bytes": 646043,
+      "md5": "0a9073ed051ed0899d4b3c96c848e8d5",
+      "sha256": "acb784fb63e91e5d3f70e0e6af9f44ef4516748f3baf6a38de716decb4523c5a",
+      "compared_with": "24377898"
+    },
+    "TMD_plant_observation_0_8_2_2026-11-19_SHA256SUMS.txt": {
+      "bytes": 109,
+      "md5": "069643191df5128a8189eb21cfc708d0",
+      "sha256": "56b76f394de9ca1abd5412dac3c14de0d9e5e4dfe84cbecf18e08a564f7a4465",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_2_0_2026-09-30.zip": {
+      "bytes": 90370,
+      "md5": "97c023f181aaa7ede53531426431c6cb",
+      "sha256": "2e7345e2b8369436a570fb3ceca2698db1049c318babf2b45bc8906db4939b25",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_3_0_2026-09-30.zip": {
+      "bytes": 312580,
+      "md5": "836d215c73c14ae9c2077679bb522827",
+      "sha256": "224d292575a93afca6f5912ed2536f51ca0f42555f6b2ddd4e1bcd4e53af1753",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_4_0_2026-09-30.zip": {
+      "bytes": 397233,
+      "md5": "a59aab62b8c73384cc88734ab49e4396",
+      "sha256": "9ff1ed4b1fd5be448fad0766962884fccb83a4ad418acfd6a9faf1a90b2df0f2",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_5_0_2026-09-30.zip": {
+      "bytes": 800846,
+      "md5": "6e2b390801a8b034daf861d13336121c",
+      "sha256": "a92d0f04c2e19cd9922a0d234fb4bacc2ee6f3550c113c9bdd66d97feab0c1db",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_5_0_ZENODO_SHA256SUMS.txt": {
+      "bytes": 557,
+      "md5": "6d1cf73ed61785c5f175859825d31120",
+      "sha256": "238875ff98d4b1f4e2b9f7f604602c114f23fc660ceaecb3afa2edd47a119171",
+      "compared_with": "24377898"
+    },
+    "TMD_research_extension_0_5_0_report_2026-09-30.pdf": {
+      "bytes": 80657,
+      "md5": "b4d2fe23cd8192d2c334bd376e566a6a",
+      "sha256": "cd8e959b5efed2d2946a3e18cf8a9c239364b042d56628a091a296650a811af0",
+      "compared_with": "24377898"
+    },
+    "TMD_roster_audits_0_8_0_2026-11-18.zip": {
+      "bytes": 107541,
+      "md5": "00946beb1906d733725f52d1530d16ae",
+      "sha256": "61ed8c14efc9fd1917e5c4c541cc53556d83ff6548d25a6f071ebae6358398ad",
+      "compared_with": "24377898"
+    },
+    "TMD_roster_audits_0_8_0_2026-11-18_SHA256SUMS.txt": {
+      "bytes": 105,
+      "md5": "e53efc631994175effc5569021d31c75",
+      "sha256": "353dd661dd56e7721853436b7b684a63b54cc1e3cde2650b3fa13f1fef8b4462",
+      "compared_with": "24377898"
+    }
+  }
+}
