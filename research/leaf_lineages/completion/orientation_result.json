@@ -1,0 +1,195 @@
+{
+  "original_crossings": 10,
+  "original_orientations_per_scenario": 1024,
+  "unrestricted": {
+    "first_closure_lower_bound": 12,
+    "orientations_attaining_first_lower_bound": 2,
+    "minimum_added_memberships": 12,
+    "distinct_optimal_tables": 2,
+    "optimal_M71_M101_relation_and_sizes": [
+      [
+        "M71_strictly_within_M101",
+        2,
+        18
+      ]
+    ],
+    "number_of_common_additions": 10,
+    "additions_common_to_all_optima": {
+      "Pp01:47012878": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:59918": [
+        "DHQ1_B1-1-L1"
+      ],
+      "Pp04:9295050": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:21561355": [
+        "DHQ1_B1-1-L1",
+        "DHQ1_B1-11-L2",
+        "DHQ1_B1-6-L2",
+        "DHQ1_B1-8-L2"
+      ],
+      "Pp05:11214460": [
+        "DHQ1_B1-1-L1",
+        "DHQ1_B1-1-L2"
+      ],
+      "Pp07:1251826": [
+        "DHQ1_B2-11-L1"
+      ]
+    },
+    "other_additions_by_optimum": [
+      {
+        "Pp06:23762314": [
+          "DHQ1_B3-2-L1",
+          "DHQ1_B3-L1"
+        ]
+      },
+      {
+        "Pp01:47012878": [
+          "DHQ1_B3-3-L1"
+        ],
+        "Pp04:9295050": [
+          "DHQ1_B3-3-L1"
+        ]
+      }
+    ]
+  },
+  "M101_within_M71": {
+    "first_closure_lower_bound": 25,
+    "orientations_attaining_first_lower_bound": 2,
+    "minimum_added_memberships": 26,
+    "distinct_optimal_tables": 2,
+    "optimal_M71_M101_relation_and_sizes": [
+      [
+        "M101_strictly_within_M71",
+        18,
+        17
+      ]
+    ],
+    "number_of_common_additions": 24,
+    "additions_common_to_all_optima": {
+      "Pp01:2130859": [
+        "DHQ1_B1-10-L2",
+        "DHQ1_B1-11-L1",
+        "DHQ1_B1-11-L2",
+        "DHQ1_B1-12-L1",
+        "DHQ1_B1-14-L2",
+        "DHQ1_B1-15-L1",
+        "DHQ1_B1-16-L1",
+        "DHQ1_B1-4-L2",
+        "DHQ1_B1-5-L2",
+        "DHQ1_B1-6-L1",
+        "DHQ1_B1-6-L2",
+        "DHQ1_B1-7-L2",
+        "DHQ1_B1-8-L1",
+        "DHQ1_B1-8-L2",
+        "DHQ1_B1-9-L1",
+        "DHQ1_B1-L1"
+      ],
+      "Pp01:47012878": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:9295050": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:21561355": [
+        "DHQ1_B1-11-L2",
+        "DHQ1_B1-6-L2",
+        "DHQ1_B1-8-L2"
+      ],
+      "Pp05:11214460": [
+        "DHQ1_B1-1-L1",
+        "DHQ1_B1-1-L2"
+      ],
+      "Pp07:1251826": [
+        "DHQ1_B2-11-L1"
+      ]
+    },
+    "other_additions_by_optimum": [
+      {
+        "Pp06:23762314": [
+          "DHQ1_B3-2-L1",
+          "DHQ1_B3-L1"
+        ]
+      },
+      {
+        "Pp01:47012878": [
+          "DHQ1_B3-3-L1"
+        ],
+        "Pp04:9295050": [
+          "DHQ1_B3-3-L1"
+        ]
+      }
+    ]
+  },
+  "M101_equals_M71": {
+    "first_closure_lower_bound": 27,
+    "orientations_attaining_first_lower_bound": 4,
+    "minimum_added_memberships": 27,
+    "distinct_optimal_tables": 2,
+    "optimal_M71_M101_relation_and_sizes": [
+      [
+        "equal",
+        18,
+        18
+      ]
+    ],
+    "number_of_common_additions": 25,
+    "additions_common_to_all_optima": {
+      "Pp01:2130859": [
+        "DHQ1_B1-10-L2",
+        "DHQ1_B1-11-L1",
+        "DHQ1_B1-11-L2",
+        "DHQ1_B1-12-L1",
+        "DHQ1_B1-14-L2",
+        "DHQ1_B1-15-L1",
+        "DHQ1_B1-16-L1",
+        "DHQ1_B1-4-L2",
+        "DHQ1_B1-5-L2",
+        "DHQ1_B1-6-L1",
+        "DHQ1_B1-6-L2",
+        "DHQ1_B1-7-L2",
+        "DHQ1_B1-8-L1",
+        "DHQ1_B1-8-L2",
+        "DHQ1_B1-9-L1",
+        "DHQ1_B1-L1"
+      ],
+      "Pp01:47012878": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:9295050": [
+        "DHQ1_B3-1-L1"
+      ],
+      "Pp04:21561355": [
+        "DHQ1_B1-1-L1",
+        "DHQ1_B1-11-L2",
+        "DHQ1_B1-6-L2",
+        "DHQ1_B1-8-L2"
+      ],
+      "Pp05:11214460": [
+        "DHQ1_B1-1-L1",
+        "DHQ1_B1-1-L2"
+      ],
+      "Pp07:1251826": [
+        "DHQ1_B2-11-L1"
+      ]
+    },
+    "other_additions_by_optimum": [
+      {
+        "Pp06:23762314": [
+          "DHQ1_B3-2-L1",
+          "DHQ1_B3-L1"
+        ]
+      },
+      {
+        "Pp01:47012878": [
+          "DHQ1_B3-3-L1"
+        ],
+        "Pp04:9295050": [
+          "DHQ1_B3-3-L1"
+        ]
+      }
+    ]
+  }
+}

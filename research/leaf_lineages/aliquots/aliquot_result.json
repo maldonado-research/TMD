@@ -1,0 +1,151 @@
+{
+  "unit": "20 paired lysates in peach Flower #2, each sequenced in two aliquots",
+  "positive_marker_rule": "At least one reported alternate read",
+  "pair19": [
+    {
+      "side": "a",
+      "sample": "T8710-X4-2a",
+      "organ": "Stamen",
+      "organ_unit": 4,
+      "mapped_depth": 49.27,
+      "genome_coverage_ge_5x_pct": 91.8,
+      "alternate_and_depth": {
+        "M101": [
+          0,
+          248
+        ],
+        "M119": [
+          6,
+          26
+        ],
+        "M21": [
+          3,
+          36
+        ],
+        "M71": [
+          32,
+          71
+        ],
+        "M42": [
+          16,
+          89
+        ]
+      }
+    },
+    {
+      "side": "b",
+      "sample": "T8710-X4-2b",
+      "organ": "Stamen",
+      "organ_unit": 4,
+      "mapped_depth": 51.08,
+      "genome_coverage_ge_5x_pct": 91.8,
+      "alternate_and_depth": {
+        "M101": [
+          43,
+          215
+        ],
+        "M119": [
+          10,
+          47
+        ],
+        "M21": [
+          2,
+          44
+        ],
+        "M71": [
+          9,
+          68
+        ],
+        "M42": [
+          42,
+          107
+        ]
+      }
+    }
+  ],
+  "aliquot_cross_counts": {
+    "M101_and_M119": {
+      "parent_and_child_positive": 38,
+      "only_child_positive": 1,
+      "only_parent_positive": 0,
+      "neither_positive": 1
+    },
+    "M101_and_M21": {
+      "parent_and_child_positive": 35,
+      "only_child_positive": 2,
+      "only_parent_positive": 3,
+      "neither_positive": 0
+    },
+    "M119_and_M21": {
+      "parent_and_child_positive": 36,
+      "only_child_positive": 1,
+      "only_parent_positive": 3,
+      "neither_positive": 0
+    },
+    "M71_and_M42": {
+      "parent_and_child_positive": 40,
+      "only_child_positive": 0,
+      "only_parent_positive": 0,
+      "neither_positive": 0
+    }
+  },
+  "pooled_lysate_cross_counts": {
+    "M101_and_M119": {
+      "parent_and_child_positive": 20,
+      "only_child_positive": 0,
+      "only_parent_positive": 0,
+      "neither_positive": 0
+    },
+    "M101_and_M21": {
+      "parent_and_child_positive": 20,
+      "only_child_positive": 0,
+      "only_parent_positive": 0,
+      "neither_positive": 0
+    },
+    "M119_and_M21": {
+      "parent_and_child_positive": 20,
+      "only_child_positive": 0,
+      "only_parent_positive": 0,
+      "neither_positive": 0
+    },
+    "M71_and_M42": {
+      "parent_and_child_positive": 20,
+      "only_child_positive": 0,
+      "only_parent_positive": 0,
+      "neither_positive": 0
+    }
+  },
+  "aliquot_nesting": {
+    "order": [
+      "M101",
+      "M119",
+      "M21"
+    ],
+    "observed_bits": {
+      "001": 1,
+      "011": 1,
+      "110": 3,
+      "111": 35
+    },
+    "minimum_cell_edits": {
+      "unrestricted": 2,
+      "additions_only": 3,
+      "deletions_only": 3
+    }
+  },
+  "pooled_lysate_nesting": {
+    "order": [
+      "M101",
+      "M119",
+      "M21"
+    ],
+    "observed_bits": {
+      "111": 20
+    },
+    "minimum_cell_edits": {
+      "unrestricted": 0,
+      "additions_only": 0,
+      "deletions_only": 0
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "canonical_roster_sha256": "15296a6f0185ad2617ce08e14bd8e5f84a51998f443959bbe7447b240ad286b9",
+  "markers": 48,
+  "leaves": 75,
+  "distinct_patterns": 41,
+  "unordered_pairs": {
+    "cross": 10,
+    "disjoint": 1055,
+    "same": 9,
+    "strict_nonempty_nest": 54
+  },
+  "strict_nests_preserved_after_any_one_leaf_omission_inner_outer": [
+    [
+      "M116",
+      "M81"
+    ],
+    [
+      "M96",
+      "M86"
+    ],
+    [
+      "M97",
+      "M86"
+    ],
+    [
+      "M110",
+      "M86"
+    ],
+    [
+      "M94",
+      "M109"
+    ]
+  ],
+  "crossings_preserved_after_any_one_leaf_omission": [
+    [
+      "M77",
+      "M109"
+    ],
+    [
+      "M92",
+      "M101"
+    ],
+    [
+      "M95",
+      "M109"
+    ]
+  ],
+  "max_strict_nests_lost_by_one_omission": 4,
+  "leaves_attaining_max_nest_loss": [
+    "DHQ1_B3-5-L1"
+  ],
+  "max_crossings_removed_by_one_omission": 4,
+  "leaves_attaining_max_crossing_removal": [
+    "DHQ1_B1-1-L2"
+  ],
+  "marker_restriction": {
+    "minimum_omissions": 5,
+    "optimal_marker_omissions": [
+      [
+        "M101",
+        "M109",
+        "M110",
+        "M92",
+        "M94"
+      ],
+      [
+        "M101",
+        "M109",
+        "M92",
+        "M94",
+        "M97"
+      ],
+      [
+        "M101",
+        "M110",
+        "M77",
+        "M92",
+        "M95"
+      ],
+      [
+        "M101",
+        "M77",
+        "M92",
+        "M95",
+        "M97"
+      ]
+    ],
+    "disjoint_crossing_pairs_certifying_minimum": [
+      [
+        "M71",
+        "M92"
+      ],
+      [
+        "M77",
+        "M94"
+      ],
+      [
+        "M95",
+        "M109"
+      ],
+      [
+        "M97",
+        "M110"
+      ],
+      [
+        "M101",
+        "M103"
+      ]
+    ]
+  },
+  "leaf_restriction_allowing_empty_markers": {
+    "minimum_omissions": 7,
+    "optima": [
+      {
+        "omitted_leaves": [
+          "DHQ1_B1-1-L2",
+          "DHQ1_B1-11-L2",
+          "DHQ1_B1-6-L2",
+          "DHQ1_B1-8-L2",
+          "DHQ1_B2-11-L1",
+          "DHQ1_B3-1-L1",
+          "DHQ1_B3-3-L1"
+        ],
+        "markers_reduced_to_empty": [
+          "M82",
+          "M84",
+          "M100"
+        ]
+      },
+      {
+        "omitted_leaves": [
+          "DHQ1_B1-1-L2",
+          "DHQ1_B1-11-L2",
+          "DHQ1_B1-6-L2",
+          "DHQ1_B1-8-L2",
+          "DHQ1_B2-11-L1",
+          "DHQ1_B3-4-L1",
+          "DHQ1_B3-5-L1"
+        ],
+        "markers_reduced_to_empty": [
+          "M84",
+          "M88",
+          "M100",
+          "M117"
+        ]
+      },
+      {
+        "omitted_leaves": [
+          "DHQ1_B1-1-L2",
+          "DHQ1_B1-11-L2",
+          "DHQ1_B1-6-L2",
+          "DHQ1_B1-8-L2",
+          "DHQ1_B2-11-L2",
+          "DHQ1_B3-1-L1",
+          "DHQ1_B3-3-L1"
+        ],
+        "markers_reduced_to_empty": [
+          "M82",
+          "M84",
+          "M100"
+        ]
+      },
+      {
+        "omitted_leaves": [
+          "DHQ1_B1-1-L2",
+          "DHQ1_B1-11-L2",
+          "DHQ1_B1-6-L2",
+          "DHQ1_B1-8-L2",
+          "DHQ1_B2-11-L2",
+          "DHQ1_B3-4-L1",
+          "DHQ1_B3-5-L1"
+        ],
+        "markers_reduced_to_empty": [
+          "M84",
+          "M88",
+          "M100",
+          "M117"
+        ]
+      }
+    ]
+  },
+  "leaf_restriction_preserving_all_markers": {
+    "minimum_omissions": null,
+    "optima": []
+  },
+  "witness_for_impossible_nonempty_restriction": {
+    "crossing_pair": [
+      "M92",
+      "M101"
+    ],
+    "private_leaf_markers_in_left_only_both_right_only": [
+      "M84",
+      "M100",
+      "M80"
+    ]
+  }
+}
