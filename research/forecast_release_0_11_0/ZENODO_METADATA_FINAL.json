@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — forecasting the leading yeast lineage from early abundance",
+    "version": "0.11.0",
+    "publication_date": "2026-11-19",
+    "subjects": [
+      {
+        "subject": "lineage tracking"
+      },
+      {
+        "subject": "forecast evaluation"
+      },
+      {
+        "subject": "yeast"
+      },
+      {
+        "subject": "technical replication"
+      },
+      {
+        "subject": "measurement uncertainty"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>Three rules were fixed before scoring existing lineage-count tables from two baker's yeast studies. They predict the most abundant measured label at the last visit from the baseline leader, the second-visit leader, or a one-interval projection of the first change in share. In Fasanello et al. (doi:10.7717/peerj.10118), all 76 two-label populations were scorable at days 0, 10 and 25. The three rules gave respectively 45, 55 and 57 correct predictions. Only 30 baseline leaders led at every visit.</p>\n<p>Seventy wells had a complete original and repeat library series. The authors deliberately repeated samples with elevated contamination. The two libraries gave different day-25 leaders in 17 of the 70 wells. Forecasts fixed at the selected early counts gave the early leader at least one more hit than the change rule under every observed endpoint choice in these 70. The six remaining wells contributed a three-hit advantage for the change rule on their selected endpoints. Switching the endpoint library for a single pool of wells could tie or reverse the overall two-hit advantage. The 128 possible assignments of whole endpoint libraries to the seven complete pools gave change-minus-early scores from minus 12 to plus two hits.</p>\n<p>In the two Levy et al. figure-data tables (doi:10.1038/nature14279), each with 494,066 rows and the same recorded baseline column, every rule selected row 262. It ranked 91st and 48th at the ends of the original windows. Comparison with a later deposit (doi:10.1038/s41559-018-0758-1) found 3,145 rows recorded as one at baseline in the 2015 files and zero across all five later-deposit baseline columns. The 9,881,320 nonbaseline overlapping counts agreed after aggregation and the forecasts were unchanged. A separately distributed Stanford teaching table reproduced all 5,928,792 original counts in the first population.</p>\n<p>This retrospective benchmark concerns observed abundance of inherited founder labels. It leaves mutation origins, causal routes and first establishment unresolved. The archive includes the frozen rule, anonymized two-label counts, per-well results, technical-library and pool comparisons, large-file verification scripts, source links and a figure. Prepared with AI assistance for the Mutation by Natural Dominance project.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.11.0 adds the lineage forecast report ZIP and its SHA-256 checksum to the 22 files inherited from version 0.10.0 (doi:10.5281/zenodo.24379400). The series DOI is 10.5281/zenodo.23068055. Original code is licensed under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/e7ee9ca9c1fd29b147630d093627dd9d7c68937d."
+      }
+    ]
+  }
+}

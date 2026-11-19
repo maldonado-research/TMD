@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.10.0**, published 19 November 2026 Pacific in concept family 23068055. The report examines inherited outcomes and the evidence for mutation timing across published peach, pine and yeast observations. The public verification covers all 22 files. [Zenodo 0.10.0](https://doi.org/10.5281/zenodo.24379400) · [Release and verification](transmission_release_0_10_0/README.md)
+The current report and methods version is **0.11.0**, published 19 November 2026 in concept family 23068055. This report compares forecasts of the leading yeast lineage in two published studies. In the 76 two-label populations, the day-10 leader gave 55 correct forecasts and an early change projection gave 57. Using the other measured endpoint for one pool could reverse that small advantage. All 24 public files were verified. [Zenodo 0.11.0](https://doi.org/10.5281/zenodo.24382132) · [Release and verification](forecast_release_0_11_0/README.md)
+
+## Earlier report and methods 0.10.0 checkpoint
+
+Version **0.10.0** was published 19 November 2026 Pacific in concept family 23068055. The report examines inherited outcomes and the evidence for mutation timing across published peach, pine and yeast observations. The public verification covers all 22 files. [Zenodo 0.10.0](https://doi.org/10.5281/zenodo.24379400) · [Release and verification](transmission_release_0_10_0/README.md)
 
 ## Earlier report and methods 0.9.1 checkpoint
 
