@@ -1,0 +1,31 @@
+{
+  "all_selected_clone_rows": 69,
+  "focal_class_union_across_archived_wrinkly_clones_in_each_parent": {
+    "A": 7,
+    "AM": 2,
+    "M": 1,
+    "MW": 3,
+    "W": 37
+  },
+  "phenotype_rows": {
+    "fuzzy": 2,
+    "small": 6,
+    "smooth": 4,
+    "wrinkly": 57
+  },
+  "represented_wrinkly_parents": 50,
+  "selected_wrinkly_clone_distinct_focal_classes": {
+    "A": 9,
+    "M": 6,
+    "MW": 2,
+    "W": 40
+  },
+  "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13101516.1/aem.02499-25-s0002.xlsx",
+  "source_bytes": 17274,
+  "source_sha256": "90d591f688302c603abbfafcde57ce6fb1011eb6043177d44e3f704f3e818b21",
+  "wrinkly_clones_per_parent_histogram": {
+    "1": 44,
+    "2": 5,
+    "3": 1
+  }
+}

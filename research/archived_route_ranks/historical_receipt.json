@@ -1,0 +1,11 @@
+{
+  "allowed_classes": {
+    "A": 6,
+    "M": 3,
+    "W": 16,
+    "WAMO": 1
+  },
+  "distinct_isolates": 26,
+  "source_sha256": "f2215be3622462efc9ce008ead9d8cc02311aa2a35f866be5c63c75d2df3fed5",
+  "source_url": "https://github.com/maldonado-research/TMD/blob/604390d9bba8471be26487e3737c072a0f5cb9bf/research/matched_source_feasibility/DERIVED_SOURCE_AUDIT.json"
+}
