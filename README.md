@@ -13,7 +13,11 @@ The original peach leaf contains two alternate reads at the disputed marker. In 
 
 An earlier analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
 
-## Current report and methods supplement — 0.9.1
+## Current report and methods supplement — 0.10.0
+
+Version 0.10.0 archives the transmission and timing analyses of peach, pine and yeast observations. [Zenodo 0.10.0](https://doi.org/10.5281/zenodo.24379400) · [Release and verification](research/transmission_release_0_10_0/README.md)
+
+## Earlier report and methods supplement — 0.9.1
 
 Version 0.9.1 archives the peach leaf analysis of additions, removals and mixtures of cellular lineages. [Zenodo 0.9.1](https://doi.org/10.5281/zenodo.24378187) · [Release and verification](research/leaf_models_release_0_9_1/README.md)
 

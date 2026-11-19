@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.9.1**, published 19 November 2026 Pacific in concept family 23068055. The report tests how assumptions about missing calls, removed listings and mixtures of cellular lineages change inference from one peach tree. The public verification covers all 20 files. [Zenodo 0.9.1](https://doi.org/10.5281/zenodo.24378187) · [Release and verification](leaf_models_release_0_9_1/README.md)
+The current report and methods version is **0.10.0**, published 19 November 2026 Pacific in concept family 23068055. The report examines inherited outcomes and the evidence for mutation timing across published peach, pine and yeast observations. The public verification covers all 22 files. [Zenodo 0.10.0](https://doi.org/10.5281/zenodo.24379400) · [Release and verification](transmission_release_0_10_0/README.md)
+
+## Earlier report and methods 0.9.1 checkpoint
+
+Version **0.9.1** was published 19 November 2026 Pacific in concept family 23068055. The report tests how assumptions about missing calls, removed listings and mixtures of cellular lineages change inference from one peach tree. The public verification covers all 20 files. [Zenodo 0.9.1](https://doi.org/10.5281/zenodo.24378187) · [Release and verification](leaf_models_release_0_9_1/README.md)
 
 ## Earlier report and methods 0.9.0 checkpoint
 
