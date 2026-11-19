@@ -1,0 +1,59 @@
+{
+  "per_pool_change_minus_early": {
+    "S1": {
+      "n": 6,
+      "original": 3,
+      "rerun": null
+    },
+    "S11": {
+      "n": 10,
+      "original": 0,
+      "rerun": 0
+    },
+    "S12": {
+      "n": 11,
+      "original": -5,
+      "rerun": 1
+    },
+    "S13": {
+      "n": 11,
+      "original": -3,
+      "rerun": 1
+    },
+    "S14": {
+      "n": 11,
+      "original": -2,
+      "rerun": 0
+    },
+    "S15": {
+      "n": 11,
+      "original": -3,
+      "rerun": -1
+    },
+    "S16": {
+      "n": 11,
+      "original": -2,
+      "rerun": -2
+    },
+    "S2": {
+      "n": 5,
+      "original": 0,
+      "rerun": 0
+    }
+  },
+  "n_distinct_library_assignments": 128,
+  "archived_total": 2,
+  "all_original_endpoints_total": -12,
+  "attainable_totals_and_number_of_assignments": {
+    "-12": 8,
+    "-10": 16,
+    "-8": 16,
+    "-6": 24,
+    "-4": 24,
+    "-2": 16,
+    "0": 16,
+    "2": 8
+  },
+  "fewest_whole_pool_changes_to_tie": 1,
+  "fewest_whole_pool_changes_to_favor_early": 1
+}

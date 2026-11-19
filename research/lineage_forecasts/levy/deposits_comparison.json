@@ -1,0 +1,181 @@
+[
+  {
+    "study": "E1",
+    "technical_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41559-018-0758-1/MediaObjects/41559_2018_758_MOESM3_ESM.csv",
+    "technical_sha256": "b65bc0687e88e73830bc74719af611a2a9bfaad3ed524f1246115167df6f4629",
+    "technical_column_labels": [
+      "0.51",
+      "0.52",
+      "0.61",
+      "0.71",
+      "0.72",
+      "16.11",
+      "16.12",
+      "32.11",
+      "32.12",
+      "40.11",
+      "40.12",
+      "48.11",
+      "48.12",
+      "64.11",
+      "64.12",
+      "72.11",
+      "72.12",
+      "80.11",
+      "80.12",
+      "88.11",
+      "88.12",
+      "96.11",
+      "96.12",
+      "104.11",
+      "104.12",
+      "112.11",
+      "112.12",
+      "168.11",
+      "168.12",
+      "208.11",
+      "208.12",
+      "248.11",
+      "248.12"
+    ],
+    "rows": 494066,
+    "overlap_cells": 5928792,
+    "mismatch_counts_by_original_generation": {
+      "0": 3145
+    },
+    "original_one_technical_zero_at_baseline": 3145,
+    "early_positive_among_those_rows": 421,
+    "original_endpoint_positive_among_those_rows": 897,
+    "technical_baseline_total": 222292649,
+    "technical_early_total": 83845251,
+    "native_rule_predictions": {
+      "baseline": {
+        "eligible": 490921,
+        "top_rows_1_based": [
+          262
+        ]
+      },
+      "early": {
+        "eligible": 491342,
+        "top_rows_1_based": [
+          262
+        ]
+      },
+      "change": {
+        "eligible": 491342,
+        "top_rows_1_based": [
+          262
+        ]
+      }
+    },
+    "original_endpoint_generation": 112,
+    "original_endpoint": {
+      "total_reads": 53421787,
+      "top_count": 2207149,
+      "top_rows_1_based": [
+        3730
+      ],
+      "rule_counts_if_unique": {
+        "baseline": 52098,
+        "early": 52098,
+        "change": 52098
+      }
+    },
+    "extended_endpoint_generation": 248,
+    "extended_endpoint": {
+      "total_reads": 33432249,
+      "top_count": 26950859,
+      "top_rows_1_based": [
+        3730
+      ],
+      "rule_counts_if_unique": {
+        "baseline": 5349,
+        "early": 5349,
+        "change": 5349
+      }
+    }
+  },
+  {
+    "study": "E2",
+    "technical_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41559-018-0758-1/MediaObjects/41559_2018_758_MOESM4_ESM.csv",
+    "technical_sha256": "5af368d7570c7e9db1debdd5a0615ef9bbde4d5b0bdf655867a32f068840a78b",
+    "technical_column_labels": [
+      "0.51",
+      "0.52",
+      "0.61",
+      "0.71",
+      "0.72",
+      "8.11",
+      "8.12",
+      "24.11",
+      "40.11",
+      "48.11",
+      "56.11",
+      "64.11",
+      "72.11",
+      "88.11",
+      "96.11",
+      "104.11",
+      "120.11",
+      "144.11",
+      "168.11",
+      "208.11"
+    ],
+    "rows": 494066,
+    "overlap_cells": 4940660,
+    "mismatch_counts_by_original_generation": {
+      "0": 3145
+    },
+    "original_one_technical_zero_at_baseline": 3145,
+    "early_positive_among_those_rows": 319,
+    "original_endpoint_positive_among_those_rows": 361,
+    "technical_baseline_total": 222292649,
+    "technical_early_total": 57855749,
+    "native_rule_predictions": {
+      "baseline": {
+        "eligible": 490921,
+        "top_rows_1_based": [
+          262
+        ]
+      },
+      "early": {
+        "eligible": 491240,
+        "top_rows_1_based": [
+          262
+        ]
+      },
+      "change": {
+        "eligible": 491240,
+        "top_rows_1_based": [
+          262
+        ]
+      }
+    },
+    "original_endpoint_generation": 96,
+    "original_endpoint": {
+      "total_reads": 31625911,
+      "top_count": 1270438,
+      "top_rows_1_based": [
+        1379
+      ],
+      "rule_counts_if_unique": {
+        "baseline": 26820,
+        "early": 26820,
+        "change": 26820
+      }
+    },
+    "extended_endpoint_generation": 208,
+    "extended_endpoint": {
+      "total_reads": 25378789,
+      "top_count": 12672977,
+      "top_rows_1_based": [
+        1379
+      ],
+      "rule_counts_if_unique": {
+        "baseline": 267,
+        "early": 267,
+        "change": 267
+      }
+    }
+  }
+]

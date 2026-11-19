@@ -1,0 +1,21 @@
+{
+  "course_sha256": "086425e373e248f508b352d5dc44ca29191e63cb3f63d20f58a8aa51bdbc3147",
+  "primary_sha256": "efc94566ce880bbfe8afda85c8643ca829a3124270632125689a819098bbb04d",
+  "visit_headers": [
+    "t=0",
+    "t=16",
+    "t=32",
+    "t=40",
+    "t=48",
+    "t=64",
+    "t=72",
+    "t=80",
+    "t=88",
+    "t=96",
+    "t=104",
+    "t=112"
+  ],
+  "rows_equal": 494066,
+  "counts_equal": 5928792,
+  "course_id_equals_one_based_primary_data_row_all": true
+}

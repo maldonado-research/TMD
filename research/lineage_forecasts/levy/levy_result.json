@@ -1,0 +1,217 @@
+{
+  "series": [
+    {
+      "study": "E1",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature14279/MediaObjects/41586_2015_BFnature14279_MOESM90_ESM.csv",
+      "source_sha256": "efc94566ce880bbfe8afda85c8643ca829a3124270632125689a819098bbb04d",
+      "source_bytes": 19348822,
+      "rows": 494066,
+      "generations": [
+        0,
+        16,
+        32,
+        40,
+        48,
+        64,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112
+      ],
+      "all_visit_read_depth": [
+        222295794,
+        83845251,
+        76762744,
+        50514304,
+        85721213,
+        83112666,
+        62855698,
+        58057556,
+        53756732,
+        48471373,
+        56378842,
+        53421787
+      ],
+      "canonical_all_count_rows_sha256": "5f0f1075db9a3577cd1536609be8724ea728d4167f317cb347b898491817eb43",
+      "canonical_baseline_column_sha256": "a79a46fe62006929ba679af05bedd6b3403e333d299f4eb73770d9f5dc8d9c7f",
+      "positive_rows_baseline_early_final": [
+        494066,
+        483996,
+        440428
+      ],
+      "zero_baseline_positive_early_rows": 0,
+      "first_positive_after_early_and_positive_final_rows": 0,
+      "n_final_tied_for_first": 1,
+      "final_leaders": [
+        {
+          "row_id_1_based": 3730,
+          "baseline_reads": 272,
+          "early_reads": 288,
+          "final_reads": 2207149,
+          "final_rank_min": 1,
+          "final_rank_max": 1
+        }
+      ],
+      "rules": {
+        "baseline": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 77532,
+            "final_reads": 52098,
+            "final_rank_min": 91,
+            "final_rank_max": 91
+          }
+        },
+        "early": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 77532,
+            "final_reads": 52098,
+            "final_rank_min": 91,
+            "final_rank_max": 91
+          }
+        },
+        "change": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 77532,
+            "final_reads": 52098,
+            "final_rank_min": 91,
+            "final_rank_max": 91
+          }
+        }
+      }
+    },
+    {
+      "study": "E2",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature14279/MediaObjects/41586_2015_BFnature14279_MOESM93_ESM.csv",
+      "source_sha256": "f791ce0da354ff4dd516c46875b3367cd159e00fd8059344d4dec3680a21812f",
+      "source_bytes": 15377229,
+      "rows": 494066,
+      "generations": [
+        0,
+        8,
+        24,
+        40,
+        48,
+        56,
+        64,
+        72,
+        88,
+        96
+      ],
+      "all_visit_read_depth": [
+        222295794,
+        57855749,
+        55221109,
+        25704507,
+        30215095,
+        50780112,
+        29668559,
+        22193465,
+        19715644,
+        31625911
+      ],
+      "canonical_all_count_rows_sha256": "494505ab82d7b91d4197dcec0537a4136b0cd30643b89025f3b8da3b61381912",
+      "canonical_baseline_column_sha256": "a79a46fe62006929ba679af05bedd6b3403e333d299f4eb73770d9f5dc8d9c7f",
+      "positive_rows_baseline_early_final": [
+        494066,
+        485017,
+        437384
+      ],
+      "zero_baseline_positive_early_rows": 0,
+      "first_positive_after_early_and_positive_final_rows": 0,
+      "n_final_tied_for_first": 1,
+      "final_leaders": [
+        {
+          "row_id_1_based": 1379,
+          "baseline_reads": 2279,
+          "early_reads": 627,
+          "final_reads": 1270438,
+          "final_rank_min": 1,
+          "final_rank_max": 1
+        }
+      ],
+      "rules": {
+        "baseline": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 80974,
+            "final_reads": 26820,
+            "final_rank_min": 48,
+            "final_rank_max": 48
+          }
+        },
+        "early": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 80974,
+            "final_reads": 26820,
+            "final_rank_min": 48,
+            "final_rank_max": 48
+          }
+        },
+        "change": {
+          "eligible": 494066,
+          "n_tied_for_prediction": 1,
+          "abstain": false,
+          "strict_hit": false,
+          "joint_first_with_unique_prediction": false,
+          "guessing_reference_numerator": 1,
+          "guessing_reference_denominator": 494066,
+          "prediction": {
+            "row_id_1_based": 262,
+            "baseline_reads": 150589,
+            "early_reads": 80974,
+            "final_reads": 26820,
+            "final_rank_min": 48,
+            "final_rank_max": 48
+          }
+        }
+      }
+    }
+  ],
+  "sources_have_identical_baseline_rows": true
+}
