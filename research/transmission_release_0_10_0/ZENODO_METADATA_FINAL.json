@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — inherited outcomes and evidence of mutation timing in peach, pine and yeast",
+    "version": "0.10.0",
+    "publication_date": "2026-11-19",
+    "subjects": [
+      {
+        "subject": "somatic mutation"
+      },
+      {
+        "subject": "plant genetics"
+      },
+      {
+        "subject": "inheritance"
+      },
+      {
+        "subject": "longitudinal sampling"
+      },
+      {
+        "subject": "mutation timing"
+      },
+      {
+        "subject": "ascertainment bias"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>This release corrects a source-coverage statement in version 0.9.1. Ji et al. Table S7 reports site-specific read counts for the original 2016 DHQ1 peach leaf B1-1-L1. Two of 59 reads support the alternate allele at M101, and 15 of 32 support it at M71. Across all 75 named leaves, requiring at least three alternate reads reproduces the original carrier lists for both markers. A two-read rule puts every M71-positive leaf in the M101-positive set. In an additions-only, single-lineage model for all 48 markers, requiring one or two supporting reads for every added M71 or M101 membership raises the minimum number of additions from 12 to 18. Requiring three at both markers leaves no feasible table. These bulk counts leave the cellular genotype and marker co-occurrence in the focal leaf unresolved. In seven progeny, Table S11 reports no positive M101 calls, six positive M103 calls and five positive M120 calls. The pollen source was uncontrolled. The source workbooks are doi:10.1371/journal.pgen.1011829.s021 and doi:10.1371/journal.pgen.1011829.s025.</p>\n<p>Guner et al. reported a marker linked to dwarfism in loblolly pine (doi:10.1038/s41437-025-00814-5). Across the 571 offspring points displayed in their deposited Figure 7, any rule assigning one phenotype to each of the three marker genotypes disagrees with at least 129 points. Allowing a separate rule in each of the three displayed panels gives the same total of 129 disagreements. Two phenotype-by-genotype margins in the accompanying prose differ from the figure. The calculation describes the displayed families and leaves the causal change unresolved.</p>\n<p>In 18 initially haploid budding-yeast populations sampled six times by Johnson et al. (doi:10.7554/eLife.63910), the first sampled visit reaching 10% agrees with the first visit identified by the deposited presence flags in every population. The earliest marker groups differ between those definitions in 14 populations. In one population, omitting a single later observation changes which group first satisfies the retrospective 90% persistence rule and moves its first qualifying visit from generation 1,410 to 70. These comparisons condition on the published discovery panel. Sampling times and transmitted outcomes leave the first successful causal mutation route unidentified.</p>\n<p>The archive includes reduced source observations, a figure, executable replays, independent checks and instructions for verifying the source measurements. Prepared with AI assistance and internal independent computation.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.10.0 adds the transmission and timing report ZIP and its SHA-256 checksum to the 20 files inherited from version 0.9.1 (doi:10.5281/zenodo.24378187). The series DOI is 10.5281/zenodo.23068055. Original Python code is under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/ea839d7b831bad5e5cb781137a1106f6a1dadef8."
+      }
+    ]
+  }
+}
