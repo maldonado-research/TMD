@@ -19,7 +19,11 @@ The [retrospective route rankings and observation audits](research/roster_releas
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — a third collection tests the archived ranking
+## Latest research checkpoint — what paired records can distinguish
+
+In nine Howells parent pairs, a rule that sees only the recorded family can classify at most 12 of the 18 selected wrinkly and smooth endpoints correctly. In a peach flower study, 719 of 740 split comparisons agree overall, but only 50 of the 71 comparisons positive in either split were positive in both. Two widely detected sites supply 37 of those 50. [Paired evidence, exact calculations and source replays](research/paired_evidence/README.md).
+
+## Prior research checkpoint — a third collection tests the archived ranking
 
 In the five paired coculture populations of Howells et al., the selected wrinkly records carry two Wsp annotations, two Mws annotations and one unresolved label. Assigning the unresolved record to Aws still leaves Mws ahead of Aws. The earlier Matela ordering also depends on how one weights the three contributing schools. A 25% difference in per-parent weights can permit an Aws–Mws tie. [Source workbooks, paired counts and exact bounds](research/archived_rank_robustness/README.md).
 
