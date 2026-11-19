@@ -1,0 +1,1284 @@
+{
+  "source_sha256": [
+    "df824c56c70e4c7b6f4cc0fdf908fa0d99c5d40628381fd10c5c5df1640b2b98",
+    "b6713bb965bde6064142d3261a51b31b775643b8b4fba86b236b8c8cd45b7e72"
+  ],
+  "visit_generations": [
+    70,
+    1410,
+    2640,
+    5150,
+    7530,
+    10150
+  ],
+  "endpoint_order": [
+    "local_10",
+    "source_present_at",
+    "local_90",
+    "source_fixed_by"
+  ],
+  "P1E11_group_example": {
+    "55": {
+      "class": "synonymous",
+      "alternate_and_total_reads": [
+        [
+          0,
+          36
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    "145": {
+      "class": "missense",
+      "alternate_and_total_reads": [
+        [
+          33,
+          36
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          17,
+          17
+        ]
+      ]
+    }
+  },
+  "all_initially_haploid": {
+    "local_vs_source_present_cells": {
+      "compared": 34554,
+      "flagged_but_not_local": 447,
+      "local_but_not_flagged": 1372
+    },
+    "populations": 18,
+    "eligible_rows": 5759,
+    "eligible_groups": 5543,
+    "visit_histograms": {
+      "first10": {
+        "70": 17,
+        "1410": 1
+      },
+      "flag10": {
+        "70": 17,
+        "1410": 1
+      },
+      "first90": {
+        "70": 15,
+        "1410": 3
+      },
+      "stable90": {
+        "70": 14,
+        "1410": 4
+      }
+    },
+    "summary": {
+      "first10": {
+        "multiple_groups": 16,
+        "multiple_classes": 16
+      },
+      "flag10": {
+        "multiple_groups": 14,
+        "multiple_classes": 13
+      },
+      "first90": {
+        "multiple_groups": 12,
+        "multiple_classes": 11
+      },
+      "stable90": {
+        "multiple_groups": 10,
+        "multiple_classes": 9
+      },
+      "group_overlap": {
+        "0vs1_overlap": 14,
+        "0vs2_overlap": 15,
+        "0vs3_overlap": 15,
+        "1vs2_overlap": 14,
+        "1vs3_overlap": 14,
+        "2vs3_equal": 11,
+        "2vs3_overlap": 6,
+        "1vs2_equal": 4,
+        "1vs3_equal": 3,
+        "0vs1_equal": 4,
+        "0vs2_equal": 3,
+        "0vs3_disjoint": 1,
+        "1vs3_disjoint": 1,
+        "2vs3_disjoint": 1,
+        "0vs3_equal": 2
+      },
+      "class_overlap": {
+        "0vs1_equal": 9,
+        "0vs2_overlap": 15,
+        "0vs3_overlap": 15,
+        "1vs2_overlap": 12,
+        "1vs3_overlap": 11,
+        "2vs3_equal": 15,
+        "2vs3_overlap": 2,
+        "0vs1_overlap": 9,
+        "1vs2_equal": 6,
+        "1vs3_equal": 6,
+        "0vs2_equal": 3,
+        "0vs3_disjoint": 1,
+        "1vs3_disjoint": 1,
+        "2vs3_disjoint": 1,
+        "0vs3_equal": 2
+      },
+      "thinned": {
+        "0_same": 71,
+        "0_group_equal": 71,
+        "1_same": 71,
+        "1_group_equal": 71,
+        "2_same": 69,
+        "2_group_equal": 69,
+        "3_same": 67,
+        "3_group_equal": 64,
+        "0_later": 1,
+        "0_group_overlap": 1,
+        "1_later": 1,
+        "1_group_overlap": 1,
+        "2_later": 3,
+        "2_group_overlap": 3,
+        "3_later": 4,
+        "3_group_overlap": 7,
+        "3_earlier": 1,
+        "3_group_disjoint": 1
+      }
+    },
+    "first_visit_by_well": [
+      {
+        "well": "P1B02",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 14,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 8,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1B03",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 16,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 9,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1B04",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 16,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 7,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 4,
+            "classes": [
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 4,
+            "classes": [
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1B11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 1410,
+            "groups": 22,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 1410,
+            "groups": 20,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 1410,
+            "groups": 2,
+            "classes": [
+              "indel",
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 1410,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1C02",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 11,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "noncoding"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1C04",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 7,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 5,
+            "classes": [
+              "missense",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "nonsense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1C05",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 8,
+            "classes": [
+              "missense",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "missense",
+              "synonymous"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1C06",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 7,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "noncoding",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "noncoding",
+              "nonsense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1C11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "indel",
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1D03",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 13,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 4,
+            "classes": [
+              "missense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1E04",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 5,
+            "classes": [
+              "missense",
+              "noncoding",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "missense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1E11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 1410,
+            "groups": 1,
+            "classes": [
+              "synonymous"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1F05",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 6,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1F11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "indel",
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "indel",
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1G04",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 17,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 9,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 2,
+            "classes": [
+              "missense",
+              "noncoding"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1G05",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 8,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 4,
+            "classes": [
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 1410,
+            "groups": 67,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 1410,
+            "groups": 62,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding",
+              "nonsense",
+              "synonymous"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1G11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "missense"
+            ]
+          }
+        ]
+      },
+      {
+        "well": "P1H11",
+        "first": [
+          {
+            "endpoint": "first10",
+            "visit": 70,
+            "groups": 3,
+            "classes": [
+              "indel",
+              "missense",
+              "noncoding"
+            ]
+          },
+          {
+            "endpoint": "flag10",
+            "visit": 70,
+            "groups": 1,
+            "classes": [
+              "indel"
+            ]
+          },
+          {
+            "endpoint": "first90",
+            "visit": 1410,
+            "groups": 6,
+            "classes": [
+              "indel",
+              "missense",
+              "synonymous"
+            ]
+          },
+          {
+            "endpoint": "stable90",
+            "visit": 1410,
+            "groups": 4,
+            "classes": [
+              "indel",
+              "missense",
+              "synonymous"
+            ]
+          }
+        ]
+      }
+    ],
+    "changed_after_omitting_one_visit": [
+      {
+        "well": "P1B11",
+        "omitted_generation": 1410,
+        "endpoints": [
+          [
+            2640,
+            "later",
+            "overlap"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1D03",
+        "omitted_generation": 7530,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1E11",
+        "omitted_generation": 1410,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1E11",
+        "omitted_generation": 5150,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "earlier",
+            "disjoint"
+          ]
+        ]
+      },
+      {
+        "well": "P1G05",
+        "omitted_generation": 1410,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1G05",
+        "omitted_generation": 5150,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1G05",
+        "omitted_generation": 7530,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "overlap"
+          ]
+        ]
+      },
+      {
+        "well": "P1H11",
+        "omitted_generation": 1410,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            2640,
+            "later",
+            "overlap"
+          ],
+          [
+            2640,
+            "later",
+            "equal"
+          ]
+        ]
+      },
+      {
+        "well": "P1H11",
+        "omitted_generation": 2640,
+        "endpoints": [
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            70,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "equal"
+          ],
+          [
+            1410,
+            "same",
+            "overlap"
+          ]
+        ]
+      }
+    ]
+  },
+  "excluding_autodiploidized_P1B03": {
+    "local_vs_source_present_cells": {
+      "compared": 31956,
+      "flagged_but_not_local": 431,
+      "local_but_not_flagged": 1173
+    },
+    "populations": 17,
+    "eligible_rows": 5326,
+    "eligible_groups": 5115,
+    "visit_histograms": {
+      "first10": {
+        "70": 16,
+        "1410": 1
+      },
+      "flag10": {
+        "70": 16,
+        "1410": 1
+      },
+      "first90": {
+        "70": 14,
+        "1410": 3
+      },
+      "stable90": {
+        "70": 13,
+        "1410": 4
+      }
+    },
+    "summary": {
+      "first10": {
+        "multiple_groups": 15,
+        "multiple_classes": 15
+      },
+      "flag10": {
+        "multiple_groups": 13,
+        "multiple_classes": 12
+      },
+      "first90": {
+        "multiple_groups": 12,
+        "multiple_classes": 11
+      },
+      "stable90": {
+        "multiple_groups": 10,
+        "multiple_classes": 9
+      },
+      "group_overlap": {
+        "0vs1_overlap": 13,
+        "0vs2_overlap": 14,
+        "0vs3_overlap": 14,
+        "1vs2_overlap": 13,
+        "1vs3_overlap": 13,
+        "2vs3_equal": 10,
+        "2vs3_overlap": 6,
+        "1vs2_equal": 4,
+        "1vs3_equal": 3,
+        "0vs1_equal": 4,
+        "0vs2_equal": 3,
+        "0vs3_disjoint": 1,
+        "1vs3_disjoint": 1,
+        "2vs3_disjoint": 1,
+        "0vs3_equal": 2
+      },
+      "class_overlap": {
+        "0vs1_equal": 8,
+        "0vs2_overlap": 14,
+        "0vs3_overlap": 14,
+        "1vs2_overlap": 11,
+        "1vs3_overlap": 10,
+        "2vs3_equal": 14,
+        "2vs3_overlap": 2,
+        "0vs1_overlap": 9,
+        "1vs2_equal": 6,
+        "1vs3_equal": 6,
+        "0vs2_equal": 3,
+        "0vs3_disjoint": 1,
+        "1vs3_disjoint": 1,
+        "2vs3_disjoint": 1,
+        "0vs3_equal": 2
+      },
+      "thinned": {
+        "0_same": 67,
+        "0_group_equal": 67,
+        "1_same": 67,
+        "1_group_equal": 67,
+        "2_same": 65,
+        "2_group_equal": 65,
+        "3_same": 63,
+        "3_group_equal": 60,
+        "0_later": 1,
+        "0_group_overlap": 1,
+        "1_later": 1,
+        "1_group_overlap": 1,
+        "2_later": 3,
+        "2_group_overlap": 3,
+        "3_later": 4,
+        "3_group_overlap": 7,
+        "3_earlier": 1,
+        "3_group_disjoint": 1
+      }
+    }
+  }
+}

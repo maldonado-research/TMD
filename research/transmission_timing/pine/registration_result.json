@@ -1,0 +1,28 @@
+{
+  "author_page": 1,
+  "published_page": 9,
+  "registered_region_source_points": [
+    36,
+    23,
+    499,
+    249
+  ],
+  "red_mask": "red minus green at least 32 on 8-bit RGB",
+  "samples_per_source_point_per_axis": 4,
+  "author_red_pixels": 33998,
+  "published_red_pixels": 31456,
+  "overlap_pixels": 30883,
+  "intersection_over_union": 0.89332,
+  "label_based_residual_shift_points": [
+    0.0,
+    -0.75
+  ],
+  "scale_xy": [
+    0.8405468,
+    0.8405502
+  ],
+  "translation_xy_points": [
+    83.45523,
+    55.58708
+  ]
+}

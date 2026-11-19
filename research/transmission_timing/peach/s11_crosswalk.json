@@ -1,0 +1,621 @@
+{
+  "native_sheet_range": "A1:P37",
+  "parent_leaves": 26,
+  "progeny": 7,
+  "unrepresented_original_B1_samples": [
+    "DHQ1_B1-1-L1",
+    "DHQ1_B1-1-L2",
+    "DHQ1_B1-L1"
+  ],
+  "original_catalogue_stratified_read_counts": {
+    "M101": {
+      "unlisted": {
+        "n": 14,
+        "alt_read_histogram": {
+          "0": 2,
+          "1": 3,
+          "2": 9
+        },
+        "positive_alt_reads": 12,
+        "min_alt_count": 0,
+        "max_alt_count": 2,
+        "min_vaf": "0",
+        "max_vaf": "2/41"
+      },
+      "listed": {
+        "n": 12,
+        "alt_read_histogram": {
+          "3": 4,
+          "4": 4,
+          "5": 2,
+          "7": 2
+        },
+        "positive_alt_reads": 12,
+        "min_alt_count": 3,
+        "max_alt_count": 7,
+        "min_vaf": "3/77",
+        "max_vaf": "1/8"
+      }
+    },
+    "M103": {
+      "listed": {
+        "n": 26,
+        "alt_read_histogram": {
+          "12": 1,
+          "13": 1,
+          "14": 2,
+          "15": 1,
+          "16": 1,
+          "17": 2,
+          "18": 2,
+          "19": 2,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "23": 2,
+          "25": 2,
+          "26": 2,
+          "27": 2,
+          "28": 1,
+          "30": 1,
+          "32": 1
+        },
+        "positive_alt_reads": 26,
+        "min_alt_count": 12,
+        "max_alt_count": 32,
+        "min_vaf": "13/44",
+        "max_vaf": "18/29"
+      }
+    }
+  },
+  "M101_count_cutoffs_on_26_named_parental_leaves": [
+    {
+      "minimum_alt_reads": 1,
+      "identified": 24,
+      "additional_to_2019_list": 12,
+      "missed_2019_listings": 0
+    },
+    {
+      "minimum_alt_reads": 2,
+      "identified": 21,
+      "additional_to_2019_list": 9,
+      "missed_2019_listings": 0
+    },
+    {
+      "minimum_alt_reads": 3,
+      "identified": 12,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 0
+    },
+    {
+      "minimum_alt_reads": 4,
+      "identified": 8,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 4
+    },
+    {
+      "minimum_alt_reads": 5,
+      "identified": 4,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 8
+    },
+    {
+      "minimum_alt_reads": 6,
+      "identified": 2,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 10
+    },
+    {
+      "minimum_alt_reads": 7,
+      "identified": 2,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 10
+    },
+    {
+      "minimum_alt_reads": 8,
+      "identified": 0,
+      "additional_to_2019_list": 0,
+      "missed_2019_listings": 12
+    }
+  ],
+  "overlap_with_ten_minimum_completion_additions": [
+    {
+      "marker": "M101",
+      "leaf": "DHQ1_B1-11-L2",
+      "ref": 70,
+      "alt": 0,
+      "depth": 70,
+      "call": null
+    },
+    {
+      "marker": "M101",
+      "leaf": "DHQ1_B1-6-L2",
+      "ref": 58,
+      "alt": 2,
+      "depth": 60,
+      "call": null
+    },
+    {
+      "marker": "M101",
+      "leaf": "DHQ1_B1-8-L2",
+      "ref": 49,
+      "alt": 2,
+      "depth": 51,
+      "call": null
+    }
+  ],
+  "M101_support_in_named_additions_vs_other_unlisted": {
+    "1": {
+      "shared_additions": {
+        "meeting_count": 2,
+        "number_measured": 3
+      },
+      "other_unlisted": {
+        "meeting_count": 10,
+        "number_measured": 11
+      }
+    },
+    "2": {
+      "shared_additions": {
+        "meeting_count": 2,
+        "number_measured": 3
+      },
+      "other_unlisted": {
+        "meeting_count": 7,
+        "number_measured": 11
+      }
+    },
+    "3": {
+      "shared_additions": {
+        "meeting_count": 0,
+        "number_measured": 3
+      },
+      "other_unlisted": {
+        "meeting_count": 0,
+        "number_measured": 11
+      }
+    }
+  },
+  "parent_crosswalk": {
+    "M101": [
+      {
+        "leaf": "DHQ1_B1-10-L1",
+        "listed": false,
+        "ref": 50,
+        "alt": 2,
+        "depth": 52,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-10-L2",
+        "listed": true,
+        "ref": 61,
+        "alt": 4,
+        "depth": 65,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-11-L1",
+        "listed": true,
+        "ref": 53,
+        "alt": 4,
+        "depth": 57,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-11-L2",
+        "listed": false,
+        "ref": 70,
+        "alt": 0,
+        "depth": 70,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-12-L1",
+        "listed": true,
+        "ref": 49,
+        "alt": 7,
+        "depth": 56,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-12-L2",
+        "listed": false,
+        "ref": 75,
+        "alt": 2,
+        "depth": 77,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-13-L1",
+        "listed": false,
+        "ref": 59,
+        "alt": 0,
+        "depth": 59,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-13-L2",
+        "listed": false,
+        "ref": 74,
+        "alt": 2,
+        "depth": 76,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-14-L1",
+        "listed": false,
+        "ref": 48,
+        "alt": 1,
+        "depth": 49,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-14-L2",
+        "listed": true,
+        "ref": 74,
+        "alt": 3,
+        "depth": 77,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-15-L1",
+        "listed": true,
+        "ref": 44,
+        "alt": 3,
+        "depth": 47,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-16-L1",
+        "listed": true,
+        "ref": 52,
+        "alt": 5,
+        "depth": 57,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-3-L1",
+        "listed": false,
+        "ref": 51,
+        "alt": 1,
+        "depth": 52,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-3-L2",
+        "listed": false,
+        "ref": 40,
+        "alt": 2,
+        "depth": 42,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-4-L1",
+        "listed": false,
+        "ref": 39,
+        "alt": 2,
+        "depth": 41,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-4-L2",
+        "listed": true,
+        "ref": 42,
+        "alt": 3,
+        "depth": 45,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-5-L1",
+        "listed": false,
+        "ref": 46,
+        "alt": 1,
+        "depth": 47,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-5-L2",
+        "listed": true,
+        "ref": 56,
+        "alt": 3,
+        "depth": 59,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-6-L1",
+        "listed": true,
+        "ref": 49,
+        "alt": 4,
+        "depth": 53,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-6-L2",
+        "listed": false,
+        "ref": 58,
+        "alt": 2,
+        "depth": 60,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-7-L1",
+        "listed": false,
+        "ref": 54,
+        "alt": 2,
+        "depth": 56,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-7-L2",
+        "listed": true,
+        "ref": 69,
+        "alt": 4,
+        "depth": 73,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-8-L1",
+        "listed": true,
+        "ref": 60,
+        "alt": 7,
+        "depth": 67,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-8-L2",
+        "listed": false,
+        "ref": 49,
+        "alt": 2,
+        "depth": 51,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-9-L1",
+        "listed": true,
+        "ref": 80,
+        "alt": 5,
+        "depth": 85,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-9-L2",
+        "listed": false,
+        "ref": 61,
+        "alt": 2,
+        "depth": 63,
+        "call": null
+      }
+    ],
+    "M103": [
+      {
+        "leaf": "DHQ1_B1-10-L1",
+        "listed": true,
+        "ref": 24,
+        "alt": 20,
+        "depth": 44,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-10-L2",
+        "listed": true,
+        "ref": 19,
+        "alt": 23,
+        "depth": 42,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-11-L1",
+        "listed": true,
+        "ref": 25,
+        "alt": 23,
+        "depth": 48,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-11-L2",
+        "listed": true,
+        "ref": 32,
+        "alt": 27,
+        "depth": 59,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-12-L1",
+        "listed": true,
+        "ref": 29,
+        "alt": 18,
+        "depth": 47,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-12-L2",
+        "listed": true,
+        "ref": 31,
+        "alt": 32,
+        "depth": 63,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-13-L1",
+        "listed": true,
+        "ref": 24,
+        "alt": 26,
+        "depth": 50,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-13-L2",
+        "listed": true,
+        "ref": 29,
+        "alt": 17,
+        "depth": 46,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-14-L1",
+        "listed": true,
+        "ref": 11,
+        "alt": 18,
+        "depth": 29,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-14-L2",
+        "listed": true,
+        "ref": 33,
+        "alt": 26,
+        "depth": 59,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-15-L1",
+        "listed": true,
+        "ref": 27,
+        "alt": 25,
+        "depth": 52,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-16-L1",
+        "listed": true,
+        "ref": 31,
+        "alt": 13,
+        "depth": 44,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-3-L1",
+        "listed": true,
+        "ref": 25,
+        "alt": 14,
+        "depth": 39,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-3-L2",
+        "listed": true,
+        "ref": 21,
+        "alt": 22,
+        "depth": 43,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-4-L1",
+        "listed": true,
+        "ref": 22,
+        "alt": 19,
+        "depth": 41,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-4-L2",
+        "listed": true,
+        "ref": 22,
+        "alt": 15,
+        "depth": 37,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-5-L1",
+        "listed": true,
+        "ref": 26,
+        "alt": 12,
+        "depth": 38,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-5-L2",
+        "listed": true,
+        "ref": 21,
+        "alt": 17,
+        "depth": 38,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-6-L1",
+        "listed": true,
+        "ref": 22,
+        "alt": 27,
+        "depth": 49,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-6-L2",
+        "listed": true,
+        "ref": 30,
+        "alt": 19,
+        "depth": 49,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-7-L1",
+        "listed": true,
+        "ref": 39,
+        "alt": 28,
+        "depth": 67,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-7-L2",
+        "listed": true,
+        "ref": 25,
+        "alt": 30,
+        "depth": 55,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-8-L1",
+        "listed": true,
+        "ref": 29,
+        "alt": 25,
+        "depth": 54,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-8-L2",
+        "listed": true,
+        "ref": 26,
+        "alt": 21,
+        "depth": 47,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-9-L1",
+        "listed": true,
+        "ref": 35,
+        "alt": 16,
+        "depth": 51,
+        "call": null
+      },
+      {
+        "leaf": "DHQ1_B1-9-L2",
+        "listed": true,
+        "ref": 26,
+        "alt": 14,
+        "depth": 40,
+        "call": null
+      }
+    ]
+  },
+  "source_calls_in_progeny": {
+    "M101": {
+      "Absent": 7
+    },
+    "M103": {
+      "Absent": 1,
+      "HET": 4,
+      "HOM": 2
+    },
+    "M120": {
+      "Absent": 2,
+      "HET": 3,
+      "HOM": 2
+    }
+  },
+  "joint_positive_progeny_M101_M103_M120": {
+    "001": 1,
+    "010": 2,
+    "011": 4
+  }
+}

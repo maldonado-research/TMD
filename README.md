@@ -9,7 +9,9 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
-A new analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
+The original peach leaf contains two alternate reads at the disputed marker. In a yeast time series, two definitions of first detection agree on the date in all 18 populations and disagree on which markers came first in 14. [Transmission and timing report](research/transmission_timing/README.md)
+
+An earlier analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
 
 ## Current report and methods supplement — 0.9.1
 

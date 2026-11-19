@@ -1,0 +1,26 @@
+# The original 2016 focal peach leaf has a published site depth
+
+Ji et al. Table S7 contains the same 75 named Dong He Qing 1 leaves used in the Wang et al. catalogue. Row 120 names `DHQ1_B1-1-L1`, the original focal leaf in the 0.9.1 analysis. Columns Q and R record 57 reference G reads and 2 alternate A reads at M101 (2/59, 3.39%). Columns H and I record 17 reference A and 15 alternate C reads at M71 (15/32, 46.88%). Adjacent row 121 names a different specimen, `DHQ1_B1-1-L2`. Its measurements are 4/48 at M101 and 4/14 at M71. These bulk observations leave cellular co-occurrence and an independently established L1 genotype open. [Ji Table S7](https://doi.org/10.1371/journal.pgen.1011829.s021) · [Wang catalogue](https://doi.org/10.1371/journal.pbio.3000191.s019)
+
+The 0.9.1 statement that the project could not establish a site-specific L1 count needs correction. The 0.9.0 crossing and optimization results based on the reported carrier sets remain reproducible. The 0.8.2 audit used a rendering of the complete S7 worksheet but selected the 40 Flower #2 aliquots for analysis. Replaying the 0.8.2 extractor against native S2, S3, S5 and S7 produces the identical archived `historical_profiles.json`. The old rendering already included the 2016 L1 row.
+
+## Agreement with the original catalogue
+
+S7 has 187 named samples spanning 2016 (75), 2017 (4) and 2019 (108), each with columns for eight markers. Only M71 and M101 belong to the 48 mutations attributed to Wang et al. in Ji et al. Table S2. All 75 2016 names match the project catalogue roster exactly. All 14 listed M101 members have three or more alternate reads. All 61 unlisted leaves have at most two (48 zero, 3 one, 10 two). Both listed M71 members have at least four alternate reads, and all 73 unlisted members have zero. All these sample–locus pairs have positive total depth. Wang et al. required at least five alternate reads in at least one sample for a shared mutation and at least three in other carrier samples, alongside additional quality, topology and manual review criteria. [Wang Methods](https://doi.org/10.1371/journal.pbio.3000191) · [Ji Table S2](https://doi.org/10.1371/journal.pgen.1011829.s016)
+
+The presence of a crossing in the bulk read sets depends on the cutoff. Across all 75 leaves, treating two or more alternate reads as the criterion gives 2 leaves in both sets, 0 in M71 only, 22 in M101 only, and 51 in neither. A minimum of three yields 1, 1, 13 and 60 respectively, exactly reproducing the catalogue crossing. This is a technical sensitivity calculation. Under either cutoff the two markers were counted in bulk samples without cell-level phasing. A read count of zero with positive coverage provides a measurement with a finite detection limit. A cutoff on read fraction alone cannot reproduce the M101 list. For example, a listed B1-14-L2 has 3/77 alternate, while an unlisted B1-4-L1 has 2/41.
+
+## Specificity of predicted additions
+
+Four of the ten entries required in every minimum additions-only solution concern M101, the only four with available direct read measurements at these sample–site combinations in S7 or S11. The four counts are B1-1-L1 2/59, B1-6-L2 2/60, B1-8-L2 2/51, and B1-11-L2 0/70. Three of four show alternate reads and all fall below three. Among the 11 other unlisted B1 leaves, ten have at least one alternate read and seven have two. This weak signal is widespread among B1 leaves outside the predicted set. The 29 B1 leaves have 82/1,724 M101 alternate reads in total, compared with 0/2,700 among the 46 leaves in other branches. These sums describe sequenced reads from one tree and lack a calibrated locus- and specimen-specific error model. No genotype or selective cause follows directly.
+
+## Source identity and overlap
+
+Independent Figshare file metadata lists S7 as file 57267335, 42,131 bytes, MD5 `ac606b8d8fda7227254f140403e263bc`. Its source SHA-256 is `9a8ffb1020eeeddf9e2c129b91b0f710a41a4ad68b59f9444fabd2b88ce8f5c3`. S11 is file 57267350, 15,082 bytes, MD5 `783dedef54d4fffe4c19bd5d2982f9f0`, SHA-256 `51caef01a89815100928b4f6fbd7c6b41753d99e0192b4c609cbeee61ac4ed30`. S11 covers 26 parental 2016 leaves and seven progeny and omits the focal L1, neighboring L2, and basal B1-L1. Every one of the 52 source count pairs for the two overlapping loci (M101, M120) in the 26 parental leaves agrees with S7. The agreement cross-checks transcription of overlapping source measurements. M120 has a cross-table allele-label discrepancy with S2. S11 contains no M103 measurements for the two required focal additions. Its 26 parental M103 rows are all listed and its parental call cells are blank. [S7 source metadata](https://api.figshare.com/v2/articles/29935277) · [S11 source metadata](https://api.figshare.com/v2/articles/29935289) · [Ji Table S11](https://doi.org/10.1371/journal.pgen.1011829.s025)
+
+Reproduce the check with Python 3.10+ and the two source workbooks. `s7_native_audit.py` and `s11_crosswalk.py` can run from the same directory. The third argument points to the repository directory containing `carrier/` and `completion/`.
+
+```sh
+python3 -B s7_native_audit.py s7.xlsx native.xlsx /path/to/research/leaf_lineages | diff - s7_native_result.json
+python3 -B s11_crosswalk.py native.xlsx /path/to/research/leaf_lineages | diff - s11_crosswalk.json
+```

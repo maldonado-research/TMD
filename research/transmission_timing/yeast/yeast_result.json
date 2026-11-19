@@ -1,0 +1,1389 @@
+{
+  "populations": 18,
+  "source_variant_rows": 5759,
+  "disagreement_with_local_present": {
+    "local_at_least_10_unflagged": 1372,
+    "archived_present_with_depth_below_five": 447
+  },
+  "mutation_groups": 5543,
+  "count_observations": 34554,
+  "population_counts_by_endpoint": {
+    "local10": {
+      "tied_groups": 16,
+      "tied_classes": 16,
+      "unique_group": 2,
+      "unique_class": 2
+    },
+    "deposited_present": {
+      "tied_groups": 14,
+      "tied_classes": 13,
+      "unique_group": 4,
+      "unique_class": 5
+    },
+    "local90": {
+      "tied_groups": 12,
+      "tied_classes": 11,
+      "unique_group": 6,
+      "unique_class": 7
+    },
+    "deposited_fixed": {
+      "tied_groups": 10,
+      "tied_classes": 9,
+      "unique_group": 8,
+      "unique_class": 9
+    }
+  },
+  "sampled_generation_counts": {
+    "local10": {
+      "70": 17,
+      "1410": 1
+    },
+    "deposited_present": {
+      "70": 17,
+      "1410": 1
+    },
+    "local90": {
+      "70": 15,
+      "1410": 3
+    },
+    "deposited_fixed": {
+      "70": 14,
+      "1410": 4
+    }
+  },
+  "sets_at_first_sample": {
+    "local10_vs_deposited_present_groups": {
+      "partial_overlap": 14,
+      "identical": 4
+    },
+    "local10_vs_deposited_present_classes": {
+      "identical": 9,
+      "partial_overlap": 9
+    },
+    "local10_vs_local90_groups": {
+      "partial_overlap": 15,
+      "identical": 3
+    },
+    "local10_vs_local90_classes": {
+      "partial_overlap": 15,
+      "identical": 3
+    },
+    "local10_vs_deposited_fixed_groups": {
+      "partial_overlap": 15,
+      "disjoint": 1,
+      "identical": 2
+    },
+    "local10_vs_deposited_fixed_classes": {
+      "partial_overlap": 15,
+      "disjoint": 1,
+      "identical": 2
+    },
+    "local90_vs_deposited_fixed_groups": {
+      "identical": 11,
+      "partial_overlap": 6,
+      "disjoint": 1
+    },
+    "local90_vs_deposited_fixed_classes": {
+      "identical": 15,
+      "partial_overlap": 2,
+      "disjoint": 1
+    },
+    "deposited_present_vs_deposited_fixed_groups": {
+      "partial_overlap": 14,
+      "identical": 3,
+      "disjoint": 1
+    },
+    "deposited_present_vs_deposited_fixed_classes": {
+      "partial_overlap": 11,
+      "identical": 6,
+      "disjoint": 1
+    }
+  },
+  "sample_events": {
+    "P1B02": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "51",
+          "71",
+          "131",
+          "132",
+          "139",
+          "160",
+          "185",
+          "190",
+          "196",
+          "220",
+          "233",
+          "239",
+          "248",
+          "266"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "51",
+          "131",
+          "160",
+          "190",
+          "196",
+          "220",
+          "233",
+          "248"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "160",
+          "220",
+          "233"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "160",
+          "220",
+          "233"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      }
+    },
+    "P1B03": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "4",
+          "22",
+          "81",
+          "120",
+          "136",
+          "168",
+          "182",
+          "222",
+          "224",
+          "225",
+          "270",
+          "281",
+          "296",
+          "367",
+          "369",
+          "423"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "4",
+          "81",
+          "136",
+          "182",
+          "222",
+          "225",
+          "270",
+          "367",
+          "369"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "81"
+        ],
+        "classes": [
+          "indel"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "81"
+        ],
+        "classes": [
+          "indel"
+        ]
+      }
+    },
+    "P1B04": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "5",
+          "32",
+          "36",
+          "41",
+          "42",
+          "107",
+          "115",
+          "118",
+          "135",
+          "158",
+          "161",
+          "164",
+          "194",
+          "285",
+          "391",
+          "412"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "5",
+          "36",
+          "41",
+          "158",
+          "161",
+          "164",
+          "285"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "5",
+          "36",
+          "164",
+          "285"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "5",
+          "36",
+          "164",
+          "285"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      }
+    },
+    "P1B11": {
+      "local10": {
+        "time": 1410,
+        "groups": [
+          "7",
+          "17",
+          "24",
+          "28",
+          "32",
+          "42",
+          "45",
+          "49",
+          "55",
+          "60",
+          "62",
+          "71",
+          "74",
+          "102",
+          "115",
+          "121",
+          "125",
+          "126",
+          "130",
+          "134",
+          "141",
+          "142"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 1410,
+        "groups": [
+          "17",
+          "24",
+          "28",
+          "32",
+          "42",
+          "45",
+          "49",
+          "55",
+          "60",
+          "62",
+          "71",
+          "74",
+          "102",
+          "115",
+          "121",
+          "125",
+          "126",
+          "130",
+          "141",
+          "142"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 1410,
+        "groups": [
+          "60",
+          "130"
+        ],
+        "classes": [
+          "indel",
+          "missense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 1410,
+        "groups": [
+          "60"
+        ],
+        "classes": [
+          "missense"
+        ]
+      }
+    },
+    "P1C02": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "56",
+          "105",
+          "125",
+          "145",
+          "162",
+          "171",
+          "192",
+          "276",
+          "288",
+          "368",
+          "384"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "56",
+          "125",
+          "145",
+          "171",
+          "276",
+          "288"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "171",
+          "288"
+        ],
+        "classes": [
+          "noncoding"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "288"
+        ],
+        "classes": [
+          "noncoding"
+        ]
+      }
+    },
+    "P1C04": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "8",
+          "101",
+          "190",
+          "256",
+          "378",
+          "392",
+          "417"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "8",
+          "101",
+          "190",
+          "256",
+          "378"
+        ],
+        "classes": [
+          "missense",
+          "nonsense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "101",
+          "190",
+          "256"
+        ],
+        "classes": [
+          "missense",
+          "nonsense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "101",
+          "190",
+          "256"
+        ],
+        "classes": [
+          "missense",
+          "nonsense"
+        ]
+      }
+    },
+    "P1C05": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "33",
+          "42",
+          "68",
+          "85",
+          "123",
+          "150",
+          "249",
+          "273"
+        ],
+        "classes": [
+          "missense",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "85",
+          "123",
+          "150"
+        ],
+        "classes": [
+          "missense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "85",
+          "123",
+          "249"
+        ],
+        "classes": [
+          "missense",
+          "synonymous"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "85",
+          "123"
+        ],
+        "classes": [
+          "missense",
+          "synonymous"
+        ]
+      }
+    },
+    "P1C06": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "76",
+          "84",
+          "148",
+          "277",
+          "312",
+          "340",
+          "378"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "76",
+          "84",
+          "148",
+          "277",
+          "312",
+          "340"
+        ],
+        "classes": [
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "84",
+          "148",
+          "312"
+        ],
+        "classes": [
+          "noncoding",
+          "nonsense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "84",
+          "148",
+          "312"
+        ],
+        "classes": [
+          "noncoding",
+          "nonsense"
+        ]
+      }
+    },
+    "P1C11": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "61",
+          "65"
+        ],
+        "classes": [
+          "indel",
+          "missense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "65"
+        ],
+        "classes": [
+          "indel"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "65"
+        ],
+        "classes": [
+          "indel"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "65"
+        ],
+        "classes": [
+          "indel"
+        ]
+      }
+    },
+    "P1D03": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "31",
+          "40",
+          "95",
+          "133",
+          "147",
+          "154",
+          "184",
+          "192",
+          "253",
+          "279",
+          "284",
+          "303",
+          "347"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "31",
+          "147",
+          "192",
+          "253",
+          "284",
+          "347"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "31",
+          "40",
+          "147",
+          "192",
+          "253",
+          "284"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "31",
+          "147",
+          "253",
+          "284"
+        ],
+        "classes": [
+          "missense"
+        ]
+      }
+    },
+    "P1E04": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "75",
+          "107",
+          "145",
+          "189",
+          "409"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "107",
+          "145",
+          "189"
+        ],
+        "classes": [
+          "missense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "189"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "189"
+        ],
+        "classes": [
+          "missense"
+        ]
+      }
+    },
+    "P1E11": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "145"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "145"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "145"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 1410,
+        "groups": [
+          "55"
+        ],
+        "classes": [
+          "synonymous"
+        ]
+      }
+    },
+    "P1F05": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "4",
+          "81",
+          "88",
+          "122",
+          "381",
+          "447"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "4",
+          "81",
+          "88",
+          "122",
+          "381",
+          "447"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "4",
+          "81",
+          "88",
+          "122",
+          "381",
+          "447"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "4",
+          "81",
+          "88",
+          "122",
+          "381",
+          "447"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      }
+    },
+    "P1F11": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "117",
+          "141"
+        ],
+        "classes": [
+          "indel",
+          "missense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "117",
+          "141"
+        ],
+        "classes": [
+          "indel",
+          "missense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "117"
+        ],
+        "classes": [
+          "indel"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "117"
+        ],
+        "classes": [
+          "indel"
+        ]
+      }
+    },
+    "P1G04": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "5",
+          "50",
+          "54",
+          "62",
+          "102",
+          "126",
+          "135",
+          "156",
+          "162",
+          "193",
+          "224",
+          "261",
+          "262",
+          "294",
+          "297",
+          "348",
+          "371"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "5",
+          "50",
+          "62",
+          "102",
+          "126",
+          "193",
+          "224",
+          "294",
+          "297"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "5",
+          "102"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "5",
+          "102"
+        ],
+        "classes": [
+          "missense",
+          "noncoding"
+        ]
+      }
+    },
+    "P1G05": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "4",
+          "6",
+          "18",
+          "97",
+          "151",
+          "156",
+          "175",
+          "267"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "151",
+          "156",
+          "175",
+          "267"
+        ],
+        "classes": [
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "local90": {
+        "time": 1410,
+        "groups": [
+          "3",
+          "5",
+          "8",
+          "14",
+          "23",
+          "26",
+          "27",
+          "28",
+          "49",
+          "58",
+          "63",
+          "78",
+          "81",
+          "82",
+          "83",
+          "91",
+          "92",
+          "104",
+          "106",
+          "119",
+          "123",
+          "134",
+          "141",
+          "151",
+          "154",
+          "156",
+          "157",
+          "159",
+          "171",
+          "175",
+          "185",
+          "188",
+          "195",
+          "200",
+          "203",
+          "204",
+          "207",
+          "210",
+          "211",
+          "218",
+          "220",
+          "222",
+          "224",
+          "226",
+          "231",
+          "238",
+          "244",
+          "251",
+          "255",
+          "258",
+          "263",
+          "267",
+          "274",
+          "279",
+          "282",
+          "283",
+          "289",
+          "293",
+          "301",
+          "309",
+          "310",
+          "315",
+          "317",
+          "323",
+          "329",
+          "341",
+          "346"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 1410,
+        "groups": [
+          "3",
+          "5",
+          "8",
+          "14",
+          "23",
+          "26",
+          "27",
+          "28",
+          "49",
+          "58",
+          "63",
+          "78",
+          "81",
+          "83",
+          "91",
+          "92",
+          "104",
+          "106",
+          "119",
+          "123",
+          "134",
+          "141",
+          "151",
+          "154",
+          "156",
+          "157",
+          "175",
+          "185",
+          "188",
+          "195",
+          "200",
+          "204",
+          "207",
+          "210",
+          "211",
+          "218",
+          "220",
+          "222",
+          "224",
+          "226",
+          "231",
+          "238",
+          "244",
+          "251",
+          "258",
+          "263",
+          "267",
+          "274",
+          "279",
+          "282",
+          "283",
+          "289",
+          "293",
+          "301",
+          "309",
+          "310",
+          "315",
+          "317",
+          "323",
+          "329",
+          "341",
+          "346"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding",
+          "nonsense",
+          "synonymous"
+        ]
+      }
+    },
+    "P1G11": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "47"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "47"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "local90": {
+        "time": 70,
+        "groups": [
+          "47"
+        ],
+        "classes": [
+          "missense"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 70,
+        "groups": [
+          "47"
+        ],
+        "classes": [
+          "missense"
+        ]
+      }
+    },
+    "P1H11": {
+      "local10": {
+        "time": 70,
+        "groups": [
+          "77",
+          "127",
+          "156"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "noncoding"
+        ]
+      },
+      "deposited_present": {
+        "time": 70,
+        "groups": [
+          "77"
+        ],
+        "classes": [
+          "indel"
+        ]
+      },
+      "local90": {
+        "time": 1410,
+        "groups": [
+          "21",
+          "77",
+          "87",
+          "130",
+          "142",
+          "174"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "synonymous"
+        ]
+      },
+      "deposited_fixed": {
+        "time": 1410,
+        "groups": [
+          "77",
+          "87",
+          "142",
+          "174"
+        ],
+        "classes": [
+          "indel",
+          "missense",
+          "synonymous"
+        ]
+      }
+    }
+  },
+  "excluding_the_autodiploidized_population": {
+    "populations": 17,
+    "source_variant_rows": 5326,
+    "disagreement_with_local_present": {
+      "local_at_least_10_unflagged": 1173,
+      "archived_present_with_depth_below_five": 431
+    },
+    "mutation_groups": 5115,
+    "count_observations": 31956,
+    "population_counts_by_endpoint": {
+      "local10": {
+        "tied_groups": 15,
+        "tied_classes": 15,
+        "unique_group": 2,
+        "unique_class": 2
+      },
+      "deposited_present": {
+        "tied_groups": 13,
+        "tied_classes": 12,
+        "unique_group": 4,
+        "unique_class": 5
+      },
+      "local90": {
+        "tied_groups": 12,
+        "tied_classes": 11,
+        "unique_class": 6,
+        "unique_group": 5
+      },
+      "deposited_fixed": {
+        "tied_groups": 10,
+        "tied_classes": 9,
+        "unique_group": 7,
+        "unique_class": 8
+      }
+    },
+    "sampled_generation_counts": {
+      "local10": {
+        "70": 16,
+        "1410": 1
+      },
+      "deposited_present": {
+        "70": 16,
+        "1410": 1
+      },
+      "local90": {
+        "70": 14,
+        "1410": 3
+      },
+      "deposited_fixed": {
+        "70": 13,
+        "1410": 4
+      }
+    },
+    "sets_at_first_sample": {
+      "local10_vs_deposited_present_groups": {
+        "partial_overlap": 13,
+        "identical": 4
+      },
+      "local10_vs_deposited_present_classes": {
+        "identical": 8,
+        "partial_overlap": 9
+      },
+      "local10_vs_local90_groups": {
+        "partial_overlap": 14,
+        "identical": 3
+      },
+      "local10_vs_local90_classes": {
+        "partial_overlap": 14,
+        "identical": 3
+      },
+      "local10_vs_deposited_fixed_groups": {
+        "partial_overlap": 14,
+        "disjoint": 1,
+        "identical": 2
+      },
+      "local10_vs_deposited_fixed_classes": {
+        "partial_overlap": 14,
+        "disjoint": 1,
+        "identical": 2
+      },
+      "local90_vs_deposited_fixed_groups": {
+        "identical": 10,
+        "partial_overlap": 6,
+        "disjoint": 1
+      },
+      "local90_vs_deposited_fixed_classes": {
+        "identical": 14,
+        "partial_overlap": 2,
+        "disjoint": 1
+      },
+      "deposited_present_vs_deposited_fixed_groups": {
+        "partial_overlap": 13,
+        "identical": 3,
+        "disjoint": 1
+      },
+      "deposited_present_vs_deposited_fixed_classes": {
+        "partial_overlap": 10,
+        "identical": 6,
+        "disjoint": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "point_counts": {
+    "dwarf": 313,
+    "normal": 258
+  },
+  "genotype_totals": {
+    "A/A": {
+      "dwarf": 13,
+      "normal": 142
+    },
+    "A/G": {
+      "dwarf": 214,
+      "normal": 107
+    },
+    "G/G": {
+      "dwarf": 86,
+      "normal": 9
+    }
+  },
+  "panels": {
+    "WB-10": {
+      "dwarf": 73,
+      "normal": 61,
+      "minimum_errors": 19,
+      "optimal_rules": [
+        {
+          "A/A": "normal",
+          "A/G": "dwarf",
+          "G/G": "dwarf"
+        }
+      ]
+    },
+    "WB-20": {
+      "dwarf": 58,
+      "normal": 59,
+      "minimum_errors": 25,
+      "optimal_rules": [
+        {
+          "A/A": "normal",
+          "A/G": "dwarf",
+          "G/G": "dwarf"
+        }
+      ]
+    },
+    "Nana": {
+      "dwarf": 182,
+      "normal": 138,
+      "minimum_errors": 85,
+      "optimal_rules": [
+        {
+          "A/A": "normal",
+          "A/G": "dwarf",
+          "G/G": "dwarf"
+        }
+      ]
+    }
+  },
+  "common_rule": {
+    "minimum_errors": 129,
+    "optimal_rules": [
+      {
+        "A/A": "normal",
+        "A/G": "dwarf",
+        "G/G": "dwarf"
+      }
+    ]
+  },
+  "minimum_errors_if_rule_may_vary_by_panel": 129,
+  "finite_panel_formula_check": 129,
+  "reported_results_for_comparison": {
+    "Nana_GG_dwarf": 55,
+    "Nana_GG_total": 64,
+    "all_AA_dwarf": 14,
+    "all_AA_total": 156
+  }
+}

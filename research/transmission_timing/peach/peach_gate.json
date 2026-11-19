@@ -1,0 +1,169 @@
+{
+  "M71_ge_0_M101_ge_0": {
+    "minimum_additions": 12,
+    "distinct_optima": 2,
+    "branches": {
+      "B1": {
+        "minimum_additions": 7,
+        "distinct_optima": 1,
+        "focal_outcomes": [
+          {
+            "relation": "M71_strictly_inside_M101",
+            "M101_in_L1": "listed",
+            "local_tables": 1
+          }
+        ]
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  },
+  "M71_ge_1_M101_ge_1": {
+    "minimum_additions": 18,
+    "distinct_optima": 2,
+    "branches": {
+      "B1": {
+        "minimum_additions": 13,
+        "distinct_optima": 1,
+        "focal_outcomes": [
+          {
+            "relation": "M71_strictly_inside_M101",
+            "M101_in_L1": "listed",
+            "local_tables": 1
+          }
+        ]
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  },
+  "M71_ge_2_M101_ge_2": {
+    "minimum_additions": 18,
+    "distinct_optima": 2,
+    "branches": {
+      "B1": {
+        "minimum_additions": 13,
+        "distinct_optima": 1,
+        "focal_outcomes": [
+          {
+            "relation": "M71_strictly_inside_M101",
+            "M101_in_L1": "listed",
+            "local_tables": 1
+          }
+        ]
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  },
+  "M71_ge_3_M101_ge_3": {
+    "minimum_additions": null,
+    "distinct_optima": 0,
+    "branches": {
+      "B1": {
+        "minimum_additions": null,
+        "distinct_optima": 0
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  },
+  "M71_ge_0_M101_ge_3": {
+    "minimum_additions": 30,
+    "distinct_optima": 2,
+    "branches": {
+      "B1": {
+        "minimum_additions": 25,
+        "distinct_optima": 1,
+        "focal_outcomes": [
+          {
+            "relation": "M101_strictly_inside_M71",
+            "M101_in_L1": "unlisted",
+            "local_tables": 1
+          }
+        ]
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  },
+  "M71_ge_3_M101_ge_0": {
+    "minimum_additions": 12,
+    "distinct_optima": 2,
+    "branches": {
+      "B1": {
+        "minimum_additions": 7,
+        "distinct_optima": 1,
+        "focal_outcomes": [
+          {
+            "relation": "M71_strictly_inside_M101",
+            "M101_in_L1": "listed",
+            "local_tables": 1
+          }
+        ]
+      },
+      "B2": {
+        "minimum_additions": 1,
+        "distinct_optima": 1
+      },
+      "B3": {
+        "minimum_additions": 4,
+        "distinct_optima": 2
+      },
+      "B4": {
+        "minimum_additions": 0,
+        "distinct_optima": 1
+      }
+    }
+  }
+}
