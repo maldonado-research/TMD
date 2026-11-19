@@ -1,0 +1,102 @@
+{
+  "article": "https://doi.org/10.1371/journal.pgen.1011829",
+  "source_workbooks": {
+    "S2": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s016.xlsx",
+      "bytes": 19707,
+      "sha256": "b101c5288f34ca8853d2dd8592b1fd80e1ea4347a96dc049913693ca79302fa4"
+    },
+    "S5": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s019.xlsx",
+      "bytes": 19053,
+      "sha256": "a37bcda6a357e779840974bd8cf51bb526db863bb689013eac02f28c076e4394"
+    }
+  },
+  "frame": {
+    "flower": 2,
+    "published_flower_sites": 37,
+    "split_tissue_pairs": 20,
+    "unit": "One ascertained flower site evaluated in both subsamples of one tissue."
+  },
+  "pair_by_site_calls": {
+    "both_positive": 50,
+    "a_only_positive": 9,
+    "b_only_positive": 12,
+    "neither_positive": 669,
+    "total": 740
+  },
+  "agreement": {
+    "matching_calls_over_all": "719/740",
+    "both_positive_over_either_positive": "50/71",
+    "b_positive_given_a_positive": "50/59",
+    "a_positive_given_b_positive": "50/62"
+  },
+  "across_sites": {
+    "site_overlap_histogram": [
+      {
+        "both_positive_pairs": 0,
+        "either_positive_pairs": 0,
+        "number_of_sites": 15
+      },
+      {
+        "both_positive_pairs": 0,
+        "either_positive_pairs": 1,
+        "number_of_sites": 10
+      },
+      {
+        "both_positive_pairs": 0,
+        "either_positive_pairs": 2,
+        "number_of_sites": 1
+      },
+      {
+        "both_positive_pairs": 1,
+        "either_positive_pairs": 1,
+        "number_of_sites": 5
+      },
+      {
+        "both_positive_pairs": 1,
+        "either_positive_pairs": 4,
+        "number_of_sites": 1
+      },
+      {
+        "both_positive_pairs": 2,
+        "either_positive_pairs": 3,
+        "number_of_sites": 2
+      },
+      {
+        "both_positive_pairs": 3,
+        "either_positive_pairs": 4,
+        "number_of_sites": 1
+      },
+      {
+        "both_positive_pairs": 17,
+        "either_positive_pairs": 20,
+        "number_of_sites": 1
+      },
+      {
+        "both_positive_pairs": 20,
+        "either_positive_pairs": 20,
+        "number_of_sites": 1
+      }
+    ],
+    "no_positive_in_split_tissues": 15,
+    "at_least_one_positive_in_split_tissues": 22,
+    "at_least_one_pair_with_both_positive": 11,
+    "mean_intersection_over_union_weighting_each_nonempty_site_equally": "551/1320",
+    "observed_in_either_subsample_in_all_pairs": {
+      "sites": 2,
+      "intersection": 37,
+      "union": 40
+    },
+    "remaining_sites": {
+      "sites": 35,
+      "intersection": 13,
+      "union": 31
+    }
+  },
+  "source_adjudication_of_discordances": {
+    "source_false_negative": 11,
+    "source_false_positive": 10,
+    "basis": "Authors used supporting calls elsewhere in the flower to interpret discordance."
+  }
+}
