@@ -1,0 +1,22 @@
+{
+  "model": "Independent reads with one stipulated alternate-read fraction per pair. Endpoint is at least one alternate read. Illustrative, conditional on depth.",
+  "denominator": 669,
+  "hypothetical_alternate_read_percent": {
+    "1": {
+      "minimum_depth_for_95_percent_chance_of_one_or_more_alternate_reads": 299,
+      "cells_at_or_above_this_depth": 0
+    },
+    "2": {
+      "minimum_depth_for_95_percent_chance_of_one_or_more_alternate_reads": 149,
+      "cells_at_or_above_this_depth": 134
+    },
+    "5": {
+      "minimum_depth_for_95_percent_chance_of_one_or_more_alternate_reads": 59,
+      "cells_at_or_above_this_depth": 596
+    },
+    "10": {
+      "minimum_depth_for_95_percent_chance_of_one_or_more_alternate_reads": 29,
+      "cells_at_or_above_this_depth": 666
+    }
+  }
+}

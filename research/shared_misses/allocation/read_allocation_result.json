@@ -1,0 +1,45 @@
+{
+  "unit": "An ascertained site in a split tissue with at least one recorded alternate read.",
+  "all_positive": {
+    "positive_comparisons": 71,
+    "observed_one_sided": 21,
+    "expected_one_sided": 10.17859655
+  },
+  "two_or_more_alternate_reads": {
+    "positive_comparisons": 64,
+    "observed_one_sided": 14,
+    "expected_one_sided": 3.17859655
+  },
+  "by_pooled_alternate_reads": {
+    "1": {
+      "positive_comparisons": 7,
+      "observed_one_sided": 7,
+      "expected_one_sided": 7.0
+    },
+    "2": {
+      "positive_comparisons": 1,
+      "observed_one_sided": 1,
+      "expected_one_sided": 0.50186514
+    },
+    "3": {
+      "positive_comparisons": 3,
+      "observed_one_sided": 1,
+      "expected_one_sided": 0.74417131
+    },
+    "4-5": {
+      "positive_comparisons": 16,
+      "observed_one_sided": 7,
+      "expected_one_sided": 1.54403063
+    },
+    "6-10": {
+      "positive_comparisons": 13,
+      "observed_one_sided": 5,
+      "expected_one_sided": 0.38632417
+    },
+    "11 or more": {
+      "positive_comparisons": 31,
+      "observed_one_sided": 0,
+      "expected_one_sided": 0.0022053
+    }
+  }
+}

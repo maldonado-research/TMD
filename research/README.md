@@ -2,6 +2,8 @@
 
 **Current archive.** The [0.8.1 paired-observation supplement](paired_release_0_8_1/README.md) is [published as record 24356808](https://doi.org/10.5281/zenodo.24356808). The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 
+The new peach read-count analysis compares the 14 observed one-sided results with the 3.18 expected at the actual split depths, then defines a prospective test for another plant archive. A separate tropical-tree source audit reconciles candidate and fruit-tissue counts. [Analysis and reproducible inputs](shared_misses/README.md) · [Prospective rule](shared_misses/PREDICTION.md)
+
 The [paired endpoint and detection audit](paired_evidence/README.md) bounds phenotype classification using family annotations and checks split-sample repeatability using two original peach workbooks. It gives exact limits on annotation edits and shows how the unit of comparison changes reported positive overlap.
 
 The [paired-phenotype and school-weighting comparison](archived_rank_robustness/README.md) checks the archived order against a third collection. Mws stays ahead of Aws in the five coculture wrinkly records under every allowed completion of the unmatched record. In the Matela archive the first possible Aws–Mws tie occurs at a school weight ratio of 5/4 per represented parent.

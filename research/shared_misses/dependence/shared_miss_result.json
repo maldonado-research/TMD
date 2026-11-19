@@ -1,0 +1,296 @@
+{
+  "assumptions": [
+    "All detections are true in their tissue.",
+    "Each site-tissue pair has one common binary truth for both splits.",
+    "Finite bounds constrain realized counts at the specified grouping."
+  ],
+  "pooled_table_both_a_only_b_only_neither": [
+    50,
+    9,
+    12,
+    669
+  ],
+  "uncapped": {
+    "true_site_tissue_count": [
+      71,
+      740
+    ],
+    "missed_by_both_count": [
+      0,
+      669
+    ],
+    "missed_by_a_fraction": [
+      "12/71",
+      "681/740"
+    ],
+    "missed_by_b_fraction": [
+      "9/71",
+      "339/370"
+    ],
+    "missed_by_exactly_one_fraction": [
+      "21/740",
+      "21/71"
+    ],
+    "missed_by_both_fraction": [
+      "0",
+      "669/740"
+    ],
+    "detected_by_either_fraction": [
+      "71/740",
+      "1"
+    ]
+  },
+  "hidden_counts_by_one_sided_cap": {
+    "0": {
+      "pooled": [
+        0,
+        0
+      ],
+      "within_sites": [
+        0,
+        508
+      ],
+      "within_tissues": [
+        0,
+        0
+      ]
+    },
+    "1": {
+      "pooled": [
+        0,
+        2
+      ],
+      "within_sites": [
+        0,
+        510
+      ],
+      "within_tissues": [
+        0,
+        3
+      ]
+    },
+    "2": {
+      "pooled": [
+        0,
+        4
+      ],
+      "within_sites": [
+        0,
+        512
+      ],
+      "within_tissues": [
+        0,
+        6
+      ]
+    },
+    "5": {
+      "pooled": [
+        0,
+        10
+      ],
+      "within_sites": [
+        0,
+        518
+      ],
+      "within_tissues": [
+        0,
+        15
+      ]
+    },
+    "10": {
+      "pooled": [
+        0,
+        21
+      ],
+      "within_sites": [
+        0,
+        524
+      ],
+      "within_tissues": [
+        0,
+        30
+      ]
+    }
+  },
+  "hidden_counts_by_two_sided_band": {
+    "1": {
+      "pooled": null,
+      "within_sites": null,
+      "within_tissues": [
+        3,
+        3
+      ]
+    },
+    "2": {
+      "pooled": [
+        2,
+        4
+      ],
+      "within_sites": null,
+      "within_tissues": [
+        2,
+        6
+      ]
+    },
+    "10": {
+      "pooled": [
+        1,
+        21
+      ],
+      "within_sites": null,
+      "within_tissues": [
+        2,
+        30
+      ]
+    }
+  },
+  "cap_one": {
+    "pooled": {
+      "true_site_tissue_count": [
+        71,
+        73
+      ],
+      "missed_by_both_count": [
+        0,
+        2
+      ],
+      "missed_by_a_fraction": [
+        "12/71",
+        "14/73"
+      ],
+      "missed_by_b_fraction": [
+        "9/71",
+        "11/73"
+      ],
+      "missed_by_exactly_one_fraction": [
+        "21/73",
+        "21/71"
+      ],
+      "missed_by_both_fraction": [
+        "0",
+        "2/73"
+      ],
+      "detected_by_either_fraction": [
+        "71/73",
+        "1"
+      ]
+    },
+    "within_sites": {
+      "true_site_tissue_count": [
+        71,
+        581
+      ],
+      "missed_by_both_count": [
+        0,
+        510
+      ],
+      "missed_by_a_fraction": [
+        "12/71",
+        "522/581"
+      ],
+      "missed_by_b_fraction": [
+        "9/71",
+        "519/581"
+      ],
+      "missed_by_exactly_one_fraction": [
+        "3/83",
+        "21/71"
+      ],
+      "missed_by_both_fraction": [
+        "0",
+        "510/581"
+      ],
+      "detected_by_either_fraction": [
+        "71/581",
+        "1"
+      ]
+    },
+    "within_tissues": {
+      "true_site_tissue_count": [
+        71,
+        74
+      ],
+      "missed_by_both_count": [
+        0,
+        3
+      ],
+      "missed_by_a_fraction": [
+        "12/71",
+        "15/74"
+      ],
+      "missed_by_b_fraction": [
+        "9/71",
+        "6/37"
+      ],
+      "missed_by_exactly_one_fraction": [
+        "21/74",
+        "21/71"
+      ],
+      "missed_by_both_fraction": [
+        "0",
+        "3/74"
+      ],
+      "detected_by_either_fraction": [
+        "71/74",
+        "1"
+      ]
+    }
+  },
+  "largest_hidden_count_for_arbitrarily_large_finite_upper_cap": {
+    "pooled": 669,
+    "within_sites": 524,
+    "within_tissues": 65
+  },
+  "cap_one_maximum_sitewise_witness_nonzero_terms": [
+    {
+      "table": [
+        0,
+        0,
+        0,
+        20
+      ],
+      "sites": 15,
+      "h_per_site": 20
+    },
+    {
+      "table": [
+        0,
+        0,
+        1,
+        19
+      ],
+      "sites": 8,
+      "h_per_site": 19
+    },
+    {
+      "table": [
+        0,
+        1,
+        0,
+        19
+      ],
+      "sites": 2,
+      "h_per_site": 19
+    },
+    {
+      "table": [
+        0,
+        1,
+        1,
+        18
+      ],
+      "sites": 1,
+      "h_per_site": 18
+    },
+    {
+      "table": [
+        1,
+        2,
+        1,
+        16
+      ],
+      "sites": 1,
+      "h_per_site": 2
+    }
+  ]
+}

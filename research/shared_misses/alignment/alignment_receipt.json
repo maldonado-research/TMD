@@ -1,0 +1,215 @@
+{
+  "article": "https://doi.org/10.1371/journal.pgen.1011829",
+  "source_workbooks": {
+    "S1": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s015.xlsx",
+      "sha256": "ae7b0fabfb402c26518c49fef0a5e7a47ac0d2383a6168085fbee27e4d201227"
+    },
+    "S2": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s016.xlsx",
+      "sha256": "b101c5288f34ca8853d2dd8592b1fd80e1ea4347a96dc049913693ca79302fa4"
+    },
+    "S5": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12370204.1/pgen.1011829.s019.xlsx",
+      "sha256": "a37bcda6a357e779840974bd8cf51bb526db863bb689013eac02f28c076e4394"
+    }
+  },
+  "flower": 2,
+  "split_tissues": 20,
+  "organ_pair_counts": {
+    "Carpel": 1,
+    "Petal": 8,
+    "Sepal": 6,
+    "Stamen": 5
+  },
+  "reference_rule": "All labeled B tissue profiles reallocated once within each group. A profiles stay fixed.",
+  "wide_site_rule": "Call in at least one split in every tissue using documented matching.",
+  "all_sites": {
+    "sites_retained": 37,
+    "positive_calls": {
+      "a": 59,
+      "b": 62
+    },
+    "mean_unrestricted_whole_profile_reassignment": "389/10",
+    "organ_type": {
+      "group_sizes": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "labeled_reassignments": 3483648000,
+      "recorded_pairing_double_positives": 50,
+      "minimum": 38,
+      "maximum": 50,
+      "mean": "1633/40",
+      "at_least_observed": 6912,
+      "reference_fraction": "1/504000",
+      "score_counts": {
+        "38": 203295744,
+        "39": 590319360,
+        "40": 824774400,
+        "41": 769367808,
+        "42": 545971968,
+        "43": 313459200,
+        "44": 148843008,
+        "45": 60369408,
+        "46": 20224512,
+        "47": 5674752,
+        "48": 1195776,
+        "49": 145152,
+        "50": 6912
+      },
+      "correct_pair_counts_among_maximizers": {
+        "5": 54,
+        "6": 201,
+        "7": 460,
+        "8": 799,
+        "9": 1058,
+        "10": 1213,
+        "11": 1064,
+        "12": 899,
+        "13": 538,
+        "14": 363,
+        "15": 140,
+        "16": 93,
+        "17": 14,
+        "18": 15,
+        "20": 1
+      }
+    },
+    "organ_type_and_unit": {
+      "group_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ],
+      "labeled_reassignments": 48,
+      "recorded_pairing_double_positives": 50,
+      "minimum": 46,
+      "maximum": 50,
+      "mean": "48",
+      "at_least_observed": 4,
+      "reference_fraction": "1/12",
+      "score_counts": {
+        "46": 4,
+        "47": 12,
+        "48": 16,
+        "49": 12,
+        "50": 4
+      },
+      "correct_pair_counts_among_maximizers": {
+        "16": 1,
+        "18": 2,
+        "20": 1
+      }
+    }
+  },
+  "excluding_two_widely_detected_sites": {
+    "sites_retained": 35,
+    "positive_calls": {
+      "a": 20,
+      "b": 24
+    },
+    "mean_unrestricted_whole_profile_reassignment": "9/5",
+    "organ_type": {
+      "group_sizes": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "labeled_reassignments": 3483648000,
+      "recorded_pairing_double_positives": 13,
+      "minimum": 1,
+      "maximum": 13,
+      "mean": "153/40",
+      "at_least_observed": 6912,
+      "reference_fraction": "1/504000",
+      "score_counts": {
+        "1": 203295744,
+        "2": 590319360,
+        "3": 824774400,
+        "4": 769367808,
+        "5": 545971968,
+        "6": 313459200,
+        "7": 148843008,
+        "8": 60369408,
+        "9": 20224512,
+        "10": 5674752,
+        "11": 1195776,
+        "12": 145152,
+        "13": 6912
+      },
+      "correct_pair_counts_among_maximizers": {
+        "5": 54,
+        "6": 201,
+        "7": 460,
+        "8": 799,
+        "9": 1058,
+        "10": 1213,
+        "11": 1064,
+        "12": 899,
+        "13": 538,
+        "14": 363,
+        "15": 140,
+        "16": 93,
+        "17": 14,
+        "18": 15,
+        "20": 1
+      }
+    },
+    "organ_type_and_unit": {
+      "group_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ],
+      "labeled_reassignments": 48,
+      "recorded_pairing_double_positives": 13,
+      "minimum": 9,
+      "maximum": 13,
+      "mean": "11",
+      "at_least_observed": 4,
+      "reference_fraction": "1/12",
+      "score_counts": {
+        "9": 4,
+        "10": 12,
+        "11": 16,
+        "12": 12,
+        "13": 4
+      },
+      "correct_pair_counts_among_maximizers": {
+        "16": 1,
+        "18": 2,
+        "20": 1
+      }
+    }
+  }
+}

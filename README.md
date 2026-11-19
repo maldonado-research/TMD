@@ -23,7 +23,11 @@ The [retrospective route rankings and observation audits](research/roster_releas
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — what paired records can distinguish
+## Latest research checkpoint — how often do split tissues disagree?
+
+In one peach flower, 14 of 64 site–tissue comparisons with at least two alternate reads placed every alternate read in one split. Uniform allocation at the recorded depths predicts 3.18. At 669 other comparisons, both splits contained only reference reads. Their combined depth ranged from 21 to 294 per comparison. The analysis specifies a directional prediction for the first eligible independent plant archive. [Findings, source files and reproduction guide](research/shared_misses/README.md) · [Prospective test](research/shared_misses/PREDICTION.md)
+
+## Prior research checkpoint — what paired records can distinguish
 
 In nine Howells parent pairs, a rule that sees only the recorded family can classify at most 12 of the 18 selected wrinkly and smooth endpoints correctly. In a peach flower study, 719 of 740 split comparisons agree overall, but only 50 of the 71 comparisons positive in either split were positive in both. Two widely detected sites supply 37 of those 50. [Paired evidence, exact calculations and source replays](research/paired_evidence/README.md).
 
