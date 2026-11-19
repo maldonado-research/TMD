@@ -19,7 +19,11 @@ The [retrospective route rankings and observation audits](research/roster_releas
 
 The standalone archive passed eleven computational checks and reproduced 43 saved fixture files. All ten public Zenodo files were downloaded and hash checked; eight inherited files remain unchanged. [Verified publication status](research/PUBLICATION_STATUS.md).
 
-## Latest research checkpoint — route rankings in two archived collections
+## Latest research checkpoint — a third collection tests the archived ranking
+
+In the five paired coculture populations of Howells et al., the selected wrinkly records carry two Wsp annotations, two Mws annotations and one unresolved label. Assigning the unresolved record to Aws still leaves Mws ahead of Aws. The earlier Matela ordering also depends on how one weights the three contributing schools. A 25% difference in per-parent weights can permit an Aws–Mws tie. [Source workbooks, paired counts and exact bounds](research/archived_rank_robustness/README.md).
+
+## Prior research checkpoint — route rankings in two archived collections
 
 On the recorded molecular classifications, W exceeds A and A exceeds M in both collections after accounting for unresolved assignments and repeated samples from a parent. In the recent archive the A–M margin ranges from one to eight across 50 represented populations. One more unclassified phenotype-positive population could produce a tie. [Exact results and source replays](research/archived_route_ranks/README.md).
 

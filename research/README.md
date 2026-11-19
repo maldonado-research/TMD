@@ -2,6 +2,8 @@
 
 **Current archive.** The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 
+The [paired-phenotype and school-weighting comparison](archived_rank_robustness/README.md) checks the archived order against a third collection. Mws stays ahead of Aws in the five coculture wrinkly records under every allowed completion of the unmatched record. In the Matela archive the first possible Aws–Mws tie occurs at a school weight ratio of 5/4 per represented parent.
+
 The [archived route rankings](archived_route_ranks/README.md) use the published parent identifiers to bound rankings on two actual selected collections. The [paired apricot comparison](archived_route_ranks/OBSERVATION_CHECK.md) examines how an observed leader changes across tissue readouts.
 
 The [finite-roster audit](finite_roster_audit/README.md) uses independently verified records across all output strata to bound route counts, leadership and classification errors on one enumerated frame. A [published-data assessment](finite_roster_audit/SOURCE_ASSESSMENT.md) examines coverage of mutation verification in plants.

@@ -1,0 +1,55 @@
+{
+  "all_workbook_rows": 69,
+  "blocks": [
+    {
+      "parent_support": {
+        "A": 3,
+        "W": 6
+      },
+      "selected_rows": 9,
+      "source": "S1",
+      "source_year": "S1.1"
+    },
+    {
+      "parent_support": {
+        "W": 11
+      },
+      "selected_rows": 11,
+      "source": "S1",
+      "source_year": "S1.2"
+    },
+    {
+      "parent_support": {
+        "A": 2,
+        "W": 17
+      },
+      "selected_rows": 20,
+      "source": "S1",
+      "source_year": "S1.3"
+    },
+    {
+      "parent_support": {
+        "A": 2,
+        "AM": 2,
+        "M": 1,
+        "MW": 2,
+        "W": 3
+      },
+      "selected_rows": 14,
+      "source": "S2",
+      "source_year": "S2.1"
+    },
+    {
+      "parent_support": {
+        "MW": 1
+      },
+      "selected_rows": 3,
+      "source": "S3",
+      "source_year": "S3.1"
+    }
+  ],
+  "represented_parents": 50,
+  "selected_wrinkly_rows": 57,
+  "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13101516.1/aem.02499-25-s0002.xlsx",
+  "source_sha256": "90d591f688302c603abbfafcde57ce6fb1011eb6043177d44e3f704f3e818b21"
+}

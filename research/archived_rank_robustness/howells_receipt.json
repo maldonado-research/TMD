@@ -1,0 +1,108 @@
+{
+  "article": "https://doi.org/10.1111/1462-2920.70061",
+  "supplement": "https://doi.org/10.6084/m9.figshare.28340420.v1",
+  "alias_reference": "https://doi.org/10.7554/eLife.38822",
+  "source_bytes": 104373,
+  "sha256": "48f769eb2b49fb02e5a468a0c991d70557848fb79b99629cbd5683233bfbb328",
+  "source_registered_md5": "17e0c4e8bf734f0ab962127c53a54b76",
+  "genome_matrix": {
+    "listed_clone_columns": 20,
+    "data_rows": 257,
+    "excluded_parent": "P2",
+    "excluded_columns_with_recorded_calls": 2,
+    "eligible_clone_columns": 18,
+    "nonempty_markers_all_columns": {
+      "numeric_one": 349,
+      "delta": 1
+    }
+  },
+  "including_delta_yields_identical_eligible_family_sets": true,
+  "sample_rule": "One archived clone of each chosen morphology per retained population at week 8.",
+  "count_rule": "Numeric 1 for a matching gene annotation in Pfluor mutations. Each clone contributes once per family. Unmatched means no matched annotation under this rule.",
+  "arms": {
+    "monoculture": {
+      "parents": 4,
+      "clones_by_phenotype_and_recorded_family": {
+        "wrinkly": {
+          "W": 2,
+          "A": 0,
+          "M": 0,
+          "unmatched": 2
+        },
+        "smooth": {
+          "W": 0,
+          "A": 0,
+          "M": 0,
+          "unmatched": 4
+        }
+      },
+      "pairs_with_any_recorded_family": {
+        "both": 0,
+        "wrinkly_only": 2,
+        "smooth_only": 0,
+        "neither": 2
+      },
+      "paired_clones_with_same_recorded_family": {
+        "W": 0,
+        "A": 0,
+        "M": 0
+      }
+    },
+    "coculture": {
+      "parents": 5,
+      "clones_by_phenotype_and_recorded_family": {
+        "wrinkly": {
+          "W": 2,
+          "A": 0,
+          "M": 2,
+          "unmatched": 1
+        },
+        "smooth": {
+          "W": 2,
+          "A": 0,
+          "M": 1,
+          "unmatched": 2
+        }
+      },
+      "pairs_with_any_recorded_family": {
+        "both": 3,
+        "wrinkly_only": 1,
+        "smooth_only": 0,
+        "neither": 1
+      },
+      "paired_clones_with_same_recorded_family": {
+        "W": 2,
+        "A": 0,
+        "M": 1
+      }
+    }
+  },
+  "paired_roster_totals": {
+    "parents": 9,
+    "clones_by_phenotype_and_recorded_family": {
+      "wrinkly": {
+        "W": 4,
+        "A": 0,
+        "M": 2,
+        "unmatched": 3
+      },
+      "smooth": {
+        "W": 2,
+        "A": 0,
+        "M": 1,
+        "unmatched": 6
+      }
+    },
+    "pairs_with_any_recorded_family": {
+      "both": 3,
+      "wrinkly_only": 3,
+      "smooth_only": 0,
+      "neither": 3
+    },
+    "paired_clones_with_same_recorded_family": {
+      "W": 2,
+      "A": 0,
+      "M": 1
+    }
+  }
+}

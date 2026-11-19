@@ -16,7 +16,31 @@ PARENT_ID = re.compile(r"([A-Z]+)_(\d{4})_(\d+)_(\d+)")
 FAMILIES = {"W": "(wsp", "A": "(aws", "M": "(mws"}
 
 
-def replay(path):
+def source_blocks(parent_categories, clone_counts):
+    source_sizes = Counter(parent[0] for parent in parent_categories)
+    schools = sorted(source_sizes, key=lambda school: (-source_sizes[school], school))
+    support = defaultdict(Counter)
+    row_counts = Counter()
+    for parent, labels in parent_categories.items():
+        cohort = parent[:2]
+        support[cohort]["".join(sorted(labels))] += 1
+        row_counts[cohort] += clone_counts[parent]
+
+    blocks = []
+    for number, school in enumerate(schools, start=1):
+        years = sorted(year for site, year in support if site == school)
+        for slot, year in enumerate(years, start=1):
+            cohort = school, year
+            blocks.append({
+                "source": f"S{number}",
+                "source_year": f"S{number}.{slot}",
+                "selected_rows": row_counts[cohort],
+                "parent_support": dict(support[cohort]),
+            })
+    return blocks
+
+
+def replay(path, *, include_source_blocks=False):
     source_bytes = path.read_bytes()
     digest = hashlib.sha256(source_bytes).hexdigest()
     if digest != SOURCE_SHA256:
@@ -58,6 +82,16 @@ def replay(path):
     finally:
         workbook.close()
 
+    if include_source_blocks:
+        return {
+            "source": SOURCE,
+            "source_sha256": digest,
+            "all_workbook_rows": len(identifiers),
+            "selected_wrinkly_rows": phenotypes["wrinkly"],
+            "represented_parents": len(parent_categories),
+            "blocks": source_blocks(parent_categories, clone_counts),
+        }
+
     parent_support = Counter("".join(sorted(s)) for s in parent_categories.values())
     return {
         "source": SOURCE,
@@ -74,5 +108,8 @@ def replay(path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("workbook", type=Path)
+    parser.add_argument("--source-blocks", action="store_true",
+                        help="emit parent support counts by anonymized school and school-year")
     args = parser.parse_args()
-    print(json.dumps(replay(args.workbook), indent=2, sort_keys=True))
+    print(json.dumps(replay(args.workbook, include_source_blocks=args.source_blocks),
+                     indent=2, sort_keys=True))

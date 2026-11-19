@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "figshare": {
+      "url": "https://doi.org/10.6084/m9.figshare.28340420.v1",
+      "bytes": 104373,
+      "sha256": "48f769eb2b49fb02e5a468a0c991d70557848fb79b99629cbd5683233bfbb328"
+    },
+    "publisher": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11847636.1/EMI-27-e70061-s001.xlsx",
+      "bytes": 104431,
+      "sha256": "19b7352e4a82f93c468a2ab752fa24cfe478e0c05b4d7502cb5c7019a7a0b90c"
+    }
+  },
+  "sheet_values_equal": {
+    "Colony counts": true,
+    "Biofilm assay data": true,
+    "Motility assay data": true,
+    "Summary of mutations": true,
+    "Genes in duplications": true,
+    "Pfluor mutations": true,
+    "E.coli mutations": true,
+    "Amplicon Fitness Exp": true
+  }
+}
