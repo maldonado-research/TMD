@@ -1,0 +1,80 @@
+{
+  "kennedy_training_label": {
+    "scenarios": 7,
+    "printed_labels": [
+      "omit"
+    ],
+    "printed_bounds": [
+      0.070333610829,
+      0.418625842394
+    ],
+    "range_of_endpoints": {
+      "lower": [
+        0.067870803222,
+        0.072621124662
+      ],
+      "upper": [
+        0.415029914562,
+        0.422023166577
+      ]
+    }
+  },
+  "dowsett_training_labels_y6_then_y1": {
+    "scenarios": 49,
+    "printed_labels": [
+      "omit",
+      "C>T"
+    ],
+    "printed_bounds": [
+      -0.395929940589,
+      0.380135598337
+    ],
+    "range_of_endpoints": {
+      "lower": [
+        -0.395952258348,
+        -0.395655003819
+      ],
+      "upper": [
+        0.379954270867,
+        0.380201866495
+      ]
+    }
+  },
+  "kennedy_delete_one_scored_family_fixed_forecasts": {
+    "B": {
+      "lower": 0.016243062724,
+      "upper": 0.422583999549,
+      "random_draw": 0.232110044079
+    },
+    "C": {
+      "lower": 0.142279223607,
+      "upper": 0.414291802224,
+      "random_draw": 0.290152838462
+    },
+    "D": {
+      "lower": 0.011214560085,
+      "upper": 0.417555496911,
+      "random_draw": 0.227081541441
+    },
+    "E": {
+      "lower": 0.012112047965,
+      "upper": 0.41845298479,
+      "random_draw": 0.22797902932
+    },
+    "F": {
+      "lower": 0.145211015569,
+      "upper": 0.419476480696,
+      "random_draw": 0.310239422501
+    },
+    "G": {
+      "lower": 0.014257123514,
+      "upper": 0.420598060339,
+      "random_draw": 0.230124104869
+    },
+    "H": {
+      "lower": 0.15101824234,
+      "upper": 0.417422072247,
+      "random_draw": 0.269850183264
+    }
+  }
+}

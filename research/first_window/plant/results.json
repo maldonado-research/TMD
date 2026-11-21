@@ -1,0 +1,58 @@
+{
+  "primary_table_s1_starred": {
+    "lines": 48,
+    "private_snms": 925,
+    "class_counts": {
+      "C>A": 59,
+      "C>G": 48,
+      "C>T": 528,
+      "T>A": 99,
+      "T>C": 128,
+      "T>G": 63
+    },
+    "six_classes": {
+      "model_brier": 0.6431380371,
+      "reference_brier": 0.8333333333,
+      "brier_gain": 0.1901952962,
+      "log_gain_nats": 0.4226719435,
+      "top_class_hit_gain": 0.3942600044,
+      "lines_with_positive_brier_gain": 46
+    },
+    "transition_transversion": {
+      "model_brier": 0.4204012435,
+      "reference_brier": 0.6893795594,
+      "brier_gain": 0.2689783158,
+      "log_gain_nats": 0.279742847,
+      "top_class_hit_gain": 0.4014720114,
+      "lines_with_positive_brier_gain": 44
+    }
+  },
+  "sensitivity_starred_without_explicit_shared_listing": {
+    "lines": 44,
+    "private_snms": 841,
+    "class_counts": {
+      "C>A": 49,
+      "C>G": 46,
+      "C>T": 478,
+      "T>A": 90,
+      "T>C": 122,
+      "T>G": 56
+    },
+    "six_classes": {
+      "model_brier": 0.6443074027,
+      "reference_brier": 0.8333333333,
+      "brier_gain": 0.1890259307,
+      "log_gain_nats": 0.4220766545,
+      "top_class_hit_gain": 0.3924276542,
+      "lines_with_positive_brier_gain": 42
+    },
+    "transition_transversion": {
+      "model_brier": 0.4173223309,
+      "reference_brier": 0.6920277612,
+      "brier_gain": 0.2747054303,
+      "log_gain_nats": 0.2857305219,
+      "top_class_hit_gain": 0.4094166171,
+      "lines_with_positive_brier_gain": 40
+    }
+  }
+}

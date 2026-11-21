@@ -1,0 +1,206 @@
+{
+  "legacy_observations_sha256": "a61c6f21add3249c07431c86714b0bad3c0fce638644dfd5575d396fa6ad7752",
+  "s1_assigned_events": 237,
+  "s3_directional_change_rows": 237,
+  "same_path_exact_position_matches": 236,
+  "s1_unmatched_event": "V133",
+  "s3_unmatched_path": "F",
+  "s1_s3_unmatched_distance_bases": 5,
+  "inherited_g1_event_ids_repeated_on_g2_excluded_from_table": [
+    "V174",
+    "V189"
+  ],
+  "recurrent_position_events_in_distinct_paths": [
+    {
+      "path": "E",
+      "event_id": "V110",
+      "substitution_class": "T>G"
+    },
+    {
+      "path": "F",
+      "event_id": "V137",
+      "substitution_class": "T>G"
+    }
+  ],
+  "s1_s3_division_disagreements_on_exact_matches": [
+    {
+      "path": "C",
+      "s1_daughter_index": 12,
+      "s3_division": 13,
+      "count": 6
+    },
+    {
+      "path": "C",
+      "s1_daughter_index": 13,
+      "s3_division": 14,
+      "count": 5
+    },
+    {
+      "path": "C",
+      "s1_daughter_index": 14,
+      "s3_division": 12,
+      "count": 1
+    },
+    {
+      "path": "G2",
+      "s1_daughter_index": 5,
+      "s3_division": 7,
+      "count": 7
+    },
+    {
+      "path": "G2",
+      "s1_daughter_index": 6,
+      "s3_division": 8,
+      "count": 6
+    },
+    {
+      "path": "G2",
+      "s1_daughter_index": 8,
+      "s3_division": 10,
+      "count": 5
+    }
+  ],
+  "classified_source_events": {
+    "C>A": 110,
+    "C>G": 0,
+    "C>T": 74,
+    "T>A": 5,
+    "T>C": 33,
+    "T>G": 14,
+    "unknown": 1
+  },
+  "s2_table_reported_directional_counts": {
+    "A\u2192C": 8,
+    "A\u2192G": 16,
+    "A\u2192T": 2,
+    "C\u2192A": 65,
+    "C\u2192T": 33,
+    "G\u2192A": 41,
+    "G\u2192T": 47,
+    "T\u2192A": 4,
+    "T\u2192C": 17,
+    "T\u2192G": 3
+  },
+  "s3_dataset_directional_counts_all_rows": {
+    "A\u2192C": 9,
+    "A\u2192G": 15,
+    "A\u2192T": 1,
+    "C\u2192A": 63,
+    "C\u2192T": 35,
+    "G\u2192A": 40,
+    "G\u2192T": 47,
+    "T\u2192A": 4,
+    "T\u2192C": 18,
+    "T\u2192G": 5
+  },
+  "s2_table_and_s3_dataset_by_path": {
+    "B": {
+      "s2_table_count": 20,
+      "s3_dataset_count": 19,
+      "directional_counts_differ": {
+        "G\u2192T": {
+          "s2_table": 9,
+          "s3_dataset": 8
+        }
+      }
+    },
+    "C": {
+      "s2_table_count": 41,
+      "s3_dataset_count": 41,
+      "directional_counts_differ": {
+        "A\u2192G": {
+          "s2_table": 2,
+          "s3_dataset": 1
+        },
+        "T\u2192G": {
+          "s2_table": 0,
+          "s3_dataset": 1
+        }
+      }
+    },
+    "D": {
+      "s2_table_count": 35,
+      "s3_dataset_count": 36,
+      "directional_counts_differ": {
+        "A\u2192C": {
+          "s2_table": 0,
+          "s3_dataset": 1
+        },
+        "C\u2192T": {
+          "s2_table": 7,
+          "s3_dataset": 6
+        },
+        "G\u2192T": {
+          "s2_table": 10,
+          "s3_dataset": 9
+        },
+        "T\u2192C": {
+          "s2_table": 0,
+          "s3_dataset": 1
+        },
+        "T\u2192G": {
+          "s2_table": 0,
+          "s3_dataset": 1
+        }
+      }
+    },
+    "E": {
+      "s2_table_count": 28,
+      "s3_dataset_count": 30,
+      "directional_counts_differ": {
+        "C\u2192T": {
+          "s2_table": 0,
+          "s3_dataset": 3
+        },
+        "G\u2192A": {
+          "s2_table": 8,
+          "s3_dataset": 7
+        }
+      }
+    },
+    "F": {
+      "s2_table_count": 30,
+      "s3_dataset_count": 31,
+      "directional_counts_differ": {
+        "G\u2192T": {
+          "s2_table": 7,
+          "s3_dataset": 8
+        }
+      }
+    },
+    "G1": {
+      "s2_table_count": 33,
+      "s3_dataset_count": 32,
+      "directional_counts_differ": {
+        "G\u2192T": {
+          "s2_table": 3,
+          "s3_dataset": 2
+        }
+      }
+    },
+    "G2": {
+      "s2_table_count": 21,
+      "s3_dataset_count": 18,
+      "directional_counts_differ": {
+        "A\u2192T": {
+          "s2_table": 1,
+          "s3_dataset": 0
+        },
+        "C\u2192A": {
+          "s2_table": 8,
+          "s3_dataset": 6
+        }
+      }
+    },
+    "H": {
+      "s2_table_count": 28,
+      "s3_dataset_count": 30,
+      "directional_counts_differ": {
+        "G\u2192T": {
+          "s2_table": 0,
+          "s3_dataset": 2
+        }
+      }
+    }
+  }
+}
