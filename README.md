@@ -9,6 +9,8 @@ Research software, source audits, and falsifiable tests for Ricardo Maldonado's 
 
 **Status: exploratory research.** This repository provides reproducible calculations and sharper tests. It does not establish TMD as a validated biological theory, a theory of everything, or a new physical law.
 
+A separate measurement of founder fitness reduced correct final-leader predictions from 45 to 40 in 76 yeast populations. Changing the assay improved prediction in the 21 populations with a second measurement. Independent green-algae competitions let us compare predicting the winner with predicting its final share. [Founder fitness report and reproduction files](research/founder_fitness/README.md)
+
 We tested three forecasts of which inherited yeast label would lead at a later visit. A two-hit advantage on the selected measurements could reverse by changing the endpoint readout for one pool. [Lineage forecast report and sources](research/lineage_forecasts/README.md)
 
 The original peach leaf contains two alternate reads at the disputed marker. In a yeast time series, two definitions of first detection agree on the date in all 18 populations and disagree on which markers came first in 14. [Transmission and timing report](research/transmission_timing/README.md)

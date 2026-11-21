@@ -1,0 +1,85 @@
+{
+  "wells": 21,
+  "wells_per_endpoint_pool": {
+    "S11": 10,
+    "S14": 11
+  },
+  "source_selected_libraries": {
+    "S11": "rerun",
+    "S14": "rerun"
+  },
+  "all_assignments": [
+    {
+      "libraries": {
+        "S11": "original",
+        "S14": "original"
+      },
+      "strict_hits": {
+        "baseline": 12,
+        "assay": 15,
+        "combined": 13,
+        "gain": 10
+      },
+      "endpoint_leaders_changed_from_selected": 5,
+      "assay_minus_baseline_hits": 3,
+      "combined_minus_baseline_hits": 1,
+      "baseline_share_mae": 0.28161967370035035,
+      "combined_share_mae": 0.28028681289907376,
+      "combined_minus_baseline_share_mae": -0.001332860801276592
+    },
+    {
+      "libraries": {
+        "S11": "original",
+        "S14": "rerun"
+      },
+      "strict_hits": {
+        "baseline": 11,
+        "assay": 16,
+        "combined": 14,
+        "gain": 10
+      },
+      "endpoint_leaders_changed_from_selected": 2,
+      "assay_minus_baseline_hits": 5,
+      "combined_minus_baseline_hits": 3,
+      "baseline_share_mae": 0.2839256401727372,
+      "combined_share_mae": 0.2802999015126248,
+      "combined_minus_baseline_share_mae": -0.0036257386601123986
+    },
+    {
+      "libraries": {
+        "S11": "rerun",
+        "S14": "original"
+      },
+      "strict_hits": {
+        "baseline": 12,
+        "assay": 17,
+        "combined": 15,
+        "gain": 11
+      },
+      "endpoint_leaders_changed_from_selected": 3,
+      "assay_minus_baseline_hits": 5,
+      "combined_minus_baseline_hits": 3,
+      "baseline_share_mae": 0.2744856693580353,
+      "combined_share_mae": 0.2603326339216208,
+      "combined_minus_baseline_share_mae": -0.014153035436414496
+    },
+    {
+      "libraries": {
+        "S11": "rerun",
+        "S14": "rerun"
+      },
+      "strict_hits": {
+        "baseline": 11,
+        "assay": 18,
+        "combined": 16,
+        "gain": 11
+      },
+      "endpoint_leaders_changed_from_selected": 0,
+      "assay_minus_baseline_hits": 7,
+      "combined_minus_baseline_hits": 5,
+      "baseline_share_mae": 0.27679163583042216,
+      "combined_share_mae": 0.2603457225351718,
+      "combined_minus_baseline_share_mae": -0.01644591329525036
+    }
+  ]
+}

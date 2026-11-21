@@ -1,0 +1,4 @@
+day,archive_rows,in_scope,scored_fraction,observed_ties,predicted_ties,low_density_excluded,missing_rate_excluded,species_scope_excluded
+5,540,360,134,1,0,217,9,180
+14,540,360,215,2,0,68,77,180
+23,540,360,180,1,0,108,72,180

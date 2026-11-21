@@ -1,0 +1,30 @@
+{
+  "wells": 21,
+  "distinct_focal_labels": 32,
+  "distinct_pairs": 16,
+  "pair_multiplicity": {
+    "1": 11,
+    "2": 5
+  },
+  "poc_native_counts_checked_in_raw_matrix": 3640,
+  "baseline_hits": 11,
+  "baseline_mae": 0.27679163583042216,
+  "assays_agree_on_higher_fitness": 9,
+  "unresolved_or_tied": 0,
+  "proof": {
+    "assay": 18,
+    "combined": 16,
+    "gain": 11,
+    "combined_mae": 0.2603457225351718,
+    "combined_only_vs_baseline": 6,
+    "baseline_only_vs_combined": 1
+  },
+  "main": {
+    "assay": 10,
+    "combined": 12,
+    "gain": 11,
+    "combined_mae": 0.38630314091332785,
+    "combined_only_vs_baseline": 3,
+    "baseline_only_vs_combined": 2
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "count_file_sha256": "49bd605ffa896beed59e16eb013d65bdea8ae0a33e54ac574157dfbf277541fa",
+  "count_rows_used_in_coverage_audit": 18234,
+  "full_count_file_rows": 346155,
+  "hits": null,
+  "prespecified_natural_founder_count": 282,
+  "scored_populations": 0,
+  "status": "unscored_missing_verified_282_founder_assignment",
+  "table_s3_sha256": "d27fe37b56d87e4be9a1de6e1b85f6cdd8230729cda287eeef4565400f1d7dad",
+  "visit_audit": {
+    "T0": {
+      "biological_populations": 20,
+      "distinct_labels_absent_from_s3_sheet1_exact_match": 15,
+      "distinct_recorded_labels": 327,
+      "labels_present_in_every_population": 10,
+      "native_rows": 8541,
+      "pooled_replicate_label_cells": 5708,
+      "positive_labels_per_population_min_max": [
+        12,
+        320
+      ],
+      "reads_absent_from_s3_sheet1_exact_match": 579601,
+      "reads_all_recorded_labels": 5950467,
+      "reads_by_source_label_spelling": {
+        "laboratory_reference_series": 571972,
+        "maybe_suffix_in_source": 7629,
+        "other": 5260045,
+        "unknown_spelling_in_source": 110821
+      },
+      "replicates_with_multiple_sample_ids": 13,
+      "secondary_primer_plates_by_fold": {
+        "R1-R10": [
+          "C"
+        ],
+        "R11-R20": [
+          "B"
+        ]
+      }
+    },
+    "T2": {
+      "biological_populations": 20,
+      "distinct_labels_absent_from_s3_sheet1_exact_match": 14,
+      "distinct_recorded_labels": 285,
+      "labels_present_in_every_population": 108,
+      "native_rows": 6760,
+      "pooled_replicate_label_cells": 4405,
+      "positive_labels_per_population_min_max": [
+        123,
+        258
+      ],
+      "reads_absent_from_s3_sheet1_exact_match": 16063,
+      "reads_all_recorded_labels": 3696156,
+      "reads_by_source_label_spelling": {
+        "laboratory_reference_series": 16048,
+        "maybe_suffix_in_source": 15,
+        "other": 3629951,
+        "unknown_spelling_in_source": 50142
+      },
+      "replicates_with_multiple_sample_ids": 15,
+      "secondary_primer_plates_by_fold": {
+        "R1-R10": [
+          "B"
+        ],
+        "R11-R20": [
+          "B"
+        ]
+      }
+    },
+    "T63": {
+      "biological_populations": 20,
+      "distinct_labels_absent_from_s3_sheet1_exact_match": 14,
+      "distinct_recorded_labels": 283,
+      "labels_present_in_every_population": 17,
+      "native_rows": 2933,
+      "pooled_replicate_label_cells": 2933,
+      "positive_labels_per_population_min_max": [
+        97,
+        198
+      ],
+      "reads_absent_from_s3_sheet1_exact_match": 70092,
+      "reads_all_recorded_labels": 14911575,
+      "reads_by_source_label_spelling": {
+        "laboratory_reference_series": 70048,
+        "maybe_suffix_in_source": 44,
+        "other": 14832911,
+        "unknown_spelling_in_source": 8572
+      },
+      "replicates_with_multiple_sample_ids": 0,
+      "secondary_primer_plates_by_fold": {
+        "R1-R10": [
+          "D"
+        ],
+        "R11-R20": [
+          "D"
+        ]
+      }
+    }
+  },
+  "workbook": {
+    "sheet1_conditional_format_types": [
+      "duplicateValues"
+    ],
+    "sheet1_hidden_rows": 0,
+    "sheet1_repeat_label_rows": 17,
+    "sheet1_rows_after_header": 388,
+    "sheet1_unique_labels": 371,
+    "sheet2_conditional_format_types": [
+      "duplicateValues"
+    ],
+    "sheet2_hidden_rows": 0,
+    "sheet2_review_rows": 67
+  }
+}

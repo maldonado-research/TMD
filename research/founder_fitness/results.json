@@ -1,0 +1,2806 @@
+{
+  "all": {
+    "n": 76,
+    "hits": {
+      "baseline": 45,
+      "assay": 36,
+      "combined": 40
+    },
+    "assay_gain_hits": 36,
+    "gain_ties": 0,
+    "outcome_ties": 0,
+    "forecast_ties": {
+      "baseline": 0,
+      "assay": 0,
+      "combined": 0
+    },
+    "paired_baseline_vs_combined": {
+      "both": 31,
+      "baseline_only": 14,
+      "combined_only": 9,
+      "neither": 22
+    },
+    "mean_absolute_share_errors": {
+      "baseline": 0.24435619,
+      "combined": 0.39344418
+    }
+  },
+  "by_condition": {
+    "1": {
+      "n": 21,
+      "hits": {
+        "baseline": 11,
+        "assay": 10,
+        "combined": 12
+      },
+      "assay_gain_hits": 11,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 9,
+        "baseline_only": 2,
+        "combined_only": 3,
+        "neither": 7
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.27679164,
+        "combined": 0.38630314
+      }
+    },
+    "2": {
+      "n": 11,
+      "hits": {
+        "baseline": 6,
+        "assay": 6,
+        "combined": 7
+      },
+      "assay_gain_hits": 7,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 5,
+        "baseline_only": 1,
+        "combined_only": 2,
+        "neither": 3
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.39177028,
+        "combined": 0.32395199
+      }
+    },
+    "3": {
+      "n": 11,
+      "hits": {
+        "baseline": 7,
+        "assay": 4,
+        "combined": 5
+      },
+      "assay_gain_hits": 7,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 3,
+        "baseline_only": 4,
+        "combined_only": 2,
+        "neither": 2
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.10532009,
+        "combined": 0.44909756
+      }
+    },
+    "4": {
+      "n": 11,
+      "hits": {
+        "baseline": 7,
+        "assay": 5,
+        "combined": 5
+      },
+      "assay_gain_hits": 4,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 4,
+        "baseline_only": 3,
+        "combined_only": 1,
+        "neither": 3
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.35175331,
+        "combined": 0.47125687
+      }
+    },
+    "5": {
+      "n": 11,
+      "hits": {
+        "baseline": 7,
+        "assay": 5,
+        "combined": 5
+      },
+      "assay_gain_hits": 5,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 4,
+        "baseline_only": 3,
+        "combined_only": 1,
+        "neither": 3
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.20275028,
+        "combined": 0.36334604
+      }
+    },
+    "6": {
+      "n": 11,
+      "hits": {
+        "baseline": 7,
+        "assay": 6,
+        "combined": 6
+      },
+      "assay_gain_hits": 2,
+      "gain_ties": 0,
+      "outcome_ties": 0,
+      "forecast_ties": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "paired_baseline_vs_combined": {
+        "both": 6,
+        "baseline_only": 1,
+        "combined_only": 0,
+        "neither": 4
+      },
+      "mean_absolute_share_errors": {
+        "baseline": 0.10826478,
+        "combined": 0.37320137
+      }
+    }
+  },
+  "repeat_checks": {
+    "assay": {
+      "hits_using_each_repeat": [
+        41,
+        45,
+        37,
+        38
+      ],
+      "n_unanimous_repeats": 22,
+      "hits_in_unanimous": 11,
+      "baseline_hits_in_unanimous": 12,
+      "possible_hits_one_repeat_per_pool": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "per_pool_hits": {
+        "F001": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "F002": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "F003": [
+          1,
+          5,
+          3,
+          4
+        ],
+        "F004": [
+          4,
+          4,
+          4,
+          2
+        ],
+        "F005": [
+          4,
+          1,
+          4,
+          3
+        ],
+        "F006": [
+          3,
+          3,
+          1,
+          2
+        ],
+        "F007": [
+          4,
+          3,
+          1,
+          3
+        ],
+        "F008": [
+          1,
+          3,
+          1,
+          2
+        ],
+        "F009": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "F010": [
+          3,
+          4,
+          4,
+          1
+        ],
+        "F011": [
+          5,
+          6,
+          7,
+          7
+        ],
+        "F012": [
+          7,
+          9,
+          5,
+          7
+        ]
+      }
+    },
+    "combined": {
+      "hits_using_each_repeat": [
+        43,
+        46,
+        40,
+        42
+      ],
+      "n_unanimous_repeats": 29,
+      "hits_in_unanimous": 17,
+      "baseline_hits_in_unanimous": 16,
+      "possible_hits_one_repeat_per_pool": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "per_pool_hits": {
+        "F001": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "F002": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "F003": [
+          1,
+          4,
+          3,
+          4
+        ],
+        "F004": [
+          4,
+          4,
+          5,
+          3
+        ],
+        "F005": [
+          4,
+          1,
+          4,
+          3
+        ],
+        "F006": [
+          3,
+          3,
+          1,
+          3
+        ],
+        "F007": [
+          4,
+          3,
+          2,
+          3
+        ],
+        "F008": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "F009": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "F010": [
+          3,
+          5,
+          4,
+          2
+        ],
+        "F011": [
+          6,
+          8,
+          7,
+          6
+        ],
+        "F012": [
+          8,
+          8,
+          5,
+          8
+        ]
+      }
+    }
+  },
+  "weighted_author_assay_hits": 40,
+  "weighted_author_combined_hits": 41,
+  "by_visit": {
+    "10": {
+      "baseline_hit": 54,
+      "combined_hit": 48,
+      "assay_gain_hit": 37
+    },
+    "15": {
+      "baseline_hit": 50,
+      "combined_hit": 47,
+      "assay_gain_hit": 34
+    },
+    "20": {
+      "baseline_hit": 49,
+      "combined_hit": 46,
+      "assay_gain_hit": 44
+    },
+    "22": {
+      "baseline_hit": 48,
+      "combined_hit": 43,
+      "assay_gain_hit": 38
+    },
+    "24": {
+      "baseline_hit": 44,
+      "combined_hit": 41,
+      "assay_gain_hit": 38
+    },
+    "25": {
+      "baseline_hit": 45,
+      "combined_hit": 40,
+      "assay_gain_hit": 36
+    }
+  },
+  "per_population": {
+    "W001": {
+      "condition": 3,
+      "pool": "F009",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W002": {
+      "condition": 3,
+      "pool": "F009",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W003": {
+      "condition": 3,
+      "pool": "F009",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W004": {
+      "condition": 3,
+      "pool": "F009",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W005": {
+      "condition": 3,
+      "pool": "F009",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W006": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W007": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W008": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W009": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W010": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W011": {
+      "condition": 3,
+      "pool": "F002",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W012": {
+      "condition": 4,
+      "pool": "F010",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W013": {
+      "condition": 4,
+      "pool": "F010",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W014": {
+      "condition": 4,
+      "pool": "F010",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W015": {
+      "condition": 4,
+      "pool": "F010",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W016": {
+      "condition": 4,
+      "pool": "F010",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W017": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W018": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W019": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W020": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W021": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": 1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": -1
+    },
+    "W022": {
+      "condition": 4,
+      "pool": "F003",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W023": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W024": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W025": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W026": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W027": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W028": {
+      "condition": 6,
+      "pool": "F007",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W029": {
+      "condition": 6,
+      "pool": "F012",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W030": {
+      "condition": 6,
+      "pool": "F012",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W031": {
+      "condition": 6,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W032": {
+      "condition": 6,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W033": {
+      "condition": 6,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W034": {
+      "condition": 1,
+      "pool": "F011",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W035": {
+      "condition": 1,
+      "pool": "F005",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W036": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W037": {
+      "condition": 1,
+      "pool": "F005",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W038": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W039": {
+      "condition": 1,
+      "pool": "F005",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": 1
+    },
+    "W040": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": 1
+    },
+    "W041": {
+      "condition": 1,
+      "pool": "F005",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W042": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W043": {
+      "condition": 1,
+      "pool": "F005",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W044": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W045": {
+      "condition": 1,
+      "pool": "F008",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W046": {
+      "condition": 1,
+      "pool": "F011",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": 1
+    },
+    "W047": {
+      "condition": 1,
+      "pool": "F011",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W048": {
+      "condition": 1,
+      "pool": "F011",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W049": {
+      "condition": 1,
+      "pool": "F011",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W050": {
+      "condition": 1,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W051": {
+      "condition": 1,
+      "pool": "F012",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": -1
+    },
+    "W052": {
+      "condition": 1,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W053": {
+      "condition": 1,
+      "pool": "F012",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W054": {
+      "condition": 1,
+      "pool": "F012",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W055": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W056": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W057": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W058": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W059": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W060": {
+      "condition": 5,
+      "pool": "F006",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W061": {
+      "condition": 5,
+      "pool": "F011",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W062": {
+      "condition": 5,
+      "pool": "F011",
+      "endpoint": -1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W063": {
+      "condition": 5,
+      "pool": "F011",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W064": {
+      "condition": 5,
+      "pool": "F011",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W065": {
+      "condition": 5,
+      "pool": "F011",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W066": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W067": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W068": {
+      "condition": 2,
+      "pool": "F004",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W069": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 1
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W070": {
+      "condition": 2,
+      "pool": "F004",
+      "endpoint": 1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W071": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W072": {
+      "condition": 2,
+      "pool": "F004",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 0,
+        "combined": 0
+      },
+      "gain_hit": 0,
+      "rep_assay": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W073": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W074": {
+      "condition": 2,
+      "pool": "F004",
+      "endpoint": 1,
+      "gain": 1,
+      "predictions": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rep_combined": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_assay": 1,
+      "weighted_combined": 1
+    },
+    "W075": {
+      "condition": 2,
+      "pool": "F001",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": 1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 0,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    },
+    "W076": {
+      "condition": 2,
+      "pool": "F004",
+      "endpoint": -1,
+      "gain": -1,
+      "predictions": {
+        "baseline": -1,
+        "assay": -1,
+        "combined": -1
+      },
+      "hits": {
+        "baseline": 1,
+        "assay": 1,
+        "combined": 1
+      },
+      "gain_hit": 1,
+      "rep_assay": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "rep_combined": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "weighted_assay": -1,
+      "weighted_combined": -1
+    }
+  }
+}
