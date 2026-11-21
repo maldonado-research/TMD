@@ -19,7 +19,11 @@ The original peach leaf contains two alternate reads at the disputed marker. In 
 
 An earlier analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
 
-## Current report and methods supplement — 0.12.0
+## Current report and methods supplement — 0.13.0
+
+Across four tropical trees, the minimum of seven missed tip calls puts 75,230 site pairs in a forced ancestral order under a single stable change per site. Allowing one further miss leaves 59,736 specific pairs with guaranteed order, although each eight-miss reconstruction contains over 75,000 ordered pairs. Tests in yeast pedigrees, mouse litters and fruit tissues distinguish a division assignment from later evidence of inheritance. [Zenodo 0.13.0](https://doi.org/10.5281/zenodo.24427132) · [Release and verification](research/pedigree_release_0_13_0/README.md)
+
+## Earlier report and methods supplement — 0.12.0
 
 Version 0.12.0 compares separate founder fitness measurements, starting shares and later abundance in yeast, and tests final-rank and share forecasts in green algae. The archive includes the input extractions, exact endpoint-library comparisons and replay scripts. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](research/founder_release_0_12_0/README.md)
 
