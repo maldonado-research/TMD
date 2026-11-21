@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.14.0**, published 21 November 2026 Pacific in concept family 23068055. A spectrum learned from other yeast families beat equal odds for every one of 36 possible first-class assignments in one study. A second study allowed either forecast to win, and an exact random-window check gave limited evidence of special early timing. The plant comparison tested 925 endpoint substitutions in 48 lines. All 30 public files were verified. [Zenodo 0.14.0](https://doi.org/10.5281/zenodo.24427842) · [Release and verification](window_release_0_14_0/README.md)
+The current report and methods version is **0.15.0**, published 21 November 2026 Pacific in concept family 23068055. Mouse pedigrees reveal when a parental tissue measurement improves a transmission forecast and how much of that gain can come from correcting the family average. In a wild oak, one allele formed a majority of embryo copies while its maternal transmission rate could lie on either side of one half. All 32 public files were verified. [Zenodo 0.15.0](https://doi.org/10.5281/zenodo.24429958) · [Release and verification](fate_release_0_15_0/README.md)
+
+## Earlier report and methods 0.14.0 checkpoint
+
+Version **0.14.0** was published 21 November 2026 Pacific in concept family 23068055. A spectrum learned from other yeast families beat equal odds for every one of 36 possible first-class assignments in one study. A second study allowed either forecast to win, and an exact random-window check gave limited evidence of special early timing. The plant comparison tested 925 endpoint substitutions in 48 lines. All 30 public files were verified. [Zenodo 0.14.0](https://doi.org/10.5281/zenodo.24427842) · [Release and verification](window_release_0_14_0/README.md)
 
 ## Earlier report and methods 0.13.0 checkpoint
 

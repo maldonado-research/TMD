@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — Can parental mosaicism predict transmission to offspring?",
+    "version": "0.15.0",
+    "publication_date": "2026-11-21",
+    "subjects": [
+      {
+        "subject": "genetic mosaicism"
+      },
+      {
+        "subject": "transmission"
+      },
+      {
+        "subject": "pedigrees"
+      },
+      {
+        "subject": "prediction"
+      },
+      {
+        "subject": "inheritance"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>A mosaic parent can transmit a mutation present in only some of its cells. This retrospective report asks how well parental tissue allele fractions forecast recorded transmission in mouse pedigrees, and what embryo allele counts can establish about maternal inheritance in a wild oak. The study compares specified predictions against distinct offspring readouts. The study design and matched-marker control were recorded on GitHub before their respective forecast comparisons.</p>\n<p>Across 17 offspring-discovered mouse markers in two families, the mean parental forecast was 4.15%, the discovery-pup forecast 15.42% and recorded carriage among other assayed offspring 11.47%, with equal weight per family. Using parental tissue fraction alone gave a binary Brier gain of -0.00094 against the discovery-pup forecast. Averaging the two predictions gave a gain of +0.00472. Among markers with the same family and discovery-pup count, 378,304 of 622,080 assignments of parental measurements scored at least as well as the actual pairing for the parent-only forecast. Averaging also improved the score with shuffled labels. The additional offspring were held out of the frequency forecast, although the source used parental and offspring evidence for catalogue validation. In four different pedigrees, the parental measurement improved Brier loss by 0.01226 against a rate estimated from the other families for 26 confirmed parent-discovered variants. Family-level calibration accounted for 0.00977 of that gain in a retrospective decomposition. A separate two-litter comparison found 10 shared recorded events against 15.40 expected under balanced within-family reassignment of whole offspring profiles (two-sided tail 0.0542). Source: Lindsay et al., doi:10.1038/s41467-019-12023-w.</p>\n<p>In 116 oak embryos there were 1,348 genotype calls at 19 amplified markers, with 178 marker-embryo carrier observations. One marker supplied 122 alternate copies among at most 232 diploid copies, a majority even if all missing copies were reference. Under accurate diploid Mendelian calls, 55 to 75 of the 116 embryos could have received that marker maternally. Maternal tissue fractions were available in the later source only for the nine embryo-positive markers. The analysis includes source extracts, exact score and permutation calculations, bounds for uncalled genotypes and a reproduction guide. Sources: Plomion et al., doi:10.1038/s41477-018-0172-3, and Xian et al., doi:10.1093/g3journal/jkaf143. Reproductive fitness and evolutionary dominance remain unmeasured in these comparisons. Prepared for Ricardo Maldonado's Mutation by Natural Dominance project with AI assistance.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.15.0 adds the transmission forecast supplement ZIP and SHA-256 checksum to 30 files inherited from version 0.14.0 (doi:10.5281/zenodo.24427842). The series DOI is 10.5281/zenodo.23068055. Original code is licensed under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/c2361b853604bf1b6595a2ed8f629ae57e9ad641."
+      }
+    ]
+  }
+}
