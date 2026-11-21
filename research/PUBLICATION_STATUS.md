@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.11.0**, published 19 November 2026 in concept family 23068055. This report compares forecasts of the leading yeast lineage in two published studies. In the 76 two-label populations, the day-10 leader gave 55 correct forecasts and an early change projection gave 57. Using the other measured endpoint for one pool could reverse that small advantage. All 24 public files were verified. [Zenodo 0.11.0](https://doi.org/10.5281/zenodo.24382132) · [Release and verification](forecast_release_0_11_0/README.md)
+The current report and methods version is **0.12.0**, published 20 November 2026 Pacific in concept family 23068055. Two yeast fitness assays gave different forecasts on the same standard diploid populations. Independent green-algae observations show how final-rank accuracy and error in final share can diverge. All 26 public files were verified. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](founder_release_0_12_0/README.md)
+
+## Earlier report and methods 0.11.0 checkpoint
+
+Version **0.11.0** was published 19 November 2026 in concept family 23068055. This report compares forecasts of the leading yeast lineage in two published studies. In the 76 two-label populations, the day-10 leader gave 55 correct forecasts and an early change projection gave 57. Using the other measured endpoint for one pool could reverse that small advantage. All 24 public files were verified. [Zenodo 0.11.0](https://doi.org/10.5281/zenodo.24382132) · [Release and verification](forecast_release_0_11_0/README.md)
 
 ## Earlier report and methods 0.10.0 checkpoint
 
