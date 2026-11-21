@@ -1,0 +1,78 @@
+{
+  "table2": [
+    {
+      "strata": [
+        "family"
+      ],
+      "groups": 2,
+      "multi_marker_groups": 2,
+      "groups_with_distinct_parent_values": 2,
+      "allocations": 14631321600,
+      "at_least_observed": 9638095296,
+      "tail_fraction": "50198413/76204800",
+      "tail": 0.6587303293230873,
+      "observed_gain": -0.0009352803785879997,
+      "expected_shuffled_gain": -0.0005924447243140582,
+      "gain_from_matching": -0.00034283565427394155,
+      "gain_over_stratum_mean_parent_forecast": -0.0011040770703233242
+    },
+    {
+      "strata": [
+        "family",
+        "discovery"
+      ],
+      "groups": 5,
+      "multi_marker_groups": 4,
+      "groups_with_distinct_parent_values": 4,
+      "allocations": 622080,
+      "at_least_observed": 378304,
+      "tail_fraction": "5911/9720",
+      "tail": 0.608127572016461,
+      "observed_gain": -0.0009352803785879997,
+      "expected_shuffled_gain": -0.0007670568795053985,
+      "gain_from_matching": -0.00016822349908260118,
+      "gain_over_stratum_mean_parent_forecast": -0.0008644143625663975
+    },
+    {
+      "strata": [
+        "family",
+        "discovery",
+        "parent"
+      ],
+      "groups": 6,
+      "multi_marker_groups": 4,
+      "groups_with_distinct_parent_values": 4,
+      "allocations": 207360,
+      "at_least_observed": 124428,
+      "tail_fraction": "10369/17280",
+      "tail": 0.6000578703703704,
+      "observed_gain": -0.0009352803785879997,
+      "expected_shuffled_gain": -0.0007668744582782012,
+      "gain_from_matching": -0.00016840592030979853,
+      "gain_over_stratum_mean_parent_forecast": -0.0008645957754602614
+    }
+  ],
+  "workbook_sensitivity": {
+    "strata": [
+      "family",
+      "discovery"
+    ],
+    "groups": 5,
+    "multi_marker_groups": 4,
+    "groups_with_distinct_parent_values": 4,
+    "allocations": 622080,
+    "at_least_observed": 374180,
+    "tail_fraction": "18709/31104",
+    "tail": 0.6014981995884774,
+    "observed_gain": -0.0010215987865481986,
+    "expected_shuffled_gain": -0.0008623194555142432,
+    "gain_from_matching": -0.00015927933103395553,
+    "gain_over_stratum_mean_parent_forecast": -0.0008554701945177518
+  },
+  "midpoint_gain_components": {
+    "half_parent_gain": -0.00046764018929399987,
+    "quarter_squared_disagreement": 0.005186259022569444,
+    "midpoint_gain": 0.004718618833275444,
+    "expected_midpoint_gain_shuffling_within_discovery_count": 0.004802730582816745
+  }
+}

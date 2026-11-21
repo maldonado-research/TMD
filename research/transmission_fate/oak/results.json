@@ -1,0 +1,61 @@
+{
+  "trees": 1,
+  "acorns": 116,
+  "acorns_by_branch": {
+    "L1": 23,
+    "L2": 93
+  },
+  "loci_attempted": 21,
+  "loci_amplified": 19,
+  "loci_per_origin": {
+    "shared_trunk": {
+      "amplified": 9,
+      "carrier_positive": 5
+    },
+    "L1": {
+      "amplified": 6,
+      "carrier_positive": 4
+    },
+    "L2": {
+      "amplified": 4,
+      "carrier_positive": 0
+    }
+  },
+  "marker_embryo_pairs": 2204,
+  "genotyped": 1348,
+  "missing": 856,
+  "heterozygotes": 62,
+  "alternate_homozygotes": 116,
+  "carriers": 178,
+  "carrier_fraction_among_called": 0.1320474777,
+  "carrier_fraction_all_embryos_bounds": [
+    0.0807622505,
+    0.4691470054
+  ],
+  "markers_with_parent_fraction_if_carrier_positive": 9,
+  "markers_with_parent_fraction_if_no_carrier": 0,
+  "maternal_alternate_under_mendelian_inheritance": {
+    "all_19_marker_embryo_pairs": {
+      "denominator": 2204,
+      "lower": 116,
+      "upper": 1034
+    },
+    "figure_marker_11": {
+      "denominator": 116,
+      "lower": 55,
+      "upper": 75
+    }
+  },
+  "branch_specific_markers": 10,
+  "mean_branch_contrast": {
+    "called_difference": 0.1046511232,
+    "all_embryos_lower": -0.3832164563,
+    "all_embryos_upper": 0.4370733988
+  },
+  "strictly_positive_under_all_assignments": [
+    12
+  ],
+  "strictly_negative_under_all_assignments": [
+    11
+  ]
+}

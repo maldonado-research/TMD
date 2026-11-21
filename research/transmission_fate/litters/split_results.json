@@ -1,0 +1,497 @@
+{
+  "families": {
+    "CBGP8": {
+      "panels": {
+        "early": {
+          "litter": 1,
+          "pups": 5,
+          "female_pups": 2,
+          "mean_wgs_depth": {
+            "fraction": "25",
+            "decimal": 25.0
+          }
+        },
+        "late": {
+          "litter": 8,
+          "pups": 5,
+          "female_pups": 2,
+          "mean_wgs_depth": {
+            "fraction": "118/5",
+            "decimal": 23.6
+          }
+        }
+      },
+      "observed_counts": {
+        "early_positive": 76,
+        "late_positive": 100,
+        "both": 4,
+        "total": 172,
+        "early_only": 72,
+        "late_only": 96
+      },
+      "later_documented_fraction_among_early": {
+        "fraction": "1/19",
+        "decimal": 0.05263157894736842
+      },
+      "observed_counts_by_number_of_recorded_WGS_pups": {
+        "1": {
+          "early_positive": 68,
+          "late_positive": 92,
+          "both": 0,
+          "total": 160,
+          "early_only": 68,
+          "late_only": 92
+        },
+        "2": {
+          "early_positive": 5,
+          "late_positive": 3,
+          "both": 1,
+          "total": 7,
+          "early_only": 4,
+          "late_only": 2
+        },
+        "4": {
+          "early_positive": 1,
+          "late_positive": 3,
+          "both": 1,
+          "total": 3,
+          "early_only": 0,
+          "late_only": 2
+        },
+        "5": {
+          "early_positive": 2,
+          "late_positive": 2,
+          "both": 2,
+          "total": 2,
+          "early_only": 0,
+          "late_only": 0
+        }
+      },
+      "tests": {
+        "balanced": {
+          "observed_bridging_events": 4,
+          "allocations": 252,
+          "expectation": {
+            "fraction": "550/63",
+            "decimal": 8.73015873015873
+          },
+          "tail_counts": {
+            "lower": 4,
+            "upper": 252,
+            "two_sided_about_expectation": 4
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "1/63",
+              "decimal": 0.015873015873015872
+            },
+            "upper": {
+              "fraction": "1",
+              "decimal": 1.0
+            },
+            "two_sided_about_expectation": {
+              "fraction": "1/63",
+              "decimal": 0.015873015873015872
+            }
+          },
+          "distribution": {
+            "4": 4,
+            "5": 2,
+            "6": 12,
+            "7": 34,
+            "8": 44,
+            "9": 76,
+            "10": 56,
+            "11": 20,
+            "12": 4
+          }
+        },
+        "fixed_early_sex": {
+          "observed_bridging_events": 4,
+          "allocations": 120,
+          "expectation": {
+            "fraction": "171/20",
+            "decimal": 8.55
+          },
+          "tail_counts": {
+            "lower": 2,
+            "upper": 120,
+            "two_sided_about_expectation": 2
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "1/60",
+              "decimal": 0.016666666666666666
+            },
+            "upper": {
+              "fraction": "1",
+              "decimal": 1.0
+            },
+            "two_sided_about_expectation": {
+              "fraction": "1/60",
+              "decimal": 0.016666666666666666
+            }
+          },
+          "distribution": {
+            "4": 2,
+            "5": 2,
+            "6": 6,
+            "7": 18,
+            "8": 28,
+            "9": 34,
+            "10": 18,
+            "11": 8,
+            "12": 4
+          }
+        },
+        "fixed_early_sex_and_depth_sum": {
+          "observed_bridging_events": 4,
+          "allocations": 9,
+          "expectation": {
+            "fraction": "25/3",
+            "decimal": 8.333333333333334
+          },
+          "tail_counts": {
+            "lower": 1,
+            "upper": 9,
+            "two_sided_about_expectation": 1
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "1/9",
+              "decimal": 0.1111111111111111
+            },
+            "upper": {
+              "fraction": "1",
+              "decimal": 1.0
+            },
+            "two_sided_about_expectation": {
+              "fraction": "1/9",
+              "decimal": 0.1111111111111111
+            }
+          },
+          "distribution": {
+            "4": 1,
+            "5": 1,
+            "8": 3,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+          }
+        }
+      }
+    },
+    "GPCB2": {
+      "panels": {
+        "early": {
+          "litter": 1,
+          "pups": 5,
+          "female_pups": 0,
+          "mean_wgs_depth": {
+            "fraction": "169/5",
+            "decimal": 33.8
+          }
+        },
+        "late": {
+          "litter": 9,
+          "pups": 5,
+          "female_pups": 1,
+          "mean_wgs_depth": {
+            "fraction": "25",
+            "decimal": 25.0
+          }
+        }
+      },
+      "observed_counts": {
+        "early_positive": 97,
+        "late_positive": 125,
+        "both": 6,
+        "total": 216,
+        "early_only": 91,
+        "late_only": 119
+      },
+      "later_documented_fraction_among_early": {
+        "fraction": "6/97",
+        "decimal": 0.061855670103092786
+      },
+      "observed_counts_by_number_of_recorded_WGS_pups": {
+        "1": {
+          "early_positive": 89,
+          "late_positive": 116,
+          "both": 0,
+          "total": 205,
+          "early_only": 89,
+          "late_only": 116
+        },
+        "2": {
+          "early_positive": 6,
+          "late_positive": 7,
+          "both": 4,
+          "total": 9,
+          "early_only": 2,
+          "late_only": 3
+        },
+        "3": {
+          "early_positive": 2,
+          "late_positive": 2,
+          "both": 2,
+          "total": 2,
+          "early_only": 0,
+          "late_only": 0
+        }
+      },
+      "tests": {
+        "balanced": {
+          "observed_bridging_events": 6,
+          "allocations": 252,
+          "expectation": {
+            "fraction": "20/3",
+            "decimal": 6.666666666666667
+          },
+          "tail_counts": {
+            "lower": 114,
+            "upper": 178,
+            "two_sided_about_expectation": 208
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "19/42",
+              "decimal": 0.4523809523809524
+            },
+            "upper": {
+              "fraction": "89/126",
+              "decimal": 0.7063492063492064
+            },
+            "two_sided_about_expectation": {
+              "fraction": "52/63",
+              "decimal": 0.8253968253968254
+            }
+          },
+          "distribution": {
+            "1": 4,
+            "2": 4,
+            "3": 10,
+            "4": 22,
+            "5": 34,
+            "6": 40,
+            "7": 44,
+            "8": 44,
+            "9": 28,
+            "10": 14,
+            "11": 8
+          }
+        },
+        "fixed_early_sex": {
+          "observed_bridging_events": 6,
+          "allocations": 126,
+          "expectation": {
+            "fraction": "20/3",
+            "decimal": 6.666666666666667
+          },
+          "tail_counts": {
+            "lower": 57,
+            "upper": 89,
+            "two_sided_about_expectation": 104
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "19/42",
+              "decimal": 0.4523809523809524
+            },
+            "upper": {
+              "fraction": "89/126",
+              "decimal": 0.7063492063492064
+            },
+            "two_sided_about_expectation": {
+              "fraction": "52/63",
+              "decimal": 0.8253968253968254
+            }
+          },
+          "distribution": {
+            "1": 2,
+            "2": 2,
+            "3": 5,
+            "4": 11,
+            "5": 17,
+            "6": 20,
+            "7": 22,
+            "8": 22,
+            "9": 14,
+            "10": 7,
+            "11": 4
+          }
+        },
+        "fixed_early_sex_and_depth_sum": {
+          "observed_bridging_events": 6,
+          "allocations": 3,
+          "expectation": {
+            "fraction": "8",
+            "decimal": 8.0
+          },
+          "tail_counts": {
+            "lower": 1,
+            "upper": 3,
+            "two_sided_about_expectation": 1
+          },
+          "p_values": {
+            "lower": {
+              "fraction": "1/3",
+              "decimal": 0.3333333333333333
+            },
+            "upper": {
+              "fraction": "1",
+              "decimal": 1.0
+            },
+            "two_sided_about_expectation": {
+              "fraction": "1/3",
+              "decimal": 0.3333333333333333
+            }
+          },
+          "distribution": {
+            "6": 1,
+            "9": 2
+          }
+        }
+      }
+    }
+  },
+  "combined_tests": {
+    "balanced": {
+      "observed_bridging_events": 10,
+      "allocations": 63504,
+      "expectation": {
+        "fraction": "970/63",
+        "decimal": 15.396825396825397
+      },
+      "tail_counts": {
+        "lower": 2352,
+        "upper": 62464,
+        "two_sided_about_expectation": 3440
+      },
+      "p_values": {
+        "lower": {
+          "fraction": "1/27",
+          "decimal": 0.037037037037037035
+        },
+        "upper": {
+          "fraction": "3904/3969",
+          "decimal": 0.9836230788611741
+        },
+        "two_sided_about_expectation": {
+          "fraction": "215/3969",
+          "decimal": 0.05416981607457798
+        }
+      },
+      "distribution": {
+        "5": 16,
+        "6": 24,
+        "7": 96,
+        "8": 292,
+        "9": 612,
+        "10": 1312,
+        "11": 2380,
+        "12": 3932,
+        "13": 5912,
+        "14": 7928,
+        "15": 9252,
+        "16": 9424,
+        "17": 8548,
+        "18": 6520,
+        "19": 4040,
+        "20": 2128,
+        "21": 840,
+        "22": 216,
+        "23": 32
+      }
+    },
+    "fixed_early_sex": {
+      "observed_bridging_events": 10,
+      "allocations": 15120,
+      "expectation": {
+        "fraction": "913/60",
+        "decimal": 15.216666666666667
+      },
+      "tail_counts": {
+        "lower": 650,
+        "upper": 14824,
+        "two_sided_about_expectation": 910
+      },
+      "p_values": {
+        "lower": {
+          "fraction": "65/1512",
+          "decimal": 0.04298941798941799
+        },
+        "upper": {
+          "fraction": "1853/1890",
+          "decimal": 0.9804232804232804
+        },
+        "two_sided_about_expectation": {
+          "fraction": "13/216",
+          "decimal": 0.06018518518518518
+        }
+      },
+      "distribution": {
+        "5": 4,
+        "6": 8,
+        "7": 26,
+        "8": 80,
+        "9": 178,
+        "10": 354,
+        "11": 628,
+        "12": 1044,
+        "13": 1528,
+        "14": 1954,
+        "15": 2212,
+        "16": 2206,
+        "17": 1914,
+        "18": 1396,
+        "19": 866,
+        "20": 462,
+        "21": 184,
+        "22": 60,
+        "23": 16
+      }
+    },
+    "fixed_early_sex_and_depth_sum": {
+      "observed_bridging_events": 10,
+      "allocations": 27,
+      "expectation": {
+        "fraction": "49/3",
+        "decimal": 16.333333333333332
+      },
+      "tail_counts": {
+        "lower": 1,
+        "upper": 27,
+        "two_sided_about_expectation": 1
+      },
+      "p_values": {
+        "lower": {
+          "fraction": "1/27",
+          "decimal": 0.037037037037037035
+        },
+        "upper": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "two_sided_about_expectation": {
+          "fraction": "1/27",
+          "decimal": 0.037037037037037035
+        }
+      },
+      "distribution": {
+        "10": 1,
+        "11": 1,
+        "13": 2,
+        "14": 5,
+        "15": 1,
+        "16": 1,
+        "17": 7,
+        "18": 3,
+        "19": 2,
+        "20": 2,
+        "21": 2
+      }
+    }
+  }
+}
