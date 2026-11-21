@@ -1,0 +1,159 @@
+{
+  "wells": 76,
+  "endpoint_library_choices": {
+    "pool_composition": {
+      "S1": {
+        "wells": 6,
+        "positive_depth_repeat_endpoints": 5,
+        "complete_repeated_trajectories": 0,
+        "libraries": [
+          "original"
+        ]
+      },
+      "S11": {
+        "wells": 10,
+        "positive_depth_repeat_endpoints": 10,
+        "complete_repeated_trajectories": 10,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S12": {
+        "wells": 11,
+        "positive_depth_repeat_endpoints": 11,
+        "complete_repeated_trajectories": 11,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S13": {
+        "wells": 11,
+        "positive_depth_repeat_endpoints": 11,
+        "complete_repeated_trajectories": 11,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S14": {
+        "wells": 11,
+        "positive_depth_repeat_endpoints": 11,
+        "complete_repeated_trajectories": 11,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S15": {
+        "wells": 11,
+        "positive_depth_repeat_endpoints": 11,
+        "complete_repeated_trajectories": 11,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S16": {
+        "wells": 11,
+        "positive_depth_repeat_endpoints": 11,
+        "complete_repeated_trajectories": 11,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      },
+      "S2": {
+        "wells": 5,
+        "positive_depth_repeat_endpoints": 5,
+        "complete_repeated_trajectories": 5,
+        "libraries": [
+          "original",
+          "rerun"
+        ]
+      }
+    },
+    "assignments": 128,
+    "source_selected": {
+      "baseline_hits": 45,
+      "assay_hits": 36,
+      "combined_hits": 40,
+      "assay_gain_hits": 36,
+      "combined_minus_baseline_hits": -5,
+      "combined_minus_baseline_mean_absolute_error": 0.1490879935
+    },
+    "all_original_endpoints": {
+      "baseline_hits": 54,
+      "assay_hits": 41,
+      "combined_hits": 47,
+      "assay_gain_hits": 44,
+      "combined_minus_baseline_hits": -7,
+      "combined_minus_baseline_mean_absolute_error": 0.1436521138
+    },
+    "attainable_ranges": {
+      "baseline_hits": [
+        45,
+        54
+      ],
+      "assay_hits": [
+        35,
+        42
+      ],
+      "combined_hits": [
+        39,
+        48
+      ],
+      "assay_gain_hits": [
+        36,
+        44
+      ],
+      "combined_minus_baseline_hits": [
+        -11,
+        -1
+      ],
+      "combined_minus_baseline_mean_absolute_error": [
+        0.1181699625,
+        0.1745701448
+      ]
+    },
+    "combined_minus_baseline_hits_assignment_counts": {
+      "-11": 8,
+      "-9": 24,
+      "-7": 32,
+      "-5": 32,
+      "-3": 24,
+      "-1": 8
+    }
+  },
+  "single_founder_repeat_per_pool_selected_endpoint": {
+    "pools": 12,
+    "assignments": 16777216,
+    "attainable_ranges": {
+      "baseline_hits": [
+        45,
+        45
+      ],
+      "assay_hits": [
+        24,
+        52
+      ],
+      "combined_hits": [
+        30,
+        52
+      ],
+      "assay_gain_hits": [
+        25,
+        50
+      ],
+      "combined_minus_baseline_hits": [
+        -15,
+        7
+      ],
+      "combined_minus_baseline_mean_absolute_error": [
+        0.0643982004,
+        0.2600747933
+      ]
+    }
+  }
+}
