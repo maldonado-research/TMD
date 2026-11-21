@@ -1,0 +1,539 @@
+{
+  "offspring_ascertained": {
+    "primary_table2": {
+      "families": {
+        "CBGP8": {
+          "markers": 8,
+          "carrier_observations": 42,
+          "tested_observations": 376,
+          "mean_observed": 0.11170212766,
+          "mean_forecast": {
+            "parent": 0.040875,
+            "wgs": 0.175,
+            "wgs_smoothed": 0.204545454545,
+            "average": 0.1079375
+          },
+          "mean_loss": {
+            "parent": 0.105161342489,
+            "wgs": 0.108617021277,
+            "wgs_smoothed": 0.111965887111,
+            "average": 0.099365996526
+          },
+          "pairwise": {
+            "parent_vs_wgs": {
+              "gain": 0.003455678788,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            },
+            "wgs_smoothed_vs_wgs": {
+              "gain": -0.003348865834,
+              "markers_favor_forecast": 2,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "average_vs_wgs": {
+              "gain": 0.00925102475,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            },
+            "parent_vs_wgs_smoothed": {
+              "gain": 0.006804544622,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            }
+          }
+        },
+        "GPCB2": {
+          "markers": 9,
+          "carrier_observations": 71,
+          "tested_observations": 603,
+          "mean_observed": 0.117744610282,
+          "mean_forecast": {
+            "parent": 0.042051111111,
+            "wgs": 0.133333333333,
+            "wgs_smoothed": 0.166666666667,
+            "average": 0.087692222222
+          },
+          "mean_loss": {
+            "parent": 0.110898378848,
+            "wgs": 0.105572139303,
+            "wgs_smoothed": 0.107407178981,
+            "average": 0.105385926387
+          },
+          "pairwise": {
+            "parent_vs_wgs": {
+              "gain": -0.005326239545,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "wgs_smoothed_vs_wgs": {
+              "gain": -0.001835039678,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "average_vs_wgs": {
+              "gain": 0.000186212916,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "parent_vs_wgs_smoothed": {
+              "gain": -0.003491199867,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            }
+          }
+        }
+      },
+      "equal_family_mean": {
+        "families": 2,
+        "mean_observed": 0.114723368971,
+        "mean_forecast": {
+          "parent": 0.041463055556,
+          "wgs": 0.154166666667,
+          "wgs_smoothed": 0.185606060606,
+          "average": 0.097814861111
+        },
+        "mean_loss": {
+          "parent": 0.108029860669,
+          "wgs": 0.10709458029,
+          "wgs_smoothed": 0.109686533046,
+          "average": 0.102375961457
+        },
+        "pairwise": {
+          "parent_vs_wgs": {
+            "gain": -0.000935280379,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          },
+          "wgs_smoothed_vs_wgs": {
+            "gain": -0.002591952756,
+            "markers_favor_forecast": 5,
+            "markers_tied": 0,
+            "markers_favor_reference": 12
+          },
+          "average_vs_wgs": {
+            "gain": 0.004718618833,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          },
+          "parent_vs_wgs_smoothed": {
+            "gain": 0.001656672377,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          }
+        }
+      }
+    },
+    "workbook_sensitivity": {
+      "families": {
+        "CBGP8": {
+          "markers": 8,
+          "carrier_observations": 42,
+          "tested_observations": 376,
+          "mean_observed": 0.11170212766,
+          "mean_forecast": {
+            "parent": 0.040875,
+            "wgs": 0.175,
+            "wgs_smoothed": 0.204545454545,
+            "average": 0.1079375
+          },
+          "mean_loss": {
+            "parent": 0.105161342489,
+            "wgs": 0.108617021277,
+            "wgs_smoothed": 0.111965887111,
+            "average": 0.099365996526
+          },
+          "pairwise": {
+            "parent_vs_wgs": {
+              "gain": 0.003455678788,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            },
+            "wgs_smoothed_vs_wgs": {
+              "gain": -0.003348865834,
+              "markers_favor_forecast": 2,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "average_vs_wgs": {
+              "gain": 0.00925102475,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            },
+            "parent_vs_wgs_smoothed": {
+              "gain": 0.006804544622,
+              "markers_favor_forecast": 5,
+              "markers_tied": 0,
+              "markers_favor_reference": 3
+            }
+          }
+        },
+        "GPCB2": {
+          "markers": 9,
+          "carrier_observations": 72,
+          "tested_observations": 603,
+          "mean_observed": 0.119402985075,
+          "mean_forecast": {
+            "parent": 0.042051111111,
+            "wgs": 0.133333333333,
+            "wgs_smoothed": 0.166666666667,
+            "average": 0.087692222222
+          },
+          "mean_loss": {
+            "parent": 0.112397715499,
+            "wgs": 0.106898839138,
+            "wgs_smoothed": 0.108613269739,
+            "average": 0.106798944629
+          },
+          "pairwise": {
+            "parent_vs_wgs": {
+              "gain": -0.005498876361,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "wgs_smoothed_vs_wgs": {
+              "gain": -0.001714430602,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "average_vs_wgs": {
+              "gain": 9.9894508e-05,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            },
+            "parent_vs_wgs_smoothed": {
+              "gain": -0.003784445759,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 6
+            }
+          }
+        }
+      },
+      "equal_family_mean": {
+        "families": 2,
+        "mean_observed": 0.115552556367,
+        "mean_forecast": {
+          "parent": 0.041463055556,
+          "wgs": 0.154166666667,
+          "wgs_smoothed": 0.185606060606,
+          "average": 0.097814861111
+        },
+        "mean_loss": {
+          "parent": 0.108779528994,
+          "wgs": 0.107757930207,
+          "wgs_smoothed": 0.110289578425,
+          "average": 0.103082470578
+        },
+        "pairwise": {
+          "parent_vs_wgs": {
+            "gain": -0.001021598787,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          },
+          "wgs_smoothed_vs_wgs": {
+            "gain": -0.002531648218,
+            "markers_favor_forecast": 5,
+            "markers_tied": 0,
+            "markers_favor_reference": 12
+          },
+          "average_vs_wgs": {
+            "gain": 0.004675459629,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          },
+          "parent_vs_wgs_smoothed": {
+            "gain": 0.001510049432,
+            "markers_favor_forecast": 8,
+            "markers_tied": 0,
+            "markers_favor_reference": 9
+          }
+        }
+      }
+    }
+  },
+  "parent_ascertained": {
+    "attempted": {
+      "FAIL_missing": 5,
+      "FAIL_positive": 8,
+      "FAIL_zero": 1,
+      "PASS_positive": 21,
+      "PASS_zero": 5
+    },
+    "confirmed": {
+      "families": {
+        "CBGP4": {
+          "markers": 5,
+          "carrier_observations": 21,
+          "tested_observations": 210,
+          "mean_observed": 0.101,
+          "mean_forecast": {
+            "parent": 0.156,
+            "other_families": 0.163615190981
+          },
+          "mean_loss": {
+            "parent": 0.09762,
+            "other_families": 0.094719662142
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": -0.002900337858,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 2
+            }
+          }
+        },
+        "CBGP7": {
+          "markers": 5,
+          "carrier_observations": 49,
+          "tested_observations": 225,
+          "mean_observed": 0.224178154825,
+          "mean_forecast": {
+            "parent": 0.172,
+            "other_families": 0.122555806039
+          },
+          "mean_loss": {
+            "parent": 0.169984984093,
+            "other_families": 0.184249411497
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.014264427404,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 2
+            }
+          }
+        },
+        "GPCB11": {
+          "markers": 5,
+          "carrier_observations": 12,
+          "tested_observations": 234,
+          "mean_observed": 0.051063829787,
+          "mean_forecast": {
+            "parent": 0.102,
+            "other_families": 0.180260581052
+          },
+          "mean_loss": {
+            "parent": 0.052056595745,
+            "other_families": 0.065148115612
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.013091519867,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 2
+            }
+          }
+        },
+        "GPCB9": {
+          "markers": 11,
+          "carrier_observations": 128,
+          "tested_observations": 597,
+          "mean_observed": 0.215603588331,
+          "mean_forecast": {
+            "parent": 0.230909090909,
+            "other_families": 0.125413994871
+          },
+          "mean_loss": {
+            "parent": 0.152677351605,
+            "other_families": 0.177252843798
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.024575492194,
+              "markers_favor_forecast": 10,
+              "markers_tied": 0,
+              "markers_favor_reference": 1
+            }
+          }
+        }
+      },
+      "equal_family_mean": {
+        "families": 4,
+        "mean_observed": 0.147961393236,
+        "mean_forecast": {
+          "parent": 0.165227272727,
+          "other_families": 0.147961393236
+        },
+        "mean_loss": {
+          "parent": 0.118084732861,
+          "other_families": 0.130342508262
+        },
+        "pairwise": {
+          "parent_vs_other_families": {
+            "gain": 0.012257775402,
+            "markers_favor_forecast": 19,
+            "markers_tied": 0,
+            "markers_favor_reference": 7
+          }
+        }
+      },
+      "exploratory_oracle_decomposition": {
+        "families": {
+          "CBGP4": {
+            "observed_family_mean": 0.101,
+            "oracle_constant_brier": 0.090799,
+            "other_family_constant_excess_loss": 0.003920662142,
+            "parent_vs_oracle_gain": -0.006821
+          },
+          "CBGP7": {
+            "observed_family_mean": 0.224178154825,
+            "oracle_constant_brier": 0.173922309724,
+            "other_family_constant_excess_loss": 0.010327101773,
+            "parent_vs_oracle_gain": 0.003937325631
+          },
+          "GPCB11": {
+            "observed_family_mean": 0.051063829787,
+            "oracle_constant_brier": 0.048456315075,
+            "other_family_constant_excess_loss": 0.016691800537,
+            "parent_vs_oracle_gain": -0.00360028067
+          },
+          "GPCB9": {
+            "observed_family_mean": 0.215603588331,
+            "oracle_constant_brier": 0.16911868103,
+            "other_family_constant_excess_loss": 0.008134162768,
+            "parent_vs_oracle_gain": 0.016441329425
+          }
+        },
+        "equal_family_mean": {
+          "observed_family_mean": 0.147961393236,
+          "oracle_constant_brier": 0.120574076457,
+          "other_family_constant_excess_loss": 0.009768431805,
+          "parent_vs_oracle_gain": 0.002489343597
+        }
+      }
+    },
+    "including_measured_failed": {
+      "families": {
+        "CBGP4": {
+          "markers": 6,
+          "carrier_observations": 23,
+          "tested_observations": 250,
+          "mean_observed": 0.0925,
+          "mean_forecast": {
+            "parent": 0.156666666667,
+            "other_families": 0.166561015822
+          },
+          "mean_loss": {
+            "parent": 0.091283333333,
+            "other_families": 0.089428784065
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": -0.001854549269,
+              "markers_favor_forecast": 4,
+              "markers_tied": 0,
+              "markers_favor_reference": 2
+            }
+          }
+        },
+        "CBGP7": {
+          "markers": 7,
+          "carrier_observations": 58,
+          "tested_observations": 316,
+          "mean_observed": 0.188353616455,
+          "mean_forecast": {
+            "parent": 0.145714285714,
+            "other_families": 0.134609810337
+          },
+          "mean_loss": {
+            "parent": 0.147041724318,
+            "other_families": 0.15576492832
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.008723204002,
+              "markers_favor_forecast": 3,
+              "markers_tied": 0,
+              "markers_favor_reference": 4
+            }
+          }
+        },
+        "GPCB11": {
+          "markers": 8,
+          "carrier_observations": 33,
+          "tested_observations": 375,
+          "mean_observed": 0.087765957447,
+          "mean_forecast": {
+            "parent": 0.08,
+            "other_families": 0.168139030006
+          },
+          "mean_loss": {
+            "parent": 0.084980851064,
+            "other_families": 0.086522924953
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.001542073889,
+              "markers_favor_forecast": 4,
+              "markers_tied": 0,
+              "markers_favor_reference": 4
+            }
+          }
+        },
+        "GPCB9": {
+          "markers": 14,
+          "carrier_observations": 169,
+          "tested_observations": 760,
+          "mean_observed": 0.223563473563,
+          "mean_forecast": {
+            "parent": 0.220714285714,
+            "other_families": 0.122873191301
+          },
+          "mean_loss": {
+            "parent": 0.159758202908,
+            "other_families": 0.183721379794
+          },
+          "pairwise": {
+            "parent_vs_other_families": {
+              "gain": 0.023963176886,
+              "markers_favor_forecast": 13,
+              "markers_tied": 0,
+              "markers_favor_reference": 1
+            }
+          }
+        }
+      },
+      "equal_family_mean": {
+        "families": 4,
+        "mean_observed": 0.148045761866,
+        "mean_forecast": {
+          "parent": 0.150773809524,
+          "other_families": 0.148045761866
+        },
+        "mean_loss": {
+          "parent": 0.120766027906,
+          "other_families": 0.128859504283
+        },
+        "pairwise": {
+          "parent_vs_other_families": {
+            "gain": 0.008093476377,
+            "markers_favor_forecast": 24,
+            "markers_tied": 0,
+            "markers_favor_reference": 11
+          }
+        }
+      }
+    }
+  }
+}
