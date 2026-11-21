@@ -1,6 +1,8 @@
 # TMD recovery-transport research follow-up
 
-**Current archive.** The first-window prediction report is published as version 0.14.0. [Zenodo 0.14.0](https://doi.org/10.5281/zenodo.24427842) · [Release and verification](window_release_0_14_0/README.md)
+**Current archive.** The transmission forecast report is published as version 0.15.0. [Zenodo 0.15.0](https://doi.org/10.5281/zenodo.24429958) · [Release and verification](fate_release_0_15_0/README.md)
+
+The first-window prediction report is published as version 0.14.0. [Zenodo 0.14.0](https://doi.org/10.5281/zenodo.24427842) · [Release and verification](window_release_0_14_0/README.md)
 
 The pedigree timing report is published as version 0.13.0. [Zenodo 0.13.0](https://doi.org/10.5281/zenodo.24427132) · [Release and verification](pedigree_release_0_13_0/README.md)
 

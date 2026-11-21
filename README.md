@@ -19,7 +19,11 @@ The original peach leaf contains two alternate reads at the disputed marker. In 
 
 An earlier analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
 
-## Current report and methods supplement — 0.14.0
+## Current report and methods supplement — 0.15.0
+
+Mouse pedigrees reveal when a parental tissue measurement improves a transmission forecast and how much of that gain can come from correcting the family average. In a wild oak, one allele formed a majority of embryo copies while its maternal transmission rate could lie on either side of one half. [Zenodo 0.15.0](https://doi.org/10.5281/zenodo.24429958) · [Release and verification](research/fate_release_0_15_0/README.md)
+
+## Earlier report and methods supplement — 0.14.0
 
 A spectrum learned from other yeast families beat equal odds for every one of 36 possible first-class assignments in one study. A second study allowed either forecast to win, and an exact random-window check gave limited evidence of special early timing. The plant comparison tested 925 endpoint substitutions in 48 lines. [Zenodo 0.14.0](https://doi.org/10.5281/zenodo.24427842) · [Release and verification](research/window_release_0_14_0/README.md)
 
