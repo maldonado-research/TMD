@@ -1,0 +1,21 @@
+# Can a measured mutation spectrum predict the class of the first recorded change?
+
+## Analysis specification before scoring
+
+The 0.13.0 timing analysis and its earliest-window sizes were available when this specification was written. The earliest-window class scores had yet to be calculated. This is a retrospective test on published records. Its prediction concerns the type of base substitution among changes visible in a recorded pedigree. Mutation by Natural Dominance also proposes a role for subsequent establishment. These records provide no establishment labels.
+
+## Forecasts and units
+
+Within each yeast study, hold out a whole founding pedigree at a time. Count all author-assigned single-base substitutions in the remaining families once per source event. Give each of the six pyrimidine-normalized types (C>A, C>G, C>T, T>A, T>C, T>G) one pseudocount. The resulting empirical probabilities are (n_c + 1)/(N + 6). The comparison assigns each type probability 1/6. This baseline assumes equal probabilities for the six types. Neither rule uses the number of callable bases for each type. These forecasts describe each study's recorded spectrum.
+
+For Kennedy et al. the primary seven founders are B through H. Use the continuing G1 arm for G, exclude the whole G family in its training fold, and count inherited trunk mutations once when training on G. Report the G2 arm, scored from its branch point, separately if directional allele labels are recoverable. For Dowsett et al. use the first scored nonempty division of each of the seven pedigrees. Earlier unscored divisions and mutations that escaped detection limit the interpretation of "first". Every eligible pedigree has equal weight in the primary mean.
+
+Use source-assigned SNVs with known direction. Exclude confirmed indels and complex changes from the SNV endpoint and account for exclusions. If an earliest SNV has an unresolved type, allow every type consistent with the source, including all six when necessary. Training uses classified changes only and reports the excluded count. When a source supplies timing without sufficient type labels for training or evaluation, report that limitation. Do not infer an allele from its location. With interval-valued times include any event that can come first consistent with those windows (its lower bound is at most the smallest upper bound when the only restrictions are intervals).
+
+## Scoring and interpretation
+
+The primary score is the gain in multiclass Brier loss for the empirical forecast p compared with the uniform q. For a true class y, the gain is sum(q_c² - p_c²) + 2(p_y - q_y). Within each earliest window take the minimum and maximum gain over the distinct admissible classes. Average lower and upper endpoints across pedigrees. These bounds allow each pedigree its own admissible first class. A strictly positive lower bound favors the empirical forecast for every compatible assignment. A strictly negative upper bound favors the baseline. An interval spanning zero leaves the sign unresolved. These are bounds on this finite set of records, without sampling uncertainty.
+
+Secondary outcomes are paired natural-log gain log(p_y/q_y), and top-class hit gain with equal splitting across tied modes. Coarsen p and q by summing probabilities for transitions (C>T and T>C) and transversions (the other four). This yields a binary reference with transition probability 1/3. As a separate, fully observed target, score a uniformly sampled recorded SNV from the earliest window using its actual class proportions. Only compute it where the window membership and type counts are known. Site multiplicities supply weights for this draw and never weights for the hidden chronological order.
+
+If both yeast sources have recoverable types, also examine a source-trained forecast applied to the other source as an exploratory transport check. Independently sourced wild-type plant endpoint catalogs may support a distinct descriptive test on the type of a randomly drawn recorded terminal SNV. Inspect lineage dependence and shared calls before scoring. Keep terminal plant catalogs outside the yeast timing comparison. Document all departures and which comparisons can actually be evaluated.
