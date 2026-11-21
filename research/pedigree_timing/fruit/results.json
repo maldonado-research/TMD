@@ -1,0 +1,275 @@
+{
+  "DG": {
+    "distinct_measurements": 3404,
+    "distinct_fruits": 52,
+    "any_tissue_positive_markers": 23,
+    "by_tissue": {
+      "cotyledon": {
+        "distinct_fruits_with_sampled_tissue": 51,
+        "fruit_marker_combinations": 1173,
+        "positive_depth": 1076,
+        "distinct_markers_with_positive_call": 18,
+        "markers_positive_in_one_fruit": 2,
+        "positive_fruit_marker_measurements": 188,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 3.68627,
+            "5": 10.18942,
+            "10": 13.29856,
+            "51": 18.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 24
+        },
+        "matched_branch": {
+          "distinct_markers": 18,
+          "branch_marker_calls": 46,
+          "branch_marker_calls_without_leaf_call": 17,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 13,
+          "positive_fruit_marker_measurements": 188,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 78
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 17,
+          "branch_marker_calls": 42,
+          "branch_marker_calls_without_leaf_call": 15,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 12,
+          "positive_fruit_marker_measurements": 167,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 66
+        }
+      },
+      "embryo sac": {
+        "distinct_fruits_with_sampled_tissue": 52,
+        "fruit_marker_combinations": 1196,
+        "positive_depth": 1160,
+        "distinct_markers_with_positive_call": 20,
+        "markers_positive_in_one_fruit": 4,
+        "positive_fruit_marker_measurements": 252,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 4.84615,
+            "5": 12.33029,
+            "10": 15.04477,
+            "52": 20.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 28
+        },
+        "matched_branch": {
+          "distinct_markers": 20,
+          "branch_marker_calls": 54,
+          "branch_marker_calls_without_leaf_call": 17,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 12,
+          "positive_fruit_marker_measurements": 252,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 100
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 20,
+          "branch_marker_calls": 52,
+          "branch_marker_calls_without_leaf_call": 17,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 12,
+          "positive_fruit_marker_measurements": 242,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 98
+        }
+      },
+      "endocarpe": {
+        "distinct_fruits_with_sampled_tissue": 45,
+        "fruit_marker_combinations": 1035,
+        "positive_depth": 751,
+        "distinct_markers_with_positive_call": 21,
+        "markers_positive_in_one_fruit": 3,
+        "positive_fruit_marker_measurements": 147,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 3.26667,
+            "5": 10.79939,
+            "10": 14.82787,
+            "45": 21.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 24
+        },
+        "matched_branch": {
+          "distinct_markers": 21,
+          "branch_marker_calls": 50,
+          "branch_marker_calls_without_leaf_call": 16,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 11,
+          "positive_fruit_marker_measurements": 147,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 53
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 21,
+          "branch_marker_calls": 49,
+          "branch_marker_calls_without_leaf_call": 16,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 11,
+          "positive_fruit_marker_measurements": 139,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 51
+        }
+      }
+    },
+    "matched_tissues": {
+      "tissues": [
+        "cotyledon",
+        "endocarpe"
+      ],
+      "counts": {
+        "at_least_one_zero_depth": 322,
+        "both": 48,
+        "first_only": 78,
+        "incomplete_tissue_pair": 184,
+        "neither": 482,
+        "second_only": 82
+      }
+    }
+  },
+  "SR": {
+    "distinct_measurements": 738,
+    "distinct_fruits": 22,
+    "any_tissue_positive_markers": 9,
+    "by_tissue": {
+      "embryo sac": {
+        "distinct_fruits_with_sampled_tissue": 21,
+        "fruit_marker_combinations": 189,
+        "positive_depth": 180,
+        "distinct_markers_with_positive_call": 8,
+        "markers_positive_in_one_fruit": 4,
+        "positive_fruit_marker_measurements": 71,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 3.38095,
+            "5": 4.95233,
+            "10": 5.90476,
+            "21": 8.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 17
+        },
+        "matched_branch": {
+          "distinct_markers": 8,
+          "branch_marker_calls": 24,
+          "branch_marker_calls_without_leaf_call": 10,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 5,
+          "positive_fruit_marker_measurements": 65,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 31
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 8,
+          "branch_marker_calls": 24,
+          "branch_marker_calls_without_leaf_call": 10,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 5,
+          "positive_fruit_marker_measurements": 65,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 31
+        }
+      },
+      "fruit base": {
+        "distinct_fruits_with_sampled_tissue": 22,
+        "fruit_marker_combinations": 198,
+        "positive_depth": 156,
+        "distinct_markers_with_positive_call": 5,
+        "markers_positive_in_one_fruit": 0,
+        "positive_fruit_marker_measurements": 61,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 2.77273,
+            "5": 4.55259,
+            "10": 4.85714,
+            "22": 5.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 5
+        },
+        "matched_branch": {
+          "distinct_markers": 5,
+          "branch_marker_calls": 22,
+          "branch_marker_calls_without_leaf_call": 10,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 5,
+          "positive_fruit_marker_measurements": 44,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 17
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 5,
+          "branch_marker_calls": 22,
+          "branch_marker_calls_without_leaf_call": 10,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 5,
+          "positive_fruit_marker_measurements": 44,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 17
+        }
+      },
+      "nucelle": {
+        "distinct_fruits_with_sampled_tissue": 18,
+        "fruit_marker_combinations": 162,
+        "positive_depth": 162,
+        "distinct_markers_with_positive_call": 4,
+        "markers_positive_in_one_fruit": 0,
+        "positive_fruit_marker_measurements": 56,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 3.11111,
+            "5": 4.0,
+            "10": 4.0,
+            "18": 4.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 2
+        },
+        "matched_branch": {
+          "distinct_markers": 4,
+          "branch_marker_calls": 16,
+          "branch_marker_calls_without_leaf_call": 7,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 4,
+          "positive_fruit_marker_measurements": 46,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 25
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 4,
+          "branch_marker_calls": 16,
+          "branch_marker_calls_without_leaf_call": 7,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 4,
+          "positive_fruit_marker_measurements": 46,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 25
+        }
+      },
+      "pericarpe": {
+        "distinct_fruits_with_sampled_tissue": 21,
+        "fruit_marker_combinations": 189,
+        "positive_depth": 189,
+        "distinct_markers_with_positive_call": 9,
+        "markers_positive_in_one_fruit": 2,
+        "positive_fruit_marker_measurements": 98,
+        "rarefaction": {
+          "expected_distinct_calls": {
+            "1": 4.66667,
+            "5": 6.95056,
+            "10": 7.82548,
+            "21": 9.0
+          },
+          "fruits_for_90pct_of_observed_markers_in_expectation": 13
+        },
+        "matched_branch": {
+          "distinct_markers": 9,
+          "branch_marker_calls": 31,
+          "branch_marker_calls_without_leaf_call": 12,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 6,
+          "positive_fruit_marker_measurements": 87,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 32
+        },
+        "matched_branch_at_depth_20_and_3_alternate_reads": {
+          "distinct_markers": 9,
+          "branch_marker_calls": 31,
+          "branch_marker_calls_without_leaf_call": 12,
+          "markers_with_at_least_one_branch_lacking_leaf_call": 6,
+          "positive_fruit_marker_measurements": 87,
+          "positive_fruit_markers_without_corresponding_leaf_branch_call": 32
+        }
+      }
+    },
+    "matched_tissues": {
+      "tissues": [
+        "embryo sac",
+        "pericarpe"
+      ],
+      "counts": {
+        "at_least_one_zero_depth": 1,
+        "both": 62,
+        "first_only": 9,
+        "incomplete_tissue_pair": 18,
+        "neither": 74,
+        "second_only": 34
+      }
+    }
+  }
+}

@@ -1,0 +1,4143 @@
+tree	marker	branch	fruit	tissue	ref_reads	alt_reads	depth	source_call
+DG	M01	A	01	cotyledon	0	0	0	0
+DG	M01	A	01	embryo sac	25	4	29	1
+DG	M01	A	02	cotyledon	92	10	102	1
+DG	M01	A	02	embryo sac	92	11	103	1
+DG	M01	A	02	endocarpe	91	8	99	1
+DG	M01	A	03	cotyledon	99	9	108	1
+DG	M01	A	03	embryo sac	105	0	105	0
+DG	M01	A	04	cotyledon	50	0	50	0
+DG	M01	A	04	embryo sac	50	0	50	0
+DG	M01	A	05	cotyledon	0	0	0	0
+DG	M01	A	05	embryo sac	4	2	6	1
+DG	M01	A	05	endocarpe	90	10	100	1
+DG	M01	A	06	cotyledon	0	0	0	0
+DG	M01	A	06	embryo sac	2	0	2	0
+DG	M01	A	07	cotyledon	91	11	102	1
+DG	M01	A	07	embryo sac	94	8	102	1
+DG	M01	A	07	endocarpe	96	9	105	1
+DG	M01	A	08	cotyledon	109	0	109	0
+DG	M01	A	08	embryo sac	94	10	104	1
+DG	M01	A	09	cotyledon	0	2	2	1
+DG	M01	A	09	embryo sac	0	0	0	0
+DG	M01	A	10	cotyledon	93	12	105	1
+DG	M01	A	10	embryo sac	105	0	105	0
+DG	M01	A	11	cotyledon	98	6	104	0
+DG	M01	A	11	embryo sac	99	7	106	0
+DG	M01	A	11	endocarpe	94	10	104	1
+DG	M01	A	12	cotyledon	0	0	0	0
+DG	M01	A	12	embryo sac	8	0	8	0
+DG	M01	A	12	endocarpe	6	0	6	0
+DG	M01	A	13	cotyledon	87	14	101	1
+DG	M01	A	13	embryo sac	99	8	107	1
+DG	M01	A	13	endocarpe	104	0	104	0
+DG	M01	A	14	cotyledon	93	9	102	1
+DG	M01	A	14	embryo sac	108	0	108	0
+DG	M01	A	14	endocarpe	88	13	101	1
+DG	M01	A	15	cotyledon	0	0	0	0
+DG	M01	A	15	embryo sac	2	0	2	0
+DG	M01	A	15	endocarpe	91	10	101	1
+DG	M01	A	16	cotyledon	96	6	102	0
+DG	M01	A	16	embryo sac	105	0	105	0
+DG	M01	A	16	endocarpe	105	0	105	0
+DG	M01	A	17	cotyledon	50	0	50	0
+DG	M01	A	17	embryo sac	90	13	103	1
+DG	M01	A	17	endocarpe	50	0	50	0
+DG	M01	A	18	cotyledon	0	0	0	0
+DG	M01	A	18	embryo sac	2	0	2	0
+DG	M01	A	18	endocarpe	0	0	0	0
+DG	M01	A	19	cotyledon	93	9	102	1
+DG	M01	A	19	embryo sac	93	7	100	1
+DG	M01	A	19	endocarpe	2	0	2	0
+DG	M01	A	20	cotyledon	105	0	105	0
+DG	M01	A	20	embryo sac	104	0	104	0
+DG	M01	A	20	endocarpe	99	0	99	0
+DG	M01	B	01	cotyledon	96	9	105	1
+DG	M01	B	01	embryo sac	98	0	98	0
+DG	M01	B	01	endocarpe	9	0	9	0
+DG	M01	B	02	cotyledon	106	0	106	0
+DG	M01	B	02	embryo sac	111	0	111	0
+DG	M01	B	02	endocarpe	0	0	0	0
+DG	M01	B	03	cotyledon	0	0	0	0
+DG	M01	B	03	embryo sac	26	0	26	0
+DG	M01	B	03	endocarpe	0	0	0	0
+DG	M01	B	04	cotyledon	103	0	103	0
+DG	M01	B	04	embryo sac	96	7	103	1
+DG	M01	B	04	endocarpe	92	9	101	1
+DG	M01	B	05	cotyledon	94	11	105	1
+DG	M01	B	05	embryo sac	87	12	99	1
+DG	M01	B	05	endocarpe	0	0	0	0
+DG	M01	B	06	cotyledon	2	0	2	0
+DG	M01	B	06	embryo sac	2	4	6	1
+DG	M01	B	06	endocarpe	0	0	0	0
+DG	M01	B	07	cotyledon	90	13	103	1
+DG	M01	B	07	embryo sac	91	9	100	1
+DG	M01	B	07	endocarpe	75	25	100	1
+DG	M01	B	08	cotyledon	2	0	2	0
+DG	M01	B	08	embryo sac	2	0	2	0
+DG	M01	B	08	endocarpe	0	0	0	0
+DG	M01	B	09	cotyledon	2	0	2	0
+DG	M01	B	09	embryo sac	0	0	0	0
+DG	M01	B	09	endocarpe	89	14	103	1
+DG	M01	B	10	cotyledon	4	0	4	0
+DG	M01	B	10	embryo sac	0	0	0	0
+DG	M01	B	10	endocarpe	107	0	107	0
+DG	M01	B	11	cotyledon	91	10	101	1
+DG	M01	B	11	embryo sac	102	0	102	0
+DG	M01	B	11	endocarpe	90	12	102	1
+DG	M01	B	12	cotyledon	100	0	100	0
+DG	M01	B	12	embryo sac	93	8	101	0
+DG	M01	B	12	endocarpe	111	0	111	0
+DG	M01	B	13	cotyledon	89	14	103	1
+DG	M01	B	13	embryo sac	85	15	100	1
+DG	M01	B	13	endocarpe	0	0	0	0
+DG	M01	B	14	cotyledon	103	0	103	0
+DG	M01	B	14	embryo sac	90	8	98	1
+DG	M01	B	14	endocarpe	0	0	0	0
+DG	M01	B	15	cotyledon	0	0	0	0
+DG	M01	B	15	embryo sac	2	0	2	0
+DG	M01	B	15	endocarpe	0	0	0	0
+DG	M01	B	16	cotyledon	88	17	105	1
+DG	M01	B	16	embryo sac	90	11	101	1
+DG	M01	B	16	endocarpe	78	19	97	1
+DG	M01	B	17	cotyledon	92	15	107	1
+DG	M01	B	17	embryo sac	95	10	105	1
+DG	M01	B	17	endocarpe	0	0	0	0
+DG	M01	B	18	cotyledon	4	2	6	1
+DG	M01	B	18	embryo sac	2	2	4	1
+DG	M01	B	18	endocarpe	0	0	0	0
+DG	M01	B	19	cotyledon	0	0	0	0
+DG	M01	B	19	embryo sac	2	0	2	0
+DG	M01	B	19	endocarpe	59	0	59	0
+DG	M01	B	20	cotyledon	99	0	99	0
+DG	M01	B	20	embryo sac	91	9	100	1
+DG	M01	B	20	endocarpe	0	0	0	0
+DG	M01	B	21	cotyledon	2	0	2	0
+DG	M01	B	21	embryo sac	0	0	0	0
+DG	M01	B	21	endocarpe	0	0	0	0
+DG	M01	B	22	cotyledon	0	0	0	0
+DG	M01	B	22	embryo sac	0	0	0	0
+DG	M01	B	22	endocarpe	0	0	0	0
+DG	M01	B	23	cotyledon	0	0	0	0
+DG	M01	B	23	embryo sac	0	0	0	0
+DG	M01	B	23	endocarpe	24	2	26	1
+DG	M01	B	24	cotyledon	0	0	0	0
+DG	M01	B	24	embryo sac	0	0	0	0
+DG	M01	B	24	endocarpe	91	9	100	1
+DG	M01	B	25	cotyledon	89	13	102	1
+DG	M01	B	25	embryo sac	50	0	50	0
+DG	M01	B	25	endocarpe	50	0	50	0
+DG	M01	C	01	cotyledon	0	0	0	0
+DG	M01	C	01	embryo sac	28	10	38	1
+DG	M01	C	01	endocarpe	87	10	97	1
+DG	M01	C	02	cotyledon	95	6	101	0
+DG	M01	C	02	embryo sac	94	8	102	1
+DG	M01	C	02	endocarpe	94	7	101	0
+DG	M01	C	03	cotyledon	0	2	2	1
+DG	M01	C	03	embryo sac	4	2	6	1
+DG	M01	C	03	endocarpe	90	12	102	1
+DG	M01	D	01	cotyledon	86	13	99	1
+DG	M01	D	01	embryo sac	14	0	14	0
+DG	M01	D	01	endocarpe	101	0	101	0
+DG	M01	D	02	cotyledon	92	11	103	1
+DG	M01	D	02	embryo sac	50	0	50	0
+DG	M01	D	02	endocarpe	45	0	45	0
+DG	M01	D	03	cotyledon	99	0	99	0
+DG	M01	D	03	embryo sac	100	0	100	0
+DG	M01	D	03	endocarpe	0	0	0	0
+DG	M01	D	05	embryo sac	88	11	99	0
+DG	M01	D	05	endocarpe	89	13	102	1
+DG	M02	A	01	cotyledon	0	0	0	0
+DG	M02	A	01	embryo sac	46	5	53	0
+DG	M02	A	02	cotyledon	69	0	69	0
+DG	M02	A	02	embryo sac	72	0	72	0
+DG	M02	A	02	endocarpe	46	3	49	0
+DG	M02	A	03	cotyledon	43	6	49	1
+DG	M02	A	03	embryo sac	42	6	48	1
+DG	M02	A	04	cotyledon	0	0	0	0
+DG	M02	A	04	embryo sac	38	14	52	1
+DG	M02	A	05	cotyledon	44	6	50	1
+DG	M02	A	05	embryo sac	46	5	51	0
+DG	M02	A	05	endocarpe	48	5	53	0
+DG	M02	A	06	cotyledon	0	0	0	0
+DG	M02	A	06	embryo sac	49	0	49	0
+DG	M02	A	07	cotyledon	41	13	54	1
+DG	M02	A	07	embryo sac	41	13	54	1
+DG	M02	A	07	endocarpe	43	8	51	1
+DG	M02	A	08	cotyledon	39	10	49	1
+DG	M02	A	08	embryo sac	44	8	52	1
+DG	M02	A	09	cotyledon	2	0	2	0
+DG	M02	A	09	embryo sac	48	5	53	0
+DG	M02	A	10	cotyledon	68	0	68	0
+DG	M02	A	10	embryo sac	69	0	69	0
+DG	M02	A	11	cotyledon	40	12	52	1
+DG	M02	A	11	embryo sac	46	12	58	1
+DG	M02	A	11	endocarpe	46	8	54	1
+DG	M02	A	12	cotyledon	0	0	0	0
+DG	M02	A	12	embryo sac	45	6	51	1
+DG	M02	A	12	endocarpe	0	0	0	0
+DG	M02	A	13	cotyledon	55	0	55	0
+DG	M02	A	13	embryo sac	46	8	54	1
+DG	M02	A	13	endocarpe	44	6	50	1
+DG	M02	A	14	cotyledon	48	3	51	0
+DG	M02	A	14	embryo sac	45	9	54	1
+DG	M02	A	14	endocarpe	40	12	52	1
+DG	M02	A	15	cotyledon	42	10	52	1
+DG	M02	A	15	embryo sac	47	6	53	1
+DG	M02	A	15	endocarpe	39	11	50	1
+DG	M02	A	16	cotyledon	46	5	51	0
+DG	M02	A	16	embryo sac	47	4	53	0
+DG	M02	A	16	endocarpe	40	9	49	1
+DG	M02	A	17	cotyledon	36	14	50	1
+DG	M02	A	17	embryo sac	40	12	52	1
+DG	M02	A	17	endocarpe	44	4	48	0
+DG	M02	A	18	cotyledon	72	0	72	0
+DG	M02	A	18	embryo sac	51	0	51	0
+DG	M02	A	18	endocarpe	0	0	0	0
+DG	M02	A	19	cotyledon	42	10	52	1
+DG	M02	A	19	embryo sac	41	7	48	1
+DG	M02	A	19	endocarpe	0	0	0	0
+DG	M02	A	20	cotyledon	42	7	49	1
+DG	M02	A	20	embryo sac	48	4	52	0
+DG	M02	A	20	endocarpe	45	6	51	1
+DG	M02	B	01	cotyledon	44	7	51	1
+DG	M02	B	01	embryo sac	45	8	53	1
+DG	M02	B	01	endocarpe	22	0	22	0
+DG	M02	B	02	cotyledon	2	0	2	0
+DG	M02	B	02	embryo sac	50	8	58	1
+DG	M02	B	02	endocarpe	0	0	0	0
+DG	M02	B	03	cotyledon	38	13	51	1
+DG	M02	B	03	embryo sac	48	6	54	1
+DG	M02	B	03	endocarpe	0	0	0	0
+DG	M02	B	04	cotyledon	45	6	51	1
+DG	M02	B	04	embryo sac	46	6	52	1
+DG	M02	B	04	endocarpe	49	4	53	0
+DG	M02	B	05	cotyledon	40	9	49	1
+DG	M02	B	05	embryo sac	48	5	53	0
+DG	M02	B	05	endocarpe	0	0	0	0
+DG	M02	B	06	cotyledon	31	18	49	1
+DG	M02	B	06	embryo sac	45	9	54	1
+DG	M02	B	06	endocarpe	0	0	0	0
+DG	M02	B	07	cotyledon	52	0	52	0
+DG	M02	B	07	embryo sac	58	0	58	0
+DG	M02	B	07	endocarpe	2	0	2	0
+DG	M02	B	08	cotyledon	37	15	52	1
+DG	M02	B	08	embryo sac	40	14	54	1
+DG	M02	B	08	endocarpe	0	0	0	0
+DG	M02	B	09	cotyledon	2	0	2	0
+DG	M02	B	09	embryo sac	67	0	67	0
+DG	M02	B	09	endocarpe	44	3	47	0
+DG	M02	B	10	cotyledon	43	9	52	1
+DG	M02	B	10	embryo sac	48	3	51	0
+DG	M02	B	10	endocarpe	47	9	56	1
+DG	M02	B	11	cotyledon	57	0	57	0
+DG	M02	B	11	embryo sac	64	0	64	0
+DG	M02	B	11	endocarpe	0	0	0	0
+DG	M02	B	12	cotyledon	61	0	61	0
+DG	M02	B	12	embryo sac	45	5	50	0
+DG	M02	B	12	endocarpe	41	9	50	1
+DG	M02	B	13	cotyledon	34	4	49	0
+DG	M02	B	13	embryo sac	37	3	51	0
+DG	M02	B	13	endocarpe	0	0	0	0
+DG	M02	B	14	cotyledon	33	15	50	1
+DG	M02	B	14	embryo sac	42	9	51	1
+DG	M02	B	14	endocarpe	0	0	0	0
+DG	M02	B	15	cotyledon	26	10	36	1
+DG	M02	B	15	embryo sac	47	7	54	1
+DG	M02	B	15	endocarpe	0	0	0	0
+DG	M02	B	16	cotyledon	32	16	48	1
+DG	M02	B	16	embryo sac	42	11	53	1
+DG	M02	B	16	endocarpe	33	15	48	1
+DG	M02	B	17	cotyledon	34	18	52	1
+DG	M02	B	17	embryo sac	42	13	55	1
+DG	M02	B	17	endocarpe	0	0	0	0
+DG	M02	B	18	cotyledon	41	17	58	1
+DG	M02	B	18	embryo sac	43	9	52	1
+DG	M02	B	18	endocarpe	1	0	1	0
+DG	M02	B	19	cotyledon	35	16	51	1
+DG	M02	B	19	embryo sac	41	7	48	1
+DG	M02	B	19	endocarpe	45	8	53	1
+DG	M02	B	20	cotyledon	43	10	53	1
+DG	M02	B	20	embryo sac	41	6	49	0
+DG	M02	B	20	endocarpe	0	0	0	0
+DG	M02	B	21	cotyledon	47	7	54	1
+DG	M02	B	21	embryo sac	43	5	48	0
+DG	M02	B	21	endocarpe	0	0	0	0
+DG	M02	B	22	cotyledon	44	7	51	1
+DG	M02	B	22	embryo sac	37	15	52	1
+DG	M02	B	22	endocarpe	0	0	0	0
+DG	M02	B	23	cotyledon	44	6	50	1
+DG	M02	B	23	embryo sac	0	0	0	0
+DG	M02	B	23	endocarpe	50	9	59	1
+DG	M02	B	24	cotyledon	54	0	54	0
+DG	M02	B	24	embryo sac	60	0	60	0
+DG	M02	B	24	endocarpe	36	13	49	1
+DG	M02	B	25	cotyledon	44	10	54	1
+DG	M02	B	25	embryo sac	44	4	48	0
+DG	M02	B	25	endocarpe	54	0	54	0
+DG	M02	C	01	cotyledon	0	0	0	0
+DG	M02	C	01	embryo sac	46	5	51	0
+DG	M02	C	01	endocarpe	36	15	51	1
+DG	M02	C	02	cotyledon	49	0	49	0
+DG	M02	C	02	embryo sac	54	0	54	0
+DG	M02	C	02	endocarpe	44	6	50	0
+DG	M02	C	03	cotyledon	43	13	56	1
+DG	M02	C	03	embryo sac	42	7	49	1
+DG	M02	C	03	endocarpe	47	5	52	0
+DG	M02	D	01	cotyledon	39	8	47	1
+DG	M02	D	01	embryo sac	37	11	48	1
+DG	M02	D	01	endocarpe	36	19	55	1
+DG	M02	D	02	cotyledon	41	8	49	1
+DG	M02	D	02	embryo sac	41	10	51	1
+DG	M02	D	02	endocarpe	44	6	50	0
+DG	M02	D	03	cotyledon	51	4	55	0
+DG	M02	D	03	embryo sac	48	7	55	1
+DG	M02	D	03	endocarpe	39	12	51	1
+DG	M02	D	05	embryo sac	36	10	46	1
+DG	M02	D	05	endocarpe	40	9	51	1
+DG	M03	A	01	cotyledon	4	0	4	0
+DG	M03	A	01	embryo sac	51	0	51	0
+DG	M03	A	02	cotyledon	51	0	51	0
+DG	M03	A	02	embryo sac	51	0	51	0
+DG	M03	A	02	endocarpe	52	0	52	0
+DG	M03	A	03	cotyledon	50	0	50	0
+DG	M03	A	03	embryo sac	50	0	50	0
+DG	M03	A	04	cotyledon	51	0	51	0
+DG	M03	A	04	embryo sac	52	0	52	0
+DG	M03	A	05	cotyledon	52	0	52	0
+DG	M03	A	05	embryo sac	52	0	52	0
+DG	M03	A	05	endocarpe	50	0	50	0
+DG	M03	A	06	cotyledon	54	0	54	0
+DG	M03	A	06	embryo sac	50	0	50	0
+DG	M03	A	07	cotyledon	51	0	51	0
+DG	M03	A	07	embryo sac	50	0	50	0
+DG	M03	A	07	endocarpe	50	0	50	0
+DG	M03	A	08	cotyledon	53	0	53	0
+DG	M03	A	08	embryo sac	52	0	52	0
+DG	M03	A	09	cotyledon	52	0	52	0
+DG	M03	A	09	embryo sac	54	0	54	0
+DG	M03	A	10	cotyledon	51	0	51	0
+DG	M03	A	10	embryo sac	52	0	52	0
+DG	M03	A	11	cotyledon	53	0	53	0
+DG	M03	A	11	embryo sac	50	0	50	0
+DG	M03	A	11	endocarpe	51	0	51	0
+DG	M03	A	12	cotyledon	52	0	52	0
+DG	M03	A	12	embryo sac	53	0	53	0
+DG	M03	A	12	endocarpe	53	0	53	0
+DG	M03	A	13	cotyledon	51	0	51	0
+DG	M03	A	13	embryo sac	51	0	51	0
+DG	M03	A	13	endocarpe	51	0	51	0
+DG	M03	A	14	cotyledon	54	0	54	0
+DG	M03	A	14	embryo sac	53	0	53	0
+DG	M03	A	14	endocarpe	52	0	52	0
+DG	M03	A	15	cotyledon	52	0	52	0
+DG	M03	A	15	embryo sac	53	0	53	0
+DG	M03	A	15	endocarpe	51	0	51	0
+DG	M03	A	16	cotyledon	53	0	53	0
+DG	M03	A	16	embryo sac	49	0	49	0
+DG	M03	A	16	endocarpe	52	0	52	0
+DG	M03	A	17	cotyledon	101	0	101	0
+DG	M03	A	17	embryo sac	51	0	51	0
+DG	M03	A	17	endocarpe	50	0	50	0
+DG	M03	A	18	cotyledon	51	0	51	0
+DG	M03	A	18	embryo sac	50	0	50	0
+DG	M03	A	18	endocarpe	2	0	2	0
+DG	M03	A	19	cotyledon	53	0	53	0
+DG	M03	A	19	embryo sac	52	0	52	0
+DG	M03	A	19	endocarpe	0	0	0	0
+DG	M03	A	20	cotyledon	54	0	54	0
+DG	M03	A	20	embryo sac	50	0	50	0
+DG	M03	A	20	endocarpe	51	0	51	0
+DG	M03	B	01	cotyledon	52	0	52	0
+DG	M03	B	01	embryo sac	50	0	50	0
+DG	M03	B	01	endocarpe	0	0	0	0
+DG	M03	B	02	cotyledon	54	0	54	0
+DG	M03	B	02	embryo sac	50	0	50	0
+DG	M03	B	02	endocarpe	2	0	2	0
+DG	M03	B	03	cotyledon	51	0	51	0
+DG	M03	B	03	embryo sac	50	0	50	0
+DG	M03	B	03	endocarpe	0	0	0	0
+DG	M03	B	04	cotyledon	51	0	51	0
+DG	M03	B	04	embryo sac	50	0	50	0
+DG	M03	B	04	endocarpe	52	0	52	0
+DG	M03	B	05	cotyledon	50	0	50	0
+DG	M03	B	05	embryo sac	50	0	50	0
+DG	M03	B	05	endocarpe	2	0	2	0
+DG	M03	B	06	cotyledon	53	0	53	0
+DG	M03	B	06	embryo sac	55	0	55	0
+DG	M03	B	06	endocarpe	2	0	2	0
+DG	M03	B	07	cotyledon	56	0	56	0
+DG	M03	B	07	embryo sac	52	0	52	0
+DG	M03	B	07	endocarpe	54	0	54	0
+DG	M03	B	08	cotyledon	51	0	51	0
+DG	M03	B	08	embryo sac	53	0	53	0
+DG	M03	B	08	endocarpe	1	0	1	0
+DG	M03	B	09	cotyledon	52	0	52	0
+DG	M03	B	09	embryo sac	52	0	52	0
+DG	M03	B	09	endocarpe	57	0	57	0
+DG	M03	B	10	cotyledon	50	0	50	0
+DG	M03	B	10	embryo sac	53	0	53	0
+DG	M03	B	10	endocarpe	50	0	50	0
+DG	M03	B	11	cotyledon	50	0	50	0
+DG	M03	B	11	embryo sac	51	0	51	0
+DG	M03	B	11	endocarpe	52	0	52	0
+DG	M03	B	12	cotyledon	52	0	52	0
+DG	M03	B	12	embryo sac	50	0	50	0
+DG	M03	B	12	endocarpe	54	0	54	0
+DG	M03	B	13	cotyledon	50	0	50	0
+DG	M03	B	13	embryo sac	52	0	52	0
+DG	M03	B	13	endocarpe	0	0	0	0
+DG	M03	B	14	cotyledon	58	0	58	0
+DG	M03	B	14	embryo sac	50	0	50	0
+DG	M03	B	14	endocarpe	0	0	0	0
+DG	M03	B	15	cotyledon	51	0	51	0
+DG	M03	B	15	embryo sac	50	0	50	0
+DG	M03	B	15	endocarpe	52	0	52	0
+DG	M03	B	16	cotyledon	53	0	53	0
+DG	M03	B	16	embryo sac	50	0	50	0
+DG	M03	B	16	endocarpe	52	0	52	0
+DG	M03	B	17	cotyledon	52	0	52	0
+DG	M03	B	17	embryo sac	53	0	53	0
+DG	M03	B	17	endocarpe	0	0	0	0
+DG	M03	B	18	cotyledon	51	0	51	0
+DG	M03	B	18	embryo sac	54	0	54	0
+DG	M03	B	18	endocarpe	65	0	65	0
+DG	M03	B	19	cotyledon	52	0	52	0
+DG	M03	B	19	embryo sac	50	0	50	0
+DG	M03	B	19	endocarpe	50	0	50	0
+DG	M03	B	20	cotyledon	53	0	53	0
+DG	M03	B	20	embryo sac	50	0	50	0
+DG	M03	B	20	endocarpe	0	0	0	0
+DG	M03	B	21	cotyledon	57	0	57	0
+DG	M03	B	21	embryo sac	54	0	54	0
+DG	M03	B	21	endocarpe	13	0	13	0
+DG	M03	B	22	cotyledon	52	0	52	0
+DG	M03	B	22	embryo sac	53	0	53	0
+DG	M03	B	22	endocarpe	0	0	0	0
+DG	M03	B	23	cotyledon	54	0	54	0
+DG	M03	B	23	embryo sac	1	0	1	0
+DG	M03	B	23	endocarpe	50	0	50	0
+DG	M03	B	24	cotyledon	50	0	50	0
+DG	M03	B	24	embryo sac	50	0	50	0
+DG	M03	B	24	endocarpe	50	0	50	0
+DG	M03	B	25	cotyledon	51	0	51	0
+DG	M03	B	25	embryo sac	52	0	52	0
+DG	M03	B	25	endocarpe	50	0	50	0
+DG	M03	C	01	cotyledon	2	0	2	0
+DG	M03	C	01	embryo sac	52	0	52	0
+DG	M03	C	01	endocarpe	134	20	154	1
+DG	M03	C	02	cotyledon	137	0	137	0
+DG	M03	C	02	embryo sac	124	37	161	1
+DG	M03	C	02	endocarpe	107	28	135	1
+DG	M03	C	03	cotyledon	54	0	54	0
+DG	M03	C	03	embryo sac	52	0	52	0
+DG	M03	C	03	endocarpe	117	35	152	1
+DG	M03	D	01	cotyledon	50	0	50	0
+DG	M03	D	01	embryo sac	52	0	52	0
+DG	M03	D	01	endocarpe	51	0	51	0
+DG	M03	D	02	cotyledon	51	0	51	0
+DG	M03	D	02	embryo sac	52	0	52	0
+DG	M03	D	02	endocarpe	53	0	53	0
+DG	M03	D	03	cotyledon	51	0	51	0
+DG	M03	D	03	embryo sac	51	0	51	0
+DG	M03	D	03	endocarpe	51	0	51	0
+DG	M03	D	05	embryo sac	51	0	51	0
+DG	M03	D	05	endocarpe	50	0	50	0
+DG	M04	A	01	cotyledon	2	0	2	0
+DG	M04	A	01	embryo sac	118	15	133	1
+DG	M04	A	02	cotyledon	113	28	141	1
+DG	M04	A	02	embryo sac	117	49	166	1
+DG	M04	A	02	endocarpe	119	0	119	0
+DG	M04	A	03	cotyledon	50	0	50	0
+DG	M04	A	03	embryo sac	103	26	129	1
+DG	M04	A	04	cotyledon	50	0	50	0
+DG	M04	A	04	embryo sac	105	38	143	1
+DG	M04	A	05	cotyledon	50	0	50	0
+DG	M04	A	05	embryo sac	109	41	150	1
+DG	M04	A	05	endocarpe	110	14	124	1
+DG	M04	A	06	cotyledon	50	0	50	0
+DG	M04	A	06	embryo sac	51	0	51	0
+DG	M04	A	07	cotyledon	154	0	154	0
+DG	M04	A	07	embryo sac	145	12	157	1
+DG	M04	A	07	endocarpe	116	9	125	1
+DG	M04	A	08	cotyledon	51	0	51	0
+DG	M04	A	08	embryo sac	108	17	125	1
+DG	M04	A	09	cotyledon	164	0	164	0
+DG	M04	A	09	embryo sac	152	0	152	0
+DG	M04	A	10	cotyledon	111	17	128	1
+DG	M04	A	10	embryo sac	104	35	139	1
+DG	M04	A	11	cotyledon	50	0	50	0
+DG	M04	A	11	embryo sac	114	45	159	1
+DG	M04	A	11	endocarpe	127	0	127	0
+DG	M04	A	12	cotyledon	50	0	50	0
+DG	M04	A	12	embryo sac	50	0	50	0
+DG	M04	A	12	endocarpe	51	0	51	0
+DG	M04	A	13	cotyledon	110	13	123	1
+DG	M04	A	13	embryo sac	107	26	133	1
+DG	M04	A	13	endocarpe	112	9	121	1
+DG	M04	A	14	cotyledon	51	0	51	0
+DG	M04	A	14	embryo sac	52	0	52	0
+DG	M04	A	14	endocarpe	50	0	50	0
+DG	M04	A	15	cotyledon	51	0	51	0
+DG	M04	A	15	embryo sac	50	0	50	0
+DG	M04	A	15	endocarpe	53	0	53	0
+DG	M04	A	16	cotyledon	111	20	131	1
+DG	M04	A	16	embryo sac	116	35	151	1
+DG	M04	A	16	endocarpe	117	46	163	1
+DG	M04	A	17	cotyledon	98	13	111	1
+DG	M04	A	17	embryo sac	116	47	163	1
+DG	M04	A	17	endocarpe	99	40	139	1
+DG	M04	A	18	cotyledon	51	0	51	0
+DG	M04	A	18	embryo sac	52	0	52	0
+DG	M04	A	18	endocarpe	42	0	42	0
+DG	M04	A	19	cotyledon	115	0	115	0
+DG	M04	A	19	embryo sac	108	47	155	1
+DG	M04	A	19	endocarpe	4	0	4	0
+DG	M04	A	20	cotyledon	50	0	50	0
+DG	M04	A	20	embryo sac	104	55	159	1
+DG	M04	A	20	endocarpe	105	40	145	1
+DG	M04	B	01	cotyledon	109	35	144	1
+DG	M04	B	01	embryo sac	111	17	128	1
+DG	M04	B	01	endocarpe	89	23	112	1
+DG	M04	B	02	cotyledon	52	0	52	0
+DG	M04	B	02	embryo sac	108	21	129	1
+DG	M04	B	02	endocarpe	32	0	32	0
+DG	M04	B	03	cotyledon	156	0	156	0
+DG	M04	B	03	embryo sac	152	0	152	0
+DG	M04	B	03	endocarpe	0	0	0	0
+DG	M04	B	04	cotyledon	106	20	126	1
+DG	M04	B	04	embryo sac	107	15	122	1
+DG	M04	B	04	endocarpe	116	25	141	1
+DG	M04	B	05	cotyledon	50	0	50	0
+DG	M04	B	05	embryo sac	125	22	147	1
+DG	M04	B	05	endocarpe	0	0	0	0
+DG	M04	B	06	cotyledon	52	0	52	0
+DG	M04	B	06	embryo sac	50	0	50	0
+DG	M04	B	06	endocarpe	0	0	0	0
+DG	M04	B	07	cotyledon	51	0	51	0
+DG	M04	B	07	embryo sac	57	0	57	0
+DG	M04	B	07	endocarpe	51	0	51	0
+DG	M04	B	08	cotyledon	110	7	117	0
+DG	M04	B	08	embryo sac	102	34	136	1
+DG	M04	B	08	endocarpe	2	0	2	0
+DG	M04	B	09	cotyledon	55	0	55	0
+DG	M04	B	09	embryo sac	105	16	121	1
+DG	M04	B	09	endocarpe	118	0	118	0
+DG	M04	B	10	cotyledon	51	0	51	0
+DG	M04	B	10	embryo sac	109	35	144	1
+DG	M04	B	10	endocarpe	106	43	149	1
+DG	M04	B	11	cotyledon	51	0	51	0
+DG	M04	B	11	embryo sac	50	0	50	0
+DG	M04	B	11	endocarpe	112	29	141	1
+DG	M04	B	12	cotyledon	101	36	137	1
+DG	M04	B	12	embryo sac	116	0	116	0
+DG	M04	B	12	endocarpe	123	0	123	0
+DG	M04	B	13	cotyledon	157	0	157	0
+DG	M04	B	13	embryo sac	155	0	155	0
+DG	M04	B	13	endocarpe	0	0	0	0
+DG	M04	B	14	cotyledon	50	0	50	0
+DG	M04	B	14	embryo sac	108	27	135	1
+DG	M04	B	14	endocarpe	0	0	0	0
+DG	M04	B	15	cotyledon	50	0	50	0
+DG	M04	B	15	embryo sac	51	0	51	0
+DG	M04	B	15	endocarpe	4	0	4	0
+DG	M04	B	16	cotyledon	155	0	155	0
+DG	M04	B	16	embryo sac	161	0	161	0
+DG	M04	B	16	endocarpe	120	0	120	0
+DG	M04	B	17	cotyledon	62	0	62	0
+DG	M04	B	17	embryo sac	50	0	50	0
+DG	M04	B	17	endocarpe	0	0	0	0
+DG	M04	B	18	cotyledon	139	0	139	0
+DG	M04	B	18	embryo sac	112	53	165	1
+DG	M04	B	18	endocarpe	0	0	0	0
+DG	M04	B	19	cotyledon	159	0	159	0
+DG	M04	B	19	embryo sac	155	0	155	0
+DG	M04	B	19	endocarpe	106	0	106	0
+DG	M04	B	20	cotyledon	109	0	109	0
+DG	M04	B	20	embryo sac	111	0	111	0
+DG	M04	B	20	endocarpe	0	0	0	0
+DG	M04	B	21	cotyledon	50	0	50	0
+DG	M04	B	21	embryo sac	98	22	120	1
+DG	M04	B	21	endocarpe	0	0	0	0
+DG	M04	B	22	cotyledon	107	0	107	0
+DG	M04	B	22	embryo sac	98	15	113	1
+DG	M04	B	22	endocarpe	2	0	2	0
+DG	M04	B	23	cotyledon	50	0	50	0
+DG	M04	B	23	embryo sac	0	0	0	0
+DG	M04	B	23	endocarpe	41	0	41	0
+DG	M04	B	24	cotyledon	50	0	50	0
+DG	M04	B	24	embryo sac	50	0	50	0
+DG	M04	B	24	endocarpe	52	0	52	0
+DG	M04	B	25	cotyledon	50	0	50	0
+DG	M04	B	25	embryo sac	50	0	50	0
+DG	M04	B	25	endocarpe	50	0	50	0
+DG	M04	C	01	cotyledon	0	0	0	0
+DG	M04	C	01	embryo sac	51	0	51	0
+DG	M04	C	01	endocarpe	50	0	50	0
+DG	M04	C	02	cotyledon	51	0	51	0
+DG	M04	C	02	embryo sac	103	14	117	1
+DG	M04	C	02	endocarpe	100	8	108	0
+DG	M04	C	03	cotyledon	143	0	143	0
+DG	M04	C	03	embryo sac	151	0	151	0
+DG	M04	C	03	endocarpe	153	0	153	0
+DG	M04	D	01	cotyledon	107	9	116	1
+DG	M04	D	01	embryo sac	50	0	50	0
+DG	M04	D	01	endocarpe	103	17	120	1
+DG	M04	D	02	cotyledon	51	0	51	0
+DG	M04	D	02	embryo sac	50	0	50	0
+DG	M04	D	02	endocarpe	148	0	148	0
+DG	M04	D	03	cotyledon	106	0	106	0
+DG	M04	D	03	embryo sac	149	0	149	0
+DG	M04	D	03	endocarpe	97	14	111	1
+DG	M04	D	05	embryo sac	101	10	111	0
+DG	M04	D	05	endocarpe	54	0	54	0
+DG	M05	A	01	cotyledon	0	0	0	0
+DG	M05	A	01	embryo sac	54	0	54	0
+DG	M05	A	02	cotyledon	51	0	51	0
+DG	M05	A	02	embryo sac	52	0	52	0
+DG	M05	A	02	endocarpe	48	5	53	1
+DG	M05	A	03	cotyledon	62	0	62	0
+DG	M05	A	03	embryo sac	49	0	49	0
+DG	M05	A	04	cotyledon	70	0	70	0
+DG	M05	A	04	embryo sac	88	0	88	0
+DG	M05	A	05	cotyledon	59	0	59	0
+DG	M05	A	05	embryo sac	55	0	55	0
+DG	M05	A	05	endocarpe	33	21	54	1
+DG	M05	A	06	cotyledon	58	0	58	0
+DG	M05	A	06	embryo sac	53	0	53	0
+DG	M05	A	07	cotyledon	55	0	55	0
+DG	M05	A	07	embryo sac	50	0	50	0
+DG	M05	A	07	endocarpe	34	20	54	1
+DG	M05	A	08	cotyledon	63	0	63	0
+DG	M05	A	08	embryo sac	57	0	57	0
+DG	M05	A	09	cotyledon	57	0	57	0
+DG	M05	A	09	embryo sac	49	0	49	0
+DG	M05	A	10	cotyledon	57	0	57	0
+DG	M05	A	10	embryo sac	56	0	56	0
+DG	M05	A	11	cotyledon	55	0	55	0
+DG	M05	A	11	embryo sac	49	0	49	0
+DG	M05	A	11	endocarpe	27	25	52	1
+DG	M05	A	12	cotyledon	65	0	65	0
+DG	M05	A	12	embryo sac	52	0	52	0
+DG	M05	A	12	endocarpe	55	12	67	1
+DG	M05	A	13	cotyledon	52	0	52	0
+DG	M05	A	13	embryo sac	52	0	52	0
+DG	M05	A	13	endocarpe	39	17	56	1
+DG	M05	A	14	cotyledon	55	0	55	0
+DG	M05	A	14	embryo sac	50	0	50	0
+DG	M05	A	14	endocarpe	35	28	63	1
+DG	M05	A	15	cotyledon	52	0	52	0
+DG	M05	A	15	embryo sac	51	0	51	0
+DG	M05	A	15	endocarpe	43	12	55	1
+DG	M05	A	16	cotyledon	53	0	53	0
+DG	M05	A	16	embryo sac	51	0	51	0
+DG	M05	A	16	endocarpe	38	17	55	1
+DG	M05	A	17	cotyledon	37	0	37	0
+DG	M05	A	17	embryo sac	55	0	55	0
+DG	M05	A	17	endocarpe	23	27	50	1
+DG	M05	A	18	cotyledon	54	0	54	0
+DG	M05	A	18	embryo sac	50	0	50	0
+DG	M05	A	18	endocarpe	0	0	0	0
+DG	M05	A	19	cotyledon	72	0	72	0
+DG	M05	A	19	embryo sac	51	0	51	0
+DG	M05	A	19	endocarpe	0	0	0	0
+DG	M05	A	20	cotyledon	53	0	53	0
+DG	M05	A	20	embryo sac	52	0	52	0
+DG	M05	A	20	endocarpe	26	23	49	1
+DG	M05	B	01	cotyledon	53	0	53	0
+DG	M05	B	01	embryo sac	54	0	54	0
+DG	M05	B	01	endocarpe	41	0	41	0
+DG	M05	B	02	cotyledon	81	0	81	0
+DG	M05	B	02	embryo sac	52	0	52	0
+DG	M05	B	02	endocarpe	31	0	31	0
+DG	M05	B	03	cotyledon	65	0	65	0
+DG	M05	B	03	embryo sac	49	0	49	0
+DG	M05	B	03	endocarpe	0	0	0	0
+DG	M05	B	04	cotyledon	50	0	50	0
+DG	M05	B	04	embryo sac	53	0	53	0
+DG	M05	B	04	endocarpe	50	0	50	0
+DG	M05	B	05	cotyledon	55	0	55	0
+DG	M05	B	05	embryo sac	52	0	52	0
+DG	M05	B	05	endocarpe	0	0	0	0
+DG	M05	B	06	cotyledon	66	0	66	0
+DG	M05	B	06	embryo sac	49	0	49	0
+DG	M05	B	06	endocarpe	0	0	0	0
+DG	M05	B	07	cotyledon	66	0	66	0
+DG	M05	B	07	embryo sac	53	0	53	0
+DG	M05	B	07	endocarpe	64	0	64	0
+DG	M05	B	08	cotyledon	62	0	62	0
+DG	M05	B	08	embryo sac	53	0	53	0
+DG	M05	B	08	endocarpe	31	0	31	0
+DG	M05	B	09	cotyledon	60	0	60	0
+DG	M05	B	09	embryo sac	50	0	50	0
+DG	M05	B	09	endocarpe	64	0	64	0
+DG	M05	B	10	cotyledon	61	0	61	0
+DG	M05	B	10	embryo sac	51	0	51	0
+DG	M05	B	10	endocarpe	50	0	50	0
+DG	M05	B	11	cotyledon	53	0	53	0
+DG	M05	B	11	embryo sac	55	0	55	0
+DG	M05	B	11	endocarpe	0	0	0	0
+DG	M05	B	12	cotyledon	54	0	54	0
+DG	M05	B	12	embryo sac	51	0	51	0
+DG	M05	B	12	endocarpe	54	0	54	0
+DG	M05	B	13	cotyledon	59	0	59	0
+DG	M05	B	13	embryo sac	55	0	55	0
+DG	M05	B	13	endocarpe	0	0	0	0
+DG	M05	B	14	cotyledon	62	0	62	0
+DG	M05	B	14	embryo sac	49	0	49	0
+DG	M05	B	14	endocarpe	0	0	0	0
+DG	M05	B	15	cotyledon	62	0	62	0
+DG	M05	B	15	embryo sac	49	0	49	0
+DG	M05	B	15	endocarpe	31	0	31	0
+DG	M05	B	16	cotyledon	52	0	52	0
+DG	M05	B	16	embryo sac	49	0	49	0
+DG	M05	B	16	endocarpe	60	0	60	0
+DG	M05	B	17	cotyledon	56	0	56	0
+DG	M05	B	17	embryo sac	51	0	51	0
+DG	M05	B	17	endocarpe	0	0	0	0
+DG	M05	B	18	cotyledon	64	0	64	0
+DG	M05	B	18	embryo sac	52	0	52	0
+DG	M05	B	18	endocarpe	37	0	37	0
+DG	M05	B	19	cotyledon	52	0	52	0
+DG	M05	B	19	embryo sac	58	0	58	0
+DG	M05	B	19	endocarpe	60	0	60	0
+DG	M05	B	20	cotyledon	59	0	59	0
+DG	M05	B	20	embryo sac	51	0	51	0
+DG	M05	B	20	endocarpe	51	0	51	0
+DG	M05	B	21	cotyledon	56	0	56	0
+DG	M05	B	21	embryo sac	62	0	62	0
+DG	M05	B	21	endocarpe	102	0	102	0
+DG	M05	B	22	cotyledon	49	0	49	0
+DG	M05	B	22	embryo sac	51	0	51	0
+DG	M05	B	22	endocarpe	0	0	0	0
+DG	M05	B	23	cotyledon	53	0	53	0
+DG	M05	B	23	embryo sac	0	0	0	0
+DG	M05	B	23	endocarpe	65	0	65	0
+DG	M05	B	24	cotyledon	67	0	67	0
+DG	M05	B	24	embryo sac	52	0	52	0
+DG	M05	B	24	endocarpe	60	0	60	0
+DG	M05	B	25	cotyledon	59	0	59	0
+DG	M05	B	25	embryo sac	50	0	50	0
+DG	M05	B	25	endocarpe	67	0	67	0
+DG	M05	C	01	cotyledon	0	0	0	0
+DG	M05	C	01	embryo sac	66	0	66	0
+DG	M05	C	01	endocarpe	60	0	60	0
+DG	M05	C	02	cotyledon	49	0	49	0
+DG	M05	C	02	embryo sac	61	0	61	0
+DG	M05	C	02	endocarpe	49	0	49	0
+DG	M05	C	03	cotyledon	52	0	52	0
+DG	M05	C	03	embryo sac	49	0	49	0
+DG	M05	C	03	endocarpe	59	0	59	0
+DG	M05	D	01	cotyledon	50	0	50	0
+DG	M05	D	01	embryo sac	48	0	48	0
+DG	M05	D	01	endocarpe	56	0	56	0
+DG	M05	D	02	cotyledon	54	0	54	0
+DG	M05	D	02	embryo sac	57	0	57	0
+DG	M05	D	02	endocarpe	48	0	48	0
+DG	M05	D	03	cotyledon	69	0	69	0
+DG	M05	D	03	embryo sac	50	0	50	0
+DG	M05	D	03	endocarpe	59	0	59	0
+DG	M05	D	05	embryo sac	52	0	52	0
+DG	M05	D	05	endocarpe	59	0	59	0
+DG	M06	A	01	cotyledon	0	0	0	0
+DG	M06	A	01	embryo sac	51	0	51	0
+DG	M06	A	02	cotyledon	52	0	52	0
+DG	M06	A	02	embryo sac	54	0	54	0
+DG	M06	A	02	endocarpe	53	0	53	0
+DG	M06	A	03	cotyledon	8	0	8	0
+DG	M06	A	03	embryo sac	8	0	8	0
+DG	M06	A	04	cotyledon	53	0	53	0
+DG	M06	A	04	embryo sac	51	0	51	0
+DG	M06	A	05	cotyledon	21	0	21	0
+DG	M06	A	05	embryo sac	27	0	27	0
+DG	M06	A	05	endocarpe	53	0	53	0
+DG	M06	A	06	cotyledon	6	0	6	0
+DG	M06	A	06	embryo sac	14	0	14	0
+DG	M06	A	07	cotyledon	53	0	53	0
+DG	M06	A	07	embryo sac	52	0	52	0
+DG	M06	A	07	endocarpe	52	0	52	0
+DG	M06	A	08	cotyledon	52	0	52	0
+DG	M06	A	08	embryo sac	55	0	55	0
+DG	M06	A	09	cotyledon	53	0	53	0
+DG	M06	A	09	embryo sac	52	0	52	0
+DG	M06	A	10	cotyledon	50	0	50	0
+DG	M06	A	10	embryo sac	50	0	50	0
+DG	M06	A	11	cotyledon	54	0	54	0
+DG	M06	A	11	embryo sac	55	0	55	0
+DG	M06	A	11	endocarpe	57	0	57	0
+DG	M06	A	12	cotyledon	52	0	52	0
+DG	M06	A	12	embryo sac	52	0	52	0
+DG	M06	A	12	endocarpe	53	0	53	0
+DG	M06	A	13	cotyledon	40	0	40	0
+DG	M06	A	13	embryo sac	50	0	50	0
+DG	M06	A	13	endocarpe	51	0	51	0
+DG	M06	A	14	cotyledon	24	0	24	0
+DG	M06	A	14	embryo sac	30	0	30	0
+DG	M06	A	14	endocarpe	64	0	64	0
+DG	M06	A	15	cotyledon	52	0	52	0
+DG	M06	A	15	embryo sac	51	0	51	0
+DG	M06	A	15	endocarpe	50	0	50	0
+DG	M06	A	16	cotyledon	54	0	54	0
+DG	M06	A	16	embryo sac	49	0	49	0
+DG	M06	A	16	endocarpe	51	0	51	0
+DG	M06	A	17	cotyledon	51	0	51	0
+DG	M06	A	17	embryo sac	50	0	50	0
+DG	M06	A	17	endocarpe	60	0	60	0
+DG	M06	A	18	cotyledon	51	0	51	0
+DG	M06	A	18	embryo sac	52	0	52	0
+DG	M06	A	18	endocarpe	0	0	0	0
+DG	M06	A	19	cotyledon	54	0	54	0
+DG	M06	A	19	embryo sac	53	0	53	0
+DG	M06	A	19	endocarpe	2	0	2	0
+DG	M06	A	20	cotyledon	50	0	50	0
+DG	M06	A	20	embryo sac	56	0	56	0
+DG	M06	A	20	endocarpe	51	0	51	0
+DG	M06	B	01	cotyledon	0	0	0	0
+DG	M06	B	01	embryo sac	14	0	14	0
+DG	M06	B	01	endocarpe	2	0	2	0
+DG	M06	B	02	cotyledon	51	0	51	0
+DG	M06	B	02	embryo sac	54	0	54	0
+DG	M06	B	02	endocarpe	0	0	0	0
+DG	M06	B	03	cotyledon	65	0	65	0
+DG	M06	B	03	embryo sac	53	0	53	0
+DG	M06	B	03	endocarpe	0	0	0	0
+DG	M06	B	04	cotyledon	53	0	53	0
+DG	M06	B	04	embryo sac	73	0	73	0
+DG	M06	B	04	endocarpe	67	0	67	0
+DG	M06	B	05	cotyledon	2	0	2	0
+DG	M06	B	05	embryo sac	20	8	28	1
+DG	M06	B	05	endocarpe	0	0	0	0
+DG	M06	B	06	cotyledon	2	0	2	0
+DG	M06	B	06	embryo sac	12	0	12	0
+DG	M06	B	06	endocarpe	0	0	0	0
+DG	M06	B	07	cotyledon	55	0	55	0
+DG	M06	B	07	embryo sac	51	0	51	0
+DG	M06	B	07	endocarpe	53	0	53	0
+DG	M06	B	08	cotyledon	6	0	6	0
+DG	M06	B	08	embryo sac	6	0	6	0
+DG	M06	B	08	endocarpe	4	0	4	0
+DG	M06	B	09	cotyledon	0	0	0	0
+DG	M06	B	09	embryo sac	14	0	14	0
+DG	M06	B	09	endocarpe	52	0	52	0
+DG	M06	B	10	cotyledon	6	0	6	0
+DG	M06	B	10	embryo sac	10	0	10	0
+DG	M06	B	10	endocarpe	53	0	53	0
+DG	M06	B	11	cotyledon	53	0	53	0
+DG	M06	B	11	embryo sac	54	0	54	0
+DG	M06	B	11	endocarpe	51	0	51	0
+DG	M06	B	12	cotyledon	28	0	28	0
+DG	M06	B	12	embryo sac	34	0	34	0
+DG	M06	B	12	endocarpe	53	0	53	0
+DG	M06	B	13	cotyledon	53	0	53	0
+DG	M06	B	13	embryo sac	50	0	50	0
+DG	M06	B	13	endocarpe	0	0	0	0
+DG	M06	B	14	cotyledon	50	0	50	0
+DG	M06	B	14	embryo sac	53	0	53	0
+DG	M06	B	14	endocarpe	0	0	0	0
+DG	M06	B	15	cotyledon	51	0	51	0
+DG	M06	B	15	embryo sac	51	0	51	0
+DG	M06	B	15	endocarpe	56	0	56	0
+DG	M06	B	16	cotyledon	52	0	52	0
+DG	M06	B	16	embryo sac	53	0	53	0
+DG	M06	B	16	endocarpe	51	0	51	0
+DG	M06	B	17	cotyledon	53	0	53	0
+DG	M06	B	17	embryo sac	53	0	53	0
+DG	M06	B	17	endocarpe	0	0	0	0
+DG	M06	B	18	cotyledon	22	0	22	0
+DG	M06	B	18	embryo sac	49	0	49	0
+DG	M06	B	18	endocarpe	0	0	0	0
+DG	M06	B	19	cotyledon	49	0	49	0
+DG	M06	B	19	embryo sac	0	0	0	0
+DG	M06	B	19	endocarpe	50	0	50	0
+DG	M06	B	20	cotyledon	57	0	57	0
+DG	M06	B	20	embryo sac	68	0	68	0
+DG	M06	B	20	endocarpe	2	0	2	0
+DG	M06	B	21	cotyledon	53	0	53	0
+DG	M06	B	21	embryo sac	53	0	53	0
+DG	M06	B	21	endocarpe	6	0	6	0
+DG	M06	B	22	cotyledon	53	0	53	0
+DG	M06	B	22	embryo sac	54	0	54	0
+DG	M06	B	22	endocarpe	0	0	0	0
+DG	M06	B	23	cotyledon	56	0	56	0
+DG	M06	B	23	embryo sac	0	0	0	0
+DG	M06	B	23	endocarpe	50	0	50	0
+DG	M06	B	24	cotyledon	52	0	52	0
+DG	M06	B	24	embryo sac	55	0	55	0
+DG	M06	B	24	endocarpe	54	0	54	0
+DG	M06	B	25	cotyledon	55	0	55	0
+DG	M06	B	25	embryo sac	59	0	59	0
+DG	M06	B	25	endocarpe	52	0	52	0
+DG	M06	C	01	cotyledon	2	0	2	0
+DG	M06	C	01	embryo sac	62	0	62	0
+DG	M06	C	01	endocarpe	66	0	66	0
+DG	M06	C	02	cotyledon	50	0	50	0
+DG	M06	C	02	embryo sac	55	0	55	0
+DG	M06	C	02	endocarpe	56	0	56	0
+DG	M06	C	03	cotyledon	51	0	51	0
+DG	M06	C	03	embryo sac	50	0	50	0
+DG	M06	C	03	endocarpe	53	0	53	0
+DG	M06	D	01	cotyledon	51	0	51	0
+DG	M06	D	01	embryo sac	52	0	52	0
+DG	M06	D	01	endocarpe	52	0	52	0
+DG	M06	D	02	cotyledon	56	0	56	0
+DG	M06	D	02	embryo sac	56	0	56	0
+DG	M06	D	02	endocarpe	56	0	56	0
+DG	M06	D	03	cotyledon	57	0	57	0
+DG	M06	D	03	embryo sac	55	0	55	0
+DG	M06	D	03	endocarpe	56	0	56	0
+DG	M06	D	05	embryo sac	52	0	52	0
+DG	M06	D	05	endocarpe	61	0	61	0
+DG	M07	A	01	cotyledon	0	0	0	0
+DG	M07	A	01	embryo sac	50	0	50	0
+DG	M07	A	02	cotyledon	52	0	52	0
+DG	M07	A	02	embryo sac	51	0	51	0
+DG	M07	A	02	endocarpe	50	0	50	0
+DG	M07	A	03	cotyledon	54	0	54	0
+DG	M07	A	03	embryo sac	50	0	50	0
+DG	M07	A	04	cotyledon	6	0	6	0
+DG	M07	A	04	embryo sac	50	0	50	0
+DG	M07	A	05	cotyledon	51	0	51	0
+DG	M07	A	05	embryo sac	51	0	51	0
+DG	M07	A	05	endocarpe	52	0	52	0
+DG	M07	A	06	cotyledon	50	0	50	0
+DG	M07	A	06	embryo sac	52	0	52	0
+DG	M07	A	07	cotyledon	50	0	50	0
+DG	M07	A	07	embryo sac	50	0	50	0
+DG	M07	A	07	endocarpe	50	0	50	0
+DG	M07	A	08	cotyledon	51	0	51	0
+DG	M07	A	08	embryo sac	54	0	54	0
+DG	M07	A	09	cotyledon	0	0	0	0
+DG	M07	A	09	embryo sac	20	28	48	1
+DG	M07	A	10	cotyledon	51	0	51	0
+DG	M07	A	10	embryo sac	50	0	50	0
+DG	M07	A	11	cotyledon	20	2	22	0
+DG	M07	A	11	embryo sac	46	56	102	1
+DG	M07	A	11	endocarpe	50	0	50	0
+DG	M07	A	12	cotyledon	51	0	51	0
+DG	M07	A	12	embryo sac	52	0	52	0
+DG	M07	A	12	endocarpe	50	0	50	0
+DG	M07	A	13	cotyledon	51	0	51	0
+DG	M07	A	13	embryo sac	50	0	50	0
+DG	M07	A	13	endocarpe	51	0	51	0
+DG	M07	A	14	cotyledon	51	0	51	0
+DG	M07	A	14	embryo sac	50	0	50	0
+DG	M07	A	14	endocarpe	51	0	51	0
+DG	M07	A	15	cotyledon	50	0	50	0
+DG	M07	A	15	embryo sac	51	0	51	0
+DG	M07	A	15	endocarpe	50	0	50	0
+DG	M07	A	16	cotyledon	50	0	50	0
+DG	M07	A	16	embryo sac	51	0	51	0
+DG	M07	A	16	endocarpe	50	0	50	0
+DG	M07	A	17	cotyledon	2	0	2	0
+DG	M07	A	17	embryo sac	36	14	50	1
+DG	M07	A	17	endocarpe	50	0	50	0
+DG	M07	A	18	cotyledon	50	0	50	0
+DG	M07	A	18	embryo sac	50	0	50	0
+DG	M07	A	18	endocarpe	0	0	0	0
+DG	M07	A	19	cotyledon	54	0	54	0
+DG	M07	A	19	embryo sac	51	0	51	0
+DG	M07	A	19	endocarpe	0	0	0	0
+DG	M07	A	20	cotyledon	50	0	50	0
+DG	M07	A	20	embryo sac	51	0	51	0
+DG	M07	A	20	endocarpe	103	0	103	0
+DG	M07	B	01	cotyledon	53	0	53	0
+DG	M07	B	01	embryo sac	50	0	50	0
+DG	M07	B	01	endocarpe	0	0	0	0
+DG	M07	B	02	cotyledon	50	0	50	0
+DG	M07	B	02	embryo sac	61	0	61	0
+DG	M07	B	02	endocarpe	2	0	2	0
+DG	M07	B	03	cotyledon	6	0	6	0
+DG	M07	B	03	embryo sac	28	6	34	1
+DG	M07	B	03	endocarpe	0	0	0	0
+DG	M07	B	04	cotyledon	16	2	18	0
+DG	M07	B	04	embryo sac	50	0	50	0
+DG	M07	B	04	endocarpe	50	0	50	0
+DG	M07	B	05	cotyledon	51	0	51	0
+DG	M07	B	05	embryo sac	50	0	50	0
+DG	M07	B	05	endocarpe	0	0	0	0
+DG	M07	B	06	cotyledon	51	0	51	0
+DG	M07	B	06	embryo sac	50	0	50	0
+DG	M07	B	06	endocarpe	2	0	2	0
+DG	M07	B	07	cotyledon	0	0	0	0
+DG	M07	B	07	embryo sac	36	0	36	0
+DG	M07	B	07	endocarpe	50	0	50	0
+DG	M07	B	08	cotyledon	51	0	51	0
+DG	M07	B	08	embryo sac	51	0	51	0
+DG	M07	B	08	endocarpe	0	0	0	0
+DG	M07	B	09	cotyledon	52	0	52	0
+DG	M07	B	09	embryo sac	50	0	50	0
+DG	M07	B	09	endocarpe	50	0	50	0
+DG	M07	B	10	cotyledon	51	0	51	0
+DG	M07	B	10	embryo sac	50	0	50	0
+DG	M07	B	10	endocarpe	50	0	50	0
+DG	M07	B	11	cotyledon	51	0	51	0
+DG	M07	B	11	embryo sac	51	0	51	0
+DG	M07	B	11	endocarpe	52	0	52	0
+DG	M07	B	12	cotyledon	52	0	52	0
+DG	M07	B	12	embryo sac	50	0	50	0
+DG	M07	B	12	endocarpe	50	0	50	0
+DG	M07	B	13	cotyledon	54	0	54	0
+DG	M07	B	13	embryo sac	60	0	60	0
+DG	M07	B	13	endocarpe	0	0	0	0
+DG	M07	B	14	cotyledon	51	0	51	0
+DG	M07	B	14	embryo sac	50	0	50	0
+DG	M07	B	14	endocarpe	4	0	4	0
+DG	M07	B	15	cotyledon	4	0	4	0
+DG	M07	B	15	embryo sac	32	28	60	1
+DG	M07	B	15	endocarpe	0	0	0	0
+DG	M07	B	16	cotyledon	50	0	50	0
+DG	M07	B	16	embryo sac	50	0	50	0
+DG	M07	B	16	endocarpe	51	0	51	0
+DG	M07	B	17	cotyledon	16	0	16	0
+DG	M07	B	17	embryo sac	62	24	86	1
+DG	M07	B	17	endocarpe	0	0	0	0
+DG	M07	B	18	cotyledon	50	0	50	0
+DG	M07	B	18	embryo sac	65	0	65	0
+DG	M07	B	18	endocarpe	0	0	0	0
+DG	M07	B	19	cotyledon	50	0	50	0
+DG	M07	B	19	embryo sac	52	0	52	0
+DG	M07	B	19	endocarpe	51	0	51	0
+DG	M07	B	20	cotyledon	8	2	10	1
+DG	M07	B	20	embryo sac	50	0	50	0
+DG	M07	B	20	endocarpe	2	0	2	0
+DG	M07	B	21	cotyledon	51	0	51	0
+DG	M07	B	21	embryo sac	50	0	50	0
+DG	M07	B	21	endocarpe	0	0	0	0
+DG	M07	B	22	cotyledon	53	0	53	0
+DG	M07	B	22	embryo sac	52	0	52	0
+DG	M07	B	22	endocarpe	0	0	0	0
+DG	M07	B	23	cotyledon	10	0	10	0
+DG	M07	B	23	embryo sac	0	0	0	0
+DG	M07	B	23	endocarpe	52	0	52	0
+DG	M07	B	24	cotyledon	8	0	8	0
+DG	M07	B	24	embryo sac	45	12	57	1
+DG	M07	B	24	endocarpe	51	0	51	0
+DG	M07	B	25	cotyledon	4	2	6	1
+DG	M07	B	25	embryo sac	28	14	42	1
+DG	M07	B	25	endocarpe	50	0	50	0
+DG	M07	C	01	cotyledon	2	0	2	0
+DG	M07	C	01	embryo sac	50	0	50	0
+DG	M07	C	01	endocarpe	50	0	50	0
+DG	M07	C	02	cotyledon	50	0	50	0
+DG	M07	C	02	embryo sac	50	0	50	0
+DG	M07	C	02	endocarpe	50	0	50	0
+DG	M07	C	03	cotyledon	51	0	51	0
+DG	M07	C	03	embryo sac	51	0	51	0
+DG	M07	C	03	endocarpe	53	0	53	0
+DG	M07	D	01	cotyledon	50	0	50	0
+DG	M07	D	01	embryo sac	51	0	51	0
+DG	M07	D	01	endocarpe	54	0	54	0
+DG	M07	D	02	cotyledon	50	0	50	0
+DG	M07	D	02	embryo sac	51	0	51	0
+DG	M07	D	02	endocarpe	49	48	97	1
+DG	M07	D	03	cotyledon	52	0	52	0
+DG	M07	D	03	embryo sac	82	21	103	1
+DG	M07	D	03	endocarpe	10	8	18	1
+DG	M07	D	05	embryo sac	53	46	99	1
+DG	M07	D	05	endocarpe	52	0	52	0
+DG	M08	A	01	cotyledon	0	0	0	0
+DG	M08	A	01	embryo sac	110	0	110	0
+DG	M08	A	02	cotyledon	18	0	40	0
+DG	M08	A	02	embryo sac	76	0	76	0
+DG	M08	A	02	endocarpe	22	0	22	0
+DG	M08	A	03	cotyledon	2	0	2	0
+DG	M08	A	03	embryo sac	49	10	61	1
+DG	M08	A	04	cotyledon	1	0	1	0
+DG	M08	A	04	embryo sac	21	0	21	0
+DG	M08	A	05	cotyledon	0	2	2	1
+DG	M08	A	05	embryo sac	20	35	66	1
+DG	M08	A	05	endocarpe	2	0	2	0
+DG	M08	A	06	cotyledon	0	0	0	0
+DG	M08	A	06	embryo sac	14	0	14	0
+DG	M08	A	07	cotyledon	59	0	59	0
+DG	M08	A	07	embryo sac	34	0	78	0
+DG	M08	A	07	endocarpe	5	0	5	0
+DG	M08	A	08	cotyledon	1	0	1	0
+DG	M08	A	08	embryo sac	3	0	3	0
+DG	M08	A	09	cotyledon	0	0	0	0
+DG	M08	A	09	embryo sac	42	6	52	1
+DG	M08	A	10	cotyledon	24	8	32	1
+DG	M08	A	10	embryo sac	45	10	55	1
+DG	M08	A	11	cotyledon	4	3	7	1
+DG	M08	A	11	embryo sac	65	10	75	1
+DG	M08	A	11	endocarpe	31	6	37	1
+DG	M08	A	12	cotyledon	0	0	0	0
+DG	M08	A	12	embryo sac	9	8	17	1
+DG	M08	A	12	endocarpe	0	0	0	0
+DG	M08	A	13	cotyledon	54	23	81	1
+DG	M08	A	13	embryo sac	40	23	68	1
+DG	M08	A	13	endocarpe	30	10	43	1
+DG	M08	A	14	cotyledon	45	9	54	1
+DG	M08	A	14	embryo sac	34	6	42	1
+DG	M08	A	14	endocarpe	0	0	0	0
+DG	M08	A	15	cotyledon	29	41	83	1
+DG	M08	A	15	embryo sac	33	46	94	1
+DG	M08	A	15	endocarpe	43	8	54	1
+DG	M08	A	16	cotyledon	97	19	124	1
+DG	M08	A	16	embryo sac	59	13	79	1
+DG	M08	A	16	endocarpe	97	15	120	1
+DG	M08	A	17	cotyledon	14	4	20	1
+DG	M08	A	17	embryo sac	55	35	100	1
+DG	M08	A	17	endocarpe	79	12	95	1
+DG	M08	A	18	cotyledon	13	0	13	0
+DG	M08	A	18	embryo sac	26	0	26	0
+DG	M08	A	18	endocarpe	0	0	0	0
+DG	M08	A	19	cotyledon	4	3	7	1
+DG	M08	A	19	embryo sac	64	12	80	1
+DG	M08	A	19	endocarpe	0	0	0	0
+DG	M08	A	20	cotyledon	5	0	5	0
+DG	M08	A	20	embryo sac	55	16	71	1
+DG	M08	A	20	endocarpe	49	5	57	1
+DG	M08	B	01	cotyledon	54	10	66	1
+DG	M08	B	01	embryo sac	52	11	63	1
+DG	M08	B	01	endocarpe	0	0	0	0
+DG	M08	B	02	cotyledon	0	0	0	0
+DG	M08	B	02	embryo sac	51	0	51	0
+DG	M08	B	02	endocarpe	5	0	5	0
+DG	M08	B	03	cotyledon	3	0	3	0
+DG	M08	B	03	embryo sac	56	5	61	0
+DG	M08	B	03	endocarpe	0	0	0	0
+DG	M08	B	04	cotyledon	33	31	77	1
+DG	M08	B	04	embryo sac	22	13	42	1
+DG	M08	B	04	endocarpe	45	11	61	1
+DG	M08	B	05	cotyledon	5	0	5	0
+DG	M08	B	05	embryo sac	36	51	111	1
+DG	M08	B	05	endocarpe	0	0	0	0
+DG	M08	B	06	cotyledon	1	0	1	0
+DG	M08	B	06	embryo sac	66	9	75	0
+DG	M08	B	06	endocarpe	1	0	1	0
+DG	M08	B	07	cotyledon	1	0	1	0
+DG	M08	B	07	embryo sac	17	3	20	1
+DG	M08	B	07	endocarpe	0	0	0	0
+DG	M08	B	08	cotyledon	15	0	15	0
+DG	M08	B	08	embryo sac	58	0	58	0
+DG	M08	B	08	endocarpe	0	0	0	0
+DG	M08	B	09	cotyledon	2	0	2	0
+DG	M08	B	09	embryo sac	30	9	39	1
+DG	M08	B	09	endocarpe	4	0	4	0
+DG	M08	B	10	cotyledon	1	0	1	0
+DG	M08	B	10	embryo sac	95	15	110	1
+DG	M08	B	10	endocarpe	47	8	59	1
+DG	M08	B	11	cotyledon	27	7	34	1
+DG	M08	B	11	embryo sac	70	11	85	1
+DG	M08	B	11	endocarpe	25	5	30	1
+DG	M08	B	12	cotyledon	60	0	60	0
+DG	M08	B	12	embryo sac	56	0	56	0
+DG	M08	B	12	endocarpe	40	5	50	1
+DG	M08	B	13	cotyledon	0	0	0	0
+DG	M08	B	13	embryo sac	24	0	63	0
+DG	M08	B	13	endocarpe	0	0	0	0
+DG	M08	B	14	cotyledon	0	0	0	0
+DG	M08	B	14	embryo sac	49	22	76	1
+DG	M08	B	14	endocarpe	0	0	0	0
+DG	M08	B	15	cotyledon	3	2	5	1
+DG	M08	B	15	embryo sac	81	11	95	1
+DG	M08	B	15	endocarpe	0	0	0	0
+DG	M08	B	16	cotyledon	1	0	1	0
+DG	M08	B	16	embryo sac	138	0	138	0
+DG	M08	B	16	endocarpe	1	0	1	0
+DG	M08	B	17	cotyledon	7	8	17	1
+DG	M08	B	17	embryo sac	34	42	95	1
+DG	M08	B	17	endocarpe	0	0	0	0
+DG	M08	B	18	cotyledon	33	12	48	1
+DG	M08	B	18	embryo sac	61	38	111	1
+DG	M08	B	18	endocarpe	0	0	0	0
+DG	M08	B	19	cotyledon	11	3	14	1
+DG	M08	B	19	embryo sac	79	20	99	1
+DG	M08	B	19	endocarpe	2	0	2	0
+DG	M08	B	20	cotyledon	2	0	2	0
+DG	M08	B	20	embryo sac	3	0	3	0
+DG	M08	B	20	endocarpe	0	0	0	0
+DG	M08	B	21	cotyledon	2	0	2	0
+DG	M08	B	21	embryo sac	13	2	18	1
+DG	M08	B	21	endocarpe	0	0	0	0
+DG	M08	B	22	cotyledon	4	0	4	0
+DG	M08	B	22	embryo sac	13	0	13	0
+DG	M08	B	22	endocarpe	0	0	0	0
+DG	M08	B	23	cotyledon	1	0	1	0
+DG	M08	B	23	embryo sac	0	0	0	0
+DG	M08	B	23	endocarpe	0	0	0	0
+DG	M08	B	24	cotyledon	9	4	13	1
+DG	M08	B	24	embryo sac	1	0	1	0
+DG	M08	B	24	endocarpe	0	0	0	0
+DG	M08	B	25	cotyledon	0	0	0	0
+DG	M08	B	25	embryo sac	14	0	14	0
+DG	M08	B	25	endocarpe	0	0	0	0
+DG	M08	C	01	cotyledon	0	0	0	0
+DG	M08	C	01	embryo sac	5	0	5	0
+DG	M08	C	01	endocarpe	0	0	0	0
+DG	M08	C	02	cotyledon	8	0	8	0
+DG	M08	C	02	embryo sac	36	5	41	1
+DG	M08	C	02	endocarpe	25	0	25	0
+DG	M08	C	03	cotyledon	4	0	4	0
+DG	M08	C	03	embryo sac	17	18	35	1
+DG	M08	C	03	endocarpe	37	7	44	1
+DG	M08	D	01	cotyledon	3	3	6	1
+DG	M08	D	01	embryo sac	2	0	2	0
+DG	M08	D	01	endocarpe	74	0	74	0
+DG	M08	D	02	cotyledon	2	0	2	0
+DG	M08	D	02	embryo sac	4	0	4	0
+DG	M08	D	02	endocarpe	2	3	5	1
+DG	M08	D	03	cotyledon	4	0	4	0
+DG	M08	D	03	embryo sac	3	5	11	1
+DG	M08	D	03	endocarpe	6	0	6	0
+DG	M08	D	05	embryo sac	6	0	6	0
+DG	M08	D	05	endocarpe	3	0	3	0
+DG	M09	A	01	cotyledon	0	0	0	0
+DG	M09	A	01	embryo sac	83	9	92	0
+DG	M09	A	02	cotyledon	63	7	73	0
+DG	M09	A	02	embryo sac	57	8	67	1
+DG	M09	A	02	endocarpe	31	5	36	1
+DG	M09	A	03	cotyledon	2	0	2	0
+DG	M09	A	03	embryo sac	61	0	61	0
+DG	M09	A	04	cotyledon	1	0	1	0
+DG	M09	A	04	embryo sac	13	0	13	0
+DG	M09	A	05	cotyledon	2	0	2	0
+DG	M09	A	05	embryo sac	78	9	89	0
+DG	M09	A	05	endocarpe	11	0	11	0
+DG	M09	A	06	cotyledon	0	0	0	0
+DG	M09	A	06	embryo sac	20	0	20	0
+DG	M09	A	07	cotyledon	49	0	49	0
+DG	M09	A	07	embryo sac	61	0	61	0
+DG	M09	A	07	endocarpe	0	0	0	0
+DG	M09	A	08	cotyledon	0	0	0	0
+DG	M09	A	08	embryo sac	3	0	3	0
+DG	M09	A	09	cotyledon	0	0	0	0
+DG	M09	A	09	embryo sac	53	14	67	1
+DG	M09	A	10	cotyledon	17	0	17	0
+DG	M09	A	10	embryo sac	64	0	64	0
+DG	M09	A	11	cotyledon	0	0	0	0
+DG	M09	A	11	embryo sac	82	9	91	0
+DG	M09	A	11	endocarpe	11	0	11	0
+DG	M09	A	12	cotyledon	0	0	0	0
+DG	M09	A	12	embryo sac	4	0	4	0
+DG	M09	A	12	endocarpe	0	0	0	0
+DG	M09	A	13	cotyledon	66	7	73	0
+DG	M09	A	13	embryo sac	61	8	69	1
+DG	M09	A	13	endocarpe	24	3	27	1
+DG	M09	A	14	cotyledon	64	0	64	0
+DG	M09	A	14	embryo sac	51	6	57	0
+DG	M09	A	14	endocarpe	0	0	0	0
+DG	M09	A	15	cotyledon	39	0	39	0
+DG	M09	A	15	embryo sac	95	10	105	0
+DG	M09	A	15	endocarpe	25	0	25	0
+DG	M09	A	16	cotyledon	109	0	109	0
+DG	M09	A	16	embryo sac	66	9	75	1
+DG	M09	A	16	endocarpe	63	9	74	1
+DG	M09	A	17	cotyledon	14	0	14	0
+DG	M09	A	17	embryo sac	92	0	92	0
+DG	M09	A	17	endocarpe	25	1	26	0
+DG	M09	A	18	cotyledon	1	0	1	0
+DG	M09	A	18	embryo sac	14	0	14	0
+DG	M09	A	18	endocarpe	0	0	0	0
+DG	M09	A	19	cotyledon	0	0	0	0
+DG	M09	A	19	embryo sac	70	7	77	0
+DG	M09	A	19	endocarpe	0	0	0	0
+DG	M09	A	20	cotyledon	1	0	1	0
+DG	M09	A	20	embryo sac	41	8	49	1
+DG	M09	A	20	endocarpe	22	6	28	1
+DG	M09	B	01	cotyledon	12	0	12	0
+DG	M09	B	01	embryo sac	56	8	64	0
+DG	M09	B	01	endocarpe	0	0	0	0
+DG	M09	B	02	cotyledon	0	0	0	0
+DG	M09	B	02	embryo sac	36	7	43	1
+DG	M09	B	02	endocarpe	2	0	2	0
+DG	M09	B	03	cotyledon	0	0	0	0
+DG	M09	B	03	embryo sac	26	5	31	1
+DG	M09	B	03	endocarpe	1	0	1	0
+DG	M09	B	04	cotyledon	59	15	77	1
+DG	M09	B	04	embryo sac	62	13	75	1
+DG	M09	B	04	endocarpe	39	5	44	0
+DG	M09	B	05	cotyledon	0	0	0	0
+DG	M09	B	05	embryo sac	88	14	102	1
+DG	M09	B	05	endocarpe	1	0	1	0
+DG	M09	B	06	cotyledon	0	0	0	0
+DG	M09	B	06	embryo sac	90	8	98	0
+DG	M09	B	06	endocarpe	0	0	0	0
+DG	M09	B	07	cotyledon	0	0	0	0
+DG	M09	B	07	embryo sac	22	3	25	1
+DG	M09	B	07	endocarpe	0	0	0	0
+DG	M09	B	08	cotyledon	2	0	2	0
+DG	M09	B	08	embryo sac	87	0	87	0
+DG	M09	B	08	endocarpe	0	0	0	0
+DG	M09	B	09	cotyledon	0	0	0	0
+DG	M09	B	09	embryo sac	42	5	47	1
+DG	M09	B	09	endocarpe	1	0	1	0
+DG	M09	B	10	cotyledon	0	0	0	0
+DG	M09	B	10	embryo sac	81	9	92	0
+DG	M09	B	10	endocarpe	55	8	66	1
+DG	M09	B	11	cotyledon	61	12	73	1
+DG	M09	B	11	embryo sac	80	0	80	0
+DG	M09	B	11	endocarpe	0	0	0	0
+DG	M09	B	12	cotyledon	82	8	90	0
+DG	M09	B	12	embryo sac	62	7	69	0
+DG	M09	B	12	endocarpe	15	0	15	0
+DG	M09	B	13	cotyledon	0	0	0	0
+DG	M09	B	13	embryo sac	40	7	47	1
+DG	M09	B	13	endocarpe	0	0	0	0
+DG	M09	B	14	cotyledon	0	0	0	0
+DG	M09	B	14	embryo sac	69	8	77	0
+DG	M09	B	14	endocarpe	0	0	0	0
+DG	M09	B	15	cotyledon	0	0	0	0
+DG	M09	B	15	embryo sac	62	9	71	0
+DG	M09	B	15	endocarpe	0	0	0	0
+DG	M09	B	16	cotyledon	1	0	1	0
+DG	M09	B	16	embryo sac	47	0	47	0
+DG	M09	B	16	endocarpe	0	0	0	0
+DG	M09	B	17	cotyledon	2	0	2	0
+DG	M09	B	17	embryo sac	116	0	116	0
+DG	M09	B	17	endocarpe	0	0	0	0
+DG	M09	B	18	cotyledon	5	0	5	0
+DG	M09	B	18	embryo sac	77	27	104	1
+DG	M09	B	18	endocarpe	0	0	0	0
+DG	M09	B	19	cotyledon	3	0	3	0
+DG	M09	B	19	embryo sac	90	0	90	0
+DG	M09	B	19	endocarpe	7	3	10	1
+DG	M09	B	20	cotyledon	10	3	13	1
+DG	M09	B	20	embryo sac	12	0	12	0
+DG	M09	B	20	endocarpe	0	0	0	0
+DG	M09	B	21	cotyledon	3	0	3	0
+DG	M09	B	21	embryo sac	34	4	38	0
+DG	M09	B	21	endocarpe	0	0	0	0
+DG	M09	B	22	cotyledon	19	3	22	0
+DG	M09	B	22	embryo sac	18	2	20	0
+DG	M09	B	22	endocarpe	2	0	2	0
+DG	M09	B	23	cotyledon	8	0	8	0
+DG	M09	B	23	embryo sac	0	0	0	0
+DG	M09	B	23	endocarpe	6	3	9	1
+DG	M09	B	24	cotyledon	8	3	11	1
+DG	M09	B	24	embryo sac	66	0	66	0
+DG	M09	B	24	endocarpe	1	0	1	0
+DG	M09	B	25	cotyledon	1	0	1	0
+DG	M09	B	25	embryo sac	28	3	31	0
+DG	M09	B	25	endocarpe	8	0	8	0
+DG	M09	C	01	cotyledon	0	0	0	0
+DG	M09	C	01	embryo sac	15	4	19	1
+DG	M09	C	01	endocarpe	3	0	3	0
+DG	M09	C	02	cotyledon	39	5	44	1
+DG	M09	C	02	embryo sac	51	10	61	1
+DG	M09	C	02	endocarpe	24	9	33	1
+DG	M09	C	03	cotyledon	29	6	35	1
+DG	M09	C	03	embryo sac	35	9	44	1
+DG	M09	C	03	endocarpe	67	14	81	1
+DG	M09	D	01	cotyledon	13	4	17	1
+DG	M09	D	01	embryo sac	14	4	18	1
+DG	M09	D	01	endocarpe	55	7	62	1
+DG	M09	D	02	cotyledon	5	0	5	0
+DG	M09	D	02	embryo sac	16	0	16	0
+DG	M09	D	02	endocarpe	46	8	54	1
+DG	M09	D	03	cotyledon	17	2	19	0
+DG	M09	D	03	embryo sac	63	21	84	1
+DG	M09	D	03	endocarpe	24	3	27	1
+DG	M09	D	05	embryo sac	52	4	57	0
+DG	M09	D	05	endocarpe	2	0	2	0
+DG	M10	A	01	cotyledon	0	2	2	1
+DG	M10	A	01	embryo sac	101	0	101	0
+DG	M10	A	02	cotyledon	96	8	104	1
+DG	M10	A	02	embryo sac	109	0	109	0
+DG	M10	A	02	endocarpe	50	0	50	0
+DG	M10	A	03	cotyledon	114	0	114	0
+DG	M10	A	03	embryo sac	50	0	50	0
+DG	M10	A	04	cotyledon	50	0	50	0
+DG	M10	A	04	embryo sac	104	0	104	0
+DG	M10	A	05	cotyledon	104	0	104	0
+DG	M10	A	05	embryo sac	50	0	50	0
+DG	M10	A	05	endocarpe	113	0	113	0
+DG	M10	A	06	cotyledon	52	0	52	0
+DG	M10	A	06	embryo sac	51	0	51	0
+DG	M10	A	07	cotyledon	101	0	101	0
+DG	M10	A	07	embryo sac	50	0	50	0
+DG	M10	A	07	endocarpe	95	14	109	1
+DG	M10	A	08	cotyledon	122	0	122	0
+DG	M10	A	08	embryo sac	104	9	113	1
+DG	M10	A	09	cotyledon	42	0	42	0
+DG	M10	A	09	embryo sac	50	0	50	0
+DG	M10	A	10	cotyledon	100	0	100	0
+DG	M10	A	10	embryo sac	51	0	51	0
+DG	M10	A	11	cotyledon	50	0	50	0
+DG	M10	A	11	embryo sac	50	0	50	0
+DG	M10	A	11	endocarpe	95	12	107	1
+DG	M10	A	12	cotyledon	52	0	52	0
+DG	M10	A	12	embryo sac	108	0	108	0
+DG	M10	A	12	endocarpe	4	0	4	0
+DG	M10	A	13	cotyledon	50	0	50	0
+DG	M10	A	13	embryo sac	50	0	50	0
+DG	M10	A	13	endocarpe	103	0	103	0
+DG	M10	A	14	cotyledon	101	7	108	0
+DG	M10	A	14	embryo sac	100	8	108	1
+DG	M10	A	14	endocarpe	122	0	122	0
+DG	M10	A	15	cotyledon	50	0	50	0
+DG	M10	A	15	embryo sac	50	0	50	0
+DG	M10	A	15	endocarpe	95	9	104	1
+DG	M10	A	16	cotyledon	101	6	107	0
+DG	M10	A	16	embryo sac	50	0	50	0
+DG	M10	A	16	endocarpe	97	8	105	1
+DG	M10	A	17	cotyledon	50	0	50	0
+DG	M10	A	17	embryo sac	50	0	50	0
+DG	M10	A	17	endocarpe	50	0	50	0
+DG	M10	A	18	cotyledon	105	0	105	0
+DG	M10	A	18	embryo sac	106	0	106	0
+DG	M10	A	18	endocarpe	0	0	0	0
+DG	M10	A	19	cotyledon	50	0	50	0
+DG	M10	A	19	embryo sac	51	0	51	0
+DG	M10	A	19	endocarpe	2	0	2	0
+DG	M10	A	20	cotyledon	116	0	116	0
+DG	M10	A	20	embryo sac	51	0	51	0
+DG	M10	A	20	endocarpe	52	0	52	0
+DG	M10	B	01	cotyledon	109	0	109	0
+DG	M10	B	01	embryo sac	50	0	50	0
+DG	M10	B	01	endocarpe	0	0	0	0
+DG	M10	B	02	cotyledon	53	0	53	0
+DG	M10	B	02	embryo sac	104	9	113	1
+DG	M10	B	02	endocarpe	0	0	0	0
+DG	M10	B	03	cotyledon	100	10	110	1
+DG	M10	B	03	embryo sac	50	0	50	0
+DG	M10	B	03	endocarpe	0	0	0	0
+DG	M10	B	04	cotyledon	50	0	50	0
+DG	M10	B	04	embryo sac	50	0	50	0
+DG	M10	B	04	endocarpe	50	0	50	0
+DG	M10	B	05	cotyledon	50	0	50	0
+DG	M10	B	05	embryo sac	51	0	51	0
+DG	M10	B	05	endocarpe	0	0	0	0
+DG	M10	B	06	cotyledon	52	0	52	0
+DG	M10	B	06	embryo sac	50	0	50	0
+DG	M10	B	06	endocarpe	0	0	0	0
+DG	M10	B	07	cotyledon	119	0	119	0
+DG	M10	B	07	embryo sac	109	0	109	0
+DG	M10	B	07	endocarpe	101	12	113	1
+DG	M10	B	08	cotyledon	109	0	109	0
+DG	M10	B	08	embryo sac	50	0	50	0
+DG	M10	B	08	endocarpe	0	0	0	0
+DG	M10	B	09	cotyledon	105	0	105	0
+DG	M10	B	09	embryo sac	51	0	51	0
+DG	M10	B	09	endocarpe	112	0	112	0
+DG	M10	B	10	cotyledon	50	0	50	0
+DG	M10	B	10	embryo sac	92	9	101	1
+DG	M10	B	10	endocarpe	50	0	50	0
+DG	M10	B	11	cotyledon	50	0	50	0
+DG	M10	B	11	embryo sac	50	0	50	0
+DG	M10	B	11	endocarpe	97	7	104	0
+DG	M10	B	12	cotyledon	51	0	51	0
+DG	M10	B	12	embryo sac	50	0	50	0
+DG	M10	B	12	endocarpe	117	0	117	0
+DG	M10	B	13	cotyledon	52	0	52	0
+DG	M10	B	13	embryo sac	50	0	50	0
+DG	M10	B	13	endocarpe	0	0	0	0
+DG	M10	B	14	cotyledon	53	0	53	0
+DG	M10	B	14	embryo sac	51	0	51	0
+DG	M10	B	14	endocarpe	0	0	0	0
+DG	M10	B	15	cotyledon	51	0	51	0
+DG	M10	B	15	embryo sac	49	0	49	0
+DG	M10	B	15	endocarpe	0	0	0	0
+DG	M10	B	16	cotyledon	118	0	118	0
+DG	M10	B	16	embryo sac	50	0	50	0
+DG	M10	B	16	endocarpe	107	0	107	0
+DG	M10	B	17	cotyledon	112	0	112	0
+DG	M10	B	17	embryo sac	50	0	50	0
+DG	M10	B	17	endocarpe	0	0	0	0
+DG	M10	B	18	cotyledon	53	0	53	0
+DG	M10	B	18	embryo sac	51	0	51	0
+DG	M10	B	18	endocarpe	0	0	0	0
+DG	M10	B	19	cotyledon	50	0	50	0
+DG	M10	B	19	embryo sac	99	11	110	1
+DG	M10	B	19	endocarpe	51	0	51	0
+DG	M10	B	20	cotyledon	50	0	50	0
+DG	M10	B	20	embryo sac	78	0	78	0
+DG	M10	B	20	endocarpe	2	0	2	0
+DG	M10	B	21	cotyledon	50	0	50	0
+DG	M10	B	21	embryo sac	50	0	50	0
+DG	M10	B	21	endocarpe	0	0	0	0
+DG	M10	B	22	cotyledon	50	0	50	0
+DG	M10	B	22	embryo sac	50	0	50	0
+DG	M10	B	22	endocarpe	0	0	0	0
+DG	M10	B	23	cotyledon	93	10	103	1
+DG	M10	B	23	embryo sac	0	0	0	0
+DG	M10	B	23	endocarpe	34	4	38	1
+DG	M10	B	24	cotyledon	50	0	50	0
+DG	M10	B	24	embryo sac	22	0	22	0
+DG	M10	B	24	endocarpe	102	0	102	0
+DG	M10	B	25	cotyledon	50	0	50	0
+DG	M10	B	25	embryo sac	50	0	50	0
+DG	M10	B	25	endocarpe	50	0	50	0
+DG	M10	C	01	cotyledon	0	0	0	0
+DG	M10	C	01	embryo sac	50	0	50	0
+DG	M10	C	01	endocarpe	52	0	52	0
+DG	M10	C	02	cotyledon	50	0	50	0
+DG	M10	C	02	embryo sac	50	0	50	0
+DG	M10	C	02	endocarpe	50	0	50	0
+DG	M10	C	03	cotyledon	50	0	50	0
+DG	M10	C	03	embryo sac	52	0	52	0
+DG	M10	C	03	endocarpe	50	0	50	0
+DG	M10	D	01	cotyledon	79	6	85	1
+DG	M10	D	01	embryo sac	16	0	16	0
+DG	M10	D	01	endocarpe	102	0	102	0
+DG	M10	D	02	cotyledon	109	0	109	0
+DG	M10	D	02	embryo sac	49	0	49	0
+DG	M10	D	02	endocarpe	50	0	50	0
+DG	M10	D	03	cotyledon	49	0	49	0
+DG	M10	D	03	embryo sac	97	7	104	0
+DG	M10	D	03	endocarpe	57	0	57	0
+DG	M10	D	05	embryo sac	48	0	48	0
+DG	M10	D	05	endocarpe	50	0	50	0
+DG	M11	A	01	cotyledon	0	0	0	0
+DG	M11	A	01	embryo sac	0	0	0	0
+DG	M11	A	02	cotyledon	50	0	50	0
+DG	M11	A	02	embryo sac	45	0	45	0
+DG	M11	A	02	endocarpe	39	0	39	0
+DG	M11	A	03	cotyledon	48	0	48	0
+DG	M11	A	03	embryo sac	50	0	50	0
+DG	M11	A	04	cotyledon	0	0	0	0
+DG	M11	A	04	embryo sac	41	0	41	0
+DG	M11	A	05	cotyledon	18	0	18	0
+DG	M11	A	05	embryo sac	36	0	36	0
+DG	M11	A	05	endocarpe	4	0	4	0
+DG	M11	A	06	cotyledon	0	0	0	0
+DG	M11	A	06	embryo sac	0	0	0	0
+DG	M11	A	07	cotyledon	0	0	0	0
+DG	M11	A	07	embryo sac	2	0	2	0
+DG	M11	A	07	endocarpe	20	0	20	0
+DG	M11	A	08	cotyledon	20	0	20	0
+DG	M11	A	08	embryo sac	48	0	48	0
+DG	M11	A	09	cotyledon	2	0	2	0
+DG	M11	A	09	embryo sac	33	0	33	0
+DG	M11	A	10	cotyledon	34	0	34	0
+DG	M11	A	10	embryo sac	44	0	44	0
+DG	M11	A	11	cotyledon	30	0	30	0
+DG	M11	A	11	embryo sac	51	0	51	0
+DG	M11	A	11	endocarpe	30	0	30	0
+DG	M11	A	12	cotyledon	0	0	0	0
+DG	M11	A	12	embryo sac	24	0	24	0
+DG	M11	A	12	endocarpe	0	0	0	0
+DG	M11	A	13	cotyledon	41	0	41	0
+DG	M11	A	13	embryo sac	34	0	34	0
+DG	M11	A	13	endocarpe	36	0	36	0
+DG	M11	A	14	cotyledon	34	0	34	0
+DG	M11	A	14	embryo sac	33	0	33	0
+DG	M11	A	14	endocarpe	4	0	4	0
+DG	M11	A	15	cotyledon	44	0	44	0
+DG	M11	A	15	embryo sac	42	0	42	0
+DG	M11	A	15	endocarpe	34	0	34	0
+DG	M11	A	16	cotyledon	45	0	45	0
+DG	M11	A	16	embryo sac	36	0	36	0
+DG	M11	A	16	endocarpe	50	0	50	0
+DG	M11	A	17	cotyledon	38	0	38	0
+DG	M11	A	17	embryo sac	48	0	48	0
+DG	M11	A	17	endocarpe	36	0	36	0
+DG	M11	A	18	cotyledon	40	0	40	0
+DG	M11	A	18	embryo sac	39	0	39	0
+DG	M11	A	18	endocarpe	0	0	0	0
+DG	M11	A	19	cotyledon	2	0	2	0
+DG	M11	A	19	embryo sac	35	0	35	0
+DG	M11	A	19	endocarpe	0	0	0	0
+DG	M11	A	20	cotyledon	18	0	18	0
+DG	M11	A	20	embryo sac	46	0	46	0
+DG	M11	A	20	endocarpe	43	0	43	0
+DG	M11	B	01	cotyledon	36	0	36	0
+DG	M11	B	01	embryo sac	50	0	50	0
+DG	M11	B	01	endocarpe	0	10	10	1
+DG	M11	B	02	cotyledon	4	0	4	0
+DG	M11	B	02	embryo sac	50	0	50	0
+DG	M11	B	02	endocarpe	0	0	0	0
+DG	M11	B	03	cotyledon	0	0	0	0
+DG	M11	B	03	embryo sac	8	0	8	0
+DG	M11	B	03	endocarpe	0	0	0	0
+DG	M11	B	04	cotyledon	0	0	0	0
+DG	M11	B	04	embryo sac	21	0	21	0
+DG	M11	B	04	endocarpe	6	26	32	1
+DG	M11	B	05	cotyledon	16	0	16	0
+DG	M11	B	05	embryo sac	49	0	49	0
+DG	M11	B	05	endocarpe	0	0	0	0
+DG	M11	B	06	cotyledon	0	0	0	0
+DG	M11	B	06	embryo sac	50	0	50	0
+DG	M11	B	06	endocarpe	0	0	0	0
+DG	M11	B	07	cotyledon	0	0	0	0
+DG	M11	B	07	embryo sac	0	0	0	0
+DG	M11	B	07	endocarpe	0	0	0	0
+DG	M11	B	08	cotyledon	42	0	42	0
+DG	M11	B	08	embryo sac	38	0	38	0
+DG	M11	B	08	endocarpe	0	0	0	0
+DG	M11	B	09	cotyledon	0	0	0	0
+DG	M11	B	09	embryo sac	39	0	39	0
+DG	M11	B	09	endocarpe	15	0	15	0
+DG	M11	B	10	cotyledon	16	0	16	0
+DG	M11	B	10	embryo sac	50	0	50	0
+DG	M11	B	10	endocarpe	41	78	119	1
+DG	M11	B	11	cotyledon	34	0	34	0
+DG	M11	B	11	embryo sac	46	0	46	0
+DG	M11	B	11	endocarpe	46	0	46	0
+DG	M11	B	12	cotyledon	50	0	50	0
+DG	M11	B	12	embryo sac	50	0	50	0
+DG	M11	B	12	endocarpe	34	0	34	0
+DG	M11	B	13	cotyledon	2	0	2	0
+DG	M11	B	13	embryo sac	0	0	0	0
+DG	M11	B	13	endocarpe	0	0	0	0
+DG	M11	B	14	cotyledon	2	0	2	0
+DG	M11	B	14	embryo sac	35	0	35	0
+DG	M11	B	14	endocarpe	0	0	0	0
+DG	M11	B	15	cotyledon	0	0	0	0
+DG	M11	B	15	embryo sac	0	0	0	0
+DG	M11	B	15	endocarpe	0	0	0	0
+DG	M11	B	16	cotyledon	4	0	4	0
+DG	M11	B	16	embryo sac	50	0	50	0
+DG	M11	B	16	endocarpe	6	0	6	0
+DG	M11	B	17	cotyledon	0	0	0	0
+DG	M11	B	17	embryo sac	0	0	0	0
+DG	M11	B	17	endocarpe	0	0	0	0
+DG	M11	B	18	cotyledon	0	0	0	0
+DG	M11	B	18	embryo sac	0	0	0	0
+DG	M11	B	18	endocarpe	0	12	12	1
+DG	M11	B	19	cotyledon	50	0	50	0
+DG	M11	B	19	embryo sac	50	0	50	0
+DG	M11	B	19	endocarpe	38	0	38	0
+DG	M11	B	20	cotyledon	36	0	36	0
+DG	M11	B	20	embryo sac	50	0	50	0
+DG	M11	B	20	endocarpe	0	0	0	0
+DG	M11	B	21	cotyledon	6	0	6	0
+DG	M11	B	21	embryo sac	51	0	51	0
+DG	M11	B	21	endocarpe	0	0	0	0
+DG	M11	B	22	cotyledon	24	0	24	0
+DG	M11	B	22	embryo sac	35	0	35	0
+DG	M11	B	22	endocarpe	0	0	0	0
+DG	M11	B	23	cotyledon	4	0	4	0
+DG	M11	B	23	embryo sac	0	0	0	0
+DG	M11	B	23	endocarpe	22	0	22	0
+DG	M11	B	24	cotyledon	45	0	45	0
+DG	M11	B	24	embryo sac	50	0	50	0
+DG	M11	B	24	endocarpe	2	0	2	0
+DG	M11	B	25	cotyledon	2	0	2	0
+DG	M11	B	25	embryo sac	2	0	2	0
+DG	M11	B	25	endocarpe	2	0	2	0
+DG	M11	C	01	cotyledon	0	0	0	0
+DG	M11	C	01	embryo sac	26	0	26	0
+DG	M11	C	01	endocarpe	10	0	10	0
+DG	M11	C	02	cotyledon	50	0	50	0
+DG	M11	C	02	embryo sac	42	0	42	0
+DG	M11	C	02	endocarpe	35	0	35	0
+DG	M11	C	03	cotyledon	39	0	39	0
+DG	M11	C	03	embryo sac	50	0	50	0
+DG	M11	C	03	endocarpe	50	0	50	0
+DG	M11	D	01	cotyledon	44	0	44	0
+DG	M11	D	01	embryo sac	44	0	44	0
+DG	M11	D	01	endocarpe	50	0	50	0
+DG	M11	D	02	cotyledon	20	0	20	0
+DG	M11	D	02	embryo sac	37	0	37	0
+DG	M11	D	02	endocarpe	0	0	0	0
+DG	M11	D	03	cotyledon	45	0	45	0
+DG	M11	D	03	embryo sac	0	0	0	0
+DG	M11	D	03	endocarpe	0	0	0	0
+DG	M11	D	05	embryo sac	50	0	50	0
+DG	M11	D	05	endocarpe	43	0	43	0
+DG	M12	A	01	cotyledon	0	0	0	0
+DG	M12	A	01	embryo sac	118	0	118	0
+DG	M12	A	02	cotyledon	108	0	108	0
+DG	M12	A	02	embryo sac	110	0	110	0
+DG	M12	A	02	endocarpe	119	0	119	0
+DG	M12	A	03	cotyledon	128	0	128	0
+DG	M12	A	03	embryo sac	66	4	70	0
+DG	M12	A	04	cotyledon	0	2	2	1
+DG	M12	A	04	embryo sac	2	0	2	0
+DG	M12	A	05	cotyledon	25	81	106	1
+DG	M12	A	05	embryo sac	51	59	110	1
+DG	M12	A	05	endocarpe	34	0	34	0
+DG	M12	A	06	cotyledon	42	78	120	1
+DG	M12	A	06	embryo sac	49	60	109	1
+DG	M12	A	07	cotyledon	50	0	50	0
+DG	M12	A	07	embryo sac	109	0	109	0
+DG	M12	A	07	endocarpe	94	0	94	0
+DG	M12	A	08	cotyledon	124	0	124	0
+DG	M12	A	08	embryo sac	83	0	83	0
+DG	M12	A	09	cotyledon	104	0	104	0
+DG	M12	A	09	embryo sac	89	10	101	1
+DG	M12	A	10	cotyledon	102	0	102	0
+DG	M12	A	10	embryo sac	69	0	69	0
+DG	M12	A	11	cotyledon	117	0	117	0
+DG	M12	A	11	embryo sac	102	0	102	0
+DG	M12	A	11	endocarpe	71	0	71	0
+DG	M12	A	12	cotyledon	87	0	87	0
+DG	M12	A	12	embryo sac	47	0	89	0
+DG	M12	A	12	endocarpe	12	0	12	0
+DG	M12	A	13	cotyledon	77	0	77	0
+DG	M12	A	13	embryo sac	94	0	94	0
+DG	M12	A	13	endocarpe	99	0	99	0
+DG	M12	A	14	cotyledon	85	0	85	0
+DG	M12	A	14	embryo sac	50	0	68	0
+DG	M12	A	14	endocarpe	59	0	59	0
+DG	M12	A	15	cotyledon	108	9	117	0
+DG	M12	A	15	embryo sac	99	0	99	0
+DG	M12	A	15	endocarpe	114	0	114	0
+DG	M12	A	16	cotyledon	106	0	106	0
+DG	M12	A	16	embryo sac	72	0	72	0
+DG	M12	A	16	endocarpe	16	0	16	0
+DG	M12	A	17	cotyledon	0	0	0	0
+DG	M12	A	17	embryo sac	75	0	104	0
+DG	M12	A	17	endocarpe	2	0	2	0
+DG	M12	A	18	cotyledon	102	0	102	0
+DG	M12	A	18	embryo sac	41	2	43	0
+DG	M12	A	18	endocarpe	0	0	0	0
+DG	M12	A	19	cotyledon	90	0	90	0
+DG	M12	A	19	embryo sac	34	0	66	0
+DG	M12	A	19	endocarpe	0	0	0	0
+DG	M12	A	20	cotyledon	106	0	106	0
+DG	M12	A	20	embryo sac	68	0	68	0
+DG	M12	A	20	endocarpe	6	0	6	0
+DG	M12	B	01	cotyledon	10	0	10	0
+DG	M12	B	01	embryo sac	100	0	100	0
+DG	M12	B	01	endocarpe	2	0	2	0
+DG	M12	B	02	cotyledon	77	0	77	0
+DG	M12	B	02	embryo sac	60	0	60	0
+DG	M12	B	02	endocarpe	0	0	0	0
+DG	M12	B	03	cotyledon	49	0	49	0
+DG	M12	B	03	embryo sac	6	0	6	0
+DG	M12	B	03	endocarpe	0	0	0	0
+DG	M12	B	04	cotyledon	26	32	58	1
+DG	M12	B	04	embryo sac	50	20	70	1
+DG	M12	B	04	endocarpe	38	0	38	0
+DG	M12	B	05	cotyledon	101	0	101	0
+DG	M12	B	05	embryo sac	57	8	65	1
+DG	M12	B	05	endocarpe	0	0	0	0
+DG	M12	B	06	cotyledon	67	0	67	0
+DG	M12	B	06	embryo sac	51	0	51	0
+DG	M12	B	06	endocarpe	2	0	2	0
+DG	M12	B	07	cotyledon	102	0	102	0
+DG	M12	B	07	embryo sac	49	0	49	0
+DG	M12	B	07	endocarpe	8	0	8	0
+DG	M12	B	08	cotyledon	54	5	59	0
+DG	M12	B	08	embryo sac	80	6	86	0
+DG	M12	B	08	endocarpe	0	0	0	0
+DG	M12	B	09	cotyledon	130	0	130	0
+DG	M12	B	09	embryo sac	91	0	91	0
+DG	M12	B	09	endocarpe	30	2	32	0
+DG	M12	B	10	cotyledon	105	0	105	0
+DG	M12	B	10	embryo sac	84	0	84	0
+DG	M12	B	10	endocarpe	30	0	30	0
+DG	M12	B	11	cotyledon	91	9	102	1
+DG	M12	B	11	embryo sac	75	16	91	1
+DG	M12	B	11	endocarpe	61	0	61	0
+DG	M12	B	12	cotyledon	56	0	56	0
+DG	M12	B	12	embryo sac	74	0	74	0
+DG	M12	B	12	endocarpe	107	0	107	0
+DG	M12	B	13	cotyledon	107	0	107	0
+DG	M12	B	13	embryo sac	85	0	85	0
+DG	M12	B	13	endocarpe	0	0	0	0
+DG	M12	B	14	cotyledon	16	6	22	1
+DG	M12	B	14	embryo sac	0	0	88	1
+DG	M12	B	14	endocarpe	0	0	0	0
+DG	M12	B	15	cotyledon	14	22	36	1
+DG	M12	B	15	embryo sac	36	46	82	1
+DG	M12	B	15	endocarpe	0	0	0	0
+DG	M12	B	16	cotyledon	111	0	111	0
+DG	M12	B	16	embryo sac	97	11	108	1
+DG	M12	B	16	endocarpe	18	0	18	0
+DG	M12	B	17	cotyledon	102	0	102	0
+DG	M12	B	17	embryo sac	51	0	51	0
+DG	M12	B	17	endocarpe	0	0	0	0
+DG	M12	B	18	cotyledon	59	92	151	1
+DG	M12	B	18	embryo sac	38	59	99	1
+DG	M12	B	18	endocarpe	0	0	0	0
+DG	M12	B	19	cotyledon	53	0	53	0
+DG	M12	B	19	embryo sac	42	0	44	0
+DG	M12	B	19	endocarpe	8	0	8	0
+DG	M12	B	20	cotyledon	59	0	100	0
+DG	M12	B	20	embryo sac	52	0	97	0
+DG	M12	B	20	endocarpe	0	0	0	0
+DG	M12	B	21	cotyledon	33	0	33	0
+DG	M12	B	21	embryo sac	93	0	93	0
+DG	M12	B	21	endocarpe	0	0	0	0
+DG	M12	B	22	cotyledon	54	0	54	0
+DG	M12	B	22	embryo sac	97	0	97	0
+DG	M12	B	22	endocarpe	0	0	0	0
+DG	M12	B	23	cotyledon	96	0	96	0
+DG	M12	B	23	embryo sac	0	0	0	0
+DG	M12	B	23	endocarpe	46	0	46	0
+DG	M12	B	24	cotyledon	101	0	101	0
+DG	M12	B	24	embryo sac	102	0	102	0
+DG	M12	B	24	endocarpe	40	0	40	0
+DG	M12	B	25	cotyledon	90	12	102	1
+DG	M12	B	25	embryo sac	65	6	71	0
+DG	M12	B	25	endocarpe	4	0	10	0
+DG	M12	C	01	cotyledon	0	0	0	0
+DG	M12	C	01	embryo sac	105	7	112	0
+DG	M12	C	01	endocarpe	45	26	71	1
+DG	M12	C	02	cotyledon	83	10	95	1
+DG	M12	C	02	embryo sac	45	0	45	0
+DG	M12	C	02	endocarpe	64	0	64	0
+DG	M12	C	03	cotyledon	80	0	80	0
+DG	M12	C	03	embryo sac	15	4	19	1
+DG	M12	C	03	endocarpe	59	4	63	0
+DG	M12	D	01	cotyledon	42	0	42	0
+DG	M12	D	01	embryo sac	61	5	66	0
+DG	M12	D	01	endocarpe	90	9	99	1
+DG	M12	D	02	cotyledon	84	0	84	0
+DG	M12	D	02	embryo sac	87	13	102	1
+DG	M12	D	02	endocarpe	43	64	107	1
+DG	M12	D	03	cotyledon	75	0	75	0
+DG	M12	D	03	embryo sac	54	53	107	1
+DG	M12	D	03	endocarpe	22	0	22	0
+DG	M12	D	05	embryo sac	89	9	98	0
+DG	M12	D	05	endocarpe	87	8	95	0
+DG	M13	A	01	cotyledon	27	0	27	0
+DG	M13	A	01	embryo sac	101	14	115	1
+DG	M13	A	02	cotyledon	50	0	50	0
+DG	M13	A	02	embryo sac	52	0	52	0
+DG	M13	A	02	endocarpe	82	0	82	0
+DG	M13	A	03	cotyledon	109	0	109	0
+DG	M13	A	03	embryo sac	105	0	105	0
+DG	M13	A	04	cotyledon	11	0	11	0
+DG	M13	A	04	embryo sac	103	14	117	1
+DG	M13	A	05	cotyledon	72	34	106	1
+DG	M13	A	05	embryo sac	58	17	78	1
+DG	M13	A	05	endocarpe	86	0	86	0
+DG	M13	A	06	cotyledon	104	20	124	1
+DG	M13	A	06	embryo sac	101	11	112	0
+DG	M13	A	07	cotyledon	108	0	108	0
+DG	M13	A	07	embryo sac	102	12	114	0
+DG	M13	A	07	endocarpe	104	13	117	1
+DG	M13	A	08	cotyledon	104	14	118	1
+DG	M13	A	08	embryo sac	103	17	120	1
+DG	M13	A	09	cotyledon	1	0	1	0
+DG	M13	A	09	embryo sac	64	27	94	1
+DG	M13	A	10	cotyledon	50	0	50	0
+DG	M13	A	10	embryo sac	51	0	51	0
+DG	M13	A	11	cotyledon	51	0	51	0
+DG	M13	A	11	embryo sac	51	0	51	0
+DG	M13	A	11	endocarpe	96	11	107	0
+DG	M13	A	12	cotyledon	68	0	68	0
+DG	M13	A	12	embryo sac	103	10	113	0
+DG	M13	A	12	endocarpe	64	0	64	0
+DG	M13	A	13	cotyledon	97	12	109	0
+DG	M13	A	13	embryo sac	114	0	114	0
+DG	M13	A	13	endocarpe	101	10	111	0
+DG	M13	A	14	cotyledon	49	0	49	0
+DG	M13	A	14	embryo sac	61	0	61	0
+DG	M13	A	14	endocarpe	73	0	73	0
+DG	M13	A	15	cotyledon	63	21	84	1
+DG	M13	A	15	embryo sac	63	21	84	1
+DG	M13	A	15	endocarpe	108	0	108	0
+DG	M13	A	16	cotyledon	57	23	80	1
+DG	M13	A	16	embryo sac	58	21	79	1
+DG	M13	A	16	endocarpe	102	25	131	1
+DG	M13	A	17	cotyledon	77	0	77	0
+DG	M13	A	17	embryo sac	101	19	120	1
+DG	M13	A	17	endocarpe	105	15	120	1
+DG	M13	A	18	cotyledon	106	16	122	1
+DG	M13	A	18	embryo sac	104	0	104	0
+DG	M13	A	18	endocarpe	0	0	0	0
+DG	M13	A	19	cotyledon	99	11	110	0
+DG	M13	A	19	embryo sac	107	0	107	0
+DG	M13	A	19	endocarpe	0	0	0	0
+DG	M13	A	20	cotyledon	50	0	50	0
+DG	M13	A	20	embryo sac	63	0	63	0
+DG	M13	A	20	endocarpe	106	14	120	1
+DG	M13	B	01	cotyledon	101	17	118	1
+DG	M13	B	01	embryo sac	100	10	110	0
+DG	M13	B	01	endocarpe	19	0	19	0
+DG	M13	B	02	cotyledon	50	0	50	0
+DG	M13	B	02	embryo sac	50	0	50	0
+DG	M13	B	02	endocarpe	0	0	0	0
+DG	M13	B	03	cotyledon	50	0	50	0
+DG	M13	B	03	embryo sac	70	0	70	0
+DG	M13	B	03	endocarpe	0	0	0	0
+DG	M13	B	04	cotyledon	100	18	118	1
+DG	M13	B	04	embryo sac	109	0	109	0
+DG	M13	B	04	endocarpe	100	13	113	0
+DG	M13	B	05	cotyledon	108	20	128	1
+DG	M13	B	05	embryo sac	97	17	116	1
+DG	M13	B	05	endocarpe	0	0	0	0
+DG	M13	B	06	cotyledon	111	0	111	0
+DG	M13	B	06	embryo sac	99	16	115	1
+DG	M13	B	06	endocarpe	0	0	0	0
+DG	M13	B	07	cotyledon	104	24	131	1
+DG	M13	B	07	embryo sac	97	18	115	1
+DG	M13	B	07	endocarpe	48	0	48	0
+DG	M13	B	08	cotyledon	73	43	116	1
+DG	M13	B	08	embryo sac	59	34	93	1
+DG	M13	B	08	endocarpe	0	0	0	0
+DG	M13	B	09	cotyledon	103	11	114	1
+DG	M13	B	09	embryo sac	102	10	113	0
+DG	M13	B	09	endocarpe	104	12	116	0
+DG	M13	B	10	cotyledon	65	51	120	1
+DG	M13	B	10	embryo sac	66	40	106	1
+DG	M13	B	10	endocarpe	106	31	137	1
+DG	M13	B	11	cotyledon	61	27	88	1
+DG	M13	B	11	embryo sac	56	31	89	1
+DG	M13	B	11	endocarpe	100	13	113	1
+DG	M13	B	12	cotyledon	100	15	115	1
+DG	M13	B	12	embryo sac	99	14	113	1
+DG	M13	B	12	endocarpe	100	11	111	0
+DG	M13	B	13	cotyledon	108	14	124	1
+DG	M13	B	13	embryo sac	109	17	126	1
+DG	M13	B	13	endocarpe	0	0	0	0
+DG	M13	B	14	cotyledon	51	12	63	1
+DG	M13	B	14	embryo sac	57	22	81	1
+DG	M13	B	14	endocarpe	0	0	0	0
+DG	M13	B	15	cotyledon	68	46	114	1
+DG	M13	B	15	embryo sac	63	20	83	1
+DG	M13	B	15	endocarpe	1	0	1	0
+DG	M13	B	16	cotyledon	109	0	109	0
+DG	M13	B	16	embryo sac	104	11	115	0
+DG	M13	B	16	endocarpe	102	12	114	1
+DG	M13	B	17	cotyledon	101	21	122	1
+DG	M13	B	17	embryo sac	102	10	112	0
+DG	M13	B	17	endocarpe	0	0	0	0
+DG	M13	B	18	cotyledon	106	16	125	1
+DG	M13	B	18	embryo sac	104	24	128	1
+DG	M13	B	18	endocarpe	0	0	0	0
+DG	M13	B	19	cotyledon	106	25	131	1
+DG	M13	B	19	embryo sac	108	0	108	0
+DG	M13	B	19	endocarpe	105	23	128	1
+DG	M13	B	20	cotyledon	107	17	124	1
+DG	M13	B	20	embryo sac	112	15	127	1
+DG	M13	B	20	endocarpe	0	0	0	0
+DG	M13	B	21	cotyledon	110	22	132	1
+DG	M13	B	21	embryo sac	113	21	134	1
+DG	M13	B	21	endocarpe	0	0	0	0
+DG	M13	B	22	cotyledon	59	49	108	1
+DG	M13	B	22	embryo sac	71	38	109	1
+DG	M13	B	22	endocarpe	35	2	37	0
+DG	M13	B	23	cotyledon	52	0	52	0
+DG	M13	B	23	embryo sac	0	0	0	0
+DG	M13	B	23	endocarpe	95	0	95	0
+DG	M13	B	24	cotyledon	77	42	119	1
+DG	M13	B	24	embryo sac	68	31	102	1
+DG	M13	B	24	endocarpe	98	0	98	0
+DG	M13	B	25	cotyledon	66	38	104	1
+DG	M13	B	25	embryo sac	79	49	132	1
+DG	M13	B	25	endocarpe	83	9	92	0
+DG	M13	C	01	cotyledon	0	0	0	0
+DG	M13	C	01	embryo sac	94	0	94	0
+DG	M13	C	01	endocarpe	106	27	133	1
+DG	M13	C	02	cotyledon	111	24	135	1
+DG	M13	C	02	embryo sac	102	15	117	1
+DG	M13	C	02	endocarpe	105	11	120	1
+DG	M13	C	03	cotyledon	103	25	128	1
+DG	M13	C	03	embryo sac	108	17	125	1
+DG	M13	C	03	endocarpe	107	25	134	1
+DG	M13	D	01	cotyledon	102	12	114	1
+DG	M13	D	01	embryo sac	102	0	102	0
+DG	M13	D	01	endocarpe	61	32	97	1
+DG	M13	D	02	cotyledon	109	17	126	1
+DG	M13	D	02	embryo sac	65	43	108	1
+DG	M13	D	02	endocarpe	76	0	76	0
+DG	M13	D	03	cotyledon	102	17	119	1
+DG	M13	D	03	embryo sac	71	0	71	0
+DG	M13	D	03	endocarpe	50	0	50	0
+DG	M13	D	05	embryo sac	78	29	110	1
+DG	M13	D	05	endocarpe	110	17	127	1
+DG	M14	A	01	cotyledon	1	0	1	0
+DG	M14	A	01	embryo sac	54	0	54	0
+DG	M14	A	02	cotyledon	50	0	50	0
+DG	M14	A	02	embryo sac	51	0	51	0
+DG	M14	A	02	endocarpe	51	0	51	0
+DG	M14	A	03	cotyledon	50	0	50	0
+DG	M14	A	03	embryo sac	57	0	57	0
+DG	M14	A	04	cotyledon	0	0	0	0
+DG	M14	A	04	embryo sac	42	0	42	0
+DG	M14	A	05	cotyledon	53	0	53	0
+DG	M14	A	05	embryo sac	63	0	63	0
+DG	M14	A	05	endocarpe	64	0	64	0
+DG	M14	A	06	cotyledon	34	0	34	0
+DG	M14	A	06	embryo sac	60	0	60	0
+DG	M14	A	07	cotyledon	61	0	61	0
+DG	M14	A	07	embryo sac	64	0	64	0
+DG	M14	A	07	endocarpe	52	0	52	0
+DG	M14	A	08	cotyledon	50	0	50	0
+DG	M14	A	08	embryo sac	54	0	54	0
+DG	M14	A	09	cotyledon	0	0	0	0
+DG	M14	A	09	embryo sac	50	0	50	0
+DG	M14	A	10	cotyledon	50	0	50	0
+DG	M14	A	10	embryo sac	54	0	54	0
+DG	M14	A	11	cotyledon	50	0	50	0
+DG	M14	A	11	embryo sac	64	0	64	0
+DG	M14	A	11	endocarpe	50	0	50	0
+DG	M14	A	12	cotyledon	10	0	10	0
+DG	M14	A	12	embryo sac	57	0	57	0
+DG	M14	A	12	endocarpe	0	0	0	0
+DG	M14	A	13	cotyledon	58	0	58	0
+DG	M14	A	13	embryo sac	57	0	57	0
+DG	M14	A	13	endocarpe	53	0	53	0
+DG	M14	A	14	cotyledon	64	0	64	0
+DG	M14	A	14	embryo sac	62	0	62	0
+DG	M14	A	14	endocarpe	50	0	50	0
+DG	M14	A	15	cotyledon	55	0	55	0
+DG	M14	A	15	embryo sac	61	0	61	0
+DG	M14	A	15	endocarpe	50	0	50	0
+DG	M14	A	16	cotyledon	65	0	65	0
+DG	M14	A	16	embryo sac	58	0	58	0
+DG	M14	A	16	endocarpe	52	0	52	0
+DG	M14	A	17	cotyledon	6	0	6	0
+DG	M14	A	17	embryo sac	56	0	56	0
+DG	M14	A	17	endocarpe	47	0	47	0
+DG	M14	A	18	cotyledon	55	0	55	0
+DG	M14	A	18	embryo sac	58	0	58	0
+DG	M14	A	18	endocarpe	0	0	0	0
+DG	M14	A	19	cotyledon	14	0	14	0
+DG	M14	A	19	embryo sac	57	0	57	0
+DG	M14	A	19	endocarpe	0	0	0	0
+DG	M14	A	20	cotyledon	52	0	52	0
+DG	M14	A	20	embryo sac	58	0	58	0
+DG	M14	A	20	endocarpe	54	0	54	0
+DG	M14	B	01	cotyledon	53	0	53	0
+DG	M14	B	01	embryo sac	56	0	56	0
+DG	M14	B	01	endocarpe	8	0	8	0
+DG	M14	B	02	cotyledon	50	0	50	0
+DG	M14	B	02	embryo sac	50	0	50	0
+DG	M14	B	02	endocarpe	2	0	2	0
+DG	M14	B	03	cotyledon	56	0	56	0
+DG	M14	B	03	embryo sac	50	0	50	0
+DG	M14	B	03	endocarpe	0	0	0	0
+DG	M14	B	04	cotyledon	55	0	55	0
+DG	M14	B	04	embryo sac	58	0	58	0
+DG	M14	B	04	endocarpe	52	0	52	0
+DG	M14	B	05	cotyledon	0	0	2	0
+DG	M14	B	05	embryo sac	55	0	55	0
+DG	M14	B	05	endocarpe	0	0	0	0
+DG	M14	B	06	cotyledon	50	0	50	0
+DG	M14	B	06	embryo sac	51	0	51	0
+DG	M14	B	06	endocarpe	0	0	0	0
+DG	M14	B	07	cotyledon	50	0	50	0
+DG	M14	B	07	embryo sac	59	0	59	0
+DG	M14	B	07	endocarpe	44	0	44	0
+DG	M14	B	08	cotyledon	50	0	50	0
+DG	M14	B	08	embryo sac	57	0	57	0
+DG	M14	B	08	endocarpe	0	0	0	0
+DG	M14	B	09	cotyledon	50	0	50	0
+DG	M14	B	09	embryo sac	55	0	55	0
+DG	M14	B	09	endocarpe	51	0	51	0
+DG	M14	B	10	cotyledon	51	0	51	0
+DG	M14	B	10	embryo sac	63	0	63	0
+DG	M14	B	10	endocarpe	61	0	61	0
+DG	M14	B	11	cotyledon	50	0	50	0
+DG	M14	B	11	embryo sac	50	0	50	0
+DG	M14	B	11	endocarpe	0	0	0	0
+DG	M14	B	12	cotyledon	57	0	57	0
+DG	M14	B	12	embryo sac	53	0	53	0
+DG	M14	B	12	endocarpe	50	0	50	0
+DG	M14	B	13	cotyledon	52	0	52	0
+DG	M14	B	13	embryo sac	64	0	64	0
+DG	M14	B	13	endocarpe	0	0	0	0
+DG	M14	B	14	cotyledon	4	0	4	0
+DG	M14	B	14	embryo sac	56	0	56	0
+DG	M14	B	14	endocarpe	0	0	0	0
+DG	M14	B	15	cotyledon	41	0	41	0
+DG	M14	B	15	embryo sac	54	0	54	0
+DG	M14	B	15	endocarpe	0	0	0	0
+DG	M14	B	16	cotyledon	12	0	12	0
+DG	M14	B	16	embryo sac	61	0	61	0
+DG	M14	B	16	endocarpe	50	0	50	0
+DG	M14	B	17	cotyledon	51	0	51	0
+DG	M14	B	17	embryo sac	68	0	68	0
+DG	M14	B	17	endocarpe	0	0	0	0
+DG	M14	B	18	cotyledon	50	0	50	0
+DG	M14	B	18	embryo sac	65	0	65	0
+DG	M14	B	18	endocarpe	5	0	5	0
+DG	M14	B	19	cotyledon	56	0	56	0
+DG	M14	B	19	embryo sac	62	0	62	0
+DG	M14	B	19	endocarpe	50	0	50	0
+DG	M14	B	20	cotyledon	50	0	50	0
+DG	M14	B	20	embryo sac	51	0	51	0
+DG	M14	B	20	endocarpe	0	0	0	0
+DG	M14	B	21	cotyledon	50	0	50	0
+DG	M14	B	21	embryo sac	55	0	55	0
+DG	M14	B	21	endocarpe	5	0	5	0
+DG	M14	B	22	cotyledon	55	0	55	0
+DG	M14	B	22	embryo sac	50	0	50	0
+DG	M14	B	22	endocarpe	4	0	4	0
+DG	M14	B	23	cotyledon	54	0	54	0
+DG	M14	B	23	embryo sac	0	0	0	0
+DG	M14	B	23	endocarpe	58	0	58	0
+DG	M14	B	24	cotyledon	50	0	50	0
+DG	M14	B	24	embryo sac	55	0	55	0
+DG	M14	B	24	endocarpe	50	0	50	0
+DG	M14	B	25	cotyledon	50	0	50	0
+DG	M14	B	25	embryo sac	52	0	52	0
+DG	M14	B	25	endocarpe	50	0	50	0
+DG	M14	C	01	cotyledon	2	0	2	0
+DG	M14	C	01	embryo sac	60	0	60	0
+DG	M14	C	01	endocarpe	55	0	55	0
+DG	M14	C	02	cotyledon	54	0	54	0
+DG	M14	C	02	embryo sac	57	0	57	0
+DG	M14	C	02	endocarpe	59	0	59	0
+DG	M14	C	03	cotyledon	54	0	54	0
+DG	M14	C	03	embryo sac	50	0	50	0
+DG	M14	C	03	endocarpe	55	0	55	0
+DG	M14	D	01	cotyledon	53	0	53	0
+DG	M14	D	01	embryo sac	52	0	52	0
+DG	M14	D	01	endocarpe	76	26	102	1
+DG	M14	D	02	cotyledon	58	0	58	0
+DG	M14	D	02	embryo sac	50	0	50	0
+DG	M14	D	02	endocarpe	57	0	57	0
+DG	M14	D	03	cotyledon	61	0	61	0
+DG	M14	D	03	embryo sac	61	0	61	0
+DG	M14	D	03	endocarpe	53	0	53	0
+DG	M14	D	05	embryo sac	54	0	54	0
+DG	M14	D	05	endocarpe	54	0	54	0
+DG	M15	A	01	cotyledon	3	0	3	0
+DG	M15	A	01	embryo sac	59	0	59	0
+DG	M15	A	02	cotyledon	163	0	163	0
+DG	M15	A	02	embryo sac	142	0	142	0
+DG	M15	A	02	endocarpe	139	0	139	0
+DG	M15	A	03	cotyledon	159	0	159	0
+DG	M15	A	03	embryo sac	153	0	153	0
+DG	M15	A	04	cotyledon	3	0	3	0
+DG	M15	A	04	embryo sac	129	0	129	0
+DG	M15	A	05	cotyledon	139	0	139	0
+DG	M15	A	05	embryo sac	125	0	125	0
+DG	M15	A	05	endocarpe	90	0	90	0
+DG	M15	A	06	cotyledon	42	0	42	0
+DG	M15	A	06	embryo sac	142	0	142	0
+DG	M15	A	07	cotyledon	172	0	172	0
+DG	M15	A	07	embryo sac	174	0	174	0
+DG	M15	A	07	endocarpe	151	0	151	0
+DG	M15	A	08	cotyledon	60	0	60	0
+DG	M15	A	08	embryo sac	128	0	128	0
+DG	M15	A	09	cotyledon	0	0	0	0
+DG	M15	A	09	embryo sac	139	0	139	0
+DG	M15	A	10	cotyledon	60	0	60	0
+DG	M15	A	10	embryo sac	129	0	129	0
+DG	M15	A	11	cotyledon	170	0	170	0
+DG	M15	A	11	embryo sac	169	0	169	0
+DG	M15	A	11	endocarpe	127	0	127	0
+DG	M15	A	12	cotyledon	3	0	3	0
+DG	M15	A	12	embryo sac	160	0	160	0
+DG	M15	A	12	endocarpe	3	0	3	0
+DG	M15	A	13	cotyledon	149	0	149	0
+DG	M15	A	13	embryo sac	142	0	142	0
+DG	M15	A	13	endocarpe	133	0	133	0
+DG	M15	A	14	cotyledon	127	0	127	0
+DG	M15	A	14	embryo sac	140	0	140	0
+DG	M15	A	14	endocarpe	61	0	61	0
+DG	M15	A	15	cotyledon	132	0	132	0
+DG	M15	A	15	embryo sac	136	0	136	0
+DG	M15	A	15	endocarpe	151	0	151	0
+DG	M15	A	16	cotyledon	171	0	171	0
+DG	M15	A	16	embryo sac	178	0	178	0
+DG	M15	A	16	endocarpe	172	0	172	0
+DG	M15	A	17	cotyledon	71	0	71	0
+DG	M15	A	17	embryo sac	165	0	165	0
+DG	M15	A	17	endocarpe	127	0	127	0
+DG	M15	A	18	cotyledon	154	0	154	0
+DG	M15	A	18	embryo sac	137	0	137	0
+DG	M15	A	18	endocarpe	2	0	2	0
+DG	M15	A	19	cotyledon	136	0	136	0
+DG	M15	A	19	embryo sac	129	0	129	0
+DG	M15	A	19	endocarpe	0	0	0	0
+DG	M15	A	20	cotyledon	103	0	103	0
+DG	M15	A	20	embryo sac	133	0	133	0
+DG	M15	A	20	endocarpe	139	0	139	0
+DG	M15	B	01	cotyledon	117	0	117	0
+DG	M15	B	01	embryo sac	162	0	162	0
+DG	M15	B	01	endocarpe	72	0	72	0
+DG	M15	B	02	cotyledon	11	0	11	0
+DG	M15	B	02	embryo sac	146	0	146	0
+DG	M15	B	02	endocarpe	0	0	0	0
+DG	M15	B	03	cotyledon	42	0	42	0
+DG	M15	B	03	embryo sac	136	0	136	0
+DG	M15	B	03	endocarpe	2	0	2	0
+DG	M15	B	04	cotyledon	170	0	170	0
+DG	M15	B	04	embryo sac	152	0	152	0
+DG	M15	B	04	endocarpe	145	0	145	0
+DG	M15	B	05	cotyledon	101	0	101	0
+DG	M15	B	05	embryo sac	154	0	154	0
+DG	M15	B	05	endocarpe	0	0	0	0
+DG	M15	B	06	cotyledon	33	0	33	0
+DG	M15	B	06	embryo sac	62	0	62	0
+DG	M15	B	06	endocarpe	2	0	2	0
+DG	M15	B	07	cotyledon	42	0	42	0
+DG	M15	B	07	embryo sac	62	0	62	0
+DG	M15	B	07	endocarpe	5	0	5	0
+DG	M15	B	08	cotyledon	56	0	56	0
+DG	M15	B	08	embryo sac	59	0	59	0
+DG	M15	B	08	endocarpe	0	0	0	0
+DG	M15	B	09	cotyledon	81	0	81	0
+DG	M15	B	09	embryo sac	137	0	137	0
+DG	M15	B	09	endocarpe	170	0	170	0
+DG	M15	B	10	cotyledon	138	0	138	0
+DG	M15	B	10	embryo sac	175	0	175	0
+DG	M15	B	10	endocarpe	199	0	199	0
+DG	M15	B	11	cotyledon	148	0	148	0
+DG	M15	B	11	embryo sac	154	0	154	0
+DG	M15	B	11	endocarpe	146	0	146	0
+DG	M15	B	12	cotyledon	164	0	164	0
+DG	M15	B	12	embryo sac	159	0	159	0
+DG	M15	B	12	endocarpe	175	0	175	0
+DG	M15	B	13	cotyledon	128	0	128	0
+DG	M15	B	13	embryo sac	168	0	168	0
+DG	M15	B	13	endocarpe	0	0	0	0
+DG	M15	B	14	cotyledon	15	0	15	0
+DG	M15	B	14	embryo sac	145	0	145	0
+DG	M15	B	14	endocarpe	0	0	0	0
+DG	M15	B	15	cotyledon	79	0	79	0
+DG	M15	B	15	embryo sac	145	0	145	0
+DG	M15	B	15	endocarpe	0	0	0	0
+DG	M15	B	16	cotyledon	104	0	104	0
+DG	M15	B	16	embryo sac	186	0	186	0
+DG	M15	B	16	endocarpe	124	0	124	0
+DG	M15	B	17	cotyledon	181	0	181	0
+DG	M15	B	17	embryo sac	145	0	145	0
+DG	M15	B	17	endocarpe	0	0	0	0
+DG	M15	B	18	cotyledon	191	0	191	0
+DG	M15	B	18	embryo sac	204	0	204	0
+DG	M15	B	18	endocarpe	0	0	0	0
+DG	M15	B	19	cotyledon	155	0	155	0
+DG	M15	B	19	embryo sac	152	0	152	0
+DG	M15	B	19	endocarpe	161	0	161	0
+DG	M15	B	20	cotyledon	147	0	147	0
+DG	M15	B	20	embryo sac	164	0	164	0
+DG	M15	B	20	endocarpe	0	0	0	0
+DG	M15	B	21	cotyledon	58	0	58	0
+DG	M15	B	21	embryo sac	172	0	172	0
+DG	M15	B	21	endocarpe	0	0	0	0
+DG	M15	B	22	cotyledon	55	0	55	0
+DG	M15	B	22	embryo sac	70	0	70	0
+DG	M15	B	22	endocarpe	2	0	2	0
+DG	M15	B	23	cotyledon	156	0	156	0
+DG	M15	B	23	embryo sac	0	0	0	0
+DG	M15	B	23	endocarpe	139	0	139	0
+DG	M15	B	24	cotyledon	148	0	148	0
+DG	M15	B	24	embryo sac	157	0	157	0
+DG	M15	B	24	endocarpe	20	0	20	0
+DG	M15	B	25	cotyledon	82	0	82	0
+DG	M15	B	25	embryo sac	174	0	174	0
+DG	M15	B	25	endocarpe	85	0	85	0
+DG	M15	C	01	cotyledon	0	0	0	0
+DG	M15	C	01	embryo sac	167	0	167	0
+DG	M15	C	01	endocarpe	85	0	85	0
+DG	M15	C	02	cotyledon	154	0	154	0
+DG	M15	C	02	embryo sac	150	0	150	0
+DG	M15	C	02	endocarpe	166	0	166	0
+DG	M15	C	03	cotyledon	62	0	62	0
+DG	M15	C	03	embryo sac	59	0	59	0
+DG	M15	C	03	endocarpe	155	0	155	0
+DG	M15	D	01	cotyledon	110	53	168	1
+DG	M15	D	01	embryo sac	121	20	141	1
+DG	M15	D	01	endocarpe	151	0	151	0
+DG	M15	D	02	cotyledon	135	35	170	1
+DG	M15	D	02	embryo sac	143	0	143	0
+DG	M15	D	02	endocarpe	178	0	178	0
+DG	M15	D	03	cotyledon	102	58	164	1
+DG	M15	D	03	embryo sac	209	0	209	0
+DG	M15	D	03	endocarpe	189	0	189	0
+DG	M15	D	05	embryo sac	166	0	166	0
+DG	M15	D	05	endocarpe	115	37	153	1
+DG	M16	A	01	cotyledon	5	0	5	0
+DG	M16	A	01	embryo sac	49	5	54	0
+DG	M16	A	02	cotyledon	42	11	53	1
+DG	M16	A	02	embryo sac	49	8	57	1
+DG	M16	A	02	endocarpe	46	4	50	0
+DG	M16	A	03	cotyledon	55	0	55	0
+DG	M16	A	03	embryo sac	47	6	53	0
+DG	M16	A	04	cotyledon	4	0	4	0
+DG	M16	A	04	embryo sac	48	8	56	1
+DG	M16	A	05	cotyledon	63	0	63	0
+DG	M16	A	05	embryo sac	48	4	52	0
+DG	M16	A	05	endocarpe	48	4	52	0
+DG	M16	A	06	cotyledon	57	0	57	0
+DG	M16	A	06	embryo sac	63	0	63	0
+DG	M16	A	07	cotyledon	64	0	64	0
+DG	M16	A	07	embryo sac	65	0	65	0
+DG	M16	A	07	endocarpe	47	6	53	0
+DG	M16	A	08	cotyledon	46	5	51	0
+DG	M16	A	08	embryo sac	62	0	62	0
+DG	M16	A	09	cotyledon	1	0	1	0
+DG	M16	A	09	embryo sac	50	9	59	1
+DG	M16	A	10	cotyledon	42	11	53	1
+DG	M16	A	10	embryo sac	42	7	49	1
+DG	M16	A	11	cotyledon	72	0	72	0
+DG	M16	A	11	embryo sac	75	0	75	0
+DG	M16	A	11	endocarpe	47	5	52	0
+DG	M16	A	12	cotyledon	16	6	22	1
+DG	M16	A	12	embryo sac	56	0	56	0
+DG	M16	A	12	endocarpe	50	0	50	0
+DG	M16	A	13	cotyledon	52	4	58	0
+DG	M16	A	13	embryo sac	52	0	52	0
+DG	M16	A	13	endocarpe	48	5	53	0
+DG	M16	A	14	cotyledon	50	4	54	0
+DG	M16	A	14	embryo sac	59	0	59	0
+DG	M16	A	14	endocarpe	46	6	52	1
+DG	M16	A	15	cotyledon	55	0	55	0
+DG	M16	A	15	embryo sac	42	9	51	1
+DG	M16	A	15	endocarpe	58	0	58	0
+DG	M16	A	16	cotyledon	47	5	52	0
+DG	M16	A	16	embryo sac	48	8	57	1
+DG	M16	A	16	endocarpe	60	0	60	0
+DG	M16	A	17	cotyledon	47	3	53	0
+DG	M16	A	17	embryo sac	51	5	56	0
+DG	M16	A	17	endocarpe	43	8	51	1
+DG	M16	A	18	cotyledon	78	0	78	0
+DG	M16	A	18	embryo sac	60	0	60	0
+DG	M16	A	18	endocarpe	0	0	0	0
+DG	M16	A	19	cotyledon	47	5	52	0
+DG	M16	A	19	embryo sac	60	0	60	0
+DG	M16	A	19	endocarpe	0	0	0	0
+DG	M16	A	20	cotyledon	46	5	51	0
+DG	M16	A	20	embryo sac	50	0	50	0
+DG	M16	A	20	endocarpe	59	0	59	0
+DG	M16	B	01	cotyledon	78	0	78	0
+DG	M16	B	01	embryo sac	85	0	85	0
+DG	M16	B	01	endocarpe	47	5	52	0
+DG	M16	B	02	cotyledon	30	0	30	0
+DG	M16	B	02	embryo sac	74	0	74	0
+DG	M16	B	02	endocarpe	17	0	17	0
+DG	M16	B	03	cotyledon	47	6	53	1
+DG	M16	B	03	embryo sac	59	6	65	0
+DG	M16	B	03	endocarpe	2	0	2	0
+DG	M16	B	04	cotyledon	41	9	50	1
+DG	M16	B	04	embryo sac	53	0	53	0
+DG	M16	B	04	endocarpe	53	0	53	0
+DG	M16	B	05	cotyledon	47	9	56	1
+DG	M16	B	05	embryo sac	42	9	51	1
+DG	M16	B	05	endocarpe	1	0	1	0
+DG	M16	B	06	cotyledon	47	3	50	0
+DG	M16	B	06	embryo sac	43	7	50	1
+DG	M16	B	06	endocarpe	2	0	2	0
+DG	M16	B	07	cotyledon	65	0	65	0
+DG	M16	B	07	embryo sac	63	0	63	0
+DG	M16	B	07	endocarpe	41	9	50	1
+DG	M16	B	08	cotyledon	84	0	84	0
+DG	M16	B	08	embryo sac	72	0	72	0
+DG	M16	B	08	endocarpe	0	0	0	0
+DG	M16	B	09	cotyledon	62	0	62	0
+DG	M16	B	09	embryo sac	71	0	71	0
+DG	M16	B	09	endocarpe	55	0	55	0
+DG	M16	B	10	cotyledon	54	0	54	0
+DG	M16	B	10	embryo sac	70	0	70	0
+DG	M16	B	10	endocarpe	47	8	55	1
+DG	M16	B	11	cotyledon	61	0	61	0
+DG	M16	B	11	embryo sac	50	6	56	0
+DG	M16	B	11	endocarpe	57	0	57	0
+DG	M16	B	12	cotyledon	51	6	59	1
+DG	M16	B	12	embryo sac	44	5	49	0
+DG	M16	B	12	endocarpe	47	4	51	0
+DG	M16	B	13	cotyledon	53	0	53	0
+DG	M16	B	13	embryo sac	45	11	56	1
+DG	M16	B	13	endocarpe	3	0	3	0
+DG	M16	B	14	cotyledon	42	6	50	1
+DG	M16	B	14	embryo sac	48	4	52	0
+DG	M16	B	14	endocarpe	0	0	0	0
+DG	M16	B	15	cotyledon	55	0	55	0
+DG	M16	B	15	embryo sac	49	4	53	0
+DG	M16	B	15	endocarpe	6	0	6	0
+DG	M16	B	16	cotyledon	42	7	49	1
+DG	M16	B	16	embryo sac	57	0	57	0
+DG	M16	B	16	endocarpe	44	8	52	1
+DG	M16	B	17	cotyledon	54	5	59	0
+DG	M16	B	17	embryo sac	47	9	56	1
+DG	M16	B	17	endocarpe	0	0	0	0
+DG	M16	B	18	cotyledon	50	4	56	0
+DG	M16	B	18	embryo sac	53	9	62	1
+DG	M16	B	18	endocarpe	42	0	42	0
+DG	M16	B	19	cotyledon	64	0	64	0
+DG	M16	B	19	embryo sac	51	0	51	0
+DG	M16	B	19	endocarpe	52	8	60	1
+DG	M16	B	20	cotyledon	51	5	56	0
+DG	M16	B	20	embryo sac	51	10	63	1
+DG	M16	B	20	endocarpe	0	0	0	0
+DG	M16	B	21	cotyledon	54	0	54	0
+DG	M16	B	21	embryo sac	57	0	57	0
+DG	M16	B	21	endocarpe	0	0	0	0
+DG	M16	B	22	cotyledon	61	0	61	0
+DG	M16	B	22	embryo sac	82	0	82	0
+DG	M16	B	22	endocarpe	23	0	23	0
+DG	M16	B	23	cotyledon	50	3	55	0
+DG	M16	B	23	embryo sac	13	0	13	0
+DG	M16	B	23	endocarpe	43	5	48	0
+DG	M16	B	24	cotyledon	68	0	68	0
+DG	M16	B	24	embryo sac	60	0	60	0
+DG	M16	B	24	endocarpe	43	6	49	1
+DG	M16	B	25	cotyledon	58	0	58	0
+DG	M16	B	25	embryo sac	55	0	55	0
+DG	M16	B	25	endocarpe	55	5	60	0
+DG	M16	C	01	cotyledon	10	0	10	0
+DG	M16	C	01	embryo sac	61	0	61	0
+DG	M16	C	01	endocarpe	50	0	50	0
+DG	M16	C	02	cotyledon	41	12	53	1
+DG	M16	C	02	embryo sac	66	0	66	0
+DG	M16	C	02	endocarpe	49	6	57	1
+DG	M16	C	03	cotyledon	53	0	53	0
+DG	M16	C	03	embryo sac	54	7	61	1
+DG	M16	C	03	endocarpe	79	0	79	0
+DG	M16	D	01	cotyledon	51	8	59	1
+DG	M16	D	01	embryo sac	69	0	69	0
+DG	M16	D	01	endocarpe	54	0	54	0
+DG	M16	D	02	cotyledon	51	4	55	0
+DG	M16	D	02	embryo sac	54	0	54	0
+DG	M16	D	02	endocarpe	85	0	85	0
+DG	M16	D	03	cotyledon	68	0	68	0
+DG	M16	D	03	embryo sac	47	6	53	1
+DG	M16	D	03	endocarpe	69	0	69	0
+DG	M16	D	05	embryo sac	44	5	49	0
+DG	M16	D	05	endocarpe	52	6	58	0
+DG	M17	A	01	cotyledon	0	0	0	0
+DG	M17	A	01	embryo sac	28	0	28	0
+DG	M17	A	02	cotyledon	19	0	19	0
+DG	M17	A	02	embryo sac	20	0	20	0
+DG	M17	A	02	endocarpe	26	0	26	0
+DG	M17	A	03	cotyledon	69	0	69	0
+DG	M17	A	03	embryo sac	12	0	12	0
+DG	M17	A	04	cotyledon	0	0	0	0
+DG	M17	A	04	embryo sac	40	0	40	0
+DG	M17	A	05	cotyledon	70	0	70	0
+DG	M17	A	05	embryo sac	23	0	23	0
+DG	M17	A	05	endocarpe	62	0	62	0
+DG	M17	A	06	cotyledon	107	0	107	0
+DG	M17	A	06	embryo sac	48	0	48	0
+DG	M17	A	07	cotyledon	8	0	8	0
+DG	M17	A	07	embryo sac	24	0	24	0
+DG	M17	A	07	endocarpe	35	0	35	0
+DG	M17	A	08	cotyledon	78	0	78	0
+DG	M17	A	08	embryo sac	42	0	42	0
+DG	M17	A	09	cotyledon	59	0	59	0
+DG	M17	A	09	embryo sac	22	0	22	0
+DG	M17	A	10	cotyledon	18	0	18	0
+DG	M17	A	10	embryo sac	13	0	13	0
+DG	M17	A	11	cotyledon	27	0	27	0
+DG	M17	A	11	embryo sac	15	0	15	0
+DG	M17	A	11	endocarpe	27	0	27	0
+DG	M17	A	12	cotyledon	70	0	70	0
+DG	M17	A	12	embryo sac	23	0	23	0
+DG	M17	A	12	endocarpe	78	0	78	0
+DG	M17	A	13	cotyledon	16	0	16	0
+DG	M17	A	13	embryo sac	15	0	15	0
+DG	M17	A	13	endocarpe	28	0	28	0
+DG	M17	A	14	cotyledon	14	0	14	0
+DG	M17	A	14	embryo sac	26	0	26	0
+DG	M17	A	14	endocarpe	100	0	100	0
+DG	M17	A	15	cotyledon	36	0	36	0
+DG	M17	A	15	embryo sac	11	0	11	0
+DG	M17	A	15	endocarpe	50	0	50	0
+DG	M17	A	16	cotyledon	16	0	16	0
+DG	M17	A	16	embryo sac	16	0	16	0
+DG	M17	A	16	endocarpe	22	0	22	0
+DG	M17	A	17	cotyledon	26	0	26	0
+DG	M17	A	17	embryo sac	28	0	28	0
+DG	M17	A	17	endocarpe	20	0	20	0
+DG	M17	A	18	cotyledon	48	0	48	0
+DG	M17	A	18	embryo sac	30	0	30	0
+DG	M17	A	18	endocarpe	0	0	0	0
+DG	M17	A	19	cotyledon	28	0	28	0
+DG	M17	A	19	embryo sac	10	0	10	0
+DG	M17	A	19	endocarpe	0	0	0	0
+DG	M17	A	20	cotyledon	52	0	52	0
+DG	M17	A	20	embryo sac	24	0	24	0
+DG	M17	A	20	endocarpe	15	0	15	0
+DG	M17	B	01	cotyledon	21	0	21	0
+DG	M17	B	01	embryo sac	22	0	22	0
+DG	M17	B	01	endocarpe	8	0	8	0
+DG	M17	B	02	cotyledon	65	0	65	0
+DG	M17	B	02	embryo sac	14	0	14	0
+DG	M17	B	02	endocarpe	0	0	0	0
+DG	M17	B	03	cotyledon	53	0	53	0
+DG	M17	B	03	embryo sac	31	0	31	0
+DG	M17	B	03	endocarpe	0	0	0	0
+DG	M17	B	04	cotyledon	23	0	23	0
+DG	M17	B	04	embryo sac	13	0	13	0
+DG	M17	B	04	endocarpe	18	0	18	0
+DG	M17	B	05	cotyledon	38	0	38	0
+DG	M17	B	05	embryo sac	9	0	9	0
+DG	M17	B	05	endocarpe	0	0	0	0
+DG	M17	B	06	cotyledon	66	0	66	0
+DG	M17	B	06	embryo sac	26	0	26	0
+DG	M17	B	06	endocarpe	2	0	2	0
+DG	M17	B	07	cotyledon	88	0	88	0
+DG	M17	B	07	embryo sac	20	0	20	0
+DG	M17	B	07	endocarpe	90	0	90	0
+DG	M17	B	08	cotyledon	25	0	25	0
+DG	M17	B	08	embryo sac	16	0	16	0
+DG	M17	B	08	endocarpe	0	0	0	0
+DG	M17	B	09	cotyledon	54	0	54	0
+DG	M17	B	09	embryo sac	26	0	26	0
+DG	M17	B	09	endocarpe	66	0	66	0
+DG	M17	B	10	cotyledon	18	0	18	0
+DG	M17	B	10	embryo sac	10	0	10	0
+DG	M17	B	10	endocarpe	12	0	12	0
+DG	M17	B	11	cotyledon	22	0	22	0
+DG	M17	B	11	embryo sac	13	0	13	0
+DG	M17	B	11	endocarpe	60	0	60	0
+DG	M17	B	12	cotyledon	8	0	8	0
+DG	M17	B	12	embryo sac	16	0	16	0
+DG	M17	B	12	endocarpe	40	0	40	0
+DG	M17	B	13	cotyledon	70	0	70	0
+DG	M17	B	13	embryo sac	38	0	38	0
+DG	M17	B	13	endocarpe	0	0	0	0
+DG	M17	B	14	cotyledon	42	0	42	0
+DG	M17	B	14	embryo sac	18	0	18	0
+DG	M17	B	14	endocarpe	0	0	0	0
+DG	M17	B	15	cotyledon	65	0	65	0
+DG	M17	B	15	embryo sac	20	0	20	0
+DG	M17	B	15	endocarpe	0	0	0	0
+DG	M17	B	16	cotyledon	95	0	95	0
+DG	M17	B	16	embryo sac	8	0	8	0
+DG	M17	B	16	endocarpe	54	0	54	0
+DG	M17	B	17	cotyledon	82	0	82	0
+DG	M17	B	17	embryo sac	30	0	30	0
+DG	M17	B	17	endocarpe	0	0	0	0
+DG	M17	B	18	cotyledon	55	0	55	0
+DG	M17	B	18	embryo sac	28	0	28	0
+DG	M17	B	18	endocarpe	0	0	0	0
+DG	M17	B	19	cotyledon	17	0	17	0
+DG	M17	B	19	embryo sac	21	0	21	0
+DG	M17	B	19	endocarpe	65	0	65	0
+DG	M17	B	20	cotyledon	42	0	42	0
+DG	M17	B	20	embryo sac	34	0	34	0
+DG	M17	B	20	endocarpe	0	0	0	0
+DG	M17	B	21	cotyledon	43	0	43	0
+DG	M17	B	21	embryo sac	14	0	14	0
+DG	M17	B	21	endocarpe	0	0	0	0
+DG	M17	B	22	cotyledon	30	0	30	0
+DG	M17	B	22	embryo sac	20	0	20	0
+DG	M17	B	22	endocarpe	0	0	0	0
+DG	M17	B	23	cotyledon	43	0	43	0
+DG	M17	B	23	embryo sac	0	0	0	0
+DG	M17	B	23	endocarpe	36	0	36	0
+DG	M17	B	24	cotyledon	36	0	36	0
+DG	M17	B	24	embryo sac	22	0	22	0
+DG	M17	B	24	endocarpe	91	0	91	0
+DG	M17	B	25	cotyledon	68	0	68	0
+DG	M17	B	25	embryo sac	14	0	14	0
+DG	M17	B	25	endocarpe	66	0	66	0
+DG	M17	C	01	cotyledon	0	0	0	0
+DG	M17	C	01	embryo sac	33	0	33	0
+DG	M17	C	01	endocarpe	49	0	49	0
+DG	M17	C	02	cotyledon	30	0	30	0
+DG	M17	C	02	embryo sac	22	0	22	0
+DG	M17	C	02	endocarpe	10	0	10	0
+DG	M17	C	03	cotyledon	15	0	15	0
+DG	M17	C	03	embryo sac	21	0	21	0
+DG	M17	C	03	endocarpe	23	0	23	0
+DG	M17	D	01	cotyledon	18	4	22	1
+DG	M17	D	01	embryo sac	10	10	20	1
+DG	M17	D	01	endocarpe	25	0	25	0
+DG	M17	D	02	cotyledon	58	12	70	1
+DG	M17	D	02	embryo sac	33	0	33	0
+DG	M17	D	02	endocarpe	21	0	21	0
+DG	M17	D	03	cotyledon	25	7	32	1
+DG	M17	D	03	embryo sac	41	0	41	0
+DG	M17	D	03	endocarpe	26	0	26	0
+DG	M17	D	05	embryo sac	24	0	24	0
+DG	M17	D	05	endocarpe	18	10	28	1
+DG	M18	A	01	cotyledon	0	0	0	0
+DG	M18	A	01	embryo sac	38	2	40	0
+DG	M18	A	02	cotyledon	103	0	103	0
+DG	M18	A	02	embryo sac	113	0	113	0
+DG	M18	A	02	endocarpe	83	36	119	1
+DG	M18	A	03	cotyledon	50	0	50	0
+DG	M18	A	03	embryo sac	50	0	50	0
+DG	M18	A	04	cotyledon	33	0	33	0
+DG	M18	A	04	embryo sac	133	0	133	0
+DG	M18	A	05	cotyledon	42	0	42	0
+DG	M18	A	05	embryo sac	36	0	36	0
+DG	M18	A	05	endocarpe	37	0	37	0
+DG	M18	A	06	cotyledon	51	0	51	0
+DG	M18	A	06	embryo sac	50	0	50	0
+DG	M18	A	07	cotyledon	86	0	86	0
+DG	M18	A	07	embryo sac	120	0	120	0
+DG	M18	A	07	endocarpe	75	31	106	1
+DG	M18	A	08	cotyledon	36	0	36	0
+DG	M18	A	08	embryo sac	41	0	41	0
+DG	M18	A	09	cotyledon	0	0	0	0
+DG	M18	A	09	embryo sac	36	2	38	0
+DG	M18	A	10	cotyledon	80	0	80	0
+DG	M18	A	10	embryo sac	78	36	114	1
+DG	M18	A	11	cotyledon	125	0	125	0
+DG	M18	A	11	embryo sac	122	0	122	0
+DG	M18	A	11	endocarpe	81	0	81	0
+DG	M18	A	12	cotyledon	50	0	50	0
+DG	M18	A	12	embryo sac	50	0	50	0
+DG	M18	A	12	endocarpe	54	0	54	0
+DG	M18	A	13	cotyledon	24	3	27	1
+DG	M18	A	13	embryo sac	24	3	27	1
+DG	M18	A	13	endocarpe	81	28	109	1
+DG	M18	A	14	cotyledon	49	0	49	0
+DG	M18	A	14	embryo sac	109	0	109	0
+DG	M18	A	14	endocarpe	45	0	45	0
+DG	M18	A	15	cotyledon	50	0	50	0
+DG	M18	A	15	embryo sac	51	0	51	0
+DG	M18	A	15	endocarpe	94	0	94	0
+DG	M18	A	16	cotyledon	21	0	21	0
+DG	M18	A	16	embryo sac	32	4	36	1
+DG	M18	A	16	endocarpe	94	0	94	0
+DG	M18	A	17	cotyledon	51	0	51	0
+DG	M18	A	17	embryo sac	50	0	50	0
+DG	M18	A	17	endocarpe	36	0	36	0
+DG	M18	A	18	cotyledon	81	0	81	0
+DG	M18	A	18	embryo sac	111	0	111	0
+DG	M18	A	18	endocarpe	0	0	0	0
+DG	M18	A	19	cotyledon	50	0	50	0
+DG	M18	A	19	embryo sac	51	0	51	0
+DG	M18	A	19	endocarpe	0	0	0	0
+DG	M18	A	20	cotyledon	36	2	38	0
+DG	M18	A	20	embryo sac	26	5	31	1
+DG	M18	A	20	endocarpe	39	0	39	0
+DG	M18	B	01	cotyledon	78	0	78	0
+DG	M18	B	01	embryo sac	33	0	33	0
+DG	M18	B	01	endocarpe	17	0	17	0
+DG	M18	B	02	cotyledon	36	0	36	0
+DG	M18	B	02	embryo sac	27	5	32	1
+DG	M18	B	02	endocarpe	1	0	1	0
+DG	M18	B	03	cotyledon	84	6	90	0
+DG	M18	B	03	embryo sac	119	0	119	0
+DG	M18	B	03	endocarpe	4	0	4	0
+DG	M18	B	04	cotyledon	34	0	34	0
+DG	M18	B	04	embryo sac	128	0	128	0
+DG	M18	B	04	endocarpe	33	0	33	0
+DG	M18	B	05	cotyledon	39	0	39	0
+DG	M18	B	05	embryo sac	34	0	34	0
+DG	M18	B	05	endocarpe	0	0	0	0
+DG	M18	B	06	cotyledon	39	0	39	0
+DG	M18	B	06	embryo sac	117	0	117	0
+DG	M18	B	06	endocarpe	0	0	0	0
+DG	M18	B	07	cotyledon	91	34	125	1
+DG	M18	B	07	embryo sac	123	0	123	0
+DG	M18	B	07	endocarpe	51	0	51	0
+DG	M18	B	08	cotyledon	34	0	34	0
+DG	M18	B	08	embryo sac	36	0	36	0
+DG	M18	B	08	endocarpe	2	0	2	0
+DG	M18	B	09	cotyledon	34	0	34	0
+DG	M18	B	09	embryo sac	43	0	43	0
+DG	M18	B	09	endocarpe	34	0	34	0
+DG	M18	B	10	cotyledon	51	0	51	0
+DG	M18	B	10	embryo sac	50	0	50	0
+DG	M18	B	10	endocarpe	35	0	35	0
+DG	M18	B	11	cotyledon	127	0	127	0
+DG	M18	B	11	embryo sac	79	0	79	0
+DG	M18	B	11	endocarpe	127	0	127	0
+DG	M18	B	12	cotyledon	28	8	36	1
+DG	M18	B	12	embryo sac	34	2	36	0
+DG	M18	B	12	endocarpe	37	0	37	0
+DG	M18	B	13	cotyledon	135	0	135	0
+DG	M18	B	13	embryo sac	127	0	127	0
+DG	M18	B	13	endocarpe	0	0	0	0
+DG	M18	B	14	cotyledon	119	0	119	0
+DG	M18	B	14	embryo sac	81	37	118	1
+DG	M18	B	14	endocarpe	0	0	0	0
+DG	M18	B	15	cotyledon	132	0	132	0
+DG	M18	B	15	embryo sac	81	5	86	0
+DG	M18	B	15	endocarpe	0	0	0	0
+DG	M18	B	16	cotyledon	37	0	37	0
+DG	M18	B	16	embryo sac	78	0	78	0
+DG	M18	B	16	endocarpe	42	0	42	0
+DG	M18	B	17	cotyledon	39	0	39	0
+DG	M18	B	17	embryo sac	125	0	125	0
+DG	M18	B	17	endocarpe	0	0	0	0
+DG	M18	B	18	cotyledon	40	0	40	0
+DG	M18	B	18	embryo sac	37	0	37	0
+DG	M18	B	18	endocarpe	10	0	10	0
+DG	M18	B	19	cotyledon	115	0	115	0
+DG	M18	B	19	embryo sac	127	0	127	0
+DG	M18	B	19	endocarpe	140	0	140	0
+DG	M18	B	20	cotyledon	41	0	41	0
+DG	M18	B	20	embryo sac	138	0	138	0
+DG	M18	B	20	endocarpe	0	0	0	0
+DG	M18	B	21	cotyledon	38	0	38	0
+DG	M18	B	21	embryo sac	77	5	82	0
+DG	M18	B	21	endocarpe	0	0	0	0
+DG	M18	B	22	cotyledon	116	0	116	0
+DG	M18	B	22	embryo sac	81	21	102	1
+DG	M18	B	22	endocarpe	0	0	0	0
+DG	M18	B	23	cotyledon	50	0	50	0
+DG	M18	B	23	embryo sac	0	0	0	0
+DG	M18	B	23	endocarpe	131	0	131	0
+DG	M18	B	24	cotyledon	51	0	51	0
+DG	M18	B	24	embryo sac	50	0	50	0
+DG	M18	B	24	endocarpe	84	26	110	1
+DG	M18	B	25	cotyledon	34	4	38	1
+DG	M18	B	25	embryo sac	36	2	38	0
+DG	M18	B	25	endocarpe	128	0	128	0
+DG	M18	C	01	cotyledon	0	0	0	0
+DG	M18	C	01	embryo sac	46	0	46	0
+DG	M18	C	01	endocarpe	78	24	102	1
+DG	M18	C	02	cotyledon	44	2	46	0
+DG	M18	C	02	embryo sac	78	6	84	1
+DG	M18	C	02	endocarpe	121	0	121	0
+DG	M18	C	03	cotyledon	114	0	114	0
+DG	M18	C	03	embryo sac	120	0	120	0
+DG	M18	C	03	endocarpe	85	34	119	1
+DG	M18	D	01	cotyledon	40	0	40	0
+DG	M18	D	01	embryo sac	85	6	91	0
+DG	M18	D	01	endocarpe	28	5	33	1
+DG	M18	D	02	cotyledon	92	20	112	1
+DG	M18	D	02	embryo sac	33	0	33	0
+DG	M18	D	02	endocarpe	31	3	34	1
+DG	M18	D	03	cotyledon	120	0	120	0
+DG	M18	D	03	embryo sac	33	3	36	1
+DG	M18	D	03	endocarpe	32	1	33	0
+DG	M18	D	05	embryo sac	125	0	125	0
+DG	M18	D	05	endocarpe	36	0	36	0
+DG	M19	A	01	cotyledon	6	0	6	0
+DG	M19	A	01	embryo sac	60	0	60	0
+DG	M19	A	02	cotyledon	73	0	73	0
+DG	M19	A	02	embryo sac	70	0	70	0
+DG	M19	A	02	endocarpe	66	0	66	0
+DG	M19	A	03	cotyledon	63	9	72	1
+DG	M19	A	03	embryo sac	62	0	62	0
+DG	M19	A	04	cotyledon	10	0	10	0
+DG	M19	A	04	embryo sac	74	0	74	0
+DG	M19	A	05	cotyledon	58	9	67	1
+DG	M19	A	05	embryo sac	55	7	62	0
+DG	M19	A	05	endocarpe	57	9	70	1
+DG	M19	A	06	cotyledon	53	9	62	1
+DG	M19	A	06	embryo sac	50	12	62	1
+DG	M19	A	07	cotyledon	52	9	62	1
+DG	M19	A	07	embryo sac	52	7	62	1
+DG	M19	A	07	endocarpe	63	0	63	0
+DG	M19	A	08	cotyledon	54	5	59	0
+DG	M19	A	08	embryo sac	61	6	69	0
+DG	M19	A	09	cotyledon	40	0	40	0
+DG	M19	A	09	embryo sac	53	8	61	1
+DG	M19	A	10	cotyledon	53	0	64	0
+DG	M19	A	10	embryo sac	74	0	74	0
+DG	M19	A	11	cotyledon	64	0	64	0
+DG	M19	A	11	embryo sac	62	0	62	0
+DG	M19	A	11	endocarpe	64	0	64	0
+DG	M19	A	12	cotyledon	52	5	57	0
+DG	M19	A	12	embryo sac	51	10	61	1
+DG	M19	A	12	endocarpe	59	15	74	1
+DG	M19	A	13	cotyledon	56	5	61	0
+DG	M19	A	13	embryo sac	65	8	73	1
+DG	M19	A	13	endocarpe	61	5	66	0
+DG	M19	A	14	cotyledon	45	7	56	1
+DG	M19	A	14	embryo sac	76	0	76	0
+DG	M19	A	14	endocarpe	53	5	60	0
+DG	M19	A	15	cotyledon	65	10	75	1
+DG	M19	A	15	embryo sac	52	9	63	1
+DG	M19	A	15	endocarpe	65	0	65	0
+DG	M19	A	16	cotyledon	52	9	64	1
+DG	M19	A	16	embryo sac	71	0	71	0
+DG	M19	A	16	endocarpe	63	6	69	0
+DG	M19	A	17	cotyledon	40	16	56	1
+DG	M19	A	17	embryo sac	55	9	66	1
+DG	M19	A	17	endocarpe	57	0	57	0
+DG	M19	A	18	cotyledon	60	7	69	0
+DG	M19	A	18	embryo sac	69	0	69	0
+DG	M19	A	18	endocarpe	2	0	2	0
+DG	M19	A	19	cotyledon	46	0	65	0
+DG	M19	A	19	embryo sac	47	0	63	0
+DG	M19	A	19	endocarpe	0	0	0	0
+DG	M19	A	20	cotyledon	66	0	66	0
+DG	M19	A	20	embryo sac	52	9	61	1
+DG	M19	A	20	endocarpe	60	0	60	0
+DG	M19	B	01	cotyledon	60	6	66	0
+DG	M19	B	01	embryo sac	62	0	62	0
+DG	M19	B	01	endocarpe	44	3	50	0
+DG	M19	B	02	cotyledon	47	16	63	1
+DG	M19	B	02	embryo sac	61	9	70	1
+DG	M19	B	02	endocarpe	1	0	1	0
+DG	M19	B	03	cotyledon	72	6	80	0
+DG	M19	B	03	embryo sac	70	0	70	0
+DG	M19	B	03	endocarpe	0	0	0	0
+DG	M19	B	04	cotyledon	57	0	73	0
+DG	M19	B	04	embryo sac	63	0	63	0
+DG	M19	B	04	endocarpe	78	0	78	0
+DG	M19	B	05	cotyledon	44	0	56	0
+DG	M19	B	05	embryo sac	96	0	96	0
+DG	M19	B	05	endocarpe	0	0	0	0
+DG	M19	B	06	cotyledon	77	0	77	0
+DG	M19	B	06	embryo sac	64	0	64	0
+DG	M19	B	06	endocarpe	2	0	2	0
+DG	M19	B	07	cotyledon	60	14	74	1
+DG	M19	B	07	embryo sac	61	10	71	1
+DG	M19	B	07	endocarpe	58	5	68	0
+DG	M19	B	08	cotyledon	59	6	65	0
+DG	M19	B	08	embryo sac	58	7	65	0
+DG	M19	B	08	endocarpe	0	0	0	0
+DG	M19	B	09	cotyledon	54	4	60	0
+DG	M19	B	09	embryo sac	65	9	74	0
+DG	M19	B	09	endocarpe	72	0	72	0
+DG	M19	B	10	cotyledon	79	0	79	0
+DG	M19	B	10	embryo sac	65	0	65	0
+DG	M19	B	10	endocarpe	65	0	65	0
+DG	M19	B	11	cotyledon	69	0	69	0
+DG	M19	B	11	embryo sac	61	0	61	0
+DG	M19	B	11	endocarpe	72	0	72	0
+DG	M19	B	12	cotyledon	72	0	72	0
+DG	M19	B	12	embryo sac	54	6	60	0
+DG	M19	B	12	endocarpe	61	5	66	0
+DG	M19	B	13	cotyledon	49	7	58	1
+DG	M19	B	13	embryo sac	65	9	74	1
+DG	M19	B	13	endocarpe	0	0	0	0
+DG	M19	B	14	cotyledon	54	7	64	0
+DG	M19	B	14	embryo sac	70	0	70	0
+DG	M19	B	14	endocarpe	2	0	2	0
+DG	M19	B	15	cotyledon	70	0	70	0
+DG	M19	B	15	embryo sac	62	0	62	0
+DG	M19	B	15	endocarpe	1	0	1	0
+DG	M19	B	16	cotyledon	58	7	65	1
+DG	M19	B	16	embryo sac	49	9	58	1
+DG	M19	B	16	endocarpe	79	0	79	0
+DG	M19	B	17	cotyledon	49	13	62	1
+DG	M19	B	17	embryo sac	61	8	71	1
+DG	M19	B	17	endocarpe	0	0	0	0
+DG	M19	B	18	cotyledon	86	0	86	0
+DG	M19	B	18	embryo sac	69	12	81	1
+DG	M19	B	18	endocarpe	7	0	7	0
+DG	M19	B	19	cotyledon	99	0	99	0
+DG	M19	B	19	embryo sac	72	0	72	0
+DG	M19	B	19	endocarpe	64	0	64	0
+DG	M19	B	20	cotyledon	79	11	90	1
+DG	M19	B	20	embryo sac	70	14	84	1
+DG	M19	B	20	endocarpe	0	0	0	0
+DG	M19	B	21	cotyledon	81	0	81	0
+DG	M19	B	21	embryo sac	76	10	86	1
+DG	M19	B	21	endocarpe	0	0	0	0
+DG	M19	B	22	cotyledon	61	11	72	1
+DG	M19	B	22	embryo sac	67	6	73	0
+DG	M19	B	22	endocarpe	0	0	0	0
+DG	M19	B	23	cotyledon	60	0	93	0
+DG	M19	B	23	embryo sac	0	0	0	0
+DG	M19	B	23	endocarpe	62	7	69	0
+DG	M19	B	24	cotyledon	74	0	74	0
+DG	M19	B	24	embryo sac	68	9	79	1
+DG	M19	B	24	endocarpe	68	0	68	0
+DG	M19	B	25	cotyledon	74	0	89	0
+DG	M19	B	25	embryo sac	90	0	90	0
+DG	M19	B	25	endocarpe	72	0	72	0
+DG	M19	C	01	cotyledon	2	0	2	0
+DG	M19	C	01	embryo sac	87	0	87	0
+DG	M19	C	01	endocarpe	67	6	73	0
+DG	M19	C	02	cotyledon	74	9	83	0
+DG	M19	C	02	embryo sac	71	0	71	0
+DG	M19	C	02	endocarpe	66	10	79	1
+DG	M19	C	03	cotyledon	82	13	98	1
+DG	M19	C	03	embryo sac	68	6	74	0
+DG	M19	C	03	endocarpe	81	0	81	0
+DG	M19	D	01	cotyledon	78	0	78	0
+DG	M19	D	01	embryo sac	58	7	67	1
+DG	M19	D	01	endocarpe	66	0	66	0
+DG	M19	D	02	cotyledon	70	7	77	0
+DG	M19	D	02	embryo sac	59	0	59	0
+DG	M19	D	02	endocarpe	80	0	80	0
+DG	M19	D	03	cotyledon	82	0	82	0
+DG	M19	D	03	embryo sac	83	0	83	0
+DG	M19	D	03	endocarpe	84	0	84	0
+DG	M19	D	05	embryo sac	64	5	69	0
+DG	M19	D	05	endocarpe	91	0	91	0
+DG	M20	A	01	cotyledon	0	0	0	0
+DG	M20	A	01	embryo sac	54	0	54	0
+DG	M20	A	02	cotyledon	55	0	55	0
+DG	M20	A	02	embryo sac	60	0	60	0
+DG	M20	A	02	endocarpe	50	0	50	0
+DG	M20	A	03	cotyledon	56	0	56	0
+DG	M20	A	03	embryo sac	54	0	54	0
+DG	M20	A	04	cotyledon	53	0	53	0
+DG	M20	A	04	embryo sac	62	0	62	0
+DG	M20	A	05	cotyledon	48	7	55	1
+DG	M20	A	05	embryo sac	53	0	53	0
+DG	M20	A	05	endocarpe	50	0	50	0
+DG	M20	A	06	cotyledon	66	0	66	0
+DG	M20	A	06	embryo sac	56	0	56	0
+DG	M20	A	07	cotyledon	55	0	55	0
+DG	M20	A	07	embryo sac	55	0	55	0
+DG	M20	A	07	endocarpe	61	0	61	0
+DG	M20	A	08	cotyledon	64	0	64	0
+DG	M20	A	08	embryo sac	52	3	55	0
+DG	M20	A	09	cotyledon	66	0	66	0
+DG	M20	A	09	embryo sac	50	0	50	0
+DG	M20	A	10	cotyledon	50	0	50	0
+DG	M20	A	10	embryo sac	53	0	53	0
+DG	M20	A	11	cotyledon	56	0	56	0
+DG	M20	A	11	embryo sac	55	0	55	0
+DG	M20	A	11	endocarpe	50	0	50	0
+DG	M20	A	12	cotyledon	59	0	59	0
+DG	M20	A	12	embryo sac	57	0	57	0
+DG	M20	A	12	endocarpe	60	0	60	0
+DG	M20	A	13	cotyledon	50	2	52	0
+DG	M20	A	13	embryo sac	57	0	57	0
+DG	M20	A	13	endocarpe	56	0	56	0
+DG	M20	A	14	cotyledon	54	0	54	0
+DG	M20	A	14	embryo sac	58	0	58	0
+DG	M20	A	14	endocarpe	50	0	50	0
+DG	M20	A	15	cotyledon	54	0	54	0
+DG	M20	A	15	embryo sac	47	6	53	1
+DG	M20	A	15	endocarpe	51	0	51	0
+DG	M20	A	16	cotyledon	54	0	54	0
+DG	M20	A	16	embryo sac	58	0	58	0
+DG	M20	A	16	endocarpe	52	0	52	0
+DG	M20	A	17	cotyledon	83	0	83	0
+DG	M20	A	17	embryo sac	56	0	56	0
+DG	M20	A	17	endocarpe	51	0	51	0
+DG	M20	A	18	cotyledon	53	0	53	0
+DG	M20	A	18	embryo sac	52	0	52	0
+DG	M20	A	18	endocarpe	87	0	87	0
+DG	M20	A	19	cotyledon	59	0	59	0
+DG	M20	A	19	embryo sac	50	0	50	0
+DG	M20	A	19	endocarpe	0	0	0	0
+DG	M20	A	20	cotyledon	55	0	55	0
+DG	M20	A	20	embryo sac	51	4	55	1
+DG	M20	A	20	endocarpe	54	0	54	0
+DG	M20	B	01	cotyledon	50	0	50	0
+DG	M20	B	01	embryo sac	58	0	58	0
+DG	M20	B	01	endocarpe	0	0	0	0
+DG	M20	B	02	cotyledon	62	0	62	0
+DG	M20	B	02	embryo sac	58	0	58	0
+DG	M20	B	02	endocarpe	0	0	0	0
+DG	M20	B	03	cotyledon	58	0	58	0
+DG	M20	B	03	embryo sac	49	0	49	0
+DG	M20	B	03	endocarpe	0	0	0	0
+DG	M20	B	04	cotyledon	55	0	55	0
+DG	M20	B	04	embryo sac	51	0	51	0
+DG	M20	B	04	endocarpe	50	0	50	0
+DG	M20	B	05	cotyledon	59	0	59	0
+DG	M20	B	05	embryo sac	51	0	51	0
+DG	M20	B	05	endocarpe	0	0	0	0
+DG	M20	B	06	cotyledon	50	0	50	0
+DG	M20	B	06	embryo sac	50	0	50	0
+DG	M20	B	06	endocarpe	2	0	2	0
+DG	M20	B	07	cotyledon	51	0	51	0
+DG	M20	B	07	embryo sac	54	0	54	0
+DG	M20	B	07	endocarpe	52	0	52	0
+DG	M20	B	08	cotyledon	58	0	58	0
+DG	M20	B	08	embryo sac	53	0	53	0
+DG	M20	B	08	endocarpe	107	0	107	0
+DG	M20	B	09	cotyledon	55	3	58	0
+DG	M20	B	09	embryo sac	59	0	59	0
+DG	M20	B	09	endocarpe	61	0	61	0
+DG	M20	B	10	cotyledon	60	0	60	0
+DG	M20	B	10	embryo sac	56	0	56	0
+DG	M20	B	10	endocarpe	55	0	55	0
+DG	M20	B	11	cotyledon	60	0	60	0
+DG	M20	B	11	embryo sac	52	0	52	0
+DG	M20	B	11	endocarpe	56	0	56	0
+DG	M20	B	12	cotyledon	51	3	54	0
+DG	M20	B	12	embryo sac	53	0	53	0
+DG	M20	B	12	endocarpe	51	5	56	1
+DG	M20	B	13	cotyledon	57	0	57	0
+DG	M20	B	13	embryo sac	48	2	50	0
+DG	M20	B	13	endocarpe	0	0	0	0
+DG	M20	B	14	cotyledon	60	0	60	0
+DG	M20	B	14	embryo sac	51	0	51	0
+DG	M20	B	14	endocarpe	41	0	41	0
+DG	M20	B	15	cotyledon	50	0	50	0
+DG	M20	B	15	embryo sac	53	0	53	0
+DG	M20	B	15	endocarpe	128	0	128	0
+DG	M20	B	16	cotyledon	69	0	69	0
+DG	M20	B	16	embryo sac	58	0	58	0
+DG	M20	B	16	endocarpe	50	5	55	1
+DG	M20	B	17	cotyledon	53	0	53	0
+DG	M20	B	17	embryo sac	49	2	51	0
+DG	M20	B	17	endocarpe	0	0	0	0
+DG	M20	B	18	cotyledon	61	0	61	0
+DG	M20	B	18	embryo sac	51	0	51	0
+DG	M20	B	18	endocarpe	74	0	74	0
+DG	M20	B	19	cotyledon	52	3	55	0
+DG	M20	B	19	embryo sac	45	6	51	1
+DG	M20	B	19	endocarpe	53	0	53	0
+DG	M20	B	20	cotyledon	65	0	65	0
+DG	M20	B	20	embryo sac	57	0	57	0
+DG	M20	B	20	endocarpe	95	0	95	0
+DG	M20	B	21	cotyledon	68	0	68	0
+DG	M20	B	21	embryo sac	53	4	57	1
+DG	M20	B	21	endocarpe	91	0	91	0
+DG	M20	B	22	cotyledon	51	0	51	0
+DG	M20	B	22	embryo sac	52	0	52	0
+DG	M20	B	22	endocarpe	38	0	38	0
+DG	M20	B	23	cotyledon	65	0	65	0
+DG	M20	B	23	embryo sac	0	0	0	0
+DG	M20	B	23	endocarpe	54	0	54	0
+DG	M20	B	24	cotyledon	55	0	55	0
+DG	M20	B	24	embryo sac	59	0	59	0
+DG	M20	B	24	endocarpe	59	0	59	0
+DG	M20	B	25	cotyledon	50	0	50	0
+DG	M20	B	25	embryo sac	51	0	51	0
+DG	M20	B	25	endocarpe	64	0	64	0
+DG	M20	C	01	cotyledon	0	0	0	0
+DG	M20	C	01	embryo sac	56	4	60	0
+DG	M20	C	01	endocarpe	53	0	53	0
+DG	M20	C	02	cotyledon	55	0	55	0
+DG	M20	C	02	embryo sac	62	0	62	0
+DG	M20	C	02	endocarpe	52	6	58	1
+DG	M20	C	03	cotyledon	57	0	57	0
+DG	M20	C	03	embryo sac	55	0	55	0
+DG	M20	C	03	endocarpe	59	0	59	0
+DG	M20	D	01	cotyledon	50	0	50	0
+DG	M20	D	01	embryo sac	52	0	52	0
+DG	M20	D	01	endocarpe	49	5	54	1
+DG	M20	D	02	cotyledon	59	0	59	0
+DG	M20	D	02	embryo sac	58	0	58	0
+DG	M20	D	02	endocarpe	54	4	58	1
+DG	M20	D	03	cotyledon	56	0	56	0
+DG	M20	D	03	embryo sac	50	3	53	0
+DG	M20	D	03	endocarpe	51	0	51	0
+DG	M20	D	05	embryo sac	58	0	58	0
+DG	M20	D	05	endocarpe	50	0	50	0
+DG	M21	A	01	cotyledon	0	0	0	0
+DG	M21	A	01	embryo sac	92	0	92	0
+DG	M21	A	02	cotyledon	84	31	115	1
+DG	M21	A	02	embryo sac	76	14	90	1
+DG	M21	A	02	endocarpe	24	2	28	0
+DG	M21	A	03	cotyledon	29	0	29	0
+DG	M21	A	03	embryo sac	141	0	141	0
+DG	M21	A	04	cotyledon	0	0	0	0
+DG	M21	A	04	embryo sac	41	0	41	0
+DG	M21	A	05	cotyledon	4	0	4	0
+DG	M21	A	05	embryo sac	74	12	86	1
+DG	M21	A	05	endocarpe	6	0	6	0
+DG	M21	A	06	cotyledon	6	0	6	0
+DG	M21	A	06	embryo sac	91	0	91	0
+DG	M21	A	07	cotyledon	145	34	179	1
+DG	M21	A	07	embryo sac	141	24	168	1
+DG	M21	A	07	endocarpe	10	0	10	0
+DG	M21	A	08	cotyledon	2	0	2	0
+DG	M21	A	08	embryo sac	28	0	28	0
+DG	M21	A	09	cotyledon	0	0	0	0
+DG	M21	A	09	embryo sac	89	28	119	1
+DG	M21	A	10	cotyledon	50	4	54	0
+DG	M21	A	10	embryo sac	146	0	146	0
+DG	M21	A	11	cotyledon	28	0	28	0
+DG	M21	A	11	embryo sac	169	0	169	0
+DG	M21	A	11	endocarpe	38	0	38	0
+DG	M21	A	12	cotyledon	0	0	0	0
+DG	M21	A	12	embryo sac	54	0	54	0
+DG	M21	A	12	endocarpe	0	0	0	0
+DG	M21	A	13	cotyledon	146	0	146	0
+DG	M21	A	13	embryo sac	157	0	157	0
+DG	M21	A	13	endocarpe	60	0	60	0
+DG	M21	A	14	cotyledon	89	0	132	0
+DG	M21	A	14	embryo sac	82	0	124	0
+DG	M21	A	14	endocarpe	2	0	2	0
+DG	M21	A	15	cotyledon	94	0	122	0
+DG	M21	A	15	embryo sac	91	0	146	0
+DG	M21	A	15	endocarpe	102	0	102	0
+DG	M21	A	16	cotyledon	85	23	108	1
+DG	M21	A	16	embryo sac	94	42	136	1
+DG	M21	A	16	endocarpe	146	18	169	1
+DG	M21	A	17	cotyledon	60	0	60	0
+DG	M21	A	17	embryo sac	130	17	147	0
+DG	M21	A	17	endocarpe	117	13	130	0
+DG	M21	A	18	cotyledon	36	0	36	0
+DG	M21	A	18	embryo sac	82	0	121	0
+DG	M21	A	18	endocarpe	0	0	0	0
+DG	M21	A	19	cotyledon	6	2	8	1
+DG	M21	A	19	embryo sac	139	0	139	0
+DG	M21	A	19	endocarpe	0	0	0	0
+DG	M21	A	20	cotyledon	20	2	22	1
+DG	M21	A	20	embryo sac	143	0	143	0
+DG	M21	A	20	endocarpe	115	0	115	0
+DG	M21	B	01	cotyledon	87	0	125	0
+DG	M21	B	01	embryo sac	85	0	141	0
+DG	M21	B	01	endocarpe	8	0	16	0
+DG	M21	B	02	cotyledon	4	0	4	0
+DG	M21	B	02	embryo sac	89	0	116	0
+DG	M21	B	02	endocarpe	0	0	0	0
+DG	M21	B	03	cotyledon	32	0	34	0
+DG	M21	B	03	embryo sac	92	0	150	0
+DG	M21	B	03	endocarpe	0	0	0	0
+DG	M21	B	04	cotyledon	91	0	129	0
+DG	M21	B	04	embryo sac	92	0	92	0
+DG	M21	B	04	endocarpe	85	0	85	0
+DG	M21	B	05	cotyledon	0	0	0	0
+DG	M21	B	05	embryo sac	163	0	163	0
+DG	M21	B	05	endocarpe	0	0	0	0
+DG	M21	B	06	cotyledon	7	0	7	0
+DG	M21	B	06	embryo sac	89	0	166	0
+DG	M21	B	06	endocarpe	0	0	0	0
+DG	M21	B	07	cotyledon	0	0	0	0
+DG	M21	B	07	embryo sac	101	0	101	0
+DG	M21	B	07	endocarpe	2	0	2	0
+DG	M21	B	08	cotyledon	76	0	76	0
+DG	M21	B	08	embryo sac	140	0	140	0
+DG	M21	B	08	endocarpe	0	0	0	0
+DG	M21	B	09	cotyledon	4	0	4	0
+DG	M21	B	09	embryo sac	102	11	113	0
+DG	M21	B	09	endocarpe	16	0	16	0
+DG	M21	B	10	cotyledon	4	0	4	0
+DG	M21	B	10	embryo sac	97	44	141	1
+DG	M21	B	10	endocarpe	157	36	195	1
+DG	M21	B	11	cotyledon	63	16	81	1
+DG	M21	B	11	embryo sac	91	22	113	1
+DG	M21	B	11	endocarpe	48	0	48	0
+DG	M21	B	12	cotyledon	170	0	170	0
+DG	M21	B	12	embryo sac	162	0	162	0
+DG	M21	B	12	endocarpe	82	0	82	0
+DG	M21	B	13	cotyledon	2	0	2	0
+DG	M21	B	13	embryo sac	79	18	97	1
+DG	M21	B	13	endocarpe	0	0	0	0
+DG	M21	B	14	cotyledon	0	0	0	0
+DG	M21	B	14	embryo sac	143	0	143	0
+DG	M21	B	14	endocarpe	0	0	0	0
+DG	M21	B	15	cotyledon	0	0	0	0
+DG	M21	B	15	embryo sac	113	24	137	1
+DG	M21	B	15	endocarpe	0	0	0	0
+DG	M21	B	16	cotyledon	0	0	0	0
+DG	M21	B	16	embryo sac	123	32	155	1
+DG	M21	B	16	endocarpe	0	0	0	0
+DG	M21	B	17	cotyledon	49	0	49	0
+DG	M21	B	17	embryo sac	172	0	172	0
+DG	M21	B	17	endocarpe	0	0	0	0
+DG	M21	B	18	cotyledon	18	4	22	1
+DG	M21	B	18	embryo sac	134	51	190	1
+DG	M21	B	18	endocarpe	6	4	10	1
+DG	M21	B	19	cotyledon	141	0	141	0
+DG	M21	B	19	embryo sac	149	0	149	0
+DG	M21	B	19	endocarpe	79	0	79	0
+DG	M21	B	20	cotyledon	28	2	32	0
+DG	M21	B	20	embryo sac	100	0	100	0
+DG	M21	B	20	endocarpe	0	0	0	0
+DG	M21	B	21	cotyledon	6	0	6	0
+DG	M21	B	21	embryo sac	164	0	164	0
+DG	M21	B	21	endocarpe	0	0	0	0
+DG	M21	B	22	cotyledon	66	6	72	0
+DG	M21	B	22	embryo sac	167	0	167	0
+DG	M21	B	22	endocarpe	0	0	0	0
+DG	M21	B	23	cotyledon	7	0	7	0
+DG	M21	B	23	embryo sac	0	0	0	0
+DG	M21	B	23	endocarpe	6	0	6	0
+DG	M21	B	24	cotyledon	17	4	21	1
+DG	M21	B	24	embryo sac	92	29	121	1
+DG	M21	B	24	endocarpe	2	0	2	0
+DG	M21	B	25	cotyledon	3	0	3	0
+DG	M21	B	25	embryo sac	157	0	157	0
+DG	M21	B	25	endocarpe	14	0	14	0
+DG	M21	C	01	cotyledon	0	0	0	0
+DG	M21	C	01	embryo sac	98	0	98	0
+DG	M21	C	01	endocarpe	2	0	2	0
+DG	M21	C	02	cotyledon	149	0	149	0
+DG	M21	C	02	embryo sac	129	0	129	0
+DG	M21	C	02	endocarpe	124	0	124	0
+DG	M21	C	03	cotyledon	92	0	92	0
+DG	M21	C	03	embryo sac	93	0	160	0
+DG	M21	C	03	endocarpe	152	0	152	0
+DG	M21	D	01	cotyledon	111	0	111	0
+DG	M21	D	01	embryo sac	59	0	59	0
+DG	M21	D	01	endocarpe	151	0	151	0
+DG	M21	D	02	cotyledon	24	0	24	0
+DG	M21	D	02	embryo sac	26	0	26	0
+DG	M21	D	02	endocarpe	94	0	178	0
+DG	M21	D	03	cotyledon	88	0	88	0
+DG	M21	D	03	embryo sac	86	0	182	0
+DG	M21	D	03	endocarpe	173	0	173	0
+DG	M21	D	05	embryo sac	165	0	165	0
+DG	M21	D	05	endocarpe	66	2	74	0
+DG	M22	A	01	cotyledon	6	0	6	0
+DG	M22	A	01	embryo sac	50	0	50	0
+DG	M22	A	02	cotyledon	50	0	50	0
+DG	M22	A	02	embryo sac	50	0	50	0
+DG	M22	A	02	endocarpe	52	0	52	0
+DG	M22	A	03	cotyledon	51	0	51	0
+DG	M22	A	03	embryo sac	51	0	51	0
+DG	M22	A	04	cotyledon	53	0	53	0
+DG	M22	A	04	embryo sac	51	0	51	0
+DG	M22	A	05	cotyledon	50	0	50	0
+DG	M22	A	05	embryo sac	50	0	50	0
+DG	M22	A	05	endocarpe	52	0	52	0
+DG	M22	A	06	cotyledon	50	0	50	0
+DG	M22	A	06	embryo sac	53	0	53	0
+DG	M22	A	07	cotyledon	112	9	121	0
+DG	M22	A	07	embryo sac	50	0	50	0
+DG	M22	A	07	endocarpe	50	0	50	0
+DG	M22	A	08	cotyledon	51	0	51	0
+DG	M22	A	08	embryo sac	53	0	53	0
+DG	M22	A	09	cotyledon	50	0	50	0
+DG	M22	A	09	embryo sac	50	0	50	0
+DG	M22	A	10	cotyledon	51	0	51	0
+DG	M22	A	10	embryo sac	50	0	50	0
+DG	M22	A	11	cotyledon	50	0	50	0
+DG	M22	A	11	embryo sac	51	0	51	0
+DG	M22	A	11	endocarpe	50	0	50	0
+DG	M22	A	12	cotyledon	51	0	51	0
+DG	M22	A	12	embryo sac	50	0	50	0
+DG	M22	A	12	endocarpe	52	0	52	0
+DG	M22	A	13	cotyledon	50	0	50	0
+DG	M22	A	13	embryo sac	51	0	51	0
+DG	M22	A	13	endocarpe	51	0	51	0
+DG	M22	A	14	cotyledon	50	0	50	0
+DG	M22	A	14	embryo sac	51	0	51	0
+DG	M22	A	14	endocarpe	51	0	51	0
+DG	M22	A	15	cotyledon	115	0	115	0
+DG	M22	A	15	embryo sac	50	0	50	0
+DG	M22	A	15	endocarpe	50	0	50	0
+DG	M22	A	16	cotyledon	51	0	51	0
+DG	M22	A	16	embryo sac	50	0	50	0
+DG	M22	A	16	endocarpe	51	0	51	0
+DG	M22	A	17	cotyledon	50	0	50	0
+DG	M22	A	17	embryo sac	50	0	50	0
+DG	M22	A	17	endocarpe	50	0	50	0
+DG	M22	A	18	cotyledon	50	0	50	0
+DG	M22	A	18	embryo sac	51	0	51	0
+DG	M22	A	18	endocarpe	0	0	0	0
+DG	M22	A	19	cotyledon	50	0	50	0
+DG	M22	A	19	embryo sac	50	0	50	0
+DG	M22	A	19	endocarpe	0	0	0	0
+DG	M22	A	20	cotyledon	50	0	50	0
+DG	M22	A	20	embryo sac	54	0	54	0
+DG	M22	A	20	endocarpe	51	0	51	0
+DG	M22	B	01	cotyledon	53	0	53	0
+DG	M22	B	01	embryo sac	52	0	52	0
+DG	M22	B	01	endocarpe	50	0	50	0
+DG	M22	B	02	cotyledon	50	0	50	0
+DG	M22	B	02	embryo sac	50	0	50	0
+DG	M22	B	02	endocarpe	0	0	0	0
+DG	M22	B	03	cotyledon	50	0	50	0
+DG	M22	B	03	embryo sac	50	0	50	0
+DG	M22	B	03	endocarpe	0	0	0	0
+DG	M22	B	04	cotyledon	121	0	121	0
+DG	M22	B	04	embryo sac	50	0	50	0
+DG	M22	B	04	endocarpe	50	0	50	0
+DG	M22	B	05	cotyledon	129	0	129	0
+DG	M22	B	05	embryo sac	51	0	51	0
+DG	M22	B	05	endocarpe	0	0	0	0
+DG	M22	B	06	cotyledon	51	0	51	0
+DG	M22	B	06	embryo sac	96	12	108	1
+DG	M22	B	06	endocarpe	2	0	2	0
+DG	M22	B	07	cotyledon	51	0	51	0
+DG	M22	B	07	embryo sac	50	0	50	0
+DG	M22	B	07	endocarpe	55	0	55	0
+DG	M22	B	08	cotyledon	52	0	52	0
+DG	M22	B	08	embryo sac	50	0	50	0
+DG	M22	B	08	endocarpe	2	0	2	0
+DG	M22	B	09	cotyledon	51	0	51	0
+DG	M22	B	09	embryo sac	51	0	51	0
+DG	M22	B	09	endocarpe	51	0	51	0
+DG	M22	B	10	cotyledon	50	0	50	0
+DG	M22	B	10	embryo sac	125	0	125	0
+DG	M22	B	10	endocarpe	51	0	51	0
+DG	M22	B	11	cotyledon	52	0	52	0
+DG	M22	B	11	embryo sac	50	0	50	0
+DG	M22	B	11	endocarpe	51	0	51	0
+DG	M22	B	12	cotyledon	63	0	63	0
+DG	M22	B	12	embryo sac	50	0	50	0
+DG	M22	B	12	endocarpe	51	0	51	0
+DG	M22	B	13	cotyledon	115	11	126	1
+DG	M22	B	13	embryo sac	108	9	117	1
+DG	M22	B	13	endocarpe	0	0	0	0
+DG	M22	B	14	cotyledon	51	0	51	0
+DG	M22	B	14	embryo sac	50	0	50	0
+DG	M22	B	14	endocarpe	0	0	0	0
+DG	M22	B	15	cotyledon	52	0	52	0
+DG	M22	B	15	embryo sac	50	0	50	0
+DG	M22	B	15	endocarpe	51	0	51	0
+DG	M22	B	16	cotyledon	126	0	126	0
+DG	M22	B	16	embryo sac	118	0	118	0
+DG	M22	B	16	endocarpe	50	0	50	0
+DG	M22	B	17	cotyledon	125	0	125	0
+DG	M22	B	17	embryo sac	106	9	115	1
+DG	M22	B	17	endocarpe	0	0	0	0
+DG	M22	B	18	cotyledon	51	0	51	0
+DG	M22	B	18	embryo sac	53	0	53	0
+DG	M22	B	18	endocarpe	50	0	50	0
+DG	M22	B	19	cotyledon	51	0	51	0
+DG	M22	B	19	embryo sac	51	0	51	0
+DG	M22	B	19	endocarpe	51	0	51	0
+DG	M22	B	20	cotyledon	52	0	52	0
+DG	M22	B	20	embryo sac	50	0	50	0
+DG	M22	B	20	endocarpe	0	0	0	0
+DG	M22	B	21	cotyledon	56	0	56	0
+DG	M22	B	21	embryo sac	52	0	52	0
+DG	M22	B	21	endocarpe	4	0	4	0
+DG	M22	B	22	cotyledon	50	0	50	0
+DG	M22	B	22	embryo sac	130	0	130	0
+DG	M22	B	22	endocarpe	105	0	105	0
+DG	M22	B	23	cotyledon	55	0	55	0
+DG	M22	B	23	embryo sac	0	0	0	0
+DG	M22	B	23	endocarpe	51	0	51	0
+DG	M22	B	24	cotyledon	50	0	50	0
+DG	M22	B	24	embryo sac	50	0	50	0
+DG	M22	B	24	endocarpe	51	0	51	0
+DG	M22	B	25	cotyledon	50	0	50	0
+DG	M22	B	25	embryo sac	51	0	51	0
+DG	M22	B	25	endocarpe	51	0	51	0
+DG	M22	C	01	cotyledon	0	0	0	0
+DG	M22	C	01	embryo sac	50	0	50	0
+DG	M22	C	01	endocarpe	52	0	52	0
+DG	M22	C	02	cotyledon	50	0	50	0
+DG	M22	C	02	embryo sac	52	0	52	0
+DG	M22	C	02	endocarpe	50	0	50	0
+DG	M22	C	03	cotyledon	77	0	77	0
+DG	M22	C	03	embryo sac	51	0	51	0
+DG	M22	C	03	endocarpe	52	0	52	0
+DG	M22	D	01	cotyledon	50	0	50	0
+DG	M22	D	01	embryo sac	51	0	51	0
+DG	M22	D	01	endocarpe	50	0	50	0
+DG	M22	D	02	cotyledon	52	0	52	0
+DG	M22	D	02	embryo sac	50	0	50	0
+DG	M22	D	02	endocarpe	52	0	52	0
+DG	M22	D	03	cotyledon	51	0	51	0
+DG	M22	D	03	embryo sac	52	0	52	0
+DG	M22	D	03	endocarpe	52	0	52	0
+DG	M22	D	05	embryo sac	131	0	131	0
+DG	M22	D	05	endocarpe	52	0	52	0
+DG	M23	A	01	cotyledon	0	2	2	1
+DG	M23	A	01	embryo sac	50	0	50	0
+DG	M23	A	02	cotyledon	52	0	52	0
+DG	M23	A	02	embryo sac	51	0	51	0
+DG	M23	A	02	endocarpe	101	34	135	1
+DG	M23	A	03	cotyledon	50	0	50	0
+DG	M23	A	03	embryo sac	50	0	50	0
+DG	M23	A	04	cotyledon	50	0	50	0
+DG	M23	A	04	embryo sac	50	0	50	0
+DG	M23	A	05	cotyledon	50	0	50	0
+DG	M23	A	05	embryo sac	90	27	117	1
+DG	M23	A	05	endocarpe	52	0	52	0
+DG	M23	A	06	cotyledon	114	24	138	1
+DG	M23	A	06	embryo sac	99	23	122	1
+DG	M23	A	07	cotyledon	50	0	50	0
+DG	M23	A	07	embryo sac	50	0	50	0
+DG	M23	A	07	endocarpe	73	48	121	1
+DG	M23	A	08	cotyledon	52	0	52	0
+DG	M23	A	08	embryo sac	51	0	51	0
+DG	M23	A	09	cotyledon	51	0	51	0
+DG	M23	A	09	embryo sac	51	0	51	0
+DG	M23	A	10	cotyledon	52	0	52	0
+DG	M23	A	10	embryo sac	50	0	50	0
+DG	M23	A	11	cotyledon	51	0	51	0
+DG	M23	A	11	embryo sac	51	0	51	0
+DG	M23	A	11	endocarpe	50	0	50	0
+DG	M23	A	12	cotyledon	50	0	50	0
+DG	M23	A	12	embryo sac	95	32	127	1
+DG	M23	A	12	endocarpe	116	20	136	1
+DG	M23	A	13	cotyledon	50	0	50	0
+DG	M23	A	13	embryo sac	52	0	52	0
+DG	M23	A	13	endocarpe	78	46	124	1
+DG	M23	A	14	cotyledon	50	0	50	0
+DG	M23	A	14	embryo sac	50	0	50	0
+DG	M23	A	14	endocarpe	50	0	50	0
+DG	M23	A	15	cotyledon	103	24	127	1
+DG	M23	A	15	embryo sac	95	38	133	1
+DG	M23	A	15	endocarpe	79	40	119	1
+DG	M23	A	16	cotyledon	50	0	50	0
+DG	M23	A	16	embryo sac	81	0	81	0
+DG	M23	A	16	endocarpe	51	0	51	0
+DG	M23	A	17	cotyledon	50	0	50	0
+DG	M23	A	17	embryo sac	56	0	56	0
+DG	M23	A	17	endocarpe	50	0	50	0
+DG	M23	A	18	cotyledon	97	19	116	1
+DG	M23	A	18	embryo sac	99	22	121	1
+DG	M23	A	18	endocarpe	5	0	5	0
+DG	M23	A	19	cotyledon	51	0	51	0
+DG	M23	A	19	embryo sac	50	0	50	0
+DG	M23	A	19	endocarpe	0	0	0	0
+DG	M23	A	20	cotyledon	51	0	51	0
+DG	M23	A	20	embryo sac	51	0	51	0
+DG	M23	A	20	endocarpe	50	0	50	0
+DG	M23	B	01	cotyledon	50	0	50	0
+DG	M23	B	01	embryo sac	50	0	50	0
+DG	M23	B	01	endocarpe	14	0	14	0
+DG	M23	B	02	cotyledon	50	0	50	0
+DG	M23	B	02	embryo sac	50	0	50	0
+DG	M23	B	02	endocarpe	1	0	1	0
+DG	M23	B	03	cotyledon	51	0	51	0
+DG	M23	B	03	embryo sac	50	0	50	0
+DG	M23	B	03	endocarpe	0	0	0	0
+DG	M23	B	04	cotyledon	50	0	50	0
+DG	M23	B	04	embryo sac	51	0	51	0
+DG	M23	B	04	endocarpe	50	0	50	0
+DG	M23	B	05	cotyledon	91	23	114	1
+DG	M23	B	05	embryo sac	86	34	120	1
+DG	M23	B	05	endocarpe	0	0	0	0
+DG	M23	B	06	cotyledon	51	0	51	0
+DG	M23	B	06	embryo sac	50	0	50	0
+DG	M23	B	06	endocarpe	0	0	0	0
+DG	M23	B	07	cotyledon	52	0	52	0
+DG	M23	B	07	embryo sac	50	0	50	0
+DG	M23	B	07	endocarpe	50	0	50	0
+DG	M23	B	08	cotyledon	50	0	50	0
+DG	M23	B	08	embryo sac	51	0	51	0
+DG	M23	B	08	endocarpe	0	0	0	0
+DG	M23	B	09	cotyledon	50	0	50	0
+DG	M23	B	09	embryo sac	51	0	51	0
+DG	M23	B	09	endocarpe	51	0	51	0
+DG	M23	B	10	cotyledon	50	0	50	0
+DG	M23	B	10	embryo sac	50	0	50	0
+DG	M23	B	10	endocarpe	52	0	52	0
+DG	M23	B	11	cotyledon	50	0	50	0
+DG	M23	B	11	embryo sac	51	0	51	0
+DG	M23	B	11	endocarpe	50	0	50	0
+DG	M23	B	12	cotyledon	50	0	50	0
+DG	M23	B	12	embryo sac	50	0	50	0
+DG	M23	B	12	endocarpe	50	0	50	0
+DG	M23	B	13	cotyledon	51	0	51	0
+DG	M23	B	13	embryo sac	50	0	50	0
+DG	M23	B	13	endocarpe	0	0	0	0
+DG	M23	B	14	cotyledon	50	0	50	0
+DG	M23	B	14	embryo sac	50	0	50	0
+DG	M23	B	14	endocarpe	0	0	0	0
+DG	M23	B	15	cotyledon	50	0	50	0
+DG	M23	B	15	embryo sac	50	0	50	0
+DG	M23	B	15	endocarpe	2	0	2	0
+DG	M23	B	16	cotyledon	99	13	112	1
+DG	M23	B	16	embryo sac	104	22	126	1
+DG	M23	B	16	endocarpe	51	0	51	0
+DG	M23	B	17	cotyledon	51	0	51	0
+DG	M23	B	17	embryo sac	50	0	50	0
+DG	M23	B	17	endocarpe	2	0	2	0
+DG	M23	B	18	cotyledon	125	23	148	1
+DG	M23	B	18	embryo sac	97	26	123	1
+DG	M23	B	18	endocarpe	1	0	1	0
+DG	M23	B	19	cotyledon	104	29	133	1
+DG	M23	B	19	embryo sac	90	26	116	1
+DG	M23	B	19	endocarpe	50	0	50	0
+DG	M23	B	20	cotyledon	50	0	50	0
+DG	M23	B	20	embryo sac	52	0	52	0
+DG	M23	B	20	endocarpe	0	0	0	0
+DG	M23	B	21	cotyledon	51	0	51	0
+DG	M23	B	21	embryo sac	51	0	51	0
+DG	M23	B	21	endocarpe	0	0	0	0
+DG	M23	B	22	cotyledon	50	0	50	0
+DG	M23	B	22	embryo sac	51	0	51	0
+DG	M23	B	22	endocarpe	2	0	2	0
+DG	M23	B	23	cotyledon	50	0	50	0
+DG	M23	B	23	embryo sac	0	0	0	0
+DG	M23	B	23	endocarpe	50	0	50	0
+DG	M23	B	24	cotyledon	52	0	52	0
+DG	M23	B	24	embryo sac	51	0	51	0
+DG	M23	B	24	endocarpe	51	0	51	0
+DG	M23	B	25	cotyledon	52	0	52	0
+DG	M23	B	25	embryo sac	51	0	51	0
+DG	M23	B	25	endocarpe	50	0	50	0
+DG	M23	C	01	cotyledon	0	0	0	0
+DG	M23	C	01	embryo sac	50	0	50	0
+DG	M23	C	01	endocarpe	50	0	50	0
+DG	M23	C	02	cotyledon	51	0	51	0
+DG	M23	C	02	embryo sac	52	0	52	0
+DG	M23	C	02	endocarpe	51	0	51	0
+DG	M23	C	03	cotyledon	52	0	52	0
+DG	M23	C	03	embryo sac	50	0	50	0
+DG	M23	C	03	endocarpe	50	0	50	0
+DG	M23	D	01	cotyledon	52	0	52	0
+DG	M23	D	01	embryo sac	51	0	51	0
+DG	M23	D	01	endocarpe	51	0	51	0
+DG	M23	D	02	cotyledon	51	0	51	0
+DG	M23	D	02	embryo sac	51	0	51	0
+DG	M23	D	02	endocarpe	100	36	136	1
+DG	M23	D	03	cotyledon	51	0	51	0
+DG	M23	D	03	embryo sac	109	21	130	1
+DG	M23	D	03	endocarpe	50	0	50	0
+DG	M23	D	05	embryo sac	51	0	51	0
+DG	M23	D	05	endocarpe	50	0	50	0
+SR	M01	A	01	fruit base	128	0	128	0
+SR	M01	A	01	nucelle	124	0	124	0
+SR	M01	A	01	pericarpe	129	0	129	0
+SR	M01	A	02	embryo sac	128	0	128	0
+SR	M01	A	02	fruit base	168	13	181	0
+SR	M01	A	02	nucelle	131	0	131	0
+SR	M01	A	02	pericarpe	134	0	134	0
+SR	M01	A	03	embryo sac	0	0	0	0
+SR	M01	A	03	fruit base	155	15	170	1
+SR	M01	A	03	nucelle	90	0	90	0
+SR	M01	A	04	embryo sac	90	0	90	0
+SR	M01	A	04	fruit base	127	0	127	0
+SR	M01	A	04	nucelle	87	0	87	0
+SR	M01	A	04	pericarpe	159	15	174	1
+SR	M01	B	01	embryo sac	126	0	126	0
+SR	M01	B	01	fruit base	0	0	0	0
+SR	M01	B	01	pericarpe	141	28	169	1
+SR	M01	B	02	embryo sac	105	0	105	0
+SR	M01	B	02	fruit base	125	0	125	0
+SR	M01	B	02	pericarpe	150	24	174	1
+SR	M01	B	03	embryo sac	123	52	175	1
+SR	M01	B	03	fruit base	132	0	132	0
+SR	M01	B	03	pericarpe	135	30	165	1
+SR	M01	C1	01	embryo sac	80	0	80	0
+SR	M01	C1	01	fruit base	78	0	78	0
+SR	M01	C1	01	nucelle	81	0	81	0
+SR	M01	C1	01	pericarpe	160	18	178	1
+SR	M01	C1	02	embryo sac	135	0	135	0
+SR	M01	C1	02	fruit base	128	0	128	0
+SR	M01	C1	02	nucelle	132	0	132	0
+SR	M01	C1	02	pericarpe	145	22	167	1
+SR	M01	C1	03	embryo sac	118	0	118	0
+SR	M01	C1	03	fruit base	0	0	0	0
+SR	M01	C1	03	nucelle	131	0	131	0
+SR	M01	C1	03	pericarpe	153	19	172	1
+SR	M01	C1	04	embryo sac	127	0	127	0
+SR	M01	C1	04	fruit base	0	0	0	0
+SR	M01	C1	04	nucelle	115	0	115	0
+SR	M01	C1	04	pericarpe	153	16	169	1
+SR	M01	C3	01	embryo sac	72	0	72	0
+SR	M01	C3	01	fruit base	133	0	133	0
+SR	M01	C3	01	pericarpe	177	0	177	0
+SR	M01	C3	02	embryo sac	137	0	137	0
+SR	M01	C3	02	fruit base	123	0	123	0
+SR	M01	C3	02	nucelle	134	0	134	0
+SR	M01	C3	02	pericarpe	129	0	129	0
+SR	M01	C3	03	embryo sac	83	0	83	0
+SR	M01	C3	03	fruit base	133	0	133	0
+SR	M01	C3	03	nucelle	93	0	93	0
+SR	M01	C3	03	pericarpe	155	18	173	1
+SR	M01	E4	01	embryo sac	127	0	127	0
+SR	M01	E4	01	fruit base	4	0	4	0
+SR	M01	E4	01	nucelle	89	0	89	0
+SR	M01	E4	01	pericarpe	122	0	122	0
+SR	M01	E4	02	embryo sac	86	0	86	0
+SR	M01	E4	02	fruit base	0	0	0	0
+SR	M01	E4	02	nucelle	84	0	84	0
+SR	M01	E4	02	pericarpe	2	0	2	0
+SR	M01	E4	03	embryo sac	85	0	85	0
+SR	M01	E4	03	fruit base	0	0	0	0
+SR	M01	E4	03	nucelle	75	0	75	0
+SR	M01	E4	03	pericarpe	153	21	174	1
+SR	M01	E4	04	embryo sac	127	0	127	0
+SR	M01	E4	04	fruit base	157	13	170	1
+SR	M01	E4	04	nucelle	141	0	141	0
+SR	M01	E4	04	pericarpe	127	0	127	0
+SR	M01	F2	01	embryo sac	62	0	62	0
+SR	M01	F2	01	fruit base	156	14	170	1
+SR	M01	F2	01	nucelle	97	0	97	0
+SR	M01	F2	01	pericarpe	94	0	94	0
+SR	M01	F2	02	embryo sac	108	0	108	0
+SR	M01	F2	02	fruit base	4	0	4	0
+SR	M01	F2	02	nucelle	154	0	154	0
+SR	M01	F2	02	pericarpe	127	0	127	0
+SR	M01	F2	03	embryo sac	129	0	129	0
+SR	M01	F2	03	fruit base	161	0	161	0
+SR	M01	F2	03	nucelle	131	0	131	0
+SR	M01	F2	03	pericarpe	163	18	181	1
+SR	M01	F2	04	embryo sac	143	0	143	0
+SR	M01	F2	04	fruit base	113	0	113	0
+SR	M01	F2	04	nucelle	122	0	122	0
+SR	M01	F2	04	pericarpe	146	11	157	1
+SR	M02	A	01	fruit base	68	34	102	1
+SR	M02	A	01	nucelle	52	49	101	1
+SR	M02	A	01	pericarpe	69	31	100	1
+SR	M02	A	02	embryo sac	66	30	98	1
+SR	M02	A	02	fruit base	70	19	89	1
+SR	M02	A	02	nucelle	75	37	112	1
+SR	M02	A	02	pericarpe	84	19	103	1
+SR	M02	A	03	embryo sac	0	0	0	0
+SR	M02	A	03	fruit base	67	31	98	1
+SR	M02	A	03	nucelle	42	0	42	0
+SR	M02	A	04	embryo sac	84	13	97	1
+SR	M02	A	04	fruit base	74	29	103	1
+SR	M02	A	04	nucelle	74	21	95	1
+SR	M02	A	04	pericarpe	78	19	97	1
+SR	M02	B	01	embryo sac	44	58	102	1
+SR	M02	B	01	fruit base	0	0	0	0
+SR	M02	B	01	pericarpe	57	40	97	1
+SR	M02	B	02	embryo sac	78	20	98	1
+SR	M02	B	02	fruit base	66	23	89	1
+SR	M02	B	02	pericarpe	58	26	84	1
+SR	M02	B	03	embryo sac	68	28	96	1
+SR	M02	B	03	fruit base	63	36	101	1
+SR	M02	B	03	pericarpe	68	31	99	1
+SR	M02	C1	01	embryo sac	37	62	99	1
+SR	M02	C1	01	fruit base	0	0	0	0
+SR	M02	C1	01	nucelle	50	49	99	1
+SR	M02	C1	01	pericarpe	76	20	96	1
+SR	M02	C1	02	embryo sac	66	9	75	0
+SR	M02	C1	02	fruit base	81	14	95	1
+SR	M02	C1	02	nucelle	48	45	93	1
+SR	M02	C1	02	pericarpe	65	28	93	1
+SR	M02	C1	03	embryo sac	63	39	102	1
+SR	M02	C1	03	fruit base	25	73	98	1
+SR	M02	C1	03	nucelle	60	37	97	1
+SR	M02	C1	03	pericarpe	75	23	98	1
+SR	M02	C1	04	embryo sac	56	42	98	1
+SR	M02	C1	04	fruit base	0	0	0	0
+SR	M02	C1	04	nucelle	48	48	98	1
+SR	M02	C1	04	pericarpe	66	31	97	1
+SR	M02	C3	01	embryo sac	66	34	100	1
+SR	M02	C3	01	fruit base	68	29	97	1
+SR	M02	C3	01	pericarpe	69	27	96	1
+SR	M02	C3	02	embryo sac	61	26	87	1
+SR	M02	C3	02	fruit base	62	37	99	1
+SR	M02	C3	02	nucelle	76	22	98	1
+SR	M02	C3	02	pericarpe	73	25	98	1
+SR	M02	C3	03	embryo sac	44	0	44	0
+SR	M02	C3	03	fruit base	76	28	104	1
+SR	M02	C3	03	nucelle	52	0	52	0
+SR	M02	C3	03	pericarpe	78	24	102	1
+SR	M02	E4	01	embryo sac	74	16	90	1
+SR	M02	E4	01	fruit base	51	0	51	0
+SR	M02	E4	01	nucelle	91	41	132	1
+SR	M02	E4	01	pericarpe	62	36	98	1
+SR	M02	E4	02	embryo sac	48	54	102	1
+SR	M02	E4	02	fruit base	4	68	72	1
+SR	M02	E4	02	nucelle	47	44	91	1
+SR	M02	E4	02	pericarpe	2	0	2	0
+SR	M02	E4	03	embryo sac	61	0	61	0
+SR	M02	E4	03	fruit base	0	0	0	0
+SR	M02	E4	03	nucelle	41	0	41	0
+SR	M02	E4	03	pericarpe	51	25	76	1
+SR	M02	E4	04	embryo sac	70	27	97	1
+SR	M02	E4	04	fruit base	76	20	96	1
+SR	M02	E4	04	nucelle	68	24	92	1
+SR	M02	E4	04	pericarpe	69	29	98	1
+SR	M02	F2	01	embryo sac	69	27	96	1
+SR	M02	F2	01	fruit base	68	28	96	1
+SR	M02	F2	01	nucelle	54	47	101	1
+SR	M02	F2	01	pericarpe	49	47	96	1
+SR	M02	F2	02	embryo sac	83	17	100	1
+SR	M02	F2	02	fruit base	0	0	0	0
+SR	M02	F2	02	nucelle	71	22	93	1
+SR	M02	F2	02	pericarpe	33	0	33	0
+SR	M02	F2	03	embryo sac	58	45	103	1
+SR	M02	F2	03	fruit base	0	0	0	0
+SR	M02	F2	03	nucelle	62	33	95	1
+SR	M02	F2	03	pericarpe	63	25	90	1
+SR	M02	F2	04	embryo sac	39	0	39	0
+SR	M02	F2	04	fruit base	70	34	104	1
+SR	M02	F2	04	nucelle	40	0	40	0
+SR	M02	F2	04	pericarpe	63	36	99	1
+SR	M03	A	01	fruit base	34	17	51	1
+SR	M03	A	01	nucelle	27	24	51	1
+SR	M03	A	01	pericarpe	38	15	53	1
+SR	M03	A	02	embryo sac	37	15	52	1
+SR	M03	A	02	fruit base	33	12	45	1
+SR	M03	A	02	nucelle	47	23	70	1
+SR	M03	A	02	pericarpe	46	12	58	1
+SR	M03	A	03	embryo sac	0	0	0	0
+SR	M03	A	03	fruit base	37	16	53	1
+SR	M03	A	03	nucelle	42	0	42	0
+SR	M03	A	04	embryo sac	43	10	53	1
+SR	M03	A	04	fruit base	39	17	56	1
+SR	M03	A	04	nucelle	38	11	49	1
+SR	M03	A	04	pericarpe	42	11	53	1
+SR	M03	B	01	embryo sac	26	30	56	1
+SR	M03	B	01	fruit base	0	0	0	0
+SR	M03	B	01	pericarpe	32	22	54	1
+SR	M03	B	02	embryo sac	40	11	51	1
+SR	M03	B	02	fruit base	33	13	46	1
+SR	M03	B	02	pericarpe	30	17	47	1
+SR	M03	B	03	embryo sac	37	15	52	1
+SR	M03	B	03	fruit base	36	20	56	1
+SR	M03	B	03	pericarpe	41	13	54	1
+SR	M03	C1	01	embryo sac	20	33	53	1
+SR	M03	C1	01	fruit base	0	0	0	0
+SR	M03	C1	01	nucelle	27	28	55	1
+SR	M03	C1	01	pericarpe	41	11	52	1
+SR	M03	C1	02	embryo sac	33	6	39	1
+SR	M03	C1	02	fruit base	38	11	49	1
+SR	M03	C1	02	nucelle	26	23	49	1
+SR	M03	C1	02	pericarpe	34	14	48	1
+SR	M03	C1	03	embryo sac	33	21	54	1
+SR	M03	C1	03	fruit base	15	38	53	1
+SR	M03	C1	03	nucelle	33	20	53	1
+SR	M03	C1	03	pericarpe	40	13	53	1
+SR	M03	C1	04	embryo sac	29	24	53	1
+SR	M03	C1	04	fruit base	0	0	0	0
+SR	M03	C1	04	nucelle	28	26	54	1
+SR	M03	C1	04	pericarpe	36	19	55	1
+SR	M03	C3	01	embryo sac	34	17	51	1
+SR	M03	C3	01	fruit base	34	15	49	1
+SR	M03	C3	01	pericarpe	38	16	54	1
+SR	M03	C3	02	embryo sac	31	13	44	1
+SR	M03	C3	02	fruit base	34	19	53	1
+SR	M03	C3	02	nucelle	41	12	53	1
+SR	M03	C3	02	pericarpe	40	13	53	1
+SR	M03	C3	03	embryo sac	42	0	42	0
+SR	M03	C3	03	fruit base	47	12	59	1
+SR	M03	C3	03	nucelle	51	0	51	0
+SR	M03	C3	03	pericarpe	41	19	60	1
+SR	M03	E4	01	embryo sac	37	8	45	1
+SR	M03	E4	01	fruit base	58	0	58	0
+SR	M03	E4	01	nucelle	63	28	91	1
+SR	M03	E4	01	pericarpe	35	17	52	1
+SR	M03	E4	02	embryo sac	31	27	58	1
+SR	M03	E4	02	fruit base	3	32	35	1
+SR	M03	E4	02	nucelle	25	27	52	1
+SR	M03	E4	02	pericarpe	1	0	1	0
+SR	M03	E4	03	embryo sac	33	0	33	0
+SR	M03	E4	03	fruit base	0	0	0	0
+SR	M03	E4	03	nucelle	25	0	25	0
+SR	M03	E4	03	pericarpe	26	14	40	1
+SR	M03	E4	04	embryo sac	37	13	50	1
+SR	M03	E4	04	fruit base	40	10	50	1
+SR	M03	E4	04	nucelle	36	13	49	1
+SR	M03	E4	04	pericarpe	35	16	52	1
+SR	M03	F2	01	embryo sac	43	13	56	1
+SR	M03	F2	01	fruit base	36	15	51	1
+SR	M03	F2	01	nucelle	31	28	59	1
+SR	M03	F2	01	pericarpe	31	24	55	1
+SR	M03	F2	02	embryo sac	47	12	59	1
+SR	M03	F2	02	fruit base	0	0	0	0
+SR	M03	F2	02	nucelle	38	12	50	1
+SR	M03	F2	02	pericarpe	33	0	33	0
+SR	M03	F2	03	embryo sac	32	24	56	1
+SR	M03	F2	03	fruit base	0	0	0	0
+SR	M03	F2	03	nucelle	30	18	48	1
+SR	M03	F2	03	pericarpe	33	14	47	1
+SR	M03	F2	04	embryo sac	23	0	23	0
+SR	M03	F2	04	fruit base	39	18	57	1
+SR	M03	F2	04	nucelle	40	0	40	0
+SR	M03	F2	04	pericarpe	32	19	51	1
+SR	M04	A	01	fruit base	111	0	111	0
+SR	M04	A	01	nucelle	52	0	52	0
+SR	M04	A	01	pericarpe	53	0	53	0
+SR	M04	A	02	embryo sac	51	0	51	0
+SR	M04	A	02	fruit base	104	0	104	0
+SR	M04	A	02	nucelle	85	0	85	0
+SR	M04	A	02	pericarpe	51	0	51	0
+SR	M04	A	03	embryo sac	0	0	0	0
+SR	M04	A	03	fruit base	88	0	88	0
+SR	M04	A	03	nucelle	103	0	103	0
+SR	M04	A	04	embryo sac	94	0	94	0
+SR	M04	A	04	fruit base	60	0	60	0
+SR	M04	A	04	nucelle	55	0	55	0
+SR	M04	A	04	pericarpe	118	0	118	0
+SR	M04	B	01	embryo sac	52	0	52	0
+SR	M04	B	01	fruit base	20	0	20	0
+SR	M04	B	01	pericarpe	90	30	120	1
+SR	M04	B	02	embryo sac	50	0	50	0
+SR	M04	B	02	fruit base	53	0	53	0
+SR	M04	B	02	pericarpe	111	15	126	1
+SR	M04	B	03	embryo sac	70	22	92	1
+SR	M04	B	03	fruit base	107	0	107	0
+SR	M04	B	03	pericarpe	98	19	117	1
+SR	M04	C1	01	embryo sac	51	0	51	0
+SR	M04	C1	01	fruit base	160	0	160	0
+SR	M04	C1	01	nucelle	52	0	52	0
+SR	M04	C1	01	pericarpe	110	0	110	0
+SR	M04	C1	02	embryo sac	51	0	51	0
+SR	M04	C1	02	fruit base	102	0	102	0
+SR	M04	C1	02	nucelle	52	0	52	0
+SR	M04	C1	02	pericarpe	79	0	79	0
+SR	M04	C1	03	embryo sac	51	0	51	0
+SR	M04	C1	03	fruit base	114	0	114	0
+SR	M04	C1	03	nucelle	52	0	52	0
+SR	M04	C1	03	pericarpe	74	0	74	0
+SR	M04	C1	04	embryo sac	50	0	50	0
+SR	M04	C1	04	fruit base	3	0	3	0
+SR	M04	C1	04	nucelle	50	0	50	0
+SR	M04	C1	04	pericarpe	95	0	95	0
+SR	M04	C3	01	embryo sac	52	0	52	0
+SR	M04	C3	01	fruit base	105	0	105	0
+SR	M04	C3	01	pericarpe	96	0	96	0
+SR	M04	C3	02	embryo sac	57	0	57	0
+SR	M04	C3	02	fruit base	66	0	66	0
+SR	M04	C3	02	nucelle	52	0	52	0
+SR	M04	C3	02	pericarpe	55	0	55	0
+SR	M04	C3	03	embryo sac	90	0	90	0
+SR	M04	C3	03	fruit base	54	0	54	0
+SR	M04	C3	03	nucelle	55	0	55	0
+SR	M04	C3	03	pericarpe	53	0	53	0
+SR	M04	E4	01	embryo sac	81	0	81	0
+SR	M04	E4	01	fruit base	16	0	16	0
+SR	M04	E4	01	nucelle	51	0	51	0
+SR	M04	E4	01	pericarpe	51	0	51	0
+SR	M04	E4	02	embryo sac	105	0	105	0
+SR	M04	E4	02	fruit base	126	0	126	0
+SR	M04	E4	02	nucelle	79	0	79	0
+SR	M04	E4	02	pericarpe	54	0	54	0
+SR	M04	E4	03	embryo sac	79	0	79	0
+SR	M04	E4	03	fruit base	2	0	2	0
+SR	M04	E4	03	nucelle	81	0	81	0
+SR	M04	E4	03	pericarpe	109	0	109	0
+SR	M04	E4	04	embryo sac	105	0	105	0
+SR	M04	E4	04	fruit base	105	0	105	0
+SR	M04	E4	04	nucelle	56	0	56	0
+SR	M04	E4	04	pericarpe	85	0	85	0
+SR	M04	F2	01	embryo sac	2	0	2	0
+SR	M04	F2	01	fruit base	54	0	54	0
+SR	M04	F2	01	nucelle	105	0	105	0
+SR	M04	F2	01	pericarpe	54	0	54	0
+SR	M04	F2	02	embryo sac	56	0	56	0
+SR	M04	F2	02	fruit base	2	0	2	0
+SR	M04	F2	02	nucelle	77	0	77	0
+SR	M04	F2	02	pericarpe	81	0	81	0
+SR	M04	F2	03	embryo sac	56	0	56	0
+SR	M04	F2	03	fruit base	4	0	4	0
+SR	M04	F2	03	nucelle	51	0	51	0
+SR	M04	F2	03	pericarpe	54	0	54	0
+SR	M04	F2	04	embryo sac	51	0	51	0
+SR	M04	F2	04	fruit base	52	0	52	0
+SR	M04	F2	04	nucelle	50	0	50	0
+SR	M04	F2	04	pericarpe	50	0	50	0
+SR	M05	A	01	fruit base	64	33	97	1
+SR	M05	A	01	nucelle	49	0	49	0
+SR	M05	A	01	pericarpe	54	0	54	0
+SR	M05	A	02	embryo sac	60	36	96	1
+SR	M05	A	02	fruit base	63	27	90	1
+SR	M05	A	02	nucelle	39	49	88	1
+SR	M05	A	02	pericarpe	63	25	88	1
+SR	M05	A	03	embryo sac	0	0	0	0
+SR	M05	A	03	fruit base	57	37	94	1
+SR	M05	A	03	nucelle	61	31	92	1
+SR	M05	A	04	embryo sac	47	0	47	0
+SR	M05	A	04	fruit base	55	39	94	1
+SR	M05	A	04	nucelle	50	0	50	0
+SR	M05	A	04	pericarpe	52	38	90	1
+SR	M05	B	01	embryo sac	52	0	52	0
+SR	M05	B	01	fruit base	0	0	0	0
+SR	M05	B	01	pericarpe	63	34	97	1
+SR	M05	B	02	embryo sac	17	51	68	1
+SR	M05	B	02	fruit base	55	29	84	1
+SR	M05	B	02	pericarpe	56	27	83	1
+SR	M05	B	03	embryo sac	57	35	92	1
+SR	M05	B	03	fruit base	64	36	100	1
+SR	M05	B	03	pericarpe	56	35	91	1
+SR	M05	C1	01	embryo sac	29	46	75	1
+SR	M05	C1	01	fruit base	0	0	0	0
+SR	M05	C1	01	nucelle	42	47	89	1
+SR	M05	C1	01	pericarpe	66	31	97	1
+SR	M05	C1	02	embryo sac	71	22	93	1
+SR	M05	C1	02	fruit base	62	24	86	1
+SR	M05	C1	02	nucelle	60	29	91	1
+SR	M05	C1	02	pericarpe	78	22	100	1
+SR	M05	C1	03	embryo sac	36	54	90	1
+SR	M05	C1	03	fruit base	0	0	0	0
+SR	M05	C1	03	nucelle	50	33	83	1
+SR	M05	C1	03	pericarpe	61	30	91	1
+SR	M05	C1	04	embryo sac	55	38	93	1
+SR	M05	C1	04	fruit base	0	0	0	0
+SR	M05	C1	04	nucelle	38	29	67	1
+SR	M05	C1	04	pericarpe	68	24	92	1
+SR	M05	C3	01	embryo sac	19	75	94	1
+SR	M05	C3	01	fruit base	64	36	100	1
+SR	M05	C3	01	pericarpe	60	29	89	1
+SR	M05	C3	02	embryo sac	70	22	92	1
+SR	M05	C3	02	fruit base	44	32	76	1
+SR	M05	C3	02	nucelle	52	34	88	1
+SR	M05	C3	02	pericarpe	69	25	94	1
+SR	M05	C3	03	embryo sac	38	49	89	1
+SR	M05	C3	03	fruit base	67	35	102	1
+SR	M05	C3	03	nucelle	38	54	92	1
+SR	M05	C3	03	pericarpe	72	30	102	1
+SR	M05	E4	01	embryo sac	72	20	92	1
+SR	M05	E4	01	fruit base	59	25	84	1
+SR	M05	E4	01	nucelle	39	52	91	1
+SR	M05	E4	01	pericarpe	65	30	95	1
+SR	M05	E4	02	embryo sac	36	52	88	1
+SR	M05	E4	02	fruit base	0	0	0	0
+SR	M05	E4	02	nucelle	59	31	90	1
+SR	M05	E4	02	pericarpe	128	0	128	0
+SR	M05	E4	03	embryo sac	51	43	94	1
+SR	M05	E4	03	fruit base	0	0	0	0
+SR	M05	E4	03	nucelle	52	36	88	1
+SR	M05	E4	03	pericarpe	42	33	75	1
+SR	M05	E4	04	embryo sac	56	36	92	1
+SR	M05	E4	04	fruit base	64	28	92	1
+SR	M05	E4	04	nucelle	96	0	96	0
+SR	M05	E4	04	pericarpe	39	0	39	0
+SR	M05	F2	01	embryo sac	90	13	103	1
+SR	M05	F2	01	fruit base	69	25	94	1
+SR	M05	F2	01	nucelle	78	18	96	1
+SR	M05	F2	01	pericarpe	66	22	88	1
+SR	M05	F2	02	embryo sac	60	40	100	1
+SR	M05	F2	02	fruit base	0	0	0	0
+SR	M05	F2	02	nucelle	51	41	92	1
+SR	M05	F2	02	pericarpe	65	21	88	1
+SR	M05	F2	03	embryo sac	34	0	34	0
+SR	M05	F2	03	fruit base	0	0	0	0
+SR	M05	F2	03	nucelle	53	0	53	0
+SR	M05	F2	03	pericarpe	49	21	70	1
+SR	M05	F2	04	embryo sac	27	42	69	1
+SR	M05	F2	04	fruit base	68	31	99	1
+SR	M05	F2	04	nucelle	46	29	75	1
+SR	M05	F2	04	pericarpe	46	19	65	1
+SR	M06	A	01	fruit base	62	34	97	1
+SR	M06	A	01	nucelle	49	0	49	0
+SR	M06	A	01	pericarpe	54	0	54	0
+SR	M06	A	02	embryo sac	61	35	96	1
+SR	M06	A	02	fruit base	61	29	90	1
+SR	M06	A	02	nucelle	39	49	88	1
+SR	M06	A	02	pericarpe	63	25	88	1
+SR	M06	A	03	embryo sac	0	0	0	0
+SR	M06	A	03	fruit base	57	37	94	1
+SR	M06	A	03	nucelle	61	31	92	1
+SR	M06	A	04	embryo sac	92	0	92	0
+SR	M06	A	04	fruit base	54	40	94	1
+SR	M06	A	04	nucelle	96	0	96	0
+SR	M06	A	04	pericarpe	53	37	90	1
+SR	M06	B	01	embryo sac	52	0	52	0
+SR	M06	B	01	fruit base	0	0	0	0
+SR	M06	B	01	pericarpe	63	34	97	1
+SR	M06	B	02	embryo sac	16	52	68	1
+SR	M06	B	02	fruit base	53	31	84	1
+SR	M06	B	02	pericarpe	54	29	83	1
+SR	M06	B	03	embryo sac	57	35	92	1
+SR	M06	B	03	fruit base	57	43	100	1
+SR	M06	B	03	pericarpe	54	37	91	1
+SR	M06	C1	01	embryo sac	28	47	75	1
+SR	M06	C1	01	fruit base	0	0	0	0
+SR	M06	C1	01	nucelle	42	47	89	1
+SR	M06	C1	01	pericarpe	66	31	97	1
+SR	M06	C1	02	embryo sac	72	21	93	1
+SR	M06	C1	02	fruit base	62	24	86	1
+SR	M06	C1	02	nucelle	62	29	91	1
+SR	M06	C1	02	pericarpe	74	25	99	1
+SR	M06	C1	03	embryo sac	34	56	90	1
+SR	M06	C1	03	fruit base	0	0	0	0
+SR	M06	C1	03	nucelle	48	35	83	1
+SR	M06	C1	03	pericarpe	61	30	91	1
+SR	M06	C1	04	embryo sac	55	38	93	1
+SR	M06	C1	04	fruit base	0	0	0	0
+SR	M06	C1	04	nucelle	38	29	67	1
+SR	M06	C1	04	pericarpe	67	25	92	1
+SR	M06	C3	01	embryo sac	18	76	94	1
+SR	M06	C3	01	fruit base	62	38	100	1
+SR	M06	C3	01	pericarpe	60	29	89	1
+SR	M06	C3	02	embryo sac	70	22	92	1
+SR	M06	C3	02	fruit base	44	32	76	1
+SR	M06	C3	02	nucelle	52	36	88	1
+SR	M06	C3	02	pericarpe	69	25	94	1
+SR	M06	C3	03	embryo sac	36	53	89	1
+SR	M06	C3	03	fruit base	64	38	102	1
+SR	M06	C3	03	nucelle	38	54	92	1
+SR	M06	C3	03	pericarpe	72	30	102	1
+SR	M06	E4	01	embryo sac	72	20	92	1
+SR	M06	E4	01	fruit base	59	25	84	1
+SR	M06	E4	01	nucelle	39	52	91	1
+SR	M06	E4	01	pericarpe	65	30	95	1
+SR	M06	E4	02	embryo sac	35	54	89	1
+SR	M06	E4	02	fruit base	0	0	0	0
+SR	M06	E4	02	nucelle	59	31	90	1
+SR	M06	E4	02	pericarpe	128	0	128	0
+SR	M06	E4	03	embryo sac	51	43	94	1
+SR	M06	E4	03	fruit base	0	0	0	0
+SR	M06	E4	03	nucelle	50	38	88	1
+SR	M06	E4	03	pericarpe	39	36	75	1
+SR	M06	E4	04	embryo sac	55	37	92	1
+SR	M06	E4	04	fruit base	62	30	92	1
+SR	M06	E4	04	nucelle	96	0	96	0
+SR	M06	E4	04	pericarpe	39	0	39	0
+SR	M06	F2	01	embryo sac	79	24	103	1
+SR	M06	F2	01	fruit base	69	25	94	1
+SR	M06	F2	01	nucelle	78	18	96	1
+SR	M06	F2	01	pericarpe	65	23	88	1
+SR	M06	F2	02	embryo sac	56	44	100	1
+SR	M06	F2	02	fruit base	0	0	0	0
+SR	M06	F2	02	nucelle	52	40	92	1
+SR	M06	F2	02	pericarpe	67	21	88	1
+SR	M06	F2	03	embryo sac	65	0	65	0
+SR	M06	F2	03	fruit base	0	0	0	0
+SR	M06	F2	03	nucelle	55	0	55	0
+SR	M06	F2	03	pericarpe	49	20	69	1
+SR	M06	F2	04	embryo sac	27	42	69	1
+SR	M06	F2	04	fruit base	66	33	99	1
+SR	M06	F2	04	nucelle	44	31	75	1
+SR	M06	F2	04	pericarpe	50	15	65	1
+SR	M07	A	01	fruit base	55	0	55	0
+SR	M07	A	01	nucelle	144	0	144	0
+SR	M07	A	01	pericarpe	164	0	164	0
+SR	M07	A	02	embryo sac	57	0	57	0
+SR	M07	A	02	fruit base	169	0	169	0
+SR	M07	A	02	nucelle	155	0	155	0
+SR	M07	A	02	pericarpe	141	0	141	0
+SR	M07	A	03	embryo sac	2	0	2	0
+SR	M07	A	03	fruit base	60	0	60	0
+SR	M07	A	03	nucelle	150	0	150	0
+SR	M07	A	04	embryo sac	94	0	94	0
+SR	M07	A	04	fruit base	147	0	147	0
+SR	M07	A	04	nucelle	147	0	147	0
+SR	M07	A	04	pericarpe	53	0	53	0
+SR	M07	B	01	embryo sac	175	0	175	0
+SR	M07	B	01	fruit base	3	0	3	0
+SR	M07	B	01	pericarpe	64	0	64	0
+SR	M07	B	02	embryo sac	51	0	51	0
+SR	M07	B	02	fruit base	59	0	59	0
+SR	M07	B	02	pericarpe	91	0	91	0
+SR	M07	B	03	embryo sac	154	0	154	0
+SR	M07	B	03	fruit base	52	0	52	0
+SR	M07	B	03	pericarpe	90	0	90	0
+SR	M07	C1	01	embryo sac	144	0	144	0
+SR	M07	C1	01	fruit base	38	0	38	0
+SR	M07	C1	01	nucelle	155	0	155	0
+SR	M07	C1	01	pericarpe	60	0	60	0
+SR	M07	C1	02	embryo sac	86	0	86	0
+SR	M07	C1	02	fruit base	51	0	51	0
+SR	M07	C1	02	nucelle	139	0	139	0
+SR	M07	C1	02	pericarpe	76	0	76	0
+SR	M07	C1	03	embryo sac	159	0	159	0
+SR	M07	C1	03	fruit base	55	0	55	0
+SR	M07	C1	03	nucelle	53	0	53	0
+SR	M07	C1	03	pericarpe	55	0	55	0
+SR	M07	C1	04	embryo sac	50	0	50	0
+SR	M07	C1	04	fruit base	0	0	0	0
+SR	M07	C1	04	nucelle	137	0	137	0
+SR	M07	C1	04	pericarpe	121	12	133	1
+SR	M07	C3	01	embryo sac	142	0	142	0
+SR	M07	C3	01	fruit base	61	0	61	0
+SR	M07	C3	01	pericarpe	64	0	64	0
+SR	M07	C3	02	embryo sac	53	0	53	0
+SR	M07	C3	02	fruit base	149	0	149	0
+SR	M07	C3	02	nucelle	168	0	168	0
+SR	M07	C3	02	pericarpe	61	0	61	0
+SR	M07	C3	03	embryo sac	54	0	54	0
+SR	M07	C3	03	fruit base	53	0	53	0
+SR	M07	C3	03	nucelle	148	0	148	0
+SR	M07	C3	03	pericarpe	53	0	53	0
+SR	M07	E4	01	embryo sac	52	0	52	0
+SR	M07	E4	01	fruit base	103	0	103	0
+SR	M07	E4	01	nucelle	50	0	50	0
+SR	M07	E4	01	pericarpe	57	0	57	0
+SR	M07	E4	02	embryo sac	159	0	159	0
+SR	M07	E4	02	fruit base	52	0	52	0
+SR	M07	E4	02	nucelle	160	0	160	0
+SR	M07	E4	02	pericarpe	50	0	50	0
+SR	M07	E4	03	embryo sac	133	0	133	0
+SR	M07	E4	03	fruit base	0	0	0	0
+SR	M07	E4	03	nucelle	146	0	146	0
+SR	M07	E4	03	pericarpe	79	0	79	0
+SR	M07	E4	04	embryo sac	54	0	54	0
+SR	M07	E4	04	fruit base	59	0	59	0
+SR	M07	E4	04	nucelle	50	0	50	0
+SR	M07	E4	04	pericarpe	59	0	59	0
+SR	M07	F2	01	embryo sac	53	0	53	0
+SR	M07	F2	01	fruit base	157	0	157	0
+SR	M07	F2	01	nucelle	153	0	153	0
+SR	M07	F2	01	pericarpe	157	0	157	0
+SR	M07	F2	02	embryo sac	50	0	50	0
+SR	M07	F2	02	fruit base	2	0	2	0
+SR	M07	F2	02	nucelle	166	0	166	0
+SR	M07	F2	02	pericarpe	145	0	145	0
+SR	M07	F2	03	embryo sac	150	0	150	0
+SR	M07	F2	03	fruit base	2	0	2	0
+SR	M07	F2	03	nucelle	145	0	145	0
+SR	M07	F2	03	pericarpe	50	0	50	0
+SR	M07	F2	04	embryo sac	55	0	55	0
+SR	M07	F2	04	fruit base	77	0	77	0
+SR	M07	F2	04	nucelle	144	0	144	0
+SR	M07	F2	04	pericarpe	51	0	51	0
+SR	M08	A	01	fruit base	56	0	56	0
+SR	M08	A	01	nucelle	53	0	53	0
+SR	M08	A	01	pericarpe	132	0	132	0
+SR	M08	A	02	embryo sac	111	0	111	0
+SR	M08	A	02	fruit base	163	0	163	0
+SR	M08	A	02	nucelle	124	0	124	0
+SR	M08	A	02	pericarpe	50	0	50	0
+SR	M08	A	03	embryo sac	0	0	0	0
+SR	M08	A	03	fruit base	124	0	124	0
+SR	M08	A	03	nucelle	53	0	53	0
+SR	M08	A	04	embryo sac	58	0	58	0
+SR	M08	A	04	fruit base	52	0	52	0
+SR	M08	A	04	nucelle	59	0	59	0
+SR	M08	A	04	pericarpe	168	0	168	0
+SR	M08	B	01	embryo sac	141	0	141	0
+SR	M08	B	01	fruit base	1	0	1	0
+SR	M08	B	01	pericarpe	132	18	150	1
+SR	M08	B	02	embryo sac	89	0	89	0
+SR	M08	B	02	fruit base	52	0	52	0
+SR	M08	B	02	pericarpe	127	18	145	1
+SR	M08	B	03	embryo sac	96	48	144	1
+SR	M08	B	03	fruit base	56	0	56	0
+SR	M08	B	03	pericarpe	125	20	145	1
+SR	M08	C1	01	embryo sac	50	0	50	0
+SR	M08	C1	01	fruit base	55	0	55	0
+SR	M08	C1	01	nucelle	118	0	118	0
+SR	M08	C1	01	pericarpe	127	16	143	1
+SR	M08	C1	02	embryo sac	116	0	116	0
+SR	M08	C1	02	fruit base	53	0	53	0
+SR	M08	C1	02	nucelle	96	0	96	0
+SR	M08	C1	02	pericarpe	125	11	136	1
+SR	M08	C1	03	embryo sac	135	0	135	0
+SR	M08	C1	03	fruit base	51	0	51	0
+SR	M08	C1	03	nucelle	94	0	94	0
+SR	M08	C1	03	pericarpe	121	18	139	1
+SR	M08	C1	04	embryo sac	52	0	52	0
+SR	M08	C1	04	fruit base	1	0	1	0
+SR	M08	C1	04	nucelle	50	0	50	0
+SR	M08	C1	04	pericarpe	158	0	158	0
+SR	M08	C3	01	embryo sac	50	0	50	0
+SR	M08	C3	01	fruit base	56	0	56	0
+SR	M08	C3	01	pericarpe	148	14	162	1
+SR	M08	C3	02	embryo sac	53	0	53	0
+SR	M08	C3	02	fruit base	103	0	103	0
+SR	M08	C3	02	nucelle	122	0	122	0
+SR	M08	C3	02	pericarpe	148	0	148	0
+SR	M08	C3	03	embryo sac	54	0	54	0
+SR	M08	C3	03	fruit base	99	0	99	0
+SR	M08	C3	03	nucelle	80	0	80	0
+SR	M08	C3	03	pericarpe	52	0	52	0
+SR	M08	E4	01	embryo sac	60	0	60	0
+SR	M08	E4	01	fruit base	2	0	2	0
+SR	M08	E4	01	nucelle	111	0	111	0
+SR	M08	E4	01	pericarpe	53	0	53	0
+SR	M08	E4	02	embryo sac	51	0	51	0
+SR	M08	E4	02	fruit base	52	0	52	0
+SR	M08	E4	02	nucelle	51	0	51	0
+SR	M08	E4	02	pericarpe	16	0	16	0
+SR	M08	E4	03	embryo sac	53	0	53	0
+SR	M08	E4	03	fruit base	2	0	2	0
+SR	M08	E4	03	nucelle	55	0	55	0
+SR	M08	E4	03	pericarpe	53	0	53	0
+SR	M08	E4	04	embryo sac	50	0	50	0
+SR	M08	E4	04	fruit base	56	0	56	0
+SR	M08	E4	04	nucelle	53	0	53	0
+SR	M08	E4	04	pericarpe	89	0	89	0
+SR	M08	F2	01	embryo sac	0	0	0	0
+SR	M08	F2	01	fruit base	54	0	54	0
+SR	M08	F2	01	nucelle	53	0	53	0
+SR	M08	F2	01	pericarpe	51	0	51	0
+SR	M08	F2	02	embryo sac	50	0	50	0
+SR	M08	F2	02	fruit base	0	0	0	0
+SR	M08	F2	02	nucelle	57	0	57	0
+SR	M08	F2	02	pericarpe	131	0	131	0
+SR	M08	F2	03	embryo sac	53	0	53	0
+SR	M08	F2	03	fruit base	0	0	0	0
+SR	M08	F2	03	nucelle	52	0	52	0
+SR	M08	F2	03	pericarpe	53	0	53	0
+SR	M08	F2	04	embryo sac	51	0	51	0
+SR	M08	F2	04	fruit base	51	0	51	0
+SR	M08	F2	04	nucelle	94	0	94	0
+SR	M08	F2	04	pericarpe	54	0	54	0
+SR	M09	A	01	fruit base	61	0	61	0
+SR	M09	A	01	nucelle	55	0	55	0
+SR	M09	A	01	pericarpe	64	0	64	0
+SR	M09	A	02	embryo sac	59	0	59	0
+SR	M09	A	02	fruit base	63	0	63	0
+SR	M09	A	02	nucelle	57	0	57	0
+SR	M09	A	02	pericarpe	60	0	60	0
+SR	M09	A	03	embryo sac	0	0	0	0
+SR	M09	A	03	fruit base	61	0	61	0
+SR	M09	A	03	nucelle	62	0	62	0
+SR	M09	A	04	embryo sac	63	0	63	0
+SR	M09	A	04	fruit base	66	0	66	0
+SR	M09	A	04	nucelle	63	0	63	0
+SR	M09	A	04	pericarpe	61	0	61	0
+SR	M09	B	01	embryo sac	65	0	65	0
+SR	M09	B	01	fruit base	0	0	0	0
+SR	M09	B	01	pericarpe	66	0	66	0
+SR	M09	B	02	embryo sac	120	0	120	0
+SR	M09	B	02	fruit base	59	0	59	0
+SR	M09	B	02	pericarpe	61	0	61	0
+SR	M09	B	03	embryo sac	61	0	61	0
+SR	M09	B	03	fruit base	58	0	58	0
+SR	M09	B	03	pericarpe	59	0	59	0
+SR	M09	C1	01	embryo sac	59	0	59	0
+SR	M09	C1	01	fruit base	0	0	0	0
+SR	M09	C1	01	nucelle	58	0	58	0
+SR	M09	C1	01	pericarpe	62	0	62	0
+SR	M09	C1	02	embryo sac	58	0	58	0
+SR	M09	C1	02	fruit base	61	0	61	0
+SR	M09	C1	02	nucelle	59	0	59	0
+SR	M09	C1	02	pericarpe	58	0	58	0
+SR	M09	C1	03	embryo sac	60	0	60	0
+SR	M09	C1	03	fruit base	2	0	2	0
+SR	M09	C1	03	nucelle	60	0	60	0
+SR	M09	C1	03	pericarpe	59	0	59	0
+SR	M09	C1	04	embryo sac	57	0	57	0
+SR	M09	C1	04	fruit base	2	0	2	0
+SR	M09	C1	04	nucelle	59	0	59	0
+SR	M09	C1	04	pericarpe	65	0	65	0
+SR	M09	C3	01	embryo sac	61	0	61	0
+SR	M09	C3	01	fruit base	62	0	62	0
+SR	M09	C3	01	pericarpe	62	0	62	0
+SR	M09	C3	02	embryo sac	69	0	69	0
+SR	M09	C3	02	fruit base	57	0	57	0
+SR	M09	C3	02	nucelle	70	0	70	0
+SR	M09	C3	02	pericarpe	62	0	62	0
+SR	M09	C3	03	embryo sac	59	0	59	0
+SR	M09	C3	03	fruit base	59	0	59	0
+SR	M09	C3	03	nucelle	110	0	110	0
+SR	M09	C3	03	pericarpe	55	0	55	0
+SR	M09	E4	01	embryo sac	58	0	58	0
+SR	M09	E4	01	fruit base	41	0	41	0
+SR	M09	E4	01	nucelle	57	0	57	0
+SR	M09	E4	01	pericarpe	68	0	68	0
+SR	M09	E4	02	embryo sac	58	0	58	0
+SR	M09	E4	02	fruit base	0	0	0	0
+SR	M09	E4	02	nucelle	59	0	59	0
+SR	M09	E4	02	pericarpe	2	0	2	0
+SR	M09	E4	03	embryo sac	55	0	55	0
+SR	M09	E4	03	fruit base	2	0	2	0
+SR	M09	E4	03	nucelle	59	0	59	0
+SR	M09	E4	03	pericarpe	63	0	63	0
+SR	M09	E4	04	embryo sac	60	0	60	0
+SR	M09	E4	04	fruit base	62	0	62	0
+SR	M09	E4	04	nucelle	107	8	115	0
+SR	M09	E4	04	pericarpe	60	0	60	0
+SR	M09	F2	01	embryo sac	51	0	51	0
+SR	M09	F2	01	fruit base	64	0	64	0
+SR	M09	F2	01	nucelle	53	0	53	0
+SR	M09	F2	01	pericarpe	103	11	114	1
+SR	M09	F2	02	embryo sac	75	0	75	0
+SR	M09	F2	02	fruit base	0	0	0	0
+SR	M09	F2	02	nucelle	67	0	67	0
+SR	M09	F2	02	pericarpe	58	0	58	0
+SR	M09	F2	03	embryo sac	60	0	60	0
+SR	M09	F2	03	fruit base	0	0	0	0
+SR	M09	F2	03	nucelle	59	0	59	0
+SR	M09	F2	03	pericarpe	62	0	62	0
+SR	M09	F2	04	embryo sac	119	13	132	1
+SR	M09	F2	04	fruit base	57	0	57	0
+SR	M09	F2	04	nucelle	57	0	57	0
+SR	M09	F2	04	pericarpe	55	0	55	0

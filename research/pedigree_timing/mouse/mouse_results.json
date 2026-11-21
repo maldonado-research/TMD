@@ -1,0 +1,296 @@
+{
+  "native_sha256": "a8b69ab1c059f9bc341e22ed78119af9583db489789b7c814eb0196c6a8e1519",
+  "table_sha256": "bc0fd172db676f0e37ef39f1f2281d35dafc9c1535b3bbfeb0d37472f00ef74f",
+  "two_large_pedigrees": {
+    "nucleotide_rows": 391,
+    "events": 388,
+    "shared_nucleotide_rows": 70,
+    "shared_nucleotide_rows_no_parental_signal": 54,
+    "shared_events_by_individuals": 69,
+    "shared_events_by_author_flag": 69,
+    "shared_events_by_author_numeric_column_at_least_two": 71,
+    "author_flag_disagrees_with_distinct_individuals": 0,
+    "author_numeric_threshold_disagrees_with_distinct_individuals": 2,
+    "events_with_two_distinct_sample_labels": 387,
+    "duplicate_sample_token_in_one_row_or_event": 1,
+    "intersection_of_parental_tissue_and_sibling_evidence": {
+      "multiple_pups_parent_no_signal": 53,
+      "multiple_pups_parent_positive": 16,
+      "one_pup_parent_no_signal": 318,
+      "one_pup_parent_positive": 1
+    },
+    "second_distinct_pup_minus_first_litter": {
+      "0": 17,
+      "1": 21,
+      "2": 8,
+      "3": 5,
+      "4": 7,
+      "5": 5,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "second_distinct_pup_minus_first_litter_no_parental_signal": {
+      "0": 13,
+      "1": 12,
+      "2": 6,
+      "3": 5,
+      "4": 6,
+      "5": 5,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "last_minus_first_carrier_litter": {
+      "1": 2,
+      "3": 2,
+      "4": 13,
+      "5": 7,
+      "6": 9,
+      "7": 10,
+      "8": 11,
+      "9": 15
+    }
+  },
+  "two_large_pedigrees_single_nucleotide_events_only": {
+    "nucleotide_rows": 385,
+    "events": 385,
+    "shared_nucleotide_rows": 68,
+    "shared_nucleotide_rows_no_parental_signal": 52,
+    "shared_events_by_individuals": 68,
+    "shared_events_by_author_flag": 68,
+    "shared_events_by_author_numeric_column_at_least_two": 70,
+    "author_flag_disagrees_with_distinct_individuals": 0,
+    "author_numeric_threshold_disagrees_with_distinct_individuals": 2,
+    "events_with_two_distinct_sample_labels": 384,
+    "duplicate_sample_token_in_one_row_or_event": 1,
+    "intersection_of_parental_tissue_and_sibling_evidence": {
+      "multiple_pups_parent_no_signal": 52,
+      "multiple_pups_parent_positive": 16,
+      "one_pup_parent_no_signal": 316,
+      "one_pup_parent_positive": 1
+    },
+    "second_distinct_pup_minus_first_litter": {
+      "0": 17,
+      "1": 20,
+      "2": 8,
+      "3": 5,
+      "4": 7,
+      "5": 5,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "second_distinct_pup_minus_first_litter_no_parental_signal": {
+      "0": 13,
+      "1": 11,
+      "2": 6,
+      "3": 5,
+      "4": 6,
+      "5": 5,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "last_minus_first_carrier_litter": {
+      "1": 2,
+      "3": 2,
+      "4": 13,
+      "5": 7,
+      "6": 9,
+      "7": 10,
+      "8": 11,
+      "9": 14
+    }
+  },
+  "large_pedigrees_individually": {
+    "CBGP8": {
+      "nucleotide_rows": 173,
+      "events": 172,
+      "shared_nucleotide_rows": 29,
+      "shared_nucleotide_rows_no_parental_signal": 22,
+      "shared_events_by_individuals": 29,
+      "shared_events_by_author_flag": 29,
+      "shared_events_by_author_numeric_column_at_least_two": 29,
+      "author_flag_disagrees_with_distinct_individuals": 0,
+      "author_numeric_threshold_disagrees_with_distinct_individuals": 0,
+      "events_with_two_distinct_sample_labels": 171,
+      "duplicate_sample_token_in_one_row_or_event": 1,
+      "intersection_of_parental_tissue_and_sibling_evidence": {
+        "multiple_pups_parent_no_signal": 22,
+        "multiple_pups_parent_positive": 7,
+        "one_pup_parent_no_signal": 142,
+        "one_pup_parent_positive": 1
+      },
+      "second_distinct_pup_minus_first_litter": {
+        "0": 11,
+        "1": 8,
+        "2": 1,
+        "3": 1,
+        "4": 5,
+        "5": 3
+      },
+      "second_distinct_pup_minus_first_litter_no_parental_signal": {
+        "0": 9,
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 4,
+        "5": 3
+      },
+      "last_minus_first_carrier_litter": {
+        "3": 1,
+        "4": 9,
+        "5": 6,
+        "6": 5,
+        "7": 8
+      }
+    },
+    "GPCB2": {
+      "nucleotide_rows": 218,
+      "events": 216,
+      "shared_nucleotide_rows": 41,
+      "shared_nucleotide_rows_no_parental_signal": 32,
+      "shared_events_by_individuals": 40,
+      "shared_events_by_author_flag": 40,
+      "shared_events_by_author_numeric_column_at_least_two": 42,
+      "author_flag_disagrees_with_distinct_individuals": 0,
+      "author_numeric_threshold_disagrees_with_distinct_individuals": 2,
+      "events_with_two_distinct_sample_labels": 216,
+      "duplicate_sample_token_in_one_row_or_event": 0,
+      "intersection_of_parental_tissue_and_sibling_evidence": {
+        "multiple_pups_parent_no_signal": 31,
+        "multiple_pups_parent_positive": 9,
+        "one_pup_parent_no_signal": 176
+      },
+      "second_distinct_pup_minus_first_litter": {
+        "0": 6,
+        "1": 13,
+        "2": 7,
+        "3": 4,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 2
+      },
+      "second_distinct_pup_minus_first_litter_no_parental_signal": {
+        "0": 4,
+        "1": 8,
+        "2": 5,
+        "3": 4,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 2
+      },
+      "last_minus_first_carrier_litter": {
+        "1": 2,
+        "3": 1,
+        "4": 4,
+        "5": 1,
+        "6": 4,
+        "7": 2,
+        "8": 11,
+        "9": 15
+      }
+    }
+  },
+  "other_four_pedigrees": {
+    "nucleotide_rows": 369,
+    "events": 365,
+    "shared_nucleotide_rows": 61,
+    "shared_nucleotide_rows_no_parental_signal": 31,
+    "shared_events_by_individuals": 61,
+    "shared_events_by_author_flag": 62,
+    "shared_events_by_author_numeric_column_at_least_two": 60,
+    "author_flag_disagrees_with_distinct_individuals": 1,
+    "author_numeric_threshold_disagrees_with_distinct_individuals": 1,
+    "events_with_two_distinct_sample_labels": 341,
+    "duplicate_sample_token_in_one_row_or_event": 0,
+    "intersection_of_parental_tissue_and_sibling_evidence": {
+      "multiple_pups_parent_no_signal": 31,
+      "multiple_pups_parent_positive": 30,
+      "one_pup_parent_no_signal": 296,
+      "one_pup_parent_positive": 8
+    },
+    "second_distinct_pup_minus_first_litter": {
+      "0": 32,
+      "1": 20,
+      "2": 4,
+      "3": 1,
+      "4": 3,
+      "5": 1
+    },
+    "second_distinct_pup_minus_first_litter_no_parental_signal": {
+      "0": 15,
+      "1": 10,
+      "2": 3,
+      "3": 1,
+      "4": 2
+    },
+    "last_minus_first_carrier_litter": {
+      "0": 6,
+      "1": 10,
+      "2": 5,
+      "3": 8,
+      "4": 16,
+      "5": 8,
+      "6": 8
+    }
+  },
+  "all_six_pedigrees": {
+    "nucleotide_rows": 760,
+    "events": 753,
+    "shared_nucleotide_rows": 131,
+    "shared_nucleotide_rows_no_parental_signal": 85,
+    "shared_events_by_individuals": 130,
+    "shared_events_by_author_flag": 131,
+    "shared_events_by_author_numeric_column_at_least_two": 131,
+    "author_flag_disagrees_with_distinct_individuals": 1,
+    "author_numeric_threshold_disagrees_with_distinct_individuals": 3,
+    "events_with_two_distinct_sample_labels": 728,
+    "duplicate_sample_token_in_one_row_or_event": 1,
+    "intersection_of_parental_tissue_and_sibling_evidence": {
+      "multiple_pups_parent_no_signal": 84,
+      "multiple_pups_parent_positive": 46,
+      "one_pup_parent_no_signal": 614,
+      "one_pup_parent_positive": 9
+    },
+    "second_distinct_pup_minus_first_litter": {
+      "0": 49,
+      "1": 41,
+      "2": 12,
+      "3": 6,
+      "4": 10,
+      "5": 6,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "second_distinct_pup_minus_first_litter_no_parental_signal": {
+      "0": 28,
+      "1": 22,
+      "2": 9,
+      "3": 6,
+      "4": 8,
+      "5": 5,
+      "6": 3,
+      "7": 1,
+      "8": 2
+    },
+    "last_minus_first_carrier_litter": {
+      "0": 6,
+      "1": 12,
+      "2": 5,
+      "3": 10,
+      "4": 29,
+      "5": 15,
+      "6": 17,
+      "7": 10,
+      "8": 11,
+      "9": 15
+    }
+  }
+}

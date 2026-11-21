@@ -1,0 +1,102 @@
+path	daughter_index	sample	s1_matrix_new	s2_model_new	s1_docx_new	callable_bases_per_division
+B	1	daughter				10926041
+B	2	daughter				10926041
+B	3	daughter	0	0	0	10926041
+B	4	daughter	2	2	2	10926041
+B	5	daughter	0	0	0	10926041
+B	6	daughter	3	3	3	10926041
+B	7	daughter	2	2	2	10926041
+B	8	daughter	4	4	4	10926041
+B	9	daughter	1	1	1	10926041
+B	10	daughter	3	3	3	10926041
+B	11	daughter	4	4		10926041
+C	1	daughter				10034503
+C	2	daughter				10034503
+C	3	daughter	3	3	3	10034503
+C	4	daughter	7	7	7	10034503
+C	5	daughter	6	6	6	10034503
+C	6	daughter	0	0	0	10034503
+C	7	daughter	0	0	0	10034503
+C	8	daughter	2	2	2	10034503
+C	9	daughter	3	3	3	10034503
+C	10	daughter	4	4	4	10034503
+C	11	daughter	4	4	4	10034503
+C	12	daughter	6	6	6	10034503
+C	13	daughter	5	5	5	10034503
+C	14	daughter	1	1	1	10034503
+C	15	daughter	0	0	0	10034503
+D	1	daughter				10099122
+D	2	daughter				10099122
+D	3	daughter	2	2	2	10099122
+D	4	daughter	2	2	2	10099122
+D	5	daughter	0	0	0	10099122
+D	6	daughter	3	3	3	10099122
+D	7	daughter	0	0	0	10099122
+D	8	daughter	0	0	0	10099122
+D	9	daughter	1	1	1	10099122
+D	10	daughter	1	1	1	10099122
+D	11	granddaughter	4	4	4	10099122
+D	12	daughter	5	5	5	10099122
+D	13	daughter	3	3	3	10099122
+D	14	daughter	0	0	0	10099122
+D	15	granddaughter	9	9	9	10099122
+D	16	daughter	4	4	4	10099122
+D	17	daughter	2	2	2	10099122
+E	1	daughter				10889177
+E	2	daughter				10889177
+E	3	daughter	2	2	2	10889177
+E	4	daughter	3	3	3	10889177
+E	5	daughter	1	1	1	10889177
+E	6	daughter	6	6	6	10889177
+E	7	daughter	0	0	0	10889177
+E	8	inferred	0	0	0	10889177
+E	9	daughter	0	0	0	10889177
+E	10	daughter	8	8	8	10889177
+E	11	daughter	0	0	0	10889177
+E	12	daughter	10	10	10	10889177
+F	1	daughter				11040018
+F	2	daughter				11040018
+F	3	daughter	3	3	3	11040018
+F	4	daughter	7	7	7	11040018
+F	5	daughter	1	1	1	11040018
+F	6	daughter	3	3	3	11040018
+F	7	daughter	2	2	2	11040018
+F	8	unsequenced				11040018
+F	9	daughter	4			11040018
+F	10	daughter	0	0	0	11040018
+F	11	daughter	5	5	5	11040018
+F	12	daughter	2	2	2	11040018
+F	13	daughter	3	3	3	11040018
+F	14	daughter	1	1	1	11040018
+G1	1	daughter				9684038
+G1	2	daughter				9684038
+G1	3	daughter	1	1	1	9684038
+G1	4	daughter	1	1	1	9684038
+G1	5	daughter	0	0	0	9684038
+G1	6	daughter	0	0	0	9684038
+G1	7	daughter	3	3	3	9684038
+G1	8	daughter	6	6	6	9684038
+G1	9	daughter	4	4	4	9684038
+G1	10	daughter	5	5	5	9684038
+G1	11	daughter	3	3	3	9684038
+G1	12	daughter	5	5	5	9684038
+G1	13	daughter	4	4	4	9684038
+G2	5	daughter	7	7	7	10209723
+G2	6	daughter	6	6	6	10209723
+G2	7	daughter	0	0	0	10209723
+G2	8	daughter	5	5	5	10209723
+G2	9	daughter	0	0	0	10209723
+H	1	daughter				10826564
+H	2	dead				10826564
+H	3	daughter	7	7	7	10826564
+H	4	daughter	0	0	0	10826564
+H	5	daughter	2	2	2	10826564
+H	6	daughter	0	0	0	10826564
+H	7	daughter	4	4	4	10826564
+H	8	daughter	3	3	3	10826564
+H	9	daughter	4	4	4	10826564
+H	10	daughter	1	1	1	10826564
+H	11	daughter	4	4	4	10826564
+H	12	daughter	1	1	1	10826564
+H	13	daughter	1	1	1	10826564
+H	14	daughter	3	3	3	10826564

@@ -1,0 +1,22 @@
+{
+  "DG": {
+    "fruit_marker_tissue_measurements": 3404,
+    "genotypes": {
+      "0/0": 2767,
+      "0/1": 414,
+      "0|0": 49,
+      "0|1": 165,
+      "1/1": 3,
+      "1|1": 6
+    }
+  },
+  "SR": {
+    "fruit_marker_tissue_measurements": 738,
+    "genotypes": {
+      "0/0": 452,
+      "0/1": 233,
+      "0|1": 52,
+      "1/1": 1
+    }
+  }
+}

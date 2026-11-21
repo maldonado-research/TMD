@@ -1,0 +1,57 @@
+{
+  "all": {
+    "scored_divisions": 50,
+    "assigned_changes": 13801,
+    "same_division_pairs": 1932601,
+    "distinct_division_ordered_pairs": 13374707
+  },
+  "within_pedigree_pairs": 15307308,
+  "within_pedigree_fraction_ordered": 0.8737465137566971,
+  "equal_pedigree_mean_fraction_ordered": 0.843189918345214,
+  "cross_pedigree_pairs_no_common_division_clock": 79919592,
+  "all_pairs": 95226900,
+  "per_pedigree": {
+    "Y1": {
+      "scored_divisions": 6,
+      "assigned_changes": 1597,
+      "same_division_pairs": 216372,
+      "distinct_division_ordered_pairs": 1058034
+    },
+    "Y2": {
+      "scored_divisions": 6,
+      "assigned_changes": 1582,
+      "same_division_pairs": 209420,
+      "distinct_division_ordered_pairs": 1041151
+    },
+    "Y3": {
+      "scored_divisions": 10,
+      "assigned_changes": 2976,
+      "same_division_pairs": 444926,
+      "distinct_division_ordered_pairs": 3981874
+    },
+    "Y4": {
+      "scored_divisions": 6,
+      "assigned_changes": 1599,
+      "same_division_pairs": 221798,
+      "distinct_division_ordered_pairs": 1055803
+    },
+    "Y5": {
+      "scored_divisions": 5,
+      "assigned_changes": 1347,
+      "same_division_pairs": 183208,
+      "distinct_division_ordered_pairs": 723323
+    },
+    "Y6": {
+      "scored_divisions": 5,
+      "assigned_changes": 1543,
+      "same_division_pairs": 238121,
+      "distinct_division_ordered_pairs": 951532
+    },
+    "Y7": {
+      "scored_divisions": 12,
+      "assigned_changes": 3157,
+      "same_division_pairs": 418756,
+      "distinct_division_ordered_pairs": 4562990
+    }
+  }
+}
