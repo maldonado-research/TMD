@@ -17,7 +17,11 @@ The original peach leaf contains two alternate reads at the disputed marker. In 
 
 An earlier analysis finds the exact three-to-one threshold at which the M101 prediction switches. It also quantifies cellular mixtures in peach leaves and tests how adding 135 grapevines changes marker relationships. [Research report and source data](research/leaf_models/README.md)
 
-## Current report and methods supplement — 0.11.0
+## Current report and methods supplement — 0.12.0
+
+Version 0.12.0 compares separate founder fitness measurements, starting shares and later abundance in yeast, and tests final-rank and share forecasts in green algae. The archive includes the input extractions, exact endpoint-library comparisons and replay scripts. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](research/founder_release_0_12_0/README.md)
+
+## Earlier report and methods supplement — 0.11.0
 
 This report compares forecasts of the leading yeast lineage in two published studies. In the 76 two-label populations, the day-10 leader gave 55 correct forecasts and an early change projection gave 57. Using the other measured endpoint for one pool could reverse that small advantage. [Zenodo 0.11.0](https://doi.org/10.5281/zenodo.24382132) · [Release and verification](research/forecast_release_0_11_0/README.md)
 

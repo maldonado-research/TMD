@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — Can founder fitness predict which competitor finishes ahead?",
+    "version": "0.12.0",
+    "publication_date": "2026-11-20",
+    "subjects": [
+      {
+        "subject": "founder fitness"
+      },
+      {
+        "subject": "forecast evaluation"
+      },
+      {
+        "subject": "lineage tracking"
+      },
+      {
+        "subject": "yeast"
+      },
+      {
+        "subject": "freshwater green algae"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>Can a separate fitness assay tell us which of two established founders will lead by the last observation? We evaluated forecast rules fixed before joining fitness measurements to previously scored abundance data from Fasanello et al. (doi:10.7717/peerj.10118). In 76 two-founder yeast populations the label with the larger starting share led on day 25 in 45 populations. The fitter label in a separate founding assay led in 36. Combining starting share with the measured growth difference predicted 40 leaders. It corrected nine starting-share errors and introduced 14. Keeping the starting shares fixed gave a mean absolute error of 24.4 percentage points in final share. Extrapolating the assay rates gave 39.3 points. Across all 128 choices of complete endpoint sequencing libraries, the starting leader retained an advantage of one to 11 correct predictions.</p>\n<p>A second assay on the original stocks covered 21 standard diploid populations. The two assays disagreed on the fitter founder in 12 of the 21. The founder favored by the stock assay finished ahead in 18 populations, but gained share in only 11. Starting share alone predicted 11 of the 21 leaders. Combined with the first assay it predicted 12, and with the stock assay it predicted 16. Both comparisons reuse the same final observations.</p>\n<p>In a separate exploratory analysis of freshwater green algae (Bestion et al., doi:10.1111/ele.12932), competitors started at equal nominal densities. The species that grew faster in monoculture led at the final sample in 125 of 179 decisive trials across ten retained species pairs. Predicting final shares from growth rates gave a mean absolute error of 36.7 percentage points. Predicting equal shares gave 30.0 points.</p>\n<p>A planned cross-population test in a 2026 revised yeast preprint (Khristich et al., doi:10.1101/2025.10.09.681448) could not be scored under its fixed rules. We verified measurements for 20 populations and three visits. The inspected public references did not identify the exact 282-member founding pool among the recorded labels.</p>\n<p>The results concern the relative abundance of competitors present at the start. The origin and first establishment of new mutations remain unresolved. The archive includes forecast rules, anonymous source-derived yeast counts, reproducible scores, a comparison figure, source attribution and replay instructions. Prepared with AI assistance for the Mutation by Natural Dominance project.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.12.0 adds the founder fitness report ZIP and its SHA-256 checksum to the 24 files inherited from version 0.11.0 (doi:10.5281/zenodo.24382132). The series DOI is 10.5281/zenodo.23068055. Original code is licensed under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/6fa3871b25eb4896edfad8cb38f6bb7d306108c4."
+      }
+    ]
+  }
+}
