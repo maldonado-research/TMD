@@ -1,0 +1,264 @@
+{
+  "unlinked_later_F_event_excluded": {
+    "observed_mean_lower_brier_gain": {
+      "fraction": "1437373538923450817/20436509969819323392",
+      "decimal": 0.07033361082915658
+    },
+    "expected_mean_lower_brier_gain_under_null": {
+      "fraction": "-91514922489958902510404587/11028409586844598846308902400",
+      "decimal": -0.00829810697266121
+    },
+    "subset_combinations": "132127812049903488000000",
+    "subset_combinations_at_least_as_large": "24197124922452690243360",
+    "one_sided_inclusive_p": {
+      "fraction": "298288029122937503/1628794527242400000",
+      "decimal": 0.18313422849470673
+    },
+    "folds": [
+      {
+        "path": "B",
+        "typed_pool": 19,
+        "window_size": 2,
+        "eligible_subsets": 171,
+        "min_probability_counts": {
+          "69/223": 93,
+          "98/223": 78
+        },
+        "observed_min_probability": "98/223",
+        "observed_lower_brier_gain": {
+          "fraction": "117821/298374",
+          "decimal": 0.39487689946174936
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "478897/1889702",
+          "decimal": 0.253424614039674
+        }
+      },
+      {
+        "path": "C",
+        "typed_pool": 41,
+        "window_size": 3,
+        "eligible_subsets": 10660,
+        "min_probability_counts": {
+          "13/201": 1521,
+          "32/201": 1369,
+          "55/201": 7090,
+          "94/201": 680
+        },
+        "observed_min_probability": "13/201",
+        "observed_lower_brier_gain": {
+          "fraction": "-29197/80802",
+          "decimal": -0.3613400658399545
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "-828467/107668665",
+          "decimal": -0.007694597123499209
+        }
+      },
+      {
+        "path": "D",
+        "typed_pool": 36,
+        "window_size": 2,
+        "eligible_subsets": 630,
+        "min_probability_counts": {
+          "5/206": 35,
+          "13/206": 67,
+          "29/206": 150,
+          "63/206": 258,
+          "95/206": 120
+        },
+        "observed_min_probability": "95/206",
+        "observed_lower_brier_gain": {
+          "fraction": "13528/31827",
+          "decimal": 0.4250479152920476
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "8048/668367",
+          "decimal": 0.012041288693188023
+        }
+      },
+      {
+        "path": "E",
+        "typed_pool": 30,
+        "window_size": 2,
+        "eligible_subsets": 435,
+        "min_probability_counts": {
+          "3/53": 84,
+          "31/212": 75,
+          "65/212": 185,
+          "97/212": 91
+        },
+        "observed_min_probability": "97/212",
+        "observed_lower_brier_gain": {
+          "fraction": "7073/16854",
+          "decimal": 0.41966298801471463
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "4737/162922",
+          "decimal": 0.02907526300929279
+        }
+      },
+      {
+        "path": "F",
+        "typed_pool": 30,
+        "window_size": 3,
+        "eligible_subsets": 4060,
+        "min_probability_counts": {
+          "13/212": 784,
+          "13/106": 2136,
+          "69/212": 776,
+          "97/212": 364
+        },
+        "observed_min_probability": "13/212",
+        "observed_lower_brier_gain": {
+          "fraction": "-241/636",
+          "decimal": -0.3789308176100629
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "-18383/129108",
+          "decimal": -0.14238467019859344
+        }
+      },
+      {
+        "path": "G1",
+        "typed_pool": 32,
+        "window_size": 1,
+        "eligible_subsets": 32,
+        "min_probability_counts": {
+          "1/96": 3,
+          "25/192": 4,
+          "31/96": 10,
+          "29/64": 15
+        },
+        "observed_min_probability": "29/64",
+        "observed_lower_brier_gain": {
+          "fraction": "3749/9216",
+          "decimal": 0.4067925347222222
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "745/4608",
+          "decimal": 0.1616753472222222
+        }
+      },
+      {
+        "path": "H",
+        "typed_pool": 30,
+        "window_size": 7,
+        "eligible_subsets": 2035800,
+        "min_probability_counts": {
+          "5/106": 1555100,
+          "7/53": 430312,
+          "17/53": 49596,
+          "99/212": 792
+        },
+        "observed_min_probability": "5/106",
+        "observed_lower_brier_gain": {
+          "fraction": "-27895/67416",
+          "decimal": -0.4137741782366204
+        },
+        "expected_lower_brier_gain": {
+          "fraction": "-694279189/1906187400",
+          "decimal": -0.36422399445091286
+        }
+      }
+    ]
+  },
+  "unlinked_F_event_assigned_one_of_six_classes": {
+    "C>A": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "27542898604396835288161/381966001916916160445184",
+        "decimal": 0.07210824645693956
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-707587631312276251865082335227/86937114039248408779717803820800",
+        "decimal": -0.00813907430827334
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "25961848405567257774300",
+      "one_sided_inclusive_p": {
+        "fraction": "86539494685224192581/487614544469881920000",
+        "decimal": 0.17747521206387928
+      }
+    },
+    "C>G": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "53736820218112501412479/763932003833832320890368",
+        "decimal": 0.07034241260796967
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-729652030960584255898286725559/57958076026165605853145202547200",
+        "decimal": -0.01258930732329999
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "24957141620561907713880",
+      "one_sided_inclusive_p": {
+        "fraction": "29710882881621318707/174148051596386400000",
+        "decimal": 0.17060703584832887
+      }
+    },
+    "C>T": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "5760964300797805517491/84881333759314702321152",
+        "decimal": 0.06787080322198176
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-1096707832384969343014101623113/173874228078496817559435607641600",
+        "decimal": -0.006307477793027799
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "29659003248989836342056",
+      "one_sided_inclusive_p": {
+        "fraction": "1235791802041243180919/6095181805873524000000",
+        "decimal": 0.20274896490378552
+      }
+    },
+    "T>A": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "26806990140751015493287/381966001916916160445184",
+        "decimal": 0.07018161303942955
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-114781355760740041825554745189/9659679337694267642190867091200",
+        "decimal": -0.011882522364157272
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "25155422674286252976360",
+      "one_sided_inclusive_p": {
+        "fraction": "1704296929152185161/9910864724997600000",
+        "decimal": 0.1719624852565625
+      }
+    },
+    "T>C": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "26434982487468773868625/381966001916916160445184",
+        "decimal": 0.06920768433526399
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-823771490334603984163398623147/86937114039248408779717803820800",
+        "decimal": -0.00947548695903002
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "25888212202966548302136",
+      "one_sided_inclusive_p": {
+        "fraction": "1078675508456939512589/6095181805873524000000",
+        "decimal": 0.17697183493648888
+      }
+    },
+    "T>G": {
+      "observed_mean_lower_brier_gain": {
+        "fraction": "55477601284059402848041/763932003833832320890368",
+        "decimal": 0.07262112466245974
+      },
+      "expected_mean_lower_brier_gain_under_null": {
+        "fraction": "-10792278075795463098662101133/1093548604267275582134815142400",
+        "decimal": -0.009869042888154708
+      },
+      "subset_combinations": "146284363340964576000000",
+      "subset_combinations_at_least_as_large": "24517222194996202537608",
+      "one_sided_inclusive_p": {
+        "fraction": "53765838146921496793/320799042414396000000",
+        "decimal": 0.1675997463778861
+      }
+    }
+  }
+}

@@ -1,0 +1,3911 @@
+{
+  "Kennedy_to_Kennedy_six": {
+    "study": "Kennedy",
+    "coding": "six types",
+    "folds": [
+      {
+        "path": "B",
+        "family": "B",
+        "first_upper": 4,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>T": 68,
+          "C>A": 97,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "5/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "117821/298374",
+            "upper": "117821/298374"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "588/223",
+              "nats_per_unit": 0.969555176438508
+            },
+            "upper": {
+              "product_ratio": "588/223",
+              "nats_per_unit": 0.969555176438508
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "117821/298374",
+          "log_gain_nats": 0.9695551764385082,
+          "randomized_top_gain": "5/6"
+        }
+      },
+      {
+        "path": "C",
+        "family": "C",
+        "first_upper": 3,
+        "first_counts": {
+          "C>T": 1,
+          "C>A": 1,
+          "T>G": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 54,
+          "C>A": 93,
+          "T>C": 31,
+          "T>A": 5,
+          "T>G": 12,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 3,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-29197/80802",
+            "upper": "35927/80802"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "26/67",
+              "nats_per_unit": -0.9465960813694836
+            },
+            "upper": {
+              "product_ratio": "188/67",
+              "nats_per_unit": 1.0317493434389835
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "3767/80802",
+          "log_gain_nats": 0.19364700282364983,
+          "randomized_top_gain": "1/6"
+        }
+      },
+      {
+        "path": "D",
+        "family": "D",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>T": 62,
+          "C>A": 94,
+          "T>C": 28,
+          "T>G": 12,
+          "unknown": 1,
+          "T>A": 4
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "5/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "13528/31827",
+            "upper": "13528/31827"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "285/103",
+              "nats_per_unit": 1.017760192039015
+            },
+            "upper": {
+              "product_ratio": "285/103",
+              "nats_per_unit": 1.017760192039015
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "13528/31827",
+          "log_gain_nats": 1.0177601920390147,
+          "randomized_top_gain": "5/6"
+        }
+      },
+      {
+        "path": "E",
+        "family": "E",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>T": 64,
+          "C>A": 96,
+          "T>C": 30,
+          "T>G": 11,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "5/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "7073/16854",
+            "upper": "7073/16854"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "291/106",
+              "nats_per_unit": 1.009884173059426
+            },
+            "upper": {
+              "product_ratio": "291/106",
+              "nats_per_unit": 1.009884173059426
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "7073/16854",
+          "log_gain_nats": 1.0098841730594255,
+          "randomized_top_gain": "5/6"
+        }
+      },
+      {
+        "path": "F",
+        "family": "F",
+        "first_upper": 3,
+        "first_counts": {
+          "T>C": 1,
+          "T>G": 1,
+          "C>A": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 68,
+          "C>A": 96,
+          "T>C": 25,
+          "T>G": 12,
+          "T>A": 5
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 3,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-241/636",
+            "upper": "263/636"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "39/106",
+              "nats_per_unit": -0.9998774479824206
+            },
+            "upper": {
+              "product_ratio": "291/106",
+              "nats_per_unit": 1.009884173059426
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-47/636",
+          "log_gain_nats": -0.09890784744849027,
+          "randomized_top_gain": "1/6"
+        }
+      },
+      {
+        "path": "G1",
+        "family": "G",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 1
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>T": 61,
+          "C>A": 86,
+          "T>C": 24,
+          "T>G": 14,
+          "T>A": 1,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "5/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "3749/9216",
+            "upper": "3749/9216"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "87/32",
+              "nats_per_unit": 1.0001722158548572
+            },
+            "upper": {
+              "product_ratio": "87/32",
+              "nats_per_unit": 1.0001722158548572
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "3749/9216",
+          "log_gain_nats": 1.0001722158548572,
+          "randomized_top_gain": "5/6"
+        }
+      },
+      {
+        "path": "H",
+        "family": "H",
+        "first_upper": 3,
+        "first_counts": {
+          "T>G": 1,
+          "T>C": 1,
+          "C>A": 4,
+          "C>T": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 67,
+          "C>A": 98,
+          "T>C": 27,
+          "T>G": 9,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 4,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-27895/67416",
+            "upper": "28709/67416"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "15/53",
+              "nats_per_unit": -1.262241712449912
+            },
+            "upper": {
+              "product_ratio": "297/106",
+              "nats_per_unit": 1.0302930446906329
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "79487/471912",
+          "log_gain_nats": 0.46871272439657335,
+          "randomized_top_gain": "17/42"
+        }
+      }
+    ],
+    "first_class_identified": 4,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 36,
+      "mean_unique_top_hit": {
+        "lower": "4/7",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "4/7",
+        "upper": "1"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "17/42",
+        "upper": "5/6"
+      },
+      "mean_brier_gain": {
+        "lower": "1437373538923450817/20436509969819323392",
+        "upper": "59886758411920869959/143055569788735263744"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "8066286712575/3665763831536",
+          "nats_per_unit": 0.11266521651285544
+        },
+        "upper": {
+          "product_ratio": "4308456699574335/3665763831536",
+          "nats_per_unit": 1.009899759797264
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "255717147505626489841/1001388988521146846208",
+        "log_gain_nats": 0.6515462338805055,
+        "randomized_top_gain": "57/98"
+      }
+    }
+  },
+  "Dowsett_to_Kennedy_six": {
+    "study": "Kennedy",
+    "coding": "six types",
+    "folds": [
+      {
+        "path": "B",
+        "family": "B",
+        "first_upper": 4,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "-1/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4123790/47651409",
+            "upper": "-4123790/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            },
+            "upper": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4123790/47651409",
+          "log_gain_nats": 0.08813344750822638,
+          "randomized_top_gain": "-1/6"
+        }
+      },
+      {
+        "path": "C",
+        "family": "C",
+        "first_upper": 3,
+        "first_counts": {
+          "C>T": 1,
+          "C>A": 1,
+          "T>G": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 3,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-14015789/47651409",
+            "upper": "18117676/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "360/767",
+              "nats_per_unit": -0.7563827699171002
+            },
+            "upper": {
+              "product_ratio": "5735/2301",
+              "nats_per_unit": 0.9132439395281047
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-7301/47651409",
+          "log_gain_nats": 0.08166487237307696,
+          "randomized_top_gain": "1/6"
+        }
+      },
+      {
+        "path": "D",
+        "family": "D",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "-1/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4123790/47651409",
+            "upper": "-4123790/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            },
+            "upper": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4123790/47651409",
+          "log_gain_nats": 0.08813344750822638,
+          "randomized_top_gain": "-1/6"
+        }
+      },
+      {
+        "path": "E",
+        "family": "E",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "-1/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4123790/47651409",
+            "upper": "-4123790/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            },
+            "upper": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4123790/47651409",
+          "log_gain_nats": 0.08813344750822638,
+          "randomized_top_gain": "-1/6"
+        }
+      },
+      {
+        "path": "F",
+        "family": "F",
+        "first_upper": 3,
+        "first_counts": {
+          "T>C": 1,
+          "T>G": 1,
+          "C>A": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 3,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "-1/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-14015789/47651409",
+            "upper": "3476413/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "360/767",
+              "nats_per_unit": -0.7563827699171002
+            },
+            "upper": {
+              "product_ratio": "278/177",
+              "nats_per_unit": 0.4514713811168079
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4887722/47651409",
+          "log_gain_nats": -0.07225931376402209,
+          "randomized_top_gain": "-1/6"
+        }
+      },
+      {
+        "path": "G1",
+        "family": "G",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 1
+        },
+        "compatible_types": [
+          "C>A"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "-1/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4123790/47651409",
+            "upper": "-4123790/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            },
+            "upper": {
+              "product_ratio": "2513/2301",
+              "nats_per_unit": 0.0881334475082263
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4123790/47651409",
+          "log_gain_nats": 0.08813344750822638,
+          "randomized_top_gain": "-1/6"
+        }
+      },
+      {
+        "path": "H",
+        "family": "H",
+        "first_upper": 3,
+        "first_counts": {
+          "T>G": 1,
+          "T>C": 1,
+          "C>A": 4,
+          "C>T": 1
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 4,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-14015789/47651409",
+            "upper": "18117676/47651409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "360/767",
+              "nats_per_unit": -0.7563827699171002
+            },
+            "upper": {
+              "product_ratio": "5735/2301",
+              "nats_per_unit": 0.9132439395281047
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-8916860/333559863",
+          "log_gain_nats": 0.13726662010867402,
+          "randomized_top_gain": "-1/42"
+        }
+      }
+    ],
+    "first_class_identified": 4,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 36,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "2/7"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "2/7"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1/6",
+        "upper": "5/42"
+      },
+      "mean_brier_gain": {
+        "lower": "-58542527/333559863",
+        "upper": "23216605/333559863"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "22971663071171136000/156159190002240263423",
+          "nats_per_unit": -0.2738020742454848
+        },
+        "upper": {
+          "product_ratio": "364654514645369253610550/26270780656530727392777",
+          "nats_per_unit": 0.3757847214579897
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "-158648141/2334919041",
+        "log_gain_nats": 0.07131513839294777,
+        "randomized_top_gain": "-29/294"
+      }
+    }
+  },
+  "Kennedy_G2_six": {
+    "study": "Kennedy",
+    "coding": "six types",
+    "folds": [
+      {
+        "path": "G2",
+        "family": "G",
+        "first_upper": 5,
+        "first_counts": {
+          "T>A": 1,
+          "C>A": 4,
+          "T>C": 2
+        },
+        "compatible_types": [
+          "C>A",
+          "T>A",
+          "T>C"
+        ],
+        "training_counts": {
+          "C>T": 61,
+          "C>A": 86,
+          "T>C": 24,
+          "T>G": 14,
+          "T>A": 1,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 3,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4411/9216",
+            "upper": "3749/9216"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "1/16",
+              "nats_per_unit": -2.772588722239781
+            },
+            "upper": {
+              "product_ratio": "87/32",
+              "nats_per_unit": 1.0001722158548572
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "6179/64512",
+          "log_gain_nats": 0.10491142647379946,
+          "randomized_top_gain": "17/42"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 1,
+      "class_completions": 3,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1/6",
+        "upper": "5/6"
+      },
+      "mean_brier_gain": {
+        "lower": "-4411/9216",
+        "upper": "3749/9216"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "1/16",
+          "nats_per_unit": -2.772588722239781
+        },
+        "upper": {
+          "product_ratio": "87/32",
+          "nats_per_unit": 1.0001722158548572
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 1,
+      "mean": {
+        "brier_gain": "6179/64512",
+        "log_gain_nats": 0.10491142647379946,
+        "randomized_top_gain": "17/42"
+      }
+    }
+  },
+  "Kennedy_to_Kennedy_binary": {
+    "study": "Kennedy",
+    "coding": "Ts/Tv",
+    "folds": [
+      {
+        "path": "B",
+        "family": "B",
+        "first_upper": 4,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 68,
+          "C>A": 97,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-91504/447561",
+            "upper": "-91504/447561"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "180/223",
+              "nats_per_unit": -0.21421492056990837
+            },
+            "upper": {
+              "product_ratio": "180/223",
+              "nats_per_unit": -0.21421492056990837
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-91504/447561",
+          "log_gain_nats": -0.21421492056990837,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "C",
+        "family": "C",
+        "first_upper": 3,
+        "first_counts": {
+          "C>T": 1,
+          "C>A": 1,
+          "T>G": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 54,
+          "C>A": 93,
+          "T>C": 31,
+          "T>A": 5,
+          "T>G": 12,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-6160/40401",
+            "upper": "9920/40401"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "57/67",
+              "nats_per_unit": -0.1616413515564159
+            },
+            "upper": {
+              "product_ratio": "87/67",
+              "nats_per_unit": 0.26121549926361765
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-800/40401",
+          "log_gain_nats": -0.020689067949738058,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "D",
+        "family": "D",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 62,
+          "C>A": 94,
+          "T>C": 28,
+          "T>G": 12,
+          "unknown": 1,
+          "T>A": 4
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-16870/95481",
+            "upper": "-16870/95481"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "171/206",
+              "nats_per_unit": -0.18621261228692124
+            },
+            "upper": {
+              "product_ratio": "171/206",
+              "nats_per_unit": -0.18621261228692124
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-16870/95481",
+          "log_gain_nats": -0.1862126122869213,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "E",
+        "family": "E",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 64,
+          "C>A": 96,
+          "T>C": 30,
+          "T>G": 11,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-4750/25281",
+            "upper": "-4750/25281"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "87/106",
+              "nats_per_unit": -0.1975309754574834
+            },
+            "upper": {
+              "product_ratio": "87/106",
+              "nats_per_unit": -0.1975309754574834
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-4750/25281",
+          "log_gain_nats": -0.19753097545748338,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "F",
+        "family": "F",
+        "first_upper": 3,
+        "first_counts": {
+          "T>C": 1,
+          "T>G": 1,
+          "C>A": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 68,
+          "C>A": 96,
+          "T>C": 25,
+          "T>G": 12,
+          "T>A": 5
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-36281/202248",
+            "upper": "56575/202248"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "351/424",
+              "nats_per_unit": -0.18894723176609193
+            },
+            "upper": {
+              "product_ratio": "285/212",
+              "nats_per_unit": 0.29590290559663807
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-5329/202248",
+          "log_gain_nats": -0.027330519311848586,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "G1",
+        "family": "G",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 1
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 61,
+          "C>A": 86,
+          "T>C": 24,
+          "T>G": 14,
+          "T>A": 1,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "1",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-3473/18432",
+            "upper": "-3473/18432"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "105/128",
+              "nats_per_unit": -0.1980699137620938
+            },
+            "upper": {
+              "product_ratio": "105/128",
+              "nats_per_unit": -0.1980699137620938
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-3473/18432",
+          "log_gain_nats": -0.1980699137620938,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "H",
+        "family": "H",
+        "first_upper": 3,
+        "first_counts": {
+          "T>G": 1,
+          "T>C": 1,
+          "C>A": 4,
+          "C>T": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 67,
+          "C>A": 98,
+          "T>C": 27,
+          "T>G": 9,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-4750/25281",
+            "upper": "7334/25281"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "87/106",
+              "nats_per_unit": -0.1975309754574834
+            },
+            "upper": {
+              "product_ratio": "72/53",
+              "nats_per_unit": 0.30637420546393346
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-9082/176967",
+          "log_gain_nats": -0.053558066622792874,
+          "randomized_top_gain": "0"
+        }
+      }
+    ],
+    "first_class_identified": 4,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 8,
+      "mean_unique_top_hit": {
+        "lower": "4/7",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_brier_gain": {
+        "lower": "-156608258588911513985/858333418732411582464",
+        "upper": "7102516573431621247/858333418732411582464"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "122354064439425/469217770436608",
+          "nats_per_unit": -0.19202114012234262
+        },
+        "upper": {
+          "product_ratio": "15686418517875/14663055326144",
+          "nats_per_unit": 0.009637741178254625
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "-81533643423928545807/667592659014097897472",
+        "log_gain_nats": -0.12822943942296947,
+        "randomized_top_gain": "0"
+      }
+    }
+  },
+  "Dowsett_to_Kennedy_binary": {
+    "study": "Kennedy",
+    "coding": "Ts/Tv",
+    "folds": [
+      {
+        "path": "B",
+        "family": "B",
+        "first_upper": 4,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "-66225397/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-66225397/95302818",
+          "log_gain_nats": -0.7251622782087006,
+          "randomized_top_gain": "-1"
+        }
+      },
+      {
+        "path": "C",
+        "family": "C",
+        "first_upper": 3,
+        "first_counts": {
+          "C>T": 1,
+          "C>A": 1,
+          "T>G": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "64848767/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "9349/4602",
+              "nats_per_unit": 0.7087783940960044
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-22534009/95302818",
+          "log_gain_nats": -0.24718205410713223,
+          "randomized_top_gain": "-1/3"
+        }
+      },
+      {
+        "path": "D",
+        "family": "D",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "-66225397/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-66225397/95302818",
+          "log_gain_nats": -0.7251622782087006,
+          "randomized_top_gain": "-1"
+        }
+      },
+      {
+        "path": "E",
+        "family": "E",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 2
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "-66225397/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-66225397/95302818",
+          "log_gain_nats": -0.7251622782087006,
+          "randomized_top_gain": "-1"
+        }
+      },
+      {
+        "path": "F",
+        "family": "F",
+        "first_upper": 3,
+        "first_counts": {
+          "T>C": 1,
+          "T>G": 1,
+          "C>A": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "64848767/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "9349/4602",
+              "nats_per_unit": 0.7087783940960044
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-22534009/95302818",
+          "log_gain_nats": -0.24718205410713223,
+          "randomized_top_gain": "-1/3"
+        }
+      },
+      {
+        "path": "G1",
+        "family": "G",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 1
+        },
+        "compatible_types": [
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 1,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "-1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "-66225397/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-66225397/95302818",
+          "log_gain_nats": -0.7251622782087006,
+          "randomized_top_gain": "-1"
+        }
+      },
+      {
+        "path": "H",
+        "family": "H",
+        "first_upper": 3,
+        "first_counts": {
+          "T>G": 1,
+          "T>C": 1,
+          "C>A": 4,
+          "C>T": 1
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2512,
+          "C>G": 37,
+          "C>T": 5734,
+          "T>A": 825,
+          "T>C": 3613,
+          "T>G": 1079,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-66225397/95302818",
+            "upper": "64848767/95302818"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "4457/9204",
+              "nats_per_unit": -0.7251622782087015
+            },
+            "upper": {
+              "product_ratio": "9349/4602",
+              "nats_per_unit": 0.7087783940960044
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-201429451/667119726",
+          "log_gain_nats": -0.3154649432644992,
+          "randomized_top_gain": "-3/7"
+        }
+      }
+    ],
+    "first_class_identified": 4,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 8,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "3/7"
+      },
+      "mean_unique_top_gain": {
+        "lower": "-1",
+        "upper": "-1/7"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1",
+        "upper": "-1/7"
+      },
+      "mean_brier_gain": {
+        "lower": "-66225397/95302818",
+        "upper": "-70355287/667119726"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "34938032027181637606682393/5595466113595792688842358784",
+          "nats_per_unit": -0.7251622782087007
+        },
+        "upper": {
+          "product_ratio": "322452698449170417526382749/699433264199474086105294848",
+          "nats_per_unit": -0.11061627579239845
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "-2371216693/4669838082",
+        "log_gain_nats": -0.5300683091876522,
+        "randomized_top_gain": "-107/147"
+      }
+    }
+  },
+  "Kennedy_G2_binary": {
+    "study": "Kennedy",
+    "coding": "Ts/Tv",
+    "folds": [
+      {
+        "path": "G2",
+        "family": "G",
+        "first_upper": 5,
+        "first_counts": {
+          "T>A": 1,
+          "C>A": 4,
+          "T>C": 2
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 61,
+          "C>A": 86,
+          "T>C": 24,
+          "T>G": 14,
+          "T>A": 1,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-3473/18432",
+            "upper": "5359/18432"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "105/128",
+              "nats_per_unit": -0.1980699137620938
+            },
+            "upper": {
+              "product_ratio": "87/64",
+              "nats_per_unit": 0.3070250352949119
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-6647/129024",
+          "log_gain_nats": -0.05375707117437789,
+          "randomized_top_gain": "0"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 1,
+      "class_completions": 2,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_brier_gain": {
+        "lower": "-3473/18432",
+        "upper": "5359/18432"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "105/128",
+          "nats_per_unit": -0.1980699137620938
+        },
+        "upper": {
+          "product_ratio": "87/64",
+          "nats_per_unit": 0.3070250352949119
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 1,
+      "mean": {
+        "brier_gain": "-6647/129024",
+        "log_gain_nats": -0.05375707117437789,
+        "randomized_top_gain": "0"
+      }
+    }
+  },
+  "Dowsett_to_Dowsett_six": {
+    "study": "Dowsett",
+    "coding": "six types",
+    "folds": [
+      {
+        "path": "Y1",
+        "family": "Y1",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 40,
+          "C>G": 3,
+          "C>T": 103,
+          "T>A": 17,
+          "T>C": 66,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2215,
+          "C>G": 31,
+          "C>T": 5100,
+          "T>A": 724,
+          "T>C": 3191,
+          "T>G": 942,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-399585139/894358086",
+            "upper": "343063913/894358086"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "192/12209",
+              "nats_per_unit": -4.152433291641074
+            },
+            "upper": {
+              "product_ratio": "30606/12209",
+              "nats_per_unit": 0.919022683482126
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "6253075741/55450201332",
+          "log_gain_nats": 0.335371554822558,
+          "randomized_top_gain": "185/744"
+        }
+      },
+      {
+        "path": "Y2",
+        "family": "Y2",
+        "first_upper": 10,
+        "first_counts": {
+          "C>A": 57,
+          "C>G": 0,
+          "C>T": 117,
+          "T>A": 11,
+          "T>C": 78,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2217,
+          "C>G": 35,
+          "C>T": 5066,
+          "T>A": 752,
+          "T>C": 3182,
+          "T>G": 966,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-4567867/14008704",
+            "upper": "5319821/14008704"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2259/6112",
+              "nats_per_unit": -0.9953318143783534
+            },
+            "upper": {
+              "product_ratio": "15201/6112",
+              "nats_per_unit": 0.9111071632976628
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "30981541/248654496",
+          "log_gain_nats": 0.42129190095517055,
+          "randomized_top_gain": "209/852"
+        }
+      },
+      {
+        "path": "Y3",
+        "family": "Y3",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 39,
+          "C>G": 1,
+          "C>T": 113,
+          "T>A": 18,
+          "T>C": 63,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 1989,
+          "C>G": 27,
+          "C>T": 4559,
+          "T>A": 617,
+          "T>C": 2820,
+          "T>G": 812,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-1463808/3258025",
+            "upper": "3788836/9774075"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "28/1805",
+              "nats_per_unit": -4.166111360591778
+            },
+            "upper": {
+              "product_ratio": "48/19",
+              "nats_per_unit": 0.9267620317414509
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "105050256/824280325",
+          "log_gain_nats": 0.38754081062994983,
+          "randomized_top_gain": "425/1518"
+        }
+      },
+      {
+        "path": "Y4",
+        "family": "Y4",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 55,
+          "C>G": 2,
+          "C>T": 132,
+          "T>A": 14,
+          "T>C": 46,
+          "T>G": 20,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2218,
+          "C>G": 32,
+          "C>T": 5052,
+          "T>A": 742,
+          "T>C": 3212,
+          "T>G": 945,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-132515345/298021698",
+            "upper": "112601215/298021698"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "66/4069",
+              "nats_per_unit": -4.121497805975265
+            },
+            "upper": {
+              "product_ratio": "10106/4069",
+              "nats_per_unit": 0.9097320378501639
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "11098857995/80167836762",
+          "log_gain_nats": 0.40229865080797006,
+          "randomized_top_gain": "523/1614"
+        }
+      },
+      {
+        "path": "Y5",
+        "family": "Y5",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 49,
+          "C>G": 0,
+          "C>T": 86,
+          "T>A": 15,
+          "T>C": 58,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2273,
+          "C>G": 33,
+          "C>T": 5190,
+          "T>A": 742,
+          "T>C": 3245,
+          "T>G": 970,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-103014317/310453362",
+            "upper": "118656211/310453362"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "1486/4153",
+              "nats_per_unit": -1.0277430183530498
+            },
+            "upper": {
+              "product_ratio": "10382/4153",
+              "nats_per_unit": 0.9162425727564205
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "6685539931/71093819898",
+          "log_gain_nats": 0.33965601385304595,
+          "randomized_top_gain": "287/1374"
+        }
+      },
+      {
+        "path": "Y6",
+        "family": "Y6",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 59,
+          "C>G": 0,
+          "C>T": 144,
+          "T>A": 14,
+          "T>C": 89,
+          "T>G": 17,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 2194,
+          "C>G": 36,
+          "C>T": 5077,
+          "T>A": 728,
+          "T>C": 3238,
+          "T>G": 985,
+          "unknown": 0
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-254015/767376",
+            "upper": "2031619/5371632"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "729/2044",
+              "nats_per_unit": -1.030990219314937
+            },
+            "upper": {
+              "product_ratio": "2539/1022",
+              "nats_per_unit": 0.9100088109410285
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "249557969/1735037136",
+          "log_gain_nats": 0.462511104570421,
+          "randomized_top_gain": "541/1938"
+        }
+      },
+      {
+        "path": "Y7",
+        "family": "Y7",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 45,
+          "C>G": 1,
+          "C>T": 101,
+          "T>A": 23,
+          "T>C": 64,
+          "T>G": 18,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>A": 1966,
+          "C>G": 28,
+          "C>T": 4360,
+          "T>A": 645,
+          "T>C": 2790,
+          "T>G": 854,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-13071869/29582922",
+            "upper": "10996723/29582922"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "174/10649",
+              "nats_per_unit": -4.114165970800855
+            },
+            "upper": {
+              "product_ratio": "26166/10649",
+              "nats_per_unit": 0.8989948670554373
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "1517719/14791461",
+          "log_gain_nats": 0.3329012392277494,
+          "randomized_top_gain": "59/252"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 162000,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1/6",
+        "upper": "5/6"
+      },
+      "mean_brier_gain": {
+        "lower": "-60629912085552535413853908471387871781894468761/153132930526600732227119587180245196137389385600",
+        "upper": "2852352630370548800633618153030084472350821972271/7503513595803435879128859771832014610732079894400"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "5814454882896/1906663169259109414595",
+          "nats_per_unit": -2.8011819258650448
+        },
+        "upper": {
+          "product_ratio": "11981310267386861082612/20070138623780099101",
+          "nats_per_unit": 0.9131243095891851
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "5732748335412230765365514077858721176228295838578412901073/47561341302644199940209149858900687578695119185586631223200",
+        "log_gain_nats": 0.3830816106952664,
+        "randomized_top_gain": "10164003893299001/39089437852466232"
+      }
+    }
+  },
+  "Kennedy_to_Dowsett_six": {
+    "study": "Dowsett",
+    "coding": "six types",
+    "folds": [
+      {
+        "path": "Y1",
+        "family": "Y1",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 40,
+          "C>G": 3,
+          "C>T": 103,
+          "T>A": 17,
+          "T>C": 66,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-42961/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3/121",
+              "nats_per_unit": -3.6971782569286313
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-45151/10892904",
+          "log_gain_nats": 0.12433441714079974,
+          "randomized_top_gain": "-1/186"
+        }
+      },
+      {
+        "path": "Y2",
+        "family": "Y2",
+        "first_upper": 10,
+        "first_counts": {
+          "C>A": 57,
+          "C>G": 0,
+          "C>T": 117,
+          "T>A": 11,
+          "T>C": 78,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-39331/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "18/121",
+              "nats_per_unit": -1.9054187877005768
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "379451/12474132",
+          "log_gain_nats": 0.2648775883645622,
+          "randomized_top_gain": "29/852"
+        }
+      },
+      {
+        "path": "Y3",
+        "family": "Y3",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 39,
+          "C>G": 1,
+          "C>T": 113,
+          "T>A": 18,
+          "T>C": 63,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-42961/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3/121",
+              "nats_per_unit": -3.6971782569286313
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "7639/2020458",
+          "log_gain_nats": 0.16611491302650402,
+          "randomized_top_gain": "-19/1518"
+        }
+      },
+      {
+        "path": "Y4",
+        "family": "Y4",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 55,
+          "C>G": 2,
+          "C>T": 132,
+          "T>A": 14,
+          "T>C": 46,
+          "T>G": 20,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-42961/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3/121",
+              "nats_per_unit": -3.6971782569286313
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "1283527/23630574",
+          "log_gain_nats": 0.28196974598048297,
+          "randomized_top_gain": "61/1614"
+        }
+      },
+      {
+        "path": "Y5",
+        "family": "Y5",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 49,
+          "C>G": 0,
+          "C>T": 86,
+          "T>A": 15,
+          "T>C": 58,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-39331/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "18/121",
+              "nats_per_unit": -1.9054187877005768
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "352793/20116734",
+          "log_gain_nats": 0.19079254795229292,
+          "randomized_top_gain": "65/1374"
+        }
+      },
+      {
+        "path": "Y6",
+        "family": "Y6",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 59,
+          "C>G": 0,
+          "C>T": 144,
+          "T>A": 14,
+          "T>C": 89,
+          "T>G": 17,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 5,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-39331/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "18/121",
+              "nats_per_unit": -1.9054187877005768
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "927463/28374258",
+          "log_gain_nats": 0.27975097807268473,
+          "randomized_top_gain": "31/1938"
+        }
+      },
+      {
+        "path": "Y7",
+        "family": "Y7",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 45,
+          "C>G": 1,
+          "C>T": 101,
+          "T>A": 23,
+          "T>C": 64,
+          "T>G": 18,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "C>A",
+          "C>G",
+          "C>T",
+          "T>A",
+          "T>C",
+          "T>G"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 6,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1/6",
+            "upper": "5/6"
+          },
+          "mean_brier_gain": {
+            "lower": "-42961/87846",
+            "upper": "36899/87846"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3/121",
+              "nats_per_unit": -3.6971782569286313
+            },
+            "upper": {
+              "product_ratio": "333/121",
+              "nats_per_unit": 1.0123519443837026
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "-157/527076",
+          "log_gain_nats": 0.1267804871735185,
+          "randomized_top_gain": "1/84"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 162000,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1/6",
+        "upper": "5/6"
+      },
+      "mean_brier_gain": {
+        "lower": "-289837/614922",
+        "upper": "36899/87846"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "472392/379749833583241",
+          "nats_per_unit": -2.929281341545179
+        },
+        "upper": {
+          "product_ratio": "454056225438947877/379749833583241",
+          "nats_per_unit": 1.0123519443837026
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "20370939655905859/1061796771053725608",
+        "log_gain_nats": 0.20494581110154927,
+        "randomized_top_gain": "30049263542087/1628726577186093"
+      }
+    }
+  },
+  "Dowsett_to_Dowsett_binary": {
+    "study": "Dowsett",
+    "coding": "Ts/Tv",
+    "folds": [
+      {
+        "path": "Y1",
+        "family": "Y1",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 40,
+          "C>G": 3,
+          "C>T": 103,
+          "T>A": 17,
+          "T>C": 66,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2215,
+          "C>G": 31,
+          "C>T": 5100,
+          "T>A": 724,
+          "T>C": 3191,
+          "T>G": 942,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-939809920/1341537129",
+            "upper": "916446440/1341537129"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "5874/12209",
+              "nats_per_unit": -0.7316375519102909
+            },
+            "upper": {
+              "product_ratio": "24879/12209",
+              "nats_per_unit": 0.7118506894504577
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "10079308085/41587650999",
+          "log_gain_nats": 0.25202983837183257,
+          "randomized_top_gain": "45/124"
+        }
+      },
+      {
+        "path": "Y2",
+        "family": "Y2",
+        "first_upper": 10,
+        "first_counts": {
+          "C>A": 57,
+          "C>G": 0,
+          "C>T": 117,
+          "T>A": 11,
+          "T>C": 78,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2217,
+          "C>G": 35,
+          "C>T": 5066,
+          "T>A": 752,
+          "T>C": 3182,
+          "T>G": 966,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-115784081/168104448",
+            "upper": "113892655/168104448"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "5961/12224",
+              "nats_per_unit": -0.718162980186376
+            },
+            "upper": {
+              "product_ratio": "12375/6112",
+              "nats_per_unit": 0.7054242565905344
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "2976071129/11935415808",
+          "log_gain_nats": 0.2593000873188974,
+          "randomized_top_gain": "53/142"
+        }
+      },
+      {
+        "path": "Y3",
+        "family": "Y3",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 39,
+          "C>G": 1,
+          "C>T": 113,
+          "T>A": 18,
+          "T>C": 63,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 1989,
+          "C>G": 27,
+          "C>T": 4559,
+          "T>A": 617,
+          "T>C": 2820,
+          "T>G": 812,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-4605229/6516050",
+            "upper": "4470311/6516050"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3449/7220",
+              "nats_per_unit": -0.7387706189500314
+            },
+            "upper": {
+              "product_ratio": "7381/3610",
+              "nats_per_unit": 0.7152013584431245
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "39288373/149869150",
+          "log_gain_nats": 0.272688147932165,
+          "randomized_top_gain": "9/23"
+        }
+      },
+      {
+        "path": "Y4",
+        "family": "Y4",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 55,
+          "C>G": 2,
+          "C>T": 132,
+          "T>A": 14,
+          "T>C": 46,
+          "T>G": 20,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2218,
+          "C>G": 32,
+          "C>T": 5052,
+          "T>A": 742,
+          "T>C": 3212,
+          "T>G": 945,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-34513330/49670283",
+            "upper": "33797042/49670283"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3941/8138",
+              "nats_per_unit": -0.7251099513666315
+            },
+            "upper": {
+              "product_ratio": "8266/4069",
+              "nats_per_unit": 0.7087534470699879
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "2875160446/13361306127",
+          "log_gain_nats": 0.22369185131633593,
+          "randomized_top_gain": "87/269"
+        }
+      },
+      {
+        "path": "Y5",
+        "family": "Y5",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 49,
+          "C>G": 0,
+          "C>T": 86,
+          "T>A": 15,
+          "T>C": 58,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2273,
+          "C>G": 33,
+          "C>T": 5190,
+          "T>A": 742,
+          "T>C": 3245,
+          "T>G": 970,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-11985680/17247409",
+            "upper": "11736256/17247409"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "2011/4153",
+              "nats_per_unit": -0.7251988538581022
+            },
+            "upper": {
+              "product_ratio": "8437/4153",
+              "nats_per_unit": 0.7087958305348732
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "671238064/3949656661",
+          "log_gain_nats": 0.17652706121870365,
+          "randomized_top_gain": "59/229"
+        }
+      },
+      {
+        "path": "Y6",
+        "family": "Y6",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 59,
+          "C>G": 0,
+          "C>T": 144,
+          "T>A": 14,
+          "T>C": 89,
+          "T>G": 17,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 2194,
+          "C>G": 36,
+          "C>T": 5077,
+          "T>A": 728,
+          "T>C": 3238,
+          "T>G": 985,
+          "unknown": 0
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-17486915/25067616",
+            "upper": "5696463/8355872"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "3947/8176",
+              "nats_per_unit": -0.7282472367806392
+            },
+            "upper": {
+              "product_ratio": "8317/4088",
+              "nats_per_unit": 0.7102457599851473
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "802668429/2698946656",
+          "log_gain_nats": 0.30942727791418506,
+          "randomized_top_gain": "143/323"
+        }
+      },
+      {
+        "path": "Y7",
+        "family": "Y7",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 45,
+          "C>G": 1,
+          "C>T": 101,
+          "T>A": 23,
+          "T>C": 64,
+          "T>G": 18,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>A": 1966,
+          "C>G": 28,
+          "C>T": 4360,
+          "T>A": 645,
+          "T>C": 2790,
+          "T>G": 854,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "-1",
+            "upper": "1"
+          },
+          "mean_brier_gain": {
+            "lower": "-693917470/1020610809",
+            "upper": "687087446/1020610809"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "10491/21298",
+              "nats_per_unit": -0.7080954248438438
+            },
+            "upper": {
+              "product_ratio": "21456/10649",
+              "nats_per_unit": 0.7005383355060761
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "1472183575/7144275663",
+          "log_gain_nats": 0.21422429919479424,
+          "randomized_top_gain": "13/42"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 128,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "-1",
+        "upper": "1"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "-1",
+        "upper": "1"
+      },
+      "mean_brier_gain": {
+        "lower": "-373030013898531607762460451537954347256984941363481/536918083966379189573220632562201934367939939110400",
+        "upper": "1095894013487859187390637849742935729854025743042037/1610754251899137568719661897686605803103819817331200"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "217759639699482194742021/34843242753426777338961920",
+          "nats_per_unit": -0.7250318025565586
+        },
+        "upper": {
+          "product_ratio": "13596555823555196515693725/95274491903901344286224",
+          "nats_per_unit": 0.7086870967971716
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "2613391278381353586045526030209628709006645306566439631108167/11138001381419223549634433639684379200247147911097378366451200",
+        "log_gain_nats": 0.24398408046670197,
+        "randomized_top_gain": "208202637492131/592264209885852"
+      }
+    }
+  },
+  "Kennedy_to_Dowsett_binary": {
+    "study": "Dowsett",
+    "coding": "Ts/Tv",
+    "folds": [
+      {
+        "path": "Y1",
+        "family": "Y1",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 40,
+          "C>G": 3,
+          "C>T": 103,
+          "T>A": 17,
+          "T>C": 66,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "2215865/16339356",
+          "log_gain_nats": 0.14361305429371427,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y2",
+        "family": "Y2",
+        "first_upper": 10,
+        "first_counts": {
+          "C>A": 57,
+          "C>G": 0,
+          "C>T": 117,
+          "T>A": 11,
+          "T>C": 78,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "1291405/9355599",
+          "log_gain_nats": 0.14616685256981757,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y3",
+        "family": "Y3",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 39,
+          "C>G": 1,
+          "C>T": 113,
+          "T>A": 18,
+          "T>C": 63,
+          "T>G": 19,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "862325/6061374",
+          "log_gain_nats": 0.15063020378529107,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y4",
+        "family": "Y4",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 55,
+          "C>G": 2,
+          "C>T": 132,
+          "T>A": 14,
+          "T>C": 46,
+          "T>G": 20,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "8958575/70891722",
+          "log_gain_nats": 0.13385783490552056,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y5",
+        "family": "Y5",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 49,
+          "C>G": 0,
+          "C>T": 86,
+          "T>A": 15,
+          "T>C": 58,
+          "T>G": 21,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "6696895/60350202",
+          "log_gain_nats": 0.11760583147321553,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y6",
+        "family": "Y6",
+        "first_upper": 3,
+        "first_counts": {
+          "C>A": 59,
+          "C>G": 0,
+          "C>T": 144,
+          "T>A": 14,
+          "T>C": 89,
+          "T>G": 17,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "772645/5007222",
+          "log_gain_nats": 0.1633347230344984,
+          "randomized_top_gain": "0"
+        }
+      },
+      {
+        "path": "Y7",
+        "family": "Y7",
+        "first_upper": 2,
+        "first_counts": {
+          "C>A": 45,
+          "C>G": 1,
+          "C>T": 101,
+          "T>A": 23,
+          "T>C": 64,
+          "T>G": 18,
+          "unknown": 0
+        },
+        "compatible_types": [
+          "Ts",
+          "Tv"
+        ],
+        "training_counts": {
+          "C>T": 74,
+          "C>A": 110,
+          "T>C": 33,
+          "T>G": 14,
+          "T>A": 5,
+          "unknown": 1
+        },
+        "paired_bounds": {
+          "units": 1,
+          "class_completions": 2,
+          "mean_unique_top_hit": {
+            "lower": "0",
+            "upper": "1"
+          },
+          "mean_unique_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_randomized_top_gain": {
+            "lower": "0",
+            "upper": "0"
+          },
+          "mean_brier_gain": {
+            "lower": "-48365/263538",
+            "upper": "75055/263538"
+          },
+          "mean_log_gain": {
+            "lower": {
+              "product_ratio": "399/484",
+              "nats_per_unit": -0.19312348982676825
+            },
+            "upper": {
+              "product_ratio": "327/242",
+              "nats_per_unit": 0.301022444740567
+            }
+          }
+        },
+        "random_recorded_snv": {
+          "brier_gain": "113560/922383",
+          "log_gain_nats": 0.13042444352089178,
+          "randomized_top_gain": "0"
+        }
+      }
+    ],
+    "first_class_identified": 0,
+    "paired_bounds": {
+      "units": 7,
+      "class_completions": 128,
+      "mean_unique_top_hit": {
+        "lower": "0",
+        "upper": "1"
+      },
+      "mean_unique_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_randomized_top_gain": {
+        "lower": "0",
+        "upper": "0"
+      },
+      "mean_brier_gain": {
+        "lower": "-48365/263538",
+        "upper": "75055/263538"
+      },
+      "mean_log_gain": {
+        "lower": {
+          "product_ratio": "1609942146236642799/6221821273427820544",
+          "nats_per_unit": -0.19312348982676855
+        },
+        "upper": {
+          "product_ratio": "399792155722610103/48607978698654848",
+          "nats_per_unit": 0.3010224447405676
+        }
+      }
+    },
+    "random_recorded_snv": {
+      "units": 7,
+      "mean": {
+        "brier_gain": "203450496476138225/1530236522989192788",
+        "log_gain_nats": 0.14080470622613558,
+        "randomized_top_gain": "0"
+      }
+    }
+  }
+}
