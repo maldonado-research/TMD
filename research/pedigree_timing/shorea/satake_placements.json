@@ -1,0 +1,227 @@
+{
+  "F1": {
+    "all_sites_by_minimum_genotype_changes": {
+      "1": 105,
+      "2": 1
+    },
+    "pairs_one_miss_among_sites_with_exact_fit": {
+      "always_on_separate_branches": 1695,
+      "relative_order_forced_by_strict_ancestry": 2658,
+      "same_edge_internal_order_unresolved": 578,
+      "several_relative_placements": 529
+    },
+    "source_sites": 106,
+    "two_genotype_sites": 105,
+    "three_genotype_sites_excluded": 1,
+    "minimum_additional_departures_by_site_count": {
+      "0": 105
+    },
+    "per_site_missed_departure_budget": {
+      "0": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 105
+        },
+        "pairs": {
+          "always_on_separate_branches": 1862,
+          "relative_order_forced_by_strict_ancestry": 2899,
+          "same_edge_internal_order_unresolved": 699
+        }
+      },
+      "1": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 63,
+          "2": 42
+        },
+        "pairs": {
+          "always_on_separate_branches": 1695,
+          "relative_order_forced_by_strict_ancestry": 2658,
+          "same_edge_internal_order_unresolved": 578,
+          "several_relative_placements": 529
+        }
+      },
+      "2": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 44,
+          "2": 54,
+          "3": 7
+        },
+        "pairs": {
+          "always_on_separate_branches": 1428,
+          "relative_order_forced_by_strict_ancestry": 2384,
+          "same_edge_internal_order_unresolved": 521,
+          "several_relative_placements": 1127
+        }
+      }
+    }
+  },
+  "F2": {
+    "all_sites_by_minimum_genotype_changes": {
+      "1": 66,
+      "2": 2
+    },
+    "pairs_one_miss_among_sites_with_exact_fit": {
+      "always_on_separate_branches": 1140,
+      "relative_order_forced_by_strict_ancestry": 451,
+      "same_edge_internal_order_unresolved": 89,
+      "several_relative_placements": 465
+    },
+    "source_sites": 68,
+    "two_genotype_sites": 68,
+    "three_genotype_sites_excluded": 0,
+    "minimum_additional_departures_by_site_count": {
+      "0": 66,
+      "1": 2
+    },
+    "per_site_missed_departure_budget": {
+      "0": {
+        "sites_by_number_of_candidate_edges": {
+          "0": 2,
+          "1": 66
+        },
+        "pairs": {
+          "always_on_separate_branches": 1358,
+          "at_least_one_incompatible_site": 133,
+          "relative_order_forced_by_strict_ancestry": 490,
+          "same_edge_internal_order_unresolved": 297
+        }
+      },
+      "1": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 25,
+          "2": 43
+        },
+        "pairs": {
+          "always_on_separate_branches": 1140,
+          "relative_order_forced_by_strict_ancestry": 569,
+          "same_edge_internal_order_unresolved": 104,
+          "several_relative_placements": 465
+        }
+      },
+      "2": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 11,
+          "2": 50,
+          "3": 7
+        },
+        "pairs": {
+          "always_on_separate_branches": 1040,
+          "relative_order_forced_by_strict_ancestry": 531,
+          "same_edge_internal_order_unresolved": 37,
+          "several_relative_placements": 670
+        }
+      }
+    }
+  },
+  "S1": {
+    "all_sites_by_minimum_genotype_changes": {
+      "1": 706,
+      "2": 22
+    },
+    "pairs_one_miss_among_sites_with_exact_fit": {
+      "always_on_separate_branches": 147891,
+      "relative_order_forced_by_strict_ancestry": 42568,
+      "same_edge_internal_order_unresolved": 7002,
+      "several_relative_placements": 51404
+    },
+    "source_sites": 728,
+    "two_genotype_sites": 711,
+    "three_genotype_sites_excluded": 17,
+    "minimum_additional_departures_by_site_count": {
+      "0": 706,
+      "1": 5
+    },
+    "per_site_missed_departure_budget": {
+      "0": {
+        "sites_by_number_of_candidate_edges": {
+          "0": 5,
+          "1": 706
+        },
+        "pairs": {
+          "always_on_separate_branches": 163142,
+          "at_least_one_incompatible_site": 3540,
+          "relative_order_forced_by_strict_ancestry": 56316,
+          "same_edge_internal_order_unresolved": 29407
+        }
+      },
+      "1": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 273,
+          "2": 438
+        },
+        "pairs": {
+          "always_on_separate_branches": 148318,
+          "relative_order_forced_by_strict_ancestry": 45441,
+          "same_edge_internal_order_unresolved": 7222,
+          "several_relative_placements": 51424
+        }
+      },
+      "2": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 117,
+          "2": 529,
+          "3": 65
+        },
+        "pairs": {
+          "always_on_separate_branches": 127204,
+          "relative_order_forced_by_strict_ancestry": 34522,
+          "same_edge_internal_order_unresolved": 2482,
+          "several_relative_placements": 88197
+        }
+      }
+    }
+  },
+  "S2": {
+    "all_sites_by_minimum_genotype_changes": {
+      "1": 234
+    },
+    "pairs_one_miss_among_sites_with_exact_fit": {
+      "always_on_separate_branches": 10472,
+      "relative_order_forced_by_strict_ancestry": 11068,
+      "same_edge_internal_order_unresolved": 2488,
+      "several_relative_placements": 3233
+    },
+    "source_sites": 234,
+    "two_genotype_sites": 234,
+    "three_genotype_sites_excluded": 0,
+    "minimum_additional_departures_by_site_count": {
+      "0": 234
+    },
+    "per_site_missed_departure_budget": {
+      "0": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 234
+        },
+        "pairs": {
+          "always_on_separate_branches": 11574,
+          "relative_order_forced_by_strict_ancestry": 12514,
+          "same_edge_internal_order_unresolved": 3173
+        }
+      },
+      "1": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 135,
+          "2": 99
+        },
+        "pairs": {
+          "always_on_separate_branches": 10472,
+          "relative_order_forced_by_strict_ancestry": 11068,
+          "same_edge_internal_order_unresolved": 2488,
+          "several_relative_placements": 3233
+        }
+      },
+      "2": {
+        "sites_by_number_of_candidate_edges": {
+          "1": 93,
+          "2": 121,
+          "3": 20
+        },
+        "pairs": {
+          "always_on_separate_branches": 9323,
+          "relative_order_forced_by_strict_ancestry": 10444,
+          "same_edge_internal_order_unresolved": 1996,
+          "several_relative_placements": 5498
+        }
+      }
+    }
+  }
+}

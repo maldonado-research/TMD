@@ -1,0 +1,29 @@
+{
+  "workbook_sha256": "a8b69ab1c059f9bc341e22ed78119af9583db489789b7c814eb0196c6a8e1519",
+  "supplementary_pdf_sha256": "c9a6d54c936e93c3c6202b40a294cfef4fc1fc17eb17a10505f5d6435061f27c",
+  "number_of_discovery_pups_across_six_pedigrees": 40,
+  "number_of_discovery_pups_in_the_two_large_pedigrees": 20,
+  "two_large_pedigrees": {
+    "events": 388,
+    "shared_in_discovery_subset": 23,
+    "shared_in_full_targeted_panel": 69,
+    "additional_shared_events": 46,
+    "additional_shared_events_with_no_parent_somatic_signal": 37
+  },
+  "each_large_pedigree": {
+    "CBGP8": {
+      "events": 172,
+      "shared_in_discovery_subset": 12,
+      "shared_in_full_targeted_panel": 29,
+      "additional_shared_events": 17,
+      "additional_shared_events_with_no_parent_somatic_signal": 14
+    },
+    "GPCB2": {
+      "events": 216,
+      "shared_in_discovery_subset": 11,
+      "shared_in_full_targeted_panel": 40,
+      "additional_shared_events": 29,
+      "additional_shared_events_with_no_parent_somatic_signal": 23
+    }
+  }
+}

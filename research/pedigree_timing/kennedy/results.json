@@ -1,0 +1,306 @@
+{
+  "per_path": {
+    "B": {
+      "source_sites": 19,
+      "terminal_only": 4,
+      "repeated_sample_columns": 15,
+      "repeated_and_adjacent": 15,
+      "daughter_only_repeated_and_adjacent": 15,
+      "callable_bases": 10926041
+    },
+    "C": {
+      "source_sites": 41,
+      "terminal_only": 0,
+      "repeated_sample_columns": 41,
+      "repeated_and_adjacent": 41,
+      "daughter_only_repeated_and_adjacent": 41,
+      "callable_bases": 10034503
+    },
+    "D": {
+      "source_sites": 36,
+      "terminal_only": 2,
+      "repeated_sample_columns": 34,
+      "repeated_and_adjacent": 34,
+      "daughter_only_repeated_and_adjacent": 12,
+      "callable_bases": 10099122
+    },
+    "E": {
+      "source_sites": 30,
+      "terminal_only": 10,
+      "repeated_sample_columns": 20,
+      "repeated_and_adjacent": 20,
+      "daughter_only_repeated_and_adjacent": 20,
+      "callable_bases": 10889177
+    },
+    "F": {
+      "source_sites": 31,
+      "terminal_only": 1,
+      "repeated_sample_columns": 30,
+      "repeated_and_adjacent": 26,
+      "daughter_only_repeated_and_adjacent": 26,
+      "callable_bases": 11040018
+    },
+    "G1": {
+      "source_sites": 32,
+      "terminal_only": 4,
+      "repeated_sample_columns": 28,
+      "repeated_and_adjacent": 28,
+      "daughter_only_repeated_and_adjacent": 28,
+      "callable_bases": 9684038
+    },
+    "G2": {
+      "source_sites": 18,
+      "terminal_only": 0,
+      "repeated_sample_columns": 18,
+      "repeated_and_adjacent": 11,
+      "daughter_only_repeated_and_adjacent": 11,
+      "callable_bases": 10209723
+    },
+    "H": {
+      "source_sites": 30,
+      "terminal_only": 3,
+      "repeated_sample_columns": 27,
+      "repeated_and_adjacent": 20,
+      "daughter_only_repeated_and_adjacent": 20,
+      "callable_bases": 10826564
+    }
+  },
+  "branched_family_G": {
+    "shared_sites": 2,
+    "g1_specific": 30,
+    "g2_specific": 18,
+    "additional_trunk_to_g2_pairs": 36,
+    "between_limb_pairs": 540
+  },
+  "observed_column_single_index": 219,
+  "other_observed_windows": {
+    "F: 8-9": 4,
+    "G2: left-censored through 5": 7,
+    "H: 2-3": 7
+  },
+  "source_summary_crosscheck": {
+    "s1_matrix_new": {
+      "numeric_rows": 86,
+      "sum_new_events": 237
+    },
+    "s2_model_new": {
+      "numeric_rows": 85,
+      "sum_new_events": 233
+    },
+    "s1_docx_new": {
+      "numeric_rows": 84,
+      "sum_new_events": 229
+    }
+  },
+  "repeated_across_g_branches_and_counted_once": 2,
+  "terminal_only": 24,
+  "source_single_index": 233,
+  "source_interval": 4,
+  "within_path_order": {
+    "all_source_calls": {
+      "sites": 237,
+      "pairs": 3605,
+      "strict_order": 3153,
+      "same_index": 446,
+      "overlap_including_multislot": 6,
+      "first_candidates": {
+        "B": {
+          "index": 4,
+          "possible_first_sites": 2
+        },
+        "C": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "D": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "E": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "F": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "G1": {
+          "index": 3,
+          "possible_first_sites": 1
+        },
+        "G2": {
+          "index": 5,
+          "possible_first_sites": 7
+        },
+        "H": {
+          "index": 3,
+          "possible_first_sites": 7
+        }
+      }
+    },
+    "observed_column_windows": {
+      "sites": 237,
+      "pairs": 3605,
+      "strict_order": 3153,
+      "same_index": 404,
+      "overlap_including_multislot": 48,
+      "first_candidates": {
+        "B": {
+          "index": 4,
+          "possible_first_sites": 2
+        },
+        "C": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "D": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "E": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "F": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "G1": {
+          "index": 3,
+          "possible_first_sites": 1
+        },
+        "G2": {
+          "index": 5,
+          "possible_first_sites": 7
+        },
+        "H": {
+          "index": 3,
+          "possible_first_sites": 7
+        }
+      }
+    },
+    "repeated_columns": {
+      "sites": 213,
+      "pairs": 2993,
+      "strict_order": 2602,
+      "same_index": 385,
+      "overlap_including_multislot": 6,
+      "first_candidates": {
+        "B": {
+          "index": 4,
+          "possible_first_sites": 2
+        },
+        "C": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "D": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "E": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "F": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "G1": {
+          "index": 3,
+          "possible_first_sites": 1
+        },
+        "G2": {
+          "index": 5,
+          "possible_first_sites": 7
+        },
+        "H": {
+          "index": 3,
+          "possible_first_sites": 7
+        }
+      }
+    },
+    "repeated_plus_adjacent": {
+      "sites": 195,
+      "pairs": 2624,
+      "strict_order": 2281,
+      "same_index": 343,
+      "overlap_including_multislot": 0,
+      "first_candidates": {
+        "B": {
+          "index": 4,
+          "possible_first_sites": 2
+        },
+        "C": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "D": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "E": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "F": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "G1": {
+          "index": 3,
+          "possible_first_sites": 1
+        },
+        "G2": {
+          "index": 6,
+          "possible_first_sites": 6
+        },
+        "H": {
+          "index": 5,
+          "possible_first_sites": 2
+        }
+      }
+    },
+    "daughter_only_repeated_plus_adjacent": {
+      "sites": 173,
+      "pairs": 2129,
+      "strict_order": 1844,
+      "same_index": 285,
+      "overlap_including_multislot": 0,
+      "first_candidates": {
+        "B": {
+          "index": 4,
+          "possible_first_sites": 2
+        },
+        "C": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "D": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "E": {
+          "index": 3,
+          "possible_first_sites": 2
+        },
+        "F": {
+          "index": 3,
+          "possible_first_sites": 3
+        },
+        "G1": {
+          "index": 3,
+          "possible_first_sites": 1
+        },
+        "G2": {
+          "index": 6,
+          "possible_first_sites": 6
+        },
+        "H": {
+          "index": 5,
+          "possible_first_sites": 2
+        }
+      }
+    }
+  }
+}

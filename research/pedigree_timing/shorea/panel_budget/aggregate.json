@@ -1,0 +1,354 @@
+{
+  "all_within_tree_pairs_by_budget": {
+    "exact_calls": {
+      "different_branches": 177936,
+      "incompatible": 3673,
+      "same": 33576,
+      "strict_order": 72219
+    },
+    "joint_minimum_plus_0": {
+      "different_branches": 178363,
+      "same": 33811,
+      "strict_order": 75230
+    },
+    "joint_minimum_plus_1": {
+      "different_branches": 161625,
+      "multiple_relationships": 55651,
+      "same": 10392,
+      "strict_order": 59736
+    },
+    "joint_minimum_plus_2": {
+      "different_branches": 138819,
+      "multiple_relationships": 95690,
+      "same": 5036,
+      "strict_order": 47859
+    },
+    "one_per_site": {
+      "different_branches": 161625,
+      "multiple_relationships": 55651,
+      "same": 10392,
+      "strict_order": 59736
+    },
+    "two_per_site": {
+      "different_branches": 138995,
+      "multiple_relationships": 95492,
+      "same": 5036,
+      "strict_order": 47881
+    }
+  },
+  "exactly_one_extra_miss": {
+    "distinct_complete_placements": 622,
+    "max_pairs_on_nested_edges_in_one_placement": 75440,
+    "min_pairs_on_nested_edges_in_one_placement": 75226
+  },
+  "native_sha256": "a5916e95facc077a137ce03627b2a94ef7ecf3cc9a148223587bdb719d2a06af",
+  "trees": {
+    "F1": {
+      "exact_physical_metric_clades_and_twice_cm": {
+        "1_1": 960,
+        "1_1,1_2": 1270,
+        "1_1,1_2,2_1,2_2,3_1,3_2,4": 4540,
+        "1_2": 1930,
+        "2_1": 550,
+        "2_1,2_2": 1080,
+        "2_1,2_2,3_1,3_2,4": 880,
+        "2_2": 620,
+        "3_1": 280,
+        "3_1,3_2": 1210,
+        "3_1,3_2,4": 1280,
+        "3_2": 300,
+        "4": 2620
+      },
+      "loci": 106,
+      "locus_pairs_by_budget": {
+        "exact_calls": {
+          "different_branches": 1862,
+          "same": 699,
+          "strict_order": 2899
+        },
+        "joint_minimum_plus_0": {
+          "different_branches": 1862,
+          "same": 699,
+          "strict_order": 2899
+        },
+        "joint_minimum_plus_1": {
+          "different_branches": 1695,
+          "multiple_relationships": 529,
+          "same": 578,
+          "strict_order": 2658
+        },
+        "joint_minimum_plus_2": {
+          "different_branches": 1428,
+          "multiple_relationships": 1127,
+          "same": 521,
+          "strict_order": 2384
+        },
+        "one_per_site": {
+          "different_branches": 1695,
+          "multiple_relationships": 529,
+          "same": 578,
+          "strict_order": 2658
+        },
+        "two_per_site": {
+          "different_branches": 1428,
+          "multiple_relationships": 1127,
+          "same": 521,
+          "strict_order": 2384
+        }
+      },
+      "minimum_required_missed_genotypes": 0,
+      "sheet_k_native_header": "S.leprosula: S1",
+      "sites_by_number_of_possible_edges": {
+        "0": {
+          "1": 105
+        },
+        "1": {
+          "1": 63,
+          "2": 42
+        },
+        "2": {
+          "1": 44,
+          "2": 54,
+          "3": 7
+        }
+      },
+      "two_state_loci": 105,
+      "unordered_genotype_changes": {
+        "1": 105,
+        "2": 1
+      },
+      "within_tree_distinct_pairs": 5460
+    },
+    "F2": {
+      "exact_physical_metric_clades_and_twice_cm": {
+        "1_1": 1160,
+        "1_1,1_2": 220,
+        "1_1,1_2,2_1,2_2,3_1,3_2,4": 4660,
+        "1_2": 1640,
+        "2_1": 480,
+        "2_1,2_2": 2080,
+        "2_1,2_2,3_1,3_2,4": 420,
+        "2_2": 480,
+        "3_1": 660,
+        "3_1,3_2": 1290,
+        "3_1,3_2,4": 760,
+        "3_2": 560,
+        "4": 1780
+      },
+      "loci": 68,
+      "locus_pairs_by_budget": {
+        "exact_calls": {
+          "different_branches": 1358,
+          "incompatible": 133,
+          "same": 297,
+          "strict_order": 490
+        },
+        "joint_minimum_plus_0": {
+          "different_branches": 1358,
+          "same": 312,
+          "strict_order": 608
+        },
+        "joint_minimum_plus_1": {
+          "different_branches": 1140,
+          "multiple_relationships": 465,
+          "same": 104,
+          "strict_order": 569
+        },
+        "joint_minimum_plus_2": {
+          "different_branches": 1040,
+          "multiple_relationships": 670,
+          "same": 37,
+          "strict_order": 531
+        },
+        "one_per_site": {
+          "different_branches": 1140,
+          "multiple_relationships": 465,
+          "same": 104,
+          "strict_order": 569
+        },
+        "two_per_site": {
+          "different_branches": 1040,
+          "multiple_relationships": 670,
+          "same": 37,
+          "strict_order": 531
+        }
+      },
+      "minimum_required_missed_genotypes": 2,
+      "sheet_k_native_header": "S.leprosula: S2",
+      "sites_by_number_of_possible_edges": {
+        "0": {
+          "0": 2,
+          "1": 66
+        },
+        "1": {
+          "1": 25,
+          "2": 43
+        },
+        "2": {
+          "1": 11,
+          "2": 50,
+          "3": 7
+        }
+      },
+      "two_state_loci": 68,
+      "unordered_genotype_changes": {
+        "1": 66,
+        "2": 2
+      },
+      "within_tree_distinct_pairs": 2278
+    },
+    "S1": {
+      "exact_physical_metric_clades_and_twice_cm": {
+        "1_1": 948,
+        "1_1,1_2": 3000,
+        "1_1,1_2,2_1,2_2,3_1,3_2,4": 4040,
+        "1_2": 2836,
+        "2_1": 1620,
+        "2_1,2_2": 2260,
+        "2_1,2_2,3_1,3_2,4": 1600,
+        "2_2": 1780,
+        "3_1": 580,
+        "3_1,3_2": 410,
+        "3_1,3_2,4": 2000,
+        "3_2": 640,
+        "4": 2350
+      },
+      "loci": 728,
+      "locus_pairs_by_budget": {
+        "exact_calls": {
+          "different_branches": 163142,
+          "incompatible": 3540,
+          "same": 29407,
+          "strict_order": 56316
+        },
+        "joint_minimum_plus_0": {
+          "different_branches": 163569,
+          "same": 29627,
+          "strict_order": 59209
+        },
+        "joint_minimum_plus_1": {
+          "different_branches": 148318,
+          "multiple_relationships": 51424,
+          "same": 7222,
+          "strict_order": 45441
+        },
+        "joint_minimum_plus_2": {
+          "different_branches": 127028,
+          "multiple_relationships": 88395,
+          "same": 2482,
+          "strict_order": 34500
+        },
+        "one_per_site": {
+          "different_branches": 148318,
+          "multiple_relationships": 51424,
+          "same": 7222,
+          "strict_order": 45441
+        },
+        "two_per_site": {
+          "different_branches": 127204,
+          "multiple_relationships": 88197,
+          "same": 2482,
+          "strict_order": 34522
+        }
+      },
+      "minimum_required_missed_genotypes": 5,
+      "sheet_k_native_header": "S. laevis: F1",
+      "sites_by_number_of_possible_edges": {
+        "0": {
+          "0": 5,
+          "1": 706
+        },
+        "1": {
+          "1": 273,
+          "2": 438
+        },
+        "2": {
+          "1": 117,
+          "2": 529,
+          "3": 65
+        }
+      },
+      "two_state_loci": 711,
+      "unordered_genotype_changes": {
+        "1": 706,
+        "2": 22
+      },
+      "within_tree_distinct_pairs": 252405
+    },
+    "S2": {
+      "exact_physical_metric_clades_and_twice_cm": {
+        "1_1": 1820,
+        "1_1,1_2": 820,
+        "1_1,1_2,2_1,2_2,3_1,3_2,4": 4200,
+        "1_2": 1850,
+        "2_1": 660,
+        "2_1,2_2": 1360,
+        "2_1,2_2,3_1,3_2,4": 660,
+        "2_2": 720,
+        "3_1": 480,
+        "3_1,3_2": 1070,
+        "3_1,3_2,4": 720,
+        "3_2": 540,
+        "4": 1500
+      },
+      "loci": 234,
+      "locus_pairs_by_budget": {
+        "exact_calls": {
+          "different_branches": 11574,
+          "same": 3173,
+          "strict_order": 12514
+        },
+        "joint_minimum_plus_0": {
+          "different_branches": 11574,
+          "same": 3173,
+          "strict_order": 12514
+        },
+        "joint_minimum_plus_1": {
+          "different_branches": 10472,
+          "multiple_relationships": 3233,
+          "same": 2488,
+          "strict_order": 11068
+        },
+        "joint_minimum_plus_2": {
+          "different_branches": 9323,
+          "multiple_relationships": 5498,
+          "same": 1996,
+          "strict_order": 10444
+        },
+        "one_per_site": {
+          "different_branches": 10472,
+          "multiple_relationships": 3233,
+          "same": 2488,
+          "strict_order": 11068
+        },
+        "two_per_site": {
+          "different_branches": 9323,
+          "multiple_relationships": 5498,
+          "same": 1996,
+          "strict_order": 10444
+        }
+      },
+      "minimum_required_missed_genotypes": 0,
+      "sheet_k_native_header": "S. laevis: F2",
+      "sites_by_number_of_possible_edges": {
+        "0": {
+          "1": 234
+        },
+        "1": {
+          "1": 135,
+          "2": 99
+        },
+        "2": {
+          "1": 93,
+          "2": 121,
+          "3": 20
+        }
+      },
+      "two_state_loci": 234,
+      "unordered_genotype_changes": {
+        "1": 234
+      },
+      "within_tree_distinct_pairs": 27261
+    }
+  }
+}
