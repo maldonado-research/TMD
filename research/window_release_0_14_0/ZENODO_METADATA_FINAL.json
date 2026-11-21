@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — Can mutation spectra predict the first recorded substitution class?",
+    "version": "0.14.0",
+    "publication_date": "2026-11-21",
+    "subjects": [
+      {
+        "subject": "mutation spectra"
+      },
+      {
+        "subject": "prediction"
+      },
+      {
+        "subject": "pedigrees"
+      },
+      {
+        "subject": "partial identification"
+      },
+      {
+        "subject": "mutation accumulation"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>If several mutations share the earliest recorded window, can their first substitution class still be predicted? Using two published baker's yeast pedigree studies, this retrospective analysis compares a leave-one-founding-pedigree-out mutation spectrum with equal probabilities for six substitution classes. It calculates the smallest and largest paired Brier gains compatible with the observations. The scoring specification was published on a GitHub branch before calculating these outcomes. These finite-sample bounds represent unresolved order within the observations.</p>\n<p>In Kennedy et al. (doi:10.1371/journal.pgen.1005151), seven founding pedigrees supplied 20 earliest calls. Four pedigrees resolve the first class, although only one resolves its first site. Mean Brier gain ranged from +0.0703 to +0.4186 across all 36 possible first-class assignments. In an exploratory exact comparison, 18.31% of random within-path samples of the same sizes attained a worst-case gain at least this large. Thus ordinary variation in when the recorded types appear remains a plausible explanation. In Dowsett et al. (doi:10.1038/s42003-020-01544-6), 1,858 calls in seven earliest scored windows allow 162,000 assignments. The gain ranged from -0.3959 to +0.3801. Neither six-class forecast trained in one study had a guaranteed positive first-class gain in the other.</p>\n<p>A separate comparison in Arabidopsis used 925 private substitutions in 48 author-designated mutation-accumulation lines at generation 25. The held-out spectrum reduced average Brier loss for a random recorded substitution from 0.8333 to 0.6431. The improvement was positive in 46 lines and similar in a 44-line sensitivity analysis (Weng et al., doi:10.1534/genetics.118.301721). This outcome measures the class recovered at the endpoint. The three studies leave subsequent establishment and dominance unmeasured. The archive contains attributed source reconstructions, exact calculations and replay instructions. Prepared for Ricardo Maldonado's Mutation by Natural Dominance project with AI assistance.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.14.0 adds the first-window prediction supplement ZIP and SHA-256 checksum to 28 files inherited from version 0.13.0 (doi:10.5281/zenodo.24427132). The series DOI is 10.5281/zenodo.23068055. Original code is licensed under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/7777309b1d84f374b82a879886f8b5559f572946."
+      }
+    ]
+  }
+}
