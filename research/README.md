@@ -1,6 +1,8 @@
 # TMD recovery-transport research follow-up
 
-**Current archive.** The founder fitness report is published as version 0.12.0. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](founder_release_0_12_0/README.md)
+**Current archive.** The pedigree timing report is published as version 0.13.0. [Zenodo 0.13.0](https://doi.org/10.5281/zenodo.24427132) · [Release and verification](pedigree_release_0_13_0/README.md)
+
+The founder fitness report is published as version 0.12.0. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](founder_release_0_12_0/README.md)
 
 The [0.11.0 lineage forecast supplement](forecast_release_0_11_0/README.md) is [published as record 24382132](https://doi.org/10.5281/zenodo.24382132). The [0.10.0 transmission and timing supplement](transmission_release_0_10_0/README.md) is [published as record 24379400](https://doi.org/10.5281/zenodo.24379400). The [0.9.1 peach leaf models supplement](leaf_models_release_0_9_1/README.md) is [published as record 24378187](https://doi.org/10.5281/zenodo.24378187). The [0.9.0 plant lineage supplement](leaf_release_0_9_0/README.md) is [published as record 24377898](https://doi.org/10.5281/zenodo.24377898). The [0.8.2 plant observation supplement](plant_release_0_8_2/README.md) is [published as record 24377555](https://doi.org/10.5281/zenodo.24377555). The [0.8.1 paired-observation supplement](paired_release_0_8_1/README.md) is [published as record 24356808](https://doi.org/10.5281/zenodo.24356808). The [0.8.0 report and methods release](roster_release_0_8_0/README.md) is [published as record 24356344](https://doi.org/10.5281/zenodo.24356344). The [publication status](PUBLICATION_STATUS.md) records the current version and earlier releases.
 

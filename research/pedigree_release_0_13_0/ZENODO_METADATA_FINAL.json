@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Maldonado, Ricardo",
+          "given_name": "Ricardo",
+          "family_name": "Maldonado",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-3937-6527",
+              "scheme": "orcid"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "name": "Independent Researcher"
+          }
+        ]
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-report"
+    },
+    "publisher": "Zenodo",
+    "title": "Mutation by Natural Dominance — How often can we tell which mutation came first?",
+    "version": "0.13.0",
+    "publication_date": "2026-11-21",
+    "subjects": [
+      {
+        "subject": "mutation timing"
+      },
+      {
+        "subject": "pedigrees"
+      },
+      {
+        "subject": "genetic mosaicism"
+      },
+      {
+        "subject": "phylogenetic identifiability"
+      },
+      {
+        "subject": "inheritance"
+      },
+      {
+        "subject": "reproducible research"
+      }
+    ],
+    "description": "<p>How precisely do recorded descendants place a mutation in time? This report reanalyzes published yeast pedigrees, anatomically mapped tropical trees, mouse litters and tree fruits. Across 1,118 two-genotype sites in four tropical trees, a model with one stable change per site requires at least seven missed calls at branch tips. At that minimum 75,230 within-tree site pairs have a forced ancestral order. Allowing one additional missed call anywhere in the panel leaves 59,736 particular pairs with guaranteed order. Each of the 622 reconstructions using exactly eight missed calls contains 75,226–75,440 ordered pairs. Thus similar total counts can mask large differences in which pairwise orders are identifiable. The genotype profiles reproduce all 112 reported pairwise genetic distances after matching individuals across the source worksheets (Satake et al., doi:10.7554/eLife.88456).</p>\n<p>In seven mutation-prone yeast pedigrees, the published division assignments order 3,153 of 3,605 within-path comparisons among 237 reported changes. One of eight paths has a unique candidate for the earliest reported change. A missing daughter leaves four changes with more than one possible placement (Kennedy et al., doi:10.1371/journal.pgen.1005151). In an independent yeast dataset the 13,801 assigned changes span 50 scored divisions. Changes assigned to one division have unresolved molecular order within that division (Dowsett et al., doi:10.1038/s42003-020-01544-6).</p>\n<p>For 52 of 69 shared mouse mutations, a later litter supplied the second observed carrier (Lindsay et al., doi:10.1038/s41467-019-12023-w). On the same 388 validated mutation events in the two largest mouse families, 23 had two carriers among the originally sequenced offspring, increasing to 69 after additional sibling genotyping. Two tropical trees yielded 17 of 46 and 10 of 24 positive fruit branch–marker combinations without a matching leaf call on the same branch (Schmitt et al., doi:10.1073/pnas.2313312121). These comparisons separate an assignment to a branch or division from the appearance of evidence in descendants. The observations do not identify the first molecular origin or first established route. This retrospective report includes source-specific attribution, reproducible calculations, verification records and a comparison figure. The analysis and writing were prepared for Ricardo Maldonado's Mutation by Natural Dominance project with AI assistance.</p>",
+    "additional_descriptions": [
+      {
+        "type": {
+          "id": "other"
+        },
+        "description": "Version 0.13.0 adds the pedigree timing supplement ZIP and SHA-256 checksum to 26 files inherited from version 0.12.0 (doi:10.5281/zenodo.24409045). The series DOI is 10.5281/zenodo.23068055. Original code is licensed under MIT and original documentation under CC BY 4.0. Source data retain their original terms. The science commit is https://github.com/maldonado-research/TMD/tree/04f3d21c984827298223d513850a149753fe885a."
+      }
+    ]
+  }
+}

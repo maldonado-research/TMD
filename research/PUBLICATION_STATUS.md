@@ -1,6 +1,10 @@
 # TMD publication status
 
-The current report and methods version is **0.12.0**, published 20 November 2026 Pacific in concept family 23068055. Two yeast fitness assays gave different forecasts on the same standard diploid populations. Independent green-algae observations show how final-rank accuracy and error in final share can diverge. All 26 public files were verified. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](founder_release_0_12_0/README.md)
+The current report and methods version is **0.13.0**, published 21 November 2026 Pacific in concept family 23068055. Across four tropical trees, the minimum of seven missed tip calls puts 75,230 site pairs in a forced ancestral order under a single stable change per site. Allowing one further miss leaves 59,736 specific pairs with guaranteed order, although each eight-miss reconstruction contains over 75,000 ordered pairs. Tests in yeast pedigrees, mouse litters and fruit tissues distinguish a division assignment from later evidence of inheritance. All 28 public files were verified. [Zenodo 0.13.0](https://doi.org/10.5281/zenodo.24427132) · [Release and verification](pedigree_release_0_13_0/README.md)
+
+## Earlier report and methods 0.12.0 checkpoint
+
+Version **0.12.0** was published 20 November 2026 Pacific in concept family 23068055. Two yeast fitness assays gave different forecasts on the same standard diploid populations. Independent green-algae observations show how final-rank accuracy and error in final share can diverge. All 26 public files were verified. [Zenodo 0.12.0](https://doi.org/10.5281/zenodo.24409045) · [Release and verification](founder_release_0_12_0/README.md)
 
 ## Earlier report and methods 0.11.0 checkpoint
 
